@@ -30,3 +30,6 @@ node_modules/
 *.local.env
 .publish.env
 scripts/keep-tunnel.sh
+
+# Local deploy env (never commit)
+.local/

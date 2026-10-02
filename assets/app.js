@@ -1,8 +1,8 @@
 /**
- * Alioxis News — client interactions (tabs, search, category chips, mobile nav)
+ * Alioxis News — tabs (ai / v / aihot), search, chips, mobile nav
  */
 (function () {
-  var VALID = { ai: true, v: true };
+  var VALID = { ai: true, v: true, aihot: true };
 
   function readTab() {
     try {
@@ -37,29 +37,38 @@
   }
 
   function activePanel() {
-    return document.querySelector('.tab-panel.active, .tab-panel:not([hidden])');
+    return document.querySelector(".tab-panel.active");
   }
 
   function applyFilters() {
     var panel = activePanel();
-    if (!panel) return;
+    if (!panel || panel.getAttribute("data-tab") === "aihot") {
+      var countEl = document.getElementById("filter-count");
+      if (countEl && panel && panel.getAttribute("data-tab") === "aihot") {
+        countEl.textContent = "";
+      }
+      return;
+    }
     var qEl = document.getElementById("search-input");
     var q = (qEl && qEl.value ? qEl.value : "").trim().toLowerCase();
     var chip = document.querySelector(".filter-chip.active");
     var tag = chip ? chip.getAttribute("data-tag") || "" : "";
-    var cards = panel.querySelectorAll(".card");
+    var cards = panel.querySelectorAll(".card, .v-card");
     var shown = 0;
     cards.forEach(function (card) {
       var hay = (card.getAttribute("data-search") || "").toLowerCase();
       var tags = (card.getAttribute("data-tags") || "").toLowerCase();
       var okQ = !q || hay.indexOf(q) >= 0;
-      var okT = !tag || tag === "*" || ("|" + tags + "|").indexOf("|" + tag.toLowerCase() + "|") >= 0;
+      var okT =
+        !tag ||
+        tag === "*" ||
+        ("|" + tags + "|").indexOf("|" + tag.toLowerCase() + "|") >= 0;
       var show = okQ && okT;
       card.hidden = !show;
       card.style.display = show ? "" : "none";
       if (show) shown++;
     });
-    var empty = panel.querySelector(".filter-empty");
+    var empty = document.querySelector(".filter-empty");
     if (empty) empty.hidden = shown > 0 || cards.length === 0;
     var countEl = document.getElementById("filter-count");
     if (countEl) {
@@ -70,6 +79,7 @@
   function applyTab(tab, opts) {
     tab = VALID[tab] ? tab : "ai";
     opts = opts || {};
+    document.body.setAttribute("data-channel", tab);
     document.querySelectorAll(".tab-btn").forEach(function (btn) {
       var on = btn.getAttribute("data-tab") === tab;
       btn.classList.toggle("active", on);
@@ -85,38 +95,45 @@
     var heroEyebrow = document.getElementById("hero-eyebrow");
     var meta = document.getElementById("day-meta");
     if (meta) {
+      var isIndex = meta.dataset.isIndex === "1";
+      var dateLabel = meta.dataset.dateLabel || "";
       var count =
         tab === "v"
           ? Number(meta.dataset.vCount || 0)
-          : Number(meta.dataset.aiCount || 0);
-      var dateLabel = meta.dataset.dateLabel || "";
-      var isIndex = meta.dataset.isIndex === "1";
+          : tab === "aihot"
+            ? Number(meta.dataset.aihotCount || 0)
+            : Number(meta.dataset.aiCount || 0);
       if (heroEyebrow) {
         heroEyebrow.textContent =
-          tab === "v" ? "大V视野" : isIndex ? "今日热点" : "历史归档";
+          tab === "v"
+            ? "大V视野"
+            : tab === "aihot"
+              ? "AIHOT 日报"
+              : isIndex
+                ? "今日热点"
+                : "历史归档";
       }
       if (heroTitle) {
         if (tab === "v") {
-          heroTitle.textContent = isIndex
-            ? "关注流精选"
-            : meta.dataset.date + " 关注流";
+          heroTitle.textContent = isIndex ? "关注流精选" : meta.dataset.date + " 关注流";
+        } else if (tab === "aihot") {
+          heroTitle.textContent = isIndex ? "卡兹克日报" : meta.dataset.date + " 日报";
         } else {
-          heroTitle.textContent = isIndex
-            ? "今日热点"
-            : meta.dataset.date + " 热点";
+          heroTitle.textContent = isIndex ? "今日杂志" : meta.dataset.date + " 杂志";
         }
       }
       if (heroSub) {
-        heroSub.textContent = dateLabel + " · 共 " + count + " 条";
+        heroSub.textContent =
+          tab === "aihot"
+            ? dateLabel + (count ? " · AIHOT 结构化日报" : " · 本日无 AIHOT 日报")
+            : dateLabel + " · 共 " + count + " 条";
       }
     }
-    var aihot = document.getElementById("aihot-strip");
-    if (aihot) aihot.hidden = tab !== "ai";
     var toolbar = document.getElementById("reader-toolbar");
     if (toolbar) {
-      // rebuild chips for active tab
+      toolbar.hidden = tab === "aihot";
       var chips = toolbar.querySelector(".filter-chips");
-      if (chips) {
+      if (chips && tab !== "aihot") {
         var src =
           tab === "v"
             ? toolbar.getAttribute("data-v-tags") || ""

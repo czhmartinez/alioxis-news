@@ -2,10 +2,11 @@
 
 Flipboard 风格的个人静态 AI 日报（杂志网格、日期时间轴、中文界面）。线上：https://ainews.alioxis.com/
 
-两个频道（不合并）：
+三个互不相同的频道：
 
-- **AI新闻** — 公开来源摘要（`data/YYYY-MM-DD/ai.json`）
-- **大V视野** — X 关注流精选（`data/YYYY-MM-DD/v.json`）
+- **AI新闻** — Flipboard 杂志网格（`ai.json` 公开来源；与 AIHOT 去重）
+- **大V视野** — 社交时间线（`v.json`，头像/@handle 密排）
+- **AIHOT日报** — 卡兹克结构化日报（`_aihot_daily.json`：导语/分区/快讯）
 
 致谢见 [NOTICE](NOTICE)。AIHOT 日报条的数据来自 [卡兹克 AIHOT](https://aihot.news/)（开源框架 [KKKKhazix/AIHOT](https://github.com/KKKKhazix/AIHOT)，MIT）。本仓库不包含 AIHOT 源码树，也不使用其名字/Logo 作为本站品牌。
 

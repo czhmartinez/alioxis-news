@@ -1,34 +1,30 @@
 #!/bin/bash
 # Sync built static site to Tencent CVM /opt/ainews (served by sunstone-gateway).
-# Password is NEVER in this file. Prefer:
-#   export AINEWS_CVM_SECRET=/path/to/tencent-cvm.json   # {"ssh_password":"..."}
+# Secrets and host stay OUTSIDE this repo. Required:
 #   export AINEWS_CVM_REMOTE=root@x.x.x.x
-# Or set SSHPASS / use SSH keys. Local box falls back to connector-secrets path (gitignored).
+#   export AINEWS_CVM_SECRET=/path/to/tencent-cvm.json   # {"ssh_password":"..."}
+# Or export SSHPASS and use SSH keys / sshpass.
+# Optional: AINEWS_CVM_DIR (default /opt/ainews)
+# Local tip: source a gitignored .local/deploy.env before running.
 set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 DIST="$ROOT/dist"
-REMOTE="${AINEWS_CVM_REMOTE:-root@49.233.218.252}"
+REMOTE="${AINEWS_CVM_REMOTE:-}"
 REMOTE_DIR="${AINEWS_CVM_DIR:-/opt/ainews}"
 SECRET="${AINEWS_CVM_SECRET:-}"
-BOX_SECRET=/home/box/agent-data/connector-secrets/5ba5f569-10de-440f-ae31-382fe8dcb918/tencent-cvm.json
-BOX_SECRET_ALT=/home/box/sand-data/connector-secrets/5ba5f569-10de-440f-ae31-382fe8dcb918/tencent-cvm.json
 
 if [[ ! -d "$DIST" ]]; then
   echo "missing dist: $DIST" >&2
   exit 1
 fi
+if [[ -z "$REMOTE" ]]; then
+  echo "Set AINEWS_CVM_REMOTE (e.g. root@x.x.x.x). See script header." >&2
+  exit 1
+fi
 
-if [[ -z "${SSHPASS:-}" ]]; then
-  if [[ -n "$SECRET" && -f "$SECRET" ]]; then
-    SSHPASS=$(python3 -c "import json; print(json.load(open('$SECRET'))['ssh_password'])")
-    export SSHPASS
-  elif [[ -f "$BOX_SECRET" ]]; then
-    SSHPASS=$(python3 -c "import json; print(json.load(open('$BOX_SECRET'))['ssh_password'])")
-    export SSHPASS
-  elif [[ -f "$BOX_SECRET_ALT" ]]; then
-    SSHPASS=$(python3 -c "import json; print(json.load(open('$BOX_SECRET_ALT'))['ssh_password'])")
-    export SSHPASS
-  fi
+if [[ -z "${SSHPASS:-}" && -n "$SECRET" && -f "$SECRET" ]]; then
+  SSHPASS=$(python3 -c "import json,sys; print(json.load(open(sys.argv[1]))['ssh_password'])" "$SECRET")
+  export SSHPASS
 fi
 
 if command -v sshpass >/dev/null 2>&1 && [[ -n "${SSHPASS:-}" ]]; then
