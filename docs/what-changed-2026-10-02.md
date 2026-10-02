@@ -16,3 +16,11 @@
 ## 文件
 
 `build.js` `assets/app.js` `assets/styles.css` `scripts/*` `NOTICE` `LICENSE` `README.md` `docs/*`
+
+## 上线
+
+- https://ainews.alioxis.com/
+- https://ainews.alioxis.com/?tab=v
+- https://ainews.alioxis.com/?tab=aihot
+- https://ainews.alioxis.com/archive/
+- GitHub: https://github.com/czhmartinez/alioxis-news
