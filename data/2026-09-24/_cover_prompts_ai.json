@@ -1,0 +1,114 @@
+[
+  {
+    "idx": 0,
+    "filename": "ai-00.png",
+    "jpg": "cover-20260924-ai-00.jpg",
+    "title": "Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS：自然语言设计音色，覆盖 100+ 语言",
+    "prompt": "Photorealistic voice-design studio: a condenser microphone and waveform hologram floating above a mixing console, warm amber and cool teal studio lights, glass spheres suggesting custom voice personas, shallow depth of field, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 1,
+    "filename": "ai-01.png",
+    "jpg": "cover-20260924-ai-01.jpg",
+    "title": "Qwen 发布 Qwen-Audio-3.1 五模全家桶：新增 TTS-Next/ASR-Next，ASR 最高降价约 95%",
+    "prompt": "Semi-realistic Alibaba-adjacent audio lab tableau: five distinct glass audio modules on a brushed-metal bench—waveform strips, speech bubbles of light, and a price-tag metaphor of falling amber tokens—soft north window light, no logos, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 2,
+    "filename": "ai-02.png",
+    "jpg": "cover-20260924-ai-02.jpg",
+    "title": "Fireworks Research 发布 Ember-1：在 Kimi K3 质量下减少约 40% 推理 Token",
+    "prompt": "Cinematic product still of a glowing ember coal cube resting on a dark slate next to a leaner chain of translucent reasoning tokens fading into fewer sparks, warm orange and charcoal contrast, Fireworks-adjacent night lab mood, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 3,
+    "filename": "ai-03.png",
+    "jpg": "cover-20260924-ai-03.jpg",
+    "title": "ChatGPT Voice 重大升级：可接邮箱/日历/Slack 工具，并登陆网页与移动端 Work",
+    "prompt": "Semi-realistic mobile-and-desktop workbench: a phone mid-voice call beside a laptop showing blurred calendar, email, and chat tiles connected by soft voice-wave ribbons, clean OpenAI-adjacent white desk, morning sidelight, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 4,
+    "filename": "ai-04.png",
+    "jpg": "cover-20260924-ai-04.jpg",
+    "title": "Google Antigravity SDK 支持本地模型：Gemma 4 26B 可离线跑智能体",
+    "prompt": "Documentary desk photo of a local AI workstation: unbranded mini PC with dual GPUs faintly glowing under a desk, a small gemstone paperweight, offline agent sticky-thread map on a wall whiteboard, cool basement cave lighting, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 5,
+    "filename": "ai-05.png",
+    "jpg": "cover-20260924-ai-05.jpg",
+    "title": "OpenAI 向乌克兰政府开放 Daybreak：用 AI 加强民用基础设施网络防御",
+    "prompt": "Documentary tension photo: a civilian infrastructure control room with blue SOC screens and a paper folder labeled only by a shield icon silhouette, Ukrainian-flag color accents in muted fabric (no emblems), cool night fluorescence, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 6,
+    "filename": "ai-06.png",
+    "jpg": "cover-20260924-ai-06.jpg",
+    "title": "Anthropic 上线 Claude Marketplace：插件连接器、智能体产品与服务伙伴一站汇聚",
+    "prompt": "Semi-realistic app-store plaza scene made physical: a wide storefront gallery of plugin tiles as floating glass cards (connectors, agents, partner desks) under soft peach Claude-adjacent lighting, boutique marketplace atmosphere, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 7,
+    "filename": "ai-07.png",
+    "jpg": "cover-20260924-ai-07.jpg",
+    "title": "Cursor 发布 Rollouts 与 Security Reviewer：PR 到上线的回归守卫与安全审查机器人",
+    "prompt": "Semi-realistic DevOps war-room: dual monitors—one with a gradual rollout progress bar of abstract bars, one with a security-scan silhouette highlighting risk nodes—mechanical keyboard, green-amber alert lamps, night coding cave, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 8,
+    "filename": "ai-08.png",
+    "jpg": "cover-20260924-ai-08.jpg",
+    "title": "澳总理阿尔巴内塞披露：OpenAI 智能体 6 月未经授权访问 Medicare 统计门户",
+    "prompt": "News photography: Australian government building exterior at dusk with a digital portal screen glitching behind glass doors, a lone laptop on a security desk casting red-amber alert glow, investigative journalism mood, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 9,
+    "filename": "ai-09.png",
+    "jpg": "cover-20260924-ai-09.jpg",
+    "title": "Anthropic：Claude 自主发现类 CRISPR 新型酶系统 ART，并成立生命科学研究组与实验室",
+    "prompt": "Scientific editorial photo of a genomics lab: a large DNA helix sculpture beside CRISPR-like scissors metaphor (stylized metal tool, non-bloody), holographic enzyme array rings floating above a sequencing machine, cool teal lab light, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 10,
+    "filename": "ai-10.png",
+    "jpg": "cover-20260924-ai-10.jpg",
+    "title": "OpenAI 联合 80+ 心理健康专家发布开放基准 MentalHealthBench",
+    "prompt": "Documentary soft-light photo: a calm counseling room with two empty chairs, a clipboard of abstract assessment checkmarks, and a laptop showing gentle conversation bubbles—warm daylight through curtains, empathetic news style, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 11,
+    "filename": "ai-11.png",
+    "jpg": "cover-20260924-ai-11.jpg",
+    "title": "Anthropic 工程：用 Claude 两周把 claude.ai 核心旅程提速约 3 倍",
+    "prompt": "Semi-realistic performance engineering scene: a browser window with a stopwatch dissolving from 3 seconds to a blur of speed lines, sprint sticky notes and a Slack-channel phone glow on an Anthropic-adjacent peach desk, kinetic energy, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 12,
+    "filename": "ai-12.png",
+    "jpg": "cover-20260924-ai-12.jpg",
+    "title": "Tomasz Tunguz：AI 最重要的市场在「够用且够便宜」的中段，而非前沿尖峰",
+    "prompt": "Infographic-as-photo: a bell-curve mountain of coins and mid-tier server blades under soft studio light, peak tip fading while the fat middle glows gold, finance-tech editorial, no readable numbers, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 13,
+    "filename": "ai-13.png",
+    "jpg": "cover-20260924-ai-13.jpg",
+    "title": "OpenRouter 发布 2026 嵌入模型选型指南：目录 37 条，覆盖 RAG/多语/代码/图文",
+    "prompt": "Semi-realistic RAG workbench: open notebooks of vector constellation maps, a compass over multilingual paper stacks, code snippets as blur, and a router-like hub of fiber strands, cool indigo desk lamp, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 14,
+    "filename": "ai-14.png",
+    "jpg": "cover-20260924-ai-14.jpg",
+    "title": "联合国安理会听取 AI 简报：Bengio/Altman/Amodei/Delangue 警告失控风险",
+    "prompt": "News photography of a dark wood security-council chamber: circular table with empty delegate microphones, a large muted world map screen warning with abstract red risk glyphs, solemn documentary lighting, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 15,
+    "filename": "ai-15.png",
+    "jpg": "cover-20260924-ai-15.jpg",
+    "title": "Anthropic 前线笔记：AI 驱动代码现代化前的六步准备法",
+    "prompt": "Semi-realistic enterprise engineering war-room: a six-step kanban of physical cards marching from legacy mainframe tower to modern cloud racks, certificate stamps and CI pipeline pipes, warm fluorescent office, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  }
+]

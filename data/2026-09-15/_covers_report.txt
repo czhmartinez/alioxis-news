@@ -1,0 +1,2 @@
+covers 2026-09-15: ai=18 v=17 via picsum unique seeds (GenerateImage unavailable)
+regenerated clean (no flickr watermark / no heavy vignette frame)

@@ -1,0 +1,6 @@
+login ok=true (X home visibly showed zihan chen / @zihanch71347739).
+Following confirmed=true (正在关注 tab visibly selected; 为你推荐未选).
+Scroll depth: started at newest (~10 minutes) and scrolled the Following timeline through approximately 18 hours; deeper loading also exposed some older Sep 25 items, which were not generally kept. Approximately 45 timeline cards/posts seen; 12 unique AI-related status URLs kept.
+Priority accounts: @Khazix0918 appeared in Following (~6h); @MaxForAI appeared (~6h and ~9h); @xiaohu appeared (~9h, plus a repost around 14h).
+Fallback used=false. No top-search fallback was needed because all three priority accounts appeared in Following.
+Ads, pure politics, non-AI lifestyle, contentless reactions, and crypto-only posts were skipped.

@@ -1,0 +1,2 @@
+covers 2026-09-25: ai=17/17 v=9/9 unique GenerateImage content-scenes; ok=26 fail=0
+jpg size range: 28356–102952 bytes

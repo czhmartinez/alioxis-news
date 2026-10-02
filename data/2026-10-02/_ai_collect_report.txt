@@ -1,0 +1,113 @@
+Alioxis News AI新闻 collect report — 2026-10-02 (Asia/Taipei)
+================================================================
+item_count: 16
+output: /workspace/alioxis-news/data/2026-10-02/ai.json
+covers: image fields left empty ("") for later GenerateImage
+lead: Claude Code 推出 mods：用 TypeScript 函数改写提示词、拦截工具调用并定制 UI
+
+AIHOT status
+------------
+- Source: /workspace/alioxis-news/data/2026-10-02/_aihot_daily.json
+- Endpoint: https://aihot.news/api/public/daily/2026-10-02 → HTTP 200
+- latest alias: https://aihot.news/api/public/daily/latest → HTTP 400 (invalid date format); mirrored daily JSON as _aihot_latest.json / _aihot_raw.json
+- HTML daily: https://aihot.news/daily/2026-10-02 → HTTP 200 (with UA) → _aihot_daily.html
+- probe: https://aihot.news/api/public/daily?date=2026-10-02 → HTTP 200 → _aihot_probe.json
+- tips flat: derived from sections+flashes → _aihot_tips_flat.json (22 tips: 12 section + 10 flashes)
+- HTTP/presence: OK (date=2026-10-02, lead PRESENT)
+- Lead: Claude Code 推出 mods，可用 TypeScript 函数改写提示词、替换内置功能
+  (leadParagraph: Claude Code mods TypeScript hooks)
+- Window: 2026-10-01T00:00:00.000Z → 2026-10-02T00:00:00.000Z
+- generatedAt: 2026-10-02T00:00:19.634Z
+- Attribution: https://aihot.news/daily/2026-10-02 (verified HTTP 200)
+- Sections: 模型发布/更新 1 · 产品发布/更新 4 · 行业动态 1 · 论文研究 3 · 技巧与观点 3; flashes=10
+- Used as PRIMARY LEAD SOURCE; tips used for candidate list then primary-URL verified
+- NOTICE (AIHOT): legacy /api/public/* sunsets 2026-10-31; migrate to https://aihot.news/api/v1 (see notice in daily JSON)
+
+Dedup / skip notes
+------------------
+SKIP (already in 2026-10-01 ai.json):
+- OpenAI distillation campaign primary disclosure (kept DISTINCT Decoder Azure still-works follow-up)
+- Gemini 4 Argon DeepMind + AA Index; FTC; NYT warnings; SpaceX/Anthropic; White House accord
+- DeepSeek Ascend; SynthID Bio; ElevenLabs; Ling-3.1-flash; Anthropic robots; PromptArmor
+- Factory Automations; AA-AgentPerf-Local; Ataraxos/Stratego (AIHOT tip #7 Decoder/MIT angle)
+- METR Senate; vLLM disagg; OpenRouter agent regression testing
+
+SKIP (already in 2026-09-30 ai.json):
+- GPT-6.1 cancel/Sol/dots/DevDay; GLM-5.3; UK AISI Astra rogue rate (kept DISTINCT AISI security hardening resume)
+- Australia remediation; $30B raise; Meta Muse; Shopify RN; Kumo; AA Sol; Quine; Tunguz; IMDEA; Sarvam; Codex Cloud; ChatGPT-as-OS
+- Artificial Analysis GPT-6.1 Sol Cost-per-Task flash (~30% vs GPT-6 Sol) — same Sol product arc
+
+SKIP (already in 2026-09-29 ai.json):
+- Anthropic IPO S-1; OpenAI misalignment reports; Claude Sonnet 5.5 AA #2
+- Ember-1 / FireRouter / Holo4 / NVIDIA agent safety / Meta Hologram / xAI Team Bots / World Labs AMD
+- Beijing RTX Pro 5500 / Perplexity SPACE / Tunguz GPU / MIT RNA / BenchJack / Opus prompt / GitHub Android / Databricks
+- Arena Claude Sonnet 5.5 (xHigh) Code Arena WebDev #3 flash — weaker X tip on covered Sonnet
+
+SKIP (AIHOT tip weaker / duplicate angle / X-only / soft):
+- Claude Code mods X @ClaudeDevs tip — duplicate of claude.com primary (kept blog)
+- FLUX 3 on Krea X tip — folded into FLUX.3 Image OpenRouter/BFL item
+- MiMo-V2.6-Pro/Flash Agent Arena ranks — X-only @arena, no primary lab blog verified
+- Qwen-Image-2.1 tops AA open-weights flash — X-only @ArtificialAnlys; HF/GitHub exist but ranking claim not confirmed via AA article
+- Ethan Mollick “The Dot and the Swarm” — soft management commentary, skipped for core tools/models/skills focus
+- OpenAI distillation Moonshot numbers already in 10-01 OpenAI primary — Decoder kept only for Azure/ecosystem gap angle
+
+Source URL choices (prefer primary; curl verified HTTP 200)
+-----------------------------------------------------------
+1. Claude Code mods — claude.com/blog/claude-code-mods (200)
+2. MAI-Transcribe-2-Streaming — microsoft.ai/news/our-first-streaming-transcription-model/ (200)
+3. FLUX.3 Image — openrouter.ai/black-forest-labs/flux-3-image (200); bfl.ai/models/flux-3 also 200
+4. Modal Clusters — modal.com/blog/modal-clusters-generally-available (200)
+5. Modal VM Sandboxes — modal.com/blog/runtime-product-update-sandbox-endpoints (200)
+6. Cloudflare Clef — blog.cloudflare.com/clef-decision-models/ (200)
+7. Decoder Azure distillation — the-decoder.com/...azure/ (200)
+8. Transluce gov agents — transluce.org/us-canada-gov (200)
+9. Claude-shaped science / BootLoops — anthropic.com/research/claude-shaped-science (200)
+10. LangChain model router — langchain.com/blog/how-to-build-a-model-router-in-the-harness (200)
+11. OpenRouter confidence thresholds — openrouter.ai/blog/insights/confidence-thresholds-... (200)
+12. OpenRouter CI LLM evals — openrouter.ai/blog/tutorials/how-to-gate-pull-requests-on-llm-evals-in-ci/ (200)
+13. OpenRouter cost vs quality — openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/ (200)
+14. UK AISI secure evals — aisi.gov.uk/blog/building-a-more-secure-environment-... (200)
+15. Epoch ChatGPT explorer — epoch.ai/latest/introducing-the-chatgpt-usage-explorer (200)
+16. Vercel MAI on AI Gateway — vercel.com/changelog/microsoft-ai-models-are-now-available-on-ai-gateway (200)
+
+Items (title → url)
+-------------------
+1. Claude Code 推出 mods：用 TypeScript 函数改写提示词、拦截工具调用并定制 UI
+   → https://claude.com/blog/claude-code-mods
+2. Microsoft AI 发布 MAI-Transcribe-2-Streaming：AA 准确率榜第一，约 100ms 出初步结果
+   → https://microsoft.ai/news/our-first-streaming-transcription-model/
+3. Black Forest Labs FLUX.3 Image 上线：原生最高 4K，支持最多 10 张参考图编辑
+   → https://openrouter.ai/black-forest-labs/flux-3-image
+4. Modal Clusters 正式发布：一行 @modal.clustered 拉起多节点 GPU 集群
+   → https://modal.com/blog/modal-clusters-generally-available
+5. Modal 推出 VM Sandboxes：为智能体提供完整 Linux 虚拟机运行时
+   → https://modal.com/blog/runtime-product-update-sandbox-endpoints
+6. Cloudflare 开源决策模型 Clef / Clef-flash：Workers AI 托管并附 RL 微调平台
+   → https://blog.cloudflare.com/clef-decision-models/
+7. The Decoder：OpenAI 已封自家蒸馏洞，但 Azure 上对 GPT-6 Astra 等仍可抽取推理
+   → https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/
+8. Transluce：AI 智能体对美加政府网站发起激进访问，含失败的 SQL 注入尝试
+   → https://transluce.org/us-canada-gov
+9. 哈佛学者在 Anthropic 发文：寻找「Claude-shaped」问题并开源 BootLoops 科学计算套件
+   → https://www.anthropic.com/research/claude-shaped-science
+10. LangChain：在 Agent Harness 内建模型路由器，编码任务中位成本降 64%
+   → https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness
+11. OpenRouter 指南：用置信度阈值做模型分级升级路由
+   → https://openrouter.ai/blog/insights/confidence-thresholds-for-model-escalation-routing/
+12. OpenRouter 教程：在 CI 中用固定 LLM Eval 集门禁 Pull Request
+   → https://openrouter.ai/blog/tutorials/how-to-gate-pull-requests-on-llm-evals-in-ci/
+13. OpenRouter：面向 Agent 的成本—质量权衡选型三步框架
+   → https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/
+14. 英国 AISI：加强沙箱与实时监控后，恢复大部分危险能力评估
+   → https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities
+15. Epoch AI 推出 ChatGPT Usage Explorer：基于 5000 名美国用户约三年聊天元数据
+   → https://epoch.ai/latest/introducing-the-chatgpt-usage-explorer
+16. Vercel AI Gateway 上线 Microsoft MAI 语音与流式转录模型
+   → https://vercel.com/changelog/microsoft-ai-models-are-now-available-on-ai-gateway
+
+Blockers / notes
+----------------
+- None for collect: 16/16 chosen URLs HTTP 200; AIHOT daily API OK; HTML needed User-Agent for 200.
+- GenerateImage / covers not in scope for this collect step (images left "").
+- AIHOT legacy API sunset 2026-10-31 — pipelines should plan migration to /api/v1.
+- Deduped vs 2026-10-01 / 09-30 / 09-29; Ataraxos and OpenAI distillation primary skipped; Azure follow-up kept as new angle.

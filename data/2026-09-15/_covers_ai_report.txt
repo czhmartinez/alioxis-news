@@ -1,0 +1,29 @@
+covers AI 2026-09-15: FAILED — 0/18 generated via GenerateImage
+time: 2026-09-15 08:16:07 PT
+executor: sand-subagent-d1f222a4 (this agent)
+
+blocker: GenerateImage / CallDynamicTool unavailable in this executor subagent.
+  - CallDynamicTool / GetDynamicTools: not in tool catalog
+  - Native GenerateImage / generate_image: not in tool catalog
+  - CallMcpTool server=cursor toolName=GenerateImage: MCP server "cursor" not available
+    (only user-X MCP is reachable; GetMcpTools pattern GenerateImage: no matches)
+  - exec-daemon isGenerateImageEnabled defaults false for this harness
+
+Tried: GetMcpTools (empty for GenerateImage), CallMcpTool cursor/GenerateImage (error).
+Did NOT invent Pillow masthead / abstract / stock substitutes (forbidden by ensure-covers.md).
+
+prompts crafted: 18 → /workspace/alioxis-news/data/2026-09-15/_cover_prompts_ai.json
+  styles: ['agent_workbench', 'documentary', 'editorial', 'editorial_desk', 'lab', 'model_lab', 'news_photo', 'product_photo', 'research', 'security_doc']
+ai.json: 18 items, 0 with non-empty image (left unchanged)
+existing cover-20260915-ai-*.jpg: 0
+failures: all 18 (cover-20260915-ai-00.jpg .. cover-20260915-ai-17.jpg)
+
+jpg size range: n/a (none generated)
+build.js: NOT RUN
+publish-to-cvm: NOT RUN
+
+Parent action needed:
+  For each entry in _cover_prompts_ai.json call generate_image / GenerateImage with
+  description, aspectRatio/aspect_ratio "16:9", filePath/filename = filename_png;
+  then compress to ~960w JPEG q72 → assets/covers/filename_jpg and set ai.json image fields;
+  OR re-delegate to an agent with isGenerateImageEnabled / CallDynamicTool.

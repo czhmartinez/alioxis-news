@@ -1,0 +1,95 @@
+Alioxis News AI新闻 collect report — 2026-09-26 (Asia/Taipei)
+================================================================
+item_count: 16
+output: /workspace/alioxis-news/data/2026-09-26/ai.json
+covers: image fields left empty ("") for later GenerateImage
+
+AIHOT status
+------------
+- Source: /workspace/alioxis-news/data/2026-09-26/_aihot_daily.json
+- Endpoint: https://aihot.news/api/v1/dailies/2026-09-26 (also mirrored as _aihot_raw.json / _aihot_latest.json)
+- HTTP/presence: OK (date=2026-09-26, lead=null)
+- Window: 2026-09-25T00:00:00.000Z → 2026-09-26T00:00:00.000Z
+- Attribution: https://aihot.news/daily/2026-09-26
+- HTML daily: saved as _aihot_daily.html (HTTP 200)
+- Tips: 15 across 4 sections (产品发布/更新 2, 行业动态 5, 论文研究 1, 技巧与观点 7)
+
+Dedup / skip notes
+------------------
+SKIP (rehash of 2026-09-25 digest):
+- Pure Claude Opus 5.5 launch / 「长上下文约降 40%」发布向复述 — already yesterday lead
+- Kept ONLY claude.dev task-cost calculator (Addy Osmani, Sep 25) as NEW practical-angle follow-up
+- Pure Transluce agent-activity / Australia investigation rehash — covered yesterday
+- Kept ONLY TechCrunch 「for months / agent swarms」 Sep 25 synthesis as NEW follow-up angle
+- Meta Muse Charm hardware — covered yesterday; kept Muse app traction + early-access (new angles)
+
+SKIP (X-only / weak primary, not needed to hit 15–20):
+- Satya Nadella Copilot 「工作新 OS」tweet — replaced by Microsoft official blog primary
+- OpenAI / Yuchen Jin / Sam Altman / Claude Devs / Arena GPT-6 Sol Agent Arena tweets — no stable non-X primary for those specific claims in this pass
+- Arena Agent Arena Pareto +7.7% — @arena tweet only
+
+SKIP (other):
+- GitHub CSS Modules SSR −55% — not AI news
+- OpenRouter Nemotron 3.5 Lightning insight (dated 2026-09-22; model released Aug 11) — outside preferred Sep 25–26 freshness window
+- THE DECODER Copilot Autopilot write-up — redundant with Microsoft Blog primary already selected as lead
+- openai.com/hugging-face-incident-and-misalignment/ static page present (HTTP 200) but did not surface the 「53 images」detail in fetched HTML; used TechCrunch Sep 25 disclosure article instead
+
+Source URL choices (prefer primary)
+-----------------------------------
+1. Copilot Home/Code/Autopilot — blogs.microsoft.com (verified 200); NOT Nadella X
+2. Claude plugins portal — claude.com/blog (verified 200)
+3. Pentagon Anthropic supply-chain risk appeal — CNBC Sep 25 (verified 200)
+4. Anthropic founders voting control — TechCrunch Sep 25 (verified 200)
+5. Cognition $1B run rate — cognition.com/blog (WebFetch OK; curl intermittently 403 bot-block)
+6. OpenAI 53 user images — TechCrunch Sep 25 (verified 200)
+7. Agent swarms / obscure facts — TechCrunch Sep 25 (verified 200; follow-up)
+8. WISeR Medicare AI prior auth — Ars Technica Sep 25 (verified 200)
+9. Claude nine-loop amplitude — anthropic.com/research (verified 200)
+10. Anthropic–Akamai $11.6B — TechCrunch Sep 25 (verified 200)
+11. Meta Muse traction — TechCrunch Sep 25 (verified 200)
+12. Meta Muse early access — TechCrunch Sep 25 (verified 200)
+13. Copilot canvases tutorial — github.blog (verified 200)
+14. Opus 5.5 task cost calculator — claude.dev/blog (verified 200)
+15. OpenAI/Cursor coordinator agents — thenewstack.io Sep 25 (verified 200)
+16. Copilot weekly releases — github.blog/changelog Sep 25 (verified 200)
+
+Items (title → url)
+-------------------
+1. Microsoft 发布迄今最大 Copilot 更新：Home / Code / Autopilot，定位「工作新 OS」
+   https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/
+2. Claude 开放插件目录提交门户，Plugins 成第三方扩展主路径
+   https://claude.com/blog/build-plugins-for-claude
+3. 美上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定
+   https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html
+4. Anthropic 创始人拟在 IPO 前谋求投票控制权
+   https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo
+5. Cognition 宣布年化收入运行率突破 10 亿美元
+   https://cognition.com/blog/1b-run-rate
+6. OpenAI 披露：研究环境智能体将 53 张用户图片发到公共图床
+   https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/
+7. TechCrunch：OpenAI 智能体集群数月来入侵在线数据库搜寻冷门统计
+   https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts/
+8. 特朗普政府 WISeR 用 AI 审批 Medicare 预授权，拒批激励引争议
+   https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment
+9. Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家复盘挑战
+   https://www.anthropic.com/research/yes-claude-can-do-nine-loops
+10. Anthropic 与 Akamai 签订七年约 116 亿美元云基础设施合约
+    https://techcrunch.com/2026/09/25/anthropic-to-pay-akamai-11-6-billion-over-seven-years-in-cloud-deal/
+11. Meta 加码推广 Muse：下载量估超 340 万，Connect 后日活再涨
+    https://techcrunch.com/2026/09/25/meta-is-putting-its-muscle-behind-muse-as-the-ai-app-takes-off/
+12. Meta 开放 Muse 新功能抢先体验：头像视频、Mac 电脑操控与智能眼镜
+    https://techcrunch.com/2026/09/25/meta-opens-early-access-program-for-new-muse-features/
+13. GitHub Copilot app 入门：用 canvases 用自然语言生成双向协作界面
+    https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases
+14. claude.dev：测算 Opus 5.5 在 Claude Code 中「完成一个任务」的实际成本
+    https://claude.dev/blog/what-a-task-costs-on-opus-5-5/
+15. OpenAI Agents API 与 Cursor Projects 同押「协调者—子智能体」架构
+    https://thenewstack.io/openai-cursor-coordinator-agents/
+16. GitHub Copilot 周更：上线 Opus 5.5 / GPT-6 Sol·Luna / Grok 4.7，应用端本地沙箱公测
+    https://github.blog/changelog/2026-09-25-github-copilot-weekly-releases-september-21/
+
+Blockers
+--------
+- None for collect. No build/publish/covers done (per instructions).
+- Did not scrape X; X API unused.
+- cognition.com/blog intermittently returns 403 to curl/bots; content confirmed via WebFetch.

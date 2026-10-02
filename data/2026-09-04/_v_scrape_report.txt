@@ -1,0 +1,9 @@
+X Following timeline scrape - 2026-09-04
+Login status: OK (box Chrome already logged in; 正在关注 / Following on https://x.com/home)
+Feed: Following tab; browserUse scrolled extensively then steered to extract; posts reconstructed from live DOM snapshots in subagent transcript (real status URLs only).
+Raw unique statuses seen in DOM: ~50
+AI-related kept: 20
+Sources kept: @Fukugyo_clinic, @Khazix0918, @MaxForAI, @gengdaJ, @thsottiaux
+Note: @xiaohu scarce in this window; 卡兹克 (@Khazix0918) present; @MaxForAI majority.
+Blockers: browserUse entered a long scroll loop; stopped after message and transcript parse. Some posts truncated by X (显示更多) — summaries use visible text only.
+Output: _v_raw.json

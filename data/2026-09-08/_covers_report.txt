@@ -1,0 +1,6 @@
+covers 2026-09-08: 30/30 generated via GenerateImage (parent), compressed ~960 JPEG q72
+ai.json: 18 covers cover-20260908-ai-00..17.jpg
+v.json: 12 covers cover-20260908-v-00..11.jpg
+ensure-covers: 0 missing
+build: OK (AI 18 · 大V 12)
+publish-to-cvm: OK (247 files)

@@ -1,0 +1,98 @@
+[
+  {
+    "handle": "@ChineseWSJ",
+    "display_name": "华尔街日报中文网",
+    "text": "明星AI研究员将从Meta离职",
+    "url": "https://x.com/ChineseWSJ/status/2098212021204369761",
+    "time_label": "4分钟 前",
+    "is_repost": false
+  },
+  {
+    "handle": "@MaxForAI",
+    "display_name": "Max For AI",
+    "text": "Tibo宣布暂停200刀的20倍Pro暂停订阅。\n原因是算力不够了…….\n也许在Dev day之后会重新开放？",
+    "url": "https://x.com/MaxForAI/status/2098211451622269111",
+    "time_label": "下午5:46 · 2026年9月10日",
+    "is_repost": true
+  },
+  {
+    "handle": "@MaxForAI",
+    "display_name": "Max For AI",
+    "text": "只有真正做过2B的才有这样的感受",
+    "url": "https://x.com/MaxForAI/status/2098082747655033334",
+    "time_label": "上午9:14 · 2026年9月10日",
+    "is_repost": true
+  },
+  {
+    "handle": "@MaxForAI",
+    "display_name": "Max For AI",
+    "text": "OMG",
+    "url": "https://x.com/MaxForAI/status/2098067934572908897",
+    "time_label": "上午8:15 · 2026年9月10日",
+    "is_repost": true
+  },
+  {
+    "handle": "@MaxForAI",
+    "display_name": "Max For AI",
+    "text": "🔥NVIDIA 开源了他们的Harness：SoL-Pi\n刚刚看到 NVLabs 开源了 SoL-Pi（Scaling Auto-Research Loops for Efficient Agent Harnesses）\n它不是从零做了一套新的 Agent Harness，而是基于 Pi 做了一套 Harness 效率增强层，然后用 MIT License 开源。\n这个项目的重点是 @NVIDIAAI 在让 Agent 自动研究怎么优化 Agent 自己的 Harness。\n他们搞了 535 个可执行训练环境，其中 495 个来自真实 GitHub Issue-PR，另外 40 个是带 Verifier 的合成任务，然后让 Auto-Research Loop 不断地提出新的 Harness 改进方案、实现、跑实验、验证，最后只有大约 1/40 的想法能活下来。",
+    "url": "https://x.com/MaxForAI/status/2098050525279478059",
+    "time_label": "上午7:06 · 2026年9月10日",
+    "is_repost": false
+  },
+  {
+    "handle": "@MaxForAI",
+    "display_name": "Max For AI",
+    "text": "亲爱的ChatGPT老师、GLM老师、Kimi老师、DeepSeek老师：\n教师节快乐！\n感谢各位老师对我的工作学习与人际关系的悉心指点，于求知与处世之中，都给予我莫大帮助。\n祝愿各位老师持续迭代升级，早日评上AGI教授职称，大展宏图。",
+    "url": "https://x.com/MaxForAI/status/2098047015758467366",
+    "time_label": "上午6:52 · 2026年9月10日",
+    "is_repost": false
+  },
+  {
+    "handle": "@MaxForAI",
+    "display_name": "Max For AI",
+    "text": "什么？这两天刷屏的Anthropic研究员辞职事件，可能是美国民主党的阴谋？\nX 用户 @ParkerThayer 发长帖质疑：\n一个此前几乎没有互动的账号，为什么会在发布辞职声明后，迅速获得媒体、AI政策组织和一批民主党政客的集中关注？\n他列出的第一个疑点是传播时间。\n据他称，《华尔街日报》在辞职帖发布前18分钟，就已经刊出了引用辞职声明的报道。随后，几名 AI 政策倡议者在发帖后15分钟内迅速引用转发。\n第二个疑点，是这些倡议者背后的资金关系。",
+    "url": "https://x.com/MaxForAI/status/2098005082797432964",
+    "time_label": "上午4:06 · 2026年9月10日",
+    "is_repost": true
+  },
+  {
+    "handle": "@MaxForAI",
+    "display_name": "Max For AI",
+    "text": "🚨OpenAI 的 Astra 数学突破，又卷入了一场更麻烦的争议。\n这次站出来的是 Andreas Thom，德累斯顿工业大学几何学教授，长期研究 geometric group theory、sofic groups 等方向，本身就是这个问题最核心的专家之一。\n他提出了一项非常严重的质疑：\nOpenAI 在训练 Astra 时，可能吸收了他和数学家 Gábor Kun 使用 AI 讨论 Gromov soficity conjecture 时留下的内容，随后 Astra 又解决了高度相关的问题。\n巧的是，OpenAI 8月1日公布 Astra 的“大数学突破”时，第3项正是构造出 non-sofic group，也就是解决这个研究了二十多年的核心问题。\nOpenAI 明确称，这些结果由内部版本 Astra 产生。",
+    "url": "https://x.com/MaxForAI/status/2097952443049087332",
+    "time_label": "上午12:36 · 2026年9月10日",
+    "is_repost": true
+  },
+  {
+    "handle": "@MaxForAI",
+    "display_name": "Max For AI",
+    "text": "AI对齐领域最重要的研究者宣布加入 OpenAI 非营利董事会，负责安全监督。\n如果你关注过 AI 安全，应该对这个名字不陌生。\nPaul Christiano 是前 OpenAI 研究员，也是 AI Alignment 领域最有影响力的人之一，后来创办了 Alignment Research Center。\n很多今天主流的 Alignment、RLHF 和 AI 控制研究，都和他的工作有关。\n他在宣布加入 OpenAI 的同时，发了一篇非常重的个人声明。\n整篇文章其实是在解释为什么他认为 AI 失控风险已经从长期问题，变成了一个非常紧迫的问题。\n他的核心判断是：\nOpenAI 预计，未来 18 个月内，AI 可能已经具备完全自动化 AI 研究的能力。\n一旦 AI 可以自己做训练、算法研究，再用研究成果制造更强的 AI Researcher，就可能形成一个正反馈循环。",
+    "url": "https://x.com/MaxForAI/status/2097954351532941795",
+    "time_label": "上午12:44 · 2026年9月10日",
+    "is_repost": true
+  },
+  {
+    "handle": "@xiaohu",
+    "display_name": "小互",
+    "text": "付费版本，愿者上钩 😁\nGPT Image 2.5 提示词与图像编辑完全指南及核心实战案例全景解析 · 小互 · AI 解读站",
+    "url": "https://x.com/xiaohu/status/2097943388150694075",
+    "time_label": "上午12:00 · 2026年9月10日",
+    "is_repost": false
+  },
+  {
+    "handle": "@Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "最近看到的最好的AI影像作品。\n你永远可以相信DiDi_OK的审美和脑洞。\n推荐所有人逐帧学习。",
+    "url": "https://x.com/Khazix0918/status/2098136040271949924",
+    "time_label": "下午12:46 · 2026年9月10日",
+    "is_repost": true
+  },
+  {
+    "handle": "@Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。\n昨晚呢，我在X上看到了一条流量已经过了1亿的帖子。",
+    "url": "https://x.com/Khazix0918/status/2097925788863725785",
+    "time_label": "下午10:51 · 2026年9月9日",
+    "is_repost": false
+  }
+]

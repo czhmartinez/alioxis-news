@@ -1,0 +1,212 @@
+[
+  {
+    "title": "Claude Code团队回顾工作方式变化",
+    "summary": "Claude官方频道发布约22分钟访谈，Claude Code团队成员聊日常开发工作并回顾一年工作方式变化；过去常给Claude具体指令再检查修改。",
+    "url": "https://x.com/xiaohu/status/2096752904107602273",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-07T08:07:00+08:00",
+    "tags": [
+      "Claude",
+      "Claude Code",
+      "AI开发"
+    ],
+    "image": "/assets/covers/cover-20260907-v-00.jpg"
+  },
+  {
+    "title": "Claude Code从写代码到推进产品",
+    "summary": "帖文介绍Claude Code团队最近一年使用方式的改变：有人把具体实现交给Claude，将精力投入新想法，让原型更快走向可用产品；并附macOS Aqua按钮CSS渐变等例子。",
+    "url": "https://x.com/xiaohu/status/2096752907085656419",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-07T08:07:00+08:00",
+    "tags": [
+      "Claude Code",
+      "AI编程",
+      "产品原型"
+    ],
+    "image": "/assets/covers/cover-20260907-v-01.jpg"
+  },
+  {
+    "title": "模型变强后Skill规则反成束缚",
+    "summary": "小互称模型能力提升后，Skill的一些规则反而成了束缚；让GPT 6删除大量规则后效果变好，并称其在编码、前端和写作方面更会使用工具。",
+    "url": "https://x.com/xiaohu/status/2096593946998906990",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-06T22:12:00+08:00",
+    "tags": [
+      "GPT-6",
+      "Skills",
+      "AI编程"
+    ],
+    "image": "/assets/covers/cover-20260907-v-02.jpg"
+  },
+  {
+    "title": "AI引发招聘变局",
+    "summary": "文章卡片标题为“AI引发招聘变局：经验为什么更受重视？”；可见文字提到Revelio Labs招聘数据出现两条相反方向的线。",
+    "url": "https://x.com/xiaohu/status/2096591274090394092",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-06T22:12:00+08:00",
+    "tags": [
+      "AI招聘",
+      "就业",
+      "AI趋势"
+    ],
+    "image": "/assets/covers/cover-20260907-v-03.jpg"
+  },
+  {
+    "title": "Computer Use将冲击封闭系统",
+    "summary": "小互认为当Computer Use能力足够强时，封闭系统将首先遭到重创；不打开大门让AI进入、自我封闭，未来会比较惨，并举微信为例。",
+    "url": "https://x.com/xiaohu/status/2096477209355853985",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-06T14:12:00+08:00",
+    "tags": [
+      "Computer Use",
+      "AI应用",
+      "GPT-6"
+    ],
+    "image": "/assets/covers/cover-20260907-v-04.jpg"
+  },
+  {
+    "title": "GPT-6 Astra提示指南",
+    "summary": "帖文介绍OpenAI更新的GPT-6 Astra提示指南，涵盖模型特性、新API功能、提示词优化和旧版本迁移；并称可能需要大幅删减SKILL与AGENTS.md规则。",
+    "url": "https://x.com/xiaohu/status/2096430445047296297",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-06T11:12:00+08:00",
+    "tags": [
+      "GPT-6 Astra",
+      "提示词",
+      "Agents"
+    ],
+    "image": "/assets/covers/cover-20260907-v-05.jpg"
+  },
+  {
+    "title": "Codex新功能减少GPT-6消耗",
+    "summary": "Max For AI称Codex开启一个新功能可大幅减少GPT-6消耗：把反复压缩上下文改为笔记加可搜索历史，减少长任务中细节丢失。",
+    "url": "https://x.com/MaxForAI/status/2096131966647279660",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-05T00:00:00+08:00",
+    "tags": [
+      "Codex",
+      "GPT-6",
+      "上下文管理"
+    ],
+    "image": "/assets/covers/cover-20260907-v-06.jpg"
+  },
+  {
+    "title": "GPT-6 Astra在Minecraft挖钻石",
+    "summary": "Max For AI转发的可见摘要称：让GPT-6 Astra使用计算机操作在Minecraft中挖出一颗钻石。",
+    "url": "https://x.com/MaxForAI/status/2096678711391354973",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-07T04:12:00+08:00",
+    "tags": [
+      "GPT-6 Astra",
+      "Computer Use",
+      "Minecraft"
+    ],
+    "image": "/assets/covers/cover-20260907-v-07.jpg"
+  },
+  {
+    "title": "人工智能现状与未来选择",
+    "summary": "Max For AI转发的可见摘要称，Jakub Pachocki撰写人工智能现状文章，阐述对未来几年的担忧以及需要做出的选择。",
+    "url": "https://x.com/MaxForAI/status/2096645050692440346",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-07T01:12:00+08:00",
+    "tags": [
+      "AI趋势",
+      "人工智能",
+      "行业观察"
+    ],
+    "image": "/assets/covers/cover-20260907-v-08.jpg"
+  },
+  {
+    "title": "GPT-6 Astra并发触发容量限制",
+    "summary": "卡兹克帖文提到GPT-6 Astra使用时出现算力吃紧，两个并发任务中的第二个不断弹出“模型容量已满”；并称Coding体验很好、利好英伟达。",
+    "url": "https://x.com/Khazix0918/status/2096602176676303079",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-06T22:12:00+08:00",
+    "tags": [
+      "GPT-6 Astra",
+      "AI算力",
+      "Coding"
+    ],
+    "image": "/assets/covers/cover-20260907-v-09.jpg"
+  },
+  {
+    "title": "GPT-6 Astra向订阅用户推送",
+    "summary": "卡兹克分享实测：GPT-6 Astra正式向所有订阅用户开始推送，并称这是曾经那个OpenAI回来了；帖文还提到错过凌晨推送后的感受。",
+    "url": "https://x.com/Khazix0918/status/2096239497713451194",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-05T00:00:00+08:00",
+    "tags": [
+      "GPT-6 Astra",
+      "OpenAI",
+      "模型发布"
+    ],
+    "image": "/assets/covers/cover-20260907-v-10.jpg"
+  },
+  {
+    "title": "GPT-6 Computer Use与Blender复刻",
+    "summary": "卡兹克展示GPT-6的Computer Use与Blender效果，询问为何大家生成的机器人都很相似，并比较自己用一张图复刻出的两个结果。",
+    "url": "https://x.com/Khazix0918/status/2096172840051732849",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-05T00:00:00+08:00",
+    "tags": [
+      "GPT-6",
+      "Computer Use",
+      "Blender"
+    ],
+    "image": "/assets/covers/cover-20260907-v-11.jpg"
+  },
+  {
+    "title": "为GPT-6 Astra重写AGENT.md",
+    "summary": "卡兹克称完全重写了一版给GPT-6 Astra使用的AGENT.md；可见规则包括默认用简体中文叙述、代码命令技术标识保持英文，以及先给影响与结论。",
+    "url": "https://x.com/Khazix0918/status/2096125440893329685",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-04T00:00:00+08:00",
+    "tags": [
+      "AGENT.md",
+      "GPT-6 Astra",
+      "提示工程"
+    ],
+    "image": "/assets/covers/cover-20260907-v-12.jpg"
+  },
+  {
+    "title": "GPT-6 Astra全面解析",
+    "summary": "卡兹克分享文章《GPT-6 Astra全面解析》，可见摘要写有“欢迎来到AGI时代”，并提到此前全球AI大宕机。",
+    "url": "https://x.com/Khazix0918/status/2095688501891354915",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-03T00:00:00+08:00",
+    "tags": [
+      "GPT-6 Astra",
+      "AGI",
+      "AI分析"
+    ],
+    "image": "/assets/covers/cover-20260907-v-13.jpg"
+  },
+  {
+    "title": "ChatGPT Astra访问补偿",
+    "summary": "卡兹克转发的可见摘要称：从当天开始，将为付费ChatGPT计划无法访问Astra的每一天提供一次重置。",
+    "url": "https://x.com/Khazix0918/status/2095654766936531059",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-03T00:00:00+08:00",
+    "tags": [
+      "ChatGPT",
+      "Astra",
+      "服务可用性"
+    ],
+    "image": "/assets/covers/cover-20260907-v-14.jpg"
+  }
+]

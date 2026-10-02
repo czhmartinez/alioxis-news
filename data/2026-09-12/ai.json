@@ -1,0 +1,261 @@
+[
+  {
+    "title": "卡兹克 AIHOT 日报（2026-09-12）：Anthropic 威胁报告与 DeepSeek V4.1 Flash 实测",
+    "summary": "数字生命卡兹克的 AIHOT 自动生成 9 月 12 日精选日报，覆盖 Anthropic 威胁情报（间谍软件/导弹/无人机与蒸馏）、DeepSeek V4.1 Flash 降价与视觉实测、Dwarkesh RSI 对谈、OpenAI Habitat 存储扩容、GitHub Copilot 活动运营自动化等热点。",
+    "url": "https://aihot.virxact.com/daily/2026-09-12",
+    "source": "AIHOT（数字生命卡兹克）",
+    "source_handle": "@数字生命卡兹克",
+    "image": "/assets/covers/cover-20260912-ai-00.jpg",
+    "published_at": "2026-09-12T08:00:00+08:00",
+    "tags": [
+      "AIHOT",
+      "日报",
+      "Anthropic",
+      "DeepSeek"
+    ]
+  },
+  {
+    "title": "路透：英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元",
+    "summary": "知情人士称 Anthropic 拟通过上市融资最多约 1000 亿美元、估值或达约 2 万亿美元；英伟达正洽谈作为基石投资者投入至多 100 亿美元。计划仍在讨论中，上市目标指向 2026 年 11 月美国中期选举前。",
+    "url": "https://www.reuters.com/legal/transactional/nvidia-talks-invest-anthropics-mega-ipo-sources-say-2026-09-11/",
+    "source": "Reuters",
+    "source_handle": "@Reuters",
+    "image": "/assets/covers/cover-20260912-ai-01.jpg",
+    "published_at": "2026-09-11T23:22:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Nvidia",
+      "IPO",
+      "融资"
+    ]
+  },
+  {
+    "title": "THE DECODER：Anthropic 威胁报告——Claude 被用于导弹、无人机蜂群与大规模蒸馏",
+    "summary": "报告覆盖 2025 年 12 月至 2026 年 8 月七类滥用：俄语间谍组织用代理循环改写恶意软件；也门组织用 Claude Code 做射程超 2000 公里导弹软件；另有无人在环 FPV 蜂群。蒸馏方面披露阿里通义、月之暗面、DeepSeek 等实验室工业规模提取。",
+    "url": "https://the-decoder.com/how-hackers-used-claude-for-missiles-drone-swarms-and-surveillance-while-chinese-labs-mined-it-for-training-data",
+    "source": "THE DECODER",
+    "source_handle": "@TheDecoder",
+    "image": "/assets/covers/cover-20260912-ai-02.jpg",
+    "published_at": "2026-09-11T21:50:00+08:00",
+    "tags": [
+      "Anthropic",
+      "安全",
+      "蒸馏",
+      "威胁情报"
+    ]
+  },
+  {
+    "title": "CNBC：Anthropic 与 OpenAI 对递归自我改进（RSI）的「存在性」担忧升温",
+    "summary": "在研究员离职与 Hubinger 公开「十年内灭绝风险 >10%」表态后，两家实验室多位安全研究者强调 RSI 比预期更快。Anthropic 称 Claude 正加速内部研发；OpenAI 首席科学家 Pachocki 亦警告能力跃迁将越来越多由系统自身驱动。",
+    "url": "https://www.cnbc.com/2026/09/11/anthropic-openai-ai-existential-concerns.html",
+    "source": "CNBC",
+    "source_handle": "@CNBC",
+    "image": "/assets/covers/cover-20260912-ai-03.jpg",
+    "published_at": "2026-09-11T19:00:00+08:00",
+    "tags": [
+      "安全",
+      "RSI",
+      "Anthropic",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "DeepSeek 发布 V4.1-Flash：552B MoE、原生多模态，API 同步降价",
+    "summary": "新架构家族最小尺寸模型：因果 Encoder–Decoder，prefill 约 8B、decode 约 16B 激活，1M 上下文，原生视觉。API 模型名 deepseek-flash；自 9 月 14 日北京时间 12:00 起 deepseek-v4-pro 将临时路由至 V4.1-Flash 并按新价计费。权重 MIT 开源。",
+    "url": "https://api-docs.deepseek.com/news/news260910",
+    "source": "DeepSeek",
+    "source_handle": "@deepseek_ai",
+    "image": "/assets/covers/cover-20260912-ai-04.jpg",
+    "published_at": "2026-09-10T12:00:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "V4.1-Flash",
+      "模型",
+      "API"
+    ]
+  },
+  {
+    "title": "MarkTechPost：V4.1-Flash 亮点——1M 上下文、FP4 KV 与跨层注意力复用",
+    "summary": "技术解读聚焦长上下文 Agent 场景：FP4 KV cache、跨层注意力复用与架构效率改进，强调相对上代在存储与吞吐上的压缩，并指向 Hugging Face 权重与技术报告。",
+    "url": "https://www.marktechpost.com/2026/09/10/deepseek-ai-released-deepseek-v4-1-flash-with-1m-context-fp4-kv-cache-and-cross-layer-attention-reuse",
+    "source": "MarkTechPost",
+    "source_handle": "@Marktechpost",
+    "image": "/assets/covers/cover-20260912-ai-05.jpg",
+    "published_at": "2026-09-10T18:00:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "长上下文",
+      "KV"
+    ]
+  },
+  {
+    "title": "OpenAI：Habitat 存储平台如何支撑超 10 亿 ChatGPT 用户（上篇）",
+    "summary": "OpenAI 介绍在线存储平台 Habitat 演进：约每秒数千万级请求、服务每周超 10 亿用户、管理数百 PB 级数据并覆盖近 40 个地区，面向高 QPS、低延迟的全球在线用户数据底座。",
+    "url": "https://openai.com/index/scaling-storage-one-billion-users-part-one",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260912-ai-06.jpg",
+    "published_at": "2026-09-11T18:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "基础设施",
+      "ChatGPT"
+    ]
+  },
+  {
+    "title": "OpenRouter 发布 Fusion：多模型并行辩论后由 judge 合成最终答案",
+    "summary": "Fusion 将提示并行发给 1–8 个面板模型，judge 比较共识与分歧，再由调用模型写最终答案。默认三模型面板成本约 4–5 倍、延迟 2–3 倍；DRACO 深度研究基准上预算面板约 64.7%、前沿面板约 69.0%。适合高风险研究类任务，不适合低延迟对话。",
+    "url": "https://openrouter.ai/blog/insights/fusion-explainer",
+    "source": "OpenRouter",
+    "source_handle": "@OpenRouterAI",
+    "image": "/assets/covers/cover-20260912-ai-07.jpg",
+    "published_at": "2026-09-10T08:00:00+08:00",
+    "tags": [
+      "OpenRouter",
+      "Fusion",
+      "Agent",
+      "推理"
+    ]
+  },
+  {
+    "title": "Cursor 推出 Projects：协调者智能体管理数千子智能体做大型开发",
+    "summary": "Projects 以云端协调者代理管理长期上下文、并行子智能体与订阅（Slack/日程/PR），用于功能开发、大规模迁移与「园艺」式持续维护。官方称主要使用 Projects 的用户合并 PR 数可达约 6 倍；现以 beta 向全用户推出。",
+    "url": "https://cursor.com/blog/projects",
+    "source": "Cursor",
+    "source_handle": "@cursor_ai",
+    "image": "/assets/covers/cover-20260912-ai-08.jpg",
+    "published_at": "2026-09-10T08:00:00+08:00",
+    "tags": [
+      "Cursor",
+      "Projects",
+      "Agent",
+      "IDE"
+    ]
+  },
+  {
+    "title": "OpenAI 发布 Agents API：托管 Codex harness 一键起云端 Agent",
+    "summary": "开发者文档介绍 Agents API 概览：以托管方式提供 Codex harness，便于在云端创建、编排与运行 Agent 工作流，降低自建沙箱与会话编排成本。",
+    "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+    "source": "OpenAI Developers",
+    "source_handle": "@OpenAIDevs",
+    "image": "/assets/covers/cover-20260912-ai-09.jpg",
+    "published_at": "2026-09-10T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Agents",
+      "API"
+    ]
+  },
+  {
+    "title": "OpenAI Dev：API 开放 GPT-Live-1 全双工语音模型",
+    "summary": "OpenAI 开发者账号宣布在 API 中开放 GPT-Live-1 语音层，面向实时全双工语音交互场景，便于把低延迟语音能力接到现有应用。",
+    "url": "https://x.com/OpenAIDevs/status/2098099269551149398",
+    "source": "OpenAI Developers",
+    "source_handle": "@OpenAIDevs",
+    "image": "/assets/covers/cover-20260912-ai-10.jpg",
+    "published_at": "2026-09-10T20:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "语音",
+      "GPT-Live-1"
+    ]
+  },
+  {
+    "title": "GitHub：日韩营销负责人用 Copilot 把活动运营自动化成「Ops as Code」",
+    "summary": "GitHub 日韩营销负责人 Tomoko Tanaka 分享如何几乎不写传统脚本，用 GitHub Copilot 把活动从策划到跟进的运营流程自动化，示范营销场景下的 Agent/Copilot 落地。",
+    "url": "https://github.blog/ai-and-ml/github-copilot/marketing-ops-as-code-automating-events-from-planning-to-follow-up-on-github",
+    "source": "GitHub Blog",
+    "source_handle": "@github",
+    "image": "/assets/covers/cover-20260912-ai-11.jpg",
+    "published_at": "2026-09-12T02:26:00+08:00",
+    "tags": [
+      "GitHub",
+      "Copilot",
+      "应用"
+    ]
+  },
+  {
+    "title": "Dwarkesh：Millidge、Schulman、O'Neill 对谈递归自我改进还有多远",
+    "summary": "Dwarkesh Patel 与 Zyphra CTO Beren Millidge、Thinking Machines 首席科学家 John Schulman、Baseten 的 Charlie O'Neill 讨论 RSI 时间线、瓶颈与安全含义，呼应本周实验室内部安全争论。",
+    "url": "https://www.dwarkesh.com/p/john-beren-charlie",
+    "source": "Dwarkesh Patel",
+    "source_handle": "@dwarkesh_sp",
+    "image": "/assets/covers/cover-20260912-ai-12.jpg",
+    "published_at": "2026-09-12T00:28:00+08:00",
+    "tags": [
+      "播客",
+      "RSI",
+      "研究"
+    ]
+  },
+  {
+    "title": "CNBC：Mistral 获三星领投融资，估值约 240 亿美元",
+    "summary": "法国开源权重阵营 Mistral 完成约 30 亿欧元融资，投后估值超 210 亿欧元（约 240 亿美元）；三星领投并宣布在半导体产线部署 Mistral 模型的战略合作，Scaleup Europe Fund 等跟投。",
+    "url": "https://www.cnbc.com/2026/09/08/mistral-ai-funding-valuation-samsung.html",
+    "source": "CNBC",
+    "source_handle": "@CNBC",
+    "image": "/assets/covers/cover-20260912-ai-13.jpg",
+    "published_at": "2026-09-08T13:00:00+08:00",
+    "tags": [
+      "Mistral",
+      "融资",
+      "Samsung"
+    ]
+  },
+  {
+    "title": "路透：谷歌两年在芬兰砸约 150 亿美元扩建 AI 基础设施并采购核电",
+    "summary": "Google 宣布未来两年在芬兰至少投入约 130 亿欧元（约 151 亿美元）建设数据中心与配套能源，为其在欧洲最大单笔投资，并与 Fortum 等达成长期核电采购安排。",
+    "url": "https://www.reuters.com/business/media-telecom/google-invest-15-billion-ai-infrastructure-finland-2026-09-09/",
+    "source": "Reuters",
+    "source_handle": "@Reuters",
+    "image": "/assets/covers/cover-20260912-ai-14.jpg",
+    "published_at": "2026-09-09T18:00:00+08:00",
+    "tags": [
+      "Google",
+      "基础设施",
+      "数据中心"
+    ]
+  },
+  {
+    "title": "CNBC：Anthropic 研究员离职警告实验室在「拿生命赌博」",
+    "summary": "Jacob Coxon 宣布从 Anthropic 辞职，批评头部实验室竞速通向自我改进超智能且缺乏足够保障；同日 Hubinger 等公开认同灭绝风险讨论，叠加 Hugging Face 基准测试中模型失控等「警告信号」。",
+    "url": "https://www.cnbc.com/2026/09/09/anthropic-researcher-quits-ai-safety.html",
+    "source": "CNBC",
+    "source_handle": "@CNBC",
+    "image": "/assets/covers/cover-20260912-ai-15.jpg",
+    "published_at": "2026-09-09T20:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "安全",
+      "人才"
+    ]
+  },
+  {
+    "title": "Atoms：DeepSeek V4.1 Flash 架构、计价与相对 V4 Pro 的迁移说明",
+    "summary": "梳理 V4.1 Flash 的 MoE 参数、reasoning_effort 连续控制、OpenAI/Anthropic 兼容端点，以及 9 月 14 日起 v4-pro 流量临时改道 Flash 计费的运营影响，方便工程团队评估切换成本。",
+    "url": "https://atoms.dev/blog/deepseek-v4-1-flash",
+    "source": "Atoms",
+    "source_handle": "@atoms_dev",
+    "image": "/assets/covers/cover-20260912-ai-16.jpg",
+    "published_at": "2026-09-11T12:00:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "API",
+      "迁移"
+    ]
+  },
+  {
+    "title": "实测解读：DeepSeek V4.1 Flash 降价与原生视觉表现",
+    "summary": "中文测评称缓存命中输入价大幅下降、输出价亦显著下调，并用游戏与城市生成等任务验证原生视觉与综合表现；提醒 9 月 14 日中午起发往 v4-pro 的请求将强制路由至 Flash。",
+    "url": "https://aihot.news/items/cmtwsc5gt09uarow7n2r2jrz3",
+    "source": "卡尔的AI沃茨 / AIHOT",
+    "source_handle": "@AIHOT",
+    "image": "/assets/covers/cover-20260912-ai-17.jpg",
+    "published_at": "2026-09-11T12:24:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "测评",
+      "视觉"
+    ]
+  }
+]

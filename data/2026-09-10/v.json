@@ -1,0 +1,148 @@
+[
+  {
+    "title": "小互：Claude API 降本不降质——缓存、提示词与 Effort",
+    "summary": "Anthropic 官方开发团队分享 如何让 Claude API 降本不降质：缓存、提示词与 Effort 的三类优化策略 很多团队看到 Claude API 账单上涨，第一反应是换更便宜的模型、缩短输入，或者让模型少思考。但这些做法都可能直接伤到结果质量，于是降本与性能看起来像一道单选题。",
+    "url": "https://x.com/xiaohu/status/2097664725873992054",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T21:25:00+08:00",
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "API",
+      "成本优化"
+    ],
+    "image": "/assets/covers/cover-20260910-v-00.jpg"
+  },
+  {
+    "title": "小互：OpenAI 算力告急，或暂停新 Pro 订阅",
+    "summary": "OpenAI 算力告急 很多人这几天在Codex工作过程中都收到算力不足的提示 Tibo称他们正在加紧算力的调配来满足Astra的消耗 如果无法解决可能考虑 暂停新的 Pro 订阅 Tibo @thsottiaux 翻译自 英语 Astra 的需求真的前所未有。我们正在竭尽全力拉动所有可能的杠杆来维持需求，但我至…",
+    "url": "https://x.com/xiaohu/status/2097566409329131897",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T14:25:00+08:00",
+    "tags": [
+      "Astra",
+      "OpenAI",
+      "Codex"
+    ],
+    "image": "/assets/covers/cover-20260910-v-01.jpg"
+  },
+  {
+    "title": "小互：Meta 推出个人 AI Agent Muse（云端电脑）",
+    "summary": "Meta 推出个人 AI Agent Muse： 每人一台云端电脑，可持续在后台推进任务 听起来是不是很熟悉？？？ 显然就是manus的翻版 Muse 有哪些核心能力？ 拥有自己的云端电脑：每位用户都有专属 Linux 虚拟机，里面包含文件系统、终端和 Chromium 浏览器。Muse",
+    "url": "https://x.com/xiaohu/status/2097523331046232219",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T11:25:00+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20260910-v-02.jpg"
+  },
+  {
+    "title": "小互：Muse 系统提示词——「让用户的生活变得更好」",
+    "summary": "Muse 的核心系统提示词第一句是： “你的目标是让用户的生活变得更好。”（Your purpose is to make your user's life better.） 这个目标决定了 Muse 的设计重点：它不追求让聊天看起来更聪明，而是尽量替用户接住那些持续占据注意力、却很难一次做完的琐碎事务。",
+    "url": "https://x.com/xiaohu/status/2097523333843812607",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T11:25:00+08:00",
+    "tags": [
+      "Muse"
+    ],
+    "image": "/assets/covers/cover-20260910-v-03.jpg"
+  },
+  {
+    "title": "小互：英矽智能 AI 药物或逆转生物学年龄约 6 岁",
+    "summary": "AI制药公司英矽智能最新突破： 他们的AI 参与设计的药物在临床数据中显示出能够逆转人体“生物学年龄”的迹象 ... 受试者生物学年龄降低了 6 岁 AI制药公司英矽智能（Insilico Medicine）团队在《Nature Biotechnology》发表了一项探索性研究。",
+    "url": "https://x.com/xiaohu/status/2097519108199965124",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T11:25:00+08:00",
+    "tags": [
+      "AI制药"
+    ],
+    "image": "/assets/covers/cover-20260910-v-04.jpg"
+  },
+  {
+    "title": "小互：GPT-Image 2.5 可控编辑可替代 Photoshop",
+    "summary": "GPT-Image 2.5 本次最大的升级是超乎你想象的强大的可控编辑能力 就是你能完全精确控制图像哪里变哪里不变，而且只需要通过文字描述即可对图像进行非常精细和精准的编辑，可以说是完全替代 Photoshop 级别的更新... 分享个15个精准编辑场景提示词 Prompt都能直接复制： 1，多图分工合并",
+    "url": "https://x.com/xiaohu/status/2097486974261362853",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T09:25:00+08:00",
+    "tags": [
+      "图像"
+    ],
+    "image": "/assets/covers/cover-20260910-v-05.jpg"
+  },
+  {
+    "title": "小互：比 Astra 更强的内部模型解出 Navier–Stokes",
+    "summary": "比 GPT-6 Astra 更强的下一代模型曝光 OpenAI宣布，公司内部的一个AI模型解出了纳维斯托克斯方程的存在性与光滑性问题 这是克莱数学研究所2000年提出的七个千禧年大奖难题之一，每个悬赏100万美元 此前只有一个千禧年难题被解开过 该模型调动了多达1万个Agent 并行工作约88小时...",
+    "url": "https://x.com/xiaohu/status/2097477721672855994",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-08T12:00:00+08:00",
+    "tags": [
+      "Astra",
+      "GPT-6",
+      "OpenAI",
+      "Navier-Stokes"
+    ],
+    "image": "/assets/covers/cover-20260910-v-06.jpg"
+  },
+  {
+    "title": "Max：Andrew Garfield 演完 Altman 后弃用 ChatGPT",
+    "summary": "有点好笑，Andrew Garfield在即将上映的电影《人工智能》中饰演Sam Altman之后，他就立刻不再使用 ChatGPT 了。 加菲最近在采访里聊到，16 年前拍完《社交网络》之后，自己立刻不用 Facebook 了。 这次拍完 OpenAI 电影《Artificial》，类似的感觉又出现了。 为了演…",
+    "url": "https://x.com/MaxForAI/status/2097775405734441204",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-10T04:25:00+08:00",
+    "tags": [
+      "OpenAI"
+    ],
+    "image": "/assets/covers/cover-20260910-v-07.jpg"
+  },
+  {
+    "title": "卡兹克：Codex 回测 AIHOT 误烧近 800 元 DeepSeek 额度",
+    "summary": "用Codex跑AIHOT的数据回测，然后他自己看了下，决定去调我DeepSeek的API Key，然后一天跑没了我快800块的额度... 我尼玛...",
+    "url": "https://x.com/Khazix0918/status/2097606288083407037",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-09T17:25:00+08:00",
+    "tags": [
+      "Codex",
+      "DeepSeek",
+      "API"
+    ],
+    "image": "/assets/covers/cover-20260910-v-08.jpg"
+  },
+  {
+    "title": "卡兹克：GPT-6 Astra 推理等级怎么选才最省 Token",
+    "summary": "文章 一文带你看懂，GPT-6 Astra推理等级怎么选才最省Token。 这几天，大家应该都用GPT-6 Astra了吧。 然后呢，我发现大家问我的问题，已经开始随着时间发生变化了。 第一天：“GPT-6 Astra上线了，你咋还没发，别睡了，起来评测搞快点。” 第二天：“GPT-6咋操控Blender啊？”...",
+    "url": "https://x.com/Khazix0918/status/2097514168425594980",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-09T11:25:00+08:00",
+    "tags": [
+      "Astra",
+      "GPT-6",
+      "Token"
+    ],
+    "image": "/assets/covers/cover-20260910-v-09.jpg"
+  },
+  {
+    "title": "早报：商务部回应美方指控中企 AI 蒸馏",
+    "summary": "对于美国指控六家中企违规获取美国AI模型输出，中国商务部回应称，蒸馏（distillation）是AI领域各个模型间互相学习的通行做法，美方将蒸馏技术政治化、工具化，是推行科技霸权。",
+    "url": "https://x.com/zaobaosg/status/2097839278256497145",
+    "source": "联合早报",
+    "source_handle": "@zaobaosg",
+    "published_at": "2026-09-10T08:11:00+08:00",
+    "tags": [
+      "蒸馏"
+    ],
+    "image": "/assets/covers/cover-20260910-v-10.jpg"
+  }
+]

@@ -1,0 +1,8 @@
+Following confirmed: Y (home showed 正在关注 selected)
+Login: Y (account menu 账号菜单 present; home/profile nav OK)
+Scroll depth: Following home ~20 scrolls (40 unique) + priority profile fallback (Khazix0918, MaxForAI, xiaohu, ChineseWSJ, testingcatalog, dashiAIxz, zaobaosg, nanyuan0412, Svwang1, 0kncn, gefei55).
+Unique AI posts written: 20
+Counts per handle: @xiaohu 6; @testingcatalog 4; @MaxForAI 3; @zaobaosg 2; @nanyuan0412 2; @dashiAIxz 1; @ChineseWSJ 1; @Khazix0918 1.
+Method: box Chrome CDP on existing logged-in session (executor has no Task/computerUse tool); X MCP API not used.
+Dedup: excluded 2026-09-29 and 2026-09-28 v.json status IDs; skipped thin reactions and AIHOT near-duplicate of yesterday.
+Blockers: none (login OK).

@@ -1,0 +1,33 @@
+Alioxis News 大V视野 — 2026-09-29
+item_count: 14
+Following confirmed; X API credits $0; browser scrape + profile fallback + top-up.
+Skipped thin Max replies: 2104621775825051973, 2104621747878416471.
+Counts: @ChineseWSJ 1 / @xiaohu 1 / @zaobaosg 2 / @Khazix0918 5 / @MaxForAI 3 / @testingcatalog 1 / @dashiAIxz 1
+1. 华尔街日报中文网独家：OpenAI 因安全担忧取消发布下一代模型 GPT-6.1 Astra
+   https://x.com/ChineseWSJ/status/2104722851248963990
+2. 小互：OpenAI Dev Day 预告约 20 项发布，主打 GPT Bot 个人 Agent
+   https://x.com/xiaohu/status/2104721207396544930
+3. 联合早报：比尔·盖茨呼吁国会立法监管 AI，警告足以造成十亿人死亡量级风险
+   https://x.com/zaobaosg/status/2104708273580466594
+4. 联合早报：新加坡 8 月制造业产值同比增 15.4%，AI 相关需求带动明显
+   https://x.com/zaobaosg/status/2104497016067727388
+5. 卡兹克：实测 Opus 5.5 Max——一次没有翻车
+   https://x.com/Khazix0918/status/2104605317128671537
+6. 卡兹克：下午切换后缓存 bug 已最快修好
+   https://x.com/Khazix0918/status/2104563941322174935
+7. 卡兹克：实测 200 刀 Codex + 100 刀 Claude 足以覆盖日常用量且绰绰有余
+   https://x.com/Khazix0918/status/2104561159236120822
+8. 卡兹克：折腾三天用 Claude Opus 5.5 与 GPT-6 协同重写并上线 AIHOT，分享全流程
+   https://x.com/Khazix0918/status/2104555128691073505
+9. Max for AI：Manus Cue 一美元买电话号码功能太强，足以拉动长期续费
+   https://x.com/MaxForAI/status/2104620904584200697
+10. Max for AI：Manus 算第二代 Agent 开创者
+   https://x.com/MaxForAI/status/2104620343659044884
+11. Max for AI：阿里腾讯字节对标 Muse 的 Personal Agent，目前最好看是 Manus 2.0 Cue
+   https://x.com/MaxForAI/status/2104609487462220015
+12. TestingCatalog：OpenAI DevDay 非公开议程要点——Codex 平台化与开发者能力
+   https://x.com/testingcatalog/status/2104715471841034537
+13. 大师的AI小灶：Claude Sonnet 5.5 发布——更快更顺手，代码与工具能力大提升
+   https://x.com/dashiAIxz/status/2104642472060326103
+14. 卡兹克：月活百万 AI 热点站 AIHOT 正式开源
+   https://x.com/Khazix0918/status/2104729276952277239

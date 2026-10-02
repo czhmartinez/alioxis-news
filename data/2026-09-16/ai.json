@@ -1,0 +1,290 @@
+[
+  {
+    "title": "卡兹克 AIHOT 日报（2026-09-16）：Gemini 3.8 Live、Vidu S2、StepAudio 3 与 CobbleDB",
+    "summary": "数字生命卡兹克的 AIHOT 自动生成 9 月 16 日精选日报，覆盖十三件大事：Google DeepMind 发布 Gemini 3.8 Live / 3.8 Live Extended Thinking 近实时语音模型；生数科技发布 Vidu S2（Avatar + Editing）并探索空间视频；阶跃星辰发布 StepAudio 3 系列语音大模型；Google 宣布语言技术覆盖 300+ 语言并提及 TranslateGemma；Anthropic 为 Claude for Small Business 新增工作流与集成；Perplexity 自研 CobbleDB 替代 DynamoDB；Gergely Orosz 探访 OpenAI 的 Codex 智能体软件工厂；以及放缓倡议争议、Arena Image-to-WebDev、Speech-to-Speech 榜、Trail of Bits 批评 1Password 基准、Vercel AI 销售自动化等。",
+    "url": "https://aihot.news/daily/2026-09-16",
+    "source": "AIHOT（数字生命卡兹克）",
+    "source_handle": "@数字生命卡兹克",
+    "image": "/assets/covers/cover-20260916-ai-00.jpg",
+    "published_at": "2026-09-16T08:00:00+08:00",
+    "tags": [
+      "AIHOT",
+      "日报",
+      "Gemini",
+      "Vidu S2",
+      "StepAudio"
+    ]
+  },
+  {
+    "title": "Google DeepMind 发布 Gemini 3.8 Live 与 3.8 Live Extended Thinking：边聊边干活的语音智能体",
+    "summary": "Google 于 9 月 15 日推出两款近实时语音对话模型。Gemini 3.8 Live 面向高吞吐与成本效率，支持近实时视觉上下文、对话中切换 97 种语言，并在后台异步执行工具调用；3.8 Live Extended Thinking 可边推理边说话，用口头进度叙述引导多步任务。官方称 Extended Thinking 在 Artificial Analysis Speech-to-Speech Quality Index 取得 82.6 总体第一，τ-Voice 达 68.6%。模型已通过 Gemini API / AI Studio 开放，并嵌入 Search Live、Workspace 的 Docs/Gmail/Keep Live；Agora、LiveKit、Pipecat、Vercel 等可接入 Live API。音频输出带 SynthID 水印。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking/",
+    "source": "Google",
+    "source_handle": "@Google",
+    "image": "/assets/covers/cover-20260916-ai-01.jpg",
+    "published_at": "2026-09-15T12:00:00+08:00",
+    "tags": [
+      "Gemini",
+      "语音模型",
+      "Live API",
+      "Google DeepMind",
+      "Agent"
+    ]
+  },
+  {
+    "title": "生数科技发布 Vidu S2：实时数字人 Avatar + 实时视频流 Editing，并探索空间视频",
+    "summary": "生数科技正式上线 Vidu S2：S2-Avatar 将实时输出提升至 720p、约 25–42 FPS，支持对话中随时追加参考图以换装、换景、拿取道具，并增强舞蹈等全身动作指令跟随；S2-Editing 对持续视频流做风格迁移、虚拟试穿、人物与背景替换，同时保留原动作与时序。团队还探索将生成/编辑结果转为左右眼视图供 VR 头显使用。在线 Demo 与 API 已开放，技术报告见 arXiv:2609.11638。",
+    "url": "https://www.aicoin.com/zh-Hans/article/552847",
+    "source": "AiCoin / 生数科技",
+    "source_handle": "@ViduAI",
+    "image": "/assets/covers/cover-20260916-ai-02.jpg",
+    "published_at": "2026-09-15T22:00:00+08:00",
+    "tags": [
+      "视频生成",
+      "Vidu",
+      "实时",
+      "数字人",
+      "开源论文"
+    ]
+  },
+  {
+    "title": "阶跃星辰发布 StepAudio 3 系列：Realtime / ASR / TTS / Gen / Music 五模型全栈上线",
+    "summary": "阶跃星辰 9 月 15 日发布 StepAudio 3 系列五款模型：Realtime 支持原生全双工与异步 Tool Call，Artificial Analysis Conversational Dynamics 报 98.9%、Speech Reasoning 亦居前列；ASR 非流式 WER 报 1.7%；TTS 强调副语言与流式播放；Gen 可用自然语言一次生成人声/音效/环境声/配乐；Music 支持作词编曲、清唱配乐与 ABC 记谱多轮创作。五款均已上线阶跃星辰开放平台。",
+    "url": "https://finance.sina.com.cn/tech/mobile/n/n/2026-09-15/doc-inirxats8546869.shtml",
+    "source": "新浪数码 / 阶跃星辰",
+    "source_handle": "@StepFun_AI",
+    "image": "/assets/covers/cover-20260916-ai-03.jpg",
+    "published_at": "2026-09-15T16:51:00+08:00",
+    "tags": [
+      "语音模型",
+      "StepAudio",
+      "阶跃星辰",
+      "Realtime",
+      "TTS"
+    ]
+  },
+  {
+    "title": "Google：语言 AI 已覆盖 300+ 语言、86% 全球人口；TranslateGemma 可离线翻译",
+    "summary": "Google 9 月 15 日发文称其产品与技术已支持逾 300 种语言、覆盖逾 70 亿人（约全球人口 86%）；Google Translate 本身超过 250 种。文章强调从文本管线转向原生音频理解，并列举 Gemini 3.5 Live Translate（70+ 语言、2000+ 语对）、Universal Speech Model、WAXAL/Project Vaani 等社区数据合作，以及面向弱网的 TranslateGemma 开源轻量翻译家族（基于 Gemini 蒸馏、55 语、可端侧运行）与面向功能机的 Viamo AVA 试点。",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+    "source": "Google",
+    "source_handle": "@Google",
+    "image": "/assets/covers/cover-20260916-ai-04.jpg",
+    "published_at": "2026-09-15T12:00:00+08:00",
+    "tags": [
+      "多语言",
+      "TranslateGemma",
+      "Google",
+      "语音",
+      "无障碍"
+    ]
+  },
+  {
+    "title": "Anthropic：Claude for Small Business 新增 43 个工作流与 27 个集成，安装超 90 万次",
+    "summary": "Anthropic 为 Claude for Small Business 扩充至 43 个工作流，并新增 Shopify、Salesforce、TikTok、Atlassian、Zoom、Xero、Gusto、Square、Stripe、Zapier 等 27 个集成（合作伙伴连接器合计 37 个），覆盖周一简报、线索响应、提案、营销与关账等。产品自 5 月上线以来安装量超过 90 万次；默认审批模式，发送/发布/付款需用户确认。今秋将在 10 个美国城市办免费工作坊，14 家集成伙伴自 9 月底至 11 月各办一场免费网络研讨会。",
+    "url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+    "source": "Anthropic / Claude",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20260916-ai-05.jpg",
+    "published_at": "2026-09-15T12:00:00+08:00",
+    "tags": [
+      "Claude",
+      "中小企业",
+      "工作流",
+      "集成",
+      "Cowork"
+    ]
+  },
+  {
+    "title": "Perplexity 自研 CobbleDB 替代 DynamoDB：批量读延迟约降 5 倍，AI 智能体两月内建成",
+    "summary": "据报道，Perplexity 于 9 月中旬公布自研键值热存储 CobbleDB（约 4 万行 Rust），用于 AI 搜索的预制备页面批量读取，替代 AWS DynamoDB。生产前后对比显示中位批量读延迟从 31.4ms 降至 5.60ms（约降 82%/约 5 倍），P99 从 123ms 降至 24.2ms；内部成本模型估计相对 DynamoDB 至少节省 20%。架构拆分为 Pillar（持久文档）、Lorry（批量写入）与 CobbleDB（热读），并由内部 AI 编码智能体群在约两个月内完成核心建设；公司表示规模验证后考虑开源。官方技术博文见 perplexity.ai/hub/blog/cobbledb。",
+    "url": "https://cryptobriefing.com/perplexity-cobbledb-batch-read-latency/",
+    "source": "CryptoBriefing / Perplexity",
+    "source_handle": "@perplexity_ai",
+    "image": "/assets/covers/cover-20260916-ai-06.jpg",
+    "published_at": "2026-09-15T12:00:00+08:00",
+    "tags": [
+      "Perplexity",
+      "基础设施",
+      "CobbleDB",
+      "数据库",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Gergely Orosz 探访 OpenAI：Codex 已成为几乎全员工作的「智能体软件工厂」",
+    "summary": "The Pragmatic Engineer 于 9 月 15 日发布实地访谈：自约 1 月起 Codex（及 ChatGPT Work）成为 OpenAI 几乎所有工作的基础，非工程部门在数月内从近零升至约 90% 周活；IDE 使用下降，CI/CD 负载约半年暴增约 10 倍。文中描述「agentic software factory」流水线——人类定义目标，Codex 收集上下文、改代码、盯绿 CI，多领域智能体做代码评审，再由部署智能体 escort 上线，Perf Factory 与 Sevbot 承接性能与事故。访谈对象包括 Applied Infra、ChatGPT、Desktop、Core Agent 等七位工程负责人。",
+    "url": "https://newsletter.pragmaticengineer.com/p/openai-software-factory",
+    "source": "The Pragmatic Engineer",
+    "source_handle": "@GergelyOrosz",
+    "image": "/assets/covers/cover-20260916-ai-07.jpg",
+    "published_at": "2026-09-15T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "工程实践",
+      "Agent",
+      "软件工厂"
+    ]
+  },
+  {
+    "title": "Salesforce × NVIDIA 发布 Koa：首款 CRM 推理模型，基于 Nemotron 3 Super 后训练",
+    "summary": "Dreamforce 期间 Salesforce 与 NVIDIA 宣布 Koa——面向 Agentforce 的首款 CRM 推理模型，在 Nemotron 3 Super 上用合成数据（模拟近 30 年 CRM 流程、覆盖 14+ 行业）做 SFT 与 GRPO 后训练，未使用真实客户数据。Salesforce 称在自建 CRM 动作基准上已达或超过领先模型，错误约少 3 倍；权重与推理均在其信任边界内。现已向 1-800Accountant、Baxter Credit Union、Engine、F1、UChicago Medicine、Xero 等试点客户开放，美国区预计 Winter 2026 正式上线。同步将 Nemotron 与加速计算引入 Missionforce 以支持政务/受监管环境。",
+    "url": "https://www.salesforce.com/news/press-releases/2026/09/15/koa-reasoning-model/",
+    "source": "Salesforce",
+    "source_handle": "@salesforce",
+    "image": "/assets/covers/cover-20260916-ai-08.jpg",
+    "published_at": "2026-09-15T20:00:00+08:00",
+    "tags": [
+      "Salesforce",
+      "Koa",
+      "NVIDIA",
+      "Agentforce",
+      "企业AI"
+    ]
+  },
+  {
+    "title": "TechCrunch：Koa 代表企业「专用推理」与闭源前沿实验室路线分叉",
+    "summary": "TechCrunch 分析称 Salesforce 的 Koa 体现企业需求与前沿实验室通用模型供给的分化：开源权重底座、任务专用、零客户数据训练、更省 token，并经 Agentforce AI 网关按需路由。此前长流程推理依赖 Claude/ChatGPT；Salesforce AI EVP 称 Nemotron 提供了可溯源、主权友好的美系预训练底座。公司同时宣布与 Anthropic 的 Claudeforce 合作，让 Claude 作前端交互而业务数据仍留在 Salesforce。",
+    "url": "https://techcrunch.com/2026/09/15/salesforce-and-nvidias-new-reasoning-model-is-everything-the-ai-labs-should-fear/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260916-ai-09.jpg",
+    "published_at": "2026-09-15T20:00:00-07:00",
+    "tags": [
+      "Koa",
+      "企业AI",
+      "Nemotron",
+      "Agentforce",
+      "TechCrunch"
+    ]
+  },
+  {
+    "title": "Trail of Bits：1Password「AI 补丁」FLAWED 基准误导——并开源两项验证技能",
+    "summary": "Trail of Bits 9 月 15 日发文批评 1Password 8 月 6 日 FLAWED 报告把「干净修复率 26%」当作 AI 补丁能力代表。其复盘指：样本刻意选难修漏洞；约 22% 数据含故意指示错误修复的提示；约 36% 试验禁止编译/测试；模型推理档位不一致。在可测试且无误导提示的子集中，2634/3067（86%）补丁可挡住所给 exploit。文中还给出 Patch the Planet 186 个已结 PR 中 67.7% 被维护者合并，并发布 post-patch-validation 与 review-walkthrough 两个 Agent 技能。",
+    "url": "https://blog.trailofbits.com/2026/09/15/1passwords-ai-patching-benchmark-is-misleading/",
+    "source": "Trail of Bits",
+    "source_handle": "@trailofbits",
+    "image": "/assets/covers/cover-20260916-ai-10.jpg",
+    "published_at": "2026-09-15T12:00:00+08:00",
+    "tags": [
+      "安全",
+      "AI补丁",
+      "基准",
+      "开源",
+      "Agent技能"
+    ]
+  },
+  {
+    "title": "Tomasz Tunguz / Vercel：inbound SDR 90% 自动化，团队从 10 人压至约 1.25 人",
+    "summary": "Vercel COO Jeanne DeWitt Grosser 在 The Information 访谈中称，公司 inbound 销售开发已约 90% 自动化，自建客服智能体处理约 93% 工单；两类系统年基础设施账单仅「数千美元」量级，销售开发智能体 ROI 约 32 倍。配套报道指 inbound SDR 团队从 10 人压缩至约 1.25 人。Tunguz 总结瓶颈不在模型本身，而在把顶尖 SDR 工作流固化为可运行的 Agent 流程。",
+    "url": "https://tomtunguz.com/single-digit-thousand-dollar-ai-sdr/",
+    "source": "Tomasz Tunguz",
+    "source_handle": "@ttunguz",
+    "image": "/assets/covers/cover-20260916-ai-11.jpg",
+    "published_at": "2026-09-15T12:00:00+08:00",
+    "tags": [
+      "Vercel",
+      "销售自动化",
+      "Agent",
+      "ROI",
+      "GTM"
+    ]
+  },
+  {
+    "title": "Straits Times：OpenAI 称正与 Anthropic、Google 推进类 FINRA 的 AI 标准机构设想",
+    "summary": "《海峡时报》9 月 16 日报道，OpenAI 于 9 月 15 日表示正与 Anthropic、Google 就行业标准机构构想开展工作，灵感来自 DeepMind CEO Demis Hassabis 7 月提出的、类似美国 FINRA 的前沿模型发布前测试组织。报道同时援引 Cohere CEO 对「安全幌子卡特尔」的批评、Anthropic/DeepMind 离职员工风险警告，以及 Amodei 放缓倡议获 Altman、Musk、Hassabis 呼应、Nvidia CEO Huang 反对末日叙事等背景。此为 9 月 12–15 日行业安全/治理线的最新官方表态角度。",
+    "url": "https://www.straitstimes.com/world/united-states/openai-anthropic-and-google-are-working-to-create-an-ai-standards-body",
+    "source": "The Straits Times",
+    "source_handle": "",
+    "image": "/assets/covers/cover-20260916-ai-12.jpg",
+    "published_at": "2026-09-16T01:56:00+08:00",
+    "tags": [
+      "AI安全",
+      "治理",
+      "OpenAI",
+      "Anthropic",
+      "Google"
+    ]
+  },
+  {
+    "title": "Arena Image-to-WebDev：GPT-6 Astra (Max) 1733 分居首，Claude Fable 5.1 / Muse Spark 紧随",
+    "summary": "Arena（arena.ai）Image-to-WebDev 排行榜快照（标注 Sep 13, 2026，约 12.8 万票、50 模型）显示：gpt-6-astra-max 以 1733 分排名第一；claude-fable-5.1-max 1710 分第二；claude-opus-5-max 1665 分第三；muse-spark-1.3-max 1645 分第四；开源侧 glm-5.3-flash 以 1588 分进入前十。榜单衡量从截图/设计图生成网站及多步工具使用的编码能力，为今日 AIHOT 提及的评测更新提供可核验页面。",
+    "url": "https://arena.ai/leaderboard/code/image-to-webdev",
+    "source": "Arena",
+    "source_handle": "@lmarena_ai",
+    "image": "/assets/covers/cover-20260916-ai-13.jpg",
+    "published_at": "2026-09-13T12:00:00+08:00",
+    "tags": [
+      "评测",
+      "WebDev",
+      "GPT-6",
+      "Claude",
+      "Arena"
+    ]
+  },
+  {
+    "title": "Artificial Analysis：Speech-to-Speech 榜上 Gemini 3.8 Live ET 82.6、GPT-Live-1 81.5 领跑",
+    "summary": "Artificial Analysis 语音到语音排行榜当前数据显示：Gemini 3.8 Live Extended Thinking (High) 综合指数 82.6（Speech Reasoning 约 98%、τ-Voice 68.6%）；OpenAI GPT-Live-1（Astra medium）81.5、Grok Voice Think Fast 2.0 High 81.3。GPT-Live-1 采用「语音层 + 后端文本模型」混合架构，Astra 配置在 τ-Voice 达 67.9%。阶跃 StepAudio 3 Realtime 在 Conversational Dynamics（98.9%）与 Speech Reasoning 分项亦居前列。页面为持续更新的公开排行榜。",
+    "url": "https://artificialanalysis.ai/speech-to-speech",
+    "source": "Artificial Analysis",
+    "source_handle": "@ArtificialAnlys",
+    "image": "/assets/covers/cover-20260916-ai-14.jpg",
+    "published_at": "2026-09-15T12:00:00+08:00",
+    "tags": [
+      "评测",
+      "语音",
+      "GPT-Live-1",
+      "Gemini",
+      "Speech-to-Speech"
+    ]
+  },
+  {
+    "title": "Google 开发者向：用 Gemini 3.8 Live / 3.5 Transcribe 构建实时语音应用",
+    "summary": "配套开发者博文详述 Gemini 3.8 Live 与 Extended Thinking 已通过 Live API 向开发者开放，音频输入约 $0.005/分钟、输出约 $0.018/分钟；能力包括异步函数调用、视觉上下文、97+ 语言与字母数字高精度。同文回顾上月发布的 Gemini 3.5 Transcribe（流式 WER 约 4.0%、非流式约 2.6%，85+ 语言），并列出 LiveKit、LangChain、Pipecat、Vercel 等集成伙伴。可与主力产品发布一并作为工程落地参考。",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/",
+    "source": "Google Developers Blog",
+    "source_handle": "@Google",
+    "image": "/assets/covers/cover-20260916-ai-15.jpg",
+    "published_at": "2026-09-15T12:00:00+08:00",
+    "tags": [
+      "Gemini",
+      "Live API",
+      "开发者",
+      "Transcribe",
+      "语音"
+    ]
+  },
+  {
+    "title": "AlphaSignal：GPT-Live-1 靠「语音与推理分离」登顶 Speech-to-Speech 综合榜",
+    "summary": "AlphaSignal 9 月 15 日综述 OpenAI GPT-Live-1：全双工语音层负责话轮与打断，复杂推理与工具调用交给 Astra/Sol 等后端文本模型；Artificial Analysis 综合指数 Astra medium 配置报 81.5（当时叙述为第一），τ-Voice 67.9% 显著高于 Grok Voice Think Fast 2.0 High 的 56.5%，但 Big Bench Audio 推理落后于 Qwen/Grok，首包音频约 1.24–1.34 秒。API 语音层报价约 $0.05/分钟，含后端 token 的评估成本约每输入音频小时 $4.47–$5.83。",
+    "url": "https://alphasignal.ai/news/openai-s-gpt-live-1-tops-voice-benchmark-by-splitting-speech-from-reasoning",
+    "source": "AlphaSignal",
+    "source_handle": "",
+    "image": "/assets/covers/cover-20260916-ai-16.jpg",
+    "published_at": "2026-09-15T11:14:00+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-Live-1",
+      "语音Agent",
+      "评测",
+      "API"
+    ]
+  },
+  {
+    "title": "Vidu S2 技术报告 arXiv：Real-Time Interactive, Editable, and Spatial Video Generation",
+    "summary": "arXiv:2609.11638（提交于 2026-09-10，随产品发布被广泛引用）系统介绍 Vidu S2-Avatar 与 S2-Editing：相对 S1，Avatar 支持实时 720p、动态参考更新与更强指令跟随；Editing 支持对视频流的风格/服装/人物/背景实时编辑；并探索面向 VR 的实时空间视频。论文与 Hugging Face Papers 页提供方法细节与基准对比，在线 Demo 指向 vidu.com/vidu-stream。",
+    "url": "https://arxiv.org/abs/2609.11638",
+    "source": "arXiv",
+    "source_handle": "",
+    "image": "/assets/covers/cover-20260916-ai-17.jpg",
+    "published_at": "2026-09-10T12:00:00+08:00",
+    "tags": [
+      "论文",
+      "Vidu",
+      "视频生成",
+      "arXiv",
+      "实时"
+    ]
+  }
+]

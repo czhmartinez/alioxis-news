@@ -1,0 +1,92 @@
+Alioxis News AI新闻 collect report — 2026-09-23
+generated_at_local: 2026-09-23 ~08:20 Asia/Taipei (box)
+item_count: 18
+
+AIHOT status:
+  - daily URL: https://aihot.virxact.com/api/v1/dailies/2026-09-23 → HTTP 200
+  - latest: also 2026-09-23, HTTP 200
+  - report.date: 2026-09-23
+  - generatedAt (API UTC): 2026-09-23T00:01:15.299Z
+  - lead: None (null — no official lead; used Anthropic Claude Opus 5.5 as digest #1)
+  - section item counts: {'模型发布/更新': 8, '产品发布/更新': 7, '行业动态': 3, '论文研究': 1, '技巧与观点': 6}
+  - raw saved: _aihot_daily.json / _aihot_raw.json
+
+sources_used:
+  - Anthropic
+  - Apple Newsroom
+  - Ars Technica
+  - Artificial Analysis
+  - Claude Code / GitHub
+  - Epoch AI
+  - GitHub Changelog
+  - Gizmodo / Bloomberg
+  - Google / InfoQ
+  - Hugging Face
+  - Kimi / 月之暗面
+  - LlamaIndex
+  - OpenAI
+  - OpenRouter
+  - OpenRouter / NVIDIA
+
+titles_and_urls:
+  01. Anthropic 发布 Claude Opus 5.5：多数任务达 Fable 5.1 水平，典型负载成本较 Opus 5 降约 40%
+      https://www.anthropic.com/claude-opus-5-5
+  02. OpenAI 发布 GPT-6 Sol 与 GPT-6 Luna：API 价较 GPT-5.6 促销价降 50%
+      https://openai.com/index/introducing-gpt-6-sol-and-luna
+  03. Artificial Analysis：Claude Opus 5.5 智能指数 58 登顶，Terminal-Bench 与 Astra 持平
+      https://artificialanalysis.ai/articles/claude-opus-5-5
+  04. Artificial Analysis：GPT-6 Sol/Luna 成本减半，智能指数与 5.6 持平、幻觉显著下降
+      https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier
+  05. Hugging Face：transformers 可直接加载运行 GGUF 量化模型，Metal 性能接近 llama.cpp
+      https://huggingface.co/blog/transformers-llama-cpp-quants
+  06. OpenRouter 推出 Batch API：24 小时窗口异步批量推理，通常半价起
+      https://openrouter.ai/blog/announcements/batch-api
+  07. 月之暗面发布 Kimi 浏览器扩展：由 WebBridge 更名，侧边栏 Agent 可操控网页
+      https://kimi.com/products/kimi-browser-extension
+  08. Claude Code v2.1.280：默认 Opus 升为 Claude Opus 5.5（1M 上下文，$4/$20）
+      https://github.com/anthropics/claude-code/releases/tag/v2.1.280
+  09. LlamaIndex LiteParse 9 月更新：PDFium 提速约 20–25%，新增视觉定位与 is-complex 路由
+      https://www.llamaindex.ai/blog/liteparse-updates-september-2026
+  10. Apple 新款 Mac mini（M6/M5 Pro）与 Mac Studio（M5 Max/Ultra）开售，主打端侧 AI
+      https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today
+  11. OpenAI 为 GPT-6 推出改进提示词缓存：默认更高命中率，缓存输入最高 90% 折扣
+      https://openai.com/index/better-prompt-caching-for-gpt-6
+  12. Gizmodo/Bloomberg：五角大楼审查指过度依赖 Palantir Maven AI 与误击伊朗小学相关
+      https://gizmodo.com/pentagon-investigators-say-overreliance-on-palantir-ai-tech-contributed-to-u-s-strike-that-killed-123-iranian-children-2000814477
+  13. Ars：Meta Muse 曝严重 0-day，本地应用可劫持助手；亚马逊已阻断其代购
+      https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day
+  14. Epoch AI：同等 AI 性能成本过去三年平均每季降约 47%（约每年 13 倍）
+      https://epoch.ai/publications/the-plunging-price-of-thought
+  15. OpenRouter 实测：Jev 1.13 分类准确率仅低 Opus 5 约 3.3 分，延迟约 1/13、成本约 1/22
+      https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification
+  16. Google 开源 AX（Agent Executor）：Kubernetes 风格声明式自治 Agent 编排运行时
+      https://github.com/google/ax
+  17. GitHub Copilot 上线 GPT-6 Sol 与 Luna：补齐 Astra 之外的日常编码与低成本选项
+      https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available/
+  18. OpenRouter 解读 NVIDIA Nemotron 3.5 Lightning：30B MoE / 约 3B 激活，面向 Agent 高频执行步
+      https://openrouter.ai/blog/insights/nemotron-3-5-lightning
+
+skip notes:
+  - SKIP (2026-09-22 digest): MiMo-V2.6-Pro/AA46, Grok 4.7, AA Grok 4.7, BC OpenAI lawsuit,
+    Amazon×Meta Muse shopping ban (as standalone ecommerce story), Kimi Code Desktop,
+    OpenAI global standards / math advisory / Astra for Law / Academy paths,
+    OpenAI–Anthropic stress-test talks, Linear CI, Tunguz if-then, Nathan Lambert open-weight,
+    Light-O1, Ling-3.0-flash-Fin, Altis Labs.
+  - SKIP stale/rehash from AIHOT 2026-09-23: Qwen-Image-2.1 Arena rank; Step 5 Preview AA 44;
+    卡兹克 WeChat Grok 4.7 vs MiMo V2.6 (covers yesterday leads).
+  - SKIP X-only duplicates of Opus 5.5 / Sol-Luna (prefer official pages).
+  - INCLUDE Muse 0-day (Ars) as NEW security angle vs yesterday Amazon shopping-ban item.
+  - Claude Code: did NOT repeat AIHOT claim that Pro/Team Standard default flipped Sonnet→Opus;
+    release notes only confirm Opus 5.5 as default Opus model + pricing.
+
+verification:
+  - All item URLs HTTP 200 via curl -L (OpenAI intro page returns 200 to curl; WebFetch got 403).
+  - Primary facts cross-checked from page text / WebFetch / GitHub release body / AA articles.
+  - image fields all empty string for later cover generation.
+
+blockers:
+  - None blocking collect. AIHOT lead was null (not a failure).
+  - WebFetch 403 on openai.com/index/introducing-gpt-6-sol-and-luna; verified via curl HTML extract + TechCrunch/GitHub secondary.
+  - GitHub Releases API returned empty for v2.1.280 (unauth); used HTML release notes instead.
+
+aihot_lead_used: false (lead null); digest_lead_item: Claude Opus 5.5

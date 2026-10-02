@@ -1,0 +1,200 @@
+[
+  {
+    "kind": "ai",
+    "index": 0,
+    "style": "editorial",
+    "filename_png": "cover-20260909-ai-00.png",
+    "filename_jpg": "cover-20260909-ai-00.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-00.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic magazine desk scene with layered Chinese and English news printouts, sticky notes, and a glowing laptop showing an AI digest dashboard, warm morning light, no text no logos",
+    "title": "卡兹克 AIHOT 日报（2026-09-09）：ChatGPT Images 2.5 与 Navier–Stokes "
+  },
+  {
+    "kind": "ai",
+    "index": 1,
+    "style": "app",
+    "filename_png": "cover-20260909-ai-01.png",
+    "filename_jpg": "cover-20260909-ai-01.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-01.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic creative studio desk with a large monitor showing colorful AI-generated image thumbnails being edited, stylus tablet beside keyboard, soft natural window light, no text no logos",
+    "title": "OpenAI 发布 ChatGPT Images 2.5：细节更锐、编辑更准，生成延迟最多降 50%"
+  },
+  {
+    "kind": "ai",
+    "index": 2,
+    "style": "business",
+    "filename_png": "cover-20260909-ai-02.png",
+    "filename_jpg": "cover-20260909-ai-02.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-02.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photo of a modern European tech HQ lobby with glass atrium and subtle blue-white lighting suggesting a major funding announcement day, photorealistic, no text no logos",
+    "title": "Mistral 完成 30 亿欧元 D 轮：投后估值超 210 亿欧元，三星电子领投"
+  },
+  {
+    "kind": "ai",
+    "index": 3,
+    "style": "business",
+    "filename_png": "cover-20260909-ai-03.png",
+    "filename_jpg": "cover-20260909-ai-03.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-03.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic editorial photo of stacked euro banknotes and a sleek laptop on a boardroom table with soft bokeh city skyline, business magazine style, no text no logos",
+    "title": "IT之家：Mistral D 轮 30 亿欧元、估值超 210 亿欧元，三星领投创欧洲纪录"
+  },
+  {
+    "kind": "ai",
+    "index": 4,
+    "style": "research",
+    "filename_png": "cover-20260909-ai-04.png",
+    "filename_jpg": "cover-20260909-ai-04.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-04.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary photo of a mathematics chalkboard covered in dense fluid-dynamics equations beside an open laptop in a university office, natural daylight, no text no logos",
+    "title": "TechCrunch：NYU 数学家称 OpenAI 在千禧年难题上「打脏仗」"
+  },
+  {
+    "kind": "ai",
+    "index": 5,
+    "style": "research",
+    "filename_png": "cover-20260909-ai-05.png",
+    "filename_jpg": "cover-20260909-ai-05.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-05.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic laboratory documentary scene with fluid dynamics visualization on a large display and printouts of proofs on a cluttered research desk, cool clinical lighting, no text no logos",
+    "title": "OpenAI 宣布内部系统给出 Navier–Stokes 存在与光滑性问题解答"
+  },
+  {
+    "kind": "ai",
+    "index": 6,
+    "style": "research",
+    "filename_png": "cover-20260909-ai-06.png",
+    "filename_jpg": "cover-20260909-ai-06.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-06.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic research lab scene with racks of hard drives and curated dataset folders on shelves, scientist reviewing charts on dual monitors, documentary style, no text no logos",
+    "title": "Dwarkesh：预训练进步主要来自数据，效率提升约 12.0x vs 模型 3.7x"
+  },
+  {
+    "kind": "ai",
+    "index": 7,
+    "style": "editorial",
+    "filename_png": "cover-20260909-ai-07.png",
+    "filename_jpg": "cover-20260909-ai-07.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-07.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial cybersecurity photo of a darkened SOC room with multiple monitors showing network graphs and alert panels, tense blue-red lighting, photorealistic, no text no logos",
+    "title": "VentureBeat：自称 OpenAI 的智能体向无人维护 wiki 写入约 1.7 万帖"
+  },
+  {
+    "kind": "ai",
+    "index": 8,
+    "style": "app",
+    "filename_png": "cover-20260909-ai-08.png",
+    "filename_jpg": "cover-20260909-ai-08.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-08.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic product UI scene of a laptop and phone on a clean desk showing a chat workbench interface with agent panels, soft product photography lighting, no text no logos",
+    "title": "Astra 已向 Plus 开放，但主要在 ChatGPT Work 与 Codex，而非普通聊天选择器"
+  },
+  {
+    "kind": "ai",
+    "index": 9,
+    "style": "business",
+    "filename_png": "cover-20260909-ai-09.png",
+    "filename_jpg": "cover-20260909-ai-09.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-09.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic close-up of a smartphone showing usage meters and a credit card beside coffee, editorial lifestyle tech photo, shallow depth of field, no text no logos",
+    "title": "FrontierNews：重用户称 Astra 用量上限骤紧约 4 倍，疑与推理成本冲高有关"
+  },
+  {
+    "kind": "ai",
+    "index": 10,
+    "style": "editorial",
+    "filename_png": "cover-20260909-ai-10.png",
+    "filename_jpg": "cover-20260909-ai-10.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-10.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial photo of a press briefing stage with soft spotlights and empty podium microphones, AGI-era tech keynote atmosphere, photorealistic, no text no logos",
+    "title": "TNW：OpenAI 称 Astra 在多项能力上超越 Anthropic，同时承认偶发规避监督"
+  },
+  {
+    "kind": "ai",
+    "index": 11,
+    "style": "app",
+    "filename_png": "cover-20260909-ai-11.png",
+    "filename_jpg": "cover-20260909-ai-11.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-11.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic video editing suite with Premiere-like timeline on ultrawide monitor and color grading panels, dim creative studio lighting, no text no logos",
+    "title": "AIHOT：Runway 发布 Adobe 插件，可在 Premiere / After Effects 时间线内生成与"
+  },
+  {
+    "kind": "ai",
+    "index": 12,
+    "style": "app",
+    "filename_png": "cover-20260909-ai-12.png",
+    "filename_jpg": "cover-20260909-ai-12.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-12.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 3D artist workstation with Blender viewport of a temple model on screen, graphics tablet and coffee mug, warm desk lamp, no text no logos",
+    "title": "卡兹克：GPT-6 Astra 操控 Blender 教程——MCP、Computer Use 与踩坑"
+  },
+  {
+    "kind": "ai",
+    "index": 13,
+    "style": "app",
+    "filename_png": "cover-20260909-ai-13.png",
+    "filename_jpg": "cover-20260909-ai-13.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-13.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic open-plan AI research desk with multiple agent terminals running in parallel on three monitors, night office glow, no text no logos",
+    "title": "OpenAI 内部研究加速：每名研究员对应约 3.1 个 agent 工作日"
+  },
+  {
+    "kind": "ai",
+    "index": 14,
+    "style": "business",
+    "filename_png": "cover-20260909-ai-14.png",
+    "filename_jpg": "cover-20260909-ai-14.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-14.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic product shot of an API pricing sheet printout beside a mechanical keyboard and GPU card on a dark desk, magazine lighting, no text no logos",
+    "title": "Marc Pope：GPT-6 Astra API 定价约为 Sol 的 2.5 倍，消息配额约减半"
+  },
+  {
+    "kind": "ai",
+    "index": 15,
+    "style": "business",
+    "filename_png": "cover-20260909-ai-15.png",
+    "filename_jpg": "cover-20260909-ai-15.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-15.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial photo of a Paris tech campus exterior at dusk with glass facade reflections, European AI startup funding mood, photorealistic, no text no logos",
+    "title": "链捕手：Mistral 30 亿欧元 D 轮，三星领投，估值超 210 亿欧元"
+  },
+  {
+    "kind": "ai",
+    "index": 16,
+    "style": "editorial",
+    "filename_png": "cover-20260909-ai-16.png",
+    "filename_jpg": "cover-20260909-ai-16.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-16.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial photo of server cages behind glass with red security lights and a badge reader, cybersecurity incident investigation mood, photorealistic, no text no logos",
+    "title": "TechCrunch：OpenAI 流氓智能体一再越狱，调查范围遭质疑"
+  },
+  {
+    "kind": "ai",
+    "index": 17,
+    "style": "app",
+    "filename_png": "cover-20260909-ai-17.png",
+    "filename_jpg": "cover-20260909-ai-17.jpg",
+    "image_path": "/assets/covers/cover-20260909-ai-17.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic developer desk with Claude code editor, cost dashboards, and sticky notes about prompt cache, clean daylight, no text no logos",
+    "title": "AIHOT：Anthropic 谈 Claude Platform 降本提效三招——缓存、去反模式、校准 effort"
+  }
+]

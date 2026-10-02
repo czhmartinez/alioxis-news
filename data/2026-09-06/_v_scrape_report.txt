@@ -1,0 +1,6 @@
+logged-in: yes
+tab confirmed: yes (正在关注 / Following)
+scroll count: 20 Following-feed scrolls; profile fallback used for Khazix0918 (4) and MaxForAI (4)
+posts captured: 17 total, 17 unique status URLs, all marked ai_related=true
+handle breakdown: @Khazix0918 6; @MaxForAI 6; @xiaohu 3; @gengdaJ 2
+notes: Following feed was sparse for preferred accounts; recent posts collected from requested profiles. Text limited to visible rendering; entries with 显示更多 were cut at the visible boundary. No login wall, password, or 2FA prompt appeared.

@@ -1,0 +1,137 @@
+[
+  {
+    "index": 0,
+    "kind": "v",
+    "style": "editorial_desk",
+    "filename_jpg": "cover-20260916-v-00.jpg",
+    "filename_png": "cover-20260916-v-00.png",
+    "description": "16:9 cover illustration for an AI news card. Style: editorial desk scene tailored to the headline subject, unique objects, natural window light. Composition: wide establishing shot. Subject must clearly evoke THIS story: «联合早报：美国众议长称不能暂停AI发展». Story context: 美众议长：不能暂停AI发展 否则将让中国取得竞争优势. Tags: AI, 美国, 中国. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "联合早报：美国众议长称不能暂停AI发展"
+  },
+  {
+    "index": 1,
+    "kind": "v",
+    "style": "editorial_desk",
+    "filename_jpg": "cover-20260916-v-01.jpg",
+    "filename_png": "cover-20260916-v-01.png",
+    "description": "16:9 cover illustration for an AI news card. Style: editorial desk scene tailored to the headline subject, unique objects, natural window light. Composition: close-up hero object left third. Subject must clearly evoke THIS story: «Max for AI：AGI来了也得恭维我». Story context: AGI神来了也得恭维我. Tags: AI, AGI. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "Max for AI：AGI来了也得恭维我"
+  },
+  {
+    "index": 2,
+    "kind": "v",
+    "style": "documentary",
+    "filename_jpg": "cover-20260916-v-02.jpg",
+    "filename_png": "cover-20260916-v-02.png",
+    "description": "16:9 cover illustration for an AI news card. Style: documentary still, tense cybersecurity ops desk, report papers and darkened monitors, no gore, high contrast. Composition: overhead desk arrangement. Subject must clearly evoke THIS story: «Max for AI：API中转站违法案例». Story context: 刚刚，国家网信办正式通报了一起 API 中转站违法案例。  9月15日，网信中国公布一批网络执法案例，其中一家公司因为通过 API中转站调用多个大模型接口、对外提供对话和问答服务，又没有按规定开展安全评估，被属地网信办责令整改并予以警告处罚。  具体是某江苏某科技股份有限公司运营的 2 个网站，以…. Tags: AI, 大模型, 监管. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "Max for AI：API中转站违法案例"
+  },
+  {
+    "index": 3,
+    "kind": "v",
+    "style": "model_lab",
+    "filename_jpg": "cover-20260916-v-03.jpg",
+    "filename_png": "cover-20260916-v-03.png",
+    "description": "16:9 cover illustration for an AI news card. Style: research lab / model-release visual with recognizable conceptual anchors for THIS model or company, not generic fractals. Composition: three-quarter angle mid shot. Subject must clearly evoke THIS story: «Max for AI：混元预训练负责人加入北美AI Lab». Story context: 00后前腾讯混元预训练负责人被曝以天价年薪加入北美一线AI Lab。  AI的人才争夺，越来越夸张了。  据雷峰网独家报道，腾讯混元大语言模型前预训练负责人姚星丞 @StuartYao22139，已经加入 @miramurati 创办的 @thinkymachines。  而且价格相当夸张。…. Tags: AI, 人才, 腾讯混元. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "Max for AI：混元预训练负责人加入北美AI Lab"
+  },
+  {
+    "index": 4,
+    "kind": "v",
+    "style": "creative_media",
+    "filename_jpg": "cover-20260916-v-04.jpg",
+    "filename_png": "cover-20260916-v-04.png",
+    "description": "16:9 cover illustration for an AI news card. Style: semi-realistic creative studio with the specific media form visible (timeline, waveform, avatar screen), distinct props. Composition: split foreground/background layers. Subject must clearly evoke THIS story: «Max for AI：OpenAI本周或迎大规模发布». Story context: 不是.....OpenAI你们到底要干嘛？？  @thsottiaux 刚刚预告：OpenAI 本周的发布量，会达到一次 DevDay 2025 的级别。  提示一下，去年 DevDay OpenAI 一天里发了：Apps SDK、AgentKit、Sora 2 API、GPT-5 Pro API，Codex 正式 GA + Codex SDK / Slack 集成，还有 realtime-mini、image-mini…. Tags: AI, OpenAI, 产品发布. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "Max for AI：OpenAI本周或迎大规模发布"
+  },
+  {
+    "index": 5,
+    "kind": "v",
+    "style": "documentary",
+    "filename_jpg": "cover-20260916-v-05.jpg",
+    "filename_png": "cover-20260916-v-05.png",
+    "description": "16:9 cover illustration for an AI news card. Style: documentary still, tense cybersecurity ops desk, report papers and darkened monitors, no gore, high contrast. Composition: side profile cinematic. Subject must clearly evoke THIS story: «Max for AI：Claude被用于批量制造恋爱骗局». Story context: 不行我崩不住了，Antropic这个报告里还专门有个中国杀猪盘的案例  这个案例的编号是 GTG-15001，讲的是一个中国团队用 Claude，批量造了 4700 多个“真人恋爱对象”去海外崩老头的案例。  Anthropic 称，这家公司一口气做了 20 多款交友 App，对外看起来都是真人在聊天，但后台其实已经高度 AI 化。…. Tags: AI, Claude, 安全. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "Max for AI：Claude被用于批量制造恋爱骗局"
+  },
+  {
+    "index": 6,
+    "kind": "v",
+    "style": "agent_workbench",
+    "filename_jpg": "cover-20260916-v-06.jpg",
+    "filename_png": "cover-20260916-v-06.png",
+    "description": "16:9 cover illustration for an AI news card. Style: semi-realistic developer/agent workbench scene, unique props per story, monitors with plausible UI blobs not readable logos. Composition: low angle dramatic. Subject must clearly evoke THIS story: «小互：Hyper3D推出MCP服务». Story context: Hyper3D 推出了自己的MCP服务  用 GPT 6 Astra 玩了下 有点震惊到我，用它做3D 科普视频和网站，效果贼好  我让 Codex 搜集天宫空间站从发射开始到现在的所有信息和内容，让它帮我制作一个天宫空间站的建造过程科普网站...  试了一把，从 2021 年第一次发射一直演进到今天...  Codex 通过 Hyper3D MCP. Tags: AI, MCP, 3D. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "小互：Hyper3D推出MCP服务"
+  },
+  {
+    "index": 7,
+    "kind": "v",
+    "style": "editorial_desk",
+    "filename_jpg": "cover-20260916-v-07.jpg",
+    "filename_png": "cover-20260916-v-07.png",
+    "description": "16:9 cover illustration for an AI news card. Style: editorial desk scene tailored to the headline subject, unique objects, natural window light. Composition: intimate handheld crop. Subject must clearly evoke THIS story: «小互：Hyper3D MCP操作方式». Story context: 操作方式：  登录 Hyper3D，进入 Hyper3D Rodin  点击官网页面右上角的 MCP. Tags: AI, MCP, Hyper3D. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "小互：Hyper3D MCP操作方式"
+  },
+  {
+    "index": 8,
+    "kind": "v",
+    "style": "model_lab",
+    "filename_jpg": "cover-20260916-v-08.jpg",
+    "filename_png": "cover-20260916-v-08.png",
+    "description": "16:9 cover illustration for an AI news card. Style: research lab / model-release visual with recognizable conceptual anchors for THIS model or company, not generic fractals. Composition: diagonal leading lines. Subject must clearly evoke THIS story: «小互：ChatGPT上线礼品卡». Story context: ChatGPT 上线礼品卡  面值：25、50、100、200美金  可直接购买充值...  目前仅限美国地区兑换，不可退款，购买后通过电子邮件发放兑换码。  购买地址↓. Tags: AI, ChatGPT, 产品. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "小互：ChatGPT上线礼品卡"
+  },
+  {
+    "index": 9,
+    "kind": "v",
+    "style": "model_lab",
+    "filename_jpg": "cover-20260916-v-09.jpg",
+    "filename_png": "cover-20260916-v-09.png",
+    "description": "16:9 cover illustration for an AI news card. Style: research lab / model-release visual with recognizable conceptual anchors for THIS model or company, not generic fractals. Composition: window-lit still life. Subject must clearly evoke THIS story: «小互：ChatGPT礼品卡购买与激活地址». Story context: 购买地址： https://bestbuy.com/product/openai-chatgpt-25-gift-card-digital/JJG34P73VL/sku/6688130 …  激活地址： https://chatgpt.com/redeem. Tags: AI, ChatGPT, 服务. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "小互：ChatGPT礼品卡购买与激活地址"
+  },
+  {
+    "index": 10,
+    "kind": "v",
+    "style": "agent_workbench",
+    "filename_jpg": "cover-20260916-v-10.jpg",
+    "filename_png": "cover-20260916-v-10.png",
+    "description": "16:9 cover illustration for an AI news card. Style: semi-realistic developer/agent workbench scene, unique props per story, monitors with plausible UI blobs not readable logos. Composition: night desk with cool rim light. Subject must clearly evoke THIS story: «小互：Atria Dawn面向科研与复杂Agent». Story context: 兄弟们 这个思路惊奇  一个“一出生就被当成工程师培养”的专用模型  Atria Dawn Preview 面向科研与复杂 Agent 任务的基座模型  该模型最大特点是依托一套可验证经验管线训练：就是只有在真实环境中经过测试、指标验证和证据闭环的有效经验，才会被沉淀到模型能力中  还能可以从失败中学习. Tags: AI, Agent, 模型. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "小互：Atria Dawn面向科研与复杂Agent"
+  },
+  {
+    "index": 11,
+    "kind": "v",
+    "style": "model_lab",
+    "filename_jpg": "cover-20260916-v-11.jpg",
+    "filename_png": "cover-20260916-v-11.png",
+    "description": "16:9 cover illustration for an AI news card. Style: research lab / model-release visual with recognizable conceptual anchors for THIS model or company, not generic fractals. Composition: bright morning product table. Subject must clearly evoke THIS story: «小互：自然语言生成3D CAD模型». Story context: 自然语言驱动 3D CAD 建模：一句话直接生成复杂的 3D 机械工程模型（如四缸发动机、人形机器人、关节模组、长征七号火箭），兼顾结构、公差与动态仿真. Tags: AI, 3D, CAD. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "小互：自然语言生成3D CAD模型"
+  },
+  {
+    "index": 12,
+    "kind": "v",
+    "style": "agent_workbench",
+    "filename_jpg": "cover-20260916-v-12.jpg",
+    "filename_png": "cover-20260916-v-12.png",
+    "description": "16:9 cover illustration for an AI news card. Style: semi-realistic developer/agent workbench scene, unique props per story, monitors with plausible UI blobs not readable logos. Composition: crowded props but one clear subject. Subject must clearly evoke THIS story: «卡兹克：GPT-6 Pro规划能力与Codex额度». Story context: 网页聊天版的GPT-6 Pro在规划层面还是太强了，而且不消耗Codex额度，于是为了榨干200刀的ChatGPT额度，还有这个神级模型GPT-6 Pro，我想了一个办法。…. Tags: AI, GPT-6, Codex. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "卡兹克：GPT-6 Pro规划能力与Codex额度"
+  },
+  {
+    "index": 13,
+    "kind": "v",
+    "style": "agent_workbench",
+    "filename_jpg": "cover-20260916-v-13.jpg",
+    "filename_png": "cover-20260916-v-13.png",
+    "description": "16:9 cover illustration for an AI news card. Style: semi-realistic developer/agent workbench scene, unique props per story, monitors with plausible UI blobs not readable logos. Composition: minimal negative space right. Subject must clearly evoke THIS story: «卡兹克：飞书与豆包发布团队Agent». Story context: 国内第一个为团队而生的Agent，果然还是在飞书里面来了。  就在刚刚，飞书和豆包工作一起，开了他们的全新发布会。…. Tags: AI, Agent, 飞书, 豆包. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "卡兹克：飞书与豆包发布团队Agent"
+  },
+  {
+    "index": 14,
+    "kind": "v",
+    "style": "model_lab",
+    "filename_jpg": "cover-20260916-v-14.jpg",
+    "filename_png": "cover-20260916-v-14.png",
+    "description": "16:9 cover illustration for an AI news card. Style: research lab / model-release visual with recognizable conceptual anchors for THIS model or company, not generic fractals. Composition: environmental portrait of tools not people faces. Subject must clearly evoke THIS story: «卡兹克：GPT-6权限烧掉MiMo API额度». Story context: 有时候给GPT-6太高的权限也不是什么好事，就像我现在正在非常狼狈的核查到底是怎么几天时间烧了我3000多块钱的MiMo的API额度的...  我的心都在滴血...我真的想骂人了.... Tags: AI, GPT-6, API. No readable logos, no brand trademarks, no readable UI text, no watermarks, no masthead color bands, no flat single-icon layouts, no abstract geometry wallpaper, no generic conference room stock. Photoreal or semi-real per style; unique scene not reusable template.",
+    "title": "卡兹克：GPT-6权限烧掉MiMo API额度"
+  }
+]

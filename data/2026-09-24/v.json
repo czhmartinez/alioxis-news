@@ -1,0 +1,226 @@
+[
+  {
+    "title": "AI低价笔记也能稳定月入5万日元",
+    "summary": "@Fukugyo_clinic 分享熟人用AI持续发布低价note的案例：没有特殊知识，也不需要每天长时间工作，月销售额能稳定达到约5万日元。帖子随后展开具体做法。",
+    "url": "https://x.com/Fukugyo_clinic/status/2102865606404137206",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260924-v-00.jpg",
+    "published_at": "2026-09-24T05:00:00+08:00",
+    "tags": [
+      "AI副业",
+      "内容创作",
+      "案例"
+    ]
+  },
+  {
+    "title": "低价AI内容要靠数量复利",
+    "summary": "该线程建议先以低单价发布AI内容，再在X和Threads介绍给特定痛点人群；不要一开始就追求单篇月入5万日元，而是持续累积10到20个小产品。",
+    "url": "https://x.com/Fukugyo_clinic/status/2102865610845868281",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260924-v-01.jpg",
+    "published_at": "2026-09-24T05:00:00+08:00",
+    "tags": [
+      "AI副业",
+      "内容创作",
+      "方法"
+    ]
+  },
+  {
+    "title": "Claude×乐天联盟的手机化工作流",
+    "summary": "@Fukugyo_clinic 推介一篇教程，称可用一部手机、每天早上30分钟，按星期安排Claude×乐天联盟的操作，并配套可直接使用的提示词。",
+    "url": "https://x.com/Fukugyo_clinic/status/2102865612230082873",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260924-v-02.jpg",
+    "published_at": "2026-09-24T05:00:00+08:00",
+    "tags": [
+      "Claude",
+      "AI应用",
+      "副业"
+    ]
+  },
+  {
+    "title": "Epoch：思考成本每季度平均下降47%",
+    "summary": "Max For AI 转发 Epoch AI 报告《The plunging price of thought》：自2023年以来，达到同等能力的最低推理成本平均每季度下降47%，约一年便宜13倍，并列举了与DNA测序、电池和电力的降价对比。",
+    "url": "https://x.com/MaxForAI/status/2102863004790579619",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260924-v-03.jpg",
+    "published_at": "2026-09-24T04:49:00+08:00",
+    "tags": [
+      "AI成本",
+      "推理",
+      "Epoch AI"
+    ]
+  },
+  {
+    "title": "MiMo与HySparse2的推理效率比较",
+    "summary": "Max For AI 转发 khazzz1c 对小米 HySparse2 论文与 dpskv41-flash 的比较：讨论拆分Dpskv序列、轻量级索引器和长上下文Agent工作负载下的预填充与KV缓存效率。",
+    "url": "https://x.com/MaxForAI/status/2102856599740232182",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260924-v-04.jpg",
+    "published_at": "2026-09-24T04:24:00+08:00",
+    "tags": [
+      "MiMo",
+      "HySparse2",
+      "推理优化"
+    ]
+  },
+  {
+    "title": "GPT Image 2.5与Seedance 2.5制作海底城视频",
+    "summary": "Okan Can 发布一段海底城视觉视频：以GPT Image 2.5制作视觉参考，再用Seedance 2.5在Flovaai生成，画面讲述Ocean King被利维坦带过失落城市回到海面。",
+    "url": "https://x.com/0kncn/status/2102851734833905966",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "/assets/covers/cover-20260924-v-05.jpg",
+    "published_at": "2026-09-24T04:04:00+08:00",
+    "tags": [
+      "文生视频",
+      "GPT Image",
+      "Seedance"
+    ]
+  },
+  {
+    "title": "中国用户更容易理解的Muse是小微",
+    "summary": "Max For AI 转发 Frank Wang 对Muse personal agent的评论，认为这类产品可能是伪需求，并指出中国用户更容易理解的对应物其实是微信小微；讨论了邮件、日历等自动化场景。",
+    "url": "https://x.com/MaxForAI/status/2102829475574821364",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260924-v-06.jpg",
+    "published_at": "2026-09-24T02:36:00+08:00",
+    "tags": [
+      "个人智能体",
+      "Muse",
+      "产品观察"
+    ]
+  },
+  {
+    "title": "ChatGPT Voice接入插件与新模型",
+    "summary": "Tibo 转发 OpenAI 更新：ChatGPT Voice 可使用电子邮件、日历和Slack等插件，并由GPT-6 Astra、Sol和Luna提供支持；他补充说自己已用语音处理工作、邮件、编码和日历。",
+    "url": "https://x.com/thsottiaux/status/2102814202117411196",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20260924-v-07.jpg",
+    "published_at": "2026-09-24T01:35:00+08:00",
+    "tags": [
+      "ChatGPT",
+      "语音助手",
+      "插件"
+    ]
+  },
+  {
+    "title": "所谓Gemini 4 Pro截图可能是伪造",
+    "summary": "Max For AI 对网传Gemini 4 Pro截图提出质疑，转发内容称这并不是Gemini 4 Pro，页面名称可以随意修改，提醒读者不要把截图当成发布确认。",
+    "url": "https://x.com/MaxForAI/status/2102793770471460899",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260924-v-08.jpg",
+    "published_at": "2026-09-24T00:14:00+08:00",
+    "tags": [
+      "Gemini",
+      "信息核验",
+      "AI模型"
+    ]
+  },
+  {
+    "title": "Firecrawl Alexandria让Jev在3.6秒做5000个决策",
+    "summary": "Firecrawl 展示Jev结合Alexandria数据的演示：从大量企业数据中提取信息，并在3.6秒内完成约5000个决策，突出网页数据抓取和分析智能体的速度。",
+    "url": "https://x.com/firecrawl/status/2102790767769272393",
+    "source": "Firecrawl",
+    "source_handle": "@firecrawl",
+    "image": "/assets/covers/cover-20260924-v-09.jpg",
+    "published_at": "2026-09-24T00:02:00+08:00",
+    "tags": [
+      "智能体",
+      "网页抓取",
+      "Firecrawl"
+    ]
+  },
+  {
+    "title": "MiMo-V3公开HySparse2架构",
+    "summary": "Max For AI 介绍小米MiMo-V3的核心架构HySparse2：针对Agent越跑越慢、越吃显存的问题，减少预填充、缩小KV缓存，并更适合多步Agent工作负载。",
+    "url": "https://x.com/MaxForAI/status/2102788745020035558",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260924-v-10.jpg",
+    "published_at": "2026-09-23T23:54:00+08:00",
+    "tags": [
+      "MiMo-V3",
+      "HySparse2",
+      "Agent"
+    ]
+  },
+  {
+    "title": "OpenCode太空兔子模式将提供百万上下文",
+    "summary": "Max For AI 转发OpenCode预告：太空兔子（隐形模式）下周免费使用，提供100万上下文、多模态和零数据保留。",
+    "url": "https://x.com/MaxForAI/status/2102784193793331673",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260924-v-11.jpg",
+    "published_at": "2026-09-23T23:36:00+08:00",
+    "tags": [
+      "OpenCode",
+      "代码智能体",
+      "多模态"
+    ]
+  },
+  {
+    "title": "K-pop押注AI和机器人会否改变娱乐体验",
+    "summary": "华尔街日报中文网报道，Galaxy Corporation等机构正把AI和机器人用于K-pop产业，包括机器人娱乐园区和创作工具；粉丝与艺人担心AI会让原本的K-pop文化变味。",
+    "url": "https://x.com/ChineseWSJ/status/2102775003171213763",
+    "source": "华尔街日报中文网",
+    "source_handle": "@ChineseWSJ",
+    "image": "/assets/covers/cover-20260924-v-12.jpg",
+    "published_at": "2026-09-23T23:00:00+08:00",
+    "tags": [
+      "AI应用",
+      "机器人",
+      "娱乐产业"
+    ]
+  },
+  {
+    "title": "海外已验证但日本尚未普及的AI副业",
+    "summary": "@Fukugyo_clinic 转发AI副业研究账号的一篇文章，主题是“海外已普遍盈利、但日本尚未普及的5种业务”，强调从已验证的商业模式切入日本市场。",
+    "url": "https://x.com/Fukugyo_clinic/status/2102767443341144470",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260924-v-13.jpg",
+    "published_at": "2026-09-23T22:30:00+08:00",
+    "tags": [
+      "AI副业",
+      "商业模式",
+      "日本市场"
+    ]
+  },
+  {
+    "title": "网传Gemini 4 Pro引发讨论",
+    "summary": "Max For AI 转发一条声称“Gemini 4 Pro已经来了”的分享链接并配文惊叹；同一时间线稍后又转发截图核验，称该Gemini 4 Pro说法看起来是假的。",
+    "url": "https://x.com/MaxForAI/status/2102765228597612871",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260924-v-14.jpg",
+    "published_at": "2026-09-23T22:21:00+08:00",
+    "tags": [
+      "Gemini",
+      "模型传闻",
+      "信息核验"
+    ]
+  },
+  {
+    "title": "K3.1疑似提前泄露",
+    "summary": "Max For AI 分享一张模型配置截图并称“K3.1已确认泄露、Coming Soon”，图中出现K3相关Agent、推理努力程度和上下文长度等配置字段。",
+    "url": "https://x.com/MaxForAI/status/2102765746510266576",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260924-v-15.jpg",
+    "published_at": "2026-09-23T22:23:00+08:00",
+    "tags": [
+      "模型泄露",
+      "Agent",
+      "模型配置"
+    ]
+  }
+]

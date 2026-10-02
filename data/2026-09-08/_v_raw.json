@@ -1,0 +1,14 @@
+[
+  {"handle":"@xiaohu","author":"小互","text":"不错的风格\n不错的提示词","url":"https://x.com/xiaohu/status/2097100089890308530","time_label":"1小时 前"},
+  {"handle":"@xiaohu","author":"小互","text":"现在 ChatGPT 支持设置你的写作风格了，你可以连接你的一些常用的文档工具、团队协作工具或者Gmail，它会自动学习你之前文档的写作风格是什么\n\n快速设置→_→chatgpt.com/?surface=work&...\n\n但是好像对不使用老外这些工具的中文用户不管用😅","url":"https://x.com/xiaohu/status/2097097331585982689","time_label":"1小时 前"},
+  {"handle":"@xiaohu","author":"小互","text":"GPT 5.4 Astra 成功通关了“我不是机器人”游戏的所有 48 个关卡\n\n所有网站的验证码防护都失效了 ...😁","url":"https://x.com/xiaohu/status/2096949627966931186","time_label":"11小时 前"},
+  {"handle":"@xiaohu","author":"小互","text":"最近大半个月一直和codex较劲怎么让技能自进化\n\n最后全都失败了\n\n不管是使用什么方法基本上，单靠技能是无法实现的，需要工程化的方法\n\n我发现Gemini 3.8 Flash的写作很好，今天就修改了技能，让Codex当做协调者和审核者，来只会Gemini写作...\n\n这时候我突然意识到 Codex 本身就是自进化最好的中间体","url":"https://x.com/xiaohu/status/2096848781656633605","time_label":"17小时 前"},
+  {"handle":"@MaxForAI","author":"Max For AI","text":"🚨售后贴：给前两天推荐的 Codex 新上下文功能建议大家暂时别开，已经开\n的也先关了...\n\n因为周末这两天我和一些群友继续实测下，发现它确实能大幅降低 token 消\n耗，但对话轮次一多，质量下降也挺明显。","url":"https://x.com/MaxForAI/status/2096797970582921595","time_label":"21小时 前"},
+  {"handle":"@MaxForAI","author":"Max For AI","text":"神了，居然是真的！？\n\nGPT-6能从频谱图里识别声音？？？\n\n大狗叫！","url":"https://x.com/MaxForAI/status/2096993098547286106","time_label":"8小时 前"},
+  {"handle":"@MaxForAI","author":"Max For AI","text":"群友的复现结果，等我到家我去试试🙂","url":"https://x.com/MaxForAI/status/2096993317838033190","time_label":"8小时 前"},
+  {"handle":"@MaxForAI","author":"Max For AI","text":"神了，盗版Tibo都来了😅","url":"https://x.com/MaxForAI/status/2096992597202153935","time_label":"8小时 前"},
+  {"handle":"@Khazix0918","author":"数字生命卡兹克","text":"发现今天没再显示“模型已满”的那个办法，不用电脑端codex启动会话，通过手机端ChatGPT的远程控制来启动对话。\n目前2个小时，好像也没遇到过卡死的问题。。\n如果用电脑端启动任务，10秒必卡死。。\n我也不知道为啥。\n这可能也是一种玄学。。。。","url":"https://x.com/Khazix0918/status/2096912528018407814","time_label":"13小时 前"},
+  {"handle":"@Khazix0918","author":"数字生命卡兹克","text":"GPT我完全不能用了，开多少新对话都是模型已满，甚至开GPT-5.6 Luna都能跟我说模型已满。。。\n这到底是我的问题还是OpenAI的问题？？？","url":"https://x.com/Khazix0918/status/2096852029629157421","time_label":"17小时 前"},
+  {"handle":"@Khazix0918","author":"数字生命卡兹克","text":"@thsottiaux 帮忙看看啊...翻不动了Codex我的生活现在黯淡无光啊，直接原地陨落啊","url":"https://x.com/Khazix0918/status/2096857885011828867","time_label":"17小时 前"},
+  {"handle":"@Khazix0918","author":"数字生命卡兹克","text":"因为GPT-6 Astra的爆火，我好像看见了时代的断层。\n周末，GPT-6 Astra正式上线了。\n然后，所有的社媒、社群都沉寂了。","url":"https://x.com/Khazix0918/status/2096807089956176029","time_label":"20小时 前"}
+]

@@ -1,0 +1,274 @@
+[
+  {
+    "title": "卡兹克 AIHOT 日报（2026-09-21）：Qwen-Image-2.1 开源、阶跃 Step 5 Preview 与 ChatGPT __obi 追踪",
+    "summary": "数字生命卡兹克 AIHOT 日报汇总 2026-09-21 四件大事：Qwen 开源 Qwen-Image-2.1，7B 视觉生成组件统一文生图与图像编辑并原生支持透明（RGBA）图像，最多 10 张参考图；阶跃星辰发布旗舰 Step 5 Preview（稀疏 MoE，总参 600B/激活 27B，百万 Token 上下文），AA Intelligence Index 得 44 分居全球开源前三，单任务成本约 Claude Opus 5 的 1/8，计划 10 月 15 日开源权重；Qwen-Image-2.1 已原生接入 ComfyUI；独立调查称 OpenAI 广告收集器通过 __obi 跨站 Cookie 可将站外浏览与购买行为关联到 ChatGPT 账号。",
+    "url": "https://aihot.news/daily/2026-09-21",
+    "source": "AIHOT（数字生命卡兹克）",
+    "source_handle": "@数字生命卡兹克",
+    "image": "/assets/covers/cover-20260921-ai-00.jpg",
+    "published_at": "2026-09-21T08:00:00+08:00",
+    "tags": [
+      "AIHOT",
+      "日报",
+      "Qwen",
+      "Step5",
+      "隐私"
+    ]
+  },
+  {
+    "title": "阿里 Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑，原生 RGBA 透明图",
+    "summary": "阿里通义 Qwen 团队开源 Qwen-Image-2.1：视觉生成组件约 7B 参数，将文生图与图像编辑合于单一 checkpoint；原生支持透明（RGBA）输出、原生约 2K 分辨率，以及最多 10 张参考图的指令编辑，可用圆形/涂鸦/独立蒙版指定局部修改。架构采用混合粒度注意力与前缀 KV cache 复用以降低多参考图推理成本；权重已上 Hugging Face / ModelScope，研究许可限制商业用途，商用需另行申请。The Decoder 称其可在消费级 GPU（如 RTX 3090）上运行，独立基准仍待验证。",
+    "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+    "source": "Hugging Face / Qwen / The Decoder",
+    "source_handle": "@Alibaba_Qwen",
+    "image": "/assets/covers/cover-20260921-ai-01.jpg",
+    "published_at": "2026-09-20T14:00:00+08:00",
+    "tags": [
+      "Qwen",
+      "文生图",
+      "开源",
+      "图像编辑",
+      "RGBA"
+    ]
+  },
+  {
+    "title": "阶跃星辰发布 Step 5 Preview：600B MoE、AA 开源前三，10 月 15 日开源",
+    "summary": "阶跃星辰 9 月 20 日发布旗舰基座模型 Step 5 Preview：稀疏 MoE，总参数 600B、每 Token 激活 27B，支持 100 万 Token 上下文与文本/视觉输入，面向 AI 编程、软件工程、专业工作流与金融等 Agentic 场景。Artificial Analysis Intelligence Index 得分 44，位居全球开源模型前三；公司称单任务成本约为 Claude Opus 5 的 1/8。API 即日起开放，完整权重计划 10 月 15 日释放；并自建 StepCodeBench（553 仓库、33 语言）等评测。",
+    "url": "https://www.ithome.com/1/004/705.htm",
+    "source": "IT之家 / 阶跃星辰",
+    "source_handle": "@阶跃星辰",
+    "image": "/assets/covers/cover-20260921-ai-02.jpg",
+    "published_at": "2026-09-20T11:19:00+08:00",
+    "tags": [
+      "阶跃星辰",
+      "Step5",
+      "MoE",
+      "开源",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Qwen-Image-2.1 原生登陆 ComfyUI：单 checkpoint 生成+编辑，支持 alpha",
+    "summary": "ComfyUI 官方博客称 Qwen-Image-2.1 已原生支持：7B 开源权重、原生 2K 输出、真正含 alpha 通道的 RGBA，以及最多 10 张参考图的编辑节点。更新 ComfyUI 或使用 Comfy Cloud 后，从 Hugging Face 下载权重并加载模板工作流即可使用。社区反馈称「零日支持」与画质超出预期；适合贴纸、Logo、产品抠图等需透明背景的工作流，无需额外抠图/抠像节点。",
+    "url": "https://blog.comfy.org/p/qwen-image-21-in-comfyui-open-weight",
+    "source": "ComfyUI Blog",
+    "source_handle": "@ComfyUI",
+    "image": "/assets/covers/cover-20260921-ai-03.jpg",
+    "published_at": "2026-09-20T12:00:00+08:00",
+    "tags": [
+      "ComfyUI",
+      "Qwen",
+      "工作流",
+      "开源",
+      "图像"
+    ]
+  },
+  {
+    "title": "独立调查：ChatGPT __obi 跨站 Cookie 可将站外浏览关联到账号",
+    "summary": "隐私研究者 9 月 20 日复现 OpenAI 广告收集器机制：chatgpt.com 经 bazaar 接口签发短时 JWT 后，由 bzr.openai.com 在 .openai.com 域设置一年期、SameSite=None 的 __obi Cookie；广告主站点加载 OpenAI 像素后，会把 __obi 连同页面路径、转化事件及哈希后的邮箱/电话等回传。作者在自有手机流量中验证 936 个广告像素、逾千主机名，并观察到 Chewy、Wayfair、Coursera 等站点携带同一标识。OpenAI Cookie 政策将 __obi 归为 Analytics；作者 9 月 14 日致函未获实质答复。该机制在 Safari/WebKit（含 iOS Chrome）上因第三方 Cookie 限制通常不生效。",
+    "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/",
+    "source": "buchodi.com",
+    "source_handle": "@buchodi",
+    "image": "/assets/covers/cover-20260921-ai-04.jpg",
+    "published_at": "2026-09-20T18:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "隐私",
+      "广告",
+      "Cookie"
+    ]
+  },
+  {
+    "title": "用户集体诉讼：称 Anthropic/OpenAI/SpaceXAI/Google「放缓 AI」构成非法协同",
+    "summary": "美联社报道，四名付费订阅用户 9 月 19 日（周五）在加州北区联邦法院起诉 Anthropic、OpenAI、SpaceXAI 与 Google，指控其就放缓前沿模型节奏达成非法协议，损害订阅者所得价值。诉状聚焦 9 月 12 日 Amodei 呼吁行业减速后 Altman、Musk、Hassabis 公开表态支持，并追溯至 2026 年 7 月多家实验室高层联署声明。原告称不反对各公司自行减速或向政府寻求反垄断豁免，但反对「以集体约束替代个体责任」。四家公司暂未回应置评请求。",
+    "url": "https://www.opb.org/article/2026/09/20/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown/",
+    "source": "AP / OPB",
+    "source_handle": "@AP",
+    "image": "/assets/covers/cover-20260921-ai-05.jpg",
+    "published_at": "2026-09-20T20:33:00+08:00",
+    "tags": [
+      "反垄断",
+      "诉讼",
+      "安全",
+      "Anthropic",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "路透独家：Anthropic 考虑在 IPO 前发布新模型，应对 Astra 企业份额压力",
+    "summary": "路透社援引三名知情人士称，Anthropic 正评估在预期 IPO 前推出新模型，以回应 OpenAI GPT-6 Astra 发布后的企业端势头；同时 CEO Amodei 刚呼吁行业放缓能力提升。Ramp 数据显示 Astra 约占其追踪企业 AI 支出的 13%，Claude Fable 约 8%；OpenRouter 上周开发者支出首次在逾两年半后由 OpenAI 超过 Anthropic。Anthropic 年化收入截至 7 月底超 650 亿美元；知情人士称上市或再推迟至美国 11 月中期选举之后。公司拒绝对此置评。",
+    "url": "https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/",
+    "source": "Reuters",
+    "source_handle": "@Reuters",
+    "image": "/assets/covers/cover-20260921-ai-06.jpg",
+    "published_at": "2026-09-19T08:05:00+08:00",
+    "tags": [
+      "Anthropic",
+      "模型发布",
+      "IPO",
+      "Astra",
+      "企业AI"
+    ]
+  },
+  {
+    "title": "OpenAI 推出 ChatGPT Work「Data agent」：自然语言连库出仪表盘",
+    "summary": "OpenAI 9 月 10 日发布面向 ChatGPT Work 的 Data agent：连接企业已批准数据源（含 Amazon Redshift、BigQuery、Databricks、Snowflake、ClickHouse、MongoDB、Datadog 等），并可拉取 Google Drive / SharePoint 文件；结合语义层与指标定义，用对话完成分析、交互式仪表盘与后续行动，无需手写查询。平台伙伴 AWS、Snowflake、Databricks、ClickHouse 等表态支持。产品目标是让业务人员直接追问「销售为何放缓」等数据问题，缩短对报表团队的依赖。",
+    "url": "https://openai.com/index/put-data-to-work/",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260921-ai-07.jpg",
+    "published_at": "2026-09-10T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "ChatGPT Work",
+      "数据分析",
+      "企业",
+      "Agent"
+    ]
+  },
+  {
+    "title": "OpenAI 升级 ChatGPT 广告：测试 Sponsored Agents 与 Ads Manager AI 工具",
+    "summary": "OpenAI 9 月 16 日介绍广告平台新能力：测试 Sponsored Agents，用户点击 ChatGPT 内广告后可选择与商家赞助智能体开启独立标注对话；广告主可在 ChatGPT Work 用自然语言创建/更新/分析广告活动，Ads Manager 提供基于落地页的文案与图像建议，并可选择启用 AI 文案情境化改写。同时宣布与 HubSpot（首个 CRM）、Shopify（首个电商）集成。公司称广告原则不变、Sponsored Agents 对话与 ChatGPT 独立回答分离；美国部分广告主先行测试。",
+    "url": "https://openai.com/index/reimagining-advertising-with-ai/",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260921-ai-08.jpg",
+    "published_at": "2026-09-16T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "广告",
+      "Sponsored Agents",
+      "营销",
+      "产品"
+    ]
+  },
+  {
+    "title": "Anthropic 推出生命科学验证计划 LSVP：放宽生物类工作护栏",
+    "summary": "Anthropic 9 月 17 日推出 Life Sciences Verification Program（LSVP）公测：经资质、安全与伦理审查后，生命科学团队可获对 Mythos/Opus/Sonnet 更宽松的生物类护栏，覆盖药物发现、研究生物学、临床开发与制造等在通用 Fable 模型中常被拦截的任务。提供「标准用途」（团队级、年更）与「高风险用途」（项目级、半年更）两类授权；高风险可移除生命科学阻断，Mythos 高风险授权仍受限并需与美政府协作。监测由实时拦截转向离线行为模式审查，相关数据保留 30 天且不用于训练。",
+    "url": "https://www.anthropic.com/news/life-sciences-verification-program",
+    "source": "Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20260921-ai-09.jpg",
+    "published_at": "2026-09-17T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "生命科学",
+      "安全",
+      "Claude",
+      "LSVP"
+    ]
+  },
+  {
+    "title": "前 Infosys CEO 创办 Hang Ten 再获 5300 万美元种子轮，累计约 8500 万",
+    "summary": "TechCrunch 报道，Vishal Sikka 创办仅约四个月的企业 AI 软件公司 Hang Ten Systems，在首轮 3200 万美元种子融资五周后再获 Temasek 旗下 Xora 领投的 5300 万美元，累计约 8500 万美元；Mayfield、Aramco Ventures 以及英特尔 CEO Lip-Bu Tan、美光 CEO Sanjay Mehrotra、雅虎联合创始人 Jerry Yang 等参与。公司服务年收入超百亿美元企业的 AI 战略与软件现代化，已签多数百万美元级合同，客户含 Fresenius Kabi、Saudi Aramco、Siemens Energy；自研 Hobie 框架封装可复用 AI「技能」。",
+    "url": "https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260921-ai-10.jpg",
+    "published_at": "2026-09-16T21:00:00+08:00",
+    "tags": [
+      "融资",
+      "企业AI",
+      "Hang Ten",
+      "创业",
+      "软件工程"
+    ]
+  },
+  {
+    "title": "DeepMind 前世界模型团队创业 Emulate：洽谈最高约 7 亿美元种子轮",
+    "summary": "The Next Web 援引《金融时报》与彭博：英国创业公司 Emulate（由前 Google DeepMind 世界模型研究者 Jack Parker-Holder、Matthew McGill、Philip Ball 于 8 月创办）正与 Index Ventures、Lightspeed 洽谈最高约 7 亿美元种子轮，Creandum 或参与；估值口径不一，FT 称投前约 37 亿美元、彭博称寻求约 30 亿美元投前，条款尚未最终敲定。Parker-Holder 曾是 Genie 3 主要研究者之一。世界模型侧重模拟物理世界，用于机器人、智能体与虚拟环境，赛道相对 LLM 更少拥挤。",
+    "url": "https://thenextweb.com/news/emulate-deepmind-world-models-700m-seed",
+    "source": "The Next Web / FT / Bloomberg",
+    "source_handle": "@TheNextWeb",
+    "image": "/assets/covers/cover-20260921-ai-11.jpg",
+    "published_at": "2026-09-17T21:16:00+08:00",
+    "tags": [
+      "融资",
+      "世界模型",
+      "DeepMind",
+      "Emulate",
+      "创业"
+    ]
+  },
+  {
+    "title": "DeepSeek 发布 V4.1-Flash：552B MoE 多模态，KV Cache 大幅压缩",
+    "summary": "DeepSeek 9 月 10 日上线 DeepSeek-V4.1-Flash：552B 参数 MoE，采用因果 Encoder–Decoder，输入侧约激活 8B、输出侧约 16B，原生多模态理解；相对上一代称 KV cache 所需 HBM 约 1/4、SSD 约 1/8，以降低 Agent 场景缓存命中成本。API 模型名 deepseek-flash；旧 V4-Flash / V4-Pro 请求将陆续路由至 V4.1-Flash 并按新价计费。公司称多方测试在性能、成本、速度与总耗时上优于 V4-Pro，并同步下调 API 价格、保留峰谷时段计价。",
+    "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+    "source": "DeepSeek",
+    "source_handle": "@deepseek_ai",
+    "image": "/assets/covers/cover-20260921-ai-12.jpg",
+    "published_at": "2026-09-10T12:00:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "MoE",
+      "多模态",
+      "API",
+      "效率"
+    ]
+  },
+  {
+    "title": "FT：OpenAI 内部预测 2026–2030 累计自由现金流约 -2780 亿美元",
+    "summary": "CNA 援引《金融时报》所见公司演示材料：OpenAI 预计 2026–2030 年累计自由现金流约 -2780 亿美元，同期算力与基础设施开支约 8560 亿美元；营收或从今年约 360 亿美元增至 2030 年约 3500 亿美元，十年末累计收入约 8400 亿美元。报道称其 3 月融资约 1220 亿美元（估值约 8520 亿）或在 2028 年前耗尽。Altman 已表示因安全顾虑 2026 年不上市。OpenAI 在常规工时外未能立即置评。",
+    "url": "https://www.channelnewsasia.com/business/openai-forecasts-cash-burn-near-280-billion-2030-ft-reports-6396066",
+    "source": "CNA / Financial Times",
+    "source_handle": "@FT",
+    "image": "/assets/covers/cover-20260921-ai-13.jpg",
+    "published_at": "2026-09-18T20:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "财务",
+      "融资",
+      "算力",
+      "商业"
+    ]
+  },
+  {
+    "title": "美财长 Bessent 与何立峰会谈：拟谈 AI「护栏」、开源/闭源与关键矿产",
+    "summary": "CNBC 援引路透：美国财政部长 Scott Bessent、贸易代表 Jamieson Greer 与中国副总理何立峰 9 月 21 日在曼哈顿摩根大通总部会谈，为特朗普—习近平华盛顿峰会铺垫。议题包括 11 月 10 日到期的贸易休战、稀土与关键矿产供应，以及在 AI 模型安全事件频发背景下的「护栏」。Bessent 称将讨论开源与闭源模型，美方愿谈「避免共有风险、避免体系割裂」，并主张防止强模型落入恶意非国家行为体之手。分析预期或以小步成果示好，难有突破。",
+    "url": "https://www.cnbc.com/2026/09/20/bessent-chinas-he-to-hold-talks-on-ai-trade-minerals-reuters.html",
+    "source": "CNBC / Reuters",
+    "source_handle": "@CNBC",
+    "image": "/assets/covers/cover-20260921-ai-14.jpg",
+    "published_at": "2026-09-20T14:17:00+08:00",
+    "tags": [
+      "政策",
+      "中美",
+      "AI治理",
+      "贸易",
+      "安全"
+    ]
+  },
+  {
+    "title": "用法技巧：用「证据闭环」评估 AI 编程智能体——35 万行 Rust 复刻 S3 的启示",
+    "summary": "前 Docker CTO Justin Cormack 在 Tessl 撰文总结：用 AI 协助写约 35 万行 Rust 的 S3 兼容对象存储时，关键不是生成速度，而是可检验的反馈闭环——以真实 S3 为测试神谕建约 1500 个行为锁定测试；拒绝「100% 覆盖率」式注水测试；立即修复 flaky；用追踪与类型系统约束授权边界；把安全审查发现回灌为新测试。结论：智能体评估应是测试神谕、边界用例、可观测性与人类判断组成的证据回路，而非单一分数。",
+    "url": "https://tessl.io/blog/ai-agent-evaluation-starts-with-evidence",
+    "source": "Tessl",
+    "source_handle": "@tessl_io",
+    "image": "/assets/covers/cover-20260921-ai-15.jpg",
+    "published_at": "2026-09-17T12:00:00+08:00",
+    "tags": [
+      "用法技巧",
+      "Agent",
+      "评测",
+      "测试",
+      "软件工程"
+    ]
+  },
+  {
+    "title": "Step 5 Preview API 定价约 $1/$2.70：以低成本冲击 Agent 工作负载",
+    "summary": "Runtime Wire 梳理：Artificial Analysis 列出 Step 5 Preview 输入约 $1/百万 Token、输出约 $2.70/百万 Token，加权单任务成本约 $0.71，低于同类中位数；并标 95% 缓存折扣，利好反复读写同一代码库的 Agent。公司自报 DeepSWE、StepCodeBench 等成绩落后 GPT-6 Astra / Claude Opus 5，但在 FrontierFinance 等金融评测更接近；输出速度约 99.8 tok/s。文章认为其战略是开源+闭源双线，用低价换 Agent 用量，能否把「便宜 Token」变成可靠交付仍待验证。",
+    "url": "https://runtimewire.com/article/stepfun-step-5-preview-600b-agent-model-pricing",
+    "source": "Runtime Wire / Artificial Analysis",
+    "source_handle": "@runtimewire",
+    "image": "/assets/covers/cover-20260921-ai-16.jpg",
+    "published_at": "2026-09-20T22:16:00+08:00",
+    "tags": [
+      "阶跃星辰",
+      "定价",
+      "API",
+      "Agent",
+      "评测"
+    ]
+  }
+]

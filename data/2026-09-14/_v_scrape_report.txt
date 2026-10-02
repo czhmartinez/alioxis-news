@@ -1,0 +1,7 @@
+logged in: yes
+Following tab confirmed: yes (正在关注 selected on https://x.com/home)
+scroll count: 4 on Following timeline
+fallback profiles visited: https://x.com/MaxForAI, https://x.com/xiaohu, https://x.com/Khazix0918
+post count: 16
+handle breakdown: MaxForAI 5; xiaohu 4; Khazix0918 7
+notes: Following timeline was sparse for AI during the four requested scrolls; one clearly AI-related Max For AI post was visible and most other visible posts were news/general posts. All three fallback profiles were visited in the logged-in browser session. Collected visible post text/card text only; posts truncated at visible ellipses/continuation points were kept truncated and not expanded. Relative times were converted approximately to +08:00; date-only UI values were normalized to midnight. No API used.

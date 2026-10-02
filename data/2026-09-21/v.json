@@ -1,0 +1,175 @@
+[
+  {
+    "title": "小互：Jev 演示为何可能骗人",
+    "summary": "小互指出时间线上绝大部分 Jev 演示都存在误导：该模型更擅长选择题式评测场景，演示视频常夸大其在开放任务上的能力。提醒关注真实边界，避免被剪辑演示带偏。",
+    "url": "https://x.com/xiaohu/status/2101554334681211326",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260921-v-00.jpg",
+    "published_at": "2026-09-20T14:09:00+08:00",
+    "tags": [
+      "Jev",
+      "大模型",
+      "AI评测"
+    ]
+  },
+  {
+    "title": "小互：剪映推出自然语言视频助手",
+    "summary": "小互转发剪映助手上线消息：用户可用自然语言描述完成视频剪辑流程。后续帖还提到可自定义 Skill，并支持导入 Agent，把剪辑工作流做成可复用能力。",
+    "url": "https://x.com/xiaohu/status/2101499650276749580",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260921-v-01.jpg",
+    "published_at": "2026-09-20T10:32:00+08:00",
+    "tags": [
+      "剪映",
+      "AI视频",
+      "自然语言"
+    ]
+  },
+  {
+    "title": "小互：剪映助手可自定义 Skill 与导入 Agent",
+    "summary": "小互补充剪映助手能力：除自然语言剪辑外，还可自定义 Skill，并支持导入 Agent，便于把个人剪辑习惯封装成可复用工作流。",
+    "url": "https://x.com/xiaohu/status/2101501849832767568",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260921-v-02.jpg",
+    "published_at": "2026-09-20T10:40:00+08:00",
+    "tags": [
+      "Agent",
+      "Skill",
+      "AI工作流",
+      "剪映"
+    ]
+  },
+  {
+    "title": "Max：闲鱼出现 GPT 暗号交易",
+    "summary": "Max 吐槽闲鱼上 GPT / ChatGPT 相关「暗号」交易话术愈发花式，侧面反映国内对海外大模型账号与额度的灰色需求仍在蔓延。",
+    "url": "https://x.com/MaxForAI/status/2101700521254166618",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260921-v-03.jpg",
+    "published_at": "2026-09-20T23:50:00+08:00",
+    "tags": [
+      "GPT",
+      "AI应用",
+      "二手平台"
+    ]
+  },
+  {
+    "title": "Max：Anthropic 地域限制梗图",
+    "summary": "Max 转发群友梗图调侃 Anthropic / Claude 的地域访问限制（新加坡 IP 等），社区对登录地与可用性的吐槽仍在发酵。",
+    "url": "https://x.com/MaxForAI/status/2101571066275729918",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260921-v-04.jpg",
+    "published_at": "2026-09-20T15:16:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI社区"
+    ]
+  },
+  {
+    "title": "华尔街日报中文网：Apple Intelligence 改造后的 Siri",
+    "summary": "《华尔街日报》中文网介绍作者过去数月体验经 Apple Intelligence 改造后的 Siri：有高光也有低谷，并称普通用户现在也可亲自体验这套改版助手。",
+    "url": "https://x.com/ChineseWSJ/status/2101673062932385939",
+    "source": "华尔街日报中文网",
+    "source_handle": "@ChineseWSJ",
+    "image": "/assets/covers/cover-20260921-v-05.jpg",
+    "published_at": "2026-09-20T22:01:00+08:00",
+    "tags": [
+      "Apple Intelligence",
+      "Siri",
+      "iOS"
+    ]
+  },
+  {
+    "title": "卡兹克：节省 Codex 额度的邪修方法",
+    "summary": "数字生命卡兹克分享可大幅节省 Codex 额度的用法技巧，提醒 ChatGPT Pro 会员不要浪费额度，适合日常高频用 Codex 写代码的开发者。",
+    "url": "https://x.com/Khazix0918/status/2100432539563569216",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260921-v-06.jpg",
+    "published_at": "2026-09-17T11:51:00+08:00",
+    "tags": [
+      "Codex",
+      "ChatGPT Pro",
+      "开发工具",
+      "用法"
+    ]
+  },
+  {
+    "title": "gpumaxxer：Higgsfield API 上线并开源计划",
+    "summary": "gpumaxxer 宣布 Higgsfield API 上线，支持 Seedance 2.5 与面部输入等能力，并表示将开放过去约 18 个月构建的相关代码，推动图像/视频生成工作流可被第三方接入。",
+    "url": "https://x.com/gpumaxxer/status/2100307886408912985",
+    "source": "gpumaxxer",
+    "source_handle": "@gpumaxxer",
+    "image": "/assets/covers/cover-20260921-v-07.jpg",
+    "published_at": "2026-09-17T03:36:00+08:00",
+    "tags": [
+      "Higgsfield",
+      "API",
+      "Seedance",
+      "视频生成"
+    ]
+  },
+  {
+    "title": "gpumaxxer：Open Higgsfield 开源工作室",
+    "summary": "接上条，gpumaxxer 放出 Open Higgsfield 图像/视频生成工作室的 GitHub 预览，展示基于其栈搭建可本地或自托管的创作环境。",
+    "url": "https://x.com/gpumaxxer/status/2100307888959103232",
+    "source": "gpumaxxer",
+    "source_handle": "@gpumaxxer",
+    "image": "/assets/covers/cover-20260921-v-08.jpg",
+    "published_at": "2026-09-17T03:36:00+08:00",
+    "tags": [
+      "开源",
+      "GitHub",
+      "Higgsfield",
+      "图像生成"
+    ]
+  },
+  {
+    "title": "gpumaxxer：探索 Higgsfield 模型 API",
+    "summary": "gpumaxxer 指向 Higgsfield 模型浏览与 API 入口（Explore models / Open Higgsfield），方便开发者挑选图像与视频生成模型并接入自有产品。",
+    "url": "https://x.com/gpumaxxer/status/2100307891119120721",
+    "source": "gpumaxxer",
+    "source_handle": "@gpumaxxer",
+    "image": "/assets/covers/cover-20260921-v-09.jpg",
+    "published_at": "2026-09-17T03:36:00+08:00",
+    "tags": [
+      "Higgsfield",
+      "模型平台",
+      "API"
+    ]
+  },
+  {
+    "title": "gpumaxxer：用 Higgsfield API 构建应用",
+    "summary": "gpumaxxer 提醒社区：相关演示/应用需要基于 Higgsfield API 构建，强调 API 才是可复现集成路径，而非仅看演示视频。",
+    "url": "https://x.com/gpumaxxer/status/2100334510470812157",
+    "source": "gpumaxxer",
+    "source_handle": "@gpumaxxer",
+    "image": "/assets/covers/cover-20260921-v-10.jpg",
+    "published_at": "2026-09-17T05:22:00+08:00",
+    "tags": [
+      "Higgsfield API",
+      "AI应用",
+      "开发"
+    ]
+  },
+  {
+    "title": "gpumaxxer：7 天 AI 应用挑战赛，赢家 5 万美元",
+    "summary": "gpumaxxer 发起挑战：未来 7 天内测试并认为有用的一个应用，其作者将获得 5 万美元，仅一位赢家，鼓励围绕新 API/模型做可落地产品。",
+    "url": "https://x.com/gpumaxxer/status/2100357779919962565",
+    "source": "gpumaxxer",
+    "source_handle": "@gpumaxxer",
+    "image": "/assets/covers/cover-20260921-v-11.jpg",
+    "published_at": "2026-09-17T06:54:00+08:00",
+    "tags": [
+      "AI创业",
+      "AI应用",
+      "开发者",
+      "挑战赛"
+    ]
+  }
+]

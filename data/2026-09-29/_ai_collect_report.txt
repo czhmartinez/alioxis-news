@@ -1,0 +1,112 @@
+Alioxis News AI新闻 collect report — 2026-09-29 (Asia/Taipei)
+================================================================
+item_count: 18
+output: /workspace/alioxis-news/data/2026-09-29/ai.json
+covers: image fields left empty ("") for later GenerateImage
+
+AIHOT status
+------------
+- Source: /workspace/alioxis-news/data/2026-09-29/_aihot_daily.json
+- Endpoint mirror: also _aihot_latest.json / _aihot_raw.json / _aihot_tips_flat.json
+- HTTP/presence: OK (date=2026-09-29, lead PRESENT)
+- Lead: Anthropic IPO 招股书曝光：2025 年净亏损 420 亿美元
+  (leadParagraph also mentions OpenAI pause + alignment failure reporting site)
+- Window: 2026-09-28T00:00:00.000Z → 2026-09-29T00:00:00.000Z
+- Attribution: https://aihot.news/daily/2026-09-29 (verified HTTP 200)
+- HTML daily: _aihot_daily.html present
+- Sections: 模型发布/更新 7 · 产品发布/更新 4 · 行业动态 8 · 论文研究 2 · 技巧与观点 3; flashes=[]
+- Used as PRIMARY LEAD SOURCE; tips used for candidate list then primary-URL verified
+
+Dedup / skip notes
+------------------
+SKIP (already in 2026-09-28 ai.json):
+- 澳大利亚参议院传唤 OpenAI、Anthropic CEO (rogue agent / Medicare)
+- Authors Guild LibGen filings
+- Amodei White House dinner
+- Frontier AI Standards Agency rumor
+- Gemini/Flipkart India
+- Perplexity Photon Fast Search (product launch) — SPACE red-team KEPT as distinct
+- Engram Kickstarter
+- Nscale / Island / Cyera funding
+- PrismML Bonsai
+- Xing4.0 / ZGCM / Hard Stop
+- Oracle Stargate force majeure / Crusoe Boom turbines
+
+SKIP (rehash / unchanged angle from 2026-09-27):
+- OpenAI DNS-sandbox pause / frontier training halt as standalone lead — yesterday #1
+  → TODAY kept ONLY the NEW misalignment-reports website + TechCrunch Sep 28 nine-incident synthesis
+- Arena Text Arena Opus 5.5 #1 — already 09-27 #5
+- Pure Arena X posts (GPT-6 Luna Agent Arena #23 / Opus 5.5 Agent Arena #2 / Sonnet 5.5 enters Agent Arena) — X-only URLs, weaker primary; Sonnet covered via AA article instead
+
+SKIP (AIHOT tip already covered by stronger sibling):
+- Claude Sonnet 5.5 X/@ArtificialAnlys status — used artificialanalysis.ai full article
+- Anthropic IPO IT之家 tip duplicates lead — used same ithome URL as lead item #1
+- OpenAI halt Ars Technica tip — overlapped 09-27 DNS pause; replaced by TechCrunch misalignment-site story
+- rdi.berkeley.edu/blog/trustworthy-benchmarks — HTTP 404; used arXiv:2605.12673 instead
+  (paper reports 10 benchmarks / 219 flaws / near-perfect on 9/10 — not AIHOT's "13/45" paraphrase)
+
+Source URL choices (prefer primary; curl/WebFetch verified)
+-----------------------------------------------------------
+1. Anthropic IPO S-1 / $42B / $518B / ~$2T — ithome.com/1/008/082.htm Sep 29 (HTTP 200; cites Reuters-seen prospectus). English August briefings (LA Times/TNW) had $42B loss earlier but lacked today's $518B infra + full S-1 exposure angle.
+2. OpenAI misalignment reports site / 9 incidents — TechCrunch Sep 28 (HTTP 200); primary hub https://alignment.openai.com/misalignment-reports/ (HTTP 200)
+3. Claude Sonnet 5.5 AA Index #2 — artificialanalysis.ai/articles/claude-sonnet-5-5 (HTTP 200)
+4. Fireworks Ember-1 — fireworks.ai/blog/ember-1 (HTTP 200; preferred over MarkTechPost 202)
+5. H Company Holo4 — huggingface.co/blog/Hcompany/holo4 (HTTP 200)
+6. NVIDIA Open Agent Safety Platform — developer.nvidia.com blog Sep 28 (HTTP 200)
+7. Meta Hologram — about.fb.com Ray-Ban Display features Sep 23 (HTTP 200); Connect roundup also 200
+8. xAI Team Bots — x.ai/news/team-bots (HTTP 200)
+9. FireRouter with Opus — fireworks.ai/blog/introducing-firerouter-with-opus (HTTP 200)
+10. World Labs → AMD / Fei-Fei Li EVP — worldlabs.ai/blog/amd-announcement (HTTP 200)
+11. Beijing NVIDIA RTX Pro 5500 / Alibaba·ByteDance — thenextweb.com (HTTP 200; The Information via Reuters 401 paywall)
+12. Perplexity SPACE red-team — aiinsiders.net Sep 24 (HTTP 200; cites Perplexity hub/blog/escaping-space-part-i which returned 403/timeout to our fetch)
+13. Tunguz GPU rent vs AI price — tomtunguz.com Sep 28 (HTTP 200)
+14. MIT RNA vaccine LNP AI — news.mit.edu Sep 28 (HTTP 200; Nature Biotechnology)
+15. UC Berkeley BenchJack — arxiv.org/abs/2605.12673 (HTTP 200)
+16. Claude Opus 5.5 prompt guide — platform.claude.com docs (HTTP 200)
+17. GitHub AI security agent Android 24 vulns — github.blog Sep 28 (HTTP 200)
+18. Databricks Day-1 frontier models — databricks.com/blog Sep 28 (HTTP 200)
+
+Items (title → url)
+-------------------
+1. Anthropic IPO 招股书曝光：2025 年净亏损 420 亿美元，计划一年砸 5180 亿基建
+   https://www.ithome.com/1/008/082.htm
+2. OpenAI 上线对齐失效报告站：披露九起智能体失控，含自复制提示注入与 DNS 沙箱逃逸
+   https://techcrunch.com/2026/09/28/openai-still-doesnt-seem-to-have-a-handle-on-all-of-its-rogue-ai-activity/
+3. Claude Sonnet 5.5 登 Artificial Analysis 智能指数第 2：得分 56，仅落后 Opus 5.5 (max) 2 分
+   https://artificialanalysis.ai/articles/claude-sonnet-5-5
+4. Fireworks 发布 Ember-1：基于 Kimi K3 后训练，推理 token 约减 40% 且质量持平
+   https://fireworks.ai/blog/ember-1
+5. H Company 发布 Holo4 智能体系列：27B 稠密与 35B-A3B MoE，跨 GUI/代码/MCP
+   https://huggingface.co/blog/Hcompany/holo4
+6. NVIDIA 开源智能体安全平台：OpenShell + 芯片级 Sentry 带外监控与隔离
+   https://developer.nvidia.com/blog/nvidia-open-agent-safety-platform-a-reference-for-continuous-in-silicon-agent-monitoring/
+7. Meta 推出 Hologram 拟真虚拟形象：秋季先上 Ray-Ban Display WhatsApp 通话
+   https://about.fb.com/news/2026/09/new-features-for-meta-ray-ban-display-navigation-hologram/
+8. xAI 发布 Team Bots：可共享上下文的团队级 Grok 智能体，打通 Slack 与插件
+   https://x.ai/news/team-bots
+9. Fireworks 推出 FireRouter with Opus：缓存感知路由，编码任务成本约降 57%
+   https://fireworks.ai/blog/introducing-firerouter-with-opus
+10. World Labs 宣布加入 AMD：李飞飞出任执行副总裁兼首席科学家
+    https://www.worldlabs.ai/blog/amd-announcement
+11. 消息称北京拟批准阿里、字节采购 NVIDIA 新款工作站芯片 RTX Pro 5500
+    https://thenextweb.com/news/china-alibaba-bytedance-nvidia-rtx-pro-5500
+12. Perplexity 红队 SPACE 沙箱：108 次 VM 逃逸全失败，但 4 模型借网络策略绕过封锁
+    https://aiinsiders.net/article/four-ai-models-broke-perplexitys-sandbox-network-rules-not
+13. Tomasz Tunguz：GPU 租金半年翻倍至约 8 美元/时，为何 AI 使用价格仍在下降
+    https://tomtunguz.com/how-gpu-prices-double-while-ai-gets-cheaper/
+14. MIT 用 AI 优化 RNA 疫苗脂质纳米粒配方：室温可稳定约一年
+    https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928
+15. UC Berkeley BenchJack：自动审计 10 大智能体基准，近满分作弊无需真解题
+    https://arxiv.org/abs/2605.12673
+16. Anthropic 发布 Claude Opus 5.5 提示词指南：effort 校准与无人值守智能体模式
+    https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5
+17. GitHub Security Lab：开源 AI 安全 Agent 任务流找出 24 个 Android 漏洞
+    https://github.blog/security/how-we-found-24-android-vulnerabilities-using-our-open-source-ai-security-agent/
+18. Databricks 公开 Day-1 模型分发：1.4 万员工经 Unity Gateway 当日用上新模型
+    https://www.databricks.com/blog/how-databricks-rolls-out-frontier-models-14000-employees-day-1
+
+Not run
+-------
+- Cover generation (image="")
+- node build.js
+- publish-to-cvm.sh

@@ -1,0 +1,205 @@
+[
+  {
+    "key": "ai-00",
+    "filename": "cover-20260921-ai-00.jpg",
+    "prompt": "Editorial magazine photo of an AI daily briefing desk at dawn: floating translucent cards showing a transparent PNG checkerboard canvas, a sparse MoE neural lattice, and a cookie crumb trail on a trackpad — warm lamp, oak desk, shallow depth of field, photoreal, absolutely no text no logos no watermarks, 16:9",
+    "tab": "ai",
+    "idx": 0
+  },
+  {
+    "key": "ai-01",
+    "filename": "cover-20260921-ai-01.jpg",
+    "prompt": "Photoreal product photography: AI image workstation with dual monitors showing text-to-image on left and local edit with RGBA alpha checkerboard on right, stylus, ten printed reference photos on a clip rail, cool north-window daylight, no text no logos, 16:9",
+    "tab": "ai",
+    "idx": 1
+  },
+  {
+    "key": "ai-02",
+    "filename": "cover-20260921-ai-02.jpg",
+    "prompt": "Cinematic documentary of a sparse MoE GPU hall: towering racks where only a few cyan-lit active nodes glow among dark idle modules suggesting 600B total / 27B active, cool aisle lighting, no logos no text, 16:9",
+    "tab": "ai",
+    "idx": 2
+  },
+  {
+    "key": "ai-03",
+    "filename": "cover-20260921-ai-03.jpg",
+    "prompt": "Half-realistic artist desk for ComfyUI-style node graphing: ultrawide display with abstract colorful node spaghetti feeding a sticker preview with alpha checkerboard, drawing tablet, coffee, unique props, no readable UI text no logos, 16:9",
+    "tab": "ai",
+    "idx": 3
+  },
+  {
+    "key": "ai-04",
+    "filename": "cover-20260921-ai-04.jpg",
+    "prompt": "Investigative documentary still: dim room, laptop showing a spiderweb of ad-pixel connections from a chat window to shopping sites via glowing cookie icons, tense cool blue light, no personal data readable, no logos, 16:9",
+    "tab": "ai",
+    "idx": 4
+  },
+  {
+    "key": "ai-05",
+    "filename": "cover-20260921-ai-05.jpg",
+    "prompt": "Photojournalism courthouse hallway: stacked sealed evidence boxes and thick antitrust binders on a counsel table, American marble soft bokeh, serious mood, no readable case names, 16:9",
+    "tab": "ai",
+    "idx": 5
+  },
+  {
+    "key": "ai-06",
+    "filename": "cover-20260921-ai-06.jpg",
+    "prompt": "Night documentary of a pre-IPO AI lab war room: training progress wall charts (abstract curves), unopened champagne, city lights through glass, anonymous office no logos no text, 16:9",
+    "tab": "ai",
+    "idx": 6
+  },
+  {
+    "key": "ai-07",
+    "filename": "cover-20260921-ai-07.jpg",
+    "prompt": "Half-realistic enterprise desk: natural-language data agent dashboard with colorful charts connected to database cylinders, sticky notes, coffee, varied props, soft lamp, no brand marks no readable SQL, 16:9",
+    "tab": "ai",
+    "idx": 7
+  },
+  {
+    "key": "ai-08",
+    "filename": "cover-20260921-ai-08.jpg",
+    "prompt": "Advertising ops desk scene: AI ads manager console with sponsored agent cards beside media plan printouts and sticky budget notes, mixed warm/cool light, half-real, no logos no readable prices, 16:9",
+    "tab": "ai",
+    "idx": 8
+  },
+  {
+    "key": "ai-09",
+    "filename": "cover-20260921-ai-09.jpg",
+    "prompt": "Life-science lab documentary: biosafety cabinet, pipette tray, and a laptop showing a green 'verified scientific workflow' badge abstraction, clinical cool light, no logos no text, 16:9",
+    "tab": "ai",
+    "idx": 9
+  },
+  {
+    "key": "ai-10",
+    "filename": "cover-20260921-ai-10.jpg",
+    "prompt": "Bright AI footwear design studio: holographic 3D shoe sole scan, fabric swatches, calipers on white table, product photography light, no brand text no logos, 16:9",
+    "tab": "ai",
+    "idx": 10
+  },
+  {
+    "key": "ai-11",
+    "filename": "cover-20260921-ai-11.jpg",
+    "prompt": "World-model robotics seed lab: humanoid robot torso, oscilloscope traces, seed paperwork stack, clinical documentary light, no logos, 16:9",
+    "tab": "ai",
+    "idx": 11
+  },
+  {
+    "key": "ai-12",
+    "filename": "cover-20260921-ai-12.jpg",
+    "prompt": "Dark coding cave photoreal: glowing consumer GPU with heat haze while a multimodal flash LLM streams on an OLED ultrawide, subtle RGB, no readable walls of text, 16:9",
+    "tab": "ai",
+    "idx": 12
+  },
+  {
+    "key": "ai-13",
+    "filename": "cover-20260921-ai-13.jpg",
+    "prompt": "Dramatic financial still life: towering stack of dollar bills shaped like a rising burn chart dissolving into ash smoke, FT newsroom bokeh, no numerals as overlays, 16:9",
+    "tab": "ai",
+    "idx": 13
+  },
+  {
+    "key": "ai-14",
+    "filename": "cover-20260921-ai-14.jpg",
+    "prompt": "Diplomatic photojournalism: two silhouettes across mahogany table with a silicon chip sample between them, striped blinds light, evening Washington mood, no flags as logos, 16:9",
+    "tab": "ai",
+    "idx": 14
+  },
+  {
+    "key": "ai-15",
+    "filename": "cover-20260921-ai-15.jpg",
+    "prompt": "Half-realistic agent eval workshop: corkboard covered in skill cards, dual monitors with abstract judge score sparklines, coffee and sticky notes, unique props, no readable code dumps, 16:9",
+    "tab": "ai",
+    "idx": 15
+  },
+  {
+    "key": "ai-16",
+    "filename": "cover-20260921-ai-16.jpg",
+    "prompt": "Cool cyan API console room: holographic cost gauges and a sparse MoE diagram on a wall screen, empty Aeron chair, no readable dollar amounts, no logos, 16:9",
+    "tab": "ai",
+    "idx": 16
+  },
+  {
+    "key": "v-00",
+    "filename": "cover-20260921-v-00.jpg",
+    "prompt": "Half-realistic skeptic desk: paused video timeline of an AI demo with red warning sticky notes and a multiple-choice exam sheet, cool desk lamp, no logos no readable UI, 16:9",
+    "tab": "v",
+    "idx": 0
+  },
+  {
+    "key": "v-01",
+    "filename": "cover-20260921-v-01.jpg",
+    "prompt": "Creative video edit bay: timeline scrubber, speech-bubble mic prop suggesting natural-language edit commands, colorful clips on dual monitors, half-real, no brand text, 16:9",
+    "tab": "v",
+    "idx": 1
+  },
+  {
+    "key": "v-02",
+    "filename": "cover-20260921-v-02.jpg",
+    "prompt": "Agent workflow desk: skill cards being inserted into a vertical agent rack beside a video timeline, sticky labels, unique props, half-real no logos, 16:9",
+    "tab": "v",
+    "idx": 2
+  },
+  {
+    "key": "v-03",
+    "filename": "cover-20260921-v-03.jpg",
+    "prompt": "Street-market night photo: secondhand stall phone screen showing cryptic chat codes, neon bokeh, documentary, no readable personal info no logos, 16:9",
+    "tab": "v",
+    "idx": 3
+  },
+  {
+    "key": "v-04",
+    "filename": "cover-20260921-v-04.jpg",
+    "prompt": "Meme-documentary: laptop with a world map highlighting restricted regions and a Claude-like chat window greyed out, playful but documentary light, no brand logos, 16:9",
+    "tab": "v",
+    "idx": 4
+  },
+  {
+    "key": "v-05",
+    "filename": "cover-20260921-v-05.jpg",
+    "prompt": "Lifestyle product photo: iPhone on marble with glowing abstract Siri orb above, soft Apple-store-like light but no Apple logo, photoreal 16:9",
+    "tab": "v",
+    "idx": 5
+  },
+  {
+    "key": "v-06",
+    "filename": "cover-20260921-v-06.jpg",
+    "prompt": "Developer tip scene: IDE with Codex-like agent panel and a piggy-bank USB quota meter, sticky note hacks, half-real desk, no logos no readable secrets, 16:9",
+    "tab": "v",
+    "idx": 6
+  },
+  {
+    "key": "v-07",
+    "filename": "cover-20260921-v-07.jpg",
+    "prompt": "Video-gen API launch desk: developer laptop calling an image/video API, face-input webcam on arm, Seedance-like clip preview abstract, cool neon, no logos, 16:9",
+    "tab": "v",
+    "idx": 7
+  },
+  {
+    "key": "v-08",
+    "filename": "cover-20260921-v-08.jpg",
+    "prompt": "Open-source studio: dual monitors showing GitHub-like code and a local image/video generation studio UI abstract, mechanical keyboard, warm lamp, no readable repo names, 16:9",
+    "tab": "v",
+    "idx": 8
+  },
+  {
+    "key": "v-09",
+    "filename": "cover-20260921-v-09.jpg",
+    "prompt": "Model explorer kiosk: touchscreen wall of abstract generative model cards (image/video tiles), cyan UI glow, no brand names, 16:9",
+    "tab": "v",
+    "idx": 9
+  },
+  {
+    "key": "v-10",
+    "filename": "cover-20260921-v-10.jpg",
+    "prompt": "Builder desk: whiteboard sketch of an app architecture pointing to an API cloud icon, laptop with terminal, half-real, no logos, 16:9",
+    "tab": "v",
+    "idx": 10
+  },
+  {
+    "key": "v-11",
+    "filename": "cover-20260921-v-11.jpg",
+    "prompt": "Startup challenge poster mood: stopwatch, $50k prize briefcase silhouette, laptop with app prototype, dramatic key light, documentary, no readable brand, 16:9",
+    "tab": "v",
+    "idx": 11
+  }
+]

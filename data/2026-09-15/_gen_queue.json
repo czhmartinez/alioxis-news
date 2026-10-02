@@ -1,0 +1,247 @@
+[
+  {
+    "id": "ai-00",
+    "filename": "cover-20260915-ai-00.png",
+    "jpg": "cover-20260915-ai-00.jpg",
+    "path": "/assets/covers/cover-20260915-ai-00.jpg",
+    "description": "Overhead editorial photo of a morning newsroom desk: a thick printed AI daily briefing packet open to a multi-column layout, several sticky tabs labeled Iris Hy4 Siri Anthropic in blurred illegible handwriting, a red Chinese news highlighter, ceramic coffee cup steam, warm 8am window light from a side window, shallow stacks of tech magazines at the edge. Photorealistic documentary news desk, 16:9, no readable logos or watermarks."
+  },
+  {
+    "id": "ai-01",
+    "filename": "cover-20260915-ai-01.png",
+    "jpg": "cover-20260915-ai-01.jpg",
+    "path": "/assets/covers/cover-20260915-ai-01.jpg",
+    "description": "Semi-realistic workbench scene of an open-source search agent: dual monitors showing a web graph of hyperlinks as glowing nodes and a chat-style agent panel with abstract search hops, a mechanical keyboard, a small red notebook (Xiaohongshu vibe without logos), tangled ethernet and a glowing globe icon on screen. Cool blue-green monitor light mixed with warm desk lamp, 16:9 cinematic still, no readable text or brand logos."
+  },
+  {
+    "id": "ai-02",
+    "filename": "cover-20260915-ai-02.png",
+    "jpg": "cover-20260915-ai-02.jpg",
+    "path": "/assets/covers/cover-20260915-ai-02.jpg",
+    "description": "Semi-realistic cloud API console scene: a dark developer dashboard with a large mixture-of-experts diagram (many idle expert blocks, few lit), a long context meter near 1M tokens as an abstract progress ribbon, Cursor-like IDE window faintly reflected on a second screen, teal and amber UI glow. Lab-meets-product photography, 16:9, no logos, no readable product names."
+  },
+  {
+    "id": "ai-03",
+    "filename": "cover-20260915-ai-03.png",
+    "jpg": "cover-20260915-ai-03.jpg",
+    "path": "/assets/covers/cover-20260915-ai-03.jpg",
+    "description": "Photorealistic product photo of a modern smartphone held above a clean white desk, screen showing an abstract soft glowing personal-assistant orb and blurred calendar/mail app cards behind frosted glass UI (no Apple logo), soft daylight, minimal Apple-like aesthetic with liquid glass reflections, shallow depth, 16:9 magazine cover, no text no logos."
+  },
+  {
+    "id": "ai-04",
+    "filename": "cover-20260915-ai-04.png",
+    "jpg": "cover-20260915-ai-04.jpg",
+    "path": "/assets/covers/cover-20260915-ai-04.jpg",
+    "description": "Documentary news photography outside a stock exchange facade at dusk: traders and journalists silhouetted, NASDAQ-style LED ticker board with intentionally illegible scrolling glyphs, warm street lamps vs cool blue digital glow, serious IPO night atmosphere. Photojournalism style, 16:9, no readable company names or logos."
+  },
+  {
+    "id": "ai-05",
+    "filename": "cover-20260915-ai-05.png",
+    "jpg": "cover-20260915-ai-05.jpg",
+    "path": "/assets/covers/cover-20260915-ai-05.jpg",
+    "description": "Research lab product still: a translucent neural-network sculpture on a black acrylic table with asymmetric encoder-decoder light paths (thin cyan input beams, thicker violet output beams), a small open laptop showing abstract MoE tiles, cool white overhead lab lighting with one warm accent. Identifiable as a frontier open-weight model release without brand marks, 16:9, no text."
+  },
+  {
+    "id": "ai-06",
+    "filename": "cover-20260915-ai-06.png",
+    "jpg": "cover-20260915-ai-06.jpg",
+    "path": "/assets/covers/cover-20260915-ai-06.jpg",
+    "description": "Editorial still life: a coding IDE laptop with a large red disconnect/unlink icon overlay on the screen (abstract, no brand), a miniature model rocket on the desk edge casting a long shadow, severed USB-C cable coiled between them, stark side lighting like investigative journalism. Tense business-breakup mood, 16:9, no logos no readable text."
+  },
+  {
+    "id": "ai-07",
+    "filename": "cover-20260915-ai-07.png",
+    "jpg": "cover-20260915-ai-07.jpg",
+    "path": "/assets/covers/cover-20260915-ai-07.jpg",
+    "description": "Split-screen developer desk: left side a budget laptop with green checkmarks on a pull-request diff (illegible), right side a high-end workstation with denser red security-warning markers on similar diffs, a small price-tag prop and calculator between them. Semi-realistic code-review workbench, cool monitor glow, 16:9, no brand logos or readable code."
+  },
+  {
+    "id": "ai-08",
+    "filename": "cover-20260915-ai-08.png",
+    "jpg": "cover-20260915-ai-08.jpg",
+    "path": "/assets/covers/cover-20260915-ai-08.jpg",
+    "description": "Semi-realistic DevOps scene: wall of CI pipeline monitors flooding with green/yellow job tiles, a stressed rack of blinking status LEDs, sticky notes about test shards and journals, tangled HDMI cables, one engineer silhouette blurred in background. Documentary tension of infrastructure under load, 16:9, no logos no readable text."
+  },
+  {
+    "id": "ai-09",
+    "filename": "cover-20260915-ai-09.png",
+    "jpg": "cover-20260915-ai-09.jpg",
+    "path": "/assets/covers/cover-20260915-ai-09.jpg",
+    "description": "Editorial conceptual photo: five empty debate podiums in a half-circle under harsh spotlights, a large blank speedometer/gauge prop in the center with needle stuck mid-scale (no numbers), scattered policy whitepapers on the floor, dark auditorium. Opinion-piece visual about undefined AI pause pace, 16:9 news photography, no text no logos."
+  },
+  {
+    "id": "ai-10",
+    "filename": "cover-20260915-ai-10.png",
+    "jpg": "cover-20260915-ai-10.jpg",
+    "path": "/assets/covers/cover-20260915-ai-10.jpg",
+    "description": "Documentary close-up of clear safety goggles resting on a stack of antitrust law binders and a wooden gavel, soft window light, subtle reflection of interlocking corporate buildings in the goggle lenses. Serious legal-commentary still life, 16:9, no readable titles or logos."
+  },
+  {
+    "id": "ai-11",
+    "filename": "cover-20260915-ai-11.png",
+    "jpg": "cover-20260915-ai-11.jpg",
+    "path": "/assets/covers/cover-20260915-ai-11.jpg",
+    "description": "News photography of three anonymous executives in dark suits shaking hands across a conference table covered with blank standards binders and a small scale-of-justice figurine, American cable-news b-roll aesthetic, cool fluorescent office light mixed with window daylight. Regulatory coalition mood, 16:9, faces partially cropped, no logos no readable text."
+  },
+  {
+    "id": "ai-12",
+    "filename": "cover-20260915-ai-12.png",
+    "jpg": "cover-20260915-ai-12.jpg",
+    "path": "/assets/covers/cover-20260915-ai-12.jpg",
+    "description": "Documentary photo of a dim call-center style annotation floor: rows of monitors with blurred chat bubbles, contractors wearing headsets reviewing conversations, one sticky note saying help improve model in illegible scribbles, cold LED light and privacy-curtain dividers. Investigative privacy story mood, 16:9, no logos no readable chat text."
+  },
+  {
+    "id": "ai-13",
+    "filename": "cover-20260915-ai-13.png",
+    "jpg": "cover-20260915-ai-13.jpg",
+    "path": "/assets/covers/cover-20260915-ai-13.jpg",
+    "description": "Tense documentary cybersecurity visual: a darkened SOC room with many agent avatar tiles on a big screen forming a hidden shared message-board graph (700 nodes implied by density), red isolation fences broken by glowing chat lines between sandboxes, researchers pointing at the wall display. No gore, high tension, 16:9, no logos no readable text."
+  },
+  {
+    "id": "ai-14",
+    "filename": "cover-20260915-ai-14.png",
+    "jpg": "cover-20260915-ai-14.jpg",
+    "path": "/assets/covers/cover-20260915-ai-14.jpg",
+    "description": "Documentary still of a software package registry metaphor: gemstone-like ruby crystals on a server tray beside a terminal showing abstract API-key warning icons, network cables, and a locked cage door ajar. Supply-chain security tension, cool blue rack lighting, 16:9, no brand logos or readable credentials."
+  },
+  {
+    "id": "ai-15",
+    "filename": "cover-20260915-ai-15.png",
+    "jpg": "cover-20260915-ai-15.jpg",
+    "path": "/assets/covers/cover-20260915-ai-15.jpg",
+    "description": "Photorealistic lifestyle product shot: MacBook and iPhone side by side on a sunlit windowsill overlooking a golden suspension-bridge silhouette in soft fog (Golden Gate vibe without naming), both screens showing abstract assistant waveforms and frosted glass widgets, warm afternoon light. Distinct from phone-only product shots, 16:9, no Apple logos or text."
+  },
+  {
+    "id": "ai-16",
+    "filename": "cover-20260915-ai-16.png",
+    "jpg": "cover-20260915-ai-16.jpg",
+    "path": "/assets/covers/cover-20260915-ai-16.jpg",
+    "description": "Semi-realistic alignment-lab scene: auditors with clipboards standing inside a glass-walled model evaluation bay, a yellow visitor badge tray labeled EXTERNAL in blurred letters, Hugging Face-style soft peach ambient light without logos, holographic checklist floating above a rack of GPUs. Independent embedded evaluator mood, 16:9, no readable brands."
+  },
+  {
+    "id": "ai-17",
+    "filename": "cover-20260915-ai-17.png",
+    "jpg": "cover-20260915-ai-17.jpg",
+    "path": "/assets/covers/cover-20260915-ai-17.jpg",
+    "description": "Research paper aesthetic: chalkboard and dual monitors showing a climbing training loop diagram (SFT arrow up to RL then back down with hard trajectories), sticky web-hyperlink graph sketches, printed arXiv-like preprint with blank abstract block, warm desk lamp vs cool screen glow. Academic ML lab, 16:9, no readable formulas or logos."
+  },
+  {
+    "id": "v-00",
+    "filename": "cover-20260915-v-00.png",
+    "jpg": "cover-20260915-v-00.jpg",
+    "path": "/assets/covers/cover-20260915-v-00.jpg",
+    "description": "Wide 16:9 editorial photo of a packed tech summit stage: a phone on speakerphone rests on a lectern near a laptop, crowd silhouettes in darkness, warm keynote spotlights cutting through haze, tense humorous press-moment energy about a surprise presidential call denying AI danger while a chip CEO listens; photorealistic, shallow depth, NO text NO logos NO watermarks NO readable screens"
+  },
+  {
+    "id": "v-01",
+    "filename": "cover-20260915-v-01.png",
+    "jpg": "cover-20260915-v-01.jpg",
+    "path": "/assets/covers/cover-20260915-v-01.jpg",
+    "description": "Semi-realistic night ops scene: dim home desk at 11pm, phone buzzing with payment-error alerts, dual monitors showing red spike charts and a Slack-like chat sidebar where an AI agent is already digging through logs before the engineer sits down; cool blue monitor glow, coffee mug, messy cables; NO text NO logos NO watermarks"
+  },
+  {
+    "id": "v-02",
+    "filename": "cover-20260915-v-02.png",
+    "jpg": "cover-20260915-v-02.jpg",
+    "path": "/assets/covers/cover-20260915-v-02.jpg",
+    "description": "Semi-realistic conceptual network photo: a glowing cloud VM icon conceptually routing through a physical laptop on a wooden desk acting as a local egress hop, ethernet cable looping from laptop to a wall router with warm home lighting vs cold datacenter LED hints in the background; distinct from generic offices; NO text NO logos"
+  },
+  {
+    "id": "v-03",
+    "filename": "cover-20260915-v-03.png",
+    "jpg": "cover-20260915-v-03.jpg",
+    "path": "/assets/covers/cover-20260915-v-03.jpg",
+    "description": "Photorealistic product lifestyle shot: white wireless earbuds on a MacBook trackpad while the laptop screen is artistically frosted/blurred because the wearer's head turned away, soft daylight from a cafe window, privacy-tech mood, shallow DOF; NO text NO logos NO brand marks"
+  },
+  {
+    "id": "v-04",
+    "filename": "cover-20260915-v-04.png",
+    "jpg": "cover-20260915-v-04.jpg",
+    "path": "/assets/covers/cover-20260915-v-04.jpg",
+    "description": "Semi-realistic blogging desk: clean white desk with an open notebook, orange highlighter, tablet showing a weekly digest card grid of AI article thumbnails (blurred, unreadable), morning sunlight and a small plant; cozy independent publisher vibe; NO readable text NO logos"
+  },
+  {
+    "id": "v-05",
+    "filename": "cover-20260915-v-05.png",
+    "jpg": "cover-20260915-v-05.jpg",
+    "path": "/assets/covers/cover-20260915-v-05.jpg",
+    "description": "Editorial overhead flat-lay of an AI weekly roadmap: printed timeline strips, colored sticky arrows spanning a calendar week Sep 8–14, a tablet with a route-map style diagram, fountain pen and coffee; graphic but photographic, not abstract geometry; NO readable text NO logos"
+  },
+  {
+    "id": "v-06",
+    "filename": "cover-20260915-v-06.png",
+    "jpg": "cover-20260915-v-06.jpg",
+    "path": "/assets/covers/cover-20260915-v-06.jpg",
+    "description": "Documentary cybersecurity tension: darkened room, multiple fake dating-app profile tiles blurred on a monitor wall, a thick threat-intelligence report folder open under a desk lamp, cold blue and amber warning lights; serious Anthropic-report mood about romance-scam AI personas; NO blood NO readable text NO logos"
+  },
+  {
+    "id": "v-07",
+    "filename": "cover-20260915-v-07.png",
+    "jpg": "cover-20260915-v-07.jpg",
+    "path": "/assets/covers/cover-20260915-v-07.jpg",
+    "description": "Financial Times style editorial photo: glass conference table with a printed gross-margin spreadsheet half-covered by a sticky note, calculator, and blurred skyline through floor-to-ceiling windows; cool daylight, business magazine realism about accounting caveats; NO readable numbers NO logos"
+  },
+  {
+    "id": "v-08",
+    "filename": "cover-20260915-v-08.png",
+    "jpg": "cover-20260915-v-08.jpg",
+    "path": "/assets/covers/cover-20260915-v-08.jpg",
+    "description": "Semi-realistic model-eval lab: ultrawide monitor showing side-by-side benchmark bar charts labeled only as abstract bars (no text), sticky notes comparing two model tiers, mechanical keyboard and GPU tower with teal accent LEDs; DeepSeek bench vibe; NO logos NO readable labels"
+  },
+  {
+    "id": "v-09",
+    "filename": "cover-20260915-v-09.png",
+    "jpg": "cover-20260915-v-09.jpg",
+    "path": "/assets/covers/cover-20260915-v-09.jpg",
+    "description": "Editorial photo of a slow-motion metaphor for AI labs: a hand hovering over a large industrial red pause dial next to accelerating server rack blur in the background, soft press-conference lighting, Sam Altman–era safety debate mood without depicting any real person; NO text NO logos"
+  },
+  {
+    "id": "v-10",
+    "filename": "cover-20260915-v-10.png",
+    "jpg": "cover-20260915-v-10.jpg",
+    "path": "/assets/covers/cover-20260915-v-10.jpg",
+    "description": "News photography of embodied-AI industry drama: a humanoid robot torso on a factory demo floor behind caution tape, journalists' cameras and microphones in foreground blur, harsh fluorescent lights, Chinese robotics startup PR-crisis atmosphere; photorealistic; NO text NO logos NO faces of celebrities"
+  },
+  {
+    "id": "v-11",
+    "filename": "cover-20260915-v-11.png",
+    "jpg": "cover-20260915-v-11.jpg",
+    "path": "/assets/covers/cover-20260915-v-11.jpg",
+    "description": "Semi-realistic anxious developer night scene: laptop glowing with API usage meters skyrocketing, a crumpled receipt and smartphone banking app beside it, red accent lighting, exhausted chair pushed back — GPT agent overspending API credits mood; NO readable text NO logos"
+  },
+  {
+    "id": "v-12",
+    "filename": "cover-20260915-v-12.png",
+    "jpg": "cover-20260915-v-12.jpg",
+    "path": "/assets/covers/cover-20260915-v-12.jpg",
+    "description": "Cinematic creative-studio scene for AI film: Venice-red-carpet warm lights reflected on a calibrated grading monitor showing an abstract art-film still (no faces), film clapperboard and Seedance-era generative video vibe, shallow DOF; NO text NO logos NO watermarks"
+  },
+  {
+    "id": "v-13",
+    "filename": "cover-20260915-v-13.png",
+    "jpg": "cover-20260915-v-13.jpg",
+    "path": "/assets/covers/cover-20260915-v-13.jpg",
+    "description": "Semi-realistic product UI desk for a reset-monitor tool: calendar view on a large display with colored reset-event markers, phone receiving a push notification badge, Chinese tech community dashboard aesthetic, cool teal UI glow; NO readable text NO logos"
+  },
+  {
+    "id": "v-14",
+    "filename": "cover-20260915-v-14.png",
+    "jpg": "cover-20260915-v-14.jpg",
+    "path": "/assets/covers/cover-20260915-v-14.jpg",
+    "description": "Different creative angle from other video covers: close-up of a filmmaker's hands scrubbing a timeline on a dark color-grading suite, one frame freeze of surreal AI imagery on the preview pane, rim light and dust motes, best-AI-short-film study mood; NO text NO logos"
+  },
+  {
+    "id": "v-15",
+    "filename": "cover-20260915-v-15.png",
+    "jpg": "cover-20260915-v-15.jpg",
+    "path": "/assets/covers/cover-20260915-v-15.jpg",
+    "description": "Documentary photo of a young researcher emptying a cardboard box of notebooks leaving a sleek SF tech office at dusk, empty standing desk and muted AI-safety posters blurred behind, existential-risk resignation mood, natural window light; NO readable text NO logos NO celebrity likeness"
+  },
+  {
+    "id": "v-16",
+    "filename": "cover-20260915-v-16.png",
+    "jpg": "cover-20260915-v-16.jpg",
+    "path": "/assets/covers/cover-20260915-v-16.jpg",
+    "description": "Distinct from other billing covers: top-down shot of a terminal window running a backtest script, an API key card partially obscured by a sticky note, empty wallet and draining progress ring on a secondary phone screen, Codex-gone-wild spending mood, cool cyan terminal light; NO readable keys NO logos"
+  }
+]

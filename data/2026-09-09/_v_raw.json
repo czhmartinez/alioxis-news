@@ -1,0 +1,114 @@
+[
+  {
+    "author_name": "小互",
+    "source_handle": "@xiaohu",
+    "text": "比 GPT-6 Astra 更强的下一代模型曝光\n\nOpenAI宣布，公司内部的一个AI模型解出了纳维斯托克斯方程的存在性与光滑性问题\n\n这是克莱数学研究所2000年提出的七个千禧年大奖难题之一，每个悬赏100万美元\n\n此前只有一个千禧年难题被解开过\n\n该模型调动了多达1万个Agent 并行工作约88小时...\n\n算力成本高达数百万美元，最后产出一份165页的证明，外加用Lean（一种能逐步验证数学论证逻辑正确性的编程语言）做的形式化验证）...\n\n而做出这个证明的是一个还没公开、比GPT-6 Astra更强的下一代内部模型。\n\nOpenAI表示不打算去领这100万美元奖金",
+    "url": "https://x.com/xiaohu/status/2097477721672855994",
+    "published_at_guess": "16分钟 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "小互",
+    "source_handle": "@xiaohu",
+    "text": "📢好消息：\n\nGrok Bot 正式打通了 X 平台\n机器人现在可以直接调用 X 的数据和能力\n\n福利：付费的 Grok Bot 用户在首次绑定连接时，会免费赠送一部分 X API 额度（Starter Credits），供上手试用体验\n\n接入流程：进入 Grok Bot 的 Marketplace（应用市场）→ 搜索并添加 X 插件 → 登录 X 账号完成授权，直到账号状态显示为已连接即可\n\n主要功能：\n\n自动读取与监控：抓取 @ 提及里的用户反馈、将关注流/首页时间线提炼为“每日简报”、追踪最新热点趋势，并把感兴趣的内容自动存入书签。\n\n私信与评论管理：分类整理私信（DM）；如果推文评论区问题太多，机器人能聚合归类所有提问，辅助生成回复并自动化批量发布。\n\n智能个性化助理（X Scout）：作者举例了一个叫 X Scout 的机器人，它能学习你的工作习惯与历史发帖，自动去 X 上寻找值得抄作业的 Grok Bot 玩法并推荐给你。\n\nAI 生成标签：由 Grok Bot 代发的推文，系统会自动打上“Made with AI”的透明度标识。",
+    "url": "https://x.com/xiaohu/status/2097469976768897186",
+    "published_at_guess": "47分钟 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "小互",
+    "source_handle": "@xiaohu",
+    "text": "ChatGPT Images 2.5\n\n有点东西",
+    "url": "https://x.com/xiaohu/status/2097460743151161751",
+    "published_at_guess": "1小时 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "小互",
+    "source_handle": "@xiaohu",
+    "text": "精细编辑比较",
+    "url": "https://x.com/xiaohu/status/2097460745432887790",
+    "published_at_guess": "1小时 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "小互",
+    "source_handle": "@xiaohu",
+    "text": "GPT Image2.5 发布\n\n更快 更强 更逼真自然\n\n更强大的编辑能力，支持非常精细化的点对点的编辑\n\n只需描述你想编辑的图像部分即可",
+    "url": "https://x.com/xiaohu/status/2097450450610274355",
+    "published_at_guess": "2小时 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "text": "🚨售后贴：给前两天推荐的 Codex 新上下文功能建议大家暂时别开，已经开的也先关了…\n\n因为周末这两天我和一些群友继续实测下来，发现它确实能大幅降低 token 消耗，但对话轮次一多，质量下降也挺明显。\n\n最直观的感觉就是前面交代过的要求、已经讨论过的事情，跑着跑着就忘了，有时候还会开始胡言乱语（我第一次遇到codex串session..）\n\n之前介绍过，这个实验功能把反复压缩摘要换成了笔记 + 可搜索历史。\n\n我怀疑是有些细节没记下来，或者后面没能正确找回来，导致上下文接不上。\n\n不过具体是记录还是检索的问题，目前还不能确定。\n\n省 token 确实省，但如果跑到后面需要反复纠正、重新交代背景，就有点得不偿失了。\n\n目前我们测下来的感觉，这个质量损失不太值得，还是等后续正式版更稳定了再说…..",
+    "url": "https://x.com/MaxForAI/status/2096797970582921595",
+    "published_at_guess": "9月6日",
+    "is_repost": false
+  },
+  {
+    "author_name": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "text": "突发，DeepSeek 开启大降价！降幅达 60%。\n\n根据这次调价通知，北京时间 9 月 10 日 12:00 起，Flash 系列将调整 API 定价。闲时价格如下，单位均为元／百万 token：\n\n输入（缓存未命中）：1.5 → 1 元，下降约 33%。\n输出：4.5 → 4 元，下降约 11%。\n输入（缓存命中）：0.05 → 0.02 元，下降 60%。\n\n高峰时段价格仍为空闲时段的两倍，对应输入 2 元、输出 8 元、缓存命中输入 0.04 元。\n\n不过，最高降幅 60% 指的是缓存命中部分，整张 API 账单能省多少，还得看输入、输出和缓存各占多少。\n\n最后提一下这张跑分图：\n\n在 DeepSWE v1.1、mini-SWE 测试设置下，DeepSeek V4.1-Flash 的 max 档 Pass@1 达到 75.1%，略高于图中的 GPT-6 Astra 和 Claude Opus 5；按横轴估读，平均每次任务尝试的成本约为 0.25 美元。\n\n同一张图里，V4.1Flash拿到了最高分，同时把任务成本压到了明显更低的位置。\n\n接下来就看实际跑代码时，能不能兑现这个表现了。\n\n注：具体情况以官方正式发布为准。",
+    "url": "https://x.com/MaxForAI/status/2097353806921207838",
+    "published_at_guess": "8小时 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "text": "Codex地摊儿都来了…….",
+    "url": "https://x.com/MaxForAI/status/2097346061149053271",
+    "published_at_guess": "8小时 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "text": "快速回答：能！\n\nDeepSeek V4-Pro太区了",
+    "url": "https://x.com/MaxForAI/status/2097301723509567985",
+    "published_at_guess": "11小时 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "text": "🚨突发，DeepSeek宣布新模型开始内测！\n\n刚刚DeepSeek官方宣布，已经开始V4.1 Flash 的中间版本内测。\n\nV4.1 Flash采用了新的模型结构，原生多模态支持、能力更强、速度更快、且成本更低。\n\nAPI调用只需要保持 base_url 不变，将模型名设置为 deepseek-v4.1-flash-expires-on-0910",
+    "url": "https://x.com/MaxForAI/status/2097229032819691627",
+    "published_at_guess": "16小时 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "text": "说两个关于我开发的这个AI热点网站AIHOT的小变化：\n\n1. AIHOT终于蹲点买下了并启用了全新的域名：aihot.news，也完成了国内的备案和全面迁移，这个域名应该就非常好记了～news嘛，跟AIHOT多适配呀。\n\n2. 最近AIHOT因为整体已经快到了百万级月活，整体服务越来越冗长，正好GPT-6 Astra上了，所以借这个机会，完整的重构了全部的系统架构、后端代码、数据库，为了未来10万级信源监控、以及承接更高并发访问和处理任务打好基础，同时减少内容漏处理、任务卡住和数据不同步等问题。本来预期是周一凌晨能搞完，但是因为我是个纯外行代码菜鸡，这种人生第一次的不停服的全方位重构没啥经验，整体重构和迁移过程中还是出了很多BUG，导致拖到了今天，目前已经重构和迁移完成，绝大多数的BUG都已经修复完毕了，这两天大家在AIHOT上不好的体验，给大家磕头道歉🙇‍♂️\n\n欢迎大家用我的小产品～纯公益的，完全免费～",
+    "url": "https://x.com/Khazix0918/status/2097317343487733969",
+    "published_at_guess": "10小时 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "text": "用GPT-6 Astra操控Blender，保姆级教程来了。\nBlender，可能就是这次GPT-6 Astra上线后的最大受益者。\n大家真的是玩疯了。\n直接让Blender的下载量都跟着暴增了。。。\n我也没想到，3D这个形态，居然以如此离奇的机遇，进入到了大家的视野里。\n在我实测GPT-6...",
+    "url": "https://x.com/Khazix0918/status/2097201246973366417",
+    "published_at_guess": "18小时 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "text": "@sama @thsottiaux 完全用不了！！！完全用不了！！！随便一个对话就是显示模型已满！两天了！！我连一个最基本的任务都处理不了！！！！神经病吧！！！",
+    "url": "https://x.com/Khazix0918/status/2097138611842085108",
+    "published_at_guess": "22小时 前",
+    "is_repost": false
+  },
+  {
+    "author_name": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "text": "GPT我完全不能用了，开多少新对话都是模型已满，甚至开GPT-5.6 Luna都能跟我说模型已满。。。\n这到底是我的问题还是OpenAI的问题？？？？",
+    "url": "https://x.com/Khazix0918/status/2096852029629157421",
+    "published_at_guess": "9月6日",
+    "is_repost": false
+  }
+]

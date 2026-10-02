@@ -1,0 +1,7 @@
+covers 2026-09-30 大V视野: FAILED — 0/20 generated
+blocker: CallDynamicTool / GetDynamicTools / GenerateImage not available in this executor subagent toolset
+available tools were: ListMachines, WebSearch, WebFetch, Shell, Read, AwaitShell, CopyToBox, CopyFromBox, GetMcpTools, CallMcpTool
+prepared: _cover_prompts_v.json (20 unique content-matched 16:9 prompts)
+dirs ready: data/2026-09-30/_cover_raw/, assets/covers/
+v.json: NOT updated (all image fields still empty)
+next: parent must CallDynamicTool namespace=cursor toolName=GenerateImage aspect_ratio=16:9 for each prompt, save raw to _cover_raw/v-XX.png, then compress to assets/covers/cover-20260930-v-XX.jpg (~960w q72) and set v.json image paths

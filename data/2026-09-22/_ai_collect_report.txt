@@ -1,0 +1,89 @@
+Alioxis News AI新闻 collect report
+Date (Asia/Taipei): 2026-09-22
+item_count: 17
+AIHOT_lead: no
+AIHOT_url: (none — 2026-09-22 daily not published yet)
+
+AIHOT_status:
+- GET https://aihot.virxact.com/api/v1/dailies/2026-09-22 → 404 "No daily report exists for 2026-09-22"
+- GET https://aihot.virxact.com/api/v1/dailies/latest → still 2026-09-21 (Qwen-Image-2.1 lead)
+- aihot.news/daily/2026-09-22 → HTTP 403 to curl (page may exist behind bot wall, but API confirms no daily object)
+- Used AIHOT selected window=24h / 7d as discovery feed for non-lead stories
+
+sources_used:
+- AIHOT API selected 24h/7d (discovery; Xiaomi MiMo cluster, Grok, Muse, Kimi, Linear, etc.)
+- Hugging Face (XiaomiMiMo/MiMo-V2.6-Pro-RL; inclusionAI/Ling-3.0-flash-Fin)
+- OfficeChai / Artificial Analysis (MiMo-V2.6-Pro benchmarks; Grok 4.7 article; Ling Fin article)
+- x.ai official news (Grok 4.7)
+- CBC News + Financial Post (BC OpenAI lawsuit)
+- IT之家 (Amazon×Meta Muse; Kimi Code Desktop)
+- The Next Web / Herald Business (OpenAI global standards post coverage; openai.com slug 404)
+- OpenAI blog (math advisory group; Academy paths; Astra for Law)
+- AGMAI / Terry Tao guest post (cross-check math group)
+- New York Post / The Information (OpenAI–Anthropic stress-test talks)
+- Linear Now blog (CI bottleneck)
+- Tomasz Tunguz blog (if-then decision models)
+- Interconnects / Nathan Lambert (open-weight balance of power)
+- RuntimeWire (Light Origins Light-O1)
+- BetaKit (Altis Labs Series A)
+
+dedup_notes:
+SKIPPED (explicit 2026-09-21 digest / user skip list):
+- Qwen-Image-2.1 / ComfyUI / Step 5 Preview / ChatGPT __obi
+- Antitrust slowdown class action / Anthropic new-model-before-IPO / Data agent / Sponsored Agents
+- Hang Ten / Emulate / DeepSeek-V4.1-Flash / FT cash-burn -$278B / Bessent–He / Tessl / Anthropic LSVP
+
+SKIPPED (2026-09-20/_ai_collect_report carryovers & 9/19 overlap):
+- Anthropic IPO delay ~$2T, Claude distillation, Reuters Astra/resignations ten days
+- OpenAI–Anthropic–Google safety talks (kept DISTINCT Information stress-test negotiation angle)
+- Gemini Irregular / MarkTechPost “You too Google” rehash
+- Muse calendar commute tip, TypeSafe Jev product launch as standalone (kept Tunguz usage tip only)
+- Qwen3.8-LiveTranslate, Anthropic–Accenture, ZCode, etc.
+
+NOT included / weak:
+- Anthropic Opus 5.5 “leak” gossip (taogongwei) — unverified, skipped
+- AWS Bedrock × Kimi K3 — secondary aggregators only, no stable AWS what’s-new URL verified
+- openai.com “Building Standards…” official HTML slug not found (404); covered via TNW
+
+titles_and_urls:
+1. 小米开源 MiMo-V2.6-Pro：AA 开放权重登顶 46 分，1.02T MoE / 42B 激活
+   https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL
+2. xAI 发布 Grok 4.7：主打编码与知识工作，同价同速于 4.6
+   https://x.ai/news/grok-4-7
+3. Artificial Analysis：Grok 4.7 智能指数 46，编码代理升至 56、跻身前四实验室
+   https://artificialanalysis.ai/articles/benchmarking-grok-4-7
+4. 加拿大 BC 省起诉 OpenAI：称枪击案前未将 flagged ChatGPT 对话转介警方
+   https://www.cbc.ca/news/canada/british-columbia/bc-government-announce-update-openai-legal-action-9.7352395
+5. 亚马逊封禁 Meta Muse 智能体代购：称未获授权、未表明身份且存凭证风险
+   https://www.ithome.com/1/005/418.htm
+6. 月之暗面发布 Kimi Code Desktop 1.0：macOS / Windows 图形化编程智能体
+   https://www.ithome.com/1/005/258.htm
+7. OpenAI 呼吁美国主导全球前沿 AI 技术标准：联通十国安全研究所网络
+   https://thenextweb.com/news/openai-global-ai-standards-push
+8. OpenAI 宣布数学与 AI 独立咨询小组：称内部模型已解决 100+ 未解难题
+   https://openai.com/index/advisory-group-on-mathematics-and-ai/
+9. The Information：OpenAI 与 Anthropic 今年早些时候洽谈互相 stress-test 协议
+   https://nypost.com/2026/09/21/business/openai-anthropic-held-talks-to-stress-test-each-others-ai-models-report/
+10. Linear 重构 CI：AI 编码加速后，PR 等待从 6 分钟以上压到约 5 分钟
+    https://linear.app/now/ci-bottleneck-reworked
+11. 用法技巧：用专用「决策器」替代生成式 if-then，分类成本可降近百倍
+    https://tomtunguz.com/ai-comes-for-the-if-statement
+12. Nathan Lambert：开源权重「中美实力格局」——中方领先开源权重、美方主导真开源
+    https://www.interconnects.ai/p/the-current-balance-of-power-in-open
+13. Light Origins 发布 Light-O1：用互联网人体视频预训练，迁移到人形机器人动作
+    https://runtimewire.com/article/light-origins-light-o1-human-video-robot-actions
+14. OpenAI 扩展 Academy：按岗位新增开发者/管理者/教育者与学生路径并设结业徽章
+    https://openai.com/index/expanding-openai-academy-with-new-learning-paths/
+15. OpenAI 推出 Astra for Law：GPT-6 Astra + 法律检索与律所工作流插件
+    https://openai.com/index/astra-for-law/
+16. Ant Group 开源金融向 Ling-3.0-flash-Fin：124B MoE / 5.1B 激活，MIT 许可
+    https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin
+17. Altis Labs 获 2500 万美元 A 轮：用 AI 影像预后加速肿瘤临床试验终点
+    https://betakit.com/altis-labs-raises-25-million-usd-series-a-to-expand-ai-for-cancer-trials/
+
+blockers:
+- AIHOT daily for 2026-09-22 not generated yet (API 404); no AIHOT lead item.
+- OpenAI official “Building Standards for the Next Phase of AI” HTML URL not found (multiple slug 404s); used TNW secondary coverage + NCIJ full-text mirror for facts.
+- mimo.mi.com official docs timed out from box; used HF weights + OfficeChai + AIHOT/WeChat discovery summaries.
+- image fields left empty ("") as required.
+- X MCP unused (prior credits note); discovery via AIHOT API + WebSearch/curl.

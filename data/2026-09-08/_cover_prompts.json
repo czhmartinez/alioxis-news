@@ -1,0 +1,302 @@
+[
+  {
+    "kind": "ai",
+    "index": 0,
+    "style": "hardware",
+    "filename_png": "cover-20260908-ai-00.png",
+    "filename_jpg": "cover-20260908-ai-00.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-00.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic wide 16:9 magazine photo of a vast modern AI data center aisle packed with dense GPU server racks, cool blue and warm amber status LEDs reflecting on polished floor, cinematic depth of field, no text no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 1,
+    "style": "hardware",
+    "filename_png": "cover-20260908-ai-01.png",
+    "filename_jpg": "cover-20260908-ai-01.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-01.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic 16:9 product/editorial photo of rows of liquid-cooled AI accelerator server blades in a dark industrial data hall, misty coolant pipes, dramatic side lighting, no text no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 2,
+    "style": "hardware",
+    "filename_png": "cover-20260908-ai-02.png",
+    "filename_jpg": "cover-20260908-ai-02.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-02.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic 16:9 aerial-style view inside a mega-scale AI compute campus at dusk with glowing glass data halls and power substations, documentary tech photography, no text no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 3,
+    "style": "hardware",
+    "filename_png": "cover-20260908-ai-03.png",
+    "filename_jpg": "cover-20260908-ai-03.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-03.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic 16:9 close-up product photo of a next-gen multi-chip GPU accelerator board with intricate heatsinks and NVLink-style bridges on a dark studio backdrop, shallow DOF, no text no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 4,
+    "style": "research",
+    "filename_png": "cover-20260908-ai-04.png",
+    "filename_jpg": "cover-20260908-ai-04.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-04.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary 16:9 lab photo of a mathematics research desk: open notebook with geometric diagrams, dual monitors showing formal proof assistant code (blurred non-readable), warm desk lamp, quiet academic atmosphere, no readable text"
+  },
+  {
+    "kind": "ai",
+    "index": 5,
+    "style": "research",
+    "filename_png": "cover-20260908-ai-05.png",
+    "filename_jpg": "cover-20260908-ai-05.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-05.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary 16:9 photo of a university computer lab at night with chalkboard of abstract math symbols softly out of focus and a glowing monitor running a theorem prover UI (illegible), no readable text"
+  },
+  {
+    "kind": "ai",
+    "index": 6,
+    "style": "business",
+    "filename_png": "cover-20260908-ai-06.png",
+    "filename_jpg": "cover-20260908-ai-06.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-06.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial 16:9 news photo of a modern corporate software office: empty meeting table with laptops open to coding IDEs (blurred), discarded software license folders nearby, cool daylight through glass walls, no logos no readable text"
+  },
+  {
+    "kind": "ai",
+    "index": 7,
+    "style": "apps",
+    "filename_png": "cover-20260908-ai-07.png",
+    "filename_jpg": "cover-20260908-ai-07.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-07.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 desk scene of a developer workstation at night: ultrawide monitor with abstract AI chat and code panels (illegible), keyboard, coffee, soft neon rim light, no logos no readable text"
+  },
+  {
+    "kind": "ai",
+    "index": 8,
+    "style": "apps",
+    "filename_png": "cover-20260908-ai-08.png",
+    "filename_jpg": "cover-20260908-ai-08.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-08.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 cybersecurity scene: hooded figure silhouetted before multiple monitors showing abstract network graphs and lock icons, dark blue-green lighting, no readable text no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 9,
+    "style": "business",
+    "filename_png": "cover-20260908-ai-09.png",
+    "filename_jpg": "cover-20260908-ai-09.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-09.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial 16:9 news photo of a downtown financial district with glass skyscrapers and a stock-ticker style LED strip (blurred illegible), IPO roadshow mood, overcast daylight, no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 10,
+    "style": "apps",
+    "filename_png": "cover-20260908-ai-10.png",
+    "filename_jpg": "cover-20260908-ai-10.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-10.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 scene of hands using a computer mouse while a large monitor shows a browser and code editor being controlled by an AI agent UI (all text illegible), cool desk lighting, no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 11,
+    "style": "apps",
+    "filename_png": "cover-20260908-ai-11.png",
+    "filename_jpg": "cover-20260908-ai-11.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-11.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 futuristic control-room desk with holographic-looking AI assistant interface panels (abstract shapes, no readable text), soft cyan lighting, magazine cover mood"
+  },
+  {
+    "kind": "ai",
+    "index": 12,
+    "style": "business",
+    "filename_png": "cover-20260908-ai-12.png",
+    "filename_jpg": "cover-20260908-ai-12.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-12.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial 16:9 photo of three blurred price tags / invoice printouts on a desk beside a laptop showing abstract model comparison charts (illegible), business journalism style, no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 13,
+    "style": "apps",
+    "filename_png": "cover-20260908-ai-13.png",
+    "filename_jpg": "cover-20260908-ai-13.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-13.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 crowded tech newsroom desk with multiple laptops open to model-release dashboards (blurred), sticky notes, coffee cups, energetic editorial lighting, no readable text no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 14,
+    "style": "apps",
+    "filename_png": "cover-20260908-ai-14.png",
+    "filename_jpg": "cover-20260908-ai-14.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-14.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 blue-team security operations center: analysts at curved monitors with abstract threat-map visualizations (illegible), dim room red/blue accents, documentary style, no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 15,
+    "style": "apps",
+    "filename_png": "cover-20260908-ai-15.png",
+    "filename_jpg": "cover-20260908-ai-15.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-15.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 close desk photo of a security analyst watching a dashboard of rising refusal/blocked-request gauges (abstract, illegible numbers), cool teal lighting, no logos"
+  },
+  {
+    "kind": "ai",
+    "index": 16,
+    "style": "apps",
+    "filename_png": "cover-20260908-ai-16.png",
+    "filename_jpg": "cover-20260908-ai-16.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-16.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 sleek product-launch desk scene: silver laptop open to a minimalist AI model landing page mock (no readable brand text), soft spotlight, premium magazine cover look"
+  },
+  {
+    "kind": "ai",
+    "index": 17,
+    "style": "apps",
+    "filename_png": "cover-20260908-ai-17.png",
+    "filename_jpg": "cover-20260908-ai-17.jpg",
+    "image_path": "/assets/covers/cover-20260908-ai-17.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 split-desk scene with two coding laptops side by side running benchmark-style scoreboards (abstract bars, illegible), warm evening apartment light, no logos"
+  },
+  {
+    "kind": "v",
+    "index": 0,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-00.png",
+    "filename_jpg": "cover-20260908-v-00.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-00.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 creative desk scene: designer sketchbook with style swatches and a tablet showing colorful prompt-mood boards (illegible), soft natural window light, no logos"
+  },
+  {
+    "kind": "v",
+    "index": 1,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-01.png",
+    "filename_jpg": "cover-20260908-v-01.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-01.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 home office: open laptop with writing-assistant UI (blurred), notebook and pen, warm lamp, calm productivity mood, no readable text no logos"
+  },
+  {
+    "kind": "v",
+    "index": 2,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-02.png",
+    "filename_jpg": "cover-20260908-v-02.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-02.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 playful scene of a laptop screen showing a captcha-style puzzle game being solved automatically (abstract shapes, no readable text), soft desk lighting"
+  },
+  {
+    "kind": "v",
+    "index": 3,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-03.png",
+    "filename_jpg": "cover-20260908-v-03.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-03.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 multi-agent coding desk: three monitors with coordinating AI coding and writing panels (illegible), cables tidy, cool blue ambient light, no logos"
+  },
+  {
+    "kind": "v",
+    "index": 4,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-04.png",
+    "filename_jpg": "cover-20260908-v-04.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-04.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 close-up of a coding IDE with a context/settings toggle panel slightly out of focus, tired late-night desk with empty coffee cup, no readable text no logos"
+  },
+  {
+    "kind": "v",
+    "index": 5,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-05.png",
+    "filename_jpg": "cover-20260908-v-05.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-05.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 desk photo of a spectrogram visualization on a monitor next to studio headphones and a microphone, warm geeky hobbyist lighting, no readable text no logos"
+  },
+  {
+    "kind": "v",
+    "index": 6,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-06.png",
+    "filename_jpg": "cover-20260908-v-06.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-06.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 living-room desk at evening: laptop showing audio waveform/spectrogram, person reaching for headphones, cozy documentary mood, no logos no readable text"
+  },
+  {
+    "kind": "v",
+    "index": 7,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-07.png",
+    "filename_jpg": "cover-20260908-v-07.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-07.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 humorous social-media desk scene: phone and laptop showing meme-style image collage frames (abstract faces blurred, no readable text), playful lighting, no logos"
+  },
+  {
+    "kind": "v",
+    "index": 8,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-08.png",
+    "filename_jpg": "cover-20260908-v-08.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-08.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 split scene mood: smartphone in foreground remotely controlling a glowing laptop coding session in the background, night apartment, soft phone screen light, no logos no readable text"
+  },
+  {
+    "kind": "v",
+    "index": 9,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-09.png",
+    "filename_jpg": "cover-20260908-v-09.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-09.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 frustrated desk scene: laptop chat UI showing abstract busy/full status indicators (illegible), person rubbing temples, cool gray lighting, no logos"
+  },
+  {
+    "kind": "v",
+    "index": 10,
+    "style": "apps",
+    "filename_png": "cover-20260908-v-10.png",
+    "filename_jpg": "cover-20260908-v-10.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-10.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic 16:9 late-night coding desk with dimmed monitors and a sticky note saying nothing readable, empty energy-drink can, tired atmosphere, no logos"
+  },
+  {
+    "kind": "v",
+    "index": 11,
+    "style": "business",
+    "filename_png": "cover-20260908-v-11.png",
+    "filename_jpg": "cover-20260908-v-11.jpg",
+    "image_path": "/assets/covers/cover-20260908-v-11.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial 16:9 quiet empty social-media newsroom after a big tech launch: silent monitors with abstract feed graphs, empty chairs, soft morning light through blinds, contemplative mood, no logos no readable text"
+  }
+]

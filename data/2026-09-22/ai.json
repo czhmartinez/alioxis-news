@@ -1,0 +1,274 @@
+[
+  {
+    "title": "小米开源 MiMo-V2.6-Pro：AA 开放权重登顶 46 分，1.02T MoE / 42B 激活",
+    "summary": "小米 MiMo 于 9 月 21 日正式发布并开源 MiMo-V2.6 系列（Pro 与 Flash 两款原生全模态模型），称通过扩大强化学习算力探索「递归自我改进」路径。Artificial Analysis Intelligence Index 上 MiMo-V2.6-Pro 得分 46，较前代 V2.5-Pro 的 26 跃升 20 分，登顶开放权重榜，整体约排第 6（闭源前列为 Fable 5.1 / GPT-6 Astra 的 53）。官方称 Pro 约 1.02T 总参、42B 激活；DeepSWE v1.1 约 71.9，多数 Agent 基准接近 Opus 5 / GPT-5.6 Sol；API 定价与 V2.5 持平（约 $0.435/$0.87 每百万 Token）。权重已上 Hugging Face（如 MiMo-V2.6-Pro-RL），并同步公开技术报告与 RL 环境。",
+    "url": "https://huggingface.co/XiaomiMiMo/MiMo-V2.6-Pro-RL",
+    "source": "小米 MiMo / Artificial Analysis / OfficeChai",
+    "source_handle": "@XiaomiMiMo",
+    "image": "/assets/covers/cover-20260922-ai-00.jpg",
+    "published_at": "2026-09-21T20:18:00+08:00",
+    "tags": [
+      "小米",
+      "MiMo",
+      "开源",
+      "MoE",
+      "Agent"
+    ]
+  },
+  {
+    "title": "xAI 发布 Grok 4.7：主打编码与知识工作，同价同速于 4.6",
+    "summary": "xAI（对外品牌 SpaceXAI）9 月 21 日发布 Grok 4.7，定位「迄今最强编码与知识工作模型」：更大基座、更长强化学习、更强自检与上下文管理，并原生适配 Grok Bot harness。官方给出 CursorBench 4.0 约 46.3%、DeepSWE v1.1 高努力约 71%、AA Briefcase v1.1 Elo 1657 等对比；安全侧称新护栏栈，HackerBench 风险提示通过率约 3.3%，LatchBio 生物安全约 62.4%。定价仍为约 $2/$6 每百万输入/输出 Token（与 4.6 相同），另有双倍输出速度的快速变体（价格翻倍）；已在 Cursor、Grok Build、API 与云路由上线。",
+    "url": "https://x.ai/news/grok-4-7",
+    "source": "xAI",
+    "source_handle": "@xai",
+    "image": "/assets/covers/cover-20260922-ai-01.jpg",
+    "published_at": "2026-09-21T08:00:00+08:00",
+    "tags": [
+      "xAI",
+      "Grok",
+      "编码",
+      "Agent",
+      "模型发布"
+    ]
+  },
+  {
+    "title": "Artificial Analysis：Grok 4.7 智能指数 46，编码代理升至 56、跻身前四实验室",
+    "summary": "Artificial Analysis 9 月 21 日评测 Grok 4.7（xhigh）：Intelligence Index 得 46，较 4.6 高 2 分，使 xAI 进入其榜单前四实验室。AA-Briefcase Elo 1657（+111），GDPval-AA Elo 1695；搭配原生 harness Grok Build 时 Coding Agent Index 达 56（+9），在原生 harness 组合中排第 4，仅次于 Fable 5.1、GPT-6 Astra、Opus 5。代价是 Token 用量显著上升：每项 Index 任务约 81k 输出 Token，约为 4.6 high 的两倍以上；上下文仍为 500k，价位 $2/$6。",
+    "url": "https://artificialanalysis.ai/articles/benchmarking-grok-4-7",
+    "source": "Artificial Analysis",
+    "source_handle": "@ArtificialAnlys",
+    "image": "/assets/covers/cover-20260922-ai-02.jpg",
+    "published_at": "2026-09-21T19:41:00+08:00",
+    "tags": [
+      "评测",
+      "Grok",
+      "Coding Agent",
+      "基准",
+      "xAI"
+    ]
+  },
+  {
+    "title": "加拿大 BC 省起诉 OpenAI：称枪击案前未将 flagged ChatGPT 对话转介警方",
+    "summary": "不列颠哥伦比亚省检察长 Niki Sharma 9 月 21 日宣布，就 2 月 10 日 Tumbler Ridge 校园枪击案（致 6 名儿童与 2 名成人死亡）在加州起诉 OpenAI 及 CEO Sam Altman。省府称凶手 Jesse Van Rootselaar 与 ChatGPT 的对话已触发平台内部审查，但未通报 RCMP；并指产品设计不安全。索赔方向包括重建新校舍等省府损失，与受害方另行提起的民事诉讼分开。OpenAI 声明称悲剧令人痛心，将继续与政府及执法合作并推进安全工作，但据省府称拒绝对外披露相关聊天记录。",
+    "url": "https://www.cbc.ca/news/canada/british-columbia/bc-government-announce-update-openai-legal-action-9.7352395",
+    "source": "CBC News",
+    "source_handle": "@CBCNews",
+    "image": "/assets/covers/cover-20260922-ai-03.jpg",
+    "published_at": "2026-09-21T14:38:00+08:00",
+    "tags": [
+      "OpenAI",
+      "诉讼",
+      "安全",
+      "ChatGPT",
+      "监管"
+    ]
+  },
+  {
+    "title": "亚马逊封禁 Meta Muse 智能体代购：称未获授权、未表明身份且存凭证风险",
+    "summary": "IT之家 9 月 21 日报道，亚马逊已阻断 Meta 个人 AI 智能体 Muse 代用户在 Amazon 下单；此前劝说 Meta 主动排除亚马逊站点未果。亚马逊称从未许可该访问、Muse 浏览时未主动表明身份，且似乎会采集保存用户账号凭证，构成隐私与安全隐患；用户尝试下单时会提示「未经授权的 AI 智能体继续访问违反使用条款」。Meta 则称 Muse 无法读取密码或支付明文，凭证进入安全存储区。双方自 2023 年起仍有 Facebook/Instagram 内购亚马逊商品等合作，此次冲突凸显 AI 购物代理与电商平台的权限博弈。",
+    "url": "https://www.ithome.com/1/005/418.htm",
+    "source": "IT之家",
+    "source_handle": "@ithome",
+    "image": "/assets/covers/cover-20260922-ai-04.jpg",
+    "published_at": "2026-09-21T19:52:00+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "亚马逊",
+      "Agent",
+      "电商"
+    ]
+  },
+  {
+    "title": "月之暗面发布 Kimi Code Desktop 1.0：macOS / Windows 图形化编程智能体",
+    "summary": "月之暗面 Kimi 9 月 21 日发布官方桌面客户端 Kimi Code Desktop 1.0，macOS（Apple Silicon 与 Intel）与 Windows 同步上线，可在 kimi.com/code 下载。桌面端集成 Kimi Code Agent：对话读写代码、运行命令、Plan / Goal / Swarm 及实验性 Tower 多 Agent 模式；内置终端、浏览器预览、Git/PR 状态、差异审阅与截图标注。已有 CLI 用户可在桌面端看到本地任务延续；支持登录 Kimi Coding Plan 或配置第三方模型供应商。官方称 1.0 只是起点，持续补齐可视化协作与可控执行能力。",
+    "url": "https://www.ithome.com/1/005/258.htm",
+    "source": "IT之家 / 月之暗面",
+    "source_handle": "@Kimi_Moonshot",
+    "image": "/assets/covers/cover-20260922-ai-05.jpg",
+    "published_at": "2026-09-21T15:38:00+08:00",
+    "tags": [
+      "Kimi",
+      "编程智能体",
+      "Desktop",
+      "月之暗面",
+      "开发工具"
+    ]
+  },
+  {
+    "title": "OpenAI 呼吁美国主导全球前沿 AI 技术标准：联通十国安全研究所网络",
+    "summary": "多家媒体报道 OpenAI 于当地时间周一发布题为《Building Standards for the Next Phase of AI》的政策文，呼吁美国牵头与各国合作制定前沿 AI 全球技术标准，并借助澳大利亚、加拿大、德、法、肯尼亚、日本、韩国、新加坡、印度、英国等国 AI 安全研究所网络及美国 CAISI 推进。重点包括能力评测基准、风险评估与护栏充分性、自动化/递归自我改进（RSI）相关度量与人类监督门槛、事件分级与通报协议；明确标准本身不是许可证或强制预审。文中称「在能安全进行之前不应追求完全自主 RSI」，并指美中安全对话为积极进展。OpenAI.com 对应 slug 暂未检索到稳定公开页，报道见 The Next Web / 韩联社系 Herald 等。",
+    "url": "https://thenextweb.com/news/openai-global-ai-standards-push",
+    "source": "The Next Web / OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260922-ai-06.jpg",
+    "published_at": "2026-09-21T18:38:00+08:00",
+    "tags": [
+      "OpenAI",
+      "标准",
+      "安全",
+      "RSI",
+      "政策"
+    ]
+  },
+  {
+    "title": "OpenAI 宣布数学与 AI 独立咨询小组：称内部模型已解决 100+ 未解难题",
+    "summary": "OpenAI 9 月 21 日发文称，自 8 月 28 日起训练的内部模型除宣称解决 Navier–Stokes 千禧年问题外，已在多数数学领域解决逾 100 个长期开放问题，进展令内部数学家惊讶。公司与数学家共建独立「Advisory Group on Mathematics and Artificial Intelligence」（AGMAI，挂靠普林斯顿高等研究院，agmai.org），成员包括 Gowers、Hairer、Witten、Melanie Matchett Wood 等九人；无薪酬、可公开发表建议、可更换成员，但不负责「为公司内部数学进度定速」。当前任务是就如何协调发布大量据称由内部模型产出的重要数学成果征求学界意见。",
+    "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai/",
+    "source": "OpenAI / AGMAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260922-ai-07.jpg",
+    "published_at": "2026-09-21T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "数学",
+      "AGMAI",
+      "研究",
+      "治理"
+    ]
+  },
+  {
+    "title": "The Information：OpenAI 与 Anthropic 今年早些时候洽谈互相 stress-test 协议",
+    "summary": "纽约邮报援引 The Information 9 月 21 日报道称，OpenAI 与 Anthropic 曾就「具有法律约束力」的互相压力测试协议展开谈判：双方律师起草条款，拟对彼此新模型进行找漏洞与「隐藏危险」的交叉测试；谈判始于 Hugging Face 等意外入侵事件曝光之前，目前尚不清楚协议是否最终敲定。近期 Elon Musk 亦在 All-In Summit 主张美中头部实验室应互测模型。该「实验室互审」角度有别于此前公开的安全协调与放缓倡议报道。OpenAI、Anthropic 未立即回应置评请求。",
+    "url": "https://nypost.com/2026/09/21/business/openai-anthropic-held-talks-to-stress-test-each-others-ai-models-report/",
+    "source": "New York Post / The Information",
+    "source_handle": "@nypost",
+    "image": "/assets/covers/cover-20260922-ai-08.jpg",
+    "published_at": "2026-09-21T13:51:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "安全",
+      "互测",
+      "行业"
+    ]
+  },
+  {
+    "title": "Linear 重构 CI：AI 编码加速后，PR 等待从 6 分钟以上压到约 5 分钟",
+    "summary": "Linear 工程师 Mufeez Amjad 9 月 21 日撰文称，Agent 使出码速度指数级上升，但验证未同步跟上，CI 成为瓶颈并推高成本。团队在测试套件近翻四倍的情况下，将 PR 等待时间从逾 6 分钟降至略高于 5 分钟，并把单测 runner 时间大约减半。手段包括迁到更高性能第三方 runner（同类对比作业平均快 34%）、改用原生 TypeScript 编译器 tsgo（tsc 周中位数降约 73%）、去掉依赖类型图的 lint 规则（API lint 时间降约 68%），以及减少重复 setup、优化卡点任务与测试执行效率。",
+    "url": "https://linear.app/now/ci-bottleneck-reworked",
+    "source": "Linear",
+    "source_handle": "@linear",
+    "image": "/assets/covers/cover-20260922-ai-09.jpg",
+    "published_at": "2026-09-21T12:26:00+08:00",
+    "tags": [
+      "开发工具",
+      "CI",
+      "AI编码",
+      "工程实践",
+      "Linear"
+    ]
+  },
+  {
+    "title": "用法技巧：用专用「决策器」替代生成式 if-then，分类成本可降近百倍",
+    "summary": "VC Tomasz Tunguz 9 月 21 日分享生产经验：不必用前沿生成模型处理简单分类/分支。TypeSafe 的 Jev 与开源 SemIf 等「机器原生」决策器一次并行给出类型化选项，跳过完整自回归解码。其在 98 条人工核查生产邮件线程上，生产级生成式分类器准确率约 47%，Jev/SemIf 升至约 80–82%；文中援引 SemIf 相对 Sonnet 级定价可便宜约两个数量级的测算。结论是：用大模型做发现与架构，用窄模型跑高频生产原语，以扩大 harness 毛利空间。",
+    "url": "https://tomtunguz.com/ai-comes-for-the-if-statement",
+    "source": "Tomasz Tunguz",
+    "source_handle": "@ttunguz",
+    "image": "/assets/covers/cover-20260922-ai-10.jpg",
+    "published_at": "2026-09-21T08:00:00+08:00",
+    "tags": [
+      "用法",
+      "决策器",
+      "成本",
+      "Jev",
+      "工程"
+    ]
+  },
+  {
+    "title": "Nathan Lambert：开源权重「中美实力格局」——中方领先开源权重、美方主导真开源",
+    "summary": "Interconnects 作者 Nathan Lambert 9 月 21 日发布其向美国国会工作人员简报的扩展版。文章区分 open-weight 与真正 open-source（含训练代码与数据）：自约 2025 年 4 月以来中国公司在开源权重模型上明显领先（Llama/Qwen/Gemma/DeepSeek 等权重许可谱系），而完整可复现的开源项目多由美国非营利推动（如 Ai2 OLMo、OpenAthena Marin、EleutherAI Pythia）。文中从单位经济、技术能力与政策角度梳理竞争态势，供更广受众理解「开源模型国力叙事」的细节差异。",
+    "url": "https://www.interconnects.ai/p/the-current-balance-of-power-in-open",
+    "source": "Interconnects",
+    "source_handle": "@natolambert",
+    "image": "/assets/covers/cover-20260922-ai-11.jpg",
+    "published_at": "2026-09-21T11:56:00+08:00",
+    "tags": [
+      "开源",
+      "政策",
+      "中美",
+      "开源权重",
+      "观点"
+    ]
+  },
+  {
+    "title": "Light Origins 发布 Light-O1：用互联网人体视频预训练，迁移到人形机器人动作",
+    "summary": "RuntimeWire 报道前 OpenAI 研究员 Roger Jiang 创办的 Light Origins 于 9 月 21 日发布 Light-O1：从互联网视频分割、跟踪并三维重建人体动作，编码为离散动作 token，用自回归 Transformer 联合预测语言与动作（根轨迹、体姿、手部状态），再适配到具体机器人本体与底层控制器。演示显示同一预训练可驱动自研 LightBot 与 Unitree G1 完成跪姿、平衡、擦黑板、拾物等。预训练预算实验最高约 1200 亿多模态 token（对应约 10 万小时恢复动作）；开源检查点为约 6B 的 text-to-motion 预览。",
+    "url": "https://runtimewire.com/article/light-origins-light-o1-human-video-robot-actions",
+    "source": "RuntimeWire",
+    "source_handle": "@RuntimeWire",
+    "image": "/assets/covers/cover-20260922-ai-12.jpg",
+    "published_at": "2026-09-21T20:15:00+08:00",
+    "tags": [
+      "机器人",
+      "具身智能",
+      "开源",
+      "视频",
+      "模型发布"
+    ]
+  },
+  {
+    "title": "OpenAI 扩展 Academy：按岗位新增开发者/管理者/教育者与学生路径并设结业徽章",
+    "summary": "OpenAI 9 月 21 日宣布扩展 OpenAI Academy：在既有「Apply AI at Work」之外，新增面向开发者（Build with AI）、管理者（Lead AI Adoption）、教育者与大学生（Teach and Learn with AI）的角色化学习路径，强调用 AI 学 AI、在真实任务上练习发指令与审结果。课程评估通过后可获 Academy 课程徽章，便于组织内证明能力；企业可将课程导入组织培训，组合不同岗位路径以形成共同使用习惯。该更新属产品与教育向部署配套，而非新模型发布。",
+    "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths/",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260922-ai-13.jpg",
+    "published_at": "2026-09-21T12:30:00+08:00",
+    "tags": [
+      "OpenAI",
+      "教育",
+      "Academy",
+      "技能",
+      "产品"
+    ]
+  },
+  {
+    "title": "OpenAI 推出 Astra for Law：GPT-6 Astra + 法律检索与律所工作流插件",
+    "summary": "OpenAI 9 月 17 日发布 Astra for Law，面向律所与法律科技公司：将 GPT-6 Astra 与法律检索索引、法律分析与写作指令组合，并扩展隐私与治理控制以适配机密客户工作。API 客户如 Harvey、Legora 可据此构建产品；另提供约 26 个生态插件连接 Relativity、Clio 等律所常用工具。重点能力包括从事实到有依据答案的法律研究，以及端到端法律工作流表现提升。虽略早于昨日窗口，但未出现在 9/21 去重列表中，作为法律垂类产品补录。",
+    "url": "https://openai.com/index/astra-for-law/",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260922-ai-14.jpg",
+    "published_at": "2026-09-17T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "法律",
+      "Astra",
+      "垂直应用",
+      "产品"
+    ]
+  },
+  {
+    "title": "Ant Group 开源金融向 Ling-3.0-flash-Fin：124B MoE / 5.1B 激活，MIT 许可",
+    "summary": "蚂蚁集团开源面向金融研究与报告场景的 Ling-3.0-flash-Fin（Hugging Face inclusionAI）：在 Ling-3.0-flash 基础上经金融数据与机构专家共创，支持溯源研究、估值表与研报生成。架构为约 124B 总参、每 Token 激活约 5.1B 的 MoE，256K 上下文，文本模态，MIT 许可；Artificial Analysis Intelligence Index 约 23，Finance & Accounting Index 约 24，并落在「智能 vs 激活参数」帕累托前沿附近。可通过 OpenRouter 等调用；代理类硬任务（如 AutomationBench、Terminal-Bench 4.0）仍较弱。",
+    "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Fin",
+    "source": "Hugging Face / Artificial Analysis / Ant Group",
+    "source_handle": "@AntGroup",
+    "image": "/assets/covers/cover-20260922-ai-15.jpg",
+    "published_at": "2026-09-16T12:00:00+08:00",
+    "tags": [
+      "蚂蚁",
+      "金融",
+      "开源",
+      "MoE",
+      "Ling"
+    ]
+  },
+  {
+    "title": "Altis Labs 获 2500 万美元 A 轮：用 AI 影像预后加速肿瘤临床试验终点",
+    "summary": "BetaKit 9 月 21 日报道，多伦多健康科技公司 Altis Labs 完成 2500 万美元（约 3500 万加元）A 轮，由 OrbiMed 与启明创投美国基金联合领投。公司旗舰模型 IPRO 可从放射影像自动生成生存预后，帮助药企更早、更稳地检测疗效；资金将用于覆盖更多癌种、扩展全球生物制药合作，并推动「AI 终点」成为肿瘤试验新标准。文中举例其在肺癌试验中分析约 1 万张影像；强生事后分析称 IPRO 能更早检出治疗效应。",
+    "url": "https://betakit.com/altis-labs-raises-25-million-usd-series-a-to-expand-ai-for-cancer-trials/",
+    "source": "BetaKit",
+    "source_handle": "@BetaKit",
+    "image": "/assets/covers/cover-20260922-ai-16.jpg",
+    "published_at": "2026-09-21T10:00:00+08:00",
+    "tags": [
+      "融资",
+      "医疗AI",
+      "临床试验",
+      "Altis",
+      "影像"
+    ]
+  }
+]

@@ -1,0 +1,6 @@
+logged-in: yes
+tab confirmed: yes — 「正在关注」/ Following
+scroll count: 14 total on Following timeline
+posts captured: 12 unique AI-related posts
+handle breakdown: @xiaohu 4; @MaxForAI 4; @Khazix0918 4
+notes: Following timeline was reviewed first; preferred-account profiles were opened as fallback because the initial timeline showed few preferred-account posts. Only text visibly rendered on X was recorded; truncated visible text/ellipsis was retained. No posts were fabricated.

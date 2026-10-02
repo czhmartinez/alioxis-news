@@ -1,0 +1,317 @@
+[
+  {
+    "title": "联合早报：OpenAI 因安全隐患取消下月发布 AI 模型 Astra 6.1",
+    "summary": "OpenAI宣布，取消原定下个月发布最新人工智能（AI）模型Astra 6.1的计划，原因是内部测试发现新模型仍存有安全隐患。",
+    "url": "https://x.com/zaobaosg/status/2105070331983474755",
+    "source": "联合早报",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20260930-v-00.jpg",
+    "published_at": "2026-09-30T07:00:52+08:00",
+    "tags": [
+      "联合早报",
+      "OpenAI",
+      "Astra",
+      "安全",
+      "取消发布"
+    ]
+  },
+  {
+    "title": "TestingCatalog：OpenAI 据报拟再融资 300 亿美元、估值约 1.4 万亿",
+    "summary": "OpenAI 计划以约 1.4 万亿美元的估值（不包括此次融资的资金）再筹集 300 亿美元，据 Bloomberg 报道。 谁的 IPO 会更大？",
+    "url": "https://x.com/testingcatalog/status/2105065343224017320",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20260930-v-01.jpg",
+    "published_at": "2026-09-30T06:41:02+08:00",
+    "tags": [
+      "TestingCatalog",
+      "OpenAI",
+      "融资",
+      "估值",
+      "Bloomberg"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Drafted AI 平面图生成器上线 Autodesk Revit 插件",
+    "summary": "Drafted AI 平面图生成器现已作为插件在 Autodesk Revit 中可用！ 该插件允许用户将房屋底面图和房间列表转化为五个平面图选项，这些选项使用真实的 Revit 墙体、地板、屋顶、门和窗构建而成。 > 根据 Drafted 测试，它会在大约 45 秒内返回结果。 >",
+    "url": "https://x.com/testingcatalog/status/2105032750789210235",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20260930-v-02.jpg",
+    "published_at": "2026-09-30T04:31:32+08:00",
+    "tags": [
+      "TestingCatalog",
+      "Drafted AI",
+      "Revit",
+      "Autodesk",
+      "AEC"
+    ]
+  },
+  {
+    "title": "Max for AI：Codex 即将 Reset，现场按下重置按钮",
+    "summary": "我们即将迎来一次Codex的Reset！！ 那个男人 @thsottiaux 在现场按下了reset按钮！",
+    "url": "https://x.com/MaxForAI/status/2104998322763346380",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260930-v-03.jpg",
+    "published_at": "2026-09-30T02:14:43+08:00",
+    "tags": [
+      "MaxForAI",
+      "Codex",
+      "Reset",
+      "OpenAI",
+      "DevDay"
+    ]
+  },
+  {
+    "title": "小互：OpenAI 发布全天候个人 Agent「Dots」，由 GPT-6 Astra 驱动",
+    "summary": "OpenAI 发布全天候个人Agent： Dots： 由 GPT-6 Astra 驱动 - Dots 会主动自主推进事情，遇到关键节点才找你批准 - 它可以同时管理你的工作和家庭事物 - 它不只汇报进度，出了问题会主动想办法补救 同一个 Agent 既改董事会稿、跑代码上线，也订蛋糕、报课后班、协调女儿演出的时间冲突。",
+    "url": "https://x.com/xiaohu/status/2104988776724594716",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260930-v-04.jpg",
+    "published_at": "2026-09-30T01:36:47+08:00",
+    "tags": [
+      "小互",
+      "OpenAI",
+      "Dots",
+      "Agent",
+      "GPT-6 Astra",
+      "DevDay"
+    ]
+  },
+  {
+    "title": "TestingCatalog：OpenAI 推出 ChatGPT Space，人机协作新工作区",
+    "summary": "OpenAI 推出了 ChatGPT Space，这是一个供人类和 AI 代理协作的新型工作空间。 > “在 Space 中，你可以与页面协作——这是一种新型交互式文档，包含图表、图像、检查清单和仪表板。 > “今天起向 Pro、Business 和 Enterprise 计划推出。” Pro 测试时间",
+    "url": "https://x.com/testingcatalog/status/2104987633894010982",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20260930-v-05.jpg",
+    "published_at": "2026-09-30T01:32:15+08:00",
+    "tags": [
+      "TestingCatalog",
+      "OpenAI",
+      "ChatGPT Space",
+      "协作",
+      "DevDay"
+    ]
+  },
+  {
+    "title": "小互：OpenAI 推出 Ultrafast 模式与全新 Pro 500 订阅",
+    "summary": "OpenAI 推出了“Ultrafast” 模式 和一个全新的订阅套餐Pro 500 Ultrafast 在 Codex 中将提供高达 8 倍生成速度（每秒 300 个tokens） 在 API 中高达 6 倍的生成速度。 GPT‑6 Astra Ultrafast 今天开始可在 API 中以及 ChatGPT Work 和 Codex 的 Pro 500 套餐和企业计划中可用。",
+    "url": "https://x.com/xiaohu/status/2104987338678096045",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260930-v-06.jpg",
+    "published_at": "2026-09-30T01:31:04+08:00",
+    "tags": [
+      "小互",
+      "OpenAI",
+      "Ultrafast",
+      "Pro 500",
+      "Codex"
+    ]
+  },
+  {
+    "title": "小互：GPT-6.1 Sol 发布，接近 Astra 性能、价格约 1/5",
+    "summary": "GPT-6.1 Sol 发布 接近GPT-6 Astra 的性能，价格是其1/5，显然是受Sonnet 5.5刺激",
+    "url": "https://x.com/xiaohu/status/2104986808413282564",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260930-v-07.jpg",
+    "published_at": "2026-09-30T01:28:58+08:00",
+    "tags": [
+      "小互",
+      "OpenAI",
+      "GPT-6.1 Sol",
+      "Astra",
+      "Sonnet 5.5"
+    ]
+  },
+  {
+    "title": "TestingCatalog：OpenAI DevDay 宣布 Codex Cloud，支持远程运行 Codex",
+    "summary": "OPENAI ：Codex Cloud 在 OpenAI DevDay 期间宣布推出，允许开发者远程运行 Codex。 > “适用于 Plus、Pro、Business、Healthcare、Education 和 Enterprise。”",
+    "url": "https://x.com/testingcatalog/status/2104984840231883017",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20260930-v-08.jpg",
+    "published_at": "2026-09-30T01:21:09+08:00",
+    "tags": [
+      "TestingCatalog",
+      "OpenAI",
+      "Codex Cloud",
+      "DevDay"
+    ]
+  },
+  {
+    "title": "小互：OpenAI 或将发布带摄像头与语音的毛绒玩具硬件",
+    "summary": "OpenAI似乎要发布一个硬件产品 感觉想是一个毛绒玩具类型的 带有摄像头和语音功能",
+    "url": "https://x.com/xiaohu/status/2104964481139036600",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260930-v-09.jpg",
+    "published_at": "2026-09-30T00:00:15+08:00",
+    "tags": [
+      "小互",
+      "OpenAI",
+      "硬件",
+      "毛绒玩具"
+    ]
+  },
+  {
+    "title": "大师的AI小灶：同题材 Demo，使用 Gemini Flash 3.8 TTS",
+    "summary": "巧了，我也正在做一条相同的题材。先放个 Demo，用到的是 Gemini Flash 3.8 的 TTS",
+    "url": "https://x.com/dashiAIxz/status/2104932044698751346",
+    "source": "大师的AI小灶",
+    "source_handle": "@dashiAIxz",
+    "image": "/assets/covers/cover-20260930-v-10.jpg",
+    "published_at": "2026-09-29T21:51:21+08:00",
+    "tags": [
+      "大师的AI小灶",
+      "Gemini",
+      "TTS",
+      "Flash"
+    ]
+  },
+  {
+    "title": "联合早报：Anthropic IPO 招股书拟警示先进 AI 或构成灾难性/生存风险",
+    "summary": "美国人工智能（AI）初创公司Anthropic计划在首次公开售股（IPO）招股书中，向潜在投资者发出警告，称先进的AI可能会对人类构成“灾难性或生存风险”。",
+    "url": "https://x.com/zaobaosg/status/2104896976772809182",
+    "source": "联合早报",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20260930-v-11.jpg",
+    "published_at": "2026-09-29T19:32:01+08:00",
+    "tags": [
+      "联合早报",
+      "Anthropic",
+      "IPO",
+      "AI安全",
+      "风险"
+    ]
+  },
+  {
+    "title": "Max for AI：Codex 将重新开放 20x 订阅并调整用量计算",
+    "summary": "神了，Codex 将于明天重新开放 20x 订阅，然后砍掉一半的额度 Tibo 发出预告: 1. 明天重新向新用户开放 Pro $200 订阅。 2. 同时调整用量计算方式：按 API 花费折算，实际额度大约只有旧版 Pro $200 的一半。 同时承诺： - 未来不再恢复 5 小时限制：可按自己节奏把每周额度用完。",
+    "url": "https://x.com/MaxForAI/status/2104849439148130589",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260930-v-12.jpg",
+    "published_at": "2026-09-29T16:23:07+08:00",
+    "tags": [
+      "MaxForAI",
+      "Codex",
+      "订阅",
+      "用量",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "华尔街日报中文网：AMD 约 82 亿美元全股票收购 AI 公司 World Labs",
+    "summary": "Advanced Micro Devices同意以约82亿美元的全股票交易收购人工智能研究公司World Labs。AMD表示，此次交易将为其引入顶尖的AI研发人才，助力开发更出色的AI硬件、软件和系统，尤其是在物理AI和机器人领域。",
+    "url": "https://x.com/ChineseWSJ/status/2104813439646306782",
+    "source": "华尔街日报中文网",
+    "source_handle": "@ChineseWSJ",
+    "image": "/assets/covers/cover-20260930-v-13.jpg",
+    "published_at": "2026-09-29T14:00:04+08:00",
+    "tags": [
+      "WSJ",
+      "AMD",
+      "World Labs",
+      "收购",
+      "AI"
+    ]
+  },
+  {
+    "title": "小互：马斯克计划整合 Cursor、Grok 与 X 会员为 XPremium",
+    "summary": "好消息： 马斯克计划将Cursor、Grok和X的会员订阅进行整合 推出一个全新的 XPremium 订阅服务 一次订阅，你可拥有 Cursor、Grok、Grok Bot和X的所有福利，同时还将推出更多附加福利...",
+    "url": "https://x.com/xiaohu/status/2104810277158240404",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260930-v-14.jpg",
+    "published_at": "2026-09-29T13:47:30+08:00",
+    "tags": [
+      "小互",
+      "马斯克",
+      "Cursor",
+      "Grok",
+      "XPremium"
+    ]
+  },
+  {
+    "title": "南远：可灵 Kling 4.0 官宣 10 月上线，Flash 已小范围体验",
+    "summary": "卧槽？？我居然才知道可灵 4.0 真的官宣了 刷到可灵官方昨晚 23:38 的帖子：Kling 4.0 10 月正式上线，4.0 Flash 已经先给黑金年卡会员开了小范围体验。 官方写的几个点： 1）单次原生直出最长 30 秒，支持长镜头、连续叙事 2）最多 10 张关键帧，控制剧情节点 3）最多 15 项多模态参考（10 张图",
+    "url": "https://x.com/nanyuan0412/status/2104801203133562910",
+    "source": "南远",
+    "source_handle": "@nanyuan0412",
+    "image": "/assets/covers/cover-20260930-v-15.jpg",
+    "published_at": "2026-09-29T13:11:26+08:00",
+    "tags": [
+      "南远",
+      "可灵",
+      "Kling 4.0",
+      "视频生成"
+    ]
+  },
+  {
+    "title": "Max for AI：Claude Sonnet 5.5 首超同代 Opus",
+    "summary": "神了....第一次见Claude Sonnet把同代的Opus超了。。 今天早上，Anthropic 正式发布了 Claude Sonnet 5.5。 我本来以为 5.5 系列会先让 Opus 独占一阵子，结果才隔几天，Sonnet 也发了。 这次最大的变化其实就三个字：更实用。 相比上一代的Sonnet 5，Sonnet 5.5的速度快了 30%+，也是目前最快的",
+    "url": "https://x.com/MaxForAI/status/2104791995231412390",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260930-v-16.jpg",
+    "published_at": "2026-09-29T12:34:51+08:00",
+    "tags": [
+      "MaxForAI",
+      "Claude",
+      "Sonnet 5.5",
+      "Opus",
+      "Anthropic"
+    ]
+  },
+  {
+    "title": "小互：ElevenLabs 发布 Eleven v4 与 v4 Turbo 语音模型",
+    "summary": "Elevenlab 发布两款新语音模型：Eleven v4 和 Eleven v4 Turbo 能根据文本内容“按剧情表演”声音 Eleven v4 的主要功能特点： 脚本可以直接控制表演： 在台词中写入情绪、停顿、笑声、耳语、动作和环境音效，也可以用自然语言说明一句话应该怎样说。 声音克隆兼顾相似度和表现力： Instant Voice",
+    "url": "https://x.com/xiaohu/status/2104786941636124827",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260930-v-17.jpg",
+    "published_at": "2026-09-29T12:14:46+08:00",
+    "tags": [
+      "小互",
+      "ElevenLabs",
+      "语音模型",
+      "v4"
+    ]
+  },
+  {
+    "title": "南远：Google Flow 疑似上线 Nano Banana 2.1 新模型",
+    "summary": "卧槽？？谷歌又在偷偷憋大招了 刚在 Google Flow 的模型菜单里看到一个新名字——Nano Banana 2.1。 Pro、2、2 Lite 都在，下面突然多了一个 2.1。 谷歌一个字没说，没博客、没发布会、没时间表，就这么悄悄挂上去了。 更有意思的是：几天前这里的痕迹还叫「2.5 Flash」，现在直接改成了 2.1。",
+    "url": "https://x.com/nanyuan0412/status/2104602281991954838",
+    "source": "南远",
+    "source_handle": "@nanyuan0412",
+    "image": "/assets/covers/cover-20260930-v-18.jpg",
+    "published_at": "2026-09-29T00:01:00+08:00",
+    "tags": [
+      "南远",
+      "Google Flow",
+      "Nano Banana",
+      "生图"
+    ]
+  },
+  {
+    "title": "卡兹克：用 Claude Opus 5.5 跑 6 小时以上完全重写级大型任务",
+    "summary": "这个完全的重写级别的大型任务，已经跑了6个多小时的了，全程围观看完了所有的思考摘要，无数次的感慨，Cluade Opus 5.5实在是太稳太强了... 再怎么不喜欢Anthropic这家傻逼公司，还是必须要客观的说一句，除了科研和还有极致的性能优化这块，Cluade Opus",
+    "url": "https://x.com/Khazix0918/status/2103907235604955321",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260930-v-19.jpg",
+    "published_at": "2026-09-27T01:59:08+08:00",
+    "tags": [
+      "卡兹克",
+      "Claude",
+      "Opus 5.5",
+      "重写",
+      "Agent"
+    ]
+  }
+]

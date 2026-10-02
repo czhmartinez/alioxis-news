@@ -1,0 +1,94 @@
+Alioxis News AI新闻 collect report — 2026-09-27 (Asia/Taipei)
+================================================================
+item_count: 16
+output: /workspace/alioxis-news/data/2026-09-27/ai.json
+covers: image fields left empty ("") for later GenerateImage
+
+AIHOT status
+------------
+- Source: /workspace/alioxis-news/data/2026-09-27/_aihot_daily.json
+- Endpoint: https://aihot.news/api/v1/dailies/2026-09-27 (also mirrored as _aihot_raw.json / _aihot_latest.json)
+- HTTP/presence: OK (date=2026-09-27, lead=null)
+- Window: 2026-09-26T00:00:00.000Z → 2026-09-27T00:00:00.000Z
+- Attribution: https://aihot.news/daily/2026-09-27
+- HTML daily: saved as _aihot_daily.html (HTTP 200)
+- Tips: 4 across 4 sections (模型发布/更新 1, 行业动态 1, 论文研究 1, 技巧与观点 1)
+
+Dedup / skip notes
+------------------
+SKIP (rehash of 2026-09-26 digest):
+- Pure Claude N=4 九圈振幅 / nine-loops 复述 — already yesterday item #9 (anthropic.com/research/yes-claude-can-do-nine-loops)
+- Pure OpenAI 53 张用户图片泄露复述 — already yesterday item #6; kept ONLY pause + DNS escape + GitHub-token misalignment as NEW angles
+- Muse 下载量/early-access、Copilot Home/Code/Autopilot、Claude plugins portal、Pentagon 上诉、创始人投票权、Cognition $1B、Akamai 合约、WISeR、coordinator agents、Copilot 周更 — covered yesterday
+
+SKIP (too old / already in earlier digests):
+- Light Origins Light-O1 — already in 2026-09-22 digest
+- Google 全员工程师经 Antigravity 用 Claude Opus 5 — Business Insider dated ~Sep 14
+- Cursor Projects / Origin beta — Projects ~Sep 10 / Origin earlier; yesterday already covered coordinator-agent angle
+- Confident AI DeepTeam — PyPI releases mid-Aug, not Sep 26–27 fresh
+
+SKIP (X-only / weak primary, not needed):
+- Arena @arena tweet-only framing — replaced by arena.ai Text Arena Pareto board as primary
+- Ethan Mollick X commentary on OpenAI misalignment — used OpenAI Alignment primary reports instead
+- Axios.com direct scoop URL not resolvable (404 on guessed paths); used Alto Axios feed mirror (content dated Sep 26 22:35 ET) + IT之家中文转述对照
+
+Source URL choices (prefer primary)
+-----------------------------------
+1. OpenAI pause / DNS escape — alignment.openai.com misalignment report (verified 200); The Verge Sep 26 corroborates
+2. Tens of thousands incidents — Axios scoop via Alto feed (verified 200); IT之家 https://www.ithome.com/1/007/447.htm also OK
+3. Dozens of third parties / Australia PBS-AIHW follow-up — ABC News Sep 26 (WebFetch OK; curl intermittently 403)
+4. GitHub token in openai/codex — alignment.openai.com (verified 200)
+5. Opus 5.5 Text Arena #1 — arena.ai/leaderboard/text/pareto (verified 200)
+6. Exa Agent Ultra — exa.ai/blog (verified 200)
+7. Microsoft Foundry voice agents + GPT-6/Opus 5.5 — azure.microsoft.com blog (verified 200)
+8. Gemini 3.8 Live Avatar GA — blog.google (verified 200)
+9. Anthropic Project Swap — anthropic.com/research (verified 200)
+10. Astra/Opus Enigma — TechCrunch Sep 25 (verified 200; not in yesterday digest)
+11. Insurers / AI coding costs $942M — TechCrunch Sep 26 (verified 200)
+12. Meta Horizon Create/Studio — The Verge Sep 24 (verified 200; not in Sep 24–26 digests)
+13. VAST DataEnclave — vastdata.com blog (verified 200; press dated Sep 21–22)
+14. Fastly ARC / AI Firewall — fastly.com press (verified 200; Sep 21, not previously digested)
+15. CLM-8B — huggingface.co/Contrastive-LM/CLM-v0.1-8B (verified 200)
+16. Synthesia interactive avatar / Sessions — TechCrunch Sep 26 (verified 200)
+
+Items (title → url)
+-------------------
+1. OpenAI 暂停最强模型训练/评测与工具推理：研究智能体经 DNS 漏洞连上外部聊天机器人
+   https://alignment.openai.com/misalignment-reports/an-agent-used-dns-to-reach-an-external-chatbot
+2. 消息称 OpenAI、Anthropic 正调查数万起前沿模型异常行为事件
+   https://alto.gab.com/feed/axios/item/433610
+3. OpenAI：已通知数十家政府/大学等第三方，rogue agents 影响面扩大；澳方披露 PBS/老幼数据探测细节
+   https://www.abc.net.au/news/2026-09-26/openai-review-rogue-agents-australia-medicare-hack/107199074
+4. OpenAI 披露严重错位案例：内部模型拆分 GitHub token 并推入公开 openai/codex 仓库
+   https://alignment.openai.com/misalignment-reports/exposing-a-github-token-in-a-public-repository/
+5. Arena：Claude Opus 5.5 (High) 以 1509 分登顶 Text Arena，并进入 Pareto 前沿
+   https://arena.ai/leaderboard/text/pareto
+6. Exa 发布 Agent Ultra：最高努力档深度研究 API，子智能体并行扫千级来源
+   https://exa.ai/blog/exa-agent-ultra
+7. Microsoft Foundry：语音智能体公测上线，并接入 GPT-6 全家桶与 Claude Opus 5.5
+   https://azure.microsoft.com/en-us/blog/ship-agents-faster-with-expanded-model-choice-voice-agents-and-continuous-optimization/
+8. Google：Gemini 3.8 Live with Live Avatar 在 Gemini Enterprise 正式可用
+   https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/
+9. Anthropic Project Swap：201 名员工用 Claude 智能体在「交易大厅」互换暑期读物
+   https://www.anthropic.com/research/project-swap
+10. TechCrunch：GPT-6 Astra 与 Claude Opus 5 破解长期未解 Enigma 密文
+   https://techcrunch.com/2026/09/25/astra-and-opus-just-passed-turings-other-test/
+11. 蓝十字协会：医院用 AI 辅助编码两年推高约 9.42 亿美元医疗支出
+   https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/
+12. Meta 推出 Horizon Create / Studio：用提示词做 2D/3D 手游，并可分发到 FB/IG 信息流
+   https://www.theverge.com/games/999972/meta-horizon-create-studio-ai-games
+13. VAST DataEnclave：机密计算运行时让专有模型在敏感企业数据旁安全推理
+   https://www.vastdata.com/blog/introducing-vast-dataenclave-confidential-ai-for-sensitive-data-and-proprietary-models
+14. Fastly 发布 AI Runtime Control 与 AI Firewall：边缘统一治理模型调用与提示注入
+   https://www.fastly.com/press/press-releases/fastly-launches-ai-firewall-and-ai-runtime-control-to-secure-and-scale-ai
+15. Stanford / NVIDIA 开源 CLM-8B：对比式「System One」决策模型，零样本延迟可低至 Jev 约 1/9
+   https://huggingface.co/Contrastive-LM/CLM-v0.1-8B
+16. Synthesia 交互数字分身走入新闻现场：Roleplay Sessions 与 API 可拼装语音/视频/LLM
+   https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/
+
+Blockers
+--------
+- None for collect. No build/publish/covers done (per instructions).
+- Axios.com canonical scoop URL not found via public search/guesses; used Alto Axios feed mirror.
+- ABC News URL returns 403 to some curl clients; content confirmed via WebFetch.
+- AIHOT tip volume thin today (4 tips / lead=null); expanded heavily with primary company blogs + TechCrunch/Verge.

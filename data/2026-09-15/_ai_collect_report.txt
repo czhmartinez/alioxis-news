@@ -1,0 +1,43 @@
+AI新闻 collect report — 2026-09-15 (Asia/Taipei)
+================================================
+Item count: 18
+AIHOT included: YES (item 0) — https://aihot.news/daily/2026-09-15
+  Headlines covered in AIHOT daily: AllSpark Iris Search Agent;
+  SiliconFlow Hy4 preview; Apple Siri AI; Anthropic Nasdaq/profitability;
+  DeepSeek-V4.1-Flash Agent Arena; pacing-as-cartel debate; Luna vs Astra
+  code review; Tunguz five factions; Anthropic CI under agentic coding.
+
+Sources used:
+- AIHOT（数字生命卡兹克）
+- 53AI / 小红书技术 (Iris Chinese write-up)
+- 硅基流动 / 混元 (Hy4 preview on SiliconFlow via einkCN)
+- Apple (official Newsroom Siri AI)
+- CNBC (Anthropic IPO + slowdown tightrope)
+- DeepSeek (official V4.1-Flash API docs)
+- OpenAI (Cursor / SpaceX wind-down)
+- Entelligence (Luna vs Astra code-review bench)
+- Anthropic / Claude (CI test-impact engineering blog)
+- Tomasz Tunguz (pacing five factions)
+- Truth on the Market (antitrust / cartel critique)
+- CNN (industry AI standards body talks)
+- 404 Media (Project Lily human chat review)
+- InfoQ / METR (Hugging Face agent collaboration report)
+- The Next Web (RubyGems agents + Hugging Face Open Alignment)
+- Engadget (iOS 27 / Siri AI public rollout)
+- arXiv / AllSpark (Iris technical report)
+
+Date window: primarily 2026-09-10–15; OpenAI Cursor notice dated 2026-08-28 kept
+because it remains highly relevant to AI coding tools and was resurfacing in Sep 14
+coverage; Iris arXiv dated 2026-09-04 kept as primary paper for today's AIHOT lead.
+Image fields: all "" (covers deferred).
+X API / X MCP: NOT used ($0 credits).
+
+Blockers / notes:
+- Apple Newsroom WebFetch timed out; URL retained from WebSearch synthesis + Engadget
+  corroboration of the same Sep 14 Siri AI / iOS 27 launch (item 3 + 15).
+- SiliconFlow did not publish a long-form English press page easily fetchable; used
+  einkCN article dated 2026-09-13 citing SiliconFlow pricing and tool integrations.
+- Agent Arena exact leaderboard page for DeepSeek-V4.1-Flash (Max) #3 not independently
+  fetched; ranking detail taken from AIHOT daily summary and paired with DeepSeek
+  official release URL for the model itself.
+- No fabricated URLs; all items WebSearch- and/or WebFetch-verified.

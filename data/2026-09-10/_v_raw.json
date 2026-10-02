@@ -1,0 +1,98 @@
+[
+  {
+    "author_name": "小互",
+    "handle": "@xiaohu",
+    "text": "Anthropic 官方开发团队分享\n\n如何让 Claude API 降本不降质：缓存、提示词与 Effort 的三类优化策略\n\n很多团队看到 Claude API 账单上涨，第一反应是换更便宜的模型、缩短输入，或者让模型少思考。但这些做法都可能直接伤到结果质量，于是降本与性能看起来像一道单选题。",
+    "url": "https://x.com/xiaohu/status/2097664725873992054",
+    "time_label": "11小时",
+    "status_id": "2097664725873992054"
+  },
+  {
+    "author_name": "小互",
+    "handle": "@xiaohu",
+    "text": "Coding 表情包...",
+    "url": "https://x.com/xiaohu/status/2097613184937218147",
+    "time_label": "15小时",
+    "status_id": "2097613184937218147"
+  },
+  {
+    "author_name": "小互",
+    "handle": "@xiaohu",
+    "text": "OpenAI 算力告急\n\n很多人这几天在Codex工作过程中都收到算力不足的提示\n\nTibo称他们正在加紧算力的调配来满足Astra的消耗\n\n如果无法解决可能考虑\n暂停新的 Pro 订阅\n\nTibo\n@thsottiaux\n\n翻译自 英语\nAstra 的需求真的前所未有。我们正在竭尽全力拉动所有可能的杠杆来维持需求，但我至今未见过类似情况，此前我们也经历过非常陡峭的增长。优先事项始终是保持对现有用户的优质服务，但如果这种情况持续下去，我们可能不得不暂时暂停新的 Pro 订阅。",
+    "url": "https://x.com/xiaohu/status/2097566409329131897",
+    "time_label": "18小时",
+    "status_id": "2097566409329131897"
+  },
+  {
+    "author_name": "小互",
+    "handle": "@xiaohu",
+    "text": "Meta 推出个人 AI Agent Muse：\n每人一台云端电脑，可持续在后台推进任务\n\n听起来是不是很熟悉？？？\n\n显然就是manus的翻版\n\nMuse 有哪些核心能力？\n\n拥有自己的云端电脑：每位用户都有专属 Linux 虚拟机，里面包含文件系统、终端和 Chromium 浏览器。Muse",
+    "url": "https://x.com/xiaohu/status/2097523331046232219",
+    "time_label": "21小时",
+    "status_id": "2097523331046232219"
+  },
+  {
+    "author_name": "小互",
+    "handle": "@xiaohu",
+    "text": "Muse 的核心系统提示词第一句是：\n\n“你的目标是让用户的生活变得更好。”（Your purpose is to make your user's life better.）\n\n这个目标决定了 Muse 的设计重点：它不追求让聊天看起来更聪明，而是尽量替用户接住那些持续占据注意力、却很难一次做完的琐碎事务。",
+    "url": "https://x.com/xiaohu/status/2097523333843812607",
+    "time_label": "21小时",
+    "status_id": "2097523333843812607"
+  },
+  {
+    "author_name": "小互",
+    "handle": "@xiaohu",
+    "text": "AI制药公司英矽智能最新突破：\n\n他们的AI 参与设计的药物在临床数据中显示出能够逆转人体“生物学年龄”的迹象 ...\n\n受试者生物学年龄降低了 6 岁\n\nAI制药公司英矽智能（Insilico Medicine）团队在《Nature Biotechnology》发表了一项探索性研究。",
+    "url": "https://x.com/xiaohu/status/2097519108199965124",
+    "time_label": "21小时",
+    "status_id": "2097519108199965124"
+  },
+  {
+    "author_name": "小互",
+    "handle": "@xiaohu",
+    "text": "GPT-Image 2.5 本次最大的升级是超乎你想象的强大的可控编辑能力\n\n就是你能完全精确控制图像哪里变哪里不变，而且只需要通过文字描述即可对图像进行非常精细和精准的编辑，可以说是完全替代 Photoshop 级别的更新...\n\n分享个15个精准编辑场景提示词 Prompt都能直接复制：\n\n1，多图分工合并",
+    "url": "https://x.com/xiaohu/status/2097486974261362853",
+    "time_label": "23小时",
+    "status_id": "2097486974261362853"
+  },
+  {
+    "author_name": "小互",
+    "handle": "@xiaohu",
+    "text": "比 GPT-6 Astra 更强的下一代模型曝光\n\nOpenAI宣布，公司内部的一个AI模型解出了纳维斯托克斯方程的存在性与光滑性问题\n\n这是克莱数学研究所2000年提出的七个千禧年大奖难题之一，每个悬赏100万美元\n\n此前只有一个千禧年难题被解开过\n\n该模型调动了多达1万个Agent 并行工作约88小时...",
+    "url": "https://x.com/xiaohu/status/2097477721672855994",
+    "time_label": "9月8日",
+    "status_id": "2097477721672855994"
+  },
+  {
+    "author_name": "Max For AI",
+    "handle": "@MaxForAI",
+    "text": "有点好笑，Andrew Garfield在即将上映的电影《人工智能》中饰演Sam Altman之后，他就立刻不再使用 ChatGPT 了。\n\n加菲最近在采访里聊到，16 年前拍完《社交网络》之后，自己立刻不用 Facebook 了。\n\n这次拍完 OpenAI 电影《Artificial》，类似的感觉又出现了。\n\n为了演 Sam",
+    "url": "https://x.com/MaxForAI/status/2097775405734441204",
+    "time_label": "4小时",
+    "status_id": "2097775405734441204"
+  },
+  {
+    "author_name": "数字生命卡兹克",
+    "handle": "@Khazix0918",
+    "text": "用Codex跑AIHOT的数据回测，然后他自己看了下，决定去调我DeepSeek的API Key，然后一天跑没了我快800块的额度...\n我尼玛...",
+    "url": "https://x.com/Khazix0918/status/2097606288083407037",
+    "time_label": "15小时",
+    "status_id": "2097606288083407037"
+  },
+  {
+    "author_name": "数字生命卡兹克",
+    "handle": "@Khazix0918",
+    "text": "文章\n一文带你看懂，GPT-6 Astra推理等级怎么选才最省Token。\n这几天，大家应该都用GPT-6 Astra了吧。\n然后呢，我发现大家问我的问题，已经开始随着时间发生变化了。\n第一天：“GPT-6 Astra上线了，你咋还没发，别睡了，起来评测搞快点。”\n第二天：“GPT-6咋操控Blender啊？”...",
+    "url": "https://x.com/Khazix0918/status/2097514168425594980",
+    "time_label": "21小时",
+    "status_id": "2097514168425594980"
+  },
+  {
+    "author_name": "联合早报 Lianhe Zaobao",
+    "handle": "@zaobaosg",
+    "text": "对于美国指控六家中企违规获取美国AI模型输出，中国商务部回应称，蒸馏（distillation）是AI领域各个模型间互相学习的通行做法，美方将蒸馏技术政治化、工具化，是推行科技霸权。",
+    "url": "https://x.com/zaobaosg/status/2097839278256497145",
+    "time_label": "14分钟",
+    "status_id": "2097839278256497145"
+  }
+]

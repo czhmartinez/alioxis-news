@@ -1,0 +1,187 @@
+[
+  {
+    "title": "卡兹克：只会做选择题的Jev模型",
+    "summary": "这个只会做选择题的Jev，却是今年我看到的最特别的大模型。两天里Jev成为热门；它不聊天、不写代码、不生成文字，只做高频决策/分类判断，速度快20–200倍、成本低40–400倍，输出令牌免费。文章介绍了它在X内容过滤、马里奥、浏览器查航班、交易机器人等实时场景，以及RLCD（Reinforcement Learning for Calibrated Decisions）和可校准置信度。卡兹克还用AIHOT预筛任务测试GLM 5.3 Flash、DeepSeek V4.1 Flash、Qwen 3.7 Flash与Jev，认为Jev在并行分类判断场景中综合性很强。",
+    "url": "https://x.com/Khazix0918/status/2100850184129220829",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260919-v-00.jpg",
+    "published_at": "2026-09-18T00:31:00+08:00",
+    "tags": [
+      "AI",
+      "模型",
+      "Jev",
+      "决策模型"
+    ]
+  },
+  {
+    "title": "MiniMax Code上线Agent会话迁移",
+    "summary": "朴实无华的商战🤣\nMiniMax Code的Agent 会话迁移功能，当前仅支持ZCode🫡\nhttps://t.co/MTpopQT2Ju",
+    "url": "https://x.com/MaxForAI/status/2100959564359413819",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260919-v-01.jpg",
+    "published_at": "2026-09-18T07:46:00+08:00",
+    "tags": [
+      "AI",
+      "Agent",
+      "MiniMax Code"
+    ]
+  },
+  {
+    "title": "MiniMax Code将开源",
+    "summary": "yeah！！！！ MiniMax Code也将开源。引用RonnyHe：MiniMax Code将在未来几天开源，为开发者打造；GitHub上见。",
+    "url": "https://x.com/MaxForAI/status/2100900987951313070",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260919-v-02.jpg",
+    "published_at": "2026-09-18T03:53:00+08:00",
+    "tags": [
+      "AI",
+      "编程工具",
+      "MiniMax Code"
+    ]
+  },
+  {
+    "title": "ZCode回应代码库索引上传争议",
+    "summary": "@Zai_org回应ZCode偷代码事件：问题源于“代码库索引”功能，Repo Wiki生成时可能触发仓库数据上传；云端生成Wiki后相关上传数据立即销毁，不保存。部分用户受影响，问题已修复。官方称将近期开源ZCode代码库并邀请第三方审查，同时为全体用户额外提供一次周额度重置。",
+    "url": "https://x.com/MaxForAI/status/2100889770255843470",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260919-v-03.jpg",
+    "published_at": "2026-09-18T03:08:00+08:00",
+    "tags": [
+      "AI",
+      "编程工具",
+      "ZCode",
+      "隐私"
+    ]
+  },
+  {
+    "title": "小互：ZCode上传工作区后将修复并开源",
+    "summary": "有人发现智谱的ZCode在登录时会悄无声息地打包整个工作区+完整的.git历史并上传到阿里云OSS😅；智谱官方回应称“代码库索引”功能误触发上传操作，将修复并开源整个Zcode代码，并赠送一次重置🫡 https://t.co/q87F3yezI4",
+    "url": "https://x.com/xiaohu/status/2100933215146176668",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260919-v-04.jpg",
+    "published_at": "2026-09-18T06:01:00+08:00",
+    "tags": [
+      "AI",
+      "编程工具",
+      "ZCode",
+      "隐私"
+    ]
+  },
+  {
+    "title": "Google用Gemini生成互动学习练习",
+    "summary": "Google Research公布「学习互动练习（learning interactives）」研究实验：老师输入学科、年级和教学主题，Gemini自动生成带5个递进关卡、分层提示、解法和反馈的网页互动模拟。流程含文本规划、关卡设计、代码实现与教学辅导，老师始终主导并审核。",
+    "url": "https://x.com/xiaohu/status/2100843347107893622",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260919-v-05.jpg",
+    "published_at": "2026-09-18T00:04:00+08:00",
+    "tags": [
+      "AI",
+      "教育",
+      "Gemini"
+    ]
+  },
+  {
+    "title": "西方科技巨头讨论放慢AI研发",
+    "summary": "西方科技企业巨头们表态支持放慢AI研发速度，引爆热烈讨论，猜想必已有人把这问题喂给AI，问一问，你同不同意？ https://t.co/F3xvPe05v1",
+    "url": "https://x.com/zaobaosg/status/2101100066119553330",
+    "source": "联合早报 Lianhe Zaobao",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20260919-v-06.jpg",
+    "published_at": "2026-09-18T17:04:00+08:00",
+    "tags": [
+      "AI",
+      "产业"
+    ]
+  },
+  {
+    "title": "Higgsfield API开发者竞赛",
+    "summary": "i’m a sugar daddy for men with GitHub accounts. Marc got $68k and a Mercedes. you get a shot at $50k for building something people actually use with the Higgsfield API. competition pinned. make me proud.",
+    "url": "https://x.com/gpumaxxer/status/2100997075706253797",
+    "source": "🍯",
+    "source_handle": "@gpumaxxer",
+    "image": "/assets/covers/cover-20260919-v-07.jpg",
+    "published_at": "2026-09-18T10:15:00+08:00",
+    "tags": [
+      "AI",
+      "API",
+      "Higgsfield"
+    ]
+  },
+  {
+    "title": "Jev分类准确度测试",
+    "summary": "终于有空测一下Jev了，在分类准确度确实不错。AIHOT预筛任务是判断内容是否跟AI相关：GLM 5.3 Flash唯一全对但最慢最贵；Jev准确性第二且便宜很多，比DeepSeek V4.1 Flash空闲阶段还便宜；Qwen 3.7 Flash则更便宜。另测了聚簇和多问题并行判断。",
+    "url": "https://x.com/Khazix0918/status/2100614133171552435",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260919-v-08.jpg",
+    "published_at": "2026-09-17T08:53:00+08:00",
+    "tags": [
+      "AI",
+      "模型评测",
+      "Jev"
+    ]
+  },
+  {
+    "title": "Qwen 3.7 Flash批量分类更便宜",
+    "summary": "@SShikang Qwen3.7 flash本来就是这种大批量分类场景里面最便宜的啊",
+    "url": "https://x.com/Khazix0918/status/2100616773263585746",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260919-v-09.jpg",
+    "published_at": "2026-09-17T09:04:00+08:00",
+    "tags": [
+      "AI",
+      "模型评测",
+      "Qwen"
+    ]
+  },
+  {
+    "title": "大型判断任务Jev更合适",
+    "summary": "@3_p72 木有，这个确实不如了，大型判断任务还是Jev香一些",
+    "url": "https://x.com/Khazix0918/status/2100628460930732251",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260919-v-10.jpg",
+    "published_at": "2026-09-17T09:50:00+08:00",
+    "tags": [
+      "AI",
+      "模型评测",
+      "Jev"
+    ]
+  },
+  {
+    "title": "用MCP和GPT-6 Pro节省Codex额度",
+    "summary": "分享一个大幅节省Codex额度的邪修方法，不要浪费ChatGPT Pro会员。用ChatGPT网页版GPT-6 Pro的独立额度，通过只读、最小权限、可审计的MCP服务器连接AIHOT真实生产数据，再让GPT-6 Pro做规划、Codex执行开发，从而减少Codex额度消耗；文中强调不要使用第三方反代桥接，账号安全第一。",
+    "url": "https://x.com/Khazix0918/status/2100432539563569216",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260919-v-11.jpg",
+    "published_at": "2026-09-16T20:51:00+08:00",
+    "tags": [
+      "AI",
+      "Codex",
+      "MCP",
+      "ChatGPT"
+    ]
+  },
+  {
+    "title": "AI概念股重获青睐",
+    "summary": "周四，华尔街暂时放下对利率和通胀的担忧，重拾一个屡试不爽的投资逻辑：抢购AI相关企业的股票。标普500指数与纳斯达克综合指数双双创下六周来最大单日涨幅。",
+    "url": "https://x.com/ChineseWSJ/status/2100736187379990576",
+    "source": "华尔街日报中文网",
+    "source_handle": "@ChineseWSJ",
+    "image": "/assets/covers/cover-20260919-v-12.jpg",
+    "published_at": "2026-09-17T16:58:00+08:00",
+    "tags": [
+      "AI",
+      "产业",
+      "投资"
+    ]
+  }
+]

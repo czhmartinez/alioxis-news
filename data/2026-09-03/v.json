@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Claude Fable 5.1 提示词指南发布",
+    "summary": "小互整理了官方 Claude Fable 5.1 提示指南：16 条提示词建议与避坑优化技巧，以及一份 Agent 运行时迁移清单。Fable 5.1 不只是回答更聪明，更擅长长时间执行复杂任务，算力档位默认 high。",
+    "url": "https://x.com/xiaohu/status/2095169238713717172",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260903-v-00.jpg",
+    "published_at": "2026-09-02T15:17:27.000Z",
+    "tags": [
+      "提示词",
+      "Claude",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Meta 悄悄发布 Muse Spark 1.3，编码冲进第一梯队",
+    "summary": "Meta 几乎无预热地上线 Muse Spark 1.3，模型先出现在 Meta API 和 OpenCode，随后放出跑分：DeepSWE v1.1 达 75.4，超过 GPT-5.6 Sol(73.0) 与 Claude Opus 5(74.0)。",
+    "url": "https://x.com/MaxForAI/status/2095234707961397680",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HRPE21UaIAEg5mR?format=jpg&name=small",
+    "published_at": "2026-09-02T19:37:36.000Z",
+    "tags": [
+      "模型发布",
+      "Meta",
+      "编码"
+    ]
+  },
+  {
+    "title": "Gemini 3.8 Flash 只领先几小时就被超越",
+    "summary": "Max For AI 记录疯狂一夜：Gemini 3.8 Flash 以极低成本拿下很高的 DeepSWE 分数、短暂登顶世界第一，几小时后就被 Meta 的 Muse Spark 1.3 超越。",
+    "url": "https://x.com/MaxForAI/status/2095258405766414404",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HRPaTvgagAAbqTT?format=png&name=360x360",
+    "published_at": "2026-09-02T21:11:46.000Z",
+    "tags": [
+      "Gemini",
+      "榜单",
+      "模型"
+    ]
+  },
+  {
+    "title": "Fable 5.1 在 Code Arena 打出断层第一",
+    "summary": "Arena.ai WebDev 榜更新：Claude Fable 5.1 (Max) 以 1765 分登顶，领先第二名 Qwen3.8-Max-0902 达 77 分；上一代 Fable 5 仅 1628 分排第 8，一次更新涨了 137 分。",
+    "url": "https://x.com/MaxForAI/status/2095217830711198073",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HRO1frNakAAYRoi?format=jpg&name=small",
+    "published_at": "2026-09-02T18:30:32.000Z",
+    "tags": [
+      "榜单",
+      "Claude",
+      "前端"
+    ]
+  },
+  {
+    "title": "Claude 可以在后台操作你的电脑了",
+    "summary": "Anthropic 为 Claude Cowork 和 Claude Code 上线 Computer Use：安排一个桌面任务后它会自己开应用、点击、输入、滚动完成工作。目前 Beta，仅面向 Pro/Max 用户和 macOS 桌面版。",
+    "url": "https://x.com/MaxForAI/status/2095239471696601405",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HRO9mchaQAANgRA?format=jpg&name=small",
+    "published_at": "2026-09-02T19:56:32.000Z",
+    "tags": [
+      "Agent",
+      "Claude",
+      "Computer Use"
+    ]
+  },
+  {
+    "title": "Fable 5.1 直接上手 Autodesk Fusion 做 CAD",
+    "summary": "做 AI 机械设计的 @adamdotnew 测试 Claude Fable 5.1，称其为目前最强模型：不是生成看起来像机械臂的 3D 图，而是通过 Agent harness 进入 Autodesk Fusion 操作真实建模流程。",
+    "url": "https://x.com/MaxForAI/status/2095270764979355651",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260903-v-05.jpg",
+    "published_at": "2026-09-02T22:00:53.000Z",
+    "tags": [
+      "Agent",
+      "CAD",
+      "Claude"
+    ]
+  },
+  {
+    "title": "Anthropic 开源企业电商 Agent 全套蓝图",
+    "summary": "Anthropic 开源过去一年企业落地电商 Agent 的方法论与代码模版，是可直接 Fork 的完整 Blueprint，拆成 Shopping Agent（搜索比价、个性化推荐、加购与售后）等两个 Agent。",
+    "url": "https://x.com/MaxForAI/status/2095254873101234583",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260903-v-06.jpg",
+    "published_at": "2026-09-02T20:57:44.000Z",
+    "tags": [
+      "开源",
+      "Agent",
+      "电商"
+    ]
+  },
+  {
+    "title": "8000 条游戏数据把 MiniMax-H3 变成世界模型",
+    "summary": "腾讯、NUS 与香港理工的研究者发布 H3-World，声称是第一个直接把 MiniMax-H3 本身转化成交互式世界模型的方法，几乎没有给模型新增动作系统。",
+    "url": "https://x.com/MaxForAI/status/2095277617066963417",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260903-v-07.jpg",
+    "published_at": "2026-09-02T22:28:06.000Z",
+    "tags": [
+      "世界模型",
+      "研究",
+      "MiniMax"
+    ]
+  },
+  {
+    "title": "手机端 4B 模型获得 GLM5.3 级智能？",
+    "summary": "WIRED 报道新公司 Mostik（俄语“桥”）的方法：不是蒸馏、也不是让大模型先写长 CoT 再给小模型读，而是让手机上运行的 4B 模型随时获得接近 GLM5.3 级别的智能，被称为图灵奖级别突破。",
+    "url": "https://x.com/MaxForAI/status/2095248362190889045",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HRPBt_QW4AE93R1?format=jpg&name=small",
+    "published_at": "2026-09-02T20:31:52.000Z",
+    "tags": [
+      "端侧模型",
+      "研究",
+      "推理"
+    ]
+  },
+  {
+    "title": "Proximal 发布 FrontierSWE v2 基准",
+    "summary": "FrontierSWE 是目前最狠的长程 Coding Benchmark 之一，每道题允许 Agent 自主工作最多 20 小时；v2 开始直接测试 Agent 能否胜任科学家与顶级工程师的活。",
+    "url": "https://x.com/MaxForAI/status/2095251507524551155",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HRPDzpMbIAAM93m?format=jpg&name=small",
+    "published_at": "2026-09-02T20:44:21.000Z",
+    "tags": [
+      "基准",
+      "Agent",
+      "编码"
+    ]
+  },
+  {
+    "title": "Opus 5 单任务成本是 GPT-5.6 Luna 的 270 倍",
+    "summary": "同一 Benchmark 的每次运行 API 等效成本对比：GPT-5.6 Luna xhigh $0.23、DeepSeek V4 Pro $0.91、Gemini 3.7 Flash $1.16、GPT-5.6 Sol $3.80、Opus 4.8 $17.34、Fable 5.1 $30.28。",
+    "url": "https://x.com/MaxForAI/status/2095239981979844790",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HROIQMQX0AA3Vqx?format=jpg&name=small",
+    "published_at": "2026-09-02T19:58:34.000Z",
+    "tags": [
+      "成本",
+      "模型对比",
+      "API"
+    ]
+  },
+  {
+    "title": "Agent 持续学习基础设施 Reef 开源",
+    "summary": "Human-Agent-Society 团队开源持续学习基础设施 Reef，核心成员来自 MIT、NUS 等机构；亮点是不再把一次 Agent 运行当成一次性任务，而是让 Agent 从部署中不断积累经验。",
+    "url": "https://x.com/MaxForAI/status/2095200122317730037",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260903-v-11.jpg",
+    "published_at": "2026-09-02T17:20:10.000Z",
+    "tags": [
+      "开源",
+      "Agent",
+      "持续学习"
+    ]
+  },
+  {
+    "title": "AI 生成式视频课堂：一问就现场生成一节课",
+    "summary": "网友 @internetphysics 用 fal 的 H3 Max 做了生成式视频课堂：问任何概念，几秒后一个 AI 老师就用动画、语音和场景讲解，看不懂可以继续追问，后续课程根据提问继续生成。",
+    "url": "https://x.com/MaxForAI/status/2095291159665095146",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260903-v-12.jpg",
+    "published_at": "2026-09-02T23:21:55.000Z",
+    "tags": [
+      "AI应用",
+      "视频生成",
+      "教育"
+    ]
+  },
+  {
+    "title": "Inworld 把实时 TTS 干到榜一",
+    "summary": "做游戏 AI NPC 出身的 Inworld AI 宣布 Realtime TTS-2 正式 GA，登上 Artificial Analysis 语音模型榜第一，并号称同级别中全球最快的 TTS 模型，是公司史上最大幅度升级。",
+    "url": "https://x.com/MaxForAI/status/2095221990382784714",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260903-v-13.jpg",
+    "published_at": "2026-09-02T18:47:04.000Z",
+    "tags": [
+      "语音",
+      "TTS",
+      "产品"
+    ]
+  },
+  {
+    "title": "斯坦福软件工程课 85% 内容因 AI 过时",
+    "summary": "斯坦福公布 2026 秋季新课 The Modern Software Developer，教授直言 2025 秋季课程里 85% 的材料已经过时，原因是去年 11 月 Claude Opus 4.5 之后 Coding 方式发生剧变。",
+    "url": "https://x.com/MaxForAI/status/2095219932686590229",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HRNBGrHaQAEgb2Y?format=jpg&name=small",
+    "published_at": "2026-09-02T18:38:53.000Z",
+    "tags": [
+      "教育",
+      "编码",
+      "行业"
+    ]
+  },
+  {
+    "title": "节省 Claude 消耗的两个实用技巧",
+    "summary": "在 ~/.claude/settings.json 设置 CLAUDE_CODE_DISABLE_1M_CONTEXT=1 禁用 1M 上下文，把会话按 200K 窗口预算并自动压缩；另一个少人用但效果显著的技巧是 /doctor，可清掉没用的 skills、MCP 并识别过长配置。",
+    "url": "https://x.com/wquguru/status/2094999414393995398",
+    "source": "WquGuru",
+    "source_handle": "@wquguru",
+    "image": "https://pbs.twimg.com/media/HRLu1OIbcAADmL_?format=jpg&name=small",
+    "published_at": "2026-09-02T04:02:38.000Z",
+    "tags": [
+      "使用技巧",
+      "Claude Code",
+      "省钱"
+    ]
+  },
+  {
+    "title": "让 ChatGPT 全力思考的最后一句话",
+    "summary": "日本作者分享提示词技巧：ChatGPT 是否“竭尽全力思考”很大程度取决于你最后那句话。只说“多想想”容易停在首答，加上“不要停在最初想到的答案，再深一层思考”等收尾句，深度会明显不同。",
+    "url": "https://x.com/Fukugyo_clinic/status/2095255464238059782",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260903-v-16.jpg",
+    "published_at": "2026-09-02T21:00:05.000Z",
+    "tags": [
+      "提示词",
+      "ChatGPT",
+      "技巧"
+    ]
+  },
+  {
+    "title": "数字人口播视频 Agent 工作流实测",
+    "summary": "逸尘吐槽用 Remotion/Hyperframes 类 Agent 生成 B-roll 和 MG 动效的痛点：错一点就要重生成整段、等几十分钟，最后还得回剪映修气口和音效；他推荐 Fotor Video 作为视频制作 Agent。",
+    "url": "https://x.com/gengdaJ/status/2095107439545004329",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "image": "/assets/covers/cover-20260903-v-17.jpg",
+    "published_at": "2026-09-02T11:11:53.000Z",
+    "tags": [
+      "AI应用",
+      "视频",
+      "工作流"
+    ]
+  },
+  {
+    "title": "Firecrawl 开源 DevDex 搜索工具基准",
+    "summary": "编码 Agent 严重依赖搜索工具找答案，Firecrawl 开源 DevDex 基准，用于衡量各类搜索工具为编码 Agent 找到正确来源的可靠性。",
+    "url": "https://x.com/firecrawl/status/2095183616259015118",
+    "source": "Firecrawl",
+    "source_handle": "@firecrawl",
+    "image": "https://pbs.twimg.com/media/HROWZSbXYAcJ_3G?format=jpg&name=small",
+    "published_at": "2026-09-02T16:14:35.000Z",
+    "tags": [
+      "开源",
+      "基准",
+      "搜索"
+    ]
+  },
+  {
+    "title": "美国司法部在版权案中站队 OpenAI",
+    "summary": "据路透社报道，美国司法部正式介入 OpenAI 与《纽约时报》版权官司并支持 OpenAI，认为使用受版权保护作品训练大语言模型通常属于合理使用。",
+    "url": "https://x.com/MaxForAI/status/2095206740568743976",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HROraGgaQAApsz1?format=jpg&name=small",
+    "published_at": "2026-09-02T17:46:28.000Z",
+    "tags": [
+      "政策",
+      "版权",
+      "OpenAI"
+    ]
+  }
+]

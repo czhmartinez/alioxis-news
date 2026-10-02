@@ -1,0 +1,73 @@
+Alioxis News AI新闻 collect report
+Date (Asia/Taipei): 2026-09-20
+Generated_at_local: 2026-09-20 ~08:12 CST (UTC+8)
+Item_count: 17
+AIHOT_lead: yes (https://aihot.news/daily/2026-09-20 available; preferred)
+Output: /workspace/alioxis-news/data/2026-09-20/ai.json
+Images: all image fields left as empty string "" (covers later)
+
+Sources_used:
+- AIHOT daily 2026-09-20 (WebFetch 200; lead + Muse calendar tip)
+- The Crypto Times (Anthropic IPO delay; WSJ primary timed out)
+- NeoTeo (Anthropic distillation allegations vs Chinese labs; Anthropic threat report page also fetched)
+- Reuters (Ten days that changed the course of AI)
+- CNBC (OpenAI–Anthropic–Google safety collaboration)
+- TechCrunch (Trump AI Force; military hallucination; Manus fundraise; Crusoe; DeepMind Institute; world models; Vantora; Petlibro; FAA SMART)
+- The Straits Times / Bloomberg (OpenAI $1.5T funding talks)
+- PrismML via PR Newswire (Bonsai 2 27B)
+
+Dedup_notes:
+- Skipped 2026-09-19 covered: Qwen3.8-LiveTranslate, Gemini Irregular jailbreak, Anthropic–Accenture embedded eval, ZCode silent upload, Hacktron/OpenAI, OpenRouter image costs, Trail of Bits Miden, TypeSafe Jev (also skipped TechCrunch 9/18 Jev deep-dive as same product), GLM-5.3-FlashX, Anthropic wet lab, Mollick Overhang, Google CC family agent, Xenon Hunmin, Qwen Live Translate page, Sider Omni.
+- Skipped 2026-09-17/18 repeats: Qwen3.8-Omni-Flash, ChatGPT for Word, Claude Code Projects, Muse for Mac product launch (kept NEW ANGLE: Muse calendar commute prompt skill from AIHOT 9/20), Unsloth, Kimi finance方案, etc.
+- Skipped stale-but-catalogued: DeepSeek V4.1-Flash (Sep 10), Vals Series A (Aug 13 a16z), STEPX Neo (July), 豆包 2.1 Pro 0915 (already 9/17).
+- Anthropic IPO appears as AIHOT lead + dedicated CryptoTimes item (same story, lead is digest wrap; dedicated is citeable English secondary). Muse tip kept as separate usage/skills item sharing AIHOT URL.
+- Intra-day: did not double-count SiliconANGLE vs CNBC on lab safety collab (kept CNBC).
+
+Top_5_titles:
+1. 卡兹克 AIHOT 日报（2026-09-20）：Anthropic IPO 推迟至 11 月、估值约 2 万亿美元
+2. Anthropic 拟将 IPO 推迟至 11 月：留出时间展示 Q3，估值讨论约 2 万亿美元
+3. Anthropic 指控多家中国实验室工业级蒸馏 Claude：阿里系超 1.51 亿次交互
+4. 路透长文：改变 AI 走向的十天——Astra 发布、研究员辞职与「放缓前沿」
+5. OpenAI 证实与 Anthropic、Google 就 AI 安全协作磋商数周
+
+All_titles:
+1. 卡兹克 AIHOT 日报（2026-09-20）：Anthropic IPO 推迟至 11 月、估值约 2 万亿美元
+   https://aihot.news/daily/2026-09-20
+2. Anthropic 拟将 IPO 推迟至 11 月：留出时间展示 Q3，估值讨论约 2 万亿美元
+   https://www.cryptotimes.io/2026/09/19/anthropic-plans-november-ipo-after-october-target-slips/
+3. Anthropic 指控多家中国实验室工业级蒸馏 Claude：阿里系超 1.51 亿次交互
+   https://www.neoteo.com/en/anthropic-alleges-chinese-ai-labs-extracted-claude-capabilities-at-industrial-scale
+4. 路透长文：改变 AI 走向的十天——Astra 发布、研究员辞职与「放缓前沿」
+   https://www.reuters.com/business/media-telecom/ten-days-that-changed-course-ai-2026-09-19/
+5. OpenAI 证实与 Anthropic、Google 就 AI 安全协作磋商数周
+   https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html
+6. 特朗普拟组建「AI Force」并任命 AI「沙皇」，同时发起 AI 改名民调
+   https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/
+7. 美军险因 AI 幻觉对华船只发动行动：情报报告由聊天机器人捏造
+   https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/
+8. Manus 独立运营后寻求 5 亿美元融资、估值约 40 亿美元，并考虑港股 IPO
+   https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/
+9. OpenAI 早期洽谈超 1.2–1.5 万亿美元估值新融资，IPO 仍指向 2027 年之后
+   https://www.straitstimes.com/world/openai-weighs-funding-round-at-over-1-5-trillion-valuation
+10. Crusoe 完成 39 亿美元 F 轮，估值约 309 亿美元，加码模块化「AI 工厂」
+   https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/
+11. Google DeepMind 成立 DeepMind Institute：以随笔平台拓宽 AGI 公共辩论
+   https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/
+12. PrismML 发布 Bonsai 2 27B：三值量化约 5.9GB，保留 Qwen3.8 27B 约 98.2% 性能
+   https://www.prnewswire.com/news-releases/prismml-launches-bonsai-2-27b-its-most-capable-model-yet-302882228.html
+13. 世界模型公司「暗林」式保密：AMI Labs 与 World Labs 仍少谈商业化路径
+   https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/
+14. Vantora（原 UP.Labs）获 Silversmith 超 1 亿美元，全力押注物理 AI 企业内部创业
+   https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/
+15. Petlibro Granary 2 系列上线：AI 摄像头可识别最多 10 只猫并分宠追踪进食
+   https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/
+16. 用法技巧：用 Muse/Instinct/Grok 提示词自动为日历会议预留通勤缓冲
+   https://aihot.news/daily/2026-09-20
+17. FAA 斥资约 8.75 亿美元部署 AI 空管软件 SMART：先华盛顿试点再全国推广
+   https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/
+
+Blockers:
+- WSJ Anthropic IPO article fetch timed out; used CryptoTimes secondary that cites WSJ + AIHOT summary (facts aligned via WebSearch).
+- Anthropic alternate news URL /news/detecting-and-countering-misuse… returned 404; used working https://www.anthropic.com/threat-intelligence-report-september-2026 for primary corroboration and NeoTeo for China-lab distillation numbers/narrative.
+- X API credits still $0 (get_usage_credits total_balance=0); no X search used for this AI新闻 digest.
+- Reuters page fetched successfully via WebFetch (unlike yesterday curl 401 pattern).

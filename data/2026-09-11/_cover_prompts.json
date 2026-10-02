@@ -1,0 +1,284 @@
+[
+  {
+    "kind": "ai",
+    "index": 0,
+    "style": "editorial",
+    "filename_png": "cover-20260911-ai-00.png",
+    "filename_jpg": "cover-20260911-ai-00.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-00.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: 卡兹克 AIHOT 日报（2026-09-11）：DeepSeek V4.1-Flash 与 Agents API 密集上新. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "卡兹克 AIHOT 日报（2026-09-11）：DeepSeek V4.1-Flash 与 Agents API 密集上新"
+  },
+  {
+    "kind": "ai",
+    "index": 1,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-01.png",
+    "filename_jpg": "cover-20260911-ai-01.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-01.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: DeepSeek 发布 V4.1-Flash：552B MoE、原生多模态，API 同步降价. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "DeepSeek 发布 V4.1-Flash：552B MoE、原生多模态，API 同步降价"
+  },
+  {
+    "kind": "ai",
+    "index": 2,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-02.png",
+    "filename_jpg": "cover-20260911-ai-02.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-02.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: THE DECODER：V4.1-Flash 瞄准 Agent 长上下文，KV 与输入算力双降. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "THE DECODER：V4.1-Flash 瞄准 Agent 长上下文，KV 与输入算力双降"
+  },
+  {
+    "kind": "ai",
+    "index": 3,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-03.png",
+    "filename_jpg": "cover-20260911-ai-03.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-03.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: OpenAI 发布 Agents API 公测：托管 Codex harness 一键起云端 Agent. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "OpenAI 发布 Agents API 公测：托管 Codex harness 一键起云端 Agent"
+  },
+  {
+    "kind": "ai",
+    "index": 4,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-04.png",
+    "filename_jpg": "cover-20260911-ai-04.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-04.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: OpenAI：GPT-Live-1 登陆 API，全双工语音层每分钟 $0.05. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "OpenAI：GPT-Live-1 登陆 API，全双工语音层每分钟 $0.05"
+  },
+  {
+    "kind": "ai",
+    "index": 5,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-05.png",
+    "filename_jpg": "cover-20260911-ai-05.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-05.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: OpenAI 在 ChatGPT Work 推出 Data agent：自然语言连库出仪表盘. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "OpenAI 在 ChatGPT Work 推出 Data agent：自然语言连库出仪表盘"
+  },
+  {
+    "kind": "ai",
+    "index": 6,
+    "style": "editorial",
+    "filename_png": "cover-20260911-ai-06.png",
+    "filename_jpg": "cover-20260911-ai-06.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-06.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: TechCrunch：Anthropic 详述阿里、月之暗面、DeepSeek 等蒸馏攻击. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "TechCrunch：Anthropic 详述阿里、月之暗面、DeepSeek 等蒸馏攻击"
+  },
+  {
+    "kind": "ai",
+    "index": 7,
+    "style": "editorial",
+    "filename_png": "cover-20260911-ai-07.png",
+    "filename_jpg": "cover-20260911-ai-07.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-07.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: CNBC：Anthropic 披露拦截生物武器相关等 AI 滥用. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "CNBC：Anthropic 披露拦截生物武器相关等 AI 滥用"
+  },
+  {
+    "kind": "ai",
+    "index": 8,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-08.png",
+    "filename_jpg": "cover-20260911-ai-08.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-08.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: Google Pics 上线：基于 Nano Banana 的 Workspace 图像创作与精修. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "Google Pics 上线：基于 Nano Banana 的 Workspace 图像创作与精修"
+  },
+  {
+    "kind": "ai",
+    "index": 9,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-09.png",
+    "filename_jpg": "cover-20260911-ai-09.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-09.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: Variety：Suno 发布标签合作模型 v6，支持图/视频/语音备忘录生曲. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "Variety：Suno 发布标签合作模型 v6，支持图/视频/语音备忘录生曲"
+  },
+  {
+    "kind": "ai",
+    "index": 10,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-10.png",
+    "filename_jpg": "cover-20260911-ai-10.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-10.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: DeepSeek API 文档：V4.1-Flash 上线，WorkBuddy/OpenCode 已适配. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "DeepSeek API 文档：V4.1-Flash 上线，WorkBuddy/OpenCode 已适配"
+  },
+  {
+    "kind": "ai",
+    "index": 11,
+    "style": "lab",
+    "filename_png": "cover-20260911-ai-11.png",
+    "filename_jpg": "cover-20260911-ai-11.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-11.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary laboratory / research scene with scientists reviewing AI research on screens and notebooks, cool clinical light, no text no logos. Mood related to: Hugging Face：DeepSeek-V4.1-Flash 权重与技术报告开源. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "Hugging Face：DeepSeek-V4.1-Flash 权重与技术报告开源"
+  },
+  {
+    "kind": "ai",
+    "index": 12,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-12.png",
+    "filename_jpg": "cover-20260911-ai-12.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-12.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: ClickHouse：成为 ChatGPT Work Data agent 启动合作伙伴. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "ClickHouse：成为 ChatGPT Work Data agent 启动合作伙伴"
+  },
+  {
+    "kind": "ai",
+    "index": 13,
+    "style": "editorial",
+    "filename_png": "cover-20260911-ai-13.png",
+    "filename_jpg": "cover-20260911-ai-13.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-13.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: POLITICO：Anthropic 称中俄等地行为体已在武器化 Claude. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "POLITICO：Anthropic 称中俄等地行为体已在武器化 Claude"
+  },
+  {
+    "kind": "ai",
+    "index": 14,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-14.png",
+    "filename_jpg": "cover-20260911-ai-14.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-14.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: Cursor 文档：Subagents 与编排模式，支持嵌套与并行委派. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "Cursor 文档：Subagents 与编排模式，支持嵌套与并行委派"
+  },
+  {
+    "kind": "ai",
+    "index": 15,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-15.png",
+    "filename_jpg": "cover-20260911-ai-15.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-15.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: OpenAI Agents API Quickstart：托管沙箱创建会话并流式执行. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "OpenAI Agents API Quickstart：托管沙箱创建会话并流式执行"
+  },
+  {
+    "kind": "ai",
+    "index": 16,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-16.png",
+    "filename_jpg": "cover-20260911-ai-16.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-16.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: XDA：ChatGPT Work Data agent 可用 @data 直连企业数仓提问. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "XDA：ChatGPT Work Data agent 可用 @data 直连企业数仓提问"
+  },
+  {
+    "kind": "ai",
+    "index": 17,
+    "style": "scene",
+    "filename_png": "cover-20260911-ai-17.png",
+    "filename_jpg": "cover-20260911-ai-17.jpg",
+    "image_path": "/assets/covers/cover-20260911-ai-17.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: Pexo 解读：Suno v6 多模态生曲与 v6/v6-wild/v6-mini 三档. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "Pexo 解读：Suno v6 多模态生曲与 v6/v6-wild/v6-mini 三档"
+  },
+  {
+    "kind": "v",
+    "index": 0,
+    "filename_jpg": "cover-20260911-v-00.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-00.jpg",
+    "title": "华尔街日报中文网：明星 AI 研究员将从 Meta 离职"
+  },
+  {
+    "kind": "v",
+    "index": 1,
+    "filename_jpg": "cover-20260911-v-01.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-01.jpg",
+    "title": "Max For AI：Tibo 宣布暂停 $200×20 的 Pro 订阅（算力不足）"
+  },
+  {
+    "kind": "v",
+    "index": 2,
+    "filename_jpg": "cover-20260911-v-02.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-02.jpg",
+    "title": "数字生命卡兹克：推荐近期最好的 AI 影像作品（DiDi_OK）"
+  },
+  {
+    "kind": "v",
+    "index": 3,
+    "filename_jpg": "cover-20260911-v-03.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-03.jpg",
+    "title": "Max For AI：只有真正做过 2B 的才有这样的感受"
+  },
+  {
+    "kind": "v",
+    "index": 4,
+    "filename_jpg": "cover-20260911-v-04.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-04.jpg",
+    "title": "Max For AI：OMG"
+  },
+  {
+    "kind": "v",
+    "index": 5,
+    "filename_jpg": "cover-20260911-v-05.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-05.jpg",
+    "title": "Max For AI：NVIDIA 开源 Agent Harness 增强层 SoL-Pi"
+  },
+  {
+    "kind": "v",
+    "index": 6,
+    "filename_jpg": "cover-20260911-v-06.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-06.jpg",
+    "title": "Max For AI：教师节祝福 ChatGPT / GLM / Kimi / DeepSeek"
+  },
+  {
+    "kind": "v",
+    "index": 7,
+    "filename_jpg": "cover-20260911-v-07.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-07.jpg",
+    "title": "Max For AI：质疑 Anthropic 研究员辞职事件的传播与资金关系"
+  },
+  {
+    "kind": "v",
+    "index": 8,
+    "filename_jpg": "cover-20260911-v-08.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-08.jpg",
+    "title": "Max For AI：Paul Christiano 加入 OpenAI 非营利董事会"
+  },
+  {
+    "kind": "v",
+    "index": 9,
+    "filename_jpg": "cover-20260911-v-09.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-09.jpg",
+    "title": "Max For AI：Astra 数学突破再遇数据污染质疑"
+  },
+  {
+    "kind": "v",
+    "index": 10,
+    "filename_jpg": "cover-20260911-v-10.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-10.jpg",
+    "title": "小互：GPT Image 2.5 提示词与图像编辑完全指南"
+  },
+  {
+    "kind": "v",
+    "index": 11,
+    "filename_jpg": "cover-20260911-v-11.jpg",
+    "image_path": "/assets/covers/cover-20260911-v-11.jpg",
+    "title": "数字生命卡兹克：27 岁研究员因灭绝担忧从 Anthropic 辞职"
+  }
+]

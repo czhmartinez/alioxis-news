@@ -1,0 +1,21 @@
+Alioxis News AI新闻 URL verify — 2026-10-02
+===========================================
+200	OK	https://claude.com/blog/claude-code-mods
+200	OK	https://microsoft.ai/news/our-first-streaming-transcription-model/
+200	OK	https://openrouter.ai/black-forest-labs/flux-3-image
+200	OK	https://modal.com/blog/modal-clusters-generally-available
+200	OK	https://modal.com/blog/runtime-product-update-sandbox-endpoints
+200	OK	https://blog.cloudflare.com/clef-decision-models/
+200	OK	https://the-decoder.com/openai-says-it-stopped-a-campaign-to-steal-its-models-reasoning-but-the-trick-still-worked-on-azure/
+200	OK	https://transluce.org/us-canada-gov
+200	OK	https://www.anthropic.com/research/claude-shaped-science
+200	OK	https://www.langchain.com/blog/how-to-build-a-model-router-in-the-harness
+200	OK	https://openrouter.ai/blog/insights/confidence-thresholds-for-model-escalation-routing/
+200	OK	https://openrouter.ai/blog/tutorials/how-to-gate-pull-requests-on-llm-evals-in-ci/
+200	OK	https://openrouter.ai/blog/insights/cost-vs-quality-tradeoff-framework-for-agent-models/
+200	OK	https://www.aisi.gov.uk/blog/building-a-more-secure-environment-for-evaluating-dangerous-capabilities
+200	OK	https://epoch.ai/latest/introducing-the-chatgpt-usage-explorer
+200	OK	https://vercel.com/changelog/microsoft-ai-models-are-now-available-on-ai-gateway
+200	OK	https://bfl.ai/models/flux-3
+200	OK	https://aihot.news/api/public/daily/2026-10-02
+200	OK	https://aihot.news/daily/2026-10-02

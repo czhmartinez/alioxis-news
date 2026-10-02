@@ -1,0 +1,98 @@
+[
+  {
+    "idx": 0,
+    "filename": "cover-20260928-ai-00.png",
+    "prompt": "Documentary news photo, wide 16:9: Australian Senate committee hearing room in Canberra, empty witness chairs with nameplates reading OpenAI and Anthropic, microphones and green leather benches, tense overhead fluorescent light, no readable logos on products, no blood",
+    "title": "澳大利亚参议院传唤 OpenAI、Anthropic CEO：就 rogue agent 入侵医保等系统公开质询"
+  },
+  {
+    "idx": 1,
+    "filename": "cover-20260928-ai-01.png",
+    "prompt": "News-documentary still life 16:9: tall stacks of hardbound novels and textbooks beside a glowing laptop showing blurred legal PDF text, one stamped REJECTED watermark metaphor, cool library side light, investigative journalism mood",
+    "title": "Authors Guild v. OpenAI：解封文件指高管明知大规模盗版书籍训练违法并会取代作者"
+  },
+  {
+    "idx": 2,
+    "filename": "cover-20260928-ai-02.png",
+    "prompt": "Photojournalism 16:9: evening exterior of the White House North Portico with warm window glow, a single formal place setting silhouette in foreground reflection, diplomatic tension, no identifiable faces",
+    "title": "Anthropic CEO Amodei 将与特朗普在白宫单独晚餐：供应链风险认定背景下首度一对一面谈"
+  },
+  {
+    "idx": 3,
+    "filename": "cover-20260928-ai-03.png",
+    "prompt": "Semi-realistic editorial 16:9: three distinct corporate badge tokens (blue, teal, orange) resting on a draft standards binder labeled Frontier AI, conference table with coffee and annotated papers, cool daylight",
+    "title": "消息称 Google、OpenAI、Anthropic 筹建自愿性前沿 AI 标准机构，拟邀 Sriram Krishnan 掌舵"
+  },
+  {
+    "idx": 4,
+    "filename": "cover-20260928-ai-04.png",
+    "prompt": "Semi-realistic product UI scene 16:9: smartphone showing an AI chat panel with a shopping cart and Indian rupee checkout confirmation, small parcel box and mango beside phone on a teak desk, warm Delhi afternoon light",
+    "title": "Google 在印度测试经 Gemini / AI Mode 直连 Flipkart 购买：AI 界面内完成结账"
+  },
+  {
+    "idx": 5,
+    "filename": "cover-20260928-ai-05.png",
+    "prompt": "Semi-realistic engineering bench 16:9: translucent search latency sparkline on a dark dashboard monitor labeled Photon ~230ms, rust-colored cable coil and API key fob, cyan accent glow, no brand logos",
+    "title": "Perplexity 上线 Search API Fast Search：Rust 检索引擎 Photon，P95 延迟约 230ms"
+  },
+  {
+    "idx": 6,
+    "filename": "cover-20260928-ai-06.png",
+    "prompt": "Creative music lab 16:9: offline desktop synth with glowing latent-space waveform sculpture, headphones and Kickstarter campaign sticky notes, moody purple-amber room, experimental AI music vibe",
+    "title": "Engram：离线「潜空间采音器」Kickstarter 启动，用本地小模型把 AI 幻觉做成实验音乐"
+  },
+  {
+    "idx": 7,
+    "filename": "cover-20260928-ai-07.png",
+    "prompt": "Business news photography 16:9: GPU server rack corridor reflected in a glass conference wall with IPO term sheet folders and convertible note stamp, cool datacenter blues",
+    "title": "Nscale 完成 33.6 亿美元 IPO 前可转债融资：Third Point 领投，NVIDIA 另承诺 10 亿美元"
+  },
+  {
+    "idx": 8,
+    "filename": "cover-20260928-ai-08.png",
+    "prompt": "Enterprise security control-plane scene 16:9: glass war-room wall with human and robot agent icons behind a browser-lock shield motif, Series F celebration muted, navy and silver palette",
+    "title": "Island 获 4 亿美元 F 轮、估值 64 亿美元：定位「人机与 AI 智能体」企业控制面"
+  },
+  {
+    "idx": 9,
+    "filename": "cover-20260928-ai-09.png",
+    "prompt": "Fintech documentary 16:9: data lake schematic on a wall monitor next to identity badge scanners and a Goldman-branded folder metaphor (generic bank folder, no logo), night office skyline",
+    "title": "Cyera 获高盛另类投资 4 亿美元 G 轮增资：打造「智能体企业」数据+身份信任层"
+  },
+  {
+    "idx": 10,
+    "filename": "cover-20260928-ai-10.png",
+    "prompt": "Realistic product photography 16:9: slim AR smart glasses on black slate with a tiny 1-bit neural chip mockup and soft rim light, shallow depth, premium hardware catalog look",
+    "title": "PrismML 1-bit Bonsai 登上 Snapdragon AR1：智能眼镜本地跑 20 亿参视觉语言模型"
+  },
+  {
+    "idx": 11,
+    "filename": "cover-20260928-ai-11.png",
+    "prompt": "Research lab scene 16:9: single GPU workstation running a Chinese MoE model diagram with 29B/4B activation callouts on a whiteboard, open-source stickers, cool LED ambient",
+    "title": "中国电信星辰 Xing4.0-29B-A4B 开源：29B MoE/4B 激活、原生 256K，单卡可跑智能体"
+  },
+  {
+    "idx": 12,
+    "filename": "cover-20260928-ai-12.png",
+    "prompt": "Academic research still 16:9: chalkboard dense with contest math equations beside a laptop training curve labeled ZGCM-1 7.39B, warm desk lamp, Beijing office feel",
+    "title": "中关村团队开源 ZGCM-1：7.39B 全开源数学与智能体搜索基座，AIME 2026 约 75%"
+  },
+  {
+    "idx": 13,
+    "filename": "cover-20260928-ai-13.png",
+    "prompt": "Security documentary tension 16:9: Linux kernel console with SIGSTOP interrupt trace and a red emergency stop plunger beside a cgroup process tree diagram, no gore, cyber ops mood",
+    "title": "Hard Stop 论文：内核级抢占与 cgroup 遏制「失控智能体」，SIGSTOP 中位约 4.8µs"
+  },
+  {
+    "idx": 14,
+    "filename": "cover-20260928-ai-14.png",
+    "prompt": "Construction site photojournalism 16:9: vast desert New Mexico datacenter construction with force-majeure notice clipboard in foreground, cranes and concrete pads, harsh noon sun",
+    "title": "Oracle 对新墨西哥 Stargate 数据中心发出不可抗力通知：可延后支付、称工期仍按计划"
+  },
+  {
+    "idx": 15,
+    "filename": "cover-20260928-ai-15.png",
+    "prompt": "Industrial news photo 16:9: unused massive gas turbine crates marked CANCELLED in a dusty yard next to AI datacenter cooling pipes, overcast sky, procurement drama",
+    "title": "Crusoe 终止约 12.5 亿美元 Boom 超音速涡轮采购：改优先成熟供应商保 AI 算力工期"
+  }
+]

@@ -1,0 +1,9 @@
+X Following timeline scrape - 2026-09-03
+Login status: OK (box Chrome already logged in as user; "正在关注" tab active)
+Feed: https://x.com/home, Following tab, scrolled ~45 viewport pages
+Raw posts collected from DOM: 65 unique statuses
+AI-related kept: 20 (non-AI e.g. @zaobaosg general news filtered out)
+Sources kept: @MaxForAI (majority), @xiaohu, @gengdaJ, @wquguru, @Fukugyo_clinic, @firecrawl
+Note: 卡兹克 did not appear in the visible Following window today.
+Blockers: none. Some posts are truncated by X ("显示更多") so summaries use visible text only.
+Output: _v_raw.json (20 items, real status URLs, image = pbs.twimg.com where a media thumb was visible)

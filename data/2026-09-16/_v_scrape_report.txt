@@ -1,0 +1,11 @@
+logged_in: yes
+Following_confirmed: yes
+scroll_count: 5
+fallbacks_visited: https://x.com/MaxForAI, https://x.com/xiaohu, https://x.com/Khazix0918
+post_count: 15
+handle_breakdown: @xiaohu=6, @MaxForAI=5, @Khazix0918=3, @zaobaosg=1
+notes:
+- X home opened successfully in the existing logged-in session; the visible account was zihanch chen and the 正在关注 (Following) tab was selected.
+- Following was scrolled five times; it was sparse for AI, with one visible AI-related 联合早报 post, so all three requested fallback profiles were visited.
+- Collected only text visible in the DOM. Posts truncated behind 显示更多 were retained with …; no post text was invented.
+- Relative times were converted approximately using capture time 2026-09-16 08:20 Asia/Taipei. Images are intentionally left empty.

@@ -1,0 +1,26 @@
+Alioxis News「大V视野」X Following scrape — Asia/Taipei 2026-09-19
+
+Login status: logged in; home timeline loaded normally.
+Following confirmed: yes — home visibly showed「正在关注」selected, not「为你推荐」.
+Collection method: browser-only X pages; no X API used.
+AI-related posts saved: 13 (target 12–20 met). Most are from 2026-09-17 to 2026-09-18, within the requested recent window; displayed times are retained in _v_raw.json.
+
+Counts by handle:
+@Khazix0918: 5
+@MaxForAI: 3
+@xiaohu: 2
+@zaobaosg: 1
+@gpumaxxer: 1
+@ChineseWSJ: 1
+
+Notes/blockers: Following was available and confirmed. The live Following feed was thin for AI and heavily populated by general Zaobao items, so priority profiles were visited as instructed. Two Khazix entries are short follow-up replies from the same AI discussion; retained because they contain substantive model-comparison points. No invented posts; all URLs contain real status IDs.
+
+Sample titles/URLs:
+1. 卡兹克：只会做选择题的Jev模型 — https://x.com/Khazix0918/status/2100850184129220829
+2. MiniMax Code上线Agent会话迁移 — https://x.com/MaxForAI/status/2100959564359413819
+3. Google用Gemini生成互动学习练习 — https://x.com/xiaohu/status/2100843347107893622
+
+Paths written:
+/workspace/alioxis-news/data/2026-09-19/_v_raw.json
+/workspace/alioxis-news/data/2026-09-19/_v_scrape_report.txt
+/workspace/alioxis-news/data/2026-09-19/v.json

@@ -1,0 +1,10 @@
+logged_in: yes
+Following_confirmed: yes
+scroll_count: 8+
+fallbacks_visited: https://x.com/Khazix0918, https://x.com/MaxForAI, https://x.com/xiaohu
+post_count: 14
+handle_breakdown: @Khazix0918=6, @xiaohu=3, @MaxForAI=2, @zaobaosg=1, @ChineseWSJ=1, @thsottiaux=1
+notes:
+- computerUse scrape on box Chrome; session valid; Following tab confirmed.
+- Only posts visible in DOM; no fabricated status IDs.
+- Titles normalized to site style (作者：主题).

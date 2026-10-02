@@ -1,0 +1,7 @@
+logged in: yes
+Following tab confirmed: yes (正在关注 visible/selected on home)
+scroll count: 4 on Following timeline
+fallback profiles visited: https://x.com/MaxForAI, https://x.com/xiaohu, https://x.com/Khazix0918
+post count: 17
+handle breakdown: @MaxForAI 6; @xiaohu 5; @Khazix0918 6
+notes: Following timeline was sparse for AI during the four scrolls (visible posts were mainly 联合早报), so all three requested fallback profiles were visited. Collected only visibly rendered post text from the logged-in Chrome session; text ending at 显示更多/ellipsis was kept truncated and not expanded. Relative times were converted approximately to +08:00; date-only UI values were normalized to midnight.

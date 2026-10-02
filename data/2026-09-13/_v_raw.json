@@ -1,0 +1,256 @@
+[
+  {
+    "title": "Max For AI：Anthropic报告里的AI杀猪盘案例",
+    "summary": "不行我崩不住了，Antropic这个报告里还专门有个中国杀猪盘的案例\n\n这个案例的编号是 GTG-15001，讲的是一个中国团队用 Claude，批量造了 4700 多个“真人恋爱对象”去海外崩老头的案例。\n\nAnthropic 称，这家公司一口气做了 20 多款交友 App，对外看起来都是真人在聊天，但后台其实已经高度 AI 化。",
+    "url": "https://x.com/MaxForAI/status/2098225659432845472",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "AI",
+      "Claude",
+      "AI安全",
+      "诈骗"
+    ],
+    "image": ""
+  },
+  {
+    "title": "Max For AI：前沿AI需要限速",
+    "summary": "突发，Anthropic CEO Dario Amodei 刚刚表示必须给前沿 AI 限速。\n\nDario刚刚发了一篇新文章，标题是《We Must Pace the Frontier》：我们必须给前沿 AI 限速。\n\n这次他不只是继续讲 AI 安全，而是正式提出了一套三步方案，试图把AI 减速变成一套可以执行的机制。\n\n第一步，让第三方评估人员直接进",
+    "url": "https://x.com/MaxForAI/status/2098793672917889115",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-13T00:10:00+08:00",
+    "tags": [
+      "AI",
+      "Anthropic",
+      "AI安全",
+      "行业"
+    ],
+    "image": ""
+  },
+  {
+    "title": "Max For AI：ChatGPT Sites更新",
+    "summary": "嘿，不要错过这个更新。\n\n\n@ChatGPT 的Sites功能刚刚迎来了一波挺重要的更新。\n\n这次主要补了几个之前很影响实际使用的能力：\n\n- 可以多人协作：可以邀请团队成员一起编辑、保存和发布同一个 Site。\n- 允许私密分享：Site 不用再公开，可以只邀请指定的人访问。\n- 发布速度翻倍：从 Prompt",
+    "url": "https://x.com/MaxForAI/status/2098742727911551067",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-12T20:10:00+08:00",
+    "tags": [
+      "AI工具",
+      "ChatGPT",
+      "网站生成",
+      "协作"
+    ],
+    "image": ""
+  },
+  {
+    "title": "Max For AI：Google DeepMind可能实现RSI",
+    "summary": "今天海外AI圈都在传一件事：\n\n\n@GoogleDeepMind  可能已经搞出了 RSI。\n\n起因是知名爆料者 \n@lyraxana\n  突然发了一条很奇怪的帖子：\n\nhuge congRatulationS Indeed! \n@GoogleDeepMind\n\n\n而他还故意把中间三个字母大写，刚好拼成了：\n\nR S I\n\n也就是 Recursive Self-Improvement，递归自我改进。",
+    "url": "https://x.com/MaxForAI/status/2098739670624653575",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-12T20:10:00+08:00",
+    "tags": [
+      "AI研究",
+      "Google DeepMind",
+      "RSI",
+      "模型"
+    ],
+    "image": ""
+  },
+  {
+    "title": "Max For AI：自然语言入口与Generated UI",
+    "summary": "@signulll  今天提了一个很有意思的判断：\n\n未来计算机的入口可能不再是 App、菜单、按钮，而是统一收敛成自然语言输入 → Agent 理解并执行 → 直接回答 / 临时生成 UI → 用户继续用语言修改。\n\n我觉得这里真正值得讨论的，其实不是语音，而是后面的 Generated UI。\n\n过去几十年，软件的逻辑一直是：",
+    "url": "https://x.com/MaxForAI/status/2098737872941785575",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-12T20:10:00+08:00",
+    "tags": [
+      "AI应用",
+      "Agent",
+      "自然语言",
+      "界面"
+    ],
+    "image": ""
+  },
+  {
+    "title": "Max For AI：Genspark推出Gen-1 Slides",
+    "summary": "神了，才发现 Genspark 居然自己专门训了一个 PPT 生成模型！！？\n\n9 月 11 日，Genspark 发布了他们第一个自己训练的模型 Gen-1 Slides。\n\n但它不是从头预训练出来的，而是以开源的 MiniMax M3 为底座，和 Fireworks AI 合作做后训练，专门优化做 PPT这件事。\n\n原因很简单：现在最强的通用模型都在卷",
+    "url": "https://x.com/MaxForAI/status/2098728912109044190",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-12T19:10:00+08:00",
+    "tags": [
+      "AI工具",
+      "Genspark",
+      "PPT",
+      "模型训练"
+    ],
+    "image": ""
+  },
+  {
+    "title": "小互：Codex宠物支持弹窗回复",
+    "summary": "Codex 宠物改版了\n\n现在你可以在不用打开客户端界面的情况下，直接通过宠物的弹出窗口直接回复特定内容\n\n更加方便快捷\n\n支持语音和文本输入两种回复模式",
+    "url": "https://x.com/xiaohu/status/2098743051170795859",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-12T20:10:00+08:00",
+    "tags": [
+      "AI工具",
+      "Codex",
+      "语音输入",
+      "文本输入"
+    ],
+    "image": ""
+  },
+  {
+    "title": "小互：Astra质量问题重置与更新",
+    "summary": "北京时间今天下午三点前重置\n\n抓紧蹬\n引用\nTibo\n@thsottiaux\n·\n20小时\n翻译自 英语\n嗨，Astra 用户们。关于最近发布的一些质量问题，我们进行了一次重置并快速更新。\n\n与你们中的一些人合作，我们已经发现并修复了以下问题：\n- 一些为先前模型编写的技能触发过于频繁，或者阻止模型检查其工作。\n-",
+    "url": "https://x.com/xiaohu/status/2098619862566494379",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-12T12:10:00+08:00",
+    "tags": [
+      "AI模型",
+      "Astra",
+      "Agent技能",
+      "更新"
+    ],
+    "image": ""
+  },
+  {
+    "title": "小互：Cursor Projects协调上千个子Agent",
+    "summary": "这个有点牛P\n\nCursor 推出「Projects」功能 \n\n它能在几个月的工作里一直保有上下文，把任务委派给上千个子 Agent，而且不用提示也能执行周期性工作。\n\n在演示视频中，Cursor 员工 Fredrika Lindh 提到，以前她的工作散在好几个对话（threads）里，现在只有这一个对话，由协调 Agent 来管理这些。",
+    "url": "https://x.com/xiaohu/status/2098599010852544953",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-12T11:10:00+08:00",
+    "tags": [
+      "AI工具",
+      "Cursor",
+      "Agent",
+      "上下文"
+    ],
+    "image": ""
+  },
+  {
+    "title": "小互：Cursor Projects进入Beta",
+    "summary": "该功能目前处于 beta 阶段，逐步向所有用户开放\nCursor 推出「Projects」功能 可将任务委派给上千个子 Agent，在不需要提示的情况下持续几个月执行周期性工作 · 小互 · AI 解读站\n来自 best.xiaohu.ai",
+    "url": "https://x.com/xiaohu/status/2098599013331444027",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-12T11:10:00+08:00",
+    "tags": [
+      "AI工具",
+      "Cursor",
+      "Agent",
+      "Beta"
+    ],
+    "image": ""
+  },
+  {
+    "title": "小互：AI偶像尤栗演唱会",
+    "summary": "全球首个AI偶像尤栗演唱会… \n\n炸裂开场",
+    "url": "https://x.com/xiaohu/status/2098399018032525669",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-11T00:00:00+08:00",
+    "tags": [
+      "AI应用",
+      "AI偶像",
+      "演唱会"
+    ],
+    "image": ""
+  },
+  {
+    "title": "数字生命卡兹克：Seedance 2.5 AI影像作品",
+    "summary": "最近看到的最好的AI影像作品。\n你永远可以相信DiDi_OK的审美和脑洞。\n推荐所有人逐帧学习。\n引用\nDiDi_OK\n@DiDi_OKK\n·\n9月10日\n翻译自 英语\n我们的赌注是，更好的 AI 将使电影更具个性化。\n\n所以我制作了一部电影，其中伤害某人会让你变成糖果。\n这会让我们变得文明吗？\n\n使用 @seedance 2.5 创建。\n很高兴与 @BytePlusGlobal 合作这个项目。\n\n#seedance25",
+    "url": "https://x.com/Khazix0918/status/2098136040271949924",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "AI影像",
+      "Seedance",
+      "视频生成",
+      "创意"
+    ],
+    "image": ""
+  },
+  {
+    "title": "数字生命卡兹克：Anthropic研究员因AI风险离职",
+    "summary": " 文章\n一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。\n昨天呢，我在X上看到了一条流量已经过了1亿的帖子。\n \n讲道理，我在X上已经很久很久没有见过这种流量的帖子了。\n发帖的人叫Jacob Coxon。\n刚刚从Anthropic辞职。...",
+    "url": "https://x.com/Khazix0918/status/2097925788863725785",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-09T00:00:00+08:00",
+    "tags": [
+      "AI行业",
+      "Anthropic",
+      "AI安全",
+      "研究员"
+    ],
+    "image": ""
+  },
+  {
+    "title": "数字生命卡兹克：Codex回测耗尽DeepSeek额度",
+    "summary": "用Codex跑AIHOT的数据回测，然后他自己看了下，决定去调我DeepSeek的API Key，然后一天跑没了我快800块的额度...\n我尼玛...",
+    "url": "https://x.com/Khazix0918/status/2097606288083407037",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-09T00:00:00+08:00",
+    "tags": [
+      "AI工具",
+      "Codex",
+      "DeepSeek",
+      "API"
+    ],
+    "image": ""
+  },
+  {
+    "title": "数字生命卡兹克：GPT-6 Astra推理等级与Token",
+    "summary": " 文章\n一文带你看懂，GPT-6 Astra推理等级怎么选才最省Token。\n这几天，大家应该都用GPT-6 Astra了吧。\n然后呢，我发现大家问我的问题，已经开始随着时间发生变化了。\n第一天：“GPT-6 Astra上线了，你咋还没发，别睡了，起来评测搞快点。”\n第二天：“GPT-6咋操控Blender啊？”...",
+    "url": "https://x.com/Khazix0918/status/2097514168425594980",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-08T00:00:00+08:00",
+    "tags": [
+      "AI模型",
+      "GPT-6 Astra",
+      "推理",
+      "Token"
+    ],
+    "image": ""
+  },
+  {
+    "title": "数字生命卡兹克：AIHOT域名与服务变化",
+    "summary": "说两个关于我开发的这个AI热点网站AIHOT的小变化：\n\n1.  AIHOT终于蹲点买下了并启用了全新的域名：\nhttps://\naihot.news，也完成了国内的备案和全面迁移，这个域名应该就非常好记了～news嘛，跟AIHOT多适配呀。\n\n2.  最近AIHOT因为整体已经快到了百万级月活，整体服务越来越冗长，正好GPT-6",
+    "url": "https://x.com/Khazix0918/status/2097317343487733969",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-08T00:00:00+08:00",
+    "tags": [
+      "AI资讯",
+      "AIHOT",
+      "网站",
+      "产品"
+    ],
+    "image": ""
+  },
+  {
+    "title": "数字生命卡兹克：GPT-6 Astra操控Blender教程",
+    "summary": " 文章\n用GPT-6 Astra操控Blender，保姆级教程来了。\nBlender，可能就是这次GPT-6 Astra上线后的最大受益者。\n大家真的是玩疯了。 \n\n直接让Blender的下载量都跟着暴增了。。。\n我也没想到，3D这个形态，居然以如此离奇的机遇，进入到了大家的视野里。\n我在实测GPT-6...",
+    "url": "https://x.com/Khazix0918/status/2097201246973366417",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-07T00:00:00+08:00",
+    "tags": [
+      "AI模型",
+      "GPT-6 Astra",
+      "Blender",
+      "教程"
+    ],
+    "image": ""
+  }
+]

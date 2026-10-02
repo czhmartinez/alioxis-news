@@ -1,0 +1,7 @@
+Alioxis News AI collect report — 2026-09-12 (Asia/Taipei)
+Item count: 18
+AIHOT included: YES — https://aihot.virxact.com/daily/2026-09-12
+All image fields: empty string "" (covers pending GenerateImage)
+Sources: AIHOT daily+API, Reuters Nvidia/Anthropic IPO, THE DECODER threat report, CNBC RSI/safety/Mistral, DeepSeek docs, MarkTechPost, OpenAI Habitat, OpenRouter Fusion, Cursor Projects, OpenAI Agents/Live, GitHub Copilot, Dwarkesh, Google Finland
+X API credits: $0.00 — skipped billed X calls for AI tab
+Blockers: none for AI tab

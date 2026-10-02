@@ -1,0 +1,189 @@
+[
+  {
+    "title": "Max For AI：Anthropic 报告揭中国杀猪盘用 Claude 造 4700 虚拟恋人",
+    "summary": "不行我崩不住了，Antropic这个报告里还专门有个中国杀猪盘的案例🤣 这个案例的编号是 GTG-15001，讲的是一个中国团队用 Claude，批量造了4700多个“真人恋爱对象”去海外骗老头的案例。 Anthropic称，这家公司一口气做了20多款交友 App，对外看起来都是真人在聊天，但后台其实已经高度AI化。 他们仅仅两周的时间内就构建了4700+个AI虚拟人设，然后这个系统至少骗到了2.5万名真实用户，用户刷到的匹配对象里，大",
+    "url": "https://x.com/MaxForAI/status/2098225659432845472",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-11T10:30:00+08:00",
+    "tags": [
+      "AI安全",
+      "Claude",
+      "诈骗",
+      "社交应用"
+    ],
+    "image": "/assets/covers/cover-20260912-v-00.jpg"
+  },
+  {
+    "title": "Max For AI：OpenAI 占 OpenRouter 消费份额升至 31% 新高",
+    "summary": "OpenRouter 的 Insights 负责人 Peter Walker 刚刚披露：过去 48 小时，OpenAI 已经拿走了平台全部模型消费金额的 31%，创下新高。 7 月那波高点也只有 28%，这次 Astra 又把纪录往上推了一截。 Fig 前 CEO、现在 Hercules 创始人 Brendan Falk 看到后直接说：如果 Peter 以后能定期公布各家实验室在 OpenRouter 上的实验室资金份额，而不是 Tok",
+    "url": "https://x.com/MaxForAI/status/2098477434979135889",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-11T11:23:00+08:00",
+    "tags": [
+      "大模型",
+      "OpenRouter",
+      "OpenAI",
+      "模型消费"
+    ],
+    "image": "/assets/covers/cover-20260912-v-01.jpg"
+  },
+  {
+    "title": "Max For AI：传闻 Grok 4.7 因 RL 问题延迟发布",
+    "summary": "Grok 4.7延迟发布了！？ noooo，据说是RL出现了问题😭",
+    "url": "https://x.com/MaxForAI/status/2098474576099652077",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-11T11:11:00+08:00",
+    "tags": [
+      "Grok",
+      "模型发布",
+      "强化学习"
+    ],
+    "image": "/assets/covers/cover-20260912-v-02.jpg"
+  },
+  {
+    "title": "Max For AI：NYT——安全公司用 AI 做出微信零点击蠕虫 WeWorm",
+    "summary": "《纽约时报》今天报道了一个挺夸张的 AI 安全事件： 一家美国安全公司用 AI 找到了微信漏洞，并做出了一个可以通过微信电话自动传播的 Zero-click Worm（零点击蠕虫）。 这个项目叫 WeWorm，来自硅谷安全公司 Calif。 事情最早发生在今年 7 月。 Calif 的 AI 在研究微信时，发现了一个位于 微信 VoIP 通话模块里的内存破坏漏洞。 7 月 23 日研究团队确认问题，第二天，他们就把漏洞提交给了腾讯。 随",
+    "url": "https://x.com/MaxForAI/status/2098471493873381666",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-11T10:59:00+08:00",
+    "tags": [
+      "AI安全",
+      "微信",
+      "漏洞",
+      "蠕虫"
+    ],
+    "image": "/assets/covers/cover-20260912-v-03.jpg"
+  },
+  {
+    "title": "Max For AI：律师用 ChatGPT 写谋杀上诉文书编造假证人被罚",
+    "summary": "离谱，美国一个律师用 ChatGPT 写杀人案上诉文书，结果 AI 直接编出了不存在的证人和警察证词😅 美国新墨西哥州最高法院刚刚对律师 Stephen Aarons 罚款 5000 美元，并以藐视法庭处理，还要把他移交律师纪律委员会调查。 事情是这样的： Aarons 接手了一名被判终身监禁的谋杀案被告的上诉。 为了整理案情，他把庭审记录和其他案件材料丢给 ChatGPT，希望它自动生成一个“bulletproof murder su",
+    "url": "https://x.com/MaxForAI/status/2098465872679735546",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-11T10:37:00+08:00",
+    "tags": [
+      "ChatGPT",
+      "法律",
+      "AI幻觉",
+      "案例"
+    ],
+    "image": "/assets/covers/cover-20260912-v-04.jpg"
+  },
+  {
+    "title": "Max For AI：转发——律师在谋杀案中引用 ChatGPT 虚构证人",
+    "summary": "原帖： Lawyer cites fake witnesses in murder case and blames ChatGPT",
+    "url": "https://x.com/MaxForAI/status/2098465925142085764",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-11T10:37:00+08:00",
+    "tags": [
+      "ChatGPT",
+      "法律",
+      "AI幻觉"
+    ],
+    "image": "/assets/covers/cover-20260912-v-05.jpg"
+  },
+  {
+    "title": "Max For AI：吐槽律师被 GPT 幻觉坑惨",
+    "summary": "合理怀疑哥们被GPT降智坑了🤣",
+    "url": "https://x.com/MaxForAI/status/2098472039049003453",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-11T11:01:00+08:00",
+    "tags": [
+      "GPT",
+      "AI幻觉"
+    ],
+    "image": "/assets/covers/cover-20260912-v-06.jpg"
+  },
+  {
+    "title": "小互：全球首个 AI 偶像尤栗演唱会开场炸裂",
+    "summary": "全球首个AI偶像尤栗演唱会… 炸裂开场 https://t.co/fG7E5G6DQL",
+    "url": "https://x.com/xiaohu/status/2098399018032525669",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-11T06:11:00+08:00",
+    "tags": [
+      "AI偶像",
+      "演唱会",
+      "AI视频"
+    ],
+    "image": "/assets/covers/cover-20260912-v-07.jpg"
+  },
+  {
+    "title": "小互：AI 偶像演唱会对唱现场很嗨",
+    "summary": "对唱 很嗨哦… https://t.co/MXh5odzuYS",
+    "url": "https://x.com/xiaohu/status/2098401983367618650",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-11T06:23:00+08:00",
+    "tags": [
+      "AI偶像",
+      "视频",
+      "演唱会"
+    ],
+    "image": "/assets/covers/cover-20260912-v-08.jpg"
+  },
+  {
+    "title": "小互：已用 Gemini 3.8 Flash 替换写作模型（Best.xiaohu.ai）",
+    "summary": "我已经用Gemini 3.8 Flash 代替了我的写作模型 现在它运行在 Best.xiaohu.ai 上 这应该是目前最好的写作模型，而且超越了之前的Opus 4.6，几乎没有AI味道... 读起来非常的流畅和顺畅...",
+    "url": "https://x.com/xiaohu/status/2098253138759430216",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-10T20:31:00+08:00",
+    "tags": [
+      "Gemini",
+      "写作模型",
+      "AI工具"
+    ],
+    "image": "/assets/covers/cover-20260912-v-09.jpg"
+  },
+  {
+    "title": "小互：多 Agent 研发实践 10 条原则（Kiro Frontier Engineering）",
+    "summary": "从换工具到改写工作方式： 面向多 Agent 研发实践的10 条原则 许多人仍把自己放在 AI 与终端之间，充当实时的人肉路由器、异常传递员和点击确认器。 Kiro 团队发布了由 Clare Liguori 主笔的工程专题《Frontier Engineering》（前沿工程学），系统梳理了 10 条面向多代理（Agent）研发实践的探索性原则。 核心主张在于：当前的软件研发实践正在出现分化。 一部分团队只是在既有流程中换了编码工具，而",
+    "url": "https://x.com/xiaohu/status/2098241206597947706",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-10T19:44:00+08:00",
+    "tags": [
+      "多Agent",
+      "AI编程",
+      "Kiro",
+      "研发实践"
+    ],
+    "image": "/assets/covers/cover-20260912-v-10.jpg"
+  },
+  {
+    "title": "数字生命卡兹克：推荐近期最好的 AI 影像作品（DiDi_OK）",
+    "summary": "最近看到的最好的AI影像作品。 你永远可以相信DiDi_OK的审美和脑洞。 推荐所有人逐帧学习。 我们的赌注是，更好的 AI 将使电影更具个性化。 所以我制作了一部电影，其中伤害某人会让你变成糖果。 这会让我们变得更文明吗？ …",
+    "url": "https://x.com/Khazix0918/status/2098136040271949924",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-10T12:46:00+08:00",
+    "tags": [
+      "AI影像",
+      "AI电影",
+      "视频生成"
+    ],
+    "image": "/assets/covers/cover-20260912-v-11.jpg"
+  },
+  {
+    "title": "数字生命卡兹克：27 岁研究员因灭绝担忧从 Anthropic 辞职",
+    "summary": "一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。 昨天呢，我在X上看到了 一条流量已经过了1亿的帖子。 讲道理，我在X上已经很久很久没有见过这种流量的帖子了。 发帖的人叫Jacob Coxon。 刚刚从Anthropic辞职。 他说，过去三年，他先后在OpenAI和Anthropic做大模型预训练。 然后现在，他不干了。 原因也非常离谱。 因为，他觉得OpenAI和Anthropic正在朝着能够自我改进的",
+    "url": "https://x.com/Khazix0918/status/2097925788863725785",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-09T22:51:00+08:00",
+    "tags": [
+      "AI安全",
+      "Anthropic",
+      "OpenAI",
+      "超级智能"
+    ],
+    "image": "/assets/covers/cover-20260912-v-12.jpg"
+  }
+]

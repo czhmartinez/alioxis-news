@@ -1,0 +1,80 @@
+[
+  {
+    "idx": 0,
+    "jpg": "cover-20261001-v-00.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-00.jpg",
+    "title": "联合早报：美珍香逾9.5万顾客电邮因AI工具误用泄露"
+  },
+  {
+    "idx": 1,
+    "jpg": "cover-20261001-v-01.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-01.jpg",
+    "title": "Higgsfield 将计算机使用能力接入 Codex"
+  },
+  {
+    "idx": 2,
+    "jpg": "cover-20261001-v-02.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-02.jpg",
+    "title": "特朗普与科技巨头签署非约束性AI安全协议"
+  },
+  {
+    "idx": 3,
+    "jpg": "cover-20261001-v-03.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-03.jpg",
+    "title": "南鸢：Google Gemini 4 Argon 输出上限达100万Token"
+  },
+  {
+    "idx": 4,
+    "jpg": "cover-20261001-v-04.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-04.jpg",
+    "title": "Firecrawl：Alexandria 可连接120多个数据源"
+  },
+  {
+    "idx": 5,
+    "jpg": "cover-20261001-v-05.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-05.jpg",
+    "title": "Crypto老鹰：Debot AI 选币系统捕获 $CSI 行情"
+  },
+  {
+    "idx": 6,
+    "jpg": "cover-20261001-v-06.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-06.jpg",
+    "title": "南鸢再次提及 Anthropic 动态"
+  },
+  {
+    "idx": 7,
+    "jpg": "cover-20261001-v-07.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-07.jpg",
+    "title": "卡兹克分享防止 Claude 账号被封的经验"
+  },
+  {
+    "idx": 8,
+    "jpg": "cover-20261001-v-08.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-08.jpg",
+    "title": "Max for AI：Dario 给人的感觉像邪恶大Boss"
+  },
+  {
+    "idx": 9,
+    "jpg": "cover-20261001-v-09.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-09.jpg",
+    "title": "Max for AI：DeepSeek 开源面向华为昇腾的基础设施"
+  },
+  {
+    "idx": 10,
+    "jpg": "cover-20261001-v-10.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-10.jpg",
+    "title": "小互：OpenAI 赠送重置机会与积分额度"
+  },
+  {
+    "idx": 11,
+    "jpg": "cover-20261001-v-11.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-11.jpg",
+    "title": "TestingCatalog：Google AI Studio 开发安全审查功能"
+  },
+  {
+    "idx": 12,
+    "jpg": "cover-20261001-v-12.jpg",
+    "image_path": "/assets/covers/cover-20261001-v-12.jpg",
+    "title": "TestingCatalog：Inworld 收购语音代理平台 Ultravox"
+  }
+]

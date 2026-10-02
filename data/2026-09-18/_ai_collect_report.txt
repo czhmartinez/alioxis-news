@@ -1,0 +1,64 @@
+Alioxis News AI新闻 collect report — 2026-09-18 (Asia/Taipei)
+================================================================
+Generated: 2026-09-18 ~08:20 CST (UTC+8)
+Output: /workspace/alioxis-news/data/2026-09-18/ai.json
+Item count: 18 (target 15–20)
+image fields: all empty (covers later)
+
+AIHOT lead
+----------
+YES — https://aihot.news/daily/2026-09-18
+Lead title themes: Qwen3.8-Omni-Flash, ChatGPT for Word, Claude Code Projects,
+Unsloth Desktop/Docker, Muse for Mac, NYT filings, biomolecular uplift, Goodfire,
+Copilot Rust rewrite, pace-the-frontier metrics / debate.
+
+Primary sources used (verified via WebFetch / curl UA / WebSearch)
+------------------------------------------------------------------
+- AIHOT daily 2026-09-18
+- chatgpt.com/apps/word/ (ChatGPT for Word)
+- claude.com/blog/projects-redesigned
+- anthropic.com/research/claude-uplifts-biomolecular-modeling
+- anthropic.com/institute/measuring-pace-of-ai-development
+- github.blog/.../migrating-the-github-copilot-runtime-to-rust-using-copilot/
+- techcrunch.com (NYT filings labor theft; Emerald AI AEMA; UN Data Commons)
+- unsloth.ai/docs/new/studio
+- arxiv.org/abs/2609.19101 (Goodfire reward hacking probes)
+- 9to5mac.com Muse for Mac update + Zuck quote
+- ithome.com (智谱 GLM RSI; Kimi 金融)
+- help.aliyun.com/zh/model-studio/qwen3-8-flash
+- qwen.ai/blog?id=qwen3.8-omni-flash (HTTP 200; CSR shell — specs cross-checked via AIHOT)
+- theverge.com AI slowdown roundup
+- dwarkesh.com/p/noam-brown
+
+Dedup notes (vs 2026-09-17 / 2026-09-16)
+----------------------------------------
+SKIPPED as primary re-leads (already in prior digests):
+- Microsoft Suleyman「模型福利」
+- Claude Cowork 与聊天合并 / Docs / Slides
+- ChatGPT Ads Sponsored Agents / HubSpot / Shopify
+- Grok Build 跨会话记忆
+- OpenAI model misalignment reporting framework / 六起错位报告 / TechCrunch「notes to successors」同线
+- Gemini 3.8 Live / Vidu S2 / StepAudio 3 / CobbleDB / Koa 等 09-16 头条
+
+KEPT as new angles (related ecosystem, not same lead):
+- Anthropic「三项节奏指标」与 The Verge 放缓争论汇总（延续安全讨论，非重复头条）
+- Dwarkesh×Noam Brown（多智能体/RSI 访谈，非框架披露本身）
+- Qwen3.8 线（Omni-Flash + 百炼 Flash）为当日新模型，未出现在 09-16/17
+
+Blockers / caveats
+------------------
+1. Qwen blog pages are heavy CSR; WebFetch returned little body text. Used AIHOT
+   factual summary + confirmed blog URL HTTP 200; also included Aliyun 百炼
+   Qwen3.8-Flash docs as separately verified API/model card.
+2. z.ai GLM RSI official blog fetch returned near-empty HTML; used IT之家
+   secondary with concrete numbers (cluster, 3x throughput, Ox-Alpha tokens).
+3. Did not use X API (credits historically $0); AIHOT + public web sufficient.
+4. No cover generation, build, or CVM publish in this pass (collection only).
+
+Top 5 titles
+------------
+1. 卡兹克 AIHOT 日报（2026-09-18）：Qwen3.8-Omni-Flash、ChatGPT for Word 与 Claude Code Projects
+2. 通义千问发布原生全模态 Qwen3.8-Omni-Flash：音视频智能体交付，评测与成本双升级
+3. ChatGPT for Word 上线：侧边栏起草校对，全计划可用并覆盖 Excel/PPT
+4. Anthropic 重构 Claude Code Projects：从文件夹变为多线程云端协作项目
+5. Meta 推出 Muse for Mac：个人智能体可在授权下跨 App 与文件执行任务

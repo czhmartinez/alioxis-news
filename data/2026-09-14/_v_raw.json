@@ -1,0 +1,114 @@
+[
+  {
+    "handle": "MaxForAI",
+    "display_name": "Max For AI",
+    "text": "不行我崩不住了，Anthropic这个报告里还专门有个中国杀猪盘的案例🤣\n\n这个案例的编号是 GTG-15001，讲的是一个中国团队用 Claude，批量造了4700多个“真人恋爱对象”去海外崩老头的案例。\n\nAnthropic称，这家公司一口气做了20多款交友 App，对外看起来都是真人在聊天，但后台其实已经高度 AI 化。…",
+    "url": "https://x.com/MaxForAI/status/2098225659432845472",
+    "time_ui": "9月10日"
+  },
+  {
+    "handle": "MaxForAI",
+    "display_name": "Max For AI",
+    "text": "具身智能圈这个瓜，越刺越大了。\n\n前两天还是创始人朋友圈公开开火，现在已经直接搞到报警了。\n\n9月12日，银河通用发布严正声明，称近期网络上流传的关于公司及管理团队的相关内容均为恶意谣言和不实信息。\n\n银河通用表示，目前已经第一时间向公安机关报案，并将依法追究造谣者的法律责任。…",
+    "url": "https://x.com/MaxForAI/status/2099290316021121128",
+    "time_ui": "12分钟 前"
+  },
+  {
+    "handle": "MaxForAI",
+    "display_name": "Max For AI",
+    "text": "卧槽？？苹果虽然预留了支持第三方AI的口子？？\n\n有开发者发现，iOS 27 / macOS 27 里其实已经藏了一套很有意思的能力：Model Delegation。\n\n他直接用这套内部 API，把 Claude 接进了 Siri。\n\n接完以后，Claude 会像 ChatGPT 一样，直接出现在 Siri 的 Ask 菜单里。…",
+    "url": "https://x.com/MaxForAI/status/2099175124847263861",
+    "time_ui": "7小时 前"
+  },
+  {
+    "handle": "MaxForAI",
+    "display_name": "Max For AI",
+    "text": "一个挺赛博朋克2077的画面正在印度大量出现。\n\n理发师、厨师、工厂工人、木匠，一边正常上班，一边身上挂满摄像头和传感器。\n\n他们其实还在干另一份工作：给机器人上课。\n\n这些设备会把人类第一视角怎么抓、拿、转、切、整理物体，甚至施加多大力道全部记录下来，最后变成 Physical AI…",
+    "url": "https://x.com/MaxForAI/status/2099172967368544485",
+    "time_ui": "7小时 前"
+  },
+  {
+    "handle": "MaxForAI",
+    "display_name": "Max For AI",
+    "text": "美国总统特朗普的AI顾问 David Sacks，刚发了一篇长帖，回应 Dario 和 Sam 的 AI 减速倡议。\n\n起因是，Anthropic CEO Dario Amodei 发文呼吁放缓前沿模型的能力提升，并提出外部评估、行业协调和国际合作的方案。\n\nOpenAI CEO Sam Altman…",
+    "url": "https://x.com/MaxForAI/status/2099171966192324721",
+    "time_ui": "8小时 前"
+  },
+  {
+    "handle": "xiaohu",
+    "display_name": "小互",
+    "text": "Codex 宠物改版了\n\n现在你可以在不用打开客户端界面的情况下，直接通过宠物的弹出窗口直接回复特定内容\n\n更加方便快捷\n\n支持语音和文本输入两种回复模式",
+    "url": "https://x.com/xiaohu/status/2098743051170795859",
+    "time_ui": "9月12日"
+  },
+  {
+    "handle": "xiaohu",
+    "display_name": "小互",
+    "text": "北京时间今天下午三点前重置\n\n抓紧蹬\n\n引用\nTibo\n@thsottiaux\n·\n9月11日\n翻译自 英语\n嗨，Astra 用户们。关于最近发布的一些质量问题，我们进行了一次重置并快速更新。\n\n与你们中的一些人合作，我们已经发现并修复了以下问题：\n- 一些为先前模型编写的技能触发过于频繁，或者阻止模型检查其工作。\n-…",
+    "url": "https://x.com/xiaohu/status/2098619862566494379",
+    "time_ui": "9月11日"
+  },
+  {
+    "handle": "xiaohu",
+    "display_name": "小互",
+    "text": "这个有点牛P\n\nCursor 推出「Projects」功能\n\n它能在几个月的工作里一直保有上下文，把任务委派给上千个子 Agent，而且不用提示也能执行周期性工作。\n\n在演示视频中，Cursor 员工 Fredrika Lindh 提到，以前她的工作散在好几个对话（threads）里，现在只有这一个对话，由协调 Agent 来管理这些。",
+    "url": "https://x.com/xiaohu/status/2098599010852544953",
+    "time_ui": "9月11日"
+  },
+  {
+    "handle": "xiaohu",
+    "display_name": "小互",
+    "text": "该功能目前处于 beta 阶段，逐步向所有用户开放\nCursor 推出「Projects」功能 可将任务委派给上千个子 Agent，在不需要提示的情况下持续几个月执行周期性工作 · 小互 · AI 解读站\n来自 best.xiaohu.ai",
+    "url": "https://x.com/xiaohu/status/2098599013331444027",
+    "time_ui": "9月11日"
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "给大家在AIHOT上更新一个被催了无数遍的小功能：Tibo重置监控。\n\n以后大家就不用怕Tibo重置Codex然后看不到浪费Token了：\n\n日历查记录：全员重置、发重置卡分开标记，统一换算成北京时间，帖子附中文译文和原帖链接。\n\n群里收通知：监测到新的重置、发卡预告或确认消息，会自动推送到群里。\n\n开放…",
+    "url": "https://x.com/Khazix0918/status/2099030353549594906",
+    "time_ui": "17小时 前"
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "最近看到的最好的AI影像作品。\n你永远可以相信DiDi_OK的审美和脑洞。\n推荐所有人逐帧学习。\n\n引用\nDiDi_OK\n@DiDi_OKK\n·\n9月10日\n翻译自 英语\n我们的赌注是，更好的 AI 将使电影更具个性化。\n\n所以我制作了一部电影，其中伤害某人会让你变成糖果。\n这会让我们变得文明吗？\n\n使用 @seedance 2.5 创建。\n很高兴与 @BytePlusGlobal 合作这个项目。\n\n#seedance25",
+    "url": "https://x.com/Khazix0918/status/2098136040271949924",
+    "time_ui": "9月10日"
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "文章\n一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。\n昨天呢，我在X上看到了一条流量已经过了1亿的帖子。\n\n讲道理，我在X上已经很久很久没有见过这种流量的帖子了。\n发帖的人叫Jacob Coxon。\n刚刚从Anthropic辞职。…",
+    "url": "https://x.com/Khazix0918/status/2097925788863725785",
+    "time_ui": "9月9日"
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "用Codex跑AIHOT的数据回测，然后他自己看了下，决定去调我DeepSeek的API Key，然后一天跑没了我快800块的额度…\n我尼玛…",
+    "url": "https://x.com/Khazix0918/status/2097606288083407037",
+    "time_ui": "9月9日"
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "文章\n一文带你看懂，GPT-6 Astra推理等级怎么选才最省Token。\n这几天，大家应该都用GPT-6 Astra了吧。\n然后呢，我发现大家问我的问题，已经开始随着时间发生变化了。\n第一天：“GPT-6 Astra上线了，你咋还没发，别睡了，起来评测搞快点。”\n第二天：“GPT-6咋操控Blender啊？”…",
+    "url": "https://x.com/Khazix0918/status/2097514168425594980",
+    "time_ui": "9月8日"
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "说两个关于我开发的这个AI热点网站AIHOT的小变化：\n\n1. AIHOT终于蹲点买下了并启用了全新的域名：https://aihot.news，也完成了国内的备案和全面迁移，这个域名应该就非常好记了～news嘛，跟AIHOT多适配呀。\n\n2. 最近AIHOT因为整体已经快到了百万级月活，整体服务越来越冗长，正好GPT-6…",
+    "url": "https://x.com/Khazix0918/status/2097317343487733969",
+    "time_ui": "9月8日"
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "文章\n用GPT-6 Astra操控Blender，保姆级教程来了。\nBlender，可能就是这次GPT-6 Astra上线后的最大受益者。\n大家真的是玩疯了。\n\n直接让Blender的下载量都跟着暴增了。。。\n我也没想到，3D这个形态，居然以如此离奇的机遇，进入到了大家的视野里。\n我在实测GPT-6…",
+    "url": "https://x.com/Khazix0918/status/2097201246973366417",
+    "time_ui": "9月7日"
+  }
+]

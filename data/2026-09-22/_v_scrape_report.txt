@@ -1,0 +1,14 @@
+登录状态：已确认登录（主页时间线显示发帖框，左下角显示 zihan chen 账户头像/账号菜单）。
+Following：已确认“正在关注”标签为当前选中状态（蓝色下划线），未使用“为你推荐”。
+
+采集结果：14 条真实 AI 相关帖子，时间范围约为 2026-09-21 15:00 至 2026-09-22 08:10（Asia/Taipei）。
+按 source_handle 统计：
+- @xiaohu：3
+- @MaxForAI：2
+- @ChineseWSJ：3
+- @Khazix0918：2
+- @higgsfield：1（Following 中看到的逸尘转发，原帖作者为 Higgsfield AI）
+- @Fukugyo_clinic：3
+
+去重：与 2026-09-21/v.json 的 status URL 比对，重复丢弃 0 条。
+方法：使用箱内 Chrome 的已登录 X 网页，先浏览 /home 的“正在关注”时间线，再访问已关注优先账号主页补充近 24 小时 AI 帖子；未调用 X API，未使用 X MCP。image 字段按要求留空。

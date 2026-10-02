@@ -1,0 +1,128 @@
+[
+  {
+    "idx": 0,
+    "filename": "ai-00.png",
+    "jpg": "cover-20260923-ai-00.jpg",
+    "title": "Anthropic 发布 Claude Opus 5.5：多数任务达 Fable 5.1 水平，典型负载成本较 Opus 5 降约 40%",
+    "prompt": "Photorealistic editorial photo of a dim research lab desk at dusk: a matte charcoal laptop with a soft amber Claude-like abstract origami bird figurine beside a glowing terminal showing dense code, warm desk lamp, shallow depth of field, no readable text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 1,
+    "filename": "ai-01.png",
+    "jpg": "cover-20260923-ai-01.jpg",
+    "title": "OpenAI 发布 GPT-6 Sol 与 GPT-6 Luna：API 价较 GPT-5.6 促销价降 50%",
+    "prompt": "Cinematic product still: two contrasting desktop orbs on a dark walnut desk—one bright solar-gold glass sphere labeled only by light, one pale lunar silver sphere—soft volumetric light, OpenAI-adjacent clean aesthetic without logos or text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 2,
+    "filename": "ai-02.png",
+    "jpg": "cover-20260923-ai-02.jpg",
+    "title": "Artificial Analysis：Claude Opus 5.5 智能指数 58 登顶，Terminal-Bench 与 Astra 持平",
+    "prompt": "News photography of a large LED analytics wall in a dark operations room showing abstract rising curves and a dominant peak marker, cool blue-green glow, no readable numbers or logos, documentary feel, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 3,
+    "filename": "ai-03.png",
+    "jpg": "cover-20260923-ai-03.jpg",
+    "title": "Artificial Analysis：GPT-6 Sol/Luna 成本减半，智能指数与 5.6 持平、幻觉显著下降",
+    "prompt": "Split-composition finance-tech photo: left a stack of coins dissolving into light particles, right a sleek server rack corridor, cool cyan and warm gold contrast, no text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 4,
+    "filename": "ai-04.png",
+    "jpg": "cover-20260923-ai-04.jpg",
+    "title": "Hugging Face：transformers 可直接加载运行 GGUF 量化模型，Metal 性能接近 llama.cpp",
+    "prompt": "Semi-realistic developer desk: open laptop with local AI inference vibe, a USB stick and a small metal cube model weight metaphor next to coffee, soft window light, MacBook-like but unbranded, no text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 5,
+    "filename": "ai-05.png",
+    "jpg": "cover-20260923-ai-05.jpg",
+    "title": "OpenRouter 推出 Batch API：24 小时窗口异步批量推理，通常半价起",
+    "prompt": "Semi-realistic cloud ops scene: conveyor of translucent data packets flowing into a batch queue hopper in a clean server loft, soft neon accents, isometric-leaning but photographic, no logos, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 6,
+    "filename": "ai-06.png",
+    "jpg": "cover-20260923-ai-06.jpg",
+    "title": "月之暗面发布 Kimi 浏览器扩展：由 WebBridge 更名，侧边栏 Agent 可操控网页",
+    "prompt": "Semi-realistic browser workspace: widescreen monitor with a floating side-panel agent silhouette controlling webpage tiles via subtle connecting threads, modern apartment desk, unique teal accents, no readable UI text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 7,
+    "filename": "ai-07.png",
+    "jpg": "cover-20260923-ai-07.jpg",
+    "title": "Claude Code v2.1.280：默认 Opus 升为 Claude Opus 5.5（1M 上下文，$4/$20）",
+    "prompt": "Semi-realistic IDE coding scene at night: dual monitors with abstract code blur, a mechanical keyboard and a small orange sticky note with a checkmark only, cozy developer cave, no logos, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 8,
+    "filename": "ai-08.png",
+    "jpg": "cover-20260923-ai-08.jpg",
+    "title": "LlamaIndex LiteParse 9 月更新：PDFium 提速约 20–25%，新增视觉定位与 is-complex 路由",
+    "prompt": "Documentary desk photo: thick paper documents fanning into a tablet that shows abstract page highlights and bounding boxes, scanner light streak, warm library tones, no readable text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 9,
+    "filename": "ai-09.png",
+    "jpg": "cover-20260923-ai-09.jpg",
+    "title": "Apple 新款 Mac mini（M6/M5 Pro）与 Mac Studio（M5 Max/Ultra）开售，主打端侧 AI",
+    "prompt": "Realistic product photography: compact silver mini desktop computer and a larger pro tower on a white seamless studio backdrop, soft reflections, premium Apple-like finish without logos or text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 10,
+    "filename": "ai-10.png",
+    "jpg": "cover-20260923-ai-10.jpg",
+    "title": "OpenAI 为 GPT-6 推出改进提示词缓存：默认更高命中率，缓存输入最高 90% 折扣",
+    "prompt": "Semi-realistic systems diagram made physical: nested glass cache layers around a glowing prompt token stream, cool blue laboratory lighting, abstract but technical, no text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 11,
+    "filename": "ai-11.png",
+    "jpg": "cover-20260923-ai-11.jpg",
+    "title": "Gizmodo/Bloomberg：五角大楼审查指过度依赖 Palantir Maven AI 与误击伊朗小学相关",
+    "prompt": "Tense documentary still: darkened military command center with blurred map displays and a single red caution indicator, Palantir-adjacent mosaic aesthetic without logos, no graphic violence, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 12,
+    "filename": "ai-12.png",
+    "jpg": "cover-20260923-ai-12.jpg",
+    "title": "Ars：Meta Muse 曝严重 0-day，本地应用可劫持助手；亚马逊已阻断其代购",
+    "prompt": "Cybersecurity documentary: a smartphone and laptop on a messy desk with a red intrusion glow reflecting on the screens, padlock shadow broken, Ars-style investigative mood, no logos or readable UI, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 13,
+    "filename": "ai-13.png",
+    "jpg": "cover-20260923-ai-13.jpg",
+    "title": "Epoch AI：同等 AI 性能成本过去三年平均每季降约 47%（约每年 13 倍）",
+    "prompt": "Infographic-like photographic metaphor: a steep descending spiral staircase made of circuitry descending into cheap light, dramatic overhead shot, research institute vibe, no charts with numbers, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 14,
+    "filename": "ai-14.png",
+    "jpg": "cover-20260923-ai-14.jpg",
+    "title": "OpenRouter 实测：Jev 1.13 分类准确率仅低 Opus 5 约 3.3 分，延迟约 1/13、成本约 1/22",
+    "prompt": "Semi-realistic A/B lab bench: two unlabeled black boxes racing classification cards down a conveyor, stopwatch blur, clean white lab, distinct from earlier desk scenes, no text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 15,
+    "filename": "ai-15.png",
+    "jpg": "cover-20260923-ai-15.jpg",
+    "title": "Google 开源 AX（Agent Executor）：Kubernetes 风格声明式自治 Agent 编排运行时",
+    "prompt": "Semi-realistic Kubernetes-inspired control room: holographic pods of autonomous agents orbiting a central control plane sphere, Google-blue accents without logos, architectural scale, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 16,
+    "filename": "ai-16.png",
+    "jpg": "cover-20260923-ai-16.jpg",
+    "title": "GitHub Copilot 上线 GPT-6 Sol 与 Luna：补齐 Astra 之外的日常编码与低成本选项",
+    "prompt": "Semi-realistic VS Code-like coding IDE on ultrawide monitor with soft autocomplete ghost text blur, coffee and plant, morning light through blinds, GitHub-adjacent but no octocat or logos, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 17,
+    "filename": "ai-17.png",
+    "jpg": "cover-20260923-ai-17.jpg",
+    "title": "OpenRouter 解读 NVIDIA Nemotron 3.5 Lightning：30B MoE / 约 3B 激活，面向 Agent 高频执行步",
+    "prompt": "Product-meets-abstract: a sleek NVIDIA-green lightning bolt of light racing through a translucent 30-core MoE tower of glass modules, dark studio, no logos or text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  }
+]

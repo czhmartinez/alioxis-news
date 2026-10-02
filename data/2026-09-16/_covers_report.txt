@@ -1,0 +1,1 @@
+covers 2026-09-16: ai=18 v=15 via GenerateImage content-scene (unique per story); JPEG ~960w q72 under assets/covers/

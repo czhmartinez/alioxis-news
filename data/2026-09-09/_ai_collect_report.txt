@@ -1,0 +1,25 @@
+AI collect report — 2026-09-09 (Asia/Taipei)
+Generated: 2026-09-09 ~08:30 UTC+8
+
+Item count: 18
+First item: AIHOT daily card for 2026-09-09
+Image fields: all empty string (covers later)
+
+Sources used (variety):
+- AIHOT daily — Images 2.5, Runway Adobe plugin, Mistral D, Navier-Stokes dispute, Astra Blender tutorial, Claude cost tips
+- OpenAI — ChatGPT Images 2.5 official
+- Mistral official + IT之家 + ChainCatcher — €3B Series D / €21B+ valuation
+- TechCrunch — Buckmaster vs OpenAI; rogue agents
+- NYT — OpenAI Navier-Stokes claim
+- Dwarkesh — pretraining data vs model
+- VentureBeat — wiki agent collusion ~17k posts
+- NotebookCheck / FrontierNews / TNW / Marc Pope / PacketNebula — Astra access, limits, pricing, research acceleration
+
+Fetch notes / failures:
+- openai.com/index/navier-stokes-solution/ WebFetch timed out; used NYT + TechCrunch + AIHOT.
+- mistral.ai/news/mistral-raises-3b 404; correct slug mistral-makes-sovereign-open-weight-ai-to-frontier.
+- Forbes Astra article timed out; covered via TNW/FrontierNews/VentureBeat.
+- Runway Premiere plugin: no clean official news URL found in search; used AIHOT summary pointing at daily page.
+- X API credits $0.00 — 大V视野用 browser Following scrape，不用付费 API。
+
+Style: Chinese titles/summaries; ISO8601 +08:00; no fabricated URLs.

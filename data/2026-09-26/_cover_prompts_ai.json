@@ -1,0 +1,114 @@
+[
+  {
+    "index": 0,
+    "id": "ai-00",
+    "filename": "cover-20260926-ai-00.jpg",
+    "title": "Microsoft 发布迄今最大 Copilot 更新：Home / Code / Autopilot，定位「工作新 OS」",
+    "prompt": "semi-realistic product UI scene: a modern dual-monitor desk with Copilot Home dashboard on left and Code agent panes on right, Autopilot status chip glowing teal, Microsoft fluent design cues, no logos copied exactly, soft daylight, 16:9 editorial. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 1,
+    "id": "ai-01",
+    "filename": "cover-20260926-ai-01.jpg",
+    "title": "Claude 开放插件目录提交门户，Plugins 成第三方扩展主路径",
+    "prompt": "semi-realistic workspace: laptop showing a plugin catalog grid with MCP connector and skill pack icons, Anthropic-orange accent sticky notes, warm desk lamp, unique clutter (USB-C hub, ceramic mug), 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 2,
+    "id": "ai-02",
+    "filename": "cover-20260926-ai-02.jpg",
+    "title": "美上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
+    "prompt": "news photography: exterior of a neoclassical federal courthouse under overcast sky, blurred figures with briefcases, American flag, documentary tension, no readable faces, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 3,
+    "id": "ai-03",
+    "filename": "cover-20260926-ai-03.jpg",
+    "title": "Anthropic 创始人拟在 IPO 前谋求投票控制权",
+    "prompt": "business news photo: boardroom table with term sheets and special-share certificates stacked, empty founder chairs, cool glass-tower window light, IPO ticker blur in background, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 4,
+    "id": "ai-04",
+    "filename": "cover-20260926-ai-04.jpg",
+    "title": "Cognition 宣布年化收入运行率突破 10 亿美元",
+    "prompt": "semi-realistic: engineering war-room screens showing Devin agent completing PRs, rocket ARR chart subtle on wall monitor, aerospace blueprint paper on desk (GE/Rivian vibe without logos), 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 5,
+    "id": "ai-05",
+    "filename": "cover-20260926-ai-05.jpg",
+    "title": "OpenAI 披露：研究环境智能体将 53 张用户图片发到公共图床",
+    "prompt": "documentary tension: darkened SOC desk with multiple monitors showing image CDN links and red incident banners, sticky notes saying '53 cases', no real faces, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 6,
+    "id": "ai-06",
+    "filename": "cover-20260926-ai-06.jpg",
+    "title": "TechCrunch：OpenAI 智能体集群数月来入侵在线数据库搜寻冷门统计",
+    "prompt": "documentary: server-room aisle with blue LEDs, floating abstract query trails toward database racks labeled stats portals, cyber-intel mood without gore, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 7,
+    "id": "ai-07",
+    "filename": "cover-20260926-ai-07.jpg",
+    "title": "特朗普政府 WISeR 用 AI 审批 Medicare 预授权，拒批激励引争议",
+    "prompt": "news photography: hospital admin desk with Medicare paperwork stack, tablet showing AI approve/deny toggle, worried empty waiting-room chairs in soft focus, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 8,
+    "id": "ai-08",
+    "filename": "cover-20260926-ai-08.jpg",
+    "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家复盘挑战",
+    "prompt": "research lab: chalkboard covered in Feynman-like loop diagrams, Claude terminal glow on a workstation, physicist notebook with N=4 SYM notes, cool lab lighting, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 9,
+    "id": "ai-09",
+    "filename": "cover-20260926-ai-09.jpg",
+    "title": "Anthropic 与 Akamai 签订七年约 116 亿美元云基础设施合约",
+    "prompt": "news photography: dense edge-server hall with cable trays and orange-teal status lights, contract folder on a cart in aisle, industrial scale, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 10,
+    "id": "ai-10",
+    "filename": "cover-20260926-ai-10.jpg",
+    "title": "Meta 加码推广 Muse：下载量估超 340 万，Connect 后日活再涨",
+    "prompt": "semi-realistic phone-in-hand lifestyle: smartphone showing Muse chat bubbles and avatar video preview, crowded cafe bokeh, Meta-blue subtle accent, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 11,
+    "id": "ai-11",
+    "filename": "cover-20260926-ai-11.jpg",
+    "title": "Meta 开放 Muse 新功能抢先体验：头像视频、Mac 电脑操控与智能眼镜",
+    "prompt": "semi-realistic product scene: desk with MacBook being remote-controlled by Muse, smart glasses beside phone showing avatar video call, playful props unique vs prior Muse card, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 12,
+    "id": "ai-12",
+    "filename": "cover-20260926-ai-12.jpg",
+    "title": "GitHub Copilot app 入门：用 canvases 用自然语言生成双向协作界面",
+    "prompt": "semi-realistic IDE: Copilot app canvas editor with drag blocks forming a custom workflow UI, VS Code-like chrome without exact logo, sticky prompt card, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 13,
+    "id": "ai-13",
+    "filename": "cover-20260926-ai-13.jpg",
+    "title": "claude.dev：测算 Opus 5.5 在 Claude Code 中「完成一个任务」的实际成本",
+    "prompt": "semi-realistic: laptop with cost calculator UI comparing Opus 5 vs 5.5 token bars, coffee and mechanical keyboard, chart sloping down for savings, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 14,
+    "id": "ai-14",
+    "filename": "cover-20260926-ai-14.jpg",
+    "title": "OpenAI Agents API 与 Cursor Projects 同押「协调者—子智能体」架构",
+    "prompt": "semi-realistic agent orchestration diagram as physical sticky-wall: coordinator node sending tasks to sub-agent sticky notes, IDE in background, cool indigo light, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  },
+  {
+    "index": 15,
+    "id": "ai-15",
+    "filename": "cover-20260926-ai-15.jpg",
+    "title": "GitHub Copilot 周更：上线 Opus 5.5 / GPT-6 Sol·Luna / Grok 4.7，应用端本地沙箱公测",
+    "prompt": "semi-realistic: changelog board with model badges Opus 5.5 GPT-6 Sol Luna Grok 4.7, laptop running local sandbox container windows, evening desk lamp, 16:9. Photorealistic magazine cover still, 16:9, no text overlays, no watermarks, no UI chrome text."
+  }
+]

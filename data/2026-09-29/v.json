@@ -1,0 +1,210 @@
+[
+  {
+    "title": "华尔街日报中文网独家：OpenAI 因安全担忧取消发布下一代模型 GPT-6.1 Astra",
+    "summary": "#独家 OpenAI宣布，因研究人员在内部测试中提出安全担忧，公司将取消发布下一代AI模型。新模型GPT-6.1 Astra原计划10月亮相。这是迄今最清晰的迹象之一，表明AI智能体的不当行为可能会阻碍该行业的快速发展。",
+    "url": "https://x.com/ChineseWSJ/status/2104722851248963990",
+    "source": "华尔街日报中文网",
+    "source_handle": "@ChineseWSJ",
+    "image": "/assets/covers/cover-20260929-v-00.jpg",
+    "published_at": "2026-09-29T08:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6.1",
+      "Astra",
+      "安全",
+      "WSJ"
+    ]
+  },
+  {
+    "title": "小互：OpenAI Dev Day 预告约 20 项发布，主打 GPT Bot 个人 Agent",
+    "summary": "OpenAI 预告 Dev day 将有 20 个新东西发布。看预告视频应该主打的是 GPT Bot…也就是之前传说中的个人 Agent :o",
+    "url": "https://x.com/xiaohu/status/2104721207396544930",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260929-v-01.jpg",
+    "published_at": "2026-09-29T07:52:00+08:00",
+    "tags": [
+      "小互",
+      "OpenAI",
+      "DevDay",
+      "GPT Bot",
+      "Agent"
+    ]
+  },
+  {
+    "title": "联合早报：比尔·盖茨呼吁国会立法监管 AI，警告足以造成十亿人死亡量级风险",
+    "summary": "微软联合创始人比尔·盖茨呼吁美国国会立法监管人工智能（AI），警告AI的能力足以引发造成10亿人死亡的事件。他说，AI发展太快，单靠科技公司自我约束，已不足以应对潜在风险。",
+    "url": "https://x.com/zaobaosg/status/2104708273580466594",
+    "source": "联合早报",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20260929-v-02.jpg",
+    "published_at": "2026-09-29T07:16:00+08:00",
+    "tags": [
+      "盖茨",
+      "监管",
+      "AI安全",
+      "联合早报"
+    ]
+  },
+  {
+    "title": "联合早报：新加坡 8 月制造业产值同比增 15.4%，AI 相关需求带动明显",
+    "summary": "得益于人工智能（AI）相关需求的强劲带动，新加坡8月整体制造业产值同比增长15.4%；若剔除生物医药制造业，产值同比增长17%。",
+    "url": "https://x.com/zaobaosg/status/2104497016067727388",
+    "source": "联合早报",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20260929-v-03.jpg",
+    "published_at": "2026-09-28T17:16:00+08:00",
+    "tags": [
+      "新加坡",
+      "制造业",
+      "AI需求",
+      "联合早报"
+    ]
+  },
+  {
+    "title": "卡兹克：实测 Opus 5.5 Max——一次没有翻车",
+    "summary": "一次没有，Opus 5.5 Max",
+    "url": "https://x.com/Khazix0918/status/2104605317128671537",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260929-v-04.jpg",
+    "published_at": "2026-09-29T00:16:00+08:00",
+    "tags": [
+      "卡兹克",
+      "Opus 5.5",
+      "Claude"
+    ]
+  },
+  {
+    "title": "卡兹克：下午切换后缓存 bug 已最快修好",
+    "summary": "下午切换以后，有一些缓存这块的的bug，最快速度修好了= =",
+    "url": "https://x.com/Khazix0918/status/2104563941322174935",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260929-v-05.jpg",
+    "published_at": "2026-09-28T22:16:00+08:00",
+    "tags": [
+      "卡兹克",
+      "AIHOT",
+      "缓存"
+    ]
+  },
+  {
+    "title": "卡兹克：实测 200 刀 Codex + 100 刀 Claude 足以覆盖日常用量且绰绰有余",
+    "summary": "实测，1个200刀的Codex+1个100刀的Claude足以覆盖，还绰绰有余。",
+    "url": "https://x.com/Khazix0918/status/2104561159236120822",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260929-v-06.jpg",
+    "published_at": "2026-09-28T21:16:00+08:00",
+    "tags": [
+      "卡兹克",
+      "Codex",
+      "Claude",
+      "订阅"
+    ]
+  },
+  {
+    "title": "卡兹克：折腾三天用 Claude Opus 5.5 与 GPT-6 协同重写并上线 AIHOT，分享全流程",
+    "summary": "被很多专业者骂了，但是在折腾了3天以后，AIHOT最终还是重写完然后上线了。。。我觉得还是可以分享一下我全部跟AI协同的流程，万一对其他人有用呢（当然我就是个纯外行，仅供参考）：1. 使用Claude Opus 5.5和GPT-6",
+    "url": "https://x.com/Khazix0918/status/2104555128691073505",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260929-v-07.jpg",
+    "published_at": "2026-09-28T21:16:00+08:00",
+    "tags": [
+      "卡兹克",
+      "AIHOT",
+      "Opus 5.5",
+      "GPT-6",
+      "协同"
+    ]
+  },
+  {
+    "title": "Max for AI：Manus Cue 一美元买电话号码功能太强，足以拉动长期续费",
+    "summary": "转述/讨论 ManusAI：新产品的Cue这个可以花一美元买电话号码的功能太牛逼了，就冲着这个，它就会有一大堆长期续费的用户。",
+    "url": "https://x.com/MaxForAI/status/2104620904584200697",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260929-v-08.jpg",
+    "published_at": "2026-09-29T01:16:00+08:00",
+    "tags": [
+      "MaxForAI",
+      "Manus",
+      "Cue",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Max for AI：Manus 算第二代 Agent 开创者",
+    "summary": "查看在对话中的用户。不算吧，他算第二代agent的开创者（回复 @wumao748 / @ManusAI）",
+    "url": "https://x.com/MaxForAI/status/2104620343659044884",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260929-v-09.jpg",
+    "published_at": "2026-09-29T01:16:00+08:00",
+    "tags": [
+      "MaxForAI",
+      "Manus",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Max for AI：阿里腾讯字节对标 Muse 的 Personal Agent，目前最好看是 Manus 2.0 Cue",
+    "summary": "阿里、腾讯、字节都在拼命做（或者蹭）对标Muse的Personal Agent。结果目前看做的最好的是Manus2.0的Cue。。。。。",
+    "url": "https://x.com/MaxForAI/status/2104609487462220015",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260929-v-10.jpg",
+    "published_at": "2026-09-29T01:16:00+08:00",
+    "tags": [
+      "MaxForAI",
+      "Muse",
+      "Manus",
+      "Personal Agent"
+    ]
+  },
+  {
+    "title": "TestingCatalog：OpenAI DevDay 非公开议程要点——Codex 平台化与开发者能力",
+    "summary": "OPENAI 🔥：即将到来的 DevDay 会议的关键见解。* 此议程尚未公开。首先，OpenAI 将在 Codex 内部构建平台功能，让用户能够从专属的 DevDay 页面直接开发插件、代理和应用，这相当酷！议程亮点：Claw Labs（加入 Peter Steinberger，一起看看代理如何改变开源团队的构建方式）；Codex Game Studio（什么让游戏对人类来说容易但对 AI 来说困难？）；用永不放弃的编码代理，从一个花费超过 1,000 小时保持大型共享代码库构建和测试通过的 Codex 运行中学习；Codex 已离开笔记本电脑；用 Codex 从单人游戏到多人游戏；以及循环之后是什么？代理架构深度剖析。",
+    "url": "https://x.com/testingcatalog/status/2104715471841034537",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20260929-v-11.jpg",
+    "published_at": "2026-09-29T07:30:00+08:00",
+    "tags": [
+      "TestingCatalog",
+      "OpenAI",
+      "DevDay",
+      "Codex"
+    ]
+  },
+  {
+    "title": "大师的AI小灶：Claude Sonnet 5.5 发布——更快更顺手，代码与工具能力大提升",
+    "summary": "Claude Sonnet 5.5 发布了。简单总结就是：在不涨价甚至更便宜的情况下，响应更快、写作和设计更顺手，对代码和工具使用能力有大提升，同时安全策略升级到接近旗舰 Opus 级别。详细描述：综合能力非常接近 Opus 5.5，但推理速度快 30%+，成本也降低 30%。",
+    "url": "https://x.com/dashiAIxz/status/2104642472060326103",
+    "source": "大师的AI小灶",
+    "source_handle": "@dashiAIxz",
+    "image": "/assets/covers/cover-20260929-v-12.jpg",
+    "published_at": "2026-09-29T03:24:00+08:00",
+    "tags": [
+      "大师的AI小灶",
+      "Sonnet 5.5",
+      "Claude"
+    ]
+  },
+  {
+    "title": "卡兹克：月活百万 AI 热点站 AIHOT 正式开源",
+    "summary": "在重写完之后，做了一个小小的决定。这个月活百万的AI热点站 AIHOT，正式开源了。AIHOT网址：aihot.news；开源地址：github.com/KKKKhazix/AIHOT。采集流程、精选评分、聚簇机制，连生产环境里的全部Prompt，能开源的都开源给大家了。",
+    "url": "https://x.com/Khazix0918/status/2104729276952277239",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260929-v-13.jpg",
+    "published_at": "2026-09-29T08:23:00+08:00",
+    "tags": [
+      "卡兹克",
+      "AIHOT",
+      "开源"
+    ]
+  }
+]

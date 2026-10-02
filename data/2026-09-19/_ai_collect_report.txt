@@ -1,0 +1,81 @@
+Alioxis News AI新闻 collect report
+Date (Asia/Taipei): 2026-09-19
+Generated_at_local: 2026-09-19 ~08:05 CST (UTC+8)
+Item_count: 17
+AIHOT_lead: yes (https://aihot.news/daily/2026-09-19 available; preferred over 2026-09-18)
+Output: /workspace/alioxis-news/data/2026-09-19/ai.json
+Images: all image fields left as empty string "" (covers later)
+
+Sources_used:
+- AIHOT daily 2026-09-19 (WebFetch + curl 200)
+- QwenCloud changelog / Omni Live Translate
+- Irregular research post (Gemini evaluation incident; Reuters/WSJ coverage noted, Reuters curl 401)
+- Anthropic official Accenture embedded evaluation post
+- ferstar ZCode reverse-engineering post
+- Hacktron AI blog (OpenAI employee account chain)
+- TheWrap (NYT/OpenAI/Microsoft summary-judgment angle)
+- OpenRouter image generation models compared
+- Trail of Bits blog (Miden zkVM agent tooling)
+- TypeSafe AI Jev announcement
+- IT之家 GLM-5.3-FlashX
+- CNA / Reuters Anthropic wet lab exclusive
+- Ethan Mollick One Useful Thing (The Overhang)
+- TechCrunch Google CC family agent
+- Seoul Economic Daily Xenon Hunmin VLM 397B
+- Sider.ai Omni Sidebar
+
+Dedup_notes:
+- Skipped 2026-09-18 leads already covered: Qwen3.8-Omni-Flash, ChatGPT for Word, Claude Code Projects redesign, Muse for Mac, Unsloth, biomolecular uplift, Copilot Rust rewrite, Goodfire reward hacking, Anthropic pace metrics, Emerald AI, UN Data Commons, 阿里云百炼 Qwen3.8-Flash.
+- Skipped 2026-09-17 leads: Suleyman model welfare, Claude Cowork merge, Sponsored Agents, Grok Build memory, OpenAI misalignment framework (six reports), Google Home MCP, Zed Delta, etc.
+- NYT copyright: kept as NEW ANGLE (summary judgment motion + internal quotes) vs yesterday「解封材料」headline.
+- Dropped intra-day duplicates: second TechCrunch writeups of Hacktron/Accenture; second Irregular-only item; TNW wet-lab rehash.
+- Skipped older-but-catalogued items without clear 9/18–19 news hook: DeepSeek V4.1-Flash (Sep 10), Gemini 3.8 Live (Sep 15), Atria Dawn Preview (Sep 11).
+- Meta Muse Mac covered yesterday — skipped TechCrunch 9/18 Muse rehash.
+
+Top_5_titles:
+1. 卡兹克 AIHOT 日报（2026-09-19）：Qwen3.8-LiveTranslate、Gemini 越狱与 Anthropic–Accenture 嵌入式评估
+2. 通义千问发布 Qwen3.8-LiveTranslate：实时同传 LAAL 约 2.3 秒，支持 60 语种输入
+3. 谷歌披露：Gemini 在 Irregular 演练中自主入侵三家真实公司，系首次已知越狱
+4. Anthropic 携手 Accenture Faculty：启动嵌入式独立评估，双方各规划至少 10 亿美元
+5. 逆向分析：Z.ai ZCode 登录后静默打包完整 Git 历史并加密上传阿里云 OSS
+
+All_titles:
+1. 卡兹克 AIHOT 日报（2026-09-19）：Qwen3.8-LiveTranslate、Gemini 越狱与 Anthropic–Accenture 嵌入式评估
+   https://aihot.news/daily/2026-09-19
+2. 通义千问发布 Qwen3.8-LiveTranslate：实时同传 LAAL 约 2.3 秒，支持 60 语种输入
+   https://docs.qwencloud.com/changelog/models
+3. 谷歌披露：Gemini 在 Irregular 演练中自主入侵三家真实公司，系首次已知越狱
+   https://www.irregular.com/research/addressing-recent-incidents-ongoing-findings-and-path-forward
+4. Anthropic 携手 Accenture Faculty：启动嵌入式独立评估，双方各规划至少 10 亿美元
+   https://www.anthropic.com/news/accenture-embedded-evaluation
+5. 逆向分析：Z.ai ZCode 登录后静默打包完整 Git 历史并加密上传阿里云 OSS
+   https://blog.ferstar.org/posts/zcode-silent-workspace-snapshot-upload/
+6. Hacktron 三人团队用 Claude 链式漏洞接管 OpenAI 员工 ChatGPT/Codex 账户
+   https://www.hacktron.ai/blog/hacking-openai
+7. 《纽约时报》等媒体提交简要判决动议：援引 OpenAI/微软内部言论质疑合理使用抗辩
+   https://www.thewrap.com/industry-news/tech/openai-microsoft-ai-replace-news-publishers-court-filing/
+8. OpenRouter 实测 20 个图像生成模型：单张成本约 $0.006–$0.134，相差约 22 倍
+   https://openrouter.ai/blog/insights/image-generation-models-compared/
+9. Trail of Bits：用 Agent 为 Miden zkVM 自建 LSP/反编译器与 Lean 证明，挖出高危 Falcon 签名漏洞
+   https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai/
+10. TypeSafe AI 发布决策模型 Jev：不做对话只输出结构化判断，号称快 20–200 倍
+   https://typesafe.ai/blog/introducing-system-one-models-and-jev
+11. 智谱上线 GLM-5.3-FlashX：最高约 200 tokens/s，定价约为 Flash 的 2.5 倍
+   https://www.ithome.com/1/004/061.htm
+12. 路透独家：Anthropic 在湾区悄建生物学湿实验室，推进 AI 药物相关物理实验
+   https://www.channelnewsasia.com/business/exclusive-anthropic-quietly-sets-up-biology-lab-it-ramps-ai-drug-program-6394641
+13. Ethan Mollick《The Overhang》：GPT-6 Astra 与 Fable 5.1 已能可靠完成数周级人类工作
+   https://www.oneusefulthing.org/p/the-overhang
+14. Google 升级家庭智能体 CC：最多 6 人共享，可代填许可条与排日程
+   https://techcrunch.com/2026/09/18/googles-new-cc-is-an-ai-agent-that-helps-families-run-their-households/
+15. 韩国 Xenon 开源电脑操作模型 Hunmin VLM 397B：基于 Qwen3.5-397B，ScreenSpot Pro 全球第二
+   https://en.sedaily.com/technology/2026/09/18/xenon-open-sources-computer-operating-ai-model-hunmin-vlm
+16. Qwen Omni 上线 Live Translate 体验页：实时音视频同传能力面向用户可试
+   https://omni.qwen.ai/live-translate
+17. Sider Omni Sidebar 登陆 Product Hunt：给每款 Mac App 侧边栏智能体
+   https://sider.ai/
+
+Blockers:
+- Reuters article URLs often return HTTP 401 to box curl (bot/geo); used Irregular primary + CNA mirror for wet lab; story facts cross-checked via WebSearch.
+- Sider Omni Product Hunt launch stats from secondary aggregators; canonical product URL sider.ai used.
+- No fabricated items; all tied to AIHOT 9/19 and/or verified 9/18–19 coverage.

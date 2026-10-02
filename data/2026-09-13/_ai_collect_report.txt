@@ -1,0 +1,7 @@
+Alioxis News AI collect report — 2026-09-13 (Asia/Taipei)
+Item count: 18
+AIHOT included: YES — https://aihot.news/daily/2026-09-13
+All image fields: empty string "" (covers pending GenerateImage)
+Sources: AIHOT daily, ABC/TechCrunch/Guardian/Verge/Newsweek/Atlantic/IndiaToday on Amodei pacing, Suno v6 (official+Verge+TechCrunch+Axios), Minitap vs Google Artemis, DeepSeek V4.1 Flash (NeoTeo), Cursor Projects, Gemini 3.8 Flash, RubyHack agents
+X API credits: $0.00 — skipped billed X calls for AI tab
+Blockers: none for AI tab

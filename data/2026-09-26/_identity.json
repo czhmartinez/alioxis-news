@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "accountText": "zihan chen\n@zihanch71347739",
+    "aria": "账号菜单",
+    "url": "https://x.com/home"
+  },
+  "tabState": [
+    {
+      "text": "为你推荐",
+      "selected": "false"
+    },
+    {
+      "text": "正在关注",
+      "selected": "true"
+    },
+    {
+      "text": "AI",
+      "selected": "false"
+    },
+    {
+      "text": "机器人",
+      "selected": "false"
+    },
+    {
+      "text": "软件",
+      "selected": "false"
+    },
+    {
+      "text": "太空",
+      "selected": "false"
+    },
+    {
+      "text": "生物技术",
+      "selected": "false"
+    },
+    {
+      "text": "科技",
+      "selected": "false"
+    },
+    {
+      "text": "科学",
+      "selected": "false"
+    },
+    {
+      "text": "商业",
+      "selected": "false"
+    },
+    {
+      "text": "股票",
+      "selected": "false"
+    },
+    {
+      "text": "政治",
+      "selected": "false"
+    }
+  ],
+  "clicked": {
+    "clicked": true,
+    "text": "正在关注",
+    "aria": "true"
+  }
+}

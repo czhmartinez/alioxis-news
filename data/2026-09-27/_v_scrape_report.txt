@@ -1,0 +1,13 @@
+Alioxis News 大V视野 scrape report — 2026-09-27 (Asia/Taipei)
+================================================================
+item_count: 11
+output: /workspace/alioxis-news/data/2026-09-27/v.json
+login: confirmed (zihan chen / @zihanch71347739)
+Following tab: confirmed (正在关注)
+method: box Chrome computerUse on x.com/home Following; priority accounts all appeared in feed (no search fallback)
+X API: unused (credits $0)
+
+by_handle: {'@Khazix0918': 1, '@xiaohu': 1, '@MaxForAI': 2, '@testingcatalog': 1, '@0kncn': 2, '@ChineseWSJ': 1, '@Cora__xlm': 1, '@Fukugyo_clinic': 1, '@higgsfield': 1}
+raw_scrape: 12 URLs in _v_raw_scrape.json; kept 11 (dropped nanyuan0412 informal Claude subscription joke)
+
+covers: image fields left empty for GenerateImage

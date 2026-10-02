@@ -1,0 +1,96 @@
+Alioxis News AI新闻 collect report
+Date (Asia/Taipei): 2026-09-21
+item_count: 17
+AIHOT_lead: yes
+AIHOT_url: https://aihot.news/daily/2026-09-21
+
+sources_used:
+- AIHOT daily 2026-09-21 (aihot.news + aihot.virxact.com API)
+- Hugging Face / Qwen (Qwen-Image-2.1)
+- ComfyUI Blog
+- IT之家 / 阶跃星辰 Step 5 Preview
+- Runtime Wire / Artificial Analysis (Step 5 pricing)
+- buchodi.com (__obi cookie investigation)
+- AP via OPB (antitrust slowdown lawsuit)
+- Reuters (Anthropic new model ahead of IPO)
+- OpenAI blog (Data agent; advertising / Sponsored Agents)
+- Anthropic (LSVP)
+- TechCrunch (Hang Ten)
+- The Next Web / FT / Bloomberg (Emulate)
+- DeepSeek official news (V4.1-Flash)
+- CNA / Financial Times (OpenAI cash burn)
+- CNBC / Reuters (Bessent–He AI talks)
+- Tessl (agent evaluation skills)
+
+dedup_notes:
+SKIPPED (already in 2026-09-20 digest or explicit skip list):
+- Anthropic IPO delay ~$2T / November
+- Anthropic Chinese lab Claude distillation
+- Reuters Astra/resignations ten days
+- OpenAI–Anthropic–Google safety talks (coordination confirmation)
+- Trump AI Force / rename poll
+- US military AI hallucination near-op
+- Manus $500M / $4B
+- OpenAI $1.5T funding talks (cash-burn FT piece kept as distinct financial story)
+- Crusoe $3.9B Series F
+- DeepMind Institute
+- PrismML Bonsai 2
+- World model companies secrecy (Emulate funding kept as distinct fundraising story)
+- Vantora / UP.Labs $100M
+- Petlibro Granary 2
+- Muse calendar commute tip
+- FAA SMART ATC
+
+SKIPPED (already in 2026-09-19 digest):
+- Qwen3.8-LiveTranslate / Gemini Irregular jailbreak / Anthropic–Accenture
+- Anthropic Bay Area wet lab (separate from today's LSVP)
+- Hacktron Claude→OpenAI employee accounts
+- ZCode silent Git upload, TypeSafe Jev, NYT fair-use motion, OpenRouter image costs, etc.
+- MediaPost/HackerNews Gemini confirmation rehashes of 9/19 Irregular story
+
+INCLUDED distinct angles:
+- Antitrust class action on slowdown agreement (new filing Fri 9/19 PT) ≠ prior CNBC safety-talks confirmation
+- Anthropic considering NEW model release (Reuters exclusive) ≠ IPO delay story
+- OpenAI FT cash-burn projection ≠ $1.5T funding talks item
+
+titles_and_urls:
+1. 卡兹克 AIHOT 日报（2026-09-21）：Qwen-Image-2.1 开源、阶跃 Step 5 Preview 与 ChatGPT __obi 追踪
+   https://aihot.news/daily/2026-09-21
+2. 阿里 Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑，原生 RGBA 透明图
+   https://huggingface.co/Qwen/Qwen-Image-2.1
+3. 阶跃星辰发布 Step 5 Preview：600B MoE、AA 开源前三，10 月 15 日开源
+   https://www.ithome.com/1/004/705.htm
+4. Qwen-Image-2.1 原生登陆 ComfyUI：单 checkpoint 生成+编辑，支持 alpha
+   https://blog.comfy.org/p/qwen-image-21-in-comfyui-open-weight
+5. 独立调查：ChatGPT __obi 跨站 Cookie 可将站外浏览关联到账号
+   https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector/
+6. 用户集体诉讼：称 Anthropic/OpenAI/SpaceXAI/Google「放缓 AI」构成非法协同
+   https://www.opb.org/article/2026/09/20/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown/
+7. 路透独家：Anthropic 考虑在 IPO 前发布新模型，应对 Astra 企业份额压力
+   https://www.reuters.com/business/anthropic-considers-releasing-new-ai-model-ahead-ipo-sources-say-2026-09-19/
+8. OpenAI 推出 ChatGPT Work「Data agent」：自然语言连库出仪表盘
+   https://openai.com/index/put-data-to-work/
+9. OpenAI 升级 ChatGPT 广告：测试 Sponsored Agents 与 Ads Manager AI 工具
+   https://openai.com/index/reimagining-advertising-with-ai/
+10. Anthropic 推出生命科学验证计划 LSVP：放宽生物类工作护栏
+   https://www.anthropic.com/news/life-sciences-verification-program
+11. 前 Infosys CEO 创办 Hang Ten 再获 5300 万美元种子轮，累计约 8500 万
+   https://techcrunch.com/2026/09/16/former-infosys-chiefs-ai-startup-adds-50m-to-seed-weeks-after-initial-raise/
+12. DeepMind 前世界模型团队创业 Emulate：洽谈最高约 7 亿美元种子轮
+   https://thenextweb.com/news/emulate-deepmind-world-models-700m-seed
+13. DeepSeek 发布 V4.1-Flash：552B MoE 多模态，KV Cache 大幅压缩
+   https://www.deepseek.com/en/news/deepseek-v4-1-flash/
+14. FT：OpenAI 内部预测 2026–2030 累计自由现金流约 -2780 亿美元
+   https://www.channelnewsasia.com/business/openai-forecasts-cash-burn-near-280-billion-2030-ft-reports-6396066
+15. 美财长 Bessent 与何立峰会谈：拟谈 AI「护栏」、开源/闭源与关键矿产
+   https://www.cnbc.com/2026/09/20/bessent-chinas-he-to-hold-talks-on-ai-trade-minerals-reuters.html
+16. 用法技巧：用「证据闭环」评估 AI 编程智能体——35 万行 Rust 复刻 S3 的启示
+   https://tessl.io/blog/ai-agent-evaluation-starts-with-evidence
+17. Step 5 Preview API 定价约 $1/$2.70：以低成本冲击 Agent 工作负载
+   https://runtimewire.com/article/stepfun-step-5-preview-600b-agent-model-pricing
+
+blockers:
+- None blocking collection. Qwen official blog page (qwen.ai/blog?id=qwen-image-2.1) is CSR-heavy and returned little text via WebFetch; used Hugging Face model card + The Decoder + AIHOT/ComfyUI instead.
+- OpenAI blog pages returned 403 to WebFetch provider; content retrieved successfully via curl.
+- X MCP not used (credits $0 per brief).
+- GenerateImage / covers left empty (image: "") as required.

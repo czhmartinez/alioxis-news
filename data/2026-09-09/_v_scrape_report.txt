@@ -1,0 +1,18 @@
+X Following timeline scrape report — 2026-09-09 (Asia/Taipei)
+
+Logged in: yes (home timeline rendered with account navigation and profile access)
+Following tab confirmed: yes — “正在关注” selected on https://x.com/home
+Timeline scroll count: 2 downward scrolls on the Following timeline
+Fallback profile visits: @xiaohu, @MaxForAI, @Khazix0918 (preferred accounts; used because the Following feed had few preferred-account AI posts)
+Posts captured: 14 unique status entries
+
+Handle breakdown:
+- @xiaohu: 5
+- @MaxForAI: 5
+- @Khazix0918: 4
+
+Notes:
+- Only text visibly rendered in X was used; truncated posts were kept to the visible portion or expanded where easy.
+- The Following feed itself showed limited preferred-account content, including @xiaohu items; preferred profiles were opened as the requested fallback.
+- Relative times are preserved as seen on X (for example, “16分钟 前”, “8小时 前”).
+- Status IDs were verified from the profile snapshots after initial extraction; text remains limited to what was visibly rendered.

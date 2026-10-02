@@ -1,0 +1,128 @@
+[
+  {
+    "idx": 0,
+    "filename": "v-00.png",
+    "jpg": "cover-20260923-v-00.jpg",
+    "title": "Tesla车内Grok开始执行车外任务",
+    "prompt": "Cinematic car cabin at night: Tesla-like steering wheel and center screen with a subtle Grok-ish abstract companion glow, city lights through windshield, no logos or readable maps, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 1,
+    "filename": "v-01.png",
+    "jpg": "cover-20260923-v-01.jpg",
+    "title": "Tesla车内Grok导航演示",
+    "prompt": "Dashboard POV navigation: glowing route line on a blurred in-car display, hands off wheel suggestion, dusk highway, no brand marks, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 2,
+    "filename": "v-02.png",
+    "jpg": "cover-20260923-v-02.jpg",
+    "title": "X推出X Numbers手机号式联系功能",
+    "prompt": "Editorial photo of a modern smartphone lock screen showing an abstract phone-number contact chip morphing into a social network node, dark X-like aesthetic without the X logo, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 3,
+    "filename": "v-03.png",
+    "jpg": "cover-20260923-v-03.jpg",
+    "title": "X Numbers消息可直达主收件箱",
+    "prompt": "Semi-realistic messaging UI mock without readable text: a highlighted primary inbox thread with a numeric badge motif as abstract shapes, soft purple-black palette, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 4,
+    "filename": "v-04.png",
+    "jpg": "cover-20260923-v-04.jpg",
+    "title": "小互评论AI竞赛中的刹车与加速",
+    "prompt": "Conceptual race track with two AI robot racers—one braking hard with sparks, one accelerating—stadium lights, dynamic motion blur, no logos, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 5,
+    "filename": "v-05.png",
+    "jpg": "cover-20260923-v-05.jpg",
+    "title": "gpumaxxer将Genjutsu等模型接入Higgsfield API",
+    "prompt": "Creative studio: multiple GPU towers feeding a holographic video frame of surreal genjutsu-like illusion art, magenta and cyan, no logos, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 6,
+    "filename": "v-06.png",
+    "jpg": "cover-20260923-v-06.jpg",
+    "title": "Claude Code放置收益化手册限时免费",
+    "prompt": "Semi-realistic desk flat-lay: open notebook titled only by blank ruled lines, coffee, mechanical keyboard, soft morning light, indie-hacker vibe, no readable text, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 7,
+    "filename": "v-07.png",
+    "jpg": "cover-20260923-v-07.jpg",
+    "title": "Max For AI称GPT-6 Sol与Luna是重置卡",
+    "prompt": "Editorial still life: a glowing collectible trading card of abstract solar/lunar motifs hovering over a keyboard, reset energy particles, no logos, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 8,
+    "filename": "v-08.png",
+    "jpg": "cover-20260923-v-08.jpg",
+    "title": "GPT-6 Luna价格低于DeepSeek闲时价",
+    "prompt": "Finance metaphor photo: a pale moon coin outweighing a heavier dark coin on a tiny brass scale, cool moonlight, clean backdrop, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 9,
+    "filename": "v-09.png",
+    "jpg": "cover-20260923-v-09.jpg",
+    "title": "GPT-6 Sol与Claude Opus 5.5对比",
+    "prompt": "Split portrait composition: left warm solar gold AI figure silhouette, right deep indigo anthropic-like figure silhouette facing off across a glowing line, no logos, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 10,
+    "filename": "v-10.png",
+    "jpg": "cover-20260923-v-10.jpg",
+    "title": "多模型生成精灵峡谷追逐视频",
+    "prompt": "Fantasy cinematic still: elf-like riders chasing through a luminous canyon, motion streaks as if AI video generated, vivid color grade, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 11,
+    "filename": "v-11.png",
+    "jpg": "cover-20260923-v-11.jpg",
+    "title": "Okan Can公开AI视频生成目标与分镜",
+    "prompt": "Director's storyboard corkboard with blank sketched panels and sticky color chips, camera lens in foreground, creative office, no readable writing, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 12,
+    "filename": "v-12.png",
+    "jpg": "cover-20260923-v-12.jpg",
+    "title": "Max For AI解读GPT-6 Sol与Luna正式发布",
+    "prompt": "Keynote-stage empty podium with twin solar and lunar spotlights cutting fog, tech launch atmosphere, no logos or slides text, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 13,
+    "filename": "v-13.png",
+    "jpg": "cover-20260923-v-13.jpg",
+    "title": "Max For AI晒出GPT-6 Sol上线",
+    "prompt": "Close-up of a status LED turning green on a dark server blade labeled only by light patterns, shallow DOF, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 14,
+    "filename": "v-14.png",
+    "jpg": "cover-20260923-v-14.jpg",
+    "title": "Max For AI测试Opus 5.5识别鹈鹕捕鱼",
+    "prompt": "Wildlife documentary photo: a pelican diving for fish in sparkling water, ultra sharp, nature magazine cover energy, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 15,
+    "filename": "v-15.png",
+    "jpg": "cover-20260923-v-15.jpg",
+    "title": "Max For AI回顾近百次模型测试",
+    "prompt": "Lab wall covered with dozens of small unlabeled model comparison polaroids in a grid, researcher silhouette, warm tungsten, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 16,
+    "filename": "v-16.png",
+    "jpg": "cover-20260923-v-16.jpg",
+    "title": "GPT-6 Sol与Luna上线Codex",
+    "prompt": "Semi-realistic coding terminal scene with two accent cursors (gold and silver) collaborating on blurred code, Codex-like agent vibe without logos, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  },
+  {
+    "idx": 17,
+    "filename": "v-17.png",
+    "jpg": "cover-20260923-v-17.jpg",
+    "title": "阿里云成为Omacom基金会创始企业赞助商",
+    "prompt": "Corporate event photography: modern conference stage with abstract cloud motif backdrop in Alibaba-orange hints without logos, empty podium, 16:9. Magazine cover illustration quality, NO overlaid titles, NO watermark, NO brand logos, NO readable text."
+  }
+]

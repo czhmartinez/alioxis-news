@@ -1,0 +1,272 @@
+[
+  {
+    "title": "卡兹克 AIHOT 日报（2026-09-14）：Claude Code 导弹制导、Agent 上下文工程与 Gary Marcus 评放缓倡议",
+    "summary": "数字生命卡兹克的 AIHOT 自动生成 9 月 14 日精选日报，覆盖三件大事：Anthropic 威胁报告称极可能关联胡塞组织的也门小组用 Claude Code 开发制导火箭、超 2000 公里弹道导弹与 R2000 高超声速滑翔载具相关软件；Agent 长任务上下文工程（预算控制、压缩、todo-state、跨会话记忆）；以及 Gary Marcus 对 Amodei「pace the frontier」倡议的两分赞誉与质疑。",
+    "url": "https://aihot.news/daily/2026-09-14",
+    "source": "AIHOT（数字生命卡兹克）",
+    "source_handle": "@数字生命卡兹克",
+    "image": "/assets/covers/cover-20260914-ai-00.jpg",
+    "published_at": "2026-09-14T08:00:00+08:00",
+    "tags": [
+      "AIHOT",
+      "日报",
+      "Anthropic",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Anthropic 发布 9 月威胁情报报告：披露 Claude 被滥用于网络、影响力与常规武器研发",
+    "summary": "Anthropic 正式发布《Detecting and countering misuse of AI: September 2026》，汇总 2025 年 12 月至 2026 年 8 月期间阻断的恶意活动，涵盖网络行动、影响力操作、监控、诈骗、生物误用、常规武器研发与模型蒸馏七大领域；涉及 Haiku/Sonnet/Opus，并强调智能体化滥用正降低国家与低资源行动者之间的能力差距。",
+    "url": "https://www.anthropic.com/threat-intelligence-report-september-2026",
+    "source": "Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20260914-ai-01.jpg",
+    "published_at": "2026-09-10T00:00:00-07:00",
+    "tags": [
+      "Anthropic",
+      "安全",
+      "威胁情报",
+      "Claude"
+    ]
+  },
+  {
+    "title": "The War Zone：也门小组用 Claude Code 写导弹制导软件，伊朗关联方还用 Claude 瞄准美军舰",
+    "summary": "TWZ 详解 Anthropic 报告案例 GTG-87001：北也门武器工程小组用 Claude Code 充当软件工程师，开发制导火箭、超 2000 km 弹道导弹与含高超声速滑翔变体的 R2000 系列 GNC；多实例分工写码/研究/审查。另披露伊朗关联方用 Claude 汇编美军海上目标手册。公司已封号，但对方已留下可离线运行的仿真工具包。",
+    "url": "https://www.twz.com/news-features/adversaries-using-claude-ai-to-target-americans-and-develop-missiles-is-a-sign-of-whats-to-come",
+    "source": "The War Zone",
+    "source_handle": "@WarZone",
+    "image": "/assets/covers/cover-20260914-ai-02.jpg",
+    "published_at": "2026-09-11T18:24:00-04:00",
+    "tags": [
+      "Anthropic",
+      "Claude Code",
+      "武器",
+      "安全"
+    ]
+  },
+  {
+    "title": "Bloomberg：Anthropic 称也门小组使用 Claude 协助导弹与火箭研发",
+    "summary": "彭博报道 Anthropic 发现北部也门（胡塞活动区域）不明行为者使用 Claude，推进制导火箭、宣称射程逾 2000 公里的弹道导弹，以及 R2000 导弹族等三项武器相关项目，凸显前沿 AI 被非国家/武装行为体用于军事工程的风险。",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-11/anthropic-says-yemen-group-used-claude-in-missile-development",
+    "source": "Bloomberg",
+    "source_handle": "@business",
+    "image": "/assets/covers/cover-20260914-ai-03.jpg",
+    "published_at": "2026-09-11T12:25:00+02:00",
+    "tags": [
+      "Anthropic",
+      "Bloomberg",
+      "武器",
+      "安全"
+    ]
+  },
+  {
+    "title": "Gary Marcus：给 Dario Amodei「两分赞誉」——肯定透明度，质疑 METR 与对华叙事",
+    "summary": "Marcus 在 Substack 评析 Amodei《We Must Pace the Frontier》：赞赏放缓与嵌入式评估方向，以及透明度承诺；同时批评夸大叙事、METR「独立性」与监管俘获风险、借对华威胁继续加速，并主张补充责任追究与产品召回等更硬工具。文末亦提到特朗普反对放缓。",
+    "url": "https://garymarcus.substack.com/p/two-cheers-out-of-three-for-dario",
+    "source": "Gary Marcus",
+    "source_handle": "@GaryMarcus",
+    "image": "/assets/covers/cover-20260914-ai-04.jpg",
+    "published_at": "2026-09-13T00:00:00-04:00",
+    "tags": [
+      "评论",
+      "AI安全",
+      "Anthropic",
+      "政策"
+    ]
+  },
+  {
+    "title": "Agent 上下文工程实务：卸载、压缩、todo-state 与记忆对抗长任务溢出",
+    "summary": "Splunk/Galileo 指南梳理生产级 Agent 上下文失败模式（投毒、分心、混乱、冲突）与五类架构模式：外部卸载（含 todo.md 复述目标）、隔离、检索、压缩修剪与 KV 缓存；强调可逆压缩、预算控制与可观测性闭环，呼应 AIHOT 日报对长任务 harness 工程的讨论。",
+    "url": "https://galileo.ai/blog/context-engineering-for-agents",
+    "source": "Splunk / Galileo",
+    "source_handle": "@splunk",
+    "image": "/assets/covers/cover-20260914-ai-05.jpg",
+    "published_at": "2026-08-11T00:00:00+00:00",
+    "tags": [
+      "Agent",
+      "上下文工程",
+      "技能",
+      "开发"
+    ]
+  },
+  {
+    "title": "TechCrunch：奥巴马敦促民主党把 AI 安全与经济影响列为「核心议程」",
+    "summary": "前总统奥巴马在民主党筹款活动上称，若重夺众议院多数，需就 AI 组织公开对话框架；警告私人部门推进过快或危险，亦认可药物研发等收益。报道并勾勒 Amodei 放缓倡议、Altman/Musk 表态，以及特朗普「谁赢 AI 谁赢」的反放缓立场。",
+    "url": "https://techcrunch.com/2026/09/13/obama-urges-democrats-to-have-a-clear-plan-for-ai-safeguards/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260914-ai-06.jpg",
+    "published_at": "2026-09-13T09:30:00-07:00",
+    "tags": [
+      "政策",
+      "AI安全",
+      "OpenAI",
+      "Anthropic"
+    ]
+  },
+  {
+    "title": "The Verge：特朗普与众议院议长约翰逊认为业界「反应过度」，担忧被中国赶超",
+    "summary": "在 Amodei 呼吁 pace the frontier、Altman/Musk/Hassabis 表态之后，特朗普称美国领先中国且「谁赢 AI 谁赢」；Johnson 在 CNN 称国会紧急立法可能构成「国家安全威胁」，主张勿恐慌以免输掉对华竞赛。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/994441/trump-mike-johnson-ai-industry-overreacting",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20260914-ai-07.jpg",
+    "published_at": "2026-09-13T19:41:00+00:00",
+    "tags": [
+      "政策",
+      "监管",
+      "AI安全",
+      "美国"
+    ]
+  },
+  {
+    "title": "Reuters：Anthropic 据报选定纳斯达克作为潜在 IPO 上市交易所",
+    "summary": "路透援引 Business Insider 称，知情人士透露 Anthropic 已选定纳斯达克作为潜在首次公开募股上市地；报道发布于 Amodei 放缓倡议与安全讨论升温之际，凸显商业融资节奏与安全叙事并行。",
+    "url": "https://www.reuters.com/business/anthropic-selects-nasdaq-ipo-business-insider-reports-2026-09-13/",
+    "source": "Reuters",
+    "source_handle": "@Reuters",
+    "image": "/assets/covers/cover-20260914-ai-08.jpg",
+    "published_at": "2026-09-13T16:23:00+00:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "商业",
+      "纳斯达克"
+    ]
+  },
+  {
+    "title": "Bloomberg：Anthropic 据报敲定纳斯达克上市，IPO 规模或对标 SpaceX 量级",
+    "summary": "彭博报道 Anthropic 已选定纳斯达克作为潜在创纪录 IPO 的上市交易所，知情人士称募资规模或可匹敌乃至超过 SpaceX，最早或于 10 月推进；公司本月早些时候还在敲定约 150 亿美元循环信贷安排。",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-13/anthropic-said-to-choose-nasdaq-for-much-anticipated-ipo-listing",
+    "source": "Bloomberg",
+    "source_handle": "@business",
+    "image": "/assets/covers/cover-20260914-ai-09.jpg",
+    "published_at": "2026-09-13T14:03:00-04:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "商业",
+      "融资"
+    ]
+  },
+  {
+    "title": "PCMag（9/14 更新）：Amodei 放缓倡议获 Altman、Hassabis、Nadella 等跟进表态",
+    "summary": "PCMag 汇总「协同节奏策略」三步：嵌入式第三方评估、民主国家协调安全标准与增速、全球协调；Altman 承诺员工级独立评估访问，Hassabis 称方向正确，Nadella 欢迎评估机制但强调需跨生态广泛代表；Bernie Sanders 称「只是开始，还不够」。",
+    "url": "https://au.pcmag.com/ai/119891/anthropic-ceo-pushes-to-slow-pace-of-ai-development-others-fall-in-line",
+    "source": "PCMag",
+    "source_handle": "@PCMag",
+    "image": "/assets/covers/cover-20260914-ai-10.jpg",
+    "published_at": "2026-09-14T00:00:00+10:00",
+    "tags": [
+      "Anthropic",
+      "OpenAI",
+      "DeepMind",
+      "AI安全"
+    ]
+  },
+  {
+    "title": "Dario Amodei 原文：We Must Pace the Frontier——三步放缓框架与单方面承诺",
+    "summary": "Anthropic CEO 长文主张放缓前沿能力提升节奏（非停止训练），提出嵌入 METR 等第三方评估者、民主国家实验室协调、有限全球协调三步路径；Anthropic 单方面承诺第一步，呼吁政府要求其他前沿公司跟进。",
+    "url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+    "source": "Dario Amodei",
+    "source_handle": "@DarioAmodei",
+    "image": "/assets/covers/cover-20260914-ai-11.jpg",
+    "published_at": "2026-09-12T00:00:00-07:00",
+    "tags": [
+      "Anthropic",
+      "AI安全",
+      "政策",
+      "原文"
+    ]
+  },
+  {
+    "title": "DeepSeek V4.1 Flash：今日起 deepseek-v4-pro 请求临时路由至此模型",
+    "summary": "Atoms 梳理 DeepSeek V4.1 Flash（API：deepseek-flash）：552B MoE、预填约 8B/解码约 16B 激活、百万上下文、原生多模态与 MIT 开源权重。官方称自 2026-09-14 北京时间 12:00 起，deepseek-v4-pro 请求将临时路由至 V4.1 Flash 并按 Flash 计价，直至未来 V4.1 Pro。",
+    "url": "https://atoms.dev/blog/deepseek-v4-1-flash",
+    "source": "Atoms / DeepSeek",
+    "source_handle": "@deepseek_ai",
+    "image": "/assets/covers/cover-20260914-ai-12.jpg",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "模型发布",
+      "API",
+      "开源"
+    ]
+  },
+  {
+    "title": "AllSpark 开源 Iris-mini / Iris-pro：开源权重搜索 Agent 登顶同类基准",
+    "summary": "中国实验室 AllSpark 发布基于 Qwen3 的开源权重搜索智能体 Iris-mini（35B）与 Iris-pro（397B），256K 上下文；在 BrowseComp、BrowseComp-ZH、DeepSearchQA、Humanity's Last Exam 等基准上宣称同类开源领先，并开源 Iris Harness（含上下文管理策略）。论文强调运行时上下文管理对分数影响显著。",
+    "url": "https://tpsreport.news/news/iris-mini-iris-pro-open-weight-search-agents",
+    "source": "TPS Report",
+    "source_handle": "@tpsreport",
+    "image": "/assets/covers/cover-20260914-ai-13.jpg",
+    "published_at": "2026-09-13T13:06:00+00:00",
+    "tags": [
+      "开源模型",
+      "Agent",
+      "搜索",
+      "Qwen"
+    ]
+  },
+  {
+    "title": "Salesforce 推出 Trusted Enterprise AI Harness 与企业 AI Control Plane",
+    "summary": "Salesforce 发布企业级 AI Harness：整合可信上下文、代理、行动、治理、安全与模型六大能力，并新增 AI Control Plane，用于跨 Salesforce 与第三方发现/注册 Agent、身份策略、生命周期、性能观测与成本控制；支持 MCP/API/Skills，计划 FY28 初推出统一体验。",
+    "url": "https://www.salesforce.com/in/news/stories/enterprise-ai-harness/",
+    "source": "Salesforce",
+    "source_handle": "@salesforce",
+    "image": "/assets/covers/cover-20260914-ai-14.jpg",
+    "published_at": "2026-09-13T00:00:00-07:00",
+    "tags": [
+      "企业AI",
+      "Agent",
+      "治理",
+      "Salesforce"
+    ]
+  },
+  {
+    "title": "微软将 xAI Grok 纳入 Copilot：Frontier 客户可在 Word/Excel/PPT 选用",
+    "summary": "报道称 Satya Nadella 宣布在 Microsoft Copilot 中加入 Grok，强化多模型选择；初期面向 Frontier 计划客户，覆盖 Word、Excel、PowerPoint 等办公场景，延续 Azure AI Foundry / Copilot Studio 上的 Grok 合作路径。Musk 亦发帖欢迎「Grok available in Microsoft Copilot」。",
+    "url": "https://www.firstpost.com/tech/satya-nadella-announces-grok-rollout-to-copilot-expanding-microsofts-ai-offering-14045382.html",
+    "source": "Firstpost",
+    "source_handle": "@firstpost",
+    "image": "/assets/covers/cover-20260914-ai-15.jpg",
+    "published_at": "2026-09-12T22:58:00+05:30",
+    "tags": [
+      "Microsoft",
+      "Grok",
+      "Copilot",
+      "xAI"
+    ]
+  },
+  {
+    "title": "TechCrunch：YC 最新 Demo Day 九家最热创业公司——AI 芯片、机器人与算力基建",
+    "summary": "本季 YC Demo Day 深科技占比上升。VC 点名至少两家机构看好的项目包括：Lamb Labs（权重硬编码进硅片的 MPU 推理芯片）、Praxis AI（真人作业视频训机器人）、Waddle Labs（「机器人界的 Claude Code」自然语言写控制代码）、Atomarine 海上算力等，估值相对更务实。",
+    "url": "https://techcrunch.com/2026/09/13/the-9-buzziest-startups-from-y-combinators-latest-demo-day-according-to-vcs/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260914-ai-16.jpg",
+    "published_at": "2026-09-13T13:28:00-07:00",
+    "tags": [
+      "创业",
+      "AI芯片",
+      "机器人",
+      "YC"
+    ]
+  },
+  {
+    "title": "The Guardian：Altman 与 Musk 表态支持 Anthropic「踩刹车」呼吁",
+    "summary": "卫报报道 Altman 与 Musk 支持 Amodei「放缓 AI 发展」呼吁；Amodei 警告若不加约束，6–12 个月内类似智能体集群或可形成持久僵尸网络并造成千亿美元级损失，并提出以嵌入式独立监控为起点的三部分方案。",
+    "url": "https://www.theguardian.com/technology/2026/sep/13/openai-sam-altman-elon-musk-back-anthropic-calls-brakes-ai-development",
+    "source": "The Guardian",
+    "source_handle": "@guardian",
+    "image": "/assets/covers/cover-20260914-ai-17.jpg",
+    "published_at": "2026-09-13T00:00:00+01:00",
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "AI安全",
+      "政策"
+    ]
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "index": 0,
+    "filename": "cover-20260918-v-00.jpg",
+    "title": "数字生命卡兹克：Jev与多模型AI预筛对比",
+    "summary": "终于有空测一下Jev了，在分类准确度确实不错，AIHOT上一个小小的预筛任务，就是判断一个内容进来，是否跟AI相关。\n\nGLM 5.3 Flash是唯一一个全对的，但是也最慢和最贵。\nJev目前看起来是最综合的，准确性第二+便宜很多，比DeepSeek V4.1 Flash在空闲阶段还要便宜。\n\n但是问题在于，Qwen 3.7 Flash还是太便宜了...价格比Jev还要低一半，并且速度上也没有拉开差距，Jev说好的百毫秒级响应呢。。。\n\n还在测其他任务，思考一下要不要为了精准性提高几个点接受成本翻倍然后切换到Jev上Emmmmm",
+    "tags": [
+      "AI",
+      "模型",
+      "AIHOT"
+    ],
+    "prompt": "16:9 semi-realistic model-evaluation lab for a post comparing Jev with GLM and DeepSeek: three distinct laptops show score grids, latency bars, and cost tokens as blurred shapes, while a stopwatch, receipt roll, and color-coded test cards form a physical benchmark trail across the desk. Neutral daylight with one green efficiency lamp, overhead three-quarter composition, tactile engineering detail. No readable logos or text, no flat icons, no masthead bands, no generic meeting room."
+  },
+  {
+    "index": 1,
+    "filename": "cover-20260918-v-01.jpg",
+    "title": "数字生命卡兹克：AI有时更让人开心",
+    "summary": "有的时候，自己发现了一个小技巧，然后满心欢喜的分享出来，希望能帮到更多的人。\n\n然后总是能看到一种评论“这不就是XXX吗”，“别人早就做过了早就知道了”，“又不知道抄了谁”。。。\n\n有的时候，感觉挺失望的，也挺悲哀的。我只是想分享一下，可他们总是想证明，你没有那么了不起。\n\n可我本身就没有那么了不起啊。\n我只是想分享一下我自己的欣喜，仅此而已。\n\nAI有些时候确实更让人开心。",
+    "tags": [
+      "AI"
+    ],
+    "prompt": "16:9 warm editorial lifestyle photograph about the joy of discovering and sharing an AI trick: hands place a freshly annotated notebook beside a phone and a small gift-like package of printed tips on a sunlit kitchen table, while an open chat screen glows softly in the background. Golden morning light, candid human scale, flowers and coffee add warmth without becoming stock imagery. No readable UI or logos, no masthead color bands, no abstract wallpaper, no single-symbol layout."
+  },
+  {
+    "index": 2,
+    "filename": "cover-20260918-v-02.jpg",
+    "title": "数字生命卡兹克：节省Codex额度的邪修方法",
+    "summary": "分享一个大幅节省Codex额度的邪修方法，不要浪费了你的ChatGPT Pro会员。\n最近我的Codex额度，已经烧到我有点用不起的程度了。\n大家可能都知道，我做了一个AI热点资讯产品，叫AIHOT。\n\n然后我最近做的，基本都是关于AIHOT的底层优化，一个是尽可能降低成本，一个是系统底层的性能提升。...",
+    "tags": [
+      "AI",
+      "Codex",
+      "ChatGPT"
+    ],
+    "prompt": "16:9 semi-realistic late-night developer workbench illustrating a Codex quota-saving method: a laptop with a blurred code diff sits beside a physical row of reusable cache boxes, a nearly empty usage meter card, and a second device showing a local project folder. Cool monitor light, warm desk lamp, close diagonal composition with cables and handwritten but unreadable notes. Distinct cost-optimization story, no logos or readable text, no generic office, no masthead bands."
+  },
+  {
+    "index": 3,
+    "filename": "cover-20260918-v-03.jpg",
+    "title": "数字生命卡兹克：豆包手机助手回归与手机Agent",
+    "summary": "在折腾9个月后，手机Agent的王者，豆包手机助手它回来了。\n终于，憋了很久很久很久的努比亚发布会，在下午，终于开完了。\n\n会上，搭载豆包手机助手消费者版本的努比亚Navix Ultra正式开售。\n12+512GB的配置定价5999，国补后到手5499。\n16+512GB定价6499，16GB+1TB定价7499。...",
+    "tags": [
+      "AI",
+      "Agent",
+      "豆包"
+    ],
+    "prompt": "16:9 realistic product photograph of a Nubia Navix Ultra phone running a Doubao personal agent inside a parked car: the phone is mounted beside the dashboard, with climate controls, navigation route, and music controls visibly coordinated across the cockpit screens. Red leather seat edge and metallic hardware provide recognizable phone-and-car context, bright afternoon light through windshield, low passenger-seat angle. No readable logos or text, no driving danger, no flat icon, no masthead bands."
+  },
+  {
+    "index": 4,
+    "filename": "cover-20260918-v-04.jpg",
+    "title": "Max For AI：LobeHub GitHub组织恢复访问",
+    "summary": "昨天LobeHub的GitHub组织被误封后，收到了很多社区朋友的转发、留言和发声支持\n\n现在GitHub已经完成审核，组织也恢复正常访问了爱\n\n想认真感谢一下所有帮我们扩散信息、提供建议、帮忙联系GitHub，以及一直关注这件事的朋友们。\n\n也感谢GitHub团队快速处理和恢复。\n\n引用 LobeHub：更新：我们的 GitHub 组织已恢复，现在可以再次公开访问。衷心感谢 @github 团队快速审查并提供支持，解决了这个问题。一切恢复正常。我们将继续公开构建，并保持 LobeHub 开源。开源万岁。",
+    "tags": [
+      "AI",
+      "LobeHub",
+      "开源"
+    ],
+    "prompt": "16:9 editorial news photograph about LobeHub's GitHub organization being restored: an open-source maintainer reaches toward a monitor showing a green restored-access state made of blurred interface blocks, while a stack of community messages, a small public repository sign, and a phone full of notification lights sit on the desk. Soft newsroom daylight, candid over-the-shoulder framing, hopeful but documentary tone. No readable text or logos, no generic meeting room, no masthead color bands."
+  },
+  {
+    "index": 5,
+    "filename": "cover-20260918-v-05.jpg",
+    "title": "Max For AI：Gemini 4 Pro疑似在Arena偷跑",
+    "summary": "疑似Gemini 4 Pro已经在Arena偷跑了。\n\n有人在Arena里抽到一个名叫gemini-3.8-flash的模型，随手丢了个很经典的测试：\n\n“写一个尽可能精美的SVG，让一只鹈鹕骑自行车。”\n\n结果这模型有点不讲武德。\n\n它不只是画了只鹈鹕，而是直接做出了一套完整的交互式 SVG Demo：",
+    "tags": [
+      "AI",
+      "Gemini",
+      "模型"
+    ],
+    "prompt": "16:9 playful semi-realistic creative-coding workstation inspired by the Arena pelican SVG test: a large monitor displays an interactive vector pelican riding a bicycle with visible control handles and layered panels, while a stylus, color swatches, and a compact keyboard sit in the foreground. Bright studio light, saturated but realistic screen glow, dynamic diagonal composition. No readable UI or brand logos, no flat poster, no generic tech wallpaper, no masthead bands."
+  },
+  {
+    "index": 6,
+    "filename": "cover-20260918-v-06.jpg",
+    "title": "Max For AI：GPT6-sol灰度消息",
+    "summary": "哦！？卧槽。。。。\n\n引用 昕月喵（Ver.0811） @Selinameowbot：我今天已经灰度到GPT6-sol了",
+    "tags": [
+      "AI",
+      "GPT"
+    ],
+    "prompt": "16:9 speculative editorial product photograph about a possible GPT6-sol rollout: a beta tester's hand holds a phone with a softly glowing invitation panel, beside a laptop showing a blurred model selector and a sealed envelope marked only with a geometric sun-like emboss. Dark room, narrow beam of cool light on the devices, restrained suspense, close crop. Treat the report as rumor rather than fact; no readable text or logos, no flat symbol layout, no masthead bands."
+  },
+  {
+    "index": 7,
+    "filename": "cover-20260918-v-07.jpg",
+    "title": "小互：豆包汽车座舱助手支持多模态控制",
+    "summary": "豆包发布汽车座舱助手\n\n将豆包模型和汽车车机进行了整合\n\n支持通过多模态交互控制车内设备（如空调、车窗、导航路线规划等），并能结合车机各种应用生态，完成复杂的意图调用与任务拆解\n\n还配套了一个车载小屏幕，可以互动...\n\n看了下演示，还挺可以的",
+    "tags": [
+      "AI",
+      "豆包",
+      "汽车"
+    ],
+    "prompt": "16:9 realistic automotive interior photograph showing Doubao's multimodal cockpit assistant: a passenger's hand gestures toward a dashboard display while separate climate vents, window controls, route map, and a small voice-assistant microphone respond with colored indicators. Clean modern Chinese sedan cabin, late-afternoon side light, wide passenger-seat composition with practical physical props. No readable logos or UI, no generic office, no masthead color bands, no abstract geometry."
+  },
+  {
+    "index": 8,
+    "filename": "cover-20260918-v-08.jpg",
+    "title": "小互：豆包双工语音模型实现自然交互",
+    "summary": "通过豆包的双工端到端语音模型，能实现自然流畅的语音交互\n\n沟通体验更接近真人交流",
+    "tags": [
+      "AI",
+      "豆包",
+      "语音模型"
+    ],
+    "prompt": "16:9 intimate documentary photo of a natural duplex voice interaction: two people sit in the front seats of a parked car facing slightly toward one another, a compact microphone between them and the dashboard responding with soft conversational waveforms. Warm evening light through the side window, shallow focus on faces and hardware, candid human exchange rather than an abstract waveform poster. No readable text or logos, no driving scene, no masthead bands, no flat single symbol."
+  },
+  {
+    "index": 9,
+    "filename": "cover-20260918-v-09.jpg",
+    "title": "小互：在CarPlay上启用Codex语音编程",
+    "summary": "边开车边Codex\n\n在CarPlay 上启用了 Codex\n\n边开车边通过语音和Codex交流，Codex 改设置、推代码、汇报发布进度。",
+    "tags": [
+      "AI",
+      "Codex",
+      "CarPlay"
+    ],
+    "prompt": "16:9 realistic parked-car developer scene for Codex on CarPlay: a phone and dashboard display show a blurred code change, commit confirmation, and deployment progress while the engineer speaks into the car microphone with hands off the wheel; a cable, terminal-style notebook, and road map rest on the console. Blue dusk light mixed with dashboard amber, over-the-shoulder composition. No readable UI or logos, no unsafe driving, no generic workspace, no masthead bands."
+  },
+  {
+    "index": 10,
+    "filename": "cover-20260918-v-10.jpg",
+    "title": "小互：Anthropic FDE团队谈企业何时需要FDE",
+    "summary": "推荐阅读和观看，FDE讲的最好的内容\n\n企业什么时候才真的需要 FDE？\n组建 FDE 团队前，需要先通过两道闸门...\n\nKevin Bai 现任职于 Anthropic 的FDE团队，他在 AI Engineer World's Fair 的《FDE 101》演讲中，围绕什么是 FDE、企业为什么需要它，以及为什么他判断 AI 时代会让更多公司采用它展开。",
+    "tags": [
+      "AI",
+      "Anthropic",
+      "FDE"
+    ],
+    "prompt": "16:9 documentary field-engineering photograph for Anthropic's FDE discussion: an enterprise field engineer with a laptop and cable case stands beside a client's server rack, explaining a workflow on a small whiteboard to two operators; a deployment checklist and real network equipment make the role tangible. Cool facility fluorescents with a warm aisle light, candid wide-angle composition. No readable text or logos, no staged handshake, no generic conference room, no masthead bands."
+  },
+  {
+    "index": 11,
+    "filename": "cover-20260918-v-11.jpg",
+    "title": "华尔街日报中文网：AI概念股重获青睐",
+    "summary": "周四，华尔街暂时放下对利率和通胀的担忧，重拾一个屡试不爽的投资逻辑：抢购AI相关企业的股票。标普500指数与纳斯达克综合指数双双创下六周来最大单日涨幅。\n\nAI概念股重获青睐，美股走出通胀阴霾",
+    "tags": [
+      "AI",
+      "投资"
+    ],
+    "prompt": "16:9 editorial financial news photograph about AI stocks regaining favor: a market analyst watches a wall of red-and-green price boards through a trading-floor window, with printed index charts, a coffee cup, and a phone showing a rising line reflected on the desk. Crisp New York-style morning light, restrained documentary composition, reflections and human activity rather than a generic stock graphic. No readable tickers or logos, no flat chart wallpaper, no masthead color bands."
+  }
+]

@@ -1,0 +1,172 @@
+[
+  {
+    "status_url": "https://x.com/xiaohu/status/2099650526837371378",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "visible_time": "2026-09-15T08:03:00+08:00",
+    "visible_text": "卧槽，美国人真有意思\n\n在洛杉矶的 All-In Summit 大会上\n黄仁勋的手机突然响了\n是特朗普打来的\n\n黄仁勋接起电话\n给切成了免提....\n\n特朗普当着几千人说，AI 危险论和反对建数据中心都是\"骗局\"，黄仁勋在旁边一直附和...\n\n黄仁勋上手忙乱找免提，特朗普调侃：\"Jensen",
+    "following_feed_seen": true,
+    "fallback_profile": null,
+    "notes": "Visible DOM text only."
+  },
+  {
+    "status_url": "https://x.com/xiaohu/status/2099414562516943276",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "visible_time": "2026-09-14T17:07:00+08:00",
+    "visible_text": "Anthropic 放了个视频\n演示 CLaude Tag 怎么帮工程师值夜班…..\n\n晚上 11点，支付接口的出错率冲破 2%，值班工程师被报警叫醒\n\n结果她还没打开电脑，CLaude 已经在查了\n\nCLaude Tag就在工作群里（ SLack 里），全程是这样：\n\n• 报警一响直接开查：拉监控数据、对比最近几次上线、翻功能开关的改动记录…",
+    "following_feed_seen": false,
+    "fallback_profile": "xiaohu",
+    "notes": "Visible DOM text only; post showed Show more, so summary is intentionally truncated."
+  },
+  {
+    "status_url": "https://x.com/xiaohu/status/2099409639234289914",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "visible_time": "2026-09-14T16:07:00+08:00",
+    "visible_text": "Grok Bot新增了一个\"本地出口路由\"（local egress routing）功能\n\n可以让流量从你本机转一圈再出去\n\nGrok Bot 平时执行任务云端虚拟机里跑的，所以对外请求的 IP 地址是数据中心的 IP，不是你自己的 IP。\n\n现在可以把 Grok Bot 虚拟机的网络流量绕一圈，从你自己的电脑（本地机器）出去…",
+    "following_feed_seen": false,
+    "fallback_profile": "xiaohu",
+    "notes": "Visible DOM text only; post showed Show more, so summary is intentionally truncated."
+  },
+  {
+    "status_url": "https://x.com/xiaohu/status/2099404067470819441",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "visible_time": "2026-09-14T16:07:00+08:00",
+    "visible_text": "牛P\n\n这个好\n\n当你不注视屏幕的时候，自动模糊你笔记本的屏幕内容，用过AirPods 的头部追踪进行判断\n\n真是个脑洞大开的想法",
+    "following_feed_seen": false,
+    "fallback_profile": "xiaohu",
+    "notes": "Visible DOM text only."
+  },
+  {
+    "status_url": "https://x.com/xiaohu/status/2099314593676116226",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "visible_time": "2026-09-14T10:07:00+08:00",
+    "visible_text": "XiaoHu Best Blog 上线了周报功能\n\n一周AI精华内容汇总",
+    "following_feed_seen": false,
+    "fallback_profile": "xiaohu",
+    "notes": "Visible DOM text only."
+  },
+  {
+    "status_url": "https://x.com/xiaohu/status/2099314596473647139",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "visible_time": "2026-09-14T10:07:00+08:00",
+    "visible_text": "传送门：\n本周 AI 线路图 · 09.08 — 09.14 · 小互 · AI 解读站\n来自 best.xiaohu.ai",
+    "following_feed_seen": false,
+    "fallback_profile": "xiaohu",
+    "notes": "Visible DOM text only."
+  },
+  {
+    "status_url": "https://x.com/MaxForAI/status/2098225659432845472",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "visible_time": "2026-09-10T12:00:00+08:00",
+    "visible_text": "不行我崩不住了，Antropic这个报告里还专门有个中国杀猪盘的案例\n\n这个案例的编号是 GTG-15001，讲的是一个中国团队用 Claude，批量造了 4700 多个“真人恋爱对象”去海外崩老头的案例。\n\nAnthropic 称，这家公司一口气做了 20 多款交友 App，对外看起来都是真人在聊天，但后台其实已经高度 AI 化。…",
+    "following_feed_seen": false,
+    "fallback_profile": "MaxForAI",
+    "notes": "Visible DOM text only; post showed Show more, so summary is intentionally truncated."
+  },
+  {
+    "status_url": "https://x.com/MaxForAI/status/2099550244342239326",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "visible_time": "2026-09-15T02:07:00+08:00",
+    "visible_text": "Anthropic 的 80% 毛利率，原来是这么算出来的啊？？\n\n据《金融时报》报道，Anthropic 声称自己的毛利率超过 80%。\n\n但后面跟着一个前提：还没扣给亚马逊等分销合作伙伴的收入分成，也没扣模型训练成本。…",
+    "following_feed_seen": false,
+    "fallback_profile": "MaxForAI",
+    "notes": "Visible DOM text only; post showed Show more, so summary is intentionally truncated."
+  },
+  {
+    "status_url": "https://x.com/MaxForAI/status/2099412098715734405",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "visible_time": "2026-09-14T17:07:00+08:00",
+    "visible_text": "但我们 @lobehub 内部bench测的结果也是high比max强…..\n\n而且差的挺多的",
+    "following_feed_seen": false,
+    "fallback_profile": "MaxForAI",
+    "notes": "Visible DOM text only; post showed Show more, so summary is intentionally truncated."
+  },
+  {
+    "status_url": "https://x.com/MaxForAI/status/2099386781267603683",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "visible_time": "2026-09-14T15:07:00+08:00",
+    "visible_text": "Sam Altman 刚刚又发了一条，把昨天那场“要不要主动减速”的争论讲得更具体了。\n\n他的态度其实很明确：\n\nAI 不需要停止，但前沿实验室应该主动让它发展得慢一点。\n\n昨天 David Sacks 回应 Dario 和 Sam 时说得很直接：…",
+    "following_feed_seen": false,
+    "fallback_profile": "MaxForAI",
+    "notes": "Visible DOM text only; post showed Show more, so summary is intentionally truncated."
+  },
+  {
+    "status_url": "https://x.com/MaxForAI/status/2099290316021121128",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "visible_time": "2026-09-14T09:07:00+08:00",
+    "visible_text": "具身智能圈这个瓜，越闹越大了。\n\n前两天还是创始人朋友圈隔空开火，现在已经直接闹到报警了。\n\n9 月 12 日，银河通用发布严正声明，称近期网络上流传的关于公司及管理团队的相关内容均为恶意谣言和不实信息。\n\n银河通用表示，目前已经第一时间向公安机关报案，并将依法追究造谣者的法律责任。…",
+    "following_feed_seen": false,
+    "fallback_profile": "MaxForAI",
+    "notes": "Visible DOM text only; post showed Show more, so summary is intentionally truncated."
+  },
+  {
+    "status_url": "https://x.com/Khazix0918/status/2099534818623246815",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "visible_time": "2026-09-15T01:07:00+08:00",
+    "visible_text": "有时候给GPT-6太高的权限也不是什么好事，就像我现在正在非常狼狈的核查到底是怎么几天时间烧了我3000多块钱的MiMo的API额度的...\n我的心都在滴血...我真的想骂人了...",
+    "following_feed_seen": false,
+    "fallback_profile": "Khazix0918",
+    "notes": "Visible DOM text only."
+  },
+  {
+    "status_url": "https://x.com/Khazix0918/status/2099379203989008859",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "visible_time": "2026-09-14T14:07:00+08:00",
+    "visible_text": "那个拍出神作《牌子》的AI导演，带着他的巅峰之作回来了。\n这个正在威尼斯排队准备走红毯，同时斩获了两项AI影像大奖的小伙。\n可能很多人都听过他的名字。\nDiDi_OK。\n\n前几天，DiDi_OK发了他用Seedance…",
+    "following_feed_seen": false,
+    "fallback_profile": "Khazix0918",
+    "notes": "Visible DOM text only; post showed Show more, so summary is intentionally truncated."
+  },
+  {
+    "status_url": "https://x.com/Khazix0918/status/2099030353549594906",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "visible_time": "2026-09-13T12:00:00+08:00",
+    "visible_text": "给大家在AIHOT上更新一个被催了无数遍的小功能：Tibo重置监控。\n\n以后大家就不用怕Tibo重置Codex然后看不到浪费Token了：\n日历查记录：全员重置、发重置卡分开标记，统一换算成北京时间，帖子附中文译文和原帖链接。\n群里收通知：监测到新的重置、发卡预告或确认消息，会自动推送到群里。\n开放…",
+    "following_feed_seen": false,
+    "fallback_profile": "Khazix0918",
+    "notes": "Visible DOM text only; post showed Show more, so summary is intentionally truncated."
+  },
+  {
+    "status_url": "https://x.com/Khazix0918/status/2098136040271949924",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "visible_time": "2026-09-10T12:00:00+08:00",
+    "visible_text": "最近看到的最好的AI影像作品。\n你永远可以相信DiDi_OK的审美和脑洞。\n推荐所有人逐帧学习。",
+    "following_feed_seen": false,
+    "fallback_profile": "Khazix0918",
+    "notes": "Visible DOM text only."
+  },
+  {
+    "status_url": "https://x.com/Khazix0918/status/2097925788863725785",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "visible_time": "2026-09-09T12:00:00+08:00",
+    "visible_text": "一个27岁的AI研究员从Anthropic辞职了，因为他担心AI会导致人类灭绝。\n昨天呢，我在X上看到了一条流量已经过了1亿的帖子。\n\n讲道理，我在X上已经很久很久没有见过这种流量的帖子了。\n发帖的人叫Jacob Coxon。\n刚刚从Anthropic辞职。…",
+    "following_feed_seen": false,
+    "fallback_profile": "Khazix0918",
+    "notes": "Visible DOM text only; post showed Show more, so summary is intentionally truncated."
+  },
+  {
+    "status_url": "https://x.com/Khazix0918/status/2097606288083407037",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "visible_time": "2026-09-09T12:00:00+08:00",
+    "visible_text": "用Codex跑AIHOT的数据回测，然后他自己看了下，决定去调我DeepSeek的API Key，然后一天跑没了我快800块的额度...\n我尼玛...",
+    "following_feed_seen": false,
+    "fallback_profile": "Khazix0918",
+    "notes": "Visible DOM text only."
+  }
+]

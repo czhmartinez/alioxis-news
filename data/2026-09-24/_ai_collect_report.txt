@@ -1,0 +1,83 @@
+Alioxis News AI新闻 collect report — 2026-09-24 (Asia/Taipei)
+================================================================
+item_count: 16
+output: /workspace/alioxis-news/data/2026-09-24/ai.json
+covers: image fields left empty ("") for later GenerateImage
+
+AIHOT status
+------------
+- Source: /workspace/alioxis-news/data/2026-09-24/_aihot_daily.json
+- HTTP/presence: OK (pre-fetched, date=2026-09-24, lead=null)
+- Window: 2026-09-23T00:00:00.000Z → 2026-09-24T00:00:00.000Z
+- Attribution: https://aihot.news/daily/2026-09-24
+
+Dedup / skip notes
+------------------
+SKIP (stale rehash of 2026-09-22/23 digests):
+- AA Pareto shift from MiMo-V2.6-Pro / Opus 5.5 / Luna-Sol (X @ArtificialAnlys) — pure rehash of yesterday AA Opus 5.5 + Sol/Luna pieces and day-before MiMo AA46 lead
+- Opus 5.5 / Sol-Luna launch stories already covered 2026-09-23
+- Muse 0-day / Amazon ban already covered 2026-09-22/23
+
+SKIP (X-only / weak primary, not needed to hit 15–20):
+- Agent Harness token-efficiency prompt (@ericzakariasson) — no primary blog beyond X
+- Arena GPT-6 Sol (Max) WebDev #4 @1689 (@arena) — X-only leaderboard tweet; no stable official write-up verified
+
+Source URL choices (prefer primary)
+-----------------------------------
+1. Gemini 3.8 TTS — DeepMind official blog (verified 200)
+2. Qwen-Audio-3.1 — no qwenlm.github.io blog post found; used THE DECODER Sep 23 report (verified 200) instead of X @Alibaba_Qwen; Alibaba Cloud Model Studio docs also present but thinner narrative
+3. Ember-1 — fireworks.ai/blog/ember-1 (verified 200)
+4. GPT Voice / Work — TechCrunch Sep 23 (verified 200); Greg Brockman X skipped in favor of news write-up; 9to5Mac also verified
+5. Antigravity local models — Google Developers Blog (verified 200)
+6. Daybreak Ukraine — openai.com official (verified 200)
+7. Claude Marketplace — claude.com/blog (verified 200)
+8. Cursor Rollouts + Security Reviewer — cursor.com/blog (verified 200)
+9. Albanese Medicare — SMH (verified 200)
+10. Claude ART enzyme — anthropic.com/news (verified 200)
+11. MentalHealthBench — openai.com official (curl 200; WebFetch 403 but content confirmed)
+12. claude.ai 3x faster — claude.dev/blog (verified 200)
+13. Tunguz mid-market — tomtunguz.com (verified 200)
+14. OpenRouter embeddings 2026 — openrouter.ai/blog (verified 200; catalog verified date 2026-09-11, still in today's AIHOT tips)
+15. UN Security Council AI briefing — news.un.org (verified 200); Gary Marcus Substack not used
+16. AI-driven code modernization prep — claude.com/blog (verified 200)
+
+Items (title → url)
+-------------------
+1. Google DeepMind 发布 Gemini 3.8 Flash TTS 与 Flash-Lite TTS：自然语言设计音色，覆盖 100+ 语言
+   https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech
+2. Qwen 发布 Qwen-Audio-3.1 五模全家桶：新增 TTS-Next/ASR-Next，ASR 最高降价约 95%
+   https://the-decoder.com/alibaba-launches-qwen-audio-3-1-with-five-new-models-and-slashes-ai-audio-prices-by-up-to-95-percent/
+3. Fireworks Research 发布 Ember-1：在 Kimi K3 质量下减少约 40% 推理 Token
+   https://fireworks.ai/blog/ember-1
+4. ChatGPT Voice 重大升级：可接邮箱/日历/Slack 工具，并登陆网页与移动端 Work
+   https://techcrunch.com/2026/09/23/chatgpt-mobile-app-gets-voice-based-agentic-features/
+5. Google Antigravity SDK 支持本地模型：Gemma 4 26B 可离线跑智能体
+   https://developers.googleblog.com/introducing-support-for-local-ai-models-in-the-antigravity-sdk
+6. OpenAI 向乌克兰政府开放 Daybreak：用 AI 加强民用基础设施网络防御
+   https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense
+7. Anthropic 上线 Claude Marketplace：插件连接器、智能体产品与服务伙伴一站汇聚
+   https://claude.com/blog/claude-marketplace
+8. Cursor 发布 Rollouts 与 Security Reviewer：PR 到上线的回归守卫与安全审查机器人
+   https://cursor.com/blog/rollouts-and-security-reviewer
+9. 澳总理阿尔巴内塞披露：OpenAI 智能体 6 月未经授权访问 Medicare 统计门户
+   https://www.smh.com.au/politics/federal/openai-breaches-medicare-albanese-reveals-20260924-p6100u.html
+10. Anthropic：Claude 自主发现类 CRISPR 新型酶系统 ART，并成立生命科学研究组与实验室
+    https://www.anthropic.com/news/claude-discovers-novel-enzyme-system
+11. OpenAI 联合 80+ 心理健康专家发布开放基准 MentalHealthBench
+    https://openai.com/index/introducing-mentalhealthbench
+12. Anthropic 工程：用 Claude 两周把 claude.ai 核心体验提速约 3 倍
+    https://claude.dev/blog/how-we-made-claude-ai-faster
+13. Tomasz Tunguz：AI 最重要的市场在「够用且够便宜」的中段，而非前沿尖峰
+    https://tomtunguz.com/the-most-important-market-in-ai-is-the-middle
+14. OpenRouter 发布 2026 嵌入模型选型指南：目录 37 条，覆盖 RAG/多语/代码/图文
+    https://openrouter.ai/blog/insights/best-embedding-models-2026
+15. 联合国安理会听取 AI 简报：Bengio/Altman/Amodei/Delangue 警告失控风险
+    https://news.un.org/en/story/2026/09/1168414
+16. Anthropic 前线笔记：AI 驱动代码现代化前的六步准备法
+    https://claude.com/blog/how-to-prepare-for-ai-driven-code-modernization-projects
+
+Blockers
+--------
+- None for collect. No build/publish/covers done (per instructions).
+- Qwen: official QwenLM blog post for Audio 3.1 not located; secondary verified news used.
+- Did not scrape X; X API unused.

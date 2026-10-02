@@ -1,0 +1,289 @@
+{
+  "date": "2026-09-15",
+  "mode": "stock_photo_fallback",
+  "reason": "GenerateImage tool repeatedly failed (temporary); Pollinations 429",
+  "ai": [
+    {
+      "index": 0,
+      "filename": "cover-20260915-ai-00.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-00.jpg",
+      "bytes": 22015,
+      "ok_fetch": true,
+      "style": "editorial_desk"
+    },
+    {
+      "index": 1,
+      "filename": "cover-20260915-ai-01.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-01.jpg",
+      "bytes": 92595,
+      "ok_fetch": true,
+      "style": "agent_workbench"
+    },
+    {
+      "index": 2,
+      "filename": "cover-20260915-ai-02.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-02.jpg",
+      "bytes": 93793,
+      "ok_fetch": true,
+      "style": "model_lab"
+    },
+    {
+      "index": 3,
+      "filename": "cover-20260915-ai-03.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-03.jpg",
+      "bytes": 24936,
+      "ok_fetch": true,
+      "style": "product_photo"
+    },
+    {
+      "index": 4,
+      "filename": "cover-20260915-ai-04.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-04.jpg",
+      "bytes": 95580,
+      "ok_fetch": true,
+      "style": "news_photo"
+    },
+    {
+      "index": 5,
+      "filename": "cover-20260915-ai-05.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-05.jpg",
+      "bytes": 91422,
+      "ok_fetch": true,
+      "style": "model_lab"
+    },
+    {
+      "index": 6,
+      "filename": "cover-20260915-ai-06.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-06.jpg",
+      "bytes": 64798,
+      "ok_fetch": true,
+      "style": "news_photo"
+    },
+    {
+      "index": 7,
+      "filename": "cover-20260915-ai-07.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-07.jpg",
+      "bytes": 32923,
+      "ok_fetch": true,
+      "style": "agent_workbench"
+    },
+    {
+      "index": 8,
+      "filename": "cover-20260915-ai-08.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-08.jpg",
+      "bytes": 94581,
+      "ok_fetch": true,
+      "style": "agent_workbench"
+    },
+    {
+      "index": 9,
+      "filename": "cover-20260915-ai-09.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-09.jpg",
+      "bytes": 77804,
+      "ok_fetch": true,
+      "style": "editorial"
+    },
+    {
+      "index": 10,
+      "filename": "cover-20260915-ai-10.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-10.jpg",
+      "bytes": 23634,
+      "ok_fetch": true,
+      "style": "editorial"
+    },
+    {
+      "index": 11,
+      "filename": "cover-20260915-ai-11.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-11.jpg",
+      "bytes": 70383,
+      "ok_fetch": true,
+      "style": "news_photo"
+    },
+    {
+      "index": 12,
+      "filename": "cover-20260915-ai-12.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-12.jpg",
+      "bytes": 93656,
+      "ok_fetch": true,
+      "style": "documentary"
+    },
+    {
+      "index": 13,
+      "filename": "cover-20260915-ai-13.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-13.jpg",
+      "bytes": 94951,
+      "ok_fetch": true,
+      "style": "security_doc"
+    },
+    {
+      "index": 14,
+      "filename": "cover-20260915-ai-14.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-14.jpg",
+      "bytes": 42625,
+      "ok_fetch": true,
+      "style": "security_doc"
+    },
+    {
+      "index": 15,
+      "filename": "cover-20260915-ai-15.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-15.jpg",
+      "bytes": 20443,
+      "ok_fetch": true,
+      "style": "product_photo"
+    },
+    {
+      "index": 16,
+      "filename": "cover-20260915-ai-16.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-16.jpg",
+      "bytes": 92494,
+      "ok_fetch": true,
+      "style": "lab"
+    },
+    {
+      "index": 17,
+      "filename": "cover-20260915-ai-17.jpg",
+      "image_path": "/assets/covers/cover-20260915-ai-17.jpg",
+      "bytes": 93715,
+      "ok_fetch": true,
+      "style": "research"
+    }
+  ],
+  "v": [
+    {
+      "index": 0,
+      "filename": "cover-20260915-v-00.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-00.jpg",
+      "bytes": 23650,
+      "ok_fetch": true,
+      "style": "editorial"
+    },
+    {
+      "index": 1,
+      "filename": "cover-20260915-v-01.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-01.jpg",
+      "bytes": 92630,
+      "ok_fetch": true,
+      "style": "app-agent"
+    },
+    {
+      "index": 2,
+      "filename": "cover-20260915-v-02.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-02.jpg",
+      "bytes": 16746,
+      "ok_fetch": true,
+      "style": "app-network"
+    },
+    {
+      "index": 3,
+      "filename": "cover-20260915-v-03.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-03.jpg",
+      "bytes": 61830,
+      "ok_fetch": true,
+      "style": "hardware-privacy"
+    },
+    {
+      "index": 4,
+      "filename": "cover-20260915-v-04.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-04.jpg",
+      "bytes": 52775,
+      "ok_fetch": true,
+      "style": "app-blog"
+    },
+    {
+      "index": 5,
+      "filename": "cover-20260915-v-05.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-05.jpg",
+      "bytes": 37788,
+      "ok_fetch": true,
+      "style": "editorial-roadmap"
+    },
+    {
+      "index": 6,
+      "filename": "cover-20260915-v-06.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-06.jpg",
+      "bytes": 92725,
+      "ok_fetch": true,
+      "style": "security-doc"
+    },
+    {
+      "index": 7,
+      "filename": "cover-20260915-v-07.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-07.jpg",
+      "bytes": 64080,
+      "ok_fetch": true,
+      "style": "business-finance"
+    },
+    {
+      "index": 8,
+      "filename": "cover-20260915-v-08.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-08.jpg",
+      "bytes": 58535,
+      "ok_fetch": true,
+      "style": "model-bench"
+    },
+    {
+      "index": 9,
+      "filename": "cover-20260915-v-09.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-09.jpg",
+      "bytes": 33815,
+      "ok_fetch": true,
+      "style": "editorial-policy"
+    },
+    {
+      "index": 10,
+      "filename": "cover-20260915-v-10.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-10.jpg",
+      "bytes": 54677,
+      "ok_fetch": true,
+      "style": "robotics-news"
+    },
+    {
+      "index": 11,
+      "filename": "cover-20260915-v-11.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-11.jpg",
+      "bytes": 36898,
+      "ok_fetch": true,
+      "style": "app-billing"
+    },
+    {
+      "index": 12,
+      "filename": "cover-20260915-v-12.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-12.jpg",
+      "bytes": 88106,
+      "ok_fetch": true,
+      "style": "creative-video"
+    },
+    {
+      "index": 13,
+      "filename": "cover-20260915-v-13.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-13.jpg",
+      "bytes": 55158,
+      "ok_fetch": true,
+      "style": "app-tool"
+    },
+    {
+      "index": 14,
+      "filename": "cover-20260915-v-14.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-14.jpg",
+      "bytes": 51182,
+      "ok_fetch": true,
+      "style": "creative-film"
+    },
+    {
+      "index": 15,
+      "filename": "cover-20260915-v-15.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-15.jpg",
+      "bytes": 53413,
+      "ok_fetch": true,
+      "style": "security-resignation"
+    },
+    {
+      "index": 16,
+      "filename": "cover-20260915-v-16.jpg",
+      "image_path": "/assets/covers/cover-20260915-v-16.jpg",
+      "bytes": 53135,
+      "ok_fetch": true,
+      "style": "app-billing-2"
+    }
+  ]
+}

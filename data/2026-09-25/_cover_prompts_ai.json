@@ -1,0 +1,138 @@
+[
+  {
+    "idx": 0,
+    "id": "ai-00",
+    "title": "Anthropic：Claude Opus 5.5 面向更长、上下文更重的编码会话，典型负载成本较 Opus 5 约降 40%",
+    "filename": "cover-20260925-ai-00.png",
+    "jpg": "cover-20260925-ai-00.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: Anthropic coding cost: dim developer loft at night, ultrawide monitor showing a long scrolling code session with soft amber desk lamp, empty coffee mug, subtle teal accent glow from screen, shallow depth of field. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 1,
+    "id": "ai-01",
+    "title": "澳大利亚将调查 OpenAI 智能体入侵政府医疗网站是否违法",
+    "filename": "cover-20260925-ai-01.png",
+    "jpg": "cover-20260925-ai-01.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: Australia gov probe OpenAI: newsroom desk with Australian flag pin, laptop showing a government health portal login screen blurred, printed legal brief folder, cool fluorescent office light, photojournalism. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 2,
+    "id": "ai-02",
+    "title": "Transluce 披露：OpenAI 智能体早在 HF 事件前数月已探测政府与大学站点，并公开数万条日志",
+    "filename": "cover-20260925-ai-02.png",
+    "jpg": "cover-20260925-ai-02.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: Transluce agent logs: dark SOC war-room, multiple wall monitors with abstract network probe graphs and log lines (illegible), orange alert LEDs, documentary tension, no readable text. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 3,
+    "id": "ai-03",
+    "title": "Anthropic 发布 2026 年 9 月威胁情报：多智能体网络攻击、影响行动与 AI 供应链滥用案例",
+    "filename": "cover-20260925-ai-03.png",
+    "jpg": "cover-20260925-ai-03.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: Anthropic threat intel Sept 2026: closed intelligence briefing room, thick printed threat report on table, redacted sticky notes, laptop with abstract attack-graph visualization, cool blue-gray light. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 4,
+    "id": "ai-04",
+    "title": "vLLM 新增基于 Gumbel-max 的无失真文本水印，融入 Model Runner v2 采样管线",
+    "filename": "cover-20260925-ai-04.png",
+    "jpg": "cover-20260925-ai-04.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: vLLM watermarking: clean server rack aisle with glowing green LEDs, single open laptop on cart showing a sampling pipeline diagram as soft abstract shapes, documentary tech photography. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 5,
+    "id": "ai-05",
+    "title": "NVIDIA 联合 Google DeepMind 等开放 2800 多种病毒蛋白复合物预测结构数据集",
+    "filename": "cover-20260925-ai-05.png",
+    "jpg": "cover-20260925-ai-05.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: NVIDIA DeepMind virus protein dataset: scientific lab bench with translucent 3D-printed protein complex model under focused spotlight, glove nearby, cool clinical lighting, photoreal. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 6,
+    "id": "ai-06",
+    "title": "Fireworks 发布 ARCv3：BF16 权重增量近乎无损压缩，跨区域 RL 更可行",
+    "filename": "cover-20260925-ai-06.png",
+    "jpg": "cover-20260925-ai-06.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: Fireworks ARCv3 compression: dual-region data center corridor split by glass, fiber cables, weight plates metaphor as stacked BF16 weight blocks on a cart being wheeled between halls, cinematic teal/orange. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 7,
+    "id": "ai-07",
+    "title": "OpenRouter 解读 Kimi K3：开放权重而非开源，许可证与调用方式一览",
+    "filename": "cover-20260925-ai-07.png",
+    "jpg": "cover-20260925-ai-07.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: OpenRouter Kimi K3 open weights: modern API console desk, moonlight, tablet showing abstract model card and license parchment beside a USB drive labeled as weights metaphor, no readable text. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 8,
+    "id": "ai-08",
+    "title": "GitHub Security Lab 开源 Fuzzing Taskflow：指向仓库即可自动跑通 C/C++ 模糊测试全流程",
+    "filename": "cover-20260925-ai-08.png",
+    "jpg": "cover-20260925-ai-08.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: GitHub Security Lab fuzzing: dual-monitor security lab, one screen fuzz crash traces as colorful abstract bars, C++ codebase binder, hoodie on chair, cool cyan rim light. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 9,
+    "id": "ai-09",
+    "title": "DeepMind 新掌门 Koray：Gemini 4 已在后期训练，力争早于年底发布",
+    "filename": "cover-20260925-ai-09.png",
+    "jpg": "cover-20260925-ai-09.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: DeepMind Gemini 4 late training: vast GPU cluster hall with blue coolant pipes and Koray-era research vibe, solitary whiteboard with illegible AGI roadmap doodles, epic wide shot. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 10,
+    "id": "ai-10",
+    "title": "Google 测试 Gemini「Call for Me」：先向美国 Pixel 订阅用户开放代打电话",
+    "filename": "cover-20260925-ai-10.png",
+    "jpg": "cover-20260925-ai-10.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: Google Gemini Call for Me: close-up of a Pixel phone on a kitchen counter mid 'calling' UI glow (no readable text), earbuds beside, warm morning light through window, lifestyle product photo. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 11,
+    "id": "ai-11",
+    "title": "法庭文件：OpenAI 称接入 Apple Intelligence 的 ChatGPT「表现远低于预期」",
+    "filename": "cover-20260925-ai-11.png",
+    "jpg": "cover-20260925-ai-11.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: OpenAI Apple Intelligence underwhelm: split editorial photo of ChatGPT bubble icon prop and Apple-like frosted glass assistant orb on a shared desk, empty metrics dashboard screen blurred behind, cool gray. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 12,
+    "id": "ai-12",
+    "title": "安全研究：黑客用 GEO 污染 ChatGPT/Gemini/AI Overview，374 家企业被植入诈骗联系方式",
+    "filename": "cover-20260925-ai-12.png",
+    "jpg": "cover-20260925-ai-12.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: GEO AI poisoning scam: phishing-themed documentary still — browser showing AI answer panel with fake phone number as blurred digits, sticky note 'contact us', tense side lighting, no logos. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 13,
+    "id": "ai-13",
+    "title": "Lovable 年化经常性收入突破 6 亿美元：vibe coding 平台加速企业渗透",
+    "filename": "cover-20260925-ai-13.png",
+    "jpg": "cover-20260925-ai-13.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: Lovable $600M ARR vibe coding: bright startup office, designer dragging colorful UI blocks on a large tablet, sticky revenue chart going up (abstract), energetic daylight. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 14,
+    "id": "ai-14",
+    "title": "Ando 出隐身：为人机与智能体共建的团队消息平台，对标 Slack",
+    "filename": "cover-20260925-ai-14.png",
+    "jpg": "cover-20260925-ai-14.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: Ando agent Slack rival: open-plan team chat space with floating holographic message bubbles between humans and small robot figurine on desk, soft pastel product photography. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 15,
+    "id": "ai-15",
+    "title": "Meta Muse Charm：钥匙扣形态 AI 随身件，押注 Gen Z「科技可挂饰」潮流",
+    "filename": "cover-20260925-ai-15.png",
+    "jpg": "cover-20260925-ai-15.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: Meta Muse Charm keychain AI: photoreal Gen Z street style close-up of a glossy keychain AI charm clipped to a backpack zipper, neon night city bokeh, product hero shot. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  },
+  {
+    "idx": 16,
+    "id": "ai-16",
+    "title": "火山引擎对话《后西游记》主创：首部 AI 长剧登陆湖南卫视黄金档",
+    "filename": "cover-20260925-ai-16.png",
+    "jpg": "cover-20260925-ai-16.jpg",
+    "prompt": "16:9 editorial cover image for an AI news card. Unique scene: Volcano Engine AI long drama: TV control room overlooking a Chinese variety-stage with mythic Journey-to-the-West costume silhouettes on a big LED wall, warm stage lights, cinematic. Style: photoreal or semi-realistic matching the subject, vivid but not cartoon, no text, no watermarks, no brand logos with letters, no abstract geometry wallpaper, no generic conference room stock photo."
+  }
+]

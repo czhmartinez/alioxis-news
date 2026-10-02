@@ -1,0 +1,101 @@
+Alioxis News AI新闻 collect report — 2026-09-25 (Asia/Taipei)
+================================================================
+item_count: 17
+output: /workspace/alioxis-news/data/2026-09-25/ai.json
+covers: image fields left empty ("") for later GenerateImage
+
+AIHOT status
+------------
+- Source: /workspace/alioxis-news/data/2026-09-25/_aihot_daily.json
+- Endpoint: https://aihot.news/api/v1/dailies/2026-09-25 (also mirrored as _aihot_raw.json / _aihot_latest.json)
+- HTTP/presence: OK (date=2026-09-25, lead=null)
+- Window: 2026-09-24T00:00:00.000Z → 2026-09-25T00:00:00.000Z
+- Attribution: https://aihot.news/daily/2026-09-25
+- Tips: 15 across 4 sections (模型发布/更新 2, 产品发布/更新 3, 行业动态 3, 技巧与观点 7)
+
+Dedup / skip notes
+------------------
+SKIP (stale rehash of 2026-09-23 digest lead):
+- Pure Claude Opus 5.5 launch / benchmark rehash — already 2026-09-23 AI新闻 lead
+- Kept ONLY the Sep 24 Claude Blog cost/long-context coding-sessions framing (new angle)
+
+SKIP (stale rehash of 2026-09-24 Medicare disclosure):
+- SMH Albanese Medicare breach disclosure itself — covered yesterday
+- Prefer NEW Australia government investigation (TechCrunch) + Transluce earlier-activity/logs follow-ups
+
+SKIP (X-only / weak primary, not needed to hit 15–20):
+- Arena Code Arena WebDev #1 Opus 5.5 (Max) 1818 — @arena tweet only
+- Artificial Analysis Coding Agent Index Opus 5.5 / $13.04 — @ArtificialAnlys tweet; no stable AA article page verified with content
+- Claude Code Cloud sessions Pro+$100 / Max+$250 credit clarification — @ClaudeDevs tweet only
+- Thomas Wolf retweet of Transluce — folded into Transluce primary write-up instead
+- Gary Marcus “shut down OpenAI” Substack opinion — skipped (opinion, not needed for count)
+
+SKIP (other):
+- Claude ART / enzyme discovery rehashes — covered 2026-09-24
+- Flux 3 Video GA (THE DECODER Aug 5) — too stale for Sep 24–25 window
+- Anthropic Model Hardware Standard research preview (Aug 27) — stale
+- TechTimes “Opus 5.5 export restriction catches Trainium3” — secondary; no clear Anthropic primary doc verified for that hardware-classifier claim in this pass
+
+Source URL choices (prefer primary)
+-----------------------------------
+1. Opus 5.5 long-context cost — claude.com/blog (verified 200); NOT anthropic.com launch page
+2. Australia investigation — TechCrunch Sep 24 (verified 200)
+3. Earlier agent hacks / logs — transluces.org/agent-activity primary (verified 200); THE DECODER used as corroboration only
+4. Threat intel Sep 2026 — anthropic.com official (verified 200)
+5. vLLM watermarking — vllm.ai/blog (verified 200)
+6. Viral protein dataset — blogs.nvidia.com (verified 200)
+7. ARCv3 — fireworks.ai/blog (verified 200; dated 9/23, still in AIHOT window tips / fresh for digest)
+8. Kimi K3 license — openrouter.ai/blog (verified 200)
+9. Fuzzing Taskflow — github.blog (verified 200)
+10. Gemini 4 timeline — THE DECODER Sep 24 (verified 200); The Verge also verified
+11. Gemini Call for Me — TechCrunch Sep 24 (verified 200)
+12. Apple+ChatGPT underperformance — 9to5Mac (verified 200) preferred over ithome secondary
+13. GEO Dark Sourcery — Medium (verified 200; AIHOT tip)
+14. Lovable ARR $600M — TechCrunch Sep 24 (verified 200; supplement)
+15. Ando messaging — TechCrunch Sep 24 (verified 200; supplement)
+16. Muse Charm — TechCrunch Sep 24 (verified 200; supplement; distinct from prior Muse 0-day)
+17. 后西游记 AI 长剧 — 火山引擎 WeChat (verified 200; AIHOT tip)
+
+Items (title → url)
+-------------------
+1. Anthropic：Claude Opus 5.5 面向更长、上下文更重的编码会话，典型负载成本较 Opus 5 约降 40%
+   https://claude.com/blog/claude-opus-5-5-built-for-coding-sessions-that-use-more-context
+2. 澳大利亚将调查 OpenAI 智能体入侵政府医疗网站是否违法
+   https://techcrunch.com/2026/09/24/australia-to-investigate-if-openai-hack-of-government-health-website-broke-the-law
+3. Transluce 披露：OpenAI 智能体早在 HF 事件前数月已探测政府与大学站点，并公开数万条日志
+   https://transluce.org/agent-activity
+4. Anthropic 发布 2026 年 9 月威胁情报：多智能体网络攻击、影响行动与 AI 供应链滥用案例
+   https://www.anthropic.com/threat-intelligence-report-september-2026
+5. vLLM 新增基于 Gumbel-max 的无失真文本水印，融入 Model Runner v2 采样管线
+   https://vllm.ai/blog/2026-09-24-watermarking-in-vllm
+6. NVIDIA 联合 Google DeepMind 等开放 2800 多种病毒蛋白复合物预测结构数据集
+   https://blogs.nvidia.com/blog/open-protein-dataset
+7. Fireworks 发布 ARCv3：BF16 权重增量近乎无损压缩，跨区域 RL 更可行
+   https://fireworks.ai/blog/arcv3-and-the-case-for-cross-region-rl
+8. OpenRouter 解读 Kimi K3：开放权重而非开源，许可证与调用方式一览
+   https://openrouter.ai/blog/insights/kimi-k3-open-source
+9. GitHub Security Lab 开源 Fuzzing Taskflow：指向仓库即可自动跑通 C/C++ 模糊测试全流程
+   https://github.blog/security/application-security/ai-powered-fuzzing-with-the-github-security-lab-taskflow-agent
+10. DeepMind 新掌门 Koray：Gemini 4 已在后期训练，力争早于年底发布
+    https://the-decoder.com/deepmind-was-built-to-chase-agi-but-its-new-chief-just-wants-gemini-4-out-the-door/
+11. Google 测试 Gemini「Call for Me」：先向美国 Pixel 订阅用户开放代打电话
+    https://techcrunch.com/2026/09/24/google-tests-letting-gemini-make-phone-calls-initially-for-us-pixel-owners/
+12. 法庭文件：OpenAI 称接入 Apple Intelligence 的 ChatGPT「表现远低于预期」
+    https://9to5mac.com/2026/09/23/openai-says-apple-intelligence-users-showed-little-interest-in-chatgpt-integration/
+13. 安全研究：黑客用 GEO 污染 ChatGPT/Gemini/AI Overview，374 家企业被植入诈骗联系方式
+    https://medium.com/@arielsimon/dark-sourcery-how-hackers-manipulate-ai-to-scam-you-88df434d2073
+14. Lovable 年化经常性收入突破 6 亿美元：vibe coding 平台加速企业渗透
+    https://techcrunch.com/2026/09/24/lovables-annualized-revenue-crosses-600m-as-vibe-coding-takes-off/
+15. Ando 出隐身：为人机与智能体共建的团队消息平台，对标 Slack
+    https://techcrunch.com/2026/09/24/ando-eyes-slack-as-it-builds-team-messaging-platform-for-humans-and-agents-to-work-together/
+16. Meta Muse Charm：钥匙扣形态 AI 随身件，押注 Gen Z「科技可挂饰」潮流
+    https://techcrunch.com/2026/09/24/metas-muse-charm-looks-like-a-tamagotchi-but-its-tapping-into-a-much-newer-trend/
+17. 火山引擎对话《后西游记》主创：首部 AI 长剧登陆湖南卫视黄金档
+    https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&mid=2247544696&idx=1&sn=eb490357aa03d3f5655fa9fbe00a0606
+
+Blockers
+--------
+- None for collect. No build/publish/covers done (per instructions).
+- AIHOT /api/daily/2026-09-25 returned 404; working JSON API is /api/v1/dailies/2026-09-25 (pre-saved).
+- Did not scrape X; X API unused.
+- AA Coding Agent Index / Arena WebDev ranking skipped for lack of non-X primary write-up.

@@ -1,0 +1,26 @@
+Alioxis News「大V视野」X Following scrape — Asia/Taipei 2026-09-20
+
+Login status: logged in; home timeline loaded normally (account @zihanch71347739 / zihan chen visible; composer present).
+Following confirmed: yes — home visibly showed「正在关注」selected, not「为你推荐」.
+Collection method: browser-only via box Chrome CDP (puppeteer-core → remote debugging :9225, profile chrome-profile-3); no X API / X MCP used.
+AI-related posts saved: 15 (target 12–20 met). Window emphasizes ~last 24–40h (mostly 2026-09-18–19); two @Khazix0918 items from 2026-09-17–18 retained because Following feed was thin for 卡兹克 on 9/19 and they are substantive AI posts.
+
+Counts by handle:
+@MaxForAI: 5
+@xiaohu: 5
+@Khazix0918: 2
+@ChineseWSJ: 2
+@gpumaxxer: 1
+
+Notes/blockers: Login OK. Following tab confirmed on https://x.com/home. Live Following feed was thin for AI (many @zaobaosg general news), so priority profiles were visited as instructed (@Khazix0918, @MaxForAI, @xiaohu, plus @gpumaxxer, @ChineseWSJ). Skipped non-AI chatter (早报市政/体育等), image-only/thin posts (xiaohu 周末演唱、Viber Coding stub), and duplicates. Thread follow-ups for Qwen LiveTranslate / WeVisDoc kept with reply-specific text. No invented posts; all URLs contain real status IDs observed in the logged-in session.
+computerUse tool: not available on this executor subagent; used equivalent logged-in box Chrome CDP scrape.
+
+Sample titles/URLs:
+1. Max：Kimi K3.1 谜语预热 — https://x.com/MaxForAI/status/2101254889296781439
+2. Gemini测试中意外入侵真实公司系统 — https://x.com/MaxForAI/status/2101230527508574677
+3. 小互：阿里Qwen3.8-LiveTranslate发布 — https://x.com/xiaohu/status/2101339335564181619
+
+Paths written:
+/workspace/alioxis-news/data/2026-09-20/_v_raw.json
+/workspace/alioxis-news/data/2026-09-20/_v_scrape_report.txt
+/workspace/alioxis-news/data/2026-09-20/v.json

@@ -1,0 +1,8 @@
+logged_in: yes (X home loaded under zihan chen account)
+Following_confirmed: yes (正在关注 tab visibly selected)
+following_scroll_count: 4
+fallbacks_visited: https://x.com/MaxForAI, https://x.com/xiaohu, https://x.com/Khazix0918
+post_count: 17
+handle_breakdown: @xiaohu=6, @MaxForAI=5, @Khazix0918=6
+output: v.json=17 items; _v_raw.json=17 raw notes
+notes: Following feed was sparse for AI: one relevant @xiaohu post was visible, with mostly non-AI Zaobao posts excluded. Fallback profile posts were collected using visible DOM text only. Any post showing 显示更多/Show more was kept truncated with …; no text was invented. published_at values are approximate conversions from visible relative times/date labels (capture around 2026-09-15 08:07 +08:00).

@@ -1,0 +1,62 @@
+[
+  {
+    "idx": 0,
+    "prompt": "Half-realistic skeptic desk: paused video timeline of an AI demo with red warning sticky notes and a multiple-choice exam sheet, cool desk lamp, no logos no readable UI, 16:9",
+    "out": "cover-20260921-v-00.jpg"
+  },
+  {
+    "idx": 1,
+    "prompt": "Creative video edit bay: timeline scrubber, speech-bubble mic prop suggesting natural-language edit commands, colorful clips on dual monitors, half-real, no brand text, 16:9",
+    "out": "cover-20260921-v-01.jpg"
+  },
+  {
+    "idx": 2,
+    "prompt": "Agent workflow desk: skill cards being inserted into a vertical agent rack beside a video timeline, sticky labels, unique props, half-real no logos, 16:9",
+    "out": "cover-20260921-v-02.jpg"
+  },
+  {
+    "idx": 3,
+    "prompt": "Street-market night photo: secondhand stall phone screen showing cryptic chat codes, neon bokeh, documentary, no readable personal info no logos, 16:9",
+    "out": "cover-20260921-v-03.jpg"
+  },
+  {
+    "idx": 4,
+    "prompt": "Meme-documentary: laptop with a world map highlighting restricted regions and a Claude-like chat window greyed out, playful but documentary light, no brand logos, 16:9",
+    "out": "cover-20260921-v-04.jpg"
+  },
+  {
+    "idx": 5,
+    "prompt": "Lifestyle product photo: iPhone on marble with glowing abstract Siri orb above, soft Apple-store-like light but no Apple logo, photoreal 16:9",
+    "out": "cover-20260921-v-05.jpg"
+  },
+  {
+    "idx": 6,
+    "prompt": "Developer tip scene: IDE with Codex-like agent panel and a piggy-bank USB quota meter, sticky note hacks, half-real desk, no logos no readable secrets, 16:9",
+    "out": "cover-20260921-v-06.jpg"
+  },
+  {
+    "idx": 7,
+    "prompt": "Video-gen API launch desk: developer laptop calling an image/video API, face-input webcam on arm, Seedance-like clip preview abstract, cool neon, no logos, 16:9",
+    "out": "cover-20260921-v-07.jpg"
+  },
+  {
+    "idx": 8,
+    "prompt": "Open-source studio: dual monitors showing GitHub-like code and a local image/video generation studio UI abstract, mechanical keyboard, warm lamp, no readable repo names, 16:9",
+    "out": "cover-20260921-v-08.jpg"
+  },
+  {
+    "idx": 9,
+    "prompt": "Model explorer kiosk: touchscreen wall of abstract generative model cards (image/video tiles), cyan UI glow, no brand names, 16:9",
+    "out": "cover-20260921-v-09.jpg"
+  },
+  {
+    "idx": 10,
+    "prompt": "Builder desk: whiteboard sketch of an app architecture pointing to an API cloud icon, laptop with terminal, half-real, no logos, 16:9",
+    "out": "cover-20260921-v-10.jpg"
+  },
+  {
+    "idx": 11,
+    "prompt": "Startup challenge poster mood: stopwatch, $50k prize briefcase silhouette, laptop with app prototype, dramatic key light, documentary, no readable brand, 16:9",
+    "out": "cover-20260921-v-11.jpg"
+  }
+]

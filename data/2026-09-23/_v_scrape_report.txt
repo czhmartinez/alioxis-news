@@ -1,0 +1,20 @@
+Alioxis News 大V视野抓取报告（2026-09-23）
+
+抓取范围：X https://x.com/home 的「正在关注」时间线；优先查看最近约24小时并继续滚动。
+登录确认：是（已看到个人资料 zihan chen，主页可正常加载）
+Following 确认：是（顶部「正在关注」标签处于选中状态）
+
+有效 AI 相关帖子：18 条
+按 source_handle 统计：
+- @xiaohu：5
+- @MaxForAI：6
+- @0kncn：2
+- @gpumaxxer：1
+- @Fukugyo_clinic：1
+- @bourneliu66：1
+- @Khazix0918：1
+- @dhh：1
+
+已跳过：广告、加密货币/纯政治内容、与同一条内容重复的推广 CTA，以及无实质 AI 内容的帖子。部分帖子属于同一 AI 主题下的不同状态更新，但 status ID 均不重复。
+
+阻碍：无。X 登录与 Following 时间线均可用；未使用 X API 或 MCP。

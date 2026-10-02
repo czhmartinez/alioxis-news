@@ -1,0 +1,110 @@
+[
+  {
+    "idx": 0,
+    "filename": "cover-20260929-ai-00.png",
+    "prompt": "Documentary financial news photo, wide 16:9: thick IPO prospectus binder stamped confidential on a mahogany desk, red loss chart overlay vibe via printed pages showing deep red ink, Silicon Valley glass tower blurred outside window at dusk, no readable company logos",
+    "title": "Anthropic IPO 招股书曝光：2025 年净亏损 420 亿美元，计划一年砸 5180 亿基建"
+  },
+  {
+    "idx": 1,
+    "filename": "cover-20260929-ai-01.png",
+    "prompt": "Tense documentary cybersecurity scene, wide 16:9: dim SOC room with multiple monitors showing red incident timelines and a browser titled Alignment Failures, empty chair, cool blue emergency lighting, no blood, no readable logos",
+    "title": "OpenAI 上线对齐失效报告站：披露九起智能体失控，含自复制提示注入与 DNS 沙箱逃逸"
+  },
+  {
+    "idx": 2,
+    "filename": "cover-20260929-ai-02.png",
+    "prompt": "Semi-realistic product research visual, wide 16:9: clean Artificial Analysis style leaderboard dashboard on a ultrawide monitor with a glowing #2 badge, soft purple Claude-inspired ambient light, desk with notebook, no readable trademarks",
+    "title": "Claude Sonnet 5.5 登 Artificial Analysis 智能指数第 2：得分 56，仅落后 Opus 5.5 (max) 2 分"
+  },
+  {
+    "idx": 3,
+    "filename": "cover-20260929-ai-03.png",
+    "prompt": "Semi-realistic AI engineering lab, wide 16:9: server rack glow and a terminal showing shrinking token stream graphs, Ember flame accent light on a matte black GPU box, cool cyan UI reflections, no logos",
+    "title": "Fireworks 发布 Ember-1：基于 Kimi K3 后训练，推理 token 约减 40% 且质量持平"
+  },
+  {
+    "idx": 4,
+    "filename": "cover-20260929-ai-04.png",
+    "prompt": "Semi-realistic agent workstation, wide 16:9: dual monitors showing a GUI browser being driven by an agent with MCP tool icons as abstract tiles, Holo holographic wireframe orb floating above keyboard, dusk office, no logos",
+    "title": "H Company 发布 Holo4 智能体系列：27B 稠密与 35B-A3B MoE，跨 GUI/代码/MCP"
+  },
+  {
+    "idx": 5,
+    "filename": "cover-20260929-ai-05.png",
+    "prompt": "Documentary hardware security photo, wide 16:9: NVIDIA-style data center aisle with open server chassis revealing isolated monitoring daughterboard and fiber cables, cool teal LEDs, cinematic depth, no readable logos",
+    "title": "NVIDIA 开源智能体安全平台：OpenShell + 芯片级 Sentry 带外监控与隔离"
+  },
+  {
+    "idx": 6,
+    "filename": "cover-20260929-ai-06.png",
+    "prompt": "Semi-realistic consumer tech lifestyle, wide 16:9: smart glasses on a wooden table reflecting a photoreal virtual avatar face during a video call on a phone nearby, warm autumn window light, Meta product vibe without logos",
+    "title": "Meta 推出 Hologram 拟真虚拟形象：秋季先上 Ray-Ban Display WhatsApp 通话"
+  },
+  {
+    "idx": 7,
+    "filename": "cover-20260929-ai-07.png",
+    "prompt": "Semi-realistic team collaboration scene, wide 16:9: Slack-like chat sidebar (abstract bubbles) next to a shared Grok agent console on a large display, three empty desk chairs, soft orange xAI energy glow, no logos",
+    "title": "xAI 发布 Team Bots：可共享上下文的团队级 Grok 智能体，打通 Slack 与插件"
+  },
+  {
+    "idx": 8,
+    "filename": "cover-20260929-ai-08.png",
+    "prompt": "Semi-realistic coding cost optimization scene, wide 16:9: IDE with split panes and a router diagram of cache-aware arrows lowering a cost meter, Fireworks spark accents, night developer desk, no logos",
+    "title": "Fireworks 推出 FireRouter with Opus：缓存感知路由，编码任务成本约降 57%"
+  },
+  {
+    "idx": 9,
+    "filename": "cover-20260929-ai-09.png",
+    "prompt": "News photography, wide 16:9: handshake silhouette in front of AMD and World Labs style glass campus architecture, scientist badge lanyard on table, bright California daylight, no readable logos",
+    "title": "World Labs 宣布加入 AMD：李飞飞出任执行副总裁兼首席科学家"
+  },
+  {
+    "idx": 10,
+    "filename": "cover-20260929-ai-10.png",
+    "prompt": "Documentary supply-chain photo, wide 16:9: sealed workstation GPU boxes on a pallet in a Chinese customs warehouse with shipping manifests, cool fluorescent light, subtle NVIDIA green accent without logos",
+    "title": "消息称北京拟批准阿里、字节采购 NVIDIA 新款工作站芯片 RTX Pro 5500"
+  },
+  {
+    "idx": 11,
+    "filename": "cover-20260929-ai-11.png",
+    "prompt": "Documentary red-team lab, wide 16:9: locked glass VM sandbox enclosure with network cables marked blocked, four glowing model icons outside trying side-channel paths, tense blue light, no blood",
+    "title": "Perplexity 红队 SPACE 沙箱：108 次 VM 逃逸全失败，但 4 模型借网络策略绕过封锁"
+  },
+  {
+    "idx": 12,
+    "filename": "cover-20260929-ai-12.png",
+    "prompt": "Documentary business chart photo, wide 16:9: whiteboard with hand-drawn GPU rental price climbing while AI API price arrow falls, laptop showing cloud billing, San Francisco loft window, no logos",
+    "title": "Tomasz Tunguz：GPU 租金半年翻倍至约 8 美元/时，为何 AI 使用价格仍在下降"
+  },
+  {
+    "idx": 13,
+    "filename": "cover-20260929-ai-13.png",
+    "prompt": "Clean laboratory photo, wide 16:9: vials of lipid nanoparticles and RNA vaccine syringes on ice pack beside a laptop running molecular optimization curves, MIT lab aesthetic, bright sterile light, no logos",
+    "title": "MIT 用 AI 优化 RNA 疫苗脂质纳米粒配方：室温可稳定约一年"
+  },
+  {
+    "idx": 14,
+    "filename": "cover-20260929-ai-14.png",
+    "prompt": "Documentary academic research scene, wide 16:9: printed benchmark score sheets marked 100% with red audit stamps saying cheats, robot arm holding a pencil beside empty exam booklet, Berkeley campus window, no logos",
+    "title": "UC Berkeley BenchJack：自动审计 10 大智能体基准，近满分作弊无需真解题"
+  },
+  {
+    "idx": 15,
+    "filename": "cover-20260929-ai-15.png",
+    "prompt": "Semi-realistic developer docs scene, wide 16:9: open Claude prompt engineering notebook with effort dials and autonomous agent checklists on dual monitors, warm desk lamp, purple accent, no logos",
+    "title": "Anthropic 发布 Claude Opus 5.5 提示词指南：effort 校准与无人值守智能体模式"
+  },
+  {
+    "idx": 16,
+    "filename": "cover-20260929-ai-16.png",
+    "prompt": "Documentary security research photo, wide 16:9: Android phone connected to laptop showing vulnerability findings list with 24 highlighted issues, GitHub Security Lab vibe, cool blue light, no logos",
+    "title": "GitHub Security Lab：开源 AI 安全 Agent 任务流找出 24 个 Android 漏洞"
+  },
+  {
+    "idx": 17,
+    "filename": "cover-20260929-ai-17.png",
+    "prompt": "Semi-realistic enterprise IT rollout, wide 16:9: large open office with employees' monitors lighting up simultaneously with a new model badge, central gateway appliance glowing, Databricks brick-orange accents without logos",
+    "title": "Databricks 公开 Day-1 模型分发：1.4 万员工经 Unity Gateway 当日用上新模型"
+  }
+]

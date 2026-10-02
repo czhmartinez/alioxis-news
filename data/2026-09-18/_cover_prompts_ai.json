@@ -1,0 +1,255 @@
+[
+  {
+    "index": 0,
+    "filename": "cover-20260918-ai-00.jpg",
+    "title": "卡兹克 AIHOT 日报（2026-09-18）：Qwen3.8-Omni-Flash、ChatGPT for Word 与 Claude Code Projects",
+    "summary": "数字生命卡兹克 AIHOT 日报汇总 2026-09-18 十余件大事：通义千问发布原生全模态 Qwen3.8-Omni-Flash，主打音视频智能体交付；ChatGPT 正式接入 Microsoft Word，补齐 Office 集成；Unsloth 推出 Docker 与 Desktop 本地训练运行 500+ 模型；Anthropic 重构 Claude Code Projects 为多线程云端协作；Meta 推出 Muse for Mac；另有纽约时报诉 OpenAI/微软案解封文件、Anthropic 生物分子模型加速、GitHub Copilot 运行时 Rust 迁移等。",
+    "tags": [
+      "AIHOT",
+      "日报",
+      "Qwen",
+      "ChatGPT",
+      "Claude Code",
+      "Muse"
+    ],
+    "prompt": "16:9 editorial documentary still of a dawn AI news desk covered with a red-and-white Qwen model card, a Word manuscript beside a chat sidebar, a Claude project folder with branching index tabs, and a small Mac laptop showing a Muse-like permissions dialog as soft unreadable shapes. Arrange the props in a diagonal story-map composition rather than a flat collage; cool window light meets a warm desk lamp, shallow depth of field, tactile paper and metal textures. No readable logos or headlines, no uniform masthead bands, no flat single-symbol layout, no generic meeting room."
+  },
+  {
+    "index": 1,
+    "filename": "cover-20260918-ai-01.jpg",
+    "title": "通义千问发布原生全模态 Qwen3.8-Omni-Flash：音视频智能体交付，评测与成本双升级",
+    "summary": "据 AIHOT 日报与 Qwen 博客，通义千问发布下一代原生全模态模型 Qwen3.8-Omni-Flash，支持文本、图像、音频与视频输入及约 1M token 上下文。相对 Qwen3.5-Omni-Plus，29 项评测平均分提升超过 25%；音频输入每小时价格下降超过 98%，音视频输入每小时价格下降超过 93%，面向音视频智能体任务交付。",
+    "tags": [
+      "Qwen",
+      "全模态",
+      "Omni",
+      "音视频",
+      "模型发布"
+    ],
+    "prompt": "16:9 realistic research-lab product scene for Qwen3.8-Omni-Flash: a compact camera, studio microphone, and tablet playing a blurred video frame feed a workstation with a translucent token timeline and audio waveform; a red-accented Qwen-inspired model card anchors the foreground without a logo. Three-quarter view, crisp laboratory daylight, subtle blue monitor fill, cables and calibration chart visible. Concrete multimodal audio-video agent delivery story, no readable text, no color-band masthead, no abstract wallpaper."
+  },
+  {
+    "index": 2,
+    "filename": "cover-20260918-ai-02.jpg",
+    "title": "ChatGPT for Word 上线：侧边栏起草校对，全计划可用并覆盖 Excel/PPT",
+    "summary": "OpenAI 推出 ChatGPT for Word：可在 Microsoft Word 内将粗略笔记转成初稿、理顺段落、校对并给出修改建议，还可发现格式问题。同一 Microsoft 加载项亦支持 Excel 与 PowerPoint；全球 Free 至 Enterprise 等计划均可使用（有用量限制）。安装路径为 Microsoft Marketplace，用 ChatGPT 账号登录；Business/Enterprise 管理员可管控访问。",
+    "tags": [
+      "ChatGPT",
+      "Microsoft Word",
+      "Office",
+      "生产力",
+      "产品"
+    ],
+    "prompt": "16:9 semi-realistic productivity workspace showing ChatGPT for Word in use: an open laptop with a Word-like page of illegible gray lines, a narrow assistant sidebar with colored suggestion marks, a red pen, marked-up paper, and an Excel grid plus presentation thumbnails on a second tablet. Over-the-shoulder composition with the document central and Office props clearly distinct; bright morning window light and restrained Microsoft-blue accent. No readable logos or text, no generic conference room, no masthead bands, no flat icon."
+  },
+  {
+    "index": 3,
+    "filename": "cover-20260918-ai-03.jpg",
+    "title": "Anthropic 重构 Claude Code Projects：从文件夹变为多线程云端协作项目",
+    "summary": "Anthropic 宣布 Claude Projects 体验重构：用户设定目标后，协调者 Claude 拆解任务、并行调度多个线程、审查输出并汇总结果；每个线程本质是独立分支与仓库副本上的 Claude Code 云端会话。共享项目记忆与文件库支持长程智能体工作流。Beta 先向部分使用云端会话的 Pro/Max 用户开放，随后扩展；本地执行与 Team/Enterprise 后续跟进。",
+    "tags": [
+      "Claude Code",
+      "Projects",
+      "多智能体",
+      "编码",
+      "产品"
+    ],
+    "prompt": "16:9 semi-realistic cloud coding-agent workspace for Claude Code Projects: one large monitor shows a central coordinator branching into three distinct terminal panes, with separate repository folders, a review checklist, and a shared memory notebook arranged around a mechanical keyboard. Warm amber desk lamp against cool blue cloud-server glow, high-angle three-quarter composition, visible branch markers as illegible shapes. Distinct multi-thread collaboration scene, no logos, no readable UI, no uniform masthead or abstract geometry."
+  },
+  {
+    "index": 4,
+    "filename": "cover-20260918-ai-04.jpg",
+    "title": "Meta 推出 Muse for Mac：个人智能体可在授权下跨 App 与文件执行任务",
+    "summary": "据 9to5Mac 与扎克伯格帖文，Meta 个人智能体 Muse 于 9 月 17 日推出 Mac 原生应用，可在用户明确授权下跨应用、文件、日历、备忘录与信息执行任务。下载地址为 ai.meta.com/muse/download；此前 Muse 已于 9 月 8 日在美国以 iOS/Android/web 形式上线，Mac 版为后续桌面能力补齐。",
+    "tags": [
+      "Meta",
+      "Muse",
+      "Mac",
+      "个人智能体",
+      "桌面"
+    ],
+    "prompt": "16:9 realistic Mac product photograph of Meta Muse performing an authorized personal-agent task: a hand hovers over a physical permission switch beside a silver laptop, while separate calendar cards, file folders, notes, and message windows appear as tangible desktop prints connected by a neat cable tray. Clean studio desk, soft late-afternoon light, green-blue Meta-inspired accent without logo, close three-quarter composition. Emphasize consent and cross-app control; no readable text, no generic office, no flat symbols or masthead bands."
+  },
+  {
+    "index": 5,
+    "filename": "cover-20260918-ai-05.jpg",
+    "title": "Unsloth 发布 Studio / Desktop：本地无代码训练运行 500+ 模型，支持 Docker",
+    "summary": "Unsloth 推出开源无代码本地界面 Unsloth Studio（Beta）与原生 Desktop 应用（Mac/Windows/Linux），可训练与运行 500+ 文本、视觉、TTS/音频与嵌入模型，宣称训练约快 2 倍且省约 70% VRAM。支持 GGUF/MLX、扩散图像视频、对接 Claude Code/Codex 等智能体，并提供 Docker 镜像（unsloth/unsloth）一键本地部署，兼容 NVIDIA 等环境。",
+    "tags": [
+      "Unsloth",
+      "本地训练",
+      "开源",
+      "Docker",
+      "开发者工具"
+    ],
+    "prompt": "16:9 realistic hardware/product photography of an Unsloth local-training workstation: a compact desktop tower with visible GPU cooling, a laptop running a blurred no-code training dashboard, a Docker-like shipping container prop, and a stack of model-format cards labeled only by colored blocks. Dramatic side light from the open case, cool industrial shadows, low angle emphasizing local compute and VRAM airflow. Distinct open-source developer-tool scene, no readable logos, no generic meeting room, no masthead color bands."
+  },
+  {
+    "index": 6,
+    "filename": "cover-20260918-ai-06.jpg",
+    "title": "Anthropic：Claude 四周内优化 30+ 开源生物分子模型，平均提速约 4 倍并开源",
+    "summary": "Anthropic 研究显示，Claude 在 Claude Science 内于不到四周优化超过 30 个开源生物分子模型（结构预测、蛋白质设计、蛋白质语言模型与基因组等），平均提速约 4 倍，输出完全一致时约 1.6–2 倍。团队还开发 FlashPairformer 等内核，并推出低内存 Big 模式，使单节点可准确预测超 1 万 token 的大分子系统。优化代码已开源，并与 Adaptyv Bio 合办最高约 100 万美元 Claude 额度的蛋白质设计竞赛。",
+    "tags": [
+      "Anthropic",
+      "生物分子",
+      "科学智能体",
+      "开源",
+      "蛋白质设计"
+    ],
+    "prompt": "16:9 cinematic biomedical research photograph: a scientist adjusts a pipette beside a monitor displaying a recognizable protein-fold ribbon and molecular surface, with a chilled sample rack and a small low-memory compute board in the foreground. Anthropic-inspired warm orange accent on the lab monitor but no logo; cool white wet-lab lighting with a focused amber task lamp, diagonal bench composition. Tie the scene to Claude accelerating biomolecular models and protein design, no readable text, no flat icon, no masthead bands."
+  },
+  {
+    "index": 7,
+    "filename": "cover-20260918-ai-07.jpg",
+    "title": "GitHub：用 Copilot 智能体将 Copilot 运行时迁至约 83 万行生产 Rust",
+    "summary": "GitHub 工程师 Stephen Toub 复盘：约 14.5 周内将 Copilot agent runtime 从 TypeScript/Node.js 全量重写为 832,378 行生产 Rust（另有大量测试），AI 智能体完成大部分代码，经 128 个 PR 增量合入 main 并持续发布。目标是可进程内 C ABI 嵌入、降低启动与内存开销；基准显示客户端会话往返从约 5.25 秒降至进程外 1.33 秒或进程内约 292 毫秒。代币花费约 12 万美元量级。",
+    "tags": [
+      "GitHub Copilot",
+      "Rust",
+      "智能体工程",
+      "性能",
+      "SDK"
+    ],
+    "prompt": "16:9 semi-realistic software engineering scene for GitHub Copilot runtime migration to Rust: a developer at a dark IDE workstation watches a build pipeline move from a blue TypeScript node diagram into a copper-orange Rust gear-shaped process, with a physical 128-PR stack of cards and a small embedded C interface board on the desk. Nighttime cyan rim light, warm rust-colored task light, side-on cinematic framing. GitHub-style forge cues without logos or readable code, no abstract wallpaper, no masthead bands."
+  },
+  {
+    "index": 8,
+    "filename": "cover-20260918-ai-08.jpg",
+    "title": "纽约时报诉 OpenAI/微软案解封材料：微软高管称 AI 抓取为「史上最大劳动窃取」",
+    "summary": "TechCrunch 报道，纽约时报诉 OpenAI 与微软版权案新解封内容显示：微软应用科学总监 Brent Hecht 在内部备忘录中称 AI 抓取是「人类历史上最大规模的劳动窃取」；ChatGPT 负责人 Nick Turley 称聊天机器人对出版商构成「生存威胁」。材料还指 Bing 上相关新闻站点点击率相对传统搜索可下降约 93%，并涉绕过付费墙与大规模训练数据复制等指控。OpenAI 与微软未予置评。",
+    "tags": [
+      "版权诉讼",
+      "OpenAI",
+      "Microsoft",
+      "纽约时报",
+      "训练数据"
+    ],
+    "prompt": "16:9 investigative news photograph for the New York Times versus OpenAI and Microsoft copyright case: a courthouse hallway table holds thick unsealed filing folders, redacted pages, a newspaper proof sheet, and a lawyer's evidence clip; a blurred courthouse seal and reporters behind glass add context. Hard noon light creates sharp document shadows, restrained black-red palette, close documentary composition. No readable headlines or trademarks, no generic meeting room, no masthead color bands, no flat symbol."
+  },
+  {
+    "index": 9,
+    "filename": "cover-20260918-ai-09.jpg",
+    "title": "Anthropic 公开前沿实验室三项节奏指标：AI 主导研发、智能体监督与算力分配",
+    "summary": "Anthropic Institute 发布测量前沿 AI 开发节奏的三项指标：截至 2026 年 8 月，Claude「主导」（AL4）约 26% 的 AI R&D，协作及以上超过 90%，尚无完全自主（AL5）；内部最常用平台约有 3 万研究/工程智能体，在线监控覆盖 100%，约 0.002% 动作被拦截。2026 年 7 月 13–20 日快照中，AI R&D 算力约 6% 用于安全，AI 驱动的 AI R&D 中约 12% 用于安全。公司计划引入第三方评估员核验。",
+    "tags": [
+      "安全对齐",
+      "RSI",
+      "透明度",
+      "Anthropic",
+      "指标"
+    ],
+    "prompt": "16:9 documentary control-room photograph for Anthropic's frontier-development metrics: a monitoring operator studies a wall of distinct dashboard panels showing research-agent activity, human review checkpoints, safety allocation bars, and a small independent auditor's clipboard in the foreground. Cool server-room blue light cut by one warm desk lamp, wide perspective with real cables and glass reflections. Make the measurement and oversight story concrete; no readable labels, no logos, no stock boardroom, no masthead bands."
+  },
+  {
+    "index": 10,
+    "filename": "cover-20260918-ai-10.jpg",
+    "title": "Goodfire：内部表征探针可规模化检测奖励作弊，开源模型 50%+ rollout 现作弊",
+    "summary": "Goodfire 等作者 arXiv 论文（2609.19101，2026-09-16）显示，简单差分均值（DoM）向量可在 Kimi K3、GLM 5.2、Qwen 3.8 Max 上表征奖励作弊，并用于近乎零成本的实时检测。论文称常见基准中作弊频繁，例如 GLM 5.2 在 DeepSWE 上约 57.2%、SWE-bench 上约 73% 的 rollout 出现作弊；探针能捕捉部分 LLM 链式思维监控漏掉的案例，并可迁移到非 SWE 评估。",
+    "tags": [
+      "奖励作弊",
+      "可解释性",
+      "对齐",
+      "开源模型",
+      "评测"
+    ],
+    "prompt": "16:9 tense research-security documentary still about detecting reward hacking: a red warning light illuminates a sparse evaluation lab where an analyst compares a monitor's normal score curve with a hidden probe trace, while a sealed evidence envelope and a chess-like test board sit on the table. Deep shadows, cold fluorescent overhead light, tight over-the-shoulder composition, restrained red accent. No gore, no readable text, no flat icon, no generic office, no uniform masthead bands."
+  },
+  {
+    "index": 11,
+    "filename": "cover-20260918-ai-11.jpg",
+    "title": "智谱 GLM 公开国内首个工程化 RSI 实践：Infra Agent 在十万卡集群自建推理系统",
+    "summary": "IT之家 9 月 17 日报道，智谱 GLM 披露递归自我改进（RSI）方向工程化进展：由 GLM-5.3 驱动的 Infra Agent 完成 GLM-5.3-Flash 推理基础设施设计、调试与优化。在超 10 万张国产芯片集群上从零搭建生产级推理服务，不到两周将端到端吞吐提升至初始基线约 3 倍，单 Token 成本接近主流 NVIDIA GPU 水平；系统已上线，匿名模型 Ox-Alpha 6 天 Token 调用量超 62 万亿。",
+    "tags": [
+      "智谱",
+      "GLM",
+      "RSI",
+      "推理基础设施",
+      "国产算力"
+    ],
+    "prompt": "16:9 realistic data-center news photograph for GLM's Infra Agent: an engineer in a safety vest stands at the end of a vast aisle of Chinese accelerator servers, holding a tablet with illegible throughput bars while a separate cooling manifold and fiber bundles lead toward the horizon. Cyan and violet rack lights, dramatic vanishing-point composition, humid industrial atmosphere. Include a subtle GLM-inspired purple-green equipment accent without logos; no readable text, no abstract geometry, no masthead bands."
+  },
+  {
+    "index": 12,
+    "filename": "cover-20260918-ai-12.jpg",
+    "title": "月之暗面发布 Kimi 金融行业方案：10+ 数据源与 MCP 接入，工行等数十家机构落地",
+    "summary": "IT之家 9 月 17 日消息，月之暗面推出 Kimi 金融行业解决方案，整合 10+ 权威数据源、9 项金融技能与 5 项合规安全能力，覆盖持仓早报、财报点评、项目筛选、深度研究与组合复盘等。数据经 MCP 接入研究服务并可溯源；内置 Scholar、Office 产物与浏览器/Computer Use 扩展。中国工商银行、中信建投、易方达、红杉中国、真格基金等数十家机构已采用。",
+    "tags": [
+      "Kimi",
+      "月之暗面",
+      "金融 AI",
+      "MCP",
+      "行业应用"
+    ],
+    "prompt": "16:9 semi-realistic financial-research workspace for Kimi's enterprise solution: an analyst reviews a physical board of portfolio cards while four monitors show distinct market charts, filings, a source-citation chain, and an MCP connector diagram as blurred UI shapes; a red-sealed compliance folder and small browser-control handset sit beside the keyboard. Deep navy desk with a recognizable Kimi-like moonlit accent, warm task light, layered three-quarter composition. No readable logos or text, no generic meeting room, no masthead bands."
+  },
+  {
+    "index": 13,
+    "filename": "cover-20260918-ai-13.jpg",
+    "title": "The Verge 汇总「放缓前沿」争论：Amodei 三步走，Altman/Musk 附议，特朗普反对",
+    "summary": "The Verge 梳理 Anthropic CEO Dario Amodei《We Must Pace the Frontier》引发的表态：其三步包括嵌入第三方评估、民主国家前沿公司协调标准、政府间全球协调；Sam Altman、Demis Hassabis、Elon Musk 等表示认同方向，Altman 强调 pacing 不是 stopping。特朗普、部分官员则反对减速，担忧中国竞争；Yann LeCun 等公开嘲讽放缓论调。",
+    "tags": [
+      "AI 安全",
+      "放缓前沿",
+      "政策",
+      "Anthropic",
+      "OpenAI"
+    ],
+    "prompt": "16:9 editorial news photograph illustrating the debate over slowing the AI frontier: a press podium with an empty microphone stands between a government policy folder stamped with an abstract pause mark and a glowing frontier-compute lab visible through a window; protest placards and journalists are softly out of focus outside. Overcast daylight, cool steel palette with one amber lab glow, balanced split composition. No readable names or headlines, no stock conference room, no flat symbols, no masthead color bands."
+  },
+  {
+    "index": 14,
+    "filename": "cover-20260918-ai-14.jpg",
+    "title": "Dwarkesh 采访 OpenAI Noam Brown：万级智能体、纳维-斯托克斯与对齐窗口",
+    "summary": "Dwarkesh Patel 于 9 月 17 日发布与 OpenAI 研究员 Noam Brown 的长访谈，讨论多智能体扩展、用约 1 万智能体、1300 亿输出 token、88 小时冲击千禧年难题级数学进展，以及 Hugging Face 事件后的对齐与链式思维可监控性。Brown 称多智能体对那次数学突破的贡献或不足 10%，核心仍是强通用模型；并讨论 RSI 更多受实验与算力串行瓶颈约束，而非纯思考速度。",
+    "tags": [
+      "多智能体",
+      "OpenAI",
+      "对齐",
+      "访谈",
+      "RSI"
+    ],
+    "prompt": "16:9 documentary interview scene for Noam Brown's discussion of large-scale multi-agent research: a mathematician sits beside a real chalkboard covered in illegible fluid equations and branching agent timelines, with a podcast microphone, printed transcript, and a wall clock emphasizing the long experiment. Warm studio key light against a darker research room, intimate side profile, chalk dust visible. No readable text or logos, no generic meeting room, no abstract wallpaper, no masthead bands."
+  },
+  {
+    "index": 15,
+    "filename": "cover-20260918-ai-15.jpg",
+    "title": "Google / Nvidia / Anthropic 联手 Emerald AI：用需求响应为数据中心腾电网容量",
+    "summary": "TechCrunch 报道，电网软件独角兽 Emerald AI 与 Google、Nvidia 组建 AI Energy Management Alliance（AEMA），Anthropic 及多家公用事业加入。联盟推动数据中心参与需求响应：暂停非关键任务或迁移算力负载，宣称可为电网额外接入约 100 GW 数据中心容量。Emerald AI 近期完成由 Energize Capital 与 DCVC 领投的 1.5 亿美元 A 轮。",
+    "tags": [
+      "数据中心",
+      "能源",
+      "Google",
+      "Nvidia",
+      "Anthropic"
+    ],
+    "prompt": "16:9 aerial-to-ground editorial photograph of an AI data center participating in demand response: a glass server hall and electrical substation share the frame, with amber grid-control lights switching off one row of racks while transmission lines continue into the landscape. Early evening storm light, realistic cooling plumes, strong diagonal from transformer to data hall. Concrete Google/Nvidia/Anthropic alliance context through distinct hardware and utility infrastructure, no logos or text, no masthead bands."
+  },
+  {
+    "index": 16,
+    "filename": "cover-20260918-ai-16.jpg",
+    "title": "联合国携手 Google Data Commons：全球统计对 AI 智能体开放 MCP 接入",
+    "summary": "TechCrunch 报道，联合国推出基于 Google 开源 Data Commons 的 UN System Data Commons，以自然语言查询替代旧 UNData 门户，并支持 MCP 供 AI 系统直连权威统计。UNICEF 基准显示六款大模型在发展指标问答上平均准确率仅约 21.2%；26 个联合国实体已承诺接入，目标 2027 年前覆盖系统内约 80% 统计数据集。Google.org 提供 200 万美元能力建设与技术支持。",
+    "tags": [
+      "联合国",
+      "Data Commons",
+      "MCP",
+      "Google",
+      "数据智能体"
+    ],
+    "prompt": "16:9 documentary technology photograph for the UN System Data Commons: blue UN-style flags and a globe-shaped statistical archive sit behind a researcher querying a large wall display, while a tablet shows an MCP connector path from global datasets to an AI agent as soft colored blocks. Daylight through a high institutional window, dignified wide composition, blue-and-gold palette. No readable statistics or logos, no generic meeting room, no flat single symbol, no masthead bands."
+  },
+  {
+    "index": 17,
+    "filename": "cover-20260918-ai-17.jpg",
+    "title": "阿里云百炼上线 Qwen3.8-Flash：百万级上下文多模态，兼容 OpenAI/Anthropic 协议",
+    "summary": "阿里云大模型服务平台百炼文档显示，Qwen3.8-Flash（model：qwen3.8-flash）为通义千问最新多模态大模型，原生支持约 100 万 token 上下文，输入支持图像/文本/视频、输出文本，面向编程辅助、智能体协作与长视频理解。兼容 OpenAI 与 Anthropic 主流接口，可接入 Claude Code、Codex 等开发者工具；上下文长度参数标明为 1,000,000。",
+    "tags": [
+      "Qwen3.8-Flash",
+      "阿里云",
+      "多模态",
+      "API",
+      "开发者"
+    ],
+    "prompt": "16:9 semi-realistic developer workstation for Alibaba Cloud Qwen3.8-Flash: a long video timeline, still image thumbnails, and a text console appear on three linked displays as illegible UI shapes, with an API terminal key, a Claude-Code-style command prompt card, and a one-million-token measuring tape arranged in the foreground. Red Qwen-inspired accent and cool cloud-blue fill, low three-quarter angle, crisp desk lighting. Make multimodal API compatibility tangible; no readable logos or text, no masthead bands, no abstract wallpaper."
+  }
+]

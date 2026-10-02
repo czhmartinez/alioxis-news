@@ -1,0 +1,39 @@
+Alioxis News 大V视野 scrape report — 2026-10-01 (Asia/Taipei)
+
+login_confirmed: yes
+account_seen: zihan chen (@zihanch71347739)
+profile_timeline_access: yes
+unique_ai_posts: 13
+new_posts_this_pass: 6
+requested_range: ~12-20
+status IDs skipped as duplicates from 2026-09-30/v.json: 0
+new posts overlapping user-provided do-not-duplicate list: 0 (the existing 7 were retained, as requested)
+
+Counts by handle (combined v.json):
+- @zaobaosg: 2
+- @higgsfield: 1
+- @nanyuan0412: 2
+- @firecrawl: 1
+- @laoyingkhq: 1
+- @Khazix0918: 1
+- @MaxForAI: 2
+- @xiaohu: 1
+- @testingcatalog: 2
+
+Profiles visited in this pass:
+- @Khazix0918 (卡兹克): 1 qualifying post
+- @MaxForAI: 2 qualifying posts
+- @xiaohu: 1 qualifying post
+- @testingcatalog: 2 qualifying posts
+
+Profiles not visited after target was reached: @ChineseWSJ, @dashiAIxz, @zaobaosg. The target range was reached at 13 total; no posts were fabricated.
+
+New status IDs:
+- 2105299706549096697 https://x.com/Khazix0918/status/2105299706549096697
+- 2105315714068554061 https://x.com/MaxForAI/status/2105315714068554061
+- 2105128392379322752 https://x.com/MaxForAI/status/2105128392379322752
+- 2105198581238095967 https://x.com/xiaohu/status/2105198581238095967
+- 2105434023392620830 https://x.com/testingcatalog/status/2105434023392620830
+- 2105398680282861879 https://x.com/testingcatalog/status/2105398680282861879
+
+All six new posts were visibly present on the visited profile timelines, were AI-related, and were within roughly the requested 24–48-hour window based on X's relative timestamps. published_at values are approximate reconstructions from the visible relative times and the task timestamp.

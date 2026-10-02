@@ -1,0 +1,33 @@
+Alioxis News 大V视野 — 2026-09-28
+item_count: 14
+Following confirmed; X API credits $0; browser scrape + profile fallback.
+Skipped yesterday duplicates: Khazix Opus 6h rewrite (2103907235604955321), Wan3 Rome diary (2103914176045359602).
+Handles: @Khazix0918 2, @MaxForAI 2, @xiaohu 2, @dashiAIxz 2, @gefei55 1, @nanyuan0412 1, @Svwang1 1, @testingcatalog 1, @0kncn 2
+1. 卡兹克：比重构屎山更高效——蒸馏功能文档后用最新模型原地重写
+   https://x.com/Khazix0918/status/2104129415433363628
+2. 卡兹克：折腾后已把 Claude Opus 5.5「搞回来」——模型太好无法无视
+   https://x.com/Khazix0918/status/2103908372785623495
+3. Max for AI：未来几年有价值的 Agent 只剩清算所与 Personal Agent
+   https://x.com/MaxForAI/status/2104210057735069774
+4. Max for AI：国庆前三天没放假可考虑来 LobeHub
+   https://x.com/MaxForAI/status/2104249776028242164
+5. 小互：Kling 预告要发新模型
+   https://x.com/xiaohu/status/2104331769097134164
+6. 小互：用 /checkup prompt-audit 整理 Claude.md 与技能
+   https://x.com/xiaohu/status/2104032431212998998
+7. 大师的AI小灶：提示词站大量整理 Opus 5.5 视频案例
+   https://x.com/dashiAIxz/status/2103867261450895496
+8. 哥飞转发歸藏：Opus 5.5 游戏动效与抽卡动画提示词
+   https://x.com/gefei55/status/2104090770374602924
+9. 大师的AI小灶：Opus 5.5 作品已有「中国奇谭」质感
+   https://x.com/dashiAIxz/status/2104051369351197167
+10. 南鸢：把摄影布光写成 AI 能用的短提示词模板
+   https://x.com/nanyuan0412/status/2104364396809953390
+11. 硅谷王川：让刺破 AI 泡沫的加息风暴来得更猛烈些吧
+   https://x.com/Svwang1/status/2104347860259193282
+12. TestingCatalog：Muse 用户将可接管网页浏览器；语音模式改通话控件
+   https://x.com/testingcatalog/status/2104305709966119004
+13. Okan Can：AI 短片——联邦调查局突袭派对与失控尺度变化
+   https://x.com/0kncn/status/2104268244949610942
+14. Okan Can：Wan 3 罗马旅行 vlog 提示词（保留同一出镜者身份）
+   https://x.com/0kncn/status/2103914178452824488

@@ -1,0 +1,7 @@
+logged in: yes (account navigation and profile visible)
+Following tab confirmed: yes (正在关注 selected on /home)
+scroll count: 4 on Following timeline
+fallback profile visits: https://x.com/xiaohu; https://x.com/MaxForAI; https://x.com/Khazix0918
+post count: 12
+handle breakdown: @xiaohu 8; @MaxForAI 1; @Khazix0918 2; @zaobaosg 1
+notes: Browser-only scrape; no X API used. Captured visible post text only; truncated posts retain only visible text. Following timeline was initially mostly news/non-AI, so fallback profiles supplied most AI posts. One @xiaohu post is labeled 9月8日 and is near the requested 1–2 day boundary.

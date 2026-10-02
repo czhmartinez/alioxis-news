@@ -1,0 +1,7 @@
+Alioxis News AI collect report — 2026-09-11 (Asia/Taipei)
+Item count: 18
+AIHOT included: YES — https://aihot.virxact.com/daily/2026-09-11
+All image fields: empty string ""
+Sources: AIHOT, DeepSeek official+API docs+HF, THE DECODER, OpenAI Agents/Live/Data, TechCrunch/CNBC/POLITICO Anthropic, Google Pics, Variety/Pexo Suno, ClickHouse, Cursor subagents docs, XDA
+X API credits: $0.00 — skipped billed X calls for AI tab
+Blockers: none for AI tab

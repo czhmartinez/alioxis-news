@@ -1,0 +1,146 @@
+[
+  {
+    "handle": "ChineseWSJ",
+    "display_name": "华尔街日报中文网",
+    "text": "#独家 OpenAI宣布，因研究人员在内部测试中提出安全担忧，公司将取消发布下一代AI模型。新模型GPT-6.1 Astra原计划10月亮相。这是迄今最清晰的迹象之一，表明AI智能体的不当行为可能会阻碍该行业的快速发展。",
+    "url": "https://x.com/ChineseWSJ/status/2104722851248963990",
+    "published_at_local": "2026-09-29 ~08:00 Asia/Taipei (18分钟前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "xiaohu",
+    "display_name": "小互",
+    "text": "OpenAI 预告 Dev day 将有 20 个新东西发布。看预告视频应该主打的是 GPT Bot…也就是之前传说中的个人 Agent :o",
+    "url": "https://x.com/xiaohu/status/2104721207396544930",
+    "published_at_local": "2026-09-29 ~07:52 Asia/Taipei (24分钟前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "zaobaosg",
+    "display_name": "联合早报 Lianhe Zaobao",
+    "text": "微软联合创始人比尔·盖茨呼吁美国国会立法监管人工智能（AI），警告AI的能力足以引发造成10亿人死亡的事件。他说，AI发展太快，单靠科技公司自我约束，已不足以应对潜在风险。",
+    "url": "https://x.com/zaobaosg/status/2104708273580466594",
+    "published_at_local": "2026-09-29 ~07:16 Asia/Taipei (1小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "zaobaosg",
+    "display_name": "联合早报 Lianhe Zaobao",
+    "text": "得益于人工智能（AI）相关需求的强劲带动，新加坡8月整体制造业产值同比增长15.4%；若剔除生物医药制造业，产值同比增长17%。",
+    "url": "https://x.com/zaobaosg/status/2104497016067727388",
+    "published_at_local": "2026-09-28 ~17:16 Asia/Taipei (15小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "一次没有，Opus 5.5 Max",
+    "url": "https://x.com/Khazix0918/status/2104605317128671537",
+    "published_at_local": "2026-09-29 ~00:16 Asia/Taipei (8小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "下午切换以后，有一些缓存这块的的bug，最快速度修好了= =",
+    "url": "https://x.com/Khazix0918/status/2104563941322174935",
+    "published_at_local": "2026-09-28 ~22:16 Asia/Taipei (10小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "实测，1个200刀的Codex+1个100刀的Claude足以覆盖，还绰绰有余。",
+    "url": "https://x.com/Khazix0918/status/2104561159236120822",
+    "published_at_local": "2026-09-28 ~21:16 Asia/Taipei (11小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "被很多专业者骂了，但是在折腾了3天以后，AIHOT最终还是重写完然后上线了。。。我觉得还是可以分享一下我全部跟AI协同的流程，万一对其他人有用呢（当然我就是个纯外行，仅供参考）：1. 使用Claude Opus 5.5和GPT-6",
+    "url": "https://x.com/Khazix0918/status/2104555128691073505",
+    "published_at_local": "2026-09-28 ~21:16 Asia/Taipei (11小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "MaxForAI",
+    "display_name": "Max For AI",
+    "text": "那我先来（回复 @JnuoBoy）",
+    "url": "https://x.com/MaxForAI/status/2104621775825051973",
+    "published_at_local": "2026-09-29 ~01:16 Asia/Taipei (7小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "MaxForAI",
+    "display_name": "Max For AI",
+    "text": "这是一个loenly的问题（回复 @Lonely__MH）",
+    "url": "https://x.com/MaxForAI/status/2104621747878416471",
+    "published_at_local": "2026-09-29 ~01:16 Asia/Taipei (7小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "MaxForAI",
+    "display_name": "Max For AI",
+    "text": "转述/讨论 ManusAI：新产品的Cue这个可以花一美元买电话号码的功能太牛逼了，就冲着这个，它就会有一大堆长期续费的用户。",
+    "url": "https://x.com/MaxForAI/status/2104620904584200697",
+    "published_at_local": "2026-09-29 ~01:16 Asia/Taipei (7小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "MaxForAI",
+    "display_name": "Max For AI",
+    "text": "查看在对话中的用户。不算吧，他算第二代agent的开创者（回复 @wumao748 / @ManusAI）",
+    "url": "https://x.com/MaxForAI/status/2104620343659044884",
+    "published_at_local": "2026-09-29 ~01:16 Asia/Taipei (7小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "MaxForAI",
+    "display_name": "Max For AI",
+    "text": "阿里、腾讯、字节都在拼命做（或者蹭）对标Muse的Personal Agent。结果目前看做的最好的是Manus2.0的Cue。。。。。",
+    "url": "https://x.com/MaxForAI/status/2104609487462220015",
+    "published_at_local": "2026-09-29 ~01:16 Asia/Taipei (7小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "testingcatalog",
+    "display_name": "🚨 AI News | TestingCatalog",
+    "text": "OPENAI 🔥：即将到来的 DevDay 会议的关键见解。* 此议程尚未公开。首先，OpenAI 将在 Codex 内部构建平台功能，让用户能够从专属的 DevDay 页面直接开发插件、代理和应用，这相当酷！议程亮点：Claw Labs（加入 Peter Steinberger，一起看看代理如何改变开源团队的构建方式）；Codex Game Studio（什么让游戏对人类来说容易但对 AI 来说困难？）；用永不放弃的编码代理，从一个花费超过 1,000 小时保持大型共享代码库构建和测试通过的 Codex 运行中学习；Codex 已离开笔记本电脑；用 Codex 从单人游戏到多人游戏；以及循环之后是什么？代理架构深度剖析。",
+    "url": "https://x.com/testingcatalog/status/2104715471841034537",
+    "published_at_local": "2026-09-29 ~07:30 Asia/Taipei (约54分钟前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "dashiAIxz",
+    "display_name": "大师的AI小灶",
+    "text": "Claude Sonnet 5.5 发布了。简单总结就是：在不涨价甚至更便宜的情况下，响应更快、写作和设计更顺手，对代码和工具使用能力有大提升，同时安全策略升级到接近旗舰 Opus 级别。详细描述：综合能力非常接近 Opus 5.5，但推理速度快 30%+，成本也降低 30%。",
+    "url": "https://x.com/dashiAIxz/status/2104642472060326103",
+    "published_at_local": "2026-09-29 ~03:24 Asia/Taipei (约5小时前)",
+    "is_repost": false,
+    "ai_relevant": true
+  },
+  {
+    "handle": "Khazix0918",
+    "display_name": "数字生命卡兹克",
+    "text": "在重写完之后，做了一个小小的决定。这个月活百万的AI热点站 AIHOT，正式开源了。AIHOT网址：aihot.news；开源地址：github.com/KKKKhazix/AIHOT。采集流程、精选评分、聚簇机制，连生产环境里的全部Prompt，能开源的都开源给大家了。",
+    "url": "https://x.com/Khazix0918/status/2104729276952277239",
+    "published_at_local": "2026-09-29 ~08:23 Asia/Taipei (约1分钟前)",
+    "is_repost": false,
+    "ai_relevant": true
+  }
+]

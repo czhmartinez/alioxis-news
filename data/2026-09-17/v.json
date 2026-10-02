@@ -1,0 +1,201 @@
+[
+  {
+    "title": "Tibo：Sam Altman延期发布新产品",
+    "summary": "有时候物理定律无法被规避。Sam Altman：我最期待的这个星期推出的事情要推迟到下周了，但在我看来，值得等待！",
+    "url": "https://x.com/thsottiaux/status/2100363668051603608",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20260917-v-00.jpg",
+    "published_at": "2026-09-16T16:18:00+08:00",
+    "tags": [
+      "AI",
+      "OpenAI",
+      "Sam Altman"
+    ]
+  },
+  {
+    "title": "Max for AI：墨西哥AI硬件出口报道原文",
+    "summary": "原文链接卡片：Exclusive | U.S. Pressures Mexico to Box Out China’s AI Hardware Exports",
+    "url": "https://x.com/MaxForAI/status/2100233272441881054",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260917-v-01.jpg",
+    "published_at": "2026-09-16T07:40:00+08:00",
+    "tags": [
+      "AI",
+      "硬件",
+      "出口管制"
+    ]
+  },
+  {
+    "title": "Max for AI：美国严查AI服务器产地",
+    "summary": "美国政府开始严查美国AI服务器产地。9月15日，《华尔街日报》报道，美国政府正在施压墨西哥，希望修改USMCA的贸易规则：未来墨西哥生产的AI服务器、芯片等硬件，如果想继续以较低甚至零关税进入美国，可能必须使用更多来自美国、墨西哥和加拿大的零部件。",
+    "url": "https://x.com/MaxForAI/status/2100233218670923832",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260917-v-02.jpg",
+    "published_at": "2026-09-16T07:39:00+08:00",
+    "tags": [
+      "AI",
+      "服务器",
+      "芯片",
+      "供应链"
+    ]
+  },
+  {
+    "title": "小互：Typeless免费额度被砍",
+    "summary": "Typeless 今天宣布降低免费用户的额度，一周免费额度从8K砍到2K，引发大量用户吐槽。目前基本模型厂商都有自己的语言输入了，包括Codex和Claude；国内的有微信输入法、豆包语音输入、千问输入法、网易叭哥说，都是可替代的产品。",
+    "url": "https://x.com/xiaohu/status/2100227001819029905",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260917-v-03.jpg",
+    "published_at": "2026-09-16T07:15:00+08:00",
+    "tags": [
+      "AI",
+      "输入法",
+      "产品"
+    ]
+  },
+  {
+    "title": "小互：Typeless面临模型和硬件竞争",
+    "summary": "虽然Typeless在用户体验上有一点优势，但是感觉完全是处在被模型覆盖的赛道上，甚至还有一些智能硬件也会抢它的生意，而且这些优势是很容易被这些大厂去磨平。",
+    "url": "https://x.com/xiaohu/status/2100227005409366239",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260917-v-04.jpg",
+    "published_at": "2026-09-16T07:15:00+08:00",
+    "tags": [
+      "AI",
+      "输入法",
+      "竞争"
+    ]
+  },
+  {
+    "title": "卡兹克：豆包手机助手回归",
+    "summary": "在折腾9个月后，手机Agent的王者，豆包手机助手它回来了。终于，憋了很久很久很久的努比亚发布会，在下午，终于开完了。",
+    "url": "https://x.com/Khazix0918/status/2100164740961939701",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260917-v-05.jpg",
+    "published_at": "2026-09-16T03:07:00+08:00",
+    "tags": [
+      "AI",
+      "Agent",
+      "手机"
+    ]
+  },
+  {
+    "title": "小互：AI编程时代产品经理还剩什么",
+    "summary": "当 AI 能自己编写代码开发产品的时候，产品经理还剩下什么？随着大模型和辅助编程工具的普及，开发软件原型的门槛被大幅拉低。a16z 的 Josh Elman 对此给出了截然相反的判断。",
+    "url": "https://x.com/xiaohu/status/2100161282926407821",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260917-v-06.jpg",
+    "published_at": "2026-09-16T02:54:00+08:00",
+    "tags": [
+      "AI",
+      "编程",
+      "产品经理"
+    ]
+  },
+  {
+    "title": "联合早报：美国众议长称不能暂停AI发展",
+    "summary": "美国众议院议长约翰逊星期二（9月15日）说，不能暂停人工智能（AI）发展，否则美国将失去相对于中国的竞争优势。他还称，AI企业有能力进行自我监管。",
+    "url": "https://x.com/zaobaosg/status/2100009445098930372",
+    "source": "联合早报 Lianhe Zaobao",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20260917-v-07.jpg",
+    "published_at": "2026-09-15T16:50:00+08:00",
+    "tags": [
+      "AI",
+      "政策",
+      "中美竞争"
+    ]
+  },
+  {
+    "title": "华尔街日报中文网：美国施压墨西哥限制AI硬件",
+    "summary": "熟悉谈判情况的人士透露，美国政府正向墨西哥官员施压，要求其接受AI硬件出口新规，以堵住中国公司和其他外国企业规避关税的漏洞。",
+    "url": "https://x.com/ChineseWSJ/status/2100008028548276655",
+    "source": "华尔街日报中文网",
+    "source_handle": "@ChineseWSJ",
+    "image": "/assets/covers/cover-20260917-v-08.jpg",
+    "published_at": "2026-09-15T16:45:00+08:00",
+    "tags": [
+      "AI",
+      "芯片",
+      "出口管制"
+    ]
+  },
+  {
+    "title": "卡兹克：GPT额度切换技巧",
+    "summary": "我重新开了一个号，把额度用完了，再回去用老号，就都好了。。。",
+    "url": "https://x.com/Khazix0918/status/2099884067676422396",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260917-v-09.jpg",
+    "published_at": "2026-09-15T08:32:00+08:00",
+    "tags": [
+      "AI",
+      "GPT",
+      "使用技巧"
+    ]
+  },
+  {
+    "title": "卡兹克：GPT质量与成本消耗",
+    "summary": "没有啊，我一切正常，整体质量还是比GPT-5.6 Sol高太多了，除了消耗太高了，这两天我基本一天一个200刀的账号，所以为了省钱，才想出了这种邪修一点的方法",
+    "url": "https://x.com/Khazix0918/status/2099875421659726031",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260917-v-10.jpg",
+    "published_at": "2026-09-15T07:58:00+08:00",
+    "tags": [
+      "AI",
+      "GPT",
+      "模型对比"
+    ]
+  },
+  {
+    "title": "卡兹克：MCP回测分析方法",
+    "summary": "我这个方法没有桥接，就是正常的通过MCP的数据量大一点的回测分析，不可能收邮件的。。。这已经正规的不能再正规了。",
+    "url": "https://x.com/Khazix0918/status/2099874776693219336",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260917-v-11.jpg",
+    "published_at": "2026-09-15T07:55:00+08:00",
+    "tags": [
+      "AI",
+      "MCP",
+      "自动化"
+    ]
+  },
+  {
+    "title": "卡兹克：GPT-6 Pro结合MCP榨干ChatGPT额度",
+    "summary": "网页聊天版的GPT-6 Pro在规划层面还是太强了，而且不消耗Codex额度，于是为了榨干200刀的ChatGPT额度，还有这个神级模型GPT-6 Pro，我想了一个办法。我直接把我服务器的所有的日志、事件记录，还有所有的数据表等等的只读权限，封装成了一个用我自己飞书进行登录验证的MCP，然后再封装成了插件，上传到了ChatGPT上。于是我就可以实现，在网页版聊天里面的GPT-6 Pro，通过这个服务器的MCP只读插件，来读取我服务器上面的所有的历史数据，通过Github的插件，还可以读取我GitHub上所有的PR记录和代码。",
+    "url": "https://x.com/Khazix0918/status/2099873865988247870",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260917-v-12.jpg",
+    "published_at": "2026-09-15T07:51:00+08:00",
+    "tags": [
+      "AI",
+      "GPT-6",
+      "MCP",
+      "Codex"
+    ]
+  },
+  {
+    "title": "卡兹克：飞书推出团队Agent",
+    "summary": "国内第一个为团队而生的Agent，果然还是在飞书里面来了。可见引用：Claude 介绍 Claude Tag，这是团队与 Claude 协作的全新方式。",
+    "url": "https://x.com/Khazix0918/status/2099728860015431750",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260917-v-13.jpg",
+    "published_at": "2026-09-14T22:15:00+08:00",
+    "tags": [
+      "AI",
+      "Agent",
+      "飞书",
+      "Claude"
+    ]
+  }
+]

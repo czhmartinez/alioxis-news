@@ -1,0 +1,7 @@
+logged in: yes (zihan chen account visible)
+Following tab confirmed: yes (正在关注 selected on https://x.com/home)
+scroll count: 3 feed scrolls on Following timeline
+fallback profiles visited: https://x.com/MaxForAI, https://x.com/xiaohu, https://x.com/Khazix0918
+post count: 13
+handle breakdown: @MaxForAI 7; @xiaohu 4; @Khazix0918 2
+notes: Following feed was sparse for AI content (visible items were largely non-AI news), so the three requested fallback profiles were used. All records are from visibly rendered text on X; visible truncation/ellipsis was retained where present. No posts were invented. Dates/times are recorded as shown or converted to +08:00 ISO where an exact timestamp was visible.

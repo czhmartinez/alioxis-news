@@ -1,0 +1,86 @@
+[
+  {
+    "idx": 0,
+    "prompt": "Split-screen editorial still: left a starlit coding desk, right an open-weight MoE lattice sculpture, both score sparklines equal height, cool vs warm light, no logos no text, 16:9",
+    "out": "cover-20260922-v-00.jpg",
+    "title": "Max：Grok 4.7 与 MiMo-V2.6 Pro 跑分相同"
+  },
+  {
+    "idx": 1,
+    "prompt": "Documentary: recursive mirror corridor of neural lattices refining themselves, Xiaomi-silver accent reflections, cyan glow, no logos, 16:9",
+    "out": "cover-20260922-v-01.jpg",
+    "title": "Max：小米 MiMo-V2.6 开源并引入递归自我改进"
+  },
+  {
+    "idx": 2,
+    "prompt": "Photojournalism trading floor mood: rising candlestick holograms over anonymous desks, blue LED ticker blur, bullish energy, no readable tickers or logos, 16:9",
+    "out": "cover-20260922-v-02.jpg",
+    "title": "华尔街日报：AI押注热潮助推纳指创新高"
+  },
+  {
+    "idx": 3,
+    "prompt": "Documentary open-plan office at dusk: empty cubicles with AI-agent holograms sitting in chairs, half the desks packed into boxes, sombre cool light, no logos, 16:9",
+    "out": "cover-20260922-v-03.jpg",
+    "title": "华尔街日报：AI正在颠覆白领职业优势"
+  },
+  {
+    "idx": 4,
+    "prompt": "Editorial duel still life: two opposing props on a mahogany table — a safety lock and a glowing GPU wafer — dramatic side light, no faces no logos, 16:9",
+    "out": "cover-20260922-v-04.jpg",
+    "title": "华尔街日报：阿莫迪与黄仁勋的AI路线之争"
+  },
+  {
+    "idx": 5,
+    "prompt": "Half-realistic 3D artist desk: sculpted clay bust next to a node-graph agent feeding a rotating mesh preview, stylus, unique props, soft daylight, no UI text no logos, 16:9",
+    "out": "cover-20260922-v-05.jpg",
+    "title": "小互：Hyper3D 推出 Agent-Ready 3D 工作流"
+  },
+  {
+    "idx": 6,
+    "prompt": "Half-realistic guide desk: open notebook with sketched evaluation checkboxes beside a laptop showing abstract multiple-choice vs open-task split, lamp light, no readable brand, 16:9",
+    "out": "cover-20260922-v-06.jpg",
+    "title": "小互：Jev 使用指南"
+  },
+  {
+    "idx": 7,
+    "prompt": "Cinematic creative studio: vertical phone frame propped on desk playing colorful short-drama storyboard cards fanned out, soft purple gel light, no logos no readable titles, 16:9",
+    "out": "cover-20260922-v-07.jpg",
+    "title": "小互：BytePlus 发布 AI 短剧平台 Dramagic"
+  },
+  {
+    "idx": 8,
+    "prompt": "Documentary reading desk at dawn: thick technical report open to abstract architecture diagrams, highlighter, coffee, warm lamp, no readable equations as overlays, 16:9",
+    "out": "cover-20260922-v-08.jpg",
+    "title": "卡兹克：MiMo-V2.6 技术报告值得学习"
+  },
+  {
+    "idx": 9,
+    "prompt": "Half-realistic localization war room: dual-monitor subtitle timeline with colored dialogue bars, sticky notes in two languages (blurred), late-night desk lamp, unique props, no logos, 16:9",
+    "out": "cover-20260922-v-09.jpg",
+    "title": "卡兹克：汉化组可能最不怕AI冲击"
+  },
+  {
+    "idx": 10,
+    "prompt": "Creative AI video studio: multi-artist desks surrounding a shared generative timeline wall with surreal morphing frames soft focus, neon accents, no logos no readable UI, 16:9",
+    "out": "cover-20260922-v-10.jpg",
+    "title": "Higgsfield：Genjutsu 扩展团队混合创作"
+  },
+  {
+    "idx": 11,
+    "prompt": "Half-realistic knowledge-work desk: Claude-style terminal (generic dark theme) pushed aside for calendars, docs, and research tabs, coffee, sticky 'beyond code' note (illegible), warm light, no logos, 16:9",
+    "out": "cover-20260922-v-11.jpg",
+    "title": "あいえる：不要只用 Claude Code 写代码"
+  },
+  {
+    "idx": 12,
+    "prompt": "Half-realistic automation cockpit: agent terminal orchestrating email, calendar, and browser windows in a neat cascade, standing desk, cool daylight, no brand marks, 16:9",
+    "out": "cover-20260922-v-12.jpg",
+    "title": "あいえる：Claude Code 可接管完整工作流"
+  },
+  {
+    "idx": 13,
+    "prompt": "Documentary side-hustle desk: laptop with workflow canvas, small cash envelope and invoice stamp props, evening window light, hopeful mood, no logos no readable amounts, 16:9",
+    "out": "cover-20260922-v-13.jpg",
+    "title": "あいえる：用 Claude 将 AI 工作流做成收入"
+  }
+]

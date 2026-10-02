@@ -1,0 +1,200 @@
+[
+  {
+    "kind": "ai",
+    "index": 0,
+    "style": "editorial",
+    "filename_png": "cover-20260912-ai-00.png",
+    "filename_jpg": "cover-20260912-ai-00.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-00.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: 卡兹克 AIHOT 日报（2026-09-12）：Anthropic 威胁报告与 DeepSeek V4.1 Flash 实测. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "卡兹克 AIHOT 日报（2026-09-12）：Anthropic 威胁报告与 DeepSeek V4.1 Flash 实测"
+  },
+  {
+    "kind": "ai",
+    "index": 1,
+    "style": "hardware",
+    "filename_png": "cover-20260912-ai-01.png",
+    "filename_jpg": "cover-20260912-ai-01.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-01.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic product/hardware photography of AI computing infrastructure — GPUs, server racks or chip packaging on a clean dark studio backdrop, shallow depth of field, no text no logos. Mood related to: 路透：英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "路透：英伟达洽谈以基石投资者身份参与 Anthropic IPO，投资至多 100 亿美元"
+  },
+  {
+    "kind": "ai",
+    "index": 2,
+    "style": "editorial",
+    "filename_png": "cover-20260912-ai-02.png",
+    "filename_jpg": "cover-20260912-ai-02.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-02.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: THE DECODER：Anthropic 威胁报告——Claude 被用于导弹、无人机蜂群与大规模蒸馏. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "THE DECODER：Anthropic 威胁报告——Claude 被用于导弹、无人机蜂群与大规模蒸馏"
+  },
+  {
+    "kind": "ai",
+    "index": 3,
+    "style": "editorial",
+    "filename_png": "cover-20260912-ai-03.png",
+    "filename_jpg": "cover-20260912-ai-03.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-03.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: CNBC：Anthropic 与 OpenAI 对递归自我改进（RSI）的「存在性」担忧升温. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "CNBC：Anthropic 与 OpenAI 对递归自我改进（RSI）的「存在性」担忧升温"
+  },
+  {
+    "kind": "ai",
+    "index": 4,
+    "style": "scene",
+    "filename_png": "cover-20260912-ai-04.png",
+    "filename_jpg": "cover-20260912-ai-04.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-04.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: DeepSeek 发布 V4.1-Flash：552B MoE、原生多模态，API 同步降价. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "DeepSeek 发布 V4.1-Flash：552B MoE、原生多模态，API 同步降价"
+  },
+  {
+    "kind": "ai",
+    "index": 5,
+    "style": "scene",
+    "filename_png": "cover-20260912-ai-05.png",
+    "filename_jpg": "cover-20260912-ai-05.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-05.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: MarkTechPost：V4.1-Flash 亮点——1M 上下文、FP4 KV 与跨层注意力复用. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "MarkTechPost：V4.1-Flash 亮点——1M 上下文、FP4 KV 与跨层注意力复用"
+  },
+  {
+    "kind": "ai",
+    "index": 6,
+    "style": "hardware",
+    "filename_png": "cover-20260912-ai-06.png",
+    "filename_jpg": "cover-20260912-ai-06.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-06.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic product/hardware photography of AI computing infrastructure — GPUs, server racks or chip packaging on a clean dark studio backdrop, shallow depth of field, no text no logos. Mood related to: OpenAI：Habitat 存储平台如何支撑超 10 亿 ChatGPT 用户（上篇）. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "OpenAI：Habitat 存储平台如何支撑超 10 亿 ChatGPT 用户（上篇）"
+  },
+  {
+    "kind": "ai",
+    "index": 7,
+    "style": "scene",
+    "filename_png": "cover-20260912-ai-07.png",
+    "filename_jpg": "cover-20260912-ai-07.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-07.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: OpenRouter 发布 Fusion：多模型并行辩论后由 judge 合成最终答案. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "OpenRouter 发布 Fusion：多模型并行辩论后由 judge 合成最终答案"
+  },
+  {
+    "kind": "ai",
+    "index": 8,
+    "style": "scene",
+    "filename_png": "cover-20260912-ai-08.png",
+    "filename_jpg": "cover-20260912-ai-08.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-08.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: Cursor 推出 Projects：协调者智能体管理数千子智能体做大型开发. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "Cursor 推出 Projects：协调者智能体管理数千子智能体做大型开发"
+  },
+  {
+    "kind": "ai",
+    "index": 9,
+    "style": "scene",
+    "filename_png": "cover-20260912-ai-09.png",
+    "filename_jpg": "cover-20260912-ai-09.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-09.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: OpenAI 发布 Agents API：托管 Codex harness 一键起云端 Agent. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "OpenAI 发布 Agents API：托管 Codex harness 一键起云端 Agent"
+  },
+  {
+    "kind": "ai",
+    "index": 10,
+    "style": "scene",
+    "filename_png": "cover-20260912-ai-10.png",
+    "filename_jpg": "cover-20260912-ai-10.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-10.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: OpenAI Dev：API 开放 GPT-Live-1 全双工语音模型. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "OpenAI Dev：API 开放 GPT-Live-1 全双工语音模型"
+  },
+  {
+    "kind": "ai",
+    "index": 11,
+    "style": "scene",
+    "filename_png": "cover-20260912-ai-11.png",
+    "filename_jpg": "cover-20260912-ai-11.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-11.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: GitHub：日韩营销负责人用 Copilot 把活动运营自动化成「Ops as Code」. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "GitHub：日韩营销负责人用 Copilot 把活动运营自动化成「Ops as Code」"
+  },
+  {
+    "kind": "ai",
+    "index": 12,
+    "style": "lab",
+    "filename_png": "cover-20260912-ai-12.png",
+    "filename_jpg": "cover-20260912-ai-12.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-12.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary lab/research photography: researcher desk with monitors showing abstract neural-net visuals (illegible), cool ambient light, no text no logos. Mood related to: Dwarkesh：Millidge、Schulman、O'Neill 对谈递归自我改进还有多远. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "Dwarkesh：Millidge、Schulman、O'Neill 对谈递归自我改进还有多远"
+  },
+  {
+    "kind": "ai",
+    "index": 13,
+    "style": "editorial",
+    "filename_png": "cover-20260912-ai-13.png",
+    "filename_jpg": "cover-20260912-ai-13.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-13.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: CNBC：Mistral 获三星领投融资，估值约 240 亿美元. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "CNBC：Mistral 获三星领投融资，估值约 240 亿美元"
+  },
+  {
+    "kind": "ai",
+    "index": 14,
+    "style": "hardware",
+    "filename_png": "cover-20260912-ai-14.png",
+    "filename_jpg": "cover-20260912-ai-14.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-14.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic product/hardware photography of AI computing infrastructure — GPUs, server racks or chip packaging on a clean dark studio backdrop, shallow depth of field, no text no logos. Mood related to: 路透：谷歌两年在芬兰砸约 150 亿美元扩建 AI 基础设施并采购核电. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "路透：谷歌两年在芬兰砸约 150 亿美元扩建 AI 基础设施并采购核电"
+  },
+  {
+    "kind": "ai",
+    "index": 15,
+    "style": "editorial",
+    "filename_png": "cover-20260912-ai-15.png",
+    "filename_jpg": "cover-20260912-ai-15.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-15.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: CNBC：Anthropic 研究员离职警告实验室在「拿生命赌博」. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "CNBC：Anthropic 研究员离职警告实验室在「拿生命赌博」"
+  },
+  {
+    "kind": "ai",
+    "index": 16,
+    "style": "scene",
+    "filename_png": "cover-20260912-ai-16.png",
+    "filename_jpg": "cover-20260912-ai-16.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-16.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: Atoms：DeepSeek V4.1 Flash 架构、计价与相对 V4 Pro 的迁移说明. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "Atoms：DeepSeek V4.1 Flash 架构、计价与相对 V4 Pro 的迁移说明"
+  },
+  {
+    "kind": "ai",
+    "index": 17,
+    "style": "scene",
+    "filename_png": "cover-20260912-ai-17.png",
+    "filename_jpg": "cover-20260912-ai-17.jpg",
+    "image_path": "/assets/covers/cover-20260912-ai-17.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: 实测解读：DeepSeek V4.1 Flash 降价与原生视觉表现. Magazine cover 16:9, cinematic, high detail, no readable text, no watermarks, no logos.",
+    "title": "实测解读：DeepSeek V4.1 Flash 降价与原生视觉表现"
+  }
+]

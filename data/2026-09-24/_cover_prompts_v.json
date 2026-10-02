@@ -1,0 +1,114 @@
+[
+  {
+    "idx": 0,
+    "filename": "v-00.png",
+    "jpg": "cover-20260924-v-00.jpg",
+    "title": "AI低价笔记也能稳定月入5万日元",
+    "prompt": "Warm lifestyle desk photo: a Japanese notebook tablet showing a note-store card grid, a jar of yen coins, soft morning kitchen light, indie creator vibe, no readable text, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 1,
+    "filename": "v-01.png",
+    "jpg": "cover-20260924-v-01.jpg",
+    "title": "低价AI内容要靠数量复利",
+    "prompt": "Semi-realistic creator assembly line: ten to twenty small content product boxes stacking into a compound-interest spiral of coins, pastel Japanese apartment desk, soft afternoon light, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 2,
+    "filename": "v-02.png",
+    "jpg": "cover-20260924-v-02.jpg",
+    "title": "Claude×乐天联盟的手机化工作流",
+    "prompt": "Close-up phone-in-hand morning subway scene: smartphone showing blurred Claude chat and shopping affiliate tiles, thirty-minute coffee cup nearby, soft golden hour commute light, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 3,
+    "filename": "v-03.png",
+    "jpg": "cover-20260924-v-03.jpg",
+    "title": "Epoch：思考成本每季度平均下降47%",
+    "prompt": "Editorial chart-as-sculpture: a steep descending staircase of glowing thought-bubbles getting cheaper each step, Epoch-report aesthetic with cool scientific blues, no numbers, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 4,
+    "filename": "v-04.png",
+    "jpg": "cover-20260924-v-04.jpg",
+    "title": "MiMo与HySparse2的推理效率比较",
+    "prompt": "Technical still life: two competing translucent neural lattice cubes—one dense, one sparse with thinner KV ribbons—on a Xiaomi-adjacent silver bench, cool lab LEDs, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 5,
+    "filename": "v-05.png",
+    "jpg": "cover-20260924-v-05.jpg",
+    "title": "GPT Image 2.5与Seedance 2.5制作海底城视频",
+    "prompt": "Cinematic underwater city keyframe: luminous lost city spires, a leviathan silhouette guiding a crowned figure toward the surface, teal volumetric god-rays, film-still quality, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 6,
+    "filename": "v-06.png",
+    "jpg": "cover-20260924-v-06.jpg",
+    "title": "中国用户更容易理解的Muse是小微",
+    "prompt": "Split-composition product observation: left a sleek Western personal-agent orb on a desk, right a phone with a soft Chinese chat-assistant bubble, cultural contrast soft lighting, no logos, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 7,
+    "filename": "v-07.png",
+    "jpg": "cover-20260924-v-07.jpg",
+    "title": "ChatGPT Voice接入插件与新模型",
+    "prompt": "Semi-realistic headset close-up: wireless earbuds emitting voice-wave arcs linking floating email, calendar, and Slack-tile silhouettes around a laptop, cool indigo night desk, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 8,
+    "filename": "v-08.png",
+    "jpg": "cover-20260924-v-08.jpg",
+    "title": "所谓Gemini 4 Pro截图可能是伪造",
+    "prompt": "Investigative still: a laptop screen showing a suspiciously edited settings panel with a magnifying glass revealing cut-paste seams and fake badges, detective desk lamp, skepticism mood, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 9,
+    "filename": "v-09.png",
+    "jpg": "cover-20260924-v-09.jpg",
+    "title": "Firecrawl Alexandria让Jev在3.6秒做5000个决策",
+    "prompt": "Kinetic data-agent scene: a firecrawl spider of light racing across a wall of enterprise webpage tiles, decision sparks cascading in 3.6-second motion blur, dark ops loft, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 10,
+    "filename": "v-10.png",
+    "jpg": "cover-20260924-v-10.jpg",
+    "title": "MiMo-V3公开HySparse2架构",
+    "prompt": "Semi-realistic architecture blueprint made physical: sparse attention scaffolds shrinking a glowing KV cache cylinder while an agent walks multi-step platforms, Xiaomi tech-lab cyan, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 11,
+    "filename": "v-11.png",
+    "jpg": "cover-20260924-v-11.jpg",
+    "title": "OpenCode太空兔子模式将提供百万上下文",
+    "prompt": "Playful sci-fi product shot: a translucent space-rabbit mascot orb floating in zero-g with a million-token constellation ring and a stealth cloak shimmer, dark starfield studio, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 12,
+    "filename": "v-12.png",
+    "jpg": "cover-20260924-v-12.jpg",
+    "title": "K-pop押注AI和机器人会否改变娱乐体验",
+    "prompt": "News photography of a neon K-pop entertainment pavilion: humanoid stage robots mid-choreography beside hesitant fans with phones, Seoul nightlife glow, documentary tension, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 13,
+    "filename": "v-13.png",
+    "jpg": "cover-20260924-v-13.jpg",
+    "title": "海外已验证但日本尚未普及的AI副业",
+    "prompt": "Editorial travel desk: a world map with five glowing overseas business-model parcels landing on a Japan island desk with a blank notebook ready for localization, soft travel-magazine light, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 14,
+    "filename": "v-14.png",
+    "jpg": "cover-20260924-v-14.jpg",
+    "title": "网传Gemini 4 Pro引发讨论",
+    "prompt": "Social-buzz news still: smartphone overflowing with rumor notification sparks and a hazy Gemini constellation hologram half-formed, cafe table chaos, FOMO energy, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  },
+  {
+    "idx": 15,
+    "filename": "v-15.png",
+    "jpg": "cover-20260924-v-15.jpg",
+    "title": "K3.1疑似提前泄露",
+    "prompt": "Hacker-news documentary: a dim screen showing blurred model-config fields with a red Coming Soon stamp silhouette and a leaked USB drive, tense blue monitor glow, 16:9. Magazine cover illustration quality, photoreal or semi-real as described, NO overlaid titles, NO watermark, NO brand logos, NO Chinese or English readable text."
+  }
+]

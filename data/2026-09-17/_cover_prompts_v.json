@@ -1,0 +1,100 @@
+[
+  {
+    "index": 0,
+    "filename_png": "cover-20260917-v-00.png",
+    "filename_jpg": "cover-20260917-v-00.jpg",
+    "prompt": "news photography of a Capitol Hill hearing room empty chairs under harsh fluorescent lights with a folded AI briefing folder on the witness table, documentary realism, no text. Visual theme for story: Tibo：Sam Altman延期发布新产品. Unique composition; 16:9 cinematic.",
+    "title": "Tibo：Sam Altman延期发布新产品"
+  },
+  {
+    "index": 1,
+    "filename_png": "cover-20260917-v-01.png",
+    "filename_jpg": "cover-20260917-v-01.jpg",
+    "prompt": "news photo of a Mexico-US border industrial park with AI server crates on a loading dock at dusk, documentary photojournalism, no text overlays. Visual theme for story: Max for AI：墨西哥AI硬件出口报道原文. Unique composition; 16:9 cinematic.",
+    "title": "Max for AI：墨西哥AI硬件出口报道原文"
+  },
+  {
+    "index": 2,
+    "filename_png": "cover-20260917-v-02.png",
+    "filename_jpg": "cover-20260917-v-02.jpg",
+    "prompt": "semi-realistic smartphone on a desk showing a glowing orange phone-agent assistant bubble, soft morning light, distinct ceramic mug and earbuds as props, no text. Visual theme for story: Max for AI：美国严查AI服务器产地. Unique composition; 16:9 cinematic.",
+    "title": "Max for AI：美国严查AI服务器产地"
+  },
+  {
+    "index": 3,
+    "filename_png": "cover-20260917-v-03.png",
+    "filename_jpg": "cover-20260917-v-03.jpg",
+    "prompt": "semi-realistic developer workstation with MCP server terminal, Feishu login pad, and ChatGPT plugin drawer open, cool blue desk lamp, unique cable clutter, no text. Visual theme for story: 小互：Typeless免费额度被砍. Unique composition; 16:9 cinematic.",
+    "title": "小互：Typeless免费额度被砍"
+  },
+  {
+    "index": 4,
+    "filename_png": "cover-20260917-v-04.png",
+    "filename_jpg": "cover-20260917-v-04.jpg",
+    "prompt": "news photography of a server rack aisle in a Mexican assembly plant with USMCA shipping labels blurred, documentary industrial lighting, no text. Visual theme for story: 小互：Typeless面临模型和硬件竞争. Unique composition; 16:9 cinematic.",
+    "title": "小互：Typeless面临模型和硬件竞争"
+  },
+  {
+    "index": 5,
+    "filename_png": "cover-20260917-v-05.png",
+    "filename_jpg": "cover-20260917-v-05.jpg",
+    "prompt": "editorial still life of a printed Wall Street Journal front page on a metal table with a small AI accelerator chip beside it, shallow depth, no readable text. Visual theme for story: 卡兹克：豆包手机助手回归. Unique composition; 16:9 cinematic.",
+    "title": "卡兹克：豆包手机助手回归"
+  },
+  {
+    "index": 6,
+    "filename_png": "cover-20260917-v-06.png",
+    "filename_jpg": "cover-20260917-v-06.jpg",
+    "prompt": "semi-realistic phone voice-typing UI scene with a dwindling free quota progress bar metaphor as a nearly empty glass hourglass beside the phone, warm desk, no brand logos text. Visual theme for story: 小互：AI编程时代产品经理还剩什么. Unique composition; 16:9 cinematic.",
+    "title": "小互：AI编程时代产品经理还剩什么"
+  },
+  {
+    "index": 7,
+    "filename_png": "cover-20260917-v-07.png",
+    "filename_jpg": "cover-20260917-v-07.jpg",
+    "prompt": "semi-realistic competitive product desk with several voice-input gadgets and a lone typing app phone pushed to the edge, cool daylight, no logos text. Visual theme for story: 联合早报：美国众议长称不能暂停AI发展. Unique composition; 16:9 cinematic.",
+    "title": "联合早报：美国众议长称不能暂停AI发展"
+  },
+  {
+    "index": 8,
+    "filename_png": "cover-20260917-v-08.png",
+    "filename_jpg": "cover-20260917-v-08.jpg",
+    "prompt": "semi-realistic product manager whiteboard half-erased next to a laptop generating UI mockups autonomously, afternoon office light, sticky notes of different colors, no text. Visual theme for story: 华尔街日报中文网：美国施压墨西哥限制AI硬件. Unique composition; 16:9 cinematic.",
+    "title": "华尔街日报中文网：美国施压墨西哥限制AI硬件"
+  },
+  {
+    "index": 9,
+    "filename_png": "cover-20260917-v-09.png",
+    "filename_jpg": "cover-20260917-v-09.jpg",
+    "prompt": "news photography of an empty OpenAI-style product stage with a draped curtain and a postponed calendar card face-down, dramatic spotlights, no readable text. Visual theme for story: 卡兹克：GPT额度切换技巧. Unique composition; 16:9 cinematic.",
+    "title": "卡兹克：GPT额度切换技巧"
+  },
+  {
+    "index": 10,
+    "filename_png": "cover-20260917-v-10.png",
+    "filename_jpg": "cover-20260917-v-10.jpg",
+    "prompt": "semi-realistic Feishu team collaboration desk with multiple laptops tagged as agents around a shared digital table, warm coworking light, no text. Visual theme for story: 卡兹克：GPT质量与成本消耗. Unique composition; 16:9 cinematic.",
+    "title": "卡兹克：GPT质量与成本消耗"
+  },
+  {
+    "index": 11,
+    "filename_png": "cover-20260917-v-11.png",
+    "filename_jpg": "cover-20260917-v-11.jpg",
+    "prompt": "semi-realistic analytics dashboard screens showing backtest curves with an MCP cable connecting laptop to a data rack, cool night office, no text. Visual theme for story: 卡兹克：MCP回测分析方法. Unique composition; 16:9 cinematic.",
+    "title": "卡兹克：MCP回测分析方法"
+  },
+  {
+    "index": 12,
+    "filename_png": "cover-20260917-v-12.png",
+    "filename_jpg": "cover-20260917-v-12.jpg",
+    "prompt": "editorial desk scene with two model score cards and a stack of depleted prepaid cards metaphor for API spend, dramatic side light, no readable text. Visual theme for story: 卡兹克：GPT-6 Pro结合MCP榨干ChatGPT额度. Unique composition; 16:9 cinematic.",
+    "title": "卡兹克：GPT-6 Pro结合MCP榨干ChatGPT额度"
+  },
+  {
+    "index": 13,
+    "filename_png": "cover-20260917-v-13.png",
+    "filename_jpg": "cover-20260917-v-13.jpg",
+    "prompt": "semi-realistic laptop with two browser profiles side by side and a quota meter resetting, soft teal desk lamp, sticky note props, no text. Visual theme for story: 卡兹克：飞书推出团队Agent. Unique composition; 16:9 cinematic.",
+    "title": "卡兹克：飞书推出团队Agent"
+  }
+]

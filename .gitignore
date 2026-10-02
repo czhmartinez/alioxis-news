@@ -1,0 +1,32 @@
+# Secrets — never commit
+*.pem
+*.key
+.env
+.env.*
+id_rsa*
+id_ed25519*
+*_secret*
+tencent-cvm.json
+connector-secrets/
+
+# Build output (regenerate with node build.js)
+dist/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Cover generation scratch (keep published covers under assets/covers)
+data/**/_cover_raw/
+data/**/_cover_desc_txt/
+data/**/_prompt_*.txt
+
+# Node
+node_modules/
+
+# Local deploy env (machine-specific)
+*.local.env
+.publish.env
+scripts/keep-tunnel.sh

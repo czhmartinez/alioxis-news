@@ -1,0 +1,8 @@
+Following confirmed: Y (home timeline showed 正在关注 selected; searched authorized priority profiles as fallback)
+Login: Y (account menu showed zihan chen @zihanch71347739)
+Scroll depth: home feed initial viewport plus End/virtualized feed; priority profile searches for Khazix0918 and MaxForAI, within ~8–20 hours.
+Unique AI posts written: 13
+Counts per handle: ChineseWSJ 1; xiaohu 1; zaobaosg 2; Khazix0918 4; MaxForAI 5.
+Blockers: Following feed was thin/virtualized after scrolling, so priority-profile live search was used. Excluded supplied yesterday IDs; no fabricated posts. Some priority items are replies but clearly AI-related (Opus, Codex/Claude, AIHOT, agents).
+
+2026-09-29 top-up: Following/login confirmed. Added 3 new solid AI posts after checking priority profiles/live search: @testingcatalog (DevDay/Codex agenda), @dashiAIxz (Claude Sonnet 5.5 summary), @Khazix0918 (AIHOT open-sourcing). Other checked priority handles had no additional substantive posts in the visible ~48h window; excluded thin replies, duplicates, and supplied yesterday IDs.

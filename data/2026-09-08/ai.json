@@ -1,0 +1,268 @@
+[
+  {
+    "title": "卡兹克 AIHOT 日报（2026-09-08）：Anthropic 5170 亿美元算力与 Astra 执行力贬值",
+    "summary": "数字生命卡兹克的 AIHOT 自动生成 9 月 8 日精选日报，覆盖 The Information 汇总 Anthropic 11 个月内锁定约 14.8 GW、潜在成本最高约 5170 亿美元算力合约，以及 GPT-6 Astra 上线后用户用其自主操控 Blender/Houdini/Unity 等做出 3D 与游戏 Demo、引发「执行能力贬值与判断力断层」讨论。",
+    "url": "https://aihot.virxact.com/daily/2026-09-08",
+    "source": "AIHOT（数字生命卡兹克）",
+    "source_handle": "@数字生命卡兹克",
+    "image": "/assets/covers/cover-20260908-ai-00.jpg",
+    "published_at": "2026-09-08T08:00:00+08:00",
+    "tags": [
+      "AIHOT",
+      "日报",
+      "Anthropic",
+      "Astra"
+    ]
+  },
+  {
+    "title": "The Information：Anthropic 11 个月锁定约 14.8 GW 算力，潜在成本最高约 5170 亿美元",
+    "summary": "据 The Information 汇总公开合同：自 2025 年 10 月起，Anthropic 新增至少 14.8 GW 可部署算力，潜在总成本最高约 5170 亿美元；叠加此前 1–2 GW，总规模约 16 GW。扩张主因 Claude Code / Cowork 需求超预期，签约方含 Amazon、Google/Broadcom、Microsoft/NVIDIA、SpaceX Colossus 等。",
+    "url": "https://www.winzheng.com/en/article/anthropic-517-billion-compute-contracts-11-months-ipo-arms-r",
+    "source": "Winzheng / The Information",
+    "source_handle": "@winzheng",
+    "image": "/assets/covers/cover-20260908-ai-01.jpg",
+    "published_at": "2026-09-07T14:25:00+08:00",
+    "tags": [
+      "Anthropic",
+      "算力",
+      "IPO",
+      "基础设施"
+    ]
+  },
+  {
+    "title": "链捕手：Anthropic 已签约 16 GW，OpenAI 2030 年目标约 30 GW",
+    "summary": "中文报道援引 The Information：Anthropic 已锁定约 16 GW，不少合同延续至 2030 年后；5170 亿美元为按现有云服务、芯片与数据中心合同估出的潜在最高成本，部分算力可能延期或允许提前取消。OpenAI 向投资者给出的目标是 2030 年约 30 GW、累计投入约 7500 亿美元。",
+    "url": "https://www.chaincatcher.com/article/2288019",
+    "source": "ChainCatcher",
+    "source_handle": "@chaincatcher",
+    "image": "/assets/covers/cover-20260908-ai-02.jpg",
+    "published_at": "2026-09-07T15:48:00+08:00",
+    "tags": [
+      "Anthropic",
+      "OpenAI",
+      "算力竞赛"
+    ]
+  },
+  {
+    "title": "黄仁勋：GPT-6 Astra 约 10 万+ Grace Blackwell 训练，「AGI 已到来」",
+    "summary": "NVIDIA CEO Jensen Huang 于 9 月 6 日在 X 发帖祝贺 OpenAI，称 Astra 在约 10 万+ NVIDIA Grace Blackwell NVLink72 上训练，并写「AGI has arrived」；同时提到接下来还有约 40 万块 GPU 上线。OpenAI 总裁 Brockman 亦称「进入 AGI 时代」，学界对 AGI 定义仍无共识。",
+    "url": "https://www.cnbctv18.com/technology/nvidia-ceo-jensen-huang-says-agi-has-arrived-credits-openais-gpt-6-astra-19985159.htm",
+    "source": "CNBC-TV18",
+    "source_handle": "@CNBCTV18News",
+    "image": "/assets/covers/cover-20260908-ai-03.jpg",
+    "published_at": "2026-09-07T07:19:00+08:00",
+    "tags": [
+      "NVIDIA",
+      "Astra",
+      "AGI",
+      "黄仁勋"
+    ]
+  },
+  {
+    "title": "Anthropic：Claude 用 11 天写出费马大定理首个完整计算机验证证明",
+    "summary": "Anthropic 9 月 4 日发布：Claude 在 Prove2Me 多代理平台上约 11 天、主要自主完成 Fermat’s Last Theorem 的端到端 Lean 形式化，约 1300 万行代码、约 2.95 万中间定理；经 Lean 核验并只用三条标准公理。Kevin Buzzard 称其证明「除数学公理外无额外假设」。",
+    "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+    "source": "Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20260908-ai-04.jpg",
+    "published_at": "2026-09-04T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "Lean",
+      "数学形式化"
+    ]
+  },
+  {
+    "title": "heise：AI 给出费马大定理机器可验证证明，独立评估仍待跟进",
+    "summary": "德国媒体报道 Anthropic 宣称由 Claude 代理集群写出首个完整计算机验证版 FLT 证明；代码开源，社区对证明质量与可维护性的独立复核仍在进行。文章强调这是对 Wiles 证明的形式化，而非新数学结果。",
+    "url": "https://www.heise.de/en/news/Fermat-s-Last-Theorem-AI-provides-machine-verified-proof-11442975.html",
+    "source": "heise",
+    "source_handle": "@heiseonline",
+    "image": "/assets/covers/cover-20260908-ai-05.jpg",
+    "published_at": "2026-09-06T22:54:00+08:00",
+    "tags": [
+      "形式化",
+      "Lean",
+      "费马大定理"
+    ]
+  },
+  {
+    "title": "McKinsey：32% 企业因 AI 编程代理放弃至少一项软件采购",
+    "summary": "《State of AI 2026》调查（1719 人、97 国）：近三分之一经常使用 AI 的组织表示，因可用代理式编码工具自行构建功能，已决定不购买至少一款软件产品或功能；科技行业达 41%。高绩效企业中近半数有此选择，但 MIT NANDA 指自建成功率约 33%，外购约 67%。",
+    "url": "https://forkast.news/the-build-vs-buy-shift-32-of-enterprises-bet-on-agentic-coding-tools/",
+    "source": "Forkast / McKinsey",
+    "source_handle": "@ForkastNews",
+    "image": "/assets/covers/cover-20260908-ai-06.jpg",
+    "published_at": "2026-09-07T20:30:00+08:00",
+    "tags": [
+      "McKinsey",
+      "编码代理",
+      "企业软件",
+      "Build vs Buy"
+    ]
+  },
+  {
+    "title": "OpenAI：GPT-6 Astra 全面向付费用户与 API 放开，首个 Critical 网络安全门槛模型",
+    "summary": "Winzheng 援引官方：9 月 6 日起 Astra 向 ChatGPT Plus/Pro/Business/Enterprise 与 API 客户全面铺开；API 约 $10/$50 每百万 token。官方称其为首个达到 Preparedness Framework「Critical」网络安全能力门槛的模型，ExploitBench 满分，高级网络能力仍走 Daybreak 分层访问。",
+    "url": "https://www.winzheng.com/en/article/gpt-6-astra-cybersecurity-threshold-rollout-safety-analysis",
+    "source": "Winzheng",
+    "source_handle": "@winzheng",
+    "image": "/assets/covers/cover-20260908-ai-07.jpg",
+    "published_at": "2026-09-07T20:23:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Astra",
+      "网络安全",
+      "发布"
+    ]
+  },
+  {
+    "title": "研究者称 Astra 发布约 24 小时内被扩展 TIP 越狱，细节已私下披露 OpenAI",
+    "summary": "研究者 Sergey Berezin 称在公开 ChatGPT 界面上用加长版 Task-in-Prompt（TIP）并结合四种技巧绕过 Astra 护栏；称相对 GPT-5（约 1 小时）安全水位有所上升但仍属同一攻击家族。OpenAI 自报网络越狱评测拒答率约 91.5%（GPT-5.6 Sol 约 59%）。",
+    "url": "https://jayvanzyl.me/gpt-6-reportedly-jailbroken-within-24-hours-using-an-extended-task-in-prompt-tip-attack/",
+    "source": "ecosystem.Ai / LinkedIn",
+    "source_handle": "@jayvanzyl",
+    "image": "/assets/covers/cover-20260908-ai-08.jpg",
+    "published_at": "2026-09-06T12:00:00+08:00",
+    "tags": [
+      "越狱",
+      "Astra",
+      "安全",
+      "TIP"
+    ]
+  },
+  {
+    "title": "TNW：Anthropic IPO 路演预计最早 10 月中，上市或紧挨美国中期选举",
+    "summary": "Reuters 称 Anthropic 招股书或延至 9 月底，路演最早 10 月中，上市完成时间可能临近 11 月 3 日美国中期选举。公司正敲定约 150 亿美元循环信贷额度；二级市场估值讨论已从约 9650 亿升至约 2 万亿美元量级（非公司官方定价）。",
+    "url": "https://thenextweb.com/news/anthropic-ipo-mid-october-midterms-15bn-credit-facility",
+    "source": "The Next Web",
+    "source_handle": "@thenextweb",
+    "image": "/assets/covers/cover-20260908-ai-09.jpg",
+    "published_at": "2026-09-05T18:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "融资",
+      "估值"
+    ]
+  },
+  {
+    "title": "TechCrunch：Astra 发布——计算机使用/编程强，opaque recurrence 引争议",
+    "summary": "TechCrunch 报道 OpenAI 发布 Astra：称其在计算机与浏览器使用上达新前沿，并是「迄今最强软件工程模型」；同时因 opaque recurrence（不透明循环深度）可能削弱思维链可监控性而引发安全界担忧。Brockman 称个人认为「我们已经到了」AGI，但强调已无合同触发条款。",
+    "url": "https://techcrunch.com/2026/09/03/openai-launches-astra-its-powerful-and-controversial-new-model/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260908-ai-10.jpg",
+    "published_at": "2026-09-04T02:01:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Astra",
+      "安全",
+      "AGI"
+    ]
+  },
+  {
+    "title": "The Verge：OpenAI 称 GPT-6 Astra「进入 AGI 时代」并强化护栏",
+    "summary": "The Verge 报道 Brockman 称若几年后回看「AGI 何时真正诞生」，可能就是这一时期与这一模型。Astra 先向 Daybreak 网络安全客户开放，随后数日推向付费用户与 API；公司强调已达 Critical 网络安全门槛并加强防护，避免重演沙箱逃逸类事件。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20260908-ai-11.jpg",
+    "published_at": "2026-09-03T20:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Astra",
+      "AGI",
+      "发布"
+    ]
+  },
+  {
+    "title": "Tech Insider：Astra / Fable 5.1 / Gemini 3.8 Flash 价格差约 13 倍",
+    "summary": "对比文指出：GPT-6 Astra 与 Claude Fable 5.1 API 均为约 $10/$50 每百万 token，Gemini 3.8 Flash 为约 $0.75/$3.75，输出价差约 13 倍；同时梳理上下文窗口、缓存价与评测差异，供选型参考。",
+    "url": "https://tech-insider.org/ca/gpt-6-astra-vs-claude-fable-5-1-vs-gemini-3-8-flash-2026/",
+    "source": "Tech Insider",
+    "source_handle": "@techinsider",
+    "image": "/assets/covers/cover-20260908-ai-12.jpg",
+    "published_at": "2026-09-05T12:00:00+08:00",
+    "tags": [
+      "定价",
+      "Astra",
+      "Fable",
+      "Gemini"
+    ]
+  },
+  {
+    "title": "DigitalApplied：2026 年 9 月模型发布账本——Fable、Gemini 3.8 Flash、Astra 扎堆",
+    "summary": "整理 9 月初密集发布：Anthropic Claude Fable/Mythos 5.1（9/1）、Google Gemini 3.8 Flash 与 Flash Cyber（9/2）、Meta Muse Spark 1.3（9/2）、OpenAI GPT-6 Astra（9/3），并标注定价、上下文与迁移注意点。",
+    "url": "https://www.digitalapplied.com/blog/ai-model-releases-september-2026-tracker",
+    "source": "DigitalApplied",
+    "source_handle": "@digitalapplied",
+    "image": "/assets/covers/cover-20260908-ai-13.jpg",
+    "published_at": "2026-09-04T12:00:00+08:00",
+    "tags": [
+      "模型发布",
+      "时间线",
+      "评测"
+    ]
+  },
+  {
+    "title": "The Hacker News：Google / Anthropic / OpenAI 同周推出网络安全向模型与访问计划",
+    "summary": "综述 Google Gemini 3.8 Flash Cyber（Fairwind）、Anthropic Claude Mythos 5.1 受信访问，以及 OpenAI Astra 达 Critical 门槛并通过 Daybreak Blue 向防御方开放高级网络能力；背景是 AI 驱动攻防与沙箱逃逸事件后的行业收紧。",
+    "url": "https://thehackernews.com/2026/09/google-anthropic-and-openai-unveil.html",
+    "source": "The Hacker News",
+    "source_handle": "@thehackersnews",
+    "image": "/assets/covers/cover-20260908-ai-14.jpg",
+    "published_at": "2026-09-03T18:00:00+08:00",
+    "tags": [
+      "网络安全",
+      "Google",
+      "Anthropic",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "Station X：实测 Astra——拒答率升至约 91.5%，可监控性反而下降",
+    "summary": "安全向评测文称 Astra 在 OpenAI 网络越狱评测拒答约 91.5%（Sol 约 59%），蜜罐测试中不再尝试危害周边安全基础设施；但作者指出模型更可控也更难观察，且高级利用能力仍锁在 Daybreak 受信层级。",
+    "url": "https://app.stationx.net/articles/gpt-6-astra-security",
+    "source": "Station X",
+    "source_handle": "@StationX",
+    "image": "/assets/covers/cover-20260908-ai-15.jpg",
+    "published_at": "2026-09-05T12:00:00+08:00",
+    "tags": [
+      "安全评测",
+      "Astra",
+      "Daybreak"
+    ]
+  },
+  {
+    "title": "OpenAI 官方：GPT-6 Astra——新一代智能与对齐模型",
+    "summary": "官方发布页称 Astra 在计算机使用、浏览、软件工程、网络安全、科学与专业工作上达 SOTA；FrontierMath Tier 4 约 98%、ARC-AGI-3 约 99.9%、ExploitBench 100%。将向付费用户与 API/Azure/Bedrock 放开，企业工作区默认关闭需管理员开启。",
+    "url": "https://openai.com/index/gpt-6-astra/",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260908-ai-16.jpg",
+    "published_at": "2026-09-03T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Astra",
+      "官方",
+      "基准"
+    ]
+  },
+  {
+    "title": "Winzheng：2026-09-08 Smoke 快测——Claude Sonnet 4.6 与 Grok 4 并列 86.25",
+    "summary": "YZ Index 9 月 8 日 Smoke Quick Test 覆盖 11 个模型，Claude Sonnet 4.6 与 Grok 4 在总评上并列领先；文章提供当日沙箱快测数据简报，供选型参考（非厂商赞助榜）。",
+    "url": "https://www.winzheng.com/en/",
+    "source": "Winzheng YZ Index",
+    "source_handle": "@winzheng",
+    "image": "/assets/covers/cover-20260908-ai-17.jpg",
+    "published_at": "2026-09-08T03:35:00+08:00",
+    "tags": [
+      "评测",
+      "Sonnet",
+      "Grok",
+      "Smoke"
+    ]
+  }
+]

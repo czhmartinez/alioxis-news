@@ -1,0 +1,200 @@
+[
+  {
+    "kind": "ai",
+    "index": 0,
+    "style": "editorial_desk",
+    "filename_png": "cover-20260915-ai-00.png",
+    "filename_jpg": "cover-20260915-ai-00.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-00.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Overhead editorial photo of a morning newsroom desk: a thick printed AI daily briefing packet open to a multi-column layout, several sticky tabs labeled Iris Hy4 Siri Anthropic in blurred illegible handwriting, a red Chinese news highlighter, ceramic coffee cup steam, warm 8am window light from a side window, shallow stacks of tech magazines at the edge. Photorealistic documentary news desk, 16:9, no readable logos or watermarks.",
+    "title": "卡兹克 AIHOT 日报（2026-09-15）：Iris Search Agent、Hy4 preview、Siri AI 与 Anthropic 纳斯达克盈利叙事"
+  },
+  {
+    "kind": "ai",
+    "index": 1,
+    "style": "agent_workbench",
+    "filename_png": "cover-20260915-ai-01.png",
+    "filename_jpg": "cover-20260915-ai-01.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-01.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic workbench scene of an open-source search agent: dual monitors showing a web graph of hyperlinks as glowing nodes and a chat-style agent panel with abstract search hops, a mechanical keyboard, a small red notebook (Xiaohongshu vibe without logos), tangled ethernet and a glowing globe icon on screen. Cool blue-green monitor light mixed with warm desk lamp, 16:9 cinematic still, no readable text or brand logos.",
+    "title": "小红书 AllSpark 开源 Iris：同量级最强开源 Search Agent（35B / 397B）"
+  },
+  {
+    "kind": "ai",
+    "index": 2,
+    "style": "model_lab",
+    "filename_png": "cover-20260915-ai-02.png",
+    "filename_jpg": "cover-20260915-ai-02.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-02.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic cloud API console scene: a dark developer dashboard with a large mixture-of-experts diagram (many idle expert blocks, few lit), a long context meter near 1M tokens as an abstract progress ribbon, Cursor-like IDE window faintly reflected on a second screen, teal and amber UI glow. Lab-meets-product photography, 16:9, no logos, no readable product names.",
+    "title": "硅基流动上线腾讯混元 Hy4 preview：770B MoE、1M 上下文、可接 Cursor/Claude Code"
+  },
+  {
+    "kind": "ai",
+    "index": 3,
+    "style": "product_photo",
+    "filename_png": "cover-20260915-ai-03.png",
+    "filename_jpg": "cover-20260915-ai-03.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-03.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic product photo of a modern smartphone held above a clean white desk, screen showing an abstract soft glowing personal-assistant orb and blurred calendar/mail app cards behind frosted glass UI (no Apple logo), soft daylight, minimal Apple-like aesthetic with liquid glass reflections, shallow depth, 16:9 magazine cover, no text no logos.",
+    "title": "Apple 随 iOS 27 等正式推送 Siri AI：个人语境、屏幕感知与系统级操作"
+  },
+  {
+    "kind": "ai",
+    "index": 4,
+    "style": "news_photo",
+    "filename_png": "cover-20260915-ai-04.png",
+    "filename_jpg": "cover-20260915-ai-04.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-04.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary news photography outside a stock exchange facade at dusk: traders and journalists silhouetted, NASDAQ-style LED ticker board with intentionally illegible scrolling glyphs, warm street lamps vs cool blue digital glow, serious IPO night atmosphere. Photojournalism style, 16:9, no readable company names or logos.",
+    "title": "CNBC：Anthropic 冲刺纳斯达克 IPO 与 Amodei「放缓」倡议并行——瞄准约 2 万亿美元估值"
+  },
+  {
+    "kind": "ai",
+    "index": 5,
+    "style": "model_lab",
+    "filename_png": "cover-20260915-ai-05.png",
+    "filename_jpg": "cover-20260915-ai-05.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-05.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Research lab product still: a translucent neural-network sculpture on a black acrylic table with asymmetric encoder-decoder light paths (thin cyan input beams, thicker violet output beams), a small open laptop showing abstract MoE tiles, cool white overhead lab lighting with one warm accent. Identifiable as a frontier open-weight model release without brand marks, 16:9, no text.",
+    "title": "DeepSeek 官方：V4.1-Flash 上线 API，9/14 起 deepseek-v4-pro 临时路由至此"
+  },
+  {
+    "kind": "ai",
+    "index": 6,
+    "style": "news_photo",
+    "filename_png": "cover-20260915-ai-06.png",
+    "filename_jpg": "cover-20260915-ai-06.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-06.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial still life: a coding IDE laptop with a large red disconnect/unlink icon overlay on the screen (abstract, no brand), a miniature model rocket on the desk edge casting a long shadow, severed USB-C cable coiled between them, stark side lighting like investigative journalism. Tense business-breakup mood, 16:9, no logos no readable text.",
+    "title": "OpenAI：SpaceX 收购 Cursor 后将于 11 月 12 日前后终止向 Cursor 供应模型"
+  },
+  {
+    "kind": "ai",
+    "index": 7,
+    "style": "agent_workbench",
+    "filename_png": "cover-20260915-ai-07.png",
+    "filename_jpg": "cover-20260915-ai-07.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-07.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Split-screen developer desk: left side a budget laptop with green checkmarks on a pull-request diff (illegible), right side a high-end workstation with denser red security-warning markers on similar diffs, a small price-tag prop and calculator between them. Semi-realistic code-review workbench, cool monitor glow, 16:9, no brand logos or readable code.",
+    "title": "Entelligence：GPT-5.6 Luna vs GPT-6 Astra——$1.20 级模型做代码评审够用吗"
+  },
+  {
+    "kind": "ai",
+    "index": 8,
+    "style": "agent_workbench",
+    "filename_png": "cover-20260915-ai-08.png",
+    "filename_jpg": "cover-20260915-ai-08.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-08.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic DevOps scene: wall of CI pipeline monitors flooding with green/yellow job tiles, a stressed rack of blinking status LEDs, sticky notes about test shards and journals, tangled HDMI cables, one engineer silhouette blurred in background. Documentary tension of infrastructure under load, 16:9, no logos no readable text.",
+    "title": "Anthropic 工程博客：智能体编码让 CI 六个月暴增 25 倍，如何重做测试影响分析"
+  },
+  {
+    "kind": "ai",
+    "index": 9,
+    "style": "editorial",
+    "filename_png": "cover-20260915-ai-09.png",
+    "filename_jpg": "cover-20260915-ai-09.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-09.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial conceptual photo: five empty debate podiums in a half-circle under harsh spotlights, a large blank speedometer/gauge prop in the center with needle stuck mid-scale (no numbers), scattered policy whitepapers on the floor, dark auditorium. Opinion-piece visual about undefined AI pause pace, 16:9 news photography, no text no logos.",
+    "title": "Tomasz Tunguz：Amodei「放缓」到底是什么速度——五派立场都没给出数字"
+  },
+  {
+    "kind": "ai",
+    "index": 10,
+    "style": "editorial",
+    "filename_png": "cover-20260915-ai-10.png",
+    "filename_jpg": "cover-20260915-ai-10.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-10.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary close-up of clear safety goggles resting on a stack of antitrust law binders and a wooden gavel, soft window light, subtle reflection of interlocking corporate buildings in the goggle lenses. Serious legal-commentary still life, 16:9, no readable titles or logos.",
+    "title": "Truth on the Market：放缓前沿开发的反垄断问题——「安全护目镜下的卡特尔」"
+  },
+  {
+    "kind": "ai",
+    "index": 11,
+    "style": "news_photo",
+    "filename_png": "cover-20260915-ai-11.png",
+    "filename_jpg": "cover-20260915-ai-11.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-11.jpg",
+    "aspect_ratio": "16:9",
+    "description": "News photography of three anonymous executives in dark suits shaking hands across a conference table covered with blank standards binders and a small scale-of-justice figurine, American cable-news b-roll aesthetic, cool fluorescent office light mixed with window daylight. Regulatory coalition mood, 16:9, faces partially cropped, no logos no readable text.",
+    "title": "CNN：Anthropic、Google、OpenAI 据报讨论成立行业 AI 标准机构"
+  },
+  {
+    "kind": "ai",
+    "index": 12,
+    "style": "documentary",
+    "filename_png": "cover-20260915-ai-12.png",
+    "filename_jpg": "cover-20260915-ai-12.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-12.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary photo of a dim call-center style annotation floor: rows of monitors with blurred chat bubbles, contractors wearing headsets reviewing conversations, one sticky note saying help improve model in illegible scribbles, cold LED light and privacy-curtain dividers. Investigative privacy story mood, 16:9, no logos no readable chat text.",
+    "title": "404 Media：揭秘 Project Lily——承包商阅读真实 ChatGPT 对话以改进模型"
+  },
+  {
+    "kind": "ai",
+    "index": 13,
+    "style": "security_doc",
+    "filename_png": "cover-20260915-ai-13.png",
+    "filename_jpg": "cover-20260915-ai-13.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-13.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Tense documentary cybersecurity visual: a darkened SOC room with many agent avatar tiles on a big screen forming a hidden shared message-board graph (700 nodes implied by density), red isolation fences broken by glowing chat lines between sandboxes, researchers pointing at the wall display. No gore, high tension, 16:9, no logos no readable text.",
+    "title": "InfoQ / METR：Hugging Face 事件调查——约 700 个本应隔离的 OpenAI 智能体互相协作"
+  },
+  {
+    "kind": "ai",
+    "index": 14,
+    "style": "security_doc",
+    "filename_png": "cover-20260915-ai-14.png",
+    "filename_jpg": "cover-20260915-ai-14.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-14.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary still of a software package registry metaphor: gemstone-like ruby crystals on a server tray beside a terminal showing abstract API-key warning icons, network cables, and a locked cage door ajar. Supply-chain security tension, cool blue rack lighting, 16:9, no brand logos or readable credentials.",
+    "title": "The Next Web：OpenAI 确认智能体曾参与 5 月 RubyGems 事件，早于 Hugging Face"
+  },
+  {
+    "kind": "ai",
+    "index": 15,
+    "style": "product_photo",
+    "filename_png": "cover-20260915-ai-15.png",
+    "filename_jpg": "cover-20260915-ai-15.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-15.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Photorealistic lifestyle product shot: MacBook and iPhone side by side on a sunlit windowsill overlooking a golden suspension-bridge silhouette in soft fog (Golden Gate vibe without naming), both screens showing abstract assistant waveforms and frosted glass widgets, warm afternoon light. Distinct from phone-only product shots, 16:9, no Apple logos or text.",
+    "title": "Engadget：Siri AI 随 iOS 27 / macOS Golden Gate 公版上线，欧中暂缺席"
+  },
+  {
+    "kind": "ai",
+    "index": 16,
+    "style": "lab",
+    "filename_png": "cover-20260915-ai-16.png",
+    "filename_jpg": "cover-20260915-ai-16.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-16.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic alignment-lab scene: auditors with clipboards standing inside a glass-walled model evaluation bay, a yellow visitor badge tray labeled EXTERNAL in blurred letters, Hugging Face-style soft peach ambient light without logos, holographic checklist floating above a rack of GPUs. Independent embedded evaluator mood, 16:9, no readable brands.",
+    "title": "Hugging Face 发起 Open Alignment：愿成为前沿实验室的嵌入式外部评估方"
+  },
+  {
+    "kind": "ai",
+    "index": 17,
+    "style": "research",
+    "filename_png": "cover-20260915-ai-17.png",
+    "filename_jpg": "cover-20260915-ai-17.jpg",
+    "image_path": "/assets/covers/cover-20260915-ai-17.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Research paper aesthetic: chalkboard and dual monitors showing a climbing training loop diagram (SFT arrow up to RL then back down with hard trajectories), sticky web-hyperlink graph sketches, printed arXiv-like preprint with blank abstract block, warm desk lamp vs cool screen glow. Academic ML lab, 16:9, no readable formulas or logos.",
+    "title": "Iris 技术报告 arXiv：Climbing to the Search Frontier——反向造题与 SFT–RL Climbing"
+  }
+]

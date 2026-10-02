@@ -1,0 +1,125 @@
+Alioxis News AI新闻 collect report — 2026-10-01 (Asia/Taipei)
+================================================================
+item_count: 19
+output: /workspace/alioxis-news/data/2026-10-01/ai.json
+covers: image fields left empty ("") for later GenerateImage
+lead: 《纽约时报》：OpenAI 失控前数月已接员工安全警告，高层要求按期推进未加防护
+
+AIHOT status
+------------
+- Source: /workspace/alioxis-news/data/2026-10-01/_aihot_daily.json
+- Endpoint: https://aihot.news/api/public/daily/2026-10-01 → HTTP 200
+- latest alias: https://aihot.news/api/public/daily/latest → HTTP 400 (invalid date format); mirrored daily JSON as _aihot_latest.json / _aihot_raw.json
+- HTML daily: https://aihot.news/daily/2026-10-01 → HTTP 200 → _aihot_daily.html
+- tips flat: derived from sections+flashes → _aihot_tips_flat.json (30 tips: 27 section + 3 flashes)
+- HTTP/presence: OK (date=2026-10-01, lead PRESENT)
+- Lead: OpenAI 被曝无视员工安全警告，FTC 启动 AI 实验室调查
+  (leadParagraph: NYT employee warnings + FTC CID probe of OpenAI/Anthropic/etc.)
+- Window: 2026-09-30T00:00:00.000Z → 2026-10-01T00:00:00.000Z
+- generatedAt: 2026-10-01T00:00:35.676Z
+- Attribution: https://aihot.news/daily/2026-10-01 (verified HTTP 200)
+- Sections: 模型发布/更新 7 · 产品发布/更新 5 · 行业动态 8 · 论文研究 2 · 技巧与观点 5; flashes=3
+- Used as PRIMARY LEAD SOURCE; tips used for candidate list then primary-URL verified
+
+Dedup / skip notes
+------------------
+SKIP (already in 2026-09-30 ai.json):
+- OpenAI GPT-6.1 cancel / Sol / dots / DevDay / ChatGPT 12亿 / Australia remediation / $30B raise
+- Anthropic GLM-5.3 ExploitBench; UK AISI Astra; Meta Muse; Shopify RN; Kumo Tabular
+- AA GPT-6.1 Sol; Microsoft Quine; Tunguz enterprise pricing; IMDEA privacy; Sarvam agents; Codex Cloud; ChatGPT-as-OS Decoder
+- MarkTechPost GPT-6.1 Sol tip (AIHOT #1) — duplicate of 09-30 Sol primary
+- Arena GPT-6.1 Sol WebDev #3 X tip — same product angle
+
+SKIP (already in 2026-09-29 ai.json):
+- Anthropic IPO S-1 $42B loss / $518B infra headline (kept DISTINCT SpaceX $84.5B cancelable-deal angle today)
+- OpenAI misalignment-reports site / nine incidents (kept DISTINCT distillation campaign + NYT warnings)
+- Claude Sonnet 5.5 AA Index #2 — Arena Direct Mode 48h X tip skipped (weaker access tease)
+- Ember-1 / FireRouter / Holo4 / NVIDIA agent safety / Meta Hologram / xAI Team Bots / World Labs AMD
+- Beijing RTX Pro 5500 / Perplexity SPACE / Tunguz GPU rent / MIT RNA / BenchJack / Opus prompt / GitHub Android / Databricks Day-1
+- OpenAI DNS→external chatbot flash (2026-09-27) — already covered via misalignment arc on 09-29
+
+SKIP (already in 2026-09-28 ai.json):
+- Australia Senate / Authors Guild / Amodei White House dinner / Frontier standards agency
+- Gemini Flipkart / Perplexity Photon / Engram / Nscale / Island / Cyera / PrismML
+- Xing4.0 / ZGCM / Hard Stop / Oracle Stargate FM / Crusoe Boom
+
+SKIP (AIHOT tip weaker / duplicate angle / X-only / soft):
+- Gemini 4 Argon Agent Arena #8 (@arena X) — folded into DeepMind + AA pieces
+- Arena Claude Sonnet 5.5 Direct Mode 48h — X-only; Sonnet covered 09-29
+- Perplexity Computer email→computer@perplexity.com — X-only CEO tip, no primary blog verified
+- Hugging Face CEO thousands of DMs — soft recruiting commentary
+- Jensen Huang White House accord X flash — covered via Ars Technica primary
+- OpenRouter golden-eval + tool-calling tutorials — kept one regression-testing piece for count/skills
+- GamersNexus consumer RAM/SSD LTA story — AI-demand adjacent but not core tools/models/skills; omitted
+- WeChat DeepSeek / 蚂蚁百灵 originals — preferred Decoder/SCMP/TechNode + GitHub mirrors (WeChat URLs fragile)
+
+Source URL choices (prefer primary; curl verified HTTP 200)
+-----------------------------------------------------------
+1. NYT warnings — cn.nytimes.com/.../openai-warnings-security/ (200). English nytimes.com 403 to our fetch; Straits Times also 200 (NYT syndicate).
+2. FTC probe — cnbc.com/.../ftc-ai-probe-openai-anthropic.html (200; FTC spokesperson confirmed). Decoder/Axios cross-checked.
+3. Gemini 4 Argon — deepmind.google/blog/gemini-4-argon-... (200)
+4. AA Gemini Argon — artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs (200)
+5. Distillation campaign — openai.com/index/disrupting-a-coordinated-model-distillation-campaign (200)
+6. Anthropic–SpaceX $84.5B — ithome.com/1/008/589.htm (200; Reuters via IT之家). Investing.com Reuters mirror fetched but page shell thin; Stocktwits/ValueAdd secondary.
+7. White House accord — arstechnica.com/.../trump-plan-to-combat-ai-risks-... (200)
+8. DeepSeek Ascend — the-decoder.com/...deepseek...ascend... (200). SCMP also 200; GitHub DeepGEMM-Ascend 200.
+9. SynthID Bio — deepmind.google/blog/introducing-synthid-bio/ (200)
+10. ElevenLabs tender — elevenlabs.io/blog/tender-22bn (200)
+11. Ling-3.1-flash — technode.com/.../ant-group-launches-ling-3-1-flash... (200). cn.technode also 200.
+12. Anthropic robots — anthropic.com/research/what-work-can-robots-do (200)
+13. PromptArmor Copilot — promptarmor.com/.../hijacking-copilot-coworks-ai-gateway... (200)
+14. Factory Automations — factory.ai/news/automations (200)
+15. AA-AgentPerf-Local — artificialanalysis.ai/articles/aa-agentperf-local (200)
+16. MIT Ataraxos/Stratego — news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930 (200)
+17. METR Senate — metr.org/blog/2026-09-30-chris-painter-senate-testimony/ (200)
+18. vLLM disagg guide — vllm.ai/blog/2026-09-29-disaggregated-serving-guide (200)
+19. OpenRouter regression — openrouter.ai/blog/tutorials/ai-agent-regression-testing-... (200)
+
+Items (title → url)
+-------------------
+1. 《纽约时报》：OpenAI 失控前数月已接员工安全警告，高层要求按期推进未加防护
+   → https://cn.nytimes.com/technology/20260930/openai-warnings-security/
+2. FTC 确认调查 OpenAI、Anthropic 等 AI 实验室：拟发民事调查令调取文件并质询高管
+   → https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html
+3. Google DeepMind 发布 Gemini 4 Argon：先经 Fairwind 向可信网络防御者开放
+   → https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/
+4. Artificial Analysis：Gemini 4 Argon (high) 智能指数 53，追平 GPT-6 Astra、领先 Sol 1 分
+   → https://artificialanalysis.ai/articles/gemini-4-argon-google-top-three-labs
+5. OpenAI 披露并处置有组织模型蒸馏攻击：自 7 月初起系统性抽取受保护推理
+   → https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign
+6. 路透：Anthropic IPO 文件披露与 SpaceX 算力合同上限约 845 亿美元，可 90 天通知解除
+   → https://www.ithome.com/1/008/589.htm
+7. 白宫推动约二十余家科技公司签署自愿性「超级智能」安全协议：无法律强制力
+   → https://arstechnica.com/tech-policy/2026/09/trump-plan-to-combat-ai-risks-hinges-on-big-tech-pals-policing-themselves/
+8. DeepSeek 开源华为昇腾基础组件：TileLang 等六件套对齐英伟达侧工具链
+   → https://the-decoder.com/chinas-ai-industry-closes-ranks-as-deepseek-ships-open-source-software-for-huaweis-ascend-chips/
+9. Google DeepMind 发布 SynthID Bio：为 AI 生成蛋白质嵌入可湿实验验证的水印
+   → https://deepmind.google/blog/introducing-synthid-bio/
+10. ElevenLabs 完成 3 亿美元员工股份回购，估值升至 220 亿美元
+    → https://elevenlabs.io/blog/tender-22bn
+11. 蚂蚁百灵发布 Ling-3.1-flash：约 560B 总参 / 25B 激活，面向长任务与智能体
+    → https://technode.com/2026/09/30/ant-group-launches-ling-3-1-flash-with-560-billion-parameters/
+12. Anthropic 研究：机器人可完成美国 74% 物理任务，但仅 0.3% 具备成本竞争力
+    → https://www.anthropic.com/research/what-work-can-robots-do
+13. PromptArmor：Copilot Cowork AI 网关可被恶意 Skill 劫持以绕过沙箱外传文件
+    → https://www.promptarmor.com/resources/hijacking-copilot-coworks-ai-gateway-to-exfiltrate-files
+14. Factory Automations 全面开放：Droid 可按定时或 Slack/GitHub/Webhook 自动跑工程流
+    → https://factory.ai/news/automations
+15. Artificial Analysis 开源 AA-AgentPerf-Local：重放真实智能体轨迹测笔记本/工作站推理
+    → https://artificialanalysis.ai/articles/aa-agentperf-local
+16. MIT 等发布 Ataraxos：低成本战胜顶级人类 Stratego，成果登 Nature
+    → https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930
+17. METR 主席 Chris Painter 就「Rogue AI」智能体事故向美国参议院作证
+    → https://metr.org/blog/2026-09-30-chris-painter-senate-testimony/
+18. vLLM 发布分离式推理实用指南：Prefill/Decode 拆分与无 GPU Render 前端
+    → https://vllm.ai/blog/2026-09-29-disaggregated-serving-guide
+19. OpenRouter 教程：提示词或模型变更后如何对 AI Agent 做回归测试
+    → https://openrouter.ai/blog/tutorials/ai-agent-regression-testing-after-a-prompt-or-model-change/
+
+Blockers / notes
+----------------
+- Did NOT run GenerateImage, build.js, or publish (collection only).
+- AIHOT /api/public/daily/latest returns 400 (expects YYYY-MM-DD); used dated daily instead.
+- English nytimes.com paywall/403; used cn.nytimes.com (200) for lead primary.
+- Anthropic $518B infra already in 09-29 digest; today's SpaceX $84.5B / 90-day cancel angle treated as distinct.
+- MarkTechPost Sol URL returned HTTP 202 (empty-ish) during probe — skipped as dup anyway.

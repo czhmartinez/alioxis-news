@@ -1,0 +1,20 @@
+Alioxis News「大V视野」X Following scrape — Asia/Taipei 2026-09-21
+
+Login status: logged in (composer + avatar visible).
+Following confirmed: yes —「正在关注」selected (blue underline), not「为你推荐」.
+Collection method: box Chrome browser via computerUse; X API credits $0 — no X MCP.
+AI-related posts saved: 12 (after dropping 2 @Khazix0918 IDs already in 2026-09-20 v.json).
+
+Counts by handle:
+@xiaohu: 3
+@MaxForAI: 2
+@ChineseWSJ: 1
+@Khazix0918: 1 (Codex tip; Jev posts deduped vs 9/20)
+@gpumaxxer: 5 (Higgsfield API thread + challenge; Following thin so profile backfill 9/17)
+
+Notes: Following feed thin on AI (ads/crypto/general news); visited priority profiles. No invented posts.
+Dedup dropped: https://x.com/Khazix0918/status/2100850184129220829 , https://x.com/Khazix0918/status/2100614133171552435
+
+Paths:
+/workspace/alioxis-news/data/2026-09-21/v.json
+/workspace/alioxis-news/data/2026-09-21/_v_scrape_report.txt

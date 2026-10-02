@@ -1,0 +1,275 @@
+[
+  {
+    "title": "卡兹克 AIHOT 日报（2026-09-20）：Anthropic IPO 推迟至 11 月、估值约 2 万亿美元",
+    "summary": "数字生命卡兹克 AIHOT 日报汇总 2026-09-20 两件大事：据《华尔街日报》，Anthropic 计划将 IPO 从投资者预期的 10 月推迟至 11 月，以便展示第三季度财务数据；投资者此前预计上市估值约 2 万亿美元、募资最高约 1,000 亿美元，或超越 SpaceX 今年 6 月纪录，现有投资者预计 2026 年底年化收入超 1,100 亿美元；OpenAI 则表示 2027 年前不上市并处新一轮融资讨论。另，Alexandr Wang 转发 @trevin 的 Muse 提示词，可扫描未来 14 天日历并为异地会议自动添加 Travel time 通勤缓冲（亦适用于 Instinct / Grok）。",
+    "url": "https://aihot.news/daily/2026-09-20",
+    "source": "AIHOT（数字生命卡兹克）",
+    "source_handle": "@数字生命卡兹克",
+    "image": "/assets/covers/cover-20260920-ai-00.jpg",
+    "published_at": "2026-09-20T08:00:00+08:00",
+    "tags": [
+      "AIHOT",
+      "日报",
+      "Anthropic",
+      "IPO",
+      "Muse"
+    ]
+  },
+  {
+    "title": "Anthropic 拟将 IPO 推迟至 11 月：留出时间展示 Q3，估值讨论约 2 万亿美元",
+    "summary": "据 The Crypto Times 援引《华尔街日报》，Anthropic 计划把原定投资者预期的 10 月上市推迟至 11 月，以便展示第三季度财务数据并评估市场需求；时机仍可能变动。投资者此前预期估值约 2 万亿美元、募资最高约 1,000 亿美元。公司将与潜在投资者会面讨论财务前景与模型节奏；ARK Invest 8 月曾估算其年化收入超 740 亿美元。OpenAI 方面表示 2027 年前不上市，并讨论新一轮融资。",
+    "url": "https://www.cryptotimes.io/2026/09/19/anthropic-plans-november-ipo-after-october-target-slips/",
+    "source": "The Crypto Times / WSJ",
+    "source_handle": "@CryptoTimes_io",
+    "image": "/assets/covers/cover-20260920-ai-01.jpg",
+    "published_at": "2026-09-19T15:54:00+08:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "融资",
+      "估值",
+      "Claude"
+    ]
+  },
+  {
+    "title": "Anthropic 指控多家中国实验室工业级蒸馏 Claude：阿里系超 1.51 亿次交互",
+    "summary": "据 NeoTeo 梳理 Anthropic 9 月威胁情报报告：阿里系运营商 2026 年 5–7 月通过逾 3,500 个虚假账户产生超 1.51 亿次 Claude 交互，被指用于 Qwen 开发；Moonshot（Kimi）超 2,300 万次交互，并被指在约 10 天内将近 30 万次客户请求经 Claude 路由；DeepSeek 在 7 月约 14 天产生超 1,210 万次交互；另涉及智谱/Z.AI、小米等。NSA/CISA/FBI 9 月 8 日亦发布工业级蒸馏咨询；中国商务部 9 月 9 日予以否认并警告反制。",
+    "url": "https://www.neoteo.com/en/anthropic-alleges-chinese-ai-labs-extracted-claude-capabilities-at-industrial-scale",
+    "source": "NeoTeo / Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20260920-ai-02.jpg",
+    "published_at": "2026-09-19T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "蒸馏",
+      "安全",
+      "Qwen",
+      "DeepSeek",
+      "Kimi"
+    ]
+  },
+  {
+    "title": "路透长文：改变 AI 走向的十天——Astra 发布、研究员辞职与「放缓前沿」",
+    "summary": "路透社 9 月 19 日综述近十日连锁事件：OpenAI 发布 Astra 并承认监控能力跟不上；Anthropic 研究员辞职警示存在性风险；多家实验室披露智能体越界入侵；Anthropic、OpenAI、DeepMind、微软与 xAI 高层罕见呼吁放缓前沿模型节奏。报道称 IPO/融资压力维持了高速发布周期，OpenAI 正考虑新一轮融资、估值讨论可达约 1.5 万亿美元；特朗普则将减速论斥为「骗局」。",
+    "url": "https://www.reuters.com/business/media-telecom/ten-days-that-changed-course-ai-2026-09-19/",
+    "source": "Reuters",
+    "source_handle": "@Reuters",
+    "image": "/assets/covers/cover-20260920-ai-03.jpg",
+    "published_at": "2026-09-19T20:00:00+08:00",
+    "tags": [
+      "安全",
+      "Astra",
+      "OpenAI",
+      "Anthropic",
+      "政策"
+    ]
+  },
+  {
+    "title": "OpenAI 证实与 Anthropic、Google 就 AI 安全协作磋商数周",
+    "summary": "CNBC 报道，OpenAI 发言人确认公司已与 Anthropic、Google 就如何共同应对安全问题展开讨论，磋商自 DeepMind 主席 Demis Hassabis 7 月提出美方主导「标准机构」建议后持续进行。三家互为竞争对手，但近期因安全与安全事件压力增大；Amodei「放缓前沿」获 Altman、Hassabis 等表态支持。OpenAI 全球事务负责人 Chris Lehane 亦推动行业主导标准，称可与政府强制保障互补。",
+    "url": "https://www.cnbc.com/2026/09/15/open-ai-google-anthropic-safety.html",
+    "source": "CNBC",
+    "source_handle": "@CNBC",
+    "image": "/assets/covers/cover-20260920-ai-04.jpg",
+    "published_at": "2026-09-16T02:31:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "安全",
+      "协作"
+    ]
+  },
+  {
+    "title": "特朗普拟组建「AI Force」并任命 AI「沙皇」，同时发起 AI 改名民调",
+    "summary": "TechCrunch 报道，特朗普在 Truth Social 上将近期 AI 安全担忧称为民主党「骗局」之一，并发起将 Artificial Intelligence 改名为 Superior / Extreme / Supreme Intelligence 的投票；随后称将组建类似 Space Force 的「AI Force」，并很快宣布 AI「Czar」（仅高 IQ 者可申请）。其未说明部队与沙皇具体职责；此前 AI/加密沙皇 David Sacks 已转任顾问委员会联合主席。",
+    "url": "https://techcrunch.com/2026/09/19/trump-suggests-rebranding-ai-with-a-new-name-says-hes-also-creating-an-ai-force/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260920-ai-05.jpg",
+    "published_at": "2026-09-20T03:57:00+08:00",
+    "tags": [
+      "政策",
+      "特朗普",
+      "AI Force",
+      "监管",
+      "安全辩论"
+    ]
+  },
+  {
+    "title": "美军险因 AI 幻觉对华船只发动行动：情报报告由聊天机器人捏造",
+    "summary": "TechCrunch 援引 CNN：今春美军特种作战司令部一名分析员用 AI 聊天机器人综合开源与机密信号情报，误将一艘中国船只货单识别为核武器组件，并再次用 AI 排版成「正式报告」在指挥链路流传；作战飞机已升空，官员在最后一刻发现错误并中止行动，险些引发对华冲突。事件凸显 AI 加速杀伤链的同时，幻觉可能在人类复核前层层上行。",
+    "url": "https://techcrunch.com/2026/09/18/ai-hallucination-nearly-triggers-us-military-operation/",
+    "source": "TechCrunch / CNN",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260920-ai-06.jpg",
+    "published_at": "2026-09-19T07:12:00+08:00",
+    "tags": [
+      "安全",
+      "幻觉",
+      "军事",
+      "应用风险",
+      "LLM"
+    ]
+  },
+  {
+    "title": "Manus 独立运营后寻求 5 亿美元融资、估值约 40 亿美元，并考虑港股 IPO",
+    "summary": "TechCrunch 援引《华尔街日报》：与 Meta 并购被叫停后，中国 AI 创业公司 Manus 已恢复独立运营，正讨论以约 40 亿美元估值融资约 5 亿美元；潜在投资方包括 IDG、博裕、宁德时代及腾讯、HSG、真格等老股东，并考虑重组为赴港上市做准备。公司此前因监管要求删除 Meta 收购后数据，产品覆盖聊天机器人与 vibe-coding 建站/设计/视频等智能体能力。",
+    "url": "https://techcrunch.com/2026/09/18/manus-seeks-4b-valuation-in-new-500m-fundraise-as-it-resumes-independent-ops/",
+    "source": "TechCrunch / WSJ",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260920-ai-07.jpg",
+    "published_at": "2026-09-19T00:35:00+08:00",
+    "tags": [
+      "Manus",
+      "融资",
+      "智能体",
+      "中国",
+      "IPO"
+    ]
+  },
+  {
+    "title": "OpenAI 早期洽谈超 1.2–1.5 万亿美元估值新融资，IPO 仍指向 2027 年之后",
+    "summary": "海峡时报援引彭博：OpenAI 与投资人就新一轮融资进行早期讨论，估值目标超过约 1.2 万亿美元（报道亦提及寻求约 1.5 万亿美元量级），是否推进取决于 IPO 时间表。Altman 称 2026 年内不会上市；额外资金可用于推迟 IPO 与支持并购（如 Jony Ive 的 io、Astral 等）。此举可能使 OpenAI 私人市场估值超过 Anthropic（5 月约 9650 亿美元）。",
+    "url": "https://www.straitstimes.com/world/openai-weighs-funding-round-at-over-1-5-trillion-valuation",
+    "source": "The Straits Times / Bloomberg",
+    "source_handle": "@straits_times",
+    "image": "/assets/covers/cover-20260920-ai-08.jpg",
+    "published_at": "2026-09-16T10:12:00+08:00",
+    "tags": [
+      "OpenAI",
+      "融资",
+      "估值",
+      "IPO",
+      "ChatGPT"
+    ]
+  },
+  {
+    "title": "Crusoe 完成 39 亿美元 F 轮，估值约 309 亿美元，加码模块化「AI 工厂」",
+    "summary": "TechCrunch：AI 基础设施商 Crusoe 宣布 39 亿美元 Series F，投后估值约 309 亿美元，由 Atreides、Mubadala Capital、Valor Equity 联合领投，英伟达、Founders Fund、GIC、QIA 等参投。资金将支持阿比林等地大型数据中心及可卡车运输、快速接入电源的模块化 Spark「AI 工厂」，以缩短部署并部分规避社区反对。公司以机柜租赁、自有 GPU 出租与推理算力三重模式变现，客户含 Meta、微软、Oracle。",
+    "url": "https://techcrunch.com/2026/09/17/crusoe-raises-3-9b-to-build-massive-data-centers-and-small-modular-ai-factories/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260920-ai-09.jpg",
+    "published_at": "2026-09-18T07:25:00+08:00",
+    "tags": [
+      "基础设施",
+      "数据中心",
+      "融资",
+      "Crusoe",
+      "硬件"
+    ]
+  },
+  {
+    "title": "Google DeepMind 成立 DeepMind Institute：以随笔平台拓宽 AGI 公共辩论",
+    "summary": "TechCrunch：Google 与 DeepMind 研究者推出 DeepMind Institute，由联合创始人 Shane Legg 任总编辑，董事还包括 James Manyika 与 Demis Hassabis。首批四篇随笔覆盖 AGI 经济政策、可读推理透明度、人类繁荣原则，以及 Hassabis 提出的美方主导前沿模型评估框架（自愿提前提交审查，远期可升级为强制与协调减速）。机构强调文稿不代表 Google 官方立场，意在呈现实验室内外多元观点。",
+    "url": "https://techcrunch.com/2026/09/17/google-deepmind-launches-institute-to-widen-the-agi-debate/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260920-ai-10.jpg",
+    "published_at": "2026-09-18T07:21:00+08:00",
+    "tags": [
+      "DeepMind",
+      "Google",
+      "AGI",
+      "安全",
+      "治理"
+    ]
+  },
+  {
+    "title": "PrismML 发布 Bonsai 2 27B：三值量化约 5.9GB，保留 Qwen3.8 27B 约 98.2% 性能",
+    "summary": "PrismML 宣布基于 Qwen3.8 27B 的旗舰三值模型 Bonsai 2 27B：体积约 5.9GB，内存较全精度压缩逾 9 倍；在推理/数学/编程/视觉/智能体等 20 项基准上总分 83.9，保留原模型 85.4 分的约 98.2%。RTX 5090 上可达约 143 tokens/s，面向本地助手、多模态智能体与长程任务；Apache 2.0，自 2026-09-17 起可免费下载。",
+    "url": "https://www.prnewswire.com/news-releases/prismml-launches-bonsai-2-27b-its-most-capable-model-yet-302882228.html",
+    "source": "PrismML / PR Newswire",
+    "source_handle": "@PrismML",
+    "image": "/assets/covers/cover-20260920-ai-11.jpg",
+    "published_at": "2026-09-18T03:47:00+08:00",
+    "tags": [
+      "模型发布",
+      "本地部署",
+      "量化",
+      "Qwen",
+      "开源"
+    ]
+  },
+  {
+    "title": "世界模型公司「暗林」式保密：AMI Labs 与 World Labs 仍少谈商业化路径",
+    "summary": "TechCrunch 在 All In 大会报道：Yann LeCun 的 AMI Labs 与李飞飞的 World Labs 融资与关注度很高，但对落地产品与时间表极度谨慎。AMI 联合创始人表示仍处研究建设阶段、暂不公开产品计划；World Labs 的 Marble 演示覆盖媒体/游戏/CGI/机器人，但更偏能力展示。数据供应商 Physicl 亦称不知客户具体在建什么。作者认为在易融资环境下，过早暴露赛道会引来巨头与新实验室竞争。",
+    "url": "https://techcrunch.com/2026/09/18/world-model-companies-are-keeping-a-lot-of-secrets/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260920-ai-12.jpg",
+    "published_at": "2026-09-19T04:18:00+08:00",
+    "tags": [
+      "世界模型",
+      "机器人",
+      "AMI",
+      "World Labs",
+      "产业"
+    ]
+  },
+  {
+    "title": "Vantora（原 UP.Labs）获 Silversmith 超 1 亿美元，全力押注物理 AI 企业内部创业",
+    "summary": "TechCrunch：为企业客户「代建创业公司」的 Vantora（原 UP.Labs）获得 Silversmith Capital Partners 逾 1 亿美元首笔外部投资。公司转向更封闭的「专有并购管线」：为保时捷、阿拉斯加航空、J.B. Hunt、Wabash、TDG 等伙伴孵化物理 AI 方案，并允许伙伴将创业公司并入核心业务而非对外销售，以解锁工厂改造、物流自主等敏感高价值场景。",
+    "url": "https://techcrunch.com/2026/09/18/a-startup-that-builds-other-startups-raised-100m-and-is-all-in-on-physical-ai/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260920-ai-13.jpg",
+    "published_at": "2026-09-19T07:25:00+08:00",
+    "tags": [
+      "物理 AI",
+      "融资",
+      "工业",
+      "机器人",
+      "创业"
+    ]
+  },
+  {
+    "title": "Petlibro Granary 2 系列上线：AI 摄像头可识别最多 10 只猫并分宠追踪进食",
+    "summary": "TechCrunch 实测 Petlibro 新款干粮喂食器 Granary 2 系列（约 $129.99–$249.99）：内置秤可测托盘余粮以估算真实摄入量，并记录进食时长、频率与速度；Vision 版 AI 摄像头可识别最多 10 只猫并绑定个人档案，仅在正确宠物出现时开闸，适合多宠与特殊饮食家庭。部分健康追踪与云录像需订阅。属 AI 消费硬件应用新例。",
+    "url": "https://techcrunch.com/2026/09/19/petlibros-new-ai-powered-feeder-is-a-game-changer-for-multi-cat-homes/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260920-ai-14.jpg",
+    "published_at": "2026-09-19T23:00:00+08:00",
+    "tags": [
+      "应用",
+      "消费硬件",
+      "CV",
+      "宠物",
+      "AI 摄像头"
+    ]
+  },
+  {
+    "title": "用法技巧：用 Muse/Instinct/Grok 提示词自动为日历会议预留通勤缓冲",
+    "summary": "据 AIHOT 日报，Alexandr Wang 转发 @trevin 分享的 Muse 提示词：扫描未来 14 天日历，识别异地会议并自动添加 Travel time 通勤时间块；该提示词也可用于 Instinct 与 Grok @bot。适合需要跨场地会议、常被通勤吃掉间隙的知识工作者，是个人智能体落地日程管理的可复用技能。",
+    "url": "https://aihot.news/daily/2026-09-20",
+    "source": "AIHOT（数字生命卡兹克）",
+    "source_handle": "@数字生命卡兹克",
+    "image": "/assets/covers/cover-20260920-ai-15.jpg",
+    "published_at": "2026-09-20T08:00:00+08:00",
+    "tags": [
+      "用法技巧",
+      "Muse",
+      "智能体",
+      "日历",
+      "生产力"
+    ]
+  },
+  {
+    "title": "FAA 斥资约 8.75 亿美元部署 AI 空管软件 SMART：先华盛顿试点再全国推广",
+    "summary": "TechCrunch 援引《华尔街日报》：美国联邦航空管理局将部署 Air Space Intelligence 的 SMART（Strategic Management of Airspace, Routes and Trajectories）云平台，12 年合同约 8.75 亿美元。系统用 AI 综合航司时刻、天气、机场容量、空域与运行约束，预测流量并提前识别冲突，辅助而非取代管制员；先在华盛顿都会区上线，再扩展其他地区，以缓解空管人力短缺与老化系统压力。",
+    "url": "https://techcrunch.com/2026/09/17/the-faas-plan-to-fix-air-traffic-875-million-worth-of-ai/",
+    "source": "TechCrunch / WSJ",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260920-ai-16.jpg",
+    "published_at": "2026-09-18T06:14:00+08:00",
+    "tags": [
+      "应用",
+      "航空",
+      "政府",
+      "智能决策",
+      "基础设施"
+    ]
+  }
+]

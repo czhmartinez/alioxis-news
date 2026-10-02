@@ -1,0 +1,27 @@
+AI collect report — 2026-09-08 (Asia/Taipei)
+Generated: 2026-09-08 ~08:25 UTC+8
+
+Item count: 18
+First item: AIHOT daily card for 2026-09-08
+Image fields: all empty string (covers later)
+
+Sources used (variety):
+- AIHOT daily (aihot.virxact.com) — Anthropic compute + Astra execution essay
+- Winzheng / ChainCatcher — The Information Anthropic $517B / 14.8 GW
+- CNBC-TV18 — Jensen Huang AGI / 100K Grace Blackwell
+- Anthropic + heise — Fermat Last Theorem Lean formalization
+- Forkast / McKinsey — 32% skip software purchases for coding agents
+- Winzheng — Astra full rollout Critical cyber threshold
+- ecosystem.Ai / Station X — TIP jailbreak + 91.5% refusal
+- TNW / Reuters — Anthropic IPO mid-October / $15B revolver
+- TechCrunch + The Verge + OpenAI — Astra launch / AGI era
+- Tech Insider + DigitalApplied + THN — pricing, Sept ledger, cyber models
+- Winzheng Smoke — Sonnet 4.6 / Grok 4 tie
+
+Fetch notes / failures:
+- openai.com/index/path-to-astra/ WebFetch timed out; covered via Winzheng + Station X + OpenAI Astra page.
+- Winzheng Astra full-rollout slug first guess 404; correct URL found via search.
+- thedecoder.com redirected to lander; used Winzheng/ChainCatcher for Information story.
+- X API credits $0.00 — 大V视野用 browser Following scrape，不用付费 API。
+
+Style: Chinese titles/summaries; ISO8601 +08:00; no fabricated URLs.

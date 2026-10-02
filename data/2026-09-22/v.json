@@ -1,0 +1,201 @@
+[
+  {
+    "title": "Max：Grok 4.7 与 MiMo-V2.6 Pro 跑分相同",
+    "summary": "Max 注意到昨晚同时发布的 Grok 4.7 与小米 MiMo-V2.6 Pro 跑分居然相同，并以调侃口吻质疑这两款模型的评测结果。",
+    "url": "https://x.com/MaxForAI/status/2102188618035171796",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260922-v-00.jpg",
+    "published_at": "2026-09-22T08:09:57+08:00",
+    "tags": [
+      "Grok 4.7",
+      "MiMo-V2.6",
+      "模型评测"
+    ]
+  },
+  {
+    "title": "Max：小米 MiMo-V2.6 开源并引入递归自我改进",
+    "summary": "Max 介绍小米正式发布并全面开源的 MiMo-V2.6，重点解释发布主题中的 RSI（递归自我改进）：让模型在真实环境中执行任务、获取反馈并持续强化学习。此次包含 Pro 和 Flash 两个版本。",
+    "url": "https://x.com/MaxForAI/status/2102187634714128564",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260922-v-01.jpg",
+    "published_at": "2026-09-22T08:06:03+08:00",
+    "tags": [
+      "MiMo-V2.6",
+      "开源模型",
+      "强化学习",
+      "RSI"
+    ]
+  },
+  {
+    "title": "华尔街日报：AI押注热潮助推纳指创新高",
+    "summary": "华尔街日报中文网报道，美伊恢复谈判预期压低油价并带动美股反弹，高风险科技股创历史新高；道指、标普和纳指均上涨，其中纳指受 AI 押注热潮助推创下新高。",
+    "url": "https://x.com/ChineseWSJ/status/2102188075019288887",
+    "source": "华尔街日报中文网",
+    "source_handle": "@ChineseWSJ",
+    "image": "/assets/covers/cover-20260922-v-02.jpg",
+    "published_at": "2026-09-22T08:07:48+08:00",
+    "tags": [
+      "AI投资",
+      "纳指",
+      "科技股"
+    ]
+  },
+  {
+    "title": "华尔街日报：AI正在颠覆白领职业优势",
+    "summary": "组织心理学家亚当·格兰特讨论 AI 如何颠覆知识型工作者原有的职业优势，以及白领在 AI 时代可以采取哪些应对方式。",
+    "url": "https://x.com/ChineseWSJ/status/2102045199933354467",
+    "source": "华尔街日报中文网",
+    "source_handle": "@ChineseWSJ",
+    "image": "/assets/covers/cover-20260922-v-03.jpg",
+    "published_at": "2026-09-21T22:40:04+08:00",
+    "tags": [
+      "AI影响",
+      "职场",
+      "白领"
+    ]
+  },
+  {
+    "title": "华尔街日报：阿莫迪与黄仁勋的AI路线之争",
+    "summary": "文章比较 Anthropic CEO 达里奥·阿莫迪与英伟达 CEO 黄仁勋对 AI 风险治理的不同主张：前者强调风险，后者更支持用工程方案解决安全问题，而非让行业整体踩刹车。",
+    "url": "https://x.com/ChineseWSJ/status/2102040409354510434",
+    "source": "华尔街日报中文网",
+    "source_handle": "@ChineseWSJ",
+    "image": "/assets/covers/cover-20260922-v-04.jpg",
+    "published_at": "2026-09-21T22:21:02+08:00",
+    "tags": [
+      "AI安全",
+      "Anthropic",
+      "英伟达"
+    ]
+  },
+  {
+    "title": "小互：Hyper3D 推出 Agent-Ready 3D 工作流",
+    "summary": "小互介绍 Hyper3D 的 Agentic Mode：AI Agent 可理解多视图、工业图纸和电商图等输入，自主选择建模方式并调整参数，完成可编辑的 3D 工作流。",
+    "url": "https://x.com/xiaohu/status/2102059922544599314",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260922-v-05.jpg",
+    "published_at": "2026-09-21T23:38:34+08:00",
+    "tags": [
+      "Hyper3D",
+      "AI Agent",
+      "3D建模"
+    ]
+  },
+  {
+    "title": "小互：Jev 使用指南",
+    "summary": "小互发布 Jev 使用指南，解释这种只做判断、不直接写字的 AI 模型适合怎样使用，以及可以应用在哪些场景。",
+    "url": "https://x.com/xiaohu/status/2101952863316607154",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260922-v-06.jpg",
+    "published_at": "2026-09-21T16:33:09+08:00",
+    "tags": [
+      "Jev",
+      "大模型",
+      "AI用法"
+    ]
+  },
+  {
+    "title": "小互：BytePlus 发布 AI 短剧平台 Dramagic",
+    "summary": "小互介绍字节海外 BytePlus 的企业级 AI 短剧平台 Dramagic：输入剧本后可自动拆分角色、场景和道具，生成分镜提示词与分镜表，并保持多角色多镜头的一致性。",
+    "url": "https://x.com/xiaohu/status/2101929639828762733",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260922-v-07.jpg",
+    "published_at": "2026-09-21T15:00:52+08:00",
+    "tags": [
+      "BytePlus",
+      "Dramagic",
+      "AI视频",
+      "短剧"
+    ]
+  },
+  {
+    "title": "卡兹克：MiMo-V2.6 技术报告值得学习",
+    "summary": "卡兹克推荐 MiMo-V2.6-Pro-RL 技术报告，称其开放了大量内容，并转发了关于扩展强化学习艰难过程的介绍。",
+    "url": "https://x.com/Khazix0918/status/2102165762429571398",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260922-v-08.jpg",
+    "published_at": "2026-09-22T06:39:08+08:00",
+    "tags": [
+      "MiMo-V2.6",
+      "技术报告",
+      "强化学习"
+    ]
+  },
+  {
+    "title": "卡兹克：汉化组可能最不怕AI冲击",
+    "summary": "卡兹克分享文章，讨论 AI 对字幕组和汉化组的影响，关注版权、官方字幕与 AI 翻译带来的挤压，以及汉化组可能拥有的生存空间。",
+    "url": "https://x.com/Khazix0918/status/2101936055834611908",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260922-v-09.jpg",
+    "published_at": "2026-09-21T15:26:22+08:00",
+    "tags": [
+      "AI翻译",
+      "字幕组",
+      "AI影响"
+    ]
+  },
+  {
+    "title": "Higgsfield：Genjutsu 扩展团队混合创作",
+    "summary": "Higgsfield 介绍 Genjutsu，支持团队共同拍摄后探索新地点、添加视觉效果，或用 AI 重新制作镜头，并可在 Higgsfield 产品或 API 中使用。",
+    "url": "https://x.com/higgsfield/status/2102069114428924221",
+    "source": "Higgsfield AI",
+    "source_handle": "@higgsfield",
+    "image": "/assets/covers/cover-20260922-v-10.jpg",
+    "published_at": "2026-09-22T00:15:06+08:00",
+    "tags": [
+      "Higgsfield",
+      "Genjutsu",
+      "AI视频",
+      "API"
+    ]
+  },
+  {
+    "title": "あいえる：不要只用 Claude Code 写代码",
+    "summary": "あいえる提醒，Claude Code 的价值不只是生成代码，还包括阅读代码库、寻找相关文件、规划实现、编辑文件、执行命令和测试。",
+    "url": "https://x.com/Fukugyo_clinic/status/2102140836213567959",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260922-v-11.jpg",
+    "published_at": "2026-09-22T05:00:05+08:00",
+    "tags": [
+      "Claude Code",
+      "编程助手",
+      "AI工作流"
+    ]
+  },
+  {
+    "title": "あいえる：Claude Code 可接管完整工作流",
+    "summary": "あいえる用连续帖子强调，把 Claude Code 当作只会写代码的 AI 是浪费；它还可以理解代码库、查找文件、执行命令和测试，从而接管更完整的开发流程。",
+    "url": "https://x.com/Fukugyo_clinic/status/2102140834707914914",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260922-v-12.jpg",
+    "published_at": "2026-09-22T05:00:05+08:00",
+    "tags": [
+      "Claude Code",
+      "开发工具",
+      "Agent工作流"
+    ]
+  },
+  {
+    "title": "あいえる：用 Claude 将 AI 工作流做成收入",
+    "summary": "あいえる表示，自己把“让 AI 承担工作”的思路连接到了变现，并将具体流程整理成文章，引用了用 Claude 围绕乐天新服务做项目的案例。",
+    "url": "https://x.com/Fukugyo_clinic/status/2102140837916536851",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260922-v-13.jpg",
+    "published_at": "2026-09-22T05:00:05+08:00",
+    "tags": [
+      "Claude",
+      "AI应用",
+      "工作流变现"
+    ]
+  }
+]

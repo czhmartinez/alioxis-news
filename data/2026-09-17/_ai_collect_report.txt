@@ -1,0 +1,50 @@
+AI新闻 collect report — 2026-09-17 (Asia/Taipei)
+================================================
+Item count: 18
+AIHOT included: YES (item 0) — https://aihot.news/daily/2026-09-17
+  Headlines covered in AIHOT daily: Microsoft AI CEO「模型福利」警告;
+  Anthropic Claude Cowork↔chat 合一 + Docs/Slides; OpenAI ChatGPT Ads
+  Sponsored Agents (+HubSpot/Shopify); Grok Build 跨会话记忆;
+  OpenAI 模型错位披露框架 + 六份报告（日报第5/6条同题）。
+
+Sources used:
+- AIHOT（数字生命卡兹克）
+- Mustafa Suleyman（model welfare 博文）
+- Anthropic / Claude（cowork-is-now-claude）
+- OpenAI（reimagining-advertising-with-ai；model-misalignment-reporting-framework）
+- xAI（grok-build-memory）
+- TechCrunch（embedded evaluators；Google Home MCP）
+- Zed（delta-public-beta）
+- Reuters（Zuckerberg safety incentives；Snap Specs enterprise；Suleyman interview）
+- 钛媒体（DeepSeek 刘胜与长文；蚂蚁 SingProbe）
+- IT之家（豆包 2.1 Pro 0915）
+- 上海证券报 / 东方财富（智象未来 HD-V1 + C+ 轮）
+- 智东西 / 凤凰网科技（网易有道同传 / 叭哥说 / LobsterAI 2.0）
+- CNBC（OpenAI 六起 concerning behavior 报道）
+
+Date window: primarily 2026-09-14–17 (Suleyman essay dated Sep 14;
+  product/lab items clustered Sep 15–16; AIHOT daily stamped Sep 17).
+Image fields: all "" (covers deferred).
+X API / X MCP: NOT used for this AI新闻 collect.
+
+Dedup vs 2026-09-16:
+- Did NOT re-lead as primary: Gemini 3.8 Live / Extended Thinking product
+  write-up; Vidu S2 Avatar+Editing launch; StepAudio 3; Claude for Small
+  Business; Perplexity CobbleDB; Salesforce×NVIDIA Koa; Trail of Bits vs
+  1Password FLAWED; Arena Image-to-WebDev / Speech-to-Speech rankings.
+- Today's AIHOT slate is a clean new set (福利辩论 / Claude 合一 / Ads /
+  Grok memory / misalignment framework); no need to bury yesterday's leads
+  inside the daily summary beyond not expanding them as separate stories.
+- Snap Specs × Salesforce Agentforce is distinct from yesterday's Koa CRM
+  reasoning-model primary (different product thread).
+
+Blockers / notes:
+- OpenAI ads page (reimagining-advertising-with-ai) WebFetch returned 403;
+  verified via curl + User-Agent (title, Sep 16 date, Sponsored Agents /
+  HubSpot / Shopify / Sep 23 international Shopify note confirmed).
+- OpenAI misalignment framework URL resolved after slug probe to
+  /index/model-misalignment-reporting-framework/ (200).
+- IT之家豆包条目 URL 为 https://www.ithome.com/1/003/012.htm（WebFetch 已验）.
+- Suleyman 博文页面日期为 Sep 14；Reuters 专访为 Sep 16 — 博文条用 Sep 14，
+  路透条用 Sep 16 晚间（换算 +08:00）.
+- No fabricated URLs; all items WebSearch- and/or WebFetch-/curl-verified.

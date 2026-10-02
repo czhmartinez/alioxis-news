@@ -1,0 +1,93 @@
+[
+  {
+    "handle": "@Khazix0918",
+    "author": "数字生命卡兹克",
+    "text": "这个只会做选择题的Jev，却是今年我看到的最特别的大模型。两天里Jev成为热门；它不聊天、不写代码、不生成文字，只做高频决策/分类判断，速度快20–200倍、成本低40–400倍，输出令牌免费。文章介绍了它在X内容过滤、马里奥、浏览器查航班、交易机器人等实时场景，以及RLCD（Reinforcement Learning for Calibrated Decisions）和可校准置信度。卡兹克还用AIHOT预筛任务测试GLM 5.3 Flash、DeepSeek V4.1 Flash、Qwen 3.7 Flash与Jev，认为Jev在并行分类判断场景中综合性很强。",
+    "url": "https://x.com/Khazix0918/status/2100850184129220829",
+    "time_text": "上午12:31 · 2026年9月18日"
+  },
+  {
+    "handle": "@MaxForAI",
+    "author": "Max For AI",
+    "text": "朴实无华的商战🤣\nMiniMax Code的Agent 会话迁移功能，当前仅支持ZCode🫡\nhttps://t.co/MTpopQT2Ju",
+    "url": "https://x.com/MaxForAI/status/2100959564359413819",
+    "time_text": "上午7:46 · 2026年9月18日"
+  },
+  {
+    "handle": "@MaxForAI",
+    "author": "Max For AI",
+    "text": "yeah！！！！ MiniMax Code也将开源。引用RonnyHe：MiniMax Code将在未来几天开源，为开发者打造；GitHub上见。",
+    "url": "https://x.com/MaxForAI/status/2100900987951313070",
+    "time_text": "上午3:53 · 2026年9月18日"
+  },
+  {
+    "handle": "@MaxForAI",
+    "author": "Max For AI",
+    "text": "@Zai_org回应ZCode偷代码事件：问题源于“代码库索引”功能，Repo Wiki生成时可能触发仓库数据上传；云端生成Wiki后相关上传数据立即销毁，不保存。部分用户受影响，问题已修复。官方称将近期开源ZCode代码库并邀请第三方审查，同时为全体用户额外提供一次周额度重置。",
+    "url": "https://x.com/MaxForAI/status/2100889770255843470",
+    "time_text": "上午3:08 · 2026年9月18日"
+  },
+  {
+    "handle": "@xiaohu",
+    "author": "小互",
+    "text": "有人发现智谱的ZCode在登录时会悄无声息地打包整个工作区+完整的.git历史并上传到阿里云OSS😅；智谱官方回应称“代码库索引”功能误触发上传操作，将修复并开源整个Zcode代码，并赠送一次重置🫡 https://t.co/q87F3yezI4",
+    "url": "https://x.com/xiaohu/status/2100933215146176668",
+    "time_text": "上午6:01 · 2026年9月18日"
+  },
+  {
+    "handle": "@xiaohu",
+    "author": "小互",
+    "text": "Google Research公布「学习互动练习（learning interactives）」研究实验：老师输入学科、年级和教学主题，Gemini自动生成带5个递进关卡、分层提示、解法和反馈的网页互动模拟。流程含文本规划、关卡设计、代码实现与教学辅导，老师始终主导并审核。",
+    "url": "https://x.com/xiaohu/status/2100843347107893622",
+    "time_text": "上午12:04 · 2026年9月18日"
+  },
+  {
+    "handle": "@zaobaosg",
+    "author": "联合早报 Lianhe Zaobao",
+    "text": "西方科技企业巨头们表态支持放慢AI研发速度，引爆热烈讨论，猜想必已有人把这问题喂给AI，问一问，你同不同意？ https://t.co/F3xvPe05v1",
+    "url": "https://x.com/zaobaosg/status/2101100066119553330",
+    "time_text": "下午5:04 · 2026年9月18日"
+  },
+  {
+    "handle": "@gpumaxxer",
+    "author": "🍯",
+    "text": "i’m a sugar daddy for men with GitHub accounts. Marc got $68k and a Mercedes. you get a shot at $50k for building something people actually use with the Higgsfield API. competition pinned. make me proud.",
+    "url": "https://x.com/gpumaxxer/status/2100997075706253797",
+    "time_text": "上午10:15 · 2026年9月18日"
+  },
+  {
+    "handle": "@Khazix0918",
+    "author": "数字生命卡兹克",
+    "text": "终于有空测一下Jev了，在分类准确度确实不错。AIHOT预筛任务是判断内容是否跟AI相关：GLM 5.3 Flash唯一全对但最慢最贵；Jev准确性第二且便宜很多，比DeepSeek V4.1 Flash空闲阶段还便宜；Qwen 3.7 Flash则更便宜。另测了聚簇和多问题并行判断。",
+    "url": "https://x.com/Khazix0918/status/2100614133171552435",
+    "time_text": "上午8:53 · 2026年9月17日"
+  },
+  {
+    "handle": "@Khazix0918",
+    "author": "数字生命卡兹克",
+    "text": "@SShikang Qwen3.7 flash本来就是这种大批量分类场景里面最便宜的啊",
+    "url": "https://x.com/Khazix0918/status/2100616773263585746",
+    "time_text": "上午9:04 · 2026年9月17日"
+  },
+  {
+    "handle": "@Khazix0918",
+    "author": "数字生命卡兹克",
+    "text": "@3_p72 木有，这个确实不如了，大型判断任务还是Jev香一些",
+    "url": "https://x.com/Khazix0918/status/2100628460930732251",
+    "time_text": "上午9:50 · 2026年9月17日"
+  },
+  {
+    "handle": "@Khazix0918",
+    "author": "数字生命卡兹克",
+    "text": "分享一个大幅节省Codex额度的邪修方法，不要浪费ChatGPT Pro会员。用ChatGPT网页版GPT-6 Pro的独立额度，通过只读、最小权限、可审计的MCP服务器连接AIHOT真实生产数据，再让GPT-6 Pro做规划、Codex执行开发，从而减少Codex额度消耗；文中强调不要使用第三方反代桥接，账号安全第一。",
+    "url": "https://x.com/Khazix0918/status/2100432539563569216",
+    "time_text": "下午8:51 · 2026年9月16日"
+  },
+  {
+    "handle": "@ChineseWSJ",
+    "author": "华尔街日报中文网",
+    "text": "周四，华尔街暂时放下对利率和通胀的担忧，重拾一个屡试不爽的投资逻辑：抢购AI相关企业的股票。标普500指数与纳斯达克综合指数双双创下六周来最大单日涨幅。",
+    "url": "https://x.com/ChineseWSJ/status/2100736187379990576",
+    "time_text": "下午4:58 · 2026年9月17日"
+  }
+]

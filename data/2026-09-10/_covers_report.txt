@@ -1,0 +1,5 @@
+Covers 2026-09-10
+Generated+compressed: 29/29
+Missing: none
+JPG size range: 34-74KB (avg 54KB)
+Wired into ai.json and v.json

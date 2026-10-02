@@ -1,0 +1,153 @@
+[
+  {
+    "title": "卡兹克：Claude Opus 5.5 长程 Agent 重写任务跑 6 小时仍稳",
+    "summary": "这个完全的重写级别的大型任务，已经跑了6个多小时的了，全程围观看完了所有的思考摘要，无数次的感慨，Claude Opus 5.5实在是太稳太强了... 再怎么不喜欢Anthropic这家傻逼公司，还是必须要客观的说一句，除了科研和还有极致的性能优化这块，Claude Opus 5.5在沟通交流、理解力、审美、开发、长程Agent等等任务上，真的是当之无愧的水桶级的T0啊。哎，这么好的模型，为什么Anthropic这种公司开发出来的... OpenAI求你们加把劲吧。。",
+    "url": "https://x.com/Khazix0918/status/2103907235604955321",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260927-v-00.jpg",
+    "published_at": "2026-09-27T02:17:00+08:00",
+    "tags": [
+      "Claude",
+      "Opus 5.5",
+      "OpenAI",
+      "卡兹克"
+    ]
+  },
+  {
+    "title": "小互：OpenAI 将推个人助理「o」，DevDay 或揭晓",
+    "summary": "OpenAI 将发布一个类似Grok Bot 的个人助理 命名为：o 可能很快到来，下周是OpenAI 的Dev Day 预计将有一大批更新和发布...",
+    "url": "https://x.com/xiaohu/status/2103863710729240996",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260927-v-01.jpg",
+    "published_at": "2026-09-26T23:17:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Grok",
+      "图像",
+      "DevDay",
+      "小互"
+    ]
+  },
+  {
+    "title": "Max for AI：几个问题就能问出有没有做过 agent harness",
+    "summary": "是的，其实几个问题就能问出来之前到底有没有做过harness了 —— 讨论通过提问判断候选人是否真正做过 agent harness，涉及 Agent 工程实践。",
+    "url": "https://x.com/MaxForAI/status/2103856059555496251",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260927-v-02.jpg",
+    "published_at": "2026-09-26T23:17:00+08:00",
+    "tags": [
+      "Agent",
+      "Max for AI"
+    ]
+  },
+  {
+    "title": "Max for AI：Codex 额度终于重置",
+    "summary": "Codex终于重置了 —— 关于 Codex 使用状态恢复/重置的即时更新。",
+    "url": "https://x.com/MaxForAI/status/2103895235709612215",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260927-v-03.jpg",
+    "published_at": "2026-09-27T02:17:00+08:00",
+    "tags": [
+      "Codex",
+      "Max for AI"
+    ]
+  },
+  {
+    "title": "TestingCatalog：OpenAI 常驻助手将命名为「o」，或支持邮件",
+    "summary": "OPENAI 🔥：OpenAI 即将推出的一款常驻助手将命名为“o”。它的引用曾在部分用户的 ChatGPT 升级界面上短暂出现。内部配置中将“o”作为显示名称，“-o”作为电子邮件后缀。这意味着“o”将支持电子邮件处理。OpenAI 将于下周举办 DevDay 活动，我们很可能在那里听到更多关于他们常驻助手的消息。附言：传闻中的“Aeon”引用是现有 ChatGPT Workspace 账户自定义代理实现的内部名称。不过，OpenAI 可能将在此功能基础上构建面向消费者的“o”助手。下周将意义重大。",
+    "url": "https://x.com/testingcatalog/status/2103787365986623925",
+    "source": "AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20260927-v-04.jpg",
+    "published_at": "2026-09-26T18:17:00+08:00",
+    "tags": [
+      "OpenAI",
+      "DevDay",
+      "个人助理"
+    ]
+  },
+  {
+    "title": "Okan Can：Wan 3 生成 15 秒罗马旅行日记，附提示方向",
+    "summary": "Wan 3 Prime Prompt Share 🇮 The Colosseum, Trastevere streets, gelato, and golden hour over Rome. A 15-second AI-generated Italian travel diary. Where should we go next?",
+    "url": "https://x.com/0kncn/status/2103914176045359602",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "/assets/covers/cover-20260927-v-05.jpg",
+    "published_at": "2026-09-27T03:17:00+08:00",
+    "tags": [
+      "Wan",
+      "视频",
+      "旅行"
+    ]
+  },
+  {
+    "title": "Okan Can：Wan 3 身份一致旅行 vlog 提示词分享",
+    "summary": "Prompt : Ultra-realistic cinematic travel vlog montage based on the reference collage. Preserve the same young adult female hijabi travel vlogger’s facial identity throughout. She explores Rome wearing a flowing black hijab, securely wrapped and clearly visible in every shot,",
+    "url": "https://x.com/0kncn/status/2103914178452824488",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "/assets/covers/cover-20260927-v-06.jpg",
+    "published_at": "2026-09-27T03:17:00+08:00",
+    "tags": [
+      "Wan",
+      "视频",
+      "提示词"
+    ]
+  },
+  {
+    "title": "华尔街日报中文网：AI 正颠覆白领知识工作的职业优势",
+    "summary": "#本周热读 组织心理学家亚当·格兰特探讨了AI正在颠覆白领在知识型工作中典型的职业优势，以及他们可以如何应对。",
+    "url": "https://x.com/ChineseWSJ/status/2103862181204766803",
+    "source": "华尔街日报中文网",
+    "source_handle": "@ChineseWSJ",
+    "image": "/assets/covers/cover-20260927-v-07.jpg",
+    "published_at": "2026-09-26T23:17:00+08:00",
+    "tags": [
+      "职场",
+      "AI应用"
+    ]
+  },
+  {
+    "title": "Cora：用 Grok 复现同一姿势的图像编辑玩法",
+    "summary": "嘿 @Grok，让她摆出完全一样的姿势。 —— Grok 图像编辑/姿势复现提示，展示生成式图像工作流。",
+    "url": "https://x.com/Cora__xlm/status/2103719170529440122",
+    "source": "Cora",
+    "source_handle": "@Cora__xlm",
+    "image": "/assets/covers/cover-20260927-v-08.jpg",
+    "published_at": "2026-09-26T14:17:00+08:00",
+    "tags": [
+      "Grok",
+      "图像"
+    ]
+  },
+  {
+    "title": "あいえる：免费 Claude 做痛点研究，8 月 note 收入破 70 万日元",
+    "summary": "【ご報告】実は無料版Claude使って、300円noteに切り替えたら、8月だけで70万超えました。97%の人は教えても結局やらないので、残りの3%の人にだけ共有します。300円って超手軽だし、初心者でも始めやすいのでオススメです。やり方は本当にシンプル。❶ 無料版Claudeに聞く「20代～60代男性深層の悩み（HARM法則）30個」❷ それを書かせる",
+    "url": "https://x.com/Fukugyo_clinic/status/2103952762077909156",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260927-v-09.jpg",
+    "published_at": "2026-09-27T05:17:00+08:00",
+    "tags": [
+      "Claude",
+      "变现"
+    ]
+  },
+  {
+    "title": "Higgsfield：Seedance 2.5 API 原生 1080p，现金返还促销",
+    "summary": "介绍 Seedance 2.5 在 Higgsfield API 上原生 1080p 支持。API 支出 100% 即时现金返还。奖池中剩余 1800 万美元。先到先得。唯一美国本土的 Seedance 2.5，以其迄今为止的最高质量呈现。准备好用于广告和大规模制作。每家企业最高 20 万美元，每位个人最高 1000 美元。未使用的现金返还将于 9 月 30 日到期。",
+    "url": "https://x.com/higgsfield/status/2103900178260586993",
+    "source": "Higgsfield AI",
+    "source_handle": "@higgsfield",
+    "image": "/assets/covers/cover-20260927-v-10.jpg",
+    "published_at": "2026-09-27T02:17:00+08:00",
+    "tags": [
+      "Seedance",
+      "视频"
+    ]
+  }
+]

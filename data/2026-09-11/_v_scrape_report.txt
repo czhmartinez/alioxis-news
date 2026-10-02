@@ -1,0 +1,7 @@
+logged in: yes (visible account/profile navigation confirmed)
+Following tab confirmed: yes (正在关注 selected on /home)
+scroll count: 3 on Following feed (feed became sparse/recommendations)
+fallback profiles visited: https://x.com/xiaohu, https://x.com/MaxForAI, https://x.com/Khazix0918
+post count: 12
+handle breakdown: @MaxForAI=8, @xiaohu=1, @Khazix0918=2, @ChineseWSJ=1
+notes: Following feed had very few qualifying AI posts, so fallback profiles supplied the recent items. Text is limited to text visibly rendered in X; no hidden or inferred truncated content was added. Quoted/nested AI posts are marked is_repost=true where the quote presentation was obvious.

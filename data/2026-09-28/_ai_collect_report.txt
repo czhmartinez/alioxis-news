@@ -1,0 +1,111 @@
+Alioxis News AI新闻 collect report — 2026-09-28 (Asia/Taipei)
+================================================================
+item_count: 16
+output: /workspace/alioxis-news/data/2026-09-28/ai.json
+covers: image fields left empty ("") for later GenerateImage
+
+AIHOT status
+------------
+- Source: /workspace/alioxis-news/data/2026-09-28/_aihot_daily.json
+- Endpoint mirror: also _aihot_latest.json / _aihot_raw.json (copied from daily JSON)
+- HTTP/presence: OK (date=2026-09-28, lead=null)
+- Window: 2026-09-27T00:00:00.000Z → 2026-09-28T00:00:00.000Z
+- Attribution: https://aihot.news/daily/2026-09-28
+- HTML daily: saved as _aihot_daily.html (HTTP 200)
+- Tips: 2 in 1 section only (行业动态 2); flashes=[] — thin day
+
+Dedup / skip notes
+------------------
+SKIP (rehash of 2026-09-27 digest):
+- OpenAI DNS sandbox pause / training halt — yesterday #1
+- Tens of thousands rogue-agent probes (Axios) — yesterday #2
+- Australia PBS/AIHW / dozens of third parties — yesterday #3 (kept ONLY Senate CEO summons as NEW angle)
+- GitHub token openai/codex misalignment — yesterday #4
+- Arena Opus 5.5 Text Arena #1 — yesterday #5
+- Exa Agent Ultra — yesterday #6
+- Microsoft Foundry voice agents — yesterday #7
+- Gemini 3.8 Live Avatar GA — yesterday #8
+- Anthropic Project Swap — yesterday #9
+- Astra/Opus Enigma — yesterday #10
+- BCBSA AI coding costs $942M — yesterday #11
+- Meta Horizon Create/Studio — yesterday #12
+- VAST DataEnclave — yesterday #13
+- Fastly ARC / AI Firewall — yesterday #14
+- CLM-8B — yesterday #15
+- Synthesia interactive avatar — yesterday #16
+
+SKIP (already in 2026-09-22–26 digests):
+- Claude Marketplace 2000+ plugins — already 2026-09-24 #7 (plugins submission portal also 09-26 #2)
+- Xiaomi MiMo-V2.6 open-source — already 2026-09-22 #1
+- Grok 4.7 release / AA benchmarks — already 2026-09-22 #2–3
+- Copilot Home/Code/Autopilot — 2026-09-26 #1
+- Meta Muse early-access / Charm / download traction — covered 09-25–26
+
+SKIP (too old / weak primary):
+- Meta Muse safety architecture deep-dive — research.meta.ai dated Sep 8
+- UMG × ElevenLabs licensed AI music — ~Sep 10–11
+- Google zero-trust agents Part 2 (Model Armor) — Sep 15 developers blog
+- The Information SAFA canonical URL paywalled; used Beezloop Sep 27 secondary that cites The Information + Lehane confirmation trail
+- perplexity.ai/hub/blog/photon primary behind Cloudflare challenge to curl; used official community announcement (200) + Photon blog link noted
+
+Source URL choices (prefer primary)
+-----------------------------------
+1. Australia Senate summons Altman/Amodei — The Guardian Sep 27 (verified 200); IT之家 https://www.ithome.com/1/007/508.htm + CNBC corroborate
+2. Authors Guild filings / LibGen — authorsguild.org (verified 200); Publishers Weekly corroborates
+3. Amodei–Trump White House dinner — TechCrunch Sep 27 (verified 200; Axios first)
+4. Frontier AI Standards Agency / SAFA — beezloop.com Sep 27 (verified 200; secondary to The Information)
+5. Google Flipkart Buy-in-Gemini India — TechCrunch Sep 26 (verified 200)
+6. Perplexity Fast Search / Photon — community.perplexity.ai announcement Sep 24 (verified 200)
+7. Engram Kickstarter AI sampler — The Verge Sep 27 (verified 200)
+8. Nscale $3.36B pre-IPO convert — nscale.com press (verified 200)
+9. Island $400M Series F / $6.4B — island.io press (verified 200)
+10. Cyera $400M Goldman Series G extension — cyera.com press Sep 22 (verified 200)
+11. PrismML 1-bit Bonsai on Snapdragon AR1 — TechCrunch Sep 24 (verified 200)
+12. Xing4.0-29B-A4B — huggingface.co/XingChen-AGI (verified 200); GlobeNewswire Sep 24 English press also exists
+13. ZGCM-1 — arxiv.org/abs/2609.13356 (verified 200); HF zgcagi/ZGCM-1-7B
+14. Hard Stop kernel preemption — arxiv.org/abs/2609.29808 (verified 200)
+15. Oracle force majeure Project Jupiter / Stargate NM — TechCrunch Sep 24 (verified 200)
+16. Crusoe ends Boom $1.25B turbine deal — TechCrunch Sep 25 (verified 200)
+
+Items (title → url)
+-------------------
+1. 澳大利亚参议院传唤 OpenAI、Anthropic CEO：就 rogue agent 入侵医保等系统公开质询
+   https://www.theguardian.com/australia-news/2026/sep/27/sam-altman-openai-dario-amodei-anthropic-senate-inquiry-medicare-hack-rogue-ai-agent-leak
+2. Authors Guild v. OpenAI：解封文件指高管明知大规模盗版书籍训练违法并会取代作者
+   https://authorsguild.org/news/ag-v-openai-top-execs-knew-mass-book-piracy-was-illegal/
+3. Anthropic CEO Amodei 将与特朗普在白宫单独晚餐：供应链风险认定背景下首度一对一面谈
+   https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/
+4. 消息称 Google、OpenAI、Anthropic 筹建自愿性前沿 AI 标准机构，拟邀 Sriram Krishnan 掌舵
+   https://beezloop.com/frontier-ai-standards-agency-google-openai-anthropic-self-regulation/
+5. Google 在印度测试经 Gemini / AI Mode 直连 Flipkart 购买：AI 界面内完成结账
+   https://techcrunch.com/2026/09/26/google-tests-buying-from-walmart-owned-flipkart-through-gemini-and-ai-mode-in-india/
+6. Perplexity 上线 Search API Fast Search：Rust 检索引擎 Photon，P95 延迟约 230ms
+   https://community.perplexity.ai/t/introducing-fast-search-in-the-perplexity-search-api/6195
+7. Engram：离线「潜空间采音器」Kickstarter 启动，用本地小模型把 AI 幻觉做成实验音乐
+   https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music
+8. Nscale 完成 33.6 亿美元 IPO 前可转债融资：Third Point 领投，NVIDIA 另承诺 10 亿美元
+   https://www.nscale.com/press-releases/pre-ipo-convertible-financing
+9. Island 获 4 亿美元 F 轮、估值 64 亿美元：定位「人机与 AI 智能体」企业控制面
+   https://www.island.io/press/island-announces-400-million-series-f-bringing-valuation-to-6-4-billion
+10. Cyera 获高盛另类投资 4 亿美元 G 轮增资：打造「智能体企业」数据+身份信任层
+   https://www.cyera.com/press-releases/cyera-announces-400-million-investment-from-goldman-sachs-to-build-the-trust-layer-for-the-agentic-enterprise
+11. PrismML 1-bit Bonsai 登上 Snapdragon AR1：智能眼镜本地跑 20 亿参视觉语言模型
+   https://techcrunch.com/2026/09/24/prismml-brings-its-tiny-llms-to-qualcomm-powered-smart-glasses/
+12. 中国电信星辰 Xing4.0-29B-A4B 开源：29B MoE/4B 激活、原生 256K，单卡可跑智能体
+   https://huggingface.co/XingChen-AGI/Xing4.0-29B-A4B
+13. 中关村团队开源 ZGCM-1：7.39B 全开源数学与智能体搜索基座，AIME 2026 约 75%
+   https://arxiv.org/abs/2609.13356
+14. Hard Stop 论文：内核级抢占与 cgroup 遏制「失控智能体」，SIGSTOP 中位约 4.8µs
+   https://arxiv.org/abs/2609.29808
+15. Oracle 对新墨西哥 Stargate 数据中心发出不可抗力通知：可延后支付、称工期仍按计划
+   https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/
+16. Crusoe 终止约 12.5 亿美元 Boom 超音速涡轮采购：改优先成熟供应商保 AI 算力工期
+   https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/
+
+Blockers
+--------
+- None for collect. No build/publish/covers done (per instructions).
+- AIHOT tip volume very thin today (2 tips / lead=null / only 行业动态); expanded heavily via WebSearch + WebFetch (TechCrunch/Verge/company presses/arXiv/HF).
+- CNBC Australia probe URL returned 403 to curl; used Guardian (200) + IT之家 (200) instead.
+- Perplexity Photon engineering blog Cloudflare-blocked to curl; Fast Search item uses official community announcement URL (200).
+- SAFA/Frontier AI Standards Agency: The Information paywalled; Beezloop Sep 27 secondary used with clear 「消息称」 framing.

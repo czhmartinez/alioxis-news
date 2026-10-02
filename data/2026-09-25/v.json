@@ -1,0 +1,128 @@
+[
+  {
+    "title": "AI自动化生产980日元note的方法",
+    "summary": "@Fukugyo_clinic 分享其“980円note×AI全自动”方法：让最新AI完成选题、市场调研、标题、正文、缩略图、销售文案和X宣传，再由人审核并发布。帖子还介绍了从低价入口商品延伸到更高价产品的销售漏斗。",
+    "url": "https://x.com/Fukugyo_clinic/status/2103227994487894249",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260925-v-00.jpg",
+    "published_at": "2026-09-25T05:00:00+08:00",
+    "tags": [
+      "AI自动化",
+      "内容创作",
+      "副业"
+    ]
+  },
+  {
+    "title": "Higgsfield年化收入突破10亿美元",
+    "summary": "Higgsfield AI 宣布上线18个月后年化收入突破10亿美元，已服务财富500强组织；自6月以来企业采用率增长10倍，全球用户超过3000万。该条在用户的正在关注时间线中以转帖形式出现。",
+    "url": "https://x.com/higgsfield/status/2103158589577977939",
+    "source": "Higgsfield AI",
+    "source_handle": "@higgsfield",
+    "image": "/assets/covers/cover-20260925-v-01.jpg",
+    "published_at": "2026-09-25T00:24:00+08:00",
+    "tags": [
+      "AI视频",
+      "AI应用",
+      "商业"
+    ]
+  },
+  {
+    "title": "中马深化人工智能等新兴产业合作",
+    "summary": "《联合早报》报道，中国国务院总理李强在杭州会见马来西亚首相安华，称中马将加强市场联通，并深化人工智能、新能源汽车和半导体等新兴产业合作。",
+    "url": "https://x.com/zaobaosg/status/2103258414809805186",
+    "source": "联合早报 Lianhe Zaobao",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20260925-v-02.jpg",
+    "published_at": "2026-09-25T07:00:00+08:00",
+    "tags": [
+      "人工智能",
+      "产业合作",
+      "中国与马来西亚"
+    ]
+  },
+  {
+    "title": "AI工具无法替代创作者的品味与想象力",
+    "summary": "@MaxForAI 分享杰弗里·卡森伯格谈AI与创意的文章：AI擅长推理、分析、优化和生成，但真正的创造力仍来自品味、直觉、经验以及创作者想表达的东西；未来更可能是人与工具融合，而不是简单地禁止AI。",
+    "url": "https://x.com/MaxForAI/status/2103069569019691188",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260925-v-03.jpg",
+    "published_at": "2026-09-24T18:30:00+08:00",
+    "tags": [
+      "AI创作",
+      "创造力",
+      "AI工具"
+    ]
+  },
+  {
+    "title": "Kling 4.0将支持更长视频与多语言音画同步",
+    "summary": "@xiaohu 介绍即将发布的Kling 4.0：支持最长30秒视频生成并可扩展到60秒、15个参考元素、最高1080p、多语言画面同步及最多3个语音参考；据称还将提供最长120秒的1080p长视频模式。",
+    "url": "https://x.com/xiaohu/status/2103151199419781474",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260925-v-04.jpg",
+    "published_at": "2026-09-24T23:54:00+08:00",
+    "tags": [
+      "Kling",
+      "AI视频",
+      "视频生成"
+    ]
+  },
+  {
+    "title": "Claude Opus 5.5正在内化人类技能与工具使用经验",
+    "summary": "@xiaohu 认为，Claude Opus 5.5等模型正在偷学并内化人类经验，最近的表现更像人、更懂得使用技能和工具，第三方积累的能力也可能被模型覆盖，复杂提示词的必要性随之降低。",
+    "url": "https://x.com/xiaohu/status/2103110809245417600",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260925-v-05.jpg",
+    "published_at": "2026-09-24T21:14:00+08:00",
+    "tags": [
+      "Claude",
+      "大模型",
+      "AI能力"
+    ]
+  },
+  {
+    "title": "Boltzbit提出让模型把知识写入权重的新训练方法",
+    "summary": "@xiaohu 讨论 Boltzbit 与剑桥大学团队提出的训练方法：把知识写进模型权重，而不是依赖Prompt。该思路试图缓解模型每轮对话都重读上下文、消耗显存和算力的问题，并以新的权重路由方式提升长上下文处理。",
+    "url": "https://x.com/xiaohu/status/2103012972503470444",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260925-v-06.jpg",
+    "published_at": "2026-09-24T14:45:00+08:00",
+    "tags": [
+      "大模型",
+      "模型训练",
+      "上下文"
+    ]
+  },
+  {
+    "title": "Claude Opus 5.5仅靠代码生成一支手绘MV",
+    "summary": "@xiaohu 展示 Claude Opus 5.5 的创作案例：模型通过 p5.js 逐帧绘制画面，再由后台 Chrome 截图并用 ffmpeg 合成MP4，同时自行拆分镜头、编写代码文件并协调子Agent完成一支手绘风格MV。",
+    "url": "https://x.com/xiaohu/status/2102979455308439555",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260925-v-07.jpg",
+    "published_at": "2026-09-24T12:32:00+08:00",
+    "tags": [
+      "Claude",
+      "AI编程",
+      "AI视频"
+    ]
+  },
+  {
+    "title": "卡兹克称最终还是回到了Claude的怀抱",
+    "summary": "@Khazix0918 分享使用体验：在尝试多种模型后，最终又回到Claude，并配图展示Claude桌面端的用量与额度界面，感叹优秀模型仍然很难抗拒。",
+    "url": "https://x.com/Khazix0918/status/2103155243576078823",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260925-v-08.jpg",
+    "published_at": "2026-09-25T00:10:00+08:00",
+    "tags": [
+      "Claude",
+      "大模型",
+      "使用体验"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+date: 2026-09-14
+covers generated: ai=18 v=16 total=34
+expected: ai=18 v=16 total=34
+failures: 0
+method: Pillow masthead (left 30% category color band + cream #F2F0EB symbol field + light paper grain)
+fonts: Noto Sans CJK SC Bold/Regular (TTC index 2)
+output: /workspace/alioxis-news/assets/covers/cover-20260914-*.jpg (~960x540 JPEG q75)
+size_in_40_100KB: 34/34
+json updated: ai.json image=18/18, v.json image=16/16
+prompts: /workspace/alioxis-news/data/2026-09-14/_cover_prompts.json (34 entries)
+script: /workspace/alioxis-news/scripts/gen-masthead-covers-20260914.py
+note: did NOT run build.js or publish-to-cvm.sh
+
+sample sizes:
+  cover-20260914-ai-02.jpg: 95082  (商业 / Claude Code / missile)
+  cover-20260914-ai-12.jpg: 97107  (模型 / DeepSeek / chip)
+  cover-20260914-v-07.jpg:  92806  (产品 / Cursor / code brackets)

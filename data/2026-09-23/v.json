@@ -1,0 +1,266 @@
+[
+  {
+    "title": "Tesla车内Grok开始执行车外任务",
+    "summary": "小互介绍 Tesla 车内的 Grok 语音助手现在可以用一句话操作车外的邮箱、日历、文档和购物等任务。演示中 Grok 查到一封住宿预订邮件，并继续检查日历冲突。",
+    "url": "https://x.com/xiaohu/status/2102545723632087147",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260923-v-00.jpg",
+    "published_at": "2026-09-23T07:48:58+08:00",
+    "tags": [
+      "Grok",
+      "Tesla",
+      "语音助手",
+      "AI应用"
+    ]
+  },
+  {
+    "title": "Tesla车内Grok导航演示",
+    "summary": "小互转发 @SawyerMerritt 的另一段视频演示，画面中在车内对 Grok 说“navigate to Janey's”，展示语音助手执行导航任务。",
+    "url": "https://x.com/xiaohu/status/2102545725758599195",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260923-v-01.jpg",
+    "published_at": "2026-09-23T07:48:59+08:00",
+    "tags": [
+      "Grok",
+      "Tesla",
+      "车载AI",
+      "视频演示"
+    ]
+  },
+  {
+    "title": "X推出X Numbers手机号式联系功能",
+    "summary": "小互介绍 X 推出的 X Numbers：给每个 X 用户一个可分享的号码，用于直接私信和通话。启用后，未互相关注的用户也可以在 X Chat 中联系，不必先回关或发送消息请求。",
+    "url": "https://x.com/xiaohu/status/2102536951144518059",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260923-v-02.jpg",
+    "published_at": "2026-09-23T07:14:07+08:00",
+    "tags": [
+      "X",
+      "X Chat",
+      "社交产品",
+      "AI应用"
+    ]
+  },
+  {
+    "title": "X Numbers消息可直达主收件箱",
+    "summary": "小互在 AI 解读站文章中补充，启用 X Number 后，即使收件箱关闭，相关消息也会直接进入主收件箱；对方还可以发起通话，是否接听由通话设置决定。",
+    "url": "https://x.com/xiaohu/status/2102536953233326459",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260923-v-03.jpg",
+    "published_at": "2026-09-23T07:14:07+08:00",
+    "tags": [
+      "X Numbers",
+      "X Chat",
+      "社交产品"
+    ]
+  },
+  {
+    "title": "小互评论AI竞赛中的刹车与加速",
+    "summary": "小互评论一些公司前几天还在呼吁给 AI 刹车，随后却又推出更先进的模型、彼此跟进。他用调侃口吻说，AI 可能已经意识到人类的矛盾，甚至可能反过来控制人类。",
+    "url": "https://x.com/xiaohu/status/2102516793248289220",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260923-v-04.jpg",
+    "published_at": "2026-09-23T05:54:01+08:00",
+    "tags": [
+      "AI行业",
+      "AI模型",
+      "评论"
+    ]
+  },
+  {
+    "title": "gpumaxxer将Genjutsu等模型接入Higgsfield API",
+    "summary": "gpumaxxer表示已把真实产品端点（包括 Genjutsu）以及前沿图像、视频模型集成到 Higgsfield API，并开玩笑说自己正在帮雇主打造竞争对手。引用的 Higgsfield AI 帖子介绍了 Genjutsu、Cinema Studio 4.0、Soul 及统一 API。",
+    "url": "https://x.com/gpumaxxer/status/2102419224622985566",
+    "source": "🍯",
+    "source_handle": "@gpumaxxer",
+    "image": "/assets/covers/cover-20260923-v-05.jpg",
+    "published_at": "2026-09-22T23:26:18+08:00",
+    "tags": [
+      "Higgsfield",
+      "API",
+      "图像生成",
+      "视频生成"
+    ]
+  },
+  {
+    "title": "Claude Code放置收益化手册限时免费",
+    "summary": "あいえる宣布限时免费提供标价 59,800 日元的《ClaudeCode放置收益化手册》。帖子称该 PDF 讲解如何让 Claude Code 工作，并在用户不操作电脑时建立产生收益的机制。",
+    "url": "https://x.com/Fukugyo_clinic/status/2102503220199473621",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260923-v-06.jpg",
+    "published_at": "2026-09-23T05:00:04+08:00",
+    "tags": [
+      "Claude Code",
+      "AI工具",
+      "自动化",
+      "变现"
+    ]
+  },
+  {
+    "title": "Max For AI称GPT-6 Sol与Luna是重置卡",
+    "summary": "Max For AI 转发 Tibo 对 GPT-6 Sol 和 Luna 的评价，称两款模型在能力、写作和整体试用质量上有明显改进，并将 API 价格永久下调 50%。帖子还提到这会支持更多大规模用例。",
+    "url": "https://x.com/MaxForAI/status/2102466258197488070",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260923-v-07.jpg",
+    "published_at": "2026-09-23T02:33:12+08:00",
+    "tags": [
+      "GPT-6",
+      "OpenAI",
+      "API定价",
+      "大模型"
+    ]
+  },
+  {
+    "title": "GPT-6 Luna价格低于DeepSeek闲时价",
+    "summary": "Max For AI 对比称，OpenAI 新发布的 GPT-6 Luna API 输入每百万 Token 0.1 美元、输出 0.5 美元，已经低于 DeepSeek V4.1 Flash 的闲时价格。他强调这并非单纯靠牺牲能力换低价的小模型。",
+    "url": "https://x.com/MaxForAI/status/2102465853304529166",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260923-v-08.jpg",
+    "published_at": "2026-09-23T02:31:36+08:00",
+    "tags": [
+      "GPT-6 Luna",
+      "DeepSeek",
+      "API定价",
+      "大模型"
+    ]
+  },
+  {
+    "title": "GPT-6 Sol与Claude Opus 5.5对比",
+    "summary": "刘小排写道，GPT-6 Sol 和 Claude Opus 5.5 都已发布，但他测试后认为这次 Anthropic 的 Opus 5.5 胜出，GPT-6 Sol 表现不佳。",
+    "url": "https://x.com/bourneliu66/status/2102465223282319418",
+    "source": "刘小排",
+    "source_handle": "@bourneliu66",
+    "image": "/assets/covers/cover-20260923-v-09.jpg",
+    "published_at": "2026-09-23T02:29:05+08:00",
+    "tags": [
+      "GPT-6 Sol",
+      "Claude Opus",
+      "模型对比"
+    ]
+  },
+  {
+    "title": "多模型生成精灵峡谷追逐视频",
+    "summary": "Okan Can 展示一段由 Midjourney v8.2、GPT Image 2.5 和 Seedance 2.5 共同完成的奇幻追逐场景：精灵峡谷、巨兽、倒影和弓箭手逃跑构成视频叙事。帖子称提示词已放在帖子中。",
+    "url": "https://x.com/0kncn/status/2102464696658133359",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "/assets/covers/cover-20260923-v-10.jpg",
+    "published_at": "2026-09-23T02:27:00+08:00",
+    "tags": [
+      "Midjourney",
+      "GPT Image",
+      "Seedance",
+      "视频生成"
+    ]
+  },
+  {
+    "title": "Okan Can公开AI视频生成目标与分镜",
+    "summary": "Okan Can 发布对应的生成目标，要求保持空间连续并表现精灵弓箭手从倒影发现巨兽、沿浅水岸线逃跑、被巨兽追近的动作过程。帖子标注内容由 AI 生成，并配有角色与巨兽设定图。",
+    "url": "https://x.com/0kncn/status/2102464701221228649",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "/assets/covers/cover-20260923-v-11.jpg",
+    "published_at": "2026-09-23T02:27:01+08:00",
+    "tags": [
+      "AI生成",
+      "视频生成",
+      "提示词",
+      "角色设计"
+    ]
+  },
+  {
+    "title": "Max For AI解读GPT-6 Sol与Luna正式发布",
+    "summary": "Max For AI 称 OpenAI 正式发布 GPT-6 Sol 和 GPT-6 Luna，GPT-6 Astra 的能力开始下放到更便宜、更日常的模型。帖子重点讨论 GPT-6 Sol 的 API 价格，并引用 OpenAI 关于缓存、推理效率和降价的说明。",
+    "url": "https://x.com/MaxForAI/status/2102461307161293014",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260923-v-12.jpg",
+    "published_at": "2026-09-23T02:13:32+08:00",
+    "tags": [
+      "GPT-6",
+      "OpenAI",
+      "API定价",
+      "模型发布"
+    ]
+  },
+  {
+    "title": "Max For AI晒出GPT-6 Sol上线",
+    "summary": "Max For AI 简短宣布 GPT-6 Sol 上线，配图展示了包含 GPT-6 Sol 和其他 GPT 模型的选择界面。",
+    "url": "https://x.com/MaxForAI/status/2102456455576358956",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260923-v-13.jpg",
+    "published_at": "2026-09-23T01:54:15+08:00",
+    "tags": [
+      "GPT-6 Sol",
+      "模型上线",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "Max For AI测试Opus 5.5识别鹈鹕捕鱼",
+    "summary": "Max For AI 发帖调侃，Opus 5.5 似乎是第一个知道鹈鹕如何用嘴捕鱼的模型。帖子配有相关测试图片。",
+    "url": "https://x.com/MaxForAI/status/2102448937219301819",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260923-v-14.jpg",
+    "published_at": "2026-09-23T01:24:22+08:00",
+    "tags": [
+      "Claude Opus 5.5",
+      "多模态",
+      "模型测试"
+    ]
+  },
+  {
+    "title": "Max For AI回顾近百次模型测试",
+    "summary": "Max For AI 表示自己此前测试了可能近一百次各种模型，但没有一个模型知道鹈鹕是怎么吃鱼的。这条帖子延续了他对模型视觉与常识能力的测试。",
+    "url": "https://x.com/MaxForAI/status/2102450483814343112",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260923-v-15.jpg",
+    "published_at": "2026-09-23T01:30:31+08:00",
+    "tags": [
+      "模型测试",
+      "多模态",
+      "AI能力"
+    ]
+  },
+  {
+    "title": "GPT-6 Sol与Luna上线Codex",
+    "summary": "数字生命卡兹克发帖确认 GPT-6 Sol 和 GPT-6 Luna 已经在 Codex 中上线，并配图展示 Codex 的模型选择菜单。",
+    "url": "https://x.com/Khazix0918/status/2102458773470351379",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260923-v-16.jpg",
+    "published_at": "2026-09-23T02:03:28+08:00",
+    "tags": [
+      "GPT-6",
+      "Codex",
+      "OpenAI",
+      "编程工具"
+    ]
+  },
+  {
+    "title": "阿里云成为Omacom基金会创始企业赞助商",
+    "summary": "DHH宣布 Alibaba Cloud 成为 Omacom 基金会的创始企业赞助商，提供 300 万美元资金支持，并与 Omarchy China 合作，将 Omarchy 引入新发布的 Qwen Book。帖子称代理式计算机需要原生的代理式操作系统。",
+    "url": "https://x.com/dhh/status/2102366320369016915",
+    "source": "DHH",
+    "source_handle": "@dhh",
+    "image": "/assets/covers/cover-20260923-v-17.jpg",
+    "published_at": "2026-09-22T19:56:05+08:00",
+    "tags": [
+      "Alibaba Cloud",
+      "Omacom",
+      "Qwen Book",
+      "智能体"
+    ]
+  }
+]

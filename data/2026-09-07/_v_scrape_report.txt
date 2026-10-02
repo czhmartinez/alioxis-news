@@ -1,0 +1,6 @@
+logged-in: yes
+tab confirmed: 正在关注 / Following（X主页顶部标签已确认）
+scroll count: 15（Following时间线；时间线较稀疏，随后打开了三个偏好账号主页）
+posts captured: 15 total, 15 unique
+handle breakdown: @xiaohu 6; @MaxForAI 3; @Khazix0918 6
+notes: 已使用可见屏幕内容；遇到“显示更多”时仅保留可见文字或可见卡片摘要。时间线中偏好账号内容较少，因此补抓了 @xiaohu、@MaxForAI、@Khazix0918 主页上可见的近期AI相关帖子。未遇到登录墙、密码或2FA。published_at 对相对时间按 2026-09-07 08:12（Asia/Taipei）近似换算；仅显示日期的帖子使用该日期00:00。image 字段均为空。

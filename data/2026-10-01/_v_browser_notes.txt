@@ -1,0 +1,13 @@
+Alioxis News 大V视野 scrape notes — 2026-10-01 (Asia/Taipei)
+
+登录：已确认。每个已访问的个人主页均正常加载，账号菜单显示 zihan chen (@zihanch71347739)，未出现登录墙。
+
+本轮访问：
+1. https://x.com/Khazix0918 — 时间线加载；看到约10小时前的卡兹克帖子，主题是防止 Claude 账号被封，采集 1 条（status 2105299706549096697）。
+2. https://x.com/MaxForAI — 时间线加载；看到约9小时前关于 Dario 的 AI 行业调侃，以及约21小时前关于 DeepSeek 面向华为昇腾开源基础设施的帖子，采集 2 条（2105315714068554061、2105128392379322752）。
+3. https://x.com/xiaohu — 时间线加载；看到约16小时前关于 OpenAI 重置机会和积分额度的帖子，采集 1 条（2105198581238095967）。另看到约17小时前 AI 短片黑客松帖子，但未纳入，因为点击未能打开可确认的 status URL。
+4. https://x.com/testingcatalog — 时间线加载；看到约1小时前 Google AI Studio 安全审查功能、约3小时前 Inworld 收购 Ultravox 等 AI 帖子，采集 2 条（2105434023392620830、2105398680282861879）。
+
+停止：已有 Following 时间线的 7 条，加上本轮 6 条后达到 13 条，落在目标 12–20 范围，因此未继续访问 @ChineseWSJ、@dashiAIxz 或仅在有新增时才访问的 @zaobaosg。
+
+结果：_v_raw_scrape.json 保留原有 7 条并追加 6 条；v.json 为 13 条唯一帖子。本轮新增 status ID 均不在 2026-09-30/v.json，也不在用户提供的禁止重复 ID 列表中；用户指定的 7 条原有帖子按要求保留且未再次追加。所有内容均来自已看到的 X 个人主页帖子；未 fabricated。published_at 根据任务时间戳和 X 显示的相对时间近似反推。

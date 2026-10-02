@@ -1,0 +1,3 @@
+covers ok=31 fail=0
+fail=[]
+AI=16 V=15 unique GenerateImage content-scene covers compressed ~960w q72

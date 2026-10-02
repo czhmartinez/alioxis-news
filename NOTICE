@@ -1,0 +1,50 @@
+# NOTICE · 致谢
+
+Alioxis News 是个人静态杂志站（Flipboard 风格），不是 AIHOT 的镜像或商业产品。
+
+## UP主与关注创作者（大V视野）
+
+「大V视野」收录本人在 X 上关注的创作者公开发帖摘要，版权归原作者。常见来源（非完整名单，以每日 `data/*/v.json` 为准）：
+
+- 数字生命卡兹克 / 卡兹克（@Khazix0918）— AIHOT 作者
+- Max For AI（@MaxForAI）
+- 小互（@xiaohu）
+- 华尔街日报中文网（@ChineseWSJ）
+- あいえる（@Fukugyo_clinic）
+- Okan Can（@0kncn）
+- Tibo（@thsottiaux）
+- 联合早报（@zaobaosg）
+- TestingCatalog / AI News（@testingcatalog）
+- 逸尘（@gengdaJ）
+- 南鸢 nuyoah（@nanyuan0412）
+- gpumaxxer（@gpumaxxer）
+- 大师的AI小灶（@dashiAIxz）
+- 领哥LingGe（@shangdu2005）
+- Higgsfield AI（@higgsfield）
+- Firecrawl（@firecrawl）
+
+引用标题与摘要仅作个人阅读索引；请回原文核对。
+
+## AIHOT（卡兹克 · 开源）
+
+- 框架：https://github.com/KKKKhazix/AIHOT （MIT，Copyright (c) 2026 数字生命卡兹克）
+- 站点与数据：https://aihot.news/
+- 本仓库**没有** fork 整份 AIHOT 代码树（完整快照另存于开发机 `/workspace/AIHOT`，不随本站发布）。
+- 本站通过公开只读 API `https://aihot.news/api/v1/dailies/{date}` 拉取日报 JSON，展示「今日日报」条，并保留 attribution / canonical。
+- AIHOT 服务与数据输出适用其公开使用规则：个人非商业、公益非商业和组织内部使用可免费；面向外部的商业产品、收费服务、数据转售、公开镜像或批量再分发须事先书面授权（wzglyay@virxact.com）。仅标注「数据来源：AIHOT」不等于已获商业授权。
+- AIHOT 的名字和 Logo **不在** MIT 许可范围内，本站不使用其 Logo。
+- 第三方原文版权仍归原作者。
+
+## AI 新闻信源
+
+「AI新闻」条目来自公开报道与官方博客（TechCrunch、OpenAI、Anthropic、OpenRouter、IT之家、The Verge、Reuters、Artificial Analysis、Hugging Face、GitHub Blog 等），摘要为阅读索引，不是转载全文。
+
+## 依赖与字体
+
+- 页面字体：Google Fonts「Noto Sans SC」「Noto Serif SC」（SIL Open Font License）。
+- 构建脚本为纯 Node.js，无第三方 npm 运行时依赖。
+- 封面图为本站生成的杂志插画，不使用 AIHOT 品牌素材。
+
+## 本仓库代码
+
+除另有说明外，Alioxis News 站点生成器（`build.js`、`assets/`、`scripts/`）以 MIT 许可证发布，见 `LICENSE`。

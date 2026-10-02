@@ -1,0 +1,104 @@
+[
+  {
+    "idx": 0,
+    "prompt": "Photoreal AI research desk: open-weight MoE model card printouts stacked beside a glowing sparse neural lattice sculpture (few cyan nodes lit among dark idle ones suggesting trillion-total / 42B-active), Xiaomi-silver aluminum laptop closed, cool north light, no text no logos no watermarks, 16:9",
+    "out": "cover-20260922-ai-00.jpg",
+    "title": "小米开源 MiMo-V2.6-Pro：AA 开放权重登顶 46 分，1.02T MoE / 42B 激活"
+  },
+  {
+    "idx": 1,
+    "prompt": "Half-realistic coding night desk for a new Grok release: ultrawide IDE with abstract colorful code streams, mechanical keyboard, coffee steam, subtle starfield screensaver reflection on glass, warm lamp vs cool monitor, unique props, no readable text no logos, 16:9",
+    "out": "cover-20260922-ai-01.jpg",
+    "title": "xAI 发布 Grok 4.7：主打编码与知识工作，同价同速于 4.6"
+  },
+  {
+    "idx": 2,
+    "prompt": "Documentary photo of a benchmark lab wall: four anonymous lab door plaques with abstract score sparklines climbing, stopwatch and clipboard on steel table, clinical overhead light, no brand names readable, 16:9",
+    "out": "cover-20260922-ai-02.jpg",
+    "title": "Artificial Analysis：Grok 4.7 智能指数 46，编码代理升至 56、跻身前四实验室"
+  },
+  {
+    "idx": 3,
+    "prompt": "Photojournalism courthouse exterior in rainy Pacific Northwest: sealed evidence folders and a smartphone with blurred chat bubbles on counsel table, sombre grey sky, no readable case captions, 16:9",
+    "out": "cover-20260922-ai-03.jpg",
+    "title": "加拿大 BC 省起诉 OpenAI：称枪击案前未将 flagged ChatGPT 对话转介警方"
+  },
+  {
+    "idx": 4,
+    "prompt": "Investigative still life: cardboard shipping box beside a blocked shopping-cart icon hologram and a masked agent silhouette clutching a credit card, warehouse fluorescent light, tension, no logos no readable brands, 16:9",
+    "out": "cover-20260922-ai-04.jpg",
+    "title": "亚马逊封禁 Meta Muse 智能体代购：称未获授权、未表明身份且存凭证风险"
+  },
+  {
+    "idx": 5,
+    "prompt": "Half-realistic desktop coding agent scene: macOS-style window chrome (generic, no Apple marks) with agent sidebar and file tree, dual-OS USB stick, sticky notes, coffee, soft daylight, no brand logos no readable code, 16:9",
+    "out": "cover-20260922-ai-05.jpg",
+    "title": "月之暗面发布 Kimi Code Desktop 1.0：macOS / Windows 图形化编程智能体"
+  },
+  {
+    "idx": 6,
+    "prompt": "Diplomatic photojournalism: ten empty conference chairs around a round table with a shared technical standards binder and a world-map soft focus, evening window light, no flags as logos, 16:9",
+    "out": "cover-20260922-ai-06.jpg",
+    "title": "OpenAI 呼吁美国主导全球前沿 AI 技术标准：联通十国安全研究所网络"
+  },
+  {
+    "idx": 7,
+    "prompt": "Documentary math war room: chalkboard dense with abstract symbols (illegible), stack of unsolved-problem envelopes stamped closed, warm library lamps, no readable equations as overlays, 16:9",
+    "out": "cover-20260922-ai-07.jpg",
+    "title": "OpenAI 宣布数学与 AI 独立咨询小组：称内部模型已解决 100+ 未解难题"
+  },
+  {
+    "idx": 8,
+    "prompt": "Night documentary of two rival AI lab war rooms connected by a fiber cable glowing across a dark street, mutual stress-test metaphor, city bokeh, no logos, 16:9",
+    "out": "cover-20260922-ai-08.jpg",
+    "title": "The Information：OpenAI 与 Anthropic 今年早些时候洽谈互相 stress-test 协议"
+  },
+  {
+    "idx": 9,
+    "prompt": "Half-realistic engineering desk: CI pipeline dashboard with wait-time gauges dropping from long to short, PR checklist sticky notes, coffee, unique props, soft lamp, no readable repo names, 16:9",
+    "out": "cover-20260922-ai-09.jpg",
+    "title": "Linear 重构 CI：AI 编码加速后，PR 等待从 6 分钟以上压到约 5 分钟"
+  },
+  {
+    "idx": 10,
+    "prompt": "Half-realistic ML ops desk: left side tangled flowchart sticky notes, right side a tiny specialized classifier chip on a breadboard labeled only with abstract icons, cost-arrow props, cool/warm split light, no text, 16:9",
+    "out": "cover-20260922-ai-10.jpg",
+    "title": "用法技巧：用专用「决策器」替代生成式 if-then，分类成本可降近百倍"
+  },
+  {
+    "idx": 11,
+    "prompt": "Editorial still life balancing scale: left pan filled with open model weight plates glowing amber, right pan with open-source license scrolls and git commit stamps, soft documentary light, no country flags as logos, 16:9",
+    "out": "cover-20260922-ai-11.jpg",
+    "title": "Nathan Lambert：开源权重「中美实力格局」——中方领先开源权重、美方主导真开源"
+  },
+  {
+    "idx": 12,
+    "prompt": "Documentary robotics lab: humanoid robot mirroring a projected human dance video on a white wall, motion-capture markers, clinical light, no logos, 16:9",
+    "out": "cover-20260922-ai-12.jpg",
+    "title": "Light Origins 发布 Light-O1：用互联网人体视频预训练，迁移到人形机器人动作"
+  },
+  {
+    "idx": 13,
+    "prompt": "Half-realistic learning studio: three distinct role desks (developer laptop, manager tablet brief, student notebook) each with a blank graduation badge prop, warm classroom light, no logos no readable course titles, 16:9",
+    "out": "cover-20260922-ai-13.jpg",
+    "title": "OpenAI 扩展 Academy：按岗位新增开发者/管理者/教育者与学生路径并设结业徽章"
+  },
+  {
+    "idx": 14,
+    "prompt": "Photojournalism law firm library: thick case binders, gavel soft focus, laptop showing abstract legal retrieval graph, cool professional light, no firm names, 16:9",
+    "out": "cover-20260922-ai-14.jpg",
+    "title": "OpenAI 推出 Astra for Law：GPT-6 Astra + 法律检索与律所工作流插件"
+  },
+  {
+    "idx": 15,
+    "prompt": "Photoreal fintech research desk: sparse MoE chip mockup beside stock chart candles (abstract), MIT-style open binder, cool bank-lobby light, no bank logos no readable tickers, 16:9",
+    "out": "cover-20260922-ai-15.jpg",
+    "title": "Ant Group 开源金融向 Ling-3.0-flash-Fin：124B MoE / 5.1B 激活，MIT 许可"
+  },
+  {
+    "idx": 16,
+    "prompt": "Clinical documentary: radiology suite with AI prognosis heatmaps on a diagnostic monitor (abstract colorful overlays on anonymized scan), infusion chair soft bokeh, cool hospital light, no patient ID no logos, 16:9",
+    "out": "cover-20260922-ai-16.jpg",
+    "title": "Altis Labs 获 2500 万美元 A 轮：用 AI 影像预后加速肿瘤临床试验终点"
+  }
+]

@@ -1,0 +1,282 @@
+[
+  {
+    "title": "小互：Claude Max 全量重置每周限额，配合 Fable 5.1 长周末创作",
+    "summary": "Claude 重置了（引用 Lydia Hallie @lydiahallie：我们刚刚为 Claude Max 计划的所有用户重置了每周限额。随着 Fable 5.1 发布，许多人即将迎来长周末，我们希望让你们继续创作。）",
+    "url": "https://x.com/xiaohu/status/2096028466127000009",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260905-v-00.jpg",
+    "published_at": "2026-09-05T00:16:00.000Z",
+    "tags": [
+      "Claude",
+      "配额",
+      "Fable"
+    ]
+  },
+  {
+    "title": "小互转发：a16z 解读 SaaS 巨头反扑与垂直 AI 护城河",
+    "summary": "a16z 深度解读：SaaS 巨头的反扑战，与垂直 AI 的终极护城河。生成式 AI 爆发初期，企业软件界曾流行一种乐观预期：大模型将迅速瓦解传统 SaaS 帝国，灵活轻巧的 AI 原生应用会取代陈旧的业务数据底座。",
+    "url": "https://x.com/xiaohu/status/2095875427944550739",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260905-v-01.jpg",
+    "published_at": "2026-09-04T14:30:00.000Z",
+    "tags": [
+      "a16z",
+      "SaaS",
+      "垂直AI"
+    ]
+  },
+  {
+    "title": "小互：Grok Bot 团队复盘——跨会话持续工作的设计",
+    "summary": "Grok Bot 团队复盘：他们如何设计 Grok Bot 的，以便让机器人能够在多个会话之间持续工作。当机器人能够记住此前的工作、跨越多次会话继续负责、在后台使用自己的电脑，并在用户离开后主动开工，产品还应该围绕一段段聊天来组织吗？",
+    "url": "https://x.com/xiaohu/status/2095874831204135413",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260905-v-02.jpg",
+    "published_at": "2026-09-04T14:30:00.000Z",
+    "tags": [
+      "Grok Bot",
+      "Agent",
+      "设计"
+    ]
+  },
+  {
+    "title": "小互：世界机器人大会见闻，产线机器人到生活场景仍有鸿沟",
+    "summary": "上周参加了世界机器人大会。现场各种炫酷的机器人让人目不暇接，但现实中让一个在产线分拣自如的机器人去超市帮你推车买袋大米，它依然会直接“歇菜”。Arm 物理 AI 全球负责人 Federico Pecora：物理 AI 正从“单点能力验证期”跨入“系统攻坚期”。",
+    "url": "https://x.com/xiaohu/status/2095817337060651011",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260905-v-03.jpg",
+    "published_at": "2026-09-04T10:30:00.000Z",
+    "tags": [
+      "机器人",
+      "具身智能",
+      "大会"
+    ]
+  },
+  {
+    "title": "卡兹克：GPT-6 Astra 发布后的创业者夜思",
+    "summary": "看到GPT-6 Astra发布之后，作为一个博主很激动。但写完稿子以后，躺在床上久久不能入眠。作为一家30多个人的公司的企业管理者，这个时候却又会很真实的焦虑。我怕这个时代太快，我们的团队、我们的组织跟不上。",
+    "url": "https://x.com/Khazix0918/status/2095688501891354915",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260905-v-04.jpg",
+    "published_at": "2026-09-04T02:30:00.000Z",
+    "tags": [
+      "Astra",
+      "创业",
+      "卡兹克"
+    ]
+  },
+  {
+    "title": "卡兹克高呼「义父」：ChatGPT 付费用户 Astra 延迟额度重置",
+    "summary": "义父！！！ 这下A➗是真的小丑了（引用 Tibo @thsottiaux：我们将为每一天您在付费 ChatGPT 计划中无法访问 Astra 提供一个额度重置，从今天开始。）",
+    "url": "https://x.com/Khazix0918/status/2095654766936531059",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260905-v-05.jpg",
+    "published_at": "2026-09-03T04:00:00.000Z",
+    "tags": [
+      "Astra",
+      "配额",
+      "ChatGPT"
+    ]
+  },
+  {
+    "title": "Max：GPT-6 一句话做出浏览器马里奥式赛车游戏",
+    "summary": "🚨任天堂死了。这是我朋友用一句话，让 GPT-6 生成的一个赛车游戏（我叫它马里奥赛车9），直接在浏览器里就能玩。六个角色可选，竞速赛、道具赛两种模式，漂移集气、氮气加速都有，甚至还做了自动油门。",
+    "url": "https://x.com/MaxForAI/status/2095991561561714853",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260905-v-06.jpg",
+    "published_at": "2026-09-04T22:30:00.000Z",
+    "tags": [
+      "GPT-6",
+      "游戏",
+      "演示"
+    ]
+  },
+  {
+    "title": "Max：LobeHub 已上线 GPT-6，欢迎试用",
+    "summary": "LobeHub已上线 GPT-6🔥 欢迎试用哦～（引用 LobeHub @lobehub：Hello👋 GPT-6）",
+    "url": "https://x.com/MaxForAI/status/2095986547527241932",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260905-v-07.jpg",
+    "published_at": "2026-09-04T21:30:00.000Z",
+    "tags": [
+      "LobeHub",
+      "GPT-6",
+      "工具"
+    ]
+  },
+  {
+    "title": "Max：一句话 + 一张图，GPT-6 做出可漫游 3D 白宫",
+    "summary": "🚨一张图、一句话，GPT-6 花了 22 分钟，给我做了个可以自由漫游的 3D 白宫。提示词就一句：帮我用这个图做一个这个建筑三维的立体页面，可以自由浏览。建筑、草坪、树木、花坛、喷泉全给做进去了，可拖动旋转缩放、切换鸟瞰视角，还能按 WASD。",
+    "url": "https://x.com/MaxForAI/status/2095976341258854434",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260905-v-08.jpg",
+    "published_at": "2026-09-04T21:30:00.000Z",
+    "tags": [
+      "GPT-6",
+      "3D",
+      "演示"
+    ]
+  },
+  {
+    "title": "Max：如何拿到 GPT-6——检查更新即可",
+    "summary": "如何获得GPT-6：点击左上角 ChatGPT 菜单，点击检查更新，更新完就可以获得 GPT-6 了！",
+    "url": "https://x.com/MaxForAI/status/2095951316535406727",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260905-v-09.jpg",
+    "published_at": "2026-09-04T19:30:00.000Z",
+    "tags": [
+      "GPT-6",
+      "教程",
+      "ChatGPT"
+    ]
+  },
+  {
+    "title": "Max：OpenAI Computer Use 核心成员 Maximilian Sieb 离职创业",
+    "summary": "🚨OpenAI 的 Computer Use 团队核心成员 Maximilian Sieb 刚刚宣布离职创业。@msieb1 此前在 OpenAI 负责 Computer-Use Agent 和强化学习，加入 OpenAI 前还待过 GoogleDeepMind、CharacterAI 和 Covariant。",
+    "url": "https://x.com/MaxForAI/status/2095954732938674377",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260905-v-10.jpg",
+    "published_at": "2026-09-04T19:30:00.000Z",
+    "tags": [
+      "OpenAI",
+      "Computer Use",
+      "创业"
+    ]
+  },
+  {
+    "title": "Max：吐槽每次模型变强就靠 reset 留人",
+    "summary": "为什么他们总是在GPT更强的时候试图使用 reset 来留住大家呢🤣 我闻到了恐惧（引用 Lydia Hallie：我们刚刚为 Claude Max 计划的所有用户重置了每周限额。）",
+    "url": "https://x.com/MaxForAI/status/2095969688706818254",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260905-v-11.jpg",
+    "published_at": "2026-09-04T20:30:00.000Z",
+    "tags": [
+      "配额",
+      "GPT-6",
+      "评论"
+    ]
+  },
+  {
+    "title": "Max：分享 GPT-6 3D 白宫体验地址",
+    "summary": "GPT-6 体验地址：https://white-house-spatial-0905.copper-pond-8091.chatgpt.site（3D 白宫漫游 demo）",
+    "url": "https://x.com/MaxForAI/status/2095996308272406983",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260905-v-12.jpg",
+    "published_at": "2026-09-04T22:30:00.000Z",
+    "tags": [
+      "GPT-6",
+      "演示",
+      "链接"
+    ]
+  },
+  {
+    "title": "Tibo：Astra 已向所有 Plus 与 Business 用户开放",
+    "summary": "团队和 Astra 做得很好，我们的系统比预期的更具可扩展性。Astra 现在也向所有 Plus 和 Business 用户推出。",
+    "url": "https://x.com/thsottiaux/status/2096002992046796932",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20260905-v-13.jpg",
+    "published_at": "2026-09-04T23:30:00.000Z",
+    "tags": [
+      "Astra",
+      "OpenAI",
+      "开放"
+    ]
+  },
+  {
+    "title": "Tibo：Astra 在 Terminal Bench 4.0 登顶，成本约为第二名一半",
+    "summary": "很棒，看到 GPT-6 Astra 在使用 Codex 线束的 Terminal Bench 4.0 上位列 #1，成本仅为 #2 的 50%。",
+    "url": "https://x.com/thsottiaux/status/2095995318471168397",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20260905-v-14.jpg",
+    "published_at": "2026-09-04T22:30:00.000Z",
+    "tags": [
+      "Astra",
+      "评测",
+      "Codex"
+    ]
+  },
+  {
+    "title": "Tibo：部分 Plus/Business 今日暂无法访问，额度重置将在当天结束前到位",
+    "summary": "一些 Plus 和 Business 用户今天可能还无法访问 Astra，我们已经为您准备好了额度重置，将于当天结束前到达。",
+    "url": "https://x.com/thsottiaux/status/2095979536043401428",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20260905-v-15.jpg",
+    "published_at": "2026-09-04T21:30:00.000Z",
+    "tags": [
+      "Astra",
+      "配额",
+      "ChatGPT"
+    ]
+  },
+  {
+    "title": "Tibo：Astra 部署推进中，Pro 与 Business 优先",
+    "summary": "我们正在推进 Astra 的部署。Pro 和 Business 订阅用户将首先获得它，你们中的一些人应该开始在 ChatGPT Work 和 Codex 中看到它，然后我们将尽快向所有 Plus 用户推出。",
+    "url": "https://x.com/thsottiaux/status/2095961185262997556",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20260905-v-16.jpg",
+    "published_at": "2026-09-04T20:30:00.000Z",
+    "tags": [
+      "Astra",
+      "部署",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "南鸢：GPT-6 + Img g 2.5 网页端生图，暗光复杂场景碎裂感消失",
+    "summary": "GPT 6 上线后，网页端生图模型也更新了。现在是 Img g 2.5 + GPT 6。我第一时间拿它测了最难搞的一类图：暗光、复杂光线、多光源、反射、高细节。以前这种图有一个老毛病：图片碎的爆炸。但这次不一样，碎片感真的消失了，光线方面也得到了提升。",
+    "url": "https://x.com/nanyuan0412/status/2096011755881415166",
+    "source": "南鸢",
+    "source_handle": "@nanyuan0412",
+    "image": "/assets/covers/cover-20260905-v-17.jpg",
+    "published_at": "2026-09-04T23:30:00.000Z",
+    "tags": [
+      "生图",
+      "GPT-6",
+      "评测"
+    ]
+  },
+  {
+    "title": "南鸢：新生图模型上线，噪点碎片问题明显改善",
+    "summary": "不仅 GPT 6 上线了，新的生图模型感觉也上线了诶，这样的图片已经不会出现碎噪点了。",
+    "url": "https://x.com/nanyuan0412/status/2096006462183293163",
+    "source": "南鸢",
+    "source_handle": "@nanyuan0412",
+    "image": "/assets/covers/cover-20260905-v-18.jpg",
+    "published_at": "2026-09-04T23:30:00.000Z",
+    "tags": [
+      "生图",
+      "GPT-6",
+      "体验"
+    ]
+  },
+  {
+    "title": "副业诊所：ChatGPT 好不好用，最后一句提示词决定九成",
+    "summary": "ChatGPTが“優秀な部下になるかどうか”は、最後の一言で9割変わる。「これやって」「いい感じにお願い」しか言ってない人は、ただの作業係で終わりがち。たった1文足すだけで、確認・提案・改善・先回りまでかなり変わる。",
+    "url": "https://x.com/Fukugyo_clinic/status/2095980230632681898",
+    "source": "副业诊所",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260905-v-19.jpg",
+    "published_at": "2026-09-04T21:30:00.000Z",
+    "tags": [
+      "提示词",
+      "ChatGPT",
+      "技巧"
+    ]
+  }
+]

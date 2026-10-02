@@ -1,0 +1,193 @@
+[
+  {
+    "title": "小互：比 Astra 更强的内部模型解出 Navier–Stokes",
+    "summary": "小互转述 OpenAI 称内部更强模型调动约 1 万 Agent、并行约 88 小时、花费数百万美元，产出 165 页证明并经 Lean 形式化；公司不打算领取百万美元奖金。",
+    "url": "https://x.com/xiaohu/status/2097477721672855994",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T08:24:00+08:00",
+    "tags": [
+      "Navier-Stokes",
+      "OpenAI",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20260909-v-00.jpg"
+  },
+  {
+    "title": "小互：Grok Bot 正式打通 X，付费用户赠送 Starter Credits",
+    "summary": "小互介绍 Grok Bot 接入 X 插件流程与能力：时间线简报、提及监控、书签、私信/评论聚合，以及代发内容带 Made with AI 标识。",
+    "url": "https://x.com/xiaohu/status/2097469976768897186",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T07:53:00+08:00",
+    "tags": [
+      "Grok Bot",
+      "X",
+      "插件"
+    ],
+    "image": "/assets/covers/cover-20260909-v-01.jpg"
+  },
+  {
+    "title": "小互点评 ChatGPT Images 2.5：「有点东西」",
+    "summary": "小互短评 OpenAI 新发布的 ChatGPT Images 2.5，附图像示例。",
+    "url": "https://x.com/xiaohu/status/2097460743151161751",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T07:40:00+08:00",
+    "tags": [
+      "Images 2.5",
+      "OpenAI"
+    ],
+    "image": "/assets/covers/cover-20260909-v-02.jpg"
+  },
+  {
+    "title": "小互：Images 2.5 精细编辑对比",
+    "summary": "小互展示 ChatGPT Images 2.5 精细编辑前后对比。",
+    "url": "https://x.com/xiaohu/status/2097460745432887790",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T07:40:00+08:00",
+    "tags": [
+      "Images 2.5",
+      "编辑"
+    ],
+    "image": "/assets/covers/cover-20260909-v-03.jpg"
+  },
+  {
+    "title": "小互：GPT Image 2.5 更快更强，支持精细点对点编辑",
+    "summary": "小互介绍 GPT Image 2.5：更快、更逼真，编辑能力增强，只需描述要改的图像局部即可做点对点修改。",
+    "url": "https://x.com/xiaohu/status/2097450450610274355",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-09T06:40:00+08:00",
+    "tags": [
+      "Images 2.5",
+      "图像生成"
+    ],
+    "image": "/assets/covers/cover-20260909-v-04.jpg"
+  },
+  {
+    "title": "Max：Codex 新上下文实验功能建议先关",
+    "summary": "Max for AI 售后提醒：Codex 笔记+可搜索历史虽省 token，但多轮后易忘上下文甚至串 session，质量损失暂不划算，建议等正式版。",
+    "url": "https://x.com/MaxForAI/status/2096797970582921595",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-06T12:00:00+08:00",
+    "tags": [
+      "Codex",
+      "上下文",
+      "实测"
+    ],
+    "image": "/assets/covers/cover-20260909-v-05.jpg"
+  },
+  {
+    "title": "Max：DeepSeek Flash 大降价，缓存命中最高降 60%",
+    "summary": "Max for AI 解读 DeepSeek 9 月 10 日调价：缓存命中输入降至 0.02 元/百万 token（降 60%）；并提到 V4.1-Flash 在 DeepSWE 上性价比亮眼。",
+    "url": "https://x.com/MaxForAI/status/2097353806921207838",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-09T00:40:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "降价",
+      "API"
+    ],
+    "image": "/assets/covers/cover-20260909-v-06.jpg"
+  },
+  {
+    "title": "Max：Codex「地摊儿」都来了",
+    "summary": "Max for AI 吐槽 Codex 相关生态热闹/乱象，配图短评。",
+    "url": "https://x.com/MaxForAI/status/2097346061149053271",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-09T00:40:00+08:00",
+    "tags": [
+      "Codex",
+      "吐槽"
+    ],
+    "image": "/assets/covers/cover-20260909-v-07.jpg"
+  },
+  {
+    "title": "Max：DeepSeek V4-Pro「太区了」",
+    "summary": "Max for AI 短评肯定 DeepSeek V4-Pro 能力表现。",
+    "url": "https://x.com/MaxForAI/status/2097301723509567985",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-08T21:40:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "V4-Pro"
+    ],
+    "image": "/assets/covers/cover-20260909-v-08.jpg"
+  },
+  {
+    "title": "Max：DeepSeek 宣布 V4.1 Flash 中间版内测",
+    "summary": "Max for AI 转发：DeepSeek 开启 V4.1 Flash 中间版本内测，原生多模态、更快更低成本；API 模型名 deepseek-v4.1-flash-expires-on-0910。",
+    "url": "https://x.com/MaxForAI/status/2097229032819691627",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-08T16:40:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "V4.1 Flash",
+      "内测"
+    ],
+    "image": "/assets/covers/cover-20260909-v-09.jpg"
+  },
+  {
+    "title": "卡兹克：AIHOT 启用 aihot.news 并完成全面重构",
+    "summary": "数字生命卡兹克宣布 AIHOT 启用新域名 aihot.news 并备案迁移；借 Astra 重构全栈以支撑更高并发，并就迁移期间体验问题致歉。",
+    "url": "https://x.com/Khazix0918/status/2097317343487733969",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-08T22:40:00+08:00",
+    "tags": [
+      "AIHOT",
+      "重构",
+      "域名"
+    ],
+    "image": "/assets/covers/cover-20260909-v-10.jpg"
+  },
+  {
+    "title": "卡兹克：用 GPT-6 Astra 操控 Blender 保姆级教程",
+    "summary": "数字生命卡兹克称 Astra 上线后 Blender 下载量暴增，并放出操控 Blender 的保姆级教程（帖文可见部分）。",
+    "url": "https://x.com/Khazix0918/status/2097201246973366417",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-08T14:40:00+08:00",
+    "tags": [
+      "Astra",
+      "Blender",
+      "教程"
+    ],
+    "image": "/assets/covers/cover-20260909-v-11.jpg"
+  },
+  {
+    "title": "卡兹克怒怼：Astra「模型已满」两天几乎用不了",
+    "summary": "数字生命卡兹克 @sama / @thsottiaux 吐槽随便开对话就显示模型已满，基础任务都处理不了。",
+    "url": "https://x.com/Khazix0918/status/2097138611842085108",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-08T10:40:00+08:00",
+    "tags": [
+      "Astra",
+      "容量",
+      "吐槽"
+    ],
+    "image": "/assets/covers/cover-20260909-v-12.jpg"
+  },
+  {
+    "title": "卡兹克：连 GPT-5.6 Luna 也提示模型已满",
+    "summary": "数字生命卡兹克反馈开多少新对话都提示模型已满，甚至 Luna 也无法使用，质疑是个人账号还是 OpenAI 问题。",
+    "url": "https://x.com/Khazix0918/status/2096852029629157421",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-06T12:00:00+08:00",
+    "tags": [
+      "ChatGPT",
+      "容量",
+      "吐槽"
+    ],
+    "image": "/assets/covers/cover-20260909-v-13.jpg"
+  }
+]

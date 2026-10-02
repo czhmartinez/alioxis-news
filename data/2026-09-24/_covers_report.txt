@@ -1,0 +1,3 @@
+covers 2026-09-24: ai=16/16 v=16/16 unique GenerateImage content-scenes; ok=32 fail=0
+jpg size range: 29425–81926 bytes
+sample: [('cover-20260924-ai-00.jpg', 64661), ('cover-20260924-ai-01.jpg', 68777), ('cover-20260924-ai-02.jpg', 61494)]

@@ -1,0 +1,226 @@
+[
+  {
+    "title": "南鸢分享GPT光影迁移技巧：一句话完成自然融合",
+    "summary": "南鸢补充说明此前的光影迁移短线程：其实只需对GPT说“将图X的光影迁移到图X中，自然融合”即可，若出现问题再追加负面约束。",
+    "url": "https://x.com/nanyuan0412/status/2094947377060995345",
+    "source": "南鸢 nuyoah",
+    "source_handle": "@nanyuan0412",
+    "image": "https://pbs.twimg.com/media/HRK-72NaYAA6B3l?format=jpg&name=360x360",
+    "published_at": "2026-09-02T00:35:51Z",
+    "tags": [
+      "AI绘图",
+      "提示词",
+      "GPT"
+    ]
+  },
+  {
+    "title": "Anthropic发布Claude Fable 5.1与Mythos 5.1：同一模型，两套安全限制",
+    "summary": "MaxForAI称Anthropic刚发布Claude Fable 5.1和Mythos 5.1，二者其实是同一个模型，最大区别在安全限制：Fable面向所有用户，Mythos仅提供给经审核的网络安全与生命科学研究者，可调用普通Claude会拦截的能力。",
+    "url": "https://x.com/MaxForAI/status/2094848880848560286",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HRJlhmIaIAAZfAn?format=jpg&name=small",
+    "published_at": "2026-09-01T18:04:28Z",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "模型发布"
+    ]
+  },
+  {
+    "title": "Anthropic从API层面封堵Claude蒸馏",
+    "summary": "一个很少被提及的变化：自Fable 5.1起，新注册API账号不能一边保留Claude此前的thinking transcript、一边手动修改历史上下文。Anthropic明确表示，这种方法已被公开用于提取Claude的推理过程。",
+    "url": "https://x.com/MaxForAI/status/2094852010483003817",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260902-v-02.jpg",
+    "published_at": "2026-09-01T18:16:54Z",
+    "tags": [
+      "Anthropic",
+      "API",
+      "模型蒸馏"
+    ]
+  },
+  {
+    "title": "Claude Fable 5.1输出文本已加隐形水印",
+    "summary": "为满足欧盟AI法案要求，Anthropic给2026年8月2日后发布的模型加入了文本水印，肉眼不可见且不含用户或对话信息；Anthropic另有一套detection API，可判断文字由Claude生成的概率。",
+    "url": "https://x.com/MaxForAI/status/2094852114082361775",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260902-v-03.jpg",
+    "published_at": "2026-09-01T18:17:19Z",
+    "tags": [
+      "Anthropic",
+      "水印",
+      "AI监管"
+    ]
+  },
+  {
+    "title": "AI算力需求到底有多真？一篇长文讨论AI Demand",
+    "summary": "MaxForAI转述@giovannicatt3的长文：市场几乎都在研究供给侧，2028年AI资本开支可能超过法国一年的国家预算，数据中心、GPU与电力一路上建；但若投资热潮停下，如今数千亿美元的算力需求还剩多少是真实的。",
+    "url": "https://x.com/MaxForAI/status/2094847748990435541",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "https://pbs.twimg.com/media/HRB2ZNfagAAQW7-?format=jpg&name=small",
+    "published_at": "2026-09-01T17:59:58Z",
+    "tags": [
+      "AI投资",
+      "算力",
+      "数据中心"
+    ]
+  },
+  {
+    "title": "Visko发布Orbis 1.0：像游戏引擎的实时世界模型",
+    "summary": "据MaxForAI，Orbis 1.0不是输入提示词后等待数十秒出片，而是边生成边改：视频持续播放过程中可随时输入新指令，模型平均不到1秒即把变化反映到画面，且无需重新生成前面内容。",
+    "url": "https://x.com/MaxForAI/status/2094843784739827885",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260902-v-05.jpg",
+    "published_at": "2026-09-01T17:44:13Z",
+    "tags": [
+      "世界模型",
+      "视频生成",
+      "Orbis"
+    ]
+  },
+  {
+    "title": "美军GenAI.mil上线ChatGPT Mil，形成多模型平台",
+    "summary": "领哥指出一个很强的AI商业信号：美国战争部正式上线ChatGPT Mil，同日Grok for Government也上线，加上原有的Gemini，美军内部GenAI.mil已成为ChatGPT+Grok+Gemini的多模型平台；ChatGPT Mil达到CUI的IL5环境要求。",
+    "url": "https://x.com/shangdu2005/status/2094835425621737567",
+    "source": "领哥LingGe",
+    "source_handle": "@shangdu2005",
+    "image": "https://pbs.twimg.com/media/HRHxER-a4AAkQg9?format=png&name=small",
+    "published_at": "2026-09-01T17:11:00Z",
+    "tags": [
+      "政府AI",
+      "OpenAI",
+      "Grok"
+    ]
+  },
+  {
+    "title": "Meta Muse Code结束Beta：Coding Agent从一个AI变成一队AI",
+    "summary": "最大升级不是新模型，而是不同Coding Session之间可以直接互相通信，Workflow可把大型任务拆给多个subagents并行处理；Muse Code SDK也进入Developer Preview，开发者可在其上自行构建。",
+    "url": "https://x.com/shangdu2005/status/2094849770103713948",
+    "source": "领哥LingGe",
+    "source_handle": "@shangdu2005",
+    "image": "https://pbs.twimg.com/media/HRI3vtSbcAAQMHF?format=png&name=small",
+    "published_at": "2026-09-01T18:08:00Z",
+    "tags": [
+      "Coding Agent",
+      "Meta",
+      "多智能体"
+    ]
+  },
+  {
+    "title": "“幽灵用电”：AI泡沫最离谱的信号之一",
+    "summary": "美国部分地区超大型用电并网申请已超700GW，主要来自数据中心，是全美数据中心实际用电估算的10倍以上；仅得州就超474GW，约90%来自数据中心。但当要求开发商真掏钱、Exelon提高抵押要求后，数字迅速缩水。",
+    "url": "https://x.com/shangdu2005/status/2094878710994485683",
+    "source": "领哥LingGe",
+    "source_handle": "@shangdu2005",
+    "image": "https://pbs.twimg.com/media/HRI4VdVakAEDL3m?format=png&name=small",
+    "published_at": "2026-09-01T20:03:00Z",
+    "tags": [
+      "AI泡沫",
+      "数据中心",
+      "电力"
+    ]
+  },
+  {
+    "title": "小互：X疑遭大范围重置邮件攻击，怀疑与Grok bot有关",
+    "summary": "小互称有人正在给大量用户群发密码重置邮件提醒，而他这个几乎不在公开网络出现、最近只用于登录Grok bot的邮箱也收到了，因此怀疑是Grok bot失控导致的大规模行为。",
+    "url": "https://x.com/xiaohu/status/2094782679569011099",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "https://pbs.twimg.com/media/HRIpvg_bsAALyjZ?format=jpg&name=small",
+    "published_at": "2026-09-01T13:41:24Z",
+    "tags": [
+      "Grok",
+      "安全",
+      "X平台"
+    ]
+  },
+  {
+    "title": "Grok Bot对比OpenClaw、Hermes类数字员工的实战场景分享",
+    "summary": "作者称Grok Bot在其使用中全面胜过OpenClaw、Hermes等“伪数字员工”，并梳理了自己的一批具体应用场景写成长文分享，评论区亦有大量案例补充。",
+    "url": "https://x.com/bourneliu66/status/2094829341473751381",
+    "source": "Bourne Liu",
+    "source_handle": "@bourneliu66",
+    "image": "/assets/covers/cover-20260902-v-10.jpg",
+    "published_at": "2026-09-01T16:46:49Z",
+    "tags": [
+      "AI Agent",
+      "数字员工",
+      "Grok"
+    ]
+  },
+  {
+    "title": "11位年轻人成立AI组织AGORAY：做AI时代的“广场”",
+    "summary": "发起人称一群还在读书或刚走出校园的年轻人因对AI的好奇聚在一起，成立小型AI组织AGORAY，定位不是殿堂而是广场——没有人永远站在中心，今天有人带来问题，明天可能有人带来答案。",
+    "url": "https://x.com/Khazix0918/status/2094746414329045388",
+    "source": "Khazix",
+    "source_handle": "@Khazix0918",
+    "image": "https://pbs.twimg.com/media/HRIDxFpboAAntbC?format=jpg&name=small",
+    "published_at": "2026-09-01T11:17:18Z",
+    "tags": [
+      "AI社区",
+      "创业",
+      "AGORAY"
+    ]
+  },
+  {
+    "title": "Midjourney niji 7 + Seedance 2.5：一条提示词生成七镜硬切战斗短片",
+    "summary": "作者展示用Midjourney niji 7配合Seedance 2.5生成的30秒动画：主角打响指后水中爬出白色物体，全片七个硬切镜头，最后一次响指召唤出更大的存在。",
+    "url": "https://x.com/0kncn/status/2094888455884988718",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "/assets/covers/cover-20260902-v-12.jpg",
+    "published_at": "2026-09-01T20:41:43Z",
+    "tags": [
+      "Seedance",
+      "Midjourney",
+      "视频生成"
+    ]
+  },
+  {
+    "title": "Seedance 2.5实拍提示词公开：废弃神殿中的机兵对战",
+    "summary": "作者公开了上述短片的完整提示词结构：在废弃巨型神殿大厅中，猎手打响指召唤白色机兵，机兵与守卫近身缠斗后被击毁，猎手再次响指，一台形态不同、体型更大的机兵在水中成形，整片为1990年代赛璐珞动画质感。",
+    "url": "https://x.com/0kncn/status/2094888459928248687",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "https://pbs.twimg.com/media/HRKJxc9WMAA-EI3?format=jpg&name=360x360",
+    "published_at": "2026-09-01T20:41:44Z",
+    "tags": [
+      "提示词",
+      "Seedance",
+      "AI动画"
+    ]
+  },
+  {
+    "title": "Midjourney Niji 7生成的日式科幻OVA风格作品",
+    "summary": "作者展示使用Midjourney Niji 7生成的日本科幻OVA风格图像组，呈现出浓厚的旧日动画质感。",
+    "url": "https://x.com/0kncn/status/2094772439326609865",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "https://pbs.twimg.com/media/HRIe25DXoAAkE0T?format=jpg&name=small",
+    "published_at": "2026-09-01T13:00:43Z",
+    "tags": [
+      "Midjourney",
+      "AI绘图",
+      "二次元"
+    ]
+  },
+  {
+    "title": "最后一句话决定ChatGPT输出质量：从70分逼到100分",
+    "summary": "作者认为ChatGPT是在70分停下还是追求100分，往往取决于最后那一句话，可改变九成结果；只说“就这样吧”“弄得像样点”的人常在第一个看似合理的回答就停下，加一句要求即可显著提升修改、改进与完成度。",
+    "url": "https://x.com/Fukugyo_clinic/status/2094893073881035145",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260902-v-15.jpg",
+    "published_at": "2026-09-01T21:00:04Z",
+    "tags": [
+      "ChatGPT",
+      "提示词",
+      "效率"
+    ]
+  }
+]

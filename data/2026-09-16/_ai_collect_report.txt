@@ -1,0 +1,49 @@
+AI新闻 collect report — 2026-09-16 (Asia/Taipei)
+================================================
+Item count: 18
+AIHOT included: YES (item 0) — https://aihot.news/daily/2026-09-16
+  Headlines covered in AIHOT daily: Gemini 3.8 Live / Extended Thinking;
+  Vidu S2 Avatar+Editing; StepAudio 3 series; Google 300+ languages;
+  Claude for Small Business workflows; Perplexity CobbleDB;
+  Orosz OpenAI Codex factory; pacing/standards debate; Arena Image-to-WebDev;
+  Speech-to-Speech rankings; Trail of Bits vs 1Password FLAWED; Vercel AI SDR.
+
+Sources used:
+- AIHOT（数字生命卡兹克）
+- Google (Gemini 3.8 Live product blog + AI for every language + developers audio blog)
+- AiCoin / 生数科技 (Vidu S2 Chinese write-up)
+- 新浪数码 / 阶跃星辰 (StepAudio 3)
+- Anthropic / Claude (Claude for Small Business)
+- CryptoBriefing (CobbleDB; official perplexity.ai/hub/blog/cobbledb also confirmed via search)
+- The Pragmatic Engineer (OpenAI software factory)
+- Salesforce (Koa press release)
+- TechCrunch (Koa analysis)
+- Trail of Bits (FLAWED critique)
+- Tomasz Tunguz (Vercel inbound AI SDR)
+- The Straits Times (AI standards body)
+- Arena (Image-to-WebDev leaderboard)
+- Artificial Analysis (Speech-to-Speech leaderboard)
+- AlphaSignal (GPT-Live-1 benchmark write-up)
+- arXiv (Vidu S2 technical report)
+
+Date window: primarily 2026-09-13–16; Vidu arXiv submitted 2026-09-10 kept as
+primary paper for today's Vidu S2 product launch coverage.
+Image fields: all "" (covers deferred).
+X API / X MCP: NOT used ($0 credits).
+
+Dedup vs 2026-09-15:
+- Avoided re-leading Iris / Hy4 / Siri AI / Anthropic Nasdaq IPO / DeepSeek V4.1-Flash
+  primary stories and Project Lily primary write-up from yesterday.
+- Included continuing governance thread with fresh OpenAI→Straits Times angle on
+  standards body (distinct from yesterday's CNN item).
+
+Blockers / notes:
+- Perplexity official CobbleDB blog (perplexity.ai/hub/blog/cobbledb) WebFetch timed out;
+  used CryptoBriefing Sep 15 article with verified latency numbers; AIHOT's 「最多节省一亿美元」
+  claim not independently confirmed in fetched secondary source (used ≥20% cost model instead).
+- OpenAI GPT-Live-1 official index page returned 403; used Artificial Analysis leaderboard
+  table + AlphaSignal synthesis. Note: AA live table shows Gemini 3.8 Live ET (High) at 82.6
+  above GPT-Live-1's 81.5 — AIHOT text still framed GPT-Live-1 as #1; both reported with sources.
+- TranslateGemma standalone blog is dated Jan 2026; today's Google item uses the Sep 15
+  「AI for every language」post which cites TranslateGemma in a fresh 300-language milestone frame.
+- No fabricated URLs; all items WebSearch- and/or WebFetch-verified.

@@ -1,0 +1,24 @@
+Alioxis News 大V视野抓取报告
+日期：2026-09-18（Asia/Taipei）
+
+结果：12条AI相关帖子已写入 v.json；原始记录12条。时间范围：2026-09-16至2026-09-18（以页面实际时间为准）。
+
+按账号：
+- @Khazix0918：4条
+- @MaxForAI：3条
+- @xiaohu：4条
+- @ChineseWSJ：1条
+
+已访问：X Following（/home，确认“正在关注”标签处于选中状态）；@Khazix0918、@MaxForAI、@xiaohu、@ChineseWSJ、@zaobaosg。Following流较稀疏，优先账号补充后得到12条；@zaobaosg近期可见帖子未发现AI相关内容。
+
+登录状态：正常。页面显示已登录账号侧栏、Following时间线及“正在关注”状态；未遇到登录掉线、付费墙或验证码。
+
+代表标题：
+- 数字生命卡兹克：Jev与多模型AI预筛对比
+- 数字生命卡兹克：节省Codex额度的邪修方法
+- Max For AI：Gemini 4 Pro疑似在Arena偷跑
+- 小互：豆包汽车座舱助手支持多模态控制
+- 小互：在CarPlay上启用Codex语音编程
+- 华尔街日报中文网：AI概念股重获青睐
+
+说明：image字段按要求留空；仅收录页面真实可见内容，部分X长帖按页面展示的截断文本保留省略号。

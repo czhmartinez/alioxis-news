@@ -1,0 +1,56 @@
+[
+  {
+    "idx": 0,
+    "filename": "cover-20260928-v-00.png",
+    "prompt": "Semi-realistic coding desk 16:9: dual monitors showing a distilled API doc and a greenfield rewrite diff, crumpled legacy code printouts in trash, cool blue IDE glow",
+    "title": "卡兹克：比重构屎山更高效——蒸馏功能文档后用最新模型原地重写"
+  },
+  {
+    "idx": 1,
+    "filename": "cover-20260928-v-01.png",
+    "prompt": "Semi-realistic night desk 16:9: developer reconnecting Claude Opus session on laptop with sticky note saying back online, warm lamp, relieved mood",
+    "title": "卡兹克：折腾后已把 Claude Opus 5.5「搞回来」——模型太好无法无视"
+  },
+  {
+    "idx": 2,
+    "filename": "cover-20260928-v-02.png",
+    "prompt": "Editorial concept 16:9: two glowing agent terminals labeled Clearinghouse and Personal Agent on a dark trading floor, other agent logos fading to dust, cinematic teal",
+    "title": "Max for AI：未来几年有价值的 Agent 只剩清算所与 Personal Agent"
+  },
+  {
+    "idx": 3,
+    "filename": "cover-20260928-v-03.png",
+    "prompt": "Casual startup office 16:9: LobeHub-style open workspace with hiring whiteboard dates 28-30 and laptop stickers, bright morning light",
+    "title": "Max for AI：国庆前三天没放假可考虑来 LobeHub"
+  },
+  {
+    "idx": 4,
+    "filename": "cover-20260928-v-04.png",
+    "prompt": "Cinematic video-AI teaser 16:9: film clapperboard and neon Kling-like letter K silhouette against stormy sky, anticipation poster mood, no trademark logos",
+    "title": "小互：Kling 预告要发新模型"
+  },
+  {
+    "idx": 5,
+    "filename": "cover-20260928-v-05.png",
+    "prompt": "Semi-realistic IDE scene 16:9: terminal running /checkup prompt-audit with CLAUDE.md and skill folders being cleaned, tidy desk plants, soft daylight",
+    "title": "小互：用 /checkup prompt-audit 整理 Claude.md 与技能"
+  },
+  {
+    "idx": 6,
+    "filename": "cover-20260928-v-06.png",
+    "prompt": "Creative workstation 16:9: browser gallery of AI video storyboard thumbnails labeled Opus 5.5 prompt library, stylus tablet, vibrant accents",
+    "title": "大师的AI小灶：提示词站大量整理 Opus 5.5 视频案例"
+  },
+  {
+    "idx": 7,
+    "filename": "cover-20260928-v-07.png",
+    "prompt": "Game UI craft scene 16:9: colorful gacha card flip animation frames on a large monitor with prompt sticky notes, playful neon, Opus craft vibe",
+    "title": "哥飞转发歸藏：Opus 5.5 游戏动效与抽卡动画提示词"
+  },
+  {
+    "idx": 8,
+    "filename": "cover-20260928-v-08.png",
+    "prompt": "Chinese ink-animation mood 16:9: modern tablet playing a short mythical creature clip with ink-wash aesthetic reminiscent of Chinese folklore shorts, soft paper texture backdrop",
+    "title": "大师的AI小灶：Opus 5.5 作品已有「中国奇谭」质感"
+  }
+]

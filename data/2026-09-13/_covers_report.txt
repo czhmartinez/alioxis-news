@@ -1,0 +1,2 @@
+covers generated: ai=18 v=17 total=35
+all JPEG ~960w q72 under assets/covers/

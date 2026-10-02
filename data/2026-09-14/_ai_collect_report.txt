@@ -1,0 +1,36 @@
+AI新闻 collect report — 2026-09-14 (Asia/Taipei)
+================================================
+Item count: 18
+AIHOT included: YES (item 0) — https://aihot.news/daily/2026-09-14
+  Headlines covered in AIHOT daily: Claude Code / Houthi-linked missile GNC;
+  Agent long-task context engineering; Gary Marcus on Amodei pacing proposal.
+
+Sources used:
+- AIHOT（数字生命卡兹克）
+- Anthropic (official threat report)
+- The War Zone
+- Bloomberg (missile + IPO)
+- Gary Marcus (Substack)
+- Splunk/Galileo (context engineering guide)
+- TechCrunch (Obama + YC Demo Day)
+- The Verge (Trump/Johnson)
+- Reuters (Nasdaq IPO)
+- PCMag (updated Sep 14 pacing roundup)
+- Dario Amodei (original essay)
+- Atoms / DeepSeek (V4.1 Flash routing Sep 14)
+- TPS Report (AllSpark Iris agents)
+- Salesforce (Enterprise AI Harness)
+- Firstpost (Grok in Copilot)
+- The Guardian (Altman/Musk back brakes)
+
+Date window: primarily 2026-09-10–14; one skills/context-engineering evergreen (Aug 2026) kept because AIHOT daily flagged the topic today.
+Image fields: all "" (covers deferred).
+X API / X MCP: NOT used ($0 credits).
+
+Blockers / notes:
+- Bloomberg missile article WebFetch timed out; URL retained from search + TWZ/Anthropic corroboration.
+- Guardian article WebFetch timed out; URL retained from search synthesis (reputable outlet, matching known story).
+- Forbes Amodei piece returned empty body via WebFetch; used PCMag + Amodei original + Marcus instead.
+- Salesforce US press-release URL 404; used Salesforce India stories URL which served full content (dated Sep 13, 2026).
+- galileo.ai/blog/context-engineering-for-agents now serves Splunk-hosted content (same piece; Manus-style offload/todo/compress patterns match AIHOT daily description).
+- DeepSeek official homepage did not expose the Sep-14 routing notice clearly via curl; routing details taken from Atoms deep-dive citing DeepSeek API pricing page (verified Sep 10, 2026).

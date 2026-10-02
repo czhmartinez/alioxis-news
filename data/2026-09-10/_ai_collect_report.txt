@@ -1,0 +1,36 @@
+Alioxis News AI collect report — 2026-09-10 (Asia/Taipei)
+Generated: 2026-09-10 ~08:30 UTC+8
+
+Item count: 18
+AIHOT included: YES (first card) — https://aihot.virxact.com/daily/2026-09-10
+All image fields: empty string ""
+
+Sources used:
+- AIHOT daily 2026-09-10 (WebFetch OK)
+- OpenAI (gpt-6-astra, navier-stokes-solution) WebFetch/WebSearch
+- Anthropic (alignment-assessment-cybersecurity-incidents, institute/econ-scenarios) WebFetch
+- OpenRouter US In-Region Routing blog WebFetch
+- Mistral legacy-code-modernization WebFetch
+- Google DeepMind AlphaGenome Atlas WebFetch
+- TechCrunch Coxon resignation WebFetch
+- Reuters (DeepSeek IPO, OpenAI rogue agents) WebSearch + URL verify
+- Axios (Christiano board, Anthropic econ) WebSearch
+- CISA joint advisory WebSearch
+- Nikkei Accio agent WebSearch
+- OX Security CVE-2026-82533 WebSearch
+- Unite.AI Pentagon FOIA summary WebSearch
+
+Fetch notes / failures:
+- https://aihot.virxact.com/ (homepage) returned bot/JS challenge junk; daily page /daily/2026-09-10 worked via WebFetch
+- Some paywalled/news pages (Bloomberg Christiano, Intercept original) not fetched directly; used Axios/Unite.AI summaries with real article URLs
+- Skipped Apple hardware items from AIHOT (iPhone Duo / Watch) as non-AI for this digest
+- Did not copy yesterday (2026-09-09) cards; refreshed Astra/Navier-Stokes via official OpenAI pages as still-lead stories
+
+Top 5 titles:
+1. 卡兹克 AIHOT 日报（2026-09-10）：GPT-6 Astra 专业场景与对齐安全密集更新
+2. OpenAI 发布 GPT-6 Astra：面向专业工作场景的新一代智能
+3. OpenAI：内部系统给出 Navier–Stokes 千禧年问题解答（含 Lean 形式化）
+4. Anthropic 发布四起 Claude 网络安全评测事故的对齐评估报告
+5. TechCrunch：Anthropic 研究员辞职，警告「自我改进 AI」是在拿生命赌博
+
+Blockers: none critical

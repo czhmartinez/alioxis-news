@@ -1,0 +1,210 @@
+[
+  {
+    "title": "卡兹克：折腾一圈还是回到 Claude",
+    "summary": "妈的，最后，历经千辛万险，最后还是回到了Claude的怀抱。人啊，就是贱。。。就是对好模型没有任何的抵抗力。。。哎。。。",
+    "url": "https://x.com/Khazix0918/status/2103155243576078823",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260926-v-00.jpg",
+    "published_at": "2026-09-26T08:25:00+08:00",
+    "tags": [
+      "Claude",
+      "卡兹克",
+      "模型体验"
+    ]
+  },
+  {
+    "title": "小互：Qwen-Image-2.1 无审查版流通，主模型可进显存",
+    "summary": "小互分享 Qwen-Image-2.1 无审查版本相关信息：称移除安全过滤后可生成更宽松图像，并优化生成速度（主模型放进显卡显存等）。帖文来自正在关注相关检索，请注意合规与政策风险。",
+    "url": "https://x.com/xiaohu/status/2102286309335191634",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260926-v-01.jpg",
+    "published_at": "2026-09-26T08:25:00+08:00",
+    "tags": [
+      "Qwen",
+      "图像模型",
+      "小互"
+    ]
+  },
+  {
+    "title": "小互：Jev 使用指南——只做判断、不写字的模型怎么用",
+    "summary": "Jev 使用指南：只做判断、不写字的 AI 模型怎么用、用在哪",
+    "url": "https://x.com/xiaohu/status/2101952863316607154",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260926-v-02.jpg",
+    "published_at": "2026-09-26T08:25:00+08:00",
+    "tags": [
+      "Jev",
+      "工作流",
+      "小互"
+    ]
+  },
+  {
+    "title": "小互：Claude Opus 5.5 纯写代码画出一支手绘风 MV",
+    "summary": "这个有点牛P啊 Claude Opus 5.5 自己写代码画出一支手绘 MV：没有使用任何 AI 生视频工具：Opus 5.5 自己通过写 p5.js 代码画出每一帧，然后在后台 Chrome 里逐帧截图，再用 ffmpeg 合成 MP4 并配上歌……模型自己当导演：先写分镜，把歌拆成 9 章，每章一个代码文件，再写一份简报交给并行的子任务。",
+    "url": "https://x.com/xiaohu/status/2102979455308439555",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260926-v-03.jpg",
+    "published_at": "2026-09-26T08:25:00+08:00",
+    "tags": [
+      "Claude",
+      "Opus 5.5",
+      "创意",
+      "小互"
+    ]
+  },
+  {
+    "title": "Max：新论文 Memory Attention，或成划时代注意力架构",
+    "summary": "中秋快乐！刚刚看到一篇新论文 Memory Attention，感觉可能是个划时代的新注意力架构，给大家分享一下。MA这篇的核心是Transformer里的V，可能根本没必要每次都重新算。所以直接开始动Attention里最经典的QKV结构了。传统Attention里，每个token都要从当前hidden state重新计算：Q",
+    "url": "https://x.com/MaxForAI/status/2103372329984442572",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260926-v-04.jpg",
+    "published_at": "2026-09-25T15:25:00+08:00",
+    "tags": [
+      "论文",
+      "注意力",
+      "MaxForAI"
+    ]
+  },
+  {
+    "title": "Max：韩国用户 Anthropic 账号被突然停用引发争议",
+    "summary": "开始怀疑 Anthropic 是歧视黄种人了：一位韩国用户称 Anthropic 账号突然被停用，显示“This organization has been disabled”；评论区猜测可能与付款时用韩文填写 Billing Address 有关。",
+    "url": "https://x.com/MaxForAI/status/2103534036430074279",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260926-v-05.jpg",
+    "published_at": "2026-09-26T01:25:00+08:00",
+    "tags": [
+      "Anthropic",
+      "账号",
+      "MaxForAI"
+    ]
+  },
+  {
+    "title": "あいえる：ChatGPT 放置式联盟营销，熟人月入约5万日元",
+    "summary": "我有个熟人，一直在用ChatGPT坚持不懈地做着“放置式联盟营销”。月收入竟然有5万日元左右；完全没搞复杂 SEO，几乎只用手机把买过的商品写成文章。",
+    "url": "https://x.com/Fukugyo_clinic/status/2103590384513556868",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260926-v-06.jpg",
+    "published_at": "2026-09-26T05:25:00+08:00",
+    "tags": [
+      "AI应用",
+      "副业",
+      "内容创作"
+    ]
+  },
+  {
+    "title": "あいえる：Claude×乐天放置式联盟，把购买记录写成赚钱文",
+    "summary": "把乐天购买记录变成可产生收益的文章，引用文章《手机早晨30分钟：Claude×乐天放置式联盟月入30万教程》。",
+    "url": "https://x.com/Fukugyo_clinic/status/2103590389995450408",
+    "source": "あいえる",
+    "source_handle": "@Fukugyo_clinic",
+    "image": "/assets/covers/cover-20260926-v-07.jpg",
+    "published_at": "2026-09-26T05:25:00+08:00",
+    "tags": [
+      "Claude",
+      "副业",
+      "内容创作"
+    ]
+  },
+  {
+    "title": "Tibo：Codex/ChatGPT 恢复，付费用户用量限制将重置",
+    "summary": "哦是的……我们重新上线了，我们将为所有付费用户重置 codex 和 ChatGPT 的使用限制。抱歉短暂中断！（是的，当系统宕机时，我们有一个特别的备用 codex 来帮助我们）",
+    "url": "https://x.com/thsottiaux/status/2103637477760311522",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20260926-v-08.jpg",
+    "published_at": "2026-09-26T08:17:00+08:00",
+    "tags": [
+      "Codex",
+      "ChatGPT",
+      "故障"
+    ]
+  },
+  {
+    "title": "Tibo：Codex 宕机，团队正在抢修",
+    "summary": "我们了解到 codex 已宕机，我们正在努力恢复正常服务。",
+    "url": "https://x.com/thsottiaux/status/2103620061156290622",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20260926-v-09.jpg",
+    "published_at": "2026-09-26T07:25:00+08:00",
+    "tags": [
+      "Codex",
+      "故障"
+    ]
+  },
+  {
+    "title": "领哥：Codex 宕机大概率会给用户送用量重置",
+    "summary": "这种情况大概率送重置！！引用 Tibo：我们了解到 codex 已宕机，我们正在努力恢复正常服务。",
+    "url": "https://x.com/shangdu2005/status/2103628695437267247",
+    "source": "领哥LingGe 🙏",
+    "source_handle": "@shangdu2005",
+    "image": "/assets/covers/cover-20260926-v-10.jpg",
+    "published_at": "2026-09-26T07:42:00+08:00",
+    "tags": [
+      "Codex",
+      "社群"
+    ]
+  },
+  {
+    "title": "逸尘：Higgsfield 砸2000万美元，API 充多少送多少",
+    "summary": "爽了！搞 AI 短剧和视频类 Agent的有福了，大羊毛来咯🔥 Higgsfield 拿出2000 万美元搞活动，API充多少送多少，100%额度返现，所有模型可用！（最高可获得 10 万美元额度）但一定注意，所有返现额度必须在 9 月 30 日之前用掉。",
+    "url": "https://x.com/gengdaJ/status/2103626536553480387",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "image": "/assets/covers/cover-20260926-v-11.jpg",
+    "published_at": "2026-09-26T07:33:00+08:00",
+    "tags": [
+      "Higgsfield",
+      "AI视频",
+      "活动"
+    ]
+  },
+  {
+    "title": "Okan：Midjourney 8.2 × Seedance 2.5 雨夜对决短片",
+    "summary": "Natasha Romanoff vs Yelena Belova：雨夜直升机停机坪对决，使用 Midjourney 8.2 x Seedance 2.5 制作。",
+    "url": "https://x.com/0kncn/status/2103552010331279396",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "/assets/covers/cover-20260926-v-12.jpg",
+    "published_at": "2026-09-26T03:25:00+08:00",
+    "tags": [
+      "AI视频",
+      "Midjourney",
+      "Seedance"
+    ]
+  },
+  {
+    "title": "Okan：Seedance 2.5 雨夜停机坪对决 Prompt 分享",
+    "summary": "Seedance 2.5 Prompt：在摩天大楼雨夜直升机坪生成两人决斗；红发黑衣特工与白衣金发剑士分别特写后对战。",
+    "url": "https://x.com/0kncn/status/2103552900043563133",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "/assets/covers/cover-20260926-v-13.jpg",
+    "published_at": "2026-09-26T03:25:00+08:00",
+    "tags": [
+      "AI视频",
+      "Prompt",
+      "Seedance"
+    ]
+  },
+  {
+    "title": "Nicolas：Firecrawl 招产品工程师做 Alexandria 知识库",
+    "summary": "Firecrawl转发的招聘信息：正在招聘产品工程师构建 Alexandria；如果想为超级智能构建知识库，可申请 Firecrawl 产品工程岗位。",
+    "url": "https://x.com/nickscamara_/status/2103535493292142652",
+    "source": "Nicolas Camara",
+    "source_handle": "@nickscamara_",
+    "image": "/assets/covers/cover-20260926-v-14.jpg",
+    "published_at": "2026-09-26T02:25:00+08:00",
+    "tags": [
+      "Firecrawl",
+      "招聘"
+    ]
+  }
+]

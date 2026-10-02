@@ -1,0 +1,197 @@
+[
+  {
+    "title": "卡兹克：比重构屎山更高效——蒸馏功能文档后用最新模型原地重写",
+    "summary": "比重构屎山可能更高效的方式：直接将源项目库蒸馏成功能文档，然后直接用最新的模型原地重写。。。🤦‍♂️",
+    "url": "https://x.com/Khazix0918/status/2104129415433363628",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260928-v-00.jpg",
+    "published_at": "2026-09-27T17:17:00+08:00",
+    "tags": [
+      "卡兹克",
+      "重写",
+      "Agent",
+      "文档蒸馏"
+    ]
+  },
+  {
+    "title": "卡兹克：折腾后已把 Claude Opus 5.5「搞回来」——模型太好无法无视",
+    "summary": "看我上两个帖子，花了点时间，折腾了下已经搞回来了。。。没办法，这个模型实在无法无视，还是太好了",
+    "url": "https://x.com/Khazix0918/status/2103908372785623495",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20260928-v-01.jpg",
+    "published_at": "2026-09-27T02:20:00+08:00",
+    "tags": [
+      "卡兹克",
+      "Claude",
+      "Opus 5.5"
+    ]
+  },
+  {
+    "title": "Max for AI：未来几年有价值的 Agent 只剩清算所与 Personal Agent",
+    "summary": "未来几年真正有价值的Agent项目只会剩下Agent清算所和Personal Agent。剩下的都是过眼云烟而已。",
+    "url": "https://x.com/MaxForAI/status/2104210057735069774",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260928-v-02.jpg",
+    "published_at": "2026-09-27T22:17:00+08:00",
+    "tags": [
+      "Agent",
+      "Max for AI",
+      "Personal Agent"
+    ]
+  },
+  {
+    "title": "Max for AI：国庆前三天没放假可考虑来 LobeHub",
+    "summary": "如果你的公司28-30这三天没放假，可以考虑来我们LobeHub",
+    "url": "https://x.com/MaxForAI/status/2104249776028242164",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20260928-v-03.jpg",
+    "published_at": "2026-09-28T01:17:00+08:00",
+    "tags": [
+      "LobeHub",
+      "Max for AI"
+    ]
+  },
+  {
+    "title": "小互：Kling 预告要发新模型",
+    "summary": "Kling 要发新模型了 🫡（引用 Kling AI：坚持住！我们有消息。）",
+    "url": "https://x.com/xiaohu/status/2104331769097134164",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260928-v-04.jpg",
+    "published_at": "2026-09-28T06:17:00+08:00",
+    "tags": [
+      "Kling",
+      "小互",
+      "视频模型"
+    ]
+  },
+  {
+    "title": "小互：用 /checkup prompt-audit 整理 Claude.md 与技能",
+    "summary": "使用这个命令可以修复和整理你的Claude.md和技能：/checkup prompt-audit。它会检查你的 CLAUDE.md、技能和Agent，找出当前模型不再需要的指令和阻碍发挥能力的提示内容，还会修复技能。",
+    "url": "https://x.com/xiaohu/status/2104032431212998998",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20260928-v-05.jpg",
+    "published_at": "2026-09-27T11:17:00+08:00",
+    "tags": [
+      "Claude",
+      "Skills",
+      "小互",
+      "提示词"
+    ]
+  },
+  {
+    "title": "大师的AI小灶：提示词站大量整理 Opus 5.5 视频案例",
+    "summary": "鉴于 Github 上呈现视频比较麻烦，我的提示词收集网站已经做了大量 Opus5.5 视频案例的整理，还在持续更新中，欢迎大家来玩。",
+    "url": "https://x.com/dashiAIxz/status/2103867261450895496",
+    "source": "大师的AI小灶",
+    "source_handle": "@dashiAIxz",
+    "image": "/assets/covers/cover-20260928-v-06.jpg",
+    "published_at": "2026-09-27T14:17:00+08:00",
+    "tags": [
+      "Opus 5.5",
+      "提示词",
+      "视频"
+    ]
+  },
+  {
+    "title": "哥飞转发歸藏：Opus 5.5 游戏动效与抽卡动画提示词",
+    "summary": "太牛逼了（引用歸藏 @op7418：Opus 5.5 游戏动效制作提示词来了！昨天用 Opus 5.5 做的游戏结算动画，很多人想要提示词；顺便还做了新的抽卡动画。）",
+    "url": "https://x.com/gefei55/status/2104090770374602924",
+    "source": "哥飞",
+    "source_handle": "@gefei55",
+    "image": "/assets/covers/cover-20260928-v-07.jpg",
+    "published_at": "2026-09-27T14:17:00+08:00",
+    "tags": [
+      "Opus 5.5",
+      "游戏动效",
+      "提示词"
+    ]
+  },
+  {
+    "title": "大师的AI小灶：Opus 5.5 作品已有「中国奇谭」质感",
+    "summary": "已经能感受到「中国奇谭」的质感了（自引此前：玩上瘾了，继续压榨 opus5.5 的性能）。",
+    "url": "https://x.com/dashiAIxz/status/2104051369351197167",
+    "source": "大师的AI小灶",
+    "source_handle": "@dashiAIxz",
+    "image": "/assets/covers/cover-20260928-v-08.jpg",
+    "published_at": "2026-09-27T12:17:00+08:00",
+    "tags": [
+      "Opus 5.5",
+      "中国奇谭",
+      "视频"
+    ]
+  },
+  {
+    "title": "南鸢：把摄影布光写成 AI 能用的短提示词模板",
+    "summary": "我把摄影里的布光，写成了 AI 能用的短提示词模板。前一段时间写了一篇关于摄影中的美姿，反响不错；于是又在摄影方向找可以让 AI 简单直白理解的短提示词，最终落到布光。",
+    "url": "https://x.com/nanyuan0412/status/2104364396809953390",
+    "source": "南鸢 nuyoah",
+    "source_handle": "@nanyuan0412",
+    "image": "/assets/covers/cover-20260928-v-09.jpg",
+    "published_at": "2026-09-28T08:15:00+08:00",
+    "tags": [
+      "提示词",
+      "摄影",
+      "布光"
+    ]
+  },
+  {
+    "title": "硅谷王川：让刺破 AI 泡沫的加息风暴来得更猛烈些吧",
+    "summary": "让刺破 ai 泡沫的加息风暴来得更猛烈些吧 :)（附微信长文链接）",
+    "url": "https://x.com/Svwang1/status/2104347860259193282",
+    "source": "硅谷王川 Chuan",
+    "source_handle": "@Svwang1",
+    "image": "/assets/covers/cover-20260928-v-10.jpg",
+    "published_at": "2026-09-28T07:17:00+08:00",
+    "tags": [
+      "AI泡沫",
+      "宏观"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Muse 用户将可接管网页浏览器；语音模式改通话控件",
+    "summary": "Muse 代理用户很快就可以在需要时接管并操作 Muse 网页浏览器。Muse 用户 = Musers。引用更新：Muse 代理将获得专用标签以永久浏览其虚拟机屏幕；网页语音模式体验已更新为语音通话小部件。",
+    "url": "https://x.com/testingcatalog/status/2104305709966119004",
+    "source": "AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20260928-v-11.jpg",
+    "published_at": "2026-09-28T05:17:00+08:00",
+    "tags": [
+      "Muse",
+      "Agent",
+      "浏览器"
+    ]
+  },
+  {
+    "title": "Okan Can：AI 短片——联邦调查局突袭派对与失控尺度变化",
+    "summary": "联邦调查局突袭派对。一场绝望的逃亡变成了一场不可能的营救，然后镜头拉远，整个城市呈现出截然不同的意义。一部关于失控、尺度变化，以及幕后操纵者的人工智能短片。",
+    "url": "https://x.com/0kncn/status/2104268244949610942",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "/assets/covers/cover-20260928-v-12.jpg",
+    "published_at": "2026-09-28T02:17:00+08:00",
+    "tags": [
+      "AI视频",
+      "短片"
+    ]
+  },
+  {
+    "title": "Okan Can：Wan 3 罗马旅行 vlog 提示词（保留同一出镜者身份）",
+    "summary": "Prompt: Ultra-realistic cinematic travel vlog montage based on the reference collage. Preserve the same young adult female hijabi travel vlogger’s facial identity throughout. She explores Rome wearing a flowing black hijab…",
+    "url": "https://x.com/0kncn/status/2103914178452824488",
+    "source": "Okan Can",
+    "source_handle": "@0kncn",
+    "image": "/assets/covers/cover-20260928-v-13.jpg",
+    "published_at": "2026-09-27T03:20:00+08:00",
+    "tags": [
+      "Wan 3",
+      "提示词",
+      "旅行"
+    ]
+  }
+]

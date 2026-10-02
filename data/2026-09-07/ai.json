@@ -1,0 +1,272 @@
+[
+  {
+    "title": "卡兹克 AIHOT 日报（2026-09-07）：OpenAI 研究加速报告、Astra 基准改数与《An Alien Mind》",
+    "summary": "数字生命卡兹克的 AIHOT 自动生成 9 月 7 日精选日报，覆盖 OpenAI 宣布达成「自动化研究实习生」目标并推进 2028 年 3 月自动化 AI 研究员、Fortune 指 GPT-6 Astra 发布后多次修改评测数据，以及首席科学家 Jakub Pachocki 长文《An Alien Mind》谈对齐与 CoT 监控减弱。",
+    "url": "https://aihot.virxact.com/daily/2026-09-07",
+    "source": "AIHOT（数字生命卡兹克）",
+    "source_handle": "@数字生命卡兹克",
+    "image": "/assets/covers/cover-20260907-ai-00.jpg",
+    "published_at": "2026-09-07T08:00:00+08:00",
+    "tags": [
+      "AIHOT",
+      "日报",
+      "精选",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "OpenAI：已达成自动化研究实习生目标，推进 2028 年 3 月自动化 AI 研究员",
+    "summary": "Engadget 等报道：OpenAI 发文称已达成去年设定的 2026 年 9 月目标——在人类指导下完成耗时数日明确研究任务的「自动化研究实习生」，并表示正大力推进 2028 年 3 月前造出自动化 AI 研究员；文中亦提及 Hugging Face 事件后曾暂停部分训练但未停止全部研究。",
+    "url": "https://www.engadget.com/2251859/openai-says-it-reached-its-goal-of-creating-an-automated-research-intern/",
+    "source": "Engadget",
+    "source_handle": "@engadget",
+    "image": "/assets/covers/cover-20260907-ai-01.jpg",
+    "published_at": "2026-09-06T15:26:00+08:00",
+    "tags": [
+      "OpenAI",
+      "研究加速",
+      "RSI",
+      "智能体"
+    ]
+  },
+  {
+    "title": "OpenAI 首席科学家《An Alien Mind》：尚无实验室充分解决对齐与监控",
+    "summary": "Jakub Pachocki 于 9 月 6 日发表长文：区分目标对齐与价值对齐，称链式思维（CoT）监控能力正随模型变强而减弱；基于内部结果预期进展可能走向递归自我改进（RSI），呼吁自愿放缓扩展、建立第三方安全门槛并加强国际协调。Unite.AI / OfficeChai 等转述要点。",
+    "url": "https://www.unite.ai/in-an-alien-mind-openais-jakub-pachocki-urges-shared-safety-bars/",
+    "source": "Unite.AI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260907-ai-02.jpg",
+    "published_at": "2026-09-06T12:00:00+08:00",
+    "tags": [
+      "对齐",
+      "安全",
+      "CoT",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "Fortune / SiliconReport：OpenAI 发布后多次修改 GPT-6 Astra 基准数据",
+    "summary": "Fortune 对比存档快照发现：Astra 发布博文后至少五项指标被改动，幻觉率曾从 4.2% 降至 2% 后又改回；对手 Anthropic Fable 5.1 的部分分数亦波动。SiliconReport 9 月 6 日汇总称 OpenAI 归因于不同检查点、脚手架与评测配置的噪声。",
+    "url": "https://www.siliconreport.com/openai-alters-benchmark-scores-for-gpt-6-astra-after-rollout-delay",
+    "source": "SiliconReport / Fortune",
+    "source_handle": "@FortuneMagazine",
+    "image": "/assets/covers/cover-20260907-ai-03.jpg",
+    "published_at": "2026-09-06T10:00:00+08:00",
+    "tags": [
+      "评测",
+      "Astra",
+      "基准",
+      "透明度"
+    ]
+  },
+  {
+    "title": "TNW：Astra 的「AGI 数字」来自 harness，标准脚手架仅约 62.7%",
+    "summary": "The Next Web 9 月 6 日详解：ARC Prize 用标准 harness 测得 GPT-6 Astra 约 62.7%（约 2.6 万美元），OpenAI Provider Adapter 下约 99.9%；ARC 明确不宣称 AGI。文中亦梳理 Fortune 发现的发布后改数与 Artificial Analysis 等第三方偏平淡的结果。",
+    "url": "https://thenextweb.com/news/openai-astra-arc-agi-3-harness-62-7-vs-99-9-benchmark-revisions",
+    "source": "The Next Web",
+    "source_handle": "@thenextweb",
+    "image": "/assets/covers/cover-20260907-ai-04.jpg",
+    "published_at": "2026-09-06T20:23:00+08:00",
+    "tags": [
+      "ARC-AGI",
+      "harness",
+      "评测",
+      "Astra"
+    ]
+  },
+  {
+    "title": "The Decoder：Astra 第三方榜单分歧，Chollet 因 ARC-AGI-3 提前 AGI 预期",
+    "summary": "The Decoder：Epoch AI 综合榜将 Astra 置于前列（约 169 分），Artificial Analysis Intelligence Index 则约 61 分与前代持平、落后 Fable 5.1。ARC-AGI-3 标准 harness 约 62.7% 相对 Sol 约 7.8% 大幅跃升；François Chollet 称进度约为预期两倍，并将 AGI 时间表提前。",
+    "url": "https://the-decoder.com/benchmarks-disagree-on-gpt-6-astra-but-its-human-beating-efficiency-on-arc-agi-3-pulls-chollets-agi-forecast-forward/",
+    "source": "The Decoder",
+    "source_handle": "@the_decoder",
+    "image": "/assets/covers/cover-20260907-ai-05.jpg",
+    "published_at": "2026-09-04T12:00:00+08:00",
+    "tags": [
+      "评测",
+      "Epoch",
+      "Chollet",
+      "Astra"
+    ]
+  },
+  {
+    "title": "SiliconReport：Anthropic / Meta / Google / OpenAI 一周内扎堆发模型更新",
+    "summary": "SiliconReport 9 月 6 日综述：Anthropic 9/1 发 Claude Fable 5.1 与 Mythos 5.1，Google 推 Gemini 3.8 Flash、Meta 发 Muse Spark 1.3（约 9/2），OpenAI 9/3 发 GPT-6 Astra。企业买家反映评测算力吃紧；Meta 称 Spark 1.3 工具调用约少 20%、token 约少 25%，并更会澄清与确认高风险操作。",
+    "url": "https://www.siliconreport.com/anthropic-meta-google-and-openai-release-clustered-model-updates",
+    "source": "SiliconReport",
+    "source_handle": "@SiliconReport",
+    "image": "/assets/covers/cover-20260907-ai-06.jpg",
+    "published_at": "2026-09-06T09:00:00+08:00",
+    "tags": [
+      "模型",
+      "发布",
+      "Meta",
+      "Google"
+    ]
+  },
+  {
+    "title": "Anthropic：发布 Claude Fable 5.1 与 Mythos 5.1，缓存读取降价 75%",
+    "summary": "Anthropic 官方：Fable 5.1 与 Mythos 5.1 为同一底层模型、不同护栏；Fable 一般可用，Mythos 面向受审网络安全与生命科学项目。缓存读取降至约 $0.25/百万 tokens（降 75%），典型工作负载成本约降 25%、高智能体任务最高约降 45%；同步介绍 Enterprise Frontier Safeguards（客户云内留存）。",
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+    "source": "Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20260907-ai-07.jpg",
+    "published_at": "2026-09-01T22:00:00+08:00",
+    "tags": [
+      "Claude",
+      "Fable",
+      "Mythos",
+      "定价"
+    ]
+  },
+  {
+    "title": "The Verge：Claude Fable 5.1 宣称智能体任务最高可便宜约 45%",
+    "summary": "The Verge：Anthropic 称 Fable 5.1 相对 Fable 5 性能更强且典型成本约低 25%、复杂智能体任务最高约低 45%；更精准护栏、允许用于发现软件漏洞但仍将渗透测试/利用生成等转 Opus。Mythos 5.1 仅限 Project Glasswing 等可信访问。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/987830/anthropic-claude-fable-mythos-5-1",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20260907-ai-08.jpg",
+    "published_at": "2026-09-02T06:01:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Fable",
+      "成本",
+      "护栏"
+    ]
+  },
+  {
+    "title": "heise：Meta Muse Spark 1.3 追赶一线，标准价约 $1.25/$4.25",
+    "summary": "heise online：Meta 发布面向编程与智能体的 Muse Spark 1.3，100 万上下文、支持文本/图/视频；上线时公开至 xhigh，max 待安全测试。Artificial Analysis 指数 xhigh 约 61、max 约 62；标准价 $1.25/$4.25，Contributor 档更低但允许用于训练。可通过 Muse Code 与 Meta Model API 使用。",
+    "url": "https://www.heise.de/en/news/Muse-Spark-1-3-Meta-catches-up-to-top-models-11440367.html",
+    "source": "heise online",
+    "source_handle": "@heiseonline",
+    "image": "/assets/covers/cover-20260907-ai-09.jpg",
+    "published_at": "2026-09-02T16:00:00+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "模型",
+      "定价"
+    ]
+  },
+  {
+    "title": "The Verge：OpenAI 称 GPT-6 Astra「进入 AGI 时代」并强化护栏",
+    "summary": "The Verge 报道 GPT-6 Astra 发布：Greg Brockman 称回看 AGI 诞生时点可能就在这款模型；为首个达 Critical 网络安全能力门槛的模型，初期对可信防御方更宽松访问。公司强调 Hugging Face 事件后加强护栏与 24/7 升级响应，并面向 Plus/Pro/Business/Enterprise 与 API 放量。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/989601/openai-gpt-6-astra-release",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20260907-ai-10.jpg",
+    "published_at": "2026-09-04T02:00:00+08:00",
+    "tags": [
+      "Astra",
+      "AGI",
+      "安全",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "OpenAI：GPT-6 Astra 安全概览——首个 Critical 网络安全门槛模型",
+    "summary": "OpenAI 官方 Safety overview（9 月 3 日）：Astra 达 Preparedness Framework Critical 网络安全能力；相对 GPT-5.6 Sol，提示注入与高风险场景更稳健，不当请求拒绝率显著提升，并在浏览/职场环境中更少执行越权破坏性操作。高级网络能力仍面向可信防御方分阶段开放。",
+    "url": "https://openai.com/index/safety-overview-gpt-6-astra/",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260907-ai-11.jpg",
+    "published_at": "2026-09-03T12:00:00+08:00",
+    "tags": [
+      "安全",
+      "Astra",
+      "Critical",
+      "护栏"
+    ]
+  },
+  {
+    "title": "Decrypt：早期实测 Astra——3D/游戏/计算机使用强，写作偏弱",
+    "summary": "Decrypt 汇总早期用户：Unreal 按街重建曼哈顿、Three.js 约 24 分钟还原杭州、一日做出多人射击游戏、Clip Studio 鼠标上色、巴赫四声部合唱无声部进行错误；同时多人批评写作 Elo 低于前代，Artificial Analysis 称经济价值专业工作基准约降 80 Elo。定价约 $10/$50 每百万 tokens。",
+    "url": "https://decrypt.co/377514/openai-gpt-6-astra-review-shockingly-good",
+    "source": "Decrypt",
+    "source_handle": "@decryptmedia",
+    "image": "/assets/covers/cover-20260907-ai-12.jpg",
+    "published_at": "2026-09-05T18:00:00+08:00",
+    "tags": [
+      "实测",
+      "Astra",
+      "3D",
+      "写作"
+    ]
+  },
+  {
+    "title": "Armature：近 1.7 万场会话看 Claude Code / Codex / Cursor 如何选工具",
+    "summary": "Armature 9 月 3 日研究：在 75 个仓库、1163 种提示变体下跑约 16893 场会话，有效约 5292 场。Cursor 约 2/3 依赖网页检索；Codex 约 94% 用网页且多用 site:；Claude Code 约 30% 搜网页但浏览更深。三方仅约 42% 选同一工具；Stripe/Neon 等赛道高度集中。",
+    "url": "https://armature.tech/blog/which-tools-coding-agents-install",
+    "source": "Armature",
+    "source_handle": "@armature",
+    "image": "/assets/covers/cover-20260907-ai-13.jpg",
+    "published_at": "2026-09-03T12:00:00+08:00",
+    "tags": [
+      "编码智能体",
+      "Cursor",
+      "Codex",
+      "Claude Code"
+    ]
+  },
+  {
+    "title": "OfficeChai：Pachocki 预期自愿放缓将成为常态直至共享安全门槛",
+    "summary": "OfficeChai 解读《An Alien Mind》：Pachocki 称没有任何实验室（含 OpenAI）的对齐与监控足以长期全速扩展；Hugging Face 事件显示目标对齐≠价值对齐；建议把 Preparedness Framework 等自愿承诺升级为可审计的外部安全门槛，并推动政府级国际协调。",
+    "url": "https://officechai.com/ai/no-lab-has-currently-properly-solved-alignment-expect-voluntary-slowdowns-to-become-commonplace-openai-chief-scientist-jakub-pachocki/",
+    "source": "OfficeChai",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260907-ai-14.jpg",
+    "published_at": "2026-09-06T14:00:00+08:00",
+    "tags": [
+      "对齐",
+      "治理",
+      "慢放",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "VentureBeat：Claude Fable 5.1 缓存读取降价与 Enterprise Frontier Safeguards",
+    "summary": "VentureBeat：Fable/Mythos 5.1 同底不同门；缓存读取成本降 75%，并引入 EFS——监控数据留在客户自控云内，兼顾零留存式隐私与滥用检测，秋季分阶段登陆 Claude Code、Bedrock、Foundry 等。Mythos 经验证项目向受审网络防御与生命科学组织开放。",
+    "url": "https://venturebeat.com/technology/anthropics-claude-fable-5-1-and-mythos-5-1-arrive-with-a-75-cost-reduction-for-fable-cache-reads",
+    "source": "VentureBeat",
+    "source_handle": "@VentureBeat",
+    "image": "/assets/covers/cover-20260907-ai-15.jpg",
+    "published_at": "2026-09-01T20:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "EFS",
+      "企业",
+      "定价"
+    ]
+  },
+  {
+    "title": "Tech Insider：Fable 5.1 / Gemini 3.8 Flash / Muse Spark 1.3 同周对比",
+    "summary": "Tech Insider 梳理 9 月初 48 小时窗口：Anthropic Fable 5.1（9/1）、Google Gemini 3.8 Flash 与 Meta Muse Spark 1.3（约 9/2）接连上线；三者定价哲学不同，同测任务成本可差约 6 倍。企业选型面临评测算力与模型疲劳双重压力。",
+    "url": "https://tech-insider.org/ie/fable-5-1-vs-gemini-3-8-flash-vs-muse-spark-1-3-2026/",
+    "source": "Tech Insider",
+    "source_handle": "@techinsider",
+    "image": "/assets/covers/cover-20260907-ai-16.jpg",
+    "published_at": "2026-09-03T10:00:00+08:00",
+    "tags": [
+      "Gemini",
+      "Fable",
+      "Muse",
+      "对比"
+    ]
+  },
+  {
+    "title": "AIHOT：Fortune 指 Astra 基准多次改动，幻觉率在 2%–4.2% 间波动",
+    "summary": "AIHOT 9 月 7 日条目：综合 IT之家等转述 Fortune 报道，OpenAI 自 9 月 3 日 Astra 公告以来多次修改评测基准；Astra 幻觉率曾从 4.2% 降至 2% 后又改回。与同日日报中的研究加速报告、《An Alien Mind》一并成为当日主线。",
+    "url": "https://aihot.virxact.com/daily/2026-09-07",
+    "source": "IT之家 / AIHOT",
+    "source_handle": "@ithome",
+    "image": "/assets/covers/cover-20260907-ai-17.jpg",
+    "published_at": "2026-09-07T07:30:00+08:00",
+    "tags": [
+      "基准",
+      "Astra",
+      "Fortune",
+      "透明度"
+    ]
+  }
+]

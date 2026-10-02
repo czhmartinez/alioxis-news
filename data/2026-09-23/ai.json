@@ -1,0 +1,290 @@
+[
+  {
+    "title": "Anthropic 发布 Claude Opus 5.5：多数任务达 Fable 5.1 水平，典型负载成本较 Opus 5 降约 40%",
+    "summary": "Anthropic 于 9 月 22 日发布 Claude Opus 5.5，为 Claude 5.5 系列首个模型，称多数工作达到 Claude Fable 5.1 水平，典型负载运行成本较 Opus 5 约低 40%。API 定价为每百万输入/输出 Token $4/$20（较 Opus 5 的 $5/$25 降约 20%），缓存读取 $0.20（降约 60%），默认设置下输出速度提升超 30%；另提供 Fast mode（最高约 2.5× 速度，$8/$40）。官方称其在智能体编码、计算机使用与知识工作上领先，并经 Frontier Design、METR 等外部评测；因生物与网络安全能力接近 Mythos 5.1，部署了与 Fable 5.1 同类护栏。模型 ID：claude-opus-5-5，已上线 Claude 平台及 AWS、Google Cloud、Azure。",
+    "url": "https://www.anthropic.com/claude-opus-5-5",
+    "source": "Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20260923-ai-00.jpg",
+    "published_at": "2026-09-23T00:30:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "Opus 5.5",
+      "模型发布",
+      "定价"
+    ]
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Sol 与 GPT-6 Luna：API 价较 GPT-5.6 促销价降 50%",
+    "summary": "OpenAI 9 月 22 日扩展 GPT-6 系列，发布 GPT-6 Sol 与 GPT-6 Luna，称沿用 GPT-6 Astra 的训练方法，把专业工作、事实性、编码、计算机使用与对齐进步带到更快更便宜的型号。API 价格较 GPT-5.6 对应促销价下调 50%：Sol 输入/输出由 $4/$20 降至 $2/$10，Luna 由 $0.20/$1.20 降至 $0.10/$0.50（每百万 Token）。官方称内部事实性评测上 Sol 错误约减半，接近 Astra 可靠度但成本更低。即日起在 ChatGPT Work 与 Codex 面向 Plus/Pro/Business/Enterprise/Edu 推送，并开放 API；Free/Go 可在桌面端试用 Luna，网页端逐步放量。",
+    "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260923-ai-01.jpg",
+    "published_at": "2026-09-23T02:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6",
+      "Sol",
+      "Luna",
+      "定价"
+    ]
+  },
+  {
+    "title": "Artificial Analysis：Claude Opus 5.5 智能指数 58 登顶，Terminal-Bench 与 Astra 持平",
+    "summary": "Artificial Analysis 9 月 22 日评测称 Claude Opus 5.5 在 max effort 下 Intelligence Index 得 58，为迄今最高分；Terminal-Bench 4.0 为 59.6%，与 GPT-6 Astra（xhigh）持平并较 Opus 5 高约 11 分。十项评测中六项领先，包括 Humanity's Last Exam 61.4%、SciCode 66.9%；AA-Briefcase Elo 1822（较 Fable 5.1 +143）。定价确认 $4/$20，缓存读取 $0.20（较 Opus 5 的 $0.50 降 60%）。代价是输出 Token 用量上升：每项 Index 任务约 119k，高于 Opus 5 的约 73k 与 Astra 的约 27k。",
+    "url": "https://artificialanalysis.ai/articles/claude-opus-5-5",
+    "source": "Artificial Analysis",
+    "source_handle": "@ArtificialAnlys",
+    "image": "/assets/covers/cover-20260923-ai-02.jpg",
+    "published_at": "2026-09-23T01:00:00+08:00",
+    "tags": [
+      "评测",
+      "Claude",
+      "Opus 5.5",
+      "基准",
+      "Artificial Analysis"
+    ]
+  },
+  {
+    "title": "Artificial Analysis：GPT-6 Sol/Luna 成本减半，智能指数与 5.6 持平、幻觉显著下降",
+    "summary": "Artificial Analysis 评测 GPT-6 Sol 与 Luna：价位约为 GPT-5.6 同名型号一半（Sol $2/$10、Luna $0.10/$0.50），Intelligence Index 与 Coding Agent Index 总体与 5.6 持平，各子项有升有降。Index 每任务成本方面，Sol（max）约 $1.06（较 5.6 Sol 的 $1.99 约降 50%），Luna（max）约 $0.07（约降 60%）。AA-Omniscience 幻觉率：Sol 由 92% 降至 60%，Luna 由 93% 降至 77%。在 Codex harness 上 Sol Coding Agent Index 57（+2），Luna 41（-2）。",
+    "url": "https://artificialanalysis.ai/articles/gpt-6-sol-and-luna-push-the-cost-efficiency-frontier",
+    "source": "Artificial Analysis",
+    "source_handle": "@ArtificialAnlys",
+    "image": "/assets/covers/cover-20260923-ai-03.jpg",
+    "published_at": "2026-09-23T03:00:00+08:00",
+    "tags": [
+      "评测",
+      "GPT-6",
+      "成本",
+      "幻觉",
+      "Artificial Analysis"
+    ]
+  },
+  {
+    "title": "Hugging Face：transformers 可直接加载运行 GGUF 量化模型，Metal 性能接近 llama.cpp",
+    "summary": "Hugging Face 9 月 22 日发文宣布 transformers 支持高效运行 GGUF 量化模型：用 from_pretrained 传入 Hub 上的 gguf 文件即可本地生成，并复用 ggml 的 Metal 内核。官方在 MacBook Pro M2 Max（32GB）上对 Qwen 等检查点基准，称 Transformers 速度接近 llama.cpp；同时可用 transformers serve 以 OpenAI 兼容接口本地服务量化模型。当前快速路径主要面向 Apple Silicon，首批架构侧重 Qwen3.5 等，Windows/Linux 与更多架构仍在推进。",
+    "url": "https://huggingface.co/blog/transformers-llama-cpp-quants",
+    "source": "Hugging Face",
+    "source_handle": "@huggingface",
+    "image": "/assets/covers/cover-20260923-ai-04.jpg",
+    "published_at": "2026-09-22T20:00:00+08:00",
+    "tags": [
+      "Hugging Face",
+      "GGUF",
+      "本地推理",
+      "transformers",
+      "Apple Silicon"
+    ]
+  },
+  {
+    "title": "OpenRouter 推出 Batch API：24 小时窗口异步批量推理，通常半价起",
+    "summary": "OpenRouter 9 月 22 日发布 Batch API：将一批非实时请求交由供应商在 24 小时窗口内完成，通常按正常 per-token 价的 50% 或更低计费，已支持 70 多个模型。两周公测期间完成逾 23 万批，中位完成约 7 分钟，90% 在一小时内完成。适合语料标注、回填向量、跑评测集、工单摘要等可接受延迟波动的负载；支持 chat completions、responses、messages 与 embeddings 等端点形态。",
+    "url": "https://openrouter.ai/blog/announcements/batch-api",
+    "source": "OpenRouter",
+    "source_handle": "@OpenRouter",
+    "image": "/assets/covers/cover-20260923-ai-05.jpg",
+    "published_at": "2026-09-22T18:00:00+08:00",
+    "tags": [
+      "OpenRouter",
+      "Batch API",
+      "推理",
+      "定价",
+      "API"
+    ]
+  },
+  {
+    "title": "月之暗面发布 Kimi 浏览器扩展：由 WebBridge 更名，侧边栏 Agent 可操控网页",
+    "summary": "月之暗面（Kimi）发布 Kimi 浏览器扩展（原 Kimi WebBridge）：用户可在 Chrome/Edge 侧边栏与 Kimi 对话，由 Agent 打开网页、点击、填表、截图与提取信息；重复流程可录制为 skill 供后续执行。产品页称由本地桥接服务与扩展协同，经 Chrome DevTools Protocol 在本机浏览器完成操作，登录态与页面内容不离开设备。已在 kimi.com 产品页与 Chrome Web Store 上线，可配合 Kimi 桌面端及其他本地 Agent 调用。",
+    "url": "https://kimi.com/products/kimi-browser-extension",
+    "source": "Kimi / 月之暗面",
+    "source_handle": "@Kimi_Moonshot",
+    "image": "/assets/covers/cover-20260923-ai-06.jpg",
+    "published_at": "2026-09-22T16:00:00+08:00",
+    "tags": [
+      "Kimi",
+      "浏览器扩展",
+      "Agent",
+      "WebBridge",
+      "工具"
+    ]
+  },
+  {
+    "title": "Claude Code v2.1.280：默认 Opus 升为 Claude Opus 5.5（1M 上下文，$4/$20）",
+    "summary": "Anthropic Claude Code 于 2026-09-22 16:38 UTC（台北 9 月 23 日 00:38）发布 v2.1.280。发行说明写明新增 Claude Opus 5.5（claude-opus-5-5）并作为默认 Opus 模型，提供 1M 上下文，定价 $4/$20 每百万 Token、缓存读取 $0.20/Mtok。同版本还加入更多全屏列表鼠标支持、CLAUDE_CODE_MAX_MCP_DESCRIPTION_LENGTH 等配置，并修复符号链接写入判定、自动模式重试、对话框快捷键与 Windows 提示行刷新等多处问题。",
+    "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
+    "source": "Claude Code / GitHub",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20260923-ai-07.jpg",
+    "published_at": "2026-09-23T00:38:14+08:00",
+    "tags": [
+      "Claude Code",
+      "Opus 5.5",
+      "开发工具",
+      "发布",
+      "Agent"
+    ]
+  },
+  {
+    "title": "LlamaIndex LiteParse 9 月更新：PDFium 提速约 20–25%，新增视觉定位与 is-complex 路由",
+    "summary": "LlamaIndex 9 月 22 日发布 LiteParse 九月更新（文中给出 2.14.6 指标）：通过对自维护 PDFium fork 做内存分配优化（内置 mimalloc 等），文本提取耗时降低约 20–25%；在关闭 OCR 的真实文档集上，文本提取平均约 2.76–2.8 ms/页，完整 markdown 渲染约 3.94 ms/页。新能力包括视觉定位（markdown 元素可带边界框）以及 is-complex API，用于检测扫描页、文本覆盖与版面要素以便路由。官方称包周下载超 30 万、GitHub star 超 1.2 万。",
+    "url": "https://www.llamaindex.ai/blog/liteparse-updates-september-2026",
+    "source": "LlamaIndex",
+    "source_handle": "@llama_index",
+    "image": "/assets/covers/cover-20260923-ai-08.jpg",
+    "published_at": "2026-09-22T21:00:00+08:00",
+    "tags": [
+      "LlamaIndex",
+      "LiteParse",
+      "PDF",
+      "文档解析",
+      "开源"
+    ]
+  },
+  {
+    "title": "Apple 新款 Mac mini（M6/M5 Pro）与 Mac Studio（M5 Max/Ultra）开售，主打端侧 AI",
+    "summary": "Apple 新闻稿称新款 Mac mini 与 Mac Studio 自 2026 年 9 月 22 日起在 Apple Store 门店、官网与 App 开售。Mac mini 搭载全新 M6 与 M5 Pro：M6 机型称 AI 性能最高约提升 4 倍、图形与存储约 2 倍、CPU 约快 40%；Mac Studio 配备 M5 Max 与全新 M5 Ultra，称 AI 性能最高约 4.3 倍、图形最高约 1.8 倍，统一内存最高可达 512GB。两款均强调每 GPU 核心 Neural Accelerators，并结合 macOS 27 与最新 Apple Intelligence（含 Siri AI）支撑端侧与智能体工作流。",
+    "url": "https://www.apple.com/newsroom/2026/09/the-new-mac-mini-and-mac-studio-are-available-today",
+    "source": "Apple Newsroom",
+    "source_handle": "@Apple",
+    "image": "/assets/covers/cover-20260923-ai-09.jpg",
+    "published_at": "2026-09-22T22:00:00+08:00",
+    "tags": [
+      "Apple",
+      "Mac",
+      "端侧 AI",
+      "硬件",
+      "M6"
+    ]
+  },
+  {
+    "title": "OpenAI 为 GPT-6 推出改进提示词缓存：默认更高命中率，缓存输入最高 90% 折扣",
+    "summary": "OpenAI 9 月 22 日宣布面向 GPT-6 系列改进提示词缓存系统：默认提高缓存命中率，对 30 分钟窗口内复用的合格共享前缀提供最高 90% 的缓存输入 Token 折扣，以降低长程 Agent 与多轮对话成本。同步上线 Prompt Caching Dashboard 与诊断工具，便于监控命中率、分析输入构成并排查未命中。GitHub Copilot CPO Mario Rodriguez 称近数月相对基线，需全新处理的 prompt Token 占比已下降逾 50%。",
+    "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260923-ai-10.jpg",
+    "published_at": "2026-09-22T23:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6",
+      "提示词缓存",
+      "Agent",
+      "成本"
+    ]
+  },
+  {
+    "title": "Gizmodo/Bloomberg：五角大楼审查指过度依赖 Palantir Maven AI 与误击伊朗小学相关",
+    "summary": "Gizmodo 援引 Bloomberg 对未公开五角大楼内部审查知情官员的报道称，美军今年 2 月开战首日以战斧导弹击中伊朗南部 Minab 的 Shajarah Tayyebeh 小学，致超 150 人死亡、其中至少 123 名为儿童；官员称失败链条包括对 Palantir 开发的 Maven Smart System 过度依赖，过时数据将目标标为革命卫队设施并被推荐为首日打击目标。Palantir 回应称不对底层数据或情报缺陷负责。该文 9 月 20 日刊出，仍在 AIHOT 9 月 23 日日报窗口内作为行业安全动态收录。",
+    "url": "https://gizmodo.com/pentagon-investigators-say-overreliance-on-palantir-ai-tech-contributed-to-u-s-strike-that-killed-123-iranian-children-2000814477",
+    "source": "Gizmodo / Bloomberg",
+    "source_handle": "@Gizmodo",
+    "image": "/assets/covers/cover-20260923-ai-11.jpg",
+    "published_at": "2026-09-20T17:00:00+08:00",
+    "tags": [
+      "Palantir",
+      "Maven",
+      "军事AI",
+      "安全",
+      "调查"
+    ]
+  },
+  {
+    "title": "Ars：Meta Muse 曝严重 0-day，本地应用可劫持助手；亚马逊已阻断其代购",
+    "summary": "Ars Technica 9 月 21 日报道，安全研究员披露 Meta 个人 AI 助手 Muse（macOS）存在严重 0-day：本地应用或终端命令可取得 Muse 账户认证 token，从而完全控制该高权限 Agent（可写文件、用摄像头等）。文中称简单 ClickFix 等路径即可劫持；披露约 12 小时后 Meta 发布热修复。同周末亚马逊开始阻断 Muse 在站内代购——此为相对 9 月 22 日 digest「亚马逊封禁代购」的安全侧跟进，聚焦 0-day 而非电商条款本身。",
+    "url": "https://arstechnica.com/security/2026/09/muse-metas-extraordinarily-privileged-ai-assistant-has-a-serious-0-day",
+    "source": "Ars Technica",
+    "source_handle": "@arstechnica",
+    "image": "/assets/covers/cover-20260923-ai-12.jpg",
+    "published_at": "2026-09-22T09:24:00+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "安全",
+      "0-day",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Epoch AI：同等 AI 性能成本过去三年平均每季降约 47%（约每年 13 倍）",
+    "summary": "Epoch AI 9 月 22 日发布报告《The plunging price of thought》，估算过去三年内达到同等 AI 性能的成本平均每季度下降约 47%，相当于每年约 13 倍，并称快于史上其他变革性技术。分析覆盖数学、硬科学与技能游戏等五个数据较好的基准；刚达 SOTA 的性能成本每季约降 66%，两年后放缓至约 32%。作者指出基准针对性训练、数据不完整等局限，并公开数据与代码。",
+    "url": "https://epoch.ai/publications/the-plunging-price-of-thought",
+    "source": "Epoch AI",
+    "source_handle": "@EpochAIResearch",
+    "image": "/assets/covers/cover-20260923-ai-13.jpg",
+    "published_at": "2026-09-22T19:00:00+08:00",
+    "tags": [
+      "Epoch AI",
+      "成本",
+      "基准",
+      "研究",
+      "趋势"
+    ]
+  },
+  {
+    "title": "OpenRouter 实测：Jev 1.13 分类准确率仅低 Opus 5 约 3.3 分，延迟约 1/13、成本约 1/22",
+    "summary": "OpenRouter 9 月 22 日用 Banking77 的 3,080 条客服语料对比 TypeSafe 决策模型 Jev 1.13 与 Claude Opus 5 的意图分类。Jev 准确率 81.0% 对 Opus 84.4%（差约 3.3 个百分点），中位延迟 175 ms 对 2,266 ms（约 1/13），每千次请求成本 $0.11 对 $2.42（约 1/22，Opus 启用提示词缓存）。两边均无无效响应。文章讨论按置信度路由：简单意图用 Jev、低置信度回退前沿模型。",
+    "url": "https://openrouter.ai/blog/insights/jev-vs-claude-opus-5-classification",
+    "source": "OpenRouter",
+    "source_handle": "@OpenRouter",
+    "image": "/assets/covers/cover-20260923-ai-14.jpg",
+    "published_at": "2026-09-22T17:00:00+08:00",
+    "tags": [
+      "OpenRouter",
+      "Jev",
+      "分类",
+      "成本",
+      "评测"
+    ]
+  },
+  {
+    "title": "Google 开源 AX（Agent Executor）：Kubernetes 风格声明式自治 Agent 编排运行时",
+    "summary": "InfoQ 9 月 22 日报道，Google 开源 AX（Agent Executor，仓库 google/ax，站点 agentexecutor.io），Apache 2.0，面向自治 Agent 负载的声明式编排与运行时，跑在 Agent Substrate 之上。提供 Task / Workspace / Gateway / Model 四类原语，支持沙箱资源限制、预挂载 Git/MCP/skills、出站主机白名单与模型密钥管理，并可亚秒级挂起/恢复以降低空闲沙箱成本。运维侧用 Go 写的 ax CLI（apply/watch/ssh/suspend/resume），控制面部署于 Kubernetes（ko + Redis）。",
+    "url": "https://github.com/google/ax",
+    "source": "Google / InfoQ",
+    "source_handle": "",
+    "image": "/assets/covers/cover-20260923-ai-15.jpg",
+    "published_at": "2026-09-22T12:00:00+08:00",
+    "tags": [
+      "Google",
+      "AX",
+      "Agent",
+      "Kubernetes",
+      "开源"
+    ]
+  },
+  {
+    "title": "GitHub Copilot 上线 GPT-6 Sol 与 Luna：补齐 Astra 之外的日常编码与低成本选项",
+    "summary": "GitHub Changelog 9 月 22 日宣布 Copilot 模型选择器新增 OpenAI GPT-6 Sol 与 GPT-6 Luna（此前已有 GPT-6 Astra）。Sol 定位均衡的交互/智能体编码；Luna 为 GPT-6 家族中更轻量、成本最低的快速助手。Sol 面向 Copilot Pro+/Max/Business/Enterprise；Luna 另含 Pro。可在 VS Code、Visual Studio、Copilot CLI、cloud agent、github.com、Mobile、JetBrains、Xcode、Eclipse 等挑选，按用量计费，企业管理员可通过模型策略控制默认启用。",
+    "url": "https://github.blog/changelog/2026-09-22-openais-gpt-6-sol-and-gpt-6-luna-now-available/",
+    "source": "GitHub Changelog",
+    "source_handle": "@github",
+    "image": "/assets/covers/cover-20260923-ai-16.jpg",
+    "published_at": "2026-09-22T23:30:00+08:00",
+    "tags": [
+      "GitHub Copilot",
+      "GPT-6",
+      "Sol",
+      "Luna",
+      "编码"
+    ]
+  },
+  {
+    "title": "OpenRouter 解读 NVIDIA Nemotron 3.5 Lightning：30B MoE / 约 3B 激活，面向 Agent 高频执行步",
+    "summary": "OpenRouter 9 月 22 日发文介绍 NVIDIA Nemotron 3.5 Lightning：约 30B 总参数、约 3B 激活的混合专家开源权重模型，定位工具调用、编码与边界清晰的高频 Agent 执行步骤，与负责复杂推理的 Nemotron 3 Ultra（约 550B 总参 / 55B 激活）分工。模型卡称上下文最长可达 1M Token；OpenRouter 标准路由常见 262k 上下文，并提供 nvidia/nemotron-3.5-lightning 等模型 ID，部分供应商列出 tool calling 与 structured outputs。",
+    "url": "https://openrouter.ai/blog/insights/nemotron-3-5-lightning",
+    "source": "OpenRouter / NVIDIA",
+    "source_handle": "@OpenRouter",
+    "image": "/assets/covers/cover-20260923-ai-17.jpg",
+    "published_at": "2026-09-22T15:00:00+08:00",
+    "tags": [
+      "NVIDIA",
+      "Nemotron",
+      "MoE",
+      "Agent",
+      "开源"
+    ]
+  }
+]

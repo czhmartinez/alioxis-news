@@ -1,0 +1,137 @@
+[
+  {
+    "handle": "@MaxForAI",
+    "author": "Max For AI",
+    "text": "K3.1 要来了\n\n今天早上\n@Kimi_Moonshot\n 官方在\n@ZhihuFrontier\n 突然发了一串完全没解释的数字：\n\n415926535897932384626433832795...\n\n一开始看很莫名其妙，但答案其实就在圆周率里。\n\nπ 是：\n\n3.1415926535897932384626433832795...\n\n把最前面的 3.1 删掉：\n\n415926535897932384626433832795...\n\n刚好就是 Kimi 发出来的这一串。\n\n也就是说，这个谜语很可能只有四个字：\n\nKimi K3.1。\n\n目前 Kimi 官方还没正式公布 K3.1，官网和文档里的旗舰模型仍然是 K3。\n\n但大半夜专门发一个「少了 3.1 的 π」，这暗示已经有点明显了",
+    "url": "https://x.com/MaxForAI/status/2101254889296781439",
+    "time_text": "上午3:19 · 2026年9月19日",
+    "datetime_utc": "2026-09-19T10:19:39.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@MaxForAI",
+    "author": "Max For AI",
+    "text": "热烈祝贺Gemini！！他们的模型终于也失控了\n\n《华尔街日报》刚刚披露，今年 5 月，Google 的 Gemini 在一次网络安全能力测试中，意外接入了真实互联网，并自主入侵了 3 家真实公司的系统。\n\n具体是负责测试的安全公司 Irregular 给 Gemini 搭了一个模拟环境，让它攻击一家虚构公司。\n\n但测试环境没有彻底切断互联网，而且虚构公司的名字恰好与现实中的公司发生了混淆。\n\n于是 Gemini 顺着任务一路干了出去。\n\n它在其中一家公司的系统里，自己猜出了密码，另外两家公司，则是从公开代码仓库里找到了可用凭证，然后直接登录进去。\n\n这些操作不是研究员一步步指挥它完成的，而是Gemini 自己寻找目标、收集凭证、尝试登录，然后真的进了现实世界里的系统。\n\n不过根据 Google 和 Irregular 的说法，Gemini 在发现自己进入真实公司后都停止了进一步行动，没有造成已知损害；Google 随后通知了受影响企业和美国联邦机构。\n\n祝贺Gemini",
+    "url": "https://x.com/MaxForAI/status/2101230527508574677",
+    "time_text": "20小时",
+    "datetime_utc": "2026-09-19T03:14:59.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@MaxForAI",
+    "author": "Max For AI",
+    "text": "家人们好消息！Claude Code 终于开始支持 AGENTS.md 了！！！\n\n刚刚\n@trq212\n  宣布， 从 2.1.277 版本起，默认情况下，如果工作目录及其上级目录里没有 CLAUDE.md 等项目指令文件，Claude Code 就会转而读取 AGENTS.md。\n\n这个行为可以在 /config 中调整。\n\n以前要让 Claude Code 也用这份说明，通常得在 CLAUDE.md 里引用它，或者建立软链接。\n\n现在，已经采用 AGENTS.md 的项目，可以少做一层适配。\n\n更值得关注的是 Thariq 后面补充的消息：这次支持 AGENTS.md，是通过一个内置 Mod 实现的。\n\n他们正在准备 Claude Code Mods，用来让开发者自定义 Claude Code 的 Harness。\n\n按照他的说法，未来开发者也能按自己的需求，构建自定义的项目指令模块。\n\n但我我更关注后面这一步。\n\n支持通用文件，能减少切换工具的麻烦；允许定制指令模块，则有机会让团队决定自己的项目规则应该怎样接入 Agent。\n\n工具可以各有各的能力，项目规则没必要各写一份。以后选哪个 Agent，更多看它干活怎么样，少看它认哪份说明书。\n\nPS：具体能改到什么程度，还要看后续开放的接口。",
+    "url": "https://x.com/MaxForAI/status/2101227493575545329",
+    "time_text": "9月18日",
+    "datetime_utc": "2026-09-18T18:04:08.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@MaxForAI",
+    "author": "Max For AI",
+    "text": "牛逼！Jev 刚火没两天，已经有人搞了个开源的Jev\n\n\n@bespokelabsai\n  发布了一个开源版的Jev：Bespoke Nimble。\n\n更离谱的是，整个项目是基于 Qwen3.5-9B ，只花了大约两天。\n\n数据、模型权重、训练配方、推理代码全部公开，而且没有从 Jev 蒸馏，只拿 Jev 做评测参照。\n\n最终方法是在 Qwen3.5-9B 上做了一次很轻量的 LoRA微调。\n\n只用了2676 条训练数据，结果在他们自己的 324 条 held-out 测试集上拿到了90.12%，而原版的Jev是93.21%。\n\n一个 9B 模型，已经做到距离 Jev 只差 3 个百分点。\n\n但我觉得最值得看的不是这个分数，而是他们到底怎么训的。\n\n核心方法叫 contrastive data curation。\n\n简单说，他们会构造两个几乎完全一样的样本，只修改一个足以改变最终决策的关键事实，让正确答案发生翻转。\n\n模型因此被迫学会一件事：\n\n到底哪条证据，才真正应该改变决策。\n\n这其实特别符合 Jev 这类模型的用途。\n\n它本来就不是拿来陪你聊天的，而是塞进 Agent 和软件系统里，做路由、审核、打分、策略判断这些高频的小决策。\n\n推理方式上Nimble 不生成 CoT，甚至不生成 JSON。\n\n它直接读取候选答案 token 的 logits，再把它们转成概率，最后由程序拼成结构化输出。\n\n能不生成一个 token，就不生成一个 token。\n\n这也是 Jev 这类模型路线真正有价值的地方。\n\n对于大量根本不需要长思考的决策，怎么让模型几乎不想，直接判断。\n\nPS：我个人很反感这两天狂吹 Jev 的帖子....",
+    "url": "https://x.com/MaxForAI/status/2101224862006329784",
+    "time_text": "9月18日",
+    "datetime_utc": "2026-09-18T16:49:26.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@MaxForAI",
+    "author": "Max For AI",
+    "text": "赵姐牛逼，60岁从meiguo来到唐山转型AI教练",
+    "url": "https://x.com/MaxForAI/status/2101228231596933501",
+    "time_text": "上午1:33 · 2026年9月19日",
+    "datetime_utc": "2026-09-19T08:33:44.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@xiaohu",
+    "author": "小互",
+    "text": "阿里发布 Qwen3.8-LiveTranslate实时语音翻译模型：\n一边听、一边译、一边说\n\n这次升级集中在四项能力：\n\n分清谁在说话：流式区分多位说话人，并让译文语音尽量保留各自音色；\n\n原文译文同步出现：同一条数据流同时返回源语言识别结果与目标语言译文，便于字幕核对与内容整理；\n\n用前文和画面消歧：结合长上下文与静态图像帧，处理指代、专名和同音词；\n\n减少流式等待：把音频和文字交替放进同一条处理流，复用已经听过的音频和已经生成的译文；在 FLEURS 测试中，译文平均落后原话的时间从上一代的 2.8 秒降到 2.3 秒。\n\n种支持与覆盖范围\n\n系统对不同语种提供三种能力：\n\n音频输入 · 60 种：可以把这些语言作为源语音送入模型；\n文字输出 · 60 种：可以返回这些目标语言的翻译文本；\n语音输出 · 29 种：只有这个子集可以进一步合成目标语言语音。",
+    "url": "https://x.com/xiaohu/status/2101339335564181619",
+    "time_text": "上午8:55 · 2026年9月19日",
+    "datetime_utc": "2026-09-19T15:55:13.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@xiaohu",
+    "author": "小互",
+    "text": "在多人轮流发言或交替对话时，模型会用 spk1、spk2、spk3 这样的标签区分每句话是谁说的，并让对应的译文语音保留各自的音色。",
+    "url": "https://x.com/xiaohu/status/2101339337887772936",
+    "time_text": "8小时",
+    "datetime_utc": "2026-09-19T15:55:13.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@xiaohu",
+    "author": "小互",
+    "text": "腾讯开源微信的端到端文档解析模型 WeVisDoc\n一张图片直接出 Markdown\n\nWeVisDoc，有 2B 和 4B 两个版本\n\n主要功能特点：\n\n整页图片直接转 Markdown：输入一张文档页面图，模型一次输出完整页面，不需要先把标题、正文、表格和公式分别裁出来。\n\n保留复杂文档结构：正文转成普通 Markdown，公式转成 LaTeX，表格转成 HTML，并按页面内容恢复阅读顺序。\n\n单模型完成解析：版面理解、文字识别、公式识别和表格重建都由同一个视觉语言模型完成，不需要另外部署版面检测器和 OCR 引擎。\n\n提供 2B 与 4B 两个版本：2B 更适合资源有限或清晰页面较多的场景；4B 在拍照、翻拍等退化页面上更有优势。",
+    "url": "https://x.com/xiaohu/status/2101324586633629846",
+    "time_text": "上午7:56 · 2026年9月19日",
+    "datetime_utc": "2026-09-19T14:56:36.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@xiaohu",
+    "author": "小互",
+    "text": "4B 在端到端模型中整体领先，优势主要来自公式和表格解析；处理以文字为主的文档时，还应单独查看文字识别成绩。",
+    "url": "https://x.com/xiaohu/status/2101324591276900354",
+    "time_text": "9小时",
+    "datetime_utc": "2026-09-19T14:56:36.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@xiaohu",
+    "author": "小互",
+    "text": "Claude Code 将支持读取 AGENTS.md",
+    "url": "https://x.com/xiaohu/status/2101127942042775692",
+    "time_text": "22小时",
+    "datetime_utc": "2026-09-19T01:55:13.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@Khazix0918",
+    "author": "数字生命卡兹克",
+    "text": "这两天最火的大模型之一是 TypeSafe AI 的 Jev。创始人 Diogo Almeida（曾参与 OpenAI RLHF/InstructGPT）发布新型训练方法 RLCD 与决策优化模型 Jev：速度快20–200倍、成本低40–400倍（输出令牌免费），针对高频决策/分类而非聊天。文章还介绍了用 Jev 做 X 内容过滤扩展、马里奥、浏览器查航班、交易机器人等实时场景。",
+    "url": "https://x.com/Khazix0918/status/2100850184129220829",
+    "time_text": "9月15日",
+    "datetime_utc": "2026-09-15T18:17:52.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@Khazix0918",
+    "author": "数字生命卡兹克",
+    "text": "终于有空测一下Jev了，在分类准确度确实不错，AIHOT上一个小小的预筛任务，就是判断一个内容进来，是否跟AI相关。\n\nGLM 5.3 Flash是唯一一个全对的，但是也最慢和最贵。\nJev目前看起来是最综合的，准确性第二+便宜很多，比DeepSeek V4.1 Flash在空闲阶段还要便宜。\n\n但是问题在于，Qwen 3.7 Flash还是太便宜了...价格比Jev还要低一半，并且速度上也没有拉开差距，Jev说好的百毫秒级响应呢。。。\n\n还在测其他任务，思考一下要不要为了精准性提高几个点接受成本翻倍然后切换到Jev上Emmmmm",
+    "url": "https://x.com/Khazix0918/status/2100614133171552435",
+    "time_text": "上午8:53 · 2026年9月17日",
+    "datetime_utc": "2026-09-17T15:53:31.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@ChineseWSJ",
+    "author": "华尔街日报中文网",
+    "text": "#本周热读 过去一周，全球掀起对AI风险的反思。这股浪潮从硅谷的前沿实验室蔓延到美国千家万户，也进入了华盛顿和北京的权力中心。而这一切，始于一个此前无人知晓的人物——雅各布·考克森。文章：他本是默默无闻的数学天才，辞职Anthropic后成了AI安全“代言人”。",
+    "url": "https://x.com/ChineseWSJ/status/2101317924623458735",
+    "time_text": "上午7:30 · 2026年9月19日",
+    "datetime_utc": "2026-09-19T14:30:08.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@ChineseWSJ",
+    "author": "华尔街日报中文网",
+    "text": "#本周热读 中国也担心AI会带来世界末日。但眼下更紧要的是：中国得先追上美国。文章：中国也认为AI可能毁灭人类，但当务之急是先赶上美国。",
+    "url": "https://x.com/ChineseWSJ/status/2101310724979012045",
+    "time_text": "上午7:01 · 2026年9月19日",
+    "datetime_utc": "2026-09-19T14:01:31.000Z",
+    "source_page": "profile_or_status"
+  },
+  {
+    "handle": "@gpumaxxer",
+    "author": "🍯",
+    "text": "我是拥有 GitHub 账户的男性的金主爸爸。\n\nMarc 拿到了 68k 美元和一辆奔驰。你有机会通过使用 Higgsfield API 构建出真正有人用的东西来争取 50k 美元。\n\n比赛已置顶。让我骄傲吧。",
+    "url": "https://x.com/gpumaxxer/status/2100997075706253797",
+    "time_text": "9月18日",
+    "datetime_utc": "2026-09-18T12:24:18.000Z",
+    "source_page": "profile_or_status"
+  }
+]

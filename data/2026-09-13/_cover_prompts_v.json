@@ -1,0 +1,189 @@
+[
+  {
+    "kind": "v",
+    "index": 0,
+    "style": "editorial",
+    "filename_png": "cover-20260913-v-00.png",
+    "filename_jpg": "cover-20260913-v-00.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-00.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: Max For AI：Anthropic报告里的AI杀猪盘案例. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "Max For AI：Anthropic报告里的AI杀猪盘案例"
+  },
+  {
+    "kind": "v",
+    "index": 1,
+    "style": "editorial",
+    "filename_png": "cover-20260913-v-01.png",
+    "filename_jpg": "cover-20260913-v-01.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-01.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: Max For AI：前沿AI需要限速. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "Max For AI：前沿AI需要限速"
+  },
+  {
+    "kind": "v",
+    "index": 2,
+    "style": "lab",
+    "filename_png": "cover-20260913-v-02.png",
+    "filename_jpg": "cover-20260913-v-02.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-02.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary lab photography: researchers and glowing monitor banks in a modern AI lab, candid feel, no readable text no logos. Mood related to: Max For AI：ChatGPT Sites更新. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "Max For AI：ChatGPT Sites更新"
+  },
+  {
+    "kind": "v",
+    "index": 3,
+    "style": "lab",
+    "filename_png": "cover-20260913-v-03.png",
+    "filename_jpg": "cover-20260913-v-03.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-03.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary lab photography: researchers and glowing monitor banks in a modern AI lab, candid feel, no readable text no logos. Mood related to: Max For AI：Google DeepMind可能实现RSI. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "Max For AI：Google DeepMind可能实现RSI"
+  },
+  {
+    "kind": "v",
+    "index": 4,
+    "style": "scene",
+    "filename_png": "cover-20260913-v-04.png",
+    "filename_jpg": "cover-20260913-v-04.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-04.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: Max For AI：自然语言入口与Generated UI. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "Max For AI：自然语言入口与Generated UI"
+  },
+  {
+    "kind": "v",
+    "index": 5,
+    "style": "lab",
+    "filename_png": "cover-20260913-v-05.png",
+    "filename_jpg": "cover-20260913-v-05.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-05.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary lab photography: researchers and glowing monitor banks in a modern AI lab, candid feel, no readable text no logos. Mood related to: Max For AI：Genspark推出Gen-1 Slides. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "Max For AI：Genspark推出Gen-1 Slides"
+  },
+  {
+    "kind": "v",
+    "index": 6,
+    "style": "scene",
+    "filename_png": "cover-20260913-v-06.png",
+    "filename_jpg": "cover-20260913-v-06.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-06.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: 小互：Codex宠物支持弹窗回复. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "小互：Codex宠物支持弹窗回复"
+  },
+  {
+    "kind": "v",
+    "index": 7,
+    "style": "lab",
+    "filename_png": "cover-20260913-v-07.png",
+    "filename_jpg": "cover-20260913-v-07.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-07.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary lab photography: researchers and glowing monitor banks in a modern AI lab, candid feel, no readable text no logos. Mood related to: 小互：Astra质量问题重置与更新. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "小互：Astra质量问题重置与更新"
+  },
+  {
+    "kind": "v",
+    "index": 8,
+    "style": "scene",
+    "filename_png": "cover-20260913-v-08.png",
+    "filename_jpg": "cover-20260913-v-08.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-08.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: 小互：Cursor Projects协调上千个子Agent. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "小互：Cursor Projects协调上千个子Agent"
+  },
+  {
+    "kind": "v",
+    "index": 9,
+    "style": "scene",
+    "filename_png": "cover-20260913-v-09.png",
+    "filename_jpg": "cover-20260913-v-09.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-09.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: 小互：Cursor Projects进入Beta. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "小互：Cursor Projects进入Beta"
+  },
+  {
+    "kind": "v",
+    "index": 10,
+    "style": "scene",
+    "filename_png": "cover-20260913-v-10.png",
+    "filename_jpg": "cover-20260913-v-10.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-10.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: 小互：AI偶像尤栗演唱会. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "小互：AI偶像尤栗演唱会"
+  },
+  {
+    "kind": "v",
+    "index": 11,
+    "style": "scene",
+    "filename_png": "cover-20260913-v-11.png",
+    "filename_jpg": "cover-20260913-v-11.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-11.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: 数字生命卡兹克：Seedance 2.5 AI影像作品. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "数字生命卡兹克：Seedance 2.5 AI影像作品"
+  },
+  {
+    "kind": "v",
+    "index": 12,
+    "style": "editorial",
+    "filename_png": "cover-20260913-v-12.png",
+    "filename_jpg": "cover-20260913-v-12.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-12.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Editorial news photography, serious briefing room or desk with documents and monitors about AI policy/business, natural light, no text no logos. Mood related to: 数字生命卡兹克：Anthropic研究员因AI风险离职. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "数字生命卡兹克：Anthropic研究员因AI风险离职"
+  },
+  {
+    "kind": "v",
+    "index": 13,
+    "style": "lab",
+    "filename_png": "cover-20260913-v-13.png",
+    "filename_jpg": "cover-20260913-v-13.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-13.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary lab photography: researchers and glowing monitor banks in a modern AI lab, candid feel, no readable text no logos. Mood related to: 数字生命卡兹克：Codex回测耗尽DeepSeek额度. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "数字生命卡兹克：Codex回测耗尽DeepSeek额度"
+  },
+  {
+    "kind": "v",
+    "index": 14,
+    "style": "lab",
+    "filename_png": "cover-20260913-v-14.png",
+    "filename_jpg": "cover-20260913-v-14.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-14.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary lab photography: researchers and glowing monitor banks in a modern AI lab, candid feel, no readable text no logos. Mood related to: 数字生命卡兹克：GPT-6 Astra推理等级与Token. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "数字生命卡兹克：GPT-6 Astra推理等级与Token"
+  },
+  {
+    "kind": "v",
+    "index": 15,
+    "style": "scene",
+    "filename_png": "cover-20260913-v-15.png",
+    "filename_jpg": "cover-20260913-v-15.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-15.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Semi-realistic desk scene with laptop coding IDE and AI assistant UI glow, warm ambient light, no readable text no logos. Mood related to: 数字生命卡兹克：AIHOT域名与服务变化. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "数字生命卡兹克：AIHOT域名与服务变化"
+  },
+  {
+    "kind": "v",
+    "index": 16,
+    "style": "lab",
+    "filename_png": "cover-20260913-v-16.png",
+    "filename_jpg": "cover-20260913-v-16.jpg",
+    "image_path": "/assets/covers/cover-20260913-v-16.jpg",
+    "aspect_ratio": "16:9",
+    "description": "Documentary lab photography: researchers and glowing monitor banks in a modern AI lab, candid feel, no readable text no logos. Mood related to: 数字生命卡兹克：GPT-6 Astra操控Blender教程. Magazine cover 16:9, cinematic, high detail, absolutely no readable text, no watermarks, no logos.",
+    "title": "数字生命卡兹克：GPT-6 Astra操控Blender教程"
+  }
+]

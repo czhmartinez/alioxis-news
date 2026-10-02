@@ -1,0 +1,163 @@
+[
+  {
+    "title": "Codex「空间」新增原生 AI 文档能力",
+    "summary": "逸尘介绍 Codex 的“空间”功能，称其支持调用 GPT Image 2.5 生成图片、生成可视化图表和文字，并可直接导出 Markdown。",
+    "url": "https://x.com/gengdaJ/status/2105472933196177754",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "image": "/assets/covers/cover-20261002-v-00.jpg",
+    "published_at": "2026-10-01T09:40:39+08:00",
+    "tags": [
+      "AI工具",
+      "Codex",
+      "文档"
+    ]
+  },
+  {
+    "title": "百度百科新增 AI 功能获关注",
+    "summary": "Max For AI 简短评价百度百科的新 AI 功能，认为其表现不错。",
+    "url": "https://x.com/MaxForAI/status/2105666482923573714",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261002-v-01.jpg",
+    "published_at": "2026-10-01T22:29:45+08:00",
+    "tags": [
+      "AI应用",
+      "百度"
+    ]
+  },
+  {
+    "title": "Claude 再次出现大规模封号反馈",
+    "summary": "Max For AI 发帖称 Claude 当天又进行了一次大规模封号，并表示朋友们的账号都受影响。",
+    "url": "https://x.com/MaxForAI/status/2105650312019415139",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261002-v-02.jpg",
+    "published_at": "2026-10-01T21:25:30+08:00",
+    "tags": [
+      "Claude",
+      "AI服务"
+    ]
+  },
+  {
+    "title": "America.gov 把政府网站变成 AI 对话框",
+    "summary": "小互介绍 America.gov：美国政府将 2.9 万个网站整合为一个 AI 聊天框，首页以提问框为核心入口。",
+    "url": "https://x.com/xiaohu/status/2105512898131055101",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261002-v-03.jpg",
+    "published_at": "2026-10-01T12:19:28+08:00",
+    "tags": [
+      "AI应用",
+      "政府数字化"
+    ]
+  },
+  {
+    "title": "特朗普要求联邦机构并入 America.gov",
+    "summary": "小互称特朗普签署总统令，要求每个联邦机构立即完成向 America.gov 的并入。",
+    "url": "https://x.com/xiaohu/status/2105512902706995337",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261002-v-04.jpg",
+    "published_at": "2026-10-01T12:19:29+08:00",
+    "tags": [
+      "AI应用",
+      "美国政府"
+    ]
+  },
+  {
+    "title": "Figure 02 人形机器人被投入钢厂熔炉销毁",
+    "summary": "小互发布视频称，Figure 将退役的第二代人形机器人 Figure 02 送入钢厂熔炉销毁。",
+    "url": "https://x.com/xiaohu/status/2105478578741928311",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261002-v-05.jpg",
+    "published_at": "2026-10-01T10:03:05+08:00",
+    "tags": [
+      "人形机器人",
+      "Figure"
+    ]
+  },
+  {
+    "title": "Figure 02 熔化后的钢条被制成纪念品",
+    "summary": "小互称，Figure 02 熔化后的金属钢条被运回美国，加工成限量版 F.02 纪念艺术品发售。",
+    "url": "https://x.com/xiaohu/status/2105478958498406479",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261002-v-06.jpg",
+    "published_at": "2026-10-01T10:04:36+08:00",
+    "tags": [
+      "人形机器人",
+      "Figure"
+    ]
+  },
+  {
+    "title": "Gemini 4 Argon 向首批网络防御者开放",
+    "summary": "小互介绍 Gemini 4 尚未完全开放，Google 的引用内容称 Argon 先通过 Fairwind 计划向首批网络防御者推出。",
+    "url": "https://x.com/xiaohu/status/2105456151563530566",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261002-v-07.jpg",
+    "published_at": "2026-10-01T08:33:58+08:00",
+    "tags": [
+      "Gemini",
+      "网络安全"
+    ]
+  },
+  {
+    "title": "卡兹克用 AI 改造家中像素时钟",
+    "summary": "卡兹克分享了用 AI 二次开发像素时钟的项目：它能连接 Claude Code 的全部状态并支持并行会话。",
+    "url": "https://x.com/Khazix0918/status/2105643608452010231",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20261002-v-08.jpg",
+    "published_at": "2026-10-01T20:58:51+08:00",
+    "tags": [
+      "AI编程",
+      "Claude Code",
+      "硬件"
+    ]
+  },
+  {
+    "title": "Black Forest Labs 发布 FLUX 3 Image",
+    "summary": "TestingCatalog 称 Black Forest Labs 推出支持 4K、面向精确编辑的 FLUX 3 Image，现可在 Tools Playground 试用，开放权重计划将在未来几周发布。",
+    "url": "https://x.com/testingcatalog/status/2105797384785502626",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261002-v-09.jpg",
+    "published_at": "2026-10-02T07:09:55+08:00",
+    "tags": [
+      "图像生成",
+      "FLUX",
+      "模型"
+    ]
+  },
+  {
+    "title": "Claude Code Mods 可重写和替换功能",
+    "summary": "TestingCatalog 称 Anthropic 的 Claude Code Mods 可重写或替换功能、绘制自定义 UI；其底层是运行于会话中的 JavaScript 或 TypeScript 钩子模块。",
+    "url": "https://x.com/testingcatalog/status/2105752819441525182",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261002-v-10.jpg",
+    "published_at": "2026-10-02T04:12:49+08:00",
+    "tags": [
+      "Claude Code",
+      "开发工具",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Grok Bot 开始主动建议内容",
+    "summary": "TestingCatalog 称 Grok Bot 正逐步推出主动能力，可自主建议有用内容，并要求用户配置主要 Bot 或选择现有 Bot。",
+    "url": "https://x.com/testingcatalog/status/2105730649348784175",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261002-v-11.jpg",
+    "published_at": "2026-10-02T02:44:44+08:00",
+    "tags": [
+      "Grok",
+      "Agent",
+      "AI应用"
+    ]
+  }
+]

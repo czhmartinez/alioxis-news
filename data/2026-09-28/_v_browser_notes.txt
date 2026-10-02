@@ -1,0 +1,24 @@
+Alioxis News 大V视野 scrape — 2026-09-28 (Taipei time)
+
+Login/session: OK. X home loaded as zihan chen; no login prompt, captcha, password, or 2FA issue.
+Following tab: CONFIRMED. On https://x.com/home, the tab 「正在关注」 was selected (not 「为你推荐」). Also saw AI/机器人/软件 custom tabs.
+
+Following scroll: inspected the Following timeline from the fresh home view and used End/PageUp/PageDown to reach roughly 17–20 hours back (within the requested Sep 27–28 window). The visible feed included AI posts from 大师的AI小灶 and 哥飞. Pure ads/promoted product cards and non-AI posts were skipped; Sep 26-only items were not included.
+
+Priority handling: @Khazix0918, @MaxForAI, and @xiaohu were not visible in the sampled Following cards after the scroll. Per authorization, their recent profile timelines were checked as fallback. All records from those three handles are marked source_path=profile_fallback; their visible timestamps were 2–21 hours or Sep 27. No posts were invented.
+
+Unique raw posts written: 10
+Counts by handle:
+- @dashiAIxz: 2 (following)
+- @gefei55: 1 (following)
+- @Khazix0918: 3 (profile_fallback)
+- @MaxForAI: 2 (profile_fallback)
+- @xiaohu: 2 (profile_fallback)
+
+All 10 status IDs are unique and have canonical https://x.com/HANDLE/status/ID URLs. Some quote-post records retain the quoted-post context visible in X; quote/repost status is indicated by is_repost.
+
+Top-up pass (2026-09-28, ~08:20 Taipei):
+- Reopened https://x.com/home and confirmed 「正在关注」 Following tab; session remained logged in as zihan chen with no login/captcha/2FA issue.
+- Further Following timeline inspection found two fresh AI-related posts: @nanyuan0412 (AI-ready short prompt template for photographic lighting, 2分钟前; status 2104364396809953390) and @Svwang1 (AI bubble / rate-hike commentary, 1小时前; status 2104347860259193282). Non-AI feed items were skipped.
+- Following was thin for additional priority AI accounts, so authorized profile fallback was used. Visible recent posts collected from @testingcatalog (Muse browser agent takeover, 3小时前; status 2104305709966119004) and @0kncn (AI short film, 6小时前; status 2104268244949610942; Wan 3 Prime AI travel diary prompt, 9月27日; status 2103914176045359602; Rome travel-vlog prompt, 9月27日; status 2103914178452824488). All were visible while logged in; no invention or duplicate status IDs.
+- Added 6 unique posts; file now contains 16 total. Added handles: nanyuan0412, Svwang1, testingcatalog, 0kncn (0kncn: 3 posts). The testingcatalog entry preserves its visible quoted Muse update and is_repost=true; all others are_repost=false.

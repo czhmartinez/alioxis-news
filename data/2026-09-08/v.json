@@ -1,0 +1,166 @@
+[
+  {
+    "title": "不错的风格与提示词",
+    "summary": "小互转评一条风格/提示词相关内容，短评「不错的风格」「不错的提示词」。",
+    "url": "https://x.com/xiaohu/status/2097100089890308530",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-08T07:00:00+08:00",
+    "tags": [
+      "提示词",
+      "风格"
+    ],
+    "image": "/assets/covers/cover-20260908-v-00.jpg"
+  },
+  {
+    "title": "ChatGPT 可学你的写作风格，但中文工具链仍弱",
+    "summary": "小互介绍 ChatGPT 可连接文档/协作工具或 Gmail 自动学习写作风格；并吐槽对不用海外工具的中文用户帮助有限。",
+    "url": "https://x.com/xiaohu/status/2097097331585982689",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-08T07:00:00+08:00",
+    "tags": [
+      "ChatGPT",
+      "写作风格",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20260908-v-01.jpg"
+  },
+  {
+    "title": "GPT-6 Astra 通关「我不是机器人」全部 48 关",
+    "summary": "小互称 Astra 成功打通验证码类游戏全部 48 关，调侃网站验证码防护失效。",
+    "url": "https://x.com/xiaohu/status/2096949627966931186",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-07T21:00:00+08:00",
+    "tags": [
+      "Astra",
+      "验证码",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20260908-v-02.jpg"
+  },
+  {
+    "title": "技能自进化失败后：用 Codex 协调 Gemini 写作",
+    "summary": "小互谈大半个月试让技能自进化均失败，改用 Codex 作协调/审核、Gemini 3.8 Flash 写作，意识到 Codex 本身是自进化中间体。",
+    "url": "https://x.com/xiaohu/status/2096848781656633605",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-09-07T15:00:00+08:00",
+    "tags": [
+      "Codex",
+      "Skill",
+      "Gemini"
+    ],
+    "image": "/assets/covers/cover-20260908-v-03.jpg"
+  },
+  {
+    "title": "售后：Codex 新上下文建议先关，多轮质量掉得快",
+    "summary": "Max For AI 售后贴：新上下文确能降 token，但对话轮次一多质量明显下降，建议暂时别开或先关掉。",
+    "url": "https://x.com/MaxForAI/status/2096797970582921595",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-07T11:00:00+08:00",
+    "tags": [
+      "Codex",
+      "上下文",
+      "Token"
+    ],
+    "image": "/assets/covers/cover-20260908-v-04.jpg"
+  },
+  {
+    "title": "群友称 GPT-6 能从频谱图识别声音",
+    "summary": "Max For AI 惊讶转发「GPT-6 从频谱图识别声音」的实测话题，称要回家复现。",
+    "url": "https://x.com/MaxForAI/status/2096993098547286106",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-08T00:00:00+08:00",
+    "tags": [
+      "GPT-6",
+      "音频",
+      "实测"
+    ],
+    "image": "/assets/covers/cover-20260908-v-05.jpg"
+  },
+  {
+    "title": "频谱识别：等待到家复现群友结果",
+    "summary": "Max For AI 跟帖称群友已有复现结果，自己到家后再试。",
+    "url": "https://x.com/MaxForAI/status/2096993317838033190",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-08T00:00:00+08:00",
+    "tags": [
+      "GPT-6",
+      "复现"
+    ],
+    "image": "/assets/covers/cover-20260908-v-06.jpg"
+  },
+  {
+    "title": "「盗版 Tibo」梗图刷屏",
+    "summary": "Max For AI 调侃社群里出现「盗版 Tibo」相关内容。",
+    "url": "https://x.com/MaxForAI/status/2096992597202153935",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-09-08T00:00:00+08:00",
+    "tags": [
+      "社群",
+      "梗"
+    ],
+    "image": "/assets/covers/cover-20260908-v-07.jpg"
+  },
+  {
+    "title": "卡兹克玄学：手机远程启动可避开 Codex「模型已满」",
+    "summary": "卡兹克发现不用电脑端 Codex 启动、改用手机 ChatGPT 远程控制启动会话，约两小时未遇卡死；电脑端启动则很快卡死。",
+    "url": "https://x.com/Khazix0918/status/2096912528018407814",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-07T19:00:00+08:00",
+    "tags": [
+      "Codex",
+      "ChatGPT",
+      "远程控制"
+    ],
+    "image": "/assets/covers/cover-20260908-v-08.jpg"
+  },
+  {
+    "title": "卡兹克：GPT 全面「模型已满」，连 Luna 也不行",
+    "summary": "卡兹克吐槽开多少新对话都提示模型已满，甚至 GPT-5.6 Luna 也一样，质疑是个人还是 OpenAI 侧问题。",
+    "url": "https://x.com/Khazix0918/status/2096852029629157421",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-07T15:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "限流",
+      "Astra"
+    ],
+    "image": "/assets/covers/cover-20260908-v-09.jpg"
+  },
+  {
+    "title": "卡兹克向 Codex 团队求助：翻不动了",
+    "summary": "卡兹克 @thsottiaux 求援，称 Codex 用不了让生活「黯淡无光」。",
+    "url": "https://x.com/Khazix0918/status/2096857885011828867",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-07T15:00:00+08:00",
+    "tags": [
+      "Codex",
+      "求助"
+    ],
+    "image": "/assets/covers/cover-20260908-v-10.jpg"
+  },
+  {
+    "title": "卡兹克：Astra 爆火后看见「时代的断层」",
+    "summary": "卡兹克长帖开头：GPT-6 Astra 周末正式上线后，社媒与社群一度沉寂，他据此谈执行力贬值与判断力断层。",
+    "url": "https://x.com/Khazix0918/status/2096807089956176029",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-09-07T12:00:00+08:00",
+    "tags": [
+      "Astra",
+      "卡兹克",
+      "时代观察"
+    ],
+    "image": "/assets/covers/cover-20260908-v-11.jpg"
+  }
+]

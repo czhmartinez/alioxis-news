@@ -1,0 +1,195 @@
+[
+  {
+    "title": "联合早报：美珍香逾9.5万顾客电邮因AI工具误用泄露",
+    "summary": "联合早报称，美珍香员工操作人工智能工具不当，导致超过9万5000名顾客的电邮地址泄露，这是新加坡首起与AI有关的资料泄露事故。",
+    "url": "https://x.com/zaobaosg/status/2105447915304972538",
+    "source": "联合早报 Lianhe Zaobao",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20261001-v-00.jpg",
+    "published_at": "2026-10-01T08:00:00+08:00",
+    "tags": [
+      "AI安全",
+      "数据泄露",
+      "隐私"
+    ]
+  },
+  {
+    "title": "Higgsfield 将计算机使用能力接入 Codex",
+    "summary": "Higgsfield称已获得计算机使用功能，完整界面通过ChatGPT扩展集成到Codex，由GPT-6.1 Sol驱动，可访问本地文件并自动化创意工作流。该帖由逸尘转发。",
+    "url": "https://x.com/higgsfield/status/2105354097788412063",
+    "source": "Higgsfield AI 🧩",
+    "source_handle": "@higgsfield",
+    "image": "/assets/covers/cover-20261001-v-01.jpg",
+    "published_at": "2026-10-01T02:15:00+08:00",
+    "tags": [
+      "Higgsfield",
+      "Codex",
+      "GPT-6.1 Sol",
+      "计算机使用",
+      "Agent"
+    ]
+  },
+  {
+    "title": "特朗普与科技巨头签署非约束性AI安全协议",
+    "summary": "联合早报称，特朗普与科技巨头签署自愿协议，承诺加强内部监控和独立审计，以企业自律为AI发展设置护栏；协议不具法律约束力。",
+    "url": "https://x.com/zaobaosg/status/2105440253720813596",
+    "source": "联合早报 Lianhe Zaobao",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20261001-v-02.jpg",
+    "published_at": "2026-10-01T07:31:00+08:00",
+    "tags": [
+      "AI安全",
+      "监管",
+      "特朗普"
+    ]
+  },
+  {
+    "title": "南鸢：Google Gemini 4 Argon 输出上限达100万Token",
+    "summary": "南鸢转述Google发布信息称，Gemini 4 Argon面向软件工程、知识工作和网络安全等复杂流程，单次输出上限达100万Token，可用于重构大型代码仓库和生成端到端方案。",
+    "url": "https://x.com/nanyuan0412/status/2105433932913393896",
+    "source": "南鸢 nuyoah",
+    "source_handle": "@nanyuan0412",
+    "image": "/assets/covers/cover-20261001-v-03.jpg",
+    "published_at": "2026-10-01T07:15:00+08:00",
+    "tags": [
+      "Google",
+      "Gemini 4 Argon",
+      "大模型",
+      "软件工程"
+    ]
+  },
+  {
+    "title": "Firecrawl：Alexandria 可连接120多个数据源",
+    "summary": "Firecrawl转发帖介绍Alexandria，称其可将代理连接到120多个数据提供商，并持续增加更多来源；帖子称该产品是ChatGPT中受欢迎的插件之一。",
+    "url": "https://x.com/firecrawl/status/2105338271782093037",
+    "source": "Firecrawl",
+    "source_handle": "@firecrawl",
+    "image": "/assets/covers/cover-20261001-v-04.jpg",
+    "published_at": "2026-10-01T01:15:00+08:00",
+    "tags": [
+      "Firecrawl",
+      "Alexandria",
+      "Agent",
+      "数据源"
+    ]
+  },
+  {
+    "title": "Crypto老鹰：Debot AI 选币系统捕获 $CSI 行情",
+    "summary": "Crypto老鹰称Debot的AI选币系统命中$CSI，并展示从746美元到4760美元的交易结果，同时推广AI分析与聪明钱包追踪。",
+    "url": "https://x.com/laoyingkhq/status/2105226063114805322",
+    "source": "Crypto老鹰",
+    "source_handle": "@laoyingkhq",
+    "image": "/assets/covers/cover-20261001-v-05.jpg",
+    "published_at": "2026-09-30T18:15:00+08:00",
+    "tags": [
+      "AI工具",
+      "Debot",
+      "加密货币"
+    ]
+  },
+  {
+    "title": "南鸢再次提及 Anthropic 动态",
+    "summary": "南鸢发帖提及@AnthropicAI，并引用自己9月29日关于“早来晚来都回来……又噶了一个”的图片帖；原帖未提供更多产品细节。",
+    "url": "https://x.com/nanyuan0412/status/2105225238866960785",
+    "source": "南鸢 nuyoah",
+    "source_handle": "@nanyuan0412",
+    "image": "/assets/covers/cover-20261001-v-06.jpg",
+    "published_at": "2026-09-30T17:15:00+08:00",
+    "tags": [
+      "Anthropic",
+      "AI行业"
+    ]
+  },
+  {
+    "title": "卡兹克分享防止 Claude 账号被封的经验",
+    "summary": "卡兹克称，自己过去因设备被标记导致 Claude 账号很快被封；新账号截至发帖时已稳定开发6天，并表示将分享防止账号被封的小经验。",
+    "url": "https://x.com/Khazix0918/status/2105299706549096697",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20261001-v-07.jpg",
+    "published_at": "2026-09-30T22:19:00+08:00",
+    "tags": [
+      "卡兹克",
+      "Claude",
+      "账号安全",
+      "AI工具"
+    ]
+  },
+  {
+    "title": "Max for AI：Dario 给人的感觉像邪恶大Boss",
+    "summary": "Max for AI 调侃称，Dario总给他一种“邪恶大boss”的感觉；帖子配有图片。",
+    "url": "https://x.com/MaxForAI/status/2105315714068554061",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261001-v-08.jpg",
+    "published_at": "2026-09-30T23:19:00+08:00",
+    "tags": [
+      "MaxForAI",
+      "Anthropic",
+      "Dario",
+      "AI行业"
+    ]
+  },
+  {
+    "title": "Max for AI：DeepSeek 开源面向华为昇腾的基础设施",
+    "summary": "Max for AI称，DeepSeek正式开源一整套面向华为昇腾的基础设施组件，将此前在NVIDIA平台跑通的TileLang、DeepGEMM、DeepEP、TileKernels、FlashMLA、DeepSelect等组件系统性搬到昇腾平台。",
+    "url": "https://x.com/MaxForAI/status/2105128392379322752",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261001-v-09.jpg",
+    "published_at": "2026-09-30T11:19:00+08:00",
+    "tags": [
+      "MaxForAI",
+      "DeepSeek",
+      "华为昇腾",
+      "开源",
+      "AI基础设施"
+    ]
+  },
+  {
+    "title": "小互：OpenAI 赠送重置机会与积分额度",
+    "summary": "小互称，OpenAI前一晚除赠送一次重置机会外，还赠送了数量因人而异的积分额度；他收到62500积分并询问其他用户的额度。",
+    "url": "https://x.com/xiaohu/status/2105198581238095967",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261001-v-10.jpg",
+    "published_at": "2026-09-30T16:19:00+08:00",
+    "tags": [
+      "小互",
+      "OpenAI",
+      "积分",
+      "AI工具"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Google AI Studio 开发安全审查功能",
+    "summary": "TestingCatalog称，Google正在为Google AI Studio开发安全审查功能，可能作为模式选择器中的新模式，并与开发中的计划模式并列；帖子询问其是否由Gemini 4 Argon驱动。",
+    "url": "https://x.com/testingcatalog/status/2105434023392620830",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261001-v-11.jpg",
+    "published_at": "2026-10-01T07:19:00+08:00",
+    "tags": [
+      "TestingCatalog",
+      "Google AI Studio",
+      "AI安全",
+      "Gemini"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Inworld 收购语音代理平台 Ultravox",
+    "summary": "TestingCatalog称，Inworld已收购Ultravox，后者用于构建能倾听、推理、调用工具并实时回应的语音代理；双方将加强语音理解、推理和表现力语音生成的结合。",
+    "url": "https://x.com/testingcatalog/status/2105398680282861879",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261001-v-12.jpg",
+    "published_at": "2026-10-01T05:19:00+08:00",
+    "tags": [
+      "TestingCatalog",
+      "Inworld",
+      "Ultravox",
+      "语音代理",
+      "Agent"
+    ]
+  }
+]

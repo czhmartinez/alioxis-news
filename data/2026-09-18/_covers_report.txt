@@ -1,0 +1,2 @@
+covers 2026-09-18: ai=18/18 v=12/12 unique GenerateImage content-scenes
+published to CVM /opt/ainews/dist

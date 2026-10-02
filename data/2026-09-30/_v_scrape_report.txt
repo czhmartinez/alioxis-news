@@ -1,0 +1,46 @@
+Alioxis News 大V视野 — 2026-09-30
+item_count: 20
+Following confirmed; login confirmed; Chrome CDP + profile fallback; no X API.
+Counts: @xiaohu 6 / @testingcatalog 4 / @MaxForAI 3 / @zaobaosg 2 / @nanyuan0412 2 / @dashiAIxz 1 / @ChineseWSJ 1 / @Khazix0918 1
+1. 联合早报：OpenAI 因安全隐患取消下月发布 AI 模型 Astra 6.1
+   https://x.com/zaobaosg/status/2105070331983474755
+2. TestingCatalog：OpenAI 据报拟再融资 300 亿美元、估值约 1.4 万亿
+   https://x.com/testingcatalog/status/2105065343224017320
+3. TestingCatalog：Drafted AI 平面图生成器上线 Autodesk Revit 插件
+   https://x.com/testingcatalog/status/2105032750789210235
+4. Max for AI：Codex 即将 Reset，现场按下重置按钮
+   https://x.com/MaxForAI/status/2104998322763346380
+5. 小互：OpenAI 发布全天候个人 Agent「Dots」，由 GPT-6 Astra 驱动
+   https://x.com/xiaohu/status/2104988776724594716
+6. TestingCatalog：OpenAI 推出 ChatGPT Space，人机协作新工作区
+   https://x.com/testingcatalog/status/2104987633894010982
+7. 小互：OpenAI 推出 Ultrafast 模式与全新 Pro 500 订阅
+   https://x.com/xiaohu/status/2104987338678096045
+8. 小互：GPT-6.1 Sol 发布，接近 Astra 性能、价格约 1/5
+   https://x.com/xiaohu/status/2104986808413282564
+9. TestingCatalog：OpenAI DevDay 宣布 Codex Cloud，支持远程运行 Codex
+   https://x.com/testingcatalog/status/2104984840231883017
+10. 小互：OpenAI 或将发布带摄像头与语音的毛绒玩具硬件
+   https://x.com/xiaohu/status/2104964481139036600
+11. 大师的AI小灶：同题材 Demo，使用 Gemini Flash 3.8 TTS
+   https://x.com/dashiAIxz/status/2104932044698751346
+12. 联合早报：Anthropic IPO 招股书拟警示先进 AI 或构成灾难性/生存风险
+   https://x.com/zaobaosg/status/2104896976772809182
+13. Max for AI：Codex 将重新开放 20x 订阅并调整用量计算
+   https://x.com/MaxForAI/status/2104849439148130589
+14. 华尔街日报中文网：AMD 约 82 亿美元全股票收购 AI 公司 World Labs
+   https://x.com/ChineseWSJ/status/2104813439646306782
+15. 小互：马斯克计划整合 Cursor、Grok 与 X 会员为 XPremium
+   https://x.com/xiaohu/status/2104810277158240404
+16. 南远：可灵 Kling 4.0 官宣 10 月上线，Flash 已小范围体验
+   https://x.com/nanyuan0412/status/2104801203133562910
+17. Max for AI：Claude Sonnet 5.5 首超同代 Opus
+   https://x.com/MaxForAI/status/2104791995231412390
+18. 小互：ElevenLabs 发布 Eleven v4 与 v4 Turbo 语音模型
+   https://x.com/xiaohu/status/2104786941636124827
+19. 南远：Google Flow 疑似上线 Nano Banana 2.1 新模型
+   https://x.com/nanyuan0412/status/2104602281991954838
+20. 卡兹克：用 Claude Opus 5.5 跑 6 小时以上完全重写级大型任务
+   https://x.com/Khazix0918/status/2103907235604955321
+
+Skipped: yday/0928 dedup; thin Max reactions; non-AI Following noise; AIHOT near-dup of 09-29.

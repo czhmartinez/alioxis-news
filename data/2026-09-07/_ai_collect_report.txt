@@ -1,0 +1,29 @@
+AI collect report — 2026-09-07 (Asia/Taipei)
+Generated: 2026-09-07 ~08:12 UTC+8
+
+Item count: 18
+First item: AIHOT daily card for 2026-09-07
+Image fields: all empty string (covers later)
+
+Sources used (variety):
+- AIHOT daily (aihot.virxact.com) — 2 cards (digest + Fortune/基准条目)
+- Engadget — OpenAI automated research intern
+- Unite.AI, OfficeChai — An Alien Mind / Pachocki
+- SiliconReport — Astra benchmark revisions + clustered model updates
+- The Next Web — ARC-AGI harness 62.7% vs 99.9%
+- The Decoder — Epoch vs AA + Chollet forecast
+- Anthropic official + The Verge + VentureBeat — Fable/Mythos 5.1
+- heise — Muse Spark 1.3
+- The Verge + OpenAI — Astra AGI / safety overview
+- Decrypt — early Astra tester review
+- Armature — coding agents tool choice study
+- Tech Insider — Fable vs Gemini 3.8 Flash vs Muse Spark
+
+Fetch notes / failures:
+- Fortune original article timed out on WebFetch; used SiliconReport + TNW summaries of Fortune findings (same facts).
+- OpenAI official pages for “An Alien Mind” and “research acceleration” were not directly retrieved via search/index; covered via Engadget, Unite.AI, OfficeChai, AIHOT (facts cross-checked).
+- openai.com/index/safety-overview-gpt-6-astra/ fetched OK.
+- anthropic.com/claude-fable-and-mythos-5-1 fetched OK.
+- aihot.virxact.com/daily/2026-09-07 fetched OK.
+
+Style: Chinese titles/summaries; ISO8601 +08:00; no fabricated URLs.

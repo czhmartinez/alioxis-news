@@ -1,0 +1,9 @@
+X Following AI scrape report - 2026-09-05
+Logged in: yes. Tab: 正在关注 (Following) confirmed.
+Scrolling: ~24 downward passes over the Following timeline (manual + scripted collector), hard stop respected; 40 distinct posts captured, AI-related ones extracted.
+Profile fallback also used: https://x.com/Khazix0918, https://x.com/MaxForAI, https://x.com/xiaohu (preferred accounts were sparse in the timeline).
+AI items written: 20 unique status URLs (deduplicated by url).
+Handle breakdown: @xiaohu=4, @Khazix0918=2, @MaxForAI=7, @thsottiaux=4, @nanyuan0412=2, @Fukugyo_clinic=1.
+Topic skew: GPT-6 / Astra rollout (OpenAI), Claude Max limit resets + Fable 5.1, image model update (Img g 2.5), Terminal Bench 4.0 ranking, Computer-Use agent team departure, a16z SaaS-vs-vertical-AI analysis, Grok Bot design retro, physical AI/robotics.
+Notes: text is visible-rendered text only; posts truncated by "显示更多" were not expanded, so long posts are partial. image fields left empty because no reliable media URLs were exposed in the visible DOM (only profile avatars).
+Non-AI content (联合早报 news, food/entertainment, ads) was excluded.

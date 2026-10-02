@@ -1,0 +1,182 @@
+[
+  {
+    "idx": 0,
+    "filename": "cover-20260930-v-00.png",
+    "jpg": "cover-20260930-v-00.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-00.jpg",
+    "prompt": "Documentary news photo, wide 16:9: empty October launch podium with a red CANCELLED ribbon across a blank AI model placard labeled Astra 6.1, safety audit binders stacked, cool fluorescent newsroom light, tense quiet, no logos no text",
+    "title": "联合早报：OpenAI 因安全隐患取消下月发布 AI 模型 Astra 6.1",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 1,
+    "filename": "cover-20260930-v-01.png",
+    "jpg": "cover-20260930-v-01.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-01.jpg",
+    "prompt": "Documentary finance news photo, wide 16:9: Bloomberg-style trading floor monitors showing a soaring unicorn valuation chart near 1.4 trillion, stacks of deal term sheets and a fountain pen, blue-hour glass towers outside, no logos no readable tickers",
+    "title": "TestingCatalog：OpenAI 据报拟再融资 300 亿美元、估值约 1.4 万亿",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 2,
+    "filename": "cover-20260930-v-02.png",
+    "jpg": "cover-20260930-v-02.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-02.jpg",
+    "prompt": "Semi-realistic AEC workspace, wide 16:9: Autodesk Revit-like BIM screen showing five alternate house floorplan options generated from a room list, physical scale model of walls doors windows on desk, warm task lamp, architectural drafting vibe, no logos",
+    "title": "TestingCatalog：Drafted AI 平面图生成器上线 Autodesk Revit 插件",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 3,
+    "filename": "cover-20260930-v-03.png",
+    "jpg": "cover-20260930-v-03.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-03.jpg",
+    "prompt": "Semi-realistic keynote stage moment, wide 16:9: close-up of a large physical RESET button being pressed on a developer console podium, cascading code terminals rebooting behind, dramatic stage spotlights, DevDay energy, no logos no faces",
+    "title": "Max for AI：Codex 即将 Reset，现场按下重置按钮",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 4,
+    "filename": "cover-20260930-v-04.png",
+    "jpg": "cover-20260930-v-04.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-04.jpg",
+    "prompt": "Semi-realistic lifestyle agent scene, wide 16:9: glowing soft orb assistant coordinating dual desks—one with board slides and deploy terminal, one with kids birthday cake and calendar sticky notes—warm evening home-office blend, proactive helper vibe, no logos",
+    "title": "小互：OpenAI 发布全天候个人 Agent「Dots」，由 GPT-6 Astra 驱动",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 5,
+    "filename": "cover-20260930-v-05.png",
+    "jpg": "cover-20260930-v-05.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-05.jpg",
+    "prompt": "Semi-realistic collaborative workspace UI, wide 16:9: large interactive document canvas with live charts checklists and dashboard tiles, human cursor and AI agent cursor co-editing, soft teal workspace glow, modern desk, no logos no brand names",
+    "title": "TestingCatalog：OpenAI 推出 ChatGPT Space，人机协作新工作区",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 6,
+    "filename": "cover-20260930-v-06.png",
+    "jpg": "cover-20260930-v-06.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-06.jpg",
+    "prompt": "Semi-realistic speed-mode coding scene, wide 16:9: IDE with ultrafast token stream blur streaks at 300 tokens per second, speedometer UI overlay reading 8x, sleek dark theme with electric cyan accents, motion energy, no logos",
+    "title": "小互：OpenAI 推出 Ultrafast 模式与全新 Pro 500 订阅",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 7,
+    "filename": "cover-20260930-v-07.png",
+    "jpg": "cover-20260930-v-07.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-07.jpg",
+    "prompt": "Semi-realistic model release product desk, wide 16:9: twin model cards side by side—one premium glowing gold Astra-class, one bright solar-yellow Sol card marked roughly 1/5 price with near-equal performance bars—clean studio light, no logos no text glyphs",
+    "title": "小互：GPT-6.1 Sol 发布，接近 Astra 性能、价格约 1/5",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 8,
+    "filename": "cover-20260930-v-08.png",
+    "jpg": "cover-20260930-v-08.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-08.jpg",
+    "prompt": "Semi-realistic cloud developer scene, wide 16:9: laptop in a cafe foreground with a translucent cloud cluster of remote coding agents running builds in the sky outside the window, soft daylight, remote-run metaphor, no logos",
+    "title": "TestingCatalog：OpenAI DevDay 宣布 Codex Cloud，支持远程运行 Codex",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 9,
+    "filename": "cover-20260930-v-09.png",
+    "jpg": "cover-20260930-v-09.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-09.jpg",
+    "prompt": "Product photography, wide 16:9: cute soft plush AI companion toy on a white seamless backdrop, tiny camera lens eye and subtle speaker grille, soft studio key light with gentle shadow, consumer hardware hero shot, no logos no brand marks",
+    "title": "小互：OpenAI 或将发布带摄像头与语音的毛绒玩具硬件",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 10,
+    "filename": "cover-20260930-v-10.png",
+    "jpg": "cover-20260930-v-10.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-10.jpg",
+    "prompt": "Creative audio tool scene, wide 16:9: waveform studio desk with a glowing Gemini-green waveform morphing into spoken performance, headphones and mic, cinematic soft bokeh, TTS demo vibe, no logos",
+    "title": "大师的AI小灶：同题材 Demo，使用 Gemini Flash 3.8 TTS",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 11,
+    "filename": "cover-20260930-v-11.png",
+    "jpg": "cover-20260930-v-11.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-11.jpg",
+    "prompt": "Documentary finance/risk news photo, wide 16:9: thick IPO prospectus open on a mahogany desk with a highlighted risk-factor page about catastrophic AI risk, Wall Street skyscraper soft in rain window, grave daylight, no logos no readable company names",
+    "title": "联合早报：Anthropic IPO 招股书拟警示先进 AI 或构成灾难性/生存风险",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 12,
+    "filename": "cover-20260930-v-12.png",
+    "jpg": "cover-20260930-v-12.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-12.jpg",
+    "prompt": "Semi-realistic subscription metering scene, wide 16:9: Pro subscription card labeled 20x reopening beside a usage meter cut in half with scissors metaphor, developer wallet and laptop, cool blue desk light, no logos",
+    "title": "Max for AI：Codex 将重新开放 20x 订阅并调整用量计算",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 13,
+    "filename": "cover-20260930-v-13.png",
+    "jpg": "cover-20260930-v-13.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-13.jpg",
+    "prompt": "Documentary M&A news photo, wide 16:9: AMD-red accented chip wafer next to a spatial AI world-model hologram globe, handshake silhouette soft in glass conference room, $8B deal energy, cool corporate daylight, no logos no readable text",
+    "title": "华尔街日报中文网：AMD 约 82 亿美元全股票收购 AI 公司 World Labs",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 14,
+    "filename": "cover-20260930-v-14.png",
+    "jpg": "cover-20260930-v-14.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-14.jpg",
+    "prompt": "Semi-realistic product bundle scene, wide 16:9: single premium membership card unlocking three distinct panes—code editor, witty chatbot orb, and social timeline—on one laptop, sleek black X-aesthetic desk, neon accent, no logos no brand wordmarks",
+    "title": "小互：马斯克计划整合 Cursor、Grok 与 X 会员为 XPremium",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 15,
+    "filename": "cover-20260930-v-15.png",
+    "jpg": "cover-20260930-v-15.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-15.jpg",
+    "prompt": "Cinematic video-generation visual, wide 16:9: film slate and long continuous camera move through a vivid AI-generated street scene, keyframe storyboard strips with 10 marked beats, dramatic orange-magenta Kling-like cinema grade, no logos",
+    "title": "南远：可灵 Kling 4.0 官宣 10 月上线，Flash 已小范围体验",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 16,
+    "filename": "cover-20260930-v-16.png",
+    "jpg": "cover-20260930-v-16.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-16.jpg",
+    "prompt": "Semi-realistic model race scene, wide 16:9: purple Anthropic-accented speed track where a sleek Sonnet runner crosses finish ahead of a heavier Opus figure on leaderboard screen, triumphant morning light, no logos no readable names",
+    "title": "Max for AI：Claude Sonnet 5.5 首超同代 Opus",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 17,
+    "filename": "cover-20260930-v-17.png",
+    "jpg": "cover-20260930-v-17.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-17.jpg",
+    "prompt": "Creative audio product scene, wide 16:9: theatrical voice booth with script pages annotated for emotion pause laugh whisper, glowing waveform performing the stage directions, deep teal and gold studio light, no logos",
+    "title": "小互：ElevenLabs 发布 Eleven v4 与 v4 Turbo 语音模型",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 18,
+    "filename": "cover-20260930-v-18.png",
+    "jpg": "cover-20260930-v-18.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-18.jpg",
+    "prompt": "Semi-realistic product sneak scene, wide 16:9: Google Flow-like model picker UI with a new banana-yellow model chip labeled 2.1 quietly appearing under existing options, dim night desk, secret drop vibe, no logos no brand wordmarks",
+    "title": "南远：Google Flow 疑似上线 Nano Banana 2.1 新模型",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 19,
+    "filename": "cover-20260930-v-19.png",
+    "jpg": "cover-20260930-v-19.jpg",
+    "image_path": "/assets/covers/cover-20260930-v-19.jpg",
+    "prompt": "Semi-realistic marathon coding scene, wide 16:9: overnight desk with long agent run timeline spanning six hours, endless thinking summaries scrolling, green success checkmarks after full rewrite, empty coffee cups, purple Claude accents, no logos",
+    "title": "卡兹克：用 Claude Opus 5.5 跑 6 小时以上完全重写级大型任务",
+    "aspect_ratio": "16:9"
+  }
+]

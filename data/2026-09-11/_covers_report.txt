@@ -1,0 +1,5 @@
+Covers 2026-09-11
+Generated+compressed: ai 18 + v 12 = 30
+Missing: none
+JPG ~960w q72 under assets/covers/
+Wired into ai.json and v.json

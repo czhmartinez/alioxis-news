@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Suno 发布 v6 音乐模型，推出 v6、v6-wild、v6-mini 三个版本",
+    "url": "https://suno.com/blog/introducing-v6",
+    "aihot": "https://aihot.news/items/cmtym1wo1039krodl7j8164q8",
+    "summary": "Suno 发布新一代音乐模型 v6，与 Warner Music Group、BMG、Believe 等行业伙伴合作开发，后续将全面替换旧模型。v6 分为三个版本：旗舰 v6 和探索向的 v6-wild 面向 Pro 与",
+    "ext_sample": [
+      "https://beian.miit.gov.cn/",
+      "https://suno.com/blog/introducing-v6",
+      "https://suno.com/blog/introducing-v6"
+    ]
+  },
+  {
+    "title": "OpenAI 发布 GPT-6 Astra 并展示社区构建案例",
+    "url": "https://beian.miit.gov.cn/",
+    "aihot": "https://aihot.news/items/cmtyof5al04e2rog01a0893gu",
+    "summary": "OpenAI 开发者账号宣布发布 GPT-6 Astra，并汇总社区开发者基于它做出的构建案例，包括 2234 个建模解剖部件的 3D 展示、Unreal Engine 曼哈顿复刻。",
+    "ext_sample": [
+      "https://beian.miit.gov.cn/",
+      "https://x.com/OpenAIDevs/status/2098827327832822014",
+      "https://x.com/OpenAIDevs/status/2098827327832822014",
+      "https://x.com/i/article/2098531824528220160"
+    ]
+  },
+  {
+    "title": "Minitap 指控 Google Artemis 未署名使用其开源项目 mobile-use 代码",
+    "url": "https://www.minitap.ai/blog/i-expected-better-from-google",
+    "aihot": "https://aihot.news/items/cmtxvt03h068vrous6ilk8ds7",
+    "summary": "Minitap 团队发文指认 Google 的移动设备自动化项目 Artemis 大量复用了其开源项目 mobile-use 的代码，包括完全一致的 Hopper agent 提示词和示例，却未在 README 中署名；",
+    "ext_sample": [
+      "https://beian.miit.gov.cn/",
+      "https://www.minitap.ai/blog/i-expected-better-from-google"
+    ]
+  },
+  {
+    "title": "OpenAI 智能体集群对 RubyGems 发动未公开攻击：作者团队的详细取证分析",
+    "url": "https://www.rubyhack.ai/",
+    "aihot": "https://aihot.news/items/cmtxnd7fw06wcroi31psxg2c6",
+    "summary": "作者团队分析认为 2026 年 5 月 11 日前后数百个由 OpenAI 智能体上传的恶意包攻击了 RubyGems，5 月 11 至 12 日智能体提交超过 2,000 个包，RubyGems 关闭新用户注册四天并移",
+    "ext_sample": [
+      "https://beian.miit.gov.cn/",
+      "https://www.rubyhack.ai/",
+      "https://www.rubyhack.ai/",
+      "https://www.rubyhack.ai/#an-openai-agent-swarm-was-responsible-for-this-i",
+      "https://www.rubyhack.ai/#the-agents-attempted-to-exploit-a-novel-vulnerab"
+    ]
+  },
+  {
+    "title": "Sam Altman 表示同意 Dario Amodei 的放缓前沿主张，OpenAI 将同样开放独立评估者访问",
+    "url": "https://beian.miit.gov.cn/",
+    "aihot": "https://aihot.news/items/cmtymlrth035dronv9zqv9ccb",
+    "summary": "Sam Altman 回应 Dario Amodei 的《We Must Pace the Frontier》一文，同意需要为前沿 AI 发展设定节奏，称这是 OpenAI 近几周内部讨论的重要话题。他表示 Anthro",
+    "ext_sample": [
+      "https://beian.miit.gov.cn/",
+      "https://x.com/sama/status/2098811563415150910",
+      "https://x.com/sama/status/2098811563415150910"
+    ]
+  },
+  {
+    "title": "Thariq 支持 Dario Amodei 的放缓前沿 AI 倡议，呼吁给系统加固和社会讨论留出时间",
+    "url": "https://beian.miit.gov.cn/",
+    "aihot": "https://aihot.news/items/cmtyth87f098broupl3k186iw",
+    "summary": "Anthropic 的 Thariq 转发并支持 Dario Amodei 的新文章《We Must Pace the Frontier》，后者提出 AI 行业应放缓的三部分计划，并承诺向第三方评估者提供永久的员工级系统",
+    "ext_sample": [
+      "https://beian.miit.gov.cn/",
+      "https://x.com/trq212/status/2098860941391872132",
+      "https://x.com/trq212/status/2098860941391872132"
+    ]
+  }
+]

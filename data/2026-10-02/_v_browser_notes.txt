@@ -1,0 +1,8 @@
+Alioxis News 大V视野抓取记录（2026-10-02）
+
+登录状态：confirmed。X 主页左下角看到 zihan chen / @zihanch71347739；https://x.com/home 可正常访问。
+时间线：已确认主页顶部“正在关注”标签为 selected（不是“为你推荐”）。Following 初始视图看到 @gengdaJ 的 Codex AI 帖子以及其他时间线内容；尝试向下翻页后，时间线可见内容有限，因此按任务要求访问优先账号主页补充。
+补充账号：@MaxForAI、@xiaohu、@Khazix0918、@testingcatalog。各帖均从 X 页面实际可见文本、相对时间和帖子永久链接提取；status_id 由页面链接确认。
+时间范围：主要为 2026-10-01 至 2026-10-02（页面显示约 1–23 小时前）。published_at_approx 使用 X status ID 时间戳换算为 +08:00。
+去重：与 2026-10-01/v.json 和 2026-09-30/v.json 的 status IDs 无重叠。未下载图片，image 保持空字符串。
+阻塞：Following 页面本身加载的 AI 帖子少，未能仅靠 Following 达到目标，故使用优先账号主页；无登录、验证码或访问阻塞。

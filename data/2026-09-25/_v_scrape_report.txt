@@ -1,0 +1,24 @@
+Alioxis News「大V视野」抓取报告
+日期：2026-09-25（Asia/Taipei）
+
+登录确认：是；X 页面仍显示 zihan chen / @zihanch71347739。
+Following 确认：是；已返回主页并继续滚动「正在关注」时间线，未切换到「为你推荐」。
+时间窗口：按用户要求检查约 2026-09-23 晚间至 2026-09-25 08:27（Asia/Taipei，约36小时）；本次新增帖实际时间为 2026-09-24 12:32 至 2026-09-25 00:10，原有3条保留。
+
+最终条数：9（原有3条 + 新增6条），按 status id 去重。
+来源计数：@Fukugyo_clinic 1；@higgsfield 1；@zaobaosg 1；@MaxForAI 1；@xiaohu 4；@Khazix0918 1。
+
+本次访问：@MaxForAI、@xiaohu、@Khazix0918（卡兹克）、@Fukugyo_clinic、@0kncn；另检查了主页「正在关注」时间线并继续下滚。
+
+新增内容：
+- @MaxForAI：AI工具与创造力边界（2026-09-24 18:30）。
+- @xiaohu：Kling 4.0视频能力、Claude Opus 5.5模型能力、Boltzbit权重写入训练方法、Opus 5.5代码生成手绘MV（4条，2026-09-24 12:32–23:54）。
+- @Khazix0918：回到Claude的使用体验（2026-09-25 00:10）。
+
+筛选与跳过：
+- 保留真实个人账号帖子，使用真实 status URL，image 均留空；未虚构或补写任何帖子。
+- 跳过Following中广告/推广、纯政治/新闻、非AI内容及重复转帖。
+- @0kncn看到的Midjourney/GPT Image/Seedance视频帖时间为2026-09-23 02:27，早于本次窗口起点，未纳入。
+- 未继续访问@ChineseWSJ或备用@Chonghan_Liu；在时间盒内优先账号与Following已完成检查。
+
+阻塞：无登录、权限或X API阻塞；X时间线在窗口内合格AI帖子偏少，故诚实停止于9条，未强行凑到12条。未生成封面、未构建、未发布。

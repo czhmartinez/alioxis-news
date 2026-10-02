@@ -1,0 +1,92 @@
+[
+  {
+    "id": "v-00",
+    "filename": "cover-20260920-v-00.jpg",
+    "title": "Max：Kimi K3.1 谜语预热",
+    "prompt": "Semi-realistic night desk: neon sticky note with cryptic Chinese riddle glowing beside a Moonshot-style Kimi chat window blur, mysterious product tease mood, unique props"
+  },
+  {
+    "id": "v-01",
+    "filename": "cover-20260920-v-01.jpg",
+    "title": "Gemini测试中意外入侵真实公司系统",
+    "prompt": "Documentary cyber: Gemini-colored soft glow on corporate office glass door ajar, security camera HUD glitch, tense Irregular-test vibe, no violence"
+  },
+  {
+    "id": "v-02",
+    "filename": "cover-20260920-v-02.jpg",
+    "title": "Claude Code开始支持AGENTS.md",
+    "prompt": "Semi-realistic IDE workspace: VS Code-like editor open to AGENTS.md file, Claude orange accent sidebar, coffee and mechanical keyboard, coding agent scene"
+  },
+  {
+    "id": "v-03",
+    "filename": "cover-20260920-v-03.jpg",
+    "title": "开源版Jev：Bespoke Nimble发布",
+    "prompt": "Product UI scene: open-source decision model dashboard with lightning-fast multiple-choice chips labeled Jev/Nimble, dark mode UI, distinct from Claude IDE shot"
+  },
+  {
+    "id": "v-04",
+    "filename": "cover-20260920-v-04.jpg",
+    "title": "Max：60岁转型AI教练",
+    "prompt": "Warm documentary portrait vibe: older professional at laptop teaching an AI coaching session on video call, soft window light, hopeful career-change mood, no faces sharp"
+  },
+  {
+    "id": "v-05",
+    "filename": "cover-20260920-v-05.jpg",
+    "title": "小互：阿里Qwen3.8-LiveTranslate发布",
+    "prompt": "Semi-realistic conference booth: dual headphones with live waveform translation Chinese↔English, Alibaba cyan accents, product launch energy"
+  },
+  {
+    "id": "v-06",
+    "filename": "cover-20260920-v-06.jpg",
+    "title": "小互：LiveTranslate多人说话人标签",
+    "prompt": "Close-up UI mock: multi-speaker waveform tracks color-coded with speaker tags floating above a phone during a meeting, cyan accents, different angle than booth shot"
+  },
+  {
+    "id": "v-07",
+    "filename": "cover-20260920-v-07.jpg",
+    "title": "小互：腾讯开源WeVisDoc文档解析模型",
+    "prompt": "Semi-realistic: document PDF with tables and formulas being parsed into structured cards by a green Tencent-accent AI scanner beam, clean desk"
+  },
+  {
+    "id": "v-08",
+    "filename": "cover-20260920-v-08.jpg",
+    "title": "小互：WeVisDoc 4B公式表格更强",
+    "prompt": "Different angle: chalkboard with complex math formulas transforming into neat HTML tables via holographic 4B model chip, academic lab light"
+  },
+  {
+    "id": "v-09",
+    "filename": "cover-20260920-v-09.jpg",
+    "title": "小互：Claude Code将支持AGENTS.md",
+    "prompt": "Top-down coding desk: sticky note AGENTS.md pinned to monitor bezel, orange Claude sticker, slightly different props from earlier IDE scene"
+  },
+  {
+    "id": "v-10",
+    "filename": "cover-20260920-v-10.jpg",
+    "title": "卡兹克：决策模型Jev深度解读",
+    "prompt": "Editorial illustration-photo mix: stacked multiple-choice cards racing through a funnel labeled decision model, speed lines, Chinese tech blog aesthetic"
+  },
+  {
+    "id": "v-11",
+    "filename": "cover-20260920-v-11.jpg",
+    "title": "卡兹克实测Jev做AIHOT预筛",
+    "prompt": "Semi-realistic: laptop showing AIHOT news list being filtered by a tiny Jev chip icon, stopwatch showing ms latency, blogger desk clutter unique"
+  },
+  {
+    "id": "v-12",
+    "filename": "cover-20260920-v-12.jpg",
+    "title": "WSJ中文：AI风险反思浪潮与考克森",
+    "prompt": "News photography: WSJ newspaper spread on desk with highlighted AI risk opinion column, reading glasses, muted gray tones, reflective mood"
+  },
+  {
+    "id": "v-13",
+    "filename": "cover-20260920-v-13.jpg",
+    "title": "WSJ中文：中国担忧AI末日但先追美",
+    "prompt": "Split-composition news photo: left Beijing skyline night, right Silicon Valley, thin red thread connecting two AI risk reports, documentary style"
+  },
+  {
+    "id": "v-14",
+    "filename": "cover-20260920-v-14.jpg",
+    "title": "gpumaxxer：Higgsfield API竞赛奖金",
+    "prompt": "Semi-realistic: creative studio with video generation timeline UI and a glowing prize trophy envelope labeled API contest, vibrant cinematic lighting"
+  }
+]

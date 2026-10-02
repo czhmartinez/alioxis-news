@@ -1,0 +1,272 @@
+[
+  {
+    "title": "卡兹克 AIHOT 日报（2026-09-03）：Gemini 3.8 Flash、Muse Spark 1.3 与 Qwen3.8-Max 等精选",
+    "summary": "数字生命卡兹克的 AIHOT 自动生成 9 月 3 日精选日报，覆盖模型发布（Google Gemini 3.8 Flash/Cyber、Meta Muse Spark 1.3、通义 Qwen3.8-Max-0902）、产品更新（Claude 后台操控电脑、Cursor Self-Hosted Machines）及行业动态（Nvidia 接近收购 Hugging Face、美司法部支持 LLM 训练合理使用等）。",
+    "url": "https://aihot.virxact.com/daily/2026-09-03",
+    "source": "AIHOT（数字生命卡兹克）",
+    "source_handle": "@数字生命卡兹克",
+    "image": "/assets/covers/cover-20260903-ai-00.jpg",
+    "published_at": "2026-09-03T08:00:00+08:00",
+    "tags": [
+      "AIHOT",
+      "日报",
+      "精选",
+      "工具"
+    ]
+  },
+  {
+    "title": "Google 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber：同价升级推理与编程，网安版走 Fairwind",
+    "summary": "Google DeepMind 于 9 月 2 日推出 Gemini 3.8 Flash，号称迄今最强推理与编程 Flash，价格与 3.7 Flash 相同（输入 $0.75/百万 token、输出 $3.75/百万 token，优惠至 2026-12-31）。同日发布的 3.8 Flash Cyber 面向可信防御方，经 Fairwind 计划开放，强调漏洞发现与自动修补；内部跨 20 种语言基准漏洞发现成功率超 70%，CWE-Bench pass@1 为 47.2%。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+    "source": "Google Blog",
+    "source_handle": "@Google",
+    "image": "/assets/covers/cover-20260903-ai-01.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "模型",
+      "Gemini",
+      "网络安全",
+      "Agent"
+    ]
+  },
+  {
+    "title": "IT之家：Gemini 3.8 Flash Cyber 已在谷歌内部全面部署，Chrome 有效补丁量达顶尖商用模型 2.6 倍",
+    "summary": "IT之家报道，3.8 Flash Cyber 在 CyberGym 超越前代 3.5 Flash Cyber 及多款更大前沿模型；Chrome 安全团队称其生成的有效漏洞修复补丁数量达顶尖商用模型的 2.6 倍，Wiz 测得召回率提升 7.5%–9.7%、成本降至约 1/5.2–1/2.3，云漏洞研究团队曾在不到 2 小时内挖出通常需数月排查的严重底层漏洞。",
+    "url": "https://www.ithome.com/0/997/708.htm",
+    "source": "IT之家",
+    "source_handle": "@ithome",
+    "image": "/assets/covers/cover-20260903-ai-02.jpg",
+    "published_at": "2026-09-03T00:09:52+08:00",
+    "tags": [
+      "模型",
+      "Gemini",
+      "网络安全",
+      "IT之家"
+    ]
+  },
+  {
+    "title": "Meta 发布 Muse Spark 1.3：Artificial Analysis 智能指数 61，与 Grok 4.6、GPT-5.6 Sol 并列",
+    "summary": "Muse Spark 1.3（xhigh）在 Artificial Analysis Intelligence Index 得分 61，较 1.2 的 57 提升 4 分，与 Grok 4.6（high）、GPT-5.6 Sol（max）并列第三档；输出约 235 token/秒、加权任务成本约 $0.55。这是五个月内第四个 Muse Spark 版本，已上线 Muse Code 与 Meta Model API。",
+    "url": "https://officechai.com/ai/metas-muse-spark-1-3-scores-61-on-artificial-analysis-intelligence-index-at-par-with-grok-4-6-and-gpt-5-6-sol/",
+    "source": "OfficeChai",
+    "source_handle": "@MetaAI",
+    "image": "/assets/covers/cover-20260903-ai-03.jpg",
+    "published_at": "2026-09-03T08:00:00+08:00",
+    "tags": [
+      "模型",
+      "Meta",
+      "Muse",
+      "评测"
+    ]
+  },
+  {
+    "title": "通义千问发布 Qwen3.8-Max-0902：Code Arena WebDev 1691 分登顶，QwenCloud 可试用",
+    "summary": "阿里巴巴发布面向编程与 Cowork 类任务的后训练快照 Qwen3.8-Max-0902；TechNode 称其前端 CodeArena 得分升 22 点至 1,691、位居榜首，保留最高约 100 万 token 上下文，经 Qwen 服务与 API 渠道提供。第三方报道混合价约 $5/MToken，模型 ID 为 qwen3.8-max-0902。",
+    "url": "https://technode.com/2026/09/02/alibaba-upgrades-qwen38-max-with-new-0902-snapshot/",
+    "source": "TechNode",
+    "source_handle": "@Alibaba_Qwen",
+    "image": "/assets/covers/cover-20260903-ai-04.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "模型",
+      "Qwen",
+      "编程",
+      "API"
+    ]
+  },
+  {
+    "title": "Claude Cowork / Claude Code 支持后台操控电脑：Mac 上可边用边让 Claude 点按应用",
+    "summary": "Anthropic 宣布 Claude Cowork 与 Claude Code 新增后台电脑操控：把任务交给 Claude 后，它可像人一样点击、输入和打开应用，用户可同时做其他事。9to5Mac 称该能力面向 Pro/Max，Mac 后台模式可用；官方帮助中心说明 macOS 15+ 默认后台窗口运行，不抢占指针与键盘。",
+    "url": "https://9to5mac.com/2026/09/02/anthropic-upgrades-claude-codes-computer-use-to-run-in-the-background-on-mac/",
+    "source": "9to5Mac",
+    "source_handle": "@claudeai",
+    "image": "/assets/covers/cover-20260903-ai-05.jpg",
+    "published_at": "2026-09-02T12:14:00-07:00",
+    "tags": [
+      "Claude",
+      "Cowork",
+      "Computer Use",
+      "产品"
+    ]
+  },
+  {
+    "title": "Anthropic 发布电商 Agent 架构指南并开源 commerce-agents 参考实现",
+    "summary": "Anthropic 于 9 月 2 日发布《effective commerce agents》指南，基于零售、旅游、电信等落地经验，主张「单个 Claude + 标准 Agent 循环 + 技能/工具」而非按领域拆子智能体，并提供含购物与商家 Agent 的开源蓝图（retail/travel/telecom/ticketing）。Accenture、Mastercard、Visa、Shopify 等被列为早期合作方。",
+    "url": "https://claude.com/blog/the-anatomy-of-effective-commerce-agents",
+    "source": "Anthropic / Claude",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20260903-ai-06.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "Agent",
+      "电商",
+      "Claude",
+      "开源"
+    ]
+  },
+  {
+    "title": "美司法部就 OpenAI 版权案提交意见书：主张用受版权文本训练 LLM 一般属合理使用",
+    "summary": "TechCrunch 报道，美国政府在《纽约时报》诉 OpenAI 案中提交约 20 页意见书，称模型训练具有高度转换性，并以产业竞争力与国家安全为由警告误解合理使用会阻碍美国 AI 发展。该意见书不约束法院，数据获取方式与具体输出是否复制受保护段落仍由法院逐案判断。",
+    "url": "https://techcrunch.com/2026/09/02/u-s-government-sides-with-openai-on-issue-of-training-llms-on-copyrighted-material/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260903-ai-07.jpg",
+    "published_at": "2026-09-02T10:09:00-07:00",
+    "tags": [
+      "版权",
+      "OpenAI",
+      "政策",
+      "合理使用"
+    ]
+  },
+  {
+    "title": "外媒：Nvidia 接近以约 129–140 亿美元收购 Hugging Face，协议尚未最终敲定",
+    "summary": "Bloomberg Law 等报道 Nvidia 正就收购 Hugging Face 进入深入谈判，交易总额或约 140 亿美元，其中收购价约 129 亿美元并可能含约 10 亿美元员工留任方案；双方尚未达成最终协议，时间与细节仍可能变动。该估值约为 Hugging Face 2023 年约 45 亿美元融资估值的数倍。",
+    "url": "https://news.bloomberglaw.com/mergers-and-acquisitions/nvidia-is-said-to-near-14-billion-hugging-face-deal-this-week",
+    "source": "Bloomberg Law",
+    "source_handle": "@Bloomberg",
+    "image": "/assets/covers/cover-20260903-ai-08.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "并购",
+      "Nvidia",
+      "Hugging Face",
+      "行业"
+    ]
+  },
+  {
+    "title": "Google 复盘 AI Agents Challenge：提炼双向 MCP、事件驱动并发等 4 个工程模式",
+    "summary": "Google Developers Blog 总结初创赛道头部提交的共性工程决策：双向 MCP（Agent 既是工具客户端又对外提供 MCP 服务）、事件驱动并发、同标准回退（备用小模型也须过同一校验）、分层路由（廉价确定性检查先于大模型）。文章称基于 ADK 与 Agents CLI 的作品更常出现这些模式。",
+    "url": "https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions/",
+    "source": "Google Developers Blog",
+    "source_handle": "@googledevs",
+    "image": "/assets/covers/cover-20260903-ai-09.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "Agent",
+      "MCP",
+      "工程实践",
+      "Google"
+    ]
+  },
+  {
+    "title": "GitHub：在不牺牲任务质量前提下降低 Copilot Agent 编码成本的四项改动",
+    "summary": "GitHub 工程师 Erik Kristensen 与 Napalys Klicius 撰文说明：选择性压缩安装/构建/测试噪声日志、移除 view 工具行号前缀（线下推理成本约降 5%，线上用户日均约降 3%）、压缩 task-tool 提示词（每轮约省 1300 token，每活跃小时归一化成本约降 2.9%）、后台任务完成后直接交付结果（AI Credits 约降 2.3%）。强调应优化「完成任务」而非单次工具调用的 token。",
+    "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+    "source": "GitHub Blog",
+    "source_handle": "@github",
+    "image": "/assets/covers/cover-20260903-ai-10.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "Copilot",
+      "成本",
+      "Agent",
+      "工程"
+    ]
+  },
+  {
+    "title": "Google AI：如何为 LLM-as-a-Judge 编写可靠的布尔式评分标准",
+    "summary": "Google AI 在 DEV 发布教程，建议将评测拆成互不重叠的原子 TRUE/FALSE 问题，用 RFC 2119 术语表述客观事实，只评 prompt 明确要求的内容，并用专家标注的 golden set 校准评判模型直至与人类一致。模糊提示会导致评估不一致并浪费 token。",
+    "url": "https://dev.to/googleai/how-to-write-reliable-rubrics-for-llm-as-a-judge-evaluations-ndp",
+    "source": "Google AI / DEV",
+    "source_handle": "@GoogleAI",
+    "image": "/assets/covers/cover-20260903-ai-11.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "评测",
+      "LLM-as-Judge",
+      "技能",
+      "Google"
+    ]
+  },
+  {
+    "title": "什么是 harness 工程？Google 用 ADK 2.0 与 Antigravity SDK 演示自动修复编码循环",
+    "summary": "Google AI 介绍 harness 工程：用编排层、执行沙箱、状态持久化与验证工具等确定性组件包裹 LLM，使 Agent 无需逐行人工审查即可安全生成代码。文中给出 Antigravity + ADK 沙箱配置与带迭代上限「熔断」的测试回环示例，并指向 antigravity.google 与 ADK 2.0 图工作流。",
+    "url": "https://dev.to/googleai/what-is-harness-engineering-and-why-should-i-care-8n0",
+    "source": "Google AI / DEV",
+    "source_handle": "@GoogleAI",
+    "image": "/assets/covers/cover-20260903-ai-12.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "Harness",
+      "ADK",
+      "Antigravity",
+      "Agent"
+    ]
+  },
+  {
+    "title": "美团 LongCat-2.0 上线并可接入 Cline：OpenAI/Anthropic 兼容，1M 上下文",
+    "summary": "美团 LongCat 开放平台文档显示 LongCat-2.0 已作为高性能 Agentic 模型提供，兼容 OpenAI 与 Anthropic API，上下文最长约 1M、最大输出 128K。官方给出 Cline CLI/插件接入步骤：Base URL 为 https://api.longcat.chat/openai/v1，模型 ID 为 LongCat-2.0。",
+    "url": "https://longcat.chat/platform/docs/zh/cline",
+    "source": "美团 LongCat",
+    "source_handle": "@Meituan_LongCat",
+    "image": "/assets/covers/cover-20260903-ai-13.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "模型",
+      "LongCat",
+      "Cline",
+      "API"
+    ]
+  },
+  {
+    "title": "Cursor Self-Hosted Machines：云智能体工具执行可落在企业自有机器",
+    "summary": "Cursor 文档与博客介绍 Self-Hosted / self-hosted cloud agents：推理与规划仍在 Cursor 云端，文件编辑、终端与本地 MCP 由企业 worker 执行；worker 仅出站 HTTPS 连接，无需开放入站端口。支持个人 My Machines 与团队 Team Pools，大规模可用 Helm/K8s operator。AIHOT 9 月 3 日日报将其列为当日产品更新要点。",
+    "url": "https://cursor.com/blog/self-hosted-cloud-agents",
+    "source": "Cursor",
+    "source_handle": "@cursor_ai",
+    "image": "/assets/covers/cover-20260903-ai-14.jpg",
+    "published_at": "2026-09-03T08:00:00+08:00",
+    "tags": [
+      "Cursor",
+      "Agent",
+      "企业",
+      "自托管"
+    ]
+  },
+  {
+    "title": "Axios：Meta Muse Spark 1.3 上线 Muse Code 与 API，Alexandr Wang 称将服务 24/7 个人智能体",
+    "summary": "Axios 报道 Meta 于 9 月 2 日发布 Muse Spark 1.3，首席 AI 官 Alexandr Wang 称其在编程与智能体任务上显著提升，定价与前代持平，将首先落地 Muse Code 与 Meta API；「max reasoning」版本尚在额外安全测试后推出。Wang 表示可用性改进有助于 Zuckerberg 谈及的全天候个人智能体产品。",
+    "url": "https://www.axios.com/2026/09/02/meta-debuts-muse-spark-13-as-personal-agent-work-continues",
+    "source": "Axios",
+    "source_handle": "@axios",
+    "image": "/assets/covers/cover-20260903-ai-15.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "模型",
+      "Meta",
+      "Muse",
+      "Agent"
+    ]
+  },
+  {
+    "title": "Anthropic 帮助中心：Cowork/Code 电脑操控说明——macOS 15+ 默认后台、需 Pro/Max",
+    "summary": "官方帮助文档确认电脑操控处于 Pro/Max 研究预览：优先用连接器与集成，必要时才操作屏幕；每次访问应用前需授权。macOS 15 及以上默认在后台窗口工作，不接管指针键盘；也可在设置中改为「完全控制」。桌面需保持唤醒且 Claude Desktop 打开。",
+    "url": "https://support.claude.com/en/articles/14128542-let-claude-use-your-computer-in-cowork",
+    "source": "Anthropic Help Center",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20260903-ai-16.jpg",
+    "published_at": "2026-09-02T12:00:00+08:00",
+    "tags": [
+      "Claude",
+      "Cowork",
+      "文档",
+      "Computer Use"
+    ]
+  },
+  {
+    "title": "IT之家：谷歌 Gemini 3.8 Flash 上线，面向软件工程与智能体任务",
+    "summary": "IT之家报道 Google 于 9 月 2 日上线 Gemini 3.8 Flash：基于 3.7 Flash，最高约 1M 上下文、文本输出最长约 64K token，面向软件工程、智能体任务与复杂知识流程，知识截止日期约 2026 年 3 月。文章称发布初期官方新闻稿/社媒官宣较少，但模型页已公开多项编程、多模态与长上下文基准。",
+    "url": "https://www.ithome.com/0/997/702.htm",
+    "source": "IT之家",
+    "source_handle": "@ithome",
+    "image": "/assets/covers/cover-20260903-ai-17.jpg",
+    "published_at": "2026-09-02T23:31:06+08:00",
+    "tags": [
+      "模型",
+      "Gemini",
+      "IT之家",
+      "编程"
+    ]
+  }
+]

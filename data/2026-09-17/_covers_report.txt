@@ -1,0 +1,1 @@
+covers 2026-09-17: ai=18/18 v=14/14 unique GenerateImage content-scenes

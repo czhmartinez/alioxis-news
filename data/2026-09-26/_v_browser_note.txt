@@ -1,0 +1,6 @@
+login ok? yes — X home loaded under the signed-in account zihan chen.
+Following tab confirmed? yes — 正在关注 was selected (not 为你推荐).
+scroll depth: continued the Following timeline from newest minutes-old cards through approximately 15 hours old; reviewed older cards and then used the top search fallback for missing priority handles.
+posts seen vs kept: approximately 50 cards/posts reviewed across Following and the authorized priority search/profile fallback (including ads, off-topic cards, repeated/quoted cards, and old results). Raw scrape now has 19 unique status URLs: 14 pre-existing + 5 new AI-related posts; estimated quality-usable set is about 15 after filtering.
+new posts added: 5 — @Khazix0918 (1), @xiaohu (3), @MaxForAI (1).
+priority accounts: @Khazix0918 / 卡兹克 and @xiaohu / 小互 did not appear in the visible Following scan, but both were found via top-search fallback and their posts pages were checked. @MaxForAI appeared via Following/priority review; @Fukugyo_clinic appeared in Following. No direct recent posts were found for @ChineseWSJ, @gpumaxxer, @higgsfield, @bourneliu66, @zaobaosg, @dhh, or @firecrawl during this continuation.

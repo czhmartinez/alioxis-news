@@ -1,0 +1,1936 @@
+{
+  "loginLikely": true,
+  "accountLabel": "账号菜单",
+  "followingSelected": true,
+  "tabs": [
+    {
+      "text": "为你推荐",
+      "selected": false
+    },
+    {
+      "text": "正在关注",
+      "selected": true
+    },
+    {
+      "text": "AI",
+      "selected": false
+    },
+    {
+      "text": "机器人",
+      "selected": false
+    },
+    {
+      "text": "软件",
+      "selected": false
+    },
+    {
+      "text": "太空",
+      "selected": false
+    },
+    {
+      "text": "生物技术",
+      "selected": false
+    },
+    {
+      "text": "科技",
+      "selected": false
+    },
+    {
+      "text": "科学",
+      "selected": false
+    },
+    {
+      "text": "商业",
+      "selected": false
+    },
+    {
+      "text": "股票",
+      "selected": false
+    },
+    {
+      "text": "政治",
+      "selected": false
+    }
+  ],
+  "url": "https://x.com/home + profiles",
+  "posts": [
+    {
+      "id": "2104729499070079003",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "在重写完之后，做了一个小小的决定。\n这个月活百万的AI热点站 AIHOT，正式开源了。\n\nAIHOT网址：\nhttps://\naihot.news\n开源地址：\nhttps://\ngithub.com/KKKKhazix/AIHOT\n\n采集流程、精选评分、聚簇机制，连生产环境里的全部Prompt，能开源的都开源给大家了。",
+      "datetime": "2026-09-29T00:26:31.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2104729499070079003",
+      "isReply": false
+    },
+    {
+      "id": "2104723255529439319",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "新加坡空军部队正式启用樟宜东空军基地一条全新的军用跑道。新跑道投入使用，也标志着空军为日后迁出巴耶利峇空军基地的准备工作迈出重要一步。",
+      "datetime": "2026-09-29T00:01:42.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104723255529439319",
+      "isReply": false
+    },
+    {
+      "id": "2104722851248963990",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "#独家 OpenAI宣布，因研究人员在内部测试中提出安全担忧，公司将取消发布下一代AI模型。新模型GPT-6.1 Astra原计划10月亮相。这是迄今最清晰的迹象之一，表明AI智能体的不当行为可能会阻碍该行业的快速发展。",
+      "datetime": "2026-09-29T00:00:06.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104722851248963990",
+      "isReply": false
+    },
+    {
+      "id": "2104721207396544930",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "OpenAI 预告\n\nDev day 将有 20 个新东西发布\n\n看预告视频应该主打的是 GPT Bot…\n\n也就是之前传说中的个人 Agent ：o",
+      "datetime": "2026-09-28T23:53:34.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104721207396544930",
+      "isReply": false
+    },
+    {
+      "id": "2104715944845005035",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "英国警方逮捕了五名试图在一处美军驻扎的空军基地发动炸弹袭击的男子后，英国首相伯纳姆将召开高级别国家安全会议，商讨应对策略。",
+      "datetime": "2026-09-28T23:32:39.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104715944845005035",
+      "isReply": false
+    },
+    {
+      "id": "2104708273580466594",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "微软联合创始人比尔·盖茨呼吁美国国会立法监管人工智能（AI），警告AI的能力足以引发造成10亿人死亡的事件。他说，AI发展太快，单靠科技公司自我约束，已不足以应对潜在风险。",
+      "datetime": "2026-09-28T23:02:10.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104708273580466594",
+      "isReply": false
+    },
+    {
+      "id": "2104707399886201093",
+      "handle": "xo_namiluna",
+      "display": "Nami Luna",
+      "text": "Go on, judge the curves",
+      "datetime": "2026-09-28T22:58:42.000Z",
+      "statusUrl": "https://x.com/xo_namiluna/status/2104707399886201093",
+      "isReply": false
+    },
+    {
+      "id": "2104677538559852969",
+      "handle": "Fukugyo_clinic",
+      "display": "あいえる",
+      "text": "这个我不太想广泛传播，但是、、\n\n现在再现性最高、\n利用碎片时间最能赚钱的就是\n「AI点点工作」。\n\n每天只要按照方法做30分钟，\n9月已经28天赚了319,700日元。\n\n为什么能出结果↓\n\n・不是自己制作商品的工作\n・利用碎片时间按自己的节奏\n・可以在家里工作\n・费用免费\n・有支持体制的环境",
+      "datetime": "2026-09-28T21:00:02.000Z",
+      "statusUrl": "https://x.com/Fukugyo_clinic/status/2104677538559852969",
+      "isReply": false
+    },
+    {
+      "id": "2102863043155857902",
+      "handle": "etrade",
+      "display": "E*TRADE from Morgan Stanley",
+      "text": "通过 Power E*TRADE，您掌控自己的财务未来。获得无缝跨平台体验，以及我们屡获殊荣的平台上强大的工具。",
+      "datetime": "",
+      "statusUrl": "https://x.com/etrade/status/2102863043155857902",
+      "isReply": false
+    },
+    {
+      "id": "2104652426229973171",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "太极剑习练起来，对于促进全身血液循环的效果，感觉又比太极拳更强。练十几分钟后，感觉手脚暖和，全身血液流畅，一种说不出的舒服。",
+      "datetime": "2026-09-28T19:20:15.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2104652426229973171",
+      "isReply": false
+    },
+    {
+      "id": "2104642472060326103",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "Claude Sonnet 5.5 发布了\n\n简单总结就是：在不涨价甚至更便宜的情况下，响应更快、写作和设计更顺手，对代码和工具使用能力有大提升，同时安全策略升级到接近旗舰 Opus 级别\n\n详细描述看下面：\n\n- 综合能力非常接近 Opus5.5，但推理速度快了 30%+，成本也降低了 30%。如果对照当前 Claude 的 Coding",
+      "datetime": "2026-09-28T18:40:42.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2104642472060326103",
+      "isReply": false
+    },
+    {
+      "id": "2104620904584200697",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "@ManusAI\n 新产品的Cue这个可以花一美元买电话号码的功能太牛逼了\n\n就冲着这个，它就会有一大堆长期续费的用户",
+      "datetime": "2026-09-28T17:15:00.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104620904584200697",
+      "isReply": false
+    },
+    {
+      "id": "2104621407212798274",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "@CueAgents\n 你太棒了",
+      "datetime": "2026-09-28T17:17:00.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104621407212798274",
+      "isReply": false
+    },
+    {
+      "id": "2104609487462220015",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "阿里、腾讯、字节都在拼命做（或者蹭）对标Muse的Personal Agent。\n\n结果目前看做的最好的是Manus2.0的Cue。。。。。",
+      "datetime": "2026-09-28T16:29:38.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104609487462220015",
+      "isReply": false
+    },
+    {
+      "id": "2096263454894293126",
+      "handle": "fabrice_mayrand",
+      "display": "Fab",
+      "text": "我们打造了最便宜的 AI 路由器\n\n每个模型折扣高达 81%！\n\nZDR 现已上市",
+      "datetime": "",
+      "statusUrl": "https://x.com/fabrice_mayrand/status/2096263454894293126",
+      "isReply": false
+    },
+    {
+      "id": "2104607562545213699",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "你说的事实无非是在9.29日宣布你预测明天是9.30日\n\n那我觉得你说的肯定是正确的",
+      "datetime": "2026-09-28T16:21:59.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104607562545213699",
+      "isReply": false
+    },
+    {
+      "id": "2104607317081911686",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "绝地反击！\n\n祝贺 \n@ManusAI\n  \n@hidecloud\n  \n@peakji",
+      "datetime": "2026-09-28T16:21:00.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104607317081911686",
+      "isReply": false
+    },
+    {
+      "id": "2104604209958260918",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "哇哦，没想到我居然在X Leaks榜上排到了A级",
+      "datetime": "2026-09-28T16:08:39.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104604209958260918",
+      "isReply": false
+    },
+    {
+      "id": "2104602352137515464",
+      "handle": "shangdu2005",
+      "display": "领哥LingGe",
+      "text": "刷到\n@ManusAI\n 今天发 2.0。\n这东西从去年火到被 Meta收购、\n又被叫停独立，\n名字取得挺直白——Manus\n随后：\n链上大战:Q    CUE  丘  马努斯  曼努斯   点子  灵感   扣扣\n\n尼玛，玩不过来......",
+      "datetime": "2026-09-28T16:01:17.000Z",
+      "statusUrl": "https://x.com/shangdu2005/status/2104602352137515464",
+      "isReply": false
+    },
+    {
+      "id": "2102362681785319425",
+      "handle": "AikidoSecurity",
+      "display": "Aikido",
+      "text": "介绍 Altar-1，我们首款开源权重安全模型。\n\n前沿级防御 AI，专为部署而建。掌控您自己的安全。",
+      "datetime": "",
+      "statusUrl": "https://x.com/AikidoSecurity/status/2102362681785319425",
+      "isReply": false
+    },
+    {
+      "id": "2104602281991954838",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "卧槽？？谷歌又在偷偷憋大招了 \n\n刚在 Google Flow 的模型菜单里看到一个新名字——Nano Banana 2.1。\n\nPro、2、2 Lite 都在，下面突然多了一个 2.1。\n谷歌一个字没说，没博客、没发布会、没时间表，就这么悄悄挂上去了。\n\n更有意思的是：几天前这里的痕迹还叫「2.5 Flash」，现在直接改成了 2.1。",
+      "datetime": "2026-09-28T16:01:00.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104602281991954838",
+      "isReply": false
+    },
+    {
+      "id": "2104598459089403953",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "Manus 推出个人 Agent： Cue\n\n现在下载：\nhttps://\ncue.im\n\n感觉是本来是和 Meta 一起推出的，结果因为收购问题被小扎截胡了",
+      "datetime": "2026-09-28T15:45:48.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104598459089403953",
+      "isReply": false
+    },
+    {
+      "id": "2104596997420286193",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "搬家累到不想动，但还是忍不住打开生图软件跑了两张。\n\n这算职业病吗 \n\n想看正脸吗？\n\n流量破一万给你们看一下",
+      "datetime": "2026-09-28T15:40:00.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104596997420286193",
+      "isReply": false
+    },
+    {
+      "id": "2104596566816547068",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "Manus 2.0\n\n发布",
+      "datetime": "2026-09-28T15:38:17.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104596566816547068",
+      "isReply": false
+    },
+    {
+      "id": "2098526490891575791",
+      "handle": "unstoppableweb",
+      "display": "Unstoppable.ai",
+      "text": "通过下载 Unstoppable AI——这个与代理无关的代码工厂——使用 Deepseek、Kimi 等获得免费的 Codex 使用权",
+      "datetime": "",
+      "statusUrl": "https://x.com/unstoppableweb/status/2098526490891575791",
+      "isReply": false
+    },
+    {
+      "id": "2104595524481597773",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "刚刚， \n@Kling_ai\n 官方发布了最新的Kling4.0模型的内测活动，同时公布了Kling4.0模型的大量细节。\n\nKling4.0将于10月份正式上线，同时自9月28日开始，Kling4.0Flash将开启早期内测。\n\n真实、可控、专业，是Kling 4模型升级的核心方向。",
+      "datetime": "2026-09-28T15:34:09.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104595524481597773",
+      "isReply": false
+    },
+    {
+      "id": "2104595758842528253",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "更多细节和官方showcase请见",
+      "datetime": "2026-09-28T15:35:05.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104595758842528253",
+      "isReply": false
+    },
+    {
+      "id": "2104593968466125027",
+      "handle": "laoyingkhq",
+      "display": "Crypto老鹰",
+      "text": "一起来看看Meme币赚取百万美元的大佬Insentos\n\n公开了他用来埋伏百倍币的筛选条件。\n\n先收藏，有空仔细研究。",
+      "datetime": "2026-09-28T15:27:58.000Z",
+      "statusUrl": "https://x.com/laoyingkhq/status/2104593968466125027",
+      "isReply": false
+    },
+    {
+      "id": "2104572127617994917",
+      "handle": "ElevenLabs",
+      "display": "ElevenLabs",
+      "text": "Introducing Eleven v4 and Eleven v4 Turbo, our fastest and most emotive voice models yet.\n\nRanked #1 by Artificial Analysis.",
+      "datetime": "2026-09-28T14:01:10.000Z",
+      "statusUrl": "https://x.com/ElevenLabs/status/2104572127617994917",
+      "isReply": false
+    },
+    {
+      "id": "2104591488013459939",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "明天我希望这张图出现在DeepSeek内部群",
+      "datetime": "2026-09-28T15:18:06.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104591488013459939",
+      "isReply": false
+    },
+    {
+      "id": "2104591982945599492",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "来源：群友发的神人空友的图",
+      "datetime": "2026-09-28T15:20:04.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104591982945599492",
+      "isReply": false
+    },
+    {
+      "id": "2104588699489186043",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "还真是。。。因为国产模型的token plan都比Claude贵",
+      "datetime": "2026-09-28T15:07:01.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104588699489186043",
+      "isReply": false
+    },
+    {
+      "id": "2104589279569809830",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "我解释下原因哈，不是中国模型公司心黑故意卖的贵，而是中国算力成本太贵了。",
+      "datetime": "2026-09-28T15:09:20.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104589279569809830",
+      "isReply": false
+    },
+    {
+      "id": "2099724413826421156",
+      "handle": "GeminiApp",
+      "display": "Google Gemini",
+      "text": "You took a week off. Your inbox didn't. With Google AI Pro, your 24/7 agent turns 736 emails into the 3 that matter.",
+      "datetime": "",
+      "statusUrl": "https://x.com/GeminiApp/status/2099724413826421156",
+      "isReply": false
+    },
+    {
+      "id": "2104476429631311966",
+      "handle": "YuTengjing",
+      "display": "YuTengjing",
+      "text": "opus 5.5 真是梦中情模，可以载入史册的奇点模型。集齐：\n\n- 说人话\n- 最强 agentic 能力\n- 最强 长时运行能力\n- 最强 多 agent 调度能力\n- 最强 前端审美能力\n\n在我看来已经非常完美适合我的日常开发了。\n\n其它的如：写作能力，读图能力 相当够用\ncomputer use 用的少。\n\n- gpt 6 astra",
+      "datetime": "2026-09-28T07:40:54.000Z",
+      "statusUrl": "https://x.com/YuTengjing/status/2104476429631311966",
+      "isReply": false
+    },
+    {
+      "id": "2104586957753889172",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "在公司重组和AI应用推进之下，许多过去由初级员工承担的重复性任务已经被自动化取代。这让他们摆脱了不少苦活累活，但也让他们失去了一条长期以来用于积累经验本领的路径。",
+      "datetime": "2026-09-28T15:00:06.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104586957753889172",
+      "isReply": false
+    },
+    {
+      "id": "2104582126457028949",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "太帅了，这就是漫画冲击帧么\n\n太屌了",
+      "datetime": "2026-09-28T14:40:54.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104582126457028949",
+      "isReply": false
+    },
+    {
+      "id": "2104579788308406320",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "尼日利亚北部在周末发生两起武装团伙袭击事件，导致超过80人被绑架，其中大部分为女性，是当地近期发生的最新一起大规模绑架事件。\n\n法新社根据两份安全报告以及当地消息来源报道，上星期六（9月26日），至少47名农民在尼日尔州（Niger",
+      "datetime": "2026-09-28T14:31:37.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104579788308406320",
+      "isReply": false
+    },
+    {
+      "id": "2094845541826109939",
+      "handle": "AskVenice",
+      "display": "Venice",
+      "text": "您的 VPN 能让您的浏览保持私密。Venice 对您向 AI 提出的所有请求也做到了同样的事——私密提示，无日志记录，无说教。",
+      "datetime": "",
+      "statusUrl": "https://x.com/AskVenice/status/2094845541826109939",
+      "isReply": false
+    },
+    {
+      "id": "2104579402927374469",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "目前距离徕卡推出首款消费级产品已过去一百多年，但该公司依然坚持主要在欧洲生产其价格不菲、奉行极简主义的相机。在过去五年里，徕卡有四年销售额创下纪录。该品牌的复古设计成功俘获了年轻一代买家的青睐，正是这群人掀起了胶片摄影的复兴浪潮。",
+      "datetime": "2026-09-28T14:30:05.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104579402927374469",
+      "isReply": false
+    },
+    {
+      "id": "2012873634109694146",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "分享下我当时做了8年产品，为啥后来毅然决然决定23年选择去做IP。",
+      "datetime": "2026-01-18T13:04:06.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2012873634109694146",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2105085705496195252",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "",
+      "datetime": "2026-09-30T00:01:57.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2105085705496195252",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2104833264661987610",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "",
+      "datetime": "2026-09-29T07:18:50.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2104833264661987610",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2104555128691073505",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "被很多专业者骂了，但是在折腾了3天以后，AIHOT最终还是重写完然后上线了。。。我觉得还是可以分享一下我全部跟AI协同的流程，万一对其他人有用呢（当然我就是个纯外行，仅供参考）：\n\n1. 使用Claude Opus 5.5和GPT-6",
+      "datetime": "2026-09-28T12:53:38.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2104555128691073505",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2104415055022559565",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "承包了我一天的笑点。\nClaude Opus 5.5确实夯到爆。",
+      "datetime": "2026-09-28T03:37:01.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2104415055022559565",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2104401048324743646",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "",
+      "datetime": "2026-09-28T02:41:22.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2104401048324743646",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2104129415433363628",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "比重构屎山可能更高效的方式：\n直接将源项目库蒸馏成功能文档，然后直接用最新的模型原地重写。。。",
+      "datetime": "2026-09-27T08:42:00.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2104129415433363628",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2103907235604955321",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "这个完全的重写级别的大型任务，已经跑了6个多小时的了，全程围观看完了所有的思考摘要，无数次的感慨，Cluade Opus 5.5实在是太稳太强了...\n\n再怎么不喜欢Anthropic这家傻逼公司，还是必须要客观的说一句，除了科研和还有极致的性能优化这块，Cluade Opus",
+      "datetime": "2026-09-26T17:59:08.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2103907235604955321",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2103695404529528987",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "GPT-6 Astra做后端和数据库优化。\nClaude Opus 5.5做前端以及删GPT-6 Astra拉的过度设计和过度防护的屎。\n两者组合，是有点爽的。。。",
+      "datetime": "2026-09-26T03:57:23.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2103695404529528987",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2103155243576078823",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "妈的，最后，历经千辛万险，最后还是回到了Claude的怀抱。\n人啊，就是贱。。。\n就是对好模型没有任何的抵抗力。。。\n哎。。。",
+      "datetime": "2026-09-24T16:10:59.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2103155243576078823",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2103017035563466871",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "3年前第一次写公众号的时候，每篇只有几十几百阅读，曾无数次幻想，如果每篇都有上万阅读的话，那该多牛逼啊。\n\n​2年前，每篇都能稳定上万了，看着我很喜欢的差评和小声比比，我又在幻想，啥时候，我也能跟他们一样，篇篇10w+啊。",
+      "datetime": "2026-09-24T07:01:48.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2103017035563466871",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2102968425215852867",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "",
+      "datetime": "2026-09-24T03:48:38.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2102968425215852867",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2102559433872257106",
+      "handle": "Khazix0918",
+      "display": "数字生命卡兹克",
+      "text": "",
+      "datetime": "2026-09-23T00:43:27.000Z",
+      "statusUrl": "https://x.com/Khazix0918/status/2102559433872257106",
+      "isReply": false,
+      "source_profile": "Khazix0918"
+    },
+    {
+      "id": "2062538878096130207",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "个人情况更新：\n我没有加入 \n@AnthropicAI\n \n而是选择加入了 \n@lobehub\n 担任MAS&Head of growth\n\n原因是 \n@arvin17x\n 他们团队对于Agent的前沿探索打动了我，同时Lobehub也是为数不多我见过有自有Benchmark的应用团队（Eval is everting.）",
+      "datetime": "2026-06-04T14:16:03.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2062538878096130207",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2105017503269396945",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "哈哈哈哈哈哈哈哈",
+      "datetime": "2026-09-29T19:30:56.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2105017503269396945",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2105017409765785982",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "牛逼，GPT-6.1夯爆了！！！",
+      "datetime": "2026-09-29T19:30:34.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2105017409765785982",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2105002161587601536",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "为什么不敢和Opus5.5比啊 \n@OpenAI",
+      "datetime": "2026-09-29T18:29:59.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2105002161587601536",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2104998322763346380",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "我们即将迎来一次Codex的Reset！！\n\n那个男人\n@thsottiaux\n 在现场按下了reset按钮！",
+      "datetime": "2026-09-29T18:14:43.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104998322763346380",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2104998012527534582",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "等个Dots反代的Astra",
+      "datetime": "2026-09-29T18:13:29.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104998012527534582",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2104997827030163525",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "哇哦，让我去下个看看",
+      "datetime": "2026-09-29T18:12:45.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104997827030163525",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2104987912303723003",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "牛逼，GPT-6.1 Sol",
+      "datetime": "2026-09-29T17:33:21.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104987912303723003",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2104988379670847903",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "如果你的模型被同行超越了，从内部模型库找一个模型发出来就行了",
+      "datetime": "2026-09-29T17:35:13.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104988379670847903",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2104983994827940154",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "小红书看到这个名字气晕了",
+      "datetime": "2026-09-29T17:17:47.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104983994827940154",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2104849439148130589",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "神了，Codex 将于明天重新开放 20x 订阅，然后砍掉一半的额度\n\nTibo 发出预告:\n1. 明天重新向新用户开放 Pro $200 订阅。\n2. 同时调整用量计算方式：按 API 花费折算，实际额度大约只有旧版 Pro $200 的一半。\n\n同时承诺：\n- 未来不再恢复 5 小时限制：可按自己节奏把每周额度用完。",
+      "datetime": "2026-09-29T08:23:07.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104849439148130589",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2104791995231412390",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "神了....第一次见Claude Sonnet把同代的Opus超了。。\n\n今天早上，Anthropic 正式发布了 Claude Sonnet 5.5。\n\n我本来以为 5.5 系列会先让 Opus 独占一阵子，结果才隔几天，Sonnet 也发了。\n\n这次最大的变化其实就三个字：更实用。\n\n相比上一代的Sonnet 5，Sonnet 5.5的速度快了 30%+，也是目前最快的",
+      "datetime": "2026-09-29T04:34:51.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104791995231412390",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2104743979489411080",
+      "handle": "MaxForAI",
+      "display": "Max For AI",
+      "text": "卧槽，一觉醒来李飞飞的 World Labs 被 AMD 收了？？\n\n刚刚 AMD 宣布，将以大约 82 亿美元的价格全股票收购 World Labs。\n\n交易完成之后，李飞飞本人也会正式加入 AMD，担任执行副总裁兼首席科学家，直接向苏姿丰汇报。\n\n这家公司 2024 年才成立。\n\n两年时间，从做 Spatial Intelligence / World Model",
+      "datetime": "2026-09-29T01:24:03.000Z",
+      "statusUrl": "https://x.com/MaxForAI/status/2104743979489411080",
+      "isReply": false,
+      "source_profile": "MaxForAI"
+    },
+    {
+      "id": "2104988776724594716",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "OpenAI 发布全天候个人Agent： Dots：\n\n由 GPT-6 Astra 驱动\n\n- Dots 会主动自主推进事情，遇到关键节点才找你批准\n- 它可以同时管理你的工作和家庭事物\n- 它不只汇报进度，出了问题会主动想办法补救\n\n 同一个 Agent 既改董事会稿、跑代码上线，也订蛋糕、报课后班、协调女儿演出的时间冲突。",
+      "datetime": "2026-09-29T17:36:47.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104988776724594716",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2104988778939187485",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "详细介绍：",
+      "datetime": "2026-09-29T17:36:48.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104988778939187485",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2104987338678096045",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "OpenAI 推出了“Ultrafast” 模式\n\n和一个全新的订阅套餐Pro 500\n\nUltrafast 在 Codex 中将提供高达 8 倍生成速度（每秒 300 个tokens）\n\n在 API 中高达 6 倍的生成速度。\n\nGPT‑6 Astra Ultrafast 今天开始可在 API 中以及 ChatGPT Work 和 Codex 的 Pro 500 套餐和企业计划中可用。",
+      "datetime": "2026-09-29T17:31:04.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104987338678096045",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2104986808413282564",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "GPT-6.1 Sol 发布\n\n接近GPT-6 Astra 的性能，价格是其1/5，显然是受Sonnet 5.5刺激",
+      "datetime": "2026-09-29T17:28:58.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104986808413282564",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2104983182852681859",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "来了\n\nOpenAI发布 全天候Agent：Dots \n\n它可以7x24小时全天候工作，从你的反馈中不断学习，拥有自己的计算机和浏览器…\n\n并可以连接各种应用\n\n由GPT 6 Astra驱动…",
+      "datetime": "2026-09-29T17:14:34.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104983182852681859",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2104983748022612408",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "Dots 宣传视频\n\n有各种形态",
+      "datetime": "2026-09-29T17:16:48.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104983748022612408",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2104964481139036600",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "OpenAI似乎要发布一个硬件产品\n\n感觉想是一个毛绒玩具类型的\n\n带有摄像头和语音功能",
+      "datetime": "2026-09-29T16:00:15.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104964481139036600",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2104957444208365767",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "确认了\n\nOpenAI 削减了 订阅用量额度\n\nTibo学坏了…\n\n以前的100美金变保持5X用量\n200美金的削减一半从20X降为10X\n\n之前的老账号暂时继续保留20X的用量，欢呼吧",
+      "datetime": "2026-09-29T15:32:17.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104957444208365767",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2104901511742660749",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "砍掉一半额度？\n\n分配给新发布的其他产品",
+      "datetime": "2026-09-29T11:50:02.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104901511742660749",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2104810277158240404",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "好消息：\n\n马斯克计划将Cursor、Grok和X的会员订阅进行整合\n\n推出一个全新的 XPremium 订阅服务\n\n一次订阅，你可拥有 Cursor、Grok、Grok Bot和X的所有福利，同时还将推出更多附加福利...",
+      "datetime": "2026-09-29T05:47:30.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104810277158240404",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2104786941636124827",
+      "handle": "xiaohu",
+      "display": "小互",
+      "text": "Elevenlab 发布两款新语音模型：Eleven v4 和 Eleven v4 Turbo \n\n能根据文本内容“按剧情表演”声音\n\nEleven v4 的主要功能特点：\n\n脚本可以直接控制表演： 在台词中写入情绪、停顿、笑声、耳语、动作和环境音效，也可以用自然语言说明一句话应该怎样说。\n\n声音克隆兼顾相似度和表现力： Instant Voice",
+      "datetime": "2026-09-29T04:14:46.000Z",
+      "statusUrl": "https://x.com/xiaohu/status/2104786941636124827",
+      "isReply": false,
+      "source_profile": "xiaohu"
+    },
+    {
+      "id": "2105085252599173233",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "债券市场遭遇的猛烈抛售正推动美债收益率创下越来越引人注目的里程碑，其中30年期美债收益率触及24年高点。道琼斯指数微跌0.3%。标普500指数下滑0.2%，纳指回落0.1%。",
+      "datetime": "2026-09-30T00:00:09.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2105085252599173233",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104949349142626317",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "#视频 2023年3月，《华尔街日报》记者埃文·格什科维奇在叶卡捷琳堡被捕，后因间谍指控被错误定罪。在长达16个月的关押后，他最终获释。在接受本报总编辑Emma Tucker专访时，他详述了自己被捕的经过、如何挺过狱中的艰难时光，以及当下全球新闻记者所面临的日益严峻的风险。",
+      "datetime": "2026-09-29T15:00:07.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104949349142626317",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104941785185132788",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "Muse的设计初衷是替你办事，就像一名行政助理。你交给它的数据越多，它越能帮得上忙。但可爱和好用，是否足以消除我对Meta的信任顾虑？",
+      "datetime": "2026-09-29T14:30:04.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104941785185132788",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104934251745411333",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "《华尔街日报》记者埃文·格什科维奇在其新书《这片受诅咒的美丽土地》的独家摘录中，梳理他在俄罗斯报道期间被捕背后的真相。",
+      "datetime": "2026-09-29T14:00:08.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104934251745411333",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104926692783386677",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "在自称“世界金枪鱼之都”的厄瓜多尔曼塔，当地人世世代代靠资源丰饶的太平洋海域谋生。如今，一些渔民被吸引到一门暴利生意中：可卡因贩运。运一次毒可赚2万至4万美元，而他们靠捕鱼每月大约只能赚300美元。",
+      "datetime": "2026-09-29T13:30:05.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104926692783386677",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104919131698917391",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "#独家 拉里·埃里森这位掌控着甲骨文公司的亿万富豪花费近1,000万美元购置住房，供子女家教等工作人员使用；这些房子距离他在佛罗里达州的庄园约30分钟车程。",
+      "datetime": "2026-09-29T13:00:03.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104919131698917391",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104911578520854627",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "据MarketWatch，习近平华盛顿之行落幕，其他议题进展寥寥，唯有一项针对少数产品削减关税的“贸易委员会”计划有了眉目，特朗普政府与中方均披露了相关细节。",
+      "datetime": "2026-09-29T12:30:02.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104911578520854627",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104904041012600954",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "中国曾是耐克表现最好的市场，如今却成为其业绩下滑的一个主要原因。今年接掌中国业务的耐克老将斯帕克斯面临着一项艰巨任务。",
+      "datetime": "2026-09-29T12:00:05.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104904041012600954",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104896486643286241",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "本月，两名替俄罗斯作战、被乌克兰军队俘虏的朝鲜士兵被悄悄送往韩国。这是目前已知仅有的两名朝鲜战俘。争议随之而起。对首尔而言，这两名战俘是难得一见的、直接获取朝鲜军事情报的来源。乌克兰总统泽连斯基透露了两人的目前位置，引发韩国不满。",
+      "datetime": "2026-09-29T11:30:04.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104896486643286241",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104888956907110714",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "#视频 创纪录数量的可卡因正涌入欧洲。在西班牙南部与摩洛哥之间，直布罗陀海峡已成为最繁忙的通道之一，南美可卡因由此经西非和北非源源不断地运往欧洲。为探究毒贩如何转变了其走私策略，《华尔街日报》记者Sune Rasmussen登上了一艘西班牙执法船。",
+      "datetime": "2026-09-29T11:00:08.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104888956907110714",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104881381285281844",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "美国卫生部长小罗伯特·肯尼迪重塑美国食品体系的努力遭遇了迄今为止最大的障碍：白宫。白宫官员担心，小罗伯特·肯尼迪的改革计划可能波及美国食品杂货店的大多数食品。",
+      "datetime": "2026-09-29T10:30:02.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104881381285281844",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104873849510605036",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "过去几天，费尔福德遭遇了一件全然陌生、令人不安的事：据称有人策划恐怖袭击，目标是基地内的美军。“人们确实有些焦虑不安，尤其是那些黎明时分从家中被匆匆带走的人，”当地地区议会负责人说。但也有人怀疑，这次所谓的未遂企图是否真如英美官员所说的那样严重。",
+      "datetime": "2026-09-29T10:00:07.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104873849510605036",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104858729891995857",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "伊朗切断流经霍尔木兹海峡的石油供应，并以此作为与美国谈判筹码的能力正在瓦解。这增加了该国诉诸军事行动令冲突升温以巩固自身地位的风险。",
+      "datetime": "2026-09-29T09:00:02.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104858729891995857",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104843637221695851",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "#股闻天下 专栏记者Jinjoo Lee写道，美国的贸易敌对做法与中东战争，可能会推动其北方邻国加拿大迎来一场复兴。",
+      "datetime": "2026-09-29T08:00:03.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104843637221695851",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104828558782726413",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "特朗普政府周一大幅撤销了一系列监管规定，这些规定原本要求汽车制造商生产更清洁、更省油的汽车。按照新规，到2031车型年，联邦政府对车辆平均燃油经济性的要求将降至每加仑34.5英里，低于拜登政府此前设定的每加仑50.4英里。",
+      "datetime": "2026-09-29T07:00:08.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104828558782726413",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104821007936610631",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "一名前学生提起民事诉讼，指控康奈尔大学Chi Phi兄弟会的七名成员在2024年对其进行了性侵。",
+      "datetime": "2026-09-29T06:30:08.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104821007936610631",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2104813439646306782",
+      "handle": "ChineseWSJ",
+      "display": "华尔街日报中文网",
+      "text": "Advanced Micro Devices同意以约82亿美元的全股票交易收购人工智能研究公司World Labs。AMD表示，此次交易将为其引入顶尖的AI研发人才，助力开发更出色的AI硬件、软件和系统，尤其是在物理AI和机器人领域。",
+      "datetime": "2026-09-29T06:00:04.000Z",
+      "statusUrl": "https://x.com/ChineseWSJ/status/2104813439646306782",
+      "isReply": false,
+      "source_profile": "ChineseWSJ"
+    },
+    {
+      "id": "2105065343224017320",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "OpenAI 计划以约 1.4 万亿美元的估值（不包括此次融资的资金）再筹集 300 亿美元，据 Bloomberg 报道。\n\n谁的 IPO 会更大？",
+      "datetime": "2026-09-29T22:41:02.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2105065343224017320",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2105065403617837513",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "Source",
+      "datetime": "2026-09-29T22:41:17.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2105065403617837513",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2105032750789210235",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "Drafted AI 平面图生成器现已作为插件在 Autodesk Revit 中可用！\n\n该插件允许用户将房屋底面图和房间列表转化为五个平面图选项，这些选项使用真实的 Revit 墙体、地板、屋顶、门和窗构建而成。\n\n> 根据 Drafted 测试，它会在大约 45 秒内返回结果。\n\n>",
+      "datetime": "2026-09-29T20:31:32.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2105032750789210235",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2105032753313906759",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "在此之前，将草稿版面移入 Revit 需要从 Web 应用程序导出文件并手动导入到 Revit 中。现在，您可以直接在 Revit 项目中生成版面。\n\n试试看",
+      "datetime": "2026-09-29T20:31:32.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2105032753313906759",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2104992223033270679",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "OPENAI ：Dots 访问将包含在 Pro 100 计划中，并且很快将进一步扩展。\n\n多久之后？",
+      "datetime": "2026-09-29T17:50:29.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2104992223033270679",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2104987633894010982",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "OpenAI 推出了 ChatGPT Space，这是一个供人类和 AI 代理协作的新型工作空间。\n\n> “在 Space 中，你可以与页面协作——这是一种新型交互式文档，包含图表、图像、检查清单和仪表板。\n\n> “今天起向 Pro、Business 和 Enterprise 计划推出。”\n\nPro 测试时间",
+      "datetime": "2026-09-29T17:32:15.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2104987633894010982",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2104986654872375320",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "突发新闻 ：OpenAI 宣布推出 ChatGPT Pro 500 计划，容量提升 25 倍，并可访问超快模式。\n\n也没有 5 小时限制，太棒了",
+      "datetime": "2026-09-29T17:28:21.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2104986654872375320",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2104984840231883017",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "OPENAI ：Codex Cloud 在 OpenAI DevDay 期间宣布推出，允许开发者远程运行 Codex。\n\n> “适用于 Plus、Pro、Business、Healthcare、Education 和 Enterprise。”",
+      "datetime": "2026-09-29T17:21:09.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2104984840231883017",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2104983992449569028",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "突发新闻 ：OpenAI 推出了“Ultrafast”，一个新的高级速度层级。\n\n> “Ultrafast 在 Codex 中提供高达 8 倍更快的令牌生成速度（每秒 300 个令牌），在 API 中高达 6 倍。”\n\n> “GPT‑6 Astra Ultrafast 今天已在 API 中以及 ChatGPT Work 和 Codex 的 Pro 500 和企业计划中可用。GPT‑6.1 Sol Ultrafast",
+      "datetime": "2026-09-29T17:17:47.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2104983992449569028",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2104982125610987532",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "突发新闻 ：OpenAI 宣布推出 Dots，这些是可用于 ChatGPT 的个性化 AI 助手。\n\n我们目前所知 \n- 由 Astra 提供支持！\n- Dots 可以持续处理长时间任务\n- 很可能仅适用于 Pro 200 计划\n- 将支持语音对话\n- 在云端拥有自己的虚拟机\n- 用户今天将从一个 Dot 开始\n- 很快将可以通过消息应用程序访问\n-",
+      "datetime": "2026-09-29T17:10:22.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2104982125610987532",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2104980697140109327",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "突发新闻 ：OpenAI 正在 Codex 和 ChatGPT Work 中推出 GPT 6.1 Sol！\n\n> “GPT-6.1 Sol 为复杂工作提供接近 Astra 的性能，同时成本低于 Astra。建议将其用于代码、应用和文档中的重复、长时间运行的工作。可用性取决于您的计划、客户端和工作空间设置。”",
+      "datetime": "2026-09-29T17:04:41.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2104980697140109327",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2104978808272986454",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "OpenAI DevDay 2026 即将开始 \n\n让我们来拆解一下",
+      "datetime": "2026-09-29T16:57:11.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2104978808272986454",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2104981137651012048",
+      "handle": "testingcatalog",
+      "display": "AI News | TestingCatalog",
+      "text": "DOTs 已公布！",
+      "datetime": "2026-09-29T17:06:26.000Z",
+      "statusUrl": "https://x.com/testingcatalog/status/2104981137651012048",
+      "isReply": false,
+      "source_profile": "testingcatalog"
+    },
+    {
+      "id": "2084192158685519921",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "有幸收到飞书团队的邀请，分享了我们团队近期在做的 Vibe Coding 项目——dashi-taskboard \n\n这是一套重塑现有 Codex 工作流的项目管理工具，通过任务看板的方式，把你从海量的 Codex 对话中拯救出来。\n\n项目现已在 GitHub 完全开源，欢迎大家安装体验、提 Issue 和反馈建议！\n\nhttps://\ngithub.com/chuspeeism/das\nhi-taskboard\n…",
+      "datetime": "2026-08-03T08:18:27.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2084192158685519921",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2104933663486173219",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "是这样的，我们团队被封了也不下 10 个了，几乎所有这些方案都只能相对降低封号概率，没有任何一个方案是一定不会封号的\n\n唯一有效的方案是肉身出海，通过海外身份订阅 \n\n但这也是不一定一劳永逸，看老外被封号的帖子数量就知道了。大概率都是根据行为画像来判断封号的",
+      "datetime": "2026-09-29T13:57:47.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2104933663486173219",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2104932044698751346",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "巧了，我也正在做一条相同的题材。先放个 Demo，用到的是 Gemini Flash 3.8 的 TTS",
+      "datetime": "2026-09-29T13:51:21.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2104932044698751346",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2104393737828987025",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "太魔性了哈哈哈哈哈哈哈哈",
+      "datetime": "2026-09-28T02:12:19.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2104393737828987025",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2104195143129764311",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "这个故事，本来是想拿 Seedance2.0 来跑的，没想到，最先被 Opus5.5 跑出来了。\n跟我心里的想法已经八九不离十了。",
+      "datetime": "2026-09-27T13:03:10.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2104195143129764311",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2104177191756181717",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "过年了！",
+      "datetime": "2026-09-27T11:51:50.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2104177191756181717",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2104078086291779766",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "整理了一个 Opus5.5 相关案例和提示词的仓库，持续更新中",
+      "datetime": "2026-09-27T05:18:02.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2104078086291779766",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2104073686294925443",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "为了方便大家收藏，我整理一个 Opus5.5 案例的 github 仓库，把相关的案例也都整理到了项目当中，大家可以随意复刻 \nhttps://\ngithub.com/chuspeeism/awe\nsome-opus-5-5-videos\n…",
+      "datetime": "2026-09-27T05:00:33.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2104073686294925443",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2104051369351197167",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "已经能感受到「中国奇谭」的质感了",
+      "datetime": "2026-09-27T03:31:52.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2104051369351197167",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2103867261450895496",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "鉴于 Github 上呈现视频比较麻烦，我的提示词收集网站已经做了大量 Opus5.5 视频案例的整理，还在持续更新中，欢迎大家来玩\n\nhttps://\nimg.dsxzai.com/?check=images-\noptimized\n…",
+      "datetime": "2026-09-26T15:20:17.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2103867261450895496",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2103781641613439104",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "玩上瘾了，继续压榨 opus5.5 的性能",
+      "datetime": "2026-09-26T09:40:04.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2103781641613439104",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2103741661788729726",
+      "handle": "dashiAIxz",
+      "display": "大师的AI小灶",
+      "text": "大胆猜测，Claude 内部有一个非常牛逼的模型，能通过代码绘制类似这个宣传片中的视觉效果，最近几次的模型发布都是通过这个模型来生成的宣传片。有可能在 IPO 之前发布",
+      "datetime": "2026-09-26T07:01:12.000Z",
+      "statusUrl": "https://x.com/dashiAIxz/status/2103741661788729726",
+      "isReply": false,
+      "source_profile": "dashiAIxz"
+    },
+    {
+      "id": "2105088560315416889",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "《泰晤士报高等教育特辑》（Times Higher",
+      "datetime": "2026-09-30T00:13:18.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2105088560315416889",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2105084638569906325",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "新加坡国立大学李光耀公共政策学院院长廖振扬认为，身处大国博弈的复杂张力中，中小国家保持战略自主的核心，是妥善管理对大国的依赖，防止依赖变为国家面临的脆弱性。",
+      "datetime": "2026-09-29T23:57:43.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2105084638569906325",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2105081867049263326",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "中东冲突显著推高本地公共交通业者的能源成本，新加坡地铁和公共巴士车资将连续六年上调，从12月26日起整体调高7%，涨幅高于去年的5%；协助中低收入家庭的公交补助券金额将相应调高，可受惠家庭也会扩大。",
+      "datetime": "2026-09-29T23:46:42.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2105081867049263326",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2105078055655854328",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "结合文化价值、教育制度、努力与成就观，以及华人人口比率等社会因素来看，共同造就新加坡“高PISA分数 ≠ 高成长型思维”的特殊现象。综合新加坡种种教育特质，欲缩小不同文化、社会、经济背景的学生之间的学术表现差距，应该是靠针对性的教育资源投入。",
+      "datetime": "2026-09-29T23:31:33.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2105078055655854328",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2105074152512069723",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "韩国首尔一家人权组织星期一（9月28日）声称，朝鲜在驻北京大使馆地下设有一处秘密拘留设施，用于关押和审讯被怀疑试图叛逃的外交官及其他朝鲜公民，并为强制遣返他们做准备。",
+      "datetime": "2026-09-29T23:16:03.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2105074152512069723",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2105070331983474755",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "OpenAI宣布，取消原定下个月发布最新人工智能（AI）模型Astra 6.1的计划，原因是内部测试发现新模型仍存有安全隐患。",
+      "datetime": "2026-09-29T23:00:52.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2105070331983474755",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104942268184408204",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "新加坡在2026年全球创新指数中排名世界第五、亚洲第二，排名与去年持平。这是新加坡连续第四年跻身前五名。在79项指标中，新加坡有12项位居全球第一，比去年多两项。",
+      "datetime": "2026-09-29T14:31:59.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104942268184408204",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104932406390132831",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "马来西亚烟霾星期二（9月29日）急剧恶化。全国空污指数不健康水平的地区从星期一（28日）的一处，激增至星期二晚的37处。其中以雪兰莪佐汉瑟迪亚的179点最严重。柔佛则是全马唯一所有观测站都测得不健康水平指数的州属。",
+      "datetime": "2026-09-29T13:52:48.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104932406390132831",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104912042238840887",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "快时尚零售商希音公布上市后首份业绩后，星期二（9月29日）股价一度大跌逾一成至新低，显示投资者对公司利润率受压和增长放缓的担忧升温。",
+      "datetime": "2026-09-29T12:31:52.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104912042238840887",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104904565602586839",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "伊朗官方媒体报道，伊朗外长阿拉格齐说，他预计美国将在星期二（9月29日）就德黑兰提出的开放霍尔木兹海峡的提议给出一个正式答复。",
+      "datetime": "2026-09-29T12:02:10.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104904565602586839",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104896976772809182",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "美国人工智能（AI）初创公司Anthropic计划在首次公开售股（IPO）招股书中，向潜在投资者发出警告，称先进的AI可能会对人类构成“灾难性或生存风险”。",
+      "datetime": "2026-09-29T11:32:01.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104896976772809182",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104889269512708353",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "延宕逾三年的新加坡第四家鸡蛋农场在林厝港动土，首期工程预计两年内竣工，鸡蛋料在2028年推出市场。农场全面建成后，年产量可超过5亿个，届时本土蛋产将可满足本地约一半消费者的需求。",
+      "datetime": "2026-09-29T11:01:23.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104889269512708353",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104881866968842550",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "#用听的：中国国家主席习近平访美，与美国总统特朗普半年内再度会晤。双方形容这场“习特二会”“非常成功”，中美也在经贸、禁毒、人工智能等领域取得共识。\n\n这场备受瞩目的中美元首峰会是否达到外界预期？双方取得哪些共识？又有哪些悬而未决的问题与分歧？本期《东谈西论》为你解析。",
+      "datetime": "2026-09-29T10:31:58.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104881866968842550",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104874638828302564",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "上诉并非重审！民防部队医护人员非礼女下属被判坐牢15个月，他不满裁决与判刑提出上诉，高庭法官强调律师必须提供证据，证明国家法院法官判断有误，而非重述被告的立场。",
+      "datetime": "2026-09-29T10:03:15.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104874638828302564",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104866539765662187",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "疑似狮城客在新山持铁管图袭击食客，还涉酒驾撞翻路边摊的桌椅后逃逸，马国警方目前追查驾驶者下落。",
+      "datetime": "2026-09-29T09:31:04.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104866539765662187",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104859265554878829",
+      "handle": "zaobaosg",
+      "display": "联合早报 Lianhe Zaobao",
+      "text": "11岁男童独自骑滑板车绿灯过马路时，被一辆转弯的白色休旅车撞飞数米。男童母亲说，驾驶员事后拒绝借出手机让儿子联系家人，只将他送回家，也未陪他上楼，男童隔天出现呕吐症状。警方证实一名42岁男驾驶正协助警方调查。",
+      "datetime": "2026-09-29T09:02:09.000Z",
+      "statusUrl": "https://x.com/zaobaosg/status/2104859265554878829",
+      "isReply": false,
+      "source_profile": "zaobaosg"
+    },
+    {
+      "id": "2104886865346146519",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "短弦再续，任务跑一半被 A 社封了，最后用中转的 Opus 5.5 接力完成我的网站宣传视频。让我稍微介绍一下再哭出来吧\n\nAI 创作的新东西每天都在冒出来，看不完，也分不清。\n \n所以我做了这个知识站：把一次实践，沉淀成可复用的方法。 \n\n包含：知识库 · 专题课程 · 风格图鉴 · 镜头语言库 · 视觉词库 ·",
+      "datetime": "2026-09-29T10:51:50.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104886865346146519",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2105082765402349661",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "是骡子是马，拉出来就知道了",
+      "datetime": "2026-09-29T23:50:16.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2105082765402349661",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104870474182234396",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "早来晚来都回来…… \n\n又噶了一个",
+      "datetime": "2026-09-29T09:46:42.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104870474182234396",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104827098917638311",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "所以有没有人能够总结一下，这个到底是额度上升了还是额度减少了？\n\n还有一个点就是额度不消耗的功能使用的模型是什么样的模型呢？\n\n难道是图片中的 5.6sol 吗？",
+      "datetime": "2026-09-29T06:54:20.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104827098917638311",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104808390039871662",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "OpenAI 这是要一晚上掏 20 个东西？？\n\n不愧是水桶一般的模型，这里也要插一脚。\n\n但《华尔街日报》的报道：原本计划 10 月上线的 GPT-6.1 Astra 被取消发布了，理由是没过安全和对齐这一关。\n\n所以今晚大概率不会是「新一代大模型」的场子。泄露出来的议程基本都在讲 Codex 和",
+      "datetime": "2026-09-29T05:40:00.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104808390039871662",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104801203133562910",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "卧槽？？我居然才知道可灵 4.0 真的官宣了 \n\n刷到可灵官方昨晚 23:38 的帖子：Kling 4.0 10 月正式上线，4.0 Flash 已经先给黑金年卡会员开了小范围体验。\n\n官方写的几个点：\n1）单次原生直出最长 30 秒，支持长镜头、连续叙事\n2）最多 10 张关键帧，控制剧情节点\n3）最多 15 项多模态参考（10 张图",
+      "datetime": "2026-09-29T05:11:26.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104801203133562910",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104792320877244756",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "等待 foyege 老师的新作\n\n老师发完之后一定要教我啊，太想学AI视频了",
+      "datetime": "2026-09-29T04:36:09.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104792320877244756",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104779172434546744",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "",
+      "datetime": "2026-09-29T03:43:54.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104779172434546744",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104779506875818421",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "skill仓库地址 \nhttps://\ngithub.com/nuyoah-ai-work\ns/nuyoah-outfit-asset-generator.git\n… \n\n知识站可以直接打包下载：\nhttps://\nknowledge.nuyoahonline.com/skills/nuyoah-\noutfit-asset-generator\n…",
+      "datetime": "2026-09-29T03:45:14.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104779506875818421",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104744834410143788",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "找到一个好友意思的小游戏，网页端就能够直接体验，太有意思了\n\n感觉这个是不是可以用在网页交互上啊。\n\n效果那么好。\n\n链接我放评论区，想玩的可以去玩玩",
+      "datetime": "2026-09-29T01:27:27.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104744834410143788",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104744926512857267",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "",
+      "datetime": "2026-09-29T01:27:49.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104744926512857267",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104730549676102006",
+      "handle": "nanyuan0412",
+      "display": "南鸢 nuyoah",
+      "text": "为什么赞比率这么搞的文章，流量会这么的惨淡？",
+      "datetime": "2026-09-29T00:30:41.000Z",
+      "statusUrl": "https://x.com/nanyuan0412/status/2104730549676102006",
+      "isReply": false,
+      "source_profile": "nanyuan0412"
+    },
+    {
+      "id": "2104347860259193282",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "让刺破 ai 泡沫的加息风暴来得更猛烈些吧 :)\n\n\nhttps://\nmp.weixin.qq.com/s/0J_DFd6F6F5z\nedhJ3gJFuw\n…",
+      "datetime": "2026-09-27T23:10:01.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2104347860259193282",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2104767447211659288",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "AI 对于太极剑疏通气血机制的解释：\n\n太极剑在疏通全身气血和拉伸感上比太极拳更明显，主要是因为剑作为身体的延伸，极大地增加了动作的物理力臂、改变了劲力的传导方式，并对脊椎和梢节（手脚末端）产生了更强的牵引作用。\n\n这背后的核心原因可以拆解为以下几个维度：\n\n1. 梢节延伸与“气血引向末端”",
+      "datetime": "2026-09-29T02:57:18.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2104767447211659288",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2104605174283272518",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "今天听到最励志的一句…",
+      "datetime": "2026-09-28T16:12:29.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2104605174283272518",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2104368698391957608",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "从2024年开始，SB （软银）多次累积投入 640 亿美元获得 OAI 的大约 13% 的股权 （其中一笔 100亿美元的投资款预计十月一号到位）。 2024年时 OAI 估值还只有 1500亿美元，到 2026 最近一笔融资时估值已经超过 7000 亿美元。 \n\nSB 三月底时面不改色的对外宣传它账面上有四百多亿美元的来自 OAI",
+      "datetime": "2026-09-28T00:32:49.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2104368698391957608",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2104306686098120813",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "记得有首老歌叫 I want you to want me :)",
+      "datetime": "2026-09-27T20:26:24.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2104306686098120813",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2103687832389005479",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "加息周期，对于巨大债务驱动的行业的后果，类似要运动员降低兴奋剂的使用量，要瘾君子减少嗑药。这对行业即将产生的欲仙欲死的作用，值得期待。",
+      "datetime": "2026-09-26T03:27:18.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2103687832389005479",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2103630258973167794",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "一分耕耘，一分收获的事情，一般来说无法赚大钱，因为潜在竞争者会压制你的收获上限。\n\n十分耕耘，不断给自己加码，还没拿到收获之前就累死的情况，更多一些。\n\n还有种情况是， 看似一分耕耘，几分收获，越玩越开心，最后一刻发现自己陷入骗局，满盘皆输。",
+      "datetime": "2026-09-25T23:38:31.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2103630258973167794",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2103621506555339151",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "Oracle ceo 名义上净资产超过千亿美元，但手上要拿出几十亿美元的现钱需要把股票抵押出去。这样实际上每天战战兢兢的活在股价波动的阴影之下。一旦因为某种不可抗力，股价暴跌，银行需要追加更多股票抵押或者保证金。如果拿不出来，立马可能被 margin call.",
+      "datetime": "2026-09-25T23:03:45.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2103621506555339151",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2103312000415904011",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "美联储未来一年持续加息抑制通胀，和  AI 固定资产投资增长形成结构性矛盾。 \n\n如果你认可 Don…",
+      "datetime": "2026-09-25T02:33:53.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2103312000415904011",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2103251517012901927",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "只要可以转手卖给下家，而不用承担后果，大部分人愿意相信即使是“放射性的牛屎”",
+      "datetime": "2026-09-24T22:33:32.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2103251517012901927",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2103226496781619266",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "媒体上充斥着各种牛屎，难以分辨。但有的牛屎荒谬到了变成放射性的牛屎，如果分辨不出来，那就是你的问题了。:)",
+      "datetime": "2026-09-24T20:54:07.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2103226496781619266",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2103168380111093982",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "佛寺麻竹 Force Majeure.",
+      "datetime": "2026-09-24T17:03:11.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2103168380111093982",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2102937665658335282",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "lol",
+      "datetime": "2026-09-24T01:46:24.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2102937665658335282",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2102172189571371396",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "“幂定律的思维方式里，注意力从做事的清单，转向杠杆着力点。\n\n你不再问要做什么，而是问，可以做点什么事情，让很多其它事毫无必要，或者变得更容易。 \n\n这个思维方式听起来反直觉，因为外在没有太多可见的动静。但是它在关键时刻能够产生大量你需要的动静”",
+      "datetime": "2026-09-21T23:04:41.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2102172189571371396",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2102051265589219657",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "Shopify 的 ceo 发明了一个新词，叫做 slop grenade （ ai 泔水手榴弹 ）。\n\n大概意思是，公司内部人用 ai 生成大量文字或代码，但自己并没有检查和清理，就直接交给下面一个人，那个人必须耗费大量时间去阅读理解这些东西，检查错误，清理垃圾，其愤怒心情可想而知。\n\n想起四川有个歇后语生动的描绘了",
+      "datetime": "2026-09-21T15:04:10.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2102051265589219657",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2101774749554839771",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "阿基米德曾说，‘’给我一个支点，我可以把地球撬起来‘’。\n\n今天某企业对投资者说，‘’支持我一下，让我再亏 2800亿美元，我四年后可以扭亏为盈。‘’ 这个不到一万员工的企业的亏损速度，已经超过世界第三大经济体，有八千万人口的德国的年度财政赤字的 40%了。\n\n以后可以把这类融资话术叫做",
+      "datetime": "2026-09-20T20:45:24.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2101774749554839771",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2101496713144046032",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "吾日三省吾身：\n\n我是否把自己置于一个可以大展拳脚的，由幂定律主导的环境？\n\n我是否让自己离那些重要的肥尾更近 ？\n\n我是否提高了自己受益于极端好结果的概率， 即使表面上还没有什么东西浮现？",
+      "datetime": "2026-09-20T02:20:34.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2101496713144046032",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2101478423164244183",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "在幂定律主导的世界，早期要耐心，在临界点附近要极为果断，大局已定后要非常现实 （不要让虚荣心，偏见或者沉没成本影响选择）",
+      "datetime": "2026-09-20T01:07:54.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2101478423164244183",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2101134332723343697",
+      "handle": "Svwang1",
+      "display": "硅谷王川 Chuan",
+      "text": "Worldcom 说那话的老哥 （实际上原来就职于 Uunet, 后来被 worldcom 收购）几年后因肾癌去世，只有 52岁。",
+      "datetime": "2026-09-19T02:20:36.000Z",
+      "statusUrl": "https://x.com/Svwang1/status/2101134332723343697",
+      "isReply": false,
+      "source_profile": "Svwang1"
+    },
+    {
+      "id": "2104268244949610942",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "联邦调查局突袭派对。一场绝望的逃亡变成了一场不可能的营救，然后镜头拉远，整个城市呈现出截然不同的意义。  \n一部关于失控、尺度变化，以及幕后操纵者的人工智能短片。",
+      "datetime": "2026-09-27T17:53:39.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2104268244949610942",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2103914176045359602",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "Wan 3 Prime Prompt Share \n\n罗马斗兽场、特拉斯提弗列街头、冰激凌，以及罗马上空的黄金时段。一段 15 秒的 AI 生成的意大利旅行日记。\n我们接下来该去哪里？",
+      "datetime": "2026-09-26T18:26:43.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2103914176045359602",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2103914178452824488",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "Prompt : Ultra-realistic cinematic travel vlog montage based on the reference collage. Preserve the same young adult female hijabi travel vlogger’s facial identity throughout. She explores Rome wearing a flowing black hijab, securely wrapped and clearly visible in every shot,",
+      "datetime": "2026-09-26T18:26:43.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2103914178452824488",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2103552010331279396",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "娜塔莎·罗曼诺夫 vs 叶莲娜·贝洛娃。\n两位前红房特工。一座直升机停机坪。零冷静。\n\n没人赢。也没人结束。\n\nMidjourney 8.2 x Seedance 2.5",
+      "datetime": "2026-09-25T18:27:36.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2103552010331279396",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2103552900043563133",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "Seedance 2.5 Prompt : \n[Generation Goal]\nGenerate a two-person duel on a rooftop helicopter pad of a skyscraper on a rainy night. A red-haired female operative in black and a blonde female swordswoman in white are each introduced with a facial close-up, then face off across the",
+      "datetime": "2026-09-25T18:31:08.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2103552900043563133",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2102851734833905966",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "Beneath Atlantis, Ocean King faces a charging Leviathan. It stops at his trident, lowers its head, and carries him through the lost city to the surface. \n\nVisual references created with GPT Image 2.5.\nMade with Seedance 2.5 on \n@Flovaai\n\n#Flovaai #Flovacpp",
+      "datetime": "2026-09-23T20:04:57.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2102851734833905966",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2102464696658133359",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "Midjourney v8.2 x GPT Image 2.5 x Seedance 2.5\n\n一个古老的精灵山谷，一只狂怒的野兽，以及一箭求生。\n\n水面倒影中瞥见的一个威胁，变成了一场绝望的追逐。\n\n提示词在帖子中。",
+      "datetime": "2026-09-22T18:27:00.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2102464696658133359",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2102464701221228649",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "[生成目标]\n\n创作一段空间连续、动作迅猛的奇幻追逐场景。\n\n精灵弓箭手在巨树环绕的精灵峡谷中，通过近岸水面的倒影发现身后的巨兽。他明显受到惊吓，立即沿浅水岸线全力逃跑。暴怒的巨兽冲出根群，以沉重而迅猛的连续冲刺追赶，迅速缩短距离。",
+      "datetime": "2026-09-22T18:27:01.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2102464701221228649",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2101317952087736645",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "一种新的猫科物种被发现了。自然而然地，我让它嗅闻并舔舐相机  \n开启声音以聆听呼噜声。\n\n使用 Seedance 2.5 制作",
+      "datetime": "2026-09-19T14:30:15.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2101317952087736645",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2100670354750365975",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "如果一个孤独的战士在一个受《暗黑破坏神》启发的世界中面对无情的虫群会怎样？\n画风般的奇幻。残酷的战斗。每一次打击都充满重量。\n\n使用 GPT Image 2.5 + Seedance 2.5 创建。",
+      "datetime": "2026-09-17T19:36:55.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2100670354750365975",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2099592259859579136",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "如果《GTA》在伊斯坦布尔发生，大概会是这样的吧。我们抢了箱子，店主追了上来。幸好我们赶上了渡船 \n\n使用 Seedance 2.5 在 \n@Flovaai\n 上制作\n#Flovaai #Flovacpp",
+      "datetime": "2026-09-14T20:12:57.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2099592259859579136",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "2099502144860590522",
+      "handle": "0kncn",
+      "display": "Okan Can",
+      "text": "趁他们还在的时候好好享受吧。罗纳尔多和梅西之后，足球就不会再有同样的感觉了。",
+      "datetime": "2026-09-14T14:14:52.000Z",
+      "statusUrl": "https://x.com/0kncn/status/2099502144860590522",
+      "isReply": false,
+      "source_profile": "0kncn"
+    },
+    {
+      "id": "1760839985715204230",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "哥飞公众号写了225篇教程了，其中220篇都是公开免费可看全文的。\n除了友情转载的两篇，其它全部都是哥飞原创输出。\n教程面向的读者是想要通过做网站出海赚美元的技术、产品、设计和运营人员。\n最好有一定编程基础，当然如果没有也没关系，只要你有毅力先自学前端入个门就行。",
+      "datetime": "2024-02-23T01:32:22.000Z",
+      "statusUrl": "https://x.com/gefei55/status/1760839985715204230",
+      "isReply": false,
+      "source_profile": "gefei55"
+    },
+    {
+      "id": "2104974695829549370",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "我时不时会拿着教群友们找词的方法去找一些词，亲自去做一些站，一是保持手感，二是作为教学素材讲给群友们听。\n\n这个站就是28日晚上23点上线的，然后29日下午流量才慢慢开始起来，主要流量来自于 ChatGPT 和 Google。\n\n刚刚0点过去，新站首日收官，600 个独立访客，产生了 1400 次页面访问，带来了",
+      "datetime": "2026-09-29T16:40:50.000Z",
+      "statusUrl": "https://x.com/gefei55/status/2104974695829549370",
+      "isReply": false,
+      "source_profile": "gefei55"
+    },
+    {
+      "id": "2104867340890652760",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "这篇老文章，推荐给新朋友们阅读",
+      "datetime": "2026-09-29T09:34:15.000Z",
+      "statusUrl": "https://x.com/gefei55/status/2104867340890652760",
+      "isReply": false,
+      "source_profile": "gefei55"
+    },
+    {
+      "id": "2104865171898564976",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "昨天晚上 23 点上了一个站，然后今天下午，ChatGPT 就一直推流量给我。\n我感觉，我已经掌握了 GEO 的秘诀。",
+      "datetime": "2026-09-29T09:25:38.000Z",
+      "statusUrl": "https://x.com/gefei55/status/2104865171898564976",
+      "isReply": false,
+      "source_profile": "gefei55"
+    },
+    {
+      "id": "2104933493750780091",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "这个站，从下午17点到现在，10个订单了。虽然都是单次付费，但至少说明，找对方向了，是用户会付费的需求。",
+      "datetime": "2026-09-29T13:57:07.000Z",
+      "statusUrl": "https://x.com/gefei55/status/2104933493750780091",
+      "isReply": false,
+      "source_profile": "gefei55"
+    },
+    {
+      "id": "2104800679575367899",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "是的，哥飞社群不仅能让你赚钱，还能让你找到男女朋友",
+      "datetime": "2026-09-29T05:09:21.000Z",
+      "statusUrl": "https://x.com/gefei55/status/2104800679575367899",
+      "isReply": false,
+      "source_profile": "gefei55"
+    },
+    {
+      "id": "2104795023648920009",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "是的，很多人看我公众号，就能做出一些成绩了",
+      "datetime": "2026-09-29T04:46:53.000Z",
+      "statusUrl": "https://x.com/gefei55/status/2104795023648920009",
+      "isReply": false,
+      "source_profile": "gefei55"
+    },
+    {
+      "id": "2104780472534622651",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "恭喜出单",
+      "datetime": "2026-09-29T03:49:04.000Z",
+      "statusUrl": "https://x.com/gefei55/status/2104780472534622651",
+      "isReply": false,
+      "source_profile": "gefei55"
+    },
+    {
+      "id": "2104742275486253355",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "恭喜恭喜",
+      "datetime": "2026-09-29T01:17:17.000Z",
+      "statusUrl": "https://x.com/gefei55/status/2104742275486253355",
+      "isReply": false,
+      "source_profile": "gefei55"
+    },
+    {
+      "id": "2104525965397467358",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "我有一个人生原则，不说假话，这点很多人其实做不到。\n\n同事是知道公司情况的，所以我说一些我们内部数据时，我就需要如实说，不可能凭空捏造，不然就可能被戳破谎言。",
+      "datetime": "2026-09-28T10:57:45.000Z",
+      "statusUrl": "https://x.com/gefei55/status/2104525965397467358",
+      "isReply": false,
+      "source_profile": "gefei55"
+    },
+    {
+      "id": "2104526946050998758",
+      "handle": "gefei55",
+      "display": "哥飞",
+      "text": "神秘群友还有更牛的数据，仅靠 Adsense，且没有花钱买流量，也就是不属于流量套利，一个月 Adsense 收入9万刀。\n需要说明的是，他本身是有经验的老站长，以前做的是国内网站。\n这个机会是他进我们群里之后，按照哥飞的方法，找的海外机会做出来的网站。\n所以，你说他的这个成绩算哥飞功劳吗？",
+      "datetime": "2026-09-28T11:01:38.000Z",
+      "statusUrl": "https://x.com/gefei55/status/2104526946050998758",
+      "isReply": false,
+      "source_profile": "gefei55"
+    }
+  ],
+  "source": "following_home+profile_fallback",
+  "profile_counts": {
+    "Khazix0918": 14,
+    "MaxForAI": 14,
+    "xiaohu": 11,
+    "ChineseWSJ": 17,
+    "testingcatalog": 13,
+    "dashiAIxz": 13,
+    "zaobaosg": 16,
+    "nanyuan0412": 13,
+    "Svwang1": 20,
+    "0kncn": 12,
+    "gefei55": 11
+  },
+  "notes": [
+    "home scrape had 40 posts; profile fallback starting",
+    "@Khazix0918: 14 posts visible on profile",
+    "@MaxForAI: 14 posts visible on profile",
+    "@xiaohu: 11 posts visible on profile",
+    "@ChineseWSJ: 17 posts visible on profile",
+    "@testingcatalog: 13 posts visible on profile",
+    "@dashiAIxz: 13 posts visible on profile",
+    "@zaobaosg: 16 posts visible on profile",
+    "@nanyuan0412: 13 posts visible on profile",
+    "@Svwang1: 20 posts visible on profile",
+    "@0kncn: 12 posts visible on profile",
+    "@gefei55: 11 posts visible on profile"
+  ]
+}

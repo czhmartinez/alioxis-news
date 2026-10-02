@@ -1,0 +1,263 @@
+[
+  {
+    "title": "卡兹克 AIHOT 日报（2026-09-11）：DeepSeek V4.1-Flash 与 Agents API 密集上新",
+    "summary": "数字生命卡兹克的 AIHOT 自动生成 9 月 11 日精选日报，覆盖 DeepSeek-V4.1-Flash 发布与降价、OpenAI Agents API 公测与 GPT-Live-1 全双工语音、ChatGPT Work Data agent、Google Pics、Suno v6，以及 Anthropic 蒸馏攻击与滥用处置等热点。",
+    "url": "https://aihot.virxact.com/daily/2026-09-11",
+    "source": "AIHOT（数字生命卡兹克）",
+    "source_handle": "@数字生命卡兹克",
+    "image": "/assets/covers/cover-20260911-ai-00.jpg",
+    "published_at": "2026-09-11T08:00:00+08:00",
+    "tags": [
+      "AIHOT",
+      "日报",
+      "DeepSeek",
+      "Agents"
+    ]
+  },
+  {
+    "title": "DeepSeek 发布 V4.1-Flash：552B MoE、原生多模态，API 同步降价",
+    "summary": "DeepSeek 推出新架构家族中最小尺寸的 V4.1-Flash：552B 参数 MoE，因果 Encoder–Decoder，prefill 约 8B、decode 约 16B 激活，1M 上下文，KV cache 相对上代大幅压缩。API 模型名 deepseek-flash，原生多模态；V4-Pro 将于 9 月 14 日 UTC 04:00 起临时路由至 V4.1-Flash 并按新价计费。权重以 MIT 开源。",
+    "url": "https://www.deepseek.com/en/news/deepseek-v4-1-flash/",
+    "source": "DeepSeek",
+    "source_handle": "@deepseek_ai",
+    "image": "/assets/covers/cover-20260911-ai-01.jpg",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "V4.1-Flash",
+      "模型",
+      "API"
+    ]
+  },
+  {
+    "title": "THE DECODER：V4.1-Flash 瞄准 Agent 长上下文，KV 与输入算力双降",
+    "summary": "报道称 V4.1-Flash 将 GPU 侧 KV 约压至上代 1/4、持久化缓存约 1/8，并通过编码器侧更少激活参数降低输入算力，面向频繁工具调用的 Agent 负载。编码基准接近闭源旗舰，但复杂科学与图像理解仍有差距；权重已上 Hugging Face。",
+    "url": "https://the-decoder.com/new-deepseek-model-v4-1-flash-cuts-memory-needs-for-ai-agents/",
+    "source": "THE DECODER",
+    "source_handle": "@thedecoder",
+    "image": "/assets/covers/cover-20260911-ai-02.jpg",
+    "published_at": "2026-09-10T12:00:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "Agent",
+      "KV cache"
+    ]
+  },
+  {
+    "title": "OpenAI 发布 Agents API 公测：托管 Codex harness 一键起云端 Agent",
+    "summary": "OpenAI 开放 Agents API，把驱动 Codex 的 harness 与基础设施以托管 API 形式提供：会话、编排、上下文压缩与恢复由平台管理，开发者配置模型、工具、MCP 与沙箱环境，可委派子智能体并行执行。文档示例模型为 gpt-6-astra，需 OpenAI-Beta: agents=v1。",
+    "url": "https://developers.openai.com/api/docs/guides/agents-api/overview",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260911-ai-03.jpg",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Agents API",
+      "Codex",
+      "API"
+    ]
+  },
+  {
+    "title": "OpenAI：GPT-Live-1 登陆 API，全双工语音层每分钟 $0.05",
+    "summary": "GPT-Live-1 将 ChatGPT 的全双工自然对话带到 API：同模型听与说、更好打断处理，并可把推理与工具调用委派给 GPT-6 Astra 等后端。相对级联 STT–LLM–TTS 架构简化语音层；语音前端定价 $0.05/分钟，支持电话场景。",
+    "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api/",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260911-ai-04.jpg",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-Live-1",
+      "语音",
+      "API"
+    ]
+  },
+  {
+    "title": "OpenAI 在 ChatGPT Work 推出 Data agent：自然语言连库出仪表盘",
+    "summary": "ChatGPT Work 新增 Data agent，可连接 Redshift、BigQuery、Snowflake、Databricks、ClickHouse、MongoDB 等受管数据源及 Drive/SharePoint 文件，用自然语言分析变化并生成可分享交互仪表盘，也可对接 Tableau、Power BI 等 BI 工具。管理员经 Plugins 目录安装并配置权限。",
+    "url": "https://openai.com/index/put-data-to-work/",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260911-ai-05.jpg",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Data agent",
+      "ChatGPT Work"
+    ]
+  },
+  {
+    "title": "TechCrunch：Anthropic 详述阿里、月之暗面、DeepSeek 等蒸馏攻击",
+    "summary": "Anthropic 报告称近数月遭大规模未授权蒸馏，关联交互近 2 亿次、分属五起活动。最大规模归因阿里、约 1.51 亿次交换用于抽取思维链训练 Qwen；另有活动涉及 Moonshot（Kimi）等。攻击方用翻译等提示绕过「摘要思维」限制以窃取完整 CoT。",
+    "url": "https://techcrunch.com/2026/09/10/anthropic-details-distillation-campaigns-from-alibaba-moonshot-ai-and-deepseek/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20260911-ai-06.jpg",
+    "published_at": "2026-09-10T13:57:00-07:00",
+    "tags": [
+      "Anthropic",
+      "蒸馏",
+      "安全",
+      "Claude"
+    ]
+  },
+  {
+    "title": "CNBC：Anthropic 披露拦截生物武器相关等 AI 滥用",
+    "summary": "Anthropic 第三份滥用报告称已阻断网络攻击、监控与可能导致生物武器研究等恶意活动，包括涉及基孔肯雅病毒增益功能拨款申请的请求；并加强对新一代模型的双用途生物研究限制。报告发布前一日研究员 Jacob Coxon 因超级智能风险辞职并公开警告。",
+    "url": "https://www.cnbc.com/2026/09/10/anthropic-blocked-misuse-of-claude-with-potential-bioweapons-support.html",
+    "source": "CNBC",
+    "source_handle": "@CNBC",
+    "image": "/assets/covers/cover-20260911-ai-07.jpg",
+    "published_at": "2026-09-10T17:33:00-04:00",
+    "tags": [
+      "Anthropic",
+      "安全",
+      "滥用",
+      "生物"
+    ]
+  },
+  {
+    "title": "Google Pics 上线：基于 Nano Banana 的 Workspace 图像创作与精修",
+    "summary": "Google Workspace 推出 Pics（pics.new），面向 AI Pro/Ultra 与多数企业客户：对象分割精修、图内文字编辑与翻译、多人协作、单提示多方案生成，并嵌入 Docs/Slides（Drive 后续）。底层为 Nano Banana 图像生成与编辑模型。",
+    "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+    "source": "Google",
+    "source_handle": "@Google",
+    "image": "/assets/covers/cover-20260911-ai-08.jpg",
+    "published_at": "2026-09-01T00:00:00+08:00",
+    "tags": [
+      "Google",
+      "Pics",
+      "Nano Banana",
+      "图像"
+    ]
+  },
+  {
+    "title": "Variety：Suno 发布标签合作模型 v6，支持图/视频/语音备忘录生曲",
+    "summary": "Suno 推出基于与华纳音乐、BMG、Believe 授权合作的 v6 系列：旗舰 v6（Pro/Premier）支持文本、音频、图像与视频生曲及单句歌词精修；v6-wild 更偏探索；v6-mini 对全用户免费开放。公司称将开启与现有音乐生态的分成模式。",
+    "url": "https://variety.com/2026/music/news/suno-new-label-backed-model-v6-1236855351/",
+    "source": "Variety",
+    "source_handle": "@Variety",
+    "image": "/assets/covers/cover-20260911-ai-09.jpg",
+    "published_at": "2026-09-09T00:00:00+08:00",
+    "tags": [
+      "Suno",
+      "v6",
+      "音乐",
+      "多模态"
+    ]
+  },
+  {
+    "title": "DeepSeek API 文档：V4.1-Flash 上线，WorkBuddy/OpenCode 已适配",
+    "summary": "官方 API 更新确认 deepseek-flash 可用，旧 deepseek-v4-flash / vision-exp 临时路由到 V4.1-Flash；称多方测试 V4.1-Flash 在性能、成本、速度与总耗时上优于 V4-Pro，后者将有序退役。合作伙伴 WorkBuddy（含 CodeBuddy）与 OpenCode 已支持。",
+    "url": "https://api-docs.deepseek.com/news/news260910",
+    "source": "DeepSeek API Docs",
+    "source_handle": "@deepseek_ai",
+    "image": "/assets/covers/cover-20260911-ai-10.jpg",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "API",
+      "WorkBuddy"
+    ]
+  },
+  {
+    "title": "Hugging Face：DeepSeek-V4.1-Flash 权重与技术报告开源",
+    "summary": "deepseek-ai/DeepSeek-V4.1-Flash 仓库公开模型卡与技术报告：CED 架构、可控推理力度（1–100）、大规模 Agent 任务合成与 RL，并附 deepseek-recipe 工具包以对齐 Messages/Chat Completions/Responses 提示格式。",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+    "source": "Hugging Face",
+    "source_handle": "@HuggingFace",
+    "image": "/assets/covers/cover-20260911-ai-11.jpg",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "Hugging Face",
+      "DeepSeek",
+      "开源"
+    ]
+  },
+  {
+    "title": "ClickHouse：成为 ChatGPT Work Data agent 启动合作伙伴",
+    "summary": "ClickHouse 宣布作为 Data agent 启动伙伴，插件打包 Remote MCP 与 Agent Skills，经 OAuth 连接 ClickHouse Cloud，只读查询并在 ChatGPT Work 中生成报告与仪表盘；同时出现在 ChatGPT 与 Codex 共享插件目录。",
+    "url": "https://clickhouse.com/blog/chatgpt-data-plugin",
+    "source": "ClickHouse",
+    "source_handle": "@ClickHouseDB",
+    "image": "/assets/covers/cover-20260911-ai-12.jpg",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "ClickHouse",
+      "Data agent",
+      "MCP"
+    ]
+  },
+  {
+    "title": "POLITICO：Anthropic 称中俄等地行为体已在武器化 Claude",
+    "summary": "报道援引 Anthropic 长文：过去约八个月，受限地区行为体通过虚假账户绕过管控，用 Claude 自动化网络攻击、军事硬件设计、规模化宣传与数字监控；公司称已逐案处置并通报政府与业界。",
+    "url": "https://www.politico.com/news/2026/09/10/bad-actors-china-russia-weaponizing-anthropic-01070435",
+    "source": "POLITICO",
+    "source_handle": "@politico",
+    "image": "/assets/covers/cover-20260911-ai-13.jpg",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "安全",
+      "滥用"
+    ]
+  },
+  {
+    "title": "Cursor 文档：Subagents 与编排模式，支持嵌套与并行委派",
+    "summary": "Cursor 官方文档介绍 Subagents：独立上下文窗口的专用助手，可由主 Agent 委派并行工作；支持项目级/用户级自定义，以及自 2.5 起的有限嵌套。编排模式可串接规划、实现、验证等角色，适合大型开发与迁移任务。",
+    "url": "https://cursor.com/docs/subagents",
+    "source": "Cursor",
+    "source_handle": "@cursor_ai",
+    "image": "/assets/covers/cover-20260911-ai-14.jpg",
+    "published_at": "2026-09-11T00:00:00+08:00",
+    "tags": [
+      "Cursor",
+      "Subagents",
+      "Agent",
+      "IDE"
+    ]
+  },
+  {
+    "title": "OpenAI Agents API Quickstart：托管沙箱创建会话并流式执行",
+    "summary": "官方快速入门演示用 Agents API 在 OpenAI 托管沙箱中创建会话、提交任务并流式跟踪：创建脚本、运行并返回结果；强调需 api.agents.read/write 与 responses.write 权限，以及 agents=v1 Beta 头。",
+    "url": "https://developers.openai.com/api/docs/guides/agents-api/quickstart",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20260911-ai-15.jpg",
+    "published_at": "2026-09-10T00:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Agents API",
+      "教程"
+    ]
+  },
+  {
+    "title": "XDA：ChatGPT Work Data agent 可用 @data 直连企业数仓提问",
+    "summary": "报道梳理 Data agent 能力：连接 Redshift、BigQuery、Snowflake、Databricks、MongoDB、Datadog、ClickHouse 等，用自然语言做趋势与异常分析并出图；需 ChatGPT Work 并安装 Data 插件后以 @data 调用。",
+    "url": "https://www.xda-developers.com/openai-chatgpt-data-agent-announcement/",
+    "source": "XDA Developers",
+    "source_handle": "@xdadevelopers",
+    "image": "/assets/covers/cover-20260911-ai-16.jpg",
+    "published_at": "2026-09-10T12:12:00-04:00",
+    "tags": [
+      "OpenAI",
+      "Data agent",
+      "企业"
+    ]
+  },
+  {
+    "title": "Pexo 解读：Suno v6 多模态生曲与 v6/v6-wild/v6-mini 三档",
+    "summary": "整理称 Suno v6 于 2026-09-09 起滚动上线，可从文本、音频、图像、视频与语音备忘录生成完整歌曲，并支持精确歌词编辑与采样；三档模型覆盖付费探索与免费 mini，平台同步退役旧模型。",
+    "url": "https://pexo.ai/blog/what-is-suno-v6-5169",
+    "source": "Pexo",
+    "source_handle": "@pexo",
+    "image": "/assets/covers/cover-20260911-ai-17.jpg",
+    "published_at": "2026-09-09T00:00:00+08:00",
+    "tags": [
+      "Suno",
+      "v6",
+      "多模态"
+    ]
+  }
+]
