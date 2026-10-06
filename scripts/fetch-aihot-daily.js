@@ -50,6 +50,29 @@ function getJson(url) {
   });
 }
 
+
+/** AIHOT API may return { report, schemaVersion } or a flat daily object. */
+function unwrapDaily(payload) {
+  if (!payload || typeof payload !== "object") return payload;
+  if (
+    payload.report &&
+    typeof payload.report === "object" &&
+    !Array.isArray(payload.report)
+  ) {
+    const daily = { ...payload.report };
+    // Keep attribution / canonical from outer envelope if present and missing inside.
+    if (payload.attribution && !daily.attribution) {
+      daily.attribution = payload.attribution;
+    }
+    if (payload.canonical && !(daily.attribution && daily.attribution.canonical)) {
+      daily.attribution = daily.attribution || {};
+      if (!daily.attribution.canonical) daily.attribution.canonical = payload.canonical;
+    }
+    return daily;
+  }
+  return payload;
+}
+
 async function main() {
   const date = process.argv[2] || todayTaipei();
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
@@ -74,6 +97,11 @@ async function main() {
     daily = await getJson(`https://aihot.news/api/v1/dailies/${d}`);
   }
 
+  daily = unwrapDaily(daily);
+  if (!daily || (!daily.date && !daily.lead && !(daily.sections && daily.sections.length))) {
+    throw new Error("unexpected AIHOT daily shape (no date/lead/sections after unwrap)");
+  }
+
   const out = path.join(dayDir, "_aihot_daily.json");
   fs.writeFileSync(out, JSON.stringify(daily, null, 2), "utf8");
   console.log("wrote", out);
@@ -81,6 +109,13 @@ async function main() {
     "lead:",
     (daily.lead && (daily.lead.title || daily.lead.leadTitle)) || "(none)"
   );
+  if (daily.attribution) {
+    console.log(
+      "attribution:",
+      daily.attribution.name || "",
+      daily.attribution.url || daily.attribution.canonical || ""
+    );
+  }
 }
 
 main().catch((e) => {

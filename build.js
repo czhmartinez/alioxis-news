@@ -42,7 +42,20 @@ function readJsonArray(filePath) {
 
 function loadAihotDaily(dayDir) {
   const raw = readJson(path.join(dayDir, "_aihot_daily.json"));
-  return raw && typeof raw === "object" ? raw : null;
+  if (!raw || typeof raw !== "object") return null;
+  // Accept wrapped API shape { report, schemaVersion } or flat daily.
+  if (
+    raw.report &&
+    typeof raw.report === "object" &&
+    !Array.isArray(raw.report) &&
+    !raw.lead &&
+    !raw.sections
+  ) {
+    const daily = { ...raw.report };
+    if (raw.attribution && !daily.attribution) daily.attribution = raw.attribution;
+    return daily;
+  }
+  return raw;
 }
 
 function normalizeTitle(t) {
