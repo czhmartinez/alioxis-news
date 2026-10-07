@@ -40,10 +40,78 @@ function readJsonArray(filePath) {
   return Array.isArray(parsed) ? parsed : [];
 }
 
+function aihotSourceName(it) {
+  if (!it || typeof it !== "object") return "";
+  if (typeof it.sourceName === "string" && it.sourceName) return it.sourceName;
+  if (typeof it.source === "string" && it.source) return it.source;
+  if (it.source && typeof it.source === "object") {
+    if (typeof it.source.name === "string" && it.source.name) return it.source.name;
+    if (typeof it.source.title === "string" && it.source.title) return it.source.title;
+  }
+  if (it.attribution && typeof it.attribution.name === "string" && it.attribution.name) {
+    // Prefer original publisher over "AIHOT" attribution brand when possible
+    if (it.attribution.name !== "AIHOT") return it.attribution.name;
+  }
+  return "";
+}
+
+function aihotOriginalUrl(it) {
+  if (!it || typeof it !== "object") return "";
+  const nested =
+    (it.links && (it.links.original || it.links.url || it.links.href)) ||
+    (it.attribution && it.attribution.original) ||
+    "";
+  const flat = it.sourceUrl || it.url || it.link || it.href || "";
+  return String(nested || flat || "").trim();
+}
+
+function aihotPermalink(it) {
+  if (!it || typeof it !== "object") return "";
+  const nested =
+    (it.links && (it.links.aihot || it.links.permalink || it.links.canonical)) ||
+    (it.attribution && (it.attribution.canonical || it.attribution.url)) ||
+    "";
+  const flat = it.permalink || it.aihotUrl || "";
+  return String(nested || flat || "").trim();
+}
+
+/** Flatten nested AIHOT item fields so cover match / render can use either shape. */
+function normalizeAihotItem(it) {
+  if (!it || typeof it !== "object") return it;
+  const sourceName = aihotSourceName(it);
+  const sourceUrl = aihotOriginalUrl(it);
+  const permalink = aihotPermalink(it);
+  return {
+    ...it,
+    sourceName: sourceName || it.sourceName,
+    sourceUrl: sourceUrl || it.sourceUrl,
+    url: sourceUrl || it.url,
+    permalink: permalink || it.permalink,
+    // Keep string source for searchAttr / escapeHtml callers that still read it.source
+    source: sourceName || (typeof it.source === "string" ? it.source : sourceName),
+  };
+}
+
+function normalizeAihotDaily(daily) {
+  if (!daily || typeof daily !== "object") return daily;
+  const out = { ...daily };
+  if (Array.isArray(out.sections)) {
+    out.sections = out.sections.map((s) => ({
+      ...s,
+      items: Array.isArray(s.items) ? s.items.map(normalizeAihotItem) : s.items,
+    }));
+  }
+  if (Array.isArray(out.flashes)) {
+    out.flashes = out.flashes.map(normalizeAihotItem);
+  }
+  return out;
+}
+
 function loadAihotDaily(dayDir) {
   const raw = readJson(path.join(dayDir, "_aihot_daily.json"));
   if (!raw || typeof raw !== "object") return null;
   // Accept wrapped API shape { report, schemaVersion } or flat daily.
+  let daily = raw;
   if (
     raw.report &&
     typeof raw.report === "object" &&
@@ -51,11 +119,10 @@ function loadAihotDaily(dayDir) {
     !raw.lead &&
     !raw.sections
   ) {
-    const daily = { ...raw.report };
+    daily = { ...raw.report };
     if (raw.attribution && !daily.attribution) daily.attribution = raw.attribution;
-    return daily;
   }
-  return raw;
+  return normalizeAihotDaily(daily);
 }
 
 function normalizeTitle(t) {
@@ -64,7 +131,72 @@ function normalizeTitle(t) {
     .replace(/[\s\u3000]+/g, "")
     .replace(/[“”"'‘’«»]/g, "")
     .replace(/[：:].*$/, "")
-    .slice(0, 28);
+    .slice(0, 40);
+}
+
+/** Significant tokens for fuzzy cover matching (latin words, versions, CJK bigrams+). */
+function significantTokens(t) {
+  const s = String(t || "").toLowerCase();
+  const out = [];
+  const seen = new Set();
+  const push = (tok) => {
+    const x = String(tok || "")
+      .replace(/[^a-z0-9.\u4e00-\u9fff]+/gi, "")
+      .toLowerCase();
+    if (x.length < 2) return;
+    // skip ultra-common noise
+    if (
+      /^(the|and|for|with|from|https|http|www|com|org|html|发布|正式|更新|停用|旧版|网页|文章)$/.test(
+        x
+      )
+    )
+      return;
+    if (seen.has(x)) return;
+    seen.add(x);
+    out.push(x);
+  };
+  for (const m of s.match(/[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*|\d+(?:\.\d+)+/gi) || []) {
+    push(m);
+  }
+  // CJK runs of 2+ chars as whole + overlapping bigrams for short phrases
+  for (const m of s.match(/[\u4e00-\u9fff]{2,}/g) || []) {
+    if (m.length <= 6) push(m);
+    else {
+      for (let i = 0; i + 2 <= Math.min(m.length, 12); i += 2) push(m.slice(i, i + 2));
+    }
+  }
+  return out;
+}
+
+function titlesFuzzyMatch(a, b) {
+  const ta = significantTokens(a);
+  const tb = significantTokens(b);
+  if (ta.length < 2 || tb.length < 2) return false;
+  const setB = new Set(tb);
+  let hit = 0;
+  for (const t of ta) if (setB.has(t)) hit++;
+  // Prefer distinctive multi-token overlap (e.g. nano + banana + 2.1)
+  const need = Math.min(3, Math.max(2, Math.ceil(Math.min(ta.length, tb.length) * 0.45)));
+  if (hit >= need) return true;
+  // Phrase containment after stripping punctuation/spaces
+  const compact = (x) =>
+    String(x || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9\u4e00-\u9fff]+/g, "");
+  const ca = compact(a);
+  const cb = compact(b);
+  if (ca.length >= 10 && cb.length >= 10) {
+    // look for longest shared significant phrase piece like "nanobanana21"
+    for (const t of ta) {
+      if (t.length >= 4 && cb.includes(t) && ca.includes(t)) {
+        // require a second distinctive token too
+        for (const t2 of ta) {
+          if (t2 !== t && t2.length >= 2 && cb.includes(t2)) return true;
+        }
+      }
+    }
+  }
+  return false;
 }
 
 function aihotTitleKeys(daily) {
@@ -206,15 +338,23 @@ function buildCoverIndex(days, aroundDate) {
       : days.slice(Math.max(0, idx - 1), Math.min(days.length, idx + 4));
   const byNorm = new Map();
   const byUrl = new Map();
+  const byTitle = new Map(); // normKey → original title (for fuzzy)
   for (const d of window) {
     for (const it of [...(d.aiRaw || d.aiItems || []), ...(d.vItems || [])]) {
       if (!it || !it.image) continue;
       const n = normalizeTitle(it.title);
-      if (n.length >= 8 && !byNorm.has(n)) byNorm.set(n, it.image);
-      if (it.url) byUrl.set(String(it.url).replace(/\/$/, ""), it.image);
+      if (n.length >= 8 && !byNorm.has(n)) {
+        byNorm.set(n, it.image);
+        byTitle.set(n, it.title || "");
+      }
+      if (it.url) {
+        const u = String(it.url).replace(/\/$/, "");
+        byUrl.set(u, it.image);
+        byUrl.set(u.split("#")[0], it.image);
+      }
     }
   }
-  return { byNorm, byUrl };
+  return { byNorm, byUrl, byTitle };
 }
 
 function matchCover(item, coverIndex) {
@@ -222,19 +362,47 @@ function matchCover(item, coverIndex) {
   if (item.image) return item.image;
   if (item.cover) return item.cover;
   if (item.ogImage) return item.ogImage;
-  const srcUrl = (item.sourceUrl || item.url || "").replace(/\/$/, "");
-  if (srcUrl && coverIndex.byUrl.has(srcUrl)) return coverIndex.byUrl.get(srcUrl);
+  const candidates = [
+    aihotOriginalUrl(item),
+    item.sourceUrl,
+    item.url,
+    item.link,
+    item.links && item.links.original,
+    item.attribution && item.attribution.url,
+  ]
+    .filter(Boolean)
+    .map((u) => String(u).replace(/\/$/, ""));
+  for (const srcUrl of candidates) {
+    if (coverIndex.byUrl.has(srcUrl)) return coverIndex.byUrl.get(srcUrl);
+    // strip hash for changelog-style URLs that may differ only by fragment
+    const noHash = srcUrl.split("#")[0];
+    if (noHash !== srcUrl && coverIndex.byUrl.has(noHash)) return coverIndex.byUrl.get(noHash);
+    for (const [u, img] of coverIndex.byUrl) {
+      if (u.split("#")[0] === noHash) return img;
+    }
+  }
   const n = normalizeTitle(item.title);
   if (n.length < 8) return "";
   if (coverIndex.byNorm.has(n)) return coverIndex.byNorm.get(n);
   for (const [k, img] of coverIndex.byNorm) {
-    if (n.includes(k.slice(0, 12)) || k.includes(n.slice(0, 12))) return img;
+    if (n.includes(k.slice(0, 14)) || k.includes(n.slice(0, 14))) return img;
+  }
+  // Fuzzy: significant token overlap (Nano Banana 2.1 across divergent titles)
+  for (const [k, img] of coverIndex.byNorm) {
+    // byNorm keys are already normalized; recover via titleTokens map if present
+    if (coverIndex.byTitle && coverIndex.byTitle.has(k)) {
+      if (titlesFuzzyMatch(item.title, coverIndex.byTitle.get(k))) return img;
+    } else if (titlesFuzzyMatch(item.title, k)) {
+      return img;
+    }
   }
   return "";
 }
 
 function aihotItemHref(it, fallback) {
   return (
+    aihotOriginalUrl(it) ||
+    aihotPermalink(it) ||
     it.sourceUrl ||
     it.url ||
     it.link ||
@@ -341,12 +509,11 @@ function renderVCard(item) {
 
 function renderAihotCard(it, coverIndex, canonical, idx) {
   const href = escapeHtml(aihotItemHref(it, canonical));
-  const aihotHref = escapeHtml(
-    (it.attribution && it.attribution.canonical) || it.permalink || canonical
-  );
+  const aihotHref = escapeHtml(aihotPermalink(it) || canonical);
   const title = escapeHtml(it.title || "无标题");
   const summary = escapeHtml(it.summary || "");
-  const src = escapeHtml(it.sourceName || it.source || "");
+  const srcName = aihotSourceName(it);
+  const src = escapeHtml(srcName);
   const cover = matchCover(it, coverIndex);
   const media = cover
     ? `<div class="aihot-card-media"><img src="${escapeHtml(cover)}" alt="" loading="lazy" decoding="async" /></div>`
@@ -354,7 +521,7 @@ function renderAihotCard(it, coverIndex, canonical, idx) {
   const delay = ((idx % 8) * 0.04).toFixed(2);
 
   return `
-<article class="aihot-card mirror-card" style="--mirror-i:${idx}; --mirror-delay:${delay}s" data-search="${searchAttr([it.title, it.summary, it.sourceName])}">
+<article class="aihot-card mirror-card" style="--mirror-i:${idx}; --mirror-delay:${delay}s" data-search="${searchAttr([it.title, it.summary, srcName])}">
   <div class="mirror-frame" aria-hidden="true"></div>
   <a class="aihot-card-link" href="${href}" target="_blank" rel="noopener noreferrer">
     ${media}
@@ -424,7 +591,7 @@ function renderAihotPanel(daily, coverIndex) {
       return `<li class="aihot-flash-row">
   <a href="${href}" target="_blank" rel="noopener noreferrer">
     <span class="flash-title">${escapeHtml(f.title || "")}</span>
-    <span class="flash-src">${escapeHtml(f.sourceName || "")}</span>
+    <span class="flash-src">${escapeHtml(aihotSourceName(f))}</span>
   </a>
 </li>`;
     })
@@ -879,7 +1046,7 @@ function renderPage({
   const emptyV = `<div class="empty-state"><p>暂无关注流内容</p></div>`;
   const aiCards = aiItems.length ? aiItems.map(renderAiCard).join("\n") : emptyAi;
   const vCards = vItems.length ? vItems.map(renderVCard).join("\n") : emptyV;
-  const aihotHtml = renderAihotPanel(aihotDaily, coverIndex || { byNorm: new Map(), byUrl: new Map() });
+  const aihotHtml = renderAihotPanel(aihotDaily, coverIndex || { byNorm: new Map(), byUrl: new Map(), byTitle: new Map() });
   const weeklyHtml = renderWeeklyPanel(weekly || []);
   const sparkDates = (days || []).slice(0, 14).map((d) => d.date).reverse();
   const creatorsHtml = renderCreatorsPanel(creators || [], sparkDates);
