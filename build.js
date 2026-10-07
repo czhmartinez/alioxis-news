@@ -126,15 +126,36 @@ function loadAihotDaily(dayDir) {
 }
 
 function normalizeTitle(t) {
-  return String(t || "")
+  let s = String(t || "")
     .toLowerCase()
     .replace(/[\s\u3000]+/g, "")
-    .replace(/[“”"'‘’«»]/g, "")
-    .replace(/[：:].*$/, "")
-    .slice(0, 40);
+    .replace(/[“”"'‘’«»]/g, "");
+  // Soft colon truncate: keep right side when it holds model/version/key tokens
+  // (e.g. "… CVP：分防御…" or "Title: ModelName 2.1 …")
+  const colon = s.search(/[：:]/);
+  if (colon >= 0) {
+    const left = s.slice(0, colon);
+    const right = s.slice(colon + 1);
+    const rightHasKey =
+      /[a-z]{2,}\d|\d+\.\d+|claude|gpt|gemini|mistral|llama|banana|embedding|mythos|vicuna|deepseek/i.test(
+        right
+      ) || /[\u4e00-\u9fff]{4,}/.test(right);
+    if (left.length >= 16 && !(rightHasKey && left.length < 28)) {
+      s = left;
+    } else if (left.length >= 8 && !rightHasKey) {
+      s = left;
+    } else {
+      s = left + right;
+    }
+  }
+  return s.slice(0, 56);
 }
 
-/** Significant tokens for fuzzy cover matching (latin words, versions, CJK bigrams+). */
+/** High-value entity / brand / model tokens — a single shared hit is strong signal. */
+const ENTITY_TOKEN_RE =
+  /^(anthropic|openai|google|deepmind|gemini|mistral|meta|microsoft|amazon|aws|apple|nvidia|xai|grok|claude|chatgpt|gpt|llama|vicuna|lmsys|deepseek|qwen|kimi|glm|banana|nanobanana|embeddinggemma|mythos|openrouter|huggingface|a16z|semianalysis|barclays|lambda|akamai|together|baseten|cursor|codex|alexa)$/;
+
+/** Significant tokens for fuzzy cover matching (latin, versions, amounts, CJK ≥4). */
 function significantTokens(t) {
   const s = String(t || "").toLowerCase();
   const out = [];
@@ -144,9 +165,8 @@ function significantTokens(t) {
       .replace(/[^a-z0-9.\u4e00-\u9fff]+/gi, "")
       .toLowerCase();
     if (x.length < 2) return;
-    // skip ultra-common noise
     if (
-      /^(the|and|for|with|from|https|http|www|com|org|html|发布|正式|更新|停用|旧版|网页|文章)$/.test(
+      /^(the|and|for|with|from|https|http|www|com|org|html|blog|news|status|发布|正式|更新|停用|旧版|网页|文章|报道|据报|推出|开启|上线|公测|扩展|解读|两份|使用|用户|模型|参数)$/.test(
         x
       )
     )
@@ -155,17 +175,85 @@ function significantTokens(t) {
     seen.add(x);
     out.push(x);
   };
+  // Latin words / dotted versions (gpt-4, 2.1)
   for (const m of s.match(/[a-z][a-z0-9]*(?:[.-][a-z0-9]+)*|\d+(?:\.\d+)+/gi) || []) {
     push(m);
   }
-  // CJK runs of 2+ chars as whole + overlapping bigrams for short phrases
+  // Plain integers ≥3 digits (5180, 4137, 800) and $-style amounts
+  for (const m of s.match(/\d{3,}/g) || []) push(m);
+  for (const m of s.match(/\$\d+(?:\.\d+)?[kmb]?/gi) || []) {
+    push(m.replace(/[^a-z0-9]/gi, ""));
+  }
+  // Chinese amount phrases: 5180亿美元 / 800亿元 / 350亿
+  for (const m of s.match(/\d+(?:\.\d+)?(?:多)?(?:亿|万)?(?:美元|美金|元|人民币)?/g) || []) {
+    if (/\d/.test(m) && m.length >= 3) push(m.replace(/[^0-9.\u4e00-\u9fff]/g, ""));
+  }
+  // CJK: keep short runs whole; emit 4-char phrases + bigrams for longer runs
   for (const m of s.match(/[\u4e00-\u9fff]{2,}/g) || []) {
-    if (m.length <= 6) push(m);
-    else {
-      for (let i = 0; i + 2 <= Math.min(m.length, 12); i += 2) push(m.slice(i, i + 2));
+    if (m.length <= 8) push(m);
+    if (m.length >= 4) {
+      for (let i = 0; i + 4 <= Math.min(m.length, 20); i++) push(m.slice(i, i + 4));
+    }
+    if (m.length > 6) {
+      for (let i = 0; i + 2 <= Math.min(m.length, 16); i += 2) push(m.slice(i, i + 2));
     }
   }
   return out;
+}
+
+function entityStem(tok) {
+  let x = String(tok || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  if (!x) return "";
+  // Strip trailing version/size suffixes: llama13b → llama, gpt4 → gpt, claude4 → claude
+  x = x.replace(/\d+(?:\.\d+)?[bmk]?$/i, "");
+  // Compound product stems
+  const stems = [
+    "nanobanana",
+    "banana",
+    "anthropic",
+    "openai",
+    "openrouter",
+    "deepseek",
+    "deepmind",
+    "embeddinggemma",
+    "embedding",
+    "llamaindex",
+    "llamacpp",
+    "llama",
+    "vicuna",
+    "mistral",
+    "claude",
+    "gemini",
+    "chatgpt",
+    "mythos",
+    "lmsys",
+    "huggingface",
+    "semianalysis",
+    "a16z",
+    "nvidia",
+    "microsoft",
+    "google",
+    "meta",
+  ];
+  for (const s of stems) {
+    if (x === s || x.startsWith(s) || s.startsWith(x) && x.length >= 4) return s === "llamacpp" || s === "llamaindex" ? "llama" : s;
+  }
+  return x;
+}
+
+function isEntityToken(tok) {
+  const x = String(tok || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  if (!x || x.length < 3) return false;
+  if (ENTITY_TOKEN_RE.test(x)) return true;
+  const stem = entityStem(x);
+  if (stem && ENTITY_TOKEN_RE.test(stem)) return true;
+  if (/^(nano)?banana|claude|gemini|mistral|deepseek|embedding|mythos|vicuna|llama|openrouter|anthropic|openai|lmsys/.test(x))
+    return true;
+  return false;
+}
+
+function isAmountToken(tok) {
+  return /\d{3,}/.test(tok) || /亿|万美元|美元|\$/.test(tok);
 }
 
 function titlesFuzzyMatch(a, b) {
@@ -173,10 +261,21 @@ function titlesFuzzyMatch(a, b) {
   const tb = significantTokens(b);
   if (ta.length < 2 || tb.length < 2) return false;
   const setB = new Set(tb);
-  let hit = 0;
-  for (const t of ta) if (setB.has(t)) hit++;
+  const shared = ta.filter((t) => setB.has(t));
+  let hit = shared.length;
+  const entityHits = shared.filter(isEntityToken);
+  const amountHits = shared.filter(isAmountToken);
+  // Distinctive: shared company/model + another significant token (amount / phrase ≥4)
+  if (entityHits.length >= 1) {
+    const extra = shared.filter(
+      (t) => !entityHits.includes(t) && (t.length >= 4 || isAmountToken(t) || isEntityToken(t))
+    );
+    if (extra.length >= 1) return true;
+  }
+  // Two+ shared CJK phrases of length ≥4
+  if (shared.filter((t) => /[\u4e00-\u9fff]/.test(t) && t.length >= 4).length >= 2) return true;
   // Prefer distinctive multi-token overlap (e.g. nano + banana + 2.1)
-  const need = Math.min(3, Math.max(2, Math.ceil(Math.min(ta.length, tb.length) * 0.45)));
+  const need = Math.min(3, Math.max(2, Math.ceil(Math.min(ta.length, tb.length) * 0.4)));
   if (hit >= need) return true;
   // Phrase containment after stripping punctuation/spaces
   const compact = (x) =>
@@ -186,10 +285,8 @@ function titlesFuzzyMatch(a, b) {
   const ca = compact(a);
   const cb = compact(b);
   if (ca.length >= 10 && cb.length >= 10) {
-    // look for longest shared significant phrase piece like "nanobanana21"
     for (const t of ta) {
       if (t.length >= 4 && cb.includes(t) && ca.includes(t)) {
-        // require a second distinctive token too
         for (const t2 of ta) {
           if (t2 !== t && t2.length >= 2 && cb.includes(t2)) return true;
         }
@@ -197,6 +294,25 @@ function titlesFuzzyMatch(a, b) {
     }
   }
   return false;
+}
+
+/** Score overlap for best-of cover picking when exact/fuzzy fail. */
+function titleOverlapScore(a, b) {
+  const ta = significantTokens(a);
+  const tb = significantTokens(b);
+  if (!ta.length || !tb.length) return 0;
+  const setB = new Set(tb);
+  let score = 0;
+  const shared = [];
+  for (const t of ta) {
+    if (!setB.has(t)) continue;
+    shared.push(t);
+    if (isEntityToken(t)) score += 5;
+    else if (isAmountToken(t)) score += 3;
+    else if (t.length >= 4) score += 2;
+    else score += 1;
+  }
+  return score;
 }
 
 function aihotTitleKeys(daily) {
@@ -329,39 +445,92 @@ function searchAttr(parts) {
   return escapeHtml(parts.filter(Boolean).join(" "));
 }
 
-/** Build title→image map from nearby days' ai.json (+ v.json) for AIHOT covers */
+/** Normalize URL for cover index: trim slash, drop hash + common tracking query. */
+function normalizeCoverUrl(u) {
+  try {
+    const raw = String(u || "").trim();
+    if (!raw) return "";
+    const noHash = raw.split("#")[0];
+    let parsed;
+    try {
+      parsed = new URL(noHash);
+    } catch {
+      return noHash.replace(/\/$/, "");
+    }
+    // Drop tracking params but keep meaningful path
+    ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "s", "ref"].forEach(
+      (k) => parsed.searchParams.delete(k)
+    );
+    const q = parsed.searchParams.toString();
+    const path = parsed.pathname.replace(/\/$/, "") || "";
+    return `${parsed.protocol}//${parsed.host}${path}${q ? "?" + q : ""}`;
+  } catch {
+    return String(u || "").split("#")[0].replace(/\/$/, "");
+  }
+}
+
+function coverUrlHostPath(u) {
+  try {
+    const parsed = new URL(String(u || "").trim());
+    return `${parsed.host}${parsed.pathname.replace(/\/$/, "")}`.toLowerCase();
+  } catch {
+    return "";
+  }
+}
+
+/**
+ * Build title/url→image map from ALL days' ai.json (+ v.json).
+ * Nearer days win when the same key appears (stable insert order).
+ */
 function buildCoverIndex(days, aroundDate) {
   const idx = days.findIndex((d) => d.date === aroundDate);
-  const window =
-    idx < 0
-      ? days.slice(0, 5)
-      : days.slice(Math.max(0, idx - 1), Math.min(days.length, idx + 4));
+  // Sort days by distance from aroundDate so nearer covers are inserted first
+  const ordered = days
+    .map((d, i) => ({ d, dist: idx < 0 ? i : Math.abs(i - idx) }))
+    .sort((a, b) => a.dist - b.dist || a.d.date.localeCompare(b.d.date))
+    .map((x) => x.d);
+
   const byNorm = new Map();
   const byUrl = new Map();
+  const byHostPath = new Map();
   const byTitle = new Map(); // normKey → original title (for fuzzy)
-  for (const d of window) {
+  const entries = []; // { title, image, url, date } for scored fallback
+
+  for (const d of ordered) {
     for (const it of [...(d.aiRaw || d.aiItems || []), ...(d.vItems || [])]) {
       if (!it || !it.image) continue;
       const n = normalizeTitle(it.title);
-      if (n.length >= 8 && !byNorm.has(n)) {
+      if (n.length >= 6 && !byNorm.has(n)) {
         byNorm.set(n, it.image);
         byTitle.set(n, it.title || "");
       }
       if (it.url) {
-        const u = String(it.url).replace(/\/$/, "");
-        byUrl.set(u, it.image);
-        byUrl.set(u.split("#")[0], it.image);
+        const full = normalizeCoverUrl(it.url);
+        const noHash = String(it.url).split("#")[0].replace(/\/$/, "");
+        if (full && !byUrl.has(full)) byUrl.set(full, it.image);
+        if (noHash && !byUrl.has(noHash)) byUrl.set(noHash, it.image);
+        // also raw with trailing slash variants
+        byUrl.set(String(it.url).replace(/\/$/, ""), it.image);
+        const hp = coverUrlHostPath(it.url);
+        if (hp && !byHostPath.has(hp)) byHostPath.set(hp, it.image);
       }
+      entries.push({
+        title: it.title || "",
+        image: it.image,
+        url: it.url || "",
+        date: d.date,
+      });
     }
   }
-  return { byNorm, byUrl, byTitle };
+  return { byNorm, byUrl, byHostPath, byTitle, entries };
 }
 
 function matchCover(item, coverIndex) {
-  if (!item) return "";
+  if (!item || !coverIndex) return "";
   if (item.image) return item.image;
   if (item.cover) return item.cover;
   if (item.ogImage) return item.ogImage;
+
   const candidates = [
     aihotOriginalUrl(item),
     item.sourceUrl,
@@ -371,32 +540,127 @@ function matchCover(item, coverIndex) {
     item.attribution && item.attribution.url,
   ]
     .filter(Boolean)
-    .map((u) => String(u).replace(/\/$/, ""));
+    .map((u) => String(u).trim());
+
   for (const srcUrl of candidates) {
-    if (coverIndex.byUrl.has(srcUrl)) return coverIndex.byUrl.get(srcUrl);
-    // strip hash for changelog-style URLs that may differ only by fragment
-    const noHash = srcUrl.split("#")[0];
-    if (noHash !== srcUrl && coverIndex.byUrl.has(noHash)) return coverIndex.byUrl.get(noHash);
+    const variants = [
+      normalizeCoverUrl(srcUrl),
+      srcUrl.replace(/\/$/, ""),
+      srcUrl.split("#")[0].replace(/\/$/, ""),
+    ].filter(Boolean);
+    for (const v of variants) {
+      if (coverIndex.byUrl.has(v)) return coverIndex.byUrl.get(v);
+    }
+    // Any indexed URL that shares host+path (ignore hash/query drift)
+    const hp = coverUrlHostPath(srcUrl);
+    if (hp && coverIndex.byHostPath && coverIndex.byHostPath.has(hp)) {
+      return coverIndex.byHostPath.get(hp);
+    }
     for (const [u, img] of coverIndex.byUrl) {
-      if (u.split("#")[0] === noHash) return img;
+      if (coverUrlHostPath(u) && hp && coverUrlHostPath(u) === hp) return img;
+      if (u.split("#")[0].replace(/\/$/, "") === srcUrl.split("#")[0].replace(/\/$/, "")) {
+        return img;
+      }
     }
   }
+
   const n = normalizeTitle(item.title);
-  if (n.length < 8) return "";
-  if (coverIndex.byNorm.has(n)) return coverIndex.byNorm.get(n);
-  for (const [k, img] of coverIndex.byNorm) {
-    if (n.includes(k.slice(0, 14)) || k.includes(n.slice(0, 14))) return img;
-  }
-  // Fuzzy: significant token overlap (Nano Banana 2.1 across divergent titles)
-  for (const [k, img] of coverIndex.byNorm) {
-    // byNorm keys are already normalized; recover via titleTokens map if present
-    if (coverIndex.byTitle && coverIndex.byTitle.has(k)) {
-      if (titlesFuzzyMatch(item.title, coverIndex.byTitle.get(k))) return img;
-    } else if (titlesFuzzyMatch(item.title, k)) {
-      return img;
+  if (n.length >= 6) {
+    if (coverIndex.byNorm.has(n)) return coverIndex.byNorm.get(n);
+    // Prefix / containment — use longer slice so Chinese titles don't collide on first chars only
+    for (const [k, img] of coverIndex.byNorm) {
+      const a = n.slice(0, Math.min(18, n.length));
+      const b = k.slice(0, Math.min(18, k.length));
+      if (a.length >= 10 && (n.includes(b) || k.includes(a))) return img;
+      if (n.includes(k.slice(0, 14)) || k.includes(n.slice(0, 14))) return img;
     }
   }
+
+  // Fuzzy: significant token overlap (Nano Banana 2.1, company+amount, CJK ≥4)
+  for (const [k, img] of coverIndex.byNorm) {
+    const title = coverIndex.byTitle && coverIndex.byTitle.has(k) ? coverIndex.byTitle.get(k) : k;
+    if (titlesFuzzyMatch(item.title, title)) return img;
+  }
+
+  // Scored best overlap across full index (≥2 significant / entity+extra)
+  if (coverIndex.entries && coverIndex.entries.length) {
+    let best = null;
+    let bestScore = 0;
+    for (const e of coverIndex.entries) {
+      const sc = titleOverlapScore(item.title, e.title);
+      if (sc > bestScore) {
+        bestScore = sc;
+        best = e;
+      }
+    }
+    // entity(5)+something(≥2) or two strong phrases
+    if (best && bestScore >= 7) return best.image;
+  }
+
+  // Last image resort: reuse a cover that shares the same entity/brand token
+  // (deterministic pick among candidates) — prefer real GenerateImage art over letters
+  const entityCover = matchEntityCover(item, coverIndex);
+  if (entityCover) return entityCover;
+
   return "";
+}
+
+/** Deterministic cover reuse when titles share a known entity (Anthropic, Mistral, …). */
+function matchEntityCover(item, coverIndex) {
+  if (!item || !coverIndex || !coverIndex.entries) return "";
+  const tokens = significantTokens(item.title).filter(isEntityToken);
+  if (!tokens.length) return "";
+  const want = new Set(tokens.map((t) => entityStem(t)).filter(Boolean));
+  const pool = [];
+  for (const e of coverIndex.entries) {
+    const et = significantTokens(e.title).filter(isEntityToken);
+    if (et.some((t) => want.has(entityStem(t)))) {
+      pool.push(e);
+    }
+  }
+  if (!pool.length) return "";
+  // Stable pick from title hash so rebuilds don't flicker
+  let h = 0;
+  const s = String(item.title || "");
+  for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) >>> 0;
+  return pool[h % pool.length].image;
+}
+
+/** Keyword chips for styled gradient fallback (letter initials = absolute last resort). */
+function coverKeywordChips(title) {
+  const toks = significantTokens(title);
+  const entities = toks.filter(isEntityToken);
+  const amounts = toks.filter(isAmountToken);
+  const cjk = toks.filter((t) => /[\u4e00-\u9fff]/.test(t) && t.length >= 4);
+  const latin = toks.filter((t) => /^[a-z]/.test(t) && t.length >= 3 && !isEntityToken(t));
+  const chips = [...entities, ...amounts.slice(0, 2), ...cjk.slice(0, 2), ...latin.slice(0, 2)];
+  const seen = new Set();
+  const out = [];
+  for (const c of chips) {
+    const k = c.toLowerCase();
+    if (seen.has(k)) continue;
+    seen.add(k);
+    out.push(c);
+    if (out.length >= 3) break;
+  }
+  if (!out.length) {
+    const init = initials(title || "AI");
+    if (init) out.push(init);
+  }
+  return out;
+}
+
+function renderAihotCoverMedia(item, coverIndex) {
+  const cover = matchCover(item, coverIndex);
+  if (cover) {
+    return `<div class="aihot-card-media"><img src="${escapeHtml(cover)}" alt="" loading="lazy" decoding="async" /></div>`;
+  }
+  const chips = coverKeywordChips(item.title || "");
+  const chipHtml = chips
+    .map((c) => `<span class="aihot-kw">${escapeHtml(String(c).slice(0, 16))}</span>`)
+    .join("");
+  // Styled gradient with story keywords — avoid bare letter initials when possible
+  return `<div class="aihot-card-media"><div class="cover-fallback aihot-fallback aihot-kw-fallback" aria-hidden="true"><div class="aihot-kw-row">${chipHtml}</div></div></div>`;
 }
 
 function aihotItemHref(it, fallback) {
@@ -514,10 +778,7 @@ function renderAihotCard(it, coverIndex, canonical, idx) {
   const summary = escapeHtml(it.summary || "");
   const srcName = aihotSourceName(it);
   const src = escapeHtml(srcName);
-  const cover = matchCover(it, coverIndex);
-  const media = cover
-    ? `<div class="aihot-card-media"><img src="${escapeHtml(cover)}" alt="" loading="lazy" decoding="async" /></div>`
-    : `<div class="aihot-card-media"><div class="cover-fallback aihot-fallback" aria-hidden="true"><span>${escapeHtml(initials(it.title || "AI"))}</span></div></div>`;
+  const media = renderAihotCoverMedia(it, coverIndex);
   const delay = ((idx % 8) * 0.04).toFixed(2);
 
   return `
@@ -1289,6 +1550,40 @@ function pagePayload(day, days, depth, isIndex, aggregates) {
   };
 }
 
+function reportAihotCoverCoverage(days) {
+  let total = 0;
+  let withImg = 0;
+  let entityReuse = 0;
+  let kwFallback = 0;
+  const misses = [];
+  for (const day of days.slice(0, 5)) {
+    if (!day.aihotDaily) continue;
+    const coverIndex = buildCoverIndex(days, day.date);
+    const items = [];
+    for (const s of day.aihotDaily.sections || []) {
+      for (const it of s.items || []) items.push(it);
+    }
+    for (const it of items) {
+      total++;
+      const cover = matchCover(it, coverIndex);
+      if (cover) {
+        withImg++;
+        // Heuristic: entity-only reuse if fuzzy wouldn't have fired without entity pool
+        // (logged lightly — real check is img vs kw)
+      } else {
+        kwFallback++;
+        misses.push({ date: day.date, title: (it.title || "").slice(0, 60) });
+      }
+    }
+  }
+  console.log(
+    `  AIHOT covers (≤5d): ${withImg}/${total} image · ${kwFallback} keyword-gradient (no letter initials)`
+  );
+  for (const m of misses.slice(0, 8)) {
+    console.log(`    · kw-fallback ${m.date}: ${m.title}`);
+  }
+}
+
 function main() {
   cleanDist();
   copyAssets();
@@ -1365,6 +1660,7 @@ function main() {
   console.log(
     `  weekly ${aggregates.weekly.length}d · creators ${aggregates.creators.length} · topics ${aggregates.topics.length} · flash ${aggregates.flashItems.length}`
   );
+  reportAihotCoverCoverage(days);
 }
 
 main();
