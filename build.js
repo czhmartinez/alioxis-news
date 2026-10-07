@@ -495,11 +495,13 @@ function buildCreators(days) {
           tags: new Map(),
           latest: null,
           days: new Set(),
+          byDay: new Map(),
         };
         map.set(key, c);
       }
       c.count++;
       c.days.add(d.date);
+      c.byDay.set(d.date, (c.byDay.get(d.date) || 0) + 1);
       for (const t of it.tags || []) {
         const tk = String(t).trim();
         if (tk) c.tags.set(tk, (c.tags.get(tk) || 0) + 1);
@@ -516,6 +518,7 @@ function buildCreators(days) {
       handle: c.handle,
       count: c.count,
       dayCount: c.days.size,
+      byDay: Object.fromEntries(c.byDay),
       topTags: [...c.tags.entries()]
         .sort((a, b) => b[1] - a[1])
         .slice(0, 4)
@@ -584,6 +587,7 @@ function buildFlash(days, limit = 48) {
         source: it.source,
         url: it.url,
         day: it.day,
+        published_at: it.published_at || "",
         channel: it.channel,
         tags: it.tags || [],
       });
@@ -593,41 +597,70 @@ function buildFlash(days, limit = 48) {
   return items;
 }
 
+function weekdayOf(label) {
+  const parts = String(label || "").split("· ");
+  return parts[1] || "";
+}
+
 function renderWeeklyPanel(weekly) {
   if (!weekly.length) {
     return `<div class="empty-state"><p>暂无周报数据</p></div>`;
   }
   const range = `${weekly[weekly.length - 1].date} → ${weekly[0].date}`;
-  const daysHtml = weekly
+  const totalAi = weekly.reduce((n, d) => n + (d.ai || []).length, 0);
+  const totalV = weekly.reduce((n, d) => n + (d.v || []).length, 0);
+
+  // 头条：最近三天里，每天杂志的第一条（沿用当日编辑顺序）
+  const heads = [];
+  for (const d of weekly) {
+    if (heads.length >= 3) break;
+    const it = (d.ai || [])[0];
+    if (it) heads.push({ ...it, day: d.date });
+  }
+  const lead = heads[0];
+  const subs = heads.slice(1);
+
+  const leadHtml = lead
+    ? `<a class="wk-lead" href="${escapeHtml(lead.url || "#")}" target="_blank" rel="noopener noreferrer" data-search="${searchAttr([lead.title, lead.summary, lead.source])}">
+  ${lead.image ? `<div class="wk-lead-media"><img src="${escapeHtml(lead.image)}" alt="" loading="lazy" decoding="async" /></div>` : ""}
+  <div class="wk-lead-body">
+    <p class="wk-kicker">本周头条 · ${escapeHtml(lead.day)}</p>
+    <h3>${escapeHtml(lead.title || "")}</h3>
+    ${lead.summary ? `<p class="wk-lead-sum">${escapeHtml(lead.summary)}</p>` : ""}
+    <span class="wk-lead-src">${escapeHtml(lead.source || "")} ↗</span>
+  </div>
+</a>`
+    : "";
+
+  const subsHtml = subs.length
+    ? `<div class="wk-subleads">${subs
+        .map(
+          (it) => `<a class="wk-sublead" href="${escapeHtml(it.url || "#")}" target="_blank" rel="noopener noreferrer" data-search="${searchAttr([it.title, it.summary, it.source])}">
+  <p class="wk-kicker">${escapeHtml(it.day)}</p>
+  <h4>${escapeHtml(it.title || "")}</h4>
+  <span class="wk-lead-src">${escapeHtml(it.source || "")} ↗</span>
+</a>`
+        )
+        .join("")}</div>`
+    : "";
+
+  const item = (it, kind) =>
+    `<li class="wk-item" data-kind="${kind}"><a href="${escapeHtml(it.url || "#")}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title || "")}</a><span class="wk-src">${kind === "v" ? "大V · " : ""}${escapeHtml(it.source || "")}</span></li>`;
+
+  const logHtml = weekly
     .map((d) => {
-      const aiBits = (d.ai || [])
-        .slice(0, 4)
-        .map(
-          (it) =>
-            `<li><a href="${escapeHtml(it.url || "#")}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title || "")}</a><span class="wk-src">${escapeHtml(it.source || "")}</span></li>`
-        )
-        .join("");
-      const vBits = (d.v || [])
-        .slice(0, 3)
-        .map(
-          (it) =>
-            `<li><a href="${escapeHtml(it.url || "#")}" target="_blank" rel="noopener noreferrer">${escapeHtml(it.title || "")}</a><span class="wk-src">${escapeHtml(it.source || "")}</span></li>`
-        )
-        .join("");
-      return `<section class="wk-day" data-search="${searchAttr([d.date, d.label])}">
-  <header class="wk-day-head">
-    <h3>${escapeHtml(d.date)}</h3>
-    <p>${escapeHtml(d.label)} · 杂志 ${d.ai.length} · 大V ${d.v.length}${d.aihot ? ` · AIHOT ${d.aihot}` : ""}</p>
-  </header>
-  <div class="wk-cols">
-    <div class="wk-col">
-      <h4>杂志精选</h4>
-      <ul class="wk-list">${aiBits || "<li class=\"muted-note\">无</li>"}</ul>
-    </div>
-    <div class="wk-col wk-col-v">
-      <h4>大V摘录</h4>
-      <ul class="wk-list">${vBits || "<li class=\"muted-note\">无</li>"}</ul>
-    </div>
+      const rows = [
+        ...(d.ai || []).slice(0, 4).map((it) => item(it, "ai")),
+        ...(d.v || []).slice(0, 3).map((it) => item(it, "v")),
+      ].join("");
+      return `<section class="wk-day" data-search="${searchAttr([d.date, d.label, ...(d.ai || []).map((i) => i.title), ...(d.v || []).map((i) => i.title)])}">
+  <div class="wk-day-mark">
+    <span class="wk-day-num">${escapeHtml(d.date.slice(8))}</span>
+    <span class="wk-day-wd">${escapeHtml(weekdayOf(d.label))}</span>
+  </div>
+  <div class="wk-day-main">
+    <p class="wk-day-stat">杂志 ${(d.ai || []).length} · 大V ${(d.v || []).length}${d.aihot ? ` · AIHOT ${d.aihot}` : ""}</p>
+    <ul class="wk-list">${rows || '<li class="muted-note">这一天没有收录</li>'}</ul>
   </div>
 </section>`;
     })
@@ -636,38 +669,57 @@ function renderWeeklyPanel(weekly) {
   return `
 <div class="weekly-panel">
   <header class="mod-hero mod-hero-weekly">
-    <p class="mod-kicker">Weekly digest</p>
-    <h2>近 7 日周报</h2>
-    <p class="mod-sub">${escapeHtml(range)} · 按日回顾杂志与关注流</p>
+    <p class="mod-kicker">Weekly · 本周长文</p>
+    <h2>一周回顾</h2>
+    <p class="mod-sub">${escapeHtml(range)} · 杂志 ${totalAi} 条 · 大V ${totalV} 条，先读头条，再按日翻阅</p>
   </header>
-  <div class="wk-days">${daysHtml}</div>
+  ${leadHtml}
+  ${subsHtml}
+  <div class="wk-log">${logHtml}</div>
 </div>`;
 }
 
-function renderCreatorsPanel(creators) {
+function renderSpark(byDay, dates) {
+  const counts = dates.map((dt) => (byDay && byDay[dt]) || 0);
+  const max = Math.max(1, ...counts);
+  return `<span class="spark" aria-hidden="true">${counts
+    .map(
+      (n) =>
+        `<i class="spark-bar${n ? "" : " z"}" style="height:${n ? Math.round(18 + (n / max) * 82) : 10}%"></i>`
+    )
+    .join("")}</span>`;
+}
+
+function renderCreatorsPanel(creators, sparkDates) {
   if (!creators.length) {
     return `<div class="empty-state"><p>暂无创作者数据</p></div>`;
   }
+  const dates = sparkDates || [];
   const cards = creators
-    .map((c) => {
+    .map((c, i) => {
       const latest = c.latest || {};
       const latestUrl = escapeHtml(latest.url || "#");
       const tags = (c.topTags || [])
+        .slice(0, 3)
         .map((t) => `<span class="creator-tag">${escapeHtml(t)}</span>`)
         .join("");
-      return `<article class="creator-card" data-search="${searchAttr([c.name, c.handle, ...(c.topTags || [])])}">
-  <div class="creator-avatar" aria-hidden="true">${escapeHtml(initials(c.name))}</div>
-  <div class="creator-body">
-    <h3 class="creator-name">${escapeHtml(c.name)}</h3>
-    ${c.handle ? `<p class="creator-handle">${escapeHtml(c.handle)}</p>` : ""}
-    <p class="creator-stats">${c.count} 帖 · ${c.dayCount} 天</p>
-    ${tags ? `<div class="creator-tags">${tags}</div>` : ""}
-    ${
-      latest.title
-        ? `<a class="creator-latest" href="${latestUrl}" target="_blank" rel="noopener noreferrer"><span class="creator-latest-label">最新</span>${escapeHtml(latest.title)}</a>`
-        : ""
-    }
+      return `<article class="creator-card${i < 3 ? " is-top" : ""}" data-search="${searchAttr([c.name, c.handle, ...(c.topTags || [])])}">
+  <div class="creator-top">
+    <div class="creator-avatar" aria-hidden="true">${escapeHtml(initials(c.name))}</div>
+    <span class="creator-rank">#${i + 1}</span>
   </div>
+  <h3 class="creator-name">${escapeHtml(c.name)}</h3>
+  ${c.handle ? `<p class="creator-handle">${escapeHtml(c.handle)}</p>` : ""}
+  <div class="creator-activity">
+    ${renderSpark(c.byDay, dates)}
+    <p class="creator-stats"><b>${c.count}</b> 帖 · ${c.dayCount} 天活跃</p>
+  </div>
+  ${tags ? `<div class="creator-tags">${tags}</div>` : ""}
+  ${
+    latest.title
+      ? `<a class="creator-latest" href="${latestUrl}" target="_blank" rel="noopener noreferrer"><span class="creator-latest-label">最新</span>${escapeHtml(latest.title)}</a>`
+      : ""
+  }
 </article>`;
     })
     .join("\n");
@@ -675,9 +727,9 @@ function renderCreatorsPanel(creators) {
   return `
 <div class="creators-panel">
   <header class="mod-hero mod-hero-creators">
-    <p class="mod-kicker">Creators</p>
-    <h2>人物 / 创作者</h2>
-    <p class="mod-sub">关注流里出现过的作者目录 · 共 ${creators.length} 位</p>
+    <p class="mod-kicker">Creators · 按人</p>
+    <h2>创作者名片墙</h2>
+    <p class="mod-sub">关注流里出现过的 ${creators.length} 位作者，按发帖量排序；柱状图是最近 ${dates.length || 14} 天的发帖节奏</p>
   </header>
   <div class="creator-grid">${cards}</div>
 </div>`;
@@ -687,8 +739,21 @@ function renderTopicsPanel(topics) {
   if (!topics.length) {
     return `<div class="empty-state"><p>暂无专题数据</p></div>`;
   }
-  const boards = topics
-    .map((b) => {
+  const maxCount = Math.max(...topics.map((b) => b.count));
+  const sorted = [...topics].sort((a, b) => b.count - a.count);
+
+  const tiles = sorted
+    .map((b, i) => {
+      const ratio = b.count / maxCount;
+      return `<button type="button" class="topic-tile${i === 0 ? " is-active" : ""}" data-topic="${escapeHtml(b.id)}" style="flex:${Math.max(1, b.count)} 1 ${Math.round(110 + ratio * 150)}px;--heat:${(0.12 + ratio * 0.5).toFixed(2)}">
+  <span class="topic-tile-name">${escapeHtml(b.id)}</span>
+  <span class="topic-tile-count">${b.count}</span>
+</button>`;
+    })
+    .join("");
+
+  const boards = sorted
+    .map((b, i) => {
       const rows = b.items
         .map((it) => {
           const ch = it.channel === "v" ? "大V" : "杂志";
@@ -698,7 +763,7 @@ function renderTopicsPanel(topics) {
 </a>`;
         })
         .join("\n");
-      return `<section class="topic-board" id="topic-${escapeHtml(b.id)}">
+      return `<section class="topic-board${i === 0 ? " is-active" : ""}" id="topic-${escapeHtml(b.id)}" data-topic="${escapeHtml(b.id)}">
   <header class="topic-board-head">
     <h3>${escapeHtml(b.id)}</h3>
     <span class="topic-count">${b.count}</span>
@@ -708,21 +773,14 @@ function renderTopicsPanel(topics) {
     })
     .join("\n");
 
-  const nav = topics
-    .map(
-      (b) =>
-        `<a class="topic-nav-chip" href="#topic-${escapeHtml(b.id)}">${escapeHtml(b.id)} <em>${b.count}</em></a>`
-    )
-    .join("");
-
   return `
 <div class="topics-panel">
   <header class="mod-hero mod-hero-topics">
-    <p class="mod-kicker">Topics</p>
-    <h2>专题看板</h2>
-    <p class="mod-sub">按标签聚合近两周杂志与大V</p>
+    <p class="mod-kicker">Topics · 按话题</p>
+    <h2>话题地图</h2>
+    <p class="mod-sub">近两周的杂志与大V按话题归类，方块越大越热；点一块展开明细</p>
   </header>
-  <nav class="topic-nav" aria-label="专题">${nav}</nav>
+  <div class="topic-map" role="tablist" aria-label="话题">${tiles}</div>
   <div class="topic-boards">${boards}</div>
 </div>`;
 }
@@ -731,26 +789,46 @@ function renderFlashPanel(flashItems) {
   if (!flashItems.length) {
     return `<div class="empty-state"><p>暂无快讯</p></div>`;
   }
-  const rows = flashItems
-    .map((it) => {
-      const ch = it.channel === "v" ? "大V" : "杂志";
-      return `<a class="flash-scan-row" href="${escapeHtml(it.url || "#")}" target="_blank" rel="noopener noreferrer" data-search="${searchAttr([it.title, it.source, it.day])}" data-channel="${escapeHtml(it.channel)}">
-  <span class="flash-scan-ch">${ch}</span>
-  <span class="flash-scan-title">${escapeHtml(it.title || "")}</span>
-  <span class="flash-scan-src">${escapeHtml(it.source || "")}</span>
-  <time class="flash-scan-day">${escapeHtml(it.day || "")}</time>
+  const groups = [];
+  const byDay = new Map();
+  for (const it of flashItems) {
+    if (!byDay.has(it.day)) {
+      const g = { day: it.day, rows: [] };
+      byDay.set(it.day, g);
+      groups.push(g);
+    }
+    byDay.get(it.day).rows.push(it);
+  }
+  const stamp = (it) => String(it.published_at || "");
+  const wire = groups
+    .map((g) => {
+      g.rows.sort((a, b) => stamp(b).localeCompare(stamp(a)));
+      const rows = g.rows
+        .map((it) => {
+          const t = it.published_at ? String(it.published_at).slice(11, 16) : "--:--";
+          return `<a class="wire-row" href="${escapeHtml(it.url || "#")}" target="_blank" rel="noopener noreferrer" data-search="${searchAttr([it.title, it.source, it.day])}" data-channel="${escapeHtml(it.channel)}">
+  <time class="wire-time">${escapeHtml(t)}</time>
+  <span class="wire-dot" title="${it.channel === "v" ? "大V" : "杂志"}"></span>
+  <span class="wire-title">${escapeHtml(it.title || "")}</span>
+  <span class="wire-src">${escapeHtml(it.source || "")}</span>
 </a>`;
+        })
+        .join("\n");
+      return `<section class="wire-day">
+  <h3 class="wire-day-head"><span>${escapeHtml(g.day.slice(5).replace("-", "/"))}</span><em>${g.rows.length} 条</em></h3>
+  ${rows}
+</section>`;
     })
     .join("\n");
 
   return `
 <div class="flash-panel">
   <header class="mod-hero mod-hero-flash">
-    <p class="mod-kicker">Briefs</p>
-    <h2>快讯扫描</h2>
-    <p class="mod-sub">近 7 日标题速览 · ${flashItems.length} 条 · 去重</p>
+    <p class="mod-kicker">Wire · 快讯流</p>
+    <h2>快讯流</h2>
+    <p class="mod-sub">近 7 日 ${flashItems.length} 条，去重，按时间倒序；青点为大V，灰点为杂志</p>
   </header>
-  <div class="flash-scan-list">${rows}</div>
+  <div class="wire">${wire}</div>
 </div>`;
 }
 
@@ -803,7 +881,8 @@ function renderPage({
   const vCards = vItems.length ? vItems.map(renderVCard).join("\n") : emptyV;
   const aihotHtml = renderAihotPanel(aihotDaily, coverIndex || { byNorm: new Map(), byUrl: new Map() });
   const weeklyHtml = renderWeeklyPanel(weekly || []);
-  const creatorsHtml = renderCreatorsPanel(creators || []);
+  const sparkDates = (days || []).slice(0, 14).map((d) => d.date).reverse();
+  const creatorsHtml = renderCreatorsPanel(creators || [], sparkDates);
   const topicsHtml = renderTopicsPanel(topics || []);
   const flashHtml = renderFlashPanel(flashItems || []);
   const dedupeNote =
@@ -816,7 +895,7 @@ function renderPage({
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="description" content="Alioxis News — AI杂志 · 大V视野 · AIHOT日报 · 周报 · 人物 · 专题 · 快讯" />
+  <meta name="description" content="Alioxis News — 今日（AI新闻 · 大V视野 · AIHOT日报）· 回顾（本周长文 · 快讯流）· 发现（按人 · 按话题）" />
   <meta name="theme-color" content="#0c0c0e" />
   <meta name="color-scheme" content="dark" />
   <title>${escapeHtml(title)}</title>
@@ -825,7 +904,7 @@ function renderPage({
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Serif+SC:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="${cssHref(depth)}" />
 </head>
-<body data-channel="ai">
+<body data-channel="ai" data-group="today">
   <header class="site-header">
     <div class="header-inner">
       <a class="logo" href="${homeHref(depth)}">
@@ -840,15 +919,20 @@ function renderPage({
     </div>
   </header>
 
-  <nav class="tab-bar" aria-label="内容频道" role="tablist">
-    <div class="tab-bar-inner">
-      <button type="button" class="tab-btn active" role="tab" aria-selected="true" data-tab="ai" id="tab-ai">AI新闻</button>
-      <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="v" id="tab-v">大V视野</button>
-      <button type="button" class="tab-btn tab-btn-aihot" role="tab" aria-selected="false" data-tab="aihot" id="tab-aihot">AIHOT日报</button>
-      <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="weekly" id="tab-weekly">周报</button>
-      <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="creators" id="tab-creators">人物</button>
-      <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="topics" id="tab-topics">专题</button>
-      <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="flash" id="tab-flash">快讯</button>
+  <nav class="tab-bar" aria-label="内容分区">
+    <div class="tab-bar-inner group-bar" role="tablist" aria-label="分区">
+      <button type="button" class="group-btn active" role="tab" aria-selected="true" data-group="today">今日<small>三个来源</small></button>
+      <button type="button" class="group-btn" role="tab" aria-selected="false" data-group="review">回顾<small>往前看</small></button>
+      <button type="button" class="group-btn" role="tab" aria-selected="false" data-group="explore">发现<small>换角度</small></button>
+    </div>
+    <div class="tab-bar-inner sub-bar" role="tablist" aria-label="频道">
+      <button type="button" class="tab-btn active" role="tab" aria-selected="true" data-tab="ai" data-group="today" id="tab-ai">AI新闻</button>
+      <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="v" data-group="today" id="tab-v">大V视野</button>
+      <button type="button" class="tab-btn tab-btn-aihot" role="tab" aria-selected="false" data-tab="aihot" data-group="today" id="tab-aihot">AIHOT日报</button>
+      <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="weekly" data-group="review" id="tab-weekly" hidden>本周长文</button>
+      <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="flash" data-group="review" id="tab-flash" hidden>快讯流</button>
+      <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="creators" data-group="explore" id="tab-creators" hidden>按人</button>
+      <button type="button" class="tab-btn" role="tab" aria-selected="false" data-tab="topics" data-group="explore" id="tab-topics" hidden>按话题</button>
     </div>
   </nav>
 
@@ -906,7 +990,7 @@ function renderPage({
   </div>
 
   <footer class="site-footer">
-    <span>Alioxis News · 杂志 / 大V / AIHOT / 周报 / 人物 / 专题 / 快讯</span>
+    <span>Alioxis News · 今日 / 回顾 / 发现</span>
     <span><a href="${archiveHref(depth)}">日期归档</a> · <a href="https://github.com/czhmartinez/alioxis-news">GitHub</a> · NOTICE</span>
   </footer>
   <script src="${jsHref(depth)}" defer></script>

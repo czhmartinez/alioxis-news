@@ -12,6 +12,20 @@
     flash: true,
   };
 
+  var GROUPS = {
+    today: ["ai", "v", "aihot"],
+    review: ["weekly", "flash"],
+    explore: ["creators", "topics"],
+  };
+  var lastTab = {};
+
+  function groupOf(tab) {
+    for (var g in GROUPS) {
+      if (GROUPS[g].indexOf(tab) >= 0) return g;
+    }
+    return "today";
+  }
+
   var NO_TOOLBAR = { aihot: true, weekly: true, creators: true, topics: true, flash: true };
 
   function readTab() {
@@ -64,7 +78,7 @@
     var chip = document.querySelector(".filter-chip.active");
     var tag = chip ? chip.getAttribute("data-tag") || "" : "";
     var cards = panel.querySelectorAll(
-      ".card, .v-card, .aihot-card, .creator-card, .wk-day, .topic-item, .flash-scan-row"
+      ".card, .v-card, .aihot-card, .creator-card, .wk-lead, .wk-sublead, .wk-day, .topic-item, .wire-row"
     );
     var shown = 0;
     cards.forEach(function (card) {
@@ -82,6 +96,12 @@
       card.style.display = show ? "" : "none";
       if (show) shown++;
     });
+    panel.querySelectorAll(".wire-day").forEach(function (day) {
+      var any = day.querySelector(".wire-row:not([hidden])");
+      day.hidden = !any;
+    });
+    var topicsPanel = panel.querySelector(".topics-panel");
+    if (topicsPanel) topicsPanel.classList.toggle("is-searching", !!q);
     var empty = document.querySelector(".filter-empty");
     if (empty) empty.hidden = shown > 0 || cards.length === 0 || NO_TOOLBAR[tab];
     var countEl = document.getElementById("filter-count");
@@ -114,24 +134,24 @@
             : " · 本日无 AIHOT 日报"),
       },
       weekly: {
-        eyebrow: "周报",
-        title: "近七日周报",
-        sub: "按日回顾杂志与关注流 · " + (meta.dataset.weeklyCount || 0) + " 天",
-      },
-      creators: {
-        eyebrow: "人物",
-        title: "创作者目录",
-        sub: "关注流作者索引 · " + (meta.dataset.creatorsCount || 0) + " 位",
-      },
-      topics: {
-        eyebrow: "专题",
-        title: "标签看板",
-        sub: "模型 / 安全 / 开源 / 智能体… · " + (meta.dataset.topicsCount || 0) + " 板",
+        eyebrow: "回顾 · 本周",
+        title: "本周长文",
+        sub: "头条加按日回顾 · " + (meta.dataset.weeklyCount || 0) + " 天",
       },
       flash: {
-        eyebrow: "快讯",
-        title: "标题速览",
-        sub: "近七日去重扫描 · " + (meta.dataset.flashCount || 0) + " 条",
+        eyebrow: "回顾 · 快讯",
+        title: "快讯流",
+        sub: "近七日去重，按时间倒序 · " + (meta.dataset.flashCount || 0) + " 条",
+      },
+      creators: {
+        eyebrow: "发现 · 按人",
+        title: "创作者名片墙",
+        sub: "关注流作者与发帖节奏 · " + (meta.dataset.creatorsCount || 0) + " 位",
+      },
+      topics: {
+        eyebrow: "发现 · 按话题",
+        title: "话题地图",
+        sub: "近两周热度分布 · " + (meta.dataset.topicsCount || 0) + " 个话题",
       },
     };
     return map[tab] || map.ai;
@@ -140,11 +160,20 @@
   function applyTab(tab, opts) {
     tab = VALID[tab] ? tab : "ai";
     opts = opts || {};
+    var group = groupOf(tab);
+    lastTab[group] = tab;
     document.body.setAttribute("data-channel", tab);
+    document.body.setAttribute("data-group", group);
+    document.querySelectorAll(".group-btn").forEach(function (btn) {
+      var on = btn.getAttribute("data-group") === group;
+      btn.classList.toggle("active", on);
+      btn.setAttribute("aria-selected", on ? "true" : "false");
+    });
     document.querySelectorAll(".tab-btn").forEach(function (btn) {
       var on = btn.getAttribute("data-tab") === tab;
       btn.classList.toggle("active", on);
       btn.setAttribute("aria-selected", on ? "true" : "false");
+      btn.hidden = btn.getAttribute("data-group") !== group;
     });
     document.querySelectorAll(".tab-panel").forEach(function (panel) {
       var on = panel.getAttribute("data-tab") === tab;
@@ -241,6 +270,28 @@
   }
 
   function bind() {
+    document.querySelectorAll(".group-btn").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var g = btn.getAttribute("data-group");
+        applyTab(lastTab[g] || GROUPS[g][0], { push: true });
+      });
+    });
+    document.querySelectorAll(".topic-tile").forEach(function (tile) {
+      tile.addEventListener("click", function () {
+        var id = tile.getAttribute("data-topic");
+        var root = tile.closest(".topics-panel");
+        if (!root) return;
+        root.querySelectorAll(".topic-tile").forEach(function (t) {
+          t.classList.toggle("is-active", t === tile);
+        });
+        root.querySelectorAll(".topic-board").forEach(function (b) {
+          b.classList.toggle("is-active", b.getAttribute("data-topic") === id);
+        });
+      });
+    });
+    document.querySelectorAll(".topics-panel").forEach(function (p) {
+      p.classList.add("is-enhanced");
+    });
     document.querySelectorAll(".tab-btn").forEach(function (btn) {
       btn.addEventListener("click", function () {
         applyTab(btn.getAttribute("data-tab"), { push: true });
