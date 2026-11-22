@@ -7,7 +7,9 @@
  *
  * Env (all optional; without keys it runs in degraded mode):
  *   GROQ_API_KEY  – Groq llama-3.1-8b-instant, Chinese summary + tags
- *   WEIR_API_KEY  – Weir X search supplement (stub: endpoint TBD, see below)
+ *   WEIR_API_KEY  – Weir X search supplement (docs.weirapp.io, verified 2026-11-23):
+ *                     POST https://api.weirapp.io/v1/x/search, Bearer weir_live_...,
+ *                     5 keywords x 20 posts/day ≈ 105 credits/day of 5,000/month free
  *
  * Output (matches build.js input schema exactly):
  *   data/<YYYY-MM-DD>/ai.json            – [{title, summary, url, source,
@@ -214,9 +216,36 @@ async function main() {
     } catch (e) { console.error(`Bluesky ${a.actor} fail:`, e.message); }
   }
 
-  // 5. Weir X search supplement (stub: endpoint not yet verified; runs only with key)
+  // 5. Weir X search supplement (1 round/day, 5 keywords x 20 posts ≈ 105 credits
+  //    of the 5,000/month free tier; failed calls cost nothing). Results go to
+  //    the v channel as social leads, never straight to the front page.
+  const WEIR_QUERIES = ["free credits", "羊毛", "限时免费", "OpenAI launch", "Anthropic launch"];
   if (WEIR_KEY) {
-    console.log("Weir: key present but search endpoint not verified yet – skipped (see X_TOOLS_ZERO_COST.md §9)");
+    const since = new Date(Date.now() - 86400000).toISOString().slice(0, 10) + "T00:00:00Z";
+    const until = new Date().toISOString().slice(0, 10) + "T00:00:00Z";
+    for (const q of WEIR_QUERIES) {
+      try {
+        const r = await fetch("https://api.weirapp.io/v1/x/search", {
+          method: "POST",
+          headers: { Authorization: `Bearer ${WEIR_KEY}`, "Content-Type": "application/json" },
+          body: JSON.stringify({ query: q, since, until, limit: 20 }),
+        });
+        if (!r.ok) { console.error(`Weir search "${q}" HTTP`, r.status); continue; }
+        const j = await r.json();
+        const posts = j.data || [];
+        console.log(`Weir "${q}": ${posts.length}`);
+        for (const p of posts) {
+          if (!p.url || seen.has(normUrl(p.url))) continue;
+          seen.add(normUrl(p.url));
+          vCands.push({
+            title: (p.text || "").slice(0, 80), description: p.text || "",
+            url: p.url, source: "X via Weir", handle: "@" + (p.author?.username || ""),
+            published_at: p.createdAt || "",
+          });
+        }
+      } catch (e) { console.error(`Weir search "${q}" fail:`, e.message); }
+      await new Promise((r) => setTimeout(r, 1500)); // search counts 2/min against the limit
+    }
   } else {
     console.log("Weir: no key – skipped");
   }
