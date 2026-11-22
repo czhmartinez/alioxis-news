@@ -257,11 +257,25 @@ async function main() {
     catch (e) { console.error("wool fail:", u, e.message); }
   }
 
-  // 7. Rank + summarize. Official vendor blogs first, then the rest by recency.
+  // 7. Rank + summarize. Cap each source at 3 in the first pass so vendor
+  // blogs can't crowd out Google News / HN discovery, then fill the rest
+  // by recency. (Without the cap, OpenAI + Google Blog alone filled all 15.)
   const tier = (s) => ({ "OpenAI": 0, "Anthropic": 0, "Google Blog": 0, "Hugging Face": 0 }[s] ?? 1);
-  aiCands.sort((a, b) => tier(a.source) - tier(b.source)
+  const sorted = [...aiCands].sort((a, b) => tier(a.source) - tier(b.source)
     || String(b.published_at || "").localeCompare(String(a.published_at || "")));
-  const top = aiCands.slice(0, 15);
+  const top = [];
+  const perSource = {};
+  for (const c of sorted) {
+    if (top.length >= 15) break;
+    if ((perSource[c.source] || 0) >= 3) continue;
+    perSource[c.source] = (perSource[c.source] || 0) + 1;
+    top.push(c);
+  }
+  if (top.length < 15) {
+    const rest = sorted.filter((c) => !top.includes(c))
+      .sort((a, b) => String(b.published_at || "").localeCompare(String(a.published_at || "")));
+    for (const c of rest) { if (top.length >= 15) break; top.push(c); }
+  }
   let sum = null;
   if (GROQ_KEY) {
     sum = await groqSummarize(top);
