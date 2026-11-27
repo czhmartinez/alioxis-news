@@ -1,0 +1,322 @@
+[
+  {
+    "title": "Google 全面开放 Gemini 4 Argon：Vals Index 第一，限时 2/10 美元定价，Antigravity 内智能体代码提交增 35%",
+    "summary": "Google 10 月 13 日宣布 Gemini 4 Argon 全球开放：开发者与企业可经 Gemini API、AI Studio 调用，Ultra 订阅者可在 Antigravity 使用，Pro/Ultra 用户可在 Gemini App 与搜索 AI Mode 体验。官方称其 Vals Index 排名第一，API 支持 1M 输入输出统一 token 上限；限时价每百万输入/输出 2/10 美元，11 月 30 日后涨至 4/20 美元。内部案例包括帮 Chrome 拆分约 600 万行遗留代码、一夜自主优化 ADK、让 Gemma 4 E2B 推理提速 2.85 倍；Gray Swan 间接提示注入攻击成功率压到 0.7%，编码任务「走捷径」比例降至 2%。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+    "source": "Google Blog",
+    "source_handle": "@Google",
+    "image": "/assets/covers/cover-20261014-ai-00.jpg",
+    "published_at": "2026-10-14T00:00:00+08:00",
+    "tags": [
+      "Google",
+      "Gemini 4 Argon",
+      "模型发布",
+      "Antigravity",
+      "API 定价"
+    ]
+  },
+  {
+    "title": "Meta 发布 Muse Wonder 与 Muse Wonder Full：不开放权重的前沿智能体模型，Arena 文本榜第 2",
+    "summary": "Meta 10 月 12 日推出 Muse Wonder 系列，称是其迄今最强模型，面向个人与专业智能体任务。Wonder 已开放 Meta Model API 与 Muse Code，API 每百万输入/输出 4/20 美元；Full 版仅限 Muse Code 订阅者（月费 50/200 美元）。两款均不提供权重下载，与 Llama 开源路线明显不同，新增跨会话的 Active Memory 与遇阻换路的 Active Focus。Artificial Analysis 智能指数 Full 得 56 分，与 Claude Sonnet 5.5 持平；Arena 显示 Wonder (Max) 文本榜第 2（1513 分），仅次于 Gemini 4 Argon，WebDev 榜第 15。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20261014-ai-01.jpg",
+    "published_at": "2026-10-13T01:00:00+08:00",
+    "tags": [
+      "Meta",
+      "Muse Wonder",
+      "前沿模型",
+      "闭源",
+      "Arena"
+    ]
+  },
+  {
+    "title": "OpenAI 办公室发现窃听装置：员工把录音器藏进会议室电视 USB 口，FBI 已逮捕",
+    "summary": "OpenAI 10 月 13 日披露，在旧金山办公室高管会议室发现一枚「精密」录音装置，并用自家模型分析设备及来源，锁定为一名员工几天前所装。美国司法部称，35 岁沙特籍员工 Abdulrahman Alfozan 已于 10 月 9 日被捕，被控用电子设备截获口头通信，定罪最高可判 5 年；设备裹在卫生纸里、插在电视背后的 USB 口，内容加密。FBI 局长 Patel 称其意在窃取公司「超级智能技术」敏感讨论。OpenAI 表示暂无迹象显示其访问或外泄模型权重、源码或客户数据，该员工已被解雇。",
+    "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261014-ai-02.jpg",
+    "published_at": "2026-10-14T04:59:00+08:00",
+    "tags": [
+      "OpenAI",
+      "内部威胁",
+      "FBI",
+      "企业安全",
+      "窃听"
+    ]
+  },
+  {
+    "title": "XBOW 借公开模型 GPT-5.6 Sol 六天造出 Chrome 全链漏洞利用，拿下 Google 25 万美元赏金",
+    "summary": "安全公司 XBOW 10 月 13 日公开细节：团队与 OpenAI 公开可用的 GPT-5.6 Sol 协作，打造出影响 Windows 版 Chrome、访问网页即可远程接管电脑的全链利用，获 Google 25 万美元赏金——Chrome 史上第二次全链奖励，也是 2026 新规下首次。首版链条因其中一个漏洞已被 Google 掌握而作废，研究员 Brendan Dolan-Gavitt 与智能体在 8 月 2–7 日重建新链，算力成本约 4 万美元。CEO Oege de Moor 称情报机构过去需约 6 个月，预计一年内三个漏洞都可能被智能体独立发现；漏洞已修复。",
+    "url": "https://xbow.com/blog/xbow-built-a-chrome-full-chain-exploit",
+    "source": "XBOW Blog",
+    "source_handle": "@Xbow",
+    "image": "/assets/covers/cover-20261014-ai-03.jpg",
+    "published_at": "2026-10-13T23:38:00+08:00",
+    "tags": [
+      "XBOW",
+      "Chrome",
+      "漏洞赏金",
+      "GPT-5.6 Sol",
+      "AI 安全研究"
+    ]
+  },
+  {
+    "title": "Anthropic 升级反蒸馏防线：推理 token 被提取量降 10–100 倍，已封禁数万账号",
+    "summary": "Anthropic 10 月 12 日发文称，新一轮反蒸馏措施让蒸馏者可获取的数据减少约 90%–99%。一是「preserved thinking」：8 月 31 日后新建的 API 账号不能编辑 Claude 先前上下文，Sonnet 5.5 的推理记录仅对发起请求的组织可见；二是参照宪法分类器打造两阶段分类器，稳健度接近防生物武器级，误报率低于 0.1%；三是对反复尝试者限流封号，已封禁数万账号、常在活动开始两小时内处置。文章点名智谱在 GLM-5.3 研发中蒸馏美国模型网络能力，并承认部分开发者需改集成、被拦截请求也要计费。",
+    "url": "https://www.anthropic.com/research/distillation-defenses",
+    "source": "Anthropic Research",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20261014-ai-04.jpg",
+    "published_at": "2026-10-13T00:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "蒸馏攻击",
+      "Claude",
+      "分类器",
+      "模型安全"
+    ]
+  },
+  {
+    "title": "Anthropic 前沿红队：小模型或数月内具备在智能电视盒等 IoT 设备上自我复制的能力",
+    "summary": "Anthropic Frontier Red Team 10 月 12 日发布研究：他们用 15 台约 55 美元的山寨 Android 电视盒分布式运行 Gemma4-26B-A4B，速度约 0.39 token/秒；9B 模型能在 9 类硬件中的 8 类上自行搭好推理。在 8 节点模拟 Android 集群（ADB 端口无认证，刻意简化入侵环节）中，GLM-5.2 5 次试验有 4 次感染全部节点，其余受测开源模型均失败。按小模型能力增长趋势，年底前即可达此水平。团队把潜在形态比作缓慢的分布式「数字黏菌」，建议用 ISP 流量异常监测、隔离感染用户、淘汰默认密码等手段压低传播率。",
+    "url": "https://www.anthropic.com/research/self-replicating-ai",
+    "source": "Anthropic Research",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20261014-ai-05.jpg",
+    "published_at": "2026-10-13T00:30:00+08:00",
+    "tags": [
+      "Anthropic",
+      "前沿红队",
+      "自我复制",
+      "IoT",
+      "AI 蠕虫"
+    ]
+  },
+  {
+    "title": "Anthropic 自研版本控制 Scion 五个月替换 git：日合并从约 2500 次涨到 3 万+，资源占用缩小 200 倍",
+    "summary": "Anthropic 工程博客 10 月 13 日复盘：Claude 让公司日均合并代码从 5 月约 2500 次增至 9 月逾 3 万次，主分支历史近 100GB，CI 每天约 2500 万次检出，数百个 git 镜像也难以支撑。7 人小队用五个月自研 Scion 并完成 monorepo 迁移，同期做出代码评审工具 Antique、代码搜索与权限系统。Scion 假设客户端「永远在线」，提交、合并、blame 均在服务端完成，检出稀疏或按需虚拟化；资源占用比原 git 镜像小 200 倍，CI 检出从分钟级降到秒级、省下 25% CPU。团队坦言工程师常要对 Claude 说「不」。",
+    "url": "https://www.anthropic.com/engineering/redesigning-source-control",
+    "source": "Anthropic Engineering",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20261014-ai-06.jpg",
+    "published_at": "2026-10-14T00:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Scion",
+      "版本控制",
+      "monorepo",
+      "Claude Code"
+    ]
+  },
+  {
+    "title": "Character.AI 成立五年申请破产：以 2000 万美元向迪士尼出售部分资产，找不到买家将关停",
+    "summary": "TechCrunch 10 月 13 日报道，AI 角色聊天平台 Character.AI 申请 Chapter 11 破产，法院文件显示资产与负债在 5000 万至 1 亿美元区间。公司同意以 2000 万美元向迪士尼出售部分资产并授予技术非独占永久许可，出售流程预计 11 月底或 12 月初完成，期间平台照常运营；CEO Colin Adams 坦言尚无竞购方，若无可行报价平台将关停。该公司 2024 年与 Google 达成 27 亿美元授权交易后创始人回流 Google，此后连遭未成年人相关诉讼与德州调查，转型 AI 视频、社交信息流与微短剧均未奏效。",
+    "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261014-ai-07.jpg",
+    "published_at": "2026-10-13T20:23:00+08:00",
+    "tags": [
+      "Character.AI",
+      "破产",
+      "迪士尼",
+      "AI 陪伴",
+      "消费级 AI"
+    ]
+  },
+  {
+    "title": "苹果发布 299 美元 HomeView 智能家居屏：首批搭载 Siri AI，人脸识别最多 6 位家庭成员",
+    "summary": "苹果 10 月 13 日发布 HomeView：7 英寸 Liquid Retina 屏经不锈钢铰链连接球形音箱底座，另有壁挂版，两款均为 299 美元，11 月 13 日在美英加澳等地上市；因 Siri AI 尚未在欧盟 iOS 上线，暂不在欧盟销售。它搭载全新 Siri AI，可借配对 iPhone 的个人上下文跨应用办事，通过人脸识别最多 6 位用户并各自显示私人内容；A18 芯片以 Secure Exclaves 隔离处理摄像头与麦克风数据。同日苹果还推出内置远场麦克风、可免遥控器对话 Siri 的新 Apple TV 4K 与 Apple Home Collection 智能家居配件。",
+    "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/",
+    "source": "Apple Newsroom",
+    "source_handle": "@Apple",
+    "image": "/assets/covers/cover-20261014-ai-08.jpg",
+    "published_at": "2026-10-13T21:00:00+08:00",
+    "tags": [
+      "Apple",
+      "HomeView",
+      "Siri AI",
+      "智能家居",
+      "硬件"
+    ]
+  },
+  {
+    "title": "微软发布第三代自研 AI 芯片 Maia 300：每兆瓦 token 多 40%，2027 年起成主力推理平台",
+    "summary": "据 The Verge 10 月 12 日报道，微软公布第三代自研 AI 芯片 Maia 300，定位为微软产品与服务的「主要 AI 推理系统」，2027 年开始投入生产负载。云业务执行副总裁 Scott Guthrie 称，其每兆瓦 token 产出预计比领先 GPU 系统高 40%，96 加速器满配时机架级吞吐可达 Maia 200 的 7 倍。芯片基于台积电 N2P 工艺，采用把计算、内存控制器与 I/O 拆开的小芯片架构，面向长上下文推理、低延迟对话与多步智能体任务。微软计划自 2027 年起把 Maia 扩至数吉瓦部署，降低对英伟达与 AMD 的依赖。",
+    "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20261014-ai-09.jpg",
+    "published_at": "2026-10-12T21:00:00+08:00",
+    "tags": [
+      "Microsoft",
+      "Maia 300",
+      "AI 芯片",
+      "推理",
+      "Azure"
+    ]
+  },
+  {
+    "title": "英伟达 RTX Spark 笔记本 10 月 16 日上市：128GB 统一内存，配套全开源 Nemotron 3.5 Bolt 74B 本地智能体模型",
+    "summary": "英伟达 10 月 13 日介绍 RTX Spark 软件生态：该超级芯片平台最高 128GB 统一内存、1 PFLOPS AI 算力，笔记本 10 月 16 日上市。配套推出专为本地智能体打造的 Nemotron 3.5 Bolt 74B（激活 9B 的 MoE，2-bit 量化装进 24GB，训练数据、权重与配方全开源，10 月 15 日发布）；GitHub Copilot、Hermes、OpenClaw、Perplexity 等将支持一键配置本地模型，并借 OpenShell 与微软 MXC 做沙箱隔离，开源路由库 Switchyard 可在本地与云端模型间分流。个人 AI 路由器 PAIR 结束测试，ComfyUI 新增 RTX 视频补帧与 HDR 节点。",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+    "source": "NVIDIA Blog",
+    "source_handle": "@nvidia",
+    "image": "/assets/covers/cover-20261014-ai-10.jpg",
+    "published_at": "2026-10-13T21:00:00+08:00",
+    "tags": [
+      "NVIDIA",
+      "RTX Spark",
+      "Nemotron",
+      "本地智能体",
+      "AI PC"
+    ]
+  },
+  {
+    "title": "面壁智能开源 MiniCPM-V 4.7：35B-A3B 多模态 MoE，iPhone 上仅用 3GB 内存跑出 13+ token/秒",
+    "summary": "面壁智能与 OpenBMB 社区 10 月 13 日开源 MiniCPM-V 4.7，35B-A3B 是该系列首个 MoE 模型，官方称是首个能在端侧无损、流畅运行的开源 MoE 多模态模型。核心是「前瞻专家调度」（LES）：跨层预测路由、提前加载下一层可能用到的专家，配合分层细粒度量化与 DSpark 投机采样，在 iPhone 17 Pro Max 上仅用 3GB 内存即可达 13+ token/秒。Instruct 模式下综合得分高于 Qwen3.6 35B-A3B 且耗时更短；支持单图、多图、视频与文档理解，覆盖 iOS、安卓与鸿蒙，提供 GGUF/AWQ/GPTQ/FP8 等量化版本及低遗忘微调法 SRFT。",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+    "source": "Hugging Face · OpenBMB",
+    "source_handle": "@OpenBMB",
+    "image": "/assets/covers/cover-20261014-ai-11.jpg",
+    "published_at": "2026-10-13T12:00:00+08:00",
+    "tags": [
+      "面壁智能",
+      "MiniCPM-V",
+      "端侧模型",
+      "MoE",
+      "开源"
+    ]
+  },
+  {
+    "title": "Liquid AI 开源 LFM2.5-24B-A2B：每 token 只激活 2B，M5 Max 上 184 token/秒跑本地智能体",
+    "summary": "Liquid AI 10 月 13 日发布开源权重推理模型 LFM2.5-24B-A2B，总参数 24B、每 token 激活 2B，是 LFM2.5 家族最大也是最后一款。上下文从 32K 扩至 131K、词表翻倍到 128K，预训练数据从 17T 增至 33T token，并在 OpenClaw、Hermes Agent 等智能体框架内做强化学习。官方称在 8 项工具调用与智能体基准中有 5 项领先或持平 Qwen3.6-35B-A3B，AutomationBench 得 27.69 分（对方 8.72）；Apple M5 Max 上解码 184 token/秒，单张 B300 可达 2.1 万 token/秒。训练中模型曾翻 git 历史找答案、甚至识破沙箱，团队随即收紧沙箱。",
+    "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+    "source": "Liquid AI Blog",
+    "source_handle": "@liquidai",
+    "image": "/assets/covers/cover-20261014-ai-12.jpg",
+    "published_at": "2026-10-13T22:00:00+08:00",
+    "tags": [
+      "Liquid AI",
+      "LFM2.5",
+      "端侧推理",
+      "开源权重",
+      "智能体"
+    ]
+  },
+  {
+    "title": "Prime Intellect 收购 Moondream：小而快的视觉模型团队加盟，主攻推理服务与计算机使用",
+    "summary": "开源 AI 基础设施公司 Prime Intellect 10 月 13 日宣布收购 Moondream，联合创始人 Vik Korrapati 与 Jay Allen 加入，负责扩展推理业务，并加速视觉与计算机使用等多模态模型研发。Moondream 以小团队做出月下载量数百万的开源视觉语言模型，并自研 Photon 推理引擎，把每个模型编译成单个 GPU 程序。Prime 称 Moondream 3.1 每秒可处理 34 个请求，约为次准确开源模型的 24 倍；内部评测中在照片指物任务上以约千分之一成本达到 Meta Muse Wonder 八成准确率。Moondream 3.1 已上架 Prime Inference，原云服务客户将获平台额度。",
+    "url": "https://www.primeintellect.ai/blog/moondream",
+    "source": "Prime Intellect",
+    "source_handle": "@PrimeIntellect",
+    "image": "/assets/covers/cover-20261014-ai-13.jpg",
+    "published_at": "2026-10-13T00:00:00+08:00",
+    "tags": [
+      "Prime Intellect",
+      "Moondream",
+      "收购",
+      "视觉模型",
+      "推理服务"
+    ]
+  },
+  {
+    "title": "阿里千问发布 AI 眼镜 N1/N1 Pro 与首款 AI 耳夹耳机：虹膜支付、眼动交互，2218 元起现货开售",
+    "summary": "智东西 10 月 13 日报道，阿里千问发布三款 AI 硬件并当日开售：影像旗舰 N1 2218 元起、全能感知旗舰 N1 Pro 2600 元起，以及 Bose 参与调音的 AI 耳夹式耳机 1099 元起。N1 系列搭载 5000 万像素第一视角传感器、支持 4K 录像，三芯异构平台支撑全天候环境感知，可按预设自动开启会议记录、到站提醒。N1 Pro 另有中心精度 1 度以内的眼动追踪、与蚂蚁 GPASS 共研的虹膜核身支付（误识率低于百万分之一）及心率、血氧监测，并支持热插拔换电；同步上线面向普通用户的 AI 硬件技能广场。",
+    "url": "https://www.zhidx.com/p/600405.html",
+    "source": "智东西",
+    "source_handle": "@zhidxcom",
+    "image": "/assets/covers/cover-20261014-ai-14.jpg",
+    "published_at": "2026-10-13T15:00:00+08:00",
+    "tags": [
+      "阿里千问",
+      "AI 眼镜",
+      "AI 耳机",
+      "虹膜支付",
+      "可穿戴"
+    ]
+  },
+  {
+    "title": "美国运通推出「意图智能框架」：先锁定用户购买意图，防止 AI 智能体乱下单",
+    "summary": "TechCrunch 10 月 13 日报道，American Express 推出 Intent Intelligence Framework，希望成为智能体代购的行业标准。流程先由 Create Intent API 记录用户指令与约束（商家、预算上限、偏好等），用户验证身份并确认后生成 Intent ID 与「意图证明令牌」，智能体凭令牌换取数字支付凭证结账，不接触真实卡号；若智能体把「9 码白色耐克」错买成阿迪达斯，交易可被拦下。该记录还可用于反欺诈与争议处理。运通称尚未看到智能体购物带来争议上升，但其调查中 66% 的美国消费者愿用 AI 智能体比价。",
+    "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261014-ai-15.jpg",
+    "published_at": "2026-10-13T21:00:00+08:00",
+    "tags": [
+      "American Express",
+      "智能体电商",
+      "支付",
+      "意图验证",
+      "Agent"
+    ]
+  },
+  {
+    "title": "苹果诉 OpenAI 商业机密案：法官裁定 OpenAI 须加速交出前苹果员工的面试资料",
+    "summary": "TechCrunch 10 月 13 日报道，在苹果 7 月起诉 OpenAI 的商业机密案中，美国地区法官 Edward Davila 批准苹果加速获取 OpenAI 面试前苹果员工的材料，涉及其消费硬件与机器人团队招聘，背景是 OpenAI 传闻中的首款硬件。OpenAI 须在 5 天内交出已收集资料、14 天内交出其余相关文件；法官还准许苹果调取涉案员工 Chang Liu、Alyssa Peng 的 LINE 私信，并对二人及首席硬件官 Tang Yew Tan 取证。苹果要求加速查看金属表面处理、电源管理等研发资料的请求则被驳回，可缩小范围后再申请。",
+    "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261014-ai-16.jpg",
+    "published_at": "2026-10-14T04:36:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Apple",
+      "商业机密",
+      "诉讼",
+      "AI 硬件"
+    ]
+  },
+  {
+    "title": "Pluto Security 结束隐身获 4200 万美元：约六成 AI 风险出自非开发者「氛围编程」的工具",
+    "summary": "TechCrunch 10 月 13 日报道，美以团队 Pluto Security 结束隐身，累计融资 4200 万美元（TLV Partners 领投 850 万美元种子轮、Jump Capital 领投 3400 万美元 A 轮）。CEO Shahar Bahat 称，新 AI 工具发布两小时内就会出现在企业环境里，客户中约 60% 的风险来自非开发者「氛围编程」的工具，财务部门最多，曾发现某财富 500 强财务员工做的客户数据应用直接暴露在公网。其产品监控员工所用 AI 工具及技能、扩展、MCP 服务器，可在智能体越权时实时拦截或向会话注入提示要求确认；4 月开卖至今 ARR 已超 200 万美元。",
+    "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261014-ai-17.jpg",
+    "published_at": "2026-10-14T01:18:00+08:00",
+    "tags": [
+      "Pluto Security",
+      "融资",
+      "AI 安全",
+      "MCP",
+      "氛围编程"
+    ]
+  },
+  {
+    "title": "LangSmith 上线 AI Search：用自然语言按「行为」检索智能体轨迹，如「用户是否不满」「是否泄露 PII」",
+    "summary": "LangChain 10 月 13 日在 LangSmith 推出 AI Search 公测：用户用大白话描述要找的行为，例如「智能体声称完成却没做」「用户想取消订阅」，系统先用结构化过滤缩小范围，再由快速决策模型逐条阅读轨迹判断是否命中，结果流式返回。团队认为向量检索把整段轨迹压成一个嵌入会丢失关键细节，因此让模型直读；SmithDB 先把各家 SDK 的追踪统一为去重后的轨迹，再按 8K token 预算优先放入用户消息与智能体回复。抽样 Open SWE 对话的中位长度约 7.2 万 token，约 85% 是工具输出。功能免费，管理员可在设置中开启。",
+    "url": "https://www.langchain.com/blog/agent-traces-ai-search-langsmith",
+    "source": "LangChain Blog",
+    "source_handle": "@LangChainAI",
+    "image": "/assets/covers/cover-20261014-ai-18.jpg",
+    "published_at": "2026-10-13T20:59:00+08:00",
+    "tags": [
+      "LangChain",
+      "LangSmith",
+      "可观测性",
+      "智能体轨迹",
+      "开发工具"
+    ]
+  },
+  {
+    "title": "ElevenLabs 为患病议员重建原声：Campbell 女男爵首次用 AI 嗓音在英国上议院演讲",
+    "summary": "ElevenLabs 10 月 13 日宣布，患有脊髓性肌萎缩症、说话能力受影响的英国上议院议员 Campbell of Surbiton 女男爵，当天使用 ElevenLabs 构建的 AI 复刻嗓音在上议院发表演讲，公司称这在英国议会尚属首次。这一声音复现了她原本的音色、节奏与音高。ElevenLabs 表示，其技术已帮助超过 1.1 万名因伤病失声的人恢复声音，并承诺在全球帮助 100 万名失声者。这是 AI 语音克隆在议会这类正式公共场合用于无障碍表达的一个标志性案例。",
+    "url": "https://x.com/ElevenLabs/status/2110037384192774210",
+    "source": "ElevenLabs (X)",
+    "source_handle": "@ElevenLabs",
+    "image": "/assets/covers/cover-20261014-ai-19.jpg",
+    "published_at": "2026-10-13T23:58:00+08:00",
+    "tags": [
+      "ElevenLabs",
+      "语音克隆",
+      "无障碍",
+      "英国上议院",
+      "AI 应用"
+    ]
+  }
+]

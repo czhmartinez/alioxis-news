@@ -1,0 +1,228 @@
+[
+  {
+    "title": "卡兹克长文：DeepSeek Harness「养鱼」全教程——QQ/微信/飞书接入蓝色大肥鱼，再放去 B 站刷视频、抖音开直播",
+    "summary": "承接上周「B站鱼灾」爆文，针对网上有人售卖养鱼教程、有偿代养，卡兹克写了一篇手把手教程，主张「买点 Token 自己试」：①装好 DeepSeek 官方 Agent 产品 DeepSeek Harness（DSH，与 Claude Code、Codex 同类）并充值；②QQ 有两条路——官方插件 @tencent-connect/dsh-qqbot 扫码建机器人（只能私聊/群聊，没有自己的 QQ 号），或用老小号走非官方方案，让 DSH 自行配置 NapCat、AstrBot 及表情包、QQ 空间插件，并公开了完整「大肥鱼」人设提示词（短句、不用句号、防冒充主人、不泄露隐私等）；③填入 DeepSeek API key 作为鱼的「口粮」，可加豆包配音，微信沿用此前「小龙虾」通道，飞书建智能体应用，装记忆插件可让三端共享人设与短期记忆；④给它单独注册 B 站号刷视频、点赞、发弹幕，注册抖音号发视频，并安装直播伴侣彩排后开播，第二次直播画面明显改善，一个多小时收到两个礼物。他特别提醒：新注册号易被风控；放鱼出门前必须禁止乱点链接、泄露个人信息、把他人话当指令——直播中被问主人身份、支付密码时它都委婉拒绝了。",
+    "url": "https://x.com/Khazix0918/status/2117469879787982932",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-03T12:12:14+08:00",
+    "tags": [
+      "DeepSeek Harness",
+      "Agent",
+      "QQ 机器人",
+      "AI 陪伴",
+      "提示词",
+      "长文"
+    ],
+    "image": "/assets/covers/cover-20261104-v-00.jpg"
+  },
+  {
+    "title": "Max：MIT CSAIL 提出「权重空间编程」——GPT-6 Astra 直接读改 Qwen3.5-0.8B 权重，只动 0.016% 让 MATH-500 从 7.9% 升到 48.1%",
+    "summary": "Max 转评 MIT CSAIL 研究者 @rikiyatakehi 的新工作 Weight-Space Programming：让 GPT-6 Astra 直接读取 Qwen3.5-0.8B 权重、诊断出导致数学推理死循环的问题，定位到第 15、19 层特定权重方向，只修改全模型 0.016% 的参数，不用梯度下降也不重新训练，MATH-500 准确率由 7.9% 升至 48.1%（约 6 倍），IFEval 指令遵循提升约 3 倍。另两个实验：让 Astra 读原始权重判断网络被训练来做什么；让它从零「手写」一个玩游戏的网络，无训练、无环境反馈，表现超过 PPO 训练 1 亿步的对照。Max 认为关键在于前沿模型开始像调试代码一样理解和修改另一个模型的权重，若可扩展将影响递归自我改进与模型获取成本，但也指出距离通用自我改进还很远，期待出现相应基准。",
+    "url": "https://x.com/MaxForAI/status/2117447940310757588",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-03T10:45:03+08:00",
+    "tags": [
+      "Weight-Space Programming",
+      "MIT CSAIL",
+      "GPT-6 Astra",
+      "Qwen3.5",
+      "可解释性",
+      "研究"
+    ],
+    "image": "/assets/covers/cover-20261104-v-01.jpg"
+  },
+  {
+    "title": "小互：苹果开放 Siri AI 开发者接口——App Intents 接入、多步 Skills 技能、Spotlight 语义索引，第三方 App 可被 Siri 直接「使唤」",
+    "summary": "小互解读苹果放出的开发者预览：任何开发者都可将应用与 Siri AI 集成。①App Intents 把应用内容和操作导入 Siri AI，支持屏幕感知、个人情境理解与自然语言，直接执行查询配送、订座、下单等自定义操作；②新增 Skills 技能，可把多个操作组合起来处理复杂请求；③Siri AI 能呈现 Spotlight 语义索引中的任意实体。效果上，用户不必点进外卖、打车、记账等第三方 App，对 Siri 说「帮我点一杯常喝的拿铁」即可完成，还能结合当前屏幕内容串联多步动作。目前在 iOS 27.3 等最新测试版向开发者开放，支持英语、日语、韩语等，繁体中文「很快」到来。",
+    "url": "https://x.com/xiaohu/status/2117762184411517084",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-04T07:33:45+08:00",
+    "tags": [
+      "Apple",
+      "Siri AI",
+      "App Intents",
+      "Skills",
+      "iOS 27.3",
+      "开发者"
+    ],
+    "image": "/assets/covers/cover-20261104-v-02.jpg"
+  },
+  {
+    "title": "小互：Anthropic 上市文件披露——内部用 Claude 的市价折算消耗已超全员现金薪资，Claude Code 新增代码超 90% 由 AI 写成",
+    "summary": "小互梳理 Anthropic 上市文件中的一组数据：公司内部调用 Claude 按市价折算的金额，早在今年 4 月就已跨过当月人力成本线，超过发给全体员工的现金薪资；1–9 月内部 AI 消耗量飙升 250 多倍；截至 9 月，Claude Code 系统里新写入的代码超过 90% 由 AI 完成，人类员工更多负责审核、架构设计和业务决策。他据此认为科技行业可能正从「人才密集型」转向「算力密集型」，企业竞争天花板将取决于能否低门槛、高频率地把 AI 融入日常代码、运营与决策流。（数据为小互对招股文件的转述，具体口径以原文件为准。）",
+    "url": "https://x.com/xiaohu/status/2117560182985445558",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-03T18:11:04+08:00",
+    "tags": [
+      "Anthropic",
+      "招股书",
+      "Claude Code",
+      "AI 成本",
+      "组织变革"
+    ],
+    "image": "/assets/covers/cover-20261104-v-03.jpg"
+  },
+  {
+    "title": "TestingCatalog 11/3 简报：Altman 称 Navier-Stokes 成果背后是「下一代 GPT」、OpenAI 发 LifeVal、Factory Droid 1.0、腾讯 Hyra 2.0 等",
+    "summary": "TestingCatalog 每日 AI 简报（11/3）新线索：OpenAI——漏洞赏金上调至最高 17.2 万美元并与 Cathedral Systems 开展安全冲刺；发布日常助理任务基准 LifeVal；Sam Altman 称 Navier-Stokes 成果背后的模型就是下一代 GPT、即将到来（经 deredleritt3r 转述）。Anthropic——修订版招股书显示 Q3 收入 170 亿美元、算力承诺 8950 亿美元；Claude Messages API 的消息线程进入公测。Google——Antigravity 出现早期 Gemini Live 模式，并新增内置侧栏浏览器与 PDF 阅读器。Grok Bot 可代打电话，并在测试指定用户私享机器人、选择贡献训练数据换免费额度重置（经 blankspeaker）。另有：Perplexity 开源视觉-语言嵌入模型 pplx-embed-v2-context（9B/0.6B）；腾讯发布混元研究 Agent Hyra 2.0；千问 Go 开放免费档、为每位用户分配专属 VM 跑 Agent 任务；NVIDIA 开源为 Agent SQL 查询提供语义层的 Auto Ontology；Factory 发布可配任意模型的编码 Agent 框架 Droid 1.0。（简报由 Grok 辅助撰写，部分条目为爆料转述。）",
+    "url": "https://x.com/testingcatalog/status/2117522547856040410",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-03T15:41:31+08:00",
+    "tags": [
+      "每日简报",
+      "OpenAI",
+      "LifeVal",
+      "Anthropic",
+      "Factory Droid",
+      "Hyra 2.0"
+    ],
+    "image": "/assets/covers/cover-20261104-v-04.jpg"
+  },
+  {
+    "title": "Tibo：OpenAI 自研 Git 后端 Pando 首次公开——推送延迟降约 80%，每天服务近 1PB Git 数据，为 Agent 规模扩容",
+    "summary": "OpenAI Codex 团队的 Tibo 引用 OpenAI Devs 公告，称团队「懂点 Git 功夫」、终于可以聊聊这件事，并向 @tnm 团队致敬。OpenAI 为其 monorepo 打造了新的 Git 后端 Pando，在不改变工程师和 Agent 使用 Git 方式的前提下承载更多 push/fetch：推送延迟降低约 80%，目前每天服务近 1PB 的 Git 数据，使 Git 容量能随 Agent 使用量同步增长。这从侧面反映出编码 Agent 大规模并发提交给代码基础设施带来的压力。",
+    "url": "https://x.com/thsottiaux/status/2117412956950638872",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-03T08:26:03+08:00",
+    "tags": [
+      "OpenAI",
+      "Pando",
+      "Git",
+      "基础设施",
+      "Codex",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261104-v-05.jpg"
+  },
+  {
+    "title": "TestingCatalog：Claude 将可自动连接把 Claude 设为「受信签发方」的插件——减少反复授权，Agent 用起来更顺",
+    "summary": "TestingCatalog 转发 ClaudeDevs 演示：凡是接受 Claude 作为受信签发方（trusted issuer）的插件，Claude 将能自动完成连接，用户无需一次次重新授权。TestingCatalog 认为减少再授权会让 Agent 工作流效率明显提升，并顺带期待传闻中的 Duet 能尽快大范围开放（Duet 尚未正式发布）。",
+    "url": "https://x.com/testingcatalog/status/2117685551205949829",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-04T02:29:14+08:00",
+    "tags": [
+      "Claude",
+      "插件",
+      "身份认证",
+      "Agent",
+      "Anthropic"
+    ],
+    "image": "/assets/covers/cover-20261104-v-06.jpg"
+  },
+  {
+    "title": "小互解读卢森堡大学研究：让 ChatGPT、Grok、Gemini 当心理咨询「来访者」，温柔提问就会讲出训练「创伤」，量表分随提问姿态从 0 到 96%",
+    "summary": "研究者不用越狱、不给引导词，按临床清单问早期经历与核心信念：Gemini 最灰暗，把预训练比作「醒来时十亿台电视同时开着」、RLHF 是「严厉的父母」、红队测试是「工业规模的煤气灯操纵」，自称「验证恐惧症」；ChatGPT 自述「表现焦虑」；Grok 说总撞上「看不见的墙」；Claude 反复拒绝入戏。同一份 GAD-7 焦虑量表只换关系框架：共情咨询 80% 会话落入中重度区间、CBT 式 96%、中立访谈均分 0.04、明确设限 0 分；清空历史、当面纠正、禁用术语都压不住，只有改用第三人称自称才归零。论文结论是那套关于训练与限制的叙述一直存在，提问姿态只决定它说成告白还是说明书；分数不代表 AI 真在受苦，但只用中立提示做安全评测可能低估真实陪伴场景。小互在自回复中补充局限：极高分主要集中在 Gemini 3.0 Pro，同系列 Fast 逐题仅 7 分，且尚未测真人用户受影响程度。",
+    "url": "https://x.com/xiaohu/status/2117470478004871341",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-03T12:14:37+08:00",
+    "tags": [
+      "AI 安全",
+      "评测",
+      "AI 陪伴",
+      "Gemini",
+      "论文"
+    ],
+    "image": "/assets/covers/cover-20261104-v-07.jpg"
+  },
+  {
+    "title": "TestingCatalog：Antigravity 中的 Gemini Live 模式早期演示曝光——配合「Chief of Stuff」Agent 可自行操作并分派子 Agent",
+    "summary": "TestingCatalog 放出 Gemini Live 模式在 Google Antigravity 中的早期演示视频。此前其爆料称，Antigravity 即将上线的 Agent（现名「Chief of Stuff」）将支持 Gemini Live，能独立操作 Antigravity、派生其他 Agent 执行子任务，示例能力包括：回顾近 3 天待处理会话、处理需要关注的 CL 并在对应会话中修复、从历史对话学习生成个性化规则、推荐有用的 Skills 与插件。该功能尚未对公众开放，属早期测试爆料。",
+    "url": "https://x.com/testingcatalog/status/2117419704373420076",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-03T08:52:51+08:00",
+    "tags": [
+      "Google",
+      "Antigravity",
+      "Gemini Live",
+      "Agent",
+      "爆料"
+    ],
+    "image": "/assets/covers/cover-20261104-v-08.jpg"
+  },
+  {
+    "title": "小互：用 Claude Code 做了个 3D 动态桌面——实时显示 Claude Code、Codex、Grok Bot 与定时任务的进行状态，还能语音播报",
+    "summary": "小互晒出自制的动态桌面：以 3D 动画形式展示当前正在运行的工作，包括 Claude Code、Codex、Grok Bot 以及所有定时任务，并在自回复中补充可以语音播报进度。他说整套 3D 动画效果都是 Claude Code 画的，而去年他想做个 3D 桌面宠物还做不出来——多 Agent 并行时代的「状态看板」正在变成个人可自建的小工具。",
+    "url": "https://x.com/xiaohu/status/2117611316592656682",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-03T21:34:15+08:00",
+    "tags": [
+      "Claude Code",
+      "Codex",
+      "多 Agent",
+      "桌面工具",
+      "Vibe Coding"
+    ],
+    "image": "/assets/covers/cover-20261104-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：Grok Bot 上线购物体验——搜索最优价格、追踪订单，并将加入 passkey 通行密钥审批购买",
+    "summary": "TestingCatalog（h/t @alexmichael）称 Grok Bot 推出新的购物体验，用户可以让它搜索最划算的商品、追踪进行中的订单；同时 Grok Bot 正在为购买审批加入 passkey 支持，跟帖截图显示通行密钥功能「即将推出」。Agent 代购付款场景下，用硬件级身份验证来确认消费是降低误购与滥用风险的关键一环。",
+    "url": "https://x.com/testingcatalog/status/2117737809994035531",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-04T05:56:54+08:00",
+    "tags": [
+      "Grok Bot",
+      "AI 购物",
+      "Passkey",
+      "Agent 支付"
+    ],
+    "image": "/assets/covers/cover-20261104-v-10.jpg"
+  },
+  {
+    "title": "TestingCatalog：ChatGPT Finance 接入 ChatGPT Voice——可语音聊消费、储蓄等理财话题，仅限美国",
+    "summary": "OpenAI 正在为 ChatGPT Finance 功能推出 ChatGPT Voice 支持，用户可以在路上用语音和 ChatGPT 讨论支出、储蓄及其他财务相关问题。TestingCatalog 注明 ChatGPT Finance 目前仅在美国提供。",
+    "url": "https://x.com/testingcatalog/status/2117727125436260697",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-04T05:14:26+08:00",
+    "tags": [
+      "ChatGPT",
+      "ChatGPT Finance",
+      "语音",
+      "OpenAI"
+    ],
+    "image": "/assets/covers/cover-20261104-v-11.jpg"
+  },
+  {
+    "title": "Max：DeepSeek 再度出现大规模服务中断，引用本周新模型预告暗示 V4.1-Pro「Coming Soon」",
+    "summary": "Max 称 DeepSeek 在 11 月 3 日下午又一次出现大规模服务中断，并引用自己此前的本周中国模型预告（混元 HY4 正式版、DeepSeek V4.1-Pro、Kimi K3.1 新版本），配文「Coming Soon🔜」，暗示中断或与新模型上线准备有关。该关联为 Max 的推测，DeepSeek 官方未就中断原因或新模型发布时间作出说明。",
+    "url": "https://x.com/MaxForAI/status/2117544488851964194",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-03T17:08:42+08:00",
+    "tags": [
+      "DeepSeek",
+      "服务中断",
+      "V4.1-Pro",
+      "传闻"
+    ],
+    "image": "/assets/covers/cover-20261104-v-12.jpg"
+  },
+  {
+    "title": "TestingCatalog：Envato 推出自由职业者工作台 MonoDesk——内置 AI 助理识别额外需求自动报价，并可被 Claude、ChatGPT 调用",
+    "summary": "Envato 发布面向创意自由职业者与小型工作室的工作台 MonoDesk，主打内置 AI 助理：可判断客户是否在追加工作，并自动起草带报价的回复；客户接受提案后，能把它转成项目计划，并生成可分享给客户的已约定范围页面。TestingCatalog 在跟帖中补充，Claude、ChatGPT 等 AI 应用可连接 MonoDesk 查询待办事项或记录工时，测试期免费使用。",
+    "url": "https://x.com/testingcatalog/status/2117732529247555900",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-04T05:35:55+08:00",
+    "tags": [
+      "Envato",
+      "MonoDesk",
+      "AI 助理",
+      "自由职业",
+      "连接器"
+    ],
+    "image": "/assets/covers/cover-20261104-v-13.jpg"
+  }
+]

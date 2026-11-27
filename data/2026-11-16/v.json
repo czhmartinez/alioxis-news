@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Max for AI：认同「AGI 已至」，称 GPT-6 Astra 是首个达到 AGI 级能力的模型，Fable 5.2 与 Opus 5.5 也可部分或全部接管电脑工作，但担忧普通人受益不足、白领被更廉价的智能体替代（个人判断）",
+    "summary": "Max for AI 引用 @farzyness 一条称「我们已经实现了 AGI」、阅读量约 20 万的帖子，表示「他说得没什么问题」。Max 的判断是：第一个真正达到 AGI 级能力的模型应是 GPT-6 Astra；如今 Claude Fable 5.2 和 Opus 5.5 也已展现出类似能力，即可以全部或部分接管人类在电脑里的工作。他还写道，「甚至还没等到下一代 Fable 5.5 发布，我们就已经走到了这一步」（对未发布模型的个人预期）。长文后半转向社会影响：他觉得这件事「挺可悲」，期待多年的 AGI 到来后似乎并未给大多数普通人带来多少好处，反而有越来越多的人失去工作；他提到微软在裁员、国内互联网大厂开始新一轮「架构调整」，程序员以及文员、秘书、行政、客服和不少分析研究岗位都面临压力——过去要坐在电脑前数小时甚至数天的工作，现在一个可 24 小时运行的 AI Agent 几乎能全部接走，且「在越来越多的场景下，雇佣一个不需要休息、不需要社保、可以随时扩容的 Claude 或 GPT，成本已经比雇佣一个人更低了」。他问：若绝大多数人的劳动在经济上不再有竞争力，该依靠什么生活？「我不知道。AGI 可能真的已经来了。但我们似乎还没有准备好迎接一个不再需要那么多人工作的世界。」以上均为个人观点与观察，未给出可核对的裁员或成本数据；被引用的 @farzyness 原帖把「Grok Bot + Opus/Fable + Argon」称为「无所不能的数字栈」，由 Grok Bot 来编排。",
+    "url": "https://x.com/MaxForAI/status/2121939379069534675",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-15T20:12:26+08:00",
+    "tags": [
+      "AGI",
+      "GPT-6 Astra",
+      "Claude",
+      "就业",
+      "观点"
+    ],
+    "image": "/assets/covers/cover-20261116-v-00.jpg"
+  },
+  {
+    "title": "卡兹克：大屏同时开 Claude、Antigravity 和 GPT；称 Gemini 4 Carbon 在方案、文档和创意上「维度不同」、可互相启发，但 Antigravity「太难用」，已改把 CLI 交给 Claude（个人体验）",
+    "summary": "卡兹克发了一张大显示器工作台照片，并写道「这时候就能显示出大显示器的好处了」：把 Claude、Antigravity 和 GPT 直接三开「还是很爽的」。他对 Gemini 4 Carbon 的体验是：这个模型「真的还挺有特点」，在方案设计、文档撰写和创意层面都不错，而且「维度跟 Claude 和 GPT 完全不一样」，是一个「还挺有意思的可以互相启发的模型」。但他同时直言「这个 Antigravity 实在是太难用，用户体验极差」，所以「直接搞 CLI 扔给 Claude 用去了」。以上均为个人使用感受，不是评测报告。",
+    "url": "https://x.com/Khazix0918/status/2121952242366595195",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-15T21:03:33+08:00",
+    "tags": [
+      "卡兹克",
+      "Antigravity",
+      "Gemini 4 Carbon",
+      "Claude",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20261116-v-01.jpg"
+  },
+  {
+    "title": "TestingCatalog 转述彭博社：苹果把 Siri AI 应用整合作为明年智能眼镜的核心，并称苹果似乎把 AI 当成「更严肃」的优先级",
+    "summary": "TestingCatalog 援引彭博社称，「Siri AI 整合是苹果即将到来的智能眼镜推进的核心」；并补充观察：「苹果现在似乎把 AI 当成『更严肃』的优先级」，同时用「Not soon」提示这并非短期就会上市的产品。他所引用的是 Mark Gurman 的 Power On 帖：苹果明年的下一款重要产品——计划明年推出的智能眼镜——将以 Siri AI 的应用整合为旗舰功能，设想是从「Apple Glasses」上叫车、订位或点咖啡，应用则在配对的 iPhone 上运行。本频道 AI新闻另以 MacRumors 对同一通讯的报道收录了更完整的产品细节（计划 2027 年 WWDC 发布、年底出货、首款无 AR 显示等）；本条取 TestingCatalog 的简报角度，URL 不冲突。消息源为彭博社，苹果尚未官方宣布。",
+    "url": "https://x.com/testingcatalog/status/2122006928826257731",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-16T00:40:51+08:00",
+    "tags": [
+      "苹果",
+      "Siri AI",
+      "智能眼镜",
+      "彭博社",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261116-v-02.jpg"
+  },
+  {
+    "title": "TestingCatalog：Claude Code 的 Project 设置已可给 Coordinator 与 Threads 配置不同模型，并支持自定义视图和把产物分配到视图；官方称协调器更主动",
+    "summary": "TestingCatalog 发「ICYMI」简报称：现在可以在 Claude Code 的 Project 设置里，为 Coordinator 和 Threads 配置不同的模型；Projects 近期还有多项小升级，包括创建自定义视图、并把产物（artifacts）分配到这些视图。他将这套能力称为「Conway」。所引用的 @ClaudeDevs 11 月 13 日帖说，Claude Code 的 Projects 有重大更新：在一个项目里，Claude 会跨并行线程协调任务；协调器现在「主动得多」，会在项目聊天里回答问题，并通报正在进行的线程状态。简报写于周日，产品改动原帖在周五晚（UTC）。",
+    "url": "https://x.com/testingcatalog/status/2121990594784374810",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-15T23:35:57+08:00",
+    "tags": [
+      "Claude Code",
+      "Projects",
+      "模型路由",
+      "Agent",
+      "开发工具"
+    ],
+    "image": "/assets/covers/cover-20261116-v-03.jpg"
+  },
+  {
+    "title": "Tibo 为 OpenAI 网络安全团队征求 Daybreak 反馈，点名模型、Codex 插件、蓝/红队权限、文档、红队与 Defense Factory",
+    "summary": "OpenAI Codex 团队的 Tibo（@thsottiaux）发帖称，网络安全团队希望收集对 Daybreak 的反馈，并列了具体方面：模型、Codex 插件、蓝队/红队访问权限、文档、红队测试以及 Defense Factory，「我们还能做哪些更好或需要改进的事？」这是一次面向用户的产品意见征集，并非新功能发布。Daybreak 红队与 Defense Factory 的官方介绍已在 11 月 13 日 AI新闻收录，本条只取 Tibo 征求反馈、并点名上述模块的角度。",
+    "url": "https://x.com/thsottiaux/status/2121845965997101118",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-15T14:01:14+08:00",
+    "tags": [
+      "OpenAI",
+      "Daybreak",
+      "网络安全",
+      "Codex",
+      "产品反馈"
+    ],
+    "image": "/assets/covers/cover-20261116-v-04.jpg"
+  },
+  {
+    "title": "TestingCatalog：Gemini Notebook 即将推出的 Comic 产物配置页更新了可见的风格示例，并猜测可能接近 NB3 发布（未证实）",
+    "summary": "TestingCatalog 发简报称，Gemini Notebook 上一个即将推出的「Comic」产物配置页面有了一处小更新，使风格示例变得可见；并写道「现在也许是 NB3 发布的好时机」。后一句是他的推测，页面更新本身只说明配置界面展示了风格样例，并不构成 Google 已宣布 Notebook 新版本的证据。本条按产品界面线索收录，并把 NB3 时间表标为未证实猜测。",
+    "url": "https://x.com/testingcatalog/status/2121767000963756381",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-15T08:47:28+08:00",
+    "tags": [
+      "Gemini",
+      "Notebook",
+      "产品线索",
+      "Comic",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261116-v-05.jpg"
+  }
+]

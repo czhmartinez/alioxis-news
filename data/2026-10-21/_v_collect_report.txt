@@ -1,0 +1,46 @@
+大V视野收集报告 — 2026-10-21（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用 2026-10-20 _v_raw_mcp.json 中已解析的 id → get_users_posts（exclude=replies, start_time=2026-10-19T20:00:00Z, max_results=25；@testingcatalog 为 40）
+- 长文补全：get_posts_by_ids（note_tweet / article，27 个 id，含卡兹克 X 长文 article 全文、Max 长帖、TestingCatalog 自线程补充与被引用的 Eagle/Mistral/OpenAI/Coco Labs/Krea 原帖）
+- 辅助核验：search_posts_all，(from:MaxForAI OR from:xiaohu OR from:Khazix0918 OR from:gengdaJ OR from:thsottiaux) -is:reply，start_time=2026-10-19T20:00:00Z（11 条，均已在 get_users_posts 中出现，另含卡兹克 Mac mini 帖的 2 个早期编辑版本，无新增）
+- 未使用浏览器关注页；未使用 user-X；本次共 8 次 X 读取
+
+入选：16 条
+各 handle 入选计数：
+  @Khazix0918: 2
+  @MaxForAI: 2
+  @xiaohu: 0
+  @thsottiaux: 1
+  @testingcatalog: 11
+  @gengdaJ: 0
+
+原始拉取条数摘要：
+  @Khazix0918: 2（Mac mini 自建 CI 帖 + 长文《有人做了35万个AI，只为了反过来骗骗子。》；均入选）
+  @MaxForAI: 4（含《里贝》自回复补充 1 条已并入主帖摘要、「Bro你不能只在戳到你xp的时候…」梗帖 1 条）
+  @xiaohu: 3（DHS 禁采 DeepSeek 帖、「文件原文」链接碎片、触屏 eSIM MacBook / 苹果发布会）
+  @thsottiaux: 2（4 万账户额度异常说明 + Day 15 reset 帖，后者并入前者摘要）
+  @testingcatalog: 24（其中 8 条为自线程补充/Documented 回复，已并入主帖摘要）
+  @gengdaJ: 0（窗内无新帖）
+
+Lead：TestingCatalog：Perplexity Computer macOS 版上线完全本地模式——基于 Qwen 3.8 后训练的 PPLX Pro，断网免积分
+Lead URL：https://x.com/testingcatalog/status/2112619795585855738
+（DeepSeek 开源 DeepInfer 为 AIHOT 当日头条，大V视野头条改用 Perplexity Computer 本地模式以避免两个页签头条同题，Max 的 DeepInfer 解读放第 1 条）
+
+筛选说明：
+- 跳过梗图/非 AI：Max「Bro你不能只在戳到你xp的时候才支持AI生成动画」（引用梗图）；小互触屏 eSIM MacBook / 苹果 10 月 28 日发布会（非 AI）；TestingCatalog Grok Bot 南瓜头像（节日小功能，10-20 已跳过）
+- 跳过碎片：小互「文件原文」链接回复；Max《里贝》自回复（并入主帖）；TestingCatalog 各 Take a look/Test it out/Testing link/Documented 自回复（并入主帖）
+- 同题去重：DHS 禁采 DeepSeek——小互 2112322272992379000 与 10-20 已入选 Max 解读同题，跳过；EAGLE-4 保留 TestingCatalog 主帖 2112665677152829772，GitHub/HF 补充帖 2112665680751321287 并入；Tibo Day 15 reset 帖 2112432076767289678 并入额度异常说明
+- 跳过汇总：TestingCatalog DAILY AI BRIEF Oct 20（与 10-20 已收 ChatGPT Slides、Decisions 等重叠）
+- 与 2026-10-07～10-20 v.json 及 ai.json 去重（425 个 URL，见 _prior_urls.json）：跳过 TestingCatalog ChatGPT Slides 协作（2112309941058818222）、Decisions API 试验场（2112334786794528884）、Skyfall SKY-001（2112274382122865149 及其补充 2112274384895524879）——均为 10-20 已入选同题；入选 16 条无重复 URL
+- 角度不同保留：卡兹克长文中的 Apate 在 10-15 ai.json 有新闻稿，本条为卡兹克评论并新增国内「AI 小海」反击视频内容；Krea 3 在 10-16 已收发布，本条为 Artificial Analysis 图像编辑榜成绩；GPT-6.1 Terra 在 10-20 有 The Information 预告，本条为微软 PR 新线索，排末位
+- 窗口内三位优先账号：卡兹克 2 条、Max 2 条入选；小互仅有 DHS 同题与非 AI 帖，0 条
+
+输出文件：
+  data/2026-10-21/v.json
+  data/2026-10-21/_cover_prompts_v.json
+  data/2026-10-21/_v_raw_mcp.json
+  data/2026-10-21/_v_collect_report.txt
+  data/2026-10-21/_prior_urls.json
+
+未执行：build / 生图 / 发布

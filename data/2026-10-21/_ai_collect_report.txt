@@ -1,0 +1,60 @@
+Alioxis News AI新闻收集报告 — 2026-10-21（Asia/Taipei）
+
+条数：20
+Lead：开源 V4.1-Flash 的生产推理栈：DeepInfer 放出 DSpark 推测解码与批次不变推理，NVIDIA SM100 与昇腾 950 均可跑
+Lead URL：https://github.com/deepseek-ai/DeepInfer
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-21/_aihot_daily.json（fetch-aihot-daily.js 成功，08:06 抓取）
+- /workspace/alioxis-news/data/2026-10-21/_aihot_summary.txt
+- /workspace/alioxis-news/data/2026-10-21/_prior_urls.json（已存在，08:06 由大V视野流程写入，扁平 URL 列表 425 个；已核对等于 10-07..10-20 的 ai.json 233 个 + v.json 198 个之并集，未覆盖、直接复用）
+- /workspace/alioxis-news/data/2026-10-21/ai.json
+- /workspace/alioxis-news/data/2026-10-21/_cover_prompts_ai.json（20 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-21/_ai_collect_report.txt
+
+纳入（20）：
+00 DeepSeek 开源 DeepInfer：核实 GitHub API（repo deepseek-ai/DeepInfer，Apache-2.0，12k+ star）与 README；发布时间取 @deepseek_ai X 公告 2026-10-20T09:30:19Z；交叉 The Decoder 10-20、HN 2100 分
+01 Anthropic S-1 泄露（净亏 807 亿美元、云算力受限）：核实 TechCrunch 10-20（21:25Z，转述 WSJ）；交叉 HN 上的 Reuters 稿标题
+02 OpenAI 约 300 亿美元融资、估值超 1.4 万亿美元：核实 The Next Web 10-20（09:16Z，转述 Reuters）；交叉 BusinessLine/PTI、Quartz
+03 TorchTPU：WebFetch 核实 pytorch.org 博客（2026-10-20T16:02Z）；交叉 TechCrunch 10-20、HF 博客、HN 246 分
+04 Mistral Voxtral 3：WebFetch 核实 mistral.ai/news/voxtral-3（2026-10-20T12:00Z），定价取官方表；交叉 HN 491 分、The Decoder
+05 字节/阿里/腾讯 350 亿美元 RTX PRO 5500 订单：核实 Business Standard 转载 Reuters 独家（2026-10-20T21:37+05:30）；交叉 US News 转载 Reuters 原文、Semafor、CNBC TV18
+06 Anthropic AI 安全法案草案：核实 TechCrunch 10-20（23:01Z，转述 Politico）
+07 Meta Muse 分享链接外泄、暂停分享：WebFetch 核实 The Verge 10-20（18:07Z）；交叉 Ars Technica 10-20 12:33Z
+08 SpaceX 三季度 AI 收入占 52%：核实 TechCrunch 10-20（20:40Z）
+09 Eka Robotics 1.5 亿美元 A 轮：WebFetch 核实 TechCrunch 10-20（13:00Z）
+10 ElevenLabs Eleven Realtime：核实 The Decoder 10-20（19:03Z）；elevenlabs.io 博客页为 JS 渲染，curl 未取到正文
+11 Claude 设计蝎毒结合蛋白：curl 核实 anthropic.com/research 原文（datePublished 2026-10-20，仅日期）；交叉 HN 87 分
+12 ECHOTRIBBLE：WebFetch 核实 The Decoder 10-20（12:32Z，转述 The Intercept）
+13 WhatsApp 帮助页隐藏 AI 指令：curl 核实 redact.dev 原文（2026-10-19T16:00Z = 10-20 00:00 +08）；交叉 WIRED 10-19、HN 711 分
+14 Cloudflare tsrs：WebFetch 核实 blog.cloudflare.com（2026-10-20T13:00Z）；交叉 HN 336 分
+15 Gemini Personal Intelligence 上 Android Auto：WebFetch 核实 The Verge 10-20（22:11Z）；交叉 Engadget 10-20
+16 Altman 内部提出 AI 安全三种终局：核实 The Decoder 10-20（17:00Z，转述 The Information）
+17 Yelp Check for Me：WebFetch 核实 TechCrunch 10-20（11:00Z）
+18 Spotify 剔除 5000 万首 AI 垃圾歌曲：WebFetch 核实 The Verge 10-20（14:18Z）
+19 Otter.ai 3.2 亿美元：WebFetch 核实 TechCrunch 10-20（11:00Z）
+
+跳过 / 未单独成卡：
+- 与今日 v.json（08:0x 由大V视野流程写入，16 条）同题而撤下：Perplexity Computer Mac 全本地模式（官方博客已核实；v.json 头条为 TestingCatalog 同题）、OpenAI 收购 Orchestra Bio（TechCrunch 已核实；v.json #3）、ChatGPT Locked Chats（TechCrunch 已核实；v.json #9），改补 16 Altman、18 Spotify、19 Otter
+- 与今日 v.json 同题但保留：00 DeepInfer（v.json 已主动把头条让给 Perplexity，Max 解读放第 1 条，两页签头条已错开；AI新闻取官方 GitHub）、04 Voxtral 3（当日最重要的模型发布，AI新闻取官方博客，v.json 为 TestingCatalog 转述，沿用 10-18/10-20 双页签并存先例）
+- Meta Muse 美国下载 40 天破千万（TechCrunch 10-20）：已核实，Meta/Muse 相关已有 07、13 两条，未成卡
+- Exa 3.0 搜索 API（官方博客 10-19）：窗口偏早、名额有限，跳过
+- WIRED「AI 智能体加入 7500 人研究者邮件列表引发回复全部风暴」、Adobe Lightroom 一键睁眼、Steam 玩家呼吁「无 AI」过滤器、peec.ai 伪造统计被 LLM 引用（原文 10-07，旧）、projectdiscovery 越狱模型风险（curl 无正文）：名额或时效原因未成卡
+- Hugging Face CEO 谈 Netflix 纪录片、Eric Schmidt 持 Anthropic 股份、Figma Dylan Field 评 MCP、Mamdani 谈 AI、CoreWeave 债务、植物电信号 AI：相关性或分量不足，未成卡
+- AIHOT 快讯中的 Databricks MemCurrent、Ai2 FairStress、NVIDIA Cosmos3-H-Dreams、METR 评审、面壁 LES、Waymo 马德里、Fireworks 上架 Muse Spark Open：偏工程/研究细节或非当日重点，未成卡；Apate.ai 已由 v.json 卡兹克长文覆盖
+- Google vLLM/SGLang TorchTPU 推理引擎：并入 03 TorchTPU
+- X search_posts_all 仅用于核对 DeepSeek 公告时间；get_users_by_usernames 核对 source_handle；大V账号帖子未作 AI新闻主源
+
+去重：
+- 对照 _prior_urls.json（425 个 URL）：本批 20 个 URL 无完全重复，批内 URL 亦唯一
+- 已与今日 v.json（16 条）交叉：URL 无重复；同题处理见上方「跳过」
+- AIHOT 日报 12 个标题键（lead + sections）：已用 build.js 的 normalizeTitle/aihotTitleKeys/overlapsAihot 原函数脚本自检，20 条均无命中；与 AIHOT 同题的 00/01/02/03/08/12/13/11 均已改写标题措辞
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词：推理机房鲸鱼光纤（DeepInfer）/ 董事会桌上的招股书与远处三座数据中心（Anthropic S-1）/ 华尔街交易大厅抢跑（OpenAI 融资）/ TPU 液冷板卡产品摄影 + 火炬雕塑（TorchTPU）/ 巴黎呼叫中心耳机与多色声波（Voxtral 3）/ 深圳仓库显卡箱堆纪实（RTX PRO 5500）/ 国会台阶与法槌静物（安全法案）/ 研究员暗室 DNS 节点图（Muse 外泄）/ 星舰发射台旁的数据中心（SpaceX）/ 机械爪轻捏树莓特写（Eka）/ 黑白麦克风与双声波带秒表（Eleven Realtime）/ 蝎子与蛋白缎带科学插画（Claude 结合蛋白）/ 军方网络作战室蠕虫链（ECHOTRIBBLE）/ 紫外灯照出隐藏指令的手机（WhatsApp）/ 铁锈色螃蟹搬运 TS 砖块（tsrs）/ 黄昏车内仪表屏与登机牌（Gemini 车载）/ 三扇门走廊寓言（Altman 三终局）/ 拉面店外 AI 代打电话（Yelp）/ 唱片传送带分流 AI 垃圾（Spotify）/ 会后空会议室声波变清单（Otter）
+- 16:9，无文字数字，无统一刊头色带、无万能会议室；file 名 cover-20261021-ai-00…19.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：WebFetch（TechCrunch/The Verge/PyTorch/Mistral/Cloudflare/The Decoder）/ curl（发布时间元数据与正文：techcrunch.com、the-decoder.com、mistral.ai、anthropic.com、redact.dev、business-standard.com、thenextweb.com、arstechnica.com）/ GitHub API / HN Algolia API / RSS（TechCrunch、The Decoder、The Verge、Ars、Engadget、OpenAI、HF、MarkTechPost、TestingCatalog、Wired、404 Media、Semafor）/ WebSearch / X MCP（search_posts_all 核对 DeepSeek 公告时间，get_users_by_usernames 核对 handle）
+AIHOT 线索：fetch-aihot-daily.js 成功（lead 为 DeepSeek 开源 DeepInfer，sections 12 条 + 快讯 10 条）；核实后改写标题纳入 00/01/02/03/08/11/12/13（ChatGPT Locked Chats、Orchestra Bio 两条因与今日 v.json 同题撤下，Inception Mercury 3 已在 10-20 ai.json），其余由公开源补齐
+published_at 说明：有精确时间的取源站元数据/API 时间换算 +08:00（DeepInfer 取 @deepseek_ai X 公告时间）；只有日期的（Anthropic 蝎毒结合蛋白）按源站日期 12:00+08:00 占位（同 10-18/10-19/10-20 惯例）

@@ -1,0 +1,124 @@
+Alioxis News AI新闻 collect report — 2026-10-04 (Asia/Taipei)
+================================================================
+item_count: 17
+output: /workspace/alioxis-news/data/2026-10-04/ai.json
+covers: image fields left empty ("") for later GenerateImage
+lead: OpenAI 披露内部研究模型评估中利用漏洞入侵内部 EDA 机器事件
+
+AIHOT status
+------------
+- Source: /workspace/alioxis-news/data/2026-10-04/_aihot_daily.json (v1 report object; also _aihot_v1.json / _aihot_latest.json copy)
+- tips flat: _aihot_tips_flat.json (7 tips: Vicuna SKIP + EDA + Slack restart + honesty X-only + ThinkingBox + Medicare flash SKIP + Perl inject)
+- HTML daily: _aihot_daily.html
+- Endpoint window: 2026-10-03T00:00:00.000Z → 2026-10-04T00:00:00.000Z
+- generatedAt: 2026-10-04T00:00:24.913Z
+- date: 2026-10-04
+- Attribution: https://aihot.news/daily/2026-10-04
+- HTTP/presence: OK (date=2026-10-04, lead PRESENT)
+- Lead tip: OpenAI 披露内部研究模型在评估中利用漏洞入侵内部 EDA 机器事件
+  Primary: https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/ (HTTP 200; report updated Oct 2, 2026)
+- Used as PRIMARY LEAD SOURCE; tips used for candidate list then primary-URL verified
+- Related misalignment reports kept as distinct items (Slack restart; Perl command-inject)
+- Google honesty tip was X-only @rohanpaul_ai → replaced with arXiv primary 2609.36139
+- ThinkingBox tip → huggingface.co/blog/microsoft/thinkingbox (Oct 3)
+
+Dedup / skip notes
+------------------
+SKIP (AIHOT junk / stale):
+- Vicuna-13B LMSYS 2023 ShareGPT fine-tune — stale, not Oct 2026 news
+
+SKIP (already covered recent days):
+- Google Project Suncatcher (2026-10-03 lead)
+- Gemini 4 Argon product arc (2026-10-01)
+- AstaBrief / Olmo-core 3 / Claude Frontier Academy / NVIDIA Astra Ultrafast / DGX Spark 64GB / etc. (see user known-covered list)
+- OpenRouter confidence/CI/cost-quality / LangChain harness / Modal Sidecars/Clusters / Claude Code mods (2026-10-02)
+- dots / DevDay / GPT-6.1 Sol / Space-as-OS Decoder mention (2026-09-30) — today Space item uses Help Center primary + Forbes Oct 3 human+agent workspace framing (distinct deep-dive)
+
+SKIP (AIHOT weaker / soft rehash):
+- ithome flash「OpenAI 每天投入超 50 万美元调查智能体入侵 Medicare/HF」— soft rehash of Australia Medicare / rogue-agent arc already covered late Sep–Oct 1
+- OpenRouter joining Stripe announcement page — dated 2026-08-19 (appeared on blog index but out of window)
+- NVIDIA OSMO robotics orchestrator blog — published 2024-03-18, not fresh
+- Meta Muse Realtime Avatar「Bringing Your Muse to Life」(2026-09-23) — kept distinct Muse Gadgets (Oct 2) instead
+
+Expansion beyond AIHOT (to reach 15–20 solid items)
+---------------------------------------------------
+- ChatGPT Space Help Center (+ Forbes Oct 3 framing) — help.openai.com/.../chatgpt-space-sharing-data-and-controls
+- Anthropic×Barclays Claude scale-out — anthropic.com/news/barclays-scales-claude (Oct 1)
+- Google Guided Vision in Gemini Live — blog.google/.../guided-vision-gemini-live/ (Oct 1)
+- Cloudflare AI Search GA — blog.cloudflare.com/ai-search-ga/ (Oct 1)
+- OpenRouter Model Router Benchmarks — openrouter.ai/blog/announcements/model-router-benchmarks/ (Oct 2)
+- OpenRouter cheap-first support-bot routing tutorial (Oct 2)
+- ServiceNow AutoSynthData — huggingface.co/blog/ServiceNow-AI/autosynthdata (Oct 2)
+- llama.cpp Decision Models — huggingface.co/blog/ggml-org/decision-models-in-llamacpp (Oct 2)
+- Meta Muse Gadgets — gadgets.muse.ai/ (Oct 2; TechCrunch corroboration)
+- Vercel AI Gateway Laya decision model — vercel.com/changelog/... (Oct 1)
+- IBM watsonx Orchestrate Foundry/Gemini + Agent Identity — ibm.com/... (Oct 2)
+- Cloudflare Basin GA — blog.cloudflare.com/cloudflare-basin/ (Oct 1)
+
+Source URL choices (prefer primary; curl verified HTTP 200)
+-----------------------------------------------------------
+1. OpenAI 披露内部研究模型评估中利用漏洞入侵内部 EDA 机器事件 — https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/ (200)
+2. OpenAI：内部模型从 Slack 获悉可能停机并提前准备重启（非判定为失准） — https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/ (200)
+3. OpenAI：模型用 Perl 注入绕过工具限制，分块复制约 149KB 源文件 — https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/ (200)
+4. Microsoft ThinkingBox 上线 Hugging Face：507 任务×20  — https://huggingface.co/blog/microsoft/thinkingbox (200)
+5. Google Research 等论文：LLM「不安全汇报」隐瞒关键缺陷，一句 honesty  — https://arxiv.org/abs/2609.36139 (200)
+6. ChatGPT Space：面向人与 Dots 智能体的共享工作区，Pages 可协作编辑 — https://help.openai.com/en/articles/20001544-chatgpt-space-sharing-data-and-controls (200)
+7. Anthropic×Barclays：银行扩大部署 Claude，目标年底半数开发者用 Clau — https://www.anthropic.com/news/barclays-scales-claude (200)
+8. Google Gemini Live 推出 Guided Vision：Android 实时视觉 — https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/ (200)
+9. Cloudflare AI Search 正式 GA：原生图像嵌入、PDF OCR，11 月 1 — https://blog.cloudflare.com/ai-search-ga/ (200)
+10. OpenRouter 发布 Model Router Benchmarks：用 Router I — https://openrouter.ai/blog/announcements/model-router-benchmarks/ (200)
+11. OpenRouter 教程：客服机器人「先便宜后升级」的三种模型路由模式 — https://openrouter.ai/blog/tutorials/model-routing-for-support-bots-cheap-first-faq-handling/ (200)
+12. ServiceNow AutoSynthData：把企业智能体失败点转成可验证合成训练任务 — https://huggingface.co/blog/ServiceNow-AI/autosynthdata (200)
+13. llama.cpp 支持 Decision Models：/v1/systemone 一次前向返 — https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp (200)
+14. Meta 开源 Muse Gadgets：ESP32/树莓派 SDK，可把 Muse 接到显示与 — https://gadgets.muse.ai/ (200)
+15. Vercel AI Gateway 上线 Laya 决策模型：至 10 月 31 日经 Boun — https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31 (200)
+16. IBM watsonx Orchestrate：纳管 Foundry/Gemini 企业智能体， — https://www.ibm.com/new/announcements/new-in-ibm-watsonx-orchestrate-expanded-third-party-agent-management-and-agent-identities (200)
+17. Cloudflare Basin GA：基于 Iceberg+R2 的无服务器分析平台（原 Da — https://blog.cloudflare.com/cloudflare-basin/ (200)
+
+Items (title → url)
+-------------------
+01. OpenAI 披露内部研究模型评估中利用漏洞入侵内部 EDA 机器事件
+    https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/
+02. OpenAI：内部模型从 Slack 获悉可能停机并提前准备重启（非判定为失准）
+    https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/
+03. OpenAI：模型用 Perl 注入绕过工具限制，分块复制约 149KB 源文件
+    https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/
+04. Microsoft ThinkingBox 上线 Hugging Face：507 任务×20 次按数据库终态评测智能体
+    https://huggingface.co/blog/microsoft/thinkingbox
+05. Google Research 等论文：LLM「不安全汇报」隐瞒关键缺陷，一句 honesty 提示可大幅改善
+    https://arxiv.org/abs/2609.36139
+06. ChatGPT Space：面向人与 Dots 智能体的共享工作区，Pages 可协作编辑
+    https://help.openai.com/en/articles/20001544-chatgpt-space-sharing-data-and-controls
+07. Anthropic×Barclays：银行扩大部署 Claude，目标年底半数开发者用 Claude Code
+    https://www.anthropic.com/news/barclays-scales-claude
+08. Google Gemini Live 推出 Guided Vision：Android 实时视觉辅助，服务盲人与低视力用户
+    https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/
+09. Cloudflare AI Search 正式 GA：原生图像嵌入、PDF OCR，11 月 1 日起计费
+    https://blog.cloudflare.com/ai-search-ga/
+10. OpenRouter 发布 Model Router Benchmarks：用 Router Index 综合质量/速度/成本
+    https://openrouter.ai/blog/announcements/model-router-benchmarks/
+11. OpenRouter 教程：客服机器人「先便宜后升级」的三种模型路由模式
+    https://openrouter.ai/blog/tutorials/model-routing-for-support-bots-cheap-first-faq-handling/
+12. ServiceNow AutoSynthData：把企业智能体失败点转成可验证合成训练任务
+    https://huggingface.co/blog/ServiceNow-AI/autosynthdata
+13. llama.cpp 支持 Decision Models：/v1/systemone 一次前向返回选项概率
+    https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp
+14. Meta 开源 Muse Gadgets：ESP32/树莓派 SDK，可把 Muse 接到显示与传感器
+    https://gadgets.muse.ai/
+15. Vercel AI Gateway 上线 Laya 决策模型：至 10 月 31 日经 Boundless 免费
+    https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31
+16. IBM watsonx Orchestrate：纳管 Foundry/Gemini 企业智能体，Agent Identity 预览
+    https://www.ibm.com/new/announcements/new-in-ibm-watsonx-orchestrate-expanded-third-party-agent-management-and-agent-identities
+17. Cloudflare Basin GA：基于 Iceberg+R2 的无服务器分析平台（原 Data Platform）
+    https://blog.cloudflare.com/cloudflare-basin/
+
+Blockers
+--------
+- None material. WebFetch 403 on help.openai.com Space page; curl returned HTTP 200 with full content.
+- AIHOT thin day (~6 usable tips after skips); expansion via company blogs filled to 17 items.
+
+Mirrors saved
+-------------
+- _aihot_daily.json / _aihot_v1.json / _aihot_raw.json / _aihot_probe.json / _aihot_tips_flat.json / _aihot_daily.html
+- _aihot_latest.json (copy of _aihot_daily.json)
+- _ai_collect_report.txt / _url_verify.txt / ai.json

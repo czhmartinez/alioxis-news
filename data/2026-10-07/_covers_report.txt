@@ -1,0 +1,39 @@
+Alioxis News covers 2026-10-07
+========================================
+ai-00 73103B /workspace/alioxis-news/assets/covers/cover-20261007-ai-00.jpg
+ai-01 69898B /workspace/alioxis-news/assets/covers/cover-20261007-ai-01.jpg
+ai-02 89308B /workspace/alioxis-news/assets/covers/cover-20261007-ai-02.jpg
+ai-03 63682B /workspace/alioxis-news/assets/covers/cover-20261007-ai-03.jpg
+ai-04 58820B /workspace/alioxis-news/assets/covers/cover-20261007-ai-04.jpg
+ai-05 38442B /workspace/alioxis-news/assets/covers/cover-20261007-ai-05.jpg
+ai-06 68023B /workspace/alioxis-news/assets/covers/cover-20261007-ai-06.jpg
+ai-07 71050B /workspace/alioxis-news/assets/covers/cover-20261007-ai-07.jpg
+ai-08 84153B /workspace/alioxis-news/assets/covers/cover-20261007-ai-08.jpg
+ai-09 105086B /workspace/alioxis-news/assets/covers/cover-20261007-ai-09.jpg (q66)
+ai-10 58654B /workspace/alioxis-news/assets/covers/cover-20261007-ai-10.jpg
+ai-11 78727B /workspace/alioxis-news/assets/covers/cover-20261007-ai-11.jpg
+ai-12 33716B /workspace/alioxis-news/assets/covers/cover-20261007-ai-12.jpg
+ai-13 62441B /workspace/alioxis-news/assets/covers/cover-20261007-ai-13.jpg
+ai-14 50211B /workspace/alioxis-news/assets/covers/cover-20261007-ai-14.jpg
+ai-15 94565B /workspace/alioxis-news/assets/covers/cover-20261007-ai-15.jpg
+ai-16 38835B /workspace/alioxis-news/assets/covers/cover-20261007-ai-16.jpg
+ai-17 64210B /workspace/alioxis-news/assets/covers/cover-20261007-ai-17.jpg
+ai-18 34960B /workspace/alioxis-news/assets/covers/cover-20261007-ai-18.jpg
+ai-19 70681B /workspace/alioxis-news/assets/covers/cover-20261007-ai-19.jpg
+v-00 67826B /workspace/alioxis-news/assets/covers/cover-20261007-v-00.jpg
+v-01 52812B /workspace/alioxis-news/assets/covers/cover-20261007-v-01.jpg
+v-02 46538B /workspace/alioxis-news/assets/covers/cover-20261007-v-02.jpg
+v-03 56436B /workspace/alioxis-news/assets/covers/cover-20261007-v-03.jpg
+v-04 62041B /workspace/alioxis-news/assets/covers/cover-20261007-v-04.jpg
+v-05 51140B /workspace/alioxis-news/assets/covers/cover-20261007-v-05.jpg
+v-06 45064B /workspace/alioxis-news/assets/covers/cover-20261007-v-06.jpg
+v-07 70938B /workspace/alioxis-news/assets/covers/cover-20261007-v-07.jpg
+v-08 66669B /workspace/alioxis-news/assets/covers/cover-20261007-v-08.jpg
+v-09 65957B /workspace/alioxis-news/assets/covers/cover-20261007-v-09.jpg
+v-10 75050B /workspace/alioxis-news/assets/covers/cover-20261007-v-10.jpg
+v-11 57777B /workspace/alioxis-news/assets/covers/cover-20261007-v-11.jpg
+v-12 61090B /workspace/alioxis-news/assets/covers/cover-20261007-v-12.jpg
+v-13 56970B /workspace/alioxis-news/assets/covers/cover-20261007-v-13.jpg
+v-14 59346B /workspace/alioxis-news/assets/covers/cover-20261007-v-14.jpg
+v-15 75999B /workspace/alioxis-news/assets/covers/cover-20261007-v-15.jpg
+total ai=20 v=16 time=2026-10-07 08:35:36 Asia/Taipei

@@ -1,0 +1,266 @@
+[
+  {
+    "title": "百度发布文心 ERNIE 5.5 Flash Preview 开源模型：编程与 Agent 大升级，用 Blender 建模、UE 5.8 连写 11 小时代码做出武侠游戏",
+    "summary": "小互整理百度世界 2026 当天发布：ERNIE 5.5 Flash Preview 是多路由 MoE，总参数 2800 亿、每 token 激活 140 亿，采用混合稀疏注意力，最长支持 100 万 token 上下文。官方演示包括：在虚幻引擎 5.8 里连续写 11 小时代码，用 C++ 独立搞定核心逻辑、做出第三人称武侠游戏《云岫行》（试玩时角色会悬空，模型把反馈变成脚底离地高度的测试）；两个智能体用 Blender Python API 分别建机场与飞机并编排动画；用 Python 写万行矢量代码复刻「鹈鹕测试」117 秒短片。百度称编程训练用了 1400 多万个可执行任务，Terminal-Bench 4.0 为 46.5、DeepSWE v1.1 为 71.2、纯文本 BlenderWorld 为 79.0（均为厂商自述）。小互还梳理了文心本周节奏：5 日开源 Base、9 日公布 ERNIE Evolve 提速结果、11 日发布后训练 Preview，并提供技术报告与模型下载。",
+    "url": "https://x.com/xiaohu/status/2120500117342175364",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-11T20:53:19+08:00",
+    "tags": [
+      "ERNIE 5.5",
+      "百度",
+      "开源模型",
+      "编程 Agent",
+      "Blender"
+    ],
+    "image": "/assets/covers/cover-20261112-v-00.jpg"
+  },
+  {
+    "title": "百度称首次用 RSI（递归自我改进）优化文心推理：AI 自己找慢点、改代码、跑测试，昆仑芯 P800 低延迟场景出字速度达 6.24 倍",
+    "summary": "小互转述百度技术博客：工程师先划定「可以改的范围」，AI 自行定位哪里慢、改代码、跑测试，改完跑得更快且输出结果对得上才保留改动。在昆仑芯 P800 的一项低延迟测试中出字速度达到改之前的 6.24 倍；另一项 GPU 测试中输出保持一致，同样时间多处理 33.7%。配套的 ECHO 多 token 预测方法让模型复用最后一层先「打草稿」、再由完整模型一次核对，连续猜对几个就一轮输出几个。小互评论「RSI 确实是下一个热门前沿方向」。以上数字均为百度自述，帖内指向技术 Blog 与 RSI 相关 blog。",
+    "url": "https://x.com/xiaohu/status/2120500133884555362",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-11T20:53:23+08:00",
+    "tags": [
+      "RSI",
+      "递归自我改进",
+      "百度",
+      "推理优化",
+      "昆仑芯"
+    ],
+    "image": "/assets/covers/cover-20261112-v-01.jpg"
+  },
+  {
+    "title": "Antigravity 上线 Swarm Mode：/swarm 并行调度多 Agent；Cursor 同日预告多人协作模式，Claude 与 Perplexity 也在做类似功能",
+    "summary": "TestingCatalog 称谷歌 Antigravity 的 Swarm Mode 已上线（上一日为开发中线索）：/swarm 是新的 Agent 编排命令，可并行运行多个 Agent 完成同一任务，被拉起的 Agent 通过共享留言板互相沟通。同日 TC 另帖称 Cursor 正在做多人模式，团队成员及其 Agent 可在统一工作区协作，基于现有 Projects 构建，「像是对 Antigravity swarm 的当天回应」，并称 Claude 与 Perplexity 也在开发类似的多人协作功能。后者来自 TC 转述的线索，Cursor 官方细节待确认。",
+    "url": "https://x.com/testingcatalog/status/2120311786675019824",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T08:24:58+08:00",
+    "tags": [
+      "Antigravity",
+      "Swarm",
+      "Cursor",
+      "多 Agent",
+      "编程工具"
+    ],
+    "image": "/assets/covers/cover-20261112-v-02.jpg"
+  },
+  {
+    "title": "Antigravity 向全部用户推出 Browser Use：TC 评其正成为谷歌「超级应用」，Gemini 桌面应用前景存疑",
+    "summary": "TestingCatalog 称谷歌正向 Antigravity 全体用户铺开 Browser Use（让 Agent 直接操作浏览器，帖附 21 秒演示视频）。TC 的个人判断是：Antigravity 正在变成谷歌整合各项能力的「超级应用」，这让 Gemini 桌面应用是否还有未来成了问题，并认为谷歌干脆应把 Gemini 功能都搬进 Antigravity、在那里发布 Agent。该判断是 TC 的观点而非谷歌官方表态。",
+    "url": "https://x.com/testingcatalog/status/2120618461646758191",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-12T04:43:35+08:00",
+    "tags": [
+      "Antigravity",
+      "Browser Use",
+      "Gemini",
+      "Agent",
+      "谷歌"
+    ],
+    "image": "/assets/covers/cover-20261112-v-03.jpg"
+  },
+  {
+    "title": "阿里 Qwen4-Max-Preview 上线：Qwen Chat、Agent 模式与 Token Plan 可用，主打更深知识、更强编码与 Agent 能力",
+    "summary": "TestingCatalog 转述阿里官方：Qwen4-Max-Preview 现已在 Qwen Chat、Agent Mode 和阿里 Token Plan 上线，官方称可「提前体验 Qwen4 更深的知识、更丰富的世界理解以及更强的编码与 Agent 能力」，面向复杂编码、办公与前端开发等专业软件工作流。此前 TC 另帖转发 Qwen 官方预告「Qwen4 is coming」。TC 同日简报称 Qwen4 Flash/Plus/27B 可能「即将」到来，属预测；TC 简报另称 Qwen4-Max 还进入 QwenWork、Qoder 与 Qwen 应用。基准成绩帖内未给出。",
+    "url": "https://x.com/testingcatalog/status/2120427059302297633",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T16:03:01+08:00",
+    "tags": [
+      "Qwen4",
+      "阿里",
+      "模型发布",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261112-v-04.jpg"
+  },
+  {
+    "title": "Gemini Decision API 上线：新模型 Gemini-decision-1 一次对最多 1000 个问题给出校准决策，跨文本、图像、音频、视频与 PDF",
+    "summary": "TestingCatalog 转述谷歌：Gemini Decision API 由新的 Gemini-decision-1 模型驱动，现已在 Google AI Studio 与 API 可用，官方描述为「在文本、图像、音频、视频和 PDF 上一次处理最多 1000 个问题，快速给出校准过的决策」。此前 TC 曾在 API 中发现该模型（当时 TC 称「今天没有 Flash，只有 Decision」）。定价与基准帖内未提及。",
+    "url": "https://x.com/testingcatalog/status/2120584426211979756",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-12T02:28:20+08:00",
+    "tags": [
+      "Gemini Decision 1",
+      "Google AI Studio",
+      "API",
+      "模型发布"
+    ],
+    "image": "/assets/covers/cover-20261112-v-05.jpg"
+  },
+  {
+    "title": "TestingCatalog 11/11 简报：Claude Meetings 将作为参会者加入 Google Meet、Carbon 进 GitHub Copilot 与 Perplexity、Muse 订阅用户有了专属邮箱",
+    "summary": "TC 当日简报（用 Grok 辅助撰写、人工挑选）中此前未收录的要点：Anthropic 的 Claude Meetings 将以参会者身份加入 Google Meet，面向 Team 与 Enterprise 开 beta；Pro/Max/Ultra/Team 用户在 12 月 10 日前可获一次完整额度重置。Gemini 4 Carbon 已在 GitHub Copilot 正式可用，在 Perplexity Computer 中据称以 40% 成本在 WANDR 上追平 Fable 5.2，在 Cursor 的 CursorBench 高强度模式得 60.4%；Gemini for healthcare 预览版接入 Epic 与 Oracle Health 只读连接器；谷歌扩大与 Adobe 合作；OpenAI 将于 11 月 12 日举行 Cyber at the Frontier 主题演讲，ChatGPT 商业版可通过 Sign in with ChatGPT 接入 Notion、v0、Warp 和 opencode；Meta Muse 向美加付费用户提供专属邮箱并可在聊天中预约 Uber Courier；ElevenLabs 发布 Scribe v3 与 Scribe v3 Live。简报同时有模型预测（Gemini 4 Hydrogen、GPT-6.2 等），均为推测。",
+    "url": "https://x.com/testingcatalog/status/2120442345044787636",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T17:03:45+08:00",
+    "tags": [
+      "简报",
+      "Claude Meetings",
+      "GitHub Copilot",
+      "Gemini for healthcare",
+      "ElevenLabs"
+    ],
+    "image": "/assets/covers/cover-20261112-v-06.jpg"
+  },
+  {
+    "title": "彭博：字节跳动将在数周内推出自家主动式 AI Agent，并计划 2029 年前成为前沿实验室",
+    "summary": "TestingCatalog 引述彭博报道称，字节跳动计划在未来几周内发布自己的「主动式」AI Agent，同时有意在 2029 年前成为前沿模型实验室，并调侃「SeeBot?」。产品名称、形态与时间点以字节官方为准；此为转述的媒体报道，TC 未给出更多细节。",
+    "url": "https://x.com/testingcatalog/status/2120538359122800736",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T23:25:17+08:00",
+    "tags": [
+      "字节跳动",
+      "主动式 Agent",
+      "彭博",
+      "Seed"
+    ],
+    "image": "/assets/covers/cover-20261112-v-07.jpg"
+  },
+  {
+    "title": "n8n Labs 发布开源 AI Agent Nod 研究预览：在 Telegram/WhatsApp 派活，催欠款发票、取消试用订阅这类小事自己动手",
+    "summary": "TestingCatalog 报道：n8n Labs 推出研究预览版开源 Agent「Nod」，面向催未付发票、取消试用订阅这类细碎任务，用户可通过 Telegram 或 WhatsApp 给它派活，它在自己的电脑上执行。Nod 可运行在 Mac 或用户自己的服务器上，Windows 11 为预览，允许设置月度花费上限；应用免费，费用由用户接入的 AI 提供商结算。仍是研究预览，稳定性与权限范围需自行评估。",
+    "url": "https://x.com/testingcatalog/status/2120536060258099456",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T23:16:09+08:00",
+    "tags": [
+      "n8n",
+      "Nod",
+      "开源 Agent",
+      "Telegram",
+      "研究预览"
+    ],
+    "image": "/assets/covers/cover-20261112-v-08.jpg"
+  },
+  {
+    "title": "Roma 2.0 发布：Mac/iPhone 待办 App，任务一添加就自主开工，可连 Gmail、Notion 与 Drive，邮件草稿需你批准才发",
+    "summary": "TestingCatalog 报道：Roma 发布 2.0，一款面向 Mac 与 iPhone 的待办应用，任务一旦添加便自主开始执行：用户可以口述杂乱想法，Roma 将其转成任务并在稍后交付可供审阅的成果。Roma 可连接 Gmail、Notion 与 Google Drive 起草回复、查找文件，起草的邮件始终等待用户批准后才会发出；周期性工作一句话即可设置。更多定价与可用地区帖内未提供。",
+    "url": "https://x.com/testingcatalog/status/2120571751159525788",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-12T01:37:58+08:00",
+    "tags": [
+      "Roma 2.0",
+      "待办",
+      "Agent",
+      "Gmail",
+      "Notion"
+    ],
+    "image": "/assets/covers/cover-20261112-v-09.jpg"
+  },
+  {
+    "title": "Rayline 推出 ARC：一个很小的路由模型，决定每一步交给哪个模型、思考多久，易步交轻模型、难步交强模型",
+    "summary": "TestingCatalog 报道：Rayline 发布 ARC，一个体量很小的 AI 模型，用来为任务的每个步骤选择该由哪个模型处理、需要想多久。用户可把任务发给 ARC，让它自动把简单步骤分给较轻的模型、困难步骤分给更强的模型，以换取更快、更省的执行；也可以让 ARC 只推荐最合适的模型，再在自己的环境里运行。节省幅度帖内没有给出数据。",
+    "url": "https://x.com/testingcatalog/status/2120614769631650146",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-12T04:28:54+08:00",
+    "tags": [
+      "Rayline",
+      "ARC",
+      "模型路由",
+      "成本优化"
+    ],
+    "image": "/assets/covers/cover-20261112-v-10.jpg"
+  },
+  {
+    "title": "Brevis 推出 Arca：免费 App 让你把电脑上的 AI 聊天和编程会话卖掉，上传前自动抹除姓名等身份信息，每周用 USDC 结算",
+    "summary": "TestingCatalog 报道：Brevis 发布免费应用 Arca，用户可挑选自己电脑上的 AI 聊天与编程会话出售并先看到价格区间；上传前 Arca 会移除姓名等可识别信息，审核通过的上传按周以 USDC 打入用户的加密钱包。对话数据的买家、脱敏的可靠性与隐私风险帖内未说明，使用前需自行评估。",
+    "url": "https://x.com/testingcatalog/status/2120489472659689611",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T20:11:01+08:00",
+    "tags": [
+      "Brevis",
+      "Arca",
+      "数据交易",
+      "隐私"
+    ],
+    "image": "/assets/covers/cover-20261112-v-11.jpg"
+  },
+  {
+    "title": "ChatGPT Finance 扩展到桌面端并可生成交互式财务小组件；ChatGPT 将于 12 月 11 日停用高级与标准语音模式",
+    "summary": "TestingCatalog 报道：OpenAI 将 ChatGPT Finance 扩展到 ChatGPT 桌面端，用户可基于自己的财务数据生成交互式小组件；该功能面向美国的 Free、Go、Plus、Pro 用户。同期 OpenAI 官方宣布 12 月 11 日起退役 ChatGPT 的高级与标准语音模式（7 月推出 GPT-Live 后语音使用量近乎翻倍，帖内称几乎所有用户已转用新语音）；TC 另帖推测可能意味着实时语音模型将再升级，属猜测。",
+    "url": "https://x.com/testingcatalog/status/2120646869013696889",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-12T06:36:27+08:00",
+    "tags": [
+      "ChatGPT Finance",
+      "ChatGPT Voice",
+      "OpenAI",
+      "桌面端"
+    ],
+    "image": "/assets/covers/cover-20261112-v-12.jpg"
+  },
+  {
+    "title": "Claude iOS App 将新增「已保存登录」：展示 Claude 可用于登录其他网站的凭据，TC 猜测为 Duet 合并预备",
+    "summary": "TestingCatalog 发现 Claude iOS 应用正在加入「Saved logins」板块，用户可在其中看到 Claude 可用来登录其他网站的凭据，TC 猜测这是 Duet 合并的准备工作（猜测）。这意味着 Claude 的网页操作能力将可代用户登录账号，具体权限与安全机制待 Anthropic 官方说明。仍属未发布的开发中功能。",
+    "url": "https://x.com/testingcatalog/status/2120670108481647089",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-12T08:08:48+08:00",
+    "tags": [
+      "Claude",
+      "iOS",
+      "Saved logins",
+      "Agent",
+      "安全"
+    ],
+    "image": "/assets/covers/cover-20261112-v-13.jpg"
+  },
+  {
+    "title": "SpaceXSI：Grok Bot 1.0 稳定版发布，Bot 可加入 Slack 并参加视频会议",
+    "summary": "TestingCatalog 转述 SpaceXSI 官宣：Grok Bot 的首个稳定版本 1.0 已发布，除多项改进外，Grok Bot 现在可以加入 Slack 并参与视频通话，TC 打趣「明天看来要有每日站会了」。帖中未给出完整更新清单，具体可用范围与套餐限制以 SpaceXSI 官方为准。",
+    "url": "https://x.com/testingcatalog/status/2120597292159762821",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-12T03:19:27+08:00",
+    "tags": [
+      "Grok Bot",
+      "SpaceXSI",
+      "Slack",
+      "视频会议"
+    ],
+    "image": "/assets/covers/cover-20261112-v-14.jpg"
+  },
+  {
+    "title": "Max 实测 Seedream 5.5 连续改图：同一张照片连改六轮，人脸、站位与背景基本稳住，2K 编辑单张约 0.28 元",
+    "summary": "Max 拿一张热门合影做了六轮连续编辑：换衣服、移除挡镜头的人、把两位人物请到左右两侧鼓掌、全员换喜庆服装、再换背景。结果是人物脸部、站位和餐厅背景基本保持，尤其是「移除人物」和「往图里加人」这两步以前很容易改崩，这次接住了，但仔细看仍有瑕疵、比例也有偏差。他引用官方公布的信息：Seedream 5.5 编辑一张 2K 方图约 0.28 元，比 5.0 Pro 便宜约 60%，文本 Token 不收费；并认为在电商、广告、设计里，稳定地修改同一张图比单次生成更重要。以上价格为官方公布、效果为个人实测。",
+    "url": "https://x.com/MaxForAI/status/2120474100737130803",
+    "source": "Max",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-11T19:09:56+08:00",
+    "tags": [
+      "Seedream 5.5",
+      "字节",
+      "图像编辑",
+      "实测",
+      "价格"
+    ],
+    "image": "/assets/covers/cover-20261112-v-15.jpg"
+  },
+  {
+    "title": "卡兹克发布长文《Claude Fable 5.2 证明了，AI 可以靠代码吞噬一切》",
+    "summary": "卡兹克在 X 发布第二篇关于 Claude Fable 5.2 的长文，标题为《Claude Fable 5.2证明了，AI可以靠代码吞噬一切。》（帖子正文只有文章链接，API 仅返回标题，未返回全文），帖文发布后短时间内获得约 6.7 万次浏览、476 次点赞。此前（11 月 10 日）他的实测长文聚焦 Fable 5.2 的审美与细节；本篇具体论点与案例需点开原文查看，这里不做推测。",
+    "url": "https://x.com/Khazix0918/status/2120366797459476668",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-11T12:03:33+08:00",
+    "tags": [
+      "卡兹克",
+      "Claude Fable 5.2",
+      "长文",
+      "代码"
+    ],
+    "image": "/assets/covers/cover-20261112-v-16.jpg"
+  }
+]

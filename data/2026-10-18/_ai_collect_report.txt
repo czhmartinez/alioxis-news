@@ -1,0 +1,49 @@
+Alioxis News AI新闻收集报告 — 2026-10-18（Asia/Taipei）
+
+条数：17
+Lead：DeepSeek 推 V4.1-Flash-1017：开源权重上架，DeepSWE 达 77.0 且任务更短更便宜
+Lead URL：https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-18/ai.json
+- /workspace/alioxis-news/data/2026-10-18/_cover_prompts_ai.json（17 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-18/_ai_collect_report.txt
+
+纳入（17）：
+00 DeepSeek-V4.1-Flash-1017 开源权重 — 核实 huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017（交叉对照 API 更新日志）
+01 DeepSeek Search & Fetch API — 核实 api-docs.deepseek.com/guides/search/
+02 Elorian Glimpse 视觉推理 — 核实 elorian.ai/blog/introducing-glimpse
+03 Mistral Timestral 时序模型 — 核实 mistral.ai/news/timestral/
+04 Liquid AI d1-ultra 决策模型 — 核实 liquid.ai/blog/d1-ultra
+05 NVIDIA ASPIRE 机器人技能发现 — 核实 research.nvidia.com/labs/gear/aspire/
+06 Anthropic Claude OpenTelemetry 可观测性 — 核实 claude.com/resources/articles/agent-observability-on-the-claude-platform
+07 Claude Opus 5.5 Fast Mode 取消候补 — 核实 platform.claude.com/docs/en/build-with-claude/fast-mode
+08 Google Willow magic state cultivation — 核实 blog.google quantum 博文（Science）
+09 模型工作报告隐瞒硬伤研究 — 核实 the-decoder.com（Google/MIT/Harvard）
+10 OpenAI Rosalind Academic Plan — 核实 openai.com/index/introducing-the-rosalind-academic-plan/
+11 Google Universal Cart — 核实 blog.google shopping 博文
+12 Anthropic 2026 中期选举防护 — 核实 anthropic.com/news/2026-us-midterms
+13 Simons×Anthropic×OpenAI 数学 1500 万美元 — 核实 simonsfoundation.org
+14 Perplexity pplx-decider-v1-27b — 核实 huggingface.co/perplexity-ai/pplx-decider-v1-27b
+15 ChatGPT GPT-6 Pro 多 Agent 并行 — 核实 help.openai.com ChatGPT release notes
+16 ChatGPT Voice GPT-Live-1.1 — 核实 help.openai.com ChatGPT Voice
+
+跳过 / 未单独成卡：
+- AIHOT 仅 2 条模型/产品 + 1 条公众号闪讯；卡兹克 RTX Spark 评测属大V/公众号视角，未作 AI新闻主源
+- Reflection Beam / Muse Spark Open / Nemotron Super VL / Claude Code Review GA / Anthropic 量子电路与 ECDSA / 商务部出口目录：已在 _prior_urls 或近日 ai.json，主题重复跳过
+- Anthropic IPO 估值/Opus 5.5 口碑热帖：非新发布事实卡，且偏传言与聚合，跳过
+- OpenUI 1.0（约 10-12）：窗口偏早且非今日主线，跳过
+- DeepSeek 官方 updates 英文 changelog：与 00/01 同日同源，不另成卡以免 URL/主题堆叠
+- 大V账号帖子未作 AI新闻主源；X search_news 仅作线索
+
+去重：
+- 对照 _prior_urls.json（ai 约 118 条）及近日 ai.json：本批 17 个 URL 均无完全重复
+- DeepSeek 两条用不同官方 URL（HF 权重卡 vs Search 指南），标题相对 AIHOT 改写
+- 标题均相对 AIHOT 日报措辞改写，降低 build 重叠隐藏风险
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词（模型发布锚点 / Agent 半写实 / 硬件写实 / 政策新闻摄影 / 安全纪录片张力 / 量子芯片写实等），16:9，无文字数字；file 名 cover-20261018-ai-00…16.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：WebFetch（DeepSeek/Elorian/Mistral/Liquid/NVIDIA/Anthropic/Google/OpenAI/Simons/HF）/ WebSearch / X MCP search_news（线索）
+AIHOT 线索：Flash-1017 + 搜索 API（已核实并扩写）；今日 AIHOT 较瘦，公开源大幅补齐

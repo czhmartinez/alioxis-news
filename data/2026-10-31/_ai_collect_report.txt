@@ -1,0 +1,83 @@
+Alioxis News AI新闻收集报告 — 2026-10-31（Asia/Taipei）
+============================================================
+完成时间：2026-10-31 约 02:30 Europe/Kiev（UTC+2）
+输出目录：/workspace/alioxis-news/data/2026-10-31/
+产出：ai.json（20）、_cover_prompts_ai.json（20）、本报告
+
+一、条数与头条
+- 条数：20（目标 20）
+- Lead（#00）：Cursor 披露 Claude Code 扩展被植入后门：恶意版本在扩展市场存活约 11 小时，最多影响 5000 用户，官方建议升级到 2.1.314 并手工清理残留
+  URL：https://cursor.com/blog/claude-code-extension-security-notice
+  辅证：The Verge 同题报道（最多约 5000 用户）
+
+二、与 v.json 交叉情况
+- 写盘前检查：v.json 已存在，共 13 条（全为 X 帖子 URL）
+- URL 交叉：0 冲突（v 用 x.com 状态页，ai 用原文官网/媒体）
+- 同题不同源（头条已错开，v 头条为卡兹克 DeepSeek「蓝色大肥鱼」长文）：
+  · Apple 智能×阿里千问：ai #04（IT之家原文）↔ v #02（Max 转发官宣）
+  · Claude Max→Ultra：ai #02（Claude 帮助中心 + The Verge）↔ v #07（TestingCatalog）
+  · Project Suncatcher：ai #01（Google Research 官方）↔ v #09（TestingCatalog）
+- 报告说明：保留同题不同源，便于 AI新闻给可核实原文、大V视野保留评论视角。
+
+三、AIHOT 使用情况
+- 已读：_aihot_daily.json / _aihot_summary.txt
+- 采用线索并落到原文：
+  · Cursor Claude Code 恶意扩展 → #00（Cursor Blog）
+  · Claude Max/Ultra 改名 → #02
+  · Gemini Computer Use GA → #03
+  · 阿里/Apple 智能千问 → #04（IT之家）
+  · Project Suncatcher/Gemma 太空 → #01
+  · 科技巨头 AI 资本开支超 7400 亿（新角度）→ #05（TechCrunch cracks）
+  · Toyota×Waymo → #06
+  · OpenAI fair use 法庭之友 → #07
+  · Sierra ARR 4 亿 → #08
+  · Epoch/GLM 5.3 Firefox patch gap → #09
+  · OpenAI 社区安全报告 → #10
+  · OpenRouter Claude 5.5 选型 → #12
+  · The Verge 解读 Anthropic S-1 → #13（角度新，非主新闻复读）
+  · Intel 大跌 / AI 开支卖压 → #15（BBC）
+- 补充（WebSearch / 官方源，近 36h）：
+  · OpenAI robots.txt AI 训练偏好 → #11
+  · OpenAI Model Spec 更新 → #16
+  · Anthropic AI for Science 扩展 → #17
+  · Claude Usage/Cost Analytics API → #18
+  · Hugging Face Project ProtoStar → #19
+  · 加拿大入股 Cohere → #14
+
+四、跳过原因
+- AWS 万亿营收/资本开支叙事：2026-10-30 ai.json #19 已收同类，跳过原 AIHOT AWS 万亿线索；改收 TechCrunch「7400 亿开支出现裂痕」新角度（#05）与 BBC Intel 暴跌（#15）
+- Anthropic S-1 主新闻：2026-10-27 已作头条；仅收 The Verge「奇迹时代 / 风险因素」解读向（#13）
+- Kimi 3D 教程：微信公众号抓取遇验证码墙，无法稳定核实，跳过
+- Gemini at Work（Oct 8–9）：超出约 36 小时窗口，跳过
+- Hugging Face ProtoStar 错误 slug（早期 404）：已纠正为 announcing-project-protostar
+- aihot.news item 页：仅作线索，全部主链接改为原文
+
+五、每条核实手段（摘要）
+00 Cursor malware — curl+trafilatura Cursor Blog；The Verge 辅证
+01 Suncatcher — curl Google Research blog；TechCrunch 辅证
+02 Claude Ultra — WebFetch Claude 帮助中心（geo 限制）；The Verge 短讯
+03 Gemini Computer Use GA — curl Gemini API changelog + docs
+04 Apple×千问 — curl IT之家（含 pubtime 2026-10-31 07:09）
+05 Capex cracks — curl TechCrunch
+06 Waymo×Toyota — curl Waymo Blog
+07 Fair use — WebFetch openai.com（curl 403）
+08 Sierra ARR — curl Sierra Blog
+09 Epoch GLM Firefox — curl Substack Epoch AI
+10 Community safety — WebFetch openai.com
+11 robots.txt prefs — WebFetch openai.com
+12 OpenRouter Claude tiers — curl OpenRouter Blog
+13 Verge S-1 miracles — curl The Verge
+14 Canada Cohere — curl pm.gc.ca 新闻稿
+15 BBC Intel — curl BBC
+16 Model Spec — WebFetch openai.com；The Decoder 辅证
+17 AI for Science — curl Anthropic News
+18 Analytics API — WebFetch platform.claude.com docs
+19 ProtoStar — curl Hugging Face Blog（2026-10-29）
+
+六、去重
+- 对照 _prior_urls.json（434 URL）：0 命中
+- 对照 2026-10-19..10-30 ai/v 及当日 v.json：URL 0 冲突
+- published_at 均为 +08:00 ISO；source 均为字符串站点名；image 为 /assets/covers/cover-20261031-ai-NN.jpg（00–19）
+
+七、未做事项（按任务要求）
+- 未 build、未生成封面图、未发布、未通知用户

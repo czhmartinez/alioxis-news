@@ -33,3 +33,9 @@ scripts/keep-tunnel.sh
 
 # Local deploy env (never commit)
 .local/
+
+# Cover / scrape scratch (do not publish raw or temp artifacts)
+data/**/_gen_raw/
+data/**/_fetch/
+.tmp-covers-1008/
+scripts/tmp/

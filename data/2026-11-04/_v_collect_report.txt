@@ -1,0 +1,48 @@
+大V视野收集报告 — 2026-11-04（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-02T16:00:00Z（约 32 小时），max_results=25；各账号 meta 均无 next_token，未翻页
+- 长文/截断补全：卡兹克 X Article 正文直接取自 get_users_posts 的 article 字段；get_posts_by_ids 一批（16 个 id：Max MIT 权重空间编程全文+原帖、DeepSeek 中断、文心/朝鲜 QQ/学术氛围/人失控四条图帖；TC 11/3 Daily Brief 全文、MonoDesk 及官方帖、Gemini Live Antigravity 及前情帖、Claude trusted issuer、ChatGPT Voice Finance、Grok Bot 购物；OpenAI Devs Pando 原帖）
+- 未使用浏览器；未使用 user-X；共 7 次 X 读取（6 次 get_users_posts + 1 次 get_posts_by_ids）
+- 注：任务要求的 Skill 工具（x-api-mcp-guide）在本环境不可用，按既有流程与 GetDynamicTools 给出的 schema 调用
+
+入选：14 条（不足 20，未凑数）
+各 handle 入选计数：
+  @Khazix0918: 1（DeepSeek Harness 养鱼教程 X Article 长文，作头条）
+  @MaxForAI: 2（MIT 权重空间编程；DeepSeek 大规模服务中断+V4.1-Pro 暗示）
+  @xiaohu: 4（Siri AI 开发者接口；Anthropic 内部 AI 消耗超薪资；AI 心理咨询沙发研究+局限自回复合并；3D 动态桌面+语音播报自回复合并）
+  @thsottiaux: 1（OpenAI Pando Git 后端）
+  @testingcatalog: 6（11/3 Daily Brief 新信号；Claude trusted issuer 自动连接插件；Antigravity Gemini Live 演示；Grok Bot 购物+passkey 跟帖合并；ChatGPT Voice for Finance；Envato MonoDesk+AI 应用连接跟帖合并）
+  @gengdaJ: 0（窗口内无帖）
+
+原始拉取条数摘要：
+  @Khazix0918: 1
+  @MaxForAI: 11
+  @xiaohu: 9
+  @thsottiaux: 3
+  @testingcatalog: 15（无 next_token）
+  @gengdaJ: 0
+
+Lead：卡兹克长文：DeepSeek Harness「养鱼」全教程——QQ/微信/飞书接入蓝色大肥鱼，再放去 B 站刷视频、抖音开直播
+Lead URL：https://x.com/Khazix0918/status/2117469879787982932
+（卡兹克窗口内唯一帖为实质 X Article 长文，按规则作头条；主帖仅 t.co 链接，正文取自 article 字段）
+
+筛选说明：
+- 合并：小互 AI 心理研究主帖+局限补充自回复（2117470529590628781）；小互动态桌面主帖+「还可以语音播报」自回复（2117612722942881900）；TC Grok Bot 购物主帖+Passkeys 跟帖（2117737813349171318）；TC MonoDesk 主帖+连接 Claude/ChatGPT 跟帖（2117732531650846736）
+- 跳过非 AI：Max 苹果天气 -32℃ Bug 及「冰汽时代」自回复；小互 RT @_FORAB 币安被朝鲜黑客盗 60 亿美元报告（社工攻击，非 AI）
+- 跳过梗图/玩笑/无信息短帖（正文仅一句话、信息在图片中无法核实）：Max「中转站没挂」+来源自回复、「百度文心又散了」、「朝鲜网络军用 QQ」+原图自回复、「国内学术氛围」、「人失控比 AI 失控危险」；Tibo「Le GPT Fat」、「Things will change again…」观点短帖；TC「visiting OpenAI DevDay exchange… Testing x100」
+- 跳过同题低增量：小互 Hume 语音决策模型（2117591319744807405 及「完整解读」自回复）——11-03 大V视野已收 TC Hume Decision API，仅多成本换算，跳过
+- 去重：对照 data/2026-11-04/_prior_urls.json（新建：合并 11-03 _prior_urls.json 与近 10 天 ai.json/v.json，共 1988 URL）；TC DeepSeek Creator Mode（2117381759063273755）、Drex for Finance（2117324639563141209）、Hume（2117312236993544277）、LongCat-2.5（2117285744548970683）已收，跳过；其 Drex/Hume 跟帖（2117324643694448947、2117312240168694087）一并跳过
+- 主题重叠提示：11-03 AI新闻头条为 Anthropic S-1A，小互帖聚焦内部 AI 消耗 vs 薪资与 90% AI 代码，URL 不重复，保留；TC 11/3 简报中 Anthropic 招股/dots 已在前日出现，摘要以 LifeVal、Altman 下一代 GPT、Droid 1.0、Hyra 2.0 等新线索为主
+- 存疑标注：Max 将 DeepSeek 中断与 V4.1-Pro 上线关联为其推测；Altman「下一代 GPT」为简报经第三方转述；Antigravity Gemini Live/Chief of Stuff 为未公开功能爆料；Duet 未正式发布；Anthropic 内部数据为小互转述招股文件——摘要均已注明
+- 三位优先账号：卡兹克 1、Max 2、小互 4
+
+输出文件：
+  data/2026-11-04/v.json
+  data/2026-11-04/_cover_prompts_v.json
+  data/2026-11-04/_v_raw_mcp.json
+  data/2026-11-04/_v_collect_report.txt
+  data/2026-11-04/_prior_urls.json（新建）
+
+未执行：build / 生图 / 发布 / 通知用户

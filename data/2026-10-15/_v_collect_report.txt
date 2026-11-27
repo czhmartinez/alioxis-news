@@ -1,0 +1,16 @@
+Alioxis News 大V视野收集报告 — 2026-10-15 (Asia/Taipei)
+条数: 18
+Lead: 卡兹克实测 Gemini 4 Argon：Google 背水一战，难撼 Opus / Astra，Antigravity 体验劝退
+读取方式: 公开 X MCP（namespace x）get_users_by_usernames + get_users_posts / get_posts_by_ids；未使用 box Chrome「正在关注」页
+时间窗: start_time=2026-10-13T20:00:00Z（约 36h），exclude=replies；过滤无实质回复/纯广告/梗图/非AI吃瓜；与 2026-10-14、2026-10-11 v.json URL 去重
+各 handle 计数（入选）:
+  @Khazix0918 (卡兹克): 3
+  @MaxForAI: 7
+  @xiaohu: 5
+  @thsottiaux: 0
+  @testingcatalog: 3
+  @gengdaJ: 0
+原始拉取条数（exclude replies）: Khazix0918=3 / MaxForAI=15 / xiaohu=12 / thsottiaux=1 / testingcatalog=16 / gengdaJ=3
+跳过: thsottiaux Day9 磁盘优化（已在 10-14 v.json）；Max 额度吐槽/涩涩skill封号/😭引用/绿泡泡梗/Claude泪目/乐鑫股价吃瓜/嫌犯照片短帖/线程回复；小互《梅雨》小说、线程续帖链接、Argon案例集锦短链、OpenAI窃听（与Max长文重复）；TestingCatalog Daily Brief 聚合、Liquid LFM2.5（10-14已报）、Claude sessions hub（与Max/卡兹克同主题压缩）、Mistral New Material、Zenzap融资、DigitalOcean峰会、DecisionModels RT、Ultramarine/Gemma价目姐妹帖择优；gengdaJ Wan3促销长帖与Higgsfield RT（与小互重复）、空引用帖
+封面 prompts: 18 条，与 v.json 等长
+未执行: build / 封面生成 / 发布

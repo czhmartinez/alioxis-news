@@ -1,0 +1,45 @@
+大V视野收集报告 — 2026-10-29（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用 2026-10-28 _v_raw_mcp.json 中已解析的 id → get_users_posts（exclude=replies, start_time=2026-10-27T16:00:00Z（约 32 小时）, max_results=25；@testingcatalog 返回 next_token 后翻 1 页，共 39 条）
+- 长文补全：get_posts_by_ids（36 个 id：卡兹克 X Article「Google的世界模型Genie 4正式发布」全文、卡兹克 CLAUDE.md 浏览器规则长帖、TestingCatalog 被截断的 API 额度 / GitHub Universe / XREAL AURA / Perplexity / Rime Prism 2 帖 / Jev Router 2 帖 / Gemini 4 Carbon 2 帖 / Oracle / Gemini Notebook Connectors / Axiom 2 帖 / Claude Duet / AA Index v5 帖，以及被引用的 @OfficialLoganK、@GoogleDeepMind Carbon、@ArtificialAnlys Carbon 与 v5、@Mashiro_0619 Claude 风控、@AnthropicAI 药物发现、@Prof_Oak_ Mithril、@zeddotdev Delta、@Angaisb_ Chat/Work、@twinkpummeler、@lilyjclifford Prism、@biosemiote CFSG、@ahuja_karan Claude Duet、@github Copilot Fusion、@iamRadiumWang 哈苏、@OpenAIDevs API 额度、@derrickcchoi Oracle、@poteto tibot）
+- 未使用浏览器；未使用 user-X；本次共 8 次 X 读取（6 次 get_users_posts + 1 次翻页 + 1 次 get_posts_by_ids）
+
+入选：18 条
+各 handle 入选计数：
+  @Khazix0918: 2（X Article Genie 4 长文；CLAUDE.md「Claude 指挥 Codex 操控浏览器」规则）
+  @MaxForAI: 3（Gemini 4 Carbon「美国大豆包」主帖 + 梁文峰预言帖 + 「Gemini 4 复兴」帖合并，并入 TestingCatalog Carbon 发布 / Arena 榜单 / AA Index v5 上线三帖；Claude Code 入口额度差异 Issue；哈苏接入 GPT）
+  @xiaohu: 4（Anthropic 收购 Mithril 主帖 +「主人公」自回复合并；ChatGPT 减药悲剧；Delta 多人协作主帖 + 详细链接自回复合并；lauren/tibo「互搞」并入 Tibo「网站上线 / 300 万浏览」与 Max「秀恩爱」调侃）
+  @thsottiaux: 1（Chat/Work 统一澄清 + Day 23 重置三帖合并）
+  @testingcatalog: 6（Axiom CFSG 主帖 + 自回复；GitHub Universe'26；OpenAI 速递 = API 额度 + Dots iMessage + Oracle；Rime Prism 主帖 + 自回复；Jev Router 主帖 + 自回复；速递 = XREAL AURA 三帖 + Perplexity 语音 + Gemini Notebook Connectors + Claude Duet）
+  @gengdaJ: 2（Claude 风控 18 条引用帖，并入自己 CC Switch 被封帖与 Max「群里都在发」；Windows 微信 Skill 主帖 + 剪映 Skill 自回复）
+
+原始拉取条数摘要：
+  @Khazix0918: 2（X Article Genie 4、CLAUDE.md 浏览器规则）
+  @MaxForAI: 15（梁文峰预言、Carbon 美国大豆包、Gemini 复兴、会发光 MacBook、Claude Code 额度 Issue、哈苏 GPT、万圣节装扮梗 2 帖、Claude 风控转发、「神了还真是」、国内 OPC 惨、tibo/poteto 视频梗、秀恩爱梗、Carmack 南瓜灯（10-28 已收录）、《三星堆》票房（10-28 已收录））
+  @xiaohu: 8（「冲」、ChatGPT 减药悲剧、Delta 2 帖、lauren/tibo 互搞、Mithril 主人公、Mithril、RT @higgsfield_ai）
+  @thsottiaux: 6（Chat/Work 澄清、网站 300 万浏览、「done」、网站上线、Lands by midnight、Day 23 reset）
+  @testingcatalog: 39（API 额度、GitHub Universe、XREAL 3 帖、Perplexity、Rime Prism 2 帖、Gemini [redacted] 猜测、Dots iMessage、Jev Router 2 帖、Carbon Arena、Carbon 发布、Oracle、Gemini Notebook Connectors、Axiom 2 帖、Daily AI Brief、Claude Duet、AA Index v5、Gemini Notebook 录音（10-28 已收录）、X Share Photo 2 帖；第 2 页 15 条均为 10-28 已收录的 Drex / Grok Bot Memory / Cursor / Concurrence / ChatGPT iCloud / MAI / Sentient / Judgment / Genie 4 / AA 预告）
+  @gengdaJ: 5（剪映 Skill 自回复、Windows 微信 Skill、Claude 风控引用、Atypica + 封号自回复、CC Switch 封号）
+
+Lead：卡兹克长文：等了 14 个月的 Genie 4 终于来了——原生音频、实时语言改世界、Gemini 当「引导智能体」，世界模型要从「会拍视频」变成「会运行世界」
+Lead URL：https://x.com/Khazix0918/status/2115254998074589690
+（卡兹克 X Article 原创长文，信息密度最高；10-28 AI新闻 头条为 Genie 4 官方发布，本条为世界模型路线科普 + 游戏/影游展望的深度解读，属同题不同视角、无重复 URL。第 1 条为 Max 解读 Gemini 4 Carbon——今日 AIHOT 头条亦为 Carbon，若今日 ai.json 收录，属同题不同来源）
+
+筛选说明：
+- 跳过梗图/玩笑：Max 万圣节装扮 2 帖、「会发光的 MacBook」、tibo/poteto 视频梗、「神了还真是」「国内 OPC 惨」（仅图片无文字信息）
+- 跳过转推无评论 / 无信息：小互 RT @higgsfield_ai、小互「冲」、TestingCatalog「Gemini [redacted]」猜测
+- 跳过非 AI：TestingCatalog X Share Photo 2 帖
+- 跳过已有/汇总：Max Carmack 南瓜灯与《三星堆》（10-28 已收录）、TestingCatalog Gemini Notebook 录音（10-28 已收录）、Daily AI Brief、第 2 页 15 条旧帖、逸尘 Atypica 引用（10-28 已收录）
+- 去重：与 2026-10-20～10-28 v.json / ai.json、各日 _v_raw_mcp.json selected_ids 及 data/2026-10-29/_prior_urls.json 比对（共 195 个 X status id），入选 18 条及其合并帖均无重复；Gemini Notebook Connectors 与 10-24 ai.json「Notebook 成为已连接应用」为不同功能
+- 同题提示：今日 AIHOT 含 Gemini 4 Carbon、GitHub Universe 2026，若今日 ai.json 也收录，属同题不同来源（本处为 Max 解读 / TestingCatalog 汇总）
+- 三位优先账号：卡兹克 2、Max 3、小互 4
+- 2026-10-29/ai.json 在收集时尚不存在，未做交叉去重
+
+输出文件：
+  data/2026-10-29/v.json
+  data/2026-10-29/_cover_prompts_v.json
+  data/2026-10-29/_v_raw_mcp.json
+  data/2026-10-29/_v_collect_report.txt
+
+未执行：build / 生图 / 发布

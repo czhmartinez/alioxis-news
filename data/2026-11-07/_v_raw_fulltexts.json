@@ -1,0 +1,1929 @@
+{
+  "data": [
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118697186464772096",
+          "3_2118697186443890688",
+          "3_2118697186473230337",
+          "3_2118697186452291584"
+        ]
+      },
+      "author_id": "1699797396589588480",
+      "conversation_id": "2118697503571030411",
+      "created_at": "2026-11-06T13:30:23.000Z",
+      "edit_history_post_ids": [
+        "2118697503571030411"
+      ],
+      "entities": {
+        "mentions": [
+          {
+            "end": 25,
+            "id": "1810933558703493120",
+            "start": 10,
+            "username": "TencentHunyuan"
+          },
+          {
+            "end": 108,
+            "id": "1707003452700930048",
+            "start": 100,
+            "username": "lobehub"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/g78aqSmOpp",
+            "end": 189,
+            "expanded_url": "https://x.com/MaxForAI/status/2118697503571030411/photo/1",
+            "media_key": "3_2118697186464772096",
+            "start": 166,
+            "url": "https://t.co/g78aqSmOpp"
+          },
+          {
+            "display_url": "pic.x.com/g78aqSmOpp",
+            "end": 189,
+            "expanded_url": "https://x.com/MaxForAI/status/2118697503571030411/photo/1",
+            "media_key": "3_2118697186443890688",
+            "start": 166,
+            "url": "https://t.co/g78aqSmOpp"
+          },
+          {
+            "display_url": "pic.x.com/g78aqSmOpp",
+            "end": 189,
+            "expanded_url": "https://x.com/MaxForAI/status/2118697503571030411/photo/1",
+            "media_key": "3_2118697186473230337",
+            "start": 166,
+            "url": "https://t.co/g78aqSmOpp"
+          },
+          {
+            "display_url": "pic.x.com/g78aqSmOpp",
+            "end": 189,
+            "expanded_url": "https://x.com/MaxForAI/status/2118697503571030411/photo/1",
+            "media_key": "3_2118697186452291584",
+            "start": 166,
+            "url": "https://t.co/g78aqSmOpp"
+          },
+          {
+            "display_url": "x.com/TencentHunyuan…",
+            "end": 213,
+            "expanded_url": "https://twitter.com/TencentHunyuan/status/2117870250838630539",
+            "start": 190,
+            "url": "https://t.co/aDxArBYjp4"
+          }
+        ]
+      },
+      "id": "2118697503571030411",
+      "lang": "zh",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 25,
+              "id": "1810933558703493120",
+              "start": 10,
+              "username": "TencentHunyuan"
+            },
+            {
+              "end": 108,
+              "id": "1707003452700930048",
+              "start": 100,
+              "username": "lobehub"
+            },
+            {
+              "end": 577,
+              "id": "1743487864934162432",
+              "start": 561,
+              "username": "ArtificialAnlys"
+            }
+          ]
+        },
+        "text": "感慨一下，腾讯混元 @TencentHunyuan  这波是真的上桌了啊！\n\n腾讯混元Hy4前两天正式发布了。\n这两天我自己在WorkBuddy里测了很久，也通过混元开放平台的API，把模型接入我们 @lobehub  自己的LobeBench，完整跑了一下。\n结果确实有点超出我的预期👀\n\n测试用的是LobeBench-Hard 50，包含50道来自我们实际开发过程中遇到的真实业务场景的高难度Agent任务，每道题重复测试3次，主要考察模型在日常使用中能不能把复杂的活干好，最终交付可用的结果。\n\nHy4最终有26道题连续3次全部通过，通过率为52%；\n如果按照至少成功1次计算，则有40道题能够完成，占到了80%🎉\n\n如果按照细分领域来看，结果也很有意思。\nLife & Health、Productivity、Research & Careers三个类别的通过率都达到了100%，Marketing & Content达到80%，电商和软件开发为67%，金融类相对弱一些，为60%。\n\n这个成绩我觉得相当不错👍 \n尤其是80%的题目至少能够成功完成一次，说明Hy4已经具备解决相当一部分复杂实际任务的能力。\n当然，52%的三次全过率也说明，它在执行稳定性上还有继续提升的空间。\n\n而外部评测也基本印证了我的感受。\n@ArtificialAnlys  前两天刚发布的最新综合智力指数里，Hy4排到了中国模型第二，仅次于Kimi K3.1 Pro，和Grok 4.7打平。\n在更接近真实Agent任务的Agent Arena上，Hy4则冲到了全球第13名。\n按照目前的榜单，权重开放后将位列开源模型第一，而且执行成本也很有竞争力。\n\n说实话，之前几代混元给我的感觉，一直都还差那么一口气😮‍💨 \n这次Hy4的进步，确实比我原来预期的大不少。\n\n有点感慨，混元4这次是真的上大人那桌了。 \n以前总觉得它还在小孩那桌打，现在终于有资格坐到全球第一梯队的牌桌上，和那些最强的模型正面较量了。\n不得不说，腾讯这次确实做出了点东西👏"
+      },
+      "public_metrics": {
+        "bookmark_count": 3,
+        "impression_count": 5104,
+        "like_count": 22,
+        "quote_count": 0,
+        "reply_count": 6,
+        "repost_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2117870250838630539",
+          "type": "quoted"
+        }
+      ],
+      "text": "感慨一下，腾讯混元 @TencentHunyuan  这波是真的上桌了啊！\n\n腾讯混元Hy4前两天正式发布了。\n这两天我自己在WorkBuddy里测了很久，也通过混元开放平台的API，把模型接入我们 @lobehub  自己的LobeBench，完整跑了一下。\n结果确实有点超出我的预期👀\n\n测试用的是LobeBench-Hard https://t.co/g78aqSmOpp https://t.co/aDxArBYjp4",
+      "url": "https://x.com/MaxForAI/status/2118697503571030411"
+    },
+    {
+      "author_id": "3980735590",
+      "conversation_id": "2118644436917793116",
+      "created_at": "2026-11-06T09:59:30.000Z",
+      "edit_history_post_ids": [
+        "2118644436917793116"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/testingcatalog…",
+            "end": 293,
+            "expanded_url": "https://twitter.com/testingcatalog/status/2118268779901628880",
+            "start": 270,
+            "url": "https://t.co/Uv6kuxFgNf"
+          }
+        ]
+      },
+      "id": "2118644436917793116",
+      "lang": "en",
+      "note_tweet": {
+        "text": "DAILY AI BRIEF 🗞 — Nov 6\n\nMODEL FORECAST 👀:\n- GPT-6.2 Sol, today?\n- GPT-6.2 Astra, today?\n- Claude Fable 5.5, soon\n- Claude Mythos 5.5, never?\n- Gemini 4 Carbon, soon\n- Gemini 4 Hydrogen (Flash), soon\n- Grok 4.8, not soon???\n\nOPENAI 🔥:\n- OpenAI launched GPT-6 Cyber for authorized security research on Daybreak Red, with a Cyber livestream on Nov 12.\n- Cat Wu is joining OpenAI to lead product management for Core Products after leaving Anthropic.\n\nGOOGLE 🔥:\n- Gemini Omni 1.2 Flash is generally available on AI Studio and the Gemini API with 15-second video and 30% lower pricing.\n\nANTHROPIC 🔥:\n- Claude Personal Finance is rolling out in beta to US Pro, Max, and Ultra users with read-only bank connections via Plaid.\n- METR says Anthropic’s model progress accelerated about 1.9x since October 2025, citing internal Model 3 and Model 4.\n\nTHINKING MACHINES 🔥:\n- Thinking Machines released Inkling 2 Small on Tinker at 31 on the AA Intelligence Index, with open weights planned next week.\n\nPERPLEXITY 🔥:\n- Perplexity Teammates are rolling out to Max subscribers on the web as proactive agents that use Computer tasks, skills, memory, and tools.\n\nMETA 🔥:\n- Muse Voice and expressive avatars are rolling out to US users, and Muse launched in Mexico.\n\nSPACEXSI 🔥:\n- Cursor can now build live apps with hosting, auth, and a shareable link on paid plans with cloud agents.\n- Grok Bot is testing SMS texting, with WhatsApp and Telegram integrations in early preview (via alexmichael).\n\nCOGNITION 🔥:\n- Cognition released Devin Review 2.0, now up to 5× cheaper and 1.5× faster for PR reviews.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+      },
+      "public_metrics": {
+        "bookmark_count": 66,
+        "impression_count": 28956,
+        "like_count": 543,
+        "quote_count": 1,
+        "reply_count": 55,
+        "repost_count": 22
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118268779901628880",
+          "type": "quoted"
+        }
+      ],
+      "text": "DAILY AI BRIEF 🗞 — Nov 6\n\nMODEL FORECAST 👀:\n- GPT-6.2 Sol, today?\n- GPT-6.2 Astra, today?\n- Claude Fable 5.5, soon\n- Claude Mythos 5.5, never?\n- Gemini 4 Carbon, soon\n- Gemini 4 Hydrogen (Flash), soon\n- Grok 4.8, not soon???\n\nOPENAI 🔥:\n- OpenAI launched GPT-6 Cyber for https://t.co/Uv6kuxFgNf",
+      "url": "https://x.com/testingcatalog/status/2118644436917793116"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118680401866526720",
+          "3_2118680401891741698"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118680407680209172",
+      "created_at": "2026-11-06T12:22:27.000Z",
+      "edit_history_post_ids": [
+        "2118680407680209172"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/cw0gVTO8H8",
+            "end": 220,
+            "expanded_url": "https://x.com/testingcatalog/status/2118680407680209172/photo/1",
+            "media_key": "3_2118680401866526720",
+            "start": 197,
+            "url": "https://t.co/cw0gVTO8H8"
+          },
+          {
+            "display_url": "pic.x.com/cw0gVTO8H8",
+            "end": 220,
+            "expanded_url": "https://x.com/testingcatalog/status/2118680407680209172/photo/1",
+            "media_key": "3_2118680401891741698",
+            "start": 197,
+            "url": "https://t.co/cw0gVTO8H8"
+          },
+          {
+            "display_url": "x.com/alibaba_qwen/s…",
+            "end": 244,
+            "expanded_url": "https://twitter.com/alibaba_qwen/status/2118674834632978755",
+            "start": 221,
+            "url": "https://t.co/YQrAudgXDv"
+          }
+        ]
+      },
+      "id": "2118680407680209172",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 43,
+        "impression_count": 24152,
+        "like_count": 637,
+        "quote_count": 1,
+        "reply_count": 40,
+        "repost_count": 20
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118674834632978755",
+          "type": "quoted"
+        }
+      ],
+      "text": "ALIBABA 🔥: \"The becoming begins\" teaser has been posted on the Qwen X account. We expect Qwen4-Max, Qwen4-Flash, Qwen4-Plus, and Qwen4-27B models to arrive soon. \n\nWaiting for Qwen4-27B the most 👀 https://t.co/cw0gVTO8H8 https://t.co/YQrAudgXDv",
+      "url": "https://x.com/testingcatalog/status/2118680407680209172"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118455242933116929",
+          "3_2118455291297538048"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118455315914187151",
+      "created_at": "2026-11-05T21:28:00.000Z",
+      "edit_history_post_ids": [
+        "2118455315914187151"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/WbKop26FwY",
+            "end": 310,
+            "expanded_url": "https://x.com/testingcatalog/status/2118455315914187151/photo/1",
+            "media_key": "3_2118455242933116929",
+            "start": 287,
+            "url": "https://t.co/WbKop26FwY"
+          },
+          {
+            "display_url": "pic.x.com/WbKop26FwY",
+            "end": 310,
+            "expanded_url": "https://x.com/testingcatalog/status/2118455315914187151/photo/1",
+            "media_key": "3_2118455291297538048",
+            "start": 287,
+            "url": "https://t.co/WbKop26FwY"
+          },
+          {
+            "display_url": "x.com/METR_Evals/sta…",
+            "end": 334,
+            "expanded_url": "https://twitter.com/METR_Evals/status/2118412183860351084",
+            "start": 311,
+            "url": "https://t.co/naZ1aH0ZZd"
+          }
+        ]
+      },
+      "id": "2118455315914187151",
+      "lang": "en",
+      "note_tweet": {
+        "text": "ANTHROPIC 🔥: According to the latest report from METR, Anthropic is accelerating its internal AI model development, and this is attributable to Anthropic’s extensive use of AI for R&D\n\n> Anthropic have accelerated 1.9x since October 2025. \n\n> The chart categorizes Opus 5.5 as \"non-frontier\" and highlights internal models named Model 3 and Model 4, with substantial improvement achieved in a very short period.  \n\nRSI bench? 👀"
+      },
+      "public_metrics": {
+        "bookmark_count": 49,
+        "impression_count": 25155,
+        "like_count": 419,
+        "quote_count": 5,
+        "reply_count": 33,
+        "repost_count": 19
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118412183860351084",
+          "type": "quoted"
+        }
+      ],
+      "text": "ANTHROPIC 🔥: According to the latest report from METR, Anthropic is accelerating its internal AI model development, and this is attributable to Anthropic’s extensive use of AI for R&amp;D\n\n&gt; Anthropic have accelerated 1.9x since October 2025. \n\n&gt; The chart categorizes Opus 5.5 as https://t.co/WbKop26FwY https://t.co/naZ1aH0ZZd",
+      "url": "https://x.com/testingcatalog/status/2118455315914187151"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118401044841390080"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118416495508099118",
+      "created_at": "2026-11-05T18:53:45.000Z",
+      "edit_history_post_ids": [
+        "2118416495508099118"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/ALepT9Kdxa",
+            "end": 238,
+            "expanded_url": "https://x.com/claudeai/status/2118403114890137895/video/1",
+            "media_key": "13_2118401044841390080",
+            "start": 215,
+            "url": "https://t.co/ALepT9Kdxa"
+          }
+        ]
+      },
+      "id": "2118416495508099118",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 30,
+        "impression_count": 15305,
+        "like_count": 326,
+        "quote_count": 3,
+        "reply_count": 39,
+        "repost_count": 8
+      },
+      "text": "ANTHROPIC 🔥: Claude Personal Finance is now rolling out to Pro, Max, and Ultra users in the US. \n\nClaude is getting read-only access to selected services so users can chat about their finances. \n\nNot Claude Monet 💀 https://t.co/ALepT9Kdxa",
+      "url": "https://x.com/testingcatalog/status/2118416495508099118"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118400683942477824"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118469389452271860",
+      "created_at": "2026-11-05T22:23:56.000Z",
+      "edit_history_post_ids": [
+        "2118469389452271860"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/s8ipA7M6kv",
+            "end": 383,
+            "expanded_url": "https://x.com/Muse/status/2118411960337289583/video/1",
+            "media_key": "13_2118400683942477824",
+            "start": 360,
+            "url": "https://t.co/s8ipA7M6kv"
+          }
+        ]
+      },
+      "id": "2118469389452271860",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/Muse/status/21…",
+              "end": 383,
+              "expanded_url": "https://x.com/Muse/status/2118411960337289583/video/1",
+              "start": 360,
+              "url": "https://t.co/s8ipA7M6kv"
+            }
+          ]
+        },
+        "text": "META 🔥: Muse Voice and expressive avatars are rolling out for Muse users in the US.  \n\n> Voice helps users think out loud, making tasks like brainstorming, trip planning, and interview prep easier.\n\n> Your Muse’s avatar reacts as it listens and speaks, with expressions and gestures that match the conversation.\n\nAdditionally, Muse is rolling out in Mexico 🇲🇽 https://t.co/s8ipA7M6kv"
+      },
+      "public_metrics": {
+        "bookmark_count": 18,
+        "impression_count": 12077,
+        "like_count": 266,
+        "quote_count": 4,
+        "reply_count": 29,
+        "repost_count": 11
+      },
+      "text": "META 🔥: Muse Voice and expressive avatars are rolling out for Muse users in the US.  \n\n&gt; Voice helps users think out loud, making tasks like brainstorming, trip planning, and interview prep easier.\n\n&gt; Your Muse’s avatar reacts as it listens and speaks, with expressions and",
+      "url": "https://x.com/testingcatalog/status/2118469389452271860"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118777954540888064"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118779041390182778",
+      "created_at": "2026-11-06T18:54:23.000Z",
+      "edit_history_post_ids": [
+        "2118779041390182778"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/KQ9bzhfNX8",
+            "end": 300,
+            "expanded_url": "https://x.com/testingcatalog/status/2118779041390182778/photo/1",
+            "media_key": "3_2118777954540888064",
+            "start": 277,
+            "url": "https://t.co/KQ9bzhfNX8"
+          },
+          {
+            "display_url": "x.com/finkd/status/2…",
+            "end": 324,
+            "expanded_url": "https://twitter.com/finkd/status/2118767522782626104",
+            "start": 301,
+            "url": "https://t.co/2QurGX3t4H"
+          }
+        ]
+      },
+      "id": "2118779041390182778",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 22,
+        "impression_count": 7946,
+        "like_count": 156,
+        "quote_count": 1,
+        "reply_count": 10,
+        "repost_count": 6
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118767522782626104",
+          "type": "quoted"
+        }
+      ],
+      "text": "META 🔥: Muse and Meta AI apps now run on new specialized models trained with Muse Wonder. \n\nBoth Active Memory and Active Focus, introduced in Muse Wonder, are now available in Muse and Meta AI.\n\nThe Personal Superintelligence Index is up 9%, and Active Memory Eval is up 14%. https://t.co/KQ9bzhfNX8 https://t.co/2QurGX3t4H",
+      "url": "https://x.com/testingcatalog/status/2118779041390182778"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118790108786606080"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118790208993005788",
+      "created_at": "2026-11-06T19:38:45.000Z",
+      "edit_history_post_ids": [
+        "2118790208993005788"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/uPPJSnOqmI",
+            "end": 303,
+            "expanded_url": "https://x.com/testingcatalog/status/2118790208993005788/video/1",
+            "media_key": "13_2118790108786606080",
+            "start": 280,
+            "url": "https://t.co/uPPJSnOqmI"
+          },
+          {
+            "display_url": "x.com/alexandr_wang/…",
+            "end": 327,
+            "expanded_url": "https://twitter.com/alexandr_wang/status/2118769424769663009",
+            "start": 304,
+            "url": "https://t.co/xLnUEUy6Yl"
+          }
+        ]
+      },
+      "id": "2118790208993005788",
+      "lang": "en",
+      "note_tweet": {
+        "text": "META 🔥: Muse now has Spaces!\n\nUsers can ask Muse to generate an interactive page on a specific topic or visualize certain data. \n\nThese spaces work like interactive artifacts powered by data from sources Muse can access. \n\nI've asked it to create a space for \"testing\" and got an interactive playground. I think that Meta should now find a way to make these spaces shareable; that would be big. \n\nTesting time! 👀"
+      },
+      "public_metrics": {
+        "bookmark_count": 24,
+        "impression_count": 8891,
+        "like_count": 161,
+        "quote_count": 3,
+        "reply_count": 20,
+        "repost_count": 7
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118769424769663009",
+          "type": "quoted"
+        }
+      ],
+      "text": "META 🔥: Muse now has Spaces!\n\nUsers can ask Muse to generate an interactive page on a specific topic or visualize certain data. \n\nThese spaces work like interactive artifacts powered by data from sources Muse can access. \n\nI've asked it to create a space for \"testing\" and got an https://t.co/uPPJSnOqmI https://t.co/xLnUEUy6Yl",
+      "url": "https://x.com/testingcatalog/status/2118790208993005788"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118794810983329792"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118844509346005399",
+      "created_at": "2026-11-06T23:14:31.000Z",
+      "edit_history_post_ids": [
+        "2118844509346005399"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/jtwZLSTP2C",
+            "end": 213,
+            "expanded_url": "https://x.com/ClaudeDevs/status/2118795192090386454/video/1",
+            "media_key": "13_2118794810983329792",
+            "start": 190,
+            "url": "https://t.co/jtwZLSTP2C"
+          }
+        ]
+      },
+      "id": "2118844509346005399",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 13,
+        "impression_count": 4878,
+        "like_count": 96,
+        "quote_count": 1,
+        "reply_count": 20,
+        "repost_count": 3
+      },
+      "text": "Claude on Pro, Max and Ultra plans now can figure out your project dependencies and required API keys on its own in order to run it in the Claude Code cloud session. \n\nClaude in the cloud 👀 https://t.co/jtwZLSTP2C",
+      "url": "https://x.com/testingcatalog/status/2118844509346005399"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118387217588465664"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118390979459776709",
+      "created_at": "2026-11-05T17:12:21.000Z",
+      "edit_history_post_ids": [
+        "2118390979459776709"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/Lembxv2AKu",
+            "end": 319,
+            "expanded_url": "https://x.com/OpenAI/status/2118390190246879554/video/1",
+            "media_key": "13_2118387217588465664",
+            "start": 296,
+            "url": "https://t.co/Lembxv2AKu"
+          }
+        ]
+      },
+      "id": "2118390979459776709",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/OpenAI/status/…",
+              "end": 319,
+              "expanded_url": "https://x.com/OpenAI/status/2118390190246879554/video/1",
+              "start": 296,
+              "url": "https://t.co/Lembxv2AKu"
+            }
+          ]
+        },
+        "text": "OPENAI 🔥: A new GPT-6 Cyber model for advanced security research is now available on Daybreak!\n\n> \"GPT-6 Cyber is available to select Daybreak Red customers, and we are expanding access over time.\"\n\n> OpenAI is hosting a Cyber-related livestream on November 12, with more updates being planned.  https://t.co/Lembxv2AKu"
+      },
+      "public_metrics": {
+        "bookmark_count": 16,
+        "impression_count": 11880,
+        "like_count": 296,
+        "quote_count": 1,
+        "reply_count": 21,
+        "repost_count": 13
+      },
+      "text": "OPENAI 🔥: A new GPT-6 Cyber model for advanced security research is now available on Daybreak!\n\n&gt; \"GPT-6 Cyber is available to select Daybreak Red customers, and we are expanding access over time.\"\n\n&gt; OpenAI is hosting a Cyber-related livestream on November 12, with more updates",
+      "url": "https://x.com/testingcatalog/status/2118390979459776709"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118389256930660352"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118396884381225153",
+      "created_at": "2026-11-05T17:35:49.000Z",
+      "edit_history_post_ids": [
+        "2118396884381225153"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/hrL1p0ijCu",
+            "end": 303,
+            "expanded_url": "https://x.com/perplexity_ai/status/2118389326459670825/video/1",
+            "media_key": "13_2118389256930660352",
+            "start": 280,
+            "url": "https://t.co/hrL1p0ijCu"
+          }
+        ]
+      },
+      "id": "2118396884381225153",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/perplexity_ai/…",
+              "end": 303,
+              "expanded_url": "https://x.com/perplexity_ai/status/2118389326459670825/video/1",
+              "start": 280,
+              "url": "https://t.co/hrL1p0ijCu"
+            }
+          ]
+        },
+        "text": "PERPLEXITY 🔥: Teammates, Perplexity's new proactive agents, are rolling out to Perplexity Max subscribers on the web!\n\nTeammates are running in an isolated environment and can execute Computer tasks, skills, memory, and tools. \n\nComing soon to mobile apps, too! \n\nTesting time! 👀 https://t.co/hrL1p0ijCu"
+      },
+      "public_metrics": {
+        "bookmark_count": 36,
+        "impression_count": 13335,
+        "like_count": 254,
+        "quote_count": 10,
+        "reply_count": 30,
+        "repost_count": 17
+      },
+      "text": "PERPLEXITY 🔥: Teammates, Perplexity's new proactive agents, are rolling out to Perplexity Max subscribers on the web!\n\nTeammates are running in an isolated environment and can execute Computer tasks, skills, memory, and tools. \n\nComing soon to mobile apps, too! \n\nTesting time!",
+      "url": "https://x.com/testingcatalog/status/2118396884381225153"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118376364311023617"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118403543547949365",
+      "created_at": "2026-11-05T18:02:17.000Z",
+      "edit_history_post_ids": [
+        "2118403543547949365"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/4UC3iIXoS6",
+            "end": 201,
+            "expanded_url": "https://x.com/GoogleAIStudio/status/2118390015382454491/video/1",
+            "media_key": "13_2118376364311023617",
+            "start": 178,
+            "url": "https://t.co/4UC3iIXoS6"
+          }
+        ]
+      },
+      "id": "2118403543547949365",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 29,
+        "impression_count": 12909,
+        "like_count": 312,
+        "quote_count": 6,
+        "reply_count": 19,
+        "repost_count": 10
+      },
+      "text": "GOOGLE 🔥: Omni 1.2 Flash video generation model is now available on Google AI Studio and Gemini APIs. \n\nUp to 15 seconds long and up to 4K video resolution, at 30% lower cost.   https://t.co/4UC3iIXoS6",
+      "url": "https://x.com/testingcatalog/status/2118403543547949365"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118775928209739776"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118776243961147859",
+      "created_at": "2026-11-06T18:43:16.000Z",
+      "edit_history_post_ids": [
+        "2118776243961147859"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/bLnmBCDgU9",
+            "end": 303,
+            "expanded_url": "https://x.com/testingcatalog/status/2118776243961147859/video/1",
+            "media_key": "13_2118775928209739776",
+            "start": 280,
+            "url": "https://t.co/bLnmBCDgU9"
+          },
+          {
+            "display_url": "x.com/NaceAI/status/…",
+            "end": 327,
+            "expanded_url": "https://twitter.com/NaceAI/status/2118695842551103645",
+            "start": 304,
+            "url": "https://t.co/fzh0ER45LI"
+          }
+        ]
+      },
+      "id": "2118776243961147859",
+      "lang": "en",
+      "note_tweet": {
+        "text": "Nace AI has published a 51-page report on how it trained Drex, its family of open-weight AI models that pick the most likely answer from a fixed list of options.\n\nDrex v1.5 was trained on 1.15 million example decisions with verified answers, covering tasks from reading contracts to spotting phishing emails.\n\nIn a second stage, a larger AI model taught Drex how confident to be in each answer, so its percentages match how often it is actually right.\n\nDrex can be tested in Nace Console, where users upload documents with questions and receive a probability score for each answer."
+      },
+      "public_metrics": {
+        "bookmark_count": 18,
+        "impression_count": 7727,
+        "like_count": 122,
+        "quote_count": 1,
+        "reply_count": 12,
+        "repost_count": 6
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118695842551103645",
+          "type": "quoted"
+        }
+      ],
+      "text": "Nace AI has published a 51-page report on how it trained Drex, its family of open-weight AI models that pick the most likely answer from a fixed list of options.\n\nDrex v1.5 was trained on 1.15 million example decisions with verified answers, covering tasks from reading contracts https://t.co/bLnmBCDgU9 https://t.co/fzh0ER45LI",
+      "url": "https://x.com/testingcatalog/status/2118776243961147859"
+    },
+    {
+      "author_id": "1699797396589588480",
+      "conversation_id": "2118632095929208979",
+      "created_at": "2026-11-06T09:10:28.000Z",
+      "edit_history_post_ids": [
+        "2118632095929208979"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/Baidu_Inc/stat…",
+            "end": 167,
+            "expanded_url": "https://twitter.com/Baidu_Inc/status/2118265920665587935",
+            "start": 144,
+            "url": "https://t.co/R7qrwfJX9E"
+          }
+        ]
+      },
+      "id": "2118632095929208979",
+      "lang": "zh",
+      "note_tweet": {
+        "text": "在一个无人在意的角落，百度悄悄发布了他们的下一代基础模型，文心5.5 Flash Base，而且直接开源了权重。\n\n280B总参数，14B激活参数，使用33.5T Tokens完成预训练，微调和推理阶段最长支持1M上下文。\n\n我仔细看了一下官方的Benchmark，成绩确实还挺不错的。\n百度把它和DeepSeek、腾讯混元、小米MiMo的同级别参数的模型放在一起比较，在30项Benchmark中拿下了24项第一。\n当然，这里需要说明一下，它对比的是其他厂商此前发布的Base模型，没有和现在各家最新的后训练版本比较。\n但这次确实基本是同参数规模对比，几家的总参数都在280B～310B之间，激活参数也比较接近，腾讯甚至达到了21B。\n所以至少从模型尺寸上看，百度这次的成绩还是有含金量的（但是base model对于用户有什么价值么）。\n\n不过看到这个模型发布，我突然想起来，百度最近的模型团队好像正在经历一轮密集的人事变动。\n今年7月，97年出生的孙天祥接手基础模型研发部。\n10月底，在百度工作了20年的原文心大模型负责人吴甜确认离职，随后宣布加盟三一集团。\n紧接着，11月初，又有消息称，百度文心大模型后训练负责人刘璟也离职了，下一站可能是中关村学院。\n同时据爆料，后训练团队还有几个人提出了离职，内部在大模型研发方向上也存在不同意见。\n\n这就很有意思了。\n因为百度昨天开源的，恰好是一个刚完成预训练、还没有经过中期训练和后训练的Base模型。\n官方说，完成后训练的文心5.5 Flash还会在后面推出。\n结果现在Base模型的Benchmark确实很能打，负责后训练的人却先走了。\n我现在还真有点好奇，接下来这个模型的后训练准备让谁来做。\n\n不过还是希望百度能把这个模型做好。\n这次Base的成绩也证明他们依然有能力做出有竞争力的模型。\n希望下一次看到文心的新闻，是模型又进步了，而不是团队又少了几个人。\n\n毕竟很多人都是从PaddlePaddle第一次接触的机器/深度学习。"
+      },
+      "public_metrics": {
+        "bookmark_count": 6,
+        "impression_count": 8480,
+        "like_count": 32,
+        "quote_count": 1,
+        "reply_count": 7,
+        "repost_count": 1
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118265920665587935",
+          "type": "quoted"
+        }
+      ],
+      "text": "在一个无人在意的角落，百度悄悄发布了他们的下一代基础模型，文心5.5 Flash Base，而且直接开源了权重。\n\n280B总参数，14B激活参数，使用33.5T Tokens完成预训练，微调和推理阶段最长支持1M上下文。\n\n我仔细看了一下官方的Benchmark，成绩确实还挺不错的。 https://t.co/R7qrwfJX9E",
+      "url": "https://x.com/MaxForAI/status/2118632095929208979"
+    },
+    {
+      "author_id": "1953337039510003712",
+      "conversation_id": "2118569235953893573",
+      "created_at": "2026-11-06T05:00:41.000Z",
+      "edit_history_post_ids": [
+        "2118569235953893573"
+      ],
+      "id": "2118569235953893573",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 966,
+        "impression_count": 909171,
+        "like_count": 12618,
+        "quote_count": 215,
+        "reply_count": 966,
+        "repost_count": 533
+      },
+      "text": "I can confidently say that humans were not very good at writing secure infrastructure. The endstate will be hypersecure infrastructure and software for all, but we're going to go through some turbulence before we reach that.",
+      "url": "https://x.com/thsottiaux/status/2118569235953893573"
+    },
+    {
+      "author_id": "1953337039510003712",
+      "conversation_id": "2118402103907655903",
+      "created_at": "2026-11-05T17:56:34.000Z",
+      "edit_history_post_ids": [
+        "2118402103907655903"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/OpenAI/status/…",
+            "end": 162,
+            "expanded_url": "https://twitter.com/OpenAI/status/2118390190246879554",
+            "start": 139,
+            "url": "https://t.co/0QsViK8mMI"
+          }
+        ]
+      },
+      "id": "2118402103907655903",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 309,
+        "impression_count": 584303,
+        "like_count": 4050,
+        "quote_count": 53,
+        "reply_count": 576,
+        "repost_count": 138
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118390190246879554",
+          "type": "quoted"
+        }
+      ],
+      "text": "Our latest cyber-specialized model is out. It's in its own league on many cyber-specific use cases. Available through Daybreak Red access. https://t.co/0QsViK8mMI",
+      "url": "https://x.com/thsottiaux/status/2118402103907655903"
+    },
+    {
+      "author_id": "1764818331822182400",
+      "conversation_id": "2118639603964150095",
+      "created_at": "2026-11-06T09:40:18.000Z",
+      "edit_history_post_ids": [
+        "2118639603964150095"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/xiaohu/status/…",
+            "end": 196,
+            "expanded_url": "https://twitter.com/xiaohu/status/2118530641616875637",
+            "start": 173,
+            "url": "https://t.co/D0U3zLu98F"
+          }
+        ]
+      },
+      "id": "2118639603964150095",
+      "lang": "zh",
+      "note_tweet": {
+        "text": "本视频解决了之前说的配音问题\n使用了Gemini 3.8 Flash TTS\n\n同时将形象替换为真人形象，口型采用了 OmniHuman 1.5，性价比比较高\n\n全程由Claude Code驱动完成，包括素材收集、文稿撰写、动效创建、配音配乐、剪辑、渲染和封面设计，我只负责提意见和修改\n\n消耗Claude Code 100美金周额度 1%左右\n口型花费大概2-3元\n配音薅的Google AI Studio里送的..."
+      },
+      "public_metrics": {
+        "bookmark_count": 222,
+        "impression_count": 16126,
+        "like_count": 162,
+        "quote_count": 0,
+        "reply_count": 33,
+        "repost_count": 15
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118530641616875637",
+          "type": "quoted"
+        }
+      ],
+      "text": "本视频解决了之前说的配音问题\n使用了Gemini 3.8 Flash TTS\n\n同时将形象替换为真人形象，口型采用了 OmniHuman 1.5，性价比比较高\n\n全程由Claude Code驱动完成，包括素材收集、文稿撰写、动效创建、配音配乐、剪辑、渲染和封面设计，我只负责提意见和修改\n\n消耗Claude Code 100美金周额度 1%左右 https://t.co/D0U3zLu98F",
+      "url": "https://x.com/xiaohu/status/2118639603964150095"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118529276475785216"
+        ]
+      },
+      "author_id": "1764818331822182400",
+      "conversation_id": "2118530641616875637",
+      "created_at": "2026-11-06T02:27:20.000Z",
+      "edit_history_post_ids": [
+        "2118530641616875637"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/jdmgc5ubjD",
+            "end": 166,
+            "expanded_url": "https://x.com/xiaohu/status/2118530641616875637/video/1",
+            "media_key": "13_2118529276475785216",
+            "start": 143,
+            "url": "https://t.co/jdmgc5ubjD"
+          }
+        ]
+      },
+      "id": "2118530641616875637",
+      "lang": "zh",
+      "public_metrics": {
+        "bookmark_count": 18,
+        "impression_count": 25698,
+        "like_count": 48,
+        "quote_count": 3,
+        "reply_count": 13,
+        "repost_count": 2
+      },
+      "text": "美股暴跌，AI 股全线崩盘 📉\n\n纳指跌 5.5%，标普一天蒸发 2.8 万亿美元\n\n费城半导体指数跌 12.3%，英伟达一天蒸发近 4500 亿美元\n\n今早韩国股市开盘跌 8%，全市场暂停交易\n\n这一跌是怎么来的？\n今天的小互 AI 日报从头讲清楚，另外还有 8 条 AI 大事 👇 https://t.co/jdmgc5ubjD",
+      "url": "https://x.com/xiaohu/status/2118530641616875637"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118576514753290240"
+        ]
+      },
+      "author_id": "1764818331822182400",
+      "conversation_id": "2118577156670607587",
+      "created_at": "2026-11-06T05:32:10.000Z",
+      "edit_history_post_ids": [
+        "2118577156670607587"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/bvkcinu38Q",
+            "end": 47,
+            "expanded_url": "https://x.com/xiaohu/status/2118577156670607587/video/1",
+            "media_key": "13_2118576514753290240",
+            "start": 24,
+            "url": "https://t.co/bvkcinu38Q"
+          }
+        ]
+      },
+      "id": "2118577156670607587",
+      "lang": "zh",
+      "public_metrics": {
+        "bookmark_count": 150,
+        "impression_count": 39688,
+        "like_count": 213,
+        "quote_count": 10,
+        "reply_count": 37,
+        "repost_count": 23
+      },
+      "text": "兄弟们\n这个项目我真觉得可以投啊\n\n很有前景🤣 https://t.co/bvkcinu38Q",
+      "url": "https://x.com/xiaohu/status/2118577156670607587"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118512229402439680"
+        ]
+      },
+      "author_id": "1764818331822182400",
+      "conversation_id": "2118512604868219270",
+      "created_at": "2026-11-06T01:15:39.000Z",
+      "edit_history_post_ids": [
+        "2118512604868219270"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/9UXixcS3v9",
+            "end": 111,
+            "expanded_url": "https://x.com/xiaohu/status/2118512604868219270/video/1",
+            "media_key": "13_2118512229402439680",
+            "start": 88,
+            "url": "https://t.co/9UXixcS3v9"
+          },
+          {
+            "display_url": "x.com/Muse/status/21…",
+            "end": 135,
+            "expanded_url": "https://twitter.com/Muse/status/2118411960337289583",
+            "start": 112,
+            "url": "https://t.co/bIv2SjVXuS"
+          }
+        ]
+      },
+      "id": "2118512604868219270",
+      "lang": "zh",
+      "public_metrics": {
+        "bookmark_count": 27,
+        "impression_count": 15924,
+        "like_count": 58,
+        "quote_count": 0,
+        "reply_count": 28,
+        "repost_count": 2
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118411960337289583",
+          "type": "quoted"
+        }
+      ],
+      "text": "Muse 也能打电话了\n\n但是\n好像比\n\nGrok Bot 好用一些了，不得不说每家公司基因不一样确实干活不一样，Meta to C的能力就是很强...\n\n产品定位很符合大众 https://t.co/9UXixcS3v9 https://t.co/bIv2SjVXuS",
+      "url": "https://x.com/xiaohu/status/2118512604868219270"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "3_2117870210527150080",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWQvvEraQAAjwKn.jpg"
+      },
+      {
+        "media_key": "3_2118697186464772096",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWcf3aHaMAANbi9.jpg"
+      },
+      {
+        "media_key": "3_2118697186443890688",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWcf3aCbkAAKACK.jpg"
+      },
+      {
+        "media_key": "3_2118697186473230337",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWcf3aJbQAEMnWe.jpg"
+      },
+      {
+        "media_key": "3_2118697186452291584",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWcf3aEbwAA--co.jpg"
+      },
+      {
+        "media_key": "3_2118672436795473920",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWcJWyabAAAzP6_.jpg"
+      },
+      {
+        "media_key": "3_2118680401866526720",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWcQmanWEAAPbTt.jpg"
+      },
+      {
+        "media_key": "3_2118680401891741698",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWcQmatW0AItP-K.jpg"
+      },
+      {
+        "media_key": "3_2118455242933116929",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZD0cOXoAEkKoj.jpg"
+      },
+      {
+        "media_key": "3_2118455291297538048",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZD3QZWIAA-r_-.jpg"
+      },
+      {
+        "duration_ms": 91166,
+        "media_key": "13_2118401044841390080",
+        "preview_image_url": "https://pbs.twimg.com/media/HWYUk7ZWwAAcrVe.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118401044841390080/vid/avc1/1280x720/BnJl4Fn6WCBMB-WT.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118401044841390080/pl/AmSQ5bgp_75bEbTt.m3u8?v=cfc"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118401044841390080/vid/avc1/480x270/xKwe6dS0sj4gokYA.mp4"
+          },
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118401044841390080/vid/avc1/1920x1080/lQ99Zn7JR9hyYGA6.mp4"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118401044841390080/vid/avc1/640x360/WXL9zd_-7MVyqbxg.mp4"
+          }
+        ]
+      },
+      {
+        "duration_ms": 59434,
+        "media_key": "13_2118400683942477824",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118400683942477824/img/8Nq_kxkL9PZTDlo7.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118400683942477824/vid/avc1/1920x1080/Cm1cQyWXzScixdrZ.mp4"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118400683942477824/vid/avc1/640x360/R9GB9nlu0AaOO764.mp4"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118400683942477824/vid/avc1/480x270/PK2uZJz9iJDX2EXT.mp4"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118400683942477824/vid/avc1/1280x720/wcXGeGsHQpPiS69l.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118400683942477824/pl/fJMTD1bIBLKMNTVr.m3u8"
+          }
+        ]
+      },
+      {
+        "media_key": "3_2118777954540888064",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWdpUupWoAA2sjb.jpg"
+      },
+      {
+        "media_key": "3_2118769420441092096",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWdhj-paAAASdzm.jpg"
+      },
+      {
+        "media_key": "3_2118769420336295936",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWdhj-Qa8AA0DUY.jpg"
+      },
+      {
+        "media_key": "3_2118769420336308224",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWdhj-QbIAAVQTR.jpg"
+      },
+      {
+        "media_key": "3_2118769420386668544",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWdhj-cbkAAeHR3.jpg"
+      },
+      {
+        "duration_ms": 28700,
+        "media_key": "13_2118790108786606080",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118790108786606080/img/hzwtRCiu8PcQkP-9.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118790108786606080/vid/avc1/472x270/RjZjUv-RlpejIT1N.mp4"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118790108786606080/vid/avc1/630x360/Q33V9M7vsHMcHIde.mp4"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118790108786606080/vid/avc1/1260x720/4qQc1j0khCGoAhlr.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118790108786606080/pl/A79LwPvo5PTTaZ6W.m3u8"
+          },
+          {
+            "bit_rate": 25128000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118790108786606080/vid/avc1/3780x2160/375bANLZHSCWGaKm.mp4"
+          },
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118790108786606080/vid/avc1/1890x1080/EQOGefbDtEBeX2cB.mp4"
+          }
+        ]
+      },
+      {
+        "duration_ms": 21832,
+        "media_key": "13_2118794810983329792",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118794810983329792/img/dw_n0u2DijbOZmpL.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 25128000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118794810983329792/vid/avc1/3840x2160/1h6cN8hU7Ovuqb6B.mp4"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118794810983329792/vid/avc1/480x270/tQ2V8ffsvTYMWYk8.mp4"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118794810983329792/vid/avc1/1280x720/RmK3SLt4O1y4sldY.mp4"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118794810983329792/vid/avc1/640x360/Nrs-oShxpQO9AFHs.mp4"
+          },
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118794810983329792/vid/avc1/1920x1080/FezY4HM0jpZA_iFm.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118794810983329792/pl/g94nApUIZ5cXwKgK.m3u8?v=cfc"
+          }
+        ]
+      },
+      {
+        "duration_ms": 7000,
+        "media_key": "13_2118387217588465664",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118387217588465664/img/N2grMUmP0O_EMvS2.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118387217588465664/vid/avc1/640x360/8VQ75nYFaMDyW_hX.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118387217588465664/pl/OT3cEN27r5tms8VU.m3u8"
+          },
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118387217588465664/vid/avc1/1920x1080/ggeDE9iY9Trxb8kO.mp4"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118387217588465664/vid/avc1/1280x720/_Bwsy8lRf0qMlY0X.mp4"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118387217588465664/vid/avc1/480x270/_03wR4bjsWs2Zpye.mp4"
+          }
+        ]
+      },
+      {
+        "duration_ms": 70976,
+        "media_key": "13_2118389256930660352",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118389256930660352/img/GPUe0mXgz4f2dJ6O.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118389256930660352/vid/avc1/1920x1080/YolVp4rKqeN6t210.mp4?tag=16"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118389256930660352/vid/avc1/1280x720/BDL8gk7hVCzeUzWX.mp4?tag=16"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118389256930660352/pl/eQODQuOhRA--kOwe.m3u8?tag=16&v=a9b"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118389256930660352/vid/avc1/640x360/_pQlVZnHqA8ThD-D.mp4?tag=16"
+          },
+          {
+            "bit_rate": 288000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118389256930660352/vid/avc1/480x270/hQuqLPG2ABDDsK63.mp4?tag=16"
+          }
+        ]
+      },
+      {
+        "duration_ms": 25000,
+        "media_key": "13_2118376364311023617",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118376364311023617/img/mXXhU9jd_CIcdZY0.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118376364311023617/vid/avc1/1920x1080/xhq4pE6P2V7vql2h.mp4"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118376364311023617/vid/avc1/640x360/1DmjsKgFokRc5Efy.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118376364311023617/pl/JRhj4s37q1cygbsO.m3u8?v=abe"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118376364311023617/vid/avc1/480x270/_2k73pV2rFgGgoan.mp4"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118376364311023617/vid/avc1/1280x720/OWxGUoNf8nexxZZZ.mp4"
+          }
+        ]
+      },
+      {
+        "media_key": "3_2118682652819828736",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWcSpcEbsAAlXZX.jpg"
+      },
+      {
+        "duration_ms": 15850,
+        "media_key": "13_2118775928209739776",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118775928209739776/img/YAmAeoJrQtzg5Ar0.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118775928209739776/vid/avc1/1140x720/4ArjoSNpdvs-vZs1.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118775928209739776/pl/Spl2NF2wpRYze8Us.m3u8"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118775928209739776/vid/avc1/570x360/QX9g88ne5Zf4PCIz.mp4"
+          },
+          {
+            "bit_rate": 25128000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118775928209739776/vid/avc1/3422x2160/-L0wgg0C_jMc-UNf.mp4"
+          },
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118775928209739776/vid/avc1/1710x1080/GrXJcRSliakyr-Kn.mp4"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118775928209739776/vid/avc1/426x270/PEIpx8z316K64xeM.mp4"
+          }
+        ]
+      },
+      {
+        "media_key": "3_2118259403606446080",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWWRtF4X0AAtbUL.png"
+      },
+      {
+        "media_key": "3_2118259404558475264",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWWRtJbWoAAlI66.jpg"
+      },
+      {
+        "duration_ms": 500833,
+        "media_key": "13_2118529276475785216",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118529276475785216/img/jQVAEvpeDwCxygIJ.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118529276475785216/pl/bN6ZvZTVkevrH7Cf.m3u8"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118529276475785216/vid/avc1/480x270/XVzm_ENa-NhCchIA.mp4"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118529276475785216/vid/avc1/1280x720/NjX_ezPbtCkHABtX.mp4"
+          },
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118529276475785216/vid/avc1/1920x1080/WBc_6_8YZN5BVpcE.mp4"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118529276475785216/vid/avc1/640x360/dP7fY3w_MLRp7sUZ.mp4"
+          }
+        ]
+      },
+      {
+        "duration_ms": 222516,
+        "media_key": "13_2118576514753290240",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118576514753290240/img/-djVb-u9eTCCcCgz.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118576514753290240/vid/avc1/2562x1440/X16htVzLHWg0M_Lk.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118576514753290240/pl/1kCgFMt7pDctwofJ.m3u8?v=c7e"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118576514753290240/vid/avc1/1280x720/0iBBwDgDKk0KrrtE.mp4"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118576514753290240/vid/avc1/480x270/TLtA02XKE9SGfhj4.mp4"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118576514753290240/vid/avc1/640x360/ACmcWGRXOva_qwcg.mp4"
+          }
+        ]
+      },
+      {
+        "duration_ms": 59477,
+        "media_key": "13_2118512229402439680",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118512229402439680/img/8wC0UXE_Fqk2pkzp.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118512229402439680/vid/avc1/480x270/Iv2HUTIgMGfTD835.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2118512229402439680/pl/r7HOsu8FV08alhdW.m3u8"
+          },
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118512229402439680/vid/avc1/1920x1080/pIQ0fwlq6W8PkzNM.mp4"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118512229402439680/vid/avc1/1280x720/_hDTYonQlx8y5U4G.mp4"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2118512229402439680/vid/avc1/640x360/fCarYZnwWtOo1rou.mp4"
+          }
+        ]
+      }
+    ],
+    "posts": [
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2117870210527150080"
+          ]
+        },
+        "author_id": "1810933558703493120",
+        "conversation_id": "2117870250838630539",
+        "created_at": "2026-11-04T06:43:10.000Z",
+        "edit_history_post_ids": [
+          "2117870250838630539"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "hy.tencent.ai/research/hy4?l…",
+              "end": 248,
+              "expanded_url": "https://hy.tencent.ai/research/hy4?langVersion=en",
+              "start": 225,
+              "status": 200,
+              "title": "Tencent Hy",
+              "unwound_url": "https://hy.tencent.ai/research/hy4?langVersion=en",
+              "url": "https://t.co/ZzL4DtgH3h"
+            },
+            {
+              "display_url": "pic.x.com/xceRxN6ueT",
+              "end": 272,
+              "expanded_url": "https://x.com/TencentHunyuan/status/2117870250838630539/photo/1",
+              "media_key": "3_2117870210527150080",
+              "start": 249,
+              "url": "https://t.co/xceRxN6ueT"
+            }
+          ]
+        },
+        "id": "2117870250838630539",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 582,
+          "impression_count": 652484,
+          "like_count": 2977,
+          "quote_count": 307,
+          "reply_count": 269,
+          "repost_count": 336
+        },
+        "text": "👋Hy4 is here, new with vision.\nFirmly among the leading open models.\nMore productive everywhere: finance, frontend, game, officework, research…\nBuilt responsibly, with cyber/biosecurity in mind.\nTry it out and let us know!\n🔗：https://t.co/ZzL4DtgH3h https://t.co/xceRxN6ueT"
+      },
+      {
+        "author_id": "3980735590",
+        "conversation_id": "2118268779901628880",
+        "created_at": "2026-11-05T09:06:47.000Z",
+        "edit_history_post_ids": [
+          "2118268779901628880"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/testingcatalog…",
+              "end": 298,
+              "expanded_url": "https://twitter.com/testingcatalog/status/2117921199879532604",
+              "start": 275,
+              "url": "https://t.co/sYDVoir2dI"
+            }
+          ]
+        },
+        "id": "2118268779901628880",
+        "lang": "en",
+        "note_tweet": {
+          "text": "DAILY AI BRIEF 🗞 — Nov 5\n\nOPENAI 🔥:\n- OpenAI launched Images 2.6 with GIFs and reference images in ChatGPT and Codex, plus the Flare and Sunburst models in the API.\n- GPT-6.2 Astra and Sol showed up on Google Cloud quotas, and The Information says they could ship as soon as Friday (via AiBattle_).\n- OpenAI is acquiring Pierre Computer Company to build Git workflows for Codex.\n- An OpenAI security pipeline using an upcoming cyber model patched 948 Linux kernel privilege-escalation bugs in one run.\n\nMOONSHOT 🔥:\n- Kimi K3.1 Pro open weights are now on Hugging Face.\n\nGOOGLE 🔥:\n- Antigravity v2.29 brings Voice Mode and Remote Agents for AI Pro and Ultra subscribers.\n- Antigravity now opens Jupyter notebooks natively.\n- The Gemini API computer use tool is now generally available.\n- Voice Remixing for Gemini 3.8 Flash TTS is live in AI Studio and the Gemini API.\n- Gemini Omni 1.2 Flash was spotted on Google Cloud (via mrfanduu).\n\nANTHROPIC 🔥:\n- Claude desktop added a /storage command to check disk use and clear old tasks and worktrees.\n- Claude Code background subagents now use about 99% less usage on status updates.\n\nMETA 🔥:\n- Conductor, a platform for local and cloud coding agents, is joining Meta.\n\nSPACEXSI 🔥:\n- Native Grok Bot calling is limited to eligible US accounts dialing US numbers, with international support still on the roadmap.\n- Grok Bot is testing a refer-a-friend option that earns free usage resets (via blankspeaker).\n- Grok Bot is testing a Re-run button so a routine can restart from a connector card in chat (via blankspeaker).\n\nMICROSOFT 🔥:\n- GitHub Copilot is now in public preview inside Xcode's built-in coding assistant.\n\nPERPLEXITY 🔥:\n- Perplexity added web grounding to its Decisions API.\n\nCOGNITION 🔥:\n- Cognition released SWE-2 Flash, a fast coding model.\n\nFACTORY 🔥:\n- HumanLayer is joining Factory.\n\nNOUS RESEARCH 🔥:\n- Hermes Agent got a unified marketplace.\n- The Hermes mobile app opened a waitlist.\n\nMIDJOURNEY 🔥:\n- Midjourney v9 is reportedly coming before the end of the year (via koltregaskes).\n\nRICURSIVE 🔥:\n- Ricursive released Ripple-65B Preview, an open-weight model built for agentic coding.\n\nNOTION 🔥:\n- Notion now lets ChatGPT, Claude and other agents share one memory and skill set.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+        },
+        "public_metrics": {
+          "bookmark_count": 43,
+          "impression_count": 45174,
+          "like_count": 280,
+          "quote_count": 10,
+          "reply_count": 63,
+          "repost_count": 13
+        },
+        "referenced_tweets": [
+          {
+            "id": "2117921199879532604",
+            "type": "quoted"
+          }
+        ],
+        "text": "DAILY AI BRIEF 🗞 — Nov 5\n\nOPENAI 🔥:\n- OpenAI launched Images 2.6 with GIFs and reference images in ChatGPT and Codex, plus the Flare and Sunburst models in the API.\n- GPT-6.2 Astra and Sol showed up on Google Cloud quotas, and The Information says they could ship as soon as https://t.co/sYDVoir2dI"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2118672436795473920"
+          ]
+        },
+        "author_id": "1753339277386342400",
+        "conversation_id": "2118674834632978755",
+        "created_at": "2026-11-06T12:00:18.000Z",
+        "edit_history_post_ids": [
+          "2118674834632978755"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/SdWEEuG8F3",
+              "end": 44,
+              "expanded_url": "https://x.com/Alibaba_Qwen/status/2118674834632978755/photo/1",
+              "media_key": "3_2118672436795473920",
+              "start": 21,
+              "url": "https://t.co/SdWEEuG8F3"
+            }
+          ]
+        },
+        "id": "2118674834632978755",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 1203,
+          "impression_count": 1572921,
+          "like_count": 14167,
+          "quote_count": 1087,
+          "reply_count": 1297,
+          "repost_count": 1178
+        },
+        "text": "The becoming begins. https://t.co/SdWEEuG8F3"
+      },
+      {
+        "author_id": "1706770561903497216",
+        "conversation_id": "2118412183860351084",
+        "created_at": "2026-11-05T18:36:37.000Z",
+        "edit_history_post_ids": [
+          "2118412183860351084"
+        ],
+        "id": "2118412183860351084",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 2933,
+          "impression_count": 1418967,
+          "like_count": 4773,
+          "quote_count": 348,
+          "reply_count": 211,
+          "repost_count": 594
+        },
+        "text": "Since August, a team within METR has worked with internal Anthropic information to assess whether AI itself is accelerating AI development.\n\nWe are now publishing a report summarizing the results of this risk assessment."
+      },
+      {
+        "author_id": "20749410",
+        "conversation_id": "2118767522782626104",
+        "created_at": "2026-11-06T18:08:36.000Z",
+        "edit_history_post_ids": [
+          "2118767522782626104"
+        ],
+        "id": "2118767522782626104",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "urls": [
+              {
+                "display_url": "research.meta.ai/blog/specializ…",
+                "end": 364,
+                "expanded_url": "https://research.meta.ai/blog/specialized-models-for-muse-and-metaai",
+                "start": 341,
+                "url": "https://t.co/P2DvI43xDj"
+              }
+            ]
+          },
+          "text": "Upgraded the models for Muse and Meta Al, bringing Active Memory and Active Focus from Muse Wonder to everyone. In Muse, these new specialized models are 2.4x less likely to forget critical info and are 67% better at self correcting and completing everyday tasks which means less repeating yourself and fewer dead ends.\n\nMore on the models: https://t.co/P2DvI43xDj"
+        },
+        "public_metrics": {
+          "bookmark_count": 484,
+          "impression_count": 193920,
+          "like_count": 3334,
+          "quote_count": 152,
+          "reply_count": 292,
+          "repost_count": 376
+        },
+        "text": "Upgraded the models for Muse and Meta Al, bringing Active Memory and Active Focus from Muse Wonder to everyone. In Muse, these new specialized models are 2.4x less likely to forget critical info and are 67% better at self correcting and completing everyday tasks which means less"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2118769420441092096",
+            "3_2118769420336295936",
+            "3_2118769420336308224",
+            "3_2118769420386668544"
+          ]
+        },
+        "author_id": "615818451",
+        "conversation_id": "2118769424769663009",
+        "created_at": "2026-11-06T18:16:10.000Z",
+        "edit_history_post_ids": [
+          "2118769424769663009"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/bJLssJmqNv",
+              "end": 270,
+              "expanded_url": "https://x.com/alexandr_wang/status/2118769424769663009/photo/1",
+              "media_key": "3_2118769420441092096",
+              "start": 247,
+              "url": "https://t.co/bJLssJmqNv"
+            },
+            {
+              "display_url": "pic.x.com/bJLssJmqNv",
+              "end": 270,
+              "expanded_url": "https://x.com/alexandr_wang/status/2118769424769663009/photo/1",
+              "media_key": "3_2118769420336295936",
+              "start": 247,
+              "url": "https://t.co/bJLssJmqNv"
+            },
+            {
+              "display_url": "pic.x.com/bJLssJmqNv",
+              "end": 270,
+              "expanded_url": "https://x.com/alexandr_wang/status/2118769424769663009/photo/1",
+              "media_key": "3_2118769420336308224",
+              "start": 247,
+              "url": "https://t.co/bJLssJmqNv"
+            },
+            {
+              "display_url": "pic.x.com/bJLssJmqNv",
+              "end": 270,
+              "expanded_url": "https://x.com/alexandr_wang/status/2118769424769663009/photo/1",
+              "media_key": "3_2118769420386668544",
+              "start": 247,
+              "url": "https://t.co/bJLssJmqNv"
+            }
+          ]
+        },
+        "id": "2118769424769663009",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 246,
+          "impression_count": 74090,
+          "like_count": 849,
+          "quote_count": 26,
+          "reply_count": 108,
+          "repost_count": 44
+        },
+        "text": "🚨 MUSE FEATURE ALERT 🚨 \n\nSpaces are live in muse!\n\njust tell muse what you want in chat and it'll build you a space and keep it up to date for you. pin it to your nav bar so muse always has the latest on what you're into.\n\nhere are a few of mine: https://t.co/bJLssJmqNv"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2118682652819828736"
+          ]
+        },
+        "author_id": "1904210068704481280",
+        "conversation_id": "2118695842551103645",
+        "created_at": "2026-11-06T13:23:46.000Z",
+        "edit_history_post_ids": [
+          "2118695842551103645"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "Sign in to Console by Nace.AI. Data Intelligence suite for AI agents and developers.",
+              "display_url": "console.nace.ai",
+              "end": 252,
+              "expanded_url": "https://console.nace.ai/",
+              "images": [
+                {
+                  "height": 630,
+                  "url": "https://pbs.twimg.com/news_img/2117299738639024128/Bo8Tq4mN?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2117299738639024128/Bo8Tq4mN?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 229,
+              "status": 200,
+              "title": "Sign in | Console",
+              "unwound_url": "https://console.nace.ai/login",
+              "url": "https://t.co/fm3GXfjaqx"
+            },
+            {
+              "display_url": "pic.x.com/xDYLZ2UFrK",
+              "end": 302,
+              "expanded_url": "https://x.com/NaceAI/status/2118695842551103645/photo/1",
+              "media_key": "3_2118682652819828736",
+              "start": 279,
+              "url": "https://t.co/xDYLZ2UFrK"
+            }
+          ]
+        },
+        "id": "2118695842551103645",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "urls": [
+              {
+                "display_url": "console.nace.ai",
+                "end": 252,
+                "expanded_url": "https://console.nace.ai/",
+                "start": 229,
+                "url": "https://t.co/swZ0gsqCyo"
+              }
+            ]
+          },
+          "text": "How are Decision Models Trained?\n\nToday, we are publishing the Drex Technical Report for the developer community! 🚀\n\nDiscover details on how the State-of-the-art Open-Source decision models are trained with RLAF.\n\nBuild more at: https://t.co/swZ0gsqCyo (try for free)\n\nP.S. Drex Max 1.1 and Drex for Finance are closed sourced and designed for enterprise use-cases"
+        },
+        "public_metrics": {
+          "bookmark_count": 139,
+          "impression_count": 22417,
+          "like_count": 159,
+          "quote_count": 13,
+          "reply_count": 9,
+          "repost_count": 14
+        },
+        "text": "How are Decision Models Trained?\n\nToday, we are publishing the Drex Technical Report for the developer community! 🚀\n\nDiscover details on how the State-of-the-art Open-Source decision models are trained with RLAF.\n\nBuild more at: https://t.co/fm3GXfjaqx (try for free)\n\nP.S. Drex https://t.co/xDYLZ2UFrK"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2118259403606446080",
+            "3_2118259404558475264"
+          ]
+        },
+        "author_id": "820440736336228352",
+        "conversation_id": "2118265920665587935",
+        "created_at": "2026-11-05T08:55:25.000Z",
+        "edit_history_post_ids": [
+          "2118265920665587935"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/pksev9jR8j",
+              "end": 300,
+              "expanded_url": "https://x.com/Baidu_Inc/status/2118265920665587935/photo/1",
+              "media_key": "3_2118259403606446080",
+              "start": 277,
+              "url": "https://t.co/pksev9jR8j"
+            },
+            {
+              "display_url": "pic.x.com/pksev9jR8j",
+              "end": 300,
+              "expanded_url": "https://x.com/Baidu_Inc/status/2118265920665587935/photo/1",
+              "media_key": "3_2118259404558475264",
+              "start": 277,
+              "url": "https://t.co/pksev9jR8j"
+            }
+          ]
+        },
+        "id": "2118265920665587935",
+        "lang": "en",
+        "note_tweet": {
+          "text": "ERNIE 5.5 Flash Base just dropped! Time to open that project folder. 🚀\n\nOur efficient sparse MoE language model draws on data spanning multiple domains and languages, achieving SOTA on multiple benchmarks among similarly sized base models. Its architecture and training system were designed together for efficient training and inference, with advances in attention mechanisms, expert routing, and training objectives:\n- 280B total parameters; 14B activated per token\n- Pre-trained on 33.5T tokens\n- Up to 1M-token context for fine-tuning and inference\n- FP8 and BF16 weights\n\nThe weights come straight from pre-training, with no mid- or post-training. Compare methods from the same checkpoint, measure what each adds, and shape the model around your own tasks."
+        },
+        "public_metrics": {
+          "bookmark_count": 76,
+          "impression_count": 237922,
+          "like_count": 335,
+          "quote_count": 33,
+          "reply_count": 48,
+          "repost_count": 47
+        },
+        "text": "ERNIE 5.5 Flash Base just dropped! Time to open that project folder. 🚀\n\nOur efficient sparse MoE language model draws on data spanning multiple domains and languages, achieving SOTA on multiple benchmarks among similarly sized base models. Its architecture and training system https://t.co/pksev9jR8j"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118387217588465664"
+          ]
+        },
+        "author_id": "4398626122",
+        "conversation_id": "2118390190246879554",
+        "created_at": "2026-11-05T17:09:13.000Z",
+        "edit_history_post_ids": [
+          "2118390190246879554"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/34uAeNnhwP",
+              "end": 293,
+              "expanded_url": "https://x.com/OpenAI/status/2118390190246879554/video/1",
+              "media_key": "13_2118387217588465664",
+              "start": 270,
+              "url": "https://t.co/34uAeNnhwP"
+            }
+          ]
+        },
+        "id": "2118390190246879554",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "urls": [
+              {
+                "display_url": "openai.com/index/introduc…",
+                "end": 458,
+                "expanded_url": "https://openai.com/index/introducing-gpt-6-cyber/",
+                "start": 435,
+                "url": "https://t.co/Nzab3Z1Td6"
+              }
+            ]
+          },
+          "text": "Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment.\n\nThe model powered the Linux kernel research we announced yesterday, and security teams at companies like Mozilla, Palo Alto Networks, Calif, and Cisco—alongside our own at OpenAI—are already putting it to work.\n\nGPT-6 Cyber is available to select Daybreak Red customers and we are expanding access over time.\n\nhttps://t.co/Nzab3Z1Td6"
+        },
+        "public_metrics": {
+          "bookmark_count": 4047,
+          "impression_count": 3674204,
+          "like_count": 20334,
+          "quote_count": 1338,
+          "reply_count": 1220,
+          "repost_count": 1910
+        },
+        "text": "Introducing GPT‑6 Cyber: a major advance in security research that pairs stronger capabilities with better model alignment.\n\nThe model powered the Linux kernel research we announced yesterday, and security teams at companies like Mozilla, Palo Alto Networks, Calif, and https://t.co/34uAeNnhwP"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118529276475785216"
+          ]
+        },
+        "author_id": "1764818331822182400",
+        "conversation_id": "2118530641616875637",
+        "created_at": "2026-11-06T02:27:20.000Z",
+        "edit_history_post_ids": [
+          "2118530641616875637"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/jdmgc5ubjD",
+              "end": 166,
+              "expanded_url": "https://x.com/xiaohu/status/2118530641616875637/video/1",
+              "media_key": "13_2118529276475785216",
+              "start": 143,
+              "url": "https://t.co/jdmgc5ubjD"
+            }
+          ]
+        },
+        "id": "2118530641616875637",
+        "lang": "zh",
+        "public_metrics": {
+          "bookmark_count": 18,
+          "impression_count": 25698,
+          "like_count": 48,
+          "quote_count": 3,
+          "reply_count": 13,
+          "repost_count": 2
+        },
+        "text": "美股暴跌，AI 股全线崩盘 📉\n\n纳指跌 5.5%，标普一天蒸发 2.8 万亿美元\n\n费城半导体指数跌 12.3%，英伟达一天蒸发近 4500 亿美元\n\n今早韩国股市开盘跌 8%，全市场暂停交易\n\n这一跌是怎么来的？\n今天的小互 AI 日报从头讲清楚，另外还有 8 条 AI 大事 👇 https://t.co/jdmgc5ubjD"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118400683942477824"
+          ]
+        },
+        "author_id": "2052434492263178240",
+        "conversation_id": "2118411960337289583",
+        "created_at": "2026-11-05T18:35:44.000Z",
+        "edit_history_post_ids": [
+          "2118411960337289583"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/pEcRTqPkn2",
+              "end": 151,
+              "expanded_url": "https://x.com/Muse/status/2118411960337289583/video/1",
+              "media_key": "13_2118400683942477824",
+              "start": 128,
+              "url": "https://t.co/pEcRTqPkn2"
+            }
+          ]
+        },
+        "id": "2118411960337289583",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 560,
+          "impression_count": 438808,
+          "like_count": 3408,
+          "quote_count": 170,
+          "reply_count": 174,
+          "repost_count": 299
+        },
+        "text": "Introducing Voice. Talk to your Muse and Muse talks back, so you can go from “what should I cook?” to cooking, just like that ✨ https://t.co/pEcRTqPkn2"
+      }
+    ],
+    "users": [
+      {
+        "id": "1699797396589588480",
+        "name": "Max For AI",
+        "username": "MaxForAI"
+      },
+      {
+        "id": "3980735590",
+        "name": "🚨 AI News | TestingCatalog",
+        "username": "testingcatalog"
+      },
+      {
+        "id": "1953337039510003712",
+        "name": "Tibo",
+        "username": "thsottiaux"
+      },
+      {
+        "id": "1764818331822182400",
+        "name": "小互",
+        "username": "xiaohu"
+      }
+    ]
+  },
+  "meta": {
+    "result_count": 20
+  }
+}

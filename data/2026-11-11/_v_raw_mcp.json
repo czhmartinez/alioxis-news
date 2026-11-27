@@ -1,0 +1,4139 @@
+{
+ "fetched_at_taipei": "2026-11-11 08:10 Asia/Taipei",
+ "start_time": "2026-11-09T16:00:00Z",
+ "method": "public X MCP (namespace x) get_users_posts exclude=replies max_results=25 post.fields created_at,note_post,article,conversation_id,public_metrics,entities,attachments; expansions referenced_posts",
+ "accounts": {
+  "Khazix0918": {
+   "user_id": "1492195583699951620",
+   "meta": {
+    "newest_id": "2120115253304586652",
+    "oldest_id": "2119902325460590834",
+    "result_count": 3
+   },
+   "data": [
+    {
+     "created_at": "2026-11-10T11:24:00.000Z",
+     "edit_history_tweet_ids": [
+      "2120115253304586652"
+     ],
+     "id": "2120115253304586652",
+     "public_metrics": {
+      "bookmark_count": 399,
+      "impression_count": 176616,
+      "like_count": 870,
+      "quote_count": 77,
+      "reply_count": 349,
+      "retweet_count": 52
+     },
+     "text": "他们都说X上伙伴质量高，于是我也第一次来X上给我们公司招人了～\n我们现在有30多个小伙伴了，但是想做的事太多，所以，还需要更多的小伙伴！",
+     "url": "https://x.com/i/status/2120115253304586652"
+    },
+    {
+     "article": {
+      "title": "实测Claude Fable 5.2 - 审美与细节的绝对统治。"
+     },
+     "created_at": "2026-11-09T23:53:55.000Z",
+     "edit_history_tweet_ids": [
+      "2119941585538572390"
+     ],
+     "id": "2119941585538572390",
+     "public_metrics": {
+      "bookmark_count": 220,
+      "impression_count": 81617,
+      "like_count": 384,
+      "quote_count": 16,
+      "reply_count": 77,
+      "retweet_count": 20
+     },
+     "text": "https://t.co/xep40rzXMR",
+     "url": "https://x.com/i/status/2119941585538572390"
+    },
+    {
+     "created_at": "2026-11-09T21:17:54.000Z",
+     "edit_history_tweet_ids": [
+      "2119899854323540238",
+      "2119902325460590834"
+     ],
+     "id": "2119902325460590834",
+     "public_metrics": {
+      "bookmark_count": 190,
+      "impression_count": 83876,
+      "like_count": 586,
+      "quote_count": 28,
+      "reply_count": 170,
+      "retweet_count": 28
+     },
+     "text": "Claude Fable 5.2的视频能力又大幅进化了，节奏和动效太强了...强的有点过于离谱了。\nChatGPT就要四周年了，我用Claude Fable 5.2给ChatGPT四周年提前做了一个庆生视频，这个细节这个节奏，强无敌。。。\n只能说，愿Claude和GPT继续相爱相杀...\n（OpenAI你赶紧端点好的上来吧。。。） https://t.co/Ikoxo8Pjnb",
+     "url": "https://x.com/i/status/2119902325460590834"
+    }
+   ],
+   "includes": {}
+  },
+  "MaxForAI": {
+   "user_id": "1699797396589588480",
+   "meta": {
+    "newest_id": "2120182475884490883",
+    "oldest_id": "2119829441149055319",
+    "result_count": 16
+   },
+   "data": [
+    {
+     "created_at": "2026-11-10T15:51:07.000Z",
+     "edit_history_tweet_ids": [
+      "2120182475884490883"
+     ],
+     "id": "2120182475884490883",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1226,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 6,
+      "retweet_count": 0
+     },
+     "text": "不是，这真的不是Muse的两个奶子么？？ https://t.co/ZYtPQM98ep",
+     "url": "https://x.com/i/status/2120182475884490883"
+    },
+    {
+     "created_at": "2026-11-10T15:37:25.000Z",
+     "edit_history_tweet_ids": [
+      "2120179025524256792"
+     ],
+     "id": "2120179025524256792",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 5752,
+      "like_count": 32,
+      "quote_count": 0,
+      "reply_count": 8,
+      "retweet_count": 0
+     },
+     "text": "哇哦，Gemini4-Carbon来了！！！ https://t.co/kq7GbH8InK",
+     "url": "https://x.com/i/status/2120179025524256792"
+    },
+    {
+     "created_at": "2026-11-10T12:24:43.000Z",
+     "edit_history_tweet_ids": [
+      "2120130530461299107"
+     ],
+     "id": "2120130530461299107",
+     "public_metrics": {
+      "bookmark_count": 53,
+      "impression_count": 25048,
+      "like_count": 66,
+      "quote_count": 0,
+      "reply_count": 8,
+      "retweet_count": 13
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120108353171120482",
+       "type": "quoted"
+      }
+     ],
+     "text": "突发：《The Information》刚刚发布独家调查，披露了黄仁勋与 Alice Huang（黄乐）之间更多的商业联系。\n\n报道称，黄乐与丈夫康伟、姐姐在中国和新加坡建立了一套复杂的公司网络，用于采购英伟达芯片。\n\n其中，上海世纪立通于 2023 年 6 https://t.co/TtC7vCptUD",
+     "url": "https://x.com/i/status/2120130530461299107"
+    },
+    {
+     "created_at": "2026-11-10T08:57:51.000Z",
+     "edit_history_tweet_ids": [
+      "2120078470172840125"
+     ],
+     "id": "2120078470172840125",
+     "in_reply_to_user_id": "1699797396589588480",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 721,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120078077778878893",
+       "type": "replied_to"
+      }
+     ],
+     "text": "⬇ https://t.co/avuXYLMVnf",
+     "url": "https://x.com/i/status/2120078470172840125"
+    },
+    {
+     "created_at": "2026-11-10T08:57:08.000Z",
+     "edit_history_tweet_ids": [
+      "2120078292489568754"
+     ],
+     "id": "2120078292489568754",
+     "public_metrics": {
+      "bookmark_count": 37,
+      "impression_count": 26401,
+      "like_count": 137,
+      "quote_count": 3,
+      "reply_count": 25,
+      "retweet_count": 3
+     },
+     "text": "哈基米回来了，都回来了😭\n\nGemini4-Carbon将重铸2.5Pro的荣光！！ https://t.co/7StJFPFcOJ",
+     "url": "https://x.com/i/status/2120078292489568754"
+    },
+    {
+     "created_at": "2026-11-10T08:25:09.000Z",
+     "edit_history_tweet_ids": [
+      "2120070242416406885"
+     ],
+     "id": "2120070242416406885",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 6001,
+      "like_count": 21,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 0
+     },
+     "text": "Claude：666！还有主动来送的🤣 https://t.co/Oi6Cm979HX",
+     "url": "https://x.com/i/status/2120070242416406885"
+    },
+    {
+     "created_at": "2026-11-10T08:15:03.000Z",
+     "edit_history_tweet_ids": [
+      "2120067699586048358"
+     ],
+     "id": "2120067699586048358",
+     "public_metrics": {
+      "bookmark_count": 316,
+      "impression_count": 127941,
+      "like_count": 675,
+      "quote_count": 4,
+      "reply_count": 64,
+      "retweet_count": 39
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119975852977029365",
+       "type": "quoted"
+      }
+     ],
+     "text": "人类大概是真的完蛋了。。。\n\n你知道昨天我有个AI PCB的群还在热火朝天的聊创业机会和技术壁垒balabala的.....\n\n结果一晚上之后就死了🤣 https://t.co/dA0vELpIJq https://t.co/I7rxXnVv1x",
+     "url": "https://x.com/i/status/2120067699586048358"
+    },
+    {
+     "created_at": "2026-11-10T07:20:53.000Z",
+     "edit_history_tweet_ids": [
+      "2120054070941716622"
+     ],
+     "id": "2120054070941716622",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2996,
+      "like_count": 13,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120024720510984234",
+       "type": "quoted"
+      }
+     ],
+     "text": "又开始炒作Gemini了😒 https://t.co/SSbjSNrAZC",
+     "url": "https://x.com/i/status/2120054070941716622"
+    },
+    {
+     "created_at": "2026-11-09T22:09:22.000Z",
+     "edit_history_tweet_ids": [
+      "2119915277009977814"
+     ],
+     "id": "2119915277009977814",
+     "public_metrics": {
+      "bookmark_count": 30,
+      "impression_count": 12135,
+      "like_count": 75,
+      "quote_count": 0,
+      "reply_count": 14,
+      "retweet_count": 7
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119884727339643169",
+       "type": "quoted"
+      }
+     ],
+     "text": "前特斯拉Optimus的机器人模型研究员，跳槽Anthropic了。\n\n刚看到 @bingjietang07  宣布加入Anthropic。\n\n她之前在Tesla Optimus做机器人灵巧操作，涉及数据采集、策略训练、评估和真机部署。\n此前还在NVIDIA机器人实验室做过大量Sim-to-Real研究。\n\n巧的是，Anthropic刚刚发布的Claude Fable https://t.co/LZtfe1mb7o",
+     "url": "https://x.com/i/status/2119915277009977814"
+    },
+    {
+     "created_at": "2026-11-09T22:05:34.000Z",
+     "edit_history_tweet_ids": [
+      "2119914321455296598"
+     ],
+     "id": "2119914321455296598",
+     "public_metrics": {
+      "bookmark_count": 121,
+      "impression_count": 78016,
+      "like_count": 402,
+      "quote_count": 5,
+      "reply_count": 54,
+      "retweet_count": 34
+     },
+     "text": "woc做具身模型的都完蛋了。。\n\n@claudeai  Fable 5.2的机器人能力简直有点离谱。\n\n在RoboDojo Sim机器人仿真评测中，Fable 5.2直接拿到了64.9%，上一代Fable 5.1只有27.6%，Opus 5.5是39.4%，GPT-6 Astra只有29.8%。\n一代模型更新，直接提升了37.3个百分点，得分翻了2.35倍。 https://t.co/t4Suk3VaR3",
+     "url": "https://x.com/i/status/2119914321455296598"
+    },
+    {
+     "created_at": "2026-11-09T21:46:07.000Z",
+     "edit_history_tweet_ids": [
+      "2119909423162486791"
+     ],
+     "id": "2119909423162486791",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1476,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119817540432244779",
+       "type": "quoted"
+      }
+     ],
+     "text": "看起来X的社区批注似乎不同意Elon的说法👀 https://t.co/noHa192Lkd https://t.co/Na3Y3jJlUH",
+     "url": "https://x.com/i/status/2119909423162486791"
+    },
+    {
+     "created_at": "2026-11-09T19:12:18.000Z",
+     "edit_history_tweet_ids": [
+      "2119870713817624717"
+     ],
+     "id": "2119870713817624717",
+     "in_reply_to_user_id": "1699797396589588480",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 3765,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119870115508531336",
+       "type": "replied_to"
+      }
+     ],
+     "text": "感觉随便找了个ckpt发了….",
+     "url": "https://x.com/i/status/2119870713817624717"
+    },
+    {
+     "created_at": "2026-11-09T19:09:55.000Z",
+     "edit_history_tweet_ids": [
+      "2119870115508531336"
+     ],
+     "id": "2119870115508531336",
+     "public_metrics": {
+      "bookmark_count": 50,
+      "impression_count": 52043,
+      "like_count": 192,
+      "quote_count": 0,
+      "reply_count": 24,
+      "retweet_count": 13
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119867114450268322",
+       "type": "quoted"
+      }
+     ],
+     "text": "突发，Anthropic 凌晨 3 点正式发布 Claude Fable 5.2 和 Mythos 5.2！\n\n刚刚看完官方公布的评测，这次升级确实有点猛。\n\n首先是 Agentic Coding。\n在 FrontierCode 2.0 上，Fable 5.2 拿到了 49.1%，相比上一代 Fable 5.1 的 32.4%，直接提升了 16.7 个百分点。\n同时超过了 Opus 5.5 的 45.5%、GPT-6 https://t.co/aMfQHurA5p https://t.co/4hdXE7fcbm",
+     "url": "https://x.com/i/status/2119870115508531336"
+    },
+    {
+     "created_at": "2026-11-09T19:07:30.000Z",
+     "edit_history_tweet_ids": [
+      "2119869507972092204"
+     ],
+     "id": "2119869507972092204",
+     "public_metrics": {
+      "bookmark_count": 16,
+      "impression_count": 14075,
+      "like_count": 66,
+      "quote_count": 1,
+      "reply_count": 10,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119864571733446774",
+       "type": "quoted"
+      }
+     ],
+     "text": "你是说我等到三点你他妈就发个200刀的游戏机么？？？\n\n刚刚，OpenAI Developers官宣，和 ModRetro联名的Chromatic复古掌机登陆 Supply Co.。\n\n我去研究了一下，发现这个东西还真挺有意思的。\n\nChromatic本身是一款兼容 Game Boy / Game Boy Color 游戏的复古掌机，但 OpenAI 这次给它配了一套完整的 https://t.co/1SkZUZwXzu",
+     "url": "https://x.com/i/status/2119869507972092204"
+    },
+    {
+     "created_at": "2026-11-09T16:40:50.000Z",
+     "edit_history_tweet_ids": [
+      "2119832597857706313"
+     ],
+     "id": "2119832597857706313",
+     "public_metrics": {
+      "bookmark_count": 42,
+      "impression_count": 57141,
+      "like_count": 209,
+      "quote_count": 0,
+      "reply_count": 25,
+      "retweet_count": 11
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119797765240750473",
+       "type": "quoted"
+      }
+     ],
+     "text": "？？？Gemini真的要发新模型了？？\n\n刚刚，Google DeepMind的姚顺宇突然发了一条推文：\n\n“为什么Gemini的模型代号总是泄露得这么快？我还以为这次起得足够随机了😂”\n\n这就有点耐人寻味了。\n\n最近网上接连传出Gemini 4新模型的消息，其中一个代号为Hyperion的模型家族被发现在Devin https://t.co/3nfqpPrNil",
+     "url": "https://x.com/i/status/2119832597857706313"
+    },
+    {
+     "created_at": "2026-11-09T16:28:17.000Z",
+     "edit_history_tweet_ids": [
+      "2119829441149055319"
+     ],
+     "id": "2119829441149055319",
+     "public_metrics": {
+      "bookmark_count": 5,
+      "impression_count": 6585,
+      "like_count": 14,
+      "quote_count": 1,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119726657305256074",
+       "type": "quoted"
+      }
+     ],
+     "text": "神了？？？？\n\n黄仁勋女儿居然帮爸爸和小三拍照….. https://t.co/5k6A3vm3Uw",
+     "url": "https://x.com/i/status/2119829441149055319"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "created_at": "2026-11-10T10:56:35.000Z",
+      "edit_history_tweet_ids": [
+       "2120108353171120482"
+      ],
+      "id": "2120108353171120482",
+      "public_metrics": {
+       "bookmark_count": 522,
+       "impression_count": 259560,
+       "like_count": 1918,
+       "quote_count": 83,
+       "reply_count": 63,
+       "retweet_count": 576
+      },
+      "text": "SCOOP: We find out how long Alice Huang has known Jensen Huang, and identified her real company, Shanghai Century Litong, which enabled at least $7.5B Nvidia chips sales to China since 2023, bigger than previously reported. via @theinformation $NVDA https://t.co/sKlfoyruC3"
+     },
+     {
+      "created_at": "2026-11-10T02:10:05.000Z",
+      "edit_history_tweet_ids": [
+       "2119975852977029365"
+      ],
+      "id": "2119975852977029365",
+      "public_metrics": {
+       "bookmark_count": 2136,
+       "impression_count": 598584,
+       "like_count": 19023,
+       "quote_count": 130,
+       "reply_count": 150,
+       "retweet_count": 810
+      },
+      "referenced_tweets": [
+       {
+        "id": "2104305025103397061",
+        "type": "quoted"
+       }
+      ],
+      "text": "Never mind, Fable 5.2 did it. https://t.co/rkX5iN1d3D https://t.co/P4mvrI5n7C"
+     },
+     {
+      "created_at": "2026-11-10T05:24:16.000Z",
+      "edit_history_tweet_ids": [
+       "2120024720510984234"
+      ],
+      "id": "2120024720510984234",
+      "public_metrics": {
+       "bookmark_count": 299,
+       "impression_count": 744102,
+       "like_count": 5788,
+       "quote_count": 409,
+       "reply_count": 814,
+       "retweet_count": 277
+      },
+      "text": "Gemini"
+     },
+     {
+      "created_at": "2026-11-09T20:07:59.000Z",
+      "edit_history_tweet_ids": [
+       "2119884727339643169"
+      ],
+      "id": "2119884727339643169",
+      "public_metrics": {
+       "bookmark_count": 54,
+       "impression_count": 50036,
+       "like_count": 629,
+       "quote_count": 5,
+       "reply_count": 50,
+       "retweet_count": 10
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119867114450268322",
+        "type": "quoted"
+       }
+      ],
+      "text": "Excited to share that I’ve joined @AnthropicAI! Looking forward to learning from an incredible team and working on exciting problems at the frontier of AI. https://t.co/0LnvVhIppk"
+     },
+     {
+      "created_at": "2026-11-09T19:09:55.000Z",
+      "edit_history_tweet_ids": [
+       "2119870115508531336"
+      ],
+      "id": "2119870115508531336",
+      "public_metrics": {
+       "bookmark_count": 50,
+       "impression_count": 52043,
+       "like_count": 192,
+       "quote_count": 0,
+       "reply_count": 24,
+       "retweet_count": 13
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119867114450268322",
+        "type": "quoted"
+       }
+      ],
+      "text": "突发，Anthropic 凌晨 3 点正式发布 Claude Fable 5.2 和 Mythos 5.2！\n\n刚刚看完官方公布的评测，这次升级确实有点猛。\n\n首先是 Agentic Coding。\n在 FrontierCode 2.0 上，Fable 5.2 拿到了 49.1%，相比上一代 Fable 5.1 的 32.4%，直接提升了 16.7 个百分点。\n同时超过了 Opus 5.5 的 45.5%、GPT-6 https://t.co/aMfQHurA5p https://t.co/4hdXE7fcbm"
+     },
+     {
+      "created_at": "2026-11-09T18:57:59.000Z",
+      "edit_history_tweet_ids": [
+       "2119867114450268322"
+      ],
+      "id": "2119867114450268322",
+      "public_metrics": {
+       "bookmark_count": 15189,
+       "impression_count": 15813199,
+       "like_count": 93240,
+       "quote_count": 6718,
+       "reply_count": 3006,
+       "retweet_count": 8941
+      },
+      "text": "Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to tackle the most daunting technical challenges.\n\nThey’re capable collaborators on ambitious projects in many fields, and show improvements in areas like coding, reasoning, and vision. https://t.co/jP0AutLxXb"
+     },
+     {
+      "created_at": "2026-11-09T18:47:53.000Z",
+      "edit_history_tweet_ids": [
+       "2119864571733446774"
+      ],
+      "id": "2119864571733446774",
+      "public_metrics": {
+       "bookmark_count": 1137,
+       "impression_count": 656197,
+       "like_count": 3263,
+       "quote_count": 355,
+       "reply_count": 375,
+       "retweet_count": 332
+      },
+      "text": "Ever thought about building your own games? The Codex edition @modretro Chromatic is now on Supply Co.\n\nWith the ModRetro Chromatic plugin in Codex, you can design levels, animate sprites, and playtest on your handheld.\n\nSpeedrun checkout while Codex builds your ROM 😉 https://t.co/3OViRHh2Ry"
+     },
+     {
+      "created_at": "2026-11-09T14:22:25.000Z",
+      "edit_history_tweet_ids": [
+       "2119797765240750473"
+      ],
+      "id": "2119797765240750473",
+      "public_metrics": {
+       "bookmark_count": 21,
+       "impression_count": 101774,
+       "like_count": 331,
+       "quote_count": 8,
+       "reply_count": 48,
+       "retweet_count": 5
+      },
+      "text": "why Gemini code names always get leaked so quickly? I felt it is random enough😂"
+     },
+     {
+      "created_at": "2026-11-09T09:39:52.000Z",
+      "edit_history_tweet_ids": [
+       "2119726657305256074"
+      ],
+      "id": "2119726657305256074",
+      "public_metrics": {
+       "bookmark_count": 2506,
+       "impression_count": 2507904,
+       "like_count": 8431,
+       "quote_count": 204,
+       "reply_count": 332,
+       "retweet_count": 814
+      },
+      "text": "아빠랑 불륜녀 사진 찍어주는 젠슨황 딸 https://t.co/uuH7Ic6qZc"
+     }
+    ]
+   }
+  },
+  "xiaohu": {
+   "user_id": "1764818331822182400",
+   "meta": {
+    "newest_id": "2120143754384625860",
+    "oldest_id": "2119924261058216397",
+    "result_count": 10
+   },
+   "data": [
+    {
+     "created_at": "2026-11-10T13:17:16.000Z",
+     "edit_history_tweet_ids": [
+      "2120143754384625860"
+     ],
+     "id": "2120143754384625860",
+     "public_metrics": {
+      "bookmark_count": 7,
+      "impression_count": 4290,
+      "like_count": 12,
+      "quote_count": 0,
+      "reply_count": 14,
+      "retweet_count": 3
+     },
+     "text": "𝕏 将允许你从浏览的任何视频中截取片段，然后添加你的看法，见解直接发布内容\n\n俗称切片\n\n而且你无需无需离开 𝕏  即可实现剪辑视频\n\n正在播放的视频你就可以直接操作，无需下载和使用任何工具...\n\n解决你内容匮乏的问题 https://t.co/t0QlOcuTEK",
+     "url": "https://x.com/i/status/2120143754384625860"
+    },
+    {
+     "created_at": "2026-11-10T03:30:24.000Z",
+     "edit_history_tweet_ids": [
+      "2119996065827135895"
+     ],
+     "id": "2119996065827135895",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 1548,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119996014019187054",
+       "type": "replied_to"
+      }
+     ],
+     "text": "补一个局限：收入和获客的数字都是 Dan Koe 自己的判断，他没公开成交率；文中推荐的研究工具 Eden 是他自家产品，我们没有实测。\n完整解读：https://t.co/O1mmpboXNA",
+     "url": "https://x.com/i/status/2119996065827135895"
+    },
+    {
+     "created_at": "2026-11-10T02:24:17.000Z",
+     "edit_history_tweet_ids": [
+      "2119979429489488322"
+     ],
+     "id": "2119979429489488322",
+     "public_metrics": {
+      "bookmark_count": 16,
+      "impression_count": 5575,
+      "like_count": 24,
+      "quote_count": 1,
+      "reply_count": 23,
+      "retweet_count": 1
+     },
+     "text": "1000 个 AI，连干8天造出操作系统，OpenAI 的 Dot 能连多台电脑了分派干活，Codex 发布掌机开发套件，人人都能开发游戏…\n\n欢迎收看今天的小互 AI 日报⬇️\n\n1. Anthropic 发布 Fable 5.2，第三方评测 65 分排第一。官方演示里，它指挥 1000 多个 AI 帮手连干 8 https://t.co/Gk0svi27F3",
+     "url": "https://x.com/i/status/2119979429489488322"
+    },
+    {
+     "created_at": "2026-11-10T01:48:13.000Z",
+     "edit_history_tweet_ids": [
+      "2119970351044264076"
+     ],
+     "id": "2119970351044264076",
+     "public_metrics": {
+      "bookmark_count": 28,
+      "impression_count": 8971,
+      "like_count": 31,
+      "quote_count": 0,
+      "reply_count": 4,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119919644836347926",
+       "type": "quoted"
+      }
+     ],
+     "text": "Fable 5.2 制作的音乐视频\n\n炫酷 https://t.co/LqrMeSBnRk",
+     "url": "https://x.com/i/status/2119970351044264076"
+    },
+    {
+     "created_at": "2026-11-10T00:50:04.000Z",
+     "edit_history_tweet_ids": [
+      "2119955718887579701"
+     ],
+     "id": "2119955718887579701",
+     "public_metrics": {
+      "bookmark_count": 5,
+      "impression_count": 6840,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 11,
+      "retweet_count": 0
+     },
+     "text": "Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2：\n\n8 天手搓操作系统、30 小时证完费马大定理\n提速 30% 且百万 token 降至 $8/ $40\n\n详细：https://t.co/jc2tPjjOVt",
+     "url": "https://x.com/i/status/2119955718887579701"
+    },
+    {
+     "created_at": "2026-11-10T00:37:53.000Z",
+     "edit_history_tweet_ids": [
+      "2119952650422894995"
+     ],
+     "id": "2119952650422894995",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1613,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119952648267010324",
+       "type": "replied_to"
+      }
+     ],
+     "text": "详细介绍及教程：https://t.co/VUc9NNw5KD",
+     "url": "https://x.com/i/status/2119952650422894995"
+    },
+    {
+     "created_at": "2026-11-10T00:37:52.000Z",
+     "edit_history_tweet_ids": [
+      "2119952648267010324"
+     ],
+     "id": "2119952648267010324",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 2247,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119952645632987227",
+       "type": "replied_to"
+      }
+     ],
+     "text": "要把某台电脑交给 Dot 使用，需要在那台电脑上的 ChatGPT App 里完成授权。\n\n连接后，Dot 才能使用这台电脑上的本地文件、代码和应用 https://t.co/GHIJ3ckuLw",
+     "url": "https://x.com/i/status/2119952648267010324"
+    },
+    {
+     "created_at": "2026-11-10T00:37:52.000Z",
+     "edit_history_tweet_ids": [
+      "2119952645632987227"
+     ],
+     "id": "2119952645632987227",
+     "public_metrics": {
+      "bookmark_count": 17,
+      "impression_count": 7899,
+      "like_count": 27,
+      "quote_count": 0,
+      "reply_count": 25,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119745234167050582",
+       "type": "quoted"
+      }
+     ],
+     "text": "OpenAI Dot 支持连接多台电脑\n\n同一个 Dot\n能给几台电脑分别派活\n\n这不是和我的思路一样吗？\n\nOpenAI 为个人 Agent Dot 推出了多台本地电脑连接功能：\n\n同一个 Dot 现在可以连接你自己的多台电脑，由你指定一项任务在哪台上做。它可以在专用电脑上构建、测试应用，你继续在笔记本上干其他的...\n\n比如： https://t.co/CRp7dzFbEf",
+     "url": "https://x.com/i/status/2119952645632987227"
+    },
+    {
+     "created_at": "2026-11-10T00:15:41.000Z",
+     "edit_history_tweet_ids": [
+      "2119947064356503658"
+     ],
+     "id": "2119947064356503658",
+     "public_metrics": {
+      "bookmark_count": 21,
+      "impression_count": 9238,
+      "like_count": 32,
+      "quote_count": 1,
+      "reply_count": 16,
+      "retweet_count": 7
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119864571733446774",
+       "type": "quoted"
+      }
+     ],
+     "text": "人人可以开发游戏...\n\nOpenAl推出 Codex 掌机插件与定制硬件\n\n支持在 Codex 中设计游戏关卡、做动画并自动构建ROM（游戏镜像文件）到掌机中进行实机测试... https://t.co/Twq00HuRVs https://t.co/NLVj6Rg4kd",
+     "url": "https://x.com/i/status/2119947064356503658"
+    },
+    {
+     "created_at": "2026-11-09T22:45:04.000Z",
+     "edit_history_tweet_ids": [
+      "2119924261058216397"
+     ],
+     "id": "2119924261058216397",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 11619,
+      "like_count": 23,
+      "quote_count": 2,
+      "reply_count": 13,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119868704544711108",
+       "type": "quoted"
+      }
+     ],
+     "text": "卧槽 \n\nClaude Fable 2发布\n还送了两次重置\n\n根据注册时间长短和用户级别赠送\n\n&lt;6个月：1次\n6-12个月：2次\n&gt;12个月：3次 https://t.co/SgcUbhPyO2 https://t.co/ILvhSfhiDY",
+     "url": "https://x.com/i/status/2119924261058216397"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "created_at": "2026-11-09T22:26:44.000Z",
+      "edit_history_tweet_ids": [
+       "2119919644836347926"
+      ],
+      "id": "2119919644836347926",
+      "public_metrics": {
+       "bookmark_count": 573,
+       "impression_count": 301948,
+       "like_count": 932,
+       "quote_count": 106,
+       "reply_count": 135,
+       "retweet_count": 102
+      },
+      "text": "I asked Claude Fable 5.2 to write a Beethoven-style piano sonata movement in LilyPond. It wrote the score, recorded it, and made this video. Every note you see is from its source file. https://t.co/qvLXwVwsHB"
+     },
+     {
+      "created_at": "2026-11-10T00:37:52.000Z",
+      "edit_history_tweet_ids": [
+       "2119952648267010324"
+      ],
+      "id": "2119952648267010324",
+      "in_reply_to_user_id": "1764818331822182400",
+      "public_metrics": {
+       "bookmark_count": 3,
+       "impression_count": 2247,
+       "like_count": 0,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119952645632987227",
+        "type": "replied_to"
+       }
+      ],
+      "text": "要把某台电脑交给 Dot 使用，需要在那台电脑上的 ChatGPT App 里完成授权。\n\n连接后，Dot 才能使用这台电脑上的本地文件、代码和应用 https://t.co/GHIJ3ckuLw"
+     },
+     {
+      "created_at": "2026-11-10T00:37:52.000Z",
+      "edit_history_tweet_ids": [
+       "2119952645632987227"
+      ],
+      "id": "2119952645632987227",
+      "public_metrics": {
+       "bookmark_count": 17,
+       "impression_count": 7899,
+       "like_count": 27,
+       "quote_count": 0,
+       "reply_count": 25,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119745234167050582",
+        "type": "quoted"
+       }
+      ],
+      "text": "OpenAI Dot 支持连接多台电脑\n\n同一个 Dot\n能给几台电脑分别派活\n\n这不是和我的思路一样吗？\n\nOpenAI 为个人 Agent Dot 推出了多台本地电脑连接功能：\n\n同一个 Dot 现在可以连接你自己的多台电脑，由你指定一项任务在哪台上做。它可以在专用电脑上构建、测试应用，你继续在笔记本上干其他的...\n\n比如： https://t.co/CRp7dzFbEf"
+     },
+     {
+      "created_at": "2026-11-09T10:53:41.000Z",
+      "edit_history_tweet_ids": [
+       "2119745234167050582"
+      ],
+      "id": "2119745234167050582",
+      "public_metrics": {
+       "bookmark_count": 73,
+       "impression_count": 27557,
+       "like_count": 84,
+       "quote_count": 2,
+       "reply_count": 40,
+       "retweet_count": 5
+      },
+      "text": "在家里放了个Mac mini\n然后和自己的笔记本进行了连接\n\n一部分任务完全在mini 上运行，我可以从笔记本上远程直接在终端里进行对话\n\n所有开发以及其他任务可以实时进行同步，我现在可以随时关上笔记本出门，其中一部分任务还能进行实时同步...\n\n通过Rex进行终端同步，也可以通过uu远程进行操控... https://t.co/8TkSrBrSwL"
+     },
+     {
+      "created_at": "2026-11-09T18:47:53.000Z",
+      "edit_history_tweet_ids": [
+       "2119864571733446774"
+      ],
+      "id": "2119864571733446774",
+      "public_metrics": {
+       "bookmark_count": 1137,
+       "impression_count": 656197,
+       "like_count": 3263,
+       "quote_count": 355,
+       "reply_count": 375,
+       "retweet_count": 332
+      },
+      "text": "Ever thought about building your own games? The Codex edition @modretro Chromatic is now on Supply Co.\n\nWith the ModRetro Chromatic plugin in Codex, you can design levels, animate sprites, and playtest on your handheld.\n\nSpeedrun checkout while Codex builds your ROM 😉 https://t.co/3OViRHh2Ry"
+     },
+     {
+      "created_at": "2026-11-09T19:04:19.000Z",
+      "edit_history_tweet_ids": [
+       "2119868704544711108"
+      ],
+      "id": "2119868704544711108",
+      "in_reply_to_user_id": "2024518793679294464",
+      "public_metrics": {
+       "bookmark_count": 416,
+       "impression_count": 528076,
+       "like_count": 2656,
+       "quote_count": 298,
+       "reply_count": 211,
+       "retweet_count": 183
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119868703265419688",
+        "type": "replied_to"
+       }
+      ],
+      "text": "We're giving Ultra and Team Premium users Fable resets based on how long you've subscribed:\n\n&lt;6 mo: 1\n6–12 mo: 2\n&gt;12 mo: 3\n\nUse them anytime by March 8.\n\nPro and Team Standard get a week to try Fable 5.2, up to half your weekly limit, plus one reset. https://t.co/5qghe1jhxP"
+     }
+    ]
+   }
+  },
+  "thsottiaux": {
+   "user_id": "1953337039510003712",
+   "meta": {
+    "newest_id": "2120267268517249036",
+    "oldest_id": "2120021043876106429",
+    "result_count": 3
+   },
+   "data": [
+    {
+     "conversation_id": "2120267268517249036",
+     "created_at": "2026-11-10T21:28:04.000Z",
+     "edit_history_tweet_ids": [
+      "2120267268517249036"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/OpenAI/status/…",
+        "end": 62,
+        "expanded_url": "https://twitter.com/OpenAI/status/2120216592395174382",
+        "start": 39,
+        "url": "https://t.co/PduzGjgtLd"
+       }
+      ]
+     },
+     "id": "2120267268517249036",
+     "public_metrics": {
+      "bookmark_count": 453,
+      "impression_count": 211348,
+      "like_count": 2208,
+      "quote_count": 17,
+      "reply_count": 616,
+      "retweet_count": 55
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120216592395174382",
+       "type": "quoted"
+      }
+     ],
+     "text": "How many of you have a small business? https://t.co/PduzGjgtLd",
+     "url": "https://x.com/i/status/2120267268517249036"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120266869978607616"
+      ]
+     },
+     "conversation_id": "2120266880963473789",
+     "created_at": "2026-11-10T21:26:31.000Z",
+     "edit_history_tweet_ids": [
+      "2120266880963473789"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/WnRpl5WpUw",
+        "end": 52,
+        "expanded_url": "https://x.com/thsottiaux/status/2120266880963473789/photo/1",
+        "media_key": "3_2120266869978607616",
+        "start": 29,
+        "url": "https://t.co/WnRpl5WpUw"
+       },
+       {
+        "display_url": "x.com/claudeai/statu…",
+        "end": 76,
+        "expanded_url": "https://twitter.com/claudeai/status/2120206375137484875",
+        "start": 53,
+        "url": "https://t.co/vJ5ETVAcHr"
+       }
+      ]
+     },
+     "id": "2120266880963473789",
+     "public_metrics": {
+      "bookmark_count": 441,
+      "impression_count": 270951,
+      "like_count": 2291,
+      "quote_count": 34,
+      "reply_count": 221,
+      "retweet_count": 59
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120206375137484875",
+       "type": "quoted"
+      }
+     ],
+     "text": "Labs innovating together ftw https://t.co/WnRpl5WpUw https://t.co/vJ5ETVAcHr",
+     "url": "https://x.com/i/status/2120266880963473789"
+    },
+    {
+     "conversation_id": "2120021043876106429",
+     "created_at": "2026-11-10T05:09:39.000Z",
+     "edit_history_tweet_ids": [
+      "2120021043876106429"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/OpenAIDevs/sta…",
+        "end": 131,
+        "expanded_url": "https://twitter.com/OpenAIDevs/status/2119883176726409645",
+        "start": 108,
+        "url": "https://t.co/VtVYz5DcAB"
+       }
+      ]
+     },
+     "id": "2120021043876106429",
+     "public_metrics": {
+      "bookmark_count": 629,
+      "impression_count": 671833,
+      "like_count": 4803,
+      "quote_count": 110,
+      "reply_count": 1512,
+      "retweet_count": 138
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119883176726409645",
+       "type": "quoted"
+      }
+     ],
+     "text": "Dots can now control many machines in addition to its own little cloud computer that we provide by default. https://t.co/VtVYz5DcAB",
+     "url": "https://x.com/i/status/2120021043876106429"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2120214011451170817"
+       ]
+      },
+      "conversation_id": "2120216592395174382",
+      "created_at": "2026-11-10T18:06:42.000Z",
+      "edit_history_tweet_ids": [
+       "2120216592395174382"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "description": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+         "display_url": "openai.com/index/introduc…",
+         "end": 277,
+         "expanded_url": "https://openai.com/index/introducing-businesses-chatgpt/",
+         "start": 254,
+         "status": 200,
+         "title": "Introducing Businesses in ChatGPT",
+         "unwound_url": "https://openai.com/index/introducing-businesses-chatgpt/",
+         "url": "https://t.co/N2GEZX0mFT"
+        },
+        {
+         "display_url": "pic.x.com/lYj2Z48fhQ",
+         "end": 301,
+         "expanded_url": "https://x.com/OpenAI/status/2120216592395174382/video/1",
+         "media_key": "13_2120214011451170817",
+         "start": 278,
+         "url": "https://t.co/lYj2Z48fhQ"
+        }
+       ]
+      },
+      "id": "2120216592395174382",
+      "public_metrics": {
+       "bookmark_count": 10301,
+       "impression_count": 2024128,
+       "like_count": 10403,
+       "quote_count": 696,
+       "reply_count": 722,
+       "retweet_count": 743
+      },
+      "text": "Now in beta: Businesses in ChatGPT.\n\nClaim your business, manage your information, and get insights on how people engage with you.\n\nEligible businesses can also build a Business Agent to answer customers’ questions and help them explore what you offer.\n\nhttps://t.co/N2GEZX0mFT https://t.co/lYj2Z48fhQ"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2120203153496813569"
+       ]
+      },
+      "conversation_id": "2120206365759094857",
+      "created_at": "2026-11-10T17:26:06.000Z",
+      "edit_history_tweet_ids": [
+       "2120206375137484875"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/m2x0tcHlLn",
+         "end": 274,
+         "expanded_url": "https://x.com/claudeai/status/2120206375137484875/video/1",
+         "media_key": "13_2120203153496813569",
+         "start": 251,
+         "url": "https://t.co/m2x0tcHlLn"
+        }
+       ]
+      },
+      "id": "2120206375137484875",
+      "public_metrics": {
+       "bookmark_count": 956,
+       "impression_count": 1704999,
+       "like_count": 2071,
+       "quote_count": 65,
+       "reply_count": 43,
+       "retweet_count": 99
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120206372478566799",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Also new: with interactive connectors, you can now open the full version of a tool inside Claude. Work in Adobe, Atlassian, and Box beside your conversation. Make changes yourself, or ask Claude to make them with you.\n\nRolling out on web and desktop. https://t.co/m2x0tcHlLn"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2119883144707047424"
+       ]
+      },
+      "conversation_id": "2119883176726409645",
+      "created_at": "2026-11-09T20:01:49.000Z",
+      "edit_history_tweet_ids": [
+       "2119883176726409645"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/7NcrytEqHC",
+         "end": 218,
+         "expanded_url": "https://x.com/OpenAIDevs/status/2119883176726409645/video/1",
+         "media_key": "13_2119883144707047424",
+         "start": 195,
+         "url": "https://t.co/7NcrytEqHC"
+        }
+       ]
+      },
+      "id": "2119883176726409645",
+      "public_metrics": {
+       "bookmark_count": 2303,
+       "impression_count": 1406402,
+       "like_count": 7528,
+       "quote_count": 465,
+       "reply_count": 665,
+       "retweet_count": 502
+      },
+      "text": "You can now connect multiple local computers to the same dot and choose which one it uses for a task.\n\nIt can build and test your app on a dedicated machine while you keep coding on your laptop. https://t.co/7NcrytEqHC"
+     }
+    ]
+   }
+  },
+  "testingcatalog": {
+   "user_id": "3980735590",
+   "meta": {
+    "newest_id": "2120250776794566710",
+    "next_token": "7140dibdnow9c7btwp0gm31d8qa6xib7767ucaqoe1ago",
+    "oldest_id": "2120094176088113198",
+    "result_count": 24
+   },
+   "data": [
+    {
+     "created_at": "2026-11-10T20:22:32.000Z",
+     "edit_history_tweet_ids": [
+      "2120250776794566710"
+     ],
+     "id": "2120250776794566710",
+     "public_metrics": {
+      "bookmark_count": 13,
+      "impression_count": 4860,
+      "like_count": 43,
+      "quote_count": 0,
+      "reply_count": 10,
+      "retweet_count": 2
+     },
+     "text": "MINIMAX 🔥: MiniMax H3-Image is now available on HuggingFace, MiniMax Code, and MiniMax APIs. \n\nMiniMax H3-Image is a new open-weight image model that supports 4K images. \n\nThere aren't many good open image models; any new release in this category is a big step forward. \n\nNeeds",
+     "url": "https://x.com/i/status/2120250776794566710"
+    },
+    {
+     "created_at": "2026-11-10T20:00:16.000Z",
+     "edit_history_tweet_ids": [
+      "2120245174752137605"
+     ],
+     "id": "2120245174752137605",
+     "public_metrics": {
+      "bookmark_count": 16,
+      "impression_count": 6753,
+      "like_count": 109,
+      "quote_count": 3,
+      "reply_count": 22,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120240651778355306",
+       "type": "quoted"
+      }
+     ],
+     "text": "BREAKING 🔥: Stripe acquired OpenRouter!!! \n\n&gt; Stripe: \"Stripe is building the economic infrastructure for AI.\"\n\n&gt; OpenRouter: \"Our commitment to neutrality stays the same. Models and providers compete on quality, reliability, and price.\"\n\nThis acquisition is quite a huge move. https://t.co/ogRK5PyFev https://t.co/D2tOi9bRu7",
+     "url": "https://x.com/i/status/2120245174752137605"
+    },
+    {
+     "created_at": "2026-11-10T19:53:17.000Z",
+     "edit_history_tweet_ids": [
+      "2120243416361844957"
+     ],
+     "id": "2120243416361844957",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1331,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120243411898761656",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Hedra uses AI agents to run the training experiments while human researchers steer them alongside the customer.\n\nHedra also allows users to rent GPUs without a long-term contract.\n\nTake a look 👀\nhttps://t.co/XeAmcPD841",
+     "url": "https://x.com/i/status/2120243416361844957"
+    },
+    {
+     "created_at": "2026-11-10T19:36:28.000Z",
+     "edit_history_tweet_ids": [
+      "2120239051836104707",
+      "2120239186632396996"
+     ],
+     "id": "2120239186632396996",
+     "public_metrics": {
+      "bookmark_count": 16,
+      "impression_count": 7888,
+      "like_count": 137,
+      "quote_count": 2,
+      "reply_count": 11,
+      "retweet_count": 7
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120218265792516496",
+       "type": "quoted"
+      }
+     ],
+     "text": "OpenAI ❤️ Odessia\n\nOpenAI acquired Odessia, a travel platform that lets users plan and book trips with AI support. \n\n&gt; \"We started Odessia to reinvent travel. This acquisition marks an exciting next chapter for that mission.\"\n\nThe team will \"focus on the future of travel.\"\n\nSide https://t.co/phNGj4xRTe https://t.co/jYJYJETqMV",
+     "url": "https://x.com/i/status/2120239186632396996"
+    },
+    {
+     "created_at": "2026-11-10T19:19:07.000Z",
+     "edit_history_tweet_ids": [
+      "2120234819980296288"
+     ],
+     "id": "2120234819980296288",
+     "public_metrics": {
+      "bookmark_count": 17,
+      "impression_count": 6662,
+      "like_count": 69,
+      "quote_count": 1,
+      "reply_count": 24,
+      "retweet_count": 0
+     },
+     "text": "OPENAI 🔥: ChatGPT Business users can now claim their businesses and build a Business Agent to answer customers' inbound requests. \n\nThis new experience is available to eligible businesses in the US. \n\nEarlier this year, OpenAI also introduced a capability to target custom",
+     "url": "https://x.com/i/status/2120234819980296288"
+    },
+    {
+     "created_at": "2026-11-10T18:56:09.000Z",
+     "edit_history_tweet_ids": [
+      "2120229037133975613"
+     ],
+     "id": "2120229037133975613",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1583,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120229032335651270",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Live 3 can keep talking when someone says \"yeah\" mid-reply, and stops when they say \"wait, actually\".\n\nUsers can try Live 3 in Fish Audio's voice agent builder.\n\nTest it out 👀\nhttps://t.co/LjlXIUrcBE",
+     "url": "https://x.com/i/status/2120229037133975613"
+    },
+    {
+     "created_at": "2026-11-10T18:56:07.000Z",
+     "edit_history_tweet_ids": [
+      "2120229032335651270"
+     ],
+     "id": "2120229032335651270",
+     "public_metrics": {
+      "bookmark_count": 22,
+      "impression_count": 6200,
+      "like_count": 40,
+      "quote_count": 2,
+      "reply_count": 8,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120214987633467626",
+       "type": "quoted"
+      }
+     ],
+     "text": "Fish Audio has launched Live 3, its latest duplex voice AI model built for AI agents that operate phone calls.\n\nLive 3 can distinguish a pause in the middle of reading a phone number from the end of a question. Live 3’s current reaction speed is under 200 milliseconds and uses a https://t.co/0cXqub0Typ https://t.co/O2XQczm6Vi",
+     "url": "https://x.com/i/status/2120229032335651270"
+    },
+    {
+     "created_at": "2026-11-10T18:20:43.000Z",
+     "edit_history_tweet_ids": [
+      "2120220122170159158"
+     ],
+     "id": "2120220122170159158",
+     "public_metrics": {
+      "bookmark_count": 30,
+      "impression_count": 9408,
+      "like_count": 199,
+      "quote_count": 1,
+      "reply_count": 17,
+      "retweet_count": 7
+     },
+     "text": "ANTHROPIC 🔥: Claude Whiteboards, Claude Sheets, and Claude Data are now generally available on all paid plans!\n\nBesides this, Claude web and desktop are getting interactive connectors. \n\n&gt; \"We're introducing new artifact types with Claude Sheets, Claude Whiteboards, and Claude",
+     "url": "https://x.com/i/status/2120220122170159158"
+    },
+    {
+     "created_at": "2026-11-10T18:02:14.000Z",
+     "edit_history_tweet_ids": [
+      "2120215470137553009"
+     ],
+     "id": "2120215470137553009",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 1428,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120215466815684887",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Mitra MCP setup prompt 👀\n\n&gt; Help me connect Mitra to this AI app using its remote MCP server: https://t.co/cMDPnzJpU9. Use OAuth and guide me through adding the server and signing into Mitra. If you cannot create the connection yourself, show me where to enter the URL in this",
+     "url": "https://x.com/i/status/2120215470137553009"
+    },
+    {
+     "created_at": "2026-11-10T18:02:13.000Z",
+     "edit_history_tweet_ids": [
+      "2120215466815684887"
+     ],
+     "id": "2120215466815684887",
+     "public_metrics": {
+      "bookmark_count": 14,
+      "impression_count": 5716,
+      "like_count": 29,
+      "quote_count": 0,
+      "reply_count": 13,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120199808900055224",
+       "type": "quoted"
+      }
+     ],
+     "text": "Mitra now offers MCP support, allowing other agents to make calls using your own phone number. After a simple setup, users can enable ChatGPT or Claude to instruct Mitra to make phone calls on their behalf.\n\nMitra is an AI agent that can operate phone calls natively and is also https://t.co/xFtatbhrIc https://t.co/LHnma0bmfa",
+     "url": "https://x.com/i/status/2120215466815684887"
+    },
+    {
+     "created_at": "2026-11-10T16:08:56.000Z",
+     "edit_history_tweet_ids": [
+      "2120186956642468232"
+     ],
+     "id": "2120186956642468232",
+     "public_metrics": {
+      "bookmark_count": 14,
+      "impression_count": 8938,
+      "like_count": 216,
+      "quote_count": 1,
+      "reply_count": 22,
+      "retweet_count": 11
+     },
+     "text": "GOOGLE 🔥: Gemini 4 Carbon rollout has been officially announced to be available to Gemini Ultra subscribers and APIs. \n\nWe need it on Pro as well 👀 https://t.co/jlqKE8aFsv",
+     "url": "https://x.com/i/status/2120186956642468232"
+    },
+    {
+     "created_at": "2026-11-10T15:55:15.000Z",
+     "edit_history_tweet_ids": [
+      "2120183515559899207"
+     ],
+     "id": "2120183515559899207",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1873,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120183476766781585",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Users can also get paid to record tasks from the Upload app on the LUCI Pin, a 4K wearable camera.\n\nAccording to Memories Upload, the available footage already covers more than 1,000 different tasks across 20 industries, recorded at real work sites on five continents.\n\nDevelopers https://t.co/DbYVqHB3tE",
+     "url": "https://x.com/i/status/2120183515559899207"
+    },
+    {
+     "created_at": "2026-11-10T15:55:06.000Z",
+     "edit_history_tweet_ids": [
+      "2120183476766781585"
+     ],
+     "id": "2120183476766781585",
+     "public_metrics": {
+      "bookmark_count": 18,
+      "impression_count": 6261,
+      "like_count": 22,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120177161860706806",
+       "type": "quoted"
+      }
+     ],
+     "text": "https://t.co/qi6ldrElCI has introduced Memories Upload, a capture network that transforms first-person video of everyday work into training data for robots.\n\nThe platform labels footage frame by frame for each hand, letting robotics labs search by what each hand is doing and https://t.co/2B8Y8TQujk https://t.co/NVNztO9x9I",
+     "url": "https://x.com/i/status/2120183476766781585"
+    },
+    {
+     "created_at": "2026-11-10T15:39:47.000Z",
+     "edit_history_tweet_ids": [
+      "2120179620431462684"
+     ],
+     "id": "2120179620431462684",
+     "public_metrics": {
+      "bookmark_count": 18,
+      "impression_count": 12762,
+      "like_count": 251,
+      "quote_count": 7,
+      "reply_count": 46,
+      "retweet_count": 17
+     },
+     "text": "BREAKING 🔥: Gemini 4 Carbon is rolling out on Google Cloud Platform and is already available on Agent Studio!\n\n&gt; \"Our most capable model for deep work, with frontier performance on long-horizon agentic coding, enterprise knowledge work, and scientific reasoning, and a 1M output https://t.co/9TqZrq1ZOl",
+     "url": "https://x.com/i/status/2120179620431462684"
+    },
+    {
+     "created_at": "2026-11-10T15:16:04.000Z",
+     "edit_history_tweet_ids": [
+      "2120173652641476658"
+     ],
+     "id": "2120173652641476658",
+     "public_metrics": {
+      "bookmark_count": 32,
+      "impression_count": 11988,
+      "like_count": 223,
+      "quote_count": 6,
+      "reply_count": 21,
+      "retweet_count": 21
+     },
+     "text": "Google announced a new Gemini Robotics 2.5 model for physical AI. \n\n&gt; This model was built with support from the Gemini 4 Argon model. \n\n&gt; In a POC with Apptronik and Mercedes-Benz, Gemini Robotics 2.5 helped the Apollo 2 robot pick and organize car parts for assembly with 96%",
+     "url": "https://x.com/i/status/2120173652641476658"
+    },
+    {
+     "created_at": "2026-11-10T14:40:19.000Z",
+     "edit_history_tweet_ids": [
+      "2120164654999601381"
+     ],
+     "id": "2120164654999601381",
+     "public_metrics": {
+      "bookmark_count": 30,
+      "impression_count": 26120,
+      "like_count": 354,
+      "quote_count": 4,
+      "reply_count": 31,
+      "retweet_count": 14
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120142992724091158",
+       "type": "quoted"
+      }
+     ],
+     "text": "GOOGLE 🔥: Gemini 4 Carbon Low, Medium, and High variants have been added to the latest Antigravity build. \n\n* Not available publicly yet 👀 https://t.co/o3xZN0B8CC https://t.co/A9aNF4bESh",
+     "url": "https://x.com/i/status/2120164654999601381"
+    },
+    {
+     "created_at": "2026-11-10T14:20:51.000Z",
+     "edit_history_tweet_ids": [
+      "2120159755834458153"
+     ],
+     "id": "2120159755834458153",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 4034,
+      "like_count": 38,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120158039051252077",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Mind that Gemini 4 Argon was expected to be the same - we may still see Gemini 4 Carbon on the Gemini app for Pro users as well right away.",
+     "url": "https://x.com/i/status/2120159755834458153"
+    },
+    {
+     "created_at": "2026-11-10T14:14:01.000Z",
+     "edit_history_tweet_ids": [
+      "2120158039051252077"
+     ],
+     "id": "2120158039051252077",
+     "public_metrics": {
+      "bookmark_count": 26,
+      "impression_count": 61701,
+      "like_count": 234,
+      "quote_count": 9,
+      "reply_count": 40,
+      "retweet_count": 11
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120155430995525857",
+       "type": "quoted"
+      }
+     ],
+     "text": "GOOGLE 🔥: Gemini 4 Carbon in Google AI Studio will require a Google AI Ultra plan or an API Key, according to an updated \"upgrade\" pop-up. \n\n&gt; \"Gemini 4 Carbon needs a Google AI Ultra plan or a Gemini API key.\"\n\nThis means that we will see Carbon released for Ultra users and on https://t.co/GKjuuar6Ra https://t.co/18aXnxc8nU",
+     "url": "https://x.com/i/status/2120158039051252077"
+    },
+    {
+     "created_at": "2026-11-10T13:53:33.000Z",
+     "edit_history_tweet_ids": [
+      "2120152885585723632"
+     ],
+     "id": "2120152885585723632",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2623,
+      "like_count": 14,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120152882380959814",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Full scoop 🗞️\nhttps://t.co/0vlvOvSMv2",
+     "url": "https://x.com/i/status/2120152885585723632"
+    },
+    {
+     "created_at": "2026-11-10T13:53:32.000Z",
+     "edit_history_tweet_ids": [
+      "2120152882380959814"
+     ],
+     "id": "2120152882380959814",
+     "public_metrics": {
+      "bookmark_count": 66,
+      "impression_count": 19509,
+      "like_count": 336,
+      "quote_count": 12,
+      "reply_count": 71,
+      "retweet_count": 26
+     },
+     "text": "BREAKING 🔥: Google is developing a new Agent Swarm mode for Antigravity, where agents coordinate through a shared message board. \n\nRemember Huggingface incident? 👀\n\n&gt; /swarm would appear as a new command, opening a Swarm dashboard to monitor Agent coordination, communication, https://t.co/w7VJlK2Ll3",
+     "url": "https://x.com/i/status/2120152882380959814"
+    },
+    {
+     "created_at": "2026-11-10T11:48:54.000Z",
+     "edit_history_tweet_ids": [
+      "2120121516872331568"
+     ],
+     "id": "2120121516872331568",
+     "public_metrics": {
+      "bookmark_count": 20,
+      "impression_count": 9877,
+      "like_count": 120,
+      "quote_count": 2,
+      "reply_count": 8,
+      "retweet_count": 7
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120117722230968385",
+       "type": "quoted"
+      }
+     ],
+     "text": "ANTHROPIC 🔥: IPO Roadshow is launching today where Anthropic will pitch their shares to selected investors ahead of public trading. \n\nThe price is expected to be between $70 and $78 per share. \n\n&gt; “The proposed offering consists of 825,000,000 shares of Class A common stock. Of https://t.co/te6SioYFui https://t.co/iDuSOyeRCt",
+     "url": "https://x.com/i/status/2120121516872331568"
+    },
+    {
+     "created_at": "2026-11-10T10:40:56.000Z",
+     "edit_history_tweet_ids": [
+      "2120104412219687352"
+     ],
+     "id": "2120104412219687352",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2171,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120094172187103521",
+       "type": "replied_to"
+      }
+     ],
+     "text": "UPD: \nGrok 4.8, not soon &gt; Grok 4.8, “soft” this week",
+     "url": "https://x.com/i/status/2120104412219687352"
+    },
+    {
+     "created_at": "2026-11-10T10:38:19.000Z",
+     "edit_history_tweet_ids": [
+      "2120103753173078088"
+     ],
+     "id": "2120103753173078088",
+     "public_metrics": {
+      "bookmark_count": 23,
+      "impression_count": 13566,
+      "like_count": 230,
+      "quote_count": 2,
+      "reply_count": 17,
+      "retweet_count": 8
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120088070443655190",
+       "type": "quoted"
+      }
+     ],
+     "text": "SPACEXSI 🔥: Grok 4.8 is currently in RL and expected to be “soft” rolled out to some Grok Bot users already this week. \n\nSoft now, hard soon 🤖 https://t.co/3LcstNKxb9 https://t.co/B0aPNQMwOq",
+     "url": "https://x.com/i/status/2120103753173078088"
+    },
+    {
+     "created_at": "2026-11-10T10:00:15.000Z",
+     "edit_history_tweet_ids": [
+      "2120094176088113198"
+     ],
+     "id": "2120094176088113198",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1167,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120094172187103521",
+       "type": "replied_to"
+      }
+     ],
+     "text": "\"Daily AI Brief\" also arrives in email format from Tuesday to Saturday.\n\nOPT-IN below 👀\nhttps://t.co/hnndzp1OJ9",
+     "url": "https://x.com/i/status/2120094176088113198"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "created_at": "2026-11-10T19:42:18.000Z",
+      "edit_history_tweet_ids": [
+       "2120240651778355306"
+      ],
+      "id": "2120240651778355306",
+      "public_metrics": {
+       "bookmark_count": 110,
+       "impression_count": 98573,
+       "like_count": 1285,
+       "quote_count": 78,
+       "reply_count": 74,
+       "retweet_count": 73
+      },
+      "text": "OpenRouter is now part of Stripe.\n\nStripe is building the economic infrastructure for AI. Together with OpenRouter, we’ll help businesses explore new models and optimize token routing and usage. https://t.co/0lXSdEuA1v"
+     },
+     {
+      "created_at": "2026-11-10T19:53:16.000Z",
+      "edit_history_tweet_ids": [
+       "2120243411898761656"
+      ],
+      "id": "2120243411898761656",
+      "in_reply_to_user_id": "1798380911870042112",
+      "public_metrics": {
+       "bookmark_count": 11,
+       "impression_count": 4509,
+       "like_count": 23,
+       "quote_count": 0,
+       "reply_count": 5,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120207555263905973",
+        "type": "quoted"
+       }
+      ],
+      "text": "@hedra_labs has launched Hedra Model Factory, its new lab for building custom AI models for robotics, manufacturing, biology, and defense teams.\n\nGeneral-purpose models don't fully comprehend a robot or factory line, so Hedra builds a custom model based on the user's own data and https://t.co/1A5Rg4gYS4 https://t.co/NHyosY0jEC"
+     },
+     {
+      "created_at": "2026-11-10T18:13:20.000Z",
+      "edit_history_tweet_ids": [
+       "2120218265792516496"
+      ],
+      "id": "2120218265792516496",
+      "public_metrics": {
+       "bookmark_count": 56,
+       "impression_count": 33914,
+       "like_count": 149,
+       "quote_count": 7,
+       "reply_count": 9,
+       "retweet_count": 4
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120214953349263473",
+        "type": "quoted"
+       }
+      ],
+      "text": "We’re thrilled to share that @OdessiaTravel has been acquired by @OpenAI.\n\nWe started Odessia to reinvent travel. This acquisition marks an exciting next chapter for that mission. https://t.co/FNTXMrMt6R"
+     },
+     {
+      "created_at": "2026-11-10T18:56:07.000Z",
+      "edit_history_tweet_ids": [
+       "2120229032335651270"
+      ],
+      "id": "2120229032335651270",
+      "public_metrics": {
+       "bookmark_count": 22,
+       "impression_count": 6200,
+       "like_count": 40,
+       "quote_count": 2,
+       "reply_count": 8,
+       "retweet_count": 2
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120214987633467626",
+        "type": "quoted"
+       }
+      ],
+      "text": "Fish Audio has launched Live 3, its latest duplex voice AI model built for AI agents that operate phone calls.\n\nLive 3 can distinguish a pause in the middle of reading a phone number from the end of a question. Live 3’s current reaction speed is under 200 milliseconds and uses a https://t.co/0cXqub0Typ https://t.co/O2XQczm6Vi"
+     },
+     {
+      "created_at": "2026-11-10T18:00:19.000Z",
+      "edit_history_tweet_ids": [
+       "2120214987633467626"
+      ],
+      "id": "2120214987633467626",
+      "public_metrics": {
+       "bookmark_count": 717,
+       "impression_count": 606672,
+       "like_count": 1210,
+       "quote_count": 433,
+       "reply_count": 550,
+       "retweet_count": 250
+      },
+      "text": "Introducing @FishAudio  Live 3: a full-duplex voice model that listens, says \"mm-hmm,\" and knows when to shut up.\n\nEnterprise? Book a demo for your free custom agent: https://t.co/2kyRhcFMxM \n\nReply with your use case - we'll build it free for the first 1,000 people. https://t.co/RAKpwVd0OM"
+     },
+     {
+      "created_at": "2026-11-10T18:02:13.000Z",
+      "edit_history_tweet_ids": [
+       "2120215466815684887"
+      ],
+      "id": "2120215466815684887",
+      "public_metrics": {
+       "bookmark_count": 14,
+       "impression_count": 5716,
+       "like_count": 29,
+       "quote_count": 0,
+       "reply_count": 13,
+       "retweet_count": 3
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120199808900055224",
+        "type": "quoted"
+       }
+      ],
+      "text": "Mitra now offers MCP support, allowing other agents to make calls using your own phone number. After a simple setup, users can enable ChatGPT or Claude to instruct Mitra to make phone calls on their behalf.\n\nMitra is an AI agent that can operate phone calls natively and is also https://t.co/xFtatbhrIc https://t.co/LHnma0bmfa"
+     },
+     {
+      "created_at": "2026-11-10T17:00:00.000Z",
+      "edit_history_tweet_ids": [
+       "2120199808900055224"
+      ],
+      "id": "2120199808900055224",
+      "public_metrics": {
+       "bookmark_count": 33,
+       "impression_count": 5875,
+       "like_count": 33,
+       "quote_count": 5,
+       "reply_count": 11,
+       "retweet_count": 3
+      },
+      "text": "We're launching Mitra MCP to give your AI agents access to your personal phone line.\n\nMost agents can't make calls. The ones that can get hung up on or dropped. Mitra fixes both.\n\nYour agent calls from your personal number, so people actually pick up.\n\nIt handles the whole call, https://t.co/8bjILnUmGF"
+     },
+     {
+      "created_at": "2026-11-10T15:55:06.000Z",
+      "edit_history_tweet_ids": [
+       "2120183476766781585"
+      ],
+      "id": "2120183476766781585",
+      "public_metrics": {
+       "bookmark_count": 18,
+       "impression_count": 6261,
+       "like_count": 22,
+       "quote_count": 0,
+       "reply_count": 5,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120177161860706806",
+        "type": "quoted"
+       }
+      ],
+      "text": "https://t.co/qi6ldrElCI has introduced Memories Upload, a capture network that transforms first-person video of everyday work into training data for robots.\n\nThe platform labels footage frame by frame for each hand, letting robotics labs search by what each hand is doing and https://t.co/2B8Y8TQujk https://t.co/NVNztO9x9I"
+     },
+     {
+      "created_at": "2026-11-10T15:30:01.000Z",
+      "edit_history_tweet_ids": [
+       "2120177161860706806"
+      ],
+      "id": "2120177161860706806",
+      "public_metrics": {
+       "bookmark_count": 80,
+       "impression_count": 392868,
+       "like_count": 232,
+       "quote_count": 68,
+       "reply_count": 37,
+       "retweet_count": 59
+      },
+      "text": "Today we launch #MemoriesUpload.\n\nRobots need internet-scale first-person video of how people get things done. Collecting this at high quality takes hardware, model and infra working together.\n\nThat's what we've spent over a year building. And already, 3 of the top 5 frontier https://t.co/lVSkVj2yrQ"
+     },
+     {
+      "created_at": "2026-11-10T13:14:14.000Z",
+      "edit_history_tweet_ids": [
+       "2120142992724091158"
+      ],
+      "id": "2120142992724091158",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 15454,
+       "like_count": 9,
+       "quote_count": 2,
+       "reply_count": 0,
+       "retweet_count": 1
+      },
+      "text": "NEW: ['gemini-4-carbon-high', 'gemini-4-carbon-low', 'gemini-4-carbon-medium', 'gemini-4-carbonccpa']"
+     },
+     {
+      "created_at": "2026-11-10T14:14:01.000Z",
+      "edit_history_tweet_ids": [
+       "2120158039051252077"
+      ],
+      "id": "2120158039051252077",
+      "public_metrics": {
+       "bookmark_count": 26,
+       "impression_count": 61701,
+       "like_count": 234,
+       "quote_count": 9,
+       "reply_count": 40,
+       "retweet_count": 11
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120155430995525857",
+        "type": "quoted"
+       }
+      ],
+      "text": "GOOGLE 🔥: Gemini 4 Carbon in Google AI Studio will require a Google AI Ultra plan or an API Key, according to an updated \"upgrade\" pop-up. \n\n&gt; \"Gemini 4 Carbon needs a Google AI Ultra plan or a Gemini API key.\"\n\nThis means that we will see Carbon released for Ultra users and on https://t.co/GKjuuar6Ra https://t.co/18aXnxc8nU"
+     },
+     {
+      "created_at": "2026-11-10T14:03:39.000Z",
+      "edit_history_tweet_ids": [
+       "2120155430995525857"
+      ],
+      "id": "2120155430995525857",
+      "in_reply_to_user_id": "3980735590",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 18184,
+       "like_count": 6,
+       "quote_count": 1,
+       "reply_count": 2,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120152882380959814",
+        "type": "replied_to"
+       }
+      ],
+      "text": "@testingcatalog https://t.co/PVCtU7QX3F"
+     },
+     {
+      "created_at": "2026-11-10T13:53:32.000Z",
+      "edit_history_tweet_ids": [
+       "2120152882380959814"
+      ],
+      "id": "2120152882380959814",
+      "public_metrics": {
+       "bookmark_count": 66,
+       "impression_count": 19509,
+       "like_count": 336,
+       "quote_count": 12,
+       "reply_count": 71,
+       "retweet_count": 26
+      },
+      "text": "BREAKING 🔥: Google is developing a new Agent Swarm mode for Antigravity, where agents coordinate through a shared message board. \n\nRemember Huggingface incident? 👀\n\n&gt; /swarm would appear as a new command, opening a Swarm dashboard to monitor Agent coordination, communication, https://t.co/w7VJlK2Ll3"
+     },
+     {
+      "created_at": "2026-11-10T11:33:49.000Z",
+      "edit_history_tweet_ids": [
+       "2120117722230968385"
+      ],
+      "id": "2120117722230968385",
+      "public_metrics": {
+       "bookmark_count": 705,
+       "impression_count": 814816,
+       "like_count": 4302,
+       "quote_count": 403,
+       "reply_count": 437,
+       "retweet_count": 448
+      },
+      "text": "Anthropic has launched the roadshow for its proposed initial public offering: https://t.co/oE6TA0vt3E\n\nLegal disclaimer: A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may"
+     },
+     {
+      "created_at": "2026-11-10T10:00:14.000Z",
+      "edit_history_tweet_ids": [
+       "2120094172187103521"
+      ],
+      "id": "2120094172187103521",
+      "public_metrics": {
+       "bookmark_count": 49,
+       "impression_count": 22689,
+       "like_count": 330,
+       "quote_count": 3,
+       "reply_count": 72,
+       "retweet_count": 18
+      },
+      "referenced_tweets": [
+       {
+        "id": "2118999078717575288",
+        "type": "quoted"
+       }
+      ],
+      "text": "DAILY AI BRIEF 🗞 — Nov 10\n\nMODEL FORECAST 👀:\n- Gemini 4 Carbon, today!!!\n- Gemini 4 Hydrogen (Flash), today?\n- GPT-6.2 Sol, this week?\n- GPT-6.2 Astra, this week?\n- Inkling 2 Small open weights, soon\n- Qwen4 Max/Flash/Plus/27B, this week?\n- Tencent Hy4 open weights and Flash, https://t.co/5Vibi43OUc"
+     },
+     {
+      "created_at": "2026-11-10T09:35:59.000Z",
+      "edit_history_tweet_ids": [
+       "2120088070443655190"
+      ],
+      "id": "2120088070443655190",
+      "in_reply_to_user_id": "1630452238593437696",
+      "public_metrics": {
+       "bookmark_count": 2318,
+       "impression_count": 2972202,
+       "like_count": 25365,
+       "quote_count": 892,
+       "reply_count": 1458,
+       "retweet_count": 1387
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119949070462800185",
+        "type": "replied_to"
+       }
+      ],
+      "text": "@cradrrat We have dumped JAX/SGLang and rewritten the entire RL and inference stack from scratch in C/C++, which took some extra time. \n\nTraining (aka pre-training) is done. Lot of cleanup was needed on the SFT data to get that mostly right. Now, 4.8 is in RL and the evals are starting to"
+     }
+    ]
+   }
+  },
+  "gengdaJ": {
+   "user_id": "1897545708770840576",
+   "meta": {
+    "newest_id": "2120174561811743227",
+    "oldest_id": "2119952730513183008",
+    "result_count": 7
+   },
+   "data": [
+    {
+     "created_at": "2026-11-10T15:19:41.000Z",
+     "edit_history_tweet_ids": [
+      "2120174561811743227"
+     ],
+     "id": "2120174561811743227",
+     "in_reply_to_user_id": "1897545708770840576",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 662,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120033719235076142",
+       "type": "quoted"
+      },
+      {
+       "id": "2120160906470662304",
+       "type": "replied_to"
+      }
+     ],
+     "text": "https://t.co/Rf1If0N4Ir",
+     "url": "https://x.com/i/status/2120174561811743227"
+    },
+    {
+     "created_at": "2026-11-10T15:11:12.000Z",
+     "edit_history_tweet_ids": [
+      "2120172426432798723"
+     ],
+     "id": "2120172426432798723",
+     "in_reply_to_user_id": "1897545708770840576",
+     "public_metrics": {
+      "bookmark_count": 13,
+      "impression_count": 810,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120172421789716790",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Hypit开源地址：https://t.co/4QAbijreIH\nMonid网址：https://t.co/8vs7MJReG7\nRunningHub网址：\nhttps://t.co/OuzUSj0Pba\nAPIMart网址：https://t.co/DkdtzayYvy",
+     "url": "https://x.com/i/status/2120172426432798723"
+    },
+    {
+     "created_at": "2026-11-10T15:11:10.000Z",
+     "edit_history_tweet_ids": [
+      "2120172421789716790"
+     ],
+     "id": "2120172421789716790",
+     "public_metrics": {
+      "bookmark_count": 131,
+      "impression_count": 5854,
+      "like_count": 90,
+      "quote_count": 1,
+      "reply_count": 3,
+      "retweet_count": 8
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120033719235076142",
+       "type": "quoted"
+      }
+     ],
+     "text": "你可能再也找不到这么省、还这么高质量的视频工作流了。。。不管是跨境还是国内短视频平台，不管是复刻爆款还是生成新视频，都可以通过这套AI工作流来大幅降低成本。真的是各渠道对比下来最省的了。。。\n\nTikTok数据接口：1070条对标视频，0.07美元。 https://t.co/1vSzaNf38U https://t.co/bqUTytkfGQ",
+     "url": "https://x.com/i/status/2120172421789716790"
+    },
+    {
+     "created_at": "2026-11-10T14:25:25.000Z",
+     "edit_history_tweet_ids": [
+      "2120160906470662304"
+     ],
+     "id": "2120160906470662304",
+     "public_metrics": {
+      "bookmark_count": 30,
+      "impression_count": 5074,
+      "like_count": 37,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 6
+     },
+     "referenced_tweets": [
+      {
+       "id": "2108363527971041650",
+       "type": "quoted"
+      }
+     ],
+     "text": "最近几天在深圳疯狂social，刚刚才得空测试了一下Fable5.2，确实太牛皮了，各种任务的完成丝滑程度又上了一大截，Anthropic还送了重置券，我的天哪！已经断档领先了。\n\n赶紧给还没有用上Claude Code的兄弟们更新了一下完整教程。把Ryuu的分流规则、DNS规则和WebTRC规则，以及Apple https://t.co/YywyadtbXk",
+     "url": "https://x.com/i/status/2120160906470662304"
+    },
+    {
+     "created_at": "2026-11-10T07:29:02.000Z",
+     "edit_history_tweet_ids": [
+      "2120056120568127914"
+     ],
+     "id": "2120056120568127914",
+     "in_reply_to_user_id": "1897545708770840576",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 701,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120033719235076142",
+       "type": "quoted"
+      },
+      {
+       "id": "2119365103795716473",
+       "type": "replied_to"
+      }
+     ],
+     "text": "https://t.co/5cGAgczhkQ",
+     "url": "https://x.com/i/status/2120056120568127914"
+    },
+    {
+     "created_at": "2026-11-10T06:00:01.000Z",
+     "edit_history_tweet_ids": [
+      "2120033719235076142"
+     ],
+     "id": "2120033719235076142",
+     "public_metrics": {
+      "bookmark_count": 197,
+      "impression_count": 15135,
+      "like_count": 138,
+      "quote_count": 3,
+      "reply_count": 21,
+      "retweet_count": 19
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119837642947006539",
+       "type": "quoted"
+      }
+     ],
+     "text": "以后DTC做社媒增长的方式可能要大变！分享一个我真实在实操的快速测多种TikTok消费品广告的方法：Claude Code+TikTok数据接口+Hypit=批量复刻竞品广告 https://t.co/b0AyguzpBP https://t.co/37LGCL7Ohj",
+     "url": "https://x.com/i/status/2120033719235076142"
+    },
+    {
+     "created_at": "2026-11-10T00:38:12.000Z",
+     "edit_history_tweet_ids": [
+      "2119952730513183008"
+     ],
+     "id": "2119952730513183008",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 125,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 223
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119913599573594299",
+       "type": "retweeted"
+      }
+     ],
+     "text": "RT @alexmashrabov: Jensen is irreplaceable for America’s AI leadership.\n\nIn 5G, the US had to play defense against China’s Huawei. In AI, i…",
+     "url": "https://x.com/i/status/2119952730513183008"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "created_at": "2026-11-10T14:25:25.000Z",
+      "edit_history_tweet_ids": [
+       "2120160906470662304"
+      ],
+      "id": "2120160906470662304",
+      "public_metrics": {
+       "bookmark_count": 30,
+       "impression_count": 5074,
+       "like_count": 37,
+       "quote_count": 0,
+       "reply_count": 2,
+       "retweet_count": 6
+      },
+      "referenced_tweets": [
+       {
+        "id": "2108363527971041650",
+        "type": "quoted"
+       }
+      ],
+      "text": "最近几天在深圳疯狂social，刚刚才得空测试了一下Fable5.2，确实太牛皮了，各种任务的完成丝滑程度又上了一大截，Anthropic还送了重置券，我的天哪！已经断档领先了。\n\n赶紧给还没有用上Claude Code的兄弟们更新了一下完整教程。把Ryuu的分流规则、DNS规则和WebTRC规则，以及Apple https://t.co/YywyadtbXk"
+     },
+     {
+      "created_at": "2026-11-10T06:00:01.000Z",
+      "edit_history_tweet_ids": [
+       "2120033719235076142"
+      ],
+      "id": "2120033719235076142",
+      "public_metrics": {
+       "bookmark_count": 197,
+       "impression_count": 15135,
+       "like_count": 138,
+       "quote_count": 3,
+       "reply_count": 21,
+       "retweet_count": 19
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119837642947006539",
+        "type": "quoted"
+       }
+      ],
+      "text": "以后DTC做社媒增长的方式可能要大变！分享一个我真实在实操的快速测多种TikTok消费品广告的方法：Claude Code+TikTok数据接口+Hypit=批量复刻竞品广告 https://t.co/b0AyguzpBP https://t.co/37LGCL7Ohj"
+     },
+     {
+      "created_at": "2026-11-10T15:11:10.000Z",
+      "edit_history_tweet_ids": [
+       "2120172421789716790"
+      ],
+      "id": "2120172421789716790",
+      "public_metrics": {
+       "bookmark_count": 131,
+       "impression_count": 5854,
+       "like_count": 90,
+       "quote_count": 1,
+       "reply_count": 3,
+       "retweet_count": 8
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120033719235076142",
+        "type": "quoted"
+       }
+      ],
+      "text": "你可能再也找不到这么省、还这么高质量的视频工作流了。。。不管是跨境还是国内短视频平台，不管是复刻爆款还是生成新视频，都可以通过这套AI工作流来大幅降低成本。真的是各渠道对比下来最省的了。。。\n\nTikTok数据接口：1070条对标视频，0.07美元。 https://t.co/1vSzaNf38U https://t.co/bqUTytkfGQ"
+     },
+     {
+      "article": {
+       "title": "任何人都能复刻的Claude注册、订阅和过KYC防封号教程"
+      },
+      "created_at": "2026-10-09T01:06:51.000Z",
+      "edit_history_tweet_ids": [
+       "2108363527971041650"
+      ],
+      "id": "2108363527971041650",
+      "public_metrics": {
+       "bookmark_count": 4714,
+       "impression_count": 568364,
+       "like_count": 2403,
+       "quote_count": 52,
+       "reply_count": 103,
+       "retweet_count": 294
+      },
+      "text": "https://t.co/xlWrXLAQhg"
+     },
+     {
+      "created_at": "2026-11-08T09:43:11.000Z",
+      "edit_history_tweet_ids": [
+       "2119365103795716473"
+      ],
+      "id": "2119365103795716473",
+      "public_metrics": {
+       "bookmark_count": 171,
+       "impression_count": 41785,
+       "like_count": 358,
+       "quote_count": 10,
+       "reply_count": 70,
+       "retweet_count": 20
+      },
+      "text": "朝着目标努力了两年，我终于有资本、有自信，独自一人来到惠州度假。\n\n沙滩边，天气晴朗，短袖短裤，躺于沙滩椅上，听海浪拍岸声，有感而发作此篇，分享给所有还在迷茫的你。\n\n记得两年前，在内地刚上大学，枯燥的大学生活让我开始思考人生。我从小的梦想就是赚大钱，所以我去当了家教。 https://t.co/j07AM6PSRA"
+     },
+     {
+      "created_at": "2026-11-09T17:00:53.000Z",
+      "edit_history_tweet_ids": [
+       "2119837642947006539"
+      ],
+      "id": "2119837642947006539",
+      "public_metrics": {
+       "bookmark_count": 211,
+       "impression_count": 99102,
+       "like_count": 220,
+       "quote_count": 48,
+       "reply_count": 72,
+       "retweet_count": 35
+      },
+      "text": "We just killed Higgsfield Ad Multiplier.\nMeet the world’s #1 viral ad cloner.\n\nDrop in your competitor’s best-performing ad and a photo of your product. Hypit rebuilds it around your product, then generates 100 variants with different people, scenes, and languages.\n\nKey Point: https://t.co/ws8PrG6b9M"
+     },
+     {
+      "created_at": "2026-11-09T22:02:42.000Z",
+      "edit_history_tweet_ids": [
+       "2119913599573594299"
+      ],
+      "id": "2119913599573594299",
+      "public_metrics": {
+       "bookmark_count": 53,
+       "impression_count": 50502,
+       "like_count": 563,
+       "quote_count": 5,
+       "reply_count": 32,
+       "retweet_count": 223
+      },
+      "text": "Jensen is irreplaceable for America’s AI leadership.\n\nIn 5G, the US had to play defense against China’s Huawei. In AI, it’s the opposite. NVIDIA leads, and now China is trying to end its reliance on NVIDIA.\n\nJensen laid the foundation for modern AI 20 years ago. By the time the"
+     }
+    ]
+   }
+  }
+ },
+ "pagination": {
+  "testingcatalog_page2": {
+   "meta": {
+    "newest_id": "2120094172187103521",
+    "oldest_id": "2119844861314527567",
+    "previous_token": "77qpymm88g5h9vqkmfps2ijpzqf6s1x1kxhg96zxkxf01",
+    "result_count": 22
+   },
+   "data": [
+    {
+     "conversation_id": "2120094172187103521",
+     "created_at": "2026-11-10T10:00:14.000Z",
+     "edit_history_tweet_ids": [
+      "2120094172187103521"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/testingcatalog…",
+        "end": 300,
+        "expanded_url": "https://twitter.com/testingcatalog/status/2118999078717575288",
+        "start": 277,
+        "url": "https://t.co/5Vibi43OUc"
+       }
+      ]
+     },
+     "id": "2120094172187103521",
+     "note_tweet": {
+      "text": "DAILY AI BRIEF 🗞 — Nov 10\n\nMODEL FORECAST 👀:\n- Gemini 4 Carbon, today!!!\n- Gemini 4 Hydrogen (Flash), today?\n- GPT-6.2 Sol, this week?\n- GPT-6.2 Astra, this week?\n- Inkling 2 Small open weights, soon\n- Qwen4 Max/Flash/Plus/27B, this week?\n- Tencent Hy4 open weights and Flash, soon?\n- Grok 4.8, not soon?\n- Claude Fable 5.5 and Mythos 5.5, not soon?\n- DeepSeek V4.1 Pro, not soon?\n\nANTHROPIC 🔥:\n- Claude Fable 5.2 and Mythos 5.2 are out, about 30% faster and 20% cheaper than 5.1, with Mythos limited to vetted organizations.\n- Fable 5.2 tops the Artificial Analysis Intelligence Index at 65 (via ArtificialAnlys).\n- Ultra and Team Premium users get 1 to 3 Fable resets based on tenure, and Pro gets a week of Fable at up to half its weekly limit.\n- Anthropic is reportedly targeting $70 to $80 a share in a Nasdaq IPO under ANT, raising up to $69B.\n\nOPENAI 🔥:\n- Dots can now connect to multiple local computers and pick which one runs each task.\n- ChatGPT Enterprise, with ChatGPT Work, Codex, and dots, is now on AWS Marketplace.\n- The Agents API added a 12-hour prompt cache, async functions, and per-session budget control in beta (via AzianMike).\n\nGOOGLE 🔥:\n- Gemini 4 Carbon appeared in the GCP SKU catalog and Gemini web app config, and its slug already answers on Vertex AI (via AiBattle_).\n- Logan Kilpatrick teased the release by tweeting just \"Gemini\".\n- Google announced TPU 8tx for training and TPU 8i Max for long-context inference.\n- AI Studio can now build Google Maps Platform apps from a prompt, with 3D, Street View, weather, and routing.\n- Antigravity launched a Knowledge Work layout for research, writing, and artifacts without the terminal and git clutter.\n- Varun Mohan teased more Antigravity releases this week.\n- Gemini is rolling out Memory Summary to view and edit what it remembers about you (via SaadhJawwadh).\n\nMETA 🔥:\n- Muse Ember, Meta's smallest and cheapest model at $0.10/$0.50 per 1M tokens, is live on the Meta Model API and Muse Code.\n- Muse Wonder, Muse Spark 1.3, and Muse Ember are in public preview on Google Cloud.\n- Muse is now on Apple Watch and Wear OS.\n- Meta is preparing to release Muse in the UK.\n\nSPACEXSI 🔥:\n- Grok Bot weekly limits were reset for all users.\n- Grok Bot can now reach private MCP servers on your tailnet via Tailscale.\n- Grok Bot texting is getting closer, linking your number or Apple ID over iMessage only (via alexmichael).\n- Claude Fable 5.2 is in Cursor and tops CursorBench at 60% on max effort.\n- X launched Clipping on iOS and Android, with earnings shared between creator and clipper.\n\nMICROSOFT 🔥:\n- Claude Fable 5.2 is generally available in GitHub Copilot.\n\nPERPLEXITY 🔥:\n- Claude Fable 5.2 is in Perplexity Computer for Pro and Max, and in Search for Max.\n\nNVIDIA 🔥:\n- NVIDIA unveiled GR00T 2, an open-world action model for dexterous robots, plus Isaac Lab 3.0 at CoRL.\n\nBYTEDANCE 🔥:\n- Seedream 5.5 is rolling out on Dreamina, CapCut, and BytePlus.\n\nMEITUAN 🔥:\n- LongCat-2.5 weights, a 1.6T-parameter multimodal agentic model, are out under MIT on Hugging Face.\n\nELEVENLABS 🔥:\n- ElevenAgents Campaign Manager runs outbound campaigns over phone and WhatsApp, following up with each contact until it hits a goal.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n** It feels a bit too much for Monday 💀"
+     },
+     "public_metrics": {
+      "bookmark_count": 49,
+      "impression_count": 22692,
+      "like_count": 330,
+      "quote_count": 3,
+      "reply_count": 72,
+      "retweet_count": 18
+     },
+     "referenced_tweets": [
+      {
+       "id": "2118999078717575288",
+       "type": "quoted"
+      }
+     ],
+     "text": "DAILY AI BRIEF 🗞 — Nov 10\n\nMODEL FORECAST 👀:\n- Gemini 4 Carbon, today!!!\n- Gemini 4 Hydrogen (Flash), today?\n- GPT-6.2 Sol, this week?\n- GPT-6.2 Astra, this week?\n- Inkling 2 Small open weights, soon\n- Qwen4 Max/Flash/Plus/27B, this week?\n- Tencent Hy4 open weights and Flash, https://t.co/5Vibi43OUc",
+     "url": "https://x.com/i/status/2120094172187103521"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2119883144707047424"
+      ],
+      "media_source_tweet_id": [
+       "2119883176726409645"
+      ]
+     },
+     "conversation_id": "2120078538036613553",
+     "created_at": "2026-11-10T08:58:07.000Z",
+     "edit_history_tweet_ids": [
+      "2120078538036613553"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/quXDePsjf5",
+        "end": 159,
+        "expanded_url": "https://x.com/OpenAIDevs/status/2119883176726409645/video/1",
+        "media_key": "13_2119883144707047424",
+        "start": 136,
+        "url": "https://t.co/quXDePsjf5"
+       }
+      ]
+     },
+     "id": "2120078538036613553",
+     "public_metrics": {
+      "bookmark_count": 32,
+      "impression_count": 13676,
+      "like_count": 269,
+      "quote_count": 1,
+      "reply_count": 42,
+      "retweet_count": 7
+     },
+     "text": "Dots on ChatGPT can now connect to multiple local computers, so users can tell them where to run the task. \n\nOne Dot to rule them all ⭕ https://t.co/quXDePsjf5",
+     "url": "https://x.com/i/status/2120078538036613553"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120070159918305280",
+       "3_2120070181879787520"
+      ]
+     },
+     "conversation_id": "2120070242856575060",
+     "created_at": "2026-11-10T08:25:09.000Z",
+     "edit_history_tweet_ids": [
+      "2120070242856575060"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 220,
+        "id": "1367154052409212928",
+        "start": 210,
+        "username": "AiBattle_"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "pic.x.com/qTUmIorzEq",
+        "end": 244,
+        "expanded_url": "https://x.com/testingcatalog/status/2120070242856575060/photo/1",
+        "media_key": "3_2120070159918305280",
+        "start": 221,
+        "url": "https://t.co/qTUmIorzEq"
+       },
+       {
+        "display_url": "pic.x.com/qTUmIorzEq",
+        "end": 244,
+        "expanded_url": "https://x.com/testingcatalog/status/2120070242856575060/photo/1",
+        "media_key": "3_2120070181879787520",
+        "start": 221,
+        "url": "https://t.co/qTUmIorzEq"
+       },
+       {
+        "display_url": "x.com/aitrackerbot/s…",
+        "end": 268,
+        "expanded_url": "https://twitter.com/aitrackerbot/status/2120055809560216014",
+        "start": 245,
+        "url": "https://t.co/usWZxRWoND"
+       }
+      ]
+     },
+     "id": "2120070242856575060",
+     "public_metrics": {
+      "bookmark_count": 35,
+      "impression_count": 17492,
+      "like_count": 399,
+      "quote_count": 9,
+      "reply_count": 40,
+      "retweet_count": 18
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120055809560216014",
+       "type": "quoted"
+      }
+     ],
+     "text": "GOOGLE 🔥: Gemini 4 Carbon appears to be prepared for release on Google Cloud and is now listed in the GCP SKUs catalog. \n\nThe \"gemini-4-carbon\" model slug may already be responsive as well. \n\nCarbon day 👀\n\nh/t @AiBattle_ https://t.co/qTUmIorzEq https://t.co/usWZxRWoND",
+     "url": "https://x.com/i/status/2120070242856575060"
+    },
+    {
+     "conversation_id": "2120066614469013801",
+     "created_at": "2026-11-10T08:10:45.000Z",
+     "edit_history_tweet_ids": [
+      "2120066618793635873"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "Explore Kylon use cases by scenario, industry, and integration. Turn email, content, and operations into shared team systems.",
+        "display_url": "kylon.io/use-cases",
+        "end": 227,
+        "expanded_url": "https://kylon.io/use-cases",
+        "images": [
+         {
+          "height": 630,
+          "url": "https://pbs.twimg.com/news_img/2119846418072600577/0OssjYZ2?format=jpg&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2119846418072600577/0OssjYZ2?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 204,
+        "status": 200,
+        "title": "Use Cases by Scenario, Industry, and Integration | Kylon",
+        "unwound_url": "https://kylon.io/use-cases",
+        "url": "https://t.co/QRM12uVnyj"
+       }
+      ]
+     },
+     "id": "2120066618793635873",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2278,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120066614469013801",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Quinn Leng, who co-founded Kylon, shared the milestone in the quoted post.\n\nKylon runs on macOS, iOS, Android, and the web.\nIts site currently features 150+ use cases across 15 industries.\n\nTest it out 👀\nhttps://t.co/QRM12uVnyj",
+     "url": "https://x.com/i/status/2120066618793635873"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120066175157547009"
+      ]
+     },
+     "conversation_id": "2120066614469013801",
+     "created_at": "2026-11-10T08:10:44.000Z",
+     "edit_history_tweet_ids": [
+      "2120066614469013801"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/HNyNHPGckb",
+        "end": 300,
+        "expanded_url": "https://x.com/testingcatalog/status/2120066614469013801/photo/1",
+        "media_key": "3_2120066175157547009",
+        "start": 277,
+        "url": "https://t.co/HNyNHPGckb"
+       },
+       {
+        "display_url": "x.com/quinn_leng/sta…",
+        "end": 324,
+        "expanded_url": "https://twitter.com/quinn_leng/status/2119841586951393363",
+        "start": 301,
+        "url": "https://t.co/wAFOPvhUp6"
+       }
+      ]
+     },
+     "id": "2120066614469013801",
+     "note_tweet": {
+      "text": "Kylon now allows coding agents like Claude Code and Codex to collaborate on tasks such as research, marketing, or sales.\n\nTeams bring their agents into a shared workspace, where the agents can use more than 3,000 built-in tools without signing up for each one.\n\nKylon recently shared that its AI agents have handled over 5 million transactions, equivalent to about 50,000 hours of human labor.\n\nKylon is giving users who comment their favorite use case under Quinn's post their first month free."
+     },
+     "public_metrics": {
+      "bookmark_count": 23,
+      "impression_count": 8632,
+      "like_count": 47,
+      "quote_count": 2,
+      "reply_count": 38,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119841586951393363",
+       "type": "quoted"
+      }
+     ],
+     "text": "Kylon now allows coding agents like Claude Code and Codex to collaborate on tasks such as research, marketing, or sales.\n\nTeams bring their agents into a shared workspace, where the agents can use more than 3,000 built-in tools without signing up for each one.\n\nKylon recently https://t.co/HNyNHPGckb https://t.co/wAFOPvhUp6",
+     "url": "https://x.com/i/status/2120066614469013801"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120050752190087168",
+       "3_2120050752164954113"
+      ]
+     },
+     "conversation_id": "2120050757647139146",
+     "created_at": "2026-11-10T07:07:43.000Z",
+     "edit_history_tweet_ids": [
+      "2120050757647139146"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/iz0clEkUyJ",
+        "end": 217,
+        "expanded_url": "https://x.com/testingcatalog/status/2120050757647139146/photo/1",
+        "media_key": "3_2120050752190087168",
+        "start": 194,
+        "url": "https://t.co/iz0clEkUyJ"
+       },
+       {
+        "display_url": "pic.x.com/iz0clEkUyJ",
+        "end": 217,
+        "expanded_url": "https://x.com/testingcatalog/status/2120050757647139146/photo/1",
+        "media_key": "3_2120050752164954113",
+        "start": 194,
+        "url": "https://t.co/iz0clEkUyJ"
+       },
+       {
+        "display_url": "x.com/officiallogank…",
+        "end": 241,
+        "expanded_url": "https://twitter.com/officiallogank/status/2120024720510984234",
+        "start": 218,
+        "url": "https://t.co/SUpxCDBJQm"
+       }
+      ]
+     },
+     "id": "2120050757647139146",
+     "public_metrics": {
+      "bookmark_count": 71,
+      "impression_count": 31982,
+      "like_count": 874,
+      "quote_count": 10,
+      "reply_count": 51,
+      "retweet_count": 28
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120024720510984234",
+       "type": "quoted"
+      }
+     ],
+     "text": "GOOGLE 🔥: A new Gemini model will be released today! Gemini 4 Carbon is the most likely candidate to appear, while we are also waiting for a potential Flash model to be announced. \n\nVery soon 👀 https://t.co/iz0clEkUyJ https://t.co/SUpxCDBJQm",
+     "url": "https://x.com/i/status/2120050757647139146"
+    },
+    {
+     "conversation_id": "2119930288130376050",
+     "created_at": "2026-11-09T23:19:24.000Z",
+     "edit_history_tweet_ids": [
+      "2119932901064400994"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/edwinarbus/sta…",
+        "end": 156,
+        "expanded_url": "https://x.com/edwinarbus/status/2119931927025307869",
+        "start": 133,
+        "url": "https://t.co/OHaWMimWuV"
+       }
+      ]
+     },
+     "id": "2119932901064400994",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 4320,
+      "like_count": 33,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119931927025307869",
+       "type": "quoted"
+      },
+      {
+       "id": "2119930288130376050",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Update: Ultra subscribers will have access to Fable 5.2 after November 16 as well. This notice is relevant to Pro subscribers. \n\nRef https://t.co/OHaWMimWuV",
+     "url": "https://x.com/i/status/2119932901064400994"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2119929803050561537"
+      ]
+     },
+     "conversation_id": "2119930288130376050",
+     "created_at": "2026-11-09T23:09:01.000Z",
+     "edit_history_tweet_ids": [
+      "2119929920222572857",
+      "2119930288130376050"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/f849qM5h9e",
+        "end": 265,
+        "expanded_url": "https://x.com/testingcatalog/status/2119930288130376050/photo/1",
+        "media_key": "3_2119929803050561537",
+        "start": 242,
+        "url": "https://t.co/f849qM5h9e"
+       },
+       {
+        "display_url": "x.com/testingcatalog…",
+        "end": 289,
+        "expanded_url": "https://twitter.com/testingcatalog/status/2119868820466680062",
+        "start": 266,
+        "url": "https://t.co/VDX7fpuC27"
+       }
+      ]
+     },
+     "id": "2119930288130376050",
+     "public_metrics": {
+      "bookmark_count": 30,
+      "impression_count": 26323,
+      "like_count": 310,
+      "quote_count": 3,
+      "reply_count": 35,
+      "retweet_count": 10
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119868820466680062",
+       "type": "quoted"
+      }
+     ],
+     "text": "ICYMI 🔥: Claude Fable 5.2 is included for up to 50% of Claude subscription until November 16. \n\nTesting allowance 👀\n\n&gt; \"Fable is included for up to 50% of your plan limits until November 16. After that, it’s available with usage credits.\" https://t.co/f849qM5h9e https://t.co/VDX7fpuC27",
+     "url": "https://x.com/i/status/2119930288130376050"
+    },
+    {
+     "conversation_id": "2119868820466680062",
+     "created_at": "2026-11-09T22:36:17.000Z",
+     "edit_history_tweet_ids": [
+      "2119922050252841036"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "Claude Fable 5.2 is available across Anthropic and cloud platforms; vetted organizations can apply for Mythos 5.2 access.",
+        "display_url": "testingcatalog.com/anthropic-laun…",
+        "end": 37,
+        "expanded_url": "https://www.testingcatalog.com/anthropic-launches-claude-fable-5-2-and-mythos-5-2/",
+        "images": [
+         {
+          "height": 1028,
+          "url": "https://pbs.twimg.com/news_img/2119922092950892544/FxpuH4uB?format=jpg&name=orig",
+          "width": 2000
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2119922092950892544/FxpuH4uB?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 14,
+        "status": 200,
+        "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2",
+        "unwound_url": "https://www.testingcatalog.com/anthropic-launches-claude-fable-5-2-and-mythos-5-2/",
+        "url": "https://t.co/JnnTlS7Kzt"
+       }
+      ]
+     },
+     "id": "2119922050252841036",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2460,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119868820466680062",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Documented 🗞️\nhttps://t.co/JnnTlS7Kzt",
+     "url": "https://x.com/i/status/2119922050252841036"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2119914316619010048",
+       "3_2119914316639985664"
+      ]
+     },
+     "conversation_id": "2119914321245577334",
+     "created_at": "2026-11-09T22:05:34.000Z",
+     "edit_history_tweet_ids": [
+      "2119914321245577334"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/OIYHWk9NzJ",
+        "end": 148,
+        "expanded_url": "https://x.com/testingcatalog/status/2119914321245577334/photo/1",
+        "media_key": "3_2119914316619010048",
+        "start": 125,
+        "url": "https://t.co/OIYHWk9NzJ"
+       },
+       {
+        "display_url": "pic.x.com/OIYHWk9NzJ",
+        "end": 148,
+        "expanded_url": "https://x.com/testingcatalog/status/2119914321245577334/photo/1",
+        "media_key": "3_2119914316639985664",
+        "start": 125,
+        "url": "https://t.co/OIYHWk9NzJ"
+       },
+       {
+        "display_url": "x.com/finkd/status/2…",
+        "end": 172,
+        "expanded_url": "https://twitter.com/finkd/status/2119910354369257529",
+        "start": 149,
+        "url": "https://t.co/G3FcvFlql4"
+       }
+      ]
+     },
+     "id": "2119914321245577334",
+     "public_metrics": {
+      "bookmark_count": 25,
+      "impression_count": 13135,
+      "like_count": 297,
+      "quote_count": 1,
+      "reply_count": 10,
+      "retweet_count": 18
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119910354369257529",
+       "type": "quoted"
+      }
+     ],
+     "text": "Meta ❤️ Google Cloud \n\nMuse Wonder, Muse Spark 1.3, and Muse Ember are now available on GCP in public preview.\n\nThat’s new 👀 https://t.co/OIYHWk9NzJ https://t.co/G3FcvFlql4",
+     "url": "https://x.com/i/status/2119914321245577334"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2119886994339659776"
+      ],
+      "media_source_tweet_id": [
+       "2119892170224074832"
+      ]
+     },
+     "conversation_id": "2119913217371799774",
+     "created_at": "2026-11-09T22:01:11.000Z",
+     "edit_history_tweet_ids": [
+      "2119911985236283760",
+      "2119913217371799774"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/dHJnMPUROk",
+        "end": 244,
+        "expanded_url": "https://x.com/XCreators/status/2119892170224074832/video/1",
+        "media_key": "13_2119886994339659776",
+        "start": 221,
+        "url": "https://t.co/dHJnMPUROk"
+       }
+      ]
+     },
+     "id": "2119913217371799774",
+     "public_metrics": {
+      "bookmark_count": 25,
+      "impression_count": 8811,
+      "like_count": 187,
+      "quote_count": 0,
+      "reply_count": 10,
+      "retweet_count": 7
+     },
+     "text": "X now supports clipping on iOS and Android!\n\nThis feature works like the \"post video\" feature that credits the original author, while giving creators a new way to highlight their takes. \n\nThis one I would test for sure 👀 https://t.co/dHJnMPUROk",
+     "url": "https://x.com/i/status/2119913217371799774"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2119894214716628992",
+       "3_2119894214775336960"
+      ]
+     },
+     "conversation_id": "2119894220748280190",
+     "created_at": "2026-11-09T20:45:42.000Z",
+     "edit_history_tweet_ids": [
+      "2119894220748280190"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/2BaFnnO4xt",
+        "end": 178,
+        "expanded_url": "https://x.com/testingcatalog/status/2119894220748280190/photo/1",
+        "media_key": "3_2119894214716628992",
+        "start": 155,
+        "url": "https://t.co/2BaFnnO4xt"
+       },
+       {
+        "display_url": "pic.x.com/2BaFnnO4xt",
+        "end": 178,
+        "expanded_url": "https://x.com/testingcatalog/status/2119894220748280190/photo/1",
+        "media_key": "3_2119894214775336960",
+        "start": 155,
+        "url": "https://t.co/2BaFnnO4xt"
+       },
+       {
+        "display_url": "x.com/bot/status/211…",
+        "end": 202,
+        "expanded_url": "https://twitter.com/bot/status/2119871982946971659",
+        "start": 179,
+        "url": "https://t.co/mlKuEerWnx"
+       }
+      ]
+     },
+     "id": "2119894220748280190",
+     "public_metrics": {
+      "bookmark_count": 10,
+      "impression_count": 11386,
+      "like_count": 173,
+      "quote_count": 0,
+      "reply_count": 18,
+      "retweet_count": 6
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119871982946971659",
+       "type": "quoted"
+      }
+     ],
+     "text": "SPACEXSI 🔥: Grok Bot weekly limits have been reset for all users! \n\nBesides that, overall quota consumption supposed to improve drastically. \n\nLet’s see 👀 https://t.co/2BaFnnO4xt https://t.co/mlKuEerWnx",
+     "url": "https://x.com/i/status/2119894220748280190"
+    },
+    {
+     "conversation_id": "2119888903742320882",
+     "created_at": "2026-11-09T20:24:36.000Z",
+     "edit_history_tweet_ids": [
+      "2119888908440031574"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 157,
+        "id": "1600467860",
+        "start": 145,
+        "username": "fangchangma"
+       }
+      ],
+      "urls": [
+       {
+        "description": "Bridging the emotional gap in artificial intelligence",
+        "display_url": "emma.nuancelabs.ai",
+        "end": 199,
+        "expanded_url": "https://emma.nuancelabs.ai",
+        "start": 176,
+        "status": 200,
+        "title": "Nuance Labs",
+        "unwound_url": "https://app.nuancelabs.ai/try",
+        "url": "https://t.co/nWP9Hta31N"
+       }
+      ]
+     },
+     "id": "2119888908440031574",
+     "public_metrics": {
+      "bookmark_count": 5,
+      "impression_count": 2551,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119888903742320882",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Developers can build their own AI characters with the Nuplex API, now available in beta.\n\nEmma works in the browser with no account needed.\n\nVia @fangchangma, \n\nTest it out! 👀\nhttps://t.co/nWP9Hta31N",
+     "url": "https://x.com/i/status/2119888908440031574"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2119888619024318464"
+      ]
+     },
+     "conversation_id": "2119888903742320882",
+     "created_at": "2026-11-09T20:24:34.000Z",
+     "edit_history_tweet_ids": [
+      "2119888903742320882"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 273,
+        "id": "1965285115296432128",
+        "start": 263,
+        "username": "nuance_ai"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "pic.x.com/srEcKgsbqB",
+        "end": 303,
+        "expanded_url": "https://x.com/testingcatalog/status/2119888903742320882/video/1",
+        "media_key": "13_2119888619024318464",
+        "start": 280,
+        "url": "https://t.co/srEcKgsbqB"
+       },
+       {
+        "display_url": "x.com/fangchangma/st…",
+        "end": 327,
+        "expanded_url": "https://twitter.com/fangchangma/status/2119852363494371466",
+        "start": 304,
+        "url": "https://t.co/shI3PWso1f"
+       }
+      ]
+     },
+     "id": "2119888903742320882",
+     "note_tweet": {
+      "entities": {
+       "mentions": [
+        {
+         "end": 273,
+         "id": "1965285115296432128",
+         "start": 263,
+         "username": "nuance_ai"
+        }
+       ]
+      },
+      "text": "Nuance Labs has launched Emma, a free AI character that users can video chat with, built on its new Nuplex model.\n\nEmma can listen and talk at the same time, nod, smile, and change her appearance while someone is speaking, like a real person on a video call.\n\nIn @nuance_ai tests based on 1,785 recorded questions, Nuplex matched a human's response time in 89% of cases."
+     },
+     "public_metrics": {
+      "bookmark_count": 36,
+      "impression_count": 10141,
+      "like_count": 134,
+      "quote_count": 1,
+      "reply_count": 15,
+      "retweet_count": 10
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119852363494371466",
+       "type": "quoted"
+      }
+     ],
+     "text": "Nuance Labs has launched Emma, a free AI character that users can video chat with, built on its new Nuplex model.\n\nEmma can listen and talk at the same time, nod, smile, and change her appearance while someone is speaking, like a real person on a video call.\n\nIn @nuance_ai tests https://t.co/srEcKgsbqB https://t.co/shI3PWso1f",
+     "url": "https://x.com/i/status/2119888903742320882"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2119868813793452033"
+      ]
+     },
+     "conversation_id": "2119868820466680062",
+     "created_at": "2026-11-09T19:04:46.000Z",
+     "edit_history_tweet_ids": [
+      "2119868820466680062"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/pnWZb40FoK",
+        "end": 291,
+        "expanded_url": "https://x.com/testingcatalog/status/2119868820466680062/photo/1",
+        "media_key": "3_2119868813793452033",
+        "start": 268,
+        "url": "https://t.co/pnWZb40FoK"
+       },
+       {
+        "display_url": "x.com/claudeai/statu…",
+        "end": 315,
+        "expanded_url": "https://twitter.com/claudeai/status/2119867114450268322",
+        "start": 292,
+        "url": "https://t.co/FIuLGT6QCd"
+       }
+      ]
+     },
+     "id": "2119868820466680062",
+     "public_metrics": {
+      "bookmark_count": 32,
+      "impression_count": 41073,
+      "like_count": 343,
+      "quote_count": 3,
+      "reply_count": 15,
+      "retweet_count": 12
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119867114450268322",
+       "type": "quoted"
+      }
+     ],
+     "text": "BREAKING 🔥: Anthropic officially announced Claude Fable 5.2 and Mythos 5.2 models. \n\n&gt; Both models are powered by the same underlying model with different set of safeguards. \n\n&gt; These models are 30% faster and 20% cheaper than 5.1 series!\n\nCoding performance! 👀 https://t.co/pnWZb40FoK https://t.co/FIuLGT6QCd",
+     "url": "https://x.com/i/status/2119868820466680062"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2119864055384903680",
+       "3_2119864100037459968"
+      ]
+     },
+     "conversation_id": "2119864118945382448",
+     "created_at": "2026-11-09T18:46:05.000Z",
+     "edit_history_tweet_ids": [
+      "2119864118945382448"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/CZbQPUwXwi",
+        "end": 291,
+        "expanded_url": "https://x.com/testingcatalog/status/2119864118945382448/photo/1",
+        "media_key": "3_2119864055384903680",
+        "start": 268,
+        "url": "https://t.co/CZbQPUwXwi"
+       },
+       {
+        "display_url": "pic.x.com/CZbQPUwXwi",
+        "end": 291,
+        "expanded_url": "https://x.com/testingcatalog/status/2119864118945382448/photo/1",
+        "media_key": "3_2119864100037459968",
+        "start": 268,
+        "url": "https://t.co/CZbQPUwXwi"
+       },
+       {
+        "display_url": "x.com/tensorson/stat…",
+        "end": 315,
+        "expanded_url": "https://twitter.com/tensorson/status/2119857312760234239",
+        "start": 292,
+        "url": "https://t.co/NKnSXDnEbF"
+       }
+      ]
+     },
+     "id": "2119864118945382448",
+     "public_metrics": {
+      "bookmark_count": 24,
+      "impression_count": 28827,
+      "like_count": 567,
+      "quote_count": 12,
+      "reply_count": 31,
+      "retweet_count": 31
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119857312760234239",
+       "type": "quoted"
+      }
+     ],
+     "text": "BREAKING 🔥: Claude Fable 5.2 and Claude Mythos 5.2 have been spotted on the AWS Bedrock Pricing page. \n\n&gt; Pricing: input $8 per 1M tokens, output $40 per 1M tokens. \n\nEarlier traces pointed to version 5.5 instead of 5.2. Will it be a smaller-than-expected upgrade? https://t.co/CZbQPUwXwi https://t.co/NKnSXDnEbF",
+     "url": "https://x.com/i/status/2119864118945382448"
+    },
+    {
+     "conversation_id": "2119861150527488029",
+     "created_at": "2026-11-09T18:34:18.000Z",
+     "edit_history_tweet_ids": [
+      "2119861153367044153"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "The future of compute starts with how we design it. An AI agent for chip physical design, from a single die to a 3D stack.",
+        "display_url": "archgenlabs.com",
+        "end": 247,
+        "expanded_url": "https://archgenlabs.com",
+        "images": [
+         {
+          "height": 630,
+          "url": "https://pbs.twimg.com/news_img/2119839350020358144/E9amTfUz?format=jpg&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2119839350020358144/E9amTfUz?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 224,
+        "status": 200,
+        "title": "Archgen Labs | The future of compute starts with how we design it.",
+        "unwound_url": "https://archgenlabs.com",
+        "url": "https://t.co/vcN1nw0Xso"
+       }
+      ]
+     },
+     "id": "2119861153367044153",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2206,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119861150527488029",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Archgen’s AI thermal engine got ranked first place among 132 entries in a chip layout contest run by Partcl and Hudson River Trading.\n\nA two-person San Francisco team runs the company, backed by Y Combinator.\n\nTake a look 👀\nhttps://t.co/vcN1nw0Xso",
+     "url": "https://x.com/i/status/2119861153367044153"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2119860729679417344"
+      ]
+     },
+     "conversation_id": "2119861150527488029",
+     "created_at": "2026-11-09T18:34:18.000Z",
+     "edit_history_tweet_ids": [
+      "2119861150527488029"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/JfwLOYFrYS",
+        "end": 306,
+        "expanded_url": "https://x.com/testingcatalog/status/2119861150527488029/photo/1",
+        "media_key": "3_2119860729679417344",
+        "start": 283,
+        "url": "https://t.co/JfwLOYFrYS"
+       },
+       {
+        "display_url": "x.com/HariAyapps/sta…",
+        "end": 330,
+        "expanded_url": "https://twitter.com/HariAyapps/status/2119839344836145361",
+        "start": 307,
+        "url": "https://t.co/77w3Hxzpju"
+       }
+      ]
+     },
+     "id": "2119861150527488029",
+     "note_tweet": {
+      "text": "Archgen has launched an AI agent that autonomously discovers and fixes issues in computer chip designs.\n\n> Engineers usually fix these mistakes by hand, creating a bottleneck and slowing production.\n\n> Archgen says its main focus is building chips as stacked layers, which can pack up to 40% more compute into less space but are harder to design.\n\n> The company has created an AI thermal engine that is 5,000x faster than conventional EDA tools, with up to a 40% increase in efficiency."
+     },
+     "public_metrics": {
+      "bookmark_count": 18,
+      "impression_count": 7540,
+      "like_count": 86,
+      "quote_count": 1,
+      "reply_count": 7,
+      "retweet_count": 4
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119839344836145361",
+       "type": "quoted"
+      }
+     ],
+     "text": "Archgen has launched an AI agent that autonomously discovers and fixes issues in computer chip designs.\n\n&gt; Engineers usually fix these mistakes by hand, creating a bottleneck and slowing production.\n\n&gt; Archgen says its main focus is building chips as stacked layers, which can https://t.co/JfwLOYFrYS https://t.co/77w3Hxzpju",
+     "url": "https://x.com/i/status/2119861150527488029"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2119852767854444545"
+      ]
+     },
+     "conversation_id": "2119852955885297719",
+     "created_at": "2026-11-09T18:01:44.000Z",
+     "edit_history_tweet_ids": [
+      "2119852955885297719"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/QciNexFUAJ",
+        "end": 224,
+        "expanded_url": "https://x.com/testingcatalog/status/2119852955885297719/photo/1",
+        "media_key": "3_2119852767854444545",
+        "start": 201,
+        "url": "https://t.co/QciNexFUAJ"
+       },
+       {
+        "display_url": "x.com/finkd/status/2…",
+        "end": 248,
+        "expanded_url": "https://twitter.com/finkd/status/2119851180948152590",
+        "start": 225,
+        "url": "https://t.co/HvtRgLhfjQ"
+       }
+      ]
+     },
+     "id": "2119852955885297719",
+     "public_metrics": {
+      "bookmark_count": 8,
+      "impression_count": 9292,
+      "like_count": 174,
+      "quote_count": 2,
+      "reply_count": 13,
+      "retweet_count": 5
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119851180948152590",
+       "type": "quoted"
+      }
+     ],
+     "text": "META 🔥: A new Muse Ember model from Meta is now available on the Meta Model API and Muse Code.\n\nMuse Ember is a small, low-cost model that performs on par with Claude 5.5 Haiku. \n\nSmall testing time 👀 https://t.co/QciNexFUAJ https://t.co/HvtRgLhfjQ",
+     "url": "https://x.com/i/status/2119852955885297719"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2119836904166154240"
+      ],
+      "media_source_tweet_id": [
+       "2119837788937896234"
+      ]
+     },
+     "conversation_id": "2119849031447019760",
+     "created_at": "2026-11-09T17:46:08.000Z",
+     "edit_history_tweet_ids": [
+      "2119849031447019760"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/1AqZ1lDkZN",
+        "end": 215,
+        "expanded_url": "https://x.com/GoogleAIStudio/status/2119837788937896234/video/1",
+        "media_key": "13_2119836904166154240",
+        "start": 192,
+        "url": "https://t.co/1AqZ1lDkZN"
+       }
+      ]
+     },
+     "id": "2119849031447019760",
+     "public_metrics": {
+      "bookmark_count": 168,
+      "impression_count": 21572,
+      "like_count": 562,
+      "quote_count": 0,
+      "reply_count": 25,
+      "retweet_count": 48
+     },
+     "text": "GOOGLE 🔥: Users can now build AI apps powered by a wide range of Google Maps features, including 3D buildings, Street View, Weather, and others, with simple prompts. \n\nGoogle AI Maps Studio 👀 https://t.co/1AqZ1lDkZN",
+     "url": "https://x.com/i/status/2119849031447019760"
+    },
+    {
+     "conversation_id": "2119844861314527567",
+     "created_at": "2026-11-09T17:29:35.000Z",
+     "edit_history_tweet_ids": [
+      "2119844864347329021"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "The world's first neural network connecting projects, docs, people, and all of your company's knowledge with AI through ClickUp Brain.",
+        "display_url": "clickup.com/brain",
+        "end": 189,
+        "expanded_url": "https://clickup.com/brain",
+        "images": [
+         {
+          "height": 630,
+          "url": "https://pbs.twimg.com/news_img/2118005828750032896/Lpp5D8Z-?format=png&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2118005828750032896/Lpp5D8Z-?format=png&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 166,
+        "status": 200,
+        "title": "ClickUp Brain² | One AI to Replace them All",
+        "unwound_url": "https://clickup.com/brain",
+        "url": "https://t.co/FUolXQiqrx"
+       }
+      ]
+     },
+     "id": "2119844864347329021",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2151,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119844861314527567",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Brain generated the footage using Seedance 2.5 and a soundtrack with Eleven Music v2.5, and checked each video for glitchy frames before joining them.\n\nTake a look 👀\nhttps://t.co/FUolXQiqrx",
+     "url": "https://x.com/i/status/2119844864347329021"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2119844780771315712"
+      ]
+     },
+     "conversation_id": "2119844861314527567",
+     "created_at": "2026-11-09T17:29:34.000Z",
+     "edit_history_tweet_ids": [
+      "2119844861314527567"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/24bKCxks40",
+        "end": 302,
+        "expanded_url": "https://x.com/testingcatalog/status/2119844861314527567/video/1",
+        "media_key": "13_2119844780771315712",
+        "start": 279,
+        "url": "https://t.co/24bKCxks40"
+       }
+      ]
+     },
+     "id": "2119844861314527567",
+     "note_tweet": {
+      "text": "ClickUp has started rolling out video generation inside the Brain² AI assistant!\n\nBrain creates a storyboard for each shot, so users can see the full plan before spending tokens. \n\nWe asked Brain for a video of a robot working with many monitors and finding the best AI news. It created a 24-second video with three camera angles.\n\nHere is the flow 🤖"
+     },
+     "public_metrics": {
+      "bookmark_count": 23,
+      "impression_count": 9151,
+      "like_count": 109,
+      "quote_count": 2,
+      "reply_count": 16,
+      "retweet_count": 9
+     },
+     "text": "ClickUp has started rolling out video generation inside the Brain² AI assistant!\n\nBrain creates a storyboard for each shot, so users can see the full plan before spending tokens. \n\nWe asked Brain for a video of a robot working with many monitors and finding the best AI news. It https://t.co/24bKCxks40",
+     "url": "https://x.com/i/status/2119844861314527567"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "conversation_id": "2118999078717575288",
+      "created_at": "2026-11-07T09:28:44.000Z",
+      "edit_history_tweet_ids": [
+       "2118999078717575288"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "x.com/testingcatalog…",
+         "end": 298,
+         "expanded_url": "https://twitter.com/testingcatalog/status/2118644436917793116",
+         "start": 275,
+         "url": "https://t.co/UOW6tBHMSq"
+        }
+       ]
+      },
+      "id": "2118999078717575288",
+      "note_tweet": {
+       "text": "DAILY AI BRIEF 🗞 — Nov 7\n\nOPENAI 🔥:\n- Bloomberg reports OpenAI has raised $11B so far in a round valuing the company at $1.25T.\n- ChatGPT Remix is rolling out to Business and Enterprise so teams can fork a colleague’s site and keep editing it in chat.\n\nANTHROPIC 🔥:\n- Claude Code cloud sessions on Pro, Max, and Ultra now figure out dependencies, network access, and API keys on their own.\n- Claude Duet can check running Claude Code sessions, approve changes, and send updates from your phone.\n- Claude for iOS is testing a side-nav redesign with separate Chats, Projects, and Code tabs.\n\nMETA 🔥:\n- Muse Spaces let users generate interactive, updatable pages from chat and pin them in the app.\n- Muse and Meta AI now run specialized models with Active Memory and Active Focus from Muse Wonder.\n\nSPACEXSI 🔥:\n- Grok API text watermarking turns on by default today for listed Grok 4.x models, with team opt-out in Console.\n\nALIBABA 🔥:\n- Qwen posted a “The becoming begins” teaser, with Qwen4-Max, Flash, Plus, and 27B expected soon.\n\nNOUS RESEARCH 🔥:\n- Nous Research released Arete-27B, a Qwen3.8-27B post-train aimed at Western values.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+      },
+      "public_metrics": {
+       "bookmark_count": 33,
+       "impression_count": 52906,
+       "like_count": 261,
+       "quote_count": 4,
+       "reply_count": 61,
+       "retweet_count": 15
+      },
+      "referenced_tweets": [
+       {
+        "id": "2118644436917793116",
+        "type": "quoted"
+       }
+      ],
+      "text": "DAILY AI BRIEF 🗞 — Nov 7\n\nOPENAI 🔥:\n- Bloomberg reports OpenAI has raised $11B so far in a round valuing the company at $1.25T.\n- ChatGPT Remix is rolling out to Business and Enterprise so teams can fork a colleague’s site and keep editing it in chat.\n\nANTHROPIC 🔥:\n- Claude https://t.co/UOW6tBHMSq"
+     },
+     {
+      "conversation_id": "2120055809560216014",
+      "created_at": "2026-11-10T07:27:48.000Z",
+      "edit_history_tweet_ids": [
+       "2120055809560216014"
+      ],
+      "id": "2120055809560216014",
+      "note_tweet": {
+       "entities": {
+        "mentions": [
+         {
+          "end": 369,
+          "id": "1976096652596559872",
+          "start": 356,
+          "username": "White1637402"
+         }
+        ]
+       },
+       "text": "Gemini 4 Carbon is live on Vertex AI 🟢\n\nWe just called gemini-4-carbon from a brand-new Google Cloud project on the global endpoint. It answered as \"Gemini 4 Carbon\", and the response's model version field says gemini-4-carbon.\n\nIt isn't in the Gemini API model list or Google's Vertex catalog yet, and Google hasn't announced it.\n\nFirst reports came from @White1637402 around 2 AM ET."
+      },
+      "public_metrics": {
+       "bookmark_count": 17,
+       "impression_count": 29447,
+       "like_count": 137,
+       "quote_count": 16,
+       "reply_count": 6,
+       "retweet_count": 9
+      },
+      "text": "Gemini 4 Carbon is live on Vertex AI 🟢\n\nWe just called gemini-4-carbon from a brand-new Google Cloud project on the global endpoint. It answered as \"Gemini 4 Carbon\", and the response's model version field says gemini-4-carbon.\n\nIt isn't in the Gemini API model list or Google's"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2120066175157547009"
+       ]
+      },
+      "conversation_id": "2120066614469013801",
+      "created_at": "2026-11-10T08:10:44.000Z",
+      "edit_history_tweet_ids": [
+       "2120066614469013801"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/HNyNHPGckb",
+         "end": 300,
+         "expanded_url": "https://x.com/testingcatalog/status/2120066614469013801/photo/1",
+         "media_key": "3_2120066175157547009",
+         "start": 277,
+         "url": "https://t.co/HNyNHPGckb"
+        },
+        {
+         "display_url": "x.com/quinn_leng/sta…",
+         "end": 324,
+         "expanded_url": "https://twitter.com/quinn_leng/status/2119841586951393363",
+         "start": 301,
+         "url": "https://t.co/wAFOPvhUp6"
+        }
+       ]
+      },
+      "id": "2120066614469013801",
+      "note_tweet": {
+       "text": "Kylon now allows coding agents like Claude Code and Codex to collaborate on tasks such as research, marketing, or sales.\n\nTeams bring their agents into a shared workspace, where the agents can use more than 3,000 built-in tools without signing up for each one.\n\nKylon recently shared that its AI agents have handled over 5 million transactions, equivalent to about 50,000 hours of human labor.\n\nKylon is giving users who comment their favorite use case under Quinn's post their first month free."
+      },
+      "public_metrics": {
+       "bookmark_count": 23,
+       "impression_count": 8632,
+       "like_count": 47,
+       "quote_count": 2,
+       "reply_count": 38,
+       "retweet_count": 3
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119841586951393363",
+        "type": "quoted"
+       }
+      ],
+      "text": "Kylon now allows coding agents like Claude Code and Codex to collaborate on tasks such as research, marketing, or sales.\n\nTeams bring their agents into a shared workspace, where the agents can use more than 3,000 built-in tools without signing up for each one.\n\nKylon recently https://t.co/HNyNHPGckb https://t.co/wAFOPvhUp6"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "7_2119841350849888256"
+       ]
+      },
+      "conversation_id": "2119841586951393363",
+      "created_at": "2026-11-09T17:16:33.000Z",
+      "edit_history_tweet_ids": [
+       "2119841586951393363"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/MMKp8gXXww",
+         "end": 302,
+         "expanded_url": "https://x.com/quinn_leng/status/2119841586951393363/video/1",
+         "media_key": "7_2119841350849888256",
+         "start": 279,
+         "url": "https://t.co/MMKp8gXXww"
+        }
+       ]
+      },
+      "id": "2119841586951393363",
+      "note_tweet": {
+       "text": "Agents on Kylon have now completed over 5 million transactions. That's about 50,000 hours of manual work.\n\nBring your team, Claude Code, and Codex into one shared workspace where agents can handle research, marketing, sales, and operations alongside your people.\n\nWith access to 3,000+ tools, from patent databases to Meta Ads, your agents can work together across your business.\n\nComment with your use case for your first month free."
+      },
+      "public_metrics": {
+       "bookmark_count": 38,
+       "impression_count": 148343,
+       "like_count": 196,
+       "quote_count": 22,
+       "reply_count": 45,
+       "retweet_count": 8
+      },
+      "text": "Agents on Kylon have now completed over 5 million transactions. That's about 50,000 hours of manual work.\n\nBring your team, Claude Code, and Codex into one shared workspace where agents can handle research, marketing, sales, and operations alongside your people.\n\nWith access to https://t.co/MMKp8gXXww"
+     },
+     {
+      "conversation_id": "2120024720510984234",
+      "created_at": "2026-11-10T05:24:16.000Z",
+      "edit_history_tweet_ids": [
+       "2120024720510984234"
+      ],
+      "id": "2120024720510984234",
+      "public_metrics": {
+       "bookmark_count": 299,
+       "impression_count": 744102,
+       "like_count": 5788,
+       "quote_count": 409,
+       "reply_count": 814,
+       "retweet_count": 277
+      },
+      "text": "Gemini"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2119929803050561537"
+       ]
+      },
+      "conversation_id": "2119930288130376050",
+      "created_at": "2026-11-09T23:09:01.000Z",
+      "edit_history_tweet_ids": [
+       "2119929920222572857",
+       "2119930288130376050"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/f849qM5h9e",
+         "end": 265,
+         "expanded_url": "https://x.com/testingcatalog/status/2119930288130376050/photo/1",
+         "media_key": "3_2119929803050561537",
+         "start": 242,
+         "url": "https://t.co/f849qM5h9e"
+        },
+        {
+         "display_url": "x.com/testingcatalog…",
+         "end": 289,
+         "expanded_url": "https://twitter.com/testingcatalog/status/2119868820466680062",
+         "start": 266,
+         "url": "https://t.co/VDX7fpuC27"
+        }
+       ]
+      },
+      "id": "2119930288130376050",
+      "public_metrics": {
+       "bookmark_count": 30,
+       "impression_count": 26323,
+       "like_count": 310,
+       "quote_count": 3,
+       "reply_count": 35,
+       "retweet_count": 10
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119868820466680062",
+        "type": "quoted"
+       }
+      ],
+      "text": "ICYMI 🔥: Claude Fable 5.2 is included for up to 50% of Claude subscription until November 16. \n\nTesting allowance 👀\n\n&gt; \"Fable is included for up to 50% of your plan limits until November 16. After that, it’s available with usage credits.\" https://t.co/f849qM5h9e https://t.co/VDX7fpuC27"
+     },
+     {
+      "conversation_id": "2119930288130376050",
+      "created_at": "2026-11-09T23:15:32.000Z",
+      "edit_history_tweet_ids": [
+       "2119931927025307869"
+      ],
+      "entities": {
+       "mentions": [
+        {
+         "end": 15,
+         "id": "3980735590",
+         "start": 0,
+         "username": "testingcatalog"
+        }
+       ]
+      },
+      "id": "2119931927025307869",
+      "public_metrics": {
+       "bookmark_count": 3,
+       "impression_count": 6250,
+       "like_count": 56,
+       "quote_count": 1,
+       "reply_count": 7,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119930288130376050",
+        "type": "replied_to"
+       }
+      ],
+      "text": "@testingcatalog this is for Pro plan subscribers, tbc, which typically do not have have access to Fable-class models. we wanted to find a way to give them a small taste\n\nUltra subscribers will have access past Nov 16."
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2119868813793452033"
+       ]
+      },
+      "conversation_id": "2119868820466680062",
+      "created_at": "2026-11-09T19:04:46.000Z",
+      "edit_history_tweet_ids": [
+       "2119868820466680062"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/pnWZb40FoK",
+         "end": 291,
+         "expanded_url": "https://x.com/testingcatalog/status/2119868820466680062/photo/1",
+         "media_key": "3_2119868813793452033",
+         "start": 268,
+         "url": "https://t.co/pnWZb40FoK"
+        },
+        {
+         "display_url": "x.com/claudeai/statu…",
+         "end": 315,
+         "expanded_url": "https://twitter.com/claudeai/status/2119867114450268322",
+         "start": 292,
+         "url": "https://t.co/FIuLGT6QCd"
+        }
+       ]
+      },
+      "id": "2119868820466680062",
+      "public_metrics": {
+       "bookmark_count": 32,
+       "impression_count": 41073,
+       "like_count": 343,
+       "quote_count": 3,
+       "reply_count": 15,
+       "retweet_count": 12
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119867114450268322",
+        "type": "quoted"
+       }
+      ],
+      "text": "BREAKING 🔥: Anthropic officially announced Claude Fable 5.2 and Mythos 5.2 models. \n\n&gt; Both models are powered by the same underlying model with different set of safeguards. \n\n&gt; These models are 30% faster and 20% cheaper than 5.1 series!\n\nCoding performance! 👀 https://t.co/pnWZb40FoK https://t.co/FIuLGT6QCd"
+     },
+     {
+      "conversation_id": "2119910354369257529",
+      "created_at": "2026-11-09T21:49:49.000Z",
+      "edit_history_tweet_ids": [
+       "2119910354369257529"
+      ],
+      "id": "2119910354369257529",
+      "public_metrics": {
+       "bookmark_count": 262,
+       "impression_count": 317607,
+       "like_count": 6469,
+       "quote_count": 51,
+       "reply_count": 336,
+       "retweet_count": 236
+      },
+      "text": "Muse Ember, Muse Spark 1.3, and Muse Wonder are now available on Google Cloud."
+     },
+     {
+      "conversation_id": "2119871982946971659",
+      "created_at": "2026-11-09T19:17:20.000Z",
+      "edit_history_tweet_ids": [
+       "2119871982946971659"
+      ],
+      "id": "2119871982946971659",
+      "public_metrics": {
+       "bookmark_count": 884,
+       "impression_count": 1824393,
+       "like_count": 38003,
+       "quote_count": 1223,
+       "reply_count": 4410,
+       "retweet_count": 2141
+      },
+      "text": "We've reset weekly limits for all Grok Bot users.\n\nEnjoy!"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2119888619024318464"
+       ]
+      },
+      "conversation_id": "2119888903742320882",
+      "created_at": "2026-11-09T20:24:34.000Z",
+      "edit_history_tweet_ids": [
+       "2119888903742320882"
+      ],
+      "entities": {
+       "mentions": [
+        {
+         "end": 273,
+         "id": "1965285115296432128",
+         "start": 263,
+         "username": "nuance_ai"
+        }
+       ],
+       "urls": [
+        {
+         "display_url": "pic.x.com/srEcKgsbqB",
+         "end": 303,
+         "expanded_url": "https://x.com/testingcatalog/status/2119888903742320882/video/1",
+         "media_key": "13_2119888619024318464",
+         "start": 280,
+         "url": "https://t.co/srEcKgsbqB"
+        },
+        {
+         "display_url": "x.com/fangchangma/st…",
+         "end": 327,
+         "expanded_url": "https://twitter.com/fangchangma/status/2119852363494371466",
+         "start": 304,
+         "url": "https://t.co/shI3PWso1f"
+        }
+       ]
+      },
+      "id": "2119888903742320882",
+      "note_tweet": {
+       "entities": {
+        "mentions": [
+         {
+          "end": 273,
+          "id": "1965285115296432128",
+          "start": 263,
+          "username": "nuance_ai"
+         }
+        ]
+       },
+       "text": "Nuance Labs has launched Emma, a free AI character that users can video chat with, built on its new Nuplex model.\n\nEmma can listen and talk at the same time, nod, smile, and change her appearance while someone is speaking, like a real person on a video call.\n\nIn @nuance_ai tests based on 1,785 recorded questions, Nuplex matched a human's response time in 89% of cases."
+      },
+      "public_metrics": {
+       "bookmark_count": 36,
+       "impression_count": 10141,
+       "like_count": 134,
+       "quote_count": 1,
+       "reply_count": 15,
+       "retweet_count": 10
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119852363494371466",
+        "type": "quoted"
+       }
+      ],
+      "text": "Nuance Labs has launched Emma, a free AI character that users can video chat with, built on its new Nuplex model.\n\nEmma can listen and talk at the same time, nod, smile, and change her appearance while someone is speaking, like a real person on a video call.\n\nIn @nuance_ai tests https://t.co/srEcKgsbqB https://t.co/shI3PWso1f"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2119845669271982080"
+       ]
+      },
+      "conversation_id": "2119852363494371466",
+      "created_at": "2026-11-09T17:59:23.000Z",
+      "edit_history_tweet_ids": [
+       "2119852363494371466"
+      ],
+      "entities": {
+       "mentions": [
+        {
+         "end": 195,
+         "id": "1965285115296432128",
+         "start": 185,
+         "username": "nuance_ai"
+        }
+       ],
+       "urls": [
+        {
+         "display_url": "pic.x.com/eLmwyTS78o",
+         "end": 297,
+         "expanded_url": "https://x.com/fangchangma/status/2119852363494371466/video/1",
+         "media_key": "13_2119845669271982080",
+         "start": 274,
+         "url": "https://t.co/eLmwyTS78o"
+        }
+       ]
+      },
+      "id": "2119852363494371466",
+      "public_metrics": {
+       "bookmark_count": 1701,
+       "impression_count": 3188639,
+       "like_count": 2447,
+       "quote_count": 257,
+       "reply_count": 294,
+       "retweet_count": 243
+      },
+      "text": "The first AI persona you’ll actually want to meet face-to-face.\n\nMost AI personas stare blankly while you talk. Emma reacts while you’re still speaking.\n\nAfter 18 months of research at @nuance_ai, this is Emma, built on Nuplex, our full-duplex audiovisual foundation model. https://t.co/eLmwyTS78o"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2119862225028452352"
+       ]
+      },
+      "conversation_id": "2119867114450268322",
+      "created_at": "2026-11-09T18:57:59.000Z",
+      "edit_history_tweet_ids": [
+       "2119867114450268322"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/jP0AutLxXb",
+         "end": 270,
+         "expanded_url": "https://x.com/claudeai/status/2119867114450268322/video/1",
+         "media_key": "13_2119862225028452352",
+         "start": 247,
+         "url": "https://t.co/jP0AutLxXb"
+        }
+       ]
+      },
+      "id": "2119867114450268322",
+      "public_metrics": {
+       "bookmark_count": 15189,
+       "impression_count": 15814171,
+       "like_count": 93243,
+       "quote_count": 6718,
+       "reply_count": 3006,
+       "retweet_count": 8941
+      },
+      "text": "Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to tackle the most daunting technical challenges.\n\nThey’re capable collaborators on ambitious projects in many fields, and show improvements in areas like coding, reasoning, and vision. https://t.co/jP0AutLxXb"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2119857079686963200"
+       ]
+      },
+      "conversation_id": "2119857312760234239",
+      "created_at": "2026-11-09T18:19:03.000Z",
+      "edit_history_tweet_ids": [
+       "2119857312760234239"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/uzOQjZNs6P",
+         "end": 209,
+         "expanded_url": "https://x.com/tensorson/status/2119857312760234239/photo/1",
+         "media_key": "3_2119857079686963200",
+         "start": 186,
+         "url": "https://t.co/uzOQjZNs6P"
+        }
+       ]
+      },
+      "id": "2119857312760234239",
+      "public_metrics": {
+       "bookmark_count": 20,
+       "impression_count": 83696,
+       "like_count": 180,
+       "quote_count": 12,
+       "reply_count": 11,
+       "retweet_count": 9
+      },
+      "text": "FABLE 5.2 AND MYTHOS 5.2 SPOTTED IN AMAZON AWS BEDROCK - LESS PRICE; \n\nNo announcement from Anthropic yet.\n\nBoth are priced 20% below 5.1, per 1M tokens:\ninput $10 → $8\noutput $50 → $40 https://t.co/uzOQjZNs6P"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2119860729679417344"
+       ]
+      },
+      "conversation_id": "2119861150527488029",
+      "created_at": "2026-11-09T18:34:18.000Z",
+      "edit_history_tweet_ids": [
+       "2119861150527488029"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/JfwLOYFrYS",
+         "end": 306,
+         "expanded_url": "https://x.com/testingcatalog/status/2119861150527488029/photo/1",
+         "media_key": "3_2119860729679417344",
+         "start": 283,
+         "url": "https://t.co/JfwLOYFrYS"
+        },
+        {
+         "display_url": "x.com/HariAyapps/sta…",
+         "end": 330,
+         "expanded_url": "https://twitter.com/HariAyapps/status/2119839344836145361",
+         "start": 307,
+         "url": "https://t.co/77w3Hxzpju"
+        }
+       ]
+      },
+      "id": "2119861150527488029",
+      "note_tweet": {
+       "text": "Archgen has launched an AI agent that autonomously discovers and fixes issues in computer chip designs.\n\n> Engineers usually fix these mistakes by hand, creating a bottleneck and slowing production.\n\n> Archgen says its main focus is building chips as stacked layers, which can pack up to 40% more compute into less space but are harder to design.\n\n> The company has created an AI thermal engine that is 5,000x faster than conventional EDA tools, with up to a 40% increase in efficiency."
+      },
+      "public_metrics": {
+       "bookmark_count": 18,
+       "impression_count": 7540,
+       "like_count": 86,
+       "quote_count": 1,
+       "reply_count": 7,
+       "retweet_count": 4
+      },
+      "referenced_tweets": [
+       {
+        "id": "2119839344836145361",
+        "type": "quoted"
+       }
+      ],
+      "text": "Archgen has launched an AI agent that autonomously discovers and fixes issues in computer chip designs.\n\n&gt; Engineers usually fix these mistakes by hand, creating a bottleneck and slowing production.\n\n&gt; Archgen says its main focus is building chips as stacked layers, which can https://t.co/JfwLOYFrYS https://t.co/77w3Hxzpju"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2119833380711964674"
+       ]
+      },
+      "conversation_id": "2119839344836145361",
+      "created_at": "2026-11-09T17:07:39.000Z",
+      "edit_history_tweet_ids": [
+       "2119839344836145361"
+      ],
+      "entities": {
+       "mentions": [
+        {
+         "end": 9,
+         "id": "2033394186649825280",
+         "start": 0,
+         "username": "archgen_"
+        }
+       ],
+       "urls": [
+        {
+         "display_url": "pic.x.com/BgxzwkKtJq",
+         "end": 304,
+         "expanded_url": "https://x.com/HariAyapps/status/2119839344836145361/video/1",
+         "media_key": "13_2119833380711964674",
+         "start": 281,
+         "url": "https://t.co/BgxzwkKtJq"
+        }
+       ]
+      },
+      "id": "2119839344836145361",
+      "note_tweet": {
+       "entities": {
+        "mentions": [
+         {
+          "end": 9,
+          "id": "2033394186649825280",
+          "start": 0,
+          "username": "archgen_"
+         }
+        ],
+        "urls": [
+         {
+          "display_url": "archgenlabs.com",
+          "end": 610,
+          "expanded_url": "http://archgenlabs.com",
+          "start": 587,
+          "url": "https://t.co/NeRKc9Isuz"
+         }
+        ]
+       },
+       "text": "@archgen_ is  building skyscrapers for semiconductor chips\n\nShrinking transistors is getting harder. Stacking them makes heat harder to manage. We’re building the tools to design chips in three dimensions.\n\nWe stack transistors vertically, shorten connections, and optimize timing and heat together.\n\nOur foundational model for thermal simulation, predicts temperature roughly 5,000× faster than conventional EDA tools.\n\nOur placement engine ranked #1 in HRT’s macro-placement challenge\n\nWe’re working with some of the largest fabs in the world to tape out our first chip in April 2027\n\nhttps://t.co/NeRKc9Isuz"
+      },
+      "public_metrics": {
+       "bookmark_count": 119,
+       "impression_count": 86515,
+       "like_count": 486,
+       "quote_count": 43,
+       "reply_count": 87,
+       "retweet_count": 88
+      },
+      "text": "@archgen_ is  building skyscrapers for semiconductor chips\n\nShrinking transistors is getting harder. Stacking them makes heat harder to manage. We’re building the tools to design chips in three dimensions.\n\nWe stack transistors vertically, shorten connections, and optimize timing https://t.co/BgxzwkKtJq"
+     },
+     {
+      "conversation_id": "2119851180948152590",
+      "created_at": "2026-11-09T17:54:41.000Z",
+      "edit_history_tweet_ids": [
+       "2119851180948152590"
+      ],
+      "id": "2119851180948152590",
+      "note_tweet": {
+       "text": "Releasing Muse Ember today -- our smallest model that delivers higher intelligence per dollar than others in its class. Built for token-heavy work that agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. Available today on the Meta Model API and in Muse Code."
+      },
+      "public_metrics": {
+       "bookmark_count": 993,
+       "impression_count": 529682,
+       "like_count": 9846,
+       "quote_count": 220,
+       "reply_count": 578,
+       "retweet_count": 743
+      },
+      "text": "Releasing Muse Ember today -- our smallest model that delivers higher intelligence per dollar than others in its class. Built for token-heavy work that agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing. Available today on the Meta"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2119844780771315712"
+       ]
+      },
+      "conversation_id": "2119844861314527567",
+      "created_at": "2026-11-09T17:29:34.000Z",
+      "edit_history_tweet_ids": [
+       "2119844861314527567"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/24bKCxks40",
+         "end": 302,
+         "expanded_url": "https://x.com/testingcatalog/status/2119844861314527567/video/1",
+         "media_key": "13_2119844780771315712",
+         "start": 279,
+         "url": "https://t.co/24bKCxks40"
+        }
+       ]
+      },
+      "id": "2119844861314527567",
+      "note_tweet": {
+       "text": "ClickUp has started rolling out video generation inside the Brain² AI assistant!\n\nBrain creates a storyboard for each shot, so users can see the full plan before spending tokens. \n\nWe asked Brain for a video of a robot working with many monitors and finding the best AI news. It created a 24-second video with three camera angles.\n\nHere is the flow 🤖"
+      },
+      "public_metrics": {
+       "bookmark_count": 23,
+       "impression_count": 9151,
+       "like_count": 109,
+       "quote_count": 2,
+       "reply_count": 16,
+       "retweet_count": 9
+      },
+      "text": "ClickUp has started rolling out video generation inside the Brain² AI assistant!\n\nBrain creates a storyboard for each shot, so users can see the full plan before spending tokens. \n\nWe asked Brain for a video of a robot working with many monitors and finding the best AI news. It https://t.co/24bKCxks40"
+     }
+    ]
+   }
+  }
+ }
+}

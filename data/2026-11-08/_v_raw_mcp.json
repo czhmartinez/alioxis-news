@@ -1,0 +1,38 @@
+{
+  "fetched_at_taipei": "2026-11-08 08:13:51 Asia/Taipei",
+  "start_time": "2026-11-06T16:00:00Z",
+  "method": "public X MCP namespace x get_users_posts",
+  "accounts": {
+    "Khazix0918": {
+      "id": "1492195583699951620",
+      "result_count": 1,
+      "next_token": null
+    },
+    "MaxForAI": {
+      "id": "1699797396589588480",
+      "result_count": 10,
+      "next_token": null
+    },
+    "xiaohu": {
+      "id": "1764818331822182400",
+      "result_count": 3,
+      "next_token": null
+    },
+    "thsottiaux": {
+      "id": "1953337039510003712",
+      "result_count": 5,
+      "next_token": null
+    },
+    "testingcatalog": {
+      "id": "3980735590",
+      "result_count": 15,
+      "next_token": null
+    },
+    "gengdaJ": {
+      "id": "1897545708770840576",
+      "result_count": 1,
+      "next_token": null
+    }
+  },
+  "note": "exclude=replies; max_results=25; no pagination tokens returned. Full payloads in _v_raw_fulltexts.json and _v_raw_testingcatalog_p1.txt"
+}

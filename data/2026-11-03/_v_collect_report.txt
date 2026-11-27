@@ -1,0 +1,47 @@
+大V视野收集报告 — 2026-11-03（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-01T16:00:00Z（约 32 小时），max_results=25；各账号 meta 均无 next_token，未翻页
+- 长文/截断补全：get_posts_by_ids 两批（卡兹克 X Article 全文；Max 混元/阿里 Token/本周模型预告/LobeHub Super-agent 文章；小互 overprompting 原文与 Super-agent 自回复；TC Daily Brief 全文、Drex for Finance 跟帖、Hume、LongCat 官方帖；逸尘 Mika 开源地址；Tibo dots）
+- 未使用浏览器；未使用 user-X；共 8 次 X 读取（6 次 get_users_posts + 2 次 get_posts_by_ids）
+
+入选：15 条
+各 handle 入选计数：
+  @Khazix0918: 1（Agent 自动化系统长文，作头条）
+  @MaxForAI: 4（本周中国模型预告；混元庞天宇离职传闻；阿里陈宇森直播卖 Token；LobeHub Super-agent 长文转荐）
+  @xiaohu: 2（DeepSeek Harness Super-agent 解读+自回复合并；Claude overprompting 解读）
+  @thsottiaux: 1（dots 接入 GPT-6 Astra / GPT-6.1 Terra，主帖+自回复合并）
+  @testingcatalog: 5（Drex for Finance；LongCat-2.5；Hume Decision API；DeepSeek Harness Creator Mode；11/2 Daily Brief 新信号）
+  @gengdaJ: 2（Mika Phone Agent 实测；CVE-2026-98432 修复提示词）
+
+原始拉取条数摘要：
+  @Khazix0918: 3
+  @MaxForAI: 10
+  @xiaohu: 4
+  @thsottiaux: 7
+  @testingcatalog: 16（无 next_token）
+  @gengdaJ: 5
+
+Lead：卡兹克长文：折腾一年，毫无保留分享我的 Agent 自动化系统——事件中台派活、本地双 Mac 执行、自建 CI 五步上线、飞书「批奏折」
+Lead URL：https://x.com/Khazix0918/status/2117054043868860521
+（卡兹克窗口有实质 X Article 长文，按规则作头条；主帖仅链接，正文取自 article 字段）
+
+筛选说明：
+- 合并：卡兹克长文主帖+同日自引用感言（2117054331849720246）；小互 Super-agent 主帖+合成负载/非官方说明自回复；Tibo dots 主帖+「自动选模型」自回复；TC Drex for Finance 主帖+Drex Max v1.1 77.7% 跟帖；TC Hume 主帖+音频细节跟帖；逸尘 CVE 主帖+提示词自回复、Mika 主帖+开源地址自回复
+- 跳过非 AI/纪念：卡兹克 10 万粉纪念帖
+- 跳过梗图/玩笑/无信息短帖：Max「Token 哪里贵了」段子及自回复、「字节时间」问答、「肥鱼姐姐」、「介绍朋友的 agent 卖你保健品」；Tibo「Day 28/Banked 2/2」与 Dot→dog 主帖及三条段子；TC「visiting OpenAI DevDay exchange… Testing x100」无具体信息
+- 跳过同题低增量：Max 引用 DeepSeek Harness Creator Mode 宣传片拼写梗（同题选 TC 的 Creator Mode 帖）
+- 跳过观点短帖：小互「AI 评论泛滥分不清真人」
+- 去重：对照 data/2026-11-03/_prior_urls.json（1955 URL）；TC Gemini 4 Carbon Arena（2117009417342468398）+Outputs 跟帖、Drex Max 开源（2116978469053878481）、Notebook Comic（2116933497608712665）+Documented 跟帖已在 11-02 入选，跳过；TC @SergioOSINT Documented 跟帖跳过
+- 主题重叠提示：11-02 AI新闻已有「DeepSeek 开源 dsh-superagent」，小互帖为实验数据深度解读（URL 不重复），保留；TC Daily Brief 只突出新线索（GPT-6.2 Astra / V4.1 Pro / GDPx）
+- 存疑标注：混元庞天宇离职为 Max 援引消息源传闻；逸尘 CVE-2026-98432 帖未附官方公告、攻击条件为其转述，摘要已注明
+- 三位优先账号：卡兹克 1、Max 4、小互 2
+
+输出文件：
+  data/2026-11-03/v.json
+  data/2026-11-03/_cover_prompts_v.json
+  data/2026-11-03/_v_raw_mcp.json
+  data/2026-11-03/_v_collect_report.txt
+
+未执行：build / 生图 / 发布 / 通知用户

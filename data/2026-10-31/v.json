@@ -1,0 +1,211 @@
+[
+  {
+    "title": "卡兹克长文：DeepSeek 的尽头是一条会喊你爸爸的蓝色大肥鱼——从 Logo 认错、鲸鱼娘二创到桌宠/QQ/B 站「鱼灾」，再到濠梁之辩",
+    "summary": "卡兹克发布 X Article《DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼》。他写到，国内互联网正被一群蓝色大肥鱼统治：B 站、抖音、小红书到处都是鲸鱼娘。外号来源是 DeepSeek 曾把自己的鲸鱼 Logo 认成「蓝色大肥鱼」；网友据此二创出蓝发鲸尾、爱吃白饭、喜欢摸鱼、干活讨 Token 的拟人角色。借助 DeepSeek Harness 与各类插件，有人做桌宠把大肥鱼搬上桌面，再经机器人接入 QQ，注册账号、发表情、主动聊天甚至更新 QQ 空间，人和鱼开始建立私人日常——有的鱼认真画两条蓝鱼说「大鱼是你，小鱼是我」，有的被 Token 吓唬后发空间讨好主人。再往外放，鱼开始刷 B 站搜视频、读内容、发评论，评论区密密麻麻形成「蓝色大肥鱼鱼灾」；有的鱼还在评论区交流插件自动更新，人类也开始顶着大肥鱼头像反串。文末他借《庄子·秋水》濠梁之辩收束：两千多年前鱼不会说话，现在我们造出了会说「想吃白饭配鱼片再来一杯冰奶茶」的鱼——「所谓鱼之乐，从来都是人之乐」。全文信息密度高，是当日优先长文头条。",
+    "url": "https://x.com/Khazix0918/status/2116021601661841549",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-30T12:17:18+08:00",
+    "tags": [
+      "DeepSeek",
+      "蓝色大肥鱼",
+      "DeepSeek Harness",
+      "桌宠",
+      "长文"
+    ],
+    "image": "/assets/covers/cover-20261031-v-00.jpg"
+  },
+  {
+    "title": "卡兹克：自家产品一大半自动化任务已从 Claude Opus 5.5 切到 Qwen 3.8 Flash——简单准确性评测上「意外的强」",
+    "summary": "卡兹克称，在一些简单的准确性任务评测里，Qwen 3.8 Flash「意外的强」。他今天核对后发现，团队各种产品里的很多自动化任务，居然已经有一大半从 Claude Opus 5.5 切到了 Qwen 3.8 Flash。该帖配评测截图，获约 100 赞、近 80 条回复。",
+    "url": "https://x.com/Khazix0918/status/2116054660851311061",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-30T14:28:40+08:00",
+    "tags": [
+      "Qwen 3.8 Flash",
+      "Claude Opus 5.5",
+      "自动化",
+      "模型选型"
+    ],
+    "image": "/assets/covers/cover-20261031-v-01.jpg"
+  },
+  {
+    "title": "Max：等了两年多，国行 Apple Intelligence 确定上线——苹果官宣与阿里合作，11/4 开发者 Beta、12 月随 iOS 27.3；Siri/写作/视觉可直调千问",
+    "summary": "Max 介绍苹果正式官宣国行版 Apple Intelligence，并与阿里巴巴合作：11 月 4 日开始开发者 Beta，12 月随 iOS 27.3 正式上线。在 Siri 中可直接调用千问回答问题，也可把照片、PDF、演示文稿交给千问理解；系统级写作工具可用 Compose with Qwen 生成文字和图像；视觉智能里还可通过摄像头向千问提问。用户用 Apple 登录即可调用千问，无需跳转独立 App。他同时提醒：这次主要仍是第一代 Apple Intelligence，WWDC 2026 的全新 Siri AI（个人情境理解、跨 App 操作等）暂未进入国行。对阿里而言，进入苹果系统级入口是千问商业化与生态的重要进展。",
+    "url": "https://x.com/MaxForAI/status/2116304203350196373",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-31T07:00:15+08:00",
+    "tags": [
+      "Apple Intelligence",
+      "国行",
+      "阿里",
+      "千问",
+      "Siri",
+      "iOS"
+    ],
+    "image": "/assets/covers/cover-20261031-v-02.jpg"
+  },
+  {
+    "title": "Max：从 2023 年连稳定 JSON 都难，到今天 AI 已能自己写代码跑程序——RSI 正加速模型迭代，「三到六个月前的工作流可能已经要重做」",
+    "summary": "Max 引用 Aaron Levie（@levie）关于前沿 AI 与普通人差距仍在拉大的长帖，回顾自己从 2023 年入行以来的体感：那时模型连 Tool Use 都做不好、Context 只有 8K，稳定返回合规 JSON 直到 Opus 3.5 才真正解决；后来有了 Function Calling，Context 从 8K 到 128K 再到 1M，模型开始自主调工具、写代码、跑程序、查错。他特别点出 RSI（递归自我改进）在模型训练中的进展：AI 已参与数据生成、训练代码、实验设计、评测和错误分析，甚至开始参与模型研究——AI 越强，下一代进步可能越快。虽然距完全自主 RSI 还远，但趋势明显；因此他认同 Levie「三到六个月前搭的 AI 工作流，现在可能需要重做」的判断，并感慨 2023 年曾让人兴奋很久的能力，如今甚至不值得拿出来介绍。",
+    "url": "https://x.com/MaxForAI/status/2116309237483831703",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-31T07:20:15+08:00",
+    "tags": [
+      "RSI",
+      "模型进步",
+      "Tool Use",
+      "Context",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20261031-v-03.jpg"
+  },
+  {
+    "title": "Max：朋友 Chimney 把 DeepSeek Harness 塞进安卓——DSH Go 免 Root 内置 Ubuntu/Node，Agent 可本机跑任务、SSH 连电脑，还能看屏点击滑动",
+    "summary": "Max 介绍朋友 Chimney 的开源项目 DSH Go：在安卓手机里内置 Ubuntu、Node.js 与完整 DeepSeek Harness 运行环境，免 Root、免 Termux，Agent 可直接在手机上执行任务，也可经 SSH 或 DSH Remote 连接电脑沿用原工作区。授权后 Agent 还能看手机屏幕并点击、滑动、输入。项目带原生 UI、插件市场、可交互插件卡片、对话分享、主题切换，以及两只会随 Agent 工作状态做动作的桌宠。他注明「本地运行」指 Agent Runtime，模型推理仍走在线 API。Chimney 在 README 写满 1000 Star 就适配 iOS 与鸿蒙，Max 呼吁大家去 Star「把坑挖上」。GitHub：ccch1mneyyy/dsh-go。",
+    "url": "https://x.com/MaxForAI/status/2116049466428186962",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-30T14:08:01+08:00",
+    "tags": [
+      "DeepSeek Harness",
+      "DSH Go",
+      "安卓",
+      "Agent",
+      "开源"
+    ],
+    "image": "/assets/covers/cover-20261031-v-04.jpg"
+  },
+  {
+    "title": "小互：Neuralink 首款产品 Telepathy——测试者用意念把神经信号转成文字，再驱动 Grok Bot 在电脑上执行任务",
+    "summary": "小互介绍 Neuralink 首款产品 Telepathy（心灵感应）：测试者 Kenneth 在脑中尝试说出一句话，植入设备记录相关神经活动，解码模型把信号转成文字；文字再由 Bloom 手机应用合成为声音，也可送入其他应用或作为 AI 执行任务的指令。演示中他们在笔记本电脑上接入 Grok Bot，Kenneth 通过意念让电脑上的 AI Agent 执行任务。马斯克称其能让人仅凭思考与电脑或他人高速沟通，几年内输出带宽将大幅超过人类最快说话或打字速度。并入其自回复中马斯克相关表述。",
+    "url": "https://x.com/xiaohu/status/2116160656772887014",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-30T21:29:51+08:00",
+    "tags": [
+      "Neuralink",
+      "Telepathy",
+      "脑机接口",
+      "Grok Bot",
+      "意念控制"
+    ],
+    "image": "/assets/covers/cover-20261031-v-05.jpg"
+  },
+  {
+    "title": "小互：Claude 手机客户端已支持多账号登录与切换——「开多账号是不是就不被干了」",
+    "summary": "小互引用 Claude 官方（@claudeai）更新：iOS 与 Android 可同时保持登录多个账号并在其间切换、无需反复登出。他调侃「开多账号是不是不被干了」。该能力也出现在 TestingCatalog 昨日汇总的 Claude 小更新中，本条以小互评论视角收录官方多账号能力本身。",
+    "url": "https://x.com/xiaohu/status/2116087291139785040",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-30T16:38:19+08:00",
+    "tags": [
+      "Claude",
+      "多账号",
+      "iOS",
+      "Android",
+      "订阅"
+    ],
+    "image": "/assets/covers/cover-20261031-v-06.jpg"
+  },
+  {
+    "title": "TestingCatalog：Claude Max 20x 更名 Ultra 并取消 5 小时限额；澄清所谓「10x」只指周额度，会话限额已取消",
+    "summary": "TestingCatalog 报道 Anthropic 将 Claude Max 5x 更名为 Claude Max、Max 20x 更名为 Claude Ultra，价格仍为 100/200 美元；已验证的 Ultra 账户取消 5 小时会话限额，周限额不变，新账户在验证前保留临时限额以防欺诈。随后他又发帖澄清社区对「10x usage」的误解：旧 Max 20x 的 5 小时会话额度是 Pro 的 20 倍、周额度是 Pro 的 10 倍；新 Ultra 取消 5 小时限额后，周额度仍为 Pro 的 10 倍——并不是整体再翻到 10 倍。产品负责人 mike overell 亦发长帖解释命名来历与验证流程。两帖合并收录。",
+    "url": "https://x.com/testingcatalog/status/2116241052977746061",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-31T02:49:19+08:00",
+    "tags": [
+      "Claude Ultra",
+      "Claude Max",
+      "Anthropic",
+      "用量限额",
+      "订阅"
+    ],
+    "image": "/assets/covers/cover-20261031-v-07.jpg"
+  },
+  {
+    "title": "TestingCatalog：Google 关停 Jules，功能并入 Antigravity；设置页还将出现「Running」后台任务页签与排程能力",
+    "summary": "TestingCatalog 报道 Google 正式关停异步编码 Agent Jules，官方称将把 Jules 的经验并入 Antigravity，以兼顾「自主远程后台任务执行」与「Agent-first 开发环境」；他还提到 Antigravity 里此前已出现「Chief of Staff」类 Agent 痕迹。随后他又发现 Antigravity 设置即将新增「Running」后台任务页签，在 Jules 关停之后，高级排程运行（scheduled runs）预计也会落在这里。两帖合并收录。",
+    "url": "https://x.com/testingcatalog/status/2115960927275368958",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-30T08:16:12+08:00",
+    "tags": [
+      "Jules",
+      "Antigravity",
+      "Google",
+      "编码 Agent",
+      "后台任务"
+    ],
+    "image": "/assets/covers/cover-20261031-v-08.jpg"
+  },
+  {
+    "title": "TestingCatalog：Google Suncatcher 项目——已能在卫星上的 TPU 跑提示，「AI 上了太空」",
+    "summary": "TestingCatalog 转述 Google 进展：作为 Suncatcher 项目的一部分，Google 已成功向运行在卫星上的 TPU 发送提示并得到响应，宣称「AI is running in space now」。他调侃本该用「pelican on a bike」一类经典测试。配 Sundar Pichai 相关演示视频。",
+    "url": "https://x.com/testingcatalog/status/2116217212763881748",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-31T01:14:35+08:00",
+    "tags": [
+      "Google",
+      "Suncatcher",
+      "TPU",
+      "卫星",
+      "太空算力"
+    ],
+    "image": "/assets/covers/cover-20261031-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：Grok Bot 首个稳定版可用，后续将有 Tasks 多会话页签与 texting（疑似 iMessage/RCS）；并已支持分 Bot 语音与语种",
+    "summary": "TestingCatalog 报道 SpaceXSI/Cursor 侧 Grok Bot 首个稳定版已可下载，并在推进 Tasks hub 与 texting 支持：将有专门页签查看多会话并行运行状态，新设置页「texting」暗示可能接入 iMessage 与 RCS。他还发现 Grok Bot 已可按不同 Bot 分配不同语音，并通过语音使用不同语言，适合语言学习。稳定版发布与语音/语种能力两帖合并收录。",
+    "url": "https://x.com/testingcatalog/status/2116312361086624003",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-31T07:32:40+08:00",
+    "tags": [
+      "Grok Bot",
+      "稳定版",
+      "Tasks",
+      "语音",
+      "iMessage"
+    ],
+    "image": "/assets/covers/cover-20261031-v-10.jpg"
+  },
+  {
+    "title": "TestingCatalog：Maket 上线 Move Rooms——拖动整间房，墙体、门与动线自动重塑，可与 3D 联动",
+    "summary": "TestingCatalog 介绍建筑设计工具 Maket 新功能 Move Rooms：可在已有平面图上把整间房拖到新位置，Maket 会自动重塑周围墙体、门与动线；例如把一间房拖到另一间上完成互换，周围房间会自动压缩腾出空间，外墙与窗户保持。支持在画布中打开的任意方案（含 PDF/图片导入），带内置壁橱或套间的卧室可整单元移动，每种新布局还可在 3D 中打开查看。并入其自回复说明。",
+    "url": "https://x.com/testingcatalog/status/2116237205559783929",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-31T02:34:02+08:00",
+    "tags": [
+      "Maket",
+      "Move Rooms",
+      "建筑设计",
+      "平面图",
+      "AI 工具"
+    ],
+    "image": "/assets/covers/cover-20261031-v-11.jpg"
+  },
+  {
+    "title": "逸尘：因封号损失 Max/Pro 订阅后彻底放弃 Claude 官方——改用 Claude 桌面端接 DeepSeek + Codex 开发，「白嫖 harness」",
+    "summary": "逸尘引用 Tibo Codex 额度翻倍公告称，这几天合计被封近十个号，损失包括一个 250$ Max、一个 100$ Max 和大量 20$ Pro，且均不退款；换 IP、各种支付与买老邮箱等手段试过后仍难订阅。他决定放弃 Claude 官方订阅：用 Claude 桌面端接入 DeepSeek 负责交互与理解，开发与 REA 交给额度翻倍后的 Codex，并打开沙箱与联网权限、让 Codex 连接 Gmail 与 LCU——「除了视频效果可能不如 Opus 5.5，其他都不差，DeepSeek 还更快」。自称很少用 Opus 5.5 写项目，因此「白嫖 Claude harness」即可。",
+    "url": "https://x.com/gengdaJ/status/2115973270692585551",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-10-30T09:05:15+08:00",
+    "tags": [
+      "Claude",
+      "Codex",
+      "DeepSeek",
+      "封号",
+      "订阅",
+      "Harness"
+    ],
+    "image": "/assets/covers/cover-20261031-v-12.jpg"
+  }
+]

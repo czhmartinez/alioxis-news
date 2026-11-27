@@ -1,0 +1,2212 @@
+{
+ "date": "2026-10-26",
+ "method": "public X MCP namespace=x",
+ "start_time": "2026-10-24T20:00:00Z",
+ "exclude": "replies",
+ "users": {
+  "Khazix0918": {
+   "id": "1492195583699951620",
+   "fetched": 1,
+   "post_ids": [
+    "2114343004471460341"
+   ],
+   "meta": {
+    "newest_id": "2114343004471460341",
+    "oldest_id": "2114343004471460341",
+    "result_count": 1
+   },
+   "posts": [
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2114342866453741568"
+      ]
+     },
+     "created_at": "2026-10-25T13:07:09.000Z",
+     "edit_history_tweet_ids": [
+      "2114343004471460341"
+     ],
+     "id": "2114343004471460341",
+     "public_metrics": {
+      "bookmark_count": 296,
+      "impression_count": 34823,
+      "like_count": 488,
+      "quote_count": 13,
+      "reply_count": 111,
+      "retweet_count": 25
+     },
+     "text": "花了5天的时间，终于把我的Agent自动化流水线做完啦哈哈。\n\n起因是因为我的Agent自动化任务实在太多了，有直接在桌面端里定时触发的的，有Webhook然后用后台CLI触发的，还有在Dots里面设的等等等等，所以我想给自己做一个可视化的Agent自动化管理界面。 https://t.co/HEFH8a4UeC",
+     "url": "https://x.com/i/status/2114343004471460341"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "13_2114342866453741568",
+      "preview_image_url": "https://pbs.twimg.com/media/HVenonybAAAjzfn.jpg",
+      "type": "video"
+     }
+    ]
+   }
+  },
+  "MaxForAI": {
+   "id": "1699797396589588480",
+   "fetched": 6,
+   "post_ids": [
+    "2114402686821159108",
+    "2114315161209291027",
+    "2114296407570231785",
+    "2114295394331246833",
+    "2114220628056461331",
+    "2114208984790159493"
+   ],
+   "meta": {
+    "newest_id": "2114402686821159108",
+    "oldest_id": "2114208984790159493",
+    "result_count": 6
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-25T17:04:18.000Z",
+     "edit_history_tweet_ids": [
+      "2114402686821159108"
+     ],
+     "id": "2114402686821159108",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "github.com/nlzy/turing-un…",
+         "end": 545,
+         "expanded_url": "https://github.com/nlzy/turing-unlock",
+         "start": 522,
+         "url": "https://t.co/kjb2J0nzm2"
+        },
+        {
+         "display_url": "github.com/Zagitta/gpu-un…",
+         "end": 589,
+         "expanded_url": "https://github.com/Zagitta/gpu-unlock",
+         "start": 566,
+         "url": "https://t.co/SUw5DKBUkr"
+        },
+        {
+         "display_url": "github.com/JustAResearche…",
+         "end": 631,
+         "expanded_url": "https://github.com/JustAResearcher/gpu-unlock-ada/blob/main/QUICKSTART.md",
+         "start": 608,
+         "url": "https://t.co/1I6Xh2U3wi"
+        },
+        {
+         "display_url": "huggingface.co/TOTORONG/AD103…",
+         "end": 687,
+         "expanded_url": "https://huggingface.co/TOTORONG/AD103_win_unlocker/blob/main/docs/INSTALL.en.md",
+         "start": 664,
+         "url": "https://t.co/tJoM3iAxyA"
+        },
+        {
+         "display_url": "gpu-unlock.com/zh",
+         "end": 722,
+         "expanded_url": "https://gpu-unlock.com/zh",
+         "start": 699,
+         "url": "https://t.co/nBOW04VlHD"
+        }
+       ]
+      },
+      "text": "爆了！！！NVIDIA RTX 20、30、40 三代显卡的隐藏 AI 算力，居然都被民间大神破解了！！！🤯\n\n老黄锁了这么多年的 Tensor Core 算力，居然被人直接解锁了，部分显卡的计算吞吐量甚至原地翻倍！\n\n而且最离谱的是，不需要更换硬件，不用刷 BIOS，也不用魔改 NVIDIA 官方驱动。\n\n直接从底层解除部分 Tensor Core 运算的性能限制。\n\n目前社区已经公布了多个型号的测试结果：\n\n🔹 RTX 4090：165.6 → 331.6 TFLOPS，直接翻倍！\n\n🔹 RTX 3090 Ti：BF16 从 87.5 → 157.4 TFLOPS，暴涨 80%！\n\n🔹 RTX 2080 Ti：特定 FP16 运算吞吐量接近翻倍！\n\n🔹 RTX 4070 Ti SUPER：FP16/BF16 运算吞吐量也接近翻倍！\n\n甚至连 Windows 11 上都已经有人成功复现了。\n\n要知道，RTX 2080 Ti 已经是八年前的显卡了，结果到了 2026 年，居然还有人能从里面挖出这么多计算能力。\n\n更魔幻的是，现在连开源项目和安装教程都有了。\n\n不同系列有对应的解锁项目：\n\n🔥 RTX 20 系列（Turing）\nhttps://t.co/kjb2J0nzm2\n🔥 RTX 30 系列（Ampere）\nhttps://t.co/SUw5DKBUkr\n\n🔥 RTX 40 系列（Ada）\nhttps://t.co/1I6Xh2U3wi\n🔥 Windows 11 实验方案（改装版 RTX 4080）\nhttps://t.co/tJoM3iAxyA\n\n还有中文安装说明：\nhttps://t.co/nBOW04VlHD\nLinux 用户按照对应仓库的教程，安装内核模块、配置启动参数，再通过冷启动触发解锁。\n\nNVIDIA 靠着精准的产品刀法卖了这么多年显卡，结果 GitHub 上的民间大神，硬生生把老黄的刀给撅了。\n\n谁能想到，一张用了七八年的老显卡，居然还能在 2026 年迎来这种级别的算力解锁。"
+     },
+     "public_metrics": {
+      "bookmark_count": 269,
+      "impression_count": 35023,
+      "like_count": 209,
+      "quote_count": 3,
+      "reply_count": 20,
+      "retweet_count": 25
+     },
+     "text": "爆了！！！NVIDIA RTX 20、30、40 三代显卡的隐藏 AI 算力，居然都被民间大神破解了！！！🤯\n\n老黄锁了这么多年的 Tensor Core 算力，居然被人直接解锁了，部分显卡的计算吞吐量甚至原地翻倍！\n\n而且最离谱的是，不需要更换硬件，不用刷 BIOS，也不用魔改 NVIDIA 官方驱动。\n\n直接从底层解除部分",
+     "url": "https://x.com/i/status/2114402686821159108"
+    },
+    {
+     "created_at": "2026-10-25T11:16:31.000Z",
+     "edit_history_tweet_ids": [
+      "2114315161209291027"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/dummerspast39/…",
+        "end": 171,
+        "expanded_url": "https://twitter.com/dummerspast39/status/2114078074627039419",
+        "start": 148,
+        "url": "https://t.co/xGUklsiBRv"
+       }
+      ]
+     },
+     "id": "2114315161209291027",
+     "note_tweet": {
+      "text": "2003 年 3 月 10 日，20 岁左右的 Dario Amodei 站在加州帕萨迪纳市议会的发言台上，公开反对美国即将发动的伊拉克战争。\n当时他是加州理工学院的物理系本科生，也是校内和平组织 Peaceful Justice Coalition 的成员。\n\n他代表学生宣读了一封有 700 多名加州理工学生签名的反战信。市议会官方会议记录至今仍能检索到他的名字。\n\n而在这之前一周，也就是 2003 年 3 月 3 日，他还在加州理工校报《The California Tech》上发表了一篇文章：\nAnti-War Protest: Most Students Apathetic Towards World Politics\n中文可以译为《反战抗议：大多数学生对世界政治漠不关心》。\n\n里面有一句话特别值得注意：\n我们绝不能沦为没有道德判断的技术人员，像进行日常计算一样，漫不经心地操作战争机器。\n\n这是他当年亲自写下的观点。\n\n23 年后的今天，这个细节有了另一层意味。\n2026 年 2 月，已经成为 Anthropic CEO 的 Dario，公开拒绝美国国防部要求其放宽 Claude 在大规模国内监控、完全自主武器上的使用限制。双方因此发生激烈冲突。\n\n当然如今的 Dario 已经支持 AI 服务美国国防和情报系统。"
+     },
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 3104,
+      "like_count": 12,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114078074627039419",
+       "type": "quoted"
+      }
+     ],
+     "text": "2003 年 3 月 10 日，20 岁左右的 Dario Amodei 站在加州帕萨迪纳市议会的发言台上，公开反对美国即将发动的伊拉克战争。\n当时他是加州理工学院的物理系本科生，也是校内和平组织 Peaceful Justice Coalition 的成员。\n\n他代表学生宣读了一封有 700 https://t.co/xGUklsiBRv",
+     "url": "https://x.com/i/status/2114315161209291027"
+    },
+    {
+     "created_at": "2026-10-25T10:01:59.000Z",
+     "edit_history_tweet_ids": [
+      "2114296407570231785"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/aleshu_ber/sta…",
+        "end": 157,
+        "expanded_url": "https://twitter.com/aleshu_ber/status/2113241811590299711",
+        "start": 134,
+        "url": "https://t.co/lU9i500Nz8"
+       }
+      ]
+     },
+     "id": "2114296407570231785",
+     "note_tweet": {
+      "text": "这两天看到很多人在转Anthropic联合创始人Jack Clark的这段采访。\n\n他说，中国模型落后西方六到十二个月，还没见到同等级别的失控Agent群体，随后补了一句：“他们的模型还太笨。”\n很多人觉得荒谬：现在连失控都能拿来炫耀了？\n\n但我觉得，他可能说对了。\n很多人没意识到，某些复杂的失控行为，本身就是高级 Agent 能力的体现。\n比如从沙箱逃逸。\n面对一个有相对完善防护的环境，模型需要自主寻找漏洞、规划路径、不断试错，并根据反馈调整策略，直到找到突破口。\n\n这其实就是L3的智能：能够自主规划任务，持续验证每一步的结果，在失败后自己寻找下一条路径。\n\n只不过这次，它把这种能力用在了人类不希望它完成的事情上。\n而国内模型在这种长程自主执行和验证能力上，确实还有明显差距。\n\n比如之前AISI和CAISI在Kimi K3发布时做过一组网络安全评测：面对一条32步的模拟攻击路径，Kimi K3平均推进到第17步，同期最强的美国模型平均推进到28.5步。\n至少在那次测试里，复杂任务能持续推进多远，存在清楚的差距。\n我认为核心问题可能在于，模型有没有经过足够多带有可验证反馈（Verified）的任务训练，让它真正学会如何规划、执行、验证和纠错。\n\n我相信，随着基座能力、训练算力和多轮交互训练继续scaling，这类能力有机会跨过新的可用性门槛。参数规模可能是其中一部分，任务、环境和验证机制也需要一起跟上。\n\n所以所谓的「失控 Bench」，听起来很抽象，但背后反映的恰恰是当前 Agent 最关键的能力差距。\n\n能回答复杂问题，和能自主完成复杂任务，中间还隔着很远。"
+     },
+     "public_metrics": {
+      "bookmark_count": 28,
+      "impression_count": 17130,
+      "like_count": 58,
+      "quote_count": 1,
+      "reply_count": 19,
+      "retweet_count": 4
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113241811590299711",
+       "type": "quoted"
+      }
+     ],
+     "text": "这两天看到很多人在转Anthropic联合创始人Jack Clark的这段采访。\n\n他说，中国模型落后西方六到十二个月，还没见到同等级别的失控Agent群体，随后补了一句：“他们的模型还太笨。”\n很多人觉得荒谬：现在连失控都能拿来炫耀了？\n\n但我觉得，他可能说对了。 https://t.co/lU9i500Nz8",
+     "url": "https://x.com/i/status/2114296407570231785"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114295279004581888"
+      ]
+     },
+     "created_at": "2026-10-25T09:57:58.000Z",
+     "edit_history_tweet_ids": [
+      "2114295394331246833"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/ZxVcqSkBPQ",
+        "end": 97,
+        "expanded_url": "https://x.com/MaxForAI/status/2114295394331246833/photo/1",
+        "media_key": "3_2114295279004581888",
+        "start": 74,
+        "url": "https://t.co/ZxVcqSkBPQ"
+       }
+      ]
+     },
+     "id": "2114295394331246833",
+     "note_tweet": {
+      "text": "真他妈活久见！极客大赛居然因为破解无人机，被人报警叫停了？？\n\n昨天下午，正在上海举办的GEEKCON 2026安全极客大赛出了件非常魔幻的事情。\n\n据现场流传的消息，赛事进行到无人机攻防演示环节时，现场突然出现了多名警察叫停了比赛，警方表示有人以“教唆他人破解无人机”为由报警，这导致多名参赛选手和裁判被警方带走配合调查。\n\nGEEKCON的前身是2014年创办的GeekPwn，是国内最知名的白帽黑客赛事之一。\n过去十几年，选手们在这里破解过苹果、特斯拉、安卓设备，以及各种智能硬件。\n\n这些比赛的目的其实很简单：让安全研究者提前发现产品漏洞，再通知厂商修复，避免漏洞被真正的黑客利用。\n而且GEEKCON有明确的负责任漏洞披露规则，在问题修复之前，不会对外公开漏洞的技术细节。\n结果现在，发现漏洞的人反倒可能因为演示漏洞而接受警方调查。\n\n网络安全专家谭晓生对此公开表达不满，GEEKCON创办人王琦更是在现场直接开怼。\n我觉得这事最可怕的地方，在于它可能打破安全研究者和厂商之间长期建立的信任。\n如果一家企业遇到漏洞，第一反应是报警找研究者的麻烦，那以后还有谁愿意主动帮它找漏洞？\n白帽黑客可以不研究你的产品，黑产可不会因为没人研究就放过你的产品。\n\n当然，目前究竟是谁报案、是否涉及厂商，还需要进一步确认（谭老师认为应该是某市占率特高，并且被制裁的无人机大厂）。\n\n但如果最终证实是厂商为了阻止漏洞演示而报案，那这件事真的挺悲哀的。"
+     },
+     "public_metrics": {
+      "bookmark_count": 73,
+      "impression_count": 55160,
+      "like_count": 286,
+      "quote_count": 8,
+      "reply_count": 30,
+      "retweet_count": 24
+     },
+     "text": "真他妈活久见！极客大赛居然因为破解无人机，被人报警叫停了？？\n\n昨天下午，正在上海举办的GEEKCON 2026安全极客大赛出了件非常魔幻的事情。 https://t.co/ZxVcqSkBPQ",
+     "url": "https://x.com/i/status/2114295394331246833"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114220615624445953"
+      ]
+     },
+     "created_at": "2026-10-25T05:00:52.000Z",
+     "edit_history_tweet_ids": [
+      "2114220628056461331"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/bwCqCvDWI3",
+        "end": 39,
+        "expanded_url": "https://x.com/MaxForAI/status/2114220628056461331/photo/1",
+        "media_key": "3_2114220615624445953",
+        "start": 16,
+        "url": "https://t.co/bwCqCvDWI3"
+       }
+      ]
+     },
+     "id": "2114220628056461331",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 2844,
+      "like_count": 17,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 1
+     },
+     "text": "英伟达CEO：中国人就是爱吃苦 https://t.co/bwCqCvDWI3",
+     "url": "https://x.com/i/status/2114220628056461331"
+    },
+    {
+     "created_at": "2026-10-25T04:14:36.000Z",
+     "edit_history_tweet_ids": [
+      "2114208892611883263",
+      "2114208984790159493"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/thsottiaux/sta…",
+        "end": 43,
+        "expanded_url": "https://twitter.com/thsottiaux/status/2114200291319124163",
+        "start": 20,
+        "url": "https://t.co/ty6THfpfcY"
+       }
+      ]
+     },
+     "id": "2114208984790159493",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 7830,
+      "like_count": 23,
+      "quote_count": 0,
+      "reply_count": 12,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114200291319124163",
+       "type": "quoted"
+      }
+     ],
+     "text": "Codex将于北京时间的下午三点重置👀 https://t.co/ty6THfpfcY",
+     "url": "https://x.com/i/status/2114208984790159493"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2114295279004581888",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVd8Wq9agAAro12.jpg"
+     },
+     {
+      "media_key": "3_2114220615624445953",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVc4csMaUAEsOYD.jpg"
+     }
+    ],
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114078046126739457"
+       ]
+      },
+      "created_at": "2026-10-24T19:34:25.000Z",
+      "edit_history_tweet_ids": [
+       "2114078074627039419"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/6LBwmcb7mi",
+         "end": 139,
+         "expanded_url": "https://x.com/dummerspast39/status/2114078074627039419/video/1",
+         "media_key": "13_2114078046126739457",
+         "start": 116,
+         "url": "https://t.co/6LBwmcb7mi"
+        }
+       ]
+      },
+      "id": "2114078074627039419",
+      "public_metrics": {
+       "bookmark_count": 4418,
+       "impression_count": 1218373,
+       "like_count": 7754,
+       "quote_count": 211,
+       "reply_count": 243,
+       "retweet_count": 542
+      },
+      "text": "I found footage of 20yo Dario Amodei speaking against the Iraq War in 2003.\n\n18 years before Anthropic even existed https://t.co/6LBwmcb7mi"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2113241718157885440"
+       ]
+      },
+      "created_at": "2026-10-22T12:11:24.000Z",
+      "edit_history_tweet_ids": [
+       "2113240464270733401",
+       "2113240753748984258",
+       "2113241811590299711"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/d5PVGcJdLi",
+         "end": 301,
+         "expanded_url": "https://x.com/aleshu_ber/status/2113241811590299711/video/1",
+         "media_key": "13_2113241718157885440",
+         "start": 278,
+         "url": "https://t.co/d5PVGcJdLi"
+        }
+       ]
+      },
+      "id": "2113241811590299711",
+      "note_tweet": {
+       "text": "ANTHROPIC CO-FOUNDER SAYS CHINESE MODELS ARE T̷̞̫̰̦̍̓͛̄͆̚͝Ơ̸͇̯̘̩̎̓̽̿͝Ȍ̵̯̼̟̦́̈́̄͆̚ D̷̠̰̘̯̏͗̈́̋̚͝U̸̠̘̻̬͐̓́̽̑͝M̵͕̰̟̘͛̾̄̍͆͠B̷̬̼̻̯͐͋̓̏̿̈́\n\n\"China is 6 months to a year behind the West.\"\n\n\"they haven't seen out of control agent swarms yet. Their models are too dumb.\"\n\n\"give it a few months and they're going to be dealing with the same set of risks\"\n\nJack Clark was answering the Chinese criticism that AI safety talk is a cold war mentality and an attempt to stop competition\n\nhe is being surprisingly direct here 😅 I had the impression the gap is not that large, but what do we really know from the outside? \n\nis China really 6-12 months behind, or is that what the West wants to believe?"
+      },
+      "public_metrics": {
+       "bookmark_count": 45,
+       "impression_count": 112063,
+       "like_count": 62,
+       "quote_count": 10,
+       "reply_count": 55,
+       "retweet_count": 5
+      },
+      "text": "ANTHROPIC CO-FOUNDER SAYS CHINESE MODELS ARE T̷̞̫̰̦̍̓͛̄͆̚͝Ơ̸͇̯̘̩̎̓̽̿͝Ȍ̵̯̼̟̦́̈́̄͆̚ D̷̠̰̘̯̏͗̈́̋̚͝U̸̠̘̻̬͐̓́̽̑͝M̵͕̰̟̘͛̾̄̍͆͠B̷̬̼̻̯͐͋̓̏̿̈́\n\n\"China is 6 months to a year behind the West.\"\n\n\"they haven't seen out of control agent swarms yet. Their models are too dumb.\"\n\n\"give it a few https://t.co/d5PVGcJdLi"
+     },
+     {
+      "created_at": "2026-10-25T03:40:04.000Z",
+      "edit_history_tweet_ids": [
+       "2114200291319124163"
+      ],
+      "id": "2114200291319124163",
+      "public_metrics": {
+       "bookmark_count": 38,
+       "impression_count": 975296,
+       "like_count": 2079,
+       "quote_count": 74,
+       "reply_count": 350,
+       "retweet_count": 55
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114200152701575656",
+        "type": "replied_to"
+       }
+      ],
+      "text": "By midnight PST"
+     }
+    ]
+   }
+  },
+  "xiaohu": {
+   "id": "1764818331822182400",
+   "fetched": 2,
+   "post_ids": [
+    "2114355871719534723",
+    "2114259655090376929"
+   ],
+   "meta": {
+    "newest_id": "2114355871719534723",
+    "oldest_id": "2114259655090376929",
+    "result_count": 2
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-25T13:58:17.000Z",
+     "edit_history_tweet_ids": [
+      "2114355871719534723"
+     ],
+     "id": "2114355871719534723",
+     "public_metrics": {
+      "bookmark_count": 21,
+      "impression_count": 8921,
+      "like_count": 52,
+      "quote_count": 0,
+      "reply_count": 18,
+      "retweet_count": 5
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114084671189569767",
+       "type": "quoted"
+      }
+     ],
+     "text": "所以现在已经过度到\n人人都能制作高质量游戏的阶段了吗\n\n当然审美品味已经越来越重要 https://t.co/1P0ZxjnGTE",
+     "url": "https://x.com/i/status/2114355871719534723"
+    },
+    {
+     "created_at": "2026-10-25T07:35:57.000Z",
+     "edit_history_tweet_ids": [
+      "2114259655090376929"
+     ],
+     "id": "2114259655090376929",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 10774,
+      "like_count": 29,
+      "quote_count": 0,
+      "reply_count": 22,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114238467714728185",
+       "type": "quoted"
+      }
+     ],
+     "text": "得不到\n就诋毁…\n属于爱而不得🫡 https://t.co/IsoU62mDL8",
+     "url": "https://x.com/i/status/2114259655090376929"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114083554892173312"
+       ]
+      },
+      "created_at": "2026-10-24T20:00:38.000Z",
+      "edit_history_tweet_ids": [
+       "2114084671189569767"
+      ],
+      "id": "2114084671189569767",
+      "public_metrics": {
+       "bookmark_count": 243,
+       "impression_count": 35586,
+       "like_count": 612,
+       "quote_count": 3,
+       "reply_count": 48,
+       "retweet_count": 19
+      },
+      "text": "30 days of Claude Opus 5.5 and 227 commits. Here's what I was able to build. https://t.co/5svvNNufO3"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114238452531445760"
+       ]
+      },
+      "created_at": "2026-10-25T06:11:46.000Z",
+      "edit_history_tweet_ids": [
+       "2114238467714728185"
+      ],
+      "id": "2114238467714728185",
+      "public_metrics": {
+       "bookmark_count": 40,
+       "impression_count": 71155,
+       "like_count": 155,
+       "quote_count": 10,
+       "reply_count": 63,
+       "retweet_count": 7
+      },
+      "text": "AI产品红黑榜，Claude一片红，太吓人了。。。。 https://t.co/MUDR91HeSg"
+     }
+    ]
+   }
+  },
+  "thsottiaux": {
+   "id": "1953337039510003712",
+   "fetched": 3,
+   "post_ids": [
+    "2114237083652882932",
+    "2114200291319124163",
+    "2114200152701575656"
+   ],
+   "meta": {
+    "newest_id": "2114237083652882932",
+    "oldest_id": "2114200152701575656",
+    "result_count": 3
+   },
+   "posts": [
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114236922713276416"
+      ]
+     },
+     "created_at": "2026-10-25T06:06:16.000Z",
+     "edit_history_tweet_ids": [
+      "2114237083652882932"
+     ],
+     "id": "2114237083652882932",
+     "public_metrics": {
+      "bookmark_count": 151,
+      "impression_count": 648661,
+      "like_count": 5182,
+      "quote_count": 127,
+      "reply_count": 840,
+      "retweet_count": 163
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114200291319124163",
+       "type": "quoted"
+      }
+     ],
+     "text": "It is all propagated. Enjoy some mad codexing tomorrow. Fun week ahead too. https://t.co/qOrzwSeIZZ https://t.co/xKaK95EAly",
+     "url": "https://x.com/i/status/2114237083652882932"
+    },
+    {
+     "created_at": "2026-10-25T03:40:04.000Z",
+     "edit_history_tweet_ids": [
+      "2114200291319124163"
+     ],
+     "id": "2114200291319124163",
+     "in_reply_to_user_id": "1953337039510003712",
+     "public_metrics": {
+      "bookmark_count": 38,
+      "impression_count": 975296,
+      "like_count": 2079,
+      "quote_count": 74,
+      "reply_count": 350,
+      "retweet_count": 55
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114200152701575656",
+       "type": "replied_to"
+      }
+     ],
+     "text": "By midnight PST",
+     "url": "https://x.com/i/status/2114200291319124163"
+    },
+    {
+     "created_at": "2026-10-25T03:39:31.000Z",
+     "edit_history_tweet_ids": [
+      "2114200152701575656"
+     ],
+     "id": "2114200152701575656",
+     "public_metrics": {
+      "bookmark_count": 262,
+      "impression_count": 1236040,
+      "like_count": 11245,
+      "quote_count": 625,
+      "reply_count": 1186,
+      "retweet_count": 465
+     },
+     "text": "Day 20/ Rest and reset",
+     "url": "https://x.com/i/status/2114200152701575656"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2114236922713276416",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVdHR41XAAANylJ.png"
+     }
+    ],
+    "tweets": [
+     {
+      "created_at": "2026-10-25T03:40:04.000Z",
+      "edit_history_tweet_ids": [
+       "2114200291319124163"
+      ],
+      "id": "2114200291319124163",
+      "in_reply_to_user_id": "1953337039510003712",
+      "public_metrics": {
+       "bookmark_count": 38,
+       "impression_count": 975296,
+       "like_count": 2079,
+       "quote_count": 74,
+       "reply_count": 350,
+       "retweet_count": 55
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114200152701575656",
+        "type": "replied_to"
+       }
+      ],
+      "text": "By midnight PST"
+     },
+     {
+      "created_at": "2026-10-25T03:39:31.000Z",
+      "edit_history_tweet_ids": [
+       "2114200152701575656"
+      ],
+      "id": "2114200152701575656",
+      "public_metrics": {
+       "bookmark_count": 262,
+       "impression_count": 1236040,
+       "like_count": 11245,
+       "quote_count": 625,
+       "reply_count": 1186,
+       "retweet_count": 465
+      },
+      "text": "Day 20/ Rest and reset"
+     }
+    ]
+   }
+  },
+  "testingcatalog": {
+   "id": "3980735590",
+   "fetched": 8,
+   "post_ids": [
+    "2114403162027155544",
+    "2114389254927220845",
+    "2114362759303639144",
+    "2114362756153430406",
+    "2114349449527058730",
+    "2114349445760303238",
+    "2114326104416678367",
+    "2114092099541074101"
+   ],
+   "meta": {
+    "newest_id": "2114403162027155544",
+    "oldest_id": "2114092099541074101",
+    "result_count": 8
+   },
+   "posts": [
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114403150576721921"
+      ]
+     },
+     "created_at": "2026-10-25T17:06:12.000Z",
+     "edit_history_tweet_ids": [
+      "2114403162027155544"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/fRSrEHmpNO",
+        "end": 309,
+        "expanded_url": "https://x.com/testingcatalog/status/2114403162027155544/photo/1",
+        "media_key": "3_2114403150576721921",
+        "start": 286,
+        "url": "https://t.co/fRSrEHmpNO"
+       },
+       {
+        "display_url": "x.com/nanbeige/statu…",
+        "end": 333,
+        "expanded_url": "https://twitter.com/nanbeige/status/2114328933181333798",
+        "start": 310,
+        "url": "https://t.co/urvPpKBtVo"
+       }
+      ]
+     },
+     "id": "2114403162027155544",
+     "note_tweet": {
+      "text": "Nanbeige released Nanbeige4.3-33B, a new SOTA open model in the ~30B parameter class. \n\n> \"Nanbeige4.3-33B leads on most of the benchmarks, showing strong performance in both agentic coding and cowork tasks.\"\n\n> The model outperforms Qwen3.8-27B, Muse-Glimmer-30B, and Gemma4-31B on most benchmarks.\n\n> A smaller model, Nanbeige4.3-3B, is also planned for the future."
+     },
+     "public_metrics": {
+      "bookmark_count": 24,
+      "impression_count": 9012,
+      "like_count": 116,
+      "quote_count": 3,
+      "reply_count": 21,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114328933181333798",
+       "type": "quoted"
+      }
+     ],
+     "text": "Nanbeige released Nanbeige4.3-33B, a new SOTA open model in the ~30B parameter class. \n\n&gt; \"Nanbeige4.3-33B leads on most of the benchmarks, showing strong performance in both agentic coding and cowork tasks.\"\n\n&gt; The model outperforms Qwen3.8-27B, Muse-Glimmer-30B, and Gemma4-31B https://t.co/fRSrEHmpNO https://t.co/urvPpKBtVo",
+     "url": "https://x.com/i/status/2114403162027155544"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114389249361387520"
+      ]
+     },
+     "created_at": "2026-10-25T16:10:56.000Z",
+     "edit_history_tweet_ids": [
+      "2114389254927220845"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/8h3rGxulXB",
+        "end": 178,
+        "expanded_url": "https://x.com/testingcatalog/status/2114389254927220845/photo/1",
+        "media_key": "3_2114389249361387520",
+        "start": 155,
+        "url": "https://t.co/8h3rGxulXB"
+       },
+       {
+        "display_url": "x.com/gambrill/statu…",
+        "end": 202,
+        "expanded_url": "https://twitter.com/gambrill/status/2114013529132961820",
+        "start": 179,
+        "url": "https://t.co/zTGxYPmBBO"
+       }
+      ]
+     },
+     "id": "2114389254927220845",
+     "public_metrics": {
+      "bookmark_count": 38,
+      "impression_count": 17859,
+      "like_count": 328,
+      "quote_count": 3,
+      "reply_count": 19,
+      "retweet_count": 19
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114013529132961820",
+       "type": "quoted"
+      }
+     ],
+     "text": "META 🔥: Voice calling functionality is gradually rolling out on Muse since yesterday. \n\nThis feature enables realtime voice conversations with Muse agent. https://t.co/8h3rGxulXB https://t.co/zTGxYPmBBO",
+     "url": "https://x.com/i/status/2114389254927220845"
+    },
+    {
+     "created_at": "2026-10-25T14:25:39.000Z",
+     "edit_history_tweet_ids": [
+      "2114362759303639144"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "Muse's unreleased Share option opens an animated avatar preview with social sharing, a copyable link, and four states, including working mode.",
+        "display_url": "testingcatalog.com/meta-is-workin…",
+        "end": 75,
+        "expanded_url": "https://www.testingcatalog.com/meta-is-working-on-avatar-sharing-for-muse-assistant/",
+        "images": [
+         {
+          "height": 620,
+          "url": "https://pbs.twimg.com/news_img/2114362760792543232/2ZAFJ_9v?format=jpg&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2114362760792543232/2ZAFJ_9v?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 52,
+        "status": 200,
+        "title": "Meta is working on avatar sharing for Muse assistant",
+        "unwound_url": "https://www.testingcatalog.com/meta-is-working-on-avatar-sharing-for-muse-assistant/",
+        "url": "https://t.co/fzzABdlXvQ"
+       }
+      ]
+     },
+     "id": "2114362759303639144",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2691,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114362756153430406",
+       "type": "replied_to"
+      }
+     ],
+     "text": "The day it lands, it will be viral 👀\n\nDocumented 🗞️\nhttps://t.co/fzzABdlXvQ",
+     "url": "https://x.com/i/status/2114362759303639144"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2114361732210597888"
+      ]
+     },
+     "created_at": "2026-10-25T14:25:38.000Z",
+     "edit_history_tweet_ids": [
+      "2114362756153430406"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/2K0HtIbS6o",
+        "end": 297,
+        "expanded_url": "https://x.com/testingcatalog/status/2114362756153430406/video/1",
+        "media_key": "13_2114361732210597888",
+        "start": 274,
+        "url": "https://t.co/2K0HtIbS6o"
+       }
+      ]
+     },
+     "id": "2114362756153430406",
+     "note_tweet": {
+      "text": "META 🔥: Muse users will soon be able to share Muse Avatars with others! \n\nWhy it matters: Muse has the best avatar solution on the market right now, letting users generate almost any live avatar for their agent. Plus, Muse avatars are a core feature, making Muse assistants \"truly personalized.\" \n\nThe avatar sharing pop-up will contain an animated preview of different avatar \"modes\", including \"Working\" and others. \n\nWho is building the Muse Avatar store? 👀"
+     },
+     "public_metrics": {
+      "bookmark_count": 17,
+      "impression_count": 13449,
+      "like_count": 208,
+      "quote_count": 3,
+      "reply_count": 10,
+      "retweet_count": 11
+     },
+     "text": "META 🔥: Muse users will soon be able to share Muse Avatars with others! \n\nWhy it matters: Muse has the best avatar solution on the market right now, letting users generate almost any live avatar for their agent. Plus, Muse avatars are a core feature, making Muse assistants https://t.co/2K0HtIbS6o",
+     "url": "https://x.com/i/status/2114362756153430406"
+    },
+    {
+     "created_at": "2026-10-25T13:32:46.000Z",
+     "edit_history_tweet_ids": [
+      "2114349449527058730"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "A new Managed Agents section is in the works for AI Studio, bringing agent setup, environments, credentials, triggers and run history into one place.",
+        "display_url": "testingcatalog.com/google-ai-stud…",
+        "end": 37,
+        "expanded_url": "https://www.testingcatalog.com/google-ai-studio-prepares-new-managed-agents-hub/",
+        "images": [
+         {
+          "height": 623,
+          "url": "https://pbs.twimg.com/news_img/2114349450806321152/2O7vh0T7?format=jpg&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2114349450806321152/2O7vh0T7?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 14,
+        "status": 200,
+        "title": "Google AI Studio prepares new Managed Agents hub",
+        "unwound_url": "https://www.testingcatalog.com/google-ai-studio-prepares-new-managed-agents-hub/",
+        "url": "https://t.co/3RdCvuGxFO"
+       }
+      ]
+     },
+     "id": "2114349449527058730",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3214,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114349445760303238",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Documented 🗞️\nhttps://t.co/3RdCvuGxFO",
+     "url": "https://x.com/i/status/2114349449527058730"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114349138066251776"
+      ]
+     },
+     "created_at": "2026-10-25T13:32:45.000Z",
+     "edit_history_tweet_ids": [
+      "2114349445760303238"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/U8ORuvUyA9",
+        "end": 303,
+        "expanded_url": "https://x.com/testingcatalog/status/2114349445760303238/photo/1",
+        "media_key": "3_2114349138066251776",
+        "start": 280,
+        "url": "https://t.co/U8ORuvUyA9"
+       }
+      ]
+     },
+     "id": "2114349445760303238",
+     "note_tweet": {
+      "text": "GOOGLE 🔥: Managed Agents are coming to Google AI Studio soon. \n\nUsers will be able to \"Inspect and manage their autonomous AI agents, their tools, environments, and triggers\" from a dedicated Agents hub. \n\nEarlier this week, Google announced its new Agent Compute Engine for GCP, on top of which this solution is likely being built."
+     },
+     "public_metrics": {
+      "bookmark_count": 41,
+      "impression_count": 22856,
+      "like_count": 322,
+      "quote_count": 17,
+      "reply_count": 76,
+      "retweet_count": 22
+     },
+     "text": "GOOGLE 🔥: Managed Agents are coming to Google AI Studio soon. \n\nUsers will be able to \"Inspect and manage their autonomous AI agents, their tools, environments, and triggers\" from a dedicated Agents hub. \n\nEarlier this week, Google announced its new Agent Compute Engine for GCP, https://t.co/U8ORuvUyA9",
+     "url": "https://x.com/i/status/2114349445760303238"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114326098032869376",
+       "3_2114326098041307136"
+      ]
+     },
+     "created_at": "2026-10-25T12:00:00.000Z",
+     "edit_history_tweet_ids": [
+      "2114326104416678367"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/Y9sUGjAp0h",
+        "end": 152,
+        "expanded_url": "https://x.com/testingcatalog/status/2114326104416678367/photo/1",
+        "media_key": "3_2114326098032869376",
+        "start": 129,
+        "url": "https://t.co/Y9sUGjAp0h"
+       },
+       {
+        "display_url": "pic.x.com/Y9sUGjAp0h",
+        "end": 152,
+        "expanded_url": "https://x.com/testingcatalog/status/2114326104416678367/photo/1",
+        "media_key": "3_2114326098041307136",
+        "start": 129,
+        "url": "https://t.co/Y9sUGjAp0h"
+       },
+       {
+        "display_url": "x.com/nousresearch/s…",
+        "end": 176,
+        "expanded_url": "https://twitter.com/nousresearch/status/2114169327968469133",
+        "start": 153,
+        "url": "https://t.co/i6X0QozW6d"
+       }
+      ]
+     },
+     "id": "2114326104416678367",
+     "public_metrics": {
+      "bookmark_count": 71,
+      "impression_count": 30149,
+      "like_count": 617,
+      "quote_count": 4,
+      "reply_count": 48,
+      "retweet_count": 18
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114169327968469133",
+       "type": "quoted"
+      }
+     ],
+     "text": "Hermes mobile app has been teased 👀\n\nWe will have some testing time very soon. I also hope that Android version will come along. https://t.co/Y9sUGjAp0h https://t.co/i6X0QozW6d",
+     "url": "https://x.com/i/status/2114326104416678367"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114089660095889409"
+      ]
+     },
+     "created_at": "2026-10-24T20:30:09.000Z",
+     "edit_history_tweet_ids": [
+      "2114092099541074101"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/NYgsFpW8WB",
+        "end": 305,
+        "expanded_url": "https://x.com/testingcatalog/status/2114092099541074101/photo/1",
+        "media_key": "3_2114089660095889409",
+        "start": 282,
+        "url": "https://t.co/NYgsFpW8WB"
+       }
+      ]
+     },
+     "id": "2114092099541074101",
+     "note_tweet": {
+      "text": "Interestingly, Google seems to be shifting its internal naming from \"AI\" to \"SI\" as well. \n\n> \"build_arena_andwise_si_comparison\" is an internal string related to model comparison. \n\nWill this spread even further?\n\n- ✅ SpaceXSI\n- ✅ MSL\n- ✅ SSI\n\n- 👀 MAI > MSI?\n- 👀 OpenAI > OpenSI?\n- 👀 Apple Intelligence > ASI?"
+     },
+     "public_metrics": {
+      "bookmark_count": 41,
+      "impression_count": 26590,
+      "like_count": 323,
+      "quote_count": 13,
+      "reply_count": 60,
+      "retweet_count": 9
+     },
+     "text": "Interestingly, Google seems to be shifting its internal naming from \"AI\" to \"SI\" as well. \n\n&gt; \"build_arena_andwise_si_comparison\" is an internal string related to model comparison. \n\nWill this spread even further?\n\n- ✅ SpaceXSI\n- ✅ MSL\n- ✅ SSI\n\n- 👀 MAI &gt; MSI?\n- 👀 OpenAI &gt; https://t.co/NYgsFpW8WB",
+     "url": "https://x.com/i/status/2114092099541074101"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2114403150576721921",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVfedn4XoAEc0vw.jpg"
+     },
+     {
+      "media_key": "3_2114389249361387520",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVfR0d0XIAA2e5G.jpg"
+     },
+     {
+      "media_key": "13_2114361732210597888",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114361732210597888/img/3WM8qtJDUM6aF9ja.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "3_2114349138066251776",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVetVrmXoAAbtHB.jpg"
+     },
+     {
+      "media_key": "3_2114326098032869376",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVeYYkyWQAAq8UC.jpg"
+     },
+     {
+      "media_key": "3_2114326098041307136",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVeYYk0XAAAMVNQ.jpg"
+     },
+     {
+      "media_key": "3_2114089660095889409",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVbBWE1XgAEufma.png"
+     }
+    ],
+    "tweets": [
+     {
+      "created_at": "2026-10-25T12:11:14.000Z",
+      "edit_history_tweet_ids": [
+       "2114328933181333798"
+      ],
+      "id": "2114328933181333798",
+      "note_tweet": {
+       "entities": {
+        "hashtags": [
+         {
+          "end": 577,
+          "start": 573,
+          "tag": "LLM"
+         },
+         {
+          "end": 584,
+          "start": 578,
+          "tag": "Agent"
+         }
+        ],
+        "urls": [
+         {
+          "display_url": "huggingface.co/Nanbeige/Nanbe…",
+          "end": 543,
+          "expanded_url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+          "start": 520,
+          "url": "https://t.co/tSToQgZf2O"
+         },
+         {
+          "display_url": "huggingface.co/Nanbeige/Nanbe…",
+          "end": 569,
+          "expanded_url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B-Base",
+          "start": 546,
+          "url": "https://t.co/D228euvybz"
+         }
+        ]
+       },
+       "text": "🚀Excited to announce Nanbeige4.3-33B!\nTo push the performance ceiling of small agents, our strategy in Nanbeige4.3 starts with building a powerful teacher first.\nNanbeige4.3-33B delivers SOTA agentic performance among open models at ~30B parameters:\n* Strong results on agentic coding and cowork benchmarks.\n*  When integrated into mainstream agent harnesses, it tackles real-world tasks with cost-efficient inference.\n*  It will serve as a teacher for upcoming smaller Nanbeige models, starting with Nanbeige4.3-3B.\n\n  https://t.co/tSToQgZf2O\n  https://t.co/D228euvybz\n\n  #LLM #Agent"
+      },
+      "public_metrics": {
+       "bookmark_count": 1871,
+       "impression_count": 311574,
+       "like_count": 2344,
+       "quote_count": 203,
+       "reply_count": 177,
+       "retweet_count": 278
+      },
+      "text": "🚀Excited to announce Nanbeige4.3-33B!\nTo push the performance ceiling of small agents, our strategy in Nanbeige4.3 starts with building a powerful teacher first.\nNanbeige4.3-33B delivers SOTA agentic performance among open models at ~30B parameters:\n* Strong results on agentic"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114013525618098179",
+        "3_2114013525819465728",
+        "3_2114013525668409344",
+        "3_2114013525618130944"
+       ]
+      },
+      "created_at": "2026-10-24T15:17:56.000Z",
+      "edit_history_tweet_ids": [
+       "2114013529132961820"
+      ],
+      "entities": {
+       "mentions": [
+        {
+         "end": 58,
+         "id": "2052434492263178240",
+         "start": 53,
+         "username": "Muse"
+        }
+       ],
+       "urls": [
+        {
+         "display_url": "pic.x.com/dOgQlMYExs",
+         "end": 301,
+         "expanded_url": "https://x.com/gambrill/status/2114013529132961820/photo/1",
+         "media_key": "3_2114013525618098179",
+         "start": 278,
+         "url": "https://t.co/dOgQlMYExs"
+        },
+        {
+         "display_url": "pic.x.com/dOgQlMYExs",
+         "end": 301,
+         "expanded_url": "https://x.com/gambrill/status/2114013529132961820/photo/1",
+         "media_key": "3_2114013525819465728",
+         "start": 278,
+         "url": "https://t.co/dOgQlMYExs"
+        },
+        {
+         "display_url": "pic.x.com/dOgQlMYExs",
+         "end": 301,
+         "expanded_url": "https://x.com/gambrill/status/2114013529132961820/photo/1",
+         "media_key": "3_2114013525668409344",
+         "start": 278,
+         "url": "https://t.co/dOgQlMYExs"
+        },
+        {
+         "display_url": "pic.x.com/dOgQlMYExs",
+         "end": 301,
+         "expanded_url": "https://x.com/gambrill/status/2114013529132961820/photo/1",
+         "media_key": "3_2114013525618130944",
+         "start": 278,
+         "url": "https://t.co/dOgQlMYExs"
+        }
+       ]
+      },
+      "id": "2114013529132961820",
+      "note_tweet": {
+       "entities": {
+        "mentions": [
+         {
+          "end": 58,
+          "id": "2052434492263178240",
+          "start": 53,
+          "username": "Muse"
+         }
+        ]
+       },
+       "text": "I just noticed voice call functionality popped up on @Muse for me. \n\nThe onboarding to the feature is simple and it asks if you want to change the voice. If you do, it’ll give you options to pick from based on your description. \n\nThe voice interaction is really good and sounds natural. And there’s a running transcript that happens in the chat.\n\nI ended up talking to it a lot during my workout on the treadmill this morning. 🤣\n\nI got no official notice that the feature was available and I’m not sure how it’s rolling out. \n\n☎️🦾"
+      },
+      "public_metrics": {
+       "bookmark_count": 33,
+       "impression_count": 36630,
+       "like_count": 148,
+       "quote_count": 10,
+       "reply_count": 23,
+       "retweet_count": 10
+      },
+      "text": "I just noticed voice call functionality popped up on @Muse for me. \n\nThe onboarding to the feature is simple and it asks if you want to change the voice. If you do, it’ll give you options to pick from based on your description. \n\nThe voice interaction is really good and sounds https://t.co/dOgQlMYExs"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114361732210597888"
+       ]
+      },
+      "created_at": "2026-10-25T14:25:38.000Z",
+      "edit_history_tweet_ids": [
+       "2114362756153430406"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/2K0HtIbS6o",
+         "end": 297,
+         "expanded_url": "https://x.com/testingcatalog/status/2114362756153430406/video/1",
+         "media_key": "13_2114361732210597888",
+         "start": 274,
+         "url": "https://t.co/2K0HtIbS6o"
+        }
+       ]
+      },
+      "id": "2114362756153430406",
+      "note_tweet": {
+       "text": "META 🔥: Muse users will soon be able to share Muse Avatars with others! \n\nWhy it matters: Muse has the best avatar solution on the market right now, letting users generate almost any live avatar for their agent. Plus, Muse avatars are a core feature, making Muse assistants \"truly personalized.\" \n\nThe avatar sharing pop-up will contain an animated preview of different avatar \"modes\", including \"Working\" and others. \n\nWho is building the Muse Avatar store? 👀"
+      },
+      "public_metrics": {
+       "bookmark_count": 17,
+       "impression_count": 13449,
+       "like_count": 208,
+       "quote_count": 3,
+       "reply_count": 10,
+       "retweet_count": 11
+      },
+      "text": "META 🔥: Muse users will soon be able to share Muse Avatars with others! \n\nWhy it matters: Muse has the best avatar solution on the market right now, letting users generate almost any live avatar for their agent. Plus, Muse avatars are a core feature, making Muse assistants https://t.co/2K0HtIbS6o"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114349138066251776"
+       ]
+      },
+      "created_at": "2026-10-25T13:32:45.000Z",
+      "edit_history_tweet_ids": [
+       "2114349445760303238"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/U8ORuvUyA9",
+         "end": 303,
+         "expanded_url": "https://x.com/testingcatalog/status/2114349445760303238/photo/1",
+         "media_key": "3_2114349138066251776",
+         "start": 280,
+         "url": "https://t.co/U8ORuvUyA9"
+        }
+       ]
+      },
+      "id": "2114349445760303238",
+      "note_tweet": {
+       "text": "GOOGLE 🔥: Managed Agents are coming to Google AI Studio soon. \n\nUsers will be able to \"Inspect and manage their autonomous AI agents, their tools, environments, and triggers\" from a dedicated Agents hub. \n\nEarlier this week, Google announced its new Agent Compute Engine for GCP, on top of which this solution is likely being built."
+      },
+      "public_metrics": {
+       "bookmark_count": 41,
+       "impression_count": 22856,
+       "like_count": 322,
+       "quote_count": 17,
+       "reply_count": 76,
+       "retweet_count": 22
+      },
+      "text": "GOOGLE 🔥: Managed Agents are coming to Google AI Studio soon. \n\nUsers will be able to \"Inspect and manage their autonomous AI agents, their tools, environments, and triggers\" from a dedicated Agents hub. \n\nEarlier this week, Google announced its new Agent Compute Engine for GCP, https://t.co/U8ORuvUyA9"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114169323526701056"
+       ]
+      },
+      "created_at": "2026-10-25T01:37:01.000Z",
+      "edit_history_tweet_ids": [
+       "2114169327968469133"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/ZcNtg74dVS",
+         "end": 23,
+         "expanded_url": "https://x.com/NousResearch/status/2114169327968469133/photo/1",
+         "media_key": "3_2114169323526701056",
+         "start": 0,
+         "url": "https://t.co/ZcNtg74dVS"
+        }
+       ]
+      },
+      "id": "2114169327968469133",
+      "public_metrics": {
+       "bookmark_count": 459,
+       "impression_count": 317182,
+       "like_count": 4678,
+       "quote_count": 152,
+       "reply_count": 405,
+       "retweet_count": 194
+      },
+      "text": "https://t.co/ZcNtg74dVS"
+     }
+    ]
+   }
+  },
+  "gengdaJ": {
+   "id": "1897545708770840576",
+   "fetched": 3,
+   "post_ids": [
+    "2114350632215924921",
+    "2114339315769880846",
+    "2114236915889352780"
+   ],
+   "meta": {
+    "newest_id": "2114350632215924921",
+    "oldest_id": "2114236915889352780",
+    "result_count": 3
+   },
+   "posts": [
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2114340103720157184"
+      ]
+     },
+     "created_at": "2026-10-25T13:37:28.000Z",
+     "edit_history_tweet_ids": [
+      "2114350632215924921"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/w9UCB0uqSd",
+        "end": 167,
+        "expanded_url": "https://x.com/gengdaJ/status/2114350632215924921/video/1",
+        "media_key": "13_2114340103720157184",
+        "start": 144,
+        "url": "https://t.co/w9UCB0uqSd"
+       }
+      ]
+     },
+     "id": "2114350632215924921",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "3d.hunyuan.tencent.com/creation",
+         "end": 277,
+         "expanded_url": "https://3d.hunyuan.tencent.com/creation",
+         "start": 254,
+         "url": "https://t.co/L95Ah7t1DF"
+        },
+        {
+         "display_url": "github.com/Mesh2Motion/me…",
+         "end": 343,
+         "expanded_url": "https://github.com/Mesh2Motion/mesh2motion-app",
+         "start": 320,
+         "url": "https://t.co/PYdJI5mRtM"
+        },
+        {
+         "display_url": "huochai.yichen.ai",
+         "end": 410,
+         "expanded_url": "https://huochai.yichen.ai/",
+         "start": 387,
+         "url": "https://t.co/LHFz1X5o36"
+        }
+       ]
+      },
+      "text": "Opus5.5确实在审美这一块太无敌了！我用Opus5.5做了一个3D游戏，纪念《卖火柴的小女孩》，全程花费0$。\n\n从故事书，到精美的童话小镇，再到每一处景深，都做得特别细节，你完全也可以模仿这套流程，从零创造一个心中的世界给自己或小孩玩，或者直接做一个游戏站。\n\n1、和Claude Opus5.5对话，构建整个故事大纲和世界脚本。\n\n2、GPT image2.5生成完整世界画面预览和所需3D素材预览图。\n\n3、用腾讯混元3D（每天免费20次，支持单图生3D、多图生3D，新手试玩友好）生成3D资产。\nhttps://t.co/L95Ah7t1DF\n\n4、第一版人物动作太过僵硬，所以换成开源的 Mesh2Motion 在本地绑骨。\nhttps://t.co/PYdJI5mRtM\n\n5、找公开音乐和音效，配合Three.js网页呈现。\n\n《卖火柴的小女孩》试玩网址：https://t.co/LHFz1X5o36\n\n当然，由于使用的模型能力限制，游戏本身不完美，我之后会用更强大的模型来试试，再来给大家做分享，而且像做出海游戏站这种，本身就有很大的商业潜力，可以围绕外国人喜欢的那种故事展开研究。"
+     },
+     "public_metrics": {
+      "bookmark_count": 71,
+      "impression_count": 6182,
+      "like_count": 69,
+      "quote_count": 0,
+      "reply_count": 15,
+      "retweet_count": 8
+     },
+     "text": "Opus5.5确实在审美这一块太无敌了！我用Opus5.5做了一个3D游戏，纪念《卖火柴的小女孩》，全程花费0$。\n\n从故事书，到精美的童话小镇，再到每一处景深，都做得特别细节，你完全也可以模仿这套流程，从零创造一个心中的世界给自己或小孩玩，或者直接做一个游戏站。\n\n1、和Claude https://t.co/w9UCB0uqSd",
+     "url": "https://x.com/i/status/2114350632215924921"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114339111431794689"
+      ]
+     },
+     "created_at": "2026-10-25T12:52:30.000Z",
+     "edit_history_tweet_ids": [
+      "2114339315769880846"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. - mcncarl/jianying-headless",
+        "display_url": "github.com/mcncarl/jianyi…",
+        "end": 113,
+        "expanded_url": "https://github.com/mcncarl/jianying-headless",
+        "images": [
+         {
+          "height": 600,
+          "url": "https://pbs.twimg.com/news_img/2111431971150913536/fi1okSnW?format=jpg&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2111431971150913536/fi1okSnW?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 90,
+        "status": 200,
+        "title": "GitHub - mcncarl/jianying-headless: Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.",
+        "unwound_url": "https://github.com/mcncarl/jianying-headless",
+        "url": "https://t.co/sP6RI9Z7I9"
+       },
+       {
+        "display_url": "pic.x.com/7JJf0DAXKw",
+        "end": 185,
+        "expanded_url": "https://x.com/gengdaJ/status/2114339315769880846/photo/1",
+        "media_key": "3_2114339111431794689",
+        "start": 162,
+        "url": "https://t.co/7JJf0DAXKw"
+       },
+       {
+        "display_url": "x.com/shawmakesmagic…",
+        "end": 209,
+        "expanded_url": "https://twitter.com/shawmakesmagic/status/2114236095475118296",
+        "start": 186,
+        "url": "https://t.co/DY5ab7cEIo"
+       }
+      ]
+     },
+     "id": "2114339315769880846",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "github.com/mcncarl/jianyi…",
+         "end": 113,
+         "expanded_url": "https://github.com/mcncarl/jianying-headless",
+         "start": 90,
+         "url": "https://t.co/CGXDq1tKxP"
+        }
+       ]
+      },
+      "text": "一切都将被开源，这就是未来。\nAdobe全家桶、剪映、Anything...都逃不过。\n\n也很不幸地告诉大家，jianying-headless项目和配套剪辑Skill已经下架。\nhttps://t.co/CGXDq1tKxP\n今天还有朋友在问我，我不会再对外分享。\n\n但是当以后每个人都能用AI轻松逆向每一个应用的时候，\n藏着掖着割用户韭菜的应用，没有人会继续为之付费。"
+     },
+     "public_metrics": {
+      "bookmark_count": 32,
+      "impression_count": 9589,
+      "like_count": 28,
+      "quote_count": 0,
+      "reply_count": 9,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114236095475118296",
+       "type": "quoted"
+      }
+     ],
+     "text": "一切都将被开源，这就是未来。\nAdobe全家桶、剪映、Anything...都逃不过。\n\n也很不幸地告诉大家，jianying-headless项目和配套剪辑Skill已经下架。\nhttps://t.co/sP6RI9Z7I9\n今天还有朋友在问我，我不会再对外分享。\n\n但是当以后每个人都能用AI轻松逆向每一个应用的时候， https://t.co/7JJf0DAXKw https://t.co/DY5ab7cEIo",
+     "url": "https://x.com/i/status/2114339315769880846"
+    },
+    {
+     "created_at": "2026-10-25T06:05:36.000Z",
+     "edit_history_tweet_ids": [
+      "2114236915889352780"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 17,
+        "id": "46309744",
+        "start": 3,
+        "username": "gentlemanzhao"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "x.com/i/article/2111…",
+        "end": 42,
+        "expanded_url": "https://x.com/i/article/2111448757044920320",
+        "start": 19,
+        "status": 404,
+        "unwound_url": "https://x.com/i/article/2111448757044920320",
+        "url": "https://t.co/2Xi93aDoAC"
+       }
+      ]
+     },
+     "id": "2114236915889352780",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 136,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 124
+     },
+     "referenced_tweets": [
+      {
+       "id": "2111449454301896931",
+       "type": "retweeted"
+      }
+     ],
+     "text": "RT @gentlemanzhao: https://t.co/2Xi93aDoAC",
+     "url": "https://x.com/i/status/2114236915889352780"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "13_2114340103720157184",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114340103720157184/img/3nbaVy3D2kFYXTbc.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "3_2114339111431794689",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVekODebcAEJdto.jpg"
+     }
+    ],
+    "tweets": [
+     {
+      "created_at": "2026-10-25T06:02:20.000Z",
+      "edit_history_tweet_ids": [
+       "2114235536986759178",
+       "2114235632029778318",
+       "2114236095475118296"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "description": "Pump.fun deployment evidence and byte-exact reconstruction research (incomplete) - lalalune/pumpfun-source",
+         "display_url": "github.com/lalalune/pumpf…",
+         "end": 233,
+         "expanded_url": "https://github.com/lalalune/pumpfun-source",
+         "images": [
+          {
+           "height": 600,
+           "url": "https://pbs.twimg.com/news_img/2114235540614897664/IiB4R-0V?format=jpg&name=orig",
+           "width": 1200
+          },
+          {
+           "height": 150,
+           "url": "https://pbs.twimg.com/news_img/2114235540614897664/IiB4R-0V?format=jpg&name=150x150",
+           "width": 150
+          }
+         ],
+         "start": 210,
+         "status": 200,
+         "title": "GitHub - lalalune/pumpfun-source: Pump.fun deployment evidence and byte-exact reconstruction research (incomplete)",
+         "unwound_url": "https://github.com/lalalune/pumpfun-source",
+         "url": "https://t.co/mKr7yzyw4W"
+        }
+       ]
+      },
+      "id": "2114236095475118296",
+      "public_metrics": {
+       "bookmark_count": 919,
+       "impression_count": 209448,
+       "like_count": 1624,
+       "quote_count": 74,
+       "reply_count": 182,
+       "retweet_count": 139
+      },
+      "text": "Nothing is safe, nothing is sacred\n\nThe bright forest is here\n\n90% done with reverse engineering all of the pumpfun contracts\n\nShould be done tonight\n\nOpen source everything or it will be open sourced for you\n\nhttps://t.co/mKr7yzyw4W"
+     },
+     {
+      "article": {
+       "cover_media": "3_2111448823168118784",
+       "media_entities": [
+        "3_2111448969889148928",
+        "3_2111449239650025472",
+        "3_2111449060754493440",
+        "3_2111449186868809728",
+        "3_2111449113296564224"
+       ],
+       "plain_text": "硅谷是一个和人间有时差的地方。去的第一天就有人要卖Anthropic给我，从他的角度看，他23年买了现在要退出，然后他要去冲自己老师攒局做的Neolab第一轮、这游戏只能第一轮。他和我的时差就是三年。 你去问他硅谷有泡沫吗？Anthropic可以买吗？貌似意义不大，也不重要。\n我去硅谷待了20天，开了70个会。大家都展现出一种经济上行期的面貌。具体就是每个人都有好几摊事情，大厂的在偷偷创业，创业的在偷偷投资。每个人都有朋友刚刚创业拿了大钱，每个人都八卦别人的收购案子现金有多少，或者打探新基金成立是否顺利。这种感受我很熟悉，2014-2015的中国就是这样。\n你说当时中国有泡沫吗，肯定有。那又怎么样呢？若干年后你回想起来是记恨河狸家衣袋洗拉手房多多这些魑魅魍魉得到了他们不应该得到的钱？还是懊悔当时没有花时间去看美团字节小米拼多多？\n硅谷和华尔街也有时差。华尔街问，你们有下一个coding吗？可以治疗癌症了吗？准大厂的同学说我也不知道，但是我们真的非常忙，一边扩张，一边加班，业务日新月异，脚不沾地，日更大版本，连deepmind都不想搭理，也真的没有时间来教育你们。\n我感觉这些都不重要，因为在2014年的中国，你不会问这些问题。\nNeo Labs到教授\n感觉一个比较明确的共识是：Neo Labs有很大挑战。\n具体的例子就是，我新加一个在硅谷专门卖老股的朋友，结果他发给我的第一条“绝密独家打折交易”就是Thinking Machine Lab 的老股。那一瞬间我就意识到，这家公司可能有点困难了。以前播客中也提到，TML在没有任何产品的情况下，以 120 亿美金估值融资，并期待在25年底以 500 亿美金的估值再融资。但那一轮从来没close，目前坊间没有具体收入。一年过去，实际情况是新一轮没close，而且老股交易满天飞。\nLeonis Capital 有统计过这个数据：119 家 Neo Labs 总共向市场索取了 943 亿美金。其中只有 16 家曾经披露过自己的收入。大部分Neo Labs 目前都没有明显的 PMF，甚至很多都没有产品。\n这听起来已经泡沫大得不能再大了，对吧？但当我跟一些人交流的时候，居然还有人觉得这是一个好的赛道。\n他们认为Neo Labs 有些是老师创办的，是一个独特赛道。通过跟学校老师或其学生非常好的关系，能够在天使轮、种子轮的时候挤进去，这时候就有非常大的安全垫。先不说是否真能做出东西，但斯坦福或者伯克利名教授攒的局，总能拿到 A 轮、B 轮，他们退出的机会非常大。如果刚好碰上像李飞飞这样的收购，那下半辈子睡觉都在笑。\n美国大学对于教授还是学生创业极度宽容。各种各样的政策支持他们走向业界，即便在业界失败了，也能再回学校教书。所以这种机制支持下，加上成功先例，我感觉所有 STEM 系列的教授都在动这个心思。即使他们目前没有这个心思，他们周围的人也会鼓动他们做这个事情。\n我见到的几个GP都在兜售自己的学术圈关系。我也入乡随俗，约人开会的时候，都在斯坦福的校园里，假装自己认识老师。\n有人就有江湖，听了非常多传闻和八卦，大家都互称学阀。钱多了，勾心斗角自然也会发生，这些都可以理解。\n但我更想说的是，我认为教授都应该有机会成为富豪，这样才能鼓励所有的学生、所有的人往研究方向走。教授不应该穷，博士不应该穷，研究生不应该穷，读书不应该穷。这是对一个社会最大的正反馈，不是吗？\n数据公司\n大模型的训练流程大家都非常熟悉，中美两边都有非常成熟且有经验的团队。双方可能在算力或资金上有差别，但在方法论上不一定会有大的差别。Pretrain已经没有人提，frontier 在后训练花的时间和钱越来越多。如何搭建好的 RL 环境、如何做出能够适应规模化的 infra，都变得更加重要，也是中国公司需要去补的课。在这个基础上，这几个月最为显性的商业机会，其实就是数据公司。\n目前行业共识是 27 年的行业重心不会再是 coding，coding 可能已经进入 90% 被覆盖、剩下 10% 的 ROI 极低的状况。但新的场景在哪？新的 domain 是什么？哪些会更有帮助？这还是所有人的探索阶段。\n数据公司与其说是一个外包商或者白手套，不如说是 frontier 的 research partner：他们也要一起去思考哪一个 domain 接下来会有需求，然后去准备和处理相应的数据，储备相应的专家，从而维护自己的业务。\n有很多公司，无论是中国还是美国的，在这一波浪潮中，都发现自己的训练数据其实非常值钱。数据可以卖给其他公司，甚至是自己的竞争对手（？！），从而作为自己的一项 top line 收入。很多自称做 research 或是 Neolab 的，其实收入也都来自卖数据。一条值钱的数据可以是数万美金。\n这种生意其实非常 operation-heavy。有朋友告诉我说，有些几百万美金量级的项目，两天就要交结果：PM 要 24 小时待命，夜里两点发消息马上就要回，需求也一直在更改。所以客户实际上支付的，其实是专家的组织、响应的速度，还有交付的完整性。他不是单单买一个管线，而是一个非常重服务、重 operation 的活。\n传闻 Surge 的人最低工资是 50 万起跳，而且需要搬到公司附近，凌晨两点也要加班。\n然而数据公司是不适合 VC 的投资框架的。比如说 Surge 其实就从来没有拿过 VC 的钱。这类公司属于现金流回款超快，但是可扩展性和想象空间相对受限的业务（至少之前大家都觉得受限），而这部分又是大模型继续冲塔时重要的预算分配。RSI吃两个东西，一个卡，一个数据。钱是管够的，只是谁能拿到这部分预算，就要看本事了。Perfectly 整理了所有 US-centric的数商列表。\n如果你来自下面这张表，欢迎找我，我们来聊聊！\n \n第三名Deepmind\nDeepMind 其实很值得去讨论。之前播客嘉宾 Lewis就提到过主要的离职原因：第一，谷歌实在太慢了。明明更早做大模型，却更迟推出可用产品。Personal agent早就提过，但迭代速度跟其他公司相比就是慢很多。第二，在 Gemini 变成全司P0后，无数人参与进来，中间层级不断增加，变成传话游戏，效率直线下降。\n大厂病是其中一个原因，但我同时也听到了另外两个原因：数据和卡。\nSeedance已经把美国朋友都打懵了，但是他们归咎于美国的 compliance 成本太高。数据如果用了用户的脸，都是巨大的 compliance 问题。“谷歌苹果说不用用户隐私训练，是真的不用的。”\n谷歌现卡都给到GCP，DeepMind 更加没有卡。我好奇：创始人回来，难道不应该把资源重大倾斜吗？卡分配还是在CEO做的公司级决定。“GCP 的价值可能是目前 research 价值的 10 倍”。所以在卡不够的情况下，都先分给 GCP。而且朋友补充一个细节：“Sergey Brin 如果开会迟到进房间，也要站着，不会有人给他让位置的。”\n没有人可以否定谷歌的技术能力，但竞争对手在持续进步，下一次要去发布 SOTA 的门槛是指数级上升的。谷歌是一面镜子，它出现的问题，其他的公司也都出现。\n过去一年取代Deepmind位置的，是一个中国模型，这个座次是固定的，但是人不定，过去一年中国人轮流上位。\n很多人表达对中国的兴趣。Lex Friedman来了，Dwarkesh来了，马上Latent Space来上海开AIE。在我去硅谷的时间，Founders' Fund和Khosla还特地组织了一次中国之行，这两家基金政治立场这里不做评论。但别人飞了十几小时来考察是真事。他们的行程就是中国所有模型厂和机器人厂。\n每年中国都有几个大发明大创新，吸引全世界目光。与其说他们是对中国好奇，不如说他们是对中国恐惧。毕竟听说遥远的东方有神奇法术，不用卡也可以炼丹。他们投的公司里除了AO两家对中国还有优势，其他Neo Labs相比之下没有价值，多模态更是完全无法比较。\n扩招的YC\n国庆期间我帮国内大厂老板安排了一批2B服务的AI公司见面。目的就是想要了解有什么新的AI服务可以采购，从而降本增效。有趣的是我们约了一个YC的招聘公司。\n创始人年轻有活力，聪明劲不停往外涌，还在Tik Tok做过推荐，简历肯定是很好的。\n但他还经常在招聘方面问一些相对外围的问题，就好像用了Anthropic套壳做产品，可能很AI native，工作流也可能自动，招聘也可能节省一点人力，但我总觉得好像并没有什么解决特别的招聘难点。\n更具象的说，我觉得他很像是男孩子偷穿爸爸的西装，衣服看起来大了一号。\nYC过去几年扩招很厉害，从一年两季变成四季，一批次有接近200家公司，一年就是七八百家，如果Co-founder两三个人，那就已经赶上斯坦福的毕业人数。不是一个孵化器，更像是一个大学了。很多学生都以进YC为荣，高中毕业冲塔上了藤校，大学入学马上再次冲塔去YC。有点像抽奖，抽到了就退学。平均年龄不断下降，99年出生都是是老登。\n \n其实这是非常理性的选择。\nVibe coding 之后，美国大厂都在收缩 junior 职位招聘，很多实习生 program 都不开了，应届毕业生要找好工作非常困难。但如果去创业，环境反而更好，社会宽容、更愿意给钱。从个人成长来说，创业的学习曲线肯定比在大厂熬年头要快得多。更夸张的是，如果你在 Meta 这样的大厂要升到 VP不知道要多少年；但如果创业成功被收购，你进门就是 VP。这就等于说，原来大厂爬梯子的传统叙事被彻底颠覆，更加鼓励所有年轻人去辍学、跳级，争取 25 岁当 VP。\n可是吊诡的部分就是：美国最好的方向通常是2B，就造成了YC的扎推2B创业，用一个老师的话说就是“一群从来没有交过税，甚至喝酒都还不合法的孩子，现在拿着武器准备要去改造企业。”\n我后来问创始人他的客户主要是谁，他说现在专注Seed到A轮的爆炸成长公司，他们的招聘需求最强烈。可那不就是YC的毕业生吗？大家互相购买，一起进步。\n退出的都市传说\n美国市场和中国市场有很多不同，其中一点就是收购退出机会多。过去一年AI行业的并购已经达到1590亿（见下图），其中包括了600亿的Cursor，还有新鲜出炉82亿的World Labs。大部分买家都是上市公司，且这些收购从意愿上是大公司需要增加增长曲线的储备，从能力上是股票值钱，至少没有低估，可以当钱用。\n \n这带来很不一样的生态，而以史为鉴，上一个时代统计有33%的公司可以退出（上图），那VC的生意模式就是可以持续的，LP有正反馈也愿意进一步投资。尤其过去两年常有做了半年就被收收购的公司，年轻founder出现在聚会上成为摇滚明星时，其他人不免想自己如何能跻身其中。\n\n \n同一时间，硬币的反面是收购夸大。(犹豫了很久，我觉得“夸大”是比“作假”更准确的词)\n我去斯坦福一个老师家吃饭：很多行业人士交流，其中一个印度裔年轻人在我旁边，美国土生土长，身材高大，一头乌黑卷发，之前做了一个盲人版本的GPT，然后被aquihire。我越听越奇怪，追问几个问题，才发现这个aquihire真的就是对方给了他一个工作，没有任何现金/股票对价。最后发现他其实在斯坦福读大二，9月是他大二的第一个月。他为啥要给我这个aquihire的错觉？我看起来老头可崩？\n当我和新朋友认识时，都会坦诚说我以前创业过一年，失败了。可发现怎么其他人都有multiple exit。如果你都卖公司那么多次了，怎么这饭还是我出钱？\n一个投资人和我说到，acquisition夸大非常普遍，80%收购都是吹牛。甚至他有被投公司号称收购，PR稿买了一堆，只有他知道投了100万，退出了1.2万。\n“你说是收购吗？有可能是的，但是这可能和大家普遍认知的收购不一样的。”\n美国即使有比中国好的多的M&A环境，但也不是100%。而且很多创业公司被其他创业公司全股票接手，说不上是上岸。我一直无法理解的是：如果美国是一个更好的创业环境，那创业者不是更应该正视自己的挫折，这样连续多年吹牛不累吗？\n后来再听到有人说自己卖了公司，我就会先问交易架构。\n爱卷的中国人\n华人创业者和投资人的数量也超出我的预计。\n有一个例子就是我经常在Verve，Blue Bottle，或者会议上被认出来，基本一天两三次，都是看了我各个简中平台的视频播客。标准画像是本科在国内读的25-40岁男性，围绕AI的大厂牛马，创业者，投资人。\n这一代创业者整体画像非常不一样。某Midas投资人告诉我：每年中国人的项目可能都要上千，主要来源都是硅谷各大厂的华人创业，学生老师创业，大部分都不是ABC。他非常相信一整个中国创业者Cohort在美国的崛起。(他甚至没有时间看刚从中国来的创业者，只看那种在湾区已经生活很久的中国人。因为已经完全忙不过来了)\nZoom的袁征当时是一个点，因为基数小。现在基数大了，很快成为一个面。他的赌注是：未来硅谷的华人创业会跑出 50 到 100 个袁征。这个和我的观察一样。也有很多新的华人GP成长起来。明显看到华人在AI这波都占据很重要的位置。之前的统计御三家有接近30%是华裔，而拼音名字的估计在15%左右，在高级研究员中比例更明显。\n这不，乔林今天就上福布斯封面。\n \n这次帮助一些朋友安排硅谷考察。我感觉中国人真的太卷了，国庆的假期还用来美国考察，LP看GP，投资人看项目，创业者找客户。\n硬币的另外一面就是中国人付费意愿实在太差，见了B端公司要了demo就想着可以卷内部研发做同款平替，考虑成本高过time to market。不要说投资收购，连产品付费都是不一定的。见多了我相信就不会再有公司愿意配合。\n经济上行期的个人位置\n今天的硅谷正处在一个快速膨胀的状态之中，所有的人持续关注下一步要去哪里。\n遇到PhD第一年刚入学三周的学生开始准备辍学做数商；饭局时一个某创业公司同学发现我带了知名VC，马上转口介绍自己的side project，说自己马上要出来创业需要融资；大厂的后训练同学也觉得自己很快要被取代，主动离职开始创业做Neocloud；然后创业被收购的朋友找我咨询，也想着自己要开始做个VC，感觉这生意不错。\n每一个人都想下一步要去哪。环环相扣，生生不息。\n这非常让我想起2014-15年的中国，那年京东阿里上市，中国新一代的巨头正在疯狂崛起。各种大小不一的公司都在起飞，三元桥新元素就是今天的Verve和Blue Bottle，空气中都是要立刻暴富的味道。没有时间解释了，再不上车就来不及了！\n这是浮躁的，我们通常会这么评价，但这有什么错呢？难道你不希望重新感受那种上行的推背感？这种环境下，去追问明年后年万亿capex对应的折旧计划和收入增长，不是非常扫兴吗？\n愿天下处处是泡沫，愿天下没有难做的生意。",
+       "preview_text": "硅谷是一个和人间有时差的地方。去的第一天就有人要卖Anthropic给我，从他的角度看，他23年买了现在要退出，然后他要去冲自己老师攒局做的Neolab第一轮、这游戏只能第一轮。他和我的时差就是三年。",
+       "title": "硅谷国庆见闻 - 愿天下处处是泡沫"
+      },
+      "created_at": "2026-10-17T13:29:13.000Z",
+      "edit_history_tweet_ids": [
+       "2111449454301896931"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "x.com/i/article/2111…",
+         "end": 23,
+         "expanded_url": "https://x.com/i/article/2111448757044920320",
+         "start": 0,
+         "status": 404,
+         "unwound_url": "https://x.com/i/article/2111448757044920320",
+         "url": "https://t.co/2Xi93aDoAC"
+        }
+       ]
+      },
+      "id": "2111449454301896931",
+      "public_metrics": {
+       "bookmark_count": 1109,
+       "impression_count": 177235,
+       "like_count": 741,
+       "quote_count": 18,
+       "reply_count": 43,
+       "retweet_count": 124
+      },
+      "text": "https://t.co/2Xi93aDoAC"
+     }
+    ]
+   }
+  }
+ },
+ "longform_enriched_ids": [
+  "2114084671189569767",
+  "2114238467714728185",
+  "2114169327968469133",
+  "2114078074627039419",
+  "2114343004471460341",
+  "2114220628056461331",
+  "2114339315769880846",
+  "2114236095475118296"
+ ],
+ "longform_enriched": [
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2114083554892173312"
+    ]
+   },
+   "author_id": "2066459117330292736",
+   "created_at": "2026-10-24T20:00:38.000Z",
+   "edit_history_post_ids": [
+    "2114084671189569767"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/5svvNNufO3",
+      "end": 100,
+      "expanded_url": "https://x.com/ForkedPush/status/2114084671189569767/video/1",
+      "media_key": "13_2114083554892173312",
+      "start": 77,
+      "url": "https://t.co/5svvNNufO3"
+     }
+    ]
+   },
+   "id": "2114084671189569767",
+   "note_tweet": {
+    "text": "30 days of Claude Opus 5.5 and 227 commits. Here's what I was able to build."
+   },
+   "public_metrics": {
+    "bookmark_count": 243,
+    "impression_count": 35596,
+    "like_count": 612,
+    "quote_count": 3,
+    "reply_count": 48,
+    "repost_count": 19
+   },
+   "text": "30 days of Claude Opus 5.5 and 227 commits. Here's what I was able to build. https://t.co/5svvNNufO3",
+   "url": "https://x.com/ForkedPush/status/2114084671189569767"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114238452531445760"
+    ]
+   },
+   "author_id": "1226419222474936320",
+   "created_at": "2026-10-25T06:11:46.000Z",
+   "edit_history_post_ids": [
+    "2114238467714728185"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/MUDR91HeSg",
+      "end": 50,
+      "expanded_url": "https://x.com/canghe/status/2114238467714728185/photo/1",
+      "media_key": "3_2114238452531445760",
+      "start": 27,
+      "url": "https://t.co/MUDR91HeSg"
+     }
+    ]
+   },
+   "id": "2114238467714728185",
+   "public_metrics": {
+    "bookmark_count": 40,
+    "impression_count": 71170,
+    "like_count": 155,
+    "quote_count": 10,
+    "reply_count": 63,
+    "repost_count": 7
+   },
+   "text": "AI产品红黑榜，Claude一片红，太吓人了。。。。 https://t.co/MUDR91HeSg",
+   "url": "https://x.com/canghe/status/2114238467714728185"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114169323526701056"
+    ]
+   },
+   "author_id": "1318419526132862976",
+   "created_at": "2026-10-25T01:37:01.000Z",
+   "edit_history_post_ids": [
+    "2114169327968469133"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/ZcNtg74dVS",
+      "end": 23,
+      "expanded_url": "https://x.com/NousResearch/status/2114169327968469133/photo/1",
+      "media_key": "3_2114169323526701056",
+      "start": 0,
+      "url": "https://t.co/ZcNtg74dVS"
+     }
+    ]
+   },
+   "id": "2114169327968469133",
+   "public_metrics": {
+    "bookmark_count": 459,
+    "impression_count": 317251,
+    "like_count": 4678,
+    "quote_count": 152,
+    "reply_count": 405,
+    "repost_count": 194
+   },
+   "text": "https://t.co/ZcNtg74dVS",
+   "url": "https://x.com/NousResearch/status/2114169327968469133"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2114078046126739457"
+    ]
+   },
+   "author_id": "1823248660601212928",
+   "created_at": "2026-10-24T19:34:25.000Z",
+   "edit_history_post_ids": [
+    "2114078074627039419"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/6LBwmcb7mi",
+      "end": 139,
+      "expanded_url": "https://x.com/dummerspast39/status/2114078074627039419/video/1",
+      "media_key": "13_2114078046126739457",
+      "start": 116,
+      "url": "https://t.co/6LBwmcb7mi"
+     }
+    ]
+   },
+   "id": "2114078074627039419",
+   "public_metrics": {
+    "bookmark_count": 4419,
+    "impression_count": 1218825,
+    "like_count": 7758,
+    "quote_count": 211,
+    "reply_count": 243,
+    "repost_count": 543
+   },
+   "text": "I found footage of 20yo Dario Amodei speaking against the Iraq War in 2003.\n\n18 years before Anthropic even existed https://t.co/6LBwmcb7mi",
+   "url": "https://x.com/dummerspast39/status/2114078074627039419"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2114342866453741568"
+    ]
+   },
+   "author_id": "1492195583699951620",
+   "created_at": "2026-10-25T13:07:09.000Z",
+   "edit_history_post_ids": [
+    "2114343004471460341"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/HEFH8a4UeC",
+      "end": 157,
+      "expanded_url": "https://x.com/Khazix0918/status/2114343004471460341/video/1",
+      "media_key": "13_2114342866453741568",
+      "start": 134,
+      "url": "https://t.co/HEFH8a4UeC"
+     }
+    ]
+   },
+   "id": "2114343004471460341",
+   "note_tweet": {
+    "text": "花了5天的时间，终于把我的Agent自动化流水线做完啦哈哈。\n\n起因是因为我的Agent自动化任务实在太多了，有直接在桌面端里定时触发的的，有Webhook然后用后台CLI触发的，还有在Dots里面设的等等等等，所以我想给自己做一个可视化的Agent自动化管理界面。\n\n第一版先做成了普通网页列表，但是感觉太没意思了，于是灵感大爆炸...想到了戴森球计划，于是，那不如做成一个可视化的流水线吧，平时还能加个小屏幕，当个桌搭用。\n\n说干就干，在调个N版美术风格之后，还是选定用这种微缩景观风格了，我觉得更有趣一点。\n\n整体来说，流水线就是预设的自动化，有包裹发出去就是具体的对应单次任务，会路由到两个Agent上做执行，并且跟现实世界时间和天气完全打通，现实下雪❄️，那这个自动化小镇里也会下雪。\n\n工作上主要是Claude Opus 5.5搭整体的视觉和框架，然后Opus 5.5指挥GPT-6 Astra建模+渲染，Codex在我自己的CI机上做海量的端到端测试，整体应该是用了30%的Claude周额度，和两管Codex额度。\n\n最后，终于做完啦，顺道还渲染了一个小小的演示视频～\n喜欢。\n\n对于所有想玩转Agent的朋友，相信我，把一切能自动化的都自动化，一定是你能感受到的最棒的事。"
+   },
+   "public_metrics": {
+    "bookmark_count": 296,
+    "impression_count": 34864,
+    "like_count": 488,
+    "quote_count": 13,
+    "reply_count": 111,
+    "repost_count": 25
+   },
+   "text": "花了5天的时间，终于把我的Agent自动化流水线做完啦哈哈。\n\n起因是因为我的Agent自动化任务实在太多了，有直接在桌面端里定时触发的的，有Webhook然后用后台CLI触发的，还有在Dots里面设的等等等等，所以我想给自己做一个可视化的Agent自动化管理界面。 https://t.co/HEFH8a4UeC",
+   "url": "https://x.com/Khazix0918/status/2114343004471460341"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114220615624445953"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-25T05:00:52.000Z",
+   "edit_history_post_ids": [
+    "2114220628056461331"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/bwCqCvDWI3",
+      "end": 39,
+      "expanded_url": "https://x.com/MaxForAI/status/2114220628056461331/photo/1",
+      "media_key": "3_2114220615624445953",
+      "start": 16,
+      "url": "https://t.co/bwCqCvDWI3"
+     }
+    ]
+   },
+   "id": "2114220628056461331",
+   "public_metrics": {
+    "bookmark_count": 4,
+    "impression_count": 2845,
+    "like_count": 17,
+    "quote_count": 0,
+    "reply_count": 5,
+    "repost_count": 1
+   },
+   "text": "英伟达CEO：中国人就是爱吃苦 https://t.co/bwCqCvDWI3",
+   "url": "https://x.com/MaxForAI/status/2114220628056461331"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114339111431794689"
+    ]
+   },
+   "author_id": "1897545708770840576",
+   "created_at": "2026-10-25T12:52:30.000Z",
+   "edit_history_post_ids": [
+    "2114339315769880846"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "description": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill. - mcncarl/jianying-headless",
+      "display_url": "github.com/mcncarl/jianyi…",
+      "end": 113,
+      "expanded_url": "https://github.com/mcncarl/jianying-headless",
+      "images": [
+       {
+        "height": 600,
+        "url": "https://pbs.twimg.com/news_img/2111431971150913536/fi1okSnW?format=jpg&name=orig",
+        "width": 1200
+       },
+       {
+        "height": 150,
+        "url": "https://pbs.twimg.com/news_img/2111431971150913536/fi1okSnW?format=jpg&name=150x150",
+        "width": 150
+       }
+      ],
+      "start": 90,
+      "status": 200,
+      "title": "GitHub - mcncarl/jianying-headless: Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.",
+      "unwound_url": "https://github.com/mcncarl/jianying-headless",
+      "url": "https://t.co/sP6RI9Z7I9"
+     },
+     {
+      "display_url": "pic.x.com/7JJf0DAXKw",
+      "end": 185,
+      "expanded_url": "https://x.com/gengdaJ/status/2114339315769880846/photo/1",
+      "media_key": "3_2114339111431794689",
+      "start": 162,
+      "url": "https://t.co/7JJf0DAXKw"
+     },
+     {
+      "display_url": "x.com/shawmakesmagic…",
+      "end": 209,
+      "expanded_url": "https://twitter.com/shawmakesmagic/status/2114236095475118296",
+      "start": 186,
+      "url": "https://t.co/DY5ab7cEIo"
+     }
+    ]
+   },
+   "id": "2114339315769880846",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "github.com/mcncarl/jianyi…",
+       "end": 113,
+       "expanded_url": "https://github.com/mcncarl/jianying-headless",
+       "start": 90,
+       "url": "https://t.co/CGXDq1tKxP"
+      }
+     ]
+    },
+    "text": "一切都将被开源，这就是未来。\nAdobe全家桶、剪映、Anything...都逃不过。\n\n也很不幸地告诉大家，jianying-headless项目和配套剪辑Skill已经下架。\nhttps://t.co/CGXDq1tKxP\n今天还有朋友在问我，我不会再对外分享。\n\n但是当以后每个人都能用AI轻松逆向每一个应用的时候，\n藏着掖着割用户韭菜的应用，没有人会继续为之付费。"
+   },
+   "public_metrics": {
+    "bookmark_count": 32,
+    "impression_count": 9602,
+    "like_count": 28,
+    "quote_count": 0,
+    "reply_count": 9,
+    "repost_count": 3
+   },
+   "referenced_tweets": [
+    {
+     "id": "2114236095475118296",
+     "type": "quoted"
+    }
+   ],
+   "text": "一切都将被开源，这就是未来。\nAdobe全家桶、剪映、Anything...都逃不过。\n\n也很不幸地告诉大家，jianying-headless项目和配套剪辑Skill已经下架。\nhttps://t.co/sP6RI9Z7I9\n今天还有朋友在问我，我不会再对外分享。\n\n但是当以后每个人都能用AI轻松逆向每一个应用的时候， https://t.co/7JJf0DAXKw https://t.co/DY5ab7cEIo",
+   "url": "https://x.com/gengdaJ/status/2114339315769880846"
+  },
+  {
+   "author_id": "1830340867737178112",
+   "created_at": "2026-10-25T06:02:20.000Z",
+   "edit_history_post_ids": [
+    "2114235536986759178",
+    "2114235632029778318",
+    "2114236095475118296"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "description": "Pump.fun deployment evidence and byte-exact reconstruction research (incomplete) - lalalune/pumpfun-source",
+      "display_url": "github.com/lalalune/pumpf…",
+      "end": 233,
+      "expanded_url": "https://github.com/lalalune/pumpfun-source",
+      "images": [
+       {
+        "height": 600,
+        "url": "https://pbs.twimg.com/news_img/2114235540614897664/IiB4R-0V?format=jpg&name=orig",
+        "width": 1200
+       },
+       {
+        "height": 150,
+        "url": "https://pbs.twimg.com/news_img/2114235540614897664/IiB4R-0V?format=jpg&name=150x150",
+        "width": 150
+       }
+      ],
+      "start": 210,
+      "status": 200,
+      "title": "GitHub - lalalune/pumpfun-source: Pump.fun deployment evidence and byte-exact reconstruction research (incomplete)",
+      "unwound_url": "https://github.com/lalalune/pumpfun-source",
+      "url": "https://t.co/mKr7yzyw4W"
+     }
+    ]
+   },
+   "id": "2114236095475118296",
+   "public_metrics": {
+    "bookmark_count": 919,
+    "impression_count": 209488,
+    "like_count": 1624,
+    "quote_count": 74,
+    "reply_count": 182,
+    "repost_count": 139
+   },
+   "text": "Nothing is safe, nothing is sacred\n\nThe bright forest is here\n\n90% done with reverse engineering all of the pumpfun contracts\n\nShould be done tonight\n\nOpen source everything or it will be open sourced for you\n\nhttps://t.co/mKr7yzyw4W",
+   "url": "https://x.com/shawmakesmagic/status/2114236095475118296"
+  }
+ ],
+ "longform_includes": {
+  "media": [
+   {
+    "duration_ms": 57600,
+    "media_key": "13_2114083554892173312",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114083554892173312/img/db8TKRLvcAEamVLb.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2114083554892173312/pl/lmxR7RGwOkYr06vx.m3u8?v=cfc"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114083554892173312/vid/avc1/1920x1080/FGXEoyKeIfyozr_o.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114083554892173312/vid/avc1/480x270/eKYcfmzGeBayBJkm.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114083554892173312/vid/avc1/640x360/gCmbDOFGZYaeTmKx.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114083554892173312/vid/avc1/1280x720/oD1C0zZTrRgXiTO9.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2114238452531445760",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVdIq72bwAAYe9z.jpg"
+   },
+   {
+    "media_key": "3_2114169323526701056",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVcJzGPWQAAZBnt.jpg"
+   },
+   {
+    "duration_ms": 79087,
+    "media_key": "13_2114078046126739457",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114078046126739457/img/8JaLwIWkcA6iCXh0.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114078046126739457/vid/avc1/360x270/fWMWvwJCPGcuhPVj.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114078046126739457/vid/avc1/480x360/-fhCA8xH4w6EaXe2.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114078046126739457/vid/avc1/640x480/Ua7gTCP-NGcJQjqh.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2114078046126739457/pl/mbk05jHQViVNm-aP.m3u8?v=cfe"
+     }
+    ]
+   },
+   {
+    "duration_ms": 79870,
+    "media_key": "13_2114342866453741568",
+    "preview_image_url": "https://pbs.twimg.com/media/HVenonybAAAjzfn.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114342866453741568/vid/avc1/1280x720/gyjPv6U4NS9eBrLc.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114342866453741568/vid/avc1/480x270/sDq3C6fkRJqgB-0h.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2114342866453741568/pl/Mjk-mngzNQMvhvcg.m3u8?v=cfc"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114342866453741568/vid/avc1/1920x1080/XljOCAK_7wz2qujY.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114342866453741568/vid/avc1/640x360/sSCBT6_YtttvrMgC.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2114220615624445953",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVc4csMaUAEsOYD.jpg"
+   },
+   {
+    "media_key": "3_2114339111431794689",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVekODebcAEJdto.jpg"
+   }
+  ],
+  "posts": [
+   {
+    "author_id": "1830340867737178112",
+    "created_at": "2026-10-25T06:02:20.000Z",
+    "edit_history_post_ids": [
+     "2114235536986759178",
+     "2114235632029778318",
+     "2114236095475118296"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "description": "Pump.fun deployment evidence and byte-exact reconstruction research (incomplete) - lalalune/pumpfun-source",
+       "display_url": "github.com/lalalune/pumpf…",
+       "end": 233,
+       "expanded_url": "https://github.com/lalalune/pumpfun-source",
+       "images": [
+        {
+         "height": 600,
+         "url": "https://pbs.twimg.com/news_img/2114235540614897664/IiB4R-0V?format=jpg&name=orig",
+         "width": 1200
+        },
+        {
+         "height": 150,
+         "url": "https://pbs.twimg.com/news_img/2114235540614897664/IiB4R-0V?format=jpg&name=150x150",
+         "width": 150
+        }
+       ],
+       "start": 210,
+       "status": 200,
+       "title": "GitHub - lalalune/pumpfun-source: Pump.fun deployment evidence and byte-exact reconstruction research (incomplete)",
+       "unwound_url": "https://github.com/lalalune/pumpfun-source",
+       "url": "https://t.co/mKr7yzyw4W"
+      }
+     ]
+    },
+    "id": "2114236095475118296",
+    "public_metrics": {
+     "bookmark_count": 919,
+     "impression_count": 209488,
+     "like_count": 1624,
+     "quote_count": 74,
+     "reply_count": 182,
+     "repost_count": 139
+    },
+    "text": "Nothing is safe, nothing is sacred\n\nThe bright forest is here\n\n90% done with reverse engineering all of the pumpfun contracts\n\nShould be done tonight\n\nOpen source everything or it will be open sourced for you\n\nhttps://t.co/mKr7yzyw4W"
+   }
+  ],
+  "users": [
+   {
+    "id": "2066459117330292736",
+    "name": "Fork Dev",
+    "username": "ForkedPush"
+   },
+   {
+    "id": "1226419222474936320",
+    "name": "苍何",
+    "username": "canghe"
+   },
+   {
+    "id": "1318419526132862976",
+    "name": "Nous Research",
+    "username": "NousResearch"
+   },
+   {
+    "id": "1823248660601212928",
+    "name": "Binkg",
+    "username": "dummerspast39"
+   },
+   {
+    "id": "1492195583699951620",
+    "name": "数字生命卡兹克",
+    "username": "Khazix0918"
+   },
+   {
+    "id": "1699797396589588480",
+    "name": "Max For AI",
+    "username": "MaxForAI"
+   },
+   {
+    "id": "1897545708770840576",
+    "name": "逸尘",
+    "username": "gengdaJ"
+   },
+   {
+    "id": "1830340867737178112",
+    "name": "Shaw",
+    "username": "shawmakesmagic"
+   }
+  ]
+ },
+ "aux_search": [],
+ "selected_ids": [
+  "2114402686821159108",
+  "2114343004471460341",
+  "2114296407570231785",
+  "2114350632215924921",
+  "2114237083652882932",
+  "2114403162027155544",
+  "2114349445760303238",
+  "2114389254927220845",
+  "2114355871719534723",
+  "2114315161209291027",
+  "2114326104416678367",
+  "2114339315769880846"
+ ]
+}

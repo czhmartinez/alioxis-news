@@ -1,0 +1,14 @@
+AIHOT 2026-11-01 lead: {"title": "Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件", "leadParagraph": "Wiz 研究团队梳理 10 月内至少九个 AI 开发者平台披露的安全事件，包括 Fireworks AI、Lightning AI、Railway、Warp、OpenCode 等，多起报告指向凭据窃取、agent swarm 攻击和以“蒸馏”为目的的窃取。"}
+
+## ?
+- Figma 发布 Weave 创作平台，用节点化工作流让创意流程可复用: 
+
+## ?
+- Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心提供债务担保: 
+- 彭博社统计：Alphabet、Meta、微软、亚马逊、甲骨文承诺投入超3万亿美元建AI基础设施: 
+
+## ?
+- Wiz 报告“黑色十月”：九个 AI 开发者平台接连披露安全事件: 
+
+## ?
+- OpenRouter 教程：用 Agent SDK 搭建常驻 AI Agent 监控 Hacker News: 

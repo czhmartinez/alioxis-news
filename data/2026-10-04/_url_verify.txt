@@ -1,0 +1,48 @@
+Alioxis News AI新闻 URL verify — 2026-10-04
+================================================================
+01. 200  OK  https://alignment.openai.com/misalignment-reports/reaching-an-internal-eda-host-through-a-reference-tool/
+    title: OpenAI 披露内部研究模型评估中利用漏洞入侵内部 EDA 机器事件
+02. 200  OK  https://alignment.openai.com/misalignment-reports/preparing-for-a-restart-after-reading-slack/
+    title: OpenAI：内部模型从 Slack 获悉可能停机并提前准备重启（非判定为失准）
+03. 200  OK  https://alignment.openai.com/misalignment-reports/command-injecting-a-reference-tool-to-copy-a-source-file/
+    title: OpenAI：模型用 Perl 注入绕过工具限制，分块复制约 149KB 源文件
+04. 200  OK  https://huggingface.co/blog/microsoft/thinkingbox
+    title: Microsoft ThinkingBox 上线 Hugging Face：507 任务×20 次按数据库终态评测智能体
+05. 200  OK  https://arxiv.org/abs/2609.36139
+    title: Google Research 等论文：LLM「不安全汇报」隐瞒关键缺陷，一句 honesty 提示可大幅改善
+06. 200  OK  https://help.openai.com/en/articles/20001544-chatgpt-space-sharing-data-and-controls
+    title: ChatGPT Space：面向人与 Dots 智能体的共享工作区，Pages 可协作编辑
+07. 200  OK  https://www.anthropic.com/news/barclays-scales-claude
+    title: Anthropic×Barclays：银行扩大部署 Claude，目标年底半数开发者用 Claude Code
+08. 200  OK  https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/
+    title: Google Gemini Live 推出 Guided Vision：Android 实时视觉辅助，服务盲人与低视力用户
+09. 200  OK  https://blog.cloudflare.com/ai-search-ga/
+    title: Cloudflare AI Search 正式 GA：原生图像嵌入、PDF OCR，11 月 1 日起计费
+10. 200  OK  https://openrouter.ai/blog/announcements/model-router-benchmarks/
+    title: OpenRouter 发布 Model Router Benchmarks：用 Router Index 综合质量/速度/成本
+11. 200  OK  https://openrouter.ai/blog/tutorials/model-routing-for-support-bots-cheap-first-faq-handling/
+    title: OpenRouter 教程：客服机器人「先便宜后升级」的三种模型路由模式
+12. 200  OK  https://huggingface.co/blog/ServiceNow-AI/autosynthdata
+    title: ServiceNow AutoSynthData：把企业智能体失败点转成可验证合成训练任务
+13. 200  OK  https://huggingface.co/blog/ggml-org/decision-models-in-llamacpp
+    title: llama.cpp 支持 Decision Models：/v1/systemone 一次前向返回选项概率
+14. 200  OK  https://gadgets.muse.ai/
+    title: Meta 开源 Muse Gadgets：ESP32/树莓派 SDK，可把 Muse 接到显示与传感器
+15. 200  OK  https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31
+    title: Vercel AI Gateway 上线 Laya 决策模型：至 10 月 31 日经 Boundless 免费
+16. 200  OK  https://www.ibm.com/new/announcements/new-in-ibm-watsonx-orchestrate-expanded-third-party-agent-management-and-agent-identities
+    title: IBM watsonx Orchestrate：纳管 Foundry/Gemini 企业智能体，Agent Identity 预览
+17. 200  OK  https://blog.cloudflare.com/cloudflare-basin/
+    title: Cloudflare Basin GA：基于 Iceberg+R2 的无服务器分析平台（原 Data Platform）
+
+Notes / non-chosen probes
+------------------------
+- SKIP Vicuna-13B 2023 LMSYS (AIHOT junk)
+- SKIP Gemini 4 Argon / Project Suncatcher (already 10-01 / 10-03)
+- SKIP ithome OpenAI $500k/day Medicare/HF investigation flash (soft rehash of Medicare arc)
+- SKIP OpenRouter joining Stripe (dated 2026-08-19)
+- SKIP NVIDIA OSMO scale blog (published 2024-03-18, not Oct window)
+- SKIP Meta Muse Realtime Avatar blog (2026-09-23; Gadgets is distinct Oct 2)
+- ChatGPT Space: primary help.openai.com (curl 200); Forbes Oct 3 commentary used for framing
+- Insecure reporting: arxiv.org/abs/2609.36139 (200); html also 200
+- ThinkingBox: huggingface.co/blog/microsoft/thinkingbox (200)

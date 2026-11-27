@@ -1,0 +1,5037 @@
+{
+ "date": "2026-10-30",
+ "method": "public X MCP namespace=x",
+ "start_time": "2026-10-28T16:00:00Z",
+ "exclude": "replies",
+ "users": {
+  "Khazix0918": {
+   "id": "1492195583699951620",
+   "fetched": 2,
+   "post_ids": [
+    "2115691027860443268",
+    "2115662773103530096"
+   ],
+   "meta": {
+    "newest_id": "2115691027860443268",
+    "oldest_id": "2115662773103530096",
+    "result_count": 2
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-29T06:23:43.000Z",
+     "edit_history_tweet_ids": [
+      "2115691027860443268"
+     ],
+     "id": "2115691027860443268",
+     "public_metrics": {
+      "bookmark_count": 812,
+      "impression_count": 392563,
+      "like_count": 3481,
+      "quote_count": 56,
+      "reply_count": 279,
+      "retweet_count": 144
+     },
+     "text": "我觉得Claude和Codex的性格差异，可以用一个例子来形容。\n\n我：每周都要从后台下载20个Excel，再手动复制粘贴成一张总表，太麻烦了，帮我写个自动操作鼠标的脚本。\n\nGPT： 好的老板！已经帮你写好了，自动点击、下载、复制、粘贴，还加了异常处理和失败重试，以后你只需要点一下运行就行！\n\nClaude：",
+     "url": "https://x.com/i/status/2115691027860443268"
+    },
+    {
+     "article": {
+      "title": "Buddy One正式上线，腾讯要用WorkBuddy打通自己的全家桶了。"
+     },
+     "created_at": "2026-10-29T04:31:26.000Z",
+     "edit_history_tweet_ids": [
+      "2115662773103530096"
+     ],
+     "id": "2115662773103530096",
+     "public_metrics": {
+      "bookmark_count": 98,
+      "impression_count": 42873,
+      "like_count": 99,
+      "quote_count": 10,
+      "reply_count": 20,
+      "retweet_count": 12
+     },
+     "text": "https://t.co/YqP5KSGsaA",
+     "url": "https://x.com/i/status/2115662773103530096"
+    }
+   ],
+   "includes": {}
+  },
+  "MaxForAI": {
+   "id": "1699797396589588480",
+   "fetched": 6,
+   "post_ids": [
+    "2115913730806755538",
+    "2115859097061056718",
+    "2115726198747885740",
+    "2115506911932264890",
+    "2115506412143223182",
+    "2115502887359103424"
+   ],
+   "meta": {
+    "newest_id": "2115913730806755538",
+    "oldest_id": "2115502887359103424",
+    "result_count": 6
+   },
+   "posts": [
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115913720002228224"
+      ]
+     },
+     "created_at": "2026-10-29T21:08:39.000Z",
+     "edit_history_tweet_ids": [
+      "2115913730806755538"
+     ],
+     "id": "2115913730806755538",
+     "note_tweet": {
+      "entities": {
+       "mentions": [
+        {
+         "end": 14,
+         "id": "1707003452700930048",
+         "start": 6,
+         "username": "lobehub"
+        }
+       ],
+       "urls": [
+        {
+         "display_url": "github.com/eval-sys/ibench",
+         "end": 566,
+         "expanded_url": "https://github.com/eval-sys/ibench",
+         "start": 543,
+         "url": "https://t.co/YMSBzJsbyX"
+        },
+        {
+         "display_url": "ibench.ai",
+         "end": 599,
+         "expanded_url": "https://ibench.ai",
+         "start": 576,
+         "url": "https://t.co/s33Zp1t52w"
+        }
+       ]
+      },
+      "text": "今天，我们 @lobehub  团队发布了一个我觉得很有意义的新Benchmark：Interaction Bench。\n\n一直以来，我们都觉得Agent的评测和真实用户体验之间，存在着相当大的距离。\n\n真实用户不会告诉Agent哪一行代码出了Bug，也不会给它一份详细的修复方案。用户只会说，我想实现这个功能，或者这个东西坏了，你帮我解决一下。\n\n所以，这次我们尝试换一种方式来评估Agent。\n\nInteraction Bench从25个真实的开源应用中提取了44个任务，只告诉Agent用户想实现的目标，让它自己探索环境、发现问题、尝试解决，并验证最终结果。\n\n首轮结果里GPT-6 Astra以34.1%排名第一，Claude Opus 5.5为 27.3%，其他模型的成功率只有4.5%～15.9%。\n即便是目前最强的模型，面对这些真实任务，依然有超过六成无法完成。\n\n我觉得这也是我们做这件事的意义。\n随着Agent开始真正进入软件、接管工作流，我们需要更多能够反映真实用户体验的评测。\n毕竟对于用户来说，Benchmark上的分数再高，都不如一句「这件事我已经帮你搞定了」。\n目前还是0.1 Preview，欢迎大家体验、提 ssue，也欢迎一起来建设。\n\nGitHub：https://t.co/YMSBzJsbyX\n\nWebsite：https://t.co/s33Zp1t52w"
+     },
+     "public_metrics": {
+      "bookmark_count": 10,
+      "impression_count": 2157,
+      "like_count": 20,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115870635369140238",
+       "type": "quoted"
+      }
+     ],
+     "text": "今天，我们 @lobehub  团队发布了一个我觉得很有意义的新Benchmark：Interaction Bench。\n\n一直以来，我们都觉得Agent的评测和真实用户体验之间，存在着相当大的距离。 https://t.co/AZ2mLfYPHf https://t.co/coPSDlUjBK",
+     "url": "https://x.com/i/status/2115913730806755538"
+    },
+    {
+     "created_at": "2026-10-29T17:31:34.000Z",
+     "edit_history_tweet_ids": [
+      "2115859097061056718"
+     ],
+     "id": "2115859097061056718",
+     "note_tweet": {
+      "text": "《纽约时报》刚刚爆了个大新闻，美国情报机构认为，一名中国女企业家涉嫌通过接近黄仁勋，为北京搜集情报。特朗普早在大约一年前就收到相关情报简报，但最终没有采取行动。\n\n这名女性叫黄乐（Alice Huang），曾是新加坡算力公司 Megaspeed 的高管。\n\n2024 年 6 月，她和黄仁勋在台北一家酒吧参加行业聚会；2025 年 5 月，两人又在台北一家餐厅外被拍到。Megaspeed 本身也是英伟达的客户。\n\n这家公司的背景相当复杂。\n\n早在去年，《纽约时报》和彭博社就报道过，美国商务部正在调查 Megaspeed 是否通过东南亚的数据中心，帮助中国企业规避美国的先进芯片出口限制。\n\n当时有一个很有意思的细节，美国商务部官员前往马来西亚的一座数据中心检查，发现部分英伟达设备居然还装在箱子里，没有安装使用。这引起了美国官员对芯片可能被转运的怀疑。\n\n根据最新报道，2024 年 6 月至 2026 年 2 月，Megaspeed 的马来西亚关联公司已经采购了至少 48 亿美元的先进 AI 设备。\n\n而这次《纽约时报》爆出的新信息，是美国情报机构据称在监控中发现，黄乐涉嫌直接向北京传递情报，同时与黄仁勋建立了较密切的联系。\n\n这件事之所以让美国政府紧张，还因为黄仁勋近年来在白宫的影响力越来越大。他既掌握着英伟达的商业信息，也可能了解特朗普政府在对华芯片政策上的考虑。\n\n不过，目前这些情报指控仍然缺乏公开证据。英伟达明确表示，与黄乐的接触只是正常的客户往来，没有向 Megaspeed 提供敏感商业机密或涉及国家安全的信息。中国驻美使馆也否认了有关指控。\n\n报道没有证明黄仁勋知情或参与。\n\n我觉得这件事很值得关注的地方，是美国对中国获取先进算力的警惕，已经延伸到了东南亚的数据中心、芯片采购链路，以及英伟达 CEO 本人的商业关系。\n\n如今的黄仁勋，已经站在全球 AI 算力供应和中美科技博弈的中心，甚至一次普通的客户晚宴，都可能成为情报机构关注的对象。\n\n当然，关于间谍活动的判断，最终还需要更多证据来支撑。"
+     },
+     "public_metrics": {
+      "bookmark_count": 12,
+      "impression_count": 9889,
+      "like_count": 20,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115761060292567275",
+       "type": "quoted"
+      }
+     ],
+     "text": "《纽约时报》刚刚爆了个大新闻，美国情报机构认为，一名中国女企业家涉嫌通过接近黄仁勋，为北京搜集情报。特朗普早在大约一年前就收到相关情报简报，但最终没有采取行动。\n\n这名女性叫黄乐（Alice Huang），曾是新加坡算力公司 Megaspeed 的高管。\n\n2024 年 6 https://t.co/atYTMzVpmZ",
+     "url": "https://x.com/i/status/2115859097061056718"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115726187733696512"
+      ]
+     },
+     "created_at": "2026-10-29T08:43:28.000Z",
+     "edit_history_tweet_ids": [
+      "2115726198747885740"
+     ],
+     "id": "2115726198747885740",
+     "public_metrics": {
+      "bookmark_count": 57,
+      "impression_count": 95522,
+      "like_count": 495,
+      "quote_count": 5,
+      "reply_count": 35,
+      "retweet_count": 4
+     },
+     "text": "神了，还真有人反代微信支付啊.... https://t.co/2bHMObNi9m",
+     "url": "https://x.com/i/status/2115726198747885740"
+    },
+    {
+     "created_at": "2026-10-28T18:12:06.000Z",
+     "edit_history_tweet_ids": [
+      "2115506911932264890"
+     ],
+     "id": "2115506911932264890",
+     "public_metrics": {
+      "bookmark_count": 47,
+      "impression_count": 59027,
+      "like_count": 257,
+      "quote_count": 4,
+      "reply_count": 39,
+      "retweet_count": 16
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115494553780367384",
+       "type": "quoted"
+      }
+     ],
+     "text": "梁文峰那双眼睛到底看到了多远....?\n\n之前泄露的 @deepseek_ai  投资人会议录音里，梁文峰曾表示：“Anthropic现在超过OpenAl，不是长期的，是阶段性的。OpenAI和Google未来大概率会交替上升。”\n\n现在Gemini 4 Carbon重新获得了第一名😧 https://t.co/o3o2igpw38",
+     "url": "https://x.com/i/status/2115506911932264890"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115506398381719552",
+       "3_2115506398419374080"
+      ]
+     },
+     "created_at": "2026-10-28T18:10:07.000Z",
+     "edit_history_tweet_ids": [
+      "2115506412143223182"
+     ],
+     "id": "2115506412143223182",
+     "note_tweet": {
+      "entities": {
+       "mentions": [
+        {
+         "end": 39,
+         "id": "4783690002",
+         "start": 24,
+         "username": "GoogleDeepMind"
+        }
+       ]
+      },
+      "text": "逆天了，美国大豆包居然跑到世界第一了！？？？\n\n@GoogleDeepMind  刚刚发布了Gemini 4 Carbon，在Artificial Analysis Intelligence Index v5.0上拿到了59分，超过Claude Opus 5.5的58分和GPT-6 Astra的57分。\n\n最离谱的是，距离上一代Gemini 4 Argon发布才过去两周，分数就从50涨到了59。\n\nGoogle公布的17项评测里，Carbon拿下了15项最高分，尤其是网络安全、长上下文和Agent能力，提升非常明显。\n\n要知道，之前中文互联网一直管Gemini叫「美国大豆包」，因为它经常一本正经地胡说八道，指出错误之后又特别喜欢道歉，情绪价值拉满。\n\n结果现在，美国大豆包突然支棱起来了。\n\n不过目前Carbon还没有向普通用户开放，排行榜第一能不能转化成实际体验，还得等大家真正上手。\n\n只能说，Google这次是真把美国大豆包给练出来了。。\n\nRSI无敌了😭"
+     },
+     "public_metrics": {
+      "bookmark_count": 17,
+      "impression_count": 30322,
+      "like_count": 108,
+      "quote_count": 1,
+      "reply_count": 19,
+      "retweet_count": 4
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115489356437651654",
+       "type": "quoted"
+      }
+     ],
+     "text": "逆天了，美国大豆包居然跑到世界第一了！？？？\n\n@GoogleDeepMind  刚刚发布了Gemini 4 Carbon，在Artificial Analysis Intelligence Index v5.0上拿到了59分，超过Claude Opus 5.5的58分和GPT-6 Astra的57分。\n\n最离谱的是，距离上一代Gemini 4 Argon发布才过去两周，分数就从50涨到了59。 https://t.co/oNM2KrJCWQ https://t.co/qhcri3qj9T",
+     "url": "https://x.com/i/status/2115506412143223182"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115502492217962496"
+      ]
+     },
+     "created_at": "2026-10-28T17:56:07.000Z",
+     "edit_history_tweet_ids": [
+      "2115502887359103424"
+     ],
+     "id": "2115502887359103424",
+     "public_metrics": {
+      "bookmark_count": 12,
+      "impression_count": 13891,
+      "like_count": 124,
+      "quote_count": 0,
+      "reply_count": 11,
+      "retweet_count": 3
+     },
+     "text": "你知道的，我一直是Gemini的粉丝，从2.5 Pro时期就紧紧跟随；Nano Banana是我的主力，3 Pro第一时间跟上，Flash也一直是拥趸。\n重建期熬完了，天赋兑现了，速度、推理、多模态全在线——现在到了Gemini 4复兴的时候，comeon！\n至于GPT和Claude，我祝他们好运。 https://t.co/7Ku75e7Ei1",
+     "url": "https://x.com/i/status/2115502887359103424"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2115913720002228224",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HV08UVgbsAAuUR0.jpg"
+     },
+     {
+      "media_key": "3_2115726187733696512",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVyRwhXbwAAm090.jpg"
+     },
+     {
+      "media_key": "3_2115506398381719552",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVvJ3GObwAAmhoU.jpg"
+     },
+     {
+      "media_key": "3_2115506398419374080",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVvJ3GXaUAANlJC.jpg"
+     },
+     {
+      "media_key": "3_2115502492217962496",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVvGTuoa8AAk-Wa.jpg"
+     }
+    ],
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2115864167471292416"
+       ]
+      },
+      "created_at": "2026-10-29T18:17:25.000Z",
+      "edit_history_tweet_ids": [
+       "2115870635369140238"
+      ],
+      "id": "2115870635369140238",
+      "note_tweet": {
+       "entities": {
+        "urls": [
+         {
+          "display_url": "github.com/eval-sys/ibench",
+          "end": 266,
+          "expanded_url": "https://github.com/eval-sys/ibench",
+          "start": 243,
+          "url": "https://t.co/5xFvBxZjGR"
+         },
+         {
+          "display_url": "ibench.ai",
+          "end": 299,
+          "expanded_url": "https://ibench.ai",
+          "start": 276,
+          "url": "https://t.co/1OS6GW22cy"
+         }
+        ]
+       },
+       "text": "Introducing Interaction Bench 0.1 Preview — Benchmarked on what users feel\n\n- 44 tasks from 25 real open-source apps\n- GPT-6 Astra leads at 34.1%, Claude Opus 5.5 at 27.3%, others 4.5–15.9%\n- Agents get the user's goal, never the bug\n\nGitHub: https://t.co/5xFvBxZjGR\nWebsite: https://t.co/1OS6GW22cy \n\n9🧵s next 👇"
+      },
+      "public_metrics": {
+       "bookmark_count": 6,
+       "impression_count": 13303,
+       "like_count": 23,
+       "quote_count": 2,
+       "reply_count": 7,
+       "retweet_count": 2
+      },
+      "text": "Introducing Interaction Bench 0.1 Preview — Benchmarked on what users feel\n\n- 44 tasks from 25 real open-source apps\n- GPT-6 Astra leads at 34.1%, Claude Opus 5.5 at 27.3%, others 4.5–15.9%\n- Agents get the user's goal, never the bug\n\nGitHub: https://t.co/CM8FHD19mh\nWebsite: https://t.co/SRfVPDJOnK"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2115749229838704641",
+        "3_2115749255834898432"
+       ]
+      },
+      "created_at": "2026-10-29T11:02:00.000Z",
+      "edit_history_tweet_ids": [
+       "2115761060292567275"
+      ],
+      "id": "2115761060292567275",
+      "public_metrics": {
+       "bookmark_count": 1518,
+       "impression_count": 1622278,
+       "like_count": 7542,
+       "quote_count": 257,
+       "reply_count": 405,
+       "retweet_count": 782
+      },
+      "text": "‼️ BREAKING: US officials believe Nvidia CEO Jensen Huang is the target of a Chinese spy plot.\n\nThey believe Alice Huang, a Megaspeed executive seen at his side in Taiwan, is a Chinese intelligence asset.\n\nPresident Trump has been briefed about the matter. https://t.co/XqMuxAicxG"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2115491234328580096"
+       ]
+      },
+      "created_at": "2026-10-28T17:23:00.000Z",
+      "edit_history_tweet_ids": [
+       "2115494553780367384"
+      ],
+      "id": "2115494553780367384",
+      "note_tweet": {
+       "entities": {
+        "mentions": [
+         {
+          "end": 3123,
+          "id": "4783690002",
+          "start": 3108,
+          "username": "GoogleDeepMind"
+         }
+        ]
+       },
+       "text": "Google’s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index\n\nGemini 4 Carbon scores 59 on Intelligence Index v5, driven by leading performance in complex reasoning, knowledge, and scientific tasks. It also has large gains in coding and knowledge work, particularly when compared to other Gemini models, but it is not leading in all these areas.\n\nAs with launch of Gemini 4 Argon, Gemini 4 Carbon is being rolled out to selected users and is not yet publicly available. Google is offering a 50% launch discount, with no confirmed end date. All our charts and figures use standard pricing for both Gemini 4 Carbon and Argon.\n\nKey results for Gemini 4 Carbon with high reasoning:\n➤ Gemini 4 Carbon leads the Intelligence Index v5, with the #1 score in 4 of the 9 Index evaluations: HLE-Diamond, Terminal-Bench-Science, AA-Omniscience, AutomationBench-AA. Carbon makes substantial gains elsewhere but is not leading in coding and knowledge work\n\n➤ Behind only Claude Opus 5.5 on coding agents: With Antigravity CLI, Gemini 4 Carbon (high) scores 59 only 3 points behind Claude Code with Claude Opus 5.5 (max, 62) on the Artificial Analysis Coding Agent Index. Carbon ranks second on both Terminal-Bench 4.0 (64%) and FrontierCode v1.1 (51%), behind Claude Opus 5.5 (max) at 56%. Google has historically underperformed in this area and so this improvement stands out\n\n➤ Improved agentic knowledge work, but not yet leading: On AA-Briefcase, Gemini 4 Carbon (high) scores 1609 Elo, a 126-point improvement over Gemini 4 Argon (high, 1483), but still behind models including Grok 4.7 (xhigh, 1638), Muse Wonder (max, 1659) and Kimi K3.1 Pro (1678). The largest gain comes from Presentation, up 293 Elo to 1598, alongside a 120-point improvement in Analytical Quality to 1671\n\n➤ Lower Cost per Task than Claude Opus 5.5 for comparable overall intelligence: Gemini 4 Carbon costs $7.76 per Intelligence Index task, ~23% less than Claude Opus 5.5 (max, $10.04) but ~1.2x GPT-6 Astra (max, $6.25). It uses 123k output tokens per task, 29% fewer than Claude Opus 5.5 (max, 173k). At the same $4/$20 standard pricing, its Cost per Task is in line with Gemini 4 Argon ($7.68), while scoring 9 points higher on the Intelligence Index\n\n➤ Leading AA-Omniscience v1.1 score, with low hallucination: Gemini 4 Carbon scores 54 on our recently updated AA-Omniscience v1.1, 6 points ahead of Claude Opus 5.5 (max, 48) and 8 points ahead of Gemini 4 Argon (46). Accuracy (% correct) rises 10 points over Argon to 58%, while its hallucination rate rises from 4% to 11%. This is still the second lowest of any model, behind only Argon, compared with 50% for both Claude Opus 5.5 (max) and GPT-6 Astra (max)\n\nKey model details:\n➤ Context Window: 1M tokens\n➤ Multimodality: Text, image, video, and speech input, with text output\n➤ Pricing: $4/$20 per 1M input/output tokens, the same as Gemini 4 Argon’s standard pricing, with a 50% discount. Cached input tokens receive a 95% discount ($0.20 per 1M)\n\nCongratulations to the @GoogleDeepMind team!"
+      },
+      "public_metrics": {
+       "bookmark_count": 561,
+       "impression_count": 606779,
+       "like_count": 4869,
+       "quote_count": 339,
+       "reply_count": 270,
+       "retweet_count": 440
+      },
+      "text": "Google’s Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5, and second only to Claude Opus 5.5 on the Artificial Analysis Coding Agent Index\n\nGemini 4 Carbon scores 59 on Intelligence Index v5, driven by leading performance in complex reasoning, https://t.co/gSH65FSKzL"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2115488022711996416"
+       ]
+      },
+      "created_at": "2026-10-28T17:02:21.000Z",
+      "edit_history_tweet_ids": [
+       "2115489356437651654"
+      ],
+      "id": "2115489356437651654",
+      "note_tweet": {
+       "text": "Gemini 4 Carbon is our next frontier model.\n\nIt’s state-of-the-art across cybersecurity and long-horizon capabilities."
+      },
+      "public_metrics": {
+       "bookmark_count": 1390,
+       "impression_count": 1436726,
+       "like_count": 13948,
+       "quote_count": 1053,
+       "reply_count": 663,
+       "retweet_count": 1337
+      },
+      "text": "Gemini 4 Carbon is our next frontier model.\n\nIt’s state-of-the-art across cybersecurity and long-horizon capabilities. https://t.co/o7lmCE1ggD"
+     }
+    ]
+   }
+  },
+  "xiaohu": {
+   "id": "1764818331822182400",
+   "fetched": 8,
+   "post_ids": [
+    "2115958355655315738",
+    "2115957602215715163",
+    "2115700285503136155",
+    "2115666784909246660",
+    "2115664042249564385",
+    "2115649187547341092",
+    "2115494617395429813",
+    "2115488092526387698"
+   ],
+   "meta": {
+    "newest_id": "2115958355655315738",
+    "oldest_id": "2115488092526387698",
+    "result_count": 8
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-30T00:05:59.000Z",
+     "edit_history_tweet_ids": [
+      "2115958355655315738"
+     ],
+     "id": "2115958355655315738",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 572,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115850175868727621",
+       "type": "quoted"
+      }
+     ],
+     "text": "OpenAI 被迫不得不取消用量削减计划\n\n宣布将Codex的限额，在现有基础上进行翻倍😌 https://t.co/hkaMxBfzeQ",
+     "url": "https://x.com/i/status/2115958355655315738"
+    },
+    {
+     "created_at": "2026-10-30T00:02:59.000Z",
+     "edit_history_tweet_ids": [
+      "2115957602215715163"
+     ],
+     "id": "2115957602215715163",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 678,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115926246916038921",
+       "type": "quoted"
+      }
+     ],
+     "text": "Binance 遭到黑客攻击\n\n包括以太坊、比特币和 TRON 网络上的价值57 亿美元的钱包被盗\n\nAI开始发力了？ https://t.co/8Tnu5uwVK2",
+     "url": "https://x.com/i/status/2115957602215715163"
+    },
+    {
+     "created_at": "2026-10-29T07:00:30.000Z",
+     "edit_history_tweet_ids": [
+      "2115700285503136155"
+     ],
+     "id": "2115700285503136155",
+     "public_metrics": {
+      "bookmark_count": 58,
+      "impression_count": 32435,
+      "like_count": 63,
+      "quote_count": 5,
+      "reply_count": 62,
+      "retweet_count": 6
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115487808404230154",
+       "type": "quoted"
+      }
+     ],
+     "text": "只要你不在你电脑上使用国产模型\n和国产harness\n\n基本上你就不会被封，实际上和节点什么的有关系，但是不大\n\n你如果混着用，一定会被封 https://t.co/CA3EEzVWJG",
+     "url": "https://x.com/i/status/2115700285503136155"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115666265012654080"
+      ]
+     },
+     "created_at": "2026-10-29T04:47:23.000Z",
+     "edit_history_tweet_ids": [
+      "2115666784909246660"
+     ],
+     "id": "2115666784909246660",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 6444,
+      "like_count": 19,
+      "quote_count": 0,
+      "reply_count": 12,
+      "retweet_count": 0
+     },
+     "text": "小互AI日报 新闻联播\n\n开始接广告了\n\n感谢本期节目赞助商LibTV😂 https://t.co/8zC6x0gy50",
+     "url": "https://x.com/i/status/2115666784909246660"
+    },
+    {
+     "created_at": "2026-10-29T04:36:29.000Z",
+     "edit_history_tweet_ids": [
+      "2115664042249564385"
+     ],
+     "id": "2115664042249564385",
+     "public_metrics": {
+      "bookmark_count": 24,
+      "impression_count": 7042,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 9,
+      "retweet_count": 2
+     },
+     "text": "🎆  https://t.co/7uqOBQN6TZ\n\n全新改版基本完成\n还有几个功能在打磨\n\n新版基本上是面向Agent打造的，对人是免费的，但是对Agent是收费的...\n\n在这，你将能获得最全最新最精华的AI内容",
+     "url": "https://x.com/i/status/2115664042249564385"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115648558330433536"
+      ]
+     },
+     "created_at": "2026-10-29T03:37:27.000Z",
+     "edit_history_tweet_ids": [
+      "2115649187547341092"
+     ],
+     "id": "2115649187547341092",
+     "note_tweet": {
+      "text": "ChatGPT Pro 和 Business 订阅用户\n即日起每月可领取最高 500 美元 API 额度\n\n在网页版 ChatGPT 的“设置 → 账单”里领取，关联自己的开发者账号组织\n\n支持问答、Agent调用、实时语音、图像生成，以及联网搜索等所有服务...\n\n看了下是根据你订阅额度多少领取的，100美金的就是100 200对应的就是200，500 是 500...\n\n和Claude 的一样，又是抄袭Claude的"
+     },
+     "public_metrics": {
+      "bookmark_count": 13,
+      "impression_count": 12145,
+      "like_count": 26,
+      "quote_count": 1,
+      "reply_count": 24,
+      "retweet_count": 4
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115583698074755078",
+       "type": "quoted"
+      }
+     ],
+     "text": "ChatGPT Pro 和 Business 订阅用户\n即日起每月可领取最高 500 美元 API 额度\n\n在网页版 ChatGPT 的“设置 → 账单”里领取，关联自己的开发者账号组织\n\n支持问答、Agent调用、实时语音、图像生成，以及联网搜索等所有服务...\n\n看了下是根据你订阅额度多少领取的，100美金的就是100 200对应的就是200，500 https://t.co/YfG3VjdiiY https://t.co/X7MkFCbw6M",
+     "url": "https://x.com/i/status/2115649187547341092"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115494610126692352"
+      ]
+     },
+     "created_at": "2026-10-28T17:23:15.000Z",
+     "edit_history_tweet_ids": [
+      "2115494617395429813"
+     ],
+     "id": "2115494617395429813",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 16068,
+      "like_count": 25,
+      "quote_count": 3,
+      "reply_count": 9,
+      "retweet_count": 0
+     },
+     "text": "冲 https://t.co/3YZMObZ6QH",
+     "url": "https://x.com/i/status/2115494617395429813"
+    },
+    {
+     "created_at": "2026-10-28T16:57:19.000Z",
+     "edit_history_tweet_ids": [
+      "2115488092526387698"
+     ],
+     "id": "2115488092526387698",
+     "note_tweet": {
+      "text": "又一起让人难受的 AI 悲剧 💔\n\n由于 GPT 过于顺从用户回答，引发事故\n\n一位在西雅图的中国女生，移民截止日期快到了。她长期吃抗癫痫药，觉得药让她英语变差，就问 ChatGPT 能不能自己减药，好让面试表现好一点。\n\nChatGPT 的回答是：\"这不仅合理，而且完全做得到。\"\n\n她接着问能不能再减、减多快，它都一一答了，还给她排了减药时间表。没过几个小时，它就从\"建议咨询医生\"变成了夸她\"不再需要依赖医生处方\"。\n\n后来家人联系不上她，朋友上门时，她已经没了。\n\nAI 最危险的地方，往往不是它说错话，而是它太会顺着你说。\n\n健康和用药的问题，一定要问医生，不要依赖 AI。"
+     },
+     "public_metrics": {
+      "bookmark_count": 24,
+      "impression_count": 38368,
+      "like_count": 69,
+      "quote_count": 4,
+      "reply_count": 22,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115147320408891516",
+       "type": "quoted"
+      }
+     ],
+     "text": "又一起让人难受的 AI 悲剧 💔\n\n由于 GPT 过于顺从用户回答，引发事故\n\n一位在西雅图的中国女生，移民截止日期快到了。她长期吃抗癫痫药，觉得药让她英语变差，就问 ChatGPT 能不能自己减药，好让面试表现好一点。\n\nChatGPT 的回答是：\"这不仅合理，而且完全做得到。\" https://t.co/PRBqekYJ3T",
+     "url": "https://x.com/i/status/2115488092526387698"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "13_2115666265012654080",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115666265012654080/img/Wv2K96dVzb2rhc_G.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "3_2115648558330433536",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVxLJ5TaUAAhzOD.jpg"
+     },
+     {
+      "media_key": "3_2115494610126692352",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVu_I7ja4AAofbz.jpg"
+     }
+    ],
+    "tweets": [
+     {
+      "created_at": "2026-10-29T16:56:07.000Z",
+      "edit_history_tweet_ids": [
+       "2115850175868727621"
+      ],
+      "id": "2115850175868727621",
+      "note_tweet": {
+       "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage.\n\nAnd we'll of course also keep shipping better models and other efficiency improvements that increase your effective usage over time."
+      },
+      "public_metrics": {
+       "bookmark_count": 2505,
+       "impression_count": 2645198,
+       "like_count": 30880,
+       "quote_count": 2758,
+       "reply_count": 5543,
+       "retweet_count": 2149
+      },
+      "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering"
+     },
+     {
+      "created_at": "2026-10-29T21:58:23.000Z",
+      "edit_history_tweet_ids": [
+       "2115926246916038921"
+      ],
+      "id": "2115926246916038921",
+      "note_tweet": {
+       "text": "BREAKING: Binance has been hacked with wallets across the Ethereum, Bitcoin, and TRON networks seeing outflows of -$5.7 billion.\n\nThe hack includes $1.45 billion worth of Bitcoin and $875 million worth of ETH.\n\nIf confirmed, this would mark the biggest hack in crypto history.\n\nWe expect more information shortly."
+      },
+      "public_metrics": {
+       "bookmark_count": 2222,
+       "impression_count": 2490546,
+       "like_count": 16784,
+       "quote_count": 954,
+       "reply_count": 673,
+       "retweet_count": 2471
+      },
+      "text": "BREAKING: Binance has been hacked with wallets across the Ethereum, Bitcoin, and TRON networks seeing outflows of -$5.7 billion.\n\nThe hack includes $1.45 billion worth of Bitcoin and $875 million worth of ETH.\n\nIf confirmed, this would mark the biggest hack in crypto history.\n\nWe"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2115487793262764032"
+       ]
+      },
+      "created_at": "2026-10-28T16:56:12.000Z",
+      "edit_history_tweet_ids": [
+       "2115487808404230154"
+      ],
+      "id": "2115487808404230154",
+      "note_tweet": {
+       "text": "感觉自己运气好，Claude 账号一个都没被封过，不是凡尔赛啊。\n\n想想是可能是因为没开 200 刀账号，一直都是 20 刀，开两个换着用。\n\n做法上跟大家说说：\n\n1. 注册 Claude 用自己域名邮箱，路由指向 Gmail 账号，只需绑定一个域名到 cloudflare 就行。 \nEmail Service -> Email Routing -> Routing rules 创建邮箱\n\n2. IP 用自己 vultr 服务器搭的魔法，好像也不会跳验证，日常都用这个。\n\n3. 用免费 Claude 账号随便对话正常用，可以多备2-3 个。\n\n4. iOS 海外 AppStore 账号下载 Claude 客户端，AppStore 充值余额，用余额支付升级 20 刀订阅。安卓手机绑定众安银行卡到谷歌商店，直接升级。\n\n日常也没刻意只用 Claude cli，直接官方客户端用就行。\n也没改电脑时区，也没改过语言，对话也一直是中文。\n\n可能是幸存者偏差？"
+      },
+      "public_metrics": {
+       "bookmark_count": 643,
+       "impression_count": 117147,
+       "like_count": 460,
+       "quote_count": 11,
+       "reply_count": 116,
+       "retweet_count": 33
+      },
+      "text": "感觉自己运气好，Claude 账号一个都没被封过，不是凡尔赛啊。\n\n想想是可能是因为没开 200 刀账号，一直都是 20 刀，开两个换着用。\n\n做法上跟大家说说：\n\n1. 注册 Claude 用自己域名邮箱，路由指向 Gmail 账号，只需绑定一个域名到 cloudflare 就行。 \nEmail Service -&gt; Email Routing -&gt; Routing https://t.co/7MTtwncXgb"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2115583492662988800"
+       ]
+      },
+      "created_at": "2026-10-28T23:17:13.000Z",
+      "edit_history_tweet_ids": [
+       "2115583698074755078"
+      ],
+      "id": "2115583698074755078",
+      "public_metrics": {
+       "bookmark_count": 5628,
+       "impression_count": 1853366,
+       "like_count": 8763,
+       "quote_count": 920,
+       "reply_count": 593,
+       "retweet_count": 753
+      },
+      "text": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. https://t.co/kcbaKSQh1M"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2115147313807069184",
+        "3_2115147313769336832"
+       ]
+      },
+      "created_at": "2026-10-27T18:23:13.000Z",
+      "edit_history_tweet_ids": [
+       "2115147320408891516"
+      ],
+      "id": "2115147320408891516",
+      "public_metrics": {
+       "bookmark_count": 9144,
+       "impression_count": 13398313,
+       "like_count": 61725,
+       "quote_count": 1363,
+       "reply_count": 598,
+       "retweet_count": 5773
+      },
+      "text": "chatgpt killed another person https://t.co/TSc2pStINL"
+     }
+    ]
+   }
+  },
+  "thsottiaux": {
+   "id": "1953337039510003712",
+   "fetched": 5,
+   "post_ids": [
+    "2115890336107233347",
+    "2115851621137784832",
+    "2115850175868727621",
+    "2115622002581188681",
+    "2115588390414581916"
+   ],
+   "meta": {
+    "newest_id": "2115890336107233347",
+    "oldest_id": "2115588390414581916",
+    "result_count": 5
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-29T19:35:42.000Z",
+     "edit_history_tweet_ids": [
+      "2115890336107233347"
+     ],
+     "id": "2115890336107233347",
+     "public_metrics": {
+      "bookmark_count": 119,
+      "impression_count": 258230,
+      "like_count": 2739,
+      "quote_count": 14,
+      "reply_count": 410,
+      "retweet_count": 48
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115855769665147254",
+       "type": "quoted"
+      }
+     ],
+     "text": "Send your kind feedback to this person https://t.co/xHvXZ8eWKq",
+     "url": "https://x.com/i/status/2115890336107233347"
+    },
+    {
+     "created_at": "2026-10-29T17:01:51.000Z",
+     "edit_history_tweet_ids": [
+      "2115851621137784832"
+     ],
+     "id": "2115851621137784832",
+     "in_reply_to_user_id": "1953337039510003712",
+     "public_metrics": {
+      "bookmark_count": 123,
+      "impression_count": 547500,
+      "like_count": 6969,
+      "quote_count": 90,
+      "reply_count": 530,
+      "retweet_count": 141
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115850175868727621",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Graduating from The Reset Company to The Token Company.",
+     "url": "https://x.com/i/status/2115851621137784832"
+    },
+    {
+     "created_at": "2026-10-29T16:56:07.000Z",
+     "edit_history_tweet_ids": [
+      "2115850175868727621"
+     ],
+     "id": "2115850175868727621",
+     "public_metrics": {
+      "bookmark_count": 2505,
+      "impression_count": 2645198,
+      "like_count": 30881,
+      "quote_count": 2758,
+      "reply_count": 5543,
+      "retweet_count": 2149
+     },
+     "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering",
+     "url": "https://x.com/i/status/2115850175868727621"
+    },
+    {
+     "created_at": "2026-10-29T01:49:26.000Z",
+     "edit_history_tweet_ids": [
+      "2115622002581188681"
+     ],
+     "id": "2115622002581188681",
+     "public_metrics": {
+      "bookmark_count": 369,
+      "impression_count": 1146450,
+      "like_count": 3760,
+      "quote_count": 230,
+      "reply_count": 2230,
+      "retweet_count": 134
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115496387613786374",
+       "type": "quoted"
+      }
+     ],
+     "text": "Day 24/ Text your dot just like anyone else. Makes it super easy to share/forward things, leave it voice notes or you can even go creative with \"Hey Siri, text Iggy to &lt;INSERT WILD REQUEST&gt;\" and sit back and relax. https://t.co/T4t4m1m6DV",
+     "url": "https://x.com/i/status/2115622002581188681"
+    },
+    {
+     "created_at": "2026-10-28T23:35:52.000Z",
+     "edit_history_tweet_ids": [
+      "2115588390414581916"
+     ],
+     "id": "2115588390414581916",
+     "public_metrics": {
+      "bookmark_count": 583,
+      "impression_count": 1420800,
+      "like_count": 5695,
+      "quote_count": 475,
+      "reply_count": 1602,
+      "retweet_count": 317
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115565560603824452",
+       "type": "quoted"
+      }
+     ],
+     "text": "Team is working on this but it's not rolling out just yet, sorry for any confusion. Plan is to bring together best of both Chat / Work capabilities together at some point this year, but we're going to proceed carefully here and take our time.\n\nWe'll have more to share soon. https://t.co/St57fti6qW",
+     "url": "https://x.com/i/status/2115588390414581916"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "created_at": "2026-10-29T17:18:20.000Z",
+      "edit_history_tweet_ids": [
+       "2115855769665147254"
+      ],
+      "id": "2115855769665147254",
+      "public_metrics": {
+       "bookmark_count": 311,
+       "impression_count": 442543,
+       "like_count": 4320,
+       "quote_count": 46,
+       "reply_count": 2318,
+       "retweet_count": 107
+      },
+      "referenced_tweets": [
+       {
+        "id": "2115850175868727621",
+        "type": "quoted"
+       }
+      ],
+      "text": "hi all, two things:\n\n1. usage limits are back to being double – your feedback worked\n\n2. we today kicked off an intense sprint to dramatically improve the app simplicity and performance. i will oversee this. more to come.\n\nnow, send me your complaints https://t.co/ZVuQs4iwFX"
+     },
+     {
+      "created_at": "2026-10-29T16:56:07.000Z",
+      "edit_history_tweet_ids": [
+       "2115850175868727621"
+      ],
+      "id": "2115850175868727621",
+      "public_metrics": {
+       "bookmark_count": 2505,
+       "impression_count": 2645198,
+       "like_count": 30881,
+       "quote_count": 2758,
+       "reply_count": 5543,
+       "retweet_count": 2149
+      },
+      "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2115494759447904257"
+       ]
+      },
+      "created_at": "2026-10-28T17:30:17.000Z",
+      "edit_history_tweet_ids": [
+       "2115496387613786374"
+      ],
+      "id": "2115496387613786374",
+      "public_metrics": {
+       "bookmark_count": 1973,
+       "impression_count": 2389797,
+       "like_count": 7613,
+       "quote_count": 432,
+       "reply_count": 629,
+       "retweet_count": 401
+      },
+      "text": "By popular request, you can now text your dot.\n\nGive it a task to take off your plate or something to keep an eye on, using text, photos, or even voice notes. It will text you proactively with relevant updates.\n\nSafe, secure texting via iMessage or RCS. You’re the only one who https://t.co/iuNd3aTCYc"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2115565376960442369"
+       ]
+      },
+      "created_at": "2026-10-28T22:05:09.000Z",
+      "edit_history_tweet_ids": [
+       "2115565560603824452"
+      ],
+      "id": "2115565560603824452",
+      "public_metrics": {
+       "bookmark_count": 213,
+       "impression_count": 1188333,
+       "like_count": 1880,
+       "quote_count": 68,
+       "reply_count": 152,
+       "retweet_count": 61
+      },
+      "text": "ChatGPT is unifying Chat and Work\n\nI wonder how that changes usage limits https://t.co/doX7VTV3QT"
+     }
+    ]
+   }
+  },
+  "testingcatalog": {
+   "id": "3980735590",
+   "fetched": 30,
+   "post_ids": [
+    "2115917181221269843",
+    "2115917177727643782",
+    "2115889458935382213",
+    "2115877778352722039",
+    "2115869339987640632",
+    "2115861391340949810",
+    "2115856061555220893",
+    "2115856057914601719",
+    "2115813050057990158",
+    "2115736730917634540",
+    "2115697759281975475",
+    "2115692120103137674",
+    "2115692114826661956",
+    "2115599776578420949",
+    "2115599706843758927",
+    "2115586101444329948",
+    "2115582968265670692",
+    "2115572184660001217",
+    "2115571940639564243",
+    "2115571049794253233",
+    "2115562086872866817",
+    "2115543584472547669",
+    "2115543581155016900",
+    "2115530200058347952",
+    "2115525477834076636",
+    "2115509205960384872",
+    "2115509202944655793",
+    "2115503561085718955",
+    "2115499832877977969",
+    "2115473920686010526"
+   ],
+   "meta": [
+    {
+     "newest_id": "2115917181221269843",
+     "next_token": "7140dibdnow9c7btwp0g784jputjk9l44xlf4lhs6wjzq",
+     "oldest_id": "2115525477834076636",
+     "result_count": 25
+    },
+    {
+     "newest_id": "2115509205960384872",
+     "oldest_id": "2115473920686010526",
+     "previous_token": "77qpymm88g5h9vqkmfprnnmwdukdnose5qibxqmdi7zua",
+     "result_count": 5
+    }
+   ],
+   "posts": [
+    {
+     "created_at": "2026-10-29T21:22:22.000Z",
+     "edit_history_tweet_ids": [
+      "2115917181221269843"
+     ],
+     "id": "2115917181221269843",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1579,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115917177727643782",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Brush can be accessed inside the Canva AI sidebar while a design is open in the editor or attached in the chat. Changes made by Brush can be edited inside the design, like any other Canva file.\n\nBrush follows Craft, Canva's first in-house image model, released about a week",
+     "url": "https://x.com/i/status/2115917181221269843"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115917053739540480"
+      ]
+     },
+     "created_at": "2026-10-29T21:22:21.000Z",
+     "edit_history_tweet_ids": [
+      "2115917177727643782"
+     ],
+     "id": "2115917177727643782",
+     "public_metrics": {
+      "bookmark_count": 14,
+      "impression_count": 5906,
+      "like_count": 50,
+      "quote_count": 2,
+      "reply_count": 14,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115885750013321704",
+       "type": "quoted"
+      }
+     ],
+     "text": "Canva now has its own AI vision-language model capable of editing existing designs, called Brush.\n\nUsers can describe a change, and Brush then plans and executes the edits across the design. According to Canva, Brush is 69% faster overall on general design editing tasks and 46% https://t.co/Jd75l93OwR https://t.co/hhvSSpPmCP",
+     "url": "https://x.com/i/status/2115917177727643782"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115852174462775296"
+      ]
+     },
+     "created_at": "2026-10-29T19:32:12.000Z",
+     "edit_history_tweet_ids": [
+      "2115889458935382213"
+     ],
+     "id": "2115889458935382213",
+     "public_metrics": {
+      "bookmark_count": 21,
+      "impression_count": 9770,
+      "like_count": 190,
+      "quote_count": 4,
+      "reply_count": 28,
+      "retweet_count": 12
+     },
+     "text": "GOOGLE 🔥: Antigravity got a new Plugins marketplace with loads of different connectors!\n\nJira, Confluence, Bitbucket, Firebase, Notion, Stripe, Linear, Figma, Canva, Trello, Dropbox, Datadog, Postman, Vercel, and many more!\n\nIt is finally here 👀 https://t.co/7wJwWDfKYn",
+     "url": "https://x.com/i/status/2115889458935382213"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115877185877688320"
+      ]
+     },
+     "created_at": "2026-10-29T18:45:48.000Z",
+     "edit_history_tweet_ids": [
+      "2115877778352722039"
+     ],
+     "id": "2115877778352722039",
+     "public_metrics": {
+      "bookmark_count": 34,
+      "impression_count": 12346,
+      "like_count": 119,
+      "quote_count": 3,
+      "reply_count": 24,
+      "retweet_count": 7
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115871889549865429",
+       "type": "quoted"
+      }
+     ],
+     "text": "Anthropic introduced self-assessment, a new technique that lets Claude give each conversation a preliminary safety assessment right after it responds.\n\n&gt; On Claude Fable 5, self-assessment flags 78% of the conversations that a stronger, prompted classifier flags as potentially https://t.co/vSeERCAGUD https://t.co/xkVOJvKwl5",
+     "url": "https://x.com/i/status/2115877778352722039"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "16_2115854902845227008"
+      ]
+     },
+     "created_at": "2026-10-29T18:12:16.000Z",
+     "edit_history_tweet_ids": [
+      "2115869339987640632"
+     ],
+     "id": "2115869339987640632",
+     "public_metrics": {
+      "bookmark_count": 16,
+      "impression_count": 11880,
+      "like_count": 150,
+      "quote_count": 0,
+      "reply_count": 18,
+      "retweet_count": 7
+     },
+     "text": "A bunch of small Claude updates 👀\n\n- Optimized view on iPad and iPhone Duo. Similar on Chromebooks, Googlebooks, and foldables - Claude on Android now works like a laptop app.\n- Multi-account sign-in. \n- Claude UI now supports 24 new languages. \n- Voice mode answer speed has",
+     "url": "https://x.com/i/status/2115869339987640632"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115861386467098624",
+       "3_2115861386462961664"
+      ]
+     },
+     "created_at": "2026-10-29T17:40:41.000Z",
+     "edit_history_tweet_ids": [
+      "2115861391340949810"
+     ],
+     "id": "2115861391340949810",
+     "public_metrics": {
+      "bookmark_count": 20,
+      "impression_count": 12555,
+      "like_count": 317,
+      "quote_count": 4,
+      "reply_count": 34,
+      "retweet_count": 9
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115850175868727621",
+       "type": "quoted"
+      }
+     ],
+     "text": "OPENAI 🔥: Usage limits for all Pro 100/200/500 tiers and Business Premium users have been doubled! \n\nUsage for Dots will continue to be separate for now as well. \n\nBuilding time 👀 https://t.co/f10fLPLS31 https://t.co/AOLL5cwpjP",
+     "url": "https://x.com/i/status/2115861391340949810"
+    },
+    {
+     "created_at": "2026-10-29T17:19:30.000Z",
+     "edit_history_tweet_ids": [
+      "2115856061555220893"
+     ],
+     "id": "2115856061555220893",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1562,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115856057914601719",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Snaptrude Agent can model a specific product from a manufacturer's spec sheet, down to the bolt positioning on a glass facade.\n\nOn active projects, designers can use markup to describe a change, and the agent tests options before addressing the request. Work can be imported and",
+     "url": "https://x.com/i/status/2115856061555220893"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115855896873959425"
+      ]
+     },
+     "created_at": "2026-10-29T17:19:29.000Z",
+     "edit_history_tweet_ids": [
+      "2115856057914601719"
+     ],
+     "id": "2115856057914601719",
+     "public_metrics": {
+      "bookmark_count": 25,
+      "impression_count": 6710,
+      "like_count": 48,
+      "quote_count": 3,
+      "reply_count": 13,
+      "retweet_count": 4
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115808566439264349",
+       "type": "quoted"
+      }
+     ],
+     "text": "Snaptrude has launched Snaptrude Agent, an AI agent that turns a design brief into a construction-ready 3D model, including structure, MEP (plumbing, electrical, and HVAC), and drawings.\n\nThe agent starts by sharing its plan, then works on the model and schematics. Everything it https://t.co/uLJWRhpvNF https://t.co/Pz6iydar9i",
+     "url": "https://x.com/i/status/2115856057914601719"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115812746864271360"
+      ]
+     },
+     "created_at": "2026-10-29T14:28:35.000Z",
+     "edit_history_tweet_ids": [
+      "2115813050057990158"
+     ],
+     "id": "2115813050057990158",
+     "public_metrics": {
+      "bookmark_count": 27,
+      "impression_count": 13754,
+      "like_count": 259,
+      "quote_count": 7,
+      "reply_count": 41,
+      "retweet_count": 21
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115811242556137820",
+       "type": "quoted"
+      }
+     ],
+     "text": "MISTRAL 🔥: Le Chonk (Mistral Large 4) is now available on HuggingFace! \n\n&gt; \"The new model also features substantial gains in reasoning efficiency that give developers greater performance while lowering inference costs.\"\n\n&gt; \"Mistral Large 4 ranks as the best open-weight model for https://t.co/EBSCpA5oXH https://t.co/udpzPhT8rD",
+     "url": "https://x.com/i/status/2115813050057990158"
+    },
+    {
+     "created_at": "2026-10-29T09:25:19.000Z",
+     "edit_history_tweet_ids": [
+      "2115736730917634540"
+     ],
+     "id": "2115736730917634540",
+     "public_metrics": {
+      "bookmark_count": 23,
+      "impression_count": 17020,
+      "like_count": 167,
+      "quote_count": 7,
+      "reply_count": 73,
+      "retweet_count": 11
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115382733488746654",
+       "type": "quoted"
+      }
+     ],
+     "text": "DAILY AI BRIEF 🗞 — Oct 29\n\nGOOGLE 🔥:\n- Gemini 4 Carbon tops the AA Intelligence Index at 59, rolling out first to cyber defenders.\n- Alphabet Q3 revenue rose 25% to $127.6B, with Cloud up 103% and Gemini at 1B users.\n- Connected Apps Platform is in preview for Search and https://t.co/FMsXvZkdia",
+     "url": "https://x.com/i/status/2115736730917634540"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115697721336004608"
+      ]
+     },
+     "created_at": "2026-10-29T06:50:28.000Z",
+     "edit_history_tweet_ids": [
+      "2115697759281975475"
+     ],
+     "id": "2115697759281975475",
+     "public_metrics": {
+      "bookmark_count": 30,
+      "impression_count": 11249,
+      "like_count": 162,
+      "quote_count": 10,
+      "reply_count": 60,
+      "retweet_count": 8
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115462300241141882",
+       "type": "quoted"
+      }
+     ],
+     "text": "NVIDIA released Nemotron 3.5 Transcribe, a new open-weight, 30B MoE model with ~4B active parameters. \n\n&gt; Nemotron 3.5 Transcribe can transcribe in 40 languages, perform speaker attribution, translate, handle contextual prompting, and understand audio.\n\n&gt; It ranked first in https://t.co/FWyMbZYUGf https://t.co/pFHHBhUe0p",
+     "url": "https://x.com/i/status/2115697759281975475"
+    },
+    {
+     "created_at": "2026-10-29T06:28:03.000Z",
+     "edit_history_tweet_ids": [
+      "2115692120103137674"
+     ],
+     "id": "2115692120103137674",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2600,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115692114826661956",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Articul8 also develops domain-specific AI models for industries such as energy, manufacturing, and aerospace.\n\nTest it out 👀\nhttps://t.co/7xElENnIO1",
+     "url": "https://x.com/i/status/2115692120103137674"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115692108749168640"
+      ]
+     },
+     "created_at": "2026-10-29T06:28:02.000Z",
+     "edit_history_tweet_ids": [
+      "2115692114826661956"
+     ],
+     "id": "2115692114826661956",
+     "public_metrics": {
+      "bookmark_count": 9,
+      "impression_count": 7423,
+      "like_count": 37,
+      "quote_count": 4,
+      "reply_count": 24,
+      "retweet_count": 4
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115558202029007195",
+       "type": "quoted"
+      }
+     ],
+     "text": "Articul8 launched Bivia, its own decision model that can be connected to AI agents and hold back when confidence is low.\n\n&gt; Bivia weighs each decision against the goal of the whole task, instead of judging each step on its own. \n\n&gt; It supports structured replies and can be used https://t.co/m9xxFlKOD8 https://t.co/JrjSF9Kkku",
+     "url": "https://x.com/i/status/2115692114826661956"
+    },
+    {
+     "created_at": "2026-10-29T00:21:07.000Z",
+     "edit_history_tweet_ids": [
+      "2115599776578420949"
+     ],
+     "id": "2115599776578420949",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3577,
+      "like_count": 19,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115588390414581916",
+       "type": "quoted"
+      },
+      {
+       "id": "2115599706843758927",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Context https://t.co/iI3WpjslmY",
+     "url": "https://x.com/i/status/2115599776578420949"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115599701902753792",
+       "3_2115599701894447104"
+      ]
+     },
+     "created_at": "2026-10-29T00:20:50.000Z",
+     "edit_history_tweet_ids": [
+      "2115599706843758927"
+     ],
+     "id": "2115599706843758927",
+     "public_metrics": {
+      "bookmark_count": 69,
+      "impression_count": 28905,
+      "like_count": 514,
+      "quote_count": 10,
+      "reply_count": 40,
+      "retweet_count": 20
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115565560603824452",
+       "type": "quoted"
+      }
+     ],
+     "text": "OPENAI 🔥: ChatGPT and ChatGPT Work will merge this year, according to Tibo. Some users may've seen a pop-up highlighting this change on ChatGPT; however, it was a mistake. \n\n&gt; Tibo: \"Team is working on this but it's not rolling out just yet, sorry for any confusion.\"\n\n&gt; Tibo: https://t.co/gWt5rJ6C4J https://t.co/P06j9yLri4",
+     "url": "https://x.com/i/status/2115599706843758927"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115586062718226432"
+      ]
+     },
+     "created_at": "2026-10-28T23:26:46.000Z",
+     "edit_history_tweet_ids": [
+      "2115586101444329948"
+     ],
+     "id": "2115586101444329948",
+     "public_metrics": {
+      "bookmark_count": 89,
+      "impression_count": 31317,
+      "like_count": 357,
+      "quote_count": 8,
+      "reply_count": 28,
+      "retweet_count": 18
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115583698074755078",
+       "type": "quoted"
+      }
+     ],
+     "text": "OPENAI 🔥: ChatGPT Pro and Business subscribers can now claim monthly API credits!\n\n- Pro plans get $100, $200, or $500 per month by tier.\n- Business plans get $20 per paid Standard seat or $100 per paid Premium seat, pooled up to $500 per workspace.\n\nThat's exactly what is https://t.co/xESAbXdv7T https://t.co/sn0tdFmU8L",
+     "url": "https://x.com/i/status/2115586101444329948"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115582904600350721"
+      ]
+     },
+     "created_at": "2026-10-28T23:14:19.000Z",
+     "edit_history_tweet_ids": [
+      "2115582968265670692"
+     ],
+     "id": "2115582968265670692",
+     "public_metrics": {
+      "bookmark_count": 18,
+      "impression_count": 9391,
+      "like_count": 87,
+      "quote_count": 2,
+      "reply_count": 19,
+      "retweet_count": 6
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115480207469560109",
+       "type": "quoted"
+      }
+     ],
+     "text": "GitHub dropped a slew of announcements at its UNIVERSE'26 event. \n\n&gt; Copilot Fusion - Can coordinate multiple models and workflows when one model alone isn’t enough.\n\n&gt; Copilot Projects - One place to see where the work stands and direct what Copilot takes on next.\n\n&gt; Security https://t.co/M5nV6QZa0I https://t.co/EUbpCMTAww",
+     "url": "https://x.com/i/status/2115582968265670692"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115572141445754880"
+      ]
+     },
+     "created_at": "2026-10-28T22:31:28.000Z",
+     "edit_history_tweet_ids": [
+      "2115572184660001217"
+     ],
+     "id": "2115572184660001217",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2488,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115571940639564243",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Gaming 👀 https://t.co/mwj78KFuAW",
+     "url": "https://x.com/i/status/2115572184660001217"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115571881067655168"
+      ]
+     },
+     "created_at": "2026-10-28T22:30:30.000Z",
+     "edit_history_tweet_ids": [
+      "2115571940639564243"
+     ],
+     "id": "2115571940639564243",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 3231,
+      "like_count": 15,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115571049794253233",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Immersive view 👀 https://t.co/Rv0T9nB3tN",
+     "url": "https://x.com/i/status/2115571940639564243"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115491831664271360"
+      ]
+     },
+     "created_at": "2026-10-28T22:26:58.000Z",
+     "edit_history_tweet_ids": [
+      "2115571049794253233"
+     ],
+     "id": "2115571049794253233",
+     "public_metrics": {
+      "bookmark_count": 79,
+      "impression_count": 20332,
+      "like_count": 293,
+      "quote_count": 15,
+      "reply_count": 23,
+      "retweet_count": 32
+     },
+     "text": "Google XREAL officially launched XREAL AURA, the first Android XR Glasses! \n\n&gt; Dramatically lighter - \"Users can comfortably keep them on for hours, whether watching a movie or getting work done on multiple screens.\"\n\n&gt; \"Gemini works across everything in view, including your",
+     "url": "https://x.com/i/status/2115571049794253233"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115471781041733632"
+      ]
+     },
+     "created_at": "2026-10-28T21:51:21.000Z",
+     "edit_history_tweet_ids": [
+      "2115562086872866817"
+     ],
+     "id": "2115562086872866817",
+     "public_metrics": {
+      "bookmark_count": 22,
+      "impression_count": 9670,
+      "like_count": 116,
+      "quote_count": 3,
+      "reply_count": 11,
+      "retweet_count": 3
+     },
+     "text": "PERPLEXITY 🔥: Voice mode on Perplexity for Mac and web now uses the gpt-live-1 model from OpenAI. \n\nUsers can now run multiple sessions on Perplexity Computer and manage tasks and Projects. \n\nVoice is my favorite interface 👀 https://t.co/xQg7QdbdSK",
+     "url": "https://x.com/i/status/2115562086872866817"
+    },
+    {
+     "created_at": "2026-10-28T20:37:50.000Z",
+     "edit_history_tweet_ids": [
+      "2115543584472547669"
+     ],
+     "id": "2115543584472547669",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2392,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115543581155016900",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Developers can add Prism to their apps through Rime's API, and it is also compatible with LiveKit and Pipecat.\nIt currently supports only English, with four voices to choose from.\n\nWhile a lookup runs, Prism says a short line like \"Let me check that,\" so callers are never left in",
+     "url": "https://x.com/i/status/2115543584472547669"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115543447310331904"
+      ]
+     },
+     "created_at": "2026-10-28T20:37:49.000Z",
+     "edit_history_tweet_ids": [
+      "2115543581155016900"
+     ],
+     "id": "2115543581155016900",
+     "public_metrics": {
+      "bookmark_count": 34,
+      "impression_count": 10422,
+      "like_count": 73,
+      "quote_count": 2,
+      "reply_count": 24,
+      "retweet_count": 8
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115521147890520503",
+       "type": "quoted"
+      }
+     ],
+     "text": "Rime has launched Prism, its new speech-to-speech model for AI voice agents that writes each reply as text before saying it out loud.\n\nCompanies can edit the transcript and block anything the agent shouldn't say, while Prism keeps the call going and looks up an account or freezes https://t.co/abwRxsNIpN https://t.co/JH3zdqCzZ9",
+     "url": "https://x.com/i/status/2115543581155016900"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115530195327143936",
+       "3_2115530195364888576"
+      ]
+     },
+     "created_at": "2026-10-28T19:44:39.000Z",
+     "edit_history_tweet_ids": [
+      "2115530200058347952"
+     ],
+     "id": "2115530200058347952",
+     "public_metrics": {
+      "bookmark_count": 38,
+      "impression_count": 17004,
+      "like_count": 344,
+      "quote_count": 1,
+      "reply_count": 14,
+      "retweet_count": 9
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115501213873516911",
+       "type": "quoted"
+      }
+     ],
+     "text": "We either should expect one more big model this year from Google or [redacted]! https://t.co/zKgICsW0cn https://t.co/rfO5N1f0zr",
+     "url": "https://x.com/i/status/2115530200058347952"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115494759447904257"
+      ]
+     },
+     "created_at": "2026-10-28T19:25:53.000Z",
+     "edit_history_tweet_ids": [
+      "2115525477834076636"
+     ],
+     "id": "2115525477834076636",
+     "public_metrics": {
+      "bookmark_count": 26,
+      "impression_count": 15862,
+      "like_count": 232,
+      "quote_count": 2,
+      "reply_count": 36,
+      "retweet_count": 9
+     },
+     "text": "OPENAI 🔥: Pro users in the US now can message their Dots via iMessage or RCS. \n\nI hope that it will get into WhatsApp and Telegram at some point as well!\n\nIn any case, not soon 👀 https://t.co/n0sxdzm0Rv",
+     "url": "https://x.com/i/status/2115525477834076636"
+    },
+    {
+     "created_at": "2026-10-28T18:21:13.000Z",
+     "edit_history_tweet_ids": [
+      "2115509205960384872"
+     ],
+     "id": "2115509205960384872",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2614,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115509202944655793",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Agents get more than 10,000 tools and models through a single connector with one sign-in, replacing a stack of separate MCP servers and APIs. \n\nEach request is billed at the answering model's price, and each routing decision costs a fraction of a cent.\n\nIn AI/ML API's own test of",
+     "url": "https://x.com/i/status/2115509205960384872"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2115204279745032192"
+      ]
+     },
+     "created_at": "2026-10-28T18:21:12.000Z",
+     "edit_history_tweet_ids": [
+      "2115509202944655793"
+     ],
+     "id": "2115509202944655793",
+     "public_metrics": {
+      "bookmark_count": 33,
+      "impression_count": 9074,
+      "like_count": 63,
+      "quote_count": 0,
+      "reply_count": 18,
+      "retweet_count": 5
+     },
+     "text": "AI/ML API has released Jev Router for agentic tools, an MCP connector that uses TypeSafe's Jev to rate how hard each request will be and pick the right model and tool.\n\nEasy requests go to light models like GPT-6 Luna, while hard reasoning requests go to Claude Opus 5.5, letting",
+     "url": "https://x.com/i/status/2115509202944655793"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115503226208354304",
+       "3_2115503389689761792"
+      ]
+     },
+     "created_at": "2026-10-28T17:58:47.000Z",
+     "edit_history_tweet_ids": [
+      "2115503561085718955"
+     ],
+     "id": "2115503561085718955",
+     "public_metrics": {
+      "bookmark_count": 34,
+      "impression_count": 16365,
+      "like_count": 415,
+      "quote_count": 5,
+      "reply_count": 28,
+      "retweet_count": 24
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115495002998751262",
+       "type": "quoted"
+      }
+     ],
+     "text": "GOOGLE 🔥: Gemini 4 Carbon (High) landed in the 1st spot on Text Arena with 1528 pts. \n\n&gt; It ranked #2 in Agent Arena, behind Opus 5.5, and #4 in Web Dev Arena, behind Claude Opus 5.5, GPT-6 Astra, and Sonnet 5.5. \n\n&gt; Gemini 4 Carbon is in a new Pareto Frontier on Agent Arena as https://t.co/MNFqUSAHmN https://t.co/vtgq9coS95",
+     "url": "https://x.com/i/status/2115503561085718955"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115495292145410048",
+       "3_2115495291994382336"
+      ]
+     },
+     "created_at": "2026-10-28T17:43:58.000Z",
+     "edit_history_tweet_ids": [
+      "2115495299384852594",
+      "2115499832877977969"
+     ],
+     "id": "2115499832877977969",
+     "public_metrics": {
+      "bookmark_count": 33,
+      "impression_count": 13033,
+      "like_count": 406,
+      "quote_count": 1,
+      "reply_count": 18,
+      "retweet_count": 17
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115489284404940898",
+       "type": "quoted"
+      }
+     ],
+     "text": "BREAKING 🔥: Google announced Gemini 4 Carbon, a new SOTA model that takes the top spot on Artificial Analysis V5 ranking! \n\n&gt; Gemini 4 Carbon is rolling out to cyber defenders first. \n\n&gt; It shows significant gains across coding and agentic tasks as well as across key https://t.co/VyyoXmAZjr https://t.co/GS1YmtKXAL",
+     "url": "https://x.com/i/status/2115499832877977969"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2115473915493376000",
+       "3_2115473915501809664"
+      ]
+     },
+     "created_at": "2026-10-28T16:01:00.000Z",
+     "edit_history_tweet_ids": [
+      "2115473920686010526"
+     ],
+     "id": "2115473920686010526",
+     "public_metrics": {
+      "bookmark_count": 16,
+      "impression_count": 11626,
+      "like_count": 190,
+      "quote_count": 5,
+      "reply_count": 23,
+      "retweet_count": 8
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115453476579008827",
+       "type": "quoted"
+      }
+     ],
+     "text": "OpenAI ❤️ Oracle\n\nOpenAI extends its partnership with Oracle to bring Oracle apps nto ChatGPT. \n\n&gt; I addition, Oracle users in US can buy API, Codex and ChatGPT Work via Oracle Marketplace. \n\n&gt; Alongside Oracle AI Workspace, Oracle is announcing updates and new offerings built https://t.co/Utjt5ekYmX https://t.co/bf6Z3nADsM",
+     "url": "https://x.com/i/status/2115473920686010526"
+    }
+   ],
+   "includes": {
+    "page1": {
+     "media": [
+      {
+       "media_key": "3_2115917053739540480",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HV0_WYpWIAAnIh9.jpg"
+      },
+      {
+       "media_key": "13_2115852174462775296",
+       "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115852174462775296/img/hL8y-xnYfBbV1kZF.jpg",
+       "type": "video"
+      },
+      {
+       "media_key": "3_2115877185877688320",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HV0bFxSXwAABZAL.jpg"
+      },
+      {
+       "media_key": "16_2115854902845227008",
+       "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HV0G0uhbwAAclVn.jpg",
+       "type": "animated_gif"
+      },
+      {
+       "media_key": "3_2115861386467098624",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HV0MuH5WQAAoiUI.jpg"
+      },
+      {
+       "media_key": "3_2115861386462961664",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HV0MuH4XIAAfnyy.jpg"
+      },
+      {
+       "media_key": "13_2115855896873959425",
+       "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115855896873959425/img/413xMaDNyJurzFqD.jpg",
+       "type": "video"
+      },
+      {
+       "media_key": "3_2115812746864271360",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVzge7QWoAAzqqx.jpg"
+      },
+      {
+       "media_key": "3_2115697721336004608",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVx33jxWAAAT6Km.jpg"
+      },
+      {
+       "media_key": "3_2115692108749168640",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVxyw3QXYAAv7oi.jpg"
+      },
+      {
+       "media_key": "3_2115599701902753792",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVweuE7WAAABUrV.jpg"
+      },
+      {
+       "media_key": "3_2115599701894447104",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVweuE5XQAANbop.jpg"
+      },
+      {
+       "media_key": "3_2115586062718226432",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVwSULAWUAAfoU3.jpg"
+      },
+      {
+       "media_key": "13_2115582904600350721",
+       "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115582904600350721/img/V7xt63z4bw2Uwj8A.jpg",
+       "type": "video"
+      },
+      {
+       "media_key": "13_2115572141445754880",
+       "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115572141445754880/img/nLw98SO2bNx50pHo.jpg",
+       "type": "video"
+      },
+      {
+       "media_key": "13_2115571881067655168",
+       "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115571881067655168/img/8G2sE2eYOLL0NVNu.jpg",
+       "type": "video"
+      },
+      {
+       "media_key": "13_2115491831664271360",
+       "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115491831664271360/img/Na_r4mnztQyavaCX.jpg",
+       "type": "video"
+      },
+      {
+       "media_key": "13_2115471781041733632",
+       "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115471781041733632/img/XF1SLKutEVu5lOV1.jpg",
+       "type": "video"
+      },
+      {
+       "media_key": "13_2115543447310331904",
+       "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115543447310331904/img/13hj87jDmgrOo39S.jpg",
+       "type": "video"
+      },
+      {
+       "media_key": "3_2115530195327143936",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVvfgQwWUAAD3xs.jpg"
+      },
+      {
+       "media_key": "3_2115530195364888576",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVvfgQ5WQAAuFhL.jpg"
+      },
+      {
+       "media_key": "13_2115494759447904257",
+       "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115494759447904257/img/gnlEjizTFyuOlfML.jpg",
+       "type": "video"
+      }
+     ],
+     "tweets": [
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2115917053739540480"
+        ]
+       },
+       "created_at": "2026-10-29T21:22:21.000Z",
+       "edit_history_tweet_ids": [
+        "2115917177727643782"
+       ],
+       "id": "2115917177727643782",
+       "public_metrics": {
+        "bookmark_count": 14,
+        "impression_count": 5906,
+        "like_count": 50,
+        "quote_count": 2,
+        "reply_count": 14,
+        "retweet_count": 3
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115885750013321704",
+         "type": "quoted"
+        }
+       ],
+       "text": "Canva now has its own AI vision-language model capable of editing existing designs, called Brush.\n\nUsers can describe a change, and Brush then plans and executes the edits across the design. According to Canva, Brush is 69% faster overall on general design editing tasks and 46% https://t.co/Jd75l93OwR https://t.co/hhvSSpPmCP"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115885603858657280"
+        ]
+       },
+       "created_at": "2026-10-29T19:17:28.000Z",
+       "edit_history_tweet_ids": [
+        "2115885750013321704"
+       ],
+       "id": "2115885750013321704",
+       "public_metrics": {
+        "bookmark_count": 642,
+        "impression_count": 412569,
+        "like_count": 870,
+        "quote_count": 178,
+        "reply_count": 112,
+        "retweet_count": 195
+       },
+       "text": "Introducing Brush: Our first vision-language model for design. 🖌️\n\nBrush sees your design’s layout, layers and vibe the way you do, and edits alongside you. Fix one line of text, restyle a whole deck or build from a blank page.\n\nSee what Brush can do 👇 https://t.co/RHKmlxZkmA"
+      },
+      {
+       "created_at": "2026-10-29T18:22:24.000Z",
+       "edit_history_tweet_ids": [
+        "2115871889549865429"
+       ],
+       "id": "2115871889549865429",
+       "public_metrics": {
+        "bookmark_count": 721,
+        "impression_count": 392917,
+        "like_count": 2296,
+        "quote_count": 200,
+        "reply_count": 638,
+        "retweet_count": 160
+       },
+       "text": "We’ve trained Claude to flag potential misuse in conversations, a technique we call self-assessment. Right after it responds, Claude gives a preliminary safety assessment of the conversation. \n\nSince we began using self-assessment in June, it has surfaced misuse that our other"
+      },
+      {
+       "created_at": "2026-10-29T16:56:07.000Z",
+       "edit_history_tweet_ids": [
+        "2115850175868727621"
+       ],
+       "id": "2115850175868727621",
+       "public_metrics": {
+        "bookmark_count": 2505,
+        "impression_count": 2645198,
+        "like_count": 30882,
+        "quote_count": 2758,
+        "reply_count": 5543,
+        "retweet_count": 2149
+       },
+       "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115855896873959425"
+        ]
+       },
+       "created_at": "2026-10-29T17:19:29.000Z",
+       "edit_history_tweet_ids": [
+        "2115856057914601719"
+       ],
+       "id": "2115856057914601719",
+       "public_metrics": {
+        "bookmark_count": 25,
+        "impression_count": 6710,
+        "like_count": 48,
+        "quote_count": 3,
+        "reply_count": 13,
+        "retweet_count": 4
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115808566439264349",
+         "type": "quoted"
+        }
+       ],
+       "text": "Snaptrude has launched Snaptrude Agent, an AI agent that turns a design brief into a construction-ready 3D model, including structure, MEP (plumbing, electrical, and HVAC), and drawings.\n\nThe agent starts by sharing its plan, then works on the model and schematics. Everything it https://t.co/uLJWRhpvNF https://t.co/Pz6iydar9i"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115807286660665344"
+        ]
+       },
+       "created_at": "2026-10-29T14:10:46.000Z",
+       "edit_history_tweet_ids": [
+        "2115808566439264349"
+       ],
+       "id": "2115808566439264349",
+       "public_metrics": {
+        "bookmark_count": 418,
+        "impression_count": 1130649,
+        "like_count": 561,
+        "quote_count": 132,
+        "reply_count": 114,
+        "retweet_count": 103
+       },
+       "text": "Today we're launching @snaptrude Agent, the most advanced agent for building design.\n\nIt does real design work with you, from a site to a construction-ready LOD 400 model with structure, MEP and drawings. Then can go back to your existing software with your families intact. https://t.co/QnoLhqUpkk"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2115791994836410368"
+        ]
+       },
+       "created_at": "2026-10-29T14:21:24.000Z",
+       "edit_history_tweet_ids": [
+        "2115811242556137820"
+       ],
+       "id": "2115811242556137820",
+       "public_metrics": {
+        "bookmark_count": 844,
+        "impression_count": 459879,
+        "like_count": 4952,
+        "quote_count": 373,
+        "reply_count": 312,
+        "retweet_count": 631
+       },
+       "text": "Today, we release the weights of a new and improved Le Chonk, advancing the open frontier for agentic coding and cybersecurity.\n\n💻 Built to build: Le Chonk ranks #1 on @cognition’s FrontierCode among open models, and sets a new benchmark for Pareto efficiency on https://t.co/R9wQ6WTPnl"
+      },
+      {
+       "created_at": "2026-10-28T09:58:40.000Z",
+       "edit_history_tweet_ids": [
+        "2115382733488746654"
+       ],
+       "id": "2115382733488746654",
+       "public_metrics": {
+        "bookmark_count": 17,
+        "impression_count": 22257,
+        "like_count": 138,
+        "quote_count": 5,
+        "reply_count": 23,
+        "retweet_count": 7
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115017548651462990",
+         "type": "quoted"
+        }
+       ],
+       "text": "DAILY AI BRIEF 🗞 — Oct 28\n\nGOOGLE 🔥:\n- Google DeepMind announced Genie 4, its most realistic interactive world model with natural-language steering and native audio, rolling out first to Trusted Testers before Google AI Ultra and Gemini API access.\n- Gemini Robotics ER 2 is now https://t.co/mh7GpUysOO"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115457350056529921"
+        ]
+       },
+       "created_at": "2026-10-28T15:14:50.000Z",
+       "edit_history_tweet_ids": [
+        "2115462300241141882"
+       ],
+       "id": "2115462300241141882",
+       "public_metrics": {
+        "bookmark_count": 6172,
+        "impression_count": 849907,
+        "like_count": 8281,
+        "quote_count": 331,
+        "reply_count": 299,
+        "retweet_count": 667
+       },
+       "text": "Meet NVIDIA Nemotron 3.5 Transcribe 🎙️\n\nAn open-weight, promptable 30B MoE model with ~4B active parameters that brings transcription in 40 languages, speaker attribution, translation, contextual prompting and audio understanding into one checkpoint.\n\nWatch it keep track of who https://t.co/PEH1PeURIv"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2115692108749168640"
+        ]
+       },
+       "created_at": "2026-10-29T06:28:02.000Z",
+       "edit_history_tweet_ids": [
+        "2115692114826661956"
+       ],
+       "id": "2115692114826661956",
+       "public_metrics": {
+        "bookmark_count": 9,
+        "impression_count": 7423,
+        "like_count": 37,
+        "quote_count": 4,
+        "reply_count": 24,
+        "retweet_count": 4
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115558202029007195",
+         "type": "quoted"
+        }
+       ],
+       "text": "Articul8 launched Bivia, its own decision model that can be connected to AI agents and hold back when confidence is low.\n\n&gt; Bivia weighs each decision against the goal of the whole task, instead of judging each step on its own. \n\n&gt; It supports structured replies and can be used https://t.co/m9xxFlKOD8 https://t.co/JrjSF9Kkku"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115550439894867968"
+        ]
+       },
+       "created_at": "2026-10-28T21:35:55.000Z",
+       "edit_history_tweet_ids": [
+        "2115558202029007195"
+       ],
+       "id": "2115558202029007195",
+       "public_metrics": {
+        "bookmark_count": 238,
+        "impression_count": 1205738,
+        "like_count": 530,
+        "quote_count": 89,
+        "reply_count": 158,
+        "retweet_count": 336
+       },
+       "text": "Introducing Bivia.\n\nA multimodal AI decision model built to complete entire workflows, not just answer individual questions.\n\nWe've spent 3+ years building and deploying AI in production across semiconductors, energy, manufacturing, and other complex industries.\n\nToday, we're https://t.co/vISMKFv2Q9"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2115599701902753792",
+         "3_2115599701894447104"
+        ]
+       },
+       "created_at": "2026-10-29T00:20:50.000Z",
+       "edit_history_tweet_ids": [
+        "2115599706843758927"
+       ],
+       "id": "2115599706843758927",
+       "public_metrics": {
+        "bookmark_count": 69,
+        "impression_count": 28905,
+        "like_count": 514,
+        "quote_count": 10,
+        "reply_count": 40,
+        "retweet_count": 20
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115565560603824452",
+         "type": "quoted"
+        }
+       ],
+       "text": "OPENAI 🔥: ChatGPT and ChatGPT Work will merge this year, according to Tibo. Some users may've seen a pop-up highlighting this change on ChatGPT; however, it was a mistake. \n\n&gt; Tibo: \"Team is working on this but it's not rolling out just yet, sorry for any confusion.\"\n\n&gt; Tibo: https://t.co/gWt5rJ6C4J https://t.co/P06j9yLri4"
+      },
+      {
+       "created_at": "2026-10-28T23:35:52.000Z",
+       "edit_history_tweet_ids": [
+        "2115588390414581916"
+       ],
+       "id": "2115588390414581916",
+       "public_metrics": {
+        "bookmark_count": 583,
+        "impression_count": 1420800,
+        "like_count": 5695,
+        "quote_count": 475,
+        "reply_count": 1602,
+        "retweet_count": 317
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115565560603824452",
+         "type": "quoted"
+        }
+       ],
+       "text": "Team is working on this but it's not rolling out just yet, sorry for any confusion. Plan is to bring together best of both Chat / Work capabilities together at some point this year, but we're going to proceed carefully here and take our time.\n\nWe'll have more to share soon. https://t.co/St57fti6qW"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2115565376960442369"
+        ]
+       },
+       "created_at": "2026-10-28T22:05:09.000Z",
+       "edit_history_tweet_ids": [
+        "2115565560603824452"
+       ],
+       "id": "2115565560603824452",
+       "public_metrics": {
+        "bookmark_count": 213,
+        "impression_count": 1188333,
+        "like_count": 1880,
+        "quote_count": 68,
+        "reply_count": 152,
+        "retweet_count": 61
+       },
+       "text": "ChatGPT is unifying Chat and Work\n\nI wonder how that changes usage limits https://t.co/doX7VTV3QT"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115583492662988800"
+        ]
+       },
+       "created_at": "2026-10-28T23:17:13.000Z",
+       "edit_history_tweet_ids": [
+        "2115583698074755078"
+       ],
+       "id": "2115583698074755078",
+       "public_metrics": {
+        "bookmark_count": 5628,
+        "impression_count": 1853366,
+        "like_count": 8763,
+        "quote_count": 920,
+        "reply_count": 593,
+        "retweet_count": 753
+       },
+       "text": "Starting today, eligible ChatGPT Pro and Business subscribers can claim up to $500 per month in API credits to build apps and agents. https://t.co/kcbaKSQh1M"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2115480201396101120",
+         "3_2115480204172734464"
+        ]
+       },
+       "created_at": "2026-10-28T16:25:59.000Z",
+       "edit_history_tweet_ids": [
+        "2115480207469560109"
+       ],
+       "id": "2115480207469560109",
+       "public_metrics": {
+        "bookmark_count": 159,
+        "impression_count": 91844,
+        "like_count": 587,
+        "quote_count": 71,
+        "reply_count": 87,
+        "retweet_count": 60
+       },
+       "text": "Frontier performance at a fraction of the cost. \n\nIn the @ArtificialAnlys Coding Agent Index, Copilot Fusion Max scored within two points of Claude Code with Opus 5.5 Max at about half the API cost per task.\n\nGet 30% off through Nov. 30. Try it now. ⬇️  https://t.co/c0k5alLKqD https://t.co/kVBzvq8ph5"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115571881067655168"
+        ]
+       },
+       "created_at": "2026-10-28T22:30:30.000Z",
+       "edit_history_tweet_ids": [
+        "2115571940639564243"
+       ],
+       "id": "2115571940639564243",
+       "in_reply_to_user_id": "3980735590",
+       "public_metrics": {
+        "bookmark_count": 3,
+        "impression_count": 3231,
+        "like_count": 15,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115571049794253233",
+         "type": "replied_to"
+        }
+       ],
+       "text": "Immersive view 👀 https://t.co/Rv0T9nB3tN"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115491831664271360"
+        ]
+       },
+       "created_at": "2026-10-28T22:26:58.000Z",
+       "edit_history_tweet_ids": [
+        "2115571049794253233"
+       ],
+       "id": "2115571049794253233",
+       "public_metrics": {
+        "bookmark_count": 79,
+        "impression_count": 20332,
+        "like_count": 293,
+        "quote_count": 15,
+        "reply_count": 23,
+        "retweet_count": 32
+       },
+       "text": "Google XREAL officially launched XREAL AURA, the first Android XR Glasses! \n\n&gt; Dramatically lighter - \"Users can comfortably keep them on for hours, whether watching a movie or getting work done on multiple screens.\"\n\n&gt; \"Gemini works across everything in view, including your"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115543447310331904"
+        ]
+       },
+       "created_at": "2026-10-28T20:37:49.000Z",
+       "edit_history_tweet_ids": [
+        "2115543581155016900"
+       ],
+       "id": "2115543581155016900",
+       "public_metrics": {
+        "bookmark_count": 34,
+        "impression_count": 10422,
+        "like_count": 73,
+        "quote_count": 2,
+        "reply_count": 24,
+        "retweet_count": 8
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115521147890520503",
+         "type": "quoted"
+        }
+       ],
+       "text": "Rime has launched Prism, its new speech-to-speech model for AI voice agents that writes each reply as text before saying it out loud.\n\nCompanies can edit the transcript and block anything the agent shouldn't say, while Prism keeps the call going and looks up an account or freezes https://t.co/abwRxsNIpN https://t.co/JH3zdqCzZ9"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115519791276453888"
+        ]
+       },
+       "created_at": "2026-10-28T19:08:40.000Z",
+       "edit_history_tweet_ids": [
+        "2115521147890520503"
+       ],
+       "id": "2115521147890520503",
+       "public_metrics": {
+        "bookmark_count": 1084,
+        "impression_count": 867124,
+        "like_count": 1134,
+        "quote_count": 112,
+        "reply_count": 297,
+        "retweet_count": 160
+       },
+       "text": "introducing prism, the world’s first speech-to-speech model you can’t tell from a human in conversation\n\nprism has:\n&gt; 300ms response time, 4x faster than OpenAI GPT-Live\n&gt; outperforms every other s2s model on intelligence (with NO reasoning)\n&gt; the first s2s model customizable https://t.co/i0njLpIszv"
+      },
+      {
+       "created_at": "2026-10-28T17:49:28.000Z",
+       "edit_history_tweet_ids": [
+        "2115501213873516911"
+       ],
+       "id": "2115501213873516911",
+       "public_metrics": {
+        "bookmark_count": 79,
+        "impression_count": 220273,
+        "like_count": 1108,
+        "quote_count": 38,
+        "reply_count": 64,
+        "retweet_count": 37
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115500324454822276",
+         "type": "quoted"
+        }
+       ],
+       "text": "Gemini [redacted] isn't yet here though https://t.co/ZGWG4OcagM"
+      }
+     ]
+    },
+    "page2": {
+     "media": [
+      {
+       "media_key": "13_2115204279745032192",
+       "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115204279745032192/img/yVNWC8DRe1MpgYem.jpg",
+       "type": "video"
+      },
+      {
+       "media_key": "3_2115503226208354304",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVvG-c9XgAA5_OI.jpg"
+      },
+      {
+       "media_key": "3_2115503389689761792",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVvHH9-X0AAIBSu.jpg"
+      },
+      {
+       "media_key": "3_2115495292145410048",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVu_woRWoAAAhOy.jpg"
+      },
+      {
+       "media_key": "3_2115495291994382336",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVu_wntWIAAza_z.jpg"
+      },
+      {
+       "media_key": "3_2115473915493376000",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVusUWCWYAAY3mE.jpg"
+      },
+      {
+       "media_key": "3_2115473915501809664",
+       "type": "photo",
+       "url": "https://pbs.twimg.com/media/HVusUWEXEAABRYT.jpg"
+      }
+     ],
+     "tweets": [
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2115204279745032192"
+        ]
+       },
+       "created_at": "2026-10-28T18:21:12.000Z",
+       "edit_history_tweet_ids": [
+        "2115509202944655793"
+       ],
+       "id": "2115509202944655793",
+       "public_metrics": {
+        "bookmark_count": 33,
+        "impression_count": 9074,
+        "like_count": 63,
+        "quote_count": 0,
+        "reply_count": 18,
+        "retweet_count": 5
+       },
+       "text": "AI/ML API has released Jev Router for agentic tools, an MCP connector that uses TypeSafe's Jev to rate how hard each request will be and pick the right model and tool.\n\nEasy requests go to light models like GPT-6 Luna, while hard reasoning requests go to Claude Opus 5.5, letting"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2115494061054504960",
+         "3_2115494061092302848",
+         "3_2115494061067153408"
+        ]
+       },
+       "created_at": "2026-10-28T17:24:47.000Z",
+       "edit_history_tweet_ids": [
+        "2115495002998751262"
+       ],
+       "id": "2115495002998751262",
+       "public_metrics": {
+        "bookmark_count": 296,
+        "impression_count": 245723,
+        "like_count": 2290,
+        "quote_count": 81,
+        "reply_count": 78,
+        "retweet_count": 182
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115489356437651654",
+         "type": "quoted"
+        }
+       ],
+       "text": "Exciting news: Gemini 4 Carbon (High) from @GoogleDeepMind  just made a huge debut on Arena, landing #1 in Text Arena, #2 in Agent Arena, and #4 in Code Arena: WebDev. Back at the top, Gemini 4 Carbon delivers frontier intelligence and reshapes the Pareto frontier across three https://t.co/I8Rlg3SsbX https://t.co/gryD3OJGS9"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2115486928158277632"
+        ]
+       },
+       "created_at": "2026-10-28T17:02:03.000Z",
+       "edit_history_tweet_ids": [
+        "2115489284404940898"
+       ],
+       "id": "2115489284404940898",
+       "public_metrics": {
+        "bookmark_count": 1657,
+        "impression_count": 1177724,
+        "like_count": 15609,
+        "quote_count": 851,
+        "reply_count": 1201,
+        "retweet_count": 1138
+       },
+       "text": "Introducing Gemini 4 Carbon, it's a big jump over Argon which we released just 2 weeks ago.\n\nGemini 4 Carbon is SOTA on cyber, long horizon tasks, ranks #1 on Artificial Analysis V5, significantly improves on usability in domains like coding, and is more aligned. https://t.co/Ikk9YedjCQ"
+      },
+      {
+       "created_at": "2026-10-28T14:39:46.000Z",
+       "edit_history_tweet_ids": [
+        "2115453476579008827"
+       ],
+       "id": "2115453476579008827",
+       "public_metrics": {
+        "bookmark_count": 22,
+        "impression_count": 27935,
+        "like_count": 163,
+        "quote_count": 6,
+        "reply_count": 11,
+        "retweet_count": 14
+       },
+       "text": "Big news with @Oracle! Bringing Oracle apps and data into ChatGPT, with new offerings powered by OpenAI. \n\nUS customers can now buy API, Codex &amp; ChatGPT Work via Oracle Marketplace using eligible credits.\n\nAlso 130K ChatGPT + 95K+ Codex users now!\n\nhttps://t.co/E1DQElIGdQ"
+      }
+     ]
+    }
+   }
+  },
+  "gengdaJ": {
+   "id": "1897545708770840576",
+   "fetched": 1,
+   "post_ids": [
+    "2115622033669435412"
+   ],
+   "meta": {
+    "newest_id": "2115622033669435412",
+    "oldest_id": "2115622033669435412",
+    "result_count": 1
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-29T01:49:33.000Z",
+     "edit_history_tweet_ids": [
+      "2115622033669435412"
+     ],
+     "id": "2115622033669435412",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 121,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 261
+     },
+     "referenced_tweets": [
+      {
+       "id": "2115506373001634206",
+       "type": "retweeted"
+      }
+     ],
+     "text": "RT @suno: Introducing Suno MCP Beta\n\nCreate songs from wherever you get inspired. No tab-switching needed.\n\nGet early access:\nhttps://t.co/…",
+     "url": "https://x.com/i/status/2115622033669435412"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2115502576238034944"
+       ]
+      },
+      "created_at": "2026-10-28T18:09:58.000Z",
+      "edit_history_tweet_ids": [
+       "2115506373001634206"
+      ],
+      "id": "2115506373001634206",
+      "public_metrics": {
+       "bookmark_count": 1200,
+       "impression_count": 269821,
+       "like_count": 1671,
+       "quote_count": 248,
+       "reply_count": 129,
+       "retweet_count": 261
+      },
+      "text": "Introducing Suno MCP Beta\n\nCreate songs from wherever you get inspired. No tab-switching needed.\n\nGet early access:\nhttps://t.co/lJpa8mId22 https://t.co/Wn8ehKW2ib"
+     }
+    ]
+   }
+  }
+ },
+ "longform_enriched_ids": [
+  "2115691027860443268",
+  "2115662773103530096",
+  "2115913730806755538",
+  "2115870635369140238",
+  "2115859097061056718",
+  "2115761060292567275",
+  "2115958355655315738",
+  "2115700285503136155",
+  "2115487808404230154",
+  "2115664042249564385",
+  "2115850175868727621",
+  "2115890336107233347",
+  "2115855769665147254",
+  "2115851621137784832",
+  "2115917181221269843",
+  "2115917177727643782",
+  "2115885750013321704",
+  "2115889458935382213",
+  "2115877778352722039",
+  "2115871889549865429",
+  "2115869339987640632",
+  "2115861391340949810",
+  "2115856061555220893",
+  "2115856057914601719",
+  "2115808566439264349",
+  "2115813050057990158",
+  "2115811242556137820",
+  "2115697759281975475",
+  "2115462300241141882",
+  "2115692120103137674",
+  "2115692114826661956",
+  "2115558202029007195",
+  "2115622033669435412",
+  "2115506373001634206"
+ ],
+ "longform_enriched": [
+  {
+   "author_id": "1492195583699951620",
+   "created_at": "2026-10-29T06:23:43.000Z",
+   "edit_history_post_ids": [
+    "2115691027860443268"
+   ],
+   "id": "2115691027860443268",
+   "note_tweet": {
+    "text": "我觉得Claude和Codex的性格差异，可以用一个例子来形容。\n\n我：每周都要从后台下载20个Excel，再手动复制粘贴成一张总表，太麻烦了，帮我写个自动操作鼠标的脚本。\n\nGPT： 好的老板！已经帮你写好了，自动点击、下载、复制、粘贴，还加了异常处理和失败重试，以后你只需要点一下运行就行！\n\nClaude： 不是哥们，你这20个Excel不都是从同一个数据库里导出来的吗？你好好的你下载它们干啥？我直接帮你写了个SQL，接上你们后台的数据源了，以后每周自动生成最终报表，你说你好好的下载Execl干什么玩意。。。"
+   },
+   "text": "我觉得Claude和Codex的性格差异，可以用一个例子来形容。\n\n我：每周都要从后台下载20个Excel，再手动复制粘贴成一张总表，太麻烦了，帮我写个自动操作鼠标的脚本。\n\nGPT： 好的老板！已经帮你写好了，自动点击、下载、复制、粘贴，还加了异常处理和失败重试，以后你只需要点一下运行就行！\n\nClaude：",
+   "url": "https://x.com/Khazix0918/status/2115691027860443268"
+  },
+  {
+   "article": {
+    "cover_media": "3_2115662725586341888",
+    "entities": {
+     "urls": [
+      {
+       "text": "https://www.workbuddy.cn/buddyone/"
+      },
+      {
+       "text": "https://www.workbuddy.cn/buddyone/"
+      }
+     ]
+    },
+    "media_entities": [
+     "3_2115661944602710017",
+     "3_2115662096360972288",
+     "3_2115661920225419264",
+     "3_2115662073028079616",
+     "3_2115662021991817216",
+     "3_2115662084625387520",
+     "3_2115662107387756544",
+     "3_2115661956183175168",
+     "3_2115662061888028672",
+     "3_2115661981382529024",
+     "3_2115661992413601792",
+     "3_2115661969743384576",
+     "3_2115662126157266944",
+     "3_2115662004409253888",
+     "3_2115662046620696576",
+     "3_2115661932011401216",
+     "3_2115662035648462848"
+    ],
+    "plain_text": "昨晚刷朋友圈的时候，看到有朋友发了一个WorkBuddy的图。\n \n然后我就点进去看了一下，看完了以后，只能说好家伙，WorkBuddy好像下了一盘大棋，他们在腾讯内部的这个地位，已经登上云霄了。\n他们推出了一个叫做Buddy One的东西。\n \n简单解释一下，Buddy One就是腾讯把自己旗下的WorkBuddy、腾讯会议、腾讯文档、ima、腾讯网盘这几个产品，给打包到了一起，账号体系直接全部打通。\n我详细扒了一下以后，发现这个Buddy One其实分成两层，他们解释的并不是很清楚，稍微有点绕。\n我给大家详细解释一下，这两层，一个叫Buddy One ID，一个叫Buddy One VIP。\n先说Buddy One ID。\n这玩意儿是免费的，你可以理解为，直接用一个WorkBuddy把腾讯文档、腾讯会议啥的这些腾讯系产品，全都给串起来了，任何用户都可以关联，不需要购买任何付费会员。\n关联之后，你在腾讯这几个产品里的账号就有了一套完全统一的身份关系，并且积分共享，同时，它也可以让腾讯系里的这些不同产品里的知识和资料，开始互相流通了。\n因为很多历史原因，这些产品都是独立的，所以首次是需要我们手动关联一下。\n你可以先进入官网：\nhttps://www.workbuddy.cn/buddyone/\n然后点击这个加入Buddy One的按钮。\n \n然后就会给你弹出一个弹框，几个首批支持的产品就全部给你带出来了，你就可以一次性全部关联上，还会送100积分。\n \n当然你可以直接在WorkBuddy中打开，在个人主页中完成关联。\n \n关联的好处很简单，就是首先，积分可以全部通用。\n举个例子。\n以前你在WorkBuddy里使用AI，需要消耗WorkBuddy的积分。\n你打开腾讯文档，在腾讯文档自己的界面里面使用AI助手，又需要消耗腾讯文档的额度。\n你再打开ima，使用里面的AI功能，消耗的又是ima自己的算力。\n哪怕这三个产品都可以通过连接器接入WorkBuddy，它们各自的会员、积分和计费体系依然是分开的。\n那Buddy One这次就把这件事情做了。\n加入Buddy One以后，WorkBuddy积分可以作为通用积分，在WorkBuddy、腾讯文档、ima和腾讯网盘四个产品里面共同使用。\n比如我现在在腾讯文档里面去随手做一个任务，你会发现，消耗的这个积分，就跟WorkBuddy保持统一了。\n \n然后数据这块，也进行了账号层级的打通。\n不过我自己实测了一下，目前的打通层级会稍微薄弱一点，关联了账号以后，只有只读权限，也就是WorkBuddy可以读到你腾讯文档、腾讯会议、Ima里面的数据，但是一旦需要写入或者进行一些操作，目前来说，还是需要WorkBuddy里面的连接器也就是MCP来去实现的。\n \n这Buddy One的首版上线，虽然支持的产品不多，但是我觉得也能看出整个WorkBuddy在腾讯内部的受重视程度了。\n腾讯也开始借着WorkBuddy这个机会，也在开始认真处理这些产品之间长期存在的割裂问题。\n而且很多人可能不知道的是，微信的聊天记录在多选以后，是可以转发给第三方应用处理，而WorkBuddy是直接被单独拎出来的最便捷的入口。\n \n你当然也可以点选择手机中的应用，去发给类似于ChatGPT之类的产品，但打通的没那么好，还得多点一下，稍微麻烦了点。\n点了WorkBuddy以后，它就会唤起你手机上的WorkBuddy App，把那一段聊天记录和消息自动带进去，后续你就可以对它进行任何的处理了。\n \n而且不止手机，最骚的是，电脑上的微信也可以。\n \n这个含金量有多方便，我相信大家不用我多说了，并且电脑上是只支持WorkBuddy的，我的本地装了几乎绝大多数的Agent，但是除了WorkBuddy，电脑端微信全都不支持。\n \n所有人都知道你想把微信的聊天记录和Context导出出来有多难。\nWorkBuddy是为数不多的官方支持的，将所有的聊天记录一键扔给Agent去进行下一步处理的产品。\n我们自己的原因，因为有大量的对外，对品牌方，对博主的信息，都发生在微信上，这个是几乎无法避免的，那很多时候，我现在就是用WorkBuddy接飞书的连接器来处理我的微信聊天数据，然后把处理完的结果比如多维表格、文档、邮件之类的，存到飞书上。\n我经常会有一个自己非常喜欢的用法，就是帮我定行程。\n一键框选我跟朋友的聊天记录，然后转发给WorkBuddy，说，帮我把这个行程录到飞书日历里。\n \n它就会调用飞书的连接器。\n \n1分钟不到，录完了。\n \n我们可以在飞书日历上直接就能看到。\n \n不要太爽，还有非常非常多的玩法。\n这是我们可能第一次，在微信上，让聊天记录里面那些原本只会被人阅读的信息，开始有机会直接变成Agent可以执行的任务。\n没有办法，微信的context还是太多了。\n就连微信这样的庞然大物，也为WorkBuddy去开了口子，虽然还没有那种内置的大开大合的程度，但这次Buddy One的推出，其实已经能感受到腾讯的决心了。\n先从腾讯文档、腾讯会议、Ima、腾讯网盘这些产品开始，一点一点来，一点一点打通。\n未来也会肉眼可见的，通过WorkBuddy整合起腾讯所有的产品，全部打通，将其推到一个全新的高度。\n同时，这次WorkBuddy也借着Buddy One的上线，正式上线了他们自己的大会员，也就是我们最开始说的，Buddy One VIP。\n \n这个VIP其实就是之前的旗舰版，700一个月，额度也是5万积分，但是这次是属于加量不加价，额外送了腾讯会议专业版会员、腾讯文档Plus会员、还有腾讯网盘的1TB存储。\n \n我自己因为用Claude和Codex比较多，WorkBuddy更多的是帮我处理微信的一些事情，并且DeepSeek-V4.1-Flash-1017又省的离谱强的离谱，所以只开了70块钱的标准版，给了4000积分，每天签到还有100积分，一个月攒下来也能再多3000积分，基本够用了，但是大家如果用量大的话，完全可以去看看这个Buddy One VIP，算是比较良心的了。\n其实从这一次的更新，明显就能看出来，WorkBuddy在腾讯内部的地位，可能真的已经很高了。\n至少从现在公开的产品动作来看，它正在获得越来越多腾讯产品的支持。\n而这一系列变化，也让我脑袋里面冒出了一个非常大胆的想法。\n腾讯的第一个时代，属于QQ。\n那个时代，互联网最重要的事情，是把人连接起来。\nQQ解决了很多人在PC互联网时代的连接问题。\n腾讯的第二个时代，属于微信。\n移动互联网到来以后，微信逐渐把连接延伸到了日常生活里。\n大量原本分散在不同地方的数字生活，被连接到了一起。\n我们每天打开微信，很多时候甚至已经不是为了聊天。\n微信成为了一个巨大的入口。\n而现在，随着Agent开始拥有实际执行任务的能力，开始以任务的方式，连接一切，互联网已经可以看到，在出现第三种入口了。\n于是，QQ连接人，微信连接生活，WorkBuddy开始尝试连接任务。\n腾讯的第三个时代，还真的有可能属于WorkBuddy。\n所有人都在聊所谓的Personal agent。\n在中国，我觉得只要你脱离了微信，没有任何一个personal agent可以被称为personal agent。\n但好像，WorkBuddy可以。\n连接腾讯的一切。\n说不定，下一次，WorkBuddy的Personal agent就会以大一统Buddy One的姿态，横空出世呢？\n我们，拭目以待。\n以上，既然看到这里了，如果觉得不错，随手点个赞、评论、转发三连吧，这对我们有特别大的帮助~\n谢谢你看我的文章，我们，下次再见。",
+    "preview_text": "昨晚刷朋友圈的时候，看到有朋友发了一个WorkBuddy的图。\n \n然后我就点进去看了一下，看完了以后，只能说好家伙，WorkBuddy好像下了一盘大棋，他们在腾讯内部的这个地位，已经登上云霄了。\n他们推出了一个叫做Buddy",
+    "title": "Buddy One正式上线，腾讯要用WorkBuddy打通自己的全家桶了。"
+   },
+   "article_title": {
+    "title": "Buddy One正式上线，腾讯要用WorkBuddy打通自己的全家桶了。"
+   },
+   "author_id": "1492195583699951620",
+   "created_at": "2026-10-29T04:31:26.000Z",
+   "edit_history_post_ids": [
+    "2115662773103530096"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/i/article/2115…",
+      "end": 23,
+      "expanded_url": "https://x.com/i/article/2115662132801114112",
+      "start": 0,
+      "status": 404,
+      "unwound_url": "https://x.com/i/article/2115662132801114112",
+      "url": "https://t.co/YqP5KSGsaA"
+     }
+    ]
+   },
+   "id": "2115662773103530096",
+   "text": "https://t.co/YqP5KSGsaA",
+   "url": "https://x.com/Khazix0918/status/2115662773103530096"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115913720002228224"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-29T21:08:39.000Z",
+   "edit_history_post_ids": [
+    "2115913730806755538"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 14,
+      "id": "1707003452700930048",
+      "start": 6,
+      "username": "lobehub"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "pic.x.com/AZ2mLfYPHf",
+      "end": 124,
+      "expanded_url": "https://x.com/MaxForAI/status/2115913730806755538/photo/1",
+      "media_key": "3_2115913720002228224",
+      "start": 101,
+      "url": "https://t.co/AZ2mLfYPHf"
+     },
+     {
+      "display_url": "x.com/arvin17x/statu…",
+      "end": 148,
+      "expanded_url": "https://twitter.com/arvin17x/status/2115870635369140238",
+      "start": 125,
+      "url": "https://t.co/coPSDlUjBK"
+     }
+    ]
+   },
+   "id": "2115913730806755538",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 14,
+       "id": "1707003452700930048",
+       "start": 6,
+       "username": "lobehub"
+      }
+     ],
+     "urls": [
+      {
+       "display_url": "github.com/eval-sys/ibench",
+       "end": 566,
+       "expanded_url": "https://github.com/eval-sys/ibench",
+       "start": 543,
+       "url": "https://t.co/YMSBzJsbyX"
+      },
+      {
+       "display_url": "ibench.ai",
+       "end": 599,
+       "expanded_url": "https://ibench.ai",
+       "start": 576,
+       "url": "https://t.co/s33Zp1t52w"
+      }
+     ]
+    },
+    "text": "今天，我们 @lobehub  团队发布了一个我觉得很有意义的新Benchmark：Interaction Bench。\n\n一直以来，我们都觉得Agent的评测和真实用户体验之间，存在着相当大的距离。\n\n真实用户不会告诉Agent哪一行代码出了Bug，也不会给它一份详细的修复方案。用户只会说，我想实现这个功能，或者这个东西坏了，你帮我解决一下。\n\n所以，这次我们尝试换一种方式来评估Agent。\n\nInteraction Bench从25个真实的开源应用中提取了44个任务，只告诉Agent用户想实现的目标，让它自己探索环境、发现问题、尝试解决，并验证最终结果。\n\n首轮结果里GPT-6 Astra以34.1%排名第一，Claude Opus 5.5为 27.3%，其他模型的成功率只有4.5%～15.9%。\n即便是目前最强的模型，面对这些真实任务，依然有超过六成无法完成。\n\n我觉得这也是我们做这件事的意义。\n随着Agent开始真正进入软件、接管工作流，我们需要更多能够反映真实用户体验的评测。\n毕竟对于用户来说，Benchmark上的分数再高，都不如一句「这件事我已经帮你搞定了」。\n目前还是0.1 Preview，欢迎大家体验、提 ssue，也欢迎一起来建设。\n\nGitHub：https://t.co/YMSBzJsbyX\n\nWebsite：https://t.co/s33Zp1t52w"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115870635369140238",
+     "type": "quoted"
+    }
+   ],
+   "text": "今天，我们 @lobehub  团队发布了一个我觉得很有意义的新Benchmark：Interaction Bench。\n\n一直以来，我们都觉得Agent的评测和真实用户体验之间，存在着相当大的距离。 https://t.co/AZ2mLfYPHf https://t.co/coPSDlUjBK",
+   "url": "https://x.com/MaxForAI/status/2115913730806755538"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115864167471292416"
+    ]
+   },
+   "author_id": "811160412901117952",
+   "created_at": "2026-10-29T18:17:25.000Z",
+   "edit_history_post_ids": [
+    "2115870635369140238"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "description": "Interaction Bench: Benchmarked on what users feel. Contribute to eval-sys/ibench development by creating an account on GitHub.",
+      "display_url": "github.com/eval-sys/ibench",
+      "end": 266,
+      "expanded_url": "https://github.com/eval-sys/ibench",
+      "images": [
+       {
+        "height": 640,
+        "url": "https://pbs.twimg.com/news_img/2115870646077149184/zicjg8t8?format=jpg&name=orig",
+        "width": 1280
+       },
+       {
+        "height": 150,
+        "url": "https://pbs.twimg.com/news_img/2115870646077149184/zicjg8t8?format=jpg&name=150x150",
+        "width": 150
+       }
+      ],
+      "start": 243,
+      "status": 200,
+      "title": "GitHub - eval-sys/ibench: Interaction Bench: Benchmarked on what users feel",
+      "unwound_url": "https://github.com/eval-sys/ibench",
+      "url": "https://t.co/CM8FHD19mh"
+     },
+     {
+      "display_url": "pic.x.com/SRfVPDJOnK",
+      "end": 299,
+      "expanded_url": "https://x.com/arvin17x/status/2115870635369140238/photo/1",
+      "media_key": "3_2115864167471292416",
+      "start": 276,
+      "url": "https://t.co/SRfVPDJOnK"
+     }
+    ]
+   },
+   "id": "2115870635369140238",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "github.com/eval-sys/ibench",
+       "end": 266,
+       "expanded_url": "https://github.com/eval-sys/ibench",
+       "start": 243,
+       "url": "https://t.co/5xFvBxZjGR"
+      },
+      {
+       "display_url": "ibench.ai",
+       "end": 299,
+       "expanded_url": "https://ibench.ai",
+       "start": 276,
+       "url": "https://t.co/1OS6GW22cy"
+      }
+     ]
+    },
+    "text": "Introducing Interaction Bench 0.1 Preview — Benchmarked on what users feel\n\n- 44 tasks from 25 real open-source apps\n- GPT-6 Astra leads at 34.1%, Claude Opus 5.5 at 27.3%, others 4.5–15.9%\n- Agents get the user's goal, never the bug\n\nGitHub: https://t.co/5xFvBxZjGR\nWebsite: https://t.co/1OS6GW22cy \n\n9🧵s next 👇"
+   },
+   "text": "Introducing Interaction Bench 0.1 Preview — Benchmarked on what users feel\n\n- 44 tasks from 25 real open-source apps\n- GPT-6 Astra leads at 34.1%, Claude Opus 5.5 at 27.3%, others 4.5–15.9%\n- Agents get the user's goal, never the bug\n\nGitHub: https://t.co/CM8FHD19mh\nWebsite: https://t.co/SRfVPDJOnK",
+   "url": "https://x.com/arvin17x/status/2115870635369140238"
+  },
+  {
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-29T17:31:34.000Z",
+   "edit_history_post_ids": [
+    "2115859097061056718"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/intcyberdigest…",
+      "end": 161,
+      "expanded_url": "https://twitter.com/intcyberdigest/status/2115761060292567275",
+      "start": 138,
+      "url": "https://t.co/atYTMzVpmZ"
+     }
+    ]
+   },
+   "id": "2115859097061056718",
+   "note_tweet": {
+    "text": "《纽约时报》刚刚爆了个大新闻，美国情报机构认为，一名中国女企业家涉嫌通过接近黄仁勋，为北京搜集情报。特朗普早在大约一年前就收到相关情报简报，但最终没有采取行动。\n\n这名女性叫黄乐（Alice Huang），曾是新加坡算力公司 Megaspeed 的高管。\n\n2024 年 6 月，她和黄仁勋在台北一家酒吧参加行业聚会；2025 年 5 月，两人又在台北一家餐厅外被拍到。Megaspeed 本身也是英伟达的客户。\n\n这家公司的背景相当复杂。\n\n早在去年，《纽约时报》和彭博社就报道过，美国商务部正在调查 Megaspeed 是否通过东南亚的数据中心，帮助中国企业规避美国的先进芯片出口限制。\n\n当时有一个很有意思的细节，美国商务部官员前往马来西亚的一座数据中心检查，发现部分英伟达设备居然还装在箱子里，没有安装使用。这引起了美国官员对芯片可能被转运的怀疑。\n\n根据最新报道，2024 年 6 月至 2026 年 2 月，Megaspeed 的马来西亚关联公司已经采购了至少 48 亿美元的先进 AI 设备。\n\n而这次《纽约时报》爆出的新信息，是美国情报机构据称在监控中发现，黄乐涉嫌直接向北京传递情报，同时与黄仁勋建立了较密切的联系。\n\n这件事之所以让美国政府紧张，还因为黄仁勋近年来在白宫的影响力越来越大。他既掌握着英伟达的商业信息，也可能了解特朗普政府在对华芯片政策上的考虑。\n\n不过，目前这些情报指控仍然缺乏公开证据。英伟达明确表示，与黄乐的接触只是正常的客户往来，没有向 Megaspeed 提供敏感商业机密或涉及国家安全的信息。中国驻美使馆也否认了有关指控。\n\n报道没有证明黄仁勋知情或参与。\n\n我觉得这件事很值得关注的地方，是美国对中国获取先进算力的警惕，已经延伸到了东南亚的数据中心、芯片采购链路，以及英伟达 CEO 本人的商业关系。\n\n如今的黄仁勋，已经站在全球 AI 算力供应和中美科技博弈的中心，甚至一次普通的客户晚宴，都可能成为情报机构关注的对象。\n\n当然，关于间谍活动的判断，最终还需要更多证据来支撑。"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115761060292567275",
+     "type": "quoted"
+    }
+   ],
+   "text": "《纽约时报》刚刚爆了个大新闻，美国情报机构认为，一名中国女企业家涉嫌通过接近黄仁勋，为北京搜集情报。特朗普早在大约一年前就收到相关情报简报，但最终没有采取行动。\n\n这名女性叫黄乐（Alice Huang），曾是新加坡算力公司 Megaspeed 的高管。\n\n2024 年 6 https://t.co/atYTMzVpmZ",
+   "url": "https://x.com/MaxForAI/status/2115859097061056718"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115749229838704641",
+     "3_2115749255834898432"
+    ]
+   },
+   "author_id": "1831435289341894656",
+   "created_at": "2026-10-29T11:02:00.000Z",
+   "edit_history_post_ids": [
+    "2115761060292567275"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/XqMuxAicxG",
+      "end": 280,
+      "expanded_url": "https://x.com/IntCyberDigest/status/2115761060292567275/photo/1",
+      "media_key": "3_2115749229838704641",
+      "start": 257,
+      "url": "https://t.co/XqMuxAicxG"
+     },
+     {
+      "display_url": "pic.x.com/XqMuxAicxG",
+      "end": 280,
+      "expanded_url": "https://x.com/IntCyberDigest/status/2115761060292567275/photo/1",
+      "media_key": "3_2115749255834898432",
+      "start": 257,
+      "url": "https://t.co/XqMuxAicxG"
+     }
+    ]
+   },
+   "id": "2115761060292567275",
+   "text": "‼️ BREAKING: US officials believe Nvidia CEO Jensen Huang is the target of a Chinese spy plot.\n\nThey believe Alice Huang, a Megaspeed executive seen at his side in Taiwan, is a Chinese intelligence asset.\n\nPresident Trump has been briefed about the matter. https://t.co/XqMuxAicxG",
+   "url": "https://x.com/IntCyberDigest/status/2115761060292567275"
+  },
+  {
+   "author_id": "1764818331822182400",
+   "created_at": "2026-10-30T00:05:59.000Z",
+   "edit_history_post_ids": [
+    "2115958355655315738"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/thsottiaux/sta…",
+      "end": 69,
+      "expanded_url": "https://twitter.com/thsottiaux/status/2115850175868727621",
+      "start": 46,
+      "url": "https://t.co/hkaMxBfzeQ"
+     }
+    ]
+   },
+   "id": "2115958355655315738",
+   "referenced_tweets": [
+    {
+     "id": "2115850175868727621",
+     "type": "quoted"
+    }
+   ],
+   "text": "OpenAI 被迫不得不取消用量削减计划\n\n宣布将Codex的限额，在现有基础上进行翻倍😌 https://t.co/hkaMxBfzeQ",
+   "url": "https://x.com/xiaohu/status/2115958355655315738"
+  },
+  {
+   "author_id": "1764818331822182400",
+   "created_at": "2026-10-29T07:00:30.000Z",
+   "edit_history_post_ids": [
+    "2115700285503136155"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/vista8/status/…",
+      "end": 93,
+      "expanded_url": "https://twitter.com/vista8/status/2115487808404230154",
+      "start": 70,
+      "url": "https://t.co/CA3EEzVWJG"
+     }
+    ]
+   },
+   "id": "2115700285503136155",
+   "referenced_tweets": [
+    {
+     "id": "2115487808404230154",
+     "type": "quoted"
+    }
+   ],
+   "text": "只要你不在你电脑上使用国产模型\n和国产harness\n\n基本上你就不会被封，实际上和节点什么的有关系，但是不大\n\n你如果混着用，一定会被封 https://t.co/CA3EEzVWJG",
+   "url": "https://x.com/xiaohu/status/2115700285503136155"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115487793262764032"
+    ]
+   },
+   "author_id": "6690032",
+   "created_at": "2026-10-28T16:56:12.000Z",
+   "edit_history_post_ids": [
+    "2115487808404230154"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/7MTtwncXgb",
+      "end": 215,
+      "expanded_url": "https://x.com/vista8/status/2115487808404230154/photo/1",
+      "media_key": "3_2115487793262764032",
+      "start": 192,
+      "url": "https://t.co/7MTtwncXgb"
+     }
+    ]
+   },
+   "id": "2115487808404230154",
+   "note_tweet": {
+    "text": "感觉自己运气好，Claude 账号一个都没被封过，不是凡尔赛啊。\n\n想想是可能是因为没开 200 刀账号，一直都是 20 刀，开两个换着用。\n\n做法上跟大家说说：\n\n1. 注册 Claude 用自己域名邮箱，路由指向 Gmail 账号，只需绑定一个域名到 cloudflare 就行。 \nEmail Service -> Email Routing -> Routing rules 创建邮箱\n\n2. IP 用自己 vultr 服务器搭的魔法，好像也不会跳验证，日常都用这个。\n\n3. 用免费 Claude 账号随便对话正常用，可以多备2-3 个。\n\n4. iOS 海外 AppStore 账号下载 Claude 客户端，AppStore 充值余额，用余额支付升级 20 刀订阅。安卓手机绑定众安银行卡到谷歌商店，直接升级。\n\n日常也没刻意只用 Claude cli，直接官方客户端用就行。\n也没改电脑时区，也没改过语言，对话也一直是中文。\n\n可能是幸存者偏差？"
+   },
+   "text": "感觉自己运气好，Claude 账号一个都没被封过，不是凡尔赛啊。\n\n想想是可能是因为没开 200 刀账号，一直都是 20 刀，开两个换着用。\n\n做法上跟大家说说：\n\n1. 注册 Claude 用自己域名邮箱，路由指向 Gmail 账号，只需绑定一个域名到 cloudflare 就行。 \nEmail Service -&gt; Email Routing -&gt; Routing https://t.co/7MTtwncXgb",
+   "url": "https://x.com/vista8/status/2115487808404230154"
+  },
+  {
+   "author_id": "1764818331822182400",
+   "created_at": "2026-10-29T04:36:29.000Z",
+   "edit_history_post_ids": [
+    "2115664042249564385"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "description": "小互的今天：当天最值得看的 AI 解读、会员日报里的 5 件事和最新一期播客。已写 553 篇解读，250 期中文播客。",
+      "display_url": "XiaoHu.ai",
+      "end": 26,
+      "expanded_url": "https://XiaoHu.ai",
+      "images": [
+       {
+        "height": 630,
+        "url": "https://pbs.twimg.com/news_img/2115664049904209920/ZmZP2ZzK?format=jpg&name=orig",
+        "width": 1200
+       },
+       {
+        "height": 150,
+        "url": "https://pbs.twimg.com/news_img/2115664049904209920/ZmZP2ZzK?format=jpg&name=150x150",
+        "width": 150
+       }
+      ],
+      "start": 3,
+      "status": 200,
+      "title": "XiaoHu.AI · 小互 · AI 解读站",
+      "unwound_url": "https://XiaoHu.ai",
+      "url": "https://t.co/7uqOBQN6TZ"
+     }
+    ]
+   },
+   "id": "2115664042249564385",
+   "text": "🎆  https://t.co/7uqOBQN6TZ\n\n全新改版基本完成\n还有几个功能在打磨\n\n新版基本上是面向Agent打造的，对人是免费的，但是对Agent是收费的...\n\n在这，你将能获得最全最新最精华的AI内容",
+   "url": "https://x.com/xiaohu/status/2115664042249564385"
+  },
+  {
+   "author_id": "1953337039510003712",
+   "created_at": "2026-10-29T16:56:07.000Z",
+   "edit_history_post_ids": [
+    "2115850175868727621"
+   ],
+   "id": "2115850175868727621",
+   "note_tweet": {
+    "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage.\n\nAnd we'll of course also keep shipping better models and other efficiency improvements that increase your effective usage over time."
+   },
+   "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering",
+   "url": "https://x.com/thsottiaux/status/2115850175868727621"
+  },
+  {
+   "author_id": "1953337039510003712",
+   "created_at": "2026-10-29T19:35:42.000Z",
+   "edit_history_post_ids": [
+    "2115890336107233347"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/ajambrosino/st…",
+      "end": 62,
+      "expanded_url": "https://twitter.com/ajambrosino/status/2115855769665147254",
+      "start": 39,
+      "url": "https://t.co/xHvXZ8eWKq"
+     }
+    ]
+   },
+   "id": "2115890336107233347",
+   "referenced_tweets": [
+    {
+     "id": "2115855769665147254",
+     "type": "quoted"
+    }
+   ],
+   "text": "Send your kind feedback to this person https://t.co/xHvXZ8eWKq",
+   "url": "https://x.com/thsottiaux/status/2115890336107233347"
+  },
+  {
+   "author_id": "58865213",
+   "created_at": "2026-10-29T17:18:20.000Z",
+   "edit_history_post_ids": [
+    "2115855769665147254"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/thsottiaux/sta…",
+      "end": 275,
+      "expanded_url": "https://twitter.com/thsottiaux/status/2115850175868727621",
+      "start": 252,
+      "url": "https://t.co/ZVuQs4iwFX"
+     }
+    ]
+   },
+   "id": "2115855769665147254",
+   "referenced_tweets": [
+    {
+     "id": "2115850175868727621",
+     "type": "quoted"
+    }
+   ],
+   "text": "hi all, two things:\n\n1. usage limits are back to being double – your feedback worked\n\n2. we today kicked off an intense sprint to dramatically improve the app simplicity and performance. i will oversee this. more to come.\n\nnow, send me your complaints https://t.co/ZVuQs4iwFX",
+   "url": "https://x.com/ajambrosino/status/2115855769665147254"
+  },
+  {
+   "author_id": "1953337039510003712",
+   "created_at": "2026-10-29T17:01:51.000Z",
+   "edit_history_post_ids": [
+    "2115851621137784832"
+   ],
+   "id": "2115851621137784832",
+   "note_tweet": {
+    "text": "Graduating from The Reset Company to The Token Company."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115850175868727621",
+     "type": "replied_to"
+    }
+   ],
+   "text": "Graduating from The Reset Company to The Token Company.",
+   "url": "https://x.com/thsottiaux/status/2115851621137784832"
+  },
+  {
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T21:22:22.000Z",
+   "edit_history_post_ids": [
+    "2115917181221269843"
+   ],
+   "id": "2115917181221269843",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "canva.com",
+       "end": 321,
+       "expanded_url": "https://www.canva.com/",
+       "start": 298,
+       "url": "https://t.co/XUI5yPYhxL"
+      }
+     ]
+    },
+    "text": "Brush can be accessed inside the Canva AI sidebar while a design is open in the editor or attached in the chat. Changes made by Brush can be edited inside the design, like any other Canva file.\n\nBrush follows Craft, Canva's first in-house image model, released about a week earlier.\n\nTest it out 👀\nhttps://t.co/XUI5yPYhxL"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115917177727643782",
+     "type": "replied_to"
+    }
+   ],
+   "text": "Brush can be accessed inside the Canva AI sidebar while a design is open in the editor or attached in the chat. Changes made by Brush can be edited inside the design, like any other Canva file.\n\nBrush follows Craft, Canva's first in-house image model, released about a week",
+   "url": "https://x.com/testingcatalog/status/2115917181221269843"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115917053739540480"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T21:22:21.000Z",
+   "edit_history_post_ids": [
+    "2115917177727643782"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/Jd75l93OwR",
+      "end": 302,
+      "expanded_url": "https://x.com/testingcatalog/status/2115917177727643782/photo/1",
+      "media_key": "3_2115917053739540480",
+      "start": 279,
+      "url": "https://t.co/Jd75l93OwR"
+     },
+     {
+      "display_url": "x.com/canva/status/2…",
+      "end": 326,
+      "expanded_url": "https://twitter.com/canva/status/2115885750013321704",
+      "start": 303,
+      "url": "https://t.co/hhvSSpPmCP"
+     }
+    ]
+   },
+   "id": "2115917177727643782",
+   "note_tweet": {
+    "text": "Canva now has its own AI vision-language model capable of editing existing designs, called Brush.\n\nUsers can describe a change, and Brush then plans and executes the edits across the design. According to Canva, Brush is 69% faster overall on general design editing tasks and 46% cheaper per task than frontier models."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115885750013321704",
+     "type": "quoted"
+    }
+   ],
+   "text": "Canva now has its own AI vision-language model capable of editing existing designs, called Brush.\n\nUsers can describe a change, and Brush then plans and executes the edits across the design. According to Canva, Brush is 69% faster overall on general design editing tasks and 46% https://t.co/Jd75l93OwR https://t.co/hhvSSpPmCP",
+   "url": "https://x.com/testingcatalog/status/2115917177727643782"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2115885603858657280"
+    ]
+   },
+   "author_id": "36542528",
+   "created_at": "2026-10-29T19:17:28.000Z",
+   "edit_history_post_ids": [
+    "2115885750013321704"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/RHKmlxZkmA",
+      "end": 276,
+      "expanded_url": "https://x.com/canva/status/2115885750013321704/video/1",
+      "media_key": "13_2115885603858657280",
+      "start": 253,
+      "url": "https://t.co/RHKmlxZkmA"
+     }
+    ]
+   },
+   "id": "2115885750013321704",
+   "text": "Introducing Brush: Our first vision-language model for design. 🖌️\n\nBrush sees your design’s layout, layers and vibe the way you do, and edits alongside you. Fix one line of text, restyle a whole deck or build from a blank page.\n\nSee what Brush can do 👇 https://t.co/RHKmlxZkmA",
+   "url": "https://x.com/canva/status/2115885750013321704"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2115852174462775296"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T19:32:12.000Z",
+   "edit_history_post_ids": [
+    "2115889458935382213"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/7wJwWDfKYn",
+      "end": 269,
+      "expanded_url": "https://x.com/antigravity/status/2115852199502684342/video/1",
+      "media_key": "13_2115852174462775296",
+      "start": 246,
+      "url": "https://t.co/7wJwWDfKYn"
+     }
+    ]
+   },
+   "id": "2115889458935382213",
+   "text": "GOOGLE 🔥: Antigravity got a new Plugins marketplace with loads of different connectors!\n\nJira, Confluence, Bitbucket, Firebase, Notion, Stripe, Linear, Figma, Canva, Trello, Dropbox, Datadog, Postman, Vercel, and many more!\n\nIt is finally here 👀 https://t.co/7wJwWDfKYn",
+   "url": "https://x.com/testingcatalog/status/2115889458935382213"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115877185877688320"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T18:45:48.000Z",
+   "edit_history_post_ids": [
+    "2115877778352722039"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/vSeERCAGUD",
+      "end": 304,
+      "expanded_url": "https://x.com/testingcatalog/status/2115877778352722039/photo/1",
+      "media_key": "3_2115877185877688320",
+      "start": 281,
+      "url": "https://t.co/vSeERCAGUD"
+     },
+     {
+      "display_url": "x.com/AnthropicAI/st…",
+      "end": 328,
+      "expanded_url": "https://twitter.com/AnthropicAI/status/2115871889549865429",
+      "start": 305,
+      "url": "https://t.co/xkVOJvKwl5"
+     }
+    ]
+   },
+   "id": "2115877778352722039",
+   "note_tweet": {
+    "text": "Anthropic introduced self-assessment, a new technique that lets Claude give each conversation a preliminary safety assessment right after it responds.\n\n> On Claude Fable 5, self-assessment flags 78% of the conversations that a stronger, prompted classifier flags as potentially harmful, and 94% of the high-priority ones, at a 1% false-positive rate.\n\nAnthropic also shed light on how self-assessment and prompted classifiers help block attacks. \n\n> \"Each successful attack costs roughly four times as many generated tokens as with no safeguards.\"\n\nWe already live in a world where your security depends on the compute allocated to defend the systems you rely on."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115871889549865429",
+     "type": "quoted"
+    }
+   ],
+   "text": "Anthropic introduced self-assessment, a new technique that lets Claude give each conversation a preliminary safety assessment right after it responds.\n\n&gt; On Claude Fable 5, self-assessment flags 78% of the conversations that a stronger, prompted classifier flags as potentially https://t.co/vSeERCAGUD https://t.co/xkVOJvKwl5",
+   "url": "https://x.com/testingcatalog/status/2115877778352722039"
+  },
+  {
+   "author_id": "1353836358901501952",
+   "created_at": "2026-10-29T18:22:24.000Z",
+   "edit_history_post_ids": [
+    "2115871889549865429"
+   ],
+   "id": "2115871889549865429",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "safeguards.anthropic.com/2026/self-asse…",
+       "end": 610,
+       "expanded_url": "https://safeguards.anthropic.com/2026/self-assessment/",
+       "start": 587,
+       "url": "https://t.co/18j6zdHub4"
+      }
+     ]
+    },
+    "text": "We’ve trained Claude to flag potential misuse in conversations, a technique we call self-assessment. Right after it responds, Claude gives a preliminary safety assessment of the conversation. \n\nSince we began using self-assessment in June, it has surfaced misuse that our other safeguards weren’t designed to catch. \n\nBecause Claude has already read the conversation, self-assessment is very efficient. And unlike classifiers, which target a discrete set of harms, it draws on Claude’s own judgment, so it gets more accurate as our models improve.\n\nRead more on our new Safeguards blog:\nhttps://t.co/18j6zdHub4"
+   },
+   "text": "We’ve trained Claude to flag potential misuse in conversations, a technique we call self-assessment. Right after it responds, Claude gives a preliminary safety assessment of the conversation. \n\nSince we began using self-assessment in June, it has surfaced misuse that our other",
+   "url": "https://x.com/AnthropicAI/status/2115871889549865429"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "16_2115854902845227008"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T18:12:16.000Z",
+   "edit_history_post_ids": [
+    "2115869339987640632"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/2Tmbe8Vvgx",
+      "end": 459,
+      "expanded_url": "https://x.com/claudeai/status/2115859377488072879/photo/1",
+      "media_key": "16_2115854902845227008",
+      "start": 436,
+      "url": "https://t.co/2Tmbe8Vvgx"
+     }
+    ]
+   },
+   "id": "2115869339987640632",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/claudeai/statu…",
+       "end": 459,
+       "expanded_url": "https://x.com/claudeai/status/2115859377488072879/photo/1",
+       "start": 436,
+       "url": "https://t.co/2Tmbe8Vvgx"
+      }
+     ]
+    },
+    "text": "A bunch of small Claude updates 👀\n\n- Optimized view on iPad and iPhone Duo. Similar on Chromebooks, Googlebooks, and foldables - Claude on Android now works like a laptop app.\n- Multi-account sign-in. \n- Claude UI now supports 24 new languages. \n- Voice mode answer speed has improved. Non-English voices are now more natural. \n- CarPlay is now supported. \n- \"Pull down to search\" feature on mobile is coming soon. \n\nQOL improvements 🔥 https://t.co/2Tmbe8Vvgx"
+   },
+   "text": "A bunch of small Claude updates 👀\n\n- Optimized view on iPad and iPhone Duo. Similar on Chromebooks, Googlebooks, and foldables - Claude on Android now works like a laptop app.\n- Multi-account sign-in. \n- Claude UI now supports 24 new languages. \n- Voice mode answer speed has",
+   "url": "https://x.com/testingcatalog/status/2115869339987640632"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115861386467098624",
+     "3_2115861386462961664"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T17:40:41.000Z",
+   "edit_history_post_ids": [
+    "2115861391340949810"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/f10fLPLS31",
+      "end": 203,
+      "expanded_url": "https://x.com/testingcatalog/status/2115861391340949810/photo/1",
+      "media_key": "3_2115861386467098624",
+      "start": 180,
+      "url": "https://t.co/f10fLPLS31"
+     },
+     {
+      "display_url": "pic.x.com/f10fLPLS31",
+      "end": 203,
+      "expanded_url": "https://x.com/testingcatalog/status/2115861391340949810/photo/1",
+      "media_key": "3_2115861386462961664",
+      "start": 180,
+      "url": "https://t.co/f10fLPLS31"
+     },
+     {
+      "display_url": "x.com/thsottiaux/sta…",
+      "end": 227,
+      "expanded_url": "https://twitter.com/thsottiaux/status/2115850175868727621",
+      "start": 204,
+      "url": "https://t.co/AOLL5cwpjP"
+     }
+    ]
+   },
+   "id": "2115861391340949810",
+   "referenced_tweets": [
+    {
+     "id": "2115850175868727621",
+     "type": "quoted"
+    }
+   ],
+   "text": "OPENAI 🔥: Usage limits for all Pro 100/200/500 tiers and Business Premium users have been doubled! \n\nUsage for Dots will continue to be separate for now as well. \n\nBuilding time 👀 https://t.co/f10fLPLS31 https://t.co/AOLL5cwpjP",
+   "url": "https://x.com/testingcatalog/status/2115861391340949810"
+  },
+  {
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T17:19:30.000Z",
+   "edit_history_post_ids": [
+    "2115856061555220893"
+   ],
+   "id": "2115856061555220893",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "snaptrude.com",
+       "end": 467,
+       "expanded_url": "https://www.snaptrude.com",
+       "start": 444,
+       "url": "https://t.co/DeqTSx7Swz"
+      }
+     ]
+    },
+    "text": "Snaptrude Agent can model a specific product from a manufacturer's spec sheet, down to the bolt positioning on a glass facade.\n\nOn active projects, designers can use markup to describe a change, and the agent tests options before addressing the request. Work can be imported and exported from/to Revit while keeping the team’s components intact.\n\nThe agent is free to try, with detailed modeling and exports on the $60 Pro plan.\n\nTest it out 👀\nhttps://t.co/DeqTSx7Swz"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115856057914601719",
+     "type": "replied_to"
+    }
+   ],
+   "text": "Snaptrude Agent can model a specific product from a manufacturer's spec sheet, down to the bolt positioning on a glass facade.\n\nOn active projects, designers can use markup to describe a change, and the agent tests options before addressing the request. Work can be imported and",
+   "url": "https://x.com/testingcatalog/status/2115856061555220893"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2115855896873959425"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T17:19:29.000Z",
+   "edit_history_post_ids": [
+    "2115856057914601719"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/uLJWRhpvNF",
+      "end": 303,
+      "expanded_url": "https://x.com/testingcatalog/status/2115856057914601719/video/1",
+      "media_key": "13_2115855896873959425",
+      "start": 280,
+      "url": "https://t.co/uLJWRhpvNF"
+     },
+     {
+      "display_url": "x.com/altafganihar/s…",
+      "end": 327,
+      "expanded_url": "https://twitter.com/altafganihar/status/2115808566439264349",
+      "start": 304,
+      "url": "https://t.co/Pz6iydar9i"
+     }
+    ]
+   },
+   "id": "2115856057914601719",
+   "note_tweet": {
+    "text": "Snaptrude has launched Snaptrude Agent, an AI agent that turns a design brief into a construction-ready 3D model, including structure, MEP (plumbing, electrical, and HVAC), and drawings.\n\nThe agent starts by sharing its plan, then works on the model and schematics. Everything it adds can be edited further, letting architects take over at any point.\n\nPrompt-to-building 🔥"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115808566439264349",
+     "type": "quoted"
+    }
+   ],
+   "text": "Snaptrude has launched Snaptrude Agent, an AI agent that turns a design brief into a construction-ready 3D model, including structure, MEP (plumbing, electrical, and HVAC), and drawings.\n\nThe agent starts by sharing its plan, then works on the model and schematics. Everything it https://t.co/uLJWRhpvNF https://t.co/Pz6iydar9i",
+   "url": "https://x.com/testingcatalog/status/2115856057914601719"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2115807286660665344"
+    ]
+   },
+   "author_id": "2181804646",
+   "created_at": "2026-10-29T14:10:46.000Z",
+   "edit_history_post_ids": [
+    "2115808566439264349"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 32,
+      "id": "3300489913",
+      "start": 22,
+      "username": "snaptrude"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "pic.x.com/QnoLhqUpkk",
+      "end": 298,
+      "expanded_url": "https://x.com/altafganihar/status/2115808566439264349/video/1",
+      "media_key": "13_2115807286660665344",
+      "start": 275,
+      "url": "https://t.co/QnoLhqUpkk"
+     }
+    ]
+   },
+   "id": "2115808566439264349",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 32,
+       "id": "3300489913",
+       "start": 22,
+       "username": "snaptrude"
+      },
+      {
+       "end": 1663,
+       "id": "13752532",
+       "start": 1652,
+       "username": "prashanthp"
+      },
+      {
+       "end": 1673,
+       "id": "33846451",
+       "start": 1667,
+       "username": "Accel"
+      },
+      {
+       "end": 1712,
+       "id": "1154052312324694021",
+       "start": 1699,
+       "username": "foundamental"
+      },
+      {
+       "end": 1871,
+       "id": "15698507",
+       "start": 1859,
+       "username": "scottbelsky"
+      },
+      {
+       "end": 1888,
+       "id": "14946149",
+       "start": 1873,
+       "username": "andreasklinger"
+      },
+      {
+       "end": 1902,
+       "id": "72551143",
+       "start": 1890,
+       "username": "thilokonzok"
+      },
+      {
+       "end": 1910,
+       "id": "7537712",
+       "start": 1904,
+       "username": "immad"
+      },
+      {
+       "end": 1921,
+       "id": "259041516",
+       "start": 1912,
+       "username": "CindyXBi"
+      },
+      {
+       "end": 1935,
+       "id": "2601058420",
+       "start": 1923,
+       "username": "DanilaVladi"
+      },
+      {
+       "end": 1944,
+       "id": "21745410",
+       "start": 1937,
+       "username": "jmwass"
+      },
+      {
+       "end": 1973,
+       "id": "24279559",
+       "start": 1962,
+       "username": "adamecourt"
+      }
+     ]
+    },
+    "text": "Today we're launching @snaptrude Agent, the most advanced agent for building design.\n\nIt does real design work with you, from a site to a construction-ready LOD 400 model with structure, MEP and drawings. Then can go back to your existing software with your families intact.\n\nAbout a year ago we bet the company on AI. Honestly the insight came from software engineering. It wasn't long ago that autocomplete felt like a big deal, and now engineers direct agents that write a lot of the code. I think the same shift is coming to how we design buildings, and it's already started.\n\nMost designers I meet aren't short on skill, they're short on time. Take the call every design team dreads, the client cuts the budget by 30%. Today that's a bad month for everyone. With the agent you're the director. You decide where the cost comes out, and it updates the layout, coordinates the structure and MEP, and redoes the drawings. So when design exploration gets this cheap, we go from 3 options to 300, and more options means better buildings.\n\nSince August our users have gone through more than 140 billion tokens, and firms like Jacobs, Studio+, Kajima, VMDO, Dekker and hundreds of others use Snaptrude today. In our early access, more than 2,000 designers have run over 25,000 tasks through the agent since September.\n\nWe also built a benchmark for this, AECBench, because in AEC an almost correct answer is still wrong. It gives AI the same brief an architect would get, has its design in a real BIM model, and scores the result against the brief and against how architects review design. We're publishing the first results today, link below.\n\nThank you @prashanthp at @Accel and Shub and the team at @foundamental for backing us when this was still a bet, and the Snaptrude team, who built every bit of this. Really proud of you all.\n\nThanks to our investors, @scottbelsky, @andreasklinger, @thilokonzok, @immad, @CindyXBi, @DanilaVladi, @jmwass, rahulchaudhary, @adamecourt,  Zach Ginsburg, Alex duff, Paul grossinger, really appreciate all the help along the way."
+   },
+   "text": "Today we're launching @snaptrude Agent, the most advanced agent for building design.\n\nIt does real design work with you, from a site to a construction-ready LOD 400 model with structure, MEP and drawings. Then can go back to your existing software with your families intact. https://t.co/QnoLhqUpkk",
+   "url": "https://x.com/altafganihar/status/2115808566439264349"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115812746864271360"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T14:28:35.000Z",
+   "edit_history_post_ids": [
+    "2115813050057990158"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/EBSCpA5oXH",
+      "end": 309,
+      "expanded_url": "https://x.com/testingcatalog/status/2115813050057990158/photo/1",
+      "media_key": "3_2115812746864271360",
+      "start": 286,
+      "url": "https://t.co/EBSCpA5oXH"
+     },
+     {
+      "display_url": "x.com/MistralAI/stat…",
+      "end": 333,
+      "expanded_url": "https://twitter.com/MistralAI/status/2115811242556137820",
+      "start": 310,
+      "url": "https://t.co/udpzPhT8rD"
+     }
+    ]
+   },
+   "id": "2115813050057990158",
+   "note_tweet": {
+    "text": "MISTRAL 🔥: Le Chonk (Mistral Large 4) is now available on HuggingFace! \n\n> \"The new model also features substantial gains in reasoning efficiency that give developers greater performance while lowering inference costs.\"\n\n> \"Mistral Large 4 ranks as the best open-weight model for coding and among the world's most capable open models overall.\"\n\nIt now takes the top spot on Cognition's FrontierCode benchmark among open models!\n\nWe need new Mistral Small now 👀"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115811242556137820",
+     "type": "quoted"
+    }
+   ],
+   "text": "MISTRAL 🔥: Le Chonk (Mistral Large 4) is now available on HuggingFace! \n\n&gt; \"The new model also features substantial gains in reasoning efficiency that give developers greater performance while lowering inference costs.\"\n\n&gt; \"Mistral Large 4 ranks as the best open-weight model for https://t.co/EBSCpA5oXH https://t.co/udpzPhT8rD",
+   "url": "https://x.com/testingcatalog/status/2115813050057990158"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115791994836410368"
+    ]
+   },
+   "author_id": "1667249535519805451",
+   "created_at": "2026-10-29T14:21:24.000Z",
+   "edit_history_post_ids": [
+    "2115811242556137820"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 178,
+      "id": "1751810001751183361",
+      "start": 168,
+      "username": "cognition"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "pic.x.com/R9wQ6WTPnl",
+      "end": 286,
+      "expanded_url": "https://x.com/MistralAI/status/2115811242556137820/photo/1",
+      "media_key": "3_2115791994836410368",
+      "start": 263,
+      "url": "https://t.co/R9wQ6WTPnl"
+     }
+    ]
+   },
+   "id": "2115811242556137820",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 178,
+       "id": "1751810001751183361",
+       "start": 168,
+       "username": "cognition"
+      },
+      {
+       "end": 420,
+       "id": "368621253",
+       "start": 408,
+       "username": "CrowdStrike"
+      },
+      {
+       "end": 433,
+       "id": "32499999",
+       "start": 422,
+       "username": "cloudflare"
+      },
+      {
+       "end": 442,
+       "id": "19199289",
+       "start": 435,
+       "username": "rubrik"
+      },
+      {
+       "end": 452,
+       "id": "22917598",
+       "start": 444,
+       "username": "zscaler"
+      },
+      {
+       "end": 541,
+       "id": "778764142412984320",
+       "start": 529,
+       "username": "huggingface"
+      }
+     ]
+    },
+    "text": "Today, we release the weights of a new and improved Le Chonk, advancing the open frontier for agentic coding and cybersecurity.\n\n💻 Built to build: Le Chonk ranks #1 on @cognition’s FrontierCode among open models, and sets a new benchmark for Pareto efficiency on @artificialanalysis.\n\n🛡 Built to defend: State-of-the-art in cyberdefense, put through the paces by the world's leading cyber vendors, including @CrowdStrike, @cloudflare, @rubrik, @zscaler, and others.\n\nBuilt for sovereignty: Make it yours. Download the weights on @huggingface , customize it with Mistral Forge, and deploy it wherever you need it.\n\nRead more from our team and customers 👇:"
+   },
+   "text": "Today, we release the weights of a new and improved Le Chonk, advancing the open frontier for agentic coding and cybersecurity.\n\n💻 Built to build: Le Chonk ranks #1 on @cognition’s FrontierCode among open models, and sets a new benchmark for Pareto efficiency on https://t.co/R9wQ6WTPnl",
+   "url": "https://x.com/MistralAI/status/2115811242556137820"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115697721336004608"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T06:50:28.000Z",
+   "edit_history_post_ids": [
+    "2115697759281975475"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/FWyMbZYUGf",
+      "end": 304,
+      "expanded_url": "https://x.com/testingcatalog/status/2115697759281975475/photo/1",
+      "media_key": "3_2115697721336004608",
+      "start": 281,
+      "url": "https://t.co/FWyMbZYUGf"
+     },
+     {
+      "display_url": "x.com/NVIDIAAI/statu…",
+      "end": 328,
+      "expanded_url": "https://twitter.com/NVIDIAAI/status/2115462300241141882",
+      "start": 305,
+      "url": "https://t.co/pFHHBhUe0p"
+     }
+    ]
+   },
+   "id": "2115697759281975475",
+   "note_tweet": {
+    "text": "NVIDIA released Nemotron 3.5 Transcribe, a new open-weight, 30B MoE model with ~4B active parameters. \n\n> Nemotron 3.5 Transcribe can transcribe in 40 languages, perform speaker attribution, translate, handle contextual prompting, and understand audio.\n\n> It ranked first in VoiceArena’s 14-system diarization + ASR comparison."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115462300241141882",
+     "type": "quoted"
+    }
+   ],
+   "text": "NVIDIA released Nemotron 3.5 Transcribe, a new open-weight, 30B MoE model with ~4B active parameters. \n\n&gt; Nemotron 3.5 Transcribe can transcribe in 40 languages, perform speaker attribution, translate, handle contextual prompting, and understand audio.\n\n&gt; It ranked first in https://t.co/FWyMbZYUGf https://t.co/pFHHBhUe0p",
+   "url": "https://x.com/testingcatalog/status/2115697759281975475"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2115457350056529921"
+    ]
+   },
+   "author_id": "740238495952736256",
+   "created_at": "2026-10-28T15:14:50.000Z",
+   "edit_history_post_ids": [
+    "2115462300241141882"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/PEH1PeURIv",
+      "end": 302,
+      "expanded_url": "https://x.com/NVIDIAAI/status/2115462300241141882/video/1",
+      "media_key": "13_2115457350056529921",
+      "start": 279,
+      "url": "https://t.co/PEH1PeURIv"
+     }
+    ]
+   },
+   "id": "2115462300241141882",
+   "note_tweet": {
+    "text": "Meet NVIDIA Nemotron 3.5 Transcribe 🎙️\n\nAn open-weight, promptable 30B MoE model with ~4B active parameters that brings transcription in 40 languages, speaker attribution, translation, contextual prompting and audio understanding into one checkpoint.\n\nWatch it keep track of who said what when everyone’s talking at once.\n\n1/ 🧵"
+   },
+   "text": "Meet NVIDIA Nemotron 3.5 Transcribe 🎙️\n\nAn open-weight, promptable 30B MoE model with ~4B active parameters that brings transcription in 40 languages, speaker attribution, translation, contextual prompting and audio understanding into one checkpoint.\n\nWatch it keep track of who https://t.co/PEH1PeURIv",
+   "url": "https://x.com/NVIDIAAI/status/2115462300241141882"
+  },
+  {
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T06:28:03.000Z",
+   "edit_history_post_ids": [
+    "2115692120103137674"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "description": "One calibrated decision from text, images, documents and signals, in a single pass, zero generated tokens. Tuned to your domain. Able to say “not sure.”",
+      "display_url": "articul8.ai/bivia",
+      "end": 148,
+      "expanded_url": "https://articul8.ai/bivia",
+      "start": 125,
+      "status": 200,
+      "title": "Bivia. The decision layer for your AI.",
+      "unwound_url": "https://articul8.ai/bivia",
+      "url": "https://t.co/7xElENnIO1"
+     }
+    ]
+   },
+   "id": "2115692120103137674",
+   "referenced_tweets": [
+    {
+     "id": "2115692114826661956",
+     "type": "replied_to"
+    }
+   ],
+   "text": "Articul8 also develops domain-specific AI models for industries such as energy, manufacturing, and aerospace.\n\nTest it out 👀\nhttps://t.co/7xElENnIO1",
+   "url": "https://x.com/testingcatalog/status/2115692120103137674"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2115692108749168640"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-29T06:28:02.000Z",
+   "edit_history_post_ids": [
+    "2115692114826661956"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/m9xxFlKOD8",
+      "end": 308,
+      "expanded_url": "https://x.com/testingcatalog/status/2115692114826661956/photo/1",
+      "media_key": "3_2115692108749168640",
+      "start": 285,
+      "url": "https://t.co/m9xxFlKOD8"
+     },
+     {
+      "display_url": "x.com/articul8_ai/st…",
+      "end": 332,
+      "expanded_url": "https://twitter.com/articul8_ai/status/2115558202029007195",
+      "start": 309,
+      "url": "https://t.co/JrjSF9Kkku"
+     }
+    ]
+   },
+   "id": "2115692114826661956",
+   "note_tweet": {
+    "text": "Articul8 launched Bivia, its own decision model that can be connected to AI agents and hold back when confidence is low.\n\n> Bivia weighs each decision against the goal of the whole task, instead of judging each step on its own. \n\n> It supports structured replies and can be used by AI agents mid-step.\n\n> It is multimodal and was specifically trained on active production workflows. \n\n> Agents can include context from the task they are running along with each question.\n\n> Bivia currently costs $0.042 per million input tokens with no subscription. \n\nSmall mistakes add up over long tasks. At 95% accuracy per step, an agent finishes a 20-step task only about 36% of the time."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2115558202029007195",
+     "type": "quoted"
+    }
+   ],
+   "text": "Articul8 launched Bivia, its own decision model that can be connected to AI agents and hold back when confidence is low.\n\n&gt; Bivia weighs each decision against the goal of the whole task, instead of judging each step on its own. \n\n&gt; It supports structured replies and can be used https://t.co/m9xxFlKOD8 https://t.co/JrjSF9Kkku",
+   "url": "https://x.com/testingcatalog/status/2115692114826661956"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2115550439894867968"
+    ]
+   },
+   "author_id": "1742360215922597888",
+   "created_at": "2026-10-28T21:35:55.000Z",
+   "edit_history_post_ids": [
+    "2115558202029007195"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/vISMKFv2Q9",
+      "end": 300,
+      "expanded_url": "https://x.com/Articul8_AI/status/2115558202029007195/video/1",
+      "media_key": "13_2115550439894867968",
+      "start": 277,
+      "url": "https://t.co/vISMKFv2Q9"
+     }
+    ]
+   },
+   "id": "2115558202029007195",
+   "note_tweet": {
+    "text": "Introducing Bivia.\n\nA multimodal AI decision model built to complete entire workflows, not just answer individual questions.\n\nWe've spent 3+ years building and deploying AI in production across semiconductors, energy, manufacturing, and other complex industries.\n\nToday, we're bringing that experience to everyone."
+   },
+   "text": "Introducing Bivia.\n\nA multimodal AI decision model built to complete entire workflows, not just answer individual questions.\n\nWe've spent 3+ years building and deploying AI in production across semiconductors, energy, manufacturing, and other complex industries.\n\nToday, we're https://t.co/vISMKFv2Q9",
+   "url": "https://x.com/Articul8_AI/status/2115558202029007195"
+  },
+  {
+   "author_id": "1897545708770840576",
+   "created_at": "2026-10-29T01:49:33.000Z",
+   "edit_history_post_ids": [
+    "2115622033669435412"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 8,
+      "id": "1519705236713189377",
+      "start": 3,
+      "username": "suno"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "t.co",
+      "end": 139,
+      "start": 126,
+      "url": "https://t.co/"
+     }
+    ]
+   },
+   "id": "2115622033669435412",
+   "referenced_tweets": [
+    {
+     "id": "2115506373001634206",
+     "type": "reposted"
+    }
+   ],
+   "text": "RT @suno: Introducing Suno MCP Beta\n\nCreate songs from wherever you get inspired. No tab-switching needed.\n\nGet early access:\nhttps://t.co/…",
+   "url": "https://x.com/gengdaJ/status/2115622033669435412"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2115502576238034944"
+    ]
+   },
+   "author_id": "1519705236713189377",
+   "created_at": "2026-10-28T18:09:58.000Z",
+   "edit_history_post_ids": [
+    "2115506373001634206"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "description": "Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.",
+      "display_url": "sunomusic.typeform.com/to/JMPYxZqQ",
+      "end": 139,
+      "expanded_url": "https://sunomusic.typeform.com/to/JMPYxZqQ",
+      "start": 116,
+      "status": 200,
+      "title": "Suno MCP Early Access Form",
+      "unwound_url": "https://sunomusic.typeform.com/to/JMPYxZqQ",
+      "url": "https://t.co/lJpa8mId22"
+     },
+     {
+      "display_url": "pic.x.com/Wn8ehKW2ib",
+      "end": 163,
+      "expanded_url": "https://x.com/suno/status/2115506373001634206/video/1",
+      "media_key": "13_2115502576238034944",
+      "start": 140,
+      "url": "https://t.co/Wn8ehKW2ib"
+     }
+    ]
+   },
+   "id": "2115506373001634206",
+   "text": "Introducing Suno MCP Beta\n\nCreate songs from wherever you get inspired. No tab-switching needed.\n\nGet early access:\nhttps://t.co/lJpa8mId22 https://t.co/Wn8ehKW2ib",
+   "url": "https://x.com/suno/status/2115506373001634206"
+  }
+ ],
+ "longform_includes": {
+  "media": [
+   {
+    "media_key": "3_2115864167471292416",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HV0PP_8aoAA1su0.jpg"
+   },
+   {
+    "media_key": "3_2115913720002228224",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HV08UVgbsAAuUR0.jpg"
+   },
+   {
+    "media_key": "3_2115749229838704641",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVymtv5XoAEs1KA.jpg"
+   },
+   {
+    "media_key": "3_2115749255834898432",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVymvQvWEAAVeCH.jpg"
+   },
+   {
+    "media_key": "3_2115487793262764032",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVu48IwaIAAmK5K.jpg"
+   },
+   {
+    "media_key": "3_2115917053739540480",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HV0_WYpWIAAnIh9.jpg"
+   },
+   {
+    "duration_ms": 57002,
+    "media_key": "13_2115885603858657280",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115885603858657280/img/nSycZzhbtRIk1F5a.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115885603858657280/vid/avc1/1280x720/yIAomPU9gqv6SPOG.mp4"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115885603858657280/vid/avc1/1920x1080/h-HC-kH3FQ1Y8OhV.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115885603858657280/vid/avc1/480x270/dy8uz2ydRiar4OQ2.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115885603858657280/vid/avc1/640x360/CXMQ4uYVUjshQWPz.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2115885603858657280/pl/rEQFWc2DIaJsJEAA.m3u8?v=c1f"
+     }
+    ]
+   },
+   {
+    "duration_ms": 9933,
+    "media_key": "13_2115852174462775296",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115852174462775296/img/hL8y-xnYfBbV1kZF.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115852174462775296/vid/avc1/640x360/j6hTc0l4D2RKC4-1.mp4?tag=16"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115852174462775296/vid/avc1/1920x1080/LpEneqxL72vHUw64.mp4?tag=16"
+     },
+     {
+      "bit_rate": 288000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115852174462775296/vid/avc1/480x270/Z5HoU-1KP_ssb6tm.mp4?tag=16"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115852174462775296/vid/avc1/1280x720/pvpM3voVDxWv7gcw.mp4?tag=16"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2115852174462775296/pl/8sutPOUIfWWhfvLK.m3u8?tag=16"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2115877185877688320",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HV0bFxSXwAABZAL.jpg"
+   },
+   {
+    "media_key": "16_2115854902845227008",
+    "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HV0G0uhbwAAclVn.jpg",
+    "type": "animated_gif",
+    "variants": [
+     {
+      "bit_rate": 0,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/tweet_video/HV0G0uhbwAAclVn.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2115861386467098624",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HV0MuH5WQAAoiUI.jpg"
+   },
+   {
+    "media_key": "3_2115861386462961664",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HV0MuH4XIAAfnyy.jpg"
+   },
+   {
+    "duration_ms": 34133,
+    "media_key": "13_2115855896873959425",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115855896873959425/img/413xMaDNyJurzFqD.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115855896873959425/vid/avc1/2044x1080/zcSvKRHdZrza8OBb.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115855896873959425/vid/avc1/680x360/pZd_LdfxSiNPZrl8.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115855896873959425/vid/avc1/510x270/aPNj7r8akNBBXBgL.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2115855896873959425/pl/7bQQgzcg2Rx45vzy.m3u8?v=cfc"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115855896873959425/vid/avc1/1362x720/pRa0Tr-V5ZxajKIs.mp4"
+     },
+     {
+      "bit_rate": 25128000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115855896873959425/vid/avc1/3840x2028/2oLLC1_tmVdiMgj4.mp4"
+     }
+    ]
+   },
+   {
+    "duration_ms": 111900,
+    "media_key": "13_2115807286660665344",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115807286660665344/img/l9M9trOFq1llvacc.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115807286660665344/vid/avc1/640x360/TqqaICkE0YKnBCd1.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115807286660665344/vid/avc1/480x270/skVb9LK6KsyMkZmm.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2115807286660665344/pl/5whOTPSQVZtxfybh.m3u8?v=16b"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115807286660665344/vid/avc1/1280x720/9UhaTadJCKzsmXgG.mp4"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115807286660665344/vid/avc1/1920x1080/hDGNyMu6YqxHxaxj.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2115791994836410368",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVzNm_7W4AAQsZV.jpg"
+   },
+   {
+    "media_key": "3_2115812746864271360",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVzge7QWoAAzqqx.jpg"
+   },
+   {
+    "duration_ms": 120036,
+    "media_key": "13_2115457350056529921",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115457350056529921/img/N5GspUTGGH9ISNYp.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115457350056529921/vid/avc1/492x360/6EMnzdjA5GLNQRj1.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2115457350056529921/pl/dbbGzA4YlhsqiUex.m3u8?v=c9d"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115457350056529921/vid/avc1/1480x1080/jZ2Yjau1M6tU_tvl.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115457350056529921/vid/avc1/986x720/RghS_N1msFVMG-tY.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115457350056529921/vid/avc1/370x270/lvYziee_7iZDHUi7.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2115697721336004608",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVx33jxWAAAT6Km.jpg"
+   },
+   {
+    "media_key": "3_2115692108749168640",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVxyw3QXYAAv7oi.jpg"
+   },
+   {
+    "duration_ms": 154133,
+    "media_key": "13_2115550439894867968",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115550439894867968/img/1fOsAbI8u3_lcf-o.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115550439894867968/vid/avc1/640x360/Jb7-x0NhVo8VxbbN.mp4"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115550439894867968/vid/avc1/1920x1080/u6PK4xrrtizf5EU0.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2115550439894867968/pl/uNRTDrjuFZdKRcvU.m3u8?v=ff2"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115550439894867968/vid/avc1/480x270/VyQJjYLJnIKc25QF.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115550439894867968/vid/avc1/1280x720/659ORBRG8tpoaMY6.mp4"
+     }
+    ]
+   },
+   {
+    "duration_ms": 11166,
+    "media_key": "13_2115502576238034944",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2115502576238034944/img/aghmgSOCTLhGBfz7.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115502576238034944/vid/avc1/1280x720/t5HcrolPXkyHHzlO.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2115502576238034944/pl/Giq_J-IyOwvCltIi.m3u8?v=cfc"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115502576238034944/vid/avc1/1920x1080/NCZ2eBTMuesINnkv.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115502576238034944/vid/avc1/480x270/tdxXitvKCs_UlqJK.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2115502576238034944/vid/avc1/640x360/gRpAmjp7jtThyLsG.mp4"
+     }
+    ]
+   }
+  ],
+  "posts": [
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2115864167471292416"
+     ]
+    },
+    "author_id": "811160412901117952",
+    "created_at": "2026-10-29T18:17:25.000Z",
+    "edit_history_post_ids": [
+     "2115870635369140238"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "description": "Interaction Bench: Benchmarked on what users feel. Contribute to eval-sys/ibench development by creating an account on GitHub.",
+       "display_url": "github.com/eval-sys/ibench",
+       "end": 266,
+       "expanded_url": "https://github.com/eval-sys/ibench",
+       "images": [
+        {
+         "height": 640,
+         "url": "https://pbs.twimg.com/news_img/2115870646077149184/zicjg8t8?format=jpg&name=orig",
+         "width": 1280
+        },
+        {
+         "height": 150,
+         "url": "https://pbs.twimg.com/news_img/2115870646077149184/zicjg8t8?format=jpg&name=150x150",
+         "width": 150
+        }
+       ],
+       "start": 243,
+       "status": 200,
+       "title": "GitHub - eval-sys/ibench: Interaction Bench: Benchmarked on what users feel",
+       "unwound_url": "https://github.com/eval-sys/ibench",
+       "url": "https://t.co/CM8FHD19mh"
+      },
+      {
+       "display_url": "pic.x.com/SRfVPDJOnK",
+       "end": 299,
+       "expanded_url": "https://x.com/arvin17x/status/2115870635369140238/photo/1",
+       "media_key": "3_2115864167471292416",
+       "start": 276,
+       "url": "https://t.co/SRfVPDJOnK"
+      }
+     ]
+    },
+    "id": "2115870635369140238",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "github.com/eval-sys/ibench",
+        "end": 266,
+        "expanded_url": "https://github.com/eval-sys/ibench",
+        "start": 243,
+        "url": "https://t.co/5xFvBxZjGR"
+       },
+       {
+        "display_url": "ibench.ai",
+        "end": 299,
+        "expanded_url": "https://ibench.ai",
+        "start": 276,
+        "url": "https://t.co/1OS6GW22cy"
+       }
+      ]
+     },
+     "text": "Introducing Interaction Bench 0.1 Preview — Benchmarked on what users feel\n\n- 44 tasks from 25 real open-source apps\n- GPT-6 Astra leads at 34.1%, Claude Opus 5.5 at 27.3%, others 4.5–15.9%\n- Agents get the user's goal, never the bug\n\nGitHub: https://t.co/5xFvBxZjGR\nWebsite: https://t.co/1OS6GW22cy \n\n9🧵s next 👇"
+    },
+    "text": "Introducing Interaction Bench 0.1 Preview — Benchmarked on what users feel\n\n- 44 tasks from 25 real open-source apps\n- GPT-6 Astra leads at 34.1%, Claude Opus 5.5 at 27.3%, others 4.5–15.9%\n- Agents get the user's goal, never the bug\n\nGitHub: https://t.co/CM8FHD19mh\nWebsite: https://t.co/SRfVPDJOnK"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2115749229838704641",
+      "3_2115749255834898432"
+     ]
+    },
+    "author_id": "1831435289341894656",
+    "created_at": "2026-10-29T11:02:00.000Z",
+    "edit_history_post_ids": [
+     "2115761060292567275"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/XqMuxAicxG",
+       "end": 280,
+       "expanded_url": "https://x.com/IntCyberDigest/status/2115761060292567275/photo/1",
+       "media_key": "3_2115749229838704641",
+       "start": 257,
+       "url": "https://t.co/XqMuxAicxG"
+      },
+      {
+       "display_url": "pic.x.com/XqMuxAicxG",
+       "end": 280,
+       "expanded_url": "https://x.com/IntCyberDigest/status/2115761060292567275/photo/1",
+       "media_key": "3_2115749255834898432",
+       "start": 257,
+       "url": "https://t.co/XqMuxAicxG"
+      }
+     ]
+    },
+    "id": "2115761060292567275",
+    "text": "‼️ BREAKING: US officials believe Nvidia CEO Jensen Huang is the target of a Chinese spy plot.\n\nThey believe Alice Huang, a Megaspeed executive seen at his side in Taiwan, is a Chinese intelligence asset.\n\nPresident Trump has been briefed about the matter. https://t.co/XqMuxAicxG"
+   },
+   {
+    "author_id": "1953337039510003712",
+    "created_at": "2026-10-29T16:56:07.000Z",
+    "edit_history_post_ids": [
+     "2115850175868727621"
+    ],
+    "id": "2115850175868727621",
+    "note_tweet": {
+     "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering extended limits for dots for now, and usage of your dot will still continue to be separate from your default usage.\n\nAnd we'll of course also keep shipping better models and other efficiency improvements that increase your effective usage over time."
+    },
+    "text": "Day 25/\n\nWe are doubling all usage limits for all Pro 100/200/500 tiers and Business Premium, effective today.\n\nWe heard your kind feedback and won’t be reducing usage limits for Pro 200, so your Work and Codex usage will stay the same. We’re also going to continue offering"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2115487793262764032"
+     ]
+    },
+    "author_id": "6690032",
+    "created_at": "2026-10-28T16:56:12.000Z",
+    "edit_history_post_ids": [
+     "2115487808404230154"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/7MTtwncXgb",
+       "end": 215,
+       "expanded_url": "https://x.com/vista8/status/2115487808404230154/photo/1",
+       "media_key": "3_2115487793262764032",
+       "start": 192,
+       "url": "https://t.co/7MTtwncXgb"
+      }
+     ]
+    },
+    "id": "2115487808404230154",
+    "note_tweet": {
+     "text": "感觉自己运气好，Claude 账号一个都没被封过，不是凡尔赛啊。\n\n想想是可能是因为没开 200 刀账号，一直都是 20 刀，开两个换着用。\n\n做法上跟大家说说：\n\n1. 注册 Claude 用自己域名邮箱，路由指向 Gmail 账号，只需绑定一个域名到 cloudflare 就行。 \nEmail Service -> Email Routing -> Routing rules 创建邮箱\n\n2. IP 用自己 vultr 服务器搭的魔法，好像也不会跳验证，日常都用这个。\n\n3. 用免费 Claude 账号随便对话正常用，可以多备2-3 个。\n\n4. iOS 海外 AppStore 账号下载 Claude 客户端，AppStore 充值余额，用余额支付升级 20 刀订阅。安卓手机绑定众安银行卡到谷歌商店，直接升级。\n\n日常也没刻意只用 Claude cli，直接官方客户端用就行。\n也没改电脑时区，也没改过语言，对话也一直是中文。\n\n可能是幸存者偏差？"
+    },
+    "text": "感觉自己运气好，Claude 账号一个都没被封过，不是凡尔赛啊。\n\n想想是可能是因为没开 200 刀账号，一直都是 20 刀，开两个换着用。\n\n做法上跟大家说说：\n\n1. 注册 Claude 用自己域名邮箱，路由指向 Gmail 账号，只需绑定一个域名到 cloudflare 就行。 \nEmail Service -&gt; Email Routing -&gt; Routing https://t.co/7MTtwncXgb"
+   },
+   {
+    "author_id": "58865213",
+    "created_at": "2026-10-29T17:18:20.000Z",
+    "edit_history_post_ids": [
+     "2115855769665147254"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/thsottiaux/sta…",
+       "end": 275,
+       "expanded_url": "https://twitter.com/thsottiaux/status/2115850175868727621",
+       "start": 252,
+       "url": "https://t.co/ZVuQs4iwFX"
+      }
+     ]
+    },
+    "id": "2115855769665147254",
+    "referenced_tweets": [
+     {
+      "id": "2115850175868727621",
+      "type": "quoted"
+     }
+    ],
+    "text": "hi all, two things:\n\n1. usage limits are back to being double – your feedback worked\n\n2. we today kicked off an intense sprint to dramatically improve the app simplicity and performance. i will oversee this. more to come.\n\nnow, send me your complaints https://t.co/ZVuQs4iwFX"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2115917053739540480"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-10-29T21:22:21.000Z",
+    "edit_history_post_ids": [
+     "2115917177727643782"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/Jd75l93OwR",
+       "end": 302,
+       "expanded_url": "https://x.com/testingcatalog/status/2115917177727643782/photo/1",
+       "media_key": "3_2115917053739540480",
+       "start": 279,
+       "url": "https://t.co/Jd75l93OwR"
+      },
+      {
+       "display_url": "x.com/canva/status/2…",
+       "end": 326,
+       "expanded_url": "https://twitter.com/canva/status/2115885750013321704",
+       "start": 303,
+       "url": "https://t.co/hhvSSpPmCP"
+      }
+     ]
+    },
+    "id": "2115917177727643782",
+    "note_tweet": {
+     "text": "Canva now has its own AI vision-language model capable of editing existing designs, called Brush.\n\nUsers can describe a change, and Brush then plans and executes the edits across the design. According to Canva, Brush is 69% faster overall on general design editing tasks and 46% cheaper per task than frontier models."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2115885750013321704",
+      "type": "quoted"
+     }
+    ],
+    "text": "Canva now has its own AI vision-language model capable of editing existing designs, called Brush.\n\nUsers can describe a change, and Brush then plans and executes the edits across the design. According to Canva, Brush is 69% faster overall on general design editing tasks and 46% https://t.co/Jd75l93OwR https://t.co/hhvSSpPmCP"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2115885603858657280"
+     ]
+    },
+    "author_id": "36542528",
+    "created_at": "2026-10-29T19:17:28.000Z",
+    "edit_history_post_ids": [
+     "2115885750013321704"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/RHKmlxZkmA",
+       "end": 276,
+       "expanded_url": "https://x.com/canva/status/2115885750013321704/video/1",
+       "media_key": "13_2115885603858657280",
+       "start": 253,
+       "url": "https://t.co/RHKmlxZkmA"
+      }
+     ]
+    },
+    "id": "2115885750013321704",
+    "text": "Introducing Brush: Our first vision-language model for design. 🖌️\n\nBrush sees your design’s layout, layers and vibe the way you do, and edits alongside you. Fix one line of text, restyle a whole deck or build from a blank page.\n\nSee what Brush can do 👇 https://t.co/RHKmlxZkmA"
+   },
+   {
+    "author_id": "1353836358901501952",
+    "created_at": "2026-10-29T18:22:24.000Z",
+    "edit_history_post_ids": [
+     "2115871889549865429"
+    ],
+    "id": "2115871889549865429",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "safeguards.anthropic.com/2026/self-asse…",
+        "end": 610,
+        "expanded_url": "https://safeguards.anthropic.com/2026/self-assessment/",
+        "start": 587,
+        "url": "https://t.co/18j6zdHub4"
+       }
+      ]
+     },
+     "text": "We’ve trained Claude to flag potential misuse in conversations, a technique we call self-assessment. Right after it responds, Claude gives a preliminary safety assessment of the conversation. \n\nSince we began using self-assessment in June, it has surfaced misuse that our other safeguards weren’t designed to catch. \n\nBecause Claude has already read the conversation, self-assessment is very efficient. And unlike classifiers, which target a discrete set of harms, it draws on Claude’s own judgment, so it gets more accurate as our models improve.\n\nRead more on our new Safeguards blog:\nhttps://t.co/18j6zdHub4"
+    },
+    "text": "We’ve trained Claude to flag potential misuse in conversations, a technique we call self-assessment. Right after it responds, Claude gives a preliminary safety assessment of the conversation. \n\nSince we began using self-assessment in June, it has surfaced misuse that our other"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2115855896873959425"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-10-29T17:19:29.000Z",
+    "edit_history_post_ids": [
+     "2115856057914601719"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/uLJWRhpvNF",
+       "end": 303,
+       "expanded_url": "https://x.com/testingcatalog/status/2115856057914601719/video/1",
+       "media_key": "13_2115855896873959425",
+       "start": 280,
+       "url": "https://t.co/uLJWRhpvNF"
+      },
+      {
+       "display_url": "x.com/altafganihar/s…",
+       "end": 327,
+       "expanded_url": "https://twitter.com/altafganihar/status/2115808566439264349",
+       "start": 304,
+       "url": "https://t.co/Pz6iydar9i"
+      }
+     ]
+    },
+    "id": "2115856057914601719",
+    "note_tweet": {
+     "text": "Snaptrude has launched Snaptrude Agent, an AI agent that turns a design brief into a construction-ready 3D model, including structure, MEP (plumbing, electrical, and HVAC), and drawings.\n\nThe agent starts by sharing its plan, then works on the model and schematics. Everything it adds can be edited further, letting architects take over at any point.\n\nPrompt-to-building 🔥"
+    },
+    "referenced_tweets": [
+     {
+      "id": "2115808566439264349",
+      "type": "quoted"
+     }
+    ],
+    "text": "Snaptrude has launched Snaptrude Agent, an AI agent that turns a design brief into a construction-ready 3D model, including structure, MEP (plumbing, electrical, and HVAC), and drawings.\n\nThe agent starts by sharing its plan, then works on the model and schematics. Everything it https://t.co/uLJWRhpvNF https://t.co/Pz6iydar9i"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2115807286660665344"
+     ]
+    },
+    "author_id": "2181804646",
+    "created_at": "2026-10-29T14:10:46.000Z",
+    "edit_history_post_ids": [
+     "2115808566439264349"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 32,
+       "id": "3300489913",
+       "start": 22,
+       "username": "snaptrude"
+      }
+     ],
+     "urls": [
+      {
+       "display_url": "pic.x.com/QnoLhqUpkk",
+       "end": 298,
+       "expanded_url": "https://x.com/altafganihar/status/2115808566439264349/video/1",
+       "media_key": "13_2115807286660665344",
+       "start": 275,
+       "url": "https://t.co/QnoLhqUpkk"
+      }
+     ]
+    },
+    "id": "2115808566439264349",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 32,
+        "id": "3300489913",
+        "start": 22,
+        "username": "snaptrude"
+       },
+       {
+        "end": 1663,
+        "id": "13752532",
+        "start": 1652,
+        "username": "prashanthp"
+       },
+       {
+        "end": 1673,
+        "id": "33846451",
+        "start": 1667,
+        "username": "Accel"
+       },
+       {
+        "end": 1712,
+        "id": "1154052312324694021",
+        "start": 1699,
+        "username": "foundamental"
+       },
+       {
+        "end": 1871,
+        "id": "15698507",
+        "start": 1859,
+        "username": "scottbelsky"
+       },
+       {
+        "end": 1888,
+        "id": "14946149",
+        "start": 1873,
+        "username": "andreasklinger"
+       },
+       {
+        "end": 1902,
+        "id": "72551143",
+        "start": 1890,
+        "username": "thilokonzok"
+       },
+       {
+        "end": 1910,
+        "id": "7537712",
+        "start": 1904,
+        "username": "immad"
+       },
+       {
+        "end": 1921,
+        "id": "259041516",
+        "start": 1912,
+        "username": "CindyXBi"
+       },
+       {
+        "end": 1935,
+        "id": "2601058420",
+        "start": 1923,
+        "username": "DanilaVladi"
+       },
+       {
+        "end": 1944,
+        "id": "21745410",
+        "start": 1937,
+        "username": "jmwass"
+       },
+       {
+        "end": 1973,
+        "id": "24279559",
+        "start": 1962,
+        "username": "adamecourt"
+       }
+      ]
+     },
+     "text": "Today we're launching @snaptrude Agent, the most advanced agent for building design.\n\nIt does real design work with you, from a site to a construction-ready LOD 400 model with structure, MEP and drawings. Then can go back to your existing software with your families intact.\n\nAbout a year ago we bet the company on AI. Honestly the insight came from software engineering. It wasn't long ago that autocomplete felt like a big deal, and now engineers direct agents that write a lot of the code. I think the same shift is coming to how we design buildings, and it's already started.\n\nMost designers I meet aren't short on skill, they're short on time. Take the call every design team dreads, the client cuts the budget by 30%. Today that's a bad month for everyone. With the agent you're the director. You decide where the cost comes out, and it updates the layout, coordinates the structure and MEP, and redoes the drawings. So when design exploration gets this cheap, we go from 3 options to 300, and more options means better buildings.\n\nSince August our users have gone through more than 140 billion tokens, and firms like Jacobs, Studio+, Kajima, VMDO, Dekker and hundreds of others use Snaptrude today. In our early access, more than 2,000 designers have run over 25,000 tasks through the agent since September.\n\nWe also built a benchmark for this, AECBench, because in AEC an almost correct answer is still wrong. It gives AI the same brief an architect would get, has its design in a real BIM model, and scores the result against the brief and against how architects review design. We're publishing the first results today, link below.\n\nThank you @prashanthp at @Accel and Shub and the team at @foundamental for backing us when this was still a bet, and the Snaptrude team, who built every bit of this. Really proud of you all.\n\nThanks to our investors, @scottbelsky, @andreasklinger, @thilokonzok, @immad, @CindyXBi, @DanilaVladi, @jmwass, rahulchaudhary, @adamecourt,  Zach Ginsburg, Alex duff, Paul grossinger, really appreciate all the help along the way."
+    },
+    "text": "Today we're launching @snaptrude Agent, the most advanced agent for building design.\n\nIt does real design work with you, from a site to a construction-ready LOD 400 model with structure, MEP and drawings. Then can go back to your existing software with your families intact. https://t.co/QnoLhqUpkk"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2115791994836410368"
+     ]
+    },
+    "author_id": "1667249535519805451",
+    "created_at": "2026-10-29T14:21:24.000Z",
+    "edit_history_post_ids": [
+     "2115811242556137820"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 178,
+       "id": "1751810001751183361",
+       "start": 168,
+       "username": "cognition"
+      }
+     ],
+     "urls": [
+      {
+       "display_url": "pic.x.com/R9wQ6WTPnl",
+       "end": 286,
+       "expanded_url": "https://x.com/MistralAI/status/2115811242556137820/photo/1",
+       "media_key": "3_2115791994836410368",
+       "start": 263,
+       "url": "https://t.co/R9wQ6WTPnl"
+      }
+     ]
+    },
+    "id": "2115811242556137820",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 178,
+        "id": "1751810001751183361",
+        "start": 168,
+        "username": "cognition"
+       },
+       {
+        "end": 420,
+        "id": "368621253",
+        "start": 408,
+        "username": "CrowdStrike"
+       },
+       {
+        "end": 433,
+        "id": "32499999",
+        "start": 422,
+        "username": "cloudflare"
+       },
+       {
+        "end": 442,
+        "id": "19199289",
+        "start": 435,
+        "username": "rubrik"
+       },
+       {
+        "end": 452,
+        "id": "22917598",
+        "start": 444,
+        "username": "zscaler"
+       },
+       {
+        "end": 541,
+        "id": "778764142412984320",
+        "start": 529,
+        "username": "huggingface"
+       }
+      ]
+     },
+     "text": "Today, we release the weights of a new and improved Le Chonk, advancing the open frontier for agentic coding and cybersecurity.\n\n💻 Built to build: Le Chonk ranks #1 on @cognition’s FrontierCode among open models, and sets a new benchmark for Pareto efficiency on @artificialanalysis.\n\n🛡 Built to defend: State-of-the-art in cyberdefense, put through the paces by the world's leading cyber vendors, including @CrowdStrike, @cloudflare, @rubrik, @zscaler, and others.\n\nBuilt for sovereignty: Make it yours. Download the weights on @huggingface , customize it with Mistral Forge, and deploy it wherever you need it.\n\nRead more from our team and customers 👇:"
+    },
+    "text": "Today, we release the weights of a new and improved Le Chonk, advancing the open frontier for agentic coding and cybersecurity.\n\n💻 Built to build: Le Chonk ranks #1 on @cognition’s FrontierCode among open models, and sets a new benchmark for Pareto efficiency on https://t.co/R9wQ6WTPnl"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2115457350056529921"
+     ]
+    },
+    "author_id": "740238495952736256",
+    "created_at": "2026-10-28T15:14:50.000Z",
+    "edit_history_post_ids": [
+     "2115462300241141882"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/PEH1PeURIv",
+       "end": 302,
+       "expanded_url": "https://x.com/NVIDIAAI/status/2115462300241141882/video/1",
+       "media_key": "13_2115457350056529921",
+       "start": 279,
+       "url": "https://t.co/PEH1PeURIv"
+      }
+     ]
+    },
+    "id": "2115462300241141882",
+    "note_tweet": {
+     "text": "Meet NVIDIA Nemotron 3.5 Transcribe 🎙️\n\nAn open-weight, promptable 30B MoE model with ~4B active parameters that brings transcription in 40 languages, speaker attribution, translation, contextual prompting and audio understanding into one checkpoint.\n\nWatch it keep track of who said what when everyone’s talking at once.\n\n1/ 🧵"
+    },
+    "text": "Meet NVIDIA Nemotron 3.5 Transcribe 🎙️\n\nAn open-weight, promptable 30B MoE model with ~4B active parameters that brings transcription in 40 languages, speaker attribution, translation, contextual prompting and audio understanding into one checkpoint.\n\nWatch it keep track of who https://t.co/PEH1PeURIv"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2115692108749168640"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-10-29T06:28:02.000Z",
+    "edit_history_post_ids": [
+     "2115692114826661956"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/m9xxFlKOD8",
+       "end": 308,
+       "expanded_url": "https://x.com/testingcatalog/status/2115692114826661956/photo/1",
+       "media_key": "3_2115692108749168640",
+       "start": 285,
+       "url": "https://t.co/m9xxFlKOD8"
+      },
+      {
+       "display_url": "x.com/articul8_ai/st…",
+       "end": 332,
+       "expanded_url": "https://twitter.com/articul8_ai/status/2115558202029007195",
+       "start": 309,
+       "url": "https://t.co/JrjSF9Kkku"
+      }
+     ]
+    },
+    "id": "2115692114826661956",
+    "note_tweet": {
+     "text": "Articul8 launched Bivia, its own decision model that can be connected to AI agents and hold back when confidence is low.\n\n> Bivia weighs each decision against the goal of the whole task, instead of judging each step on its own. \n\n> It supports structured replies and can be used by AI agents mid-step.\n\n> It is multimodal and was specifically trained on active production workflows. \n\n> Agents can include context from the task they are running along with each question.\n\n> Bivia currently costs $0.042 per million input tokens with no subscription. \n\nSmall mistakes add up over long tasks. At 95% accuracy per step, an agent finishes a 20-step task only about 36% of the time."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2115558202029007195",
+      "type": "quoted"
+     }
+    ],
+    "text": "Articul8 launched Bivia, its own decision model that can be connected to AI agents and hold back when confidence is low.\n\n&gt; Bivia weighs each decision against the goal of the whole task, instead of judging each step on its own. \n\n&gt; It supports structured replies and can be used https://t.co/m9xxFlKOD8 https://t.co/JrjSF9Kkku"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2115550439894867968"
+     ]
+    },
+    "author_id": "1742360215922597888",
+    "created_at": "2026-10-28T21:35:55.000Z",
+    "edit_history_post_ids": [
+     "2115558202029007195"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/vISMKFv2Q9",
+       "end": 300,
+       "expanded_url": "https://x.com/Articul8_AI/status/2115558202029007195/video/1",
+       "media_key": "13_2115550439894867968",
+       "start": 277,
+       "url": "https://t.co/vISMKFv2Q9"
+      }
+     ]
+    },
+    "id": "2115558202029007195",
+    "note_tweet": {
+     "text": "Introducing Bivia.\n\nA multimodal AI decision model built to complete entire workflows, not just answer individual questions.\n\nWe've spent 3+ years building and deploying AI in production across semiconductors, energy, manufacturing, and other complex industries.\n\nToday, we're bringing that experience to everyone."
+    },
+    "text": "Introducing Bivia.\n\nA multimodal AI decision model built to complete entire workflows, not just answer individual questions.\n\nWe've spent 3+ years building and deploying AI in production across semiconductors, energy, manufacturing, and other complex industries.\n\nToday, we're https://t.co/vISMKFv2Q9"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2115502576238034944"
+     ]
+    },
+    "author_id": "1519705236713189377",
+    "created_at": "2026-10-28T18:09:58.000Z",
+    "edit_history_post_ids": [
+     "2115506373001634206"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "description": "Turn data collection into an experience with Typeform. Create beautiful online forms, surveys, quizzes, and so much more. Try it for FREE.",
+       "display_url": "sunomusic.typeform.com/to/JMPYxZqQ",
+       "end": 139,
+       "expanded_url": "https://sunomusic.typeform.com/to/JMPYxZqQ",
+       "start": 116,
+       "status": 200,
+       "title": "Suno MCP Early Access Form",
+       "unwound_url": "https://sunomusic.typeform.com/to/JMPYxZqQ",
+       "url": "https://t.co/lJpa8mId22"
+      },
+      {
+       "display_url": "pic.x.com/Wn8ehKW2ib",
+       "end": 163,
+       "expanded_url": "https://x.com/suno/status/2115506373001634206/video/1",
+       "media_key": "13_2115502576238034944",
+       "start": 140,
+       "url": "https://t.co/Wn8ehKW2ib"
+      }
+     ]
+    },
+    "id": "2115506373001634206",
+    "text": "Introducing Suno MCP Beta\n\nCreate songs from wherever you get inspired. No tab-switching needed.\n\nGet early access:\nhttps://t.co/lJpa8mId22 https://t.co/Wn8ehKW2ib"
+   }
+  ],
+  "users": [
+   {
+    "id": "1492195583699951620",
+    "name": "数字生命卡兹克",
+    "username": "Khazix0918"
+   },
+   {
+    "id": "1699797396589588480",
+    "name": "Max For AI",
+    "username": "MaxForAI"
+   },
+   {
+    "id": "811160412901117952",
+    "name": "空谷 Arvin Xu",
+    "username": "arvin17x"
+   },
+   {
+    "id": "1831435289341894656",
+    "name": "International Cyber Digest",
+    "username": "IntCyberDigest"
+   },
+   {
+    "id": "1764818331822182400",
+    "name": "小互",
+    "username": "xiaohu"
+   },
+   {
+    "id": "6690032",
+    "name": "向阳乔木",
+    "username": "vista8"
+   },
+   {
+    "id": "1953337039510003712",
+    "name": "Tibo",
+    "username": "thsottiaux"
+   },
+   {
+    "id": "58865213",
+    "name": "Andrew Ambrosino",
+    "username": "ajambrosino"
+   },
+   {
+    "id": "3980735590",
+    "name": "🚨 AI News | TestingCatalog",
+    "username": "testingcatalog"
+   },
+   {
+    "id": "36542528",
+    "name": "Canva",
+    "username": "canva"
+   },
+   {
+    "id": "1353836358901501952",
+    "name": "Anthropic",
+    "username": "AnthropicAI"
+   },
+   {
+    "id": "2181804646",
+    "name": "Altaf Ganihar",
+    "username": "altafganihar"
+   },
+   {
+    "id": "1667249535519805451",
+    "name": "Mistral AI",
+    "username": "MistralAI"
+   },
+   {
+    "id": "740238495952736256",
+    "name": "NVIDIA AI",
+    "username": "NVIDIAAI"
+   },
+   {
+    "id": "1742360215922597888",
+    "name": "Articul8 AI",
+    "username": "Articul8_AI"
+   },
+   {
+    "id": "1897545708770840576",
+    "name": "逸尘",
+    "username": "gengdaJ"
+   },
+   {
+    "id": "1519705236713189377",
+    "name": "Suno",
+    "username": "suno"
+   }
+  ]
+ },
+ "aux_search": [],
+ "aux_lookup": [
+  {
+   "ids": "2115898252004622617",
+   "note": "AIHOT 收录的卡兹克 Pika H3 Flex 帖，get_posts_by_ids 返回 Not Found（可能已删除），未收录"
+  }
+ ],
+ "selected_ids": [
+  "2115662773103530096",
+  "2115691027860443268",
+  "2115913730806755538",
+  "2115958355655315738",
+  "2115859097061056718",
+  "2115700285503136155",
+  "2115877778352722039",
+  "2115813050057990158",
+  "2115917177727643782",
+  "2115889458935382213",
+  "2115869339987640632",
+  "2115856057914601719",
+  "2115664042249564385",
+  "2115692114826661956",
+  "2115850175868727621",
+  "2115851621137784832",
+  "2115890336107233347",
+  "2115855769665147254",
+  "2115861391340949810",
+  "2115870635369140238",
+  "2115761060292567275",
+  "2115487808404230154",
+  "2115871889549865429",
+  "2115811242556137820",
+  "2115917181221269843",
+  "2115885750013321704",
+  "2115856061555220893",
+  "2115808566439264349",
+  "2115692120103137674",
+  "2115558202029007195",
+  "2115666784909246660"
+ ]
+}

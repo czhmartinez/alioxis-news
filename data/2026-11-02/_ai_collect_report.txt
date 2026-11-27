@@ -1,0 +1,84 @@
+Alioxis News AI新闻收集报告 — 2026-11-02（Asia/Taipei）
+============================================================
+完成时间：2026-11-02 00:17 Europe/Kiev（UTC+2）
+输出目录：/workspace/alioxis-news/data/2026-11-02/
+产出：ai.json（19）、_cover_prompts_ai.json（19）、本报告
+
+一、条数与头条
+- 条数：19（目标 15–20）
+- Lead（#00）：OpenAI：12 月起 Plus/Pro/Business 的 ChatGPT 与 Codex 合并为统一 Token 额度，Instant 聊天不占用
+  URL：https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits
+  辅证：AIHOT lead + OpenAI Help Center 原文（Plus/Pro/Business 共享 Token、Instant 除外）；IT之家/BleepingComputer/The Decoder 二手对齐
+
+二、与 v.json 交叉情况
+- 写盘时已存在 v.json（9 条）；URL 硬交叉 0
+- 软相关（不同 URL，保留）：AI #09 DeepSeek Super-Agent（TNW）与 大V「DSH-Go」手机 Harness 帖同属 DeepSeek Harness 生态，但链接与角度不同，未去重
+
+三、AIHOT 使用情况
+- 已读：_aihot_daily.json / _aihot_summary.txt（仅 3 条正文，0 flash）
+- 采用线索并落到原文：
+  · OpenAI ChatGPT×Codex 统一额度 → #00（help.openai.com/.../understanding-chatgpt-and-codex-usage-limits）
+  · OpenRouter AI 代码审查教程 → #01（openrouter.ai/blog/tutorials/ai-code-review/）
+- 未采用：
+  · Claude Code ultrathink（Addy Osmani X）— 无独立文章，按任务可跳过
+- 补充（WebSearch / WebFetch，近 36h 为主，少量 72h 内重要条）：
+  · OpenAI 中期选举公关/算力园区 → #02 Axios
+  · Claude 禁复刻现有游戏 → #03 Engadget
+  · Meta 人形 Max → #04 Engadget
+  · Meta 广告 vs Google 搜索 → #05 CNBC
+  · Grok 隐形水印 → #06 SpaceXAI Docs
+  · DOJ 幽灵学生 AI 欺诈 → #07 justice.gov
+  · Adobe EditAgent → #08 The Decoder
+  · DeepSeek Super-Agent 开源 → #09 TNW
+  · StreamVibe → #10 The Decoder
+  · 共情提示心理测量越狱 → #11 The Decoder
+  · Daybreak Blue 训练 → #12 The Decoder
+  · Connected Apps Platform → #13 Google Blog
+  · &Truth 7000 万美元 → #14 &Truth
+  · Phonic-1 / A 轮 → #15 Phonic
+  · Fractile Series C 登记 → #16 Tech Funding News
+  · MonsterHouse 语音 Agent → #17 Hugging Face
+  · Harmonic Aristotle C/Verilog → #18 Harmonic
+
+四、跳过原因
+- Claude Code ultrathink：仅 X 帖，无独立可核实长文
+- Claude Duet 候补名单：claude.com/blog/claude-duet 已在 prior_urls，跳过
+- Claude Max/Ultra 更名：2026-10-31 ai.json 已收
+- robots.txt 四家共用偏好 / OpenAI 融资下调 / Wiz 黑色十月等：昨日或 prior 已收
+- OpenAI 未成年人武器限制 Engadget：与 10-31「社区安全报告」同题，跳过
+- Mistral×NVIDIA 工业工程官博：日期 10-21，过旧
+- Meta ReSkin：疑旧帖，未采
+- aihot.news item 页：仅作线索，主链全部改为原文
+- 卡兹克公众号 / 微信链：线索用，主链改 OpenAI Help
+
+五、每条核实手段（摘要）
+00 OpenAI 额度合并 — WebFetch help.openai.com
+01 OpenRouter 代码审查 — WebFetch openrouter.ai 教程全文
+02 OpenAI 公关攻势 — WebFetch Axios；TechCrunch 交叉
+03 Claude 禁复刻游戏 — WebFetch Engadget
+04 Meta Max — WebFetch Engadget
+05 Meta vs Google 广告 — WebFetch CNBC
+06 Grok 水印 — WebFetch docs.x.ai watermarking；IT之家辅证日期
+07 幽灵学生 — WebFetch justice.gov；Ars Technica 辅证 AI 上课细节
+08 EditAgent — WebFetch The Decoder + editagent.github.io
+09 DeepSeek Super-Agent — WebFetch TNW
+10 StreamVibe — WebFetch The Decoder
+11 共情越狱 — WebFetch The Decoder
+12 Daybreak Blue — WebFetch The Decoder
+13 Connected Apps — WebFetch blog.google
+14 &Truth — WebFetch andtruth.com；WIRED 辅证
+15 Phonic-1 — WebFetch phonic.ai/blog/phonic-1
+16 Fractile — WebFetch Tech Funding News（Companies House）
+17 MonsterHouse — WebFetch huggingface.blog
+18 Aristotle — WebFetch harmonic.fun/news/...
+
+六、去重
+- 对照 _prior_urls.json（约 1927 URL）：写入前检查候选 URL，0 命中
+- 对照 2026-11-01 / 10-31 ai.json 标题与同题：跳过已收 Max/Ultra、robots.txt、Cursor 后门等同题
+- 写盘时无 v.json，未做 ai↔v URL 交叉
+- published_at 均为 +08:00 ISO；source 均为字符串站点名；image 为 /assets/covers/cover-20261102-ai-NN.jpg（00–18）
+
+七、缺口与说明
+- AIHOT 当日仅 3 条，故大量依赖 WebSearch/WebFetch 补至 19 条
+- #07/#12/#13/#14/#15/#18 发布时间略早于严格 36h，但属近窗可核实且未进 prior/昨日稿的重要条
+- 未生成封面、未 build、未 publish、未通知用户（按任务要求）

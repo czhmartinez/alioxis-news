@@ -1,0 +1,64 @@
+Alioxis News AI新闻收集报告 — 2026-11-15（Asia/Taipei）
+============================================================
+完成时间：2026-11-15 约 08:15 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-15/
+产出：ai.json（18）、_cover_prompts_ai.json（18）、本报告、_aihot_daily.json（已有、未重跑）、_aihot_summary.txt、_aihot_clues.json、_prior_urls.json（2337 URL）
+
+一、条数与头条
+- 条数：18（目标 15–20，未顶满，因周末窗口硬新闻偏少）
+- Lead（#00）：马斯克、YC 的 Tan、Epic 的 Sweeney 等联署请愿，要求英伟达董事会恢复黄仁勋 CEO 职务：截至周六下午已超 11.5 万签名，含 5,965 名在职员工、1,108 名前员工与 63,063 名股东
+  URL：https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/
+  理由：11 月 14 日最重要的硬新闻进展（请愿规模 + 马斯克等高管联署），TechCrunch 原文 WebFetch 核对。AIHOT 11-15 lead 为 Nathan Lambert 开源真空观点稿（本频道 #14），新闻性弱于请愿与 Cursor 调查，降为靠后观点条。
+  备选：#01 Cursor 安全事件调查结果 / #02 美联储金融稳定报告
+
+二、与 v.json 交叉
+- 收尾时 v.json 已存在（当前 6 条），已做硬 URL 去重：overlap=0。
+- 软同题（保留，本频道取官方/通讯社全貌，v 为推文角度）：黄仁勋离任周复盘（v #00 小互周报综览 / 本频道 #00 请愿、#03 亚洲政府回应、#14 Lambert 开源真空分析，角度均不同）。v #05 TestingCatalog 简报提到 Antigravity Dynamic Workflows，与本频道 #16 官方文档同题；v 为简报提及，本频道取 Antigravity 文档。
+- 前几日已收、本日主动未收：ChatGPT Wallet、Blackwell 训练指纹、Amodei 与 Dimon 炉边谈/算力两难（AIHOT 今日 flash 同题，跳过）、DeepSeek 全家桶 API、llama.cpp v1.0、Antigravity /teamwork、混元 Hy Realtime、GPT-6 Astra 失准报告、Sierra Poppy、Gemini 连 Google Wallet、Apple HomeView、LangChain C 轮、黄仁勋离任融资缺口、Muse 外呼、MOSS-Live、常驻智能体指南、NPR 谷歌学校 AI 概览、XYBench、SpaceX 超算园区、以色列 VC、Nvidia CEO 更迭本体（11-13 lead）、Gemini 4 Carbon、Gemini 4 Hydrogen 模型发布本体（11-13 #02）、文心 ERNIE 5.5、Claude Fable 5.2、Fireworks 泄露本体（11-11；本日 #01 为 Cursor 后续完整调查，属实质追加）、非营利组织诉前沿实验室（11-13）、Claude Meetings（11-11）、Opus 5.5 作为知识工作默认（11-13）。
+
+三、AIHOT 使用
+- 已有 _aihot_daily.json（先前已跑 node scripts/fetch-aihot-daily.js 2026-11-15，按要求未重跑；lead：Nathan Lambert 分析黄仁勋辞职后美国开源模型生态的真空）；按 11-14 格式用脚本从该文件生成 _aihot_summary.txt、_aihot_clues.json（含原链）。
+- 采用：马斯克等联署请愿（#00）、Cursor 安全事件调查（#01）、亚洲各国政府回应（#03）、美联储金融稳定报告（#02，原链为 Rohan Paul 的 X 推文，改链美联储 2026 年 11 月 13 日报告 PDF）、Thinking Machines 端到端 4-bit 训练技术报告（#04；与 11-13 已收的 Inkling 2 Small 权重发布为不同稿件）、Nathan Lambert 开源真空分析（#14，观点稿，降为非头条）。
+- 未采用：flash「Amodei 在 IPO 前承认明年存在巨大不确定性」（11-14 ai#02 已收，按要求跳过）。
+
+四、补充采用（非 AIHOT）
+- 微软 Aion Instruct（#05，Foundry on Windows 官方博客）；DeepMind 开放 SatWeave / PARDIG 天气数据集（#06）；Fortune：OpenAI 解散独立机器人团队（#07）；Anthropic 自托管 Claude Managed Agents 私有预览（#08，官方文章，Help Net Security 用于核日期）；ElevenLabs 纽约峰会 / ElevenAI（#09，官方峰会稿）；美联航限制第三方 AI 智能体订票（#10，官方新闻稿）；Nebius 2027 年 400–450 亿美元资本开支计划（#11，TechCrunch）；英伟达 SOMA Retargeter v0.2（#12，官方技术博客）；Hugging Face 博客 Isaac Sim SimReady 抓取放置教程（#13）；华为计算系统实验室 MACaQ（#15，官方研究页）；Antigravity Dynamic Workflows（#16，官方文档 + changelog 日期）；Gemini 4 Hydrogen 登陆 GitHub Copilot（#17，GitHub Changelog）。
+
+五、去重
+- _prior_urls.json：全部历史 ai.json + v.json（含 11-14，不含今天），共 2337 个 URL；本日 18 条 URL 0 命中，内部无重复。
+- 与当日 v.json 硬 URL 去重 0 命中（见第二节）。
+
+六、来源核实方式
+- 18 条均经 WebFetch 和/或 curl 读取原文核对数字与日期；美联储报告 PDF 用 curl 下载后 pdftotext 抽取 Box 2.2 与突出风险调查表，87%、6,800 亿美元、31%、1.1 万亿美元公开发行余额、银行控股公司接近 1 万亿美元敞口均对原文。CNBC 报道用于交叉核对调查比例与发布时间，未单独作为条目链接。
+- Cursor、Thinking Machines、微软、DeepMind、Anthropic、ElevenLabs、美联航、英伟达、Hugging Face、华为、Antigravity、GitHub 均为官方页；请愿与亚洲政府回应、Nebius 为 TechCrunch；OpenAI 机器人团队重组为 Fortune 独家并写明经公司确认。
+- published_at：有精确时间者换算为 +08:00（TechCrunch 请愿 1:41 PM PST 11-14 → 11-15 05:41；亚洲政府 8:34 AM PST 11-14 → 11-15 00:34；美联储 PDF last-modified 21:00:16 GMT 11-13，与 CNBC 4:00 PM EST 发布时间一致 → 11-14 05:00；Fortune 12:05 PM ET 11-13 → 11-14 01:05；Nebius 1:27 PM PST 11-12 → 11-13 05:27）。仅有日期者为估计 T12:00+08:00：#01 Cursor、#04 Thinking Machines、#05 微软、#06 DeepMind、#12 SOMA、#13 SimReady、#16 Antigravity、#17 GitHub 均为 11-13；#08 自托管 Managed Agents 按 Help Net Security 写 11-12；#14 Lambert 写 11-14；#09 ElevenLabs 峰会、#10 美联航、#15 MACaQ 均为 11-11。
+
+七、缺口与风险
+- 周末窗口硬新闻偏少，18 条未顶到 20；#09、#10、#15 发布于 11 月 11 日，#08 为 11 月 12 日，略超出约 36 小时优先窗口，因当日目录此前未收且有官方原文，作为补充收录。
+- 英伟达相关 3 条（#00 请愿、#03 亚洲政府、#14 开源真空观点），再加 #12/#13 两篇英伟达机器人技术稿，如嫌扎堆可压缩 #13 或 #14。
+- #14 为观点稿，新闻性弱于硬新闻，已降为非头条。
+- #07 OpenAI 机器人重组中“Astra 在模拟操作基准 74.8% vs 专用模型 51.0%”转述 Fortune 所引“一项英伟达研究”，未单独抓取该研究原文。
+- #17 是 11-13 已收 Gemini 4 Hydrogen 模型发布的新分发渠道（Copilot 正式上线），非模型本体；#04 是 11-13 已收 Inkling 2 Small 权重发布之后的训练技术报告，属实质追加。
+- #13 偏教程，新闻性弱于产品发布；#06 官方正文一处写 SatWeave 融合五颗卫星、另一处写六颗，摘要改为“多颗”，未写具体星数。
+- 本频道国内源偏少（#15 华为 MACaQ）；#12 智元机型为英伟达文档中的适配对象，并非智元新发布。
+- 未生成封面、未 build、未发布。
+
+八、条目清单
+#00 马斯克、YC 的 Tan、Epic 的 Sweeney 等联署请愿，要求英伟达董事会恢复黄仁勋 CEO 职务：截至周六下午已超 11.5 万签名，含 5,965 名在职员工、1,108 名前员工与 63,063 名股东 | https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/
+#01 Cursor 公布安全事件完整调查：攻击者利用 Fireworks 暴露的访问密钥窃取训练用编程智能体 trace，恶意 Claude Code 扩展最多波及约 5,000 名用户，事件已于 11 月 1 日遏制 | https://cursor.com/blog/security-incident-update
+#02 美联储金融稳定报告：市场联系人中 87% 将人工智能列为首要金融风险，高于春季的 50%；截至 10 月先进计算相关债务发行超 6,800 亿美元，约占投资级公司债发行的 31% | https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf
+#03 亚洲多国政府回应黄仁勋离任：韩国称英伟达重申将供应 26 万块先进 GPU 并继续联合项目，台湾经济部长龚明鑫认为不太可能显著改变全球 AI 增长，日本经产省表示将密切关注 | https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/
+#04 Thinking Machines 发布端到端 4-bit 训练技术报告：Inkling 2 Small 专家层前向用 NVFP4、反向用 MXFP8 并配合随机舍入，称是已知最大的原生 4-bit 端到端训练模型，预训练仅 68 小时 | https://thinkingmachines.ai/blog/end-to-end-4-bit-training/
+#05 微软宣布 Windows 端侧语言模型由 Phi Silica 过渡到 Aion Instruct：参数从 3.8B 降至 2.3B、上下文从 3.5K 升至 32K，将拓展至 RTX 与 RDNA4 GPU，计划 11 月 20 日向 Insider 推送 | https://devblogs.microsoft.com/foundry-on-windows/aion-instruct-local-ai-windows-gpu/
+#06 Google DeepMind 开放天气模型背后的 SatWeave 与 PARDIG 数据集：SatWeave 每小时更新 17 个通道的全球卫星拼图，PARDIG 提供约 15 分钟、约 10 公里分辨率全球降水，轻到中雨探测技能较 IMERG-Final 提高逾 30% | https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/
+#07 Fortune：OpenAI 解散独立机器人团队，研究并入马克·陈领导的主研究部门、应用与硬件划归布罗克曼的 Applied；公司称因 GPT-6 Astra 等通用模型已可直接驱动机器人，并非放弃该方向 | https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/
+#08 Anthropic 推出自托管 Claude Managed Agents 私有预览：企业可在自有云或本地运行智能体控制平面、沙箱、凭证与会话历史，模型请求可送往 Anthropic、Bedrock、Google Agent Platform 或 Microsoft Foundry | https://claude.com/resources/articles/self-hosted-claude-managed-agents
+#09 ElevenLabs 纽约峰会发布企业应用 ElevenAI：用 Scribe v3 做会议纪要与听写并开放免费早鸟；同时宣布与英伟达扩大合作、新增 15 兆瓦 Vera Rubin 算力，Nemotron 3.5 Super VL 接入 ElevenAgents | https://elevenlabs.io/blog/nyc-summit
+#10 美联航限制未经授权的第三方个人 AI 智能体预订与管理行程：称共享账户凭证可能暴露敏感信息、导致意外购票或动用里程，值机等环节也可能违反联邦航空局与交通部规定 | https://united.mediaroom.com/news-releases?item=125496
+#11 TechCrunch：Nebius 规划 2027 年资本开支 400–450 亿美元，预计预付款与资产支持融资可覆盖至 85%；三季度营收 9.81 亿美元，因第三方机房延期将 2026 年营收预测下调至 30 亿美元，股价当日跌 17% | https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/
+#12 英伟达开源 SOMA Retargeter v0.2：把人体动作适配到 Unitree G1/H2、Booster T1、智元 X2 Ultra 与 A3T3 等五款人形机器人，并导出轨迹用于 SONIC、ProtoMotions 等策略训练 | https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/
+#13 Hugging Face 博客：用 SimReady 资产在 Isaac Sim 6.2 中搭建饮料罐抓取放置仿真，示例以 GPT-6 Sol 等智能体生成并执行任务代码 | https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place
+#14 Nathan Lambert：黄仁勋离任后美国开源模型生态面临资金与倡导真空，认为英伟达对开源的支持可能随其离开而干涸，公司眼下首要是稳住客户交付 | https://www.interconnects.ai/p/open-source-ai-without-jensen
+#15 华为计算系统实验室开源跨模态量化工具 MACaQ：MXFP4 W4A4 逐层后训练量化，称可在 64 分钟、仅用 32.5GB 显存量化 1,220 亿参数模型，在 vLLM 上对 Qwen3-32B 的端到端额外开销约 2.3% | https://huawei-csl.com/research/macaq/
+#16 Google Antigravity 上线 Dynamic Workflows：用 /run-workflow 让智能体编写并运行 Python 脚本，并行或分阶段调度子智能体，面向 Google AI Pro 与 Ultra，覆盖 App 与 CLI | https://antigravity.google/docs/dynamic-workflows/
+#17 Gemini 4 Hydrogen 在 GitHub Copilot 正式上线：面向 Pro、Pro+、Max、Business 与 Enterprise，覆盖 VS Code、Visual Studio、Copilot CLI、编码智能体及 JetBrains、Xcode、Eclipse 等 | https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot/

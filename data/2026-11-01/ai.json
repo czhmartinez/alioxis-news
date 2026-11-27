@@ -1,0 +1,250 @@
+[
+  {
+    "title": "Wiz「黑色十月」：至少九个 AI 开发者平台接连失陷，凭据被转卖成 Bedrock LLMJacking",
+    "summary": "Wiz 研究团队梳理 10 月至少九起 AI 开发者平台安全披露，涵盖 Fireworks AI、Lightning AI、Railway、Warp、OpenCode、Northflank 等；多起报告指向凭据窃取、agent swarm，以及以「蒸馏」为目的的入侵。Wiz 追踪到失窃企业密钥在泄露后 30 分钟内被探测，并观察到两起案例分别打出约 80 万与 170 万次 Bedrock 调用，用法形态接近转卖的编码 Agent 流量；还点名与 llm-routing.com、xingjiabiapi.org 等转售基础设施有关的 IOC。",
+    "url": "https://www.wiz.io/blog/black-october-for-ai-developer-platforms",
+    "source": "Wiz",
+    "published_at": "2026-10-31T08:00:00+08:00",
+    "tags": [
+      "Wiz",
+      "AI安全",
+      "LLMJacking",
+      "Agent",
+      "Bedrock"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-00.jpg"
+  },
+  {
+    "title": "Chainalysis 披露「进攻性 Agent 技术」入侵：客户姓名邮箱角色被访问，调查内容未见外泄",
+    "summary": "加密合规公司 Chainalysis 于 10 月 30 日通报：外部攻击者使用进攻性 agentic 技术未经授权访问其系统与内部工具。基于目前调查，未见调查内容、交易/查询结果、明文密码、MFA 密钥或会话令牌被访问；部分非敏感客户数据如用户 ID、全名、邮箱与组织角色标签遭读取。公司称已通知客户、聘请第三方加固，并强调事件与近期币安相关盗窃无关；同时提到行业正迎来 AI 驱动网络攻击升温。",
+    "url": "https://www.chainalysis.com/blog/security-incident-october-30/",
+    "source": "Chainalysis",
+    "published_at": "2026-10-31T00:00:00+08:00",
+    "tags": [
+      "Chainalysis",
+      "Agent",
+      "安全事件",
+      "数据泄露"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-01.jpg"
+  },
+  {
+    "title": "Figma 发布 Weave：节点化可复用创作工作流，把多模型生成与剪辑接到 Figma 画框",
+    "summary": "Figma 于 10 月 30 日介绍 Figma Weave：面向持续产出的创意团队，用相连节点承载图像/视频生成与编辑，支持分支探索、多模型对比，以及色彩校正、合成、裁剪、Painter 等编辑节点。工作流可打包成 Weave tool 供队友一键运行，社区工具发布已上线；并可用 Figma 节点把 Design 画框与 Weave 流程双向连通，减少设计与制作之间的反复转译。",
+    "url": "https://www.figma.com/blog/the-tldr-on-figma-weave/",
+    "source": "Figma",
+    "published_at": "2026-10-31T08:00:00+08:00",
+    "tags": [
+      "Figma",
+      "Weave",
+      "创意工具",
+      "多模型",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-02.jpg"
+  },
+  {
+    "title": "Nvidia 洽谈为 Nscale 西弗吉尼亚 Anthropic 数据中心担保数十亿美元建设债务",
+    "summary": "据 The Information 报道、Bloomberg 佐证，Nvidia 正洽谈为 AI 云厂商 Nscale 在西弗吉尼亚服务 Anthropic 的数据中心提供 residual value guarantee：若 Nscale 无力支付建设款，Nvidia 将临时接管并协助转售/再租。Anthropic 已就首栋约 460MW 建筑签署约 446 亿美元合同，双方还在谈第二栋约 450 亿美元；该园区拟用 Vera Rubin。Nvidia 此前对 neocloud 多以租赁与芯片融资为主，此类建设担保属升级；背景是投资者对 AI 基建融资更紧张，CoreWeave 等股价承压。",
+    "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+    "source": "TechCrunch",
+    "published_at": "2026-10-31T09:20:00+08:00",
+    "tags": [
+      "Nvidia",
+      "Nscale",
+      "Anthropic",
+      "数据中心",
+      "融资"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-03.jpg"
+  },
+  {
+    "title": "彭博统计：Alphabet/Meta/微软/亚马逊/甲骨文承诺 AI 基建投入超 3 万亿美元",
+    "summary": "IT之家援引彭博 10 月 31 日报道：Alphabet、Meta、微软、亚马逊与甲骨文五大巨头未来数年在数据中心等领域的合同承诺合计超过 3 万亿美元。谷歌披露承诺超 1 万亿美元（约一年前八倍），Meta 超 8000 亿美元且近半为最长分 30 年支付的租约；五家未来租赁付款承诺约 1.3 万亿、其他采购约 1.9 万亿。甲骨文是首家因投 AI 数据中心而自由现金流转负的大型科技公司，预计 2028 年恢复正自由现金流。口径不完全一致，且并非全部用于数据中心。",
+    "url": "https://www.ithome.com/1/020/632.htm",
+    "source": "IT之家",
+    "published_at": "2026-10-31T23:56:00+08:00",
+    "tags": [
+      "AI基建",
+      "资本开支",
+      "Alphabet",
+      "Meta",
+      "甲骨文"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-04.jpg"
+  },
+  {
+    "title": "OpenAI 最新融资目标下调约 100 亿美元：寻求最高约 200 亿美元、估值约 1.25 万亿",
+    "summary": "CNBC 10 月 31 日确认并援引金融时报：OpenAI 正把本轮融资目标从约 300 亿美元下调至最高约 200 亿美元，投后估值约 1.25 万亿美元；轮次仍未关闭，条款可变。报道称部分投资者缩减认购，阿联酋投资者与 Coatue 等牵头；背景是科技股抛售与市场对 AI 资本开支回报的质疑升温，英特尔等 AI 相关个股同周大跌。OpenAI 未立即置评。",
+    "url": "https://www.cnbc.com/2026/10/31/openai-funding-target-cut-10-billion.html",
+    "source": "CNBC",
+    "published_at": "2026-11-01T03:56:00+08:00",
+    "tags": [
+      "OpenAI",
+      "融资",
+      "估值",
+      "资本开支"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-05.jpg"
+  },
+  {
+    "title": "Anthropic IPO 文件暗藏细节：未来服务器/建筑/电力等表外义务近 9000 亿美元",
+    "summary": "IT之家援引彭博：Anthropic 招股文件显示，其计划通过未来在服务器、建筑与电力等领域投入近 9000 亿美元债务/采购义务，远超资产负债表上已列流动负债。文件亦显示约 1175 亿美元负债与 1120 亿美元现金；小字注释包含未来租赁与数据中心、电力、GPU 采购等表外承诺。Alphabet、Meta 等同业亦积累数千亿美元未来义务，加剧华尔街对 AI 支出的担忧。Anthropic 拒绝对承诺规模置评，称拟靠增收与融资支付。",
+    "url": "https://www.ithome.com/1/020/444.htm",
+    "source": "IT之家",
+    "published_at": "2026-10-31T11:25:09+08:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "表外债务",
+      "数据中心"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-06.jpg"
+  },
+  {
+    "title": "Google/OpenAI/Anthropic/微软承诺尊重共用 robots.txt「AI 训练偏好」信号",
+    "summary": "Engadget 报道：四家公司承诺尊重 IETF 讨论中的共用 robots.txt 指令（如 User-Agent: __usage_ai-training），让站点一次声明是否允许用于生成式 AI 训练，而不必逐家配置爬虫规则。该信号不撤销既有抓取，也不影响普通搜索收录；Google 将把它映射到 Google-Extended。Anthropic 已开始支持，微软计划 2027 年 2 月 1 日起支持，Google 称 2027 年初，OpenAI 称未来数月落地。注：OpenAI 官方同题博文已于昨日 AI新闻收录，本条强调四家对齐与时间表。",
+    "url": "https://www.engadget.com/2303225/google-openai-anthropic-ai-crawling-controls/",
+    "source": "Engadget",
+    "published_at": "2026-10-31T18:34:00+08:00",
+    "tags": [
+      "robots.txt",
+      "AI训练",
+      "Google",
+      "OpenAI",
+      "版权"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-07.jpg"
+  },
+  {
+    "title": "DeepSeek Search/Fetch 按次计费今日起生效：成功请求每千次 0.75 美元，Harness/Claude Code 侧调用同步收费",
+    "summary": "DeepSeek API 文档更新 Search & Fetch 定价：Search 与 Fetch 均为独立按次 API，每 1000 次成功请求 0.75 美元；仅对返回结果的成功 HTTP 200 计费，失败/空结果/超时不计。文档明确：经 DeepSeek Harness、Claude Code 或 Codex 走服务端工具时也会打到 Search/Fetch，此前免费，自北京时间 2026 年 11 月 1 日 00:00 起按次计费。模型侧 Flash/Pro 仍按百万 Token 与峰谷时段计价。",
+    "url": "https://api-docs.deepseek.com/quick_start/pricing/",
+    "source": "DeepSeek",
+    "published_at": "2026-11-01T00:00:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "定价",
+      "Search",
+      "Fetch",
+      "Agent工具"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-08.jpg"
+  },
+  {
+    "title": "OpenRouter 教程：用 Agent SDK 搭常驻 AI Agent，定时扫 Hacker News 并控费到每轮 5 美分",
+    "summary": "OpenRouter 10 月 31 日发布 TypeScript 教程，演示用 @openrouter/agent 0.11.0 构建 always-on Agent：按调度唤醒、用工具查 Hacker News、写 digest，并以 seen.json 记住已读帖。示例用 Claude Haiku 5.5，实测单次约 0.0003–0.0012 美元；以 stepCountIs(6)+maxCost(0.05) 限制每轮，并对发团队频道的工具设 requireApproval。文章对标 OpenAI DevDay 的 Dots 常驻 Agent 叙事，强调自建可自选模型、工具与支出上限。",
+    "url": "https://openrouter.ai/blog/tutorials/build-always-on-ai-agent/",
+    "source": "OpenRouter",
+    "published_at": "2026-10-31T12:00:00+08:00",
+    "tags": [
+      "OpenRouter",
+      "Agent SDK",
+      "教程",
+      "成本控制"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-09.jpg"
+  },
+  {
+    "title": "Rock Matrix 开源 EdgeRock-4B：常数内存推理，AIME 均值 82.9%，KV 较源模型最高省约 99%",
+    "summary": "Rock Matrix 发布首个开源 4B 多模态 World-State 模型 EdgeRock-4B（改自 Qwen3.5-4B）：以循环层 + 1024 局部窗 + Rock Memory Anchors 固定容量历史，使注意力 KV 每序列约 72MiB，在 256K 上下文较源模型全注意力 KV 降约 99.1%。报告称 AIME 2024–2026 均值 pass@1 为 82.9%（保留源模型约 96.3%），并给出长生成吞吐优势。权重与代码分别在 Hugging Face / GitHub，推理代码 Apache-2.0，权重另有模型许可。",
+    "url": "https://rockmatrix.ai/models/",
+    "source": "Rock Matrix",
+    "published_at": "2026-10-31T12:00:00+08:00",
+    "tags": [
+      "EdgeRock",
+      "开源模型",
+      "常数内存",
+      "推理",
+      "边缘部署"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-10.jpg"
+  },
+  {
+    "title": "PokeBot 推出 RoboAPI：开放 Poke-Aurora 世界动作模型给兼容机械臂实测",
+    "summary": "具身智能公司 PokeBot 宣布 RoboAPI，让开发者在兼容机器人上调用其世界动作模型 Poke-Aurora，而无需从零训模。公司称在近千未见物体、近万未见任务的评测中总成功率 74.2%，相对 pi0.5 与 GPT-6 Astra 分别高出 51.3 与 16.4 个百分点。技术预览为非商业用途，10 月 30 日（北京时间）起开放注册并发布技术论文与演示；创始人徐华哲称目标是降低真实世界验证门槛。",
+    "url": "https://www.globenewswire.com/news-release/2026/10/29/3391894/0/en/pokebot-launches-roboapi-for-real-world-testing-of-its-poke-aurora-world-action-model.html",
+    "source": "GlobeNewswire",
+    "published_at": "2026-10-30T04:39:00+08:00",
+    "tags": [
+      "PokeBot",
+      "具身智能",
+      "RoboAPI",
+      "机器人"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-11.jpg"
+  },
+  {
+    "title": "英国 CMA 调查 Meta 新商业条款：是否强迫媒体接受内容用于含 AI 产品",
+    "summary": "Euronews 援引英国竞争与市场管理局：CMA 立案调查 Meta 拟议商业条款是否构成滥用支配地位，关注其是否让新闻出版商与广告主在缺乏充分选择的情况下，允许 Meta 抓取并使用网站内容开发自有产品（含 AI 功能）。原计划 11 月 20 日生效的条款已暂缓；Meta 称不会在未咨询相关方前改条款，并欢迎向 CMA 说明。挪威法院本周临时禁止执行新条款，法国上诉法院亦维持要求 Meta 善意谈判邻接权报酬的裁定。",
+    "url": "https://www.euronews.com/2026/10/30/uk-probes-meta-over-exploitative-new-terms-for-media-as-global-pushback-mounts",
+    "source": "Euronews",
+    "published_at": "2026-10-30T22:43:00+08:00",
+    "tags": [
+      "Meta",
+      "CMA",
+      "媒体版权",
+      "AI训练",
+      "竞争法"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-12.jpg"
+  },
+  {
+    "title": "法国国民议会以 11:10 通过每 GB 0.055 欧元流量税修正案，AI/流媒体或被波及",
+    "summary": "PPC Land 详述：10 月 30 日法国国民议会以 11 票赞成、10 票反对通过 2027 年预算修正案 I-1358，拟对向法国用户发送数据的内容提供商按每 GB 0.055 欧元征税，作者预期年入约 100 亿欧元；由 ISP 计量、DGFiP 征收，并设法国营收 15% 或全球营收 2% 的上限。说明点名 Google、Meta、Amazon、Netflix、Akamai 等；目前仅为初读一步，政府与报告人反对，后续仍可删改。与大V视野 Max 同题帖形成原文对照。",
+    "url": "https://ppc.land/per-gigabyte-tax-on-google-and-netflix-traffic-wins-french-vote-11-10/",
+    "source": "PPC Land",
+    "published_at": "2026-10-31T12:00:00+08:00",
+    "tags": [
+      "法国",
+      "流量税",
+      "政策",
+      "平台",
+      "AI成本"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-13.jpg"
+  },
+  {
+    "title": "Subvocal 获 YC 与 Afore 共 130 万美元：无麦无摄像头智能眼镜把默读嘴型转成文字",
+    "summary": "India Today 报道：The Subvocal Company 宣布获 Y Combinator 与 Afore Capital 共 130 万美元，开发通过非接触传感追踪口腔/发声肌群、把近乎无声口型解码为文字的智能眼镜，宣称原型可达每分钟 200+ 词，无需麦克风或摄像头。美区已开放预订，标价 699 美元、早鸟约 499 美元（含可退订金），预计 2027 年一季度发货，最终规格与监管审批仍可变；独立验证尚缺。",
+    "url": "https://www.indiatoday.in/technology/news/story/subvocal-founded-by-arnav-and-aarush-makes-ai-glasses-that-turn-silent-words-into-text-3029418-2026-10-31",
+    "source": "India Today",
+    "published_at": "2026-10-31T20:39:00+08:00",
+    "tags": [
+      "Subvocal",
+      "智能眼镜",
+      "融资",
+      "人机交互"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-14.jpg"
+  },
+  {
+    "title": "DeepMind PlanAssist 扩至英国更多地方规划局：试点显示户主申请评估耗时降约 58%",
+    "summary": "Google DeepMind 10 月 31 日宣布，基于 Gemini 的规划辅助工具 PlanAssist 将再向英格兰 12 个地方规划局开放，进入为期 12 个月的 Beta。Barnet、Camden、Dorset 早期试点显示，官员处理户主类申请评估平均耗时最多可降 58%，逾 70% 自动生成报告无需修改即获官员认可；工具负责核验材料、对照遗产与政策约束并起草带引用报告，最终决定仍由合格规划官员做出。若测试顺利，英国政府计划 2027 年向全国议会推广。",
+    "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+    "source": "Google DeepMind",
+    "published_at": "2026-10-31T20:00:00+08:00",
+    "tags": [
+      "DeepMind",
+      "Gemini",
+      "政府AI",
+      "PlanAssist",
+      "英国"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-15.jpg"
+  },
+  {
+    "title": "Hugging Face：通用机器人策略到「即插即用」仍差系统工程，仿真与 Agent 调试成关键",
+    "summary": "Hugging Face Project Sim 10 月 30 日长文梳理：即便有通用策略，部署前仍需大量微调、测试、集成与系统工程；引用 VoLo、POT-VLA、Figure Helix、π0.7、GEN-1.5 等结果说明迁移能力在增强，但失败诊断与安全仍常靠人工。文中强调仿真可规模化经验与评估（如 NVIDIA DexMimicGen、SIMPLER），并介绍 Recursive Harness Distillation、Gemini 机器人演示等让 Agent 参与排障的方向，呼吁把资产做成可复用交互仿真。",
+    "url": "https://huggingface.co/blog/projectsim/how-do-we-get-to-plug-and-play-robots",
+    "source": "Hugging Face",
+    "published_at": "2026-10-30T12:00:00+08:00",
+    "tags": [
+      "机器人",
+      "仿真",
+      "具身智能",
+      "Hugging Face"
+    ],
+    "image": "/assets/covers/cover-20261101-ai-16.jpg"
+  }
+]

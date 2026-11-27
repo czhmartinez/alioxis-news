@@ -1,0 +1,96 @@
+[
+  {
+    "title": "小互 AI 周报：黄仁勋辞职后英伟达一周跌 12.75%、连跌六周市值跌破 4 万亿美元，并盘点 Fable 5.2、谷歌四连发、ChatGPT 钱包等 8 件大事与 20 款上新",
+    "summary": "小互发布本周 AI 周报视频，把一周大事倒着数了一遍，称共 8 件大事加 20 款上新。他给出的排序是：第 1 名，黄仁勋辞去英伟达 CEO 并退出董事会，33 年任期结束；到周五收盘英伟达一周跌了 12.75%，连跌六周，是 2012 年以来最长，市值跌破 4 万亿美元。第 2 名，Anthropic「一周交了两张卷子」——技术上 Fable 5.2 指挥 1000 多个 AI 连干 8 天，从空文件夹造出一套能开机的操作系统；账本上上市定价 70–78 美元，估值约 1.4 万亿美元。第 3 名，谷歌一周四连发：最强模型 Carbon 开放，主打快和省的 Hydrogen 跟上，DeepMind 还用 AI 给 Signal 的核心代码做了数学证明。第 4 名，ChatGPT 有了钱包，卡绑一次后由 AI 代下单、每一笔需用户点头才付；小互同时提到美联航的态度是「AI 可以查航班，不许下单」。第 5 名，Meta 把模型价钱打到「一毛四」：最小的 Muse Ember 跑完一个任务约 0.14 美元，分数和对手打平，对手要 0.41 美元。后面他还点到：国内大厂把对手的模型请进自家应用、人形机器人进了奔驰产线、管 AI 的规矩一周来了三份，以及中场 20 款上新（视频中展开，帖文未逐条列出）。以上数字与排序均为小互周报表述；其中英伟达人事、Fable 5.2、Carbon/Hydrogen、ChatGPT Wallet、Muse Ember、奔驰产线机器人等，本周日报已分别报道，本条取其每周盘点与排序的角度。",
+    "url": "https://x.com/xiaohu/status/2121466849187737876",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-14T12:54:46+08:00",
+    "tags": [
+      "周报",
+      "英伟达",
+      "Anthropic",
+      "谷歌",
+      "ChatGPT Wallet"
+    ],
+    "image": "/assets/covers/cover-20261115-v-00.jpg"
+  },
+  {
+    "title": "卡兹克分享 Agent 自动化开发分工：Claude 做规划与前端，本机 Codex（GPT-6.1 Sol）写后端和数据处理，再用 Codex 最多三轮交叉审查",
+    "summary": "卡兹克在长帖里分享自己现在的 Agent 自动化开发流程，并认为这「可能就是目前的最优解」（观点）：跟 Claude 对话，由 Claude 做规划和前端，把活派给 GPT 写后端和数据处理，再由 Claude 收尾，最后用 Codex 启动最多三轮审查。他在 CLAUDE.md 里写了一段「派活」规则，用的是自己定义的脚本 codex-worker，而不是 Codex 官方插件——他觉得官方插件有点麻烦、问题也有点多。具体做法：成块的后端、算法、数据处理和性能活（不是一两行的修补）交给本机的 Codex（GPT-6.1 Sol）写，由他定接口和验收标准；前端、视觉、文案、拆解和验收仍自己做。派活命令是 `codex-worker <工作树> \"任务\"`，追加用 `--resume <会话ID>`，放后台跑；该 worker 只能写工作树和临时目录，提交不了、也联不了网，装依赖、联网测试、提交推送都由他来做。Codex 交回后他本人读 diff、跑测试，合并前的审查也走 GPT，作为换家模型的交叉检查。他提醒：PR 里有 Codex 写的代码就是混合来源，交付时不带 `--agent`。",
+    "url": "https://x.com/Khazix0918/status/2121602766976237610",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-14T21:54:51+08:00",
+    "tags": [
+      "Claude",
+      "Codex",
+      "GPT-6.1 Sol",
+      "Agent",
+      "开发工作流"
+    ],
+    "image": "/assets/covers/cover-20261115-v-01.jpg"
+  },
+  {
+    "title": "小互展示可随意改造的 Claude Code 客户端页面；TestingCatalog：桌面版已支持通过 mods 自定义主题，可向 Claude 描述想要的外观",
+    "summary": "小互发帖并配图说，现在可以定制自己的 Claude Code 客户端页面，「你可以随意改造你的客户端」，并晒出自己改过的界面。同一话题下，TestingCatalog 补充了产品细节：Claude Code 桌面版已支持自定义主题，用户可以通过 mods 告诉 Claude 希望应用长成什么样子，由它按偏好去调整；TC 称之为周五的功能更新，并表示「这需要测试」。两条为同一功能的展示与说明，不单列。",
+    "url": "https://x.com/xiaohu/status/2121498030247723058",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-14T14:58:40+08:00",
+    "tags": [
+      "Claude Code",
+      "自定义主题",
+      "客户端",
+      "Anthropic"
+    ],
+    "image": "/assets/covers/cover-20261115-v-02.jpg"
+  },
+  {
+    "title": "Grok Bot 团队称付费方案用量约增加 7%，例行与定时任务最高约增 15%",
+    "summary": "TestingCatalog 转发 Grok Bot 相关动态：据 Grok Bot 团队说法，付费方案现在大约多了 7% 的用量，定时/例行任务最高大约多 15%。消息源自 Grok Bot 团队成员 samsokolin 所称「这周上线了一些 harness 优化」，再经 mattyp 转发，TC 跟进并表示要去测试这些优化。以上百分比均为团队自述，本条未做独立核实。",
+    "url": "https://x.com/testingcatalog/status/2121636249903710411",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-15T00:07:54+08:00",
+    "tags": [
+      "Grok Bot",
+      "用量",
+      "产品更新",
+      "SpaceXSI"
+    ],
+    "image": "/assets/covers/cover-20261115-v-03.jpg"
+  },
+  {
+    "title": "逸尘：大厂靠砸钱找专家做数据标注，称字节 Xpert 10 月有人领了 18 万，并梳理评测、RLHF、代码与多模态等可参与任务（个人说法）",
+    "summary": "逸尘发长帖观察「大厂的 AI 商战」：在他看来就是猛砸钱找专家、猛做数据标注，并称「字节的 Xpert，10 月份有一个人领了 18 万」（个人说法，未经平台或官方确认）。他据此列出一类靠贡献知识和技能就能接的任务：专业领域问答与评测（医疗、法律、金融、STEM 等）、模型回复打分与对比、Benchmark 出题；多轮对话评估、对话生成/改写、偏好排序（RLHF）、角色扮演人设对话、对话纠错；专业内容撰写与复杂指令设计；代码生成评估、Agentic Coding / 长程任务评测、查 Bug 与代码审查、编程题出题；方言语音采集、转写质检、视频/3D/动捕与多模态评估；以及合规审核和二次质检等。他写道，简单到愿意花时间聊天，时薪「也在三位数」，生物、法律、金融、制造等更专业的会更高（均为作者个人描述）。文末列出可参与的平台：腾讯 ExpertHub、字节 Xpert、阿里晓天睿士；原帖链接带有推荐码，本条只保留平台名称、不转推荐链接。",
+    "url": "https://x.com/gengdaJ/status/2121442608845328697",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-11-14T11:18:27+08:00",
+    "tags": [
+      "数据标注",
+      "Xpert",
+      "ExpertHub",
+      "RLHF",
+      "AI 劳动"
+    ],
+    "image": "/assets/covers/cover-20261115-v-04.jpg"
+  },
+  {
+    "title": "TestingCatalog 11/14 简报补遗：Antigravity 推 Dynamic Workflows、Vertex AI 出现 Gemini Omni 视频微调规格，Grok Bot 可入会并测试 Bot factories，Manus 加 Side chat，Hydrogen 进 GitHub Copilot",
+    "summary": "TestingCatalog 11 月 14 日每日简报（作者写明用 Grok 辅助撰写并人工挑选）里，前一日日报已收录的条目不再重复，只补尚未单独报道的新点：Google Antigravity 正在推送 Dynamic Workflows，用 /run-workflow 编写 Python 脚本调度子智能体；Vertex AI API 中出现了名为「Omni LoRA tuning」的规格，指向 Gemini Omni 视频微调（via aitrackerbot，属第三方发现，非官方宣布）。Anthropic 方面，Claude Duet 已向所有仍在候补名单上的美国 Pro、Max 和 Ultra 订阅者发出邀请（11-13 已报开始发放邀请，此为候补清空进展）；IPO 拟于 11 月 18 日定价、约 11 月 19 日以 ANT 上市，筹资至多 644 亿美元（11-13 已报 19 日上市，644 亿美元与 18 日定价为新细节）。Grok Bot 现可加入会议来回答问题、接工作和跟踪决策，也能在文档里直接回答并附上页面链接和示意图，并正在测试按固定顺序、定时或按需把多个 Bot 串起来的 Bot factories（via alexmichael，测试中）。Meta 据称在测试一款内部预测市场应用 Takes（via DegenerateNews，传闻）。Microsoft 侧，Gemini 4 Hydrogen 已在 GitHub Copilot 正式可用。Manus 新增 Side chat，可在主任务旁边提问、不打乱原线程。Wallet、Gemini Wallet、Claude Code 主题、Muse 扩展、Teammates、DeepSeek API、Sesame 付费档等已在 11-14 或本页其他条目出现，不重复。",
+    "url": "https://x.com/testingcatalog/status/2121534991725113363",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-14T17:25:32+08:00",
+    "tags": [
+      "每日简报",
+      "Antigravity",
+      "Grok Bot",
+      "Manus",
+      "GitHub Copilot"
+    ],
+    "image": "/assets/covers/cover-20261115-v-05.jpg"
+  }
+]

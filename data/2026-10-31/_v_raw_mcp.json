@@ -1,0 +1,285 @@
+{
+  "date": "2026-10-31",
+  "method": "public X MCP namespace=x get_users_posts + get_posts_by_ids",
+  "start_time": "2026-10-29T16:00:00Z",
+  "exclude": "replies",
+  "users": {
+    "Khazix0918": {
+      "id": "1492195583699951620",
+      "result_count": 2,
+      "posts": [
+        {
+          "id": "2116054660851311061",
+          "created_at": "2026-10-30T06:28:40.000Z",
+          "text": "在一些简单的准确性任务评测里，Qwen 3.8 Flash这个模型意外的强... \n今天看了一下，我们现在各种产品的很多自动化任务，居然已经一大半都被Claude Opus 5.5切换成Qwen 3.8 Flash了...",
+          "public_metrics": {
+            "like_count": 103,
+            "reply_count": 78,
+            "bookmark_count": 47,
+            "impression_count": 34822
+          }
+        },
+        {
+          "id": "2116021601661841549",
+          "created_at": "2026-10-30T04:17:18.000Z",
+          "article_title": "DeepSeek的尽头，居然是一条会喊你爸爸的蓝色大肥鱼。",
+          "text": "https://t.co/zgt7wjwMEt",
+          "public_metrics": {
+            "like_count": 45,
+            "reply_count": 14,
+            "bookmark_count": 11,
+            "impression_count": 12467
+          }
+        }
+      ]
+    },
+    "MaxForAI": {
+      "id": "1699797396589588480",
+      "result_count": 11,
+      "posts": [
+        {
+          "id": "2116309237483831703",
+          "created_at": "2026-10-30T23:20:15.000Z",
+          "has_note_tweet": true,
+          "text_preview": "如果你从2023年就在AI行业..."
+        },
+        {
+          "id": "2116308565610959179",
+          "created_at": "2026-10-30T23:17:35.000Z",
+          "text_preview": "希望 @sama 不会因为我在游戏主机里私藏了64GB内存...",
+          "skipped": "joke/meme"
+        },
+        {
+          "id": "2116304246891299225",
+          "created_at": "2026-10-30T23:00:26.000Z",
+          "text_preview": "网址：",
+          "skipped": "self-reply url only"
+        },
+        {
+          "id": "2116304203350196373",
+          "created_at": "2026-10-30T23:00:15.000Z",
+          "has_note_tweet": true,
+          "text_preview": "等了两年多，国行Apple Intelligence终于确定上线了！！！"
+        },
+        {
+          "id": "2116071153731280909",
+          "created_at": "2026-10-30T07:34:12.000Z",
+          "text_preview": "人类一败涂地了。。。。",
+          "skipped": "meme/image-only"
+        },
+        {
+          "id": "2116067731204427875",
+          "created_at": "2026-10-30T07:20:36.000Z",
+          "text_preview": "这是人类历史上最贵的一次点击链接。",
+          "skipped": "meme"
+        },
+        {
+          "id": "2116065040977854757",
+          "created_at": "2026-10-30T07:09:55.000Z",
+          "text_preview": "朋友打印了这个摆桌子上，时刻警醒自己 要为国模之崛起而努力！",
+          "skipped": "meme/print"
+        },
+        {
+          "id": "2116056246994546714",
+          "created_at": "2026-10-30T06:34:58.000Z",
+          "has_note_tweet": true,
+          "text_preview": "Claude Self-Assessment",
+          "skipped": "同题：昨日 TestingCatalog 已收录 Anthropic self-assessment"
+        },
+        {
+          "id": "2116049466428186962",
+          "created_at": "2026-10-30T06:08:01.000Z",
+          "has_note_tweet": true,
+          "text_preview": "DSH Go DeepSeek Harness 安卓"
+        },
+        {
+          "id": "2115913730806755538",
+          "created_at": "2026-10-29T21:08:39.000Z",
+          "skipped": "昨日 selected"
+        },
+        {
+          "id": "2115859097061056718",
+          "created_at": "2026-10-29T17:31:34.000Z",
+          "skipped": "昨日 selected"
+        }
+      ]
+    },
+    "xiaohu": {
+      "id": "1764818331822182400",
+      "result_count": 7,
+      "posts": [
+        {
+          "id": "2116192421071757735",
+          "created_at": "2026-10-30T15:36:04.000Z",
+          "text_preview": "崩盘了 AI泡沫破裂了",
+          "skipped": "meme/chart"
+        },
+        {
+          "id": "2116160658899440096",
+          "created_at": "2026-10-30T13:29:52.000Z",
+          "merged_into": "2116160656772887014"
+        },
+        {
+          "id": "2116160656772887014",
+          "created_at": "2026-10-30T13:29:51.000Z",
+          "has_note_tweet": true,
+          "text_preview": "Neuralink Telepathy"
+        },
+        {
+          "id": "2116139769352925535",
+          "created_at": "2026-10-30T12:06:51.000Z",
+          "text_preview": "这就是现状 人类一败涂地",
+          "skipped": "meme/video"
+        },
+        {
+          "id": "2116087291139785040",
+          "created_at": "2026-10-30T08:38:19.000Z",
+          "text_preview": "Claude 多账号"
+        },
+        {
+          "id": "2115958355655315738",
+          "created_at": "2026-10-30T00:05:59.000Z",
+          "skipped": "昨日 selected"
+        },
+        {
+          "id": "2115957602215715163",
+          "created_at": "2026-10-30T00:02:59.000Z",
+          "skipped": "Binance hack 非 AI 主线"
+        }
+      ]
+    },
+    "thsottiaux": {
+      "id": "1953337039510003712",
+      "result_count": 3,
+      "posts": [
+        {
+          "id": "2115890336107233347",
+          "skipped": "昨日 selected"
+        },
+        {
+          "id": "2115851621137784832",
+          "skipped": "昨日 selected"
+        },
+        {
+          "id": "2115850175868727621",
+          "skipped": "昨日 selected Day 25"
+        }
+      ]
+    },
+    "testingcatalog": {
+      "id": "3980735590",
+      "result_count": 22,
+      "next_token": null,
+      "note": "meta 无 next_token，未翻页；窗口内 22 条（max_results=25）",
+      "selected_or_merged": [
+        "2116312361086624003",
+        "2116131533517942827",
+        "2116270314133078019",
+        "2116241052977746061",
+        "2116237205559783929",
+        "2116237209099477195",
+        "2116217212763881748",
+        "2116161376347713724",
+        "2115960927275368958"
+      ],
+      "skipped_dup_yesterday": [
+        "2115917177727643782",
+        "2115889458935382213",
+        "2115877778352722039",
+        "2115869339987640632",
+        "2115861391340949810",
+        "2115856057914601719"
+      ],
+      "skipped_other": [
+        {
+          "id": "2116098326546256029",
+          "reason": "Daily AI Brief 汇总跳过"
+        },
+        {
+          "id": "2116098329067106594",
+          "reason": "brief email opt-in reply"
+        },
+        {
+          "id": "2116099755990548974",
+          "reason": "joke reply Google+ grave"
+        },
+        {
+          "id": "2116312365222531523",
+          "reason": "self-reply documented link"
+        },
+        {
+          "id": "2116237212052558064",
+          "reason": "self-reply documented link"
+        }
+      ]
+    },
+    "gengdaJ": {
+      "id": "1897545708770840576",
+      "result_count": 2,
+      "posts": [
+        {
+          "id": "2115990199494963242",
+          "created_at": "2026-10-30T02:12:31.000Z",
+          "skipped": "self-reply quote-only link"
+        },
+        {
+          "id": "2115973270692585551",
+          "created_at": "2026-10-30T01:05:15.000Z",
+          "has_note_tweet": true,
+          "text_preview": "放弃 Claude 官方订阅"
+        }
+      ]
+    }
+  },
+  "longform_enriched_ids": [
+    "2116021601661841549",
+    "2116309237483831703",
+    "2116056246994546714",
+    "2115859097061056718",
+    "2115913730806755538",
+    "2115850175868727621",
+    "2115973270692585551",
+    "2116312361086624003",
+    "2116270314133078019",
+    "2116241052977746061",
+    "2116237205559783929",
+    "2116098326546256029",
+    "2115960927275368958",
+    "2115917177727643782",
+    "2115877778352722039",
+    "2115869339987640632",
+    "2116304203350196373",
+    "2116049466428186962",
+    "2116160656772887014",
+    "2116087291139785040",
+    "2116217212763881748",
+    "2116161376347713724",
+    "2116131533517942827",
+    "2116054660851311061"
+  ],
+  "longform_enriched": "see agent-tools and CallDynamicTool responses in session; article plain_text for 2116021601661841549 and note_tweet for Max/TC/逸尘 posts captured",
+  "longform_includes": {},
+  "aux_search": [],
+  "aux_lookup": [],
+  "selected_ids": [
+    "2116021601661841549",
+    "2116054660851311061",
+    "2116304203350196373",
+    "2116309237483831703",
+    "2116049466428186962",
+    "2116160656772887014",
+    "2116160658899440096",
+    "2116087291139785040",
+    "2116241052977746061",
+    "2116270314133078019",
+    "2115960927275368958",
+    "2116161376347713724",
+    "2116217212763881748",
+    "2116312361086624003",
+    "2116131533517942827",
+    "2116237205559783929",
+    "2116237209099477195",
+    "2115973270692585551"
+  ],
+  "x_reads_approx": "6 get_users_posts + 3 get_posts_by_ids batches (~9 reads)"
+}

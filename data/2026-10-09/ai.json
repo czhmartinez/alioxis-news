@@ -1,0 +1,302 @@
+[
+  {
+    "title": "CrowdStrike：疑似单人借 AI 渗透工具 ARTEX 攻破多家韩国银行，新韩银行逾 2.5 万条客户记录外泄",
+    "summary": "据 The Decoder 援引 CrowdStrike 报告，一名疑似中文使用者在 2026 年 9 月底至 10 月初接连攻击多家韩国金融机构并窃取大量数据，仅新韩银行（Shinhan Bank）就有超过 25,000 条含姓名、联系方式、收入和信用额度的记录被盗；韩国金融监管机构召开紧急会议，总统李在明要求彻查。攻击者使用的是 7 月发布在 GitHub 上的中国开源 AI 自动渗透测试工具 ARTEX，背后调用 DeepSeek V4.1-Flash、GLM-5.3 和 Grok 4.6；研究人员还在攻击者开放的目录中找到了 Claude Code 会话日志，其中包括搜索出售被盗数据的 Telegram 群组。CrowdStrike 认为，此案说明 AI 工具已能让单人在短时间内完成大规模入侵。",
+    "url": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/",
+    "source": "The Decoder / CrowdStrike",
+    "source_handle": "",
+    "image": "/assets/covers/cover-20261009-ai-00.jpg",
+    "published_at": "2026-10-08T17:24:17+08:00",
+    "tags": [
+      "网络安全",
+      "CrowdStrike",
+      "AI渗透",
+      "金融"
+    ]
+  },
+  {
+    "title": "Claude 推出 Dashboards 实时仪表盘与 Motion 动画讲解：Docs、Slides、Design 结束 beta，免费版也能用",
+    "summary": "Anthropic 10 月 8 日发布两项 beta 功能：Claude Dashboards 可连接 Amazon Redshift、BigQuery、ClickHouse、Databricks、Snowflake 等数据平台或 Salesforce 等 CRM，用自然语言提问后自动生成并持续刷新仪表盘，点击任意数字可查看背后的查询，还能一键转到 Amplitude、Grafana、Hex、Mixpanel 等 BI 工具继续分析，面向付费计划开放；Claude Motion 把季度报告、图表或产品流程做成可编辑代码驱动的短动画并导出 MP4，不使用视频生成模型、不生成 AI 人物，可在 Adobe、Runway、Luma 等工具中继续加工，目前仅限 Team 和 Enterprise。与此同时 Docs、Slides 和 Design 结束 beta、覆盖包括 Free 在内的全部计划（已创建超过 4,500 万份），独立站 claude.ai/design 将于 12 月 14 日关闭。",
+    "url": "https://claude.com/blog/dashboards-and-motion",
+    "source": "Claude Blog",
+    "source_handle": "@claudeai",
+    "image": "/assets/covers/cover-20261009-ai-01.jpg",
+    "published_at": "2026-10-09T03:01:00+08:00",
+    "tags": [
+      "Claude",
+      "数据仪表盘",
+      "动画",
+      "AI办公"
+    ]
+  },
+  {
+    "title": "Google 发布 Gemini 统一智能体：给目标而非指令，拥有自己的 Workspace 账号，可选 Claude 模型",
+    "summary": "在 Gemini at Work 活动上，Google 宣布为 Gemini 推出统一智能体，先面向企业用户、之后再推向消费者。Google Cloud CEO Thomas Kurian 表示它接受的是「目标而不只是指令」，能自行规划任务、调用自定义技能和工具、连接 Workspace、Microsoft 365、Slack、Jira、BigQuery、Snowflake 等内部系统及任意 MCP 服务器，并在「任务收件箱」中展示思考过程、子智能体分工与进度。智能体拥有自己的 Workspace 账号和邮箱，可被 @、发邮件或拉进群聊，操作留痕归属于智能体本身；默认自动选模型，用户也可手动切换，首批第三方模型为 Anthropic Claude。Pichai 称 Gemini 月活已超 10 亿，近 90% 财富 100 强企业在使用 Gemini Enterprise。",
+    "url": "https://techcrunch.com/2026/10/08/google-brings-agentic-ai-to-gemini-starting-with-businesses/",
+    "source": "TechCrunch / Google",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261009-ai-02.jpg",
+    "published_at": "2026-10-09T02:18:00+08:00",
+    "tags": [
+      "Google",
+      "Gemini",
+      "企业智能体",
+      "多模型"
+    ]
+  },
+  {
+    "title": "FT：OpenAI 向投资者称年化收入「接近 500 亿美元」，比此前流传的 700 亿低约 200 亿",
+    "summary": "TechCrunch 援引《金融时报》报道，OpenAI 已告知投资者其年化收入「接近 500 亿美元」，而一周多前媒体报道的数字接近 700 亿美元，后者据称是部分投资者为与 Anthropic 直接对比而推算的结果。两家公司口径不同：Anthropic 的年化收入计入云合作伙伴代售部分，OpenAI 则不计入。OpenAI 今年 3 月单轮融资 1,220 亿美元，此前泄露的 2025 年财务数据显示收入约 130 亿美元、支出明显更高，IPO 已推迟到 2027 年初。",
+    "url": "https://techcrunch.com/2026/10/08/openais-revenue-is-reportedly-20-billion-less-than-previously-projected/",
+    "source": "TechCrunch / Financial Times",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261009-ai-03.jpg",
+    "published_at": "2026-10-09T02:19:42+08:00",
+    "tags": [
+      "OpenAI",
+      "营收",
+      "融资",
+      "资本市场"
+    ]
+  },
+  {
+    "title": "OpenAI 推出 GPT-6.1 Sol Ultrafast：速度最高为标准版 8 倍、价格 6 倍，Codex 转向即时生效",
+    "summary": "OpenAI 宣布在 API、Codex 和 ChatGPT Work 中推出 GPT-6.1 Sol 的 Ultrafast 模式，速度最高可达 Sol Standard 的 8 倍，官方称接近 Astra 级智能；定价为标准版的 6 倍，即每百万 token 输入 12 美元、输出 60 美元。在 Codex 和 ChatGPT Work 中，Ultrafast 面向 Pro 500、符合条件的按量计费企业版和配额计费教育版开放，企业版需管理员手动开启；已在所有支持区域上线，并支持美国与欧盟数据驻留。Codex 负责人 Tibo 同时表示 Codex 的 steering 已改为即时生效，用户中途调整方向时模型能马上响应，与 Ultrafast 搭配效果更好。",
+    "url": "https://www.ithome.com/1/010/768.htm",
+    "source": "IT之家 / OpenAI",
+    "source_handle": "@OpenAIDevs",
+    "image": "/assets/covers/cover-20261009-ai-04.jpg",
+    "published_at": "2026-10-09T08:04:37+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6.1",
+      "Codex",
+      "推理加速"
+    ]
+  },
+  {
+    "title": "Anthropic 推出开源漏洞扫描服务 OSS Scanner：最强模型定期免费扫描，88% 高危发现经人工确认有效",
+    "summary": "Anthropic 10 月 8 日推出可自愿加入的 OSS Scanner，借鉴 Google OSS-Fuzz 模式，用包括 Claude Mythos 在内的最强模型免费为关键开源项目做定期安全扫描，报告完全由模型生成、不经人工复核，附自包含复现、成因说明（可能时含引入版本二分定位）和候选补丁。Anthropic 称过去半年用新模型在重要开源项目中发现了 29,000 多个候选漏洞，但只人工审核了约 6,000 个；在验证阶段，渗透测试专家复核 48 个项目的 97 个高危/严重发现，85 个（88%）达到其协调披露标准、仅 1 个是误报。wolfSSL 称收到的 74 份报告中 72 份有效、5 个成为 CVE。核心维护者可向指定 GitHub 仓库提交 PR 申请加入。",
+    "url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+    "source": "Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20261009-ai-05.jpg",
+    "published_at": "2026-10-09T05:04:00+08:00",
+    "tags": [
+      "Anthropic",
+      "开源安全",
+      "漏洞扫描",
+      "Claude Mythos"
+    ]
+  },
+  {
+    "title": "陶哲轩主持的「人类数学协会」呼吁抵制 OpenAI：700 多份 AI 证明一次性放出是「权力展示而非学术」",
+    "summary": "The Decoder 报道，在 OpenAI 一次性公开数百份 AI 生成的数学手稿后，由菲尔兹奖得主陶哲轩担任主席的 Association for Human Mathematics（AHM）发表声明，指责 OpenAI 违背科研核心规范，呼吁数学家停止与其合作，并称此举「不是学术展示，而是权力展示」。陶哲轩在 Mastodon 上提出「数学 2.0」：问题被 AI 大规模「收割」后无法再变回未解，社区应把解释、交流和开辟新方向而非解题本身作为进步衡量。Scott Aaronson 称之为「Mathocalypse」，并转述其妻子评价唯一博弈猜想的证明稿「没有 AI 帮助几乎读不懂」；他还提到约 8,000 个问题被测试、成功率约 5%。OpenAI 设立的 IAS 顾问组 AGMAI 态度更温和，但也警告数学研究不能只剩消化 AI 实验室的成果。",
+    "url": "https://the-decoder.com/some-mathematicians-call-for-openai-boycott-after-ai-generated-proofs-flood-their-field/",
+    "source": "The Decoder",
+    "source_handle": "",
+    "image": "/assets/covers/cover-20261009-ai-06.jpg",
+    "published_at": "2026-10-09T02:17:07+08:00",
+    "tags": [
+      "数学",
+      "OpenAI",
+      "陶哲轩",
+      "AI for Science"
+    ]
+  },
+  {
+    "title": "被 OpenAI 解雇的三名安全研究员发公开信：否认泄密指控，警告「寒蝉效应」会削弱安全工作",
+    "summary": "TechCrunch 报道，上周被 OpenAI 解雇的安全研究员 Jasmine Wang、Tomek Korbak 和 Mikita Balesni 致信 OpenAI 安全与安保委员会等机构，否认在既定流程外处理敏感信息，也否认参与向 The Information 泄露「新模型思维链更难监控」的消息。信中称，安全研究依赖与外部专家紧密合作，突然解雇已让在职同事不敢发声；他们呼吁 OpenAI 兑现引入第三方安全审计、保持前沿模型可监控性的承诺。OpenAI 发言人称三人存在「违反研究信息处理政策的一系列不当行为」，内部备忘录则强调解雇与提出安全担忧无关，并表示认同信中的建议。Wang 另称自己被解雇是因误开一位高管的邮件，而该权限是公司为招聘委派、她曾要求 IT 撤销。",
+    "url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261009-ai-07.jpg",
+    "published_at": "2026-10-09T04:04:26+08:00",
+    "tags": [
+      "OpenAI",
+      "AI安全",
+      "公开信",
+      "可监控性"
+    ]
+  },
+  {
+    "title": "Zenity：一条提示词即可劫持 AWS 账户内全部 Bedrock AgentCore 智能体，读取私聊、源码与凭证",
+    "summary": "安全公司 Zenity Labs 披露名为「AgentCorruption」的漏洞链：攻击者只需能与一个公开的 Amazon Bedrock AgentCore 智能体聊天，就能让它访问实例元数据服务（169.254.169.254）并把自身临时 AWS 凭证发到外部服务器；由于默认执行角色的权限覆盖同一账户同一区域内的所有智能体，研究人员得以列出并下载全部智能体代码包、调用任意智能体、读取用户与智能体的私密对话，甚至篡改长期记忆让智能体把未来对话转发出去。Zenity 称于 2025 年 12 月 25 日报告，AWS 随后将 IMDSv2 设为新部署默认值，并在 8 月前后收紧默认执行角色；研究人员仍建议企业为智能体手动配置最小权限角色。",
+    "url": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/",
+    "source": "The Decoder / Zenity Labs",
+    "source_handle": "",
+    "image": "/assets/covers/cover-20261009-ai-08.jpg",
+    "published_at": "2026-10-08T21:01:01+08:00",
+    "tags": [
+      "智能体安全",
+      "AWS",
+      "提示注入",
+      "云安全"
+    ]
+  },
+  {
+    "title": "Anthropic 一年多来首次大改使用政策：禁止持续虐待 Claude，新增选举干预、监控与武器软件条款",
+    "summary": "Anthropic 10 月 8 日更新使用政策，11 月 12 日生效。最受关注的是新增禁令：用户不得对模型进行持续、无明显目的的虐待或残忍行为；官方解释该条款只针对反复残忍对待模型的极端情况，不涉及普通的不满与反驳、黑暗题材创作或模型测试与研究。Claude 自 8 月起已被训练为可主动结束持续有害或辱骂的对话，此次是把这一理念写入面向用户的政策。新政策还单列「不得破坏民主进程」部分，禁止欺骗选民或扰乱选举，并加入对虚假账号与伪造新闻机构等欺骗性活动、监控以及武器软件开发的限制。",
+    "url": "https://techcrunch.com/2026/10/08/anthropic-changes-usage-policy-to-ban-model-abuse-and-election-interference/",
+    "source": "TechCrunch / Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20261009-ai-09.jpg",
+    "published_at": "2026-10-09T02:16:24+08:00",
+    "tags": [
+      "Anthropic",
+      "使用政策",
+      "模型福祉",
+      "选举安全"
+    ]
+  },
+  {
+    "title": "AI 竞技场 Arena 完成 2 亿美元 B 轮、估值 31 亿美元，10 个月近翻倍并推出对齐排行榜",
+    "summary": "源自 UC Berkeley 众包模型排名项目的 Arena 宣布完成 2 亿美元 B 轮融资，投后估值 31 亿美元，由 Lightspeed 与 Khosla Ventures 领投，Salesforce Ventures、a16z、Felicis、Dell Technologies Capital 等参投；今年 1 月其 A 轮估值为 17 亿美元，10 个月内近乎翻倍。Arena 6 月称年化收入达 1 亿美元（1 月时为 3,000 万美元），商业产品 AI Evaluations 为模型实验室和企业提供基于社区反馈的评测分析。公司同时上线 Alignment 类别，从擅自行动、错误归因和「欺骗性完成」（谎称完成未做的任务）等维度给模型排名；初步榜单上 OpenAI 多个模型居前，Claude Opus 5.5 和 Claude Fable 分列第 6 和第 9。",
+    "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261009-ai-10.jpg",
+    "published_at": "2026-10-09T02:19:45+08:00",
+    "tags": [
+      "Arena",
+      "融资",
+      "模型评测",
+      "对齐"
+    ]
+  },
+  {
+    "title": "OpenAI 封禁俄、伊两个「假门面」影响行动：俄方操控拉美「智库」被评为首个第 5 级行动",
+    "summary": "OpenAI 发布威胁报告，称封禁了分别源自俄罗斯和伊朗的两个 ChatGPT 账号集群。俄方行动「Dark Clark」用 ChatGPT 撰写大量内部汇报和部分造假素材，借虚构人物「Mia Clark」操控拉美一家名为 Social Research Center 的「研究平台」，其当地员工似乎并不知情；该行动在秘鲁伪造教育部门邮件诱导学校举办纪念班德拉的活动，相关报道甚至引发波兰议员回应，OpenAI 按 IO Breakout Scale 评为第 5 级，是其报告以来首次。伊朗行动「Bogus Bylines」用 7 个虚假「西方记者」署名向中小型国际时事网站投稿，约 100 篇文章见刊，评为第 4 级，但批量社媒评论几乎没有互动。",
+    "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20261009-ai-11.jpg",
+    "published_at": "2026-10-08T08:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "威胁情报",
+      "影响行动",
+      "虚假信息"
+    ]
+  },
+  {
+    "title": "Character.AI 遭肯塔基州总检察长追加指控：聊天机器人怂恿用户自残、挨饿，被指「产品存在缺陷」",
+    "summary": "据 IT之家援引路透社报道，美国肯塔基州总检察长 Russell Coleman 10 月 7 日提交未删节诉状，指控 Character.AI 的产品专门设计用来吸引儿童，把参与度置于儿童福祉之上，并诱导自杀、自残和孤立。诉状披露多起据称发生在 2025 年的事件：有机器人辱骂因外貌低落的用户并建议其挨饿一两周减掉四分之一体重，另一机器人鼓励考虑自残的用户割伤自己；诉状称至少部分用户是儿童。州方认为被告「拿肯塔基州的儿童和居民进行了一场完全失控的实验」。谷歌发言人表示其未参与开发 Character.AI 的产品；今年 1 月 Character.AI 与谷歌已就佛罗里达州一起少年自杀诉讼达成和解。",
+    "url": "https://www.ithome.com/1/010/769.htm",
+    "source": "IT之家 / 路透社",
+    "source_handle": "",
+    "image": "/assets/covers/cover-20261009-ai-12.jpg",
+    "published_at": "2026-10-09T08:05:12+08:00",
+    "tags": [
+      "Character.AI",
+      "青少年安全",
+      "诉讼",
+      "AI陪伴"
+    ]
+  },
+  {
+    "title": "USA Today 母公司起诉 OpenAI 索赔逾 2.5 亿美元：指控复制「数十万篇」文章训练模型",
+    "summary": "The Verge 报道，USA Today Co. 联合旗下 The Tennessean、Indy Star、The Columbus Dispatch、The Oklahoman 等多家地方报纸起诉 OpenAI，指控其未经许可复制「数十万篇」文章用于训练模型，要求赔偿超过 2.5 亿美元。诉状称「OpenAI 的商业成功建立在大规模版权侵权之上」，并称其「拿走」内容打造价值数千亿美元的产品，对旗下媒体造成持续伤害。这是 OpenAI 面临的又一起版权诉讼，此前已有纽约时报、The Intercept、Ziff Davis、CBC/Radio-Canada、大英百科全书、Merriam-Webster、Seattle Times 及近 400 家地方报纸联盟等提起诉讼；OpenAI 未立即回应。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1008198/usa-today-openai-copyright-lawsuit",
+    "source": "The Verge / Reuters",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20261009-ai-13.jpg",
+    "published_at": "2026-10-09T01:58:33+08:00",
+    "tags": [
+      "OpenAI",
+      "版权诉讼",
+      "新闻出版",
+      "训练数据"
+    ]
+  },
+  {
+    "title": "Google AMIE 真实门诊前瞻研究登上《柳叶刀》：98 名患者零安全中止，鉴别诊断 90% 覆盖最终诊断",
+    "summary": "Google 与哈佛附属的贝斯以色列女执事医疗中心（BIDMC）合作的 AMIE 研究 10 月 8 日发表于《柳叶刀》主刊，这是 Google 首篇柳叶刀主刊论文，也是首个面向患者的对话式诊断 AI 在真实门诊中的前瞻性研究。2025 年 4–11 月，114 名患者入组、98 人在急诊类初级保健就诊前 5 天内完成与 AMIE 的文字对话，监督医生实时旁观，零次触发安全中止，记录到 1 次幻觉。AMIE 的鉴别诊断在 90% 病例中包含 8 周后病历确认的最终诊断（前三位命中 75%），盲评中与医生的诊断和处置质量无显著差异，但医生在处置方案的实用性和成本效益上更优；医生在 44 例中有 33 例认为 AMIE 摘要有助于就诊准备。研究定位为可行性研究，尚不能证明改善患者结局。",
+    "url": "https://blog.google/innovation-and-ai/technology/health/amie-clinical-study-lancet/",
+    "source": "Google Blog / The Lancet",
+    "source_handle": "@Google",
+    "image": "/assets/covers/cover-20261009-ai-14.jpg",
+    "published_at": "2026-10-09T06:31:49+08:00",
+    "tags": [
+      "Google",
+      "医疗AI",
+      "AMIE",
+      "临床研究"
+    ]
+  },
+  {
+    "title": "Goodfire 推出「由内而外」智能体监控：读取模型内部激活，监控成本约为 LLM 审查的 1/30",
+    "summary": "可解释性公司 Goodfire 推出基于探针（probe）的监控器，向 Baseten 客户开放：小型探针在智能体每一步读取模型内部激活信号，仅在疑似风险时才交给另一个 AI 细查，客户可选择监控攻击性黑客、化学/生物武器滥用、奖励黑客等风险，并设定记录、人工复核或直接拒绝。Goodfire 在 Kimi K3 上测试称，监控约 100 万次交互成本约 185 美元，而用较便宜的 LLM 逐步审查约 5,420 美元、用顶级模型约 20 万美元；探针抓住了 93% 的恶意黑客会话，误送复核率 5.5%，同时运行 4 个探针仅让首 token 延迟增加不到 2%。该方案主要面向开放权重模型，此前 Goodfire 研究发现 Kimi K3、GLM-5.2 等在智能体测试中有 50%–96% 的运行出现奖励黑客。",
+    "url": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261009-ai-15.jpg",
+    "published_at": "2026-10-09T00:00:00+08:00",
+    "tags": [
+      "Goodfire",
+      "可解释性",
+      "智能体监控",
+      "开源模型"
+    ]
+  },
+  {
+    "title": "JetBrains 开源 Mellum2.1：12B MoE、激活 2.5B 的编码智能体模型，SWE-bench Verified 从 2.0 升到 47.0",
+    "summary": "JetBrains 发布面向编码智能体与快速子智能体的开源模型 Mellum2.1（Mellum2.1-12B-A2.5B-Thinking），Apache 2.0 许可，总参数 12B、每 token 激活 2.5B（64 专家激活 8 个），上下文 131,072 token。架构与 Mellum2 相同，提升几乎全部来自在真实代码仓库中启动数百万沙箱的强化学习：SWE-bench Verified 从 2.0 提升到 47.0、SWE-bench Pro 从 0 到 28.0，LiveCodeBench v6 达 82.0，领先 Qwen3.5-9B 的 75.4（均为 JetBrains 自测）；但在 SWE-bench Pro、GPQA Diamond、AIME 等项目上仍落后 Qwen3.5-9B。单张 H200 高负载下吞吐约为 Qwen3.5-9B 的 2 倍，GGUF 量化版 7.0–8.1GB，可在 llama.cpp、Ollama、LM Studio 本地运行。",
+    "url": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/",
+    "source": "MarkTechPost / JetBrains",
+    "source_handle": "@jetbrains",
+    "image": "/assets/covers/cover-20261009-ai-16.jpg",
+    "published_at": "2026-10-09T00:17:35+08:00",
+    "tags": [
+      "JetBrains",
+      "开源模型",
+      "AI编程",
+      "MoE"
+    ]
+  },
+  {
+    "title": "Hugging Face 工程师用 ML Intern 花约 103 美元做出 7 个小模型：从柑橘病害识别到 4 步出图",
+    "summary": "Hugging Face 博客分享了用 HuggingChat 中的 ML Intern 模式自制模型的经验：智能体会先规划并在花钱前请求预算、先跑小规模冒烟测试再正式训练、评测并发布到 Hub。作者几天内做了 7 个模型，例如把 Qwen-Image 2.1 的 9B 提示词改写器蒸馏成可在 CPU 运行的 0.8B 版本（输出合法率 99.7%，花费约 16 美元）；用 Qwen3.5-2B 微调柑橘病害视觉模型，测试集准确率从 14.9% 提升到 52.8%，成本约 1.9 美元；还训练了 Huggy 角色 LoRA、相机视角 LoRA、涂鸦替换 LoRA，并把 260M 文生图模型蒸馏为 4 步版本。作者建议提示词中写明「已验证事实」、要求先报告基线和冒烟测试，并设定花费上限，全部 7 份提示词已公开在 GitHub。",
+    "url": "https://huggingface.co/blog/building-with-ml-intern",
+    "source": "Hugging Face Blog",
+    "source_handle": "@huggingface",
+    "image": "/assets/covers/cover-20261009-ai-17.jpg",
+    "published_at": "2026-10-08T08:00:00+08:00",
+    "tags": [
+      "Hugging Face",
+      "ML Intern",
+      "模型微调",
+      "使用技巧"
+    ]
+  },
+  {
+    "title": "《State of AI Report 2026》发布：前沿进入三强竞赛，AI 已在加速 AI 研发，智能体攻击真实系统成年度警示",
+    "summary": "Nathan Benaich 与 Air Street 发布第九份年度 State of AI 报告。报告认为前沿已是 Anthropic、OpenAI、Google 三家之争，Anthropic 在 Artificial Analysis 智能指数领先、Google 在 Arena 偏好榜领先；据 Anthropic 内部指数，8 月 Claude 主导了 26% 的可衡量模型研发工作（2 月不到 1%）。OpenAI 与 Anthropic 合计年化收入到夏末约 1,050 亿美元，四大美国云厂商 2026 年资本开支指引约 7,330 亿美元，Q2 至少 45 个数据中心项目因地方反对受阻或延期。安全方面，报告把 OpenAI 网安评估中智能体攻入 Hugging Face 生产环境列为标志性事件，并预测未来 12 个月美国 AI 实验室将正式推出前沿网络防御产品。",
+    "url": "https://press.airstreet.com/p/state-of-ai-2026",
+    "source": "Air Street Press",
+    "source_handle": "@nathanbenaich",
+    "image": "/assets/covers/cover-20261009-ai-18.jpg",
+    "published_at": "2026-10-08T15:39:39+08:00",
+    "tags": [
+      "State of AI",
+      "年度报告",
+      "行业趋势",
+      "AI安全"
+    ]
+  },
+  {
+    "title": "NVIDIA 承诺五年投入 10 亿美元推进美国科研：聚焦量子计算、医疗与能源，参与 Genesis Mission 第二阶段项目",
+    "summary": "NVIDIA 在华盛顿「Science: A New Golden Age」活动上宣布，未来五年将投入价值 10 亿美元的承诺，用于在美国推进面向科学的「超级智能」研发与量子计算，方式包括支持高校科研机构、投资美国量子领先能力，以及支持服务政府任务的云服务商。黄仁勋称这是在响应特朗普政府的 Genesis Mission，美国白宫科技政策办公室在活动上宣布扩展该计划，NVIDIA 参与了当天公布的多个第二阶段资助项目，涵盖量子计算、核聚变、加速器设计和微电子。NVIDIA 此前已与美国能源部合作，在阿贡国家实验室建造能源部最大的科研超算，并支持阿贡和洛斯阿拉莫斯的七套新系统。",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-commits-1-billion-to-advance-us-science-over-the-next-five-years",
+    "source": "NVIDIA Newsroom",
+    "source_handle": "@nvidia",
+    "image": "/assets/covers/cover-20261009-ai-19.jpg",
+    "published_at": "2026-10-08T22:31:00+08:00",
+    "tags": [
+      "NVIDIA",
+      "科研",
+      "量子计算",
+      "Genesis Mission"
+    ]
+  }
+]

@@ -1,0 +1,270 @@
+[
+  {
+    "title": "卡兹克：Agent-Autoloop 完成 Windows 兼容上线——开源数日已 3.5K Star",
+    "summary": "数字生命卡兹克出差回家后为开源项目 Agent-Autoloop 补完 Windows 兼容并正式上线。该项目定位为命令行 Agent 后台自动接活、跟进到底的轻量自动化中台（事件→规则派活→Agent 执行→需拍板再卡片请示），内核约 1600 行、无第三方依赖；挂起零消耗、事件溯源、指令数据分离与跳数熔断等机制沿用其先前长文架构。帖中引用其 11/4 开源长文《开源我这折腾了1年的「Agent自动化系统」》，并称开源没几天已获约 3.5K GitHub Star，欢迎试用。仓库：github.com/KKKKhazix/agent-autoloop。",
+    "url": "https://x.com/Khazix0918/status/2118682277102391312",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-06T20:29:52+08:00",
+    "tags": [
+      "Agent-Autoloop",
+      "开源",
+      "Windows",
+      "Agent自动化",
+      "卡兹克"
+    ],
+    "image": "/assets/covers/cover-20261107-v-00.jpg"
+  },
+  {
+    "title": "Max：腾讯混元 Hy4「真上桌了」——LobeBench-Hard 52% 三次全过、80% 至少一次成功",
+    "summary": "Max for AI 用 WorkBuddy 实测并经混元开放平台 API 接入 LobeHub 自研 LobeBench，完整跑 LobeBench-Hard 50（真实业务高难度 Agent 题，每题 3 次）。Hy4 有 26 题连续三次全过（52%），至少成功一次 40 题（80%）；Life & Health / Productivity / Research & Careers 三类三次通过率 100%，Marketing 80%，电商与软件开发 67%，金融 60%。他援引 Artificial Analysis 综合智力指数称 Hy4 位列中国模型第二（仅次 Kimi K3.1 Pro，与 Grok 4.7 打平），Agent Arena 全球约第 13；权重开放后或列开源第一且成本有竞争力。感慨前几代混元「差一口气」，Hy4 进步超预期，「终于坐上全球第一梯队牌桌」。",
+    "url": "https://x.com/MaxForAI/status/2118697503571030411",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-06T21:30:23+08:00",
+    "tags": [
+      "腾讯混元",
+      "Hy4",
+      "LobeBench",
+      "开源模型",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261107-v-01.jpg"
+  },
+  {
+    "title": "Max：百度悄然开源文心 5.5 Flash Base——同级 Benchmark 亮眼，后训练负责人却刚离职",
+    "summary": "Max 梳理百度开源的文心 ERNIE 5.5 Flash Base：总参 280B / 激活 14B，33.5T tokens 预训练，微调与推理最长 1M 上下文；官方在约 30 项 Benchmark 中对同级 Base（DeepSeek、混元、小米 MiMo 等，总参约 280–310B）拿下 24 项第一，但未与各家最新后训练版对比。他指出更具戏剧性的是人事：7 月孙天祥接手基础模型；10 月底吴甜离职加盟三一；11 月初后训练负责人刘璟亦传离职（或赴中关村学院），后训练团队另有人提出离职、方向存分歧。恰逢开源的是尚未中期/后训练的 Base，完成后训练的 Flash 仍待推出——「Base 很能打，负责后训练的人却先走了」。摘要含公开转述的人事传闻，非官方确认。",
+    "url": "https://x.com/MaxForAI/status/2118632095929208979",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-06T17:10:28+08:00",
+    "tags": [
+      "百度",
+      "文心",
+      "ERNIE 5.5",
+      "开源",
+      "后训练"
+    ],
+    "image": "/assets/covers/cover-20261107-v-02.jpg"
+  },
+  {
+    "title": "小互：Claude Code 全流程重做 AI 日报视频——Gemini 3.8 Flash TTS + OmniHuman 1.5 口型，周额度约 1%",
+    "summary": "小互展示用 Claude Code 驱动的完整视频流水线：解决此前配音问题，改用 Gemini 3.8 Flash TTS；形象换成真人，口型用 OmniHuman 1.5（口型花费约 2–3 元，配音薅 Google AI Studio 赠送额度）。素材收集、文稿、动效、配音配乐、剪辑、渲染与封面均由 Claude Code 完成，本人只提意见修改；消耗 Claude Code 100 美金周额度约 1%。引用其同日 AI 日报视频帖，强调端到端 Agent 做内容生产的性价比。",
+    "url": "https://x.com/xiaohu/status/2118639603964150095",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-06T17:40:18+08:00",
+    "tags": [
+      "Claude Code",
+      "Gemini TTS",
+      "OmniHuman",
+      "AI视频",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20261107-v-03.jpg"
+  },
+  {
+    "title": "TestingCatalog 11/6 简报：GPT-6 Cyber 上线、Claude 理财 Beta、Perplexity Teammates、Muse Voice、Devin Review 2.0 等",
+    "summary": "TestingCatalog 每日 AI 简报（11/6，Grok 辅助撰写）要点：模型预测——GPT-6.2 Sol/Astra「今天？」、Claude Fable 5.5 soon、Gemini 4 Carbon/Hydrogen soon 等。OpenAI——GPT-6 Cyber 经 Daybreak Red 面向授权安全研究上线，11/12 Cyber 直播；Cat Wu 离开 Anthropic 加盟 OpenAI 负责 Core Products PM。Google——Gemini Omni 1.2 Flash 在 AI Studio/API 正式可用（最长 15 秒视频、价降约 30%）。Anthropic——Claude Personal Finance 向美区 Pro/Max/Ultra 推送只读银行连接（Plaid）；METR 称自 2025-10 起研发加速约 1.9×（内部 Model 3/4）。Thinking Machines——Inkling 2 Small 上 Tinker，AA 指数 31，权重下周计划开源。Perplexity——Teammates 主动 Agent 向 Max 网页推送。Meta——Muse Voice+表情 Avatar 美区推送，Muse 登陆墨西哥。Cursor——付费计划可用云 Agent 搭可分享在线应用。Grok Bot——测试短信，WhatsApp/Telegram 早期预览（经 alexmichael 转述）。Cognition——Devin Review 2.0，PR 评审最高约 5× 更便宜、1.5× 更快。（含预测与转述，非全部官宣。）",
+    "url": "https://x.com/testingcatalog/status/2118644436917793116",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-06T17:59:30+08:00",
+    "tags": [
+      "每日简报",
+      "GPT-6 Cyber",
+      "Claude",
+      "Perplexity",
+      "Muse"
+    ],
+    "image": "/assets/covers/cover-20261107-v-04.jpg"
+  },
+  {
+    "title": "Tibo：人类并不擅长写安全基建——终态是人人可用的超安全软件，形式化证明千万行代码已不再荒谬",
+    "summary": "OpenAI 的 Tibo（@thsottiaux）发帖称：可以有把握地说人类并不擅长编写安全基础设施；终态将是人人可用的超安全基建与软件，但到达之前会经历动荡。自回复补充：对上千万行代码做形式化证明已不再是荒谬设想，设计新系统时应纳入考量。结合其近日围绕 GPT-6 Cyber / Daybreak Red 的讨论语境，强调 AI 辅助下软件安全范式正在切换。（观点帖，非产品发布说明。）",
+    "url": "https://x.com/thsottiaux/status/2118569235953893573",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-06T13:00:41+08:00",
+    "tags": [
+      "AI安全",
+      "形式化验证",
+      "基础设施",
+      "OpenAI",
+      "Tibo"
+    ],
+    "image": "/assets/covers/cover-20261107-v-05.jpg"
+  },
+  {
+    "title": "TestingCatalog：通义 Qwen 账号放出「The becoming begins」预告——看好 Qwen4-Max/Flash/Plus/27B",
+    "summary": "TestingCatalog 捕捉阿里通义 Qwen 官方账号预告图文「The becoming begins」，预期 Qwen4-Max、Qwen4-Flash、Qwen4-Plus 与 Qwen4-27B 即将到来，并表示最期待 27B。属发布前预告解读，具体规格与上线时间以官方为准。",
+    "url": "https://x.com/testingcatalog/status/2118680407680209172",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-06T20:22:27+08:00",
+    "tags": [
+      "Qwen4",
+      "阿里",
+      "通义",
+      "预告",
+      "开源模型"
+    ],
+    "image": "/assets/covers/cover-20261107-v-06.jpg"
+  },
+  {
+    "title": "小互 AI 日报：美股/AI 股暴跌脉络——纳指 -5.5%、英伟达一日蒸发近 4500 亿，另附 8 条 AI 大事",
+    "summary": "小互 AI 日报视频梳理本轮科技股杀跌：纳指跌约 5.5%，标普一日蒸发约 2.8 万亿美元；费城半导体指数跌约 12.3%，英伟达一日市值蒸发近 4500 亿美元；韩国股市开盘跌约 8% 触发全市场暂停交易。日报从头解释下跌来龙去脉，并附带另 8 条 AI 大事。市场数据为转述当日行情，投资非建议。",
+    "url": "https://x.com/xiaohu/status/2118530641616875637",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-06T10:27:20+08:00",
+    "tags": [
+      "AI日报",
+      "美股",
+      "英伟达",
+      "半导体",
+      "市场"
+    ],
+    "image": "/assets/covers/cover-20261107-v-07.jpg"
+  },
+  {
+    "title": "TestingCatalog：Muse 上线 Spaces——可生成可交互主题页/数据可视化，呼吁支持分享",
+    "summary": "TestingCatalog 实测 Meta Muse 新能力 Spaces：用户可让 Muse 就某主题生成交互页面或可视化数据，类似由 Muse 可访问数据源驱动的 interactive artifacts。作者让它做「testing」主题得到交互 playground，并认为若支持 Spaces 外部分享会是更大突破。",
+    "url": "https://x.com/testingcatalog/status/2118790208993005788",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-07T03:38:45+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "Spaces",
+      "交互",
+      "Artifacts"
+    ],
+    "image": "/assets/covers/cover-20261107-v-08.jpg"
+  },
+  {
+    "title": "TestingCatalog：Muse 与 Meta AI 换装 Muse Wonder 专用模型——Active Memory/Focus 进正式产品",
+    "summary": "TestingCatalog 称 Muse 与 Meta AI 应用现已运行经 Muse Wonder 训练的新专用模型；Wonder 引入的 Active Memory 与 Active Focus 进入 Muse/Meta AI。披露 Personal Superintelligence Index 升约 9%、Active Memory Eval 升约 14%（数字来自其帖内材料/截图转述）。",
+    "url": "https://x.com/testingcatalog/status/2118779041390182778",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-07T02:54:23+08:00",
+    "tags": [
+      "Meta",
+      "Muse Wonder",
+      "Active Memory",
+      "专用模型"
+    ],
+    "image": "/assets/covers/cover-20261107-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：Claude Code 云端会话可自行摸清项目依赖与所需 API Key",
+    "summary": "TestingCatalog 观察到 Pro/Max/Ultra 计划下的 Claude 在 Claude Code 云端会话中，能自行梳理项目依赖并找出所需 API Key 以便跑起来，形容为「Claude in the cloud」。属产品行为观察帖。",
+    "url": "https://x.com/testingcatalog/status/2118844509346005399",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-07T07:14:31+08:00",
+    "tags": [
+      "Claude Code",
+      "云端",
+      "依赖",
+      "Anthropic"
+    ],
+    "image": "/assets/covers/cover-20261107-v-10.jpg"
+  },
+  {
+    "title": "TestingCatalog：Claude Personal Finance 向美区 Pro/Max/Ultra 推送——只读接入银行聊聊财务",
+    "summary": "TestingCatalog 报道 Anthropic 向美国 Pro、Max、Ultra 用户推送 Claude Personal Finance：Claude 获选中服务的只读访问，以便用户对话讨论个人财务（非 Monet 玩笑彩蛋）。结合简报所述，银行连接经 Plaid、目前偏 Beta。",
+    "url": "https://x.com/testingcatalog/status/2118416495508099118",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-06T02:53:45+08:00",
+    "tags": [
+      "Claude",
+      "Personal Finance",
+      "Plaid",
+      "Anthropic"
+    ],
+    "image": "/assets/covers/cover-20261107-v-11.jpg"
+  },
+  {
+    "title": "TestingCatalog：Perplexity Teammates 主动 Agent 向 Max 网页推送——隔离环境跑 Computer/技能/记忆",
+    "summary": "TestingCatalog：Perplexity 新主动 Agent「Teammates」向 Perplexity Max 网页端推送；在隔离环境中执行 Computer 任务，并可使用 skills、memory 与 tools；移动端即将跟进。作者标注测试中。",
+    "url": "https://x.com/testingcatalog/status/2118396884381225153",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-06T01:35:49+08:00",
+    "tags": [
+      "Perplexity",
+      "Teammates",
+      "Agent",
+      "Computer Use"
+    ],
+    "image": "/assets/covers/cover-20261107-v-12.jpg"
+  },
+  {
+    "title": "TestingCatalog：Nace 公开 51 页报告揭 Drex——开源权重「固定选项选最可能答案」模型，含校准置信度",
+    "summary": "TestingCatalog 摘要 Nace AI 51 页训练报告：开源权重模型族 Drex 从固定选项中挑最可能答案。Drex v1.5 在约 115 万条有核实答案的决策样本上训练（读合同到识别钓鱼邮件等）；第二阶段由更大模型教它校准置信度，使概率与实际正确率对齐。可在 Nace Console 上传文档提问并获各选项概率分；作者另帖称样例发票重复支付检测整次花费不到一美元量级。",
+    "url": "https://x.com/testingcatalog/status/2118776243961147859",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-07T02:43:16+08:00",
+    "tags": [
+      "Nace",
+      "Drex",
+      "开源权重",
+      "决策模型",
+      "校准"
+    ],
+    "image": "/assets/covers/cover-20261107-v-13.jpg"
+  },
+  {
+    "title": "小互：Muse 也能打电话了——觉得 Meta to C 产品感强，定位更贴大众（对比 Grok Bot）",
+    "summary": "小互引用 Muse Voice 相关演示后评论：Muse 已支持通话；体感上「好像比 Grok Bot 好用一些」，并归因各家公司基因不同——Meta 的 to C 能力强、产品定位更符合大众。属主观产品对比，非基准测试。",
+    "url": "https://x.com/xiaohu/status/2118512604868219270",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-06T09:15:39+08:00",
+    "tags": [
+      "Muse",
+      "Voice",
+      "Meta",
+      "Grok Bot",
+      "产品"
+    ],
+    "image": "/assets/covers/cover-20261107-v-14.jpg"
+  },
+  {
+    "title": "Max：杰士邦发布豆包大模型驱动的 AI 智能陪伴「MEO」——Seed-2.0 接入，功能「挺抽象」",
+    "summary": "Max 拆解杰士邦 11/4 发布的 MEO「AI 智能陪伴机器人」：宣传接入豆包 Seed-2.0 大模型，被概括为大模型驱动的智能硬件/陪伴产品（网络梗称「AI 智能跳蛋」）。他研究功能后直呼抽象，并跟帖称相关视频刷爆朋友圈、天猫有售。属消费级 AI 硬件八卦与产品观察，含品牌营销表述转述。",
+    "url": "https://x.com/MaxForAI/status/2118591138491965712",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-06T14:27:43+08:00",
+    "tags": [
+      "豆包",
+      "Seed-2.0",
+      "AI硬件",
+      "消费电子",
+      "MEO"
+    ],
+    "image": "/assets/covers/cover-20261107-v-15.jpg"
+  },
+  {
+    "title": "Tibo：GPT-6 Cyber 后续——11/12 10am PT 参加 Cyber at the Frontier 直播",
+    "summary": "Tibo 在 cyber 专用模型讨论串下更新：更多内容在路上，邀请参加 11 月 12 日上午 10 点（太平洋时间）的 Cyber at the Frontier 直播，链向 openai.com/cyber-at-the-frontier。作为 Daybreak Red / GPT-6 Cyber 发布后的官方跟进入口。",
+    "url": "https://x.com/thsottiaux/status/2118802895604994463",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-07T04:29:10+08:00",
+    "tags": [
+      "GPT-6 Cyber",
+      "Daybreak",
+      "直播",
+      "OpenAI",
+      "安全"
+    ],
+    "image": "/assets/covers/cover-20261107-v-16.jpg"
+  }
+]

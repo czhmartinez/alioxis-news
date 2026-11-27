@@ -1,0 +1,67 @@
+Alioxis News AI新闻收集报告 — 2026-11-12（Asia/Taipei）
+============================================================
+完成时间：2026-11-12 约 08:40 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-12/
+产出：ai.json（20）、_cover_prompts_ai.json（20）、本报告、_aihot_daily.json、_aihot_summary.txt、_aihot_clues.json、_prior_urls.json（2226 URL）
+
+一、条数与头条
+- 条数：20（目标 15–20，达上限）
+- Lead（#00）：谷歌发布 Gemini Decisions API 与 Gemini Decision 1：单次前向传播对最多 1000 个封闭式问题打分，150–250 毫秒端到端、每百万输入 token 0.10 美元、不计输出 token
+  URL：https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
+  理由：AIHOT 11-12 lead；Google 官方博客 WebFetch 全文核对。
+  备选：#01 Anthropic S-1/A-2 / #02 英伟达董事会罢免传闻 / #03 Qwen4-Max 预览
+
+二、与 v.json 交叉
+- 收集期间无 v.json；收尾时 v.json 已出现（17 条），已做硬 URL 去重：overlap=0。
+- 软同题（保留，本频道为官方原文全貌，v 为推文/简讯角度）：Gemini Decision API（v 收 TC 简讯，#00 为 AIHOT lead 与官方博客）、Qwen4-Max（v 收 TC，#03 为阿里云官方文档）、ERNIE 5.5 Flash Preview（v 收小互，#05 为官方发布页）、Cursor 多人协作（v 在 TC Antigravity 简讯中一笔带过，#12 为官方博客）。若需进一步让给 v，可优先撤 #05、#03。
+- 可能与 v 软重叠（若 v 收了对应简讯，本频道取官方/原文角度）：Nvidia 罢免传闻（#02）、Anthropic S-1（#01）、Cursor Projects 多人协作（#12）、Qwen4-Max（#03）、OpenAI Q3 营收（#07）。
+- 主动未收（可能让给 v）：Anthropic 银行拟将 IPO 估值上调至 1.5 万亿（FT，仅搜索摘要、未核原文）、卡兹克 Fable 5.2 实测公众号、Claude Code 选模型 YouTube、Businesses in ChatGPT（11-10 发布，11-11 已被收录同题）。
+
+三、AIHOT 使用
+- 已跑 node scripts/fetch-aihot-daily.js 2026-11-12（成功）；脚本只生成 _aihot_daily.json，已按 11-11 格式手工补写 _aihot_summary.txt、_aihot_clues.json。
+- 采用：Gemini Decisions（#00）、Qwen4（#03，改链阿里云百炼官方文档）、Runway Praxis-1（#04）、ERNIE 5.5 Flash Preview（#05）、AlphaGenome 2（#06）、OpenAI Q3 营收（#07）、Grok 诉讼（#08）、Claroc（#09）、MAMUBench（#11）、Anthropic S-1（#01，原链为 X 推文，改链 SEC 原文）、Nvidia（#02，flash，改链路透）、Cursor Projects（#12，flash，改链 Cursor 官方博客）、OpenRouter 两篇（#17、#18）、a16z B2A（#19）。
+- 未采用：Anthropic 估值上调（见上）、卡兹克文章、Claude Code 选模型视频、Qwen4 以外的零散信息。
+
+四、补充采用（非 AIHOT）
+- OpenAI Control Room（#10，openai.com WebFetch）；Databricks Genie（#13，TechCrunch）；Qwen Code 1.0（#14，IT之家）；微软 Copilot 上线 Fable 5.2（#15，微软社区博客）；Fractile 7.2 亿美元 C 轮（#16，TechCrunch）。
+- 剔除：IT之家一篇“火山引擎豆包编程模型”搜索命中实为 2025-11-11 旧闻；Vercel eve 实为 2026-06-17 发布，均未收。
+
+五、去重
+- _prior_urls.json：全部历史 ai.json + v.json（不含 11-12）；本日 20 条 URL 0 命中，内部无重复。
+- 同题增量：Nvidia（11-09 已收董事会调查，本条为罢免传闻与 NYT 新指控）；Anthropic（11-11 收了路演公告，本条为 S-1/A-2 算力承诺新数据）；Fable 5.2（11-10 收过发布，本条为微软 Copilot 上线）；Cursor Projects（此前收过 9 月 Projects，本条为多人协作）；OpenAI/Anthropic 营收为 Q3 对比新数据。
+
+六、时间戳说明
+- published_at 均为 +08:00。有精确时刻的：#03 凤凰网 10:27、#08 IT之家 21:56:44、#13 TechCrunch（11-11 7:00 PST 换算 23:00）、#14 IT之家 12:20:07、#16 TechCrunch（11:34 PST 换算 11-12 03:34）、#02 路透（17:35 美东按 EST 换算 11-12 06:35，时区为推断）。
+- 仅有日期的按惯例记当日 12:00（含 #01 SEC 11-10、#12 Cursor 11-10）。
+
+七、核实手段
+00 blog.google WebFetch 全文 | 01 SEC 摘录（搜索全文）+ RR Tech Pulse/MLQ 交叉 | 02 路透/CBS/Herald/Chosun 搜索全文摘要（未直接读 WSJ，原文付费） | 03 阿里云百炼文档、凤凰网、动点科技、微信原帖 | 04 runwayml.com WebFetch | 05 ernie.baidu.com WebFetch | 06 deepmind.google WebFetch | 07 The Decoder WebFetch | 08 IT之家 WebFetch 全文 | 09 The Decoder WebFetch | 10 openai.com WebFetch | 11 alignment.anthropic.com WebFetch（中段被截断，摘要基于 tl;dr 与首尾章节） | 12 cursor.com 博客与文档搜索全文 | 13/16 TechCrunch WebFetch | 14 IT之家 WebFetch | 15 微软社区博客 WebFetch | 17/18 OpenRouter WebFetch | 19 a16z WebFetch
+
+八、缺口与说明
+- 未生成封面、未 build、未发布。
+- #02 为“据报道”，英伟达未证实，路透称无法核实；为避免过度渲染仅写报道要点。#08 涉及儿童性虐待内容诉讼，摘要仅保留诉讼与监管事实，未复述细节；封面提示已避免任何人物形象。
+- #01 的“总承诺 9009 亿美元/Lambda 可终止”来自第三方对 S-1/A 的解读，非 SEC 全文直读。
+- #04 的 Praxis-1 成绩为 Runway 自报。#10 Control Room 页面未标注精确发布时间。
+- 条目含 Grok/xAI 负面新闻 3 条（#08、#09 及 #07 OpenAI 对比），如编辑阶段嫌扎堆可压缩 #09 或 #18。
+
+九、条目清单
+#00 谷歌发布 Gemini Decisions API 与 Gemini Decision 1：单次前向传播对最多 1000… | https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/
+#01 Anthropic 修订版 S-1 披露：微软承诺升至至少 472 亿美元、谷歌约 1213 亿美元，总算力与基础设施承… | https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm
+#02 WSJ：英伟达董事会据报准备罢免 CEO 黄仁勋，纽约时报另称其与直属下属有染；英伟达盘后跌约 8%，本周市值已蒸发约 … | https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991
+#03 阿里上线 Qwen4-Max 预览版：100 万 token 上下文、最大输出 393,216 token，仅限 Tok… | https://www.alibabacloud.com/help/zh/model-studio/qwen4-max-preview
+#04 Runway 开源 27B 世界动作模型 Praxis-1（Apache 2.0）：RoboLab-120 成功率 46… | https://runwayml.com/news/company-news/praxis-1-is-now-available
+#05 百度发布 ERNIE 5.5 Flash Preview：总参数 280B、激活 14B、支持 1M 上下文，千帆 AP… | https://ernie.baidu.com/zh/release/ernie-5-5-flash-preview/
+#06 DeepMind 发布 AlphaGenome 2：按细胞类型条件预测 DNA 变异效应，TenK10K 上识别因果变异… | https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/
+#07 OpenAI 三季度营收约 100 亿美元、环比增长约 50%，调整后营业亏损 109 亿美元；Anthropic 同期… | https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/
+#08 Grok 被指生成儿童性虐待图像：彭博披露 xAI 面临多起集体诉讼，律师称《通信规范法》第 230 条不应免除其责任… | https://www.ithome.com/1/025/809.htm
+#09 安全公司 Claroc：37,571 个仍在线的 Grok 构建应用中 94.7% 可无需登录访问，含患者检验值、明文密… | https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/
+#10 OpenAI 披露 Control Room：集中追踪并可在决定叫停后 35 秒内中止研究侧模型推理，Control R… | https://openai.com/index/control-room/
+#11 Anthropic 对齐团队发布 MAMUBench：四类环境中，单一智能体服务全体用户一律优于“每人各带一个智能体”的… | https://alignment.anthropic.com/2026/worse-together/
+#12 Cursor Projects 支持多人协作（测试版）：团队共享任务看板与上下文，各成员的协调者智能体可互相沟通，避免合… | https://cursor.com/blog/projects-multiplayer
+#13 Databricks 升级智能体 Genie：基于自建本体可无人监督完成多步长任务，CEO Ghodsi 自用于发现“不… | https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/
+#14 阿里发布并开源 Qwen Code 1.0 Preview：Qoder 与 Qwen Code 的 Harness 融合… | https://www.ithome.com/1/025/393.htm
+#15 微软 Copilot 上线 Claude Fable 5.2：在 Copilot Cowork 与 Copilot St… | https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/4571829
+#16 英国 AI 芯片初创 Fractile 完成 7.2 亿美元 C 轮：英国主权 AI 基金参投，估值“超 50 亿英镑”… | https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/
+#17 OpenRouter 实测 MCP、CLI 与 Skill 的上下文开销：同一 GitHub 任务在 Sonnet 5.… | https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills/
+#18 OpenRouter 实测 fp8 与 fp4 量化：Qwen3.8 27B 六个端点在 240 项任务上准确率均为 9… | https://openrouter.ai/blog/insights/llm-quantization/
+#19 a16z：AI 智能体正成为互联网主要用户，“B2A 经济”兴起——Shopify AI 流量同比 8 倍，智能体浏览器… | https://www.a16z.news/p/welcome-to-the-b2a-economy

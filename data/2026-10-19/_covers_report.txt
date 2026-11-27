@@ -1,0 +1,3 @@
+Alioxis News covers 2026-10-19
+Fallback: pollinations.ai 1280x720 from _cover_prompts_*.json, ~960 q72, cropped bottom watermark.
+Result: ai 19 + v 13 = 32 files

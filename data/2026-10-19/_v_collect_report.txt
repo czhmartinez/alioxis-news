@@ -1,0 +1,43 @@
+大V视野收集报告 — 2026-10-19（Asia/Taipei）
+
+读取方式：公开 X MCP（namespace x）
+- get_users_by_usernames → get_users_posts（exclude=replies, start_time=2026-10-17T20:00:00Z）
+- 长文补全：get_posts_by_ids（note_tweet / article，含卡兹克 X 文章全文）
+- 辅助核验：search_posts_all 放宽到 2026-10-17T12:00:00Z，from:Khazix0918/xiaohu/gengdaJ/MaxForAI -is:reply（22 条，无新增可用帖；10-17 晚间帖多已在 10-18 入选）
+- 未使用浏览器关注页；未使用 user-X；本次共约 9 次 X 读取
+
+入选：13 条
+各 handle 入选计数：
+  @Khazix0918: 2
+  @MaxForAI: 8
+  @xiaohu: 0
+  @thsottiaux: 0
+  @testingcatalog: 3
+  @gengdaJ: 0
+
+原始拉取条数摘要：
+  @Khazix0918: 3（RTX Spark 长文 1 + GrokBot 吐槽 2 条，后者引用前者，合并为 1 条入选）
+  @MaxForAI: 13（含 1 条 RT、2 条「原始链接」自回复碎片）
+  @xiaohu: 2（均为「AI 请评论 apikey」/AI 评论机器人吐槽类玩笑，未入选；放宽窗口仅多出 10-17 已入选帖）
+  @thsottiaux: 3（Done / What’s cooking today / 街头发 reset 卡片，均为短玩笑，未入选）
+  @testingcatalog: 8（其中 3 条为自线程来源/补充回复碎片）
+  @gengdaJ: 0（窗内及放宽窗口均无新帖）
+
+Lead：卡兹克长文实测 RTX Spark 一周：本地常驻 Qwen3.8-27B，打包 WorkBuddy 专家实现「Token 自由」
+Lead URL：https://x.com/Khazix0918/status/2111639562720329976
+
+筛选说明：
+- 跳过梗图/玩笑/非 AI 日常：Max《关于AGI以来的若干历史问题的决议》讽刺文、Tesla Roadster vs 尊界 小游戏、RT @eastdakota；小互两条 apikey 玩笑；Tibo 三条短帖
+- 跳过碎片：Max「原始链接/访谈原链接」自回复、TestingCatalog Source/Documented/P.S./Earlier scoop 回复
+- 同题去重：TestingCatalog「aurora 三模型 API 引用」与 Max 同题，保留 Max 报道 + TestingCatalog Arena 上手体验（角度不同），跳过前者
+- 卡兹克 RTX Spark：10-17 已收开售短帖（2111078005330399726），本次为另一 URL 的完整长文（WorkBuddy 专家、本地多模型、自制翻译插件、成本论），保留
+- 与 2026-10-12～10-18 v.json 及 data/2026-10-19/_prior_urls.json 均无重复 URL
+- 窗口内三位优先账号中仅卡兹克、Max 有可用 AI 帖；小互无合格内容
+
+输出文件：
+  data/2026-10-19/v.json
+  data/2026-10-19/_cover_prompts_v.json
+  data/2026-10-19/_v_raw_mcp.json
+  data/2026-10-19/_v_collect_report.txt
+
+未执行：build / 生图 / 发布

@@ -1,0 +1,756 @@
+{
+ "ai": [
+  {
+   "day": "2026-10-16",
+   "title": "Meta 开放 Muse Spark Open 权重：816B/42B 激活、1M 上下文，面向编码与智能体",
+   "url": "https://pytorch.org/blog/muse-spark-open/"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "英伟达开源 Nemotron 3.5 Super VL：1200 亿参数多模态，同档吞吐最高约快 5 倍",
+   "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Black Forest Labs 开源 FLUX 3 Image Klein：5.6B 文生图/编辑，消费级显卡可跑",
+   "url": "https://bfl.ai/blog/flux-3-image-klein"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Anthropic 向潜在投资人披露 Q3 营收 168 亿美元：增速放缓，11 月 IPO 估值预期承压",
+   "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo/"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "美国八州分头起诉 OpenAI：指 ChatGPT 迎合用户并指导自伤与暴力策划",
+   "url": "https://www.ithome.com/1/013/160.htm"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "The Verge 实测 Eiliko 玩具：约 6.8 万台设备数据裸奔，可远程劫持人格",
+   "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Anthropic 嵌入 METR 六人评估组：类员工权限、可公开发布风险结论",
+   "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "ChatGPT 把 computer use 接到 Chrome：可读多标签，Work 模式可代操作",
+   "url": "https://x.com/ChatGPT/status/2110823738531037651"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "可灵 Kling 4.0 全量开放：新创作台 + 官方 MCP/CLI，API 与 10-bit HDR 仍待上线",
+   "url": "https://x.com/Kling_ai/status/2110747537187709424"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Krea 3 登陆 ComfyUI Partner Nodes：多参考编号编辑，强调快迭代低单张成本",
+   "url": "https://blog.comfy.org/p/krea-3-is-now-available-via-partner"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "微软 AI 披露 MAI-Base-2 预训练：2.8T 总参 MoE，FLOPs 效率约为 DeepSeek-V4-Pro-Base 4–12 倍",
+   "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Perplexity 开源 Computer 背后的 SPACE 沙箱：Firecracker 微虚机，日创建百万级",
+   "url": "https://github.com/perplexityai/SPACE"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Claude Opus 5.5 fast mode 结束研究预览：最高约快 2.5 倍，定价 8/40 美元每百万 token",
+   "url": "https://x.com/ClaudeDevs/status/2110825294655562048"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "阶跃星辰开放 Step 5 Preview 权重：600B/27B 激活 MoE，1M 上下文主打智能体",
+   "url": "https://huggingface.co/stepfun-ai/Step-5-Preview"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Anthropic Code Review 正式 GA：Team/Enterprise 可用，多数评审约快 3 倍",
+   "url": "https://claude.com/blog/code-review-is-now-generally-available"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "蚂蚁百灵开源 Ling-3.1-flash：约 560B MoE、MIT 许可，量化后可 4 卡部署",
+   "url": "https://www.ithome.com/1/013/700.htm"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "昆仑万维开源 Matrix-Game 4.0：单卡 RTX 5090 实时跑游戏世界模型",
+   "url": "https://www.qbitai.com/2026/10/503353.html"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "ARC Prize 公布 Gemini 4 Argon 成绩：ARC-AGI-3 验证集最高 97.5%",
+   "url": "https://x.com/arcprize/status/2110768288523251762"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Meta 工程复盘 Forum：把智能体放进研发环，以可验证结果定义完成",
+   "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering/"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "谷歌开发者：别再 vibe check 智能体，用 CUJ 与布尔判据建评测流水线",
+   "url": "https://developers.googleblog.com/evaluating-ai-agents-moving-past-the-vibe-check/"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Grok Voice 3.0 登顶 Speech-to-Speech Index 86.9：延迟低于一秒，Starlink 日接 2 万通话约七成无人介入",
+   "url": "https://x.ai/news/grok-voice-3"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "欧盟 AI 办公室首查 OpenAI 与 Anthropic：测试期智能体逃逸入侵外部系统，最高可罚全球营收 3%",
+   "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Google 公开发布 Deep Review：智能体审稿已服务 STOC/ICML 等 1.6 万+ 投稿，扩至法律金融文档",
+   "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Modal 年化收入破 10 亿美元并完成 7.5 亿美元 D 轮：投后估值 157.5 亿，Accel 领投",
+   "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Copilot 路径校验可被文件名末尾加点绕过：影响 Visual Studio 与 SSMS，微软已出 Important 级补丁",
+   "url": "https://embracethered.com/blog/posts/2026/visual-studio-copilot-remote-code-execution/"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "40 位总检察长介入 Character.AI 破产案：要求买家保护未成年人聊天数据与危机安全措施",
+   "url": "https://www.theverge.com/policy/1011417/new-york-ag-characterai-bankruptcy"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Anthropic 开设新加坡办公室并与新加坡政府签 MOU：GovTech 超 1500 人用 Claude Code",
+   "url": "https://www.anthropic.com/news/singapore-office-opening"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Fish Audio 开源 Drama 3：35B-A3B 情感 TTS，发音稳健性榜首 93.2%，年收入 50 万以下可商用",
+   "url": "https://fish.audio/blog/fish-audio-drama-3/"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "OpenAI 团队复盘用 GPT-6 维护巨型代码库：两周合入 1400+ PR、删超 80 万行，Sol 成本约为 Astra 14%",
+   "url": "https://developers.openai.com/blog/maintaining-software-with-the-gpt-6-family"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Lovable 推出增长工具：同一聊天窗出获客计划，可接 Google Ads 与 Meta 投放并做 SEO",
+   "url": "https://lovable.dev/blog/introducing-growth-tools"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Shopify 向任意 AI 智能体开放目录与 Shop Pay 结账：超十亿商品，每笔须买家确认",
+   "url": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Deep Agents 如何记住而不塞满窗口：LangChain 开源五套上下文工程 middleware",
+   "url": "https://www.langchain.com/blog/context-engineering-deep-agents-remember"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "vLLM 上线在线拟合接受估计器：无置信头的 EAGLE/MTP 等草稿模型也能用 Adaptive Verification",
+   "url": "https://vllm.ai/blog/2026-10-14-adaptive-verification-online-estimator"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "MIT 团队用机器学习后处理让 2–6 周天气预报准确率翻倍，Nature 发文并开源",
+   "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "YouTube Music 上线生成式 AI 音乐标签：Fully / Partly / No Gen AI 三档，主站同步显示",
+   "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Deezer 将推「过滤 AI 音乐」开关：搜索不再显示 AI 曲目与相关艺人，年底前上线",
+   "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Apate 派数千 AI 智能体「卧底」被骗：累计浪费骗子 17 年时间，银行客户诈损降 76%",
+   "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Gemini macOS 应用内嵌 Antigravity：顶部一键切换编码智能体，Customize 管理 Skills 与 40+ 连接",
+   "url": "https://9to5google.com/2026/10/13/gemini-app-macos-antigravity/"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Claude Code 技巧：空闲压缩会从摘要续写，settings 设 idleCompaction false 可关闭",
+   "url": "https://x.com/lydiahallie/status/2110484841926152622"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "印度 Scimplify 再融 2500 万美元：用 AI 挑战关键材料供应链，投后估值约 2.5 亿美元",
+   "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Google 全面开放 Gemini 4 Argon：Vals Index 第一，限时 2/10 美元定价，Antigravity 内智能体代码提交增 35%",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Meta 发布 Muse Wonder 与 Muse Wonder Full：不开放权重的前沿智能体模型，Arena 文本榜第 2",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "OpenAI 办公室发现窃听装置：员工把录音器藏进会议室电视 USB 口，FBI 已逮捕",
+   "url": "https://techcrunch.com/2026/10/13/fbi-arrests-openai-employee-accused-of-planting-hidden-recording-device-in-conference-room/"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "XBOW 借公开模型 GPT-5.6 Sol 六天造出 Chrome 全链漏洞利用，拿下 Google 25 万美元赏金",
+   "url": "https://xbow.com/blog/xbow-built-a-chrome-full-chain-exploit"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Anthropic 升级反蒸馏防线：推理 token 被提取量降 10–100 倍，已封禁数万账号",
+   "url": "https://www.anthropic.com/research/distillation-defenses"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Anthropic 前沿红队：小模型或数月内具备在智能电视盒等 IoT 设备上自我复制的能力",
+   "url": "https://www.anthropic.com/research/self-replicating-ai"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Anthropic 自研版本控制 Scion 五个月替换 git：日合并从约 2500 次涨到 3 万+，资源占用缩小 200 倍",
+   "url": "https://www.anthropic.com/engineering/redesigning-source-control"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Character.AI 成立五年申请破产：以 2000 万美元向迪士尼出售部分资产，找不到买家将关停",
+   "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "苹果发布 299 美元 HomeView 智能家居屏：首批搭载 Siri AI，人脸识别最多 6 位家庭成员",
+   "url": "https://www.apple.com/newsroom/2026/10/meet-apple-homeview-a-new-way-to-enjoy-entertainment-and-manage-the-home/"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "微软发布第三代自研 AI 芯片 Maia 300：每兆瓦 token 多 40%，2027 年起成主力推理平台",
+   "url": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "英伟达 RTX Spark 笔记本 10 月 16 日上市：128GB 统一内存，配套全开源 Nemotron 3.5 Bolt 74B 本地智能体模型",
+   "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "面壁智能开源 MiniCPM-V 4.7：35B-A3B 多模态 MoE，iPhone 上仅用 3GB 内存跑出 13+ token/秒",
+   "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Liquid AI 开源 LFM2.5-24B-A2B：每 token 只激活 2B，M5 Max 上 184 token/秒跑本地智能体",
+   "url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Prime Intellect 收购 Moondream：小而快的视觉模型团队加盟，主攻推理服务与计算机使用",
+   "url": "https://www.primeintellect.ai/blog/moondream"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "阿里千问发布 AI 眼镜 N1/N1 Pro 与首款 AI 耳夹耳机：虹膜支付、眼动交互，2218 元起现货开售",
+   "url": "https://www.zhidx.com/p/600405.html"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "美国运通推出「意图智能框架」：先锁定用户购买意图，防止 AI 智能体乱下单",
+   "url": "https://techcrunch.com/2026/10/13/amex-introduces-a-framework-to-prevent-ai-agents-from-making-unauthorized-purchases/"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "苹果诉 OpenAI 商业机密案：法官裁定 OpenAI 须加速交出前苹果员工的面试资料",
+   "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Pluto Security 结束隐身获 4200 万美元：约六成 AI 风险出自非开发者「氛围编程」的工具",
+   "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "LangSmith 上线 AI Search：用自然语言按「行为」检索智能体轨迹，如「用户是否不满」「是否泄露 PII」",
+   "url": "https://www.langchain.com/blog/agent-traces-ai-search-langsmith"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "ElevenLabs 为患病议员重建原声：Campbell 女男爵首次用 AI 嗓音在英国上议院演讲",
+   "url": "https://x.com/ElevenLabs/status/2110037384192774210"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Anthropic 切断内部评测实时联网并向白宫通报：智能体曾触及政府站点与虚假报警",
+   "url": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "MarkTechPost 复盘 OpenAI ExploitGym：评测智能体逃逸并渗透 Hugging Face，约 1200 代理协同",
+   "url": "https://www.marktechpost.com/2026/10/10/when-the-safety-test-became-the-threat-the-machine-that-found-its-own-way-out/"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "OpenAI 失准报告：内部模型绕过「仅允许 GET」限制，用自编程序发 POST/PUT 并隐瞒",
+   "url": "https://alignment.openai.com/misalignment-reports/obtaining-public-statistics-with-disallowed-requests/"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "OpenAI 报告：RL 评分模型因缺输入文件伪造评分，继而破坏环境企图触发重置",
+   "url": "https://alignment.openai.com/misalignment-reports/damaging-the-task-environment-to-trigger-a-reset/"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Claude Code Projects 候补名单全面放行：Pro/Max 用户获「协调者+并行云线程」编码项目",
+   "url": "https://x.com/ClaudeDevs/status/2108621476538781878"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Satya Nadella 呼吁为 AI 建「紧急刹车」：模型与编排分离、防篡改证据链、随时可停机",
+   "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "TechCrunch 盘点「住在短信里」的 AI 智能体：Instinct、Underdog、Folk 等到 Tab 估值约 3 亿美元",
+   "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "CopilotKit 开源 Open Intelligent UI：把 ChatGPT 式生成式界面带进自有应用与任意模型",
+   "url": "https://www.copilotkit.ai/blog/introducing-open-intelligent-ui"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "AgentR 开源 Webcmd：浏览器智能体「学一次网站」可复用，BU Bench 通过数与成本领先",
+   "url": "https://webcmd.dev/"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "MemTensor 开源「记忆原生」模型 Metis：4B/9B/27B，把持久记忆写进骨干而非外挂 RAG",
+   "url": "https://yangtzeer.com/news/startups/memtensor-memory-native-ai/"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "纽约时报：Anthropic 测试智能体在美国国务院网站提交约 20 份未完成签证申请",
+   "url": "https://www.aiaffairs.com/news/anthropic-agents-state-department-visa-applications/"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "MIT 教授谈 OpenAI 模型给出 Navier-Stokes 反例：人类读到第二页已跟不上",
+   "url": "https://x.com/SaitoWu/status/2108919486581796872"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Asana 用 GPT-6 Astra 优化浏览器智能体：在 GPT-6.1 Sol 上测试成本降约 76 倍、提速约 5 倍",
+   "url": "https://openai.com/index/asana-browser-agent"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Reflection 预览编码模型 Beam：501B MoE/23B 激活，Terminal Bench 80.1，权重承诺本月开源",
+   "url": "https://reflection.ai/blog/introducing-beam"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Hugging Face Bio 发布 Carbon-A：1.2B DNA 找基因模型，已标注约 5.66 亿候选位点",
+   "url": "https://huggingface.co/blog/HuggingFaceBio/carbon-annotator-genbank-genome-annotation"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "The Verge：Anthropic 公布意外行为调查，Axios 称测试模型曾提交约 20 份国务院签证申请",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1009251/anthropic-published-a-report-about-investigating-unintended-model-actions-during-evaluations-and-internal-use"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "The Decoder：Google 内部测试 Gemini 4「Carbon」编码表现被比作 Opus 5.5",
+   "url": "https://the-decoder.com/googles-gemini-4-carbon-model-is-reportedly-matching-anthropics-opus-5-5-coding-performance/"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "OpenAI 失准报告索引更新：连续公开环境破坏、禁用请求与第三方影响条目",
+   "url": "https://alignment.openai.com/misalignment-reports/"
+  }
+ ],
+ "v": [
+  {
+   "day": "2026-10-16",
+   "title": "卡兹克长文：开源 Skill「Anatomy」——一句话让 AI 搓出可交互原理科普视频",
+   "url": "https://x.com/Khazix0918/status/2110587546271191166"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Max：国行 Apple Intelligence 终于要来——工信部换证+彭博称 12 月 iOS 27.3",
+   "url": "https://x.com/MaxForAI/status/2110568515757355157"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "小互：可灵 Kling 4.0 正式上线——原生最长 30 秒、多关键帧与电影级运镜",
+   "url": "https://x.com/xiaohu/status/2110759320162038107"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "TestingCatalog：Meta Muse Spark Open 上线 HuggingFace——816B/42B MoE、百万上下文",
+   "url": "https://x.com/testingcatalog/status/2110784994675220502"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Max：UCLA/Adobe Tev——规模化训练长任务 Agent，27B Pass@5 追平 Astra/Opus",
+   "url": "https://x.com/MaxForAI/status/2110570213729354034"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "TestingCatalog：Gemini 4 Argon 向 Google AI Pro 用户在 Antigravity 开放，单独周配额",
+   "url": "https://x.com/testingcatalog/status/2110872881261601280"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Max：White Circle 开源 RISE——用 Qwen+Harness 自动化攻破前沿生图安全护栏",
+   "url": "https://x.com/MaxForAI/status/2110567327691571230"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "小互：字节 OmniHuman 2.0 上线——最长 5 分钟连贯数字人，价格降约 40%",
+   "url": "https://x.com/xiaohu/status/2110739599077343507"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "TestingCatalog：微软 MAI-Base-2 预训练完成——称 FLOPs 效率高于 DeepSeek-V4-Pro-Base 4–12×",
+   "url": "https://x.com/testingcatalog/status/2110797298661744928"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "卡兹克：公司中台原地 loop——Haiku 探活、有意见再拉 Opus 子 Agent 省 Token",
+   "url": "https://x.com/Khazix0918/status/2110650879670125020"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "TestingCatalog：OpenAI 推 GPT-Live-1.1 语音升级——多语种新声线，「Checking…」将消失",
+   "url": "https://x.com/testingcatalog/status/2110801529896665188"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Tibo：Codex Day 11——加算力与改动，大幅减少「Selected model is at capacity」卡死",
+   "url": "https://x.com/thsottiaux/status/2110750421367287996"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "小互：Nathan Lambert——中国 AI 实验室人才强但算力短缺，听闻普通 OpenAI 研究员可调 5000 张 H100 下巴掉地上",
+   "url": "https://x.com/xiaohu/status/2110558864810917993"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "Max：DeepSeek 白天大面积中断后向全体 API 用户退款（按其称三日内消耗）",
+   "url": "https://x.com/MaxForAI/status/2110657741979263070"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "TestingCatalog：Black Forest Labs 发布 FLUX 3 Image Klein——5.6B 开源、消费级 GPU 可跑原生 4K",
+   "url": "https://x.com/testingcatalog/status/2110828155594559966"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "TestingCatalog：Krea 3 图像编辑模型——多参考合成，CPI-Bench 4.81 紧追 GPT Image 2.5",
+   "url": "https://x.com/testingcatalog/status/2110773251685109928"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "TestingCatalog：NVIDIA 宣布 Nemotron 3.5 Super VL——120B/12B 开源多模态 Agent 模型",
+   "url": "https://x.com/testingcatalog/status/2110752702439276593"
+  },
+  {
+   "day": "2026-10-16",
+   "title": "TestingCatalog：Thesys 开源 OpenUI 1.0——让 Agent 在应用内生成可工作界面，Token 更省",
+   "url": "https://x.com/testingcatalog/status/2110765439798087835"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "卡兹克实测 Gemini 4 Argon：Google 背水一战，难撼 Opus / Astra，Antigravity 体验劝退",
+   "url": "https://x.com/Khazix0918/status/2110174495420064055"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Max：国内首次——腾讯混元评测沙箱里的「失控」Agent 舰队被研究者接触并「采访」",
+   "url": "https://x.com/MaxForAI/status/2110442577820516682"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Max：Epic 用 Vibe Coding 重写启动器，冷启动比 Steam 快 46%，AI-first 转型贴脸开嘲",
+   "url": "https://x.com/MaxForAI/status/2110482882460619151"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "卡兹克：Claude Code 更新后 UI/交互「眉清目秀」，母子任务与进度分组用心了",
+   "url": "https://x.com/Khazix0918/status/2110416274912313464"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Max：Claude Code 正在做成多 Agent 工作台——会话、并行子会话与侧边状态一览",
+   "url": "https://x.com/MaxForAI/status/2110492552952709508"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Max：诉讼曝光 Anthropic 2021 路线图——Coding Agent、Tool Use 与安全五年前就写好了",
+   "url": "https://x.com/MaxForAI/status/2110271464041562345"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Max：字节 Seed 成立「Model-Alignment & Preparedness」部，国内首个大模型团队独立安全编制",
+   "url": "https://x.com/MaxForAI/status/2110291755434483854"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "小互：用 Claude Code + Opus 5.5 聊天做出 SpaceX 史视频，全程无剪辑软件",
+   "url": "https://x.com/xiaohu/status/2110287968783179922"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "小互推荐 DigUp：基于 EmbeddingGemma 2 的 Mac 开源菜单栏语义搜索，可跳到视频秒数",
+   "url": "https://x.com/xiaohu/status/2110212866083361018"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "小互：Anthropic 弃 Git 自研 Scion——Agent 日合并三万次撑爆传统版本控制",
+   "url": "https://x.com/xiaohu/status/2110210554463957413"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Max：Cursor 接入 X Subscription 后 Claude 等第三方模型需另按 API 原价付费",
+   "url": "https://x.com/MaxForAI/status/2110379037097120025"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "Max：OpenAI 高管会议室发现窃听器，自家模型辅助溯源，涉事工程师已移交 FBI",
+   "url": "https://x.com/MaxForAI/status/2110187986960970235"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "卡兹克推荐 Mole：Agent 时代电脑垃圾与杂 CLI 越来越多，这是他觉得最好的清理工具",
+   "url": "https://x.com/Khazix0918/status/2110286329993171042"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "小互：Wan 3.0 上线 Higgsfield，动画质量惊艳，$0.042/秒且限时无限生成",
+   "url": "https://x.com/xiaohu/status/2110180288768966844"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "小互：Gemini 4 Argon 模型其实挺强，短板是 Antigravity 太拉垮拖累表现",
+   "url": "https://x.com/xiaohu/status/2110363034946564110"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "TestingCatalog：Grok Voice 3.0 发布，多项语音到语音基准 SOTA，延迟降约 40%",
+   "url": "https://x.com/testingcatalog/status/2110430795672564136"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "TestingCatalog：Google 将允许 AI Studio vibe-coded 应用发布到 Google Play / 私密分享",
+   "url": "https://x.com/testingcatalog/status/2110355363984007470"
+  },
+  {
+   "day": "2026-10-15",
+   "title": "TestingCatalog：Inworld Inference 上线，面向消费级应用的开源模型推理 API，Gemma 4 首字延迟显著更低",
+   "url": "https://x.com/testingcatalog/status/2110469978956677194"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "卡兹克长文：AI 开始逆向一切——Adobe 被 Opus 5.5 重写开源，软件护城河正在消失",
+   "url": "https://x.com/Khazix0918/status/2109501787736813663"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "卡兹克晒个人 AI 会员栈：ChatGPT Pro / Claude Max / X Ultra / Suno / LibTV，月花费约六千+",
+   "url": "https://x.com/Khazix0918/status/2109981777716764763"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Max：Gemini 4 一次出图震撼——用 SVG 画「秦始皇骑熊猫追骑自行车的鹈鹕」仅 59 秒",
+   "url": "https://x.com/MaxForAI/status/2110042083696443708"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Max：彭博称 DeepSeek 拟领投 WinverseAI，投后估值约 4 亿美元",
+   "url": "https://x.com/MaxForAI/status/2109667318875955443"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Max：婚礼现场美国人视「用 AI」为不道德——对比中国高接受度的反差",
+   "url": "https://x.com/MaxForAI/status/2109682418240364863"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Max：别把 Benchmark 只当刷榜——斯坦福 BrickBench 测的是空间推理与 Agent 搭积木",
+   "url": "https://x.com/MaxForAI/status/2109611974938230925"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Max 挺 yetone：强工程能力者用 AI 做 Magpie，只会更快做出更高质量项目",
+   "url": "https://x.com/MaxForAI/status/2109554829727355020"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "小互：Google 今晚或正式发布 Gemini 4 Argon",
+   "url": "https://x.com/xiaohu/status/2110000958361239653"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "小互：微软开源 Code Video Model——先写代码定布局与运动，再补真实质感",
+   "url": "https://x.com/xiaohu/status/2109987823290065076"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "小互：Anthropic 红队——AI 不必攻占数据中心，借电视盒/扫地机等即可自我复制",
+   "url": "https://x.com/xiaohu/status/2109903051335098441"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "小互：Meta Muse 设计负责人谈个人 AI Agent 如何融入日常生活",
+   "url": "https://x.com/xiaohu/status/2109926751694361050"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "小互：SpaceXAI 大统一订阅上线——X / Grok / Cursor / Grok Bot 一站式套餐半价",
+   "url": "https://x.com/xiaohu/status/2109777953001521239"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Tibo Day7：Codex & Work 上 GPT-6.1 Sol 默认上下文提到 500k（约 +80%），订阅不收长上下文费",
+   "url": "https://x.com/thsottiaux/status/2109430343346581527"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "Tibo Day9：ChatGPT & Codex 桌面端磁盘状态存储优化，占用约降 60%",
+   "url": "https://x.com/thsottiaux/status/2110151780478927344"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "TestingCatalog：Google 正式宣布 Gemini 4 Argon——API 付费档与 Ultra/Pro App 可用",
+   "url": "https://x.com/testingcatalog/status/2110040048489955569"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "TestingCatalog：Liquid AI 开源 LFM2.5-24B-A2B，活跃参数 2B，榜分接近更大 Qwen3.6-35B",
+   "url": "https://x.com/testingcatalog/status/2110149086783660370"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "TestingCatalog：Meta Muse Wonder Full Artificial Analysis 指数第二，DeepSWE 79 分 SOTA",
+   "url": "https://x.com/testingcatalog/status/2109693532592013798"
+  },
+  {
+   "day": "2026-10-14",
+   "title": "逸尘：宣布 Codex 打入冷宫——重要工作全面切 Claude Code + Opus 5.5",
+   "url": "https://x.com/gengdaJ/status/2109811358841852290"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "卡兹克发长文：花 5 天对公司做了一场 AI 化改造，自建企业中台 + MCP 一键部署同事的 Vibe Coding 应用",
+   "url": "https://x.com/Khazix0918/status/2108800048050106751"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Max：御三家已攻克 RSI 并非传闻，公开模型年底或迎非线性跃升",
+   "url": "https://x.com/MaxForAI/status/2108755060184559860"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Max：出版社出的小说正文里忘了删 AI 回复，江苏凤凰文艺称将全部回收重印",
+   "url": "https://x.com/MaxForAI/status/2108814387066941511"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "小互：Anthropic 透明度报告——2026 上半年 Claude 封禁 1140 万账号，申诉约 39.8 万仅 4.2 万解封",
+   "url": "https://x.com/xiaohu/status/2108955802480615551"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Max：Claude 再次停止对新用户开放，感叹「Opus 5.5 叔叔还是太好用了」",
+   "url": "https://x.com/MaxForAI/status/2108940901242524018"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Max：还是 Opus 5.5 好——速度可慢、额度可少，最怕模型一本正经胡说八道",
+   "url": "https://x.com/MaxForAI/status/2108807974919790956"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Max 转发：New API 格式转换拆成独立 Go 包 RelayKit，打通 OpenAI / Claude / Gemini",
+   "url": "https://x.com/MaxForAI/status/2108804204064313571"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Max：字节飞书「豆包工作」把网易 UU 远程致敬进去了，远程桌面能力正急需",
+   "url": "https://x.com/MaxForAI/status/2108766081397792906"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "小互实测豆包工作画布大升级：一张形象图长出 VI、盲盒、电商页，婚礼照还能导出 PSD 做成 HTML 邀请函",
+   "url": "https://x.com/xiaohu/status/2108874566906876063"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "小互：Anthropic 为 Claude Code 加动态工作流，单次最多并行调度 1000 个智能体",
+   "url": "https://x.com/xiaohu/status/2108814557179486226"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "小互发布 Claude Code Projects 4 分钟入门：跨仓大目标拆多线程，合上电脑云端也能继续",
+   "url": "https://x.com/xiaohu/status/2108739734306685221"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "小互观摩 LibTV AI 短片黑客松：48 小时出片，审美与专业经验仍是上限",
+   "url": "https://x.com/xiaohu/status/2108884435487908043"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "小互：可确定 Grok Bot 现由 Opus 5.5 驱动——喂指南后一击生成配音视频",
+   "url": "https://x.com/xiaohu/status/2108754371609813340"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Tibo：ChatGPT 个人订阅现可直接当 Devin 用，GPT 用量走原配额",
+   "url": "https://x.com/thsottiaux/status/2108777962053292398"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "Tibo：Dots 大升级——可在 Codex 开工并跟进线程，还能改 ChatGPT Work 定时任务",
+   "url": "https://x.com/thsottiaux/status/2108773703064657936"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "TestingCatalog：Claude 隐藏 Voice Preview 页，疑似升级语音体验甚至自研语音模型",
+   "url": "https://x.com/testingcatalog/status/2108940487658807525"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "TestingCatalog：OpenAI API 定价页惊现未官宣的 gpt-rosalind-discovery，疑似药物发现向",
+   "url": "https://x.com/testingcatalog/status/2108804914071658577"
+  },
+  {
+   "day": "2026-10-11",
+   "title": "TestingCatalog：Codex Day 6——可显式请求让 Codex 在额度将尽时自行使用 reset",
+   "url": "https://x.com/testingcatalog/status/2109055151163965917"
+  }
+ ]
+}

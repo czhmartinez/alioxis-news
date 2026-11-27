@@ -1,0 +1,32 @@
+Alioxis News「大V视野」X扩展抓取报告（2026-10-03）
+
+登录：已登录，未出现登录墙/验证码。
+访问范围：Khazix0918、MaxForAI、xiaohu、testingcatalog、gengdaJ、nanyuan0412个人资料时间线；时间重点为最近约36小时。
+
+结果：
+- 原有Following AI帖子：7
+- 本次新增真实AI相关帖子：10
+- 最终唯一AI帖子：17
+
+最终按账号：
+- @zaobaosg: 2
+- @thsottiaux: 1
+- @MaxForAI: 4（原1+新3）
+- @laoyingkhq: 1
+- @xiaohu: 4（原2+新2）
+- @Khazix0918: 1
+- @testingcatalog: 4
+
+新增status URLs：
+- https://x.com/Khazix0918/status/2105936290973876379
+- https://x.com/MaxForAI/status/2105901137434177918
+- https://x.com/MaxForAI/status/2105885169202979286
+- https://x.com/MaxForAI/status/2105883387710038485
+- https://x.com/xiaohu/status/2106033835414864042
+- https://x.com/xiaohu/status/2105914251768701110
+- https://x.com/testingcatalog/status/2106041553806336167
+- https://x.com/testingcatalog/status/2106116684280987731
+- https://x.com/testingcatalog/status/2106103574300397859
+- https://x.com/testingcatalog/status/2105984366359036069
+
+筛选说明：跳过了纯转帖/无评论、仅图片或一句话评论、广告和付费合作内容；gengdaJ与nanyuan0412在最近约36小时内没有合格新帖。按status URL去重，未强行填充。相对时间换算的published_at为近似值（锚点：2026-10-03 08:16 UTC+8）。

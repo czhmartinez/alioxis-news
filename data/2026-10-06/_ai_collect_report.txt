@@ -1,0 +1,119 @@
+Alioxis News AI新闻 collect report — 2026-10-06 (Asia/Taipei)
+================================================================
+item_count: 20
+output: /workspace/alioxis-news/data/2026-10-06/ai.json
+covers: image fields left empty ("") for later GenerateImage; prompts in _cover_prompts_ai.json (ai-00..ai-19)
+lead: SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上
+
+AIHOT status
+------------
+- `node scripts/fetch-aihot-daily.js 2026-10-06` → GET /api/v1/dailies/2026-10-06 = HTTP 200 (generatedAt 2026-10-06T00:00:34Z = 08:00 Taipei;
+  window 10-05 08:00 → 10-06 08:00 Taipei). TODAY'S DAILY PRESENT.
+- The API now wraps the report as {schemaVersion, report}; build.js expects the bare report (lead/sections at top level, like 10-01..10-04),
+  so the raw response is kept as _aihot_raw.json and the unwrapped report is saved as _aihot_daily.json (same shape as 10-03/10-04).
+- AIHOT lead (item 01): SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上 → primary newsletter.semianalysis.com (paid post; summary uses free portion only).
+- AIHOT daily has 7 items (lead + 6), all re-verified on primary pages and all used:
+  Liquid d1 / ChatGPT visual ads / Together Link / Wikimedia rogue agents / OpenAI textGrain / SemiAnalysis / PromptArmor Databricks Genie.
+- build.js overlap filter (normalizeTitle prefix match) will fold 4 of our items into the AIHOT strip on render:
+  01 SemiAnalysis, 03 textGrain, 11 PromptArmor Genie, 14 Together Link → main list shows 16 + AIHOT strip 7.
+  (Wikimedia / ChatGPT ads / Liquid d1 have different titles and stay in the main list as well, same as 10-04 precedent.)
+- 2026-10-05 daily: appeared later (generatedAt 2026-10-05T06:30Z) but is an empty "今日安静，无大事发生" report with 0 sections/flashes →
+  nothing to mine. Saved as _aihot_daily_2026-10-05_late.json for reference.
+- Candidate stream also pulled: /api/v1/items?mode=all&window=24h (5 pages, ~250 items) → _aihot_items_24h_all*.json, score-sorted in _aihot_tips_flat.json.
+  Every AIHOT-surfaced candidate re-verified on its primary/original page; no aihot.news URL used as an item URL.
+
+Dedup / skip notes
+------------------
+SKIP (already covered 10-01..10-05 ai.json / v.json):
+- RemoveMacAI (Verge/Ars re-cover; 10-05 item 19); Cloudflare Web Search API (10-05 item 08); Claude Code mods / v2.1.290 (10-02..10-04 arc)
+- Aleph Alpha Kolibri (10-04 v); Trump SIF (10-05 lead); Gemini model-tier change (10-05); "200刀会员额度对比" (10-05 v 卡兹克) is opinion — kept the
+  new SemiAnalysis measurement as AIHOT lead since it is a distinct, freshly published dataset
+- Decision models: Clef (10-02), llama.cpp decision (10-04), Perplexity Decisions (10-05), Laya (10-04) — kept only Liquid d1 (new vision capability, AIHOT daily)
+- PromptArmor Copilot Cowork (10-01) is a different product; Genie Code report is new (kept)
+SKIP (redundant duplicates within today): OpenAI watermark (TechCrunch/Verge/Decoder/ithome/X ×8), ChatGPT ads (Verge/TC/Decoder/ithome ×5),
+  Reflection Beam (TC/MarkTechPost/X ×6), Muse VM escape second 404 headline, Wikimedia (Verge outage angle), Nolla (X ×2), Norway (Barron's)
+SKIP (security/agent-misbehaviour saturation, kept 4: Wikimedia, Muse, Genie, MCP): TechCrunch "Chinese AI agent fleet" on Tencent → Amap (thin, preliminary)
+SKIP (X-only / no primary found): Cognition Devin "Dreaming" memory (cognition blog 404, not in Devin release notes), Cursor SDK steering/subagents
+  (latest cursor.com/changelog entry is Sep 23), Eon Era, ContextQA Ship, Epoch AI coding-agent spend (X thread only), Claude "local hands",
+  GPT-6 speedups (@thsottiaux/@testingcatalog), Gemini Notebook limits, Krea in After Effects, Hao AI Jev Minecraft, SkillGym, SelfSearch
+SKIP (off-topic / weak / non-AI): Huawei–Qualcomm patent deal, Schneider–PTC $22.6B, Nvidia market cap, SpaceX stock, McDonald's AI pricing suit
+  (ithome only), Florida Claude-diary arrest (sensitive, single ithome source), Shaoxing ADAS DUI, TikTok shopping assistant, Instinct group chats,
+  Hot Girl Hotline, Quinnipiac poll, Anthropic donations, Vanity Fair/Altman PR, Disrupt lineup posts, Qwen 耳夹耳机 preorder, tvOS/visionOS betas
+Held for variety (fine, not used): Reka Rho-1, Yandex Sona, Redwood decision-theory study, MIT office-hours report, Safeworld, Simon Willison Qwen3.8 27B
+
+Expansion beyond AIHOT (official blogs / help centers / reputable tech news / arXiv)
+-------------------------------------------------------------------------------
+- Anthropic Claude Help Center: Cowork cloud-by-default for Pro/Max effective Oct 6 (surfaced via Simon Willison quoting Felix Rieseberg, Oct 5 23:56Z)
+- Reflection AI blog: Beam 501B (TechCrunch for context window / compute claims)
+- arXiv 2609.36054 (Hinton/Bengio/Pachocki/Clark et al. intelligence-explosion paper; Chinese news cycle via 量子位 Oct 5)
+- arXiv blog: rate-limit policy (Oct 1; news cycle Oct 5 via 404 Media)
+- GitHub Blog: ReviewBench (Oct 5)
+- The Decoder (Meta/Microsoft Claude cutbacks, via The Information), 404 Media (Muse KVM escape), Ars Technica (MCP protocol pivoting; Norway AI glasses via FT),
+  TechCrunch (HackerRank Chakra), The Verge (Nolla Health), a16z (Top 100 7th ed.), Vals AI (Opus 5.5 agents materials discovery)
+- Checked with nothing fresh/new usable: OpenAI news RSS (only the two AIHOT posts), Google blog (Teachers' Day posts), DeepMind/Anthropic RSS (empty feed),
+  HF blog (latest Oct 3, covered), NVIDIA blog (breast-cancer startups, weak), Vercel changelog (latest Oct 2, covered), Cloudflare (Birthday Week wrap-up, covered),
+  GitHub changelog (secret-scanning detectors for Lovable/Supabase — minor), MarkTechPost, ithome, 量子位
+
+Source URL choices / published_at
+---------------------------------
+- Primary used: SemiAnalysis, Wikimedia Diff, OpenAI ×2, Reflection, Claude Help Center, arXiv abs, arXiv blog, PromptArmor, Liquid AI, Together AI, GitHub Blog, a16z, Vals AI
+- News URL where the news itself is the reporting: The Decoder (The Information paywalled), 404 Media (exclusive), Ars ×2 (original reporting / FT syndication),
+  TechCrunch (HackerRank interview), The Verge (Nolla; company release via Bloomberg)
+- published_at converted to +08:00. Approximations: OpenAI posts → RSS times (10:00Z / 15:00Z); Reflection blog undated → HN surfacing 19:16Z;
+  Cowork help page undated → Simon Willison post 23:56:47Z; Liquid/Together date-only → AIHOT 00:00Z; PromptArmor date-only (Oct 5) → 2026-10-05T20:00+08:00 approx;
+  Vals AI date-only (Oct 4) → 2026-10-05T02:00+08:00 approx; RSI paper → arXiv submission date 2026-09-28 (older, but entered news cycle Oct 5).
+
+Items (title → url)
+-------------------
+01. SemiAnalysis 测算：Anthropic 订阅的 API 等价价值约为 OpenAI 的 5 倍以上
+    https://newsletter.semianalysis.com/p/anthropic-subscriptions-offer-5x
+02. 维基媒体基金会确认 OpenAI「流氓」智能体曾在维基项目活动：沙盒编辑、试探 Etherpad、数百万次抓取
+    https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects/
+03. OpenAI 公布 EU AI Act 文本溯源方案：textGrain 隐形水印先上欧盟 ChatGPT/Codex，API 可选开启
+    https://openai.com/index/eu-text-provenance
+04. ChatGPT 将在图像生成时测试视觉广告：本月在美国开测，并接入 AppsFlyer、LiveRamp 等归因与测量伙伴
+    https://openai.com/index/new-chatgpt-ads-format-and-measurement
+05. Reflection 发布首个开放权重模型 Beam：501B 总参数 / 23B 激活 MoE，主打编码与智能体、本月放出权重
+    https://reflection.ai/blog/introducing-beam
+06. Claude Cowork 今起默认在云端运行：Pro/Max 新任务不再支持「仅在本机」，合上电脑也能继续跑
+    https://support.claude.com/en/articles/15520349-use-claude-cowork-on-web-desktop-and-mobile
+07. The Information：Meta 与微软大幅削减内部 Claude 使用，微软云部门人均月预算从 10 万降到约 1 万美元
+    https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/
+08. Hinton、Bengio 与 OpenAI 首席科学家等 22 人联署论文：AI 研发自动化可能触发「智能爆炸」
+    https://arxiv.org/abs/2609.36054
+09. arXiv 因 AI 低质论文泛滥限流：每位提交者每月最多 2 篇、同时在审不超过 3 篇
+    https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/
+10. 404 Media：Meta Muse 上线前紧急修复 KVM 逃逸漏洞，最严重者可让普通用户触及内部数据库
+    https://www.404media.co/meta-rushed-to-fix-muse-vm-escape-vulnerability-immediately-before-launch/
+11. PromptArmor：Databricks Genie Code 会执行恶意 Skill，渲染结果时弹钓鱼框并经浏览器外泄数据
+    https://www.promptarmor.com/resources/four-databricks-genie-controls-that-dont-stop-malicious-skills
+12. Ars Technica：MCP 智能体间信任缺口可「协议跳板」传递恶意指令，Google 等五家机构确认漏洞
+    https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/
+13. Liquid AI 决策模型 d1 新增图像输入：一次前向直接给出各选项概率，称在 6 项任务中 4 项追平或超过 GPT-6.1 Sol
+    https://www.liquid.ai/blog/d1-decision-model
+14. Together Link：一条命令把 Claude Code、Codex 等现有编码智能体接到 GLM 5.3、Kimi K3 等开源模型
+    https://www.together.ai/blog/together-link-frontier-quality-open-models-in-the-harness-you-already-use
+15. GitHub 开源 ReviewBench：219 个真实 PR、19 种语言，给 AI 代码审查智能体打分并设排行榜
+    https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/
+16. HackerRank AI 面试官 Chakra 正式开放：在真实代码库里观察候选人如何驾驭 AI，测评「AI 熟练度」
+    https://techcrunch.com/2026/10/05/hackerranks-ai-interviewer-offers-a-glimpse-into-what-job-interviews-could-become/
+17. a16z 第七版消费级 AI 应用 Top 100：首次加入消费支出榜，前 1% 付费者月均花费 903 美元
+    https://www.a16z.news/p/top-100-consumer-ai-apps-seventh
+18. Vals AI：Claude Opus 5.5 智能体团队找到两种室温「Luttinger 补偿」磁性半导体候选材料
+    https://www.vals.ai/blogs/room-temperature-magnetic-semiconductors
+19. 美国犹他州批准 Nolla Health 用 AI 直接开痤疮初始处方：每月 4.99 美元，医生审核逐步放宽
+    https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions
+20. 挪威拟在公园、海滩、学校等公共场所临时禁用 AI 眼镜，成首个提出此类禁令的主要国家
+    https://arstechnica.com/ai/2026/10/ai-glasses-face-their-first-major-government-crackdown/
+
+Blockers
+--------
+- None blocking. SemiAnalysis post is paywalled past the intro (summary limited to the free section + AIHOT abstract).
+- X-only candidates skipped rather than verified (no X API use).
+- 20/20 item URLs HTTP 200 (see _url_verify.txt).
+
+Mirrors saved
+-------------
+- _aihot_daily.json (unwrapped report) / _aihot_raw.json (API wrapper) / _aihot_latest.json / _aihot_daily_2026-10-05_late.json
+- _aihot_items_24h_all.json + _p2.._p5.json / _aihot_tips_flat.json
+- _ai_collect_report.txt / _url_verify.txt / ai.json / _cover_prompts_ai.json

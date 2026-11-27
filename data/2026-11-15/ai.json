@@ -1,0 +1,272 @@
+[
+  {
+    "title": "马斯克、YC 的 Tan、Epic 的 Sweeney 等联署请愿，要求英伟达董事会恢复黄仁勋 CEO 职务：截至周六下午已超 11.5 万签名，含 5,965 名在职员工、1,108 名前员工与 63,063 名股东",
+    "summary": "据 TechCrunch 11 月 14 日报道：一份要求英伟达恢复近日被免职的前 CEO 黄仁勋职务的请愿书，截至周六下午已获得超过 11.5 万个签名。请愿网站称签署者包括 5,965 名在职员工、1,108 名前员工和 63,063 名股东；知名联署人包括特斯拉与 SpaceX 的马斯克、Replit CEO Amjad Masad、Epic Games CEO Tim Sweeney，以及 Y Combinator CEO Garry Tan。请愿书称签署者“担心黄仁勋在未获实质性正当程序的情况下被免职”，要求董事会“在独立调查查清事实期间让他回来”，并向公众提供更多信息；文中还写道“Jensen 应得到正当程序，而不是私刑”。黄仁勋周四辞职后，CFO Colette Kress 出任临时 CEO，公司正在物色正式继任者。",
+    "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-15T05:41:00+08:00",
+    "tags": [
+      "英伟达",
+      "黄仁勋",
+      "请愿",
+      "马斯克",
+      "公司治理"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-00.jpg"
+  },
+  {
+    "title": "Cursor 公布安全事件完整调查：攻击者利用 Fireworks 暴露的访问密钥窃取训练用编程智能体 trace，恶意 Claude Code 扩展最多波及约 5,000 名用户，事件已于 11 月 1 日遏制",
+    "summary": "Cursor 于 11 月 13 日发布安全事件调查更新：攻击者利用 Fireworks 暴露的、Cursor 签发给该供应商的访问密钥，从只读存储桶中复制用于模型训练的编程智能体 trace（主要来自 2025 年、且非 Privacy Mode 会话）。少量 trace 含未脱敏凭证，少于 0.01% 的客户 API 凭证被暴露；攻击者随后进入部分 SaaS 工具，接触到归档的非生产源代码库、有限的客服与邮件、产品使用指标与联系方式，以及用户发给支持团队的部分凭证。10 月 29 日，攻击者用窃取的凭证在 Cursor VS Code 扩展市场的缓存上放入未经授权的恶意 Claude Code 扩展（Anthropic.claude-code 2.1.312 或 2.1.313），该构建约存在 11 小时，最多约 5,000 名请求特定缓存版本的用户可能下到；上游 Open VSX 从未托管该恶意包，Anthropic 也未发布该副本。Cursor 称 Privacy Mode 下的提示与代码未受影响，非 Privacy Mode 用户中编程智能体 trace 暴露少于 0.05%，生产系统、正式客户端更新与仓库签名密钥未受影响。公司已将全部推理流量迁离 Fireworks，并称最后一次攻击活动出现在 11 月 1 日且已被拦截。",
+    "url": "https://cursor.com/blog/security-incident-update",
+    "source": "Cursor",
+    "published_at": "2026-11-13T12:00:00+08:00",
+    "tags": [
+      "Cursor",
+      "安全事件",
+      "Fireworks",
+      "Claude Code",
+      "凭证泄露"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-01.jpg"
+  },
+  {
+    "title": "美联储金融稳定报告：市场联系人中 87% 将人工智能列为首要金融风险，高于春季的 50%；截至 10 月先进计算相关债务发行超 6,800 亿美元，约占投资级公司债发行的 31%",
+    "summary": "美国联邦储备委员会 11 月 13 日发布半年一度《金融稳定报告》。面向市场联系人的突出风险调查中，87% 将人工智能列为当前最突出风险，高于 2026 年春季的 50%，并高于次位的风险资产回调（52%）。受访者提出三方面担忧：一是股票估值偏高，若盈利不及预期可能引发估值回落与市场调整；二是网络安全风险，可能来自复杂国家行为体攻击，或前沿模型本身造成的损害；三是与人工智能相关的复杂融资安排。报告专题写道，先进计算相关债务发行截至 2026 年 10 月已超过 6,800 亿美元，约为 2023 年全年 1,300 亿美元的五倍，其占非金融投资级公司债发行的份额由 2023 年不足 6% 升至 2026 年约 31%；与先进计算相关的公开发行债务余额截至 10 月估计超过 1.1 万亿美元。报告还称，美国最大银行控股公司对大型科技公司、数据中心开发商、先进计算相关特殊目的实体与私募信贷工具以及公用事业公司的风险敞口接近 1 万亿美元，这些敞口会纳入年度监管压力测试。",
+    "url": "https://www.federalreserve.gov/publications/files/financial-stability-report-20261113.pdf",
+    "source": "Federal Reserve",
+    "published_at": "2026-11-14T05:00:00+08:00",
+    "tags": [
+      "美联储",
+      "金融稳定",
+      "人工智能风险",
+      "数据中心",
+      "债务"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-02.jpg"
+  },
+  {
+    "title": "亚洲多国政府回应黄仁勋离任：韩国称英伟达重申将供应 26 万块先进 GPU 并继续联合项目，台湾经济部长龚明鑫认为不太可能显著改变全球 AI 增长，日本经产省表示将密切关注",
+    "summary": "据 TechCrunch 11 月 14 日报道：黄仁勋离开英伟达后，亚洲多国政府相继表态。韩国科技部称，英伟达已重申将向韩国供应 26 万块先进 GPU，并继续推进联合人工智能项目；韩国政府人工智能战略委员会周五还召开紧急会议，评估此事对本土产业的潜在影响。台湾经济部长龚明鑫认为，此事不太可能显著改变全球人工智能产业增长；台北市政府则表示，英伟达计划中的海外总部项目目前仍按合约推进。日本经济产业省称将密切关注英伟达，并形容该公司是日本人工智能半导体产业的重要参与者；内阁官房副长官 Ozaki Masanao 表示，现在评估对全球产业的影响还为时过早，同时强调日本致力于保障半导体稳定供应。报道还提到：中国外交部驳斥有关与黄仁勋相关的间谍指控；路透社称，依赖受出口管制英伟达处理器、规模超过 30 亿美元的中国人工智能计算项目出现不确定性；新加坡内政部则回顾了对 Megaspeed 前 CEO Alice Huang 的调查——2026 年 2 月因证据不足未就其虚假申报指控定罪，但认定其故意提供不实职务信息，已警告并禁止再入境，对 Megaspeed 及其他六人的调查仍在进行。",
+    "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-15T00:34:00+08:00",
+    "tags": [
+      "英伟达",
+      "黄仁勋",
+      "韩国",
+      "台湾",
+      "日本"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-03.jpg"
+  },
+  {
+    "title": "Thinking Machines 发布端到端 4-bit 训练技术报告：Inkling 2 Small 专家层前向用 NVFP4、反向用 MXFP8 并配合随机舍入，称是已知最大的原生 4-bit 端到端训练模型，预训练仅 68 小时",
+    "summary": "Thinking Machines Lab 于 11 月 13 日由 Jack Cook 等人发文，介绍其在 Inkling 2 Small 上从预训练到强化学习 rollout 采用的数值配方：专家层前向使用 NVFP4，反向使用 MXFP8，并配合重新量化与随机舍入以降低梯度偏置。文章称，这是他们所知最大的、以原生 4-bit 格式端到端训练的模型。训练在英伟达 Grace Blackwell Ultra（GB300）上进行；文中给出该平台上 NVFP4、MXFP8、BF16 的位宽与算力对照，并称 NVFP4 存储位宽约为 BF16 的 1/3.6，速度最高可达约 6 倍。与全程使用 MXFP8 相比，该配方在其最大规模任务中带来预训练墙钟时间约 8%、强化学习约 20% 的加速。文中还提到，数月前同等规模训练曾需数周，而 Inkling 2 Small 在 GB300 NVL72 机柜上的预训练只用了 68 小时。团队表示将继续探索反向传播使用 FP4，以及配方如何迁移到英伟达最新的 Vera Rubin 系统。",
+    "url": "https://thinkingmachines.ai/blog/end-to-end-4-bit-training/",
+    "source": "Thinking Machines Lab",
+    "published_at": "2026-11-13T12:00:00+08:00",
+    "tags": [
+      "Thinking Machines",
+      "Inkling 2 Small",
+      "NVFP4",
+      "量化训练",
+      "GB300"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-04.jpg"
+  },
+  {
+    "title": "微软宣布 Windows 端侧语言模型由 Phi Silica 过渡到 Aion Instruct：参数从 3.8B 降至 2.3B、上下文从 3.5K 升至 32K，将拓展至 RTX 与 RDNA4 GPU，计划 11 月 20 日向 Insider 推送",
+    "summary": "微软 Windows AI 团队 11 月 13 日在 Foundry on Windows 博客宣布，将把 Windows 设备端语言模型从 Phi Silica 过渡到新的 Aion Instruct。官方对照表显示，参数量由 3.8B 降至 2.3B，输入上下文上限由 3,500 token 提升至 32,000 token。微软称该模型将扩展到受支持的独立 GPU，包括英伟达 RTX 系列与 AMD RDNA4 世代，以覆盖更多 Windows 设备。时间表为：10 月已提供独立测试包（aka.ms/tryaion）；计划 11 月 20 日开始向 Windows Insider Preview 设备推送；零售设备过渡目标为 2027 年 1 月下旬。官方提醒，大多数应用无需改动，但依赖高度定制系统提示或自定义 LoRA、以及因新增不可见水印而自行解析输出的应用需要适配；该水印用于满足部分地区的文本来源追溯要求。微软还计划在 1 月去掉 LAF 令牌这一采用门槛。更详细的技术报告将随后发布在 Microsoft Command Line 博客。",
+    "url": "https://devblogs.microsoft.com/foundry-on-windows/aion-instruct-local-ai-windows-gpu/",
+    "source": "Microsoft",
+    "published_at": "2026-11-13T12:00:00+08:00",
+    "tags": [
+      "微软",
+      "Aion Instruct",
+      "Windows",
+      "端侧模型",
+      "Phi Silica"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-05.jpg"
+  },
+  {
+    "title": "Google DeepMind 开放天气模型背后的 SatWeave 与 PARDIG 数据集：SatWeave 每小时更新 17 个通道的全球卫星拼图，PARDIG 提供约 15 分钟、约 10 公里分辨率全球降水，轻到中雨探测技能较 IMERG-Final 提高逾 30%",
+    "summary": "Google DeepMind 天气团队 11 月 13 日宣布，向研究与开发者开放支撑 WeatherNext 3 的两个基础数据集及其历史档案与实时馈送。SatWeave 把多颗地球同步卫星的观测拼成全球图像，覆盖 17 个可见光、水汽和红外通道，每小时更新，从而支持比通常每六小时更新一次的分析场更频繁的全球预报初始化；官方同时开放超过十年的历史档案。PARDIG（Precipitation AI Reanalysis: Densely Inferred GPM）是基于类似 WeatherNext 3 架构的全球降水数据集，以 NASA GPM 星载雷达的稀疏观测为训练目标，结合 SatWeave 图像和 ECMWF 大气场，生成时间分辨率约 15 分钟、空间分辨率约 10 公里、平均延迟约 5 小时的全球降水图。DeepMind 称，对照美国、欧洲和日本的大陆雷达网以及全球超过 3.6 万个气象站，PARDIG 在各降雨强度上均优于包括 NASA IMERG-Final 在内的主流全球产品，其中轻到中雨的小时降水探测技能提高超过 30%。实时与历史数据已在 Google Cloud Storage 开放，PARDIG 历史目录也可在 Google Earth Engine 获取，时间跨度覆盖 1999 年至 2026 年。",
+    "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+    "source": "Google DeepMind",
+    "published_at": "2026-11-13T12:00:00+08:00",
+    "tags": [
+      "DeepMind",
+      "SatWeave",
+      "PARDIG",
+      "天气预报",
+      "开放数据"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-06.jpg"
+  },
+  {
+    "title": "Fortune：OpenAI 解散独立机器人团队，研究并入马克·陈领导的主研究部门、应用与硬件划归布罗克曼的 Applied；公司称因 GPT-6 Astra 等通用模型已可直接驱动机器人，并非放弃该方向",
+    "summary": "据 Fortune 11 月 13 日独家报道并经 OpenAI 发言人确认：公司已解散独立的机器人团队，将机器人研究并入由首席研究官马克·陈（Mark Chen）领导的主研究团队，应用机器人与硬件团队则划入总裁格雷格·布罗克曼领导的 Applied 组织。OpenAI 强调机器人仍是长期愿景的核心，此次重组是为加快进展而非撤退。发言人说，年初研究团队曾假设应依托 Sora 等对物理世界有隐含理解的模型推进机器人，但此后包括 GPT-6 Astra 在内的通用前沿模型已显示可直接用于机器人任务，因而决定不再保留独立团队。报道提到，OpenAI 曾在 2024 年重建该团队并与 Figure 合作，合作于 2025 年 2 月结束；CEO 山姆·奥特曼的目标是在 2027 年首次公开展示自研人形机器人。Fortune 还写道，本周在奥斯汀举行的 CoRL 机器人会议上，OpenAI 已注册的展位实际空置。卡内基梅隆大学机器人研究所助理教授 Guanya Shi 认为，这释放出“机器人不再被当作特殊问题、而更像通用智能下游应用”的信号。文中援引一项英伟达研究称，由 Astra 驱动的智能体在模拟操作基准上成功率为 74.8%，而该榜单上最佳专用机器人模型为 51.0%。",
+    "url": "https://fortune.com/2026/11/13/openai-disbands-robotics-team-as-its-general-models-start-running-robots/",
+    "source": "Fortune",
+    "published_at": "2026-11-14T01:05:00+08:00",
+    "tags": [
+      "OpenAI",
+      "机器人",
+      "GPT-6 Astra",
+      "具身智能",
+      "组织调整"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-07.jpg"
+  },
+  {
+    "title": "Anthropic 推出自托管 Claude Managed Agents 私有预览：企业可在自有云或本地运行智能体控制平面、沙箱、凭证与会话历史，模型请求可送往 Anthropic、Bedrock、Google Agent Platform 或 Microsoft Foundry",
+    "summary": "Anthropic 在 Claude 官方文档中宣布，自托管版 Claude Managed Agents 已进入私有预览，企业可在自有云或本地环境中运行智能体。与此前仅允许自托管沙箱、由 Anthropic 托管其余控制平面不同，此次客户自行运营 Managed Agents 服务器、数据库，以及智能体执行 shell 与文件工具的工作节点，会话历史保存在客户自己的数据库中；开发者仍使用与托管版相同的核心 API。模型请求可指向 Anthropic 本服务、Amazon Bedrock、Google 的 Agent Platform、Microsoft Foundry，或客户自建网关。若企业与 Anthropic 签有零数据保留（ZDR）协议，这些请求的适用方式与普通 Messages API 调用相同。官方强调设计上将“大脑”（调用模型的 harness）与“双手”（运行代码的沙箱）分离，凭证通过沙箱外的代理注入，环境可设置主机允许列表，并保留每一步工具调用的完整记录，可通过 OpenTelemetry 导出到现有监控系统。有意试用需联系 Anthropic 客户团队申请访问。",
+    "url": "https://claude.com/resources/articles/self-hosted-claude-managed-agents",
+    "source": "Anthropic",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "Managed Agents",
+      "自托管",
+      "企业安全"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-08.jpg"
+  },
+  {
+    "title": "ElevenLabs 纽约峰会发布企业应用 ElevenAI：用 Scribe v3 做会议纪要与听写并开放免费早鸟；同时宣布与英伟达扩大合作、新增 15 兆瓦 Vera Rubin 算力，Nemotron 3.5 Super VL 接入 ElevenAgents",
+    "summary": "ElevenLabs 于 11 月 11 日纽约峰会由 CEO Mati Staniszewski 发布多项更新。面向企业员工的新应用 ElevenAI 被定位为“AI 同事”：用最新语音转写模型 Scribe v3 做会议记录与听写，在征得与会者同意后生成纪要和待办，并可在通话中提供实时协助，当天起开放免费早鸟。官方还预告了 Interaction Engine（处理轮转与打断，并按任务选模型）、ElevenAgents 的 Memory（记住回访客户在对话中提到但未必写入 CRM 的偏好）以及 Routines（在通话前后自动执行多步跟进）。企业生态方面，合作伙伴网络已超过 550 家、覆盖 44 个国家，并推出正式的 Partner Program，同时宣布与麦肯锡及其 QuantumBlack 结盟；新的 Marketplace 将汇集医疗、金融、保险、教育和零售等行业应用，计划明年起可用已有承诺金额直接购买。ElevenLabs 还宣布与英伟达扩大合作：Nemotron 3.5 Super VL 已可在 ElevenAgents 中使用，公司将新增 15 兆瓦 Vera Rubin 算力，双方还将为波兰国家电子健康平台打造本地部署的语音智能体，服务只有固定电话的患者预约。",
+    "url": "https://elevenlabs.io/blog/nyc-summit",
+    "source": "ElevenLabs",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "ElevenLabs",
+      "ElevenAI",
+      "Scribe v3",
+      "ElevenAgents",
+      "英伟达"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-09.jpg"
+  },
+  {
+    "title": "美联航限制未经授权的第三方个人 AI 智能体预订与管理行程：称共享账户凭证可能暴露敏感信息、导致意外购票或动用里程，值机等环节也可能违反联邦航空局与交通部规定",
+    "summary": "美国联合航空 11 月 11 日在新闻稿中宣布，将采取措施限制未经授权的第三方个人人工智能智能体或助手使用其数字平台，范围既包括公司自有渠道，也包括经由旅行社和聚合商的间接途径，并会更新预订、出票与分销政策。美联航称，把账户凭证分享给个人第三方 AI 助手可能暴露敏感信息，这些工具采取的操作可能导致意外购票、账户变更或动用 MileagePlus 里程；自动化操作还有可能违反联邦航空局（FAA）与运输部（DOT）规定，例如办理值机时需要人工确认行李中不含爆炸物等违禁物品。公司表示将更新 Digital Trust Center，帮助乘客理解新限制、保护账户，并在智能体做出非预期操作时获得帮助。美联航还提到，银行和零售行业的企业已采取类似限制，并鼓励其他行业考虑相应措施。",
+    "url": "https://united.mediaroom.com/news-releases?item=125496",
+    "source": "United Airlines",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "美联航",
+      "智能体",
+      "航空预订",
+      "网络安全",
+      "监管"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-10.jpg"
+  },
+  {
+    "title": "TechCrunch：Nebius 规划 2027 年资本开支 400–450 亿美元，预计预付款与资产支持融资可覆盖至 85%；三季度营收 9.81 亿美元，因第三方机房延期将 2026 年营收预测下调至 30 亿美元，股价当日跌 17%",
+    "summary": "据 TechCrunch 11 月 12 日报道，Nebius 在三季度财报电话会上给出 2027 年 400 亿美元的资本开支计划，并称加上资产支持融资后规模可达 400–450 亿美元，预计客户预付款以及对投资级合同的资产支持融资最多可覆盖该开支的 85%。公司三季度营收 9.81 亿美元，同比增长 571%，其中约三分之一来自与新合作模式相关的一次性款项；账上现金 74 亿美元。Nebius 预计 2027 年营收 120–130 亿美元，并希望在当年四季度实现税前盈亏平衡。与此同时，公司将 2026 年营收预测下调 2 亿美元至 30 亿美元，理由是新泽西等第三方机房延期，股价当日收跌 17%。报道称，微软在文兰（Vineland）的项目是其最大客户合同之一、价值最高可达 194 亿美元，但目前计划到年底只交付略过半数容量，其余延至 2027 年二季度；合同允许微软在宽限期后终止受影响服务，并包含延期罚款。CEO Arkady Volozh 在电话会上说：“以这种规模建设很难，延期是这个行业眼下的一部分。我们也不能幸免。”Nebius 强调，延期主要来自其不直接控制的站点，自建数据中心则按时或提前上线，并将贡献 2027 年起的大部分新增产能。",
+    "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-13T05:27:00+08:00",
+    "tags": [
+      "Nebius",
+      "数据中心",
+      "微软",
+      "资本开支",
+      "云计算"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-11.jpg"
+  },
+  {
+    "title": "英伟达开源 SOMA Retargeter v0.2：把人体动作适配到 Unitree G1/H2、Booster T1、智元 X2 Ultra 与 A3T3 等五款人形机器人，并导出轨迹用于 SONIC、ProtoMotions 等策略训练",
+    "summary": "英伟达技术博客 11 月 13 日介绍开源工具 SOMA Retargeter v0.2：它以 SOMA 骨架为统一输入，把动作捕捉、视频重建或生成模型得到的人体运动，缩放到目标机器人的肢体比例，再用基于 NVIDIA Warp 的 Newton 逆运动学求解关节姿态，并做脚掌着地等后处理，最终导出包含根部位姿与关节角的 CSV，供后续策略训练使用。该版本提供 BONES-SEED 样本动作，以及 Unitree G1、Unitree H2、Booster T1、智元 X2 Ultra 和智元 A3T3 五款人形机器人的参考配置与重定向结果。开发者可用 Robot Configurator 对齐参考姿态、映射骨架，并用实验性的 IK 权重优化器按任务调整各身体部位的优先级；也支持无界面批量处理。重定向轨迹可转入 SONIC 或 ProtoMotions 等运动跟踪训练流程，在仿真中评估平衡、接触与跟踪精度。人体运动来源包括动作捕捉数据集 BONES-SEED、从单路视频重建全身运动的 GEM-X，以及在 SOMA 骨架上生成动作的 Kimodo 和 ARDY。",
+    "url": "https://developer.nvidia.com/blog/adapt-human-motion-for-robots-with-nvidia-soma-retargeter/",
+    "source": "NVIDIA",
+    "published_at": "2026-11-13T12:00:00+08:00",
+    "tags": [
+      "英伟达",
+      "SOMA Retargeter",
+      "人形机器人",
+      "运动重定向",
+      "开源"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-12.jpg"
+  },
+  {
+    "title": "Hugging Face 博客：用 SimReady 资产在 Isaac Sim 6.2 中搭建饮料罐抓取放置仿真，示例以 GPT-6 Sol 等智能体生成并执行任务代码",
+    "summary": "英伟达 11 月 13 日在 Hugging Face 博客发布教程，演示如何用 SimReady Central 开源资产库中的 UR17G 机械臂、Robotiq 2F-140 夹爪和饮料罐，在 Isaac Sim 6.2 里组装场景并完成抓取放置。SimReady 指 OpenUSD 资产已按既定仿真用途准备好碰撞、质量、关节和关节驱动等属性，并附有相对 Robot-Body 4.0.0、Robot-Gripper 3.0.0 等配置文件的校验报告。教程建议先检查关节限位与驱动、做小幅度运动和开合夹爪测试，并确认罐子不会穿透工作台；随后可用带 Isaac Sim 技能的智能体协助组装、校验并生成控制代码。文中示例使用 GPT-6 Sol，但也指出只要智能体能加载所需技能并在 Isaac Sim 中执行 Python，其他智能体与模型组合也可尝试，生成代码与结果会有差异。官方提醒该示例是固定初始位姿、无视觉、且未建模罐体变形与液体晃动的脚本化流程，水平抓取还使用了仿真试出的 2 牛·米驱动力矩上限，结果并不代表对真实硬件或不确定物体位置的鲁棒性。",
+    "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "source": "Hugging Face",
+    "published_at": "2026-11-13T12:00:00+08:00",
+    "tags": [
+      "英伟达",
+      "Isaac Sim",
+      "SimReady",
+      "机器人仿真",
+      "智能体"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-13.jpg"
+  },
+  {
+    "title": "Nathan Lambert：黄仁勋离任后美国开源模型生态面临资金与倡导真空，认为英伟达对开源的支持可能随其离开而干涸，公司眼下首要是稳住客户交付",
+    "summary": "Interconnects 作者 Nathan Lambert 于 11 月 14 日撰文，认为英伟达 CEO 黄仁勋辞职是美国开源模型生态的重大挫折。他写道，英伟达仍有商业动机支持开源模型，以免少数大客户自研芯片、削弱其利润，但开源投入更像“创始人式赌注”，高度依赖黄仁勋本人推动；在公司“头号目标是稳住局面、在未来 24 个月向客户交付、防止崩溃”的阶段，这类资助“很可能干涸”。Lambert 认为开源模型经济仍处早期，虽已抓住“智能所有权”与企业后训练这一方向，但在算力短缺、推理利润率偏高的情况下，开源权重远未成为真正的商品，封闭实验室凭规模与垂直整合更占优势。他担忧州与联邦层面出现仓促监管，并引用 SemiAnalysis 的 Dylan Patel 的观点：美国开源落后的关键不只是钱，更是人才仍集中在 Anthropic、OpenAI、DeepMind 等实验室。文中提到，Thinking Machines 近期的 Inkling 2 Small 是一段时间以来较好的西方开源权重模型，但与 Kimi K3.1 Pro 等仍有差距；他认为开源生态需要新的倡导者与联盟来填补黄仁勋留下的空位。",
+    "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+    "source": "Interconnects",
+    "published_at": "2026-11-14T12:00:00+08:00",
+    "tags": [
+      "开源模型",
+      "英伟达",
+      "黄仁勋",
+      "Nathan Lambert",
+      "观点"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-14.jpg"
+  },
+  {
+    "title": "华为计算系统实验室开源跨模态量化工具 MACaQ：MXFP4 W4A4 逐层后训练量化，称可在 64 分钟、仅用 32.5GB 显存量化 1,220 亿参数模型，在 vLLM 上对 Qwen3-32B 的端到端额外开销约 2.3%",
+    "summary": "华为计算系统实验室 11 月 11 日发布模型无关的校准量化方法 MACaQ（Model Agnostic Calibrated Quantization），实现以 Apache 2.0 许可开源。MACaQ 是面向 MXFP4 W4A4（权重与激活均为 4-bit）的后训练量化方法，对每个线性层独立处理：在推理时对激活做逐通道缩放和分块 Hadamard 变换，并把相应的逆变换吸收进权重，从而避免跨层传递基变换，也使量化过程可以流式进行、同一时刻只需一层驻留显存。为改进最近邻量化，方法引入名为 Flip-Refinement 的、考虑 Hessian 信息的坐标下降，逐个把 FP4 码字移到相邻可表示值。实验室称，尽管推理时仍执行激活变换，MACaQ 在 vLLM 上对 Qwen3-32B 的端到端额外开销仅为 2.3%；困惑度低于 DuQuant++ 与 MR-GPTQ，并在比两者量化时间少约 11 倍的情况下，就在 Llama-3-8B 上达到它们的最佳困惑度。官方还展示了无需针对架构改动即可用于图像扩散模型，以及在 64 分钟、仅用 32.5GB GPU 显存的条件下完成 1,220 亿参数模型的量化。",
+    "url": "https://huawei-csl.com/research/macaq/",
+    "source": "华为计算系统实验室",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "华为",
+      "MACaQ",
+      "量化",
+      "MXFP4",
+      "开源"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-15.jpg"
+  },
+  {
+    "title": "Google Antigravity 上线 Dynamic Workflows：用 /run-workflow 让智能体编写并运行 Python 脚本，并行或分阶段调度子智能体，面向 Google AI Pro 与 Ultra，覆盖 App 与 CLI",
+    "summary": "Google Antigravity 于 11 月 13 日随 App v2.32.0 发布 Dynamic Workflows。用户输入 /run-workflow 或用自然语言提出需求后，智能体会编写一段短 Python 脚本，经用户批准（除非权限预设已允许，例如 Turbo）后，在后台用应用自带的 Python 运行时调度多个子智能体。官方文档称，它适合把任务拆成大量独立片段（例如逐文件审查、逐软件包审计）或分阶段步骤（先写失败测试再修代码），以可预期的脚本化控制流代替单次冗长对话。脚本可用 parallel() 并行或 pipeline() 顺序执行，并分成可实时跟踪的命名阶段；每个被拉起的智能体在独立会话中工作，按 JSON Schema 返回结构化结果，文件读取、搜索和测试日志不会挤占主对话上下文。工作流可启动一次性智能体，也可让同一智能体跨轮次保留，例如先找缺陷再确认修复。功能面向 Google AI Pro 与 Google AI Ultra，覆盖 Antigravity App 和 CLI。官方将其与 Orchestrator、子智能体、/swarm、/boost 和此前已介绍的 /teamwork 并列，并建议需要智能体彼此直接协商时改用 /swarm。",
+    "url": "https://antigravity.google/docs/dynamic-workflows/",
+    "source": "Google Antigravity",
+    "published_at": "2026-11-13T12:00:00+08:00",
+    "tags": [
+      "Google",
+      "Antigravity",
+      "Dynamic Workflows",
+      "智能体编排",
+      "Python"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-16.jpg"
+  },
+  {
+    "title": "Gemini 4 Hydrogen 在 GitHub Copilot 正式上线：面向 Pro、Pro+、Max、Business 与 Enterprise，覆盖 VS Code、Visual Studio、Copilot CLI、编码智能体及 JetBrains、Xcode、Eclipse 等",
+    "summary": "GitHub 于 11 月 13 日在官方 Changelog 宣布，Google 最新的 Flash 档模型 Gemini 4 Hydrogen 已在 GitHub Copilot 正式可用。官方称该模型面向快速、高效的智能体编程、工具调用和多步工作流，并在指令遵循上优于 Gemini 3.8 Flash。计费按提供方标价纳入按量计费。可用范围包括 Copilot Pro、Pro+、Max、Business 和 Enterprise 用户，可在模型选择器中选用，覆盖 Visual Studio Code、Visual Studio、Copilot CLI、GitHub Copilot coding agent、Copilot 应用、github.com、iOS 与 Android 上的 GitHub Mobile、JetBrains IDE、Xcode、Eclipse 以及 Copilot SDK。官方提醒推送将分批进行，若模型选择器里尚未出现可稍后再看。Copilot Enterprise 与 Business 的管理员可通过 Copilot 设置中的模型策略管理访问；在默认启用新模型的前提下，除非管理员关闭了全局默认或单独关闭该模型，否则新模型会自动开启。",
+    "url": "https://github.blog/changelog/2026-11-13-gemini-4-hydrogen-in-github-copilot/",
+    "source": "GitHub",
+    "published_at": "2026-11-13T12:00:00+08:00",
+    "tags": [
+      "GitHub Copilot",
+      "Gemini 4 Hydrogen",
+      "编程助手",
+      "Google",
+      "模型上线"
+    ],
+    "image": "/assets/covers/cover-20261115-ai-17.jpg"
+  }
+]

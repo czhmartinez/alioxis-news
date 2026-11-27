@@ -1,0 +1,46 @@
+大V视野收集报告 — 2026-10-27（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用 2026-10-26 _v_raw_mcp.json 中已解析的 id → get_users_posts（exclude=replies, start_time=2026-10-25T20:00:00Z, max_results=25；@MaxForAI 40；@testingcatalog 50，返回 next_token 后翻 1 页，共 28 条）
+- 长文补全：get_posts_by_ids（17 个 id：卡兹克 X Article「手把手教你用 AI 逆向现实世界」全文、Max GPT-6.1 Terra note_tweet、小互 Anthropic IPO / Grok Bot 0.77 / Webhook 模板 / Claude 视频长帖、逸尘求问长帖，以及被引用的 @OpenAI Terra 发布、@CodexReleases 更新日志、@moritzkremb Grok Bot 模板、@turingou Yobiru Friends、@_lyraaaa_ evil qwen 配方、@cohere Qwen3.8-Flash-Next 报告，另 Max 三张配图帖）
+- 另用 curl 读取配图核实内容（Max 微信支付提示词注入截图、豆包「和豆姐合影」、DeepSeek 搜「黄果短剧」截图）
+- 未使用浏览器；未使用 user-X；本次共 8 次 X 读取（6 次 get_users_posts + 1 次翻页 + 1 次 get_posts_by_ids）
+
+入选：18 条
+各 handle 入选计数：
+  @Khazix0918: 2
+  @MaxForAI: 3（另将 Max「Codex 突然重置了」并入 Tibo 条）
+  @xiaohu: 4（Webhook 模板 + Yobiru Friends 合并；Claude 视频两帖合并；Anthropic IPO 主帖 + N 类股自回复合并）
+  @thsottiaux: 1（Day 22 Terra + Day 21 reset + ChatGPT 外观自定义三帖合并）
+  @testingcatalog: 7（Terra 官方数据与 Codex 可用性并入 Max 头条之后的 Terra 条；DevDay 柏林现场 10 帖合并为一条；ANT 代码 / S-1 9AM 两帖并入小互 IPO 条）
+  @gengdaJ: 1
+
+原始拉取条数摘要：
+  @Khazix0918: 2（「坦率的讲」口头禅长帖、X Article AI 逆向现实世界）
+  @MaxForAI: 7（GPT-6.1 Terra、RT @bojie_li 字节 Seed 组织问题、Codex 重置、evil qwen、DeepSeek 搜黄果短剧、微信支付写代码、豆包工作运营）
+  @xiaohu: 12（微软 6 万人自愿离职 + 原文自回复、Claude 视频两帖、Anthropic IPO + N 类股自回复、Fable 5.5 玩笑、三星电视隐私、Grok Bot Webhook 模板、Grok Bot 0.77、Yobiru Friends、RT @Xian0063 UI 审美）
+  @thsottiaux: 3（Day 22 Terra、ChatGPT 外观、Day 21 reset）
+  @testingcatalog: 28（GPT-6.1 Terra 发布/Benchmarks/Codex 可用性、Cohere×Qwen、Muse Live Avatar、Riverside Agents 2 帖、Eon 2 帖、Drex 2 帖、DevDay 柏林现场串 10 帖、Anthropic ANT/S-1 2 帖、Google Developer Program 额度 2 帖）
+  @gengdaJ: 2（求问 Grok Bot/Muse/Dot vs CC/Codex、Codex 找破解版）
+
+Lead：卡兹克长文：手把手教你用 AI 逆向现实世界——Codex 一口气改造公司 4 台会议室电视去广告，Claude 逆向补光灯做出「灯光音游」
+Lead URL：https://x.com/Khazix0918/status/2114579883527655853
+（卡兹克 X Article 实操长文，信息量与可复用性最高；GPT-6.1 Terra 是当日最大模型新闻，但大概率也是 AI新闻 页签头条，为避免两个页签同头条放第 1 条，采用 Max 的中文数字梳理并合并 TestingCatalog 官方数据。收尾时 data/2026-10-27/ai.json 已生成：头条为 Anthropic S-1，另含 GPT-6.1 Terra 条，与本页签无重复 URL，属同题不同视角）
+
+筛选说明：
+- 跳过非 AI / 弱 AI：小互「微软 6 万人自愿离职」（帖中未涉及 AI 原因）、小互「三星电视麦克风隐私」（固件逆向，非 AI）
+- 跳过玩笑/梗图：小互「Fable 5.5 预计 IPO 次日发布」（玩笑）、Max「豆包工作运营」（和豆姐合影头像推广吐槽）、Max「DeepSeek 搜黄果短剧」（成人向短剧检索截图）
+- 跳过转推无评论：Max RT @bojie_li、小互 RT @Xian0063
+- 跳过：逸尘「Codex 帮找破解版」（内容为寻找盗版软件，不宜收录）
+- 跳过碎片：TestingCatalog DevDay 现场串（已合并为一条）、Riverside/Eon/Drex 链接自回复（已并入主帖）
+- 与 2026-10-11～10-26 v.json 及 ai.json 去重（701 个 URL / 257 个 X status id）：入选 18 条无重复 URL
+- 连续话题说明：Codex 额度（10-26 Max 预告三点重置 → 今日 Tibo Day 21「today is a reset」实际重置）、Muse（10-26 语音通话/Avatar 分享 → 今日桌面 Live Avatar 窗口）、PHP2Shell（10-22 OpenAI Patch the Planet → 今日 Eon 数据韧性计划），均为新进展、新 URL
+- 三位优先账号：卡兹克 2、Max 3、小互 4
+
+输出文件：
+  data/2026-10-27/v.json
+  data/2026-10-27/_cover_prompts_v.json
+  data/2026-10-27/_v_raw_mcp.json
+  data/2026-10-27/_v_collect_report.txt
+
+未执行：build / 生图 / 发布

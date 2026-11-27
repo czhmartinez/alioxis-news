@@ -1,0 +1,32 @@
+大V视野收集报告 — 2026-11-14（Asia/Taipei）
+
+读取方式：公开 X 读取（namespace x）；未用浏览器、未用 user-X
+- 用户 id 复用：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-12T16:00:00Z（11-13 00:00 Asia/Taipei 起，至抓取约 32 小时），max_results=25；字段 note_post（返回仍出现 note_tweet 键，脚本两者兼容）
+- 原始条数：@Khazix0918 2 / @MaxForAI 4 / @xiaohu 7 / @thsottiaux 3 / @testingcatalog 25+17（第 1 页满 25，用 end_time=2026-11-12T23:13:07Z 补第 2 页 17 条，多为 11-13 已收或已跳过的 Hydrogen/Duet/Meetings/Box/Wave/Retell 等）/ @gengdaJ 0（窗口内无帖）
+- get_posts_by_ids 补长文一批 30 个 id（含卡兹克 X 长文 Article《黄仁勋辞职始末》全文、will depue 原帖、DeepSeek 官方帖、Google 官方帖等）；全部落盘到 _v_raw_mcp.json / _v_raw_fulltexts.json
+- 工具返回体会截断，改用 write_to_file + 完整文本文件解析；本次共 8 次 X 读取
+
+入选 v.json：16 条
+各 handle：{'@Khazix0918': 2, '@MaxForAI': 3, '@xiaohu': 2, '@thsottiaux': 1, '@testingcatalog': 8, '@gengdaJ': 0}
+头条：DeepSeek 发布「全家桶应用 API」：联网搜索、深度思考、文件解析、读链接、语音全部开放，OCR/ASR/TTS 可单独调用，并开源可导入历史对话的聊天前端（Max for AI）
+URL：https://x.com/MaxForAI/status/2121252121203167578
+（小互同题帖 2121264341236564386 并入头条一句带过，不单列；AIHOT 11-14 日报也收录了 DeepSeek 全家桶 API，若 AI新闻 收官方 changelog，大V视野 头条为 X 解读视角，URL 不冲突）
+
+跳过/说明：
+- 小互 2121064112956522596（11-13 日报）：英伟达、Anthropic 定价 70–78 美元、Gemini 4 Carbon、Gemini Robotics 2.5/GR00T 2、Claude 白板等均在 11-11～11-13 已收，且含私生活细节，不收
+- 小互 2121075980890743046（Claude Meetings）：11-13 v.json 已收同题；2121069166086295998（X 单帖 20 张图）非 AI，不收；2121083228924899472（API 计费坑）并入 H3-Image 条
+- 小互 H3-Image：11-11 ai/v 已收发布本身，本次只收「空房间+家具图」用法与 API 计费/许可注意事项这一新角度
+- Max 2120926926852489454（「我们能不能看到这一幕？」纯图片）无可核实文字，不收
+- 卡兹克长文仅收其对芯片出口、Megaspeed、BIS 调查、国会立法的梳理，婚外情等私生活细节不展开
+- thsottiaux 2120999993079451919（dots 更新）11-13 已收（URL 去重命中）；网络安全工具发布会并入 Codex 征集条一句带过（Daybreak 11-13 ai.json 已收）
+- TC 未收：Nace Drex for Finance（11-03 v.json 已收同产品）、Envato 免费 24 小时 MiniMax H3 视频（促销，信息量低）、ChatGPT Dots 欧盟上线（TC 自己更正为 glitch 误报）、Grok Bot 苹果应用单帖（并入简报补遗条）、Muse Spark 1.4 单帖（并入 Muse Chrome 扩展条）、各「Documented/Source/Plans page」跟帖
+- TC 第 2 页 17 条：Hydrogen rollout ×4、Duet、Meetings、Brush、Dots 自定义指令、Anthropic IPO、Retell、Box、Wave、智能眼镜等均为 11-13 已收或已合并，去重
+- TC 11/13 简报只写前一日未收录的新点；Antigravity Orchestrator（11-13 ai.json 已收）、Hydrogen 定价等不重复
+- URL 去重：对历史全部 v.json/ai.json（2297 个 URL）硬比对，入选 16 条 0 重复；收集时 11-14 ai.json 尚不存在，未比对
+- 观点/传闻标注：卡兹克长文（媒体报道转述+个人判断）、Max 辟谣联名信（标注为不实信息）、will depue 模型取证与 Max B300 价格（个人研究/个人说法，未经确认）、Muse Spark 1.4（TC 推测）、Reason 成本对比（厂商自述）、OpenAI 未发布网安模型 77%（转述）、欧拉讲题与 Sesame（个人体验）
+- 缺口：gengdaJ 窗口内 0 帖；卡兹克仅 2 帖；TC 占比偏高（8/16）；总数 16 条，处于 12–20 区间中段
+
+封面提示词：_cover_prompts_v.json（16 条，cover-20261114-v-00 ～ 15）
+未生成封面、未 build、未发布。
+完成时间：2026-11-14 08:12:06 Asia/Taipei

@@ -1,0 +1,1326 @@
+{
+ "fetched_at_taipei": "2026-11-12 08:30 Asia/Taipei",
+ "method": "get_posts_by_ids (note_post/article), 16 ids",
+ "result": {
+  "data": [
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2120474060371136512"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-11T11:09:56.000Z",
+    "edit_history_post_ids": [
+     "2120474100737130803"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/64DJhMR2x6",
+       "end": 152,
+       "expanded_url": "https://x.com/MaxForAI/status/2120474100737130803/video/1",
+       "media_key": "13_2120474060371136512",
+       "start": 129,
+       "url": "https://t.co/64DJhMR2x6"
+      }
+     ]
+    },
+    "id": "2120474100737130803",
+    "note_tweet": {
+     "text": "woc，这个Seedream 5.5真的有点东西啊🤯\n\n字节昨天发的Seedream 5.5，可能是我用过的第一个能够比较稳定地连续改图的国产图片模型。\n\n因为昨天看到Seedream 5.5发布之后，到处都在说它的多轮编辑能力有多强。\n\n我其实还不太信。\n毕竟之前很多图片模型都说自己能改，结果改着改着，人脸变了😅背景也变了。\n最后连原图是什么样都认不出来了。\n\n然后我就寻思拿老黄这两天最火的这张照片试试。\n第一轮，先把老黄旁边女生的粉色裙子换成牛仔套装\n第二轮，把前面那个挡住镜头的女生直接移掉\n第三轮，把Sam请到左边，让他鼓掌欢迎老黄\n第四轮，再把Dario到请右边，让两个人一起夹道鼓掌\n第五轮，觉得都穿黑衣服气氛不对，那都换点喜庆的衣服吧（Prompt原话\n第六轮，那都穿这么喜庆了，背景也换个地方吧🤣\n\n结果你猜怎么着？\n连续改了六轮，老黄和其他人的脸、人物站位、整个餐厅的背景居然基本都保持住了（除了比例\n\n尤其是移除人物和往照片里加人。\n这两步以前特别容易把整张图改崩，这次居然都接住了😮\n当然仔细看还是有一些瑕疵，但这个稳定性确实超出我的预期。\n\n而且这个模型还有个很夸张的地方，就是价格💰\nSeedream5.5这次API定价降了不少⬇️\n按照官方公布的信息，编辑一张2K方图只要0.28元左右。\n比上一代Seedream 5.0 Pro便宜了大约 60%（文本Token还不收费）\n\n我一直觉得生图发展这么久到现在生成一张好看的图片其实已经不稀奇了。\n\n真正麻烦的是改图🙄\n特别是你想改一个地方，它偏偏把其他地方也改了…..\n\n尤其是电商、广告、设计这些需要不断调整细节的场景\n能不能稳定地修改同一张图\n其实比单次生成效果更重要\n\n现在Seedream 5.5至少让我看到了国产模型在这件事上的明显进步！\n\n能连续修改，还能尽量保持原图不变，这个能力对实际使用来说真的太重要了！！！\n\n而这个价格确实很有竞争力"
+    },
+    "public_metrics": {
+     "bookmark_count": 11,
+     "impression_count": 6596,
+     "like_count": 41,
+     "quote_count": 0,
+     "reply_count": 15,
+     "repost_count": 0
+    },
+    "text": "woc，这个Seedream 5.5真的有点东西啊🤯\n\n字节昨天发的Seedream 5.5，可能是我用过的第一个能够比较稳定地连续改图的国产图片模型。\n\n因为昨天看到Seedream 5.5发布之后，到处都在说它的多轮编辑能力有多强。\n\n我其实还不太信。 https://t.co/64DJhMR2x6",
+    "url": "https://x.com/MaxForAI/status/2120474100737130803"
+   },
+   {
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-11T18:48:19.000Z",
+    "edit_history_post_ids": [
+     "2120589456529125614"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/jukan05/status…",
+       "end": 55,
+       "expanded_url": "https://twitter.com/jukan05/status/2120483370488750336",
+       "start": 32,
+       "url": "https://t.co/RJhYlaZgBS"
+      }
+     ]
+    },
+    "id": "2120589456529125614",
+    "public_metrics": {
+     "bookmark_count": 2,
+     "impression_count": 3240,
+     "like_count": 8,
+     "quote_count": 0,
+     "reply_count": 1,
+     "repost_count": 0
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120483370488750336",
+      "type": "quoted"
+     }
+    ],
+    "text": "什么？？为了训练整个Claude5.5家族花了100亿美元？？ https://t.co/RJhYlaZgBS",
+    "url": "https://x.com/MaxForAI/status/2120589456529125614"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120543333869301760"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-11T15:45:37.000Z",
+    "edit_history_post_ids": [
+     "2120543479550083273"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/zKh1oKPFcP",
+       "end": 73,
+       "expanded_url": "https://x.com/MaxForAI/status/2120543479550083273/photo/1",
+       "media_key": "3_2120543333869301760",
+       "start": 50,
+       "url": "https://t.co/zKh1oKPFcP"
+      }
+     ]
+    },
+    "id": "2120543479550083273",
+    "public_metrics": {
+     "bookmark_count": 11,
+     "impression_count": 17972,
+     "like_count": 79,
+     "quote_count": 2,
+     "reply_count": 10,
+     "repost_count": 0
+    },
+    "text": "真服了，一回家就看到腾讯混元的哥们在群里聊大裁员😭\n\n腾讯只是第一个，接下来向我们走来的是.... https://t.co/zKh1oKPFcP",
+    "url": "https://x.com/MaxForAI/status/2120543479550083273"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2120556399142780928"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-11T20:43:35.000Z",
+    "edit_history_post_ids": [
+     "2120618461646758191"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/8yv1LkJ7W7",
+       "end": 385,
+       "expanded_url": "https://x.com/antigravity/status/2120556423474028576/video/1",
+       "media_key": "13_2120556399142780928",
+       "start": 362,
+       "url": "https://t.co/8yv1LkJ7W7"
+      }
+     ]
+    },
+    "id": "2120618461646758191",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/antigravity/st…",
+        "end": 385,
+        "expanded_url": "https://x.com/antigravity/status/2120556423474028576/video/1",
+        "start": 362,
+        "url": "https://t.co/8yv1LkJ7W7"
+       }
+      ]
+     },
+     "text": "Google is rolling out Browser Use to all users in Antigravity. \n\nIt seems like Antigravity is now a consolidated \"Super app\" for Google. And this puts into question whether the Gemini desktop app will have any future. \n\nImo, I feel that Google should move all Gemini features directly into Antigravity at this point and ship agents there. \n\nJetsky all the way 👀 https://t.co/8yv1LkJ7W7"
+    },
+    "public_metrics": {
+     "bookmark_count": 40,
+     "impression_count": 9820,
+     "like_count": 187,
+     "quote_count": 4,
+     "reply_count": 35,
+     "repost_count": 8
+    },
+    "text": "Google is rolling out Browser Use to all users in Antigravity. \n\nIt seems like Antigravity is now a consolidated \"Super app\" for Google. And this puts into question whether the Gemini desktop app will have any future. \n\nImo, I feel that Google should move all Gemini features",
+    "url": "https://x.com/testingcatalog/status/2120618461646758191"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2120295511194533888"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-11T00:36:24.000Z",
+    "edit_history_post_ids": [
+     "2120314667369115933"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/ucJS7MjP6i",
+       "end": 378,
+       "expanded_url": "https://x.com/cursor_ai/status/2120295553309565139/video/1",
+       "media_key": "13_2120295511194533888",
+       "start": 355,
+       "url": "https://t.co/ucJS7MjP6i"
+      }
+     ]
+    },
+    "id": "2120314667369115933",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/cursor_ai/stat…",
+        "end": 378,
+        "expanded_url": "https://x.com/cursor_ai/status/2120295553309565139/video/1",
+        "start": 355,
+        "url": "https://t.co/ucJS7MjP6i"
+       }
+      ]
+     },
+     "text": "SPACEXAI 🔥: Cursor is getting a multiplayer mode where team members and their agents can work on a unified workspace. \n\nThe feature is built on top of the existing Projects.\n\nSeems like a day-one answer to the Antigravity/swarm feature, with a huge addition on top. \n\nBesides that, Claude and Perplexity are also working on similar multiplayer features.  https://t.co/ucJS7MjP6i"
+    },
+    "public_metrics": {
+     "bookmark_count": 22,
+     "impression_count": 10635,
+     "like_count": 130,
+     "quote_count": 2,
+     "reply_count": 31,
+     "repost_count": 13
+    },
+    "text": "SPACEXAI 🔥: Cursor is getting a multiplayer mode where team members and their agents can work on a unified workspace. \n\nThe feature is built on top of the existing Projects.\n\nSeems like a day-one answer to the Antigravity/swarm feature, with a huge addition on top. \n\nBesides",
+    "url": "https://x.com/testingcatalog/status/2120314667369115933"
+   },
+   {
+    "author_id": "3980735590",
+    "created_at": "2026-11-11T09:03:45.000Z",
+    "edit_history_post_ids": [
+     "2120442345044787636"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/testingcatalog…",
+       "end": 299,
+       "expanded_url": "https://twitter.com/testingcatalog/status/2120094172187103521",
+       "start": 276,
+       "url": "https://t.co/cavCFOTxlP"
+      }
+     ]
+    },
+    "id": "2120442345044787636",
+    "note_tweet": {
+     "text": "DAILY AI BRIEF 🗞 — Nov 11\n\nMODEL FORECAST 👀:\n- Gemini 4 Hydrogen (Flash), today!!!\n- GPT-6.2 Sol, this week? codexy\n- GPT-6.2 Astra, this week? codexy\n- Qwen4 Flash/Plus/27B, soon?\n- Grok 4.8, \"soft\" this week\n- Tencent Hy4 open weights and Flash, soon\n- Claude Fable 5.5 and Mythos 5.5, not soon?\n- DeepSeek V4.1 Pro, not soon?\n\nGOOGLE 🔥:\n- Gemini 4 Carbon is out for Ultra subscribers in the Gemini app, Antigravity, and AI Mode, and in the API at $2/$10 per 1M tokens.\n- Antigravity launched /swarm, which runs agents in parallel and has them coordinate on a shared message board.\n- Gemini Robotics 2.5 is here, hitting 96% accuracy sorting car parts with Apptronik's Apollo 2 at Mercedes-Benz.\n- Gemini for healthcare launched in preview, with read-only Epic and Oracle Health connectors.\n- Google is expanding its Adobe partnership to bring Adobe tools into Gemini, Workspace, and AI Mode.\n\nANTHROPIC 🔥:\n- Claude Whiteboards and Sheets are in beta, and Claude Dashboards is now generally available as Claude Data on all paid plans.\n- Claude Meetings, which joins Google Meet calls as a participant, is coming to Team and Enterprise in beta.\n- Pro, Max, Ultra, and Team users get one free full limit reset to use before December 10.\n- Anthropic launched its IPO roadshow, with a price range of $70 to $78 per share.\n\nOPENAI 🔥:\n- Businesses in ChatGPT is in beta, letting companies claim their profiles and build a Business Agent for customers.\n- ChatGPT Business plans now work in tools like Notion, v0, Warp, and opencode through Sign in with ChatGPT.\n- OpenAI acquired Odessia, an AI trip-planning and booking platform.\n- ChatGPT will retire Advanced and Standard Voice modes on December 11.\n- OpenAI will hold a Cyber at the Frontier keynote on November 12.\n\nSPACEXSI 🔥:\n- Grok 4.8 is in RL and expected to soft-launch to some Grok Bot users this week.\n- Cursor rebuilt Projects for multiplayer, so teammates and their agents share one workspace.\n- Gemini 4 Carbon is in Cursor and tops CursorBench at 60.4% on high effort.\n- Starlink Mini 2 is up for preorder with a quick-swap battery that lasts up to 4.5 hours.\n\nMETA 🔥:\n- Muse now has its own email address for paid subscribers in the US and Canada.\n- Muse can now book Uber Courier deliveries in chat.\n\nMICROSOFT 🔥:\n- Gemini 4 Carbon is generally available in GitHub Copilot.\n\nPERPLEXITY 🔥:\n- Gemini 4 Carbon is in Perplexity Computer and matches Claude Fable 5.2 on WANDR at 40% of the cost.\n\nALIBABA 🔥:\n- Qwen4-Max is in preview on Alibaba's Token Plan, QwenWork, Qoder, and the Qwen app.\n\nMINIMAX 🔥:\n- MiniMax H3-Image is a new open-weight model that makes 4K images in about 10 seconds.\n\nSTRIPE 🔥:\n- Stripe has completed its acquisition of OpenRouter.\n\nELEVENLABS 🔥:\n- ElevenLabs launched Scribe v3 and Scribe v3 Live, its most accurate speech-to-text models yet.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+    },
+    "public_metrics": {
+     "bookmark_count": 30,
+     "impression_count": 18523,
+     "like_count": 238,
+     "quote_count": 5,
+     "reply_count": 69,
+     "repost_count": 12
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120094172187103521",
+      "type": "quoted"
+     }
+    ],
+    "text": "DAILY AI BRIEF 🗞 — Nov 11\n\nMODEL FORECAST 👀:\n- Gemini 4 Hydrogen (Flash), today!!!\n- GPT-6.2 Sol, this week? codexy\n- GPT-6.2 Astra, this week? codexy\n- Qwen4 Flash/Plus/27B, soon?\n- Grok 4.8, \"soft\" this week\n- Tencent Hy4 open weights and Flash, soon\n- Claude Fable 5.5 and https://t.co/cavCFOTxlP",
+    "url": "https://x.com/testingcatalog/status/2120442345044787636"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2120489225036636161"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-11T12:53:19.000Z",
+    "edit_history_post_ids": [
+     "2120500117342175364"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/plB5jQc7R1",
+       "end": 203,
+       "expanded_url": "https://x.com/xiaohu/status/2120500117342175364/video/1",
+       "media_key": "13_2120489225036636161",
+       "start": 180,
+       "url": "https://t.co/plB5jQc7R1"
+      }
+     ]
+    },
+    "id": "2120500117342175364",
+    "note_tweet": {
+     "text": "百度今天发布了全新的文心5.5 Flash Preview 开源模型\n\n重点升级了编程和 Agent能力\n在编程、3D 建模上大幅提升\n\n可以用代码排镜头、卡音乐，调用渲染工具输出成片，也能用 Blender 做可编辑的3D 建模\n\nERNIE 5.5 Flash Preview 基于虚幻引擎 5.8 制作一款第三人称武侠游戏《云岫行》\n\n它连续狂写 11 个小时的代码，不仅融合了跨版本的复杂素材，还用 C++ 独立搞定核心逻辑\n\n试玩时，角色有时会悬空。模型把这类反馈变成能跑的测试，比如检查脚底离地多高\n\n最长支持 100 万 token 上下文，读过的文件、工具返回的结果、前几轮的修改记录都能留在同一次任务里\n\n文心似乎又活跃起来了，这周更新得挺快。5 日开源 Base，给开发者继续训练，9 日公布用 ERNIE Evolve 给模型提速的结果，11 日发布做过后训练的 Preview"
+    },
+    "public_metrics": {
+     "bookmark_count": 10,
+     "impression_count": 7774,
+     "like_count": 16,
+     "quote_count": 1,
+     "reply_count": 20,
+     "repost_count": 0
+    },
+    "text": "百度今天发布了全新的文心5.5 Flash Preview 开源模型\n\n重点升级了编程和 Agent能力\n在编程、3D 建模上大幅提升\n\n可以用代码排镜头、卡音乐，调用渲染工具输出成片，也能用 Blender 做可编辑的3D 建模\n\nERNIE 5.5 Flash Preview 基于虚幻引擎 5.8 制作一款第三人称武侠游戏《云岫行》\n\n它连续狂写 11 https://t.co/plB5jQc7R1",
+    "url": "https://x.com/xiaohu/status/2120500117342175364"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120499255874113537"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-11T12:53:23.000Z",
+    "edit_history_post_ids": [
+     "2120500133884555362"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/cc37Fskclz",
+       "end": 177,
+       "expanded_url": "https://x.com/xiaohu/status/2120500133884555362/photo/1",
+       "media_key": "3_2120499255874113537",
+       "start": 154,
+       "url": "https://t.co/cc37Fskclz"
+      }
+     ]
+    },
+    "id": "2120500133884555362",
+    "note_tweet": {
+     "text": "百度称，这是第一次用RSI技术给参与文心推理优化，工程师划好能改的范围，AI 自己找哪里慢、改代码、跑测试\n\n改完跑得更快，结果也对得上，才留下改动\n\n 看来RSI（递归自我改进）确实是下一个热门前沿方向...\n\n在昆仑芯 P800 的一项低延迟测试里，出字速度达到改之前的 6.24 倍\n\n另一项 GPU 测试里，输出保持一致，同样时间能多处理 33.7%..."
+    },
+    "public_metrics": {
+     "bookmark_count": 1,
+     "impression_count": 1333,
+     "like_count": 0,
+     "quote_count": 0,
+     "reply_count": 2,
+     "repost_count": 0
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120500131049205885",
+      "type": "replied_to"
+     }
+    ],
+    "text": "百度称，这是第一次用RSI技术给参与文心推理优化，工程师划好能改的范围，AI 自己找哪里慢、改代码、跑测试\n\n改完跑得更快，结果也对得上，才留下改动\n\n 看来RSI（递归自我改进）确实是下一个热门前沿方向...\n\n在昆仑芯 P800 的一项低延迟测试里，出字速度达到改之前的 6.24 倍\n\n另一项 GPU https://t.co/cc37Fskclz",
+    "url": "https://x.com/xiaohu/status/2120500133884555362"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120499132532244480"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-11T12:53:22.000Z",
+    "edit_history_post_ids": [
+     "2120500127718883706"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/mT09vTHE17",
+       "end": 158,
+       "expanded_url": "https://x.com/xiaohu/status/2120500127718883706/photo/1",
+       "media_key": "3_2120499132532244480",
+       "start": 135,
+       "url": "https://t.co/mT09vTHE17"
+      }
+     ]
+    },
+    "id": "2120500127718883706",
+    "public_metrics": {
+     "bookmark_count": 1,
+     "impression_count": 233,
+     "like_count": 0,
+     "quote_count": 0,
+     "reply_count": 1,
+     "repost_count": 0
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120500125244293566",
+      "type": "replied_to"
+     }
+    ],
+    "text": "技术创新： ERNIE 5.5 Flash Preview 是一个多路由 MoE模型。\n\n2800 亿参数，每个 token 只激活 140 亿，多个路由器一起选专家，同样的激活数量，选得更准\n\n采用混合稀疏注意力，多数层读压缩后的历史，少数层查细节，长上下文更省显存 https://t.co/mT09vTHE17",
+    "url": "https://x.com/xiaohu/status/2120500127718883706"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120488165224112128"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-11T12:53:20.000Z",
+    "edit_history_post_ids": [
+     "2120500119812608198"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/417O2RjUNY",
+       "end": 145,
+       "expanded_url": "https://x.com/xiaohu/status/2120500119812608198/photo/1",
+       "media_key": "3_2120488165224112128",
+       "start": 122,
+       "url": "https://t.co/417O2RjUNY"
+      }
+     ]
+    },
+    "id": "2120500119812608198",
+    "public_metrics": {
+     "bookmark_count": 0,
+     "impression_count": 1030,
+     "like_count": 0,
+     "quote_count": 0,
+     "reply_count": 1,
+     "repost_count": 0
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120500117342175364",
+      "type": "replied_to"
+     }
+    ],
+    "text": "百度称光编程训练就用了 1400 多万个可执行代码任务\n\n评测结果：终端任务的 Terminal-Bench 4.0 是 46.5，测代码修复的 DeepSWE v1.1 评分是 71.2，纯文本版BlenderWorld 是 79.0... https://t.co/417O2RjUNY",
+    "url": "https://x.com/xiaohu/status/2120500119812608198"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120659510310412288",
+      "3_2120659510327173120"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-11T23:31:05.000Z",
+    "edit_history_post_ids": [
+     "2120659519231672500",
+     "2120660617908674726"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/Wbqym8qGkR",
+       "end": 146,
+       "expanded_url": "https://x.com/xiaohu/status/2120660617908674726/photo/1",
+       "media_key": "3_2120659510310412288",
+       "start": 123,
+       "url": "https://t.co/Wbqym8qGkR"
+      },
+      {
+       "display_url": "pic.x.com/Wbqym8qGkR",
+       "end": 146,
+       "expanded_url": "https://x.com/xiaohu/status/2120660617908674726/photo/1",
+       "media_key": "3_2120659510327173120",
+       "start": 123,
+       "url": "https://t.co/Wbqym8qGkR"
+      }
+     ]
+    },
+    "id": "2120660617908674726",
+    "public_metrics": {
+     "bookmark_count": 1,
+     "impression_count": 3487,
+     "like_count": 3,
+     "quote_count": 0,
+     "reply_count": 5,
+     "repost_count": 0
+    },
+    "text": "消息称：英伟达董事会准备罢免CEO黄仁勋\n\n英伟达股价急速跳水\n\n暴跌8%😬\n\n起因是：黄仁勋第二段婚外情被曝光\n\n据纽约时报，除黄乐之外，黄仁勋还与一名向他汇报工作的高管、英伟达医疗保健副总裁（Kimberly Powell）维持婚外情关系… https://t.co/Wbqym8qGkR",
+    "url": "https://x.com/xiaohu/status/2120660617908674726"
+   },
+   {
+    "article": {
+     "cover_media": "3_2120366674113421312",
+     "entities": {
+      "mentions": [
+       {
+        "end": 17,
+        "start": 12,
+        "username": "Tech"
+       },
+       {
+        "end": 24,
+        "start": 17,
+        "username": "Jeremy"
+       },
+       {
+        "end": 14,
+        "start": 3,
+        "username": "camperaigg"
+       }
+      ],
+      "posts": [
+       {
+        "id": "2119879319426404780"
+       },
+       {
+        "id": "2119893834276507954"
+       },
+       {
+        "id": "2119874007382299087"
+       },
+       {
+        "id": "2119925633564463609"
+       }
+      ]
+     },
+     "media_entities": [
+      "3_2120365392824832000",
+      "7_2120365848586260480",
+      "3_2120365363401814016",
+      "7_2120365491730747392",
+      "3_2120365400454316032",
+      "3_2120365408159158272",
+      "3_2120365414459027456",
+      "7_2120365756231901184",
+      "7_2120365667845320705",
+      "7_2120365579773329408",
+      "7_2120365814838919168",
+      "3_2120365423661293568",
+      "3_2120365385140916224",
+      "7_2120365630117597185",
+      "3_2120365370641133568",
+      "7_2120365441390718976"
+     ],
+     "plain_text": "Claude Fable 5.2出来一天的时间了，然后，所有的社媒、社群都玩疯了。\n我的X的时间线，更是几乎全部都是Claude Fable 5.2。\n当然我知道你肯定会问今天凌晨Gemini 4 Carbon不是也正式上线了吗，跟Fable 5.2比怎么样，我自己确实也实测了，跑了不少的case。\n \n但是跟Claude Fable 5.2相比，我觉得还是缺了一个很重要的东西。\n那就是无法用任何Benchmark所评估、但是人人好像都能模糊感受到的东西。\n审美。\n我随手举两个对比的case，大家就能看出来了。\n这是昨天我用Claude Fable 5.2跑的给ChatGPT 4周年的庆生视频，相信很多人都看过了。\n \n节奏很棒、视觉更是严格按照我的Prompt，参考的OpenAI每一代模型的主视觉来的，这个GPT 4o的视觉就很典型，非常的漂亮。\n而这是Antigravity里的Gemini 4 carbon high跑出来的视频，我觉得无需任何言语，可以直接对比。\n \n坦率地讲，审美上比Gemini 4 Argon有进步了，如果不看Fable 5.2出的内容，我会觉得还可以，但是看完之后，有一种叹口气的感觉。\n还有我测Claude Fable 5.2的一个灯塔小渔港的Three.js的网页案例，我截取了静态帧，这对比就更加的直观了。\n \n而这，只是Claude Fable 5.2的冰山一角。\n我还想给大家看看，社区里，做出了一些什么离谱的东西。\n比如，被玩烂的鹈鹕骑车，@Tech Friend AJ用Fable 5.2做了一个3D版的，Fable 5.2写了4800行Python代码，调用Blender的API，在不操作图形界面的情况下，完成整个3D场景的创建、动画制作和渲染。。。\n \n除了离谱，我想不到任何可描述的话语，因为我自己其实之前的职业一直都是设计师，18年那会儿C4D非常流行，我自己做过很长一段时间的3D设计，我可以非常明确的说，就这个视频的建模、羽毛的细节、骨骼绑定、车的动画、还有打光、整体的光影拿捏，以及分镜的分寸，真的已经媲美5年以上的审美很强的全流程设计师了，注意我的用词，全流程设计师，且一定得审美很强，这是技术+审美叠加的双重结果。\n同样的，另一个更加离谱的Case，@Jeremy Berman用Fable 5.2直接写Python控制Blender，没有用到任何Computer Use，纯粹的代码能力做出来的视频。\n \n我看到的那一刻，我第一反应是以为这哥们拿了别的视频来反串的。\n不止3D建模的视频，甚至，耗时8个小时，手搓设计游戏。\n \n效果是这样的。\n \n有的时候真的自惭形愧，看看别人用模型做出来的作品，再看看我自己的...人和人之间的差距还是太大了。\n还有，@camperaigg用Three.js，2000行代码，耗时83分钟，做出来的动画视频。\n \n而在角色的动作表演上，审美也是强的离谱。\n \nClaude Fable 5.2的打斗是这样的。\n \n除了视频之外，也在用代码的审美，吞噬一切。\n比如，音乐。\n \n谁说大模型不能直接作曲呢？现在当然是比不过Suno，那...一年以后呢？\n \n当然，还有个最离谱的，是画画。。。\n没错，Claude Fable 5.2，直接写代码，来画画，这是最让我眩晕瘫坐的。\n \n注意，这里不是用Claude Fable 5.2调用图像模型生成，Claude在这件事里没用任何图像模型，也没有提前渲染或者描底，每一幅画，都是一个Python程序，大概一两千行代码，程序里有一个模拟出来的颜料引擎，有不同的刷毛，每一笔都要从这个引擎里走一遍，然后再落到画布上。\n你可以理解为，就是纯纯的用代码模拟画笔来画画。\n \n \n \n当然，这几张图还不是最离谱的。\n最离谱的是这张图。\n一张尽可能与现实无异的图片，这张图，Claude Fable 5.2画了70万笔。\n \n我想再次强调，这不是照片，这是Fable 5.2，自己用代码画了70万笔画出来的。\n如果你放大看，是完全能看到笔触的细节的。\n \n这张图我其实看了很久。\n人在震撼到一定程度的时候，会不知道说什么的。\n在纸上作画，一笔一笔的在画布上创作，好像从来都是人类的专属，即使在如今生图模型这么火的情况下，用画笔一笔一笔的画画，好像出来的匠心感，就是跟你直接用AI生成的不一样。\n很多人说，生图模型生成的画作，不能被称为画作，从哲学上，我部分认同。\n但是当模型也在完全跟人类一样，一笔一划的在它的画布上画出一张作品，那这个作品，能被称为作品吗？\n你相信我，这事要是放在几年前，我还在做设计师那会儿，我如果去跟同事们说，以后你可以直接用写代码的方式做VI、能画画、能渲染视频，你相信我，所有人都会觉得我是个煞笔。\n可现在，好像就是这样，大模型正在借助着代码，吞噬虚拟世界的一切。\n并且，吞到了好像跟代码毫无关系的地方，属于艺术的审美。\n很长一段时间里，大家心里都有一个默认的划分。\n代码是理科，是工科，是程序员的事；艺术是另一回事，是灵感，是感觉，是那些说不清道不明的东西。\n我还记得我上高中的时候，人生第一个重大选择就是文理分科。\n选了理科，你就去学数理化；选了文科，你就去背政史地；我是特殊一点的，是学美术的艺术生，走的是艺考。\n好像从十几岁开始，我们就被迫分进了不同的类别。\n大家也会天然的觉得，技术和艺术，在很多时候是对立的。\n但现在回过头去看，我越来越觉得，这种划分，其实是工业时代留下来的一种惯性。\n因为人的精力是有限的，学习一门技能的成本又实在太高了。\n所以我们只能分工。\n你负责写代码，我负责画图，他负责做动画，另一个人负责配乐，大家各自掌握一小块能力，然后通过协作，把一件完整的作品拼起来。\n这套体系，在过去几百年里，确实极大地提高了人类社会的生产效率。\n但最核心的问题就是，我们之所以需要这么精细的分工，到底是因为这些能力在本质上就属于不同的领域，还是因为人类学习这些能力的成本，实在太高了？\n在Claude Fable 5.2之后，答案不言自明。\n因为对于计算机来说，很多我们认为天差地别的事情，底层其实都可以被转化成同一种东西。\n代码。\n代码，就是数字世界里最接近通用语言的东西。\n而且代码还有一个很可怕的优势，它可以反复执行，可以无限修改，可以精确控制，甚至可以根据执行的结果，自己再去调整。\n你让一个设计师修改一万根羽毛的位置，他可能会觉得你有大病，但对于代码来说，一万根羽毛和十万根羽毛，本质上只是计算量的差别。\n当然，前提是你得知道，这十万根羽毛应该怎么排列，才会好看。\n而这，恰恰是过去AI最缺乏的东西。\n审美。\n虽然以Claude Fable 5.2为首的大模型的审美还远远谈不上完美，很多作品依然需要人类不断引导，但我相信不会再有任何人质疑，AI是否有审美这个事了。\n当大模型开始有了审美之后，它就可以用代码，吞噬万物。图片、视频、音乐等等等等，你觉得这些东西代码做不出来？有什么做不出来的，在数字世界里，这些东西就是代码本身。\n这些都只是格式，底层，全部都是代码。\n只要一件事情能够在计算机里被表达、被执行、被反馈，它就有可能成为AI能够完成的任务。那些能够被创造出来的东西，在未来，也几乎必然被AI所吞噬。\n想想也是挺讽刺的，去年，大模型画个SVG都费劲，那时候的鹈鹕骑车还是这个样子的。\n \n我们可能正在见证的，就是它终于开始吞噬那些，曾经被人类认为无法计算的东西。\n包括美。\n我不知道这算不算AGI。\n但是如果有一天，AGI真的出现了，我想我们回过头来看，可能会发现，它最初的形态，并没有我们想象得那么神秘。\n它可能就是一个模型，打开终端，写下一段代码。\n然后，开始创造世界。\n以上，既然看到这里了，如果觉得不错，随手点个赞、评论、转发三连吧，这对我们有特别大的帮助~\n谢谢你看我的文章，我们，下次再见。",
+     "preview_text": "Claude Fable 5.2出来一天的时间了，然后，所有的社媒、社群都玩疯了。\n我的X的时间线，更是几乎全部都是Claude Fable 5.2。\n当然我知道你肯定会问今天凌晨Gemini 4 Carbon不是也正式上线了吗，跟Fable",
+     "title": "Claude Fable 5.2证明了，AI可以靠代码吞噬一切。"
+    },
+    "article_title": {
+     "title": "Claude Fable 5.2证明了，AI可以靠代码吞噬一切。"
+    },
+    "author_id": "1492195583699951620",
+    "created_at": "2026-11-11T04:03:33.000Z",
+    "edit_history_post_ids": [
+     "2120366797459476668"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/i/article/2120…",
+       "end": 23,
+       "expanded_url": "https://x.com/i/article/2120365431286648832",
+       "start": 0,
+       "status": 404,
+       "unwound_url": "https://x.com/i/article/2120365431286648832",
+       "url": "https://t.co/rbyD3Ijt4N"
+      }
+     ]
+    },
+    "id": "2120366797459476668",
+    "public_metrics": {
+     "bookmark_count": 262,
+     "impression_count": 67277,
+     "like_count": 476,
+     "quote_count": 25,
+     "reply_count": 84,
+     "repost_count": 50
+    },
+    "text": "https://t.co/rbyD3Ijt4N",
+    "url": "https://x.com/Khazix0918/status/2120366797459476668"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120487106250428417"
+     ]
+    },
+    "author_id": "1897545708770840576",
+    "created_at": "2026-11-11T12:20:48.000Z",
+    "edit_history_post_ids": [
+     "2120487119672262867",
+     "2120487622091162033",
+     "2120491932917141711"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/SMAr7arK6Z",
+       "end": 136,
+       "expanded_url": "https://x.com/gengdaJ/status/2120491932917141711/photo/1",
+       "media_key": "3_2120487106250428417",
+       "start": 113,
+       "url": "https://t.co/SMAr7arK6Z"
+      }
+     ]
+    },
+    "id": "2120491932917141711",
+    "note_tweet": {
+     "text": "硬件大佬思路就是牛逼，微信自动化写入都能突破，给我吓坏了…\n\n采用了独立盒子单独装 Windows 系统，然后单独在里面放一个微信。实控主机用 OCR 技术识别，结合知识库生成回复，然后写入任何 App（微信只是举个例子）。\n\n现在是初步测试阶段（因为他之前没意识到可以操作微信），现在我也新注册了一个微信放到他那里搞。如果能成的话，私域的天就变了。微信是，WhatsApp 也是。\n\n我个人感觉技术上是能做到微信识别不了的，不知道有没有技术大佬斧正🤔\n\n而且大佬还有海外资源，claude code 也能跑啊！能把这台电脑放到迪拜，远程控制就行，然后把 KYC、支付全打通，只是他之前不了解 claude code 还能这么赚钱。。。\n\n我赶紧让他跑这个闭环，感觉 11 月 12 号政策收紧之后，这个需求会暴增。兄弟们觉得呢？我反正看到了一大堆钱。\n\n哦哦对了，如果有想要测试私域这个的，有资源的朋友可以私我，我可以让大佬给点主机名额给大家免费测试一下。"
+    },
+    "public_metrics": {
+     "bookmark_count": 74,
+     "impression_count": 12084,
+     "like_count": 55,
+     "quote_count": 0,
+     "reply_count": 21,
+     "repost_count": 3
+    },
+    "text": "硬件大佬思路就是牛逼，微信自动化写入都能突破，给我吓坏了…\n\n采用了独立盒子单独装 Windows 系统，然后单独在里面放一个微信。实控主机用 OCR 技术识别，结合知识库生成回复，然后写入任何 App（微信只是举个例子）。 https://t.co/SMAr7arK6Z",
+    "url": "https://x.com/gengdaJ/status/2120491932917141711"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120597153911279616"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-11T19:19:27.000Z",
+    "edit_history_post_ids": [
+     "2120597292159762821"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/I9MCjM7dvm",
+       "end": 246,
+       "expanded_url": "https://x.com/testingcatalog/status/2120597292159762821/photo/1",
+       "media_key": "3_2120597153911279616",
+       "start": 223,
+       "url": "https://t.co/I9MCjM7dvm"
+      },
+      {
+       "display_url": "x.com/SpaceXSI/statu…",
+       "end": 270,
+       "expanded_url": "https://twitter.com/SpaceXSI/status/2120584928983441826",
+       "start": 247,
+       "url": "https://t.co/CD44TY119G"
+      }
+     ]
+    },
+    "id": "2120597292159762821",
+    "public_metrics": {
+     "bookmark_count": 20,
+     "impression_count": 7949,
+     "like_count": 117,
+     "quote_count": 0,
+     "reply_count": 17,
+     "repost_count": 4
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120584928983441826",
+      "type": "quoted"
+     }
+    ],
+    "text": "SPACEXSI 🔥: The first stable version 1.0 of Grok Bot has been announced. \n\nIn addition to many improvements, Grok Bots can now join Slack and participate in video calls! \n\nLooks like I will have a daily stand-up tomorrow 👀 https://t.co/I9MCjM7dvm https://t.co/CD44TY119G",
+    "url": "https://x.com/testingcatalog/status/2120597292159762821"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120584420348350464"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-11T18:28:20.000Z",
+    "edit_history_post_ids": [
+     "2120584426211979756"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/3S2Prsp6GX",
+       "end": 302,
+       "expanded_url": "https://x.com/testingcatalog/status/2120584426211979756/photo/1",
+       "media_key": "3_2120584420348350464",
+       "start": 279,
+       "url": "https://t.co/3S2Prsp6GX"
+      },
+      {
+       "display_url": "x.com/sundarpichai/s…",
+       "end": 326,
+       "expanded_url": "https://twitter.com/sundarpichai/status/2120581155078729728",
+       "start": 303,
+       "url": "https://t.co/uANO4zafF8"
+      }
+     ]
+    },
+    "id": "2120584426211979756",
+    "note_tweet": {
+     "text": "GOOGLE 🔥: Gemini decision API, powered by a new Gemini-decision-1 model is now available!\n\n> “Get fast, calibrated decisions on up to 1000 questions at once across text, images, audio, video, and PDFs.”\n\nGemini Decision 1 is available on Google AI Studio and APIs. \n\nDecision time 👀"
+    },
+    "public_metrics": {
+     "bookmark_count": 22,
+     "impression_count": 8127,
+     "like_count": 112,
+     "quote_count": 1,
+     "reply_count": 10,
+     "repost_count": 6
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120581155078729728",
+      "type": "quoted"
+     }
+    ],
+    "text": "GOOGLE 🔥: Gemini decision API, powered by a new Gemini-decision-1 model is now available!\n\n&gt; “Get fast, calibrated decisions on up to 1000 questions at once across text, images, audio, video, and PDFs.”\n\nGemini Decision 1 is available on Google AI Studio and APIs. \n\nDecision https://t.co/3S2Prsp6GX https://t.co/uANO4zafF8",
+    "url": "https://x.com/testingcatalog/status/2120584426211979756"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120538352197697536",
+      "3_2120538352243945472"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-11T15:25:17.000Z",
+    "edit_history_post_ids": [
+     "2120538359122800736"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/T8woX0hHeG",
+       "end": 242,
+       "expanded_url": "https://x.com/testingcatalog/status/2120538359122800736/photo/1",
+       "media_key": "3_2120538352197697536",
+       "start": 219,
+       "url": "https://t.co/T8woX0hHeG"
+      },
+      {
+       "display_url": "pic.x.com/T8woX0hHeG",
+       "end": 242,
+       "expanded_url": "https://x.com/testingcatalog/status/2120538359122800736/photo/1",
+       "media_key": "3_2120538352243945472",
+       "start": 219,
+       "url": "https://t.co/T8woX0hHeG"
+      }
+     ]
+    },
+    "id": "2120538359122800736",
+    "public_metrics": {
+     "bookmark_count": 12,
+     "impression_count": 10044,
+     "like_count": 99,
+     "quote_count": 0,
+     "reply_count": 32,
+     "repost_count": 8
+    },
+    "text": "BYTEDANCE 🔥: According to Bloomberg, ByteDance is planning to release its own proactive AI agent in the coming weeks! \n\nBloomberg also reported that the company has plans to become a frontier lab by 2029. \n\nSeeBot? 👀👀👀 https://t.co/T8woX0hHeG",
+    "url": "https://x.com/testingcatalog/status/2120538359122800736"
+   }
+  ],
+  "includes": {
+   "media": [
+    {
+     "duration_ms": 10625,
+     "media_key": "13_2120474060371136512",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120474060371136512/img/E9EWlk-rJFXy5eau.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 1280000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120474060371136512/vid/avc1/720x720/QG1FaNz-peEpb2WO.mp4"
+      },
+      {
+       "bit_rate": 8768000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120474060371136512/vid/avc1/1024x1024/Q3aa5572vDZX892U.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120474060371136512/vid/avc1/540x540/PS_U-EtRl7_Ca-JR.mp4"
+      },
+      {
+       "bit_rate": 432000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120474060371136512/vid/avc1/320x320/CFkJbgq1RJB14smO.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120474060371136512/pl/oS6x6f2Zvj3yFL5D.m3u8"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120543333869301760",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW2u7VIaMAASeEf.png"
+    },
+    {
+     "duration_ms": 21266,
+     "media_key": "13_2120556399142780928",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120556399142780928/img/Rv_YRA6zlem_f8x2.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120556399142780928/vid/avc1/1920x1080/fyfbBwMTax24TksR.mp4?tag=16"
+      },
+      {
+       "bit_rate": 288000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120556399142780928/vid/avc1/480x270/tgLqjUuIl8RIFJIi.mp4?tag=16"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120556399142780928/pl/0uquyRjmT_ja0IPu.m3u8?tag=16&v=cfc"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120556399142780928/vid/avc1/640x360/1hUkBcEm-2guFIBq.mp4?tag=16"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120556399142780928/vid/avc1/1280x720/ITv855pWLRSGnHDQ.mp4?tag=16"
+      }
+     ]
+    },
+    {
+     "duration_ms": 20516,
+     "media_key": "13_2120295511194533888",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120295511194533888/img/aAr3DgNohNgiXjSB.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 288000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120295511194533888/vid/avc1/480x270/mvd1S4yAd2KBc-KY.mp4?tag=16"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120295511194533888/vid/avc1/1920x1080/Hm8YoyKwJ0mf1OWC.mp4?tag=16"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120295511194533888/pl/OOqOY53P-52cyBnh.m3u8?tag=16&v=cfc"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120295511194533888/vid/avc1/1280x720/CmCJAKd0YZeOuNnM.mp4?tag=16"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120295511194533888/vid/avc1/640x360/6a6XO5wTaOyMiemy.mp4?tag=16"
+      }
+     ]
+    },
+    {
+     "duration_ms": 61113,
+     "media_key": "13_2120489225036636161",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120489225036636161/img/1xR7SnhKoSYcoULE.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120489225036636161/vid/avc1/480x270/MvAFQZdFs2quO_fp.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120489225036636161/pl/pV8QqxJKbksO3yhQ.m3u8?v=cfc"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120489225036636161/vid/avc1/1280x720/Rr8Mjadv42JIcnyo.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120489225036636161/vid/avc1/640x360/E0Cn4eR0q2zce1O8.mp4"
+      },
+      {
+       "bit_rate": 25128000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120489225036636161/vid/avc1/3840x2160/Zq90CEfS7CbkWYgm.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120489225036636161/vid/avc1/1920x1080/RQdZMqnbG8tRE8pm.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120499586183974913",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW2HI4Tb0AEGgOf.jpg"
+    },
+    {
+     "media_key": "3_2120499255874113537",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW2G1pzbUAEXAUd.jpg"
+    },
+    {
+     "duration_ms": 52000,
+     "media_key": "13_2120491030906818561",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120491030906818561/img/kIh3u2c6E8Q7AsxG.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120491030906818561/vid/avc1/1920x1080/qlgWLqY5sdybC3XN.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120491030906818561/vid/avc1/640x360/cVSt2MAFxXUVUgDU.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120491030906818561/pl/5z6ja3TlAGln0mJN.m3u8"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120491030906818561/vid/avc1/480x270/ixmIYiDhLVC1yuzj.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120491030906818561/vid/avc1/1280x720/CdAU_XaMNhW1kGHY.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120499132532244480",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW2GueUbwAAfeZw.jpg"
+    },
+    {
+     "media_key": "3_2120488165224112128",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW18wF6aYAATu_Z.jpg"
+    },
+    {
+     "media_key": "3_2120659510310412288",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW4YlsGbIAAXFf9.jpg"
+    },
+    {
+     "media_key": "3_2120659510327173120",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW4YlsKa4AAMdUN.jpg"
+    },
+    {
+     "media_key": "3_2120487106250428417",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW17yc7aUAE43So.jpg"
+    },
+    {
+     "duration_ms": 79100,
+     "media_key": "13_2120584648887603200",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120584648887603200/img/7fJTC0_ehG0tmNNk.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120584648887603200/pl/GPmje6lPrwO1b-fk.m3u8"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/640x360/qAYhrsRHzNpTrI47.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/480x270/pdql7MHxbgju_kFS.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/1280x720/bT2zmCAI9Tbcjnxt.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120584648887603200/vid/avc1/1920x1080/_5-Mr3wCmHhH2dyV.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120597153911279616",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW3f4EaWEAASeYI.jpg"
+    },
+    {
+     "duration_ms": 13028,
+     "media_key": "13_2120574108635455488",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120574108635455488/img/oulKz9YqtupyRljq.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120574108635455488/vid/avc1/448x270/6TJzl-Yj_V93fweS.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120574108635455488/pl/4vVa9A8xa7V23vHj.m3u8"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120574108635455488/vid/avc1/1198x720/zyPBiAeZAi0I7Z3M.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120574108635455488/vid/avc1/598x360/euuAyQwnQNcCC9d3.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120574108635455488/vid/avc1/1798x1080/SNR8gkld9RnhwiUk.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120584420348350464",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW3US4MXUAA7MnR.jpg"
+    },
+    {
+     "media_key": "3_2120538352197697536",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW2qZW9WAAAdtDS.jpg"
+    },
+    {
+     "media_key": "3_2120538352243945472",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW2qZXIXsAAecA2.jpg"
+    }
+   ],
+   "posts": [
+    {
+     "author_id": "1836240683268759552",
+     "created_at": "2026-11-11T11:46:46.000Z",
+     "edit_history_post_ids": [
+      "2120483370488750336"
+     ],
+     "id": "2120483370488750336",
+     "note_tweet": {
+      "text": "Interesting remarks Anthropic made in a meeting with the sell side:\n\n- Anthropic has the stability and the better talent that open source lacks.\n\n- The AI market is winner take all. As long as we execute properly, we will take all of it.\n\n- The contract with SpaceX will not be extended beyond the middle of next year.\n\n- Developing Opus 5.5 cost more than $10 billion."
+     },
+     "public_metrics": {
+      "bookmark_count": 784,
+      "impression_count": 745791,
+      "like_count": 2687,
+      "quote_count": 141,
+      "reply_count": 213,
+      "repost_count": 174
+     },
+     "text": "Interesting remarks Anthropic made in a meeting with the sell side:\n\n- Anthropic has the stability and the better talent that open source lacks.\n\n- The AI market is winner take all. As long as we execute properly, we will take all of it.\n\n- The contract with SpaceX will not be"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-10T10:00:14.000Z",
+     "edit_history_post_ids": [
+      "2120094172187103521"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/testingcatalog…",
+        "end": 300,
+        "expanded_url": "https://twitter.com/testingcatalog/status/2118999078717575288",
+        "start": 277,
+        "url": "https://t.co/5Vibi43OUc"
+       }
+      ]
+     },
+     "id": "2120094172187103521",
+     "note_tweet": {
+      "text": "DAILY AI BRIEF 🗞 — Nov 10\n\nMODEL FORECAST 👀:\n- Gemini 4 Carbon, today!!!\n- Gemini 4 Hydrogen (Flash), today?\n- GPT-6.2 Sol, this week?\n- GPT-6.2 Astra, this week?\n- Inkling 2 Small open weights, soon\n- Qwen4 Max/Flash/Plus/27B, this week?\n- Tencent Hy4 open weights and Flash, soon?\n- Grok 4.8, not soon?\n- Claude Fable 5.5 and Mythos 5.5, not soon?\n- DeepSeek V4.1 Pro, not soon?\n\nANTHROPIC 🔥:\n- Claude Fable 5.2 and Mythos 5.2 are out, about 30% faster and 20% cheaper than 5.1, with Mythos limited to vetted organizations.\n- Fable 5.2 tops the Artificial Analysis Intelligence Index at 65 (via ArtificialAnlys).\n- Ultra and Team Premium users get 1 to 3 Fable resets based on tenure, and Pro gets a week of Fable at up to half its weekly limit.\n- Anthropic is reportedly targeting $70 to $80 a share in a Nasdaq IPO under ANT, raising up to $69B.\n\nOPENAI 🔥:\n- Dots can now connect to multiple local computers and pick which one runs each task.\n- ChatGPT Enterprise, with ChatGPT Work, Codex, and dots, is now on AWS Marketplace.\n- The Agents API added a 12-hour prompt cache, async functions, and per-session budget control in beta (via AzianMike).\n\nGOOGLE 🔥:\n- Gemini 4 Carbon appeared in the GCP SKU catalog and Gemini web app config, and its slug already answers on Vertex AI (via AiBattle_).\n- Logan Kilpatrick teased the release by tweeting just \"Gemini\".\n- Google announced TPU 8tx for training and TPU 8i Max for long-context inference.\n- AI Studio can now build Google Maps Platform apps from a prompt, with 3D, Street View, weather, and routing.\n- Antigravity launched a Knowledge Work layout for research, writing, and artifacts without the terminal and git clutter.\n- Varun Mohan teased more Antigravity releases this week.\n- Gemini is rolling out Memory Summary to view and edit what it remembers about you (via SaadhJawwadh).\n\nMETA 🔥:\n- Muse Ember, Meta's smallest and cheapest model at $0.10/$0.50 per 1M tokens, is live on the Meta Model API and Muse Code.\n- Muse Wonder, Muse Spark 1.3, and Muse Ember are in public preview on Google Cloud.\n- Muse is now on Apple Watch and Wear OS.\n- Meta is preparing to release Muse in the UK.\n\nSPACEXSI 🔥:\n- Grok Bot weekly limits were reset for all users.\n- Grok Bot can now reach private MCP servers on your tailnet via Tailscale.\n- Grok Bot texting is getting closer, linking your number or Apple ID over iMessage only (via alexmichael).\n- Claude Fable 5.2 is in Cursor and tops CursorBench at 60% on max effort.\n- X launched Clipping on iOS and Android, with earnings shared between creator and clipper.\n\nMICROSOFT 🔥:\n- Claude Fable 5.2 is generally available in GitHub Copilot.\n\nPERPLEXITY 🔥:\n- Claude Fable 5.2 is in Perplexity Computer for Pro and Max, and in Search for Max.\n\nNVIDIA 🔥:\n- NVIDIA unveiled GR00T 2, an open-world action model for dexterous robots, plus Isaac Lab 3.0 at CoRL.\n\nBYTEDANCE 🔥:\n- Seedream 5.5 is rolling out on Dreamina, CapCut, and BytePlus.\n\nMEITUAN 🔥:\n- LongCat-2.5 weights, a 1.6T-parameter multimodal agentic model, are out under MIT on Hugging Face.\n\nELEVENLABS 🔥:\n- ElevenAgents Campaign Manager runs outbound campaigns over phone and WhatsApp, following up with each contact until it hits a goal.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.\n** It feels a bit too much for Monday 💀"
+     },
+     "public_metrics": {
+      "bookmark_count": 57,
+      "impression_count": 40423,
+      "like_count": 355,
+      "quote_count": 5,
+      "reply_count": 78,
+      "repost_count": 18
+     },
+     "referenced_tweets": [
+      {
+       "id": "2118999078717575288",
+       "type": "quoted"
+      }
+     ],
+     "text": "DAILY AI BRIEF 🗞 — Nov 10\n\nMODEL FORECAST 👀:\n- Gemini 4 Carbon, today!!!\n- Gemini 4 Hydrogen (Flash), today?\n- GPT-6.2 Sol, this week?\n- GPT-6.2 Astra, this week?\n- Inkling 2 Small open weights, soon\n- Qwen4 Max/Flash/Plus/27B, this week?\n- Tencent Hy4 open weights and Flash, https://t.co/5Vibi43OUc"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120499586183974913"
+      ]
+     },
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-11T12:53:22.000Z",
+     "edit_history_post_ids": [
+      "2120500131049205885"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/uoUcu34rFD",
+        "end": 171,
+        "expanded_url": "https://x.com/xiaohu/status/2120500131049205885/photo/1",
+        "media_key": "3_2120499586183974913",
+        "start": 148,
+        "url": "https://t.co/uoUcu34rFD"
+       }
+      ]
+     },
+     "id": "2120500131049205885",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 214,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "repost_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120500127718883706",
+       "type": "replied_to"
+      }
+     ],
+     "text": "ECHO 是百度设计的一种多 token 预测方法\n\n复用模型最后一层预测后续 token，一次验证通过就能输出多个\n\n什么意思，训练时，百度让模型用自己的最后一层练习预测接下来的几个字词，生成答案时，这一层就能先打个草稿，再由完整模型一次核对\n\n连续猜对几个，就能一轮输出几个，出字也就更快了 https://t.co/uoUcu34rFD"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120491030906818561"
+      ]
+     },
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-11T12:53:21.000Z",
+     "edit_history_post_ids": [
+      "2120500125244293566"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/XNCHUNxcfW",
+        "end": 196,
+        "expanded_url": "https://x.com/xiaohu/status/2120500125244293566/video/1",
+        "media_key": "13_2120491030906818561",
+        "start": 173,
+        "url": "https://t.co/XNCHUNxcfW"
+       }
+      ]
+     },
+     "id": "2120500125244293566",
+     "note_tweet": {
+      "text": "使用 Blender 制作机场与飞机模型\n\n两个基于 ERNIE 5.5 Flash Preview 的智能体使用 Blender Python API，分别负责机场和飞机建模\n\n一个查地图，在 Blender 里搭航站楼和跑道。另一个做机身和机翼，再装上现成的驾驶舱、客舱素材\n\n随后，模型统一两个工程的尺度、位置与镜头，编排动画展示，并使用 Cycles／OptiX GPU 分帧渲染和 FFmpeg 合成视频...\n\n两边各做各的，最后还得统一尺寸和坐标，飞机放进机场时比例才对，还是有点强的"
+     },
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 277,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "repost_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120500122660594070",
+       "type": "replied_to"
+      }
+     ],
+     "text": "使用 Blender 制作机场与飞机模型\n\n两个基于 ERNIE 5.5 Flash Preview 的智能体使用 Blender Python API，分别负责机场和飞机建模\n\n一个查地图，在 Blender 里搭航站楼和跑道。另一个做机身和机翼，再装上现成的驾驶舱、客舱素材\n\n随后，模型统一两个工程的尺度、位置与镜头，编排动画展示，并使用 https://t.co/XNCHUNxcfW"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120489225036636161"
+      ]
+     },
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-11T12:53:19.000Z",
+     "edit_history_post_ids": [
+      "2120500117342175364"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/plB5jQc7R1",
+        "end": 203,
+        "expanded_url": "https://x.com/xiaohu/status/2120500117342175364/video/1",
+        "media_key": "13_2120489225036636161",
+        "start": 180,
+        "url": "https://t.co/plB5jQc7R1"
+       }
+      ]
+     },
+     "id": "2120500117342175364",
+     "note_tweet": {
+      "text": "百度今天发布了全新的文心5.5 Flash Preview 开源模型\n\n重点升级了编程和 Agent能力\n在编程、3D 建模上大幅提升\n\n可以用代码排镜头、卡音乐，调用渲染工具输出成片，也能用 Blender 做可编辑的3D 建模\n\nERNIE 5.5 Flash Preview 基于虚幻引擎 5.8 制作一款第三人称武侠游戏《云岫行》\n\n它连续狂写 11 个小时的代码，不仅融合了跨版本的复杂素材，还用 C++ 独立搞定核心逻辑\n\n试玩时，角色有时会悬空。模型把这类反馈变成能跑的测试，比如检查脚底离地多高\n\n最长支持 100 万 token 上下文，读过的文件、工具返回的结果、前几轮的修改记录都能留在同一次任务里\n\n文心似乎又活跃起来了，这周更新得挺快。5 日开源 Base，给开发者继续训练，9 日公布用 ERNIE Evolve 给模型提速的结果，11 日发布做过后训练的 Preview"
+     },
+     "public_metrics": {
+      "bookmark_count": 10,
+      "impression_count": 7774,
+      "like_count": 16,
+      "quote_count": 1,
+      "reply_count": 20,
+      "repost_count": 0
+     },
+     "text": "百度今天发布了全新的文心5.5 Flash Preview 开源模型\n\n重点升级了编程和 Agent能力\n在编程、3D 建模上大幅提升\n\n可以用代码排镜头、卡音乐，调用渲染工具输出成片，也能用 Blender 做可编辑的3D 建模\n\nERNIE 5.5 Flash Preview 基于虚幻引擎 5.8 制作一款第三人称武侠游戏《云岫行》\n\n它连续狂写 11 https://t.co/plB5jQc7R1"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120584648887603200"
+      ]
+     },
+     "author_id": "1661523610111193088",
+     "created_at": "2026-11-11T18:30:20.000Z",
+     "edit_history_post_ids": [
+      "2120584928983441826"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/gmxan7jupQ",
+        "end": 119,
+        "expanded_url": "https://x.com/SpaceXSI/status/2120584928983441826/video/1",
+        "media_key": "13_2120584648887603200",
+        "start": 96,
+        "url": "https://t.co/gmxan7jupQ"
+       }
+      ]
+     },
+     "id": "2120584928983441826",
+     "public_metrics": {
+      "bookmark_count": 659,
+      "impression_count": 965062,
+      "like_count": 4684,
+      "quote_count": 122,
+      "reply_count": 207,
+      "repost_count": 410
+     },
+     "text": "Introducing Grok Bot 1.0.\n\nBots can be shared and are more collaborative and capable than ever. https://t.co/gmxan7jupQ"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120574108635455488"
+      ]
+     },
+     "author_id": "14130366",
+     "created_at": "2026-11-11T18:15:20.000Z",
+     "edit_history_post_ids": [
+      "2120581155078729728"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 109,
+        "id": "1742923424056713217",
+        "start": 94,
+        "username": "GoogleAIStudio"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "pic.x.com/7itBuv7Eu2",
+        "end": 303,
+        "expanded_url": "https://x.com/sundarpichai/status/2120581155078729728/video/1",
+        "media_key": "13_2120574108635455488",
+        "start": 280,
+        "url": "https://t.co/7itBuv7Eu2"
+       }
+      ]
+     },
+     "id": "2120581155078729728",
+     "note_tweet": {
+      "entities": {
+       "mentions": [
+        {
+         "end": 109,
+         "id": "1742923424056713217",
+         "start": 94,
+         "username": "GoogleAIStudio"
+        }
+       ]
+      },
+      "text": "Today we’re launching the Gemini Decisions API, powered by our new Gemini Decision 1 model in @GoogleAIStudio.\n\nInstead of generating text token by token, it’s built for closed-set choices scoring up to 1,000 questions across text, images, audio, video + PDFs in a single pass. A few details:\n\n- 3 decision types: yes/no, multiple choice (up to 255 options) + rubric scoring\n- $0.10 / 1M input tokens with $0 billed for output tokens (~5x cheaper than Flash-Lite)\n- leads on several benchmark evals with lowest calibration error\n\nGoogle teams are already building with it, below is a look at Stitch Rapid designing a full product flow in seconds (1x speed)"
+     },
+     "public_metrics": {
+      "bookmark_count": 1637,
+      "impression_count": 386619,
+      "like_count": 4683,
+      "quote_count": 215,
+      "reply_count": 286,
+      "repost_count": 364
+     },
+     "text": "Today we’re launching the Gemini Decisions API, powered by our new Gemini Decision 1 model in @GoogleAIStudio.\n\nInstead of generating text token by token, it’s built for closed-set choices scoring up to 1,000 questions across text, images, audio, video + PDFs in a single pass. A https://t.co/7itBuv7Eu2"
+    }
+   ],
+   "users": [
+    {
+     "id": "1699797396589588480",
+     "name": "Max For AI",
+     "username": "MaxForAI"
+    },
+    {
+     "id": "3980735590",
+     "name": "🚨 AI News | TestingCatalog",
+     "username": "testingcatalog"
+    },
+    {
+     "id": "1764818331822182400",
+     "name": "小互",
+     "username": "xiaohu"
+    },
+    {
+     "id": "1492195583699951620",
+     "name": "数字生命卡兹克",
+     "username": "Khazix0918"
+    },
+    {
+     "id": "1897545708770840576",
+     "name": "逸尘",
+     "username": "gengdaJ"
+    }
+   ]
+  },
+  "meta": {
+   "result_count": 16
+  }
+ }
+}

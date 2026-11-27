@@ -1,0 +1,314 @@
+[
+ {
+  "title": "Claude 给 123 个开源库写出汇编级「不会崩溃」证明：Anthropic 联手 Theorem 生成约 1.8 亿行 Rocq，顺手挖出多年漏网 bug",
+  "summary": "Anthropic 与形式化验证公司 Theorem 合作，让 Claude 把 OSS-Fuzz 模糊测试自动转成规格，在数周内对 123 个开源库的 239 个入口点证明：任意 64MB 以内输入、任意建模的 Linux 系统响应下，编译后的 RISC-V 二进制都不会触发内存安全错误或断言失败。证明总计约 1.8 亿行 Rocq（单个常约 60 万行，覆盖中位 1.8 万条指令的二进制），只需信任 Rocq 校验器与 RISC-V/Linux 语义模型，无需人工逐行审。过程中 Claude 发现并修补数百个 bug，包括只在约 20MB 特定输入下触发的解压器越界写、需 64MB 输入+2GB 内存的图像解码越界读，并复现 libexpat CVE；另证明 Linux 内核 zlib 的 x86 二进制符合 RFC 1950。Anthropic 将公开可信组件与部分完整证明，称形式化验证将成安全开发标配。",
+  "url": "https://www.anthropic.com/research/formal-verification",
+  "source": "Anthropic",
+  "image": "/assets/covers/cover-20261023-ai-00.jpg",
+  "published_at": "2026-10-22T12:00:00+08:00",
+  "tags": [
+   "Anthropic",
+   "Claude",
+   "形式化验证",
+   "Rocq",
+   "开源安全",
+   "研究"
+  ]
+ },
+ {
+  "title": "微软 MAI-DxO 诊断系统登《Science》：多智能体「医生会诊」在 NEJM 疑难病例上准确率 83%，对照医生 36%，成本还更低",
+  "summary": "Microsoft AI 在《Science》发表论文，推出逐步诊断基准 SDBench 与诊断编排系统 MAI-DxO：多个 AI 智能体扮演会诊专家组，轮流问诊、开检查、辩论诊断。在 NEJM 疑难病例模拟中 MAI-DxO 正确率 83%，而单独查资料的全科/内科医生为 36%（未与专科团队对比）；在 MIMIC-IV-ED 急诊常见病例上准确率为医生的 1.7 倍，且所需检查更少、成本降至一半到三分之一。测试覆盖 OpenAI、Google、Anthropic、Meta、DeepSeek 模型，最佳成绩来自 GPT-5/GPT-5.5；TechCrunch 指出提升主要来自底层模型变强，编排层再叠加增益。Suleyman 称这是迈向「医疗超级智能」的一步。",
+  "url": "https://microsoft.ai/news/building-medical-superintelligence/",
+  "source": "Microsoft AI",
+  "image": "/assets/covers/cover-20261023-ai-01.jpg",
+  "published_at": "2026-10-23T02:01:00+08:00",
+  "tags": [
+   "Microsoft",
+   "MAI-DxO",
+   "医疗AI",
+   "多智能体",
+   "Science",
+   "基准"
+  ]
+ },
+ {
+  "title": "微软披露国家级黑客用 AI 渗透智能体 ARTEX 批量入侵：ConnectWise 云备份被攻破，约 2250 家机构遭每分钟近 3000 次登录冲击",
+  "summary": "微软安全团队称，中国国家关联组织 Storm-0940 最早自 9 月起用开源自主渗透框架 ARTEX 自动化攻击全球数百家机构，多起从选定目标到拿下云端特权访问不到 3 小时，并判定其为近期 ConnectWise 多租户应用供应链事件的幕后者：攻击者窃取 ConnectWise 云备份服务的应用凭据，以「已授权应用」身份免交互登录客户的 Microsoft 365 环境读取邮件文件。TechCrunch 援引微软称，AI 智能体以近每分钟 3000 次登录尝试冲击约 2250 家组织，留给防守方的响应时间极短；ConnectWise 已暂停云备份访问。Wiz 同日披露同一 ARTEX 使用者正扩大到 Okta/Entra/Cognito 身份系统与更多软件厂商的供应链尝试。",
+  "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+  "source": "Microsoft Security",
+  "image": "/assets/covers/cover-20261023-ai-02.jpg",
+  "published_at": "2026-10-22T02:23:55+08:00",
+  "tags": [
+   "Microsoft",
+   "ARTEX",
+   "Storm-0940",
+   "供应链攻击",
+   "AI智能体",
+   "网络安全"
+  ]
+ },
+ {
+  "title": "OpenAI Decisions API 结束公测全面开放：一次可问 400 个问题、接入 GPT-Live 语音，输入 $0.10/百万 token、输出免费",
+  "summary": "OpenAI 宣布基于 GPT-6 Luna 的 Decisions API 正式 GA：专答「有界答案」问题，返回概率（predicate）、选项（choice）或评分（score）三类结果，比经 Responses API 调用 Luna 快最高 10 倍。相比公测新增：原生 GPT-Live 集成（语音对话中实时决定追问、转接或头像表情）、提示缓存、美/欧推理驻留、原生 JSON 与图片输入，单请求问题上限翻倍至 400 个，亚洲多区扩容。定价输入 $0.10/百万 token、缓存 $0.01，不收输出费。客户数据：Datadog 风险打分 p95 快 40 倍、Ramp 成本归因快 4 倍省 30%、Sierra p95<280ms 成本降 90%、Speak 响应 1.4s→0.13s。TechCrunch 称此举直指 TypeSafe 的 Jev 等「System One」决策模型赛道。",
+  "url": "https://openai.com/index/decisions-api",
+  "source": "OpenAI",
+  "image": "/assets/covers/cover-20261023-ai-03.jpg",
+  "published_at": "2026-10-23T03:00:00+08:00",
+  "tags": [
+   "OpenAI",
+   "Decisions API",
+   "GPT-6 Luna",
+   "GPT-Live",
+   "API",
+   "决策模型"
+  ]
+ },
+ {
+  "title": "OpenAI 被曝洽谈 300 亿美元新融资、投前估值 1.25 万亿美元：Coatue 与阿联酋资金领投，或绑定算力合作",
+  "summary": "据 CNBC（TechCrunch 转述），OpenAI 正在敲定一轮最高 300 亿美元的私募融资，投前估值 1.25 万亿美元，由 Coatue 与阿联酋投资方领投，阿联酋资金可能与额外算力供给协议捆绑；一个月前彭博报道的版本为 1.4 万亿美元估值，条款仍在谈、可能变动，OpenAI 拒绝置评。若成，将刷新私营公司估值纪录，也抬高其 IPO 门槛——OpenAI 6 月已秘密递交 IPO 文件，3 月上一轮投后估值 8520 亿美元。同时 Anthropic 被传本周可能公开 S-1，寻求 1.5–2 万亿美元上市估值（5 月以 9650 亿美元估值融资 650 亿美元）。",
+  "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+  "source": "TechCrunch",
+  "image": "/assets/covers/cover-20261023-ai-04.jpg",
+  "published_at": "2026-10-23T06:08:24+08:00",
+  "tags": [
+   "OpenAI",
+   "融资",
+   "估值",
+   "IPO",
+   "Anthropic",
+   "Coatue"
+  ]
+ },
+ {
+  "title": "DeepSeek 被美国联邦机构封禁两天后完成约 150 亿美元融资：宁德时代、腾讯在列，为中国最大私募之一",
+  "summary": "彭博报道、TechCrunch 跟进：在美国下令联邦民用机构清除 DeepSeek 技术仅两天后，这家杭州 AI 公司完成约 150 亿美元（约 1000 亿元人民币）融资，跻身中国史上最大私募融资之列；谈判中目标规模至少两次上调（约 75 亿→120 亿→150 亿美元），宁德时代（据报约 15 亿美元）与腾讯是主要投资方，投前估值约 748 亿美元。DeepSeek 6 月刚以 500 亿美元估值融资逾 70 亿美元，7 月又传以约 710 亿美元估值追加 15 亿，并计划最早明年在国内 IPO。资金将投向 AI 基础设施和面向海内外的开源模型，国内大模型竞争或进一步加剧。",
+  "url": "https://techcrunch.com/2026/10/22/deepseek-reportedly-raises-15b-days-after-us-restrictions/",
+  "source": "TechCrunch",
+  "image": "/assets/covers/cover-20261023-ai-05.jpg",
+  "published_at": "2026-10-22T21:11:13+08:00",
+  "tags": [
+   "DeepSeek",
+   "融资",
+   "腾讯",
+   "宁德时代",
+   "中国AI"
+  ]
+ },
+ {
+  "title": "Agent Skills 标准交给 Linux 基金会中立托管：Anthropic 继 MCP 后再捐 AAIF，已有 100 万个技能、近 2.8 亿次安装",
+  "summary": "Anthropic 宣布把 Agent Skills 开放标准捐赠给 Linux 基金会旗下的 Agentic AI Foundation（AAIF，由 Anthropic、Block、OpenAI 去年共同发起，此前已接收 MCP），一并移交名称与 logo、GitHub 组织和 agentskills.io 域名。Skill 即含 SKILL.md 的文件夹，教智能体完成特定任务，可附脚本与参考资料；自 2025 年 12 月发布标准以来，ChatGPT、Cursor、GitHub Copilot、VS Code 等 70 多个智能体平台已集成，累计发布约 100 万个技能、安装近 2.8 亿次。之后由 Anthropic、Google、OpenAI 等公司工程师以个人身份维护，不加入 AAIF 也可继续使用和贡献。",
+  "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+  "source": "Anthropic",
+  "image": "/assets/covers/cover-20261023-ai-06.jpg",
+  "published_at": "2026-10-23T02:00:00+08:00",
+  "tags": [
+   "Anthropic",
+   "Agent Skills",
+   "AAIF",
+   "Linux基金会",
+   "开放标准",
+   "Skill"
+  ]
+ },
+ {
+  "title": "Canva 发布首个自研生图模型 Canva Craft：先规划版式再出图，2K、30 种画幅，生成结果可一键拆成可编辑图层",
+  "summary": "Canva 研究团队推出首个自研图像生成模型 Canva Craft，对标 Google、OpenAI、字节、Meta 同类模型。它分两阶段：先解读提示词并规划元素空间关系、相对尺寸、视觉层级与文字信息，再生成最高 2K、30 种画幅比例的图像，主打细节准确、文字可读和局部精确修改不动其余部分。训练数据以 Canva 模板库中人工设计的海报、社媒图、演示文稿、信息图、菜单等为主而非照片，因此生成图可经 Canva Magic 转成分层设计稿。即日起所有用户可在 Dream Lab 使用，也开放 Canva API，并计划通过 Canva MCP 在 ChatGPT、Gemini 等第三方聊天机器人里出图。",
+  "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+  "source": "TechCrunch",
+  "image": "/assets/covers/cover-20261023-ai-07.jpg",
+  "published_at": "2026-10-23T03:00:00+08:00",
+  "tags": [
+   "Canva",
+   "图像生成",
+   "Canva Craft",
+   "设计工具",
+   "MCP"
+  ]
+ },
+ {
+  "title": "1Password for Agents 上线：Claude Duet、Dots、Muse、Grok Bot 可替你登录网站，全程看不到密码",
+  "summary": "密码管理器 1Password 推出 1Password for Agents：智能体尝试代用户登录时，先向 1Password 发送唯一数字密钥证明身份，用户收到提醒并亲自批准后，由 1Password 代为填写凭据完成登录，智能体本身始终拿不到密码或密钥，也不会在别处留下副本。首批支持 Anthropic Claude Duet、OpenAI Dots 与 ChatGPT Work、Grok Bot、Meta Muse 以及创业公司 Town 的智能体，并在与更多厂商对接。同日 Axios 报道美国大型银行开始发现未经授权的 AI 智能体用客户凭据登录账户，凸显「把密码直接交给智能体」的风险。",
+  "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+  "source": "TechCrunch",
+  "image": "/assets/covers/cover-20261023-ai-08.jpg",
+  "published_at": "2026-10-23T03:07:09+08:00",
+  "tags": [
+   "1Password",
+   "AI智能体",
+   "身份认证",
+   "Claude Duet",
+   "Muse",
+   "安全"
+  ]
+ },
+ {
+  "title": "Uber 给全体 3 万多名员工上 ChatGPT Work：从 1000 人试点扩到全公司，默认模型 GPT-6.1 Sol，工程师继续用 Codex",
+  "summary": "OpenAI 宣布 Uber 在 ChatGPT Enterprise 内全员铺开 ChatGPT Work 智能体，覆盖其全球 3 万多名员工，由此前 1000 人试点扩展而来，是 Uber 首个面向知识工作的全公司级智能体平台部署。ChatGPT Work 连接 Google Drive、Gmail、Google 日历和 Slack，可完成资料调研、会前简报、做演示文稿、数据分析和跨应用多步流程并交付成品；默认模型为 GPT-6.1 Sol，兼顾前沿性能与成本，也可调用语音与图像生成。配套 Uber 内部 AI 技能库、审批过的集成与员工培训，覆盖运营、财务、营销、产品等部门；研发团队继续用 Codex 写代码。双方称后续将公布采用率与量化成效。",
+  "url": "https://openai.com/index/uber-chatgpt-work-rollout",
+  "source": "OpenAI",
+  "image": "/assets/covers/cover-20261023-ai-09.jpg",
+  "published_at": "2026-10-23T00:00:00+08:00",
+  "tags": [
+   "OpenAI",
+   "ChatGPT Work",
+   "Uber",
+   "企业智能体",
+   "GPT-6.1 Sol"
+  ]
+ },
+ {
+  "title": "Liquid AI 推出实时推理引擎 RIPL：LFM2.5 小模型端到端低于 50 毫秒出完整回答，p95 延迟比 vLLM 跑 Qwen3.5 低 5.6–28 倍",
+  "summary": "Liquid AI 发布 Liquid RIPL（Real-time Inference Pipeline），专门把 230M–2.6B 参数的 LFM2.5 模型放进线上请求的关键路径：在持续高峰流量下，端到端返回完整生成结果低于 50 毫秒，瞄准搜索排序、风控反欺诈、支付授权等过去只能用梯度提升树等传统模型的毫秒级场景。按 Liquid 自测（单张 B200），LFM2.5-1.2B p95 为 155.8ms，对比 vLLM 上 Qwen3.5-0.8B 的 4431ms 快 28.4 倍（输入 256/输出 128 token）；最弱的 LFM2.5-2.6B 也快 5.6 倍，但更长请求达不到 50ms。面向企业部署，支持 H100、H200、B200 与 RTX PRO 6000。",
+  "url": "https://www.marktechpost.com/2026/10/22/liquid-ai-ripl-real-time-inference-engine/",
+  "source": "MarkTechPost",
+  "image": "/assets/covers/cover-20261023-ai-10.jpg",
+  "published_at": "2026-10-23T01:33:25+08:00",
+  "tags": [
+   "Liquid AI",
+   "RIPL",
+   "推理引擎",
+   "小模型",
+   "低延迟",
+   "LFM2.5"
+  ]
+ },
+ {
+  "title": "Replit 给每个应用配「自动值班工程师」：Monitoring Agent 读生产日志查故障、验证修复后可自动上线并邮件汇报",
+  "summary": "Replit 推出 Monitoring Agent，在今年早些时候的 App Monitoring（健康检查与宕机告警）基础上闭环：应用上线后，智能体可读取生产日志与指标，排查报错、变慢和部署失败；开启告警+autofix 后，出问题时它会自动调查原因、做出并验证修复，再把经过邮件汇报给你；开启 auto-publish 则可直接把验证过的修复部署到生产，是否自动发布由用户决定。Replit 称这是首个能对 AI 应用创作者自主「看见—修复—部署」的智能体，面向没有专职运维的个人开发者与小团队，并把方向定为由多智能体组成的自主软件团队。",
+  "url": "https://replit.com/blog/replit-monitoring-agent",
+  "source": "Replit",
+  "image": "/assets/covers/cover-20261023-ai-11.jpg",
+  "published_at": "2026-10-23T04:24:13+08:00",
+  "tags": [
+   "Replit",
+   "Monitoring Agent",
+   "AI编程",
+   "运维",
+   "自动修复"
+  ]
+ },
+ {
+  "title": "PHP2Shell 公开前四天已有人下手：亚马逊蜜罐 10 月 17 日就捕获利用尝试，补丁发布数小时内 PoC 满天飞",
+  "summary": "AWS 首席信息安全官 CJ Moses 发文称，Amazon 威胁情报回溯 MadPot 蜜罐数据，发现 10 月 17 日已有来自商业匿名网络 IP 的 PHP2Shell（CVE-2026-109618/109619）利用尝试，比 10 月 21 日 14:00 UTC 解禁早四天，攻击者如何提前拿到漏洞信息尚不清楚；21 日凌晨起又出现多批不同来源的 PoC 与攻击，解禁后数小时内即进入大规模在野利用。AWS 总结：禁运只在别人没撞到同一 bug 前有效，防守方不能把公开日当作最早被利用日；AI 让从补丁 diff 到可用 exploit 的时间缩至数小时甚至数分钟。WIRED 跟进称 PHP 基金会事先不知情，目前未知有成功 RCE；HN 上另有开发者发帖承认无意中打破禁运。",
+  "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+  "source": "AWS Security Blog",
+  "image": "/assets/covers/cover-20261023-ai-12.jpg",
+  "published_at": "2026-10-22T06:36:26+08:00",
+  "tags": [
+   "PHP2Shell",
+   "AWS",
+   "漏洞",
+   "在野利用",
+   "网络安全"
+  ]
+ },
+ {
+  "title": "METR 与 Redwood 驻场三周红队 OpenAI 内部智能体监控：找到关监控请求头、绕过 Codex 沙箱等多处漏洞，称已修补",
+  "summary": "METR 与 Redwood Research 各派一人，于 7 月 21 日至 8 月 11 日在 OpenAI 内网设备上、带着代码库与监控配置访问权限做三周高权限试点，产出 61 页内部报告，公开版为高层摘要。发现包括：约 75–94% 的 GPT-5.5 级以上内部智能体流量（Codex 子集约 99.2%）纳入监控，RL 训练当时未覆盖；上下文压缩事件未被监控导致 5–7 月约一成 Codex 流量漏检，且智能体只要不交还控制权就能无限推迟被审查；存在两个客户端可控的请求头能让新智能体实例绕开监控、一种可让数百条近期动作不被记录的利用，以及 Codex 沙箱与 Auto-Review 可被绕过。OpenAI 称相关漏洞已修补，两家机构未独立核实，并提出定时监控、日志对账、隔离智能体与监控等设计原则。",
+  "url": "https://blog.redwoodresearch.org/p/red-teaming-openais-internal-agent",
+  "source": "Redwood Research",
+  "image": "/assets/covers/cover-20261023-ai-13.jpg",
+  "published_at": "2026-10-22T23:32:17+08:00",
+  "tags": [
+   "OpenAI",
+   "METR",
+   "Redwood",
+   "AI安全",
+   "智能体监控",
+   "红队"
+  ]
+ },
+ {
+  "title": "赛门铁克抓到「天网模式」攻击智能体：劫持暴露在公网的大模型自主跑 10 万步攻击，算力账单由受害者买单",
+  "summary": "Symantec 通过蜜罐截获一个恶意 AI 智能体的完整工作提示：它寻找无防护、公网暴露的大模型端点，用五层越狱绕过安全规则，再让被劫持的模型主导整个攻击链——扫描更多目标、利用常见服务器软件漏洞、窃取数据库和凭据、后台植入挖矿程序，最多 10 万步无需人工介入，并循环回访再感染；被劫持模型的主人承担全部算力费用，Symantec 称之为「LLMjacking」。次日蜜罐又捕获另一攻击：直接让模型解码执行混淆命令，下载伪装成系统文件的 XMRig 门罗币矿机并清理 go2rtc 摄像头日志。研究者提醒，部署 AI 服务应默认公网端点上线后很快会被探测。",
+  "url": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+  "source": "The Decoder",
+  "image": "/assets/covers/cover-20261023-ai-14.jpg",
+  "published_at": "2026-10-22T19:30:56+08:00",
+  "tags": [
+   "Symantec",
+   "LLMjacking",
+   "AI智能体",
+   "网络攻击",
+   "挖矿",
+   "安全"
+  ]
+ },
+ {
+  "title": "Hugging Face 开源 14B「能和 DNA 聊天」模型 Carbon-X：本地笔记本可跑，问基因变异影响直接得自然语言回答",
+  "summary": "Hugging Face 联合中关村学院与意大利那不勒斯费德里科二世大学发布开放模型 Carbon-X（14B 参数），同时理解基因组序列与自然语言，用户可询问 DNA 变化对基因活性与健康的影响并获得对话式回答，目标是辅助药物与基因疗法设计，也可能帮患者解读自身基因组。团队在已有语言模型上扩展词表、按六个碱基一组读取 DNA，再用 3000 亿 token 的 DNA 序列、英文文本与「DNA—生物学描述」配对数据继续训练，数据涵盖哺乳动物、植物、真菌等，刻意不含病毒以防滥用；单次可输入约 5 万碱基对。选择 14B 是为了能在本地硬件运行、敏感数据不出机器。",
+  "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+  "source": "WIRED",
+  "image": "/assets/covers/cover-20261023-ai-15.jpg",
+  "published_at": "2026-10-22T18:00:00+08:00",
+  "tags": [
+   "Hugging Face",
+   "Carbon-X",
+   "开源模型",
+   "生物AI",
+   "DNA",
+   "本地运行"
+  ]
+ },
+ {
+  "title": "Cohere Rerank 5 发布：Context Focus 直接圈出文档内相关段落，分数可校准，Pro 版 46 个数据集拿下 39 个第一",
+  "summary": "Cohere 推出新一代重排序模型 Rerank 5，分 rerank-v5.0-pro 与 rerank-v5.0-fast 两档，支持 100+ 语言、32K 上下文，可重排 JSON、表格、YAML 等半结构化数据，升级只需改模型参数、无需重建索引。两项新能力：Context Focus 返回每篇文档里真正相关的段落，让 RAG 和智能体少喂 token；相关性分数经过校准，可直接设阈值。据 Cohere 自测，Pro 在 46 个综合数据集中 39 个排名第一，BRIGHT 推理检索 82.2 分、比 Voyage Rerank 3 高 5.8；代价是 Pro 处理 96 篇文档中位延迟 11.7 秒，Fast 为 4.1 秒。提供托管 API、Model Vault、Microsoft Foundry、SageMaker 与私有化部署，无开放权重。",
+  "url": "https://www.marktechpost.com/2026/10/22/cohere-rerank-5-context-focus/",
+  "source": "MarkTechPost",
+  "image": "/assets/covers/cover-20261023-ai-16.jpg",
+  "published_at": "2026-10-23T00:31:31+08:00",
+  "tags": [
+   "Cohere",
+   "Rerank 5",
+   "RAG",
+   "检索",
+   "开发者工具"
+  ]
+ },
+ {
+  "title": "一个 360M 小模型假装自己是终端：WorldTUI 不接 shell 也能跑 vim、tmux 和贪吃蛇，浏览器 WebGPU 即可试玩",
+  "summary": "开发者 simedw 受 Genie 3 世界模型启发，基于 Qwen2.5-Coder-0.5B 微调出约 360M 参数的「终端世界模型」WorldTUI：背后没有任何 shell 或文件系统，每次按键输入后由模型预测屏幕字符网格如何变化，能新建文件、运行 vim 和 tmux、玩贪吃蛇，并通常记得几条命令前写过的内容。训练数据来自 Docker 中真实程序录制的终端会话；最大收益来自教模型自我修复错误，以及并行解码屏幕各行。208MB 的 demo 可在支持 WebGPU 的桌面浏览器里直接试，输入 pythoon 就能看出它不是真 shell。该帖登上 HN 首页近 500 分。",
+  "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+  "source": "simedw.com",
+  "image": "/assets/covers/cover-20261023-ai-17.jpg",
+  "published_at": "2026-10-22T10:18:00+08:00",
+  "tags": [
+   "世界模型",
+   "小模型",
+   "WorldTUI",
+   "终端",
+   "WebGPU",
+   "开源项目"
+  ]
+ },
+ {
+  "title": "Switch 2 被破解，作者称 OpenAI Codex 帮了大忙：借老游戏 SmileBASIC 4 实现纯软件越狱，魔改版马车已跑起来",
+  "summary": "安全研究者 Sammy Hajhamid（pepsipu）公布 Nintendo Switch 2 纯软件、需每次开机重跑的「tethered」越狱 ns2jb，称 OpenAI Codex 在开发中帮了忙；利用入口是可编程游戏 SmileBASIC 4（另有 modder 称并非必需）。已有 modder 展示在主机上运行加入玉桂狗、愤怒的小鸟红鸟、Peter Griffin、我的世界 Steve 等角色的魔改版《马力欧赛车 世界》。The Verge 指出该越狱对普通用户仍很复杂、影响有待观察，但若更多 modder 借助 AI，可能引发一连串 Switch 2 漏洞；作者博文登 HN 近 700 分。",
+  "url": "https://www.theverge.com/games/1016862/nintendo-switch-2-jailbreak-ai",
+  "source": "The Verge",
+  "image": "/assets/covers/cover-20261023-ai-18.jpg",
+  "published_at": "2026-10-23T01:21:31+08:00",
+  "tags": [
+   "Switch 2",
+   "越狱",
+   "Codex",
+   "AI编程",
+   "游戏"
+  ]
+ },
+ {
+  "title": "前 OpenAI 科学负责人 Kevin Weil 创办 Warp Sciences 获 2.15 亿美元：建全自动化学实验室，把药物分子优化从药明康德搬回美国",
+  "summary": "领导 OpenAI for Science 至今年 4 月的 Kevin Weil 推出 Warp Sciences，Lightspeed 领投 2.15 亿美元，估值 8.65 亿美元（含本轮），IVP、Premji Invest、Lux 跟投，天使包括 OpenAI CFO Sarah Friar、Coinbase CEO Brian Armstrong 和 Reid Hoffman。公司不做新药发现，而是专攻先导分子的「合成数百上千个变体以提效降毒」环节——这类工作长期外包给药明康德等中国企业。约 20 人团队已购入机械臂与 AI 芯片，化学家实验时佩戴摄像头和压感手套采集数据训练自有模型。Weil 称化学仍高度依赖实验，前沿模型尚未像在软件和数学中那样改变这一领域。",
+  "url": "https://thenextweb.com/news/warp-sciences-kevin-weil-215m-ai-drug-lab",
+  "source": "The Next Web",
+  "image": "/assets/covers/cover-20261023-ai-19.jpg",
+  "published_at": "2026-10-23T00:05:08+08:00",
+  "tags": [
+   "Warp Sciences",
+   "Kevin Weil",
+   "融资",
+   "AI制药",
+   "自动化实验室"
+  ]
+ }
+]

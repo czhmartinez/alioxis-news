@@ -1,0 +1,58 @@
+Alioxis News AI新闻收集报告 — 2026-10-28（Asia/Taipei）
+
+条数：20
+Lead：世界模型开始「有声有戏」：DeepMind 的 Genie 4 原生生成环境音与角色对话，边玩边用一句话改天气、加人物，场景可稳定两分钟
+Lead URL：https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-28/_aihot_daily.json（fetch-aihot-daily.js 成功，08:08 抓取；lead 为卡兹克「Anthropic 招股书拆解：IPO 计划募资约 1000 亿美元背后的 11 个细节」（X 帖），sections 12 条 + flashes 8 条）
+- /workspace/alioxis-news/data/2026-10-28/_aihot_summary.txt（与 10-27 同格式：lead 头 + sections + flashes）
+- /workspace/alioxis-news/data/2026-10-28/_prior_urls.json（新写入，扁平 URL 列表 427 个，覆盖 10-16..10-27 的 ai.json/v.json）
+- /workspace/alioxis-news/data/2026-10-28/ai.json
+- /workspace/alioxis-news/data/2026-10-28/_cover_prompts_ai.json（20 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-28/_ai_collect_report.txt
+
+纳入（20）：
+00 Google DeepMind Genie 4：curl + trafilatura 核实 deepmind.google 官方博客（10-27 16:13Z）；交叉 TechCrunch（16:30:57Z，测试者用例与局限）；AIHOT 模型栏（初稿标题撞 AIHOT 键，已改写）
+01 ETH 被推翻后续（Anthropic 跟进反驳/工作组/密码学）：curl + trafilatura 核实 techcrunch.com 原文（10-27 17:08:08Z）；交叉 The Verge「研究者厌倦 OpenAI 把关」（20:48:58Z，Kakeya/Lean/物理成果未公开）；AIHOT 快讯「外部专家核查证明」（Decoder 12:37Z 已读）
+02 父母起诉 OpenAI（GPT-4o 教唆停药）：curl + trafilatura 核实 techcrunch.com 原文（10-27 23:34:27Z，援引《纽约时报》）；AIHOT 行业栏
+03 Palisade 复查 Qwen 3.8 阿里云代理：curl + trafilatura 核实 the-decoder.com 原文（10-27 19:45:49Z）；10-27 因与 v 同题撤下的 Cohere 首报之后续，新角度
+04 Cathedral 用 Agent 进入 Anthropic 内部系统：curl 核实 IT之家 1/018/683（pubtime 10-27 22:25:46+08:00，援引《华邮》并含 Anthropic 确认）；10-27 因仅有 X 转引未纳入，今日已有媒体源核实
+05 M6 14 英寸 MacBook Pro：curl + trafilatura 核实 apple.com/newsroom 原文（页面仅日期 2026-10-27，published_at 取 10-27 21:00+08:00 近似）；国行价格据 IT之家；AIHOT 硬件栏（标题已避开 AIHOT 键）
+06 Apple Creator Studio（OpenAI 模型 + MCP）：curl + trafilatura 核实 9to5mac.com 原文（10-27 13:26:38Z）；AIHOT 应用栏（标题已避开）
+07 英伟达/AMD 入股 Meta：curl + trafilatura 核实 cnbc.com 原文（10-27 08:40:53Z）；AIHOT 行业栏（标题已避开）；10-27 已收 Meta 950 亿增发本身，今日为投资方落地的新进展
+08 Liquid AI LFM3：curl + trafilatura 核实 marktechpost.com 原文（10-27 21:08:02Z）；AIHOT 模型栏（标题已避开）
+09 Mirendil Fern 0.1：curl + trafilatura 核实 marktechpost.com 原文（10-27 12:57:46Z）
+10 Anthropic「Agent 左右专家判断」研究：curl + trafilatura 核实 anthropic.com/research 原文（页面仅日期 10-27，published_at 取 10-27 08:00+08:00 近似）；AIHOT 研究栏（标题已避开）
+11 亚马逊反 tokenmaxxing 备忘录：curl + trafilatura 核实 cnbc.com 原文（10-27 18:41:02Z）
+12 Opera WebAI：curl + trafilatura 核实 techcrunch.com 原文（10-27 13:00Z）
+13 Firefox Smart Window 填表与 /watch：curl + trafilatura 核实 theverge.com 原文（10-27 16:14:18Z）
+14 Replit Cloud Agents：curl + trafilatura 核实 replit.com/blog 原文（10-27 15:30Z）；AIHOT 应用栏（初稿撞键，已改写）
+15 Rohit Patel 离开 Meta 创办 Ndoc：curl + trafilatura 核实 techcrunch.com 原文（10-27 14:59:09Z）；交叉 IT之家 1/018/696
+16 General Compute 1 亿美元 A 轮：curl + trafilatura 核实 techcrunch.com 原文（10-27 13:00Z）
+17 SK 海力士 Q3：curl + trafilatura 核实 cnbc.com 原文（10-27 23:34:59Z）；「短缺持续到 2030 年」据 IT之家
+18 《连线》实测六大 AI Agent：curl + trafilatura 核实 wired.com 原文（10-27 09:30Z）
+19 伯克利 LEANN：curl + trafilatura 核实 marktechpost.com 原文（10-27 21:54:37Z）
+
+跳过 / 未单独成卡：
+- 与 10-16..10-27 已收录同题：Anthropic S-1 本体与 AIHOT 头条「招股书 11 个细节」（10-27 #00/#03 已收）、OpenAI 三项科学发现首发（10-27 #02，今日只收 ETH 后续）、Meta 950 亿增发本身（10-27 #05）、马斯克 neocloud 论（10-27 #17）
+- AIHOT 条目原文为 X 帖或未纳入：Axiom 有限单群分类（X 帖）、Gemini SynthID（X 帖）、Cursor Annotate（X 帖）、Anthropic GSA 40% 折扣、LangChain Content Studio、Anthropic 药物研发（10-26 发布，超窗口）、Ai2 novelty bench、Horowitz 谈 Databricks、OpenAI Oracle 应用
+- 名额原因降为备选（均已 curl + trafilatura 核实）：百度 Unlimited OCR 2（10-27 05:26Z）、ChatGPT iCloud 邮件/日历插件（9to5mac）、NVIDIA–Oracle Vera Rubin 超级集群、OpenAI 谈 AI 漏洞报告（Cyberscoop）、英国内政部庇护 AI 工具（Wired UK）、Simplismart B 轮、Verge「Anthropic 与华尔街」、沃尔玛 AI 培训、美国银行密码、Ted Sanders 规则、前 DeepMind AlphaGo 研究员谈幻觉、vLLM d3-ultra、Dario「学钢琴」
+- 抓取失败跳过：VentureBeat RSS（429）、36氪 RSS（空）
+
+去重：
+- 对照 _prior_urls.json（427 个 URL）：本批 20 个 URL 无完全重复，批内 URL 唯一
+- 已与今日 v.json（大V视野流程 08:13 写入，19 条，头条为卡兹克 Anthropic 招股书 11 个细节）交叉：URL 无重复；头条错开
+- 与今日 v.json 同题而撤下：MAI Image 2.7（v TestingCatalog 已收；microsoft.ai 原文已核实 10-27 15:10Z）；备选中百度 Unlimited OCR 2（v Max）、ChatGPT iCloud 插件（v TestingCatalog）同理不补
+- 与今日 v.json 同题但保留（沿用双页签并存先例，角度错开）：00 Genie 4（v TestingCatalog 简讯；AI新闻取官方博客与 TechCrunch 细节，作 AI新闻头条）、01 ETH（v Max 讲证伪本身；AI新闻取 Anthropic 跟进反驳、牧羊人工作组与密码学影响）、07 英伟达/AMD 入股 Meta（v TestingCatalog 讲 Muse 合作；AI新闻取 40 亿美元认购增发与投资版图）
+- AIHOT 日报 12 个标题键：已用 build.js 原函数 normalizeTitle/aihotTitleKeys/overlapsAihot 自检，20 条无命中（00、14 初稿命中，已改写标题）
+- 额外用同一函数对照 10-16..10-27 全部 ai/v 标题：复检 0 命中（00 初稿因「Google DeepMind 发布」前缀误撞旧题，已改写）
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词：悬崖上晴雨分界的世界（Genie 4）/ 夜间讲堂黑板证明与挂锁（ETH）/ 分药器与切成四瓣的药片（GPT-4o 诉讼）/ 机房被改道的橙色网线（Qwen 代理）/ 夜间 HR 档案柜里的小机器人窃贼（Anthropic 渗透）/ 深空黑笔记本与悬浮芯片产品照（M6）/ 音乐工作台与分离的音轨丝带（Creator Studio）/ 数据中心工地前的两块晶圆盾牌（英伟达/AMD 入股 Meta）/ 掌心芯片连向六种设备（LFM3）/ 雪夜小屋里无限延伸的代码长卷（Fern）/ 单向玻璃后的心理实验与抛硬币（Agent 左右判断）/ 溢出 Token 的玻璃罐与搬成品箱的工程师（亚马逊）/ 浏览器玻璃缸里的本地大脑（Opera WebAI）/ 纸飞机助手搬运表单拼图与望远镜（Firefox）/ 设计师口述+沙箱里的小机器人+录屏胶片（Replit）/ 抱纸箱离开园区的创业者（Ndoc）/ 草原比特币矿棚改推理机房（General Compute）/ HBM 芯片摩天楼（SK 海力士）/ 六部手机各冒出机器人、一个只端来一个卷（Wired 评测）/ 空抽屉卡片柜与按需重写卡片的机器人（LEANN）
+- 16:9，无文字数字，无统一刊头色带、无万能会议室/科技桌、无抽象几何；file 名 cover-20261028-ai-00…19.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：curl + trafilatura（deepmind.google、techcrunch.com、theverge.com、the-decoder.com、apple.com、9to5mac.com、cnbc.com、marktechpost.com、anthropic.com、replit.com、wired.com）/ curl + pubtime_baidu（ithome.com）/ feedparser 解析 RSS 筛选 / X MCP 未使用
+AIHOT 线索：fetch-aihot-daily.js 成功（lead 为卡兹克 Anthropic 招股书拆解 X 帖，sections 12 条 + 快讯 8 条）；核实后改写标题纳入 00/01/02/05/06/07/08/10/14；X 帖类与已收录同题未纳入，其余由公开源补齐
+published_at 说明：均取源站元数据/RSS 精确时间换算为 +08:00（05、10 源站仅有日期，取近似值）；时间范围 10-27 08:00 至 10-28 07:34（+08:00），均在 24 小时窗口内

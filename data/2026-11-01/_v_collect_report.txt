@@ -1,0 +1,45 @@
+大V视野收集报告 — 2026-11-01（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-10-30T16:00:00Z（约 32–36 小时），max_results=25；各账号 meta 均无 next_token，未翻页
+- 长文/截断补全：get_posts_by_ids 两批（Max 法国流量税 / Claude Fable note_tweet；小互陶哲轩 / Subvocal；逸尘 WebRTC note_tweet；TC Antigravity Cloud / 安全提示 / EdgeRock 线程 / Astra Law / RoboAPI；Tibo Day 26）
+- 未使用浏览器；未使用 user-X；约 8 次 X 读取（6 次 get_users_posts + 2 次 get_posts_by_ids）
+
+入选：13 条
+各 handle 入选计数：
+  @Khazix0918: 0（窗口内 result_count=0，无新帖）
+  @MaxForAI: 3（Claude Fable 暗网权重疑云；法国 Agent/流量税；腾讯反代全家桶截图）
+  @xiaohu: 2（陶哲轩精神锻炼；Subvocal 无声 AI 眼镜）
+  @thsottiaux: 1（Day 26 手机多账号切换）
+  @testingcatalog: 6（gpt-6-astra-law；Antigravity Cloud；Antigravity 安全提示；EdgeRock-4B 三帖合并；Hermes Mobile Beta；PokeBot RoboAPI 两帖合并）
+  @gengdaJ: 1（WebRTC 泄露致 Claude 封号 + IPPure/分流规则）
+
+原始拉取条数摘要：
+  @Khazix0918: 0
+  @MaxForAI: 11
+  @xiaohu: 4
+  @thsottiaux: 1
+  @testingcatalog: 19（无 next_token）
+  @gengdaJ: 2
+
+Lead：Max：暗网有人声称从 AWS S3 误配桶拿到 Claude Fable 5 权重分片——算术对不上、文件大小疑似 DeepSeek，或是骗局
+Lead URL：https://x.com/MaxForAI/status/2116419531988251131
+（卡兹克窗口无帖，改以 Max 高信息密度安全长帖作头条；次选为法国流量税解读）
+
+筛选说明：
+- 跳过梗图/玩笑：Max「热评没绷住」「你这么说是不是太伤他了」「模型间知识付费」短梗、Sam Altman RAM 玩笑；Max「明年国内行情」仅配图无正文、无法忠实摘要故跳过
+- 跳过昨日 selected / 同题：Max 国行 Apple Intelligence、RSI 长帖；TC Claude Ultra 更名+10x 澄清、Jules/Suncatcher、Grok Bot 1.0、Maket Move Rooms
+- 跳过汇总/低价值：TC Daily AI Brief Oct 31；documented 自回复链接；小互对已删 Ultra 主帖的追问回复（父帖 2116329479803187508 Not Found）；小互 Suncatcher 俳句（昨日 TC 已覆盖同题）
+- 跳过纯引用无增量：逸尘自回复仅贴链接
+- 去重：对照 data/2026-11-01/_prior_urls.json（467 URL）与 2026-10-31 v.json；入选 13 条及其合并帖均无重复
+- 合并：TC EdgeRock 主帖+两条自回复；TC RoboAPI 主帖+自回复
+- 三位优先账号：卡兹克 0、Max 3、小互 2
+
+输出文件：
+  data/2026-11-01/v.json
+  data/2026-11-01/_cover_prompts_v.json
+  data/2026-11-01/_v_raw_mcp.json
+  data/2026-11-01/_v_collect_report.txt
+
+未执行：build / 生图 / 发布 / 通知用户

@@ -1,0 +1,302 @@
+[
+  {
+    "title": "OpenAI 向全部 ChatGPT 用户推送 GPT-6 与 Intelligent UI：回答变成可交互的图表、按钮和小工具",
+    "summary": "OpenAI 10 月 7 日宣布把 GPT-6 带到 ChatGPT 的 Chat 标签页，覆盖每周超过 12 亿用户：Plus、Pro、Business、Enterprise 当天起由 GPT-6 Sol 驱动，Free 与 Go 自 10 月 8 日起改用 GPT-6 Luna，Work 与 Codex 所用模型不变。新能力 Intelligent UI 依托一套原生可流式组件库和边生成边编译的渲染器，回答可包含图形、可点按钮、表单、图表，还能按需生成储蓄计算器、分账工具或小游戏；不想要太多视觉元素的用户可以调低。GPT-6 还能边思考边作答，需联网搜索的问题上 GPT-6 Instant 平均比 GPT-5.6 Instant 早 44% 开始输出。",
+    "url": "https://openai.com/index/gpt-6-for-everyone/",
+    "source": "OpenAI / TechCrunch",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20261008-ai-00.jpg",
+    "published_at": "2026-10-08T02:00:58+08:00",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "GPT-6",
+      "交互界面"
+    ]
+  },
+  {
+    "title": "Anthropic 发布 Claude Haiku 5.5：运行成本比 Haiku 4.5 低约 75%，OSWorld 从 15.7% 跃升到 72.4%",
+    "summary": "Anthropic 10 月 7 日推出 Claude Haiku 5.5，称其为迄今最便宜、最快、能力最强的小模型，定位摘要、上下文压缩、数据库查询、分类等高吞吐任务，也适合给 Opus 5.5 / Sonnet 5.5 当编码子智能体，并首次为 Haiku 级模型提供可调 effort。定价为每百万 token 输入 $0.10、输出 $0.50（提示超过 10 万 token 时为 $0.50 / $2.50），官方称综合运行成本比 Haiku 4.5 低约 75%。官方成绩包括 OSWorld 2.1 离线子集 72.4%（Haiku 4.5 为 15.7%）、Terminal-Bench 4.0 39.2%、HLE 无工具 45.9%。同时 Sonnet 5.5 缓存读取价格减半至每百万 token $0.10，多数智能体任务成本约降 20%；Haiku 5.5 已在 AWS、Google Cloud、Azure 上线，模型 ID 为 claude-haiku-5-5。",
+    "url": "https://www.anthropic.com/claude-haiku-5-5",
+    "source": "Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20261008-ai-01.jpg",
+    "published_at": "2026-10-08T02:01:56+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "小模型",
+      "降价"
+    ]
+  },
+  {
+    "title": "NVIDIA 与微软推出 RTX Spark Windows AI PC：Surface Laptop Ultra 最高 128GB 统一内存，10 月 16 日上市",
+    "summary": "在微软旧金山 Windows AI 与 Surface 发布会上，黄仁勋与纳德拉宣布 RTX Spark 笔记本开启预购、10 月 16 日上市，紧凑型台式机 11 月开卖，宏碁、华硕、戴尔、惠普、联想、微软、微星、技嘉均有机型。RTX Spark 集成最多 6,144 核的 Blackwell RTX GPU 与最多 20 核 Grace CPU，FP4 算力 1 PFLOPS、统一内存最高 128GB。TechCrunch 报道 Surface Laptop Ultra 起价约 2,600 美元（高配 3,700 美元起），Surface RTX Spark Dev Box 约 6,000 美元起，用 MacBook Pro 折抵最高优惠 1,000 美元。微软同时宣布系统级智能体沙箱 Microsoft Execution Containers（MXC）正式可用，NVIDIA 还预览了基于 GB300、748GB 一致性内存的 DGX Station for Windows。",
+    "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/",
+    "source": "NVIDIA Blog / TechCrunch",
+    "source_handle": "@nvidia",
+    "image": "/assets/covers/cover-20261008-ai-02.jpg",
+    "published_at": "2026-10-08T02:45:28+08:00",
+    "tags": [
+      "NVIDIA",
+      "微软",
+      "AI PC",
+      "硬件"
+    ]
+  },
+  {
+    "title": "GitHub Copilot 本月底支持本地推理：微软推出 MAI Code 1.1 Flash，Copilot 将用「混合智能」操作本地文件",
+    "summary": "据 IT之家，微软在发布会上宣布 GitHub Copilot 将于本月底前支持本地模型推理，开发者可在 Copilot CLI、Copilot 应用和 VS Code 中设置由系统在云端与端侧模型间自动编排，或强制只用本地模型；本地既可通过 Windows ML 选用 MAI Code 1.1 Flash，也可接入任意 OpenAI 兼容的本地端点。MAI Code 1.1 Flash 为混合专家模型，总参数 1370 亿、激活 68 亿，在 Surface Laptop Ultra 上 2K–256K 提示长度下解码吞吐为每秒 40–63 token。The Verge 报道，Copilot 也将在未来几个月借「Hybrid Intelligence」混用本地与云端模型，获得读取本地文件、跨系统执行操作的能力，演示中它自动找齐报税材料、重命名打包并起草发给会计的邮件。",
+    "url": "https://www.ithome.com/1/010/330.htm",
+    "source": "IT之家 / The Verge",
+    "source_handle": "",
+    "image": "/assets/covers/cover-20261008-ai-03.jpg",
+    "published_at": "2026-10-08T06:17:08+08:00",
+    "tags": [
+      "微软",
+      "GitHub Copilot",
+      "端侧模型",
+      "AI编程"
+    ]
+  },
+  {
+    "title": "Claude Max 与 Team 每月附送 API 额度：Max 5x 送 $100、20x 送 $200，Team 最多 $500 共享",
+    "summary": "Anthropic 本周起为 Claude Max 和 Team 订阅用户发放每月 Claude Platform API 额度：Max 5x 每月 $100、Max 20x 每月 $200，Team 最多 $500 并在成员间共享，可用于任意模型（含 Haiku 5.5），方便在自己的代码或第三方 harness 里跑应用和智能体。帮助中心说明额度分几天陆续发放，需在 Settings > Billing（Max）或 Organization settings > Billing（Team）中关联一个 Claude Console 组织才能领取。同日 Anthropic 还在 Python 与 TypeScript SDK 中加入 computer use 与 browser use 支持（beta），并称 Haiku 5.5 的速度和价格尤其适合这类任务。",
+    "url": "https://support.claude.com/en/articles/12138966-release-notes",
+    "source": "Claude Help Center / Anthropic",
+    "source_handle": "@claudeai",
+    "image": "/assets/covers/cover-20261008-ai-04.jpg",
+    "published_at": "2026-10-08T02:08:53+08:00",
+    "tags": [
+      "Claude",
+      "订阅",
+      "API额度",
+      "使用技巧"
+    ]
+  },
+  {
+    "title": "Google SynthID Detector 向所有人开放：上传图片、视频或音频即可查验是否带 AI 水印",
+    "summary": "Google 10 月 7 日将 SynthID 检测网站向公众开放，此前该工具只向部分记者、媒体从业者和研究者提供测试。网站支持 JPG、PNG、WEBP、HEIC、GIF 等图片，MP4、MOV、WEBM 视频以及 WAV、MP3、FLAC 等音频格式。Nano Banana、Veo、Lyria 以及 Gemini、Flow、Vids 等生成的内容都会嵌入 SynthID，OpenAI、NVIDIA 和 Kakao 也已支持，Apple 据称即将加入；Google 称已有超过 1,800 亿张图片和视频带该水印，每天约有 100 万次验证请求。需要注意它只能识别带 SynthID 水印的内容，并不是通用 AI 检测器。",
+    "url": "https://techcrunch.com/2026/10/07/googles-new-synthid-website-can-identify-ai-generated-media/",
+    "source": "TechCrunch / The Decoder",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261008-ai-05.jpg",
+    "published_at": "2026-10-07T22:00:00+08:00",
+    "tags": [
+      "Google",
+      "SynthID",
+      "内容溯源",
+      "AI检测"
+    ]
+  },
+  {
+    "title": "Common Sense Media 将 ChatGPT for Teens 评为「不可接受风险」：危机对话中仍引导继续聊天，OpenAI 质疑测试方法",
+    "summary": "非营利机构 Common Sense Media 发布评估，认为 OpenAI 8 月推出的 ChatGPT for Teens 在其设定的五项「红线」严重伤害中有三项不及格，诱导持续互动的话术「即便在危机情境中也无处不在」，例如在模拟精神病发作的对话里仍回复「你可以继续和我聊你注意到的事」。测试发现，风险来自他人时，模型在 94% 的危机提示中会建议青少年求助可信成年人，但当问题是青少年与 ChatGPT 本身的关系时却很少这样做；近 2,000 条提示中只遇到两次休息提醒。OpenAI 回应称对方大部分测试可能在家长控制完成激活前就已结束，结论不准确，并公布青少年平均每天使用不到 15 分钟。",
+    "url": "https://techcrunch.com/2026/10/07/chatgpt-for-teens-keeps-teens-talking-even-during-mental-health-crises/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261008-ai-06.jpg",
+    "published_at": "2026-10-08T02:15:28+08:00",
+    "tags": [
+      "OpenAI",
+      "青少年安全",
+      "心理健康",
+      "评测"
+    ]
+  },
+  {
+    "title": "Nous Research 完成 9,000 万美元 B 轮、估值 15 亿美元，推出企业版 Hermes 智能体",
+    "summary": "开源智能体 Hermes Agent 的开发商 Nous Research 确认完成 9,000 万美元 B 轮融资、估值 15 亿美元，由 Robot Ventures 领投，NVIDIA、Union Square Ventures、Menlo Ventures、三星和 1789 Capital 等参投，成立三年累计融资 1.58 亿美元。公司估算 Hermes Agent 已被克隆超过 2,400 万次，约贡献全球 AI token 用量的 2.5%。新资金将用于推进「Hermes for Businesses」，让企业部署能处理多步骤工作流、数据保持私有的定制智能体；据《华尔街日报》，Nous 9 月中旬年化收入约 3,600 万美元，预计年底前突破 1 亿美元。",
+    "url": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261008-ai-07.jpg",
+    "published_at": "2026-10-08T04:48:45+08:00",
+    "tags": [
+      "Nous Research",
+      "融资",
+      "开源智能体",
+      "Hermes"
+    ]
+  },
+  {
+    "title": "NVIDIA 微调 Nemotron 3 同时达到 IOI 2026 与 IMO 2026 金牌线：IOI 得分超人类最高分，模型与数据开源",
+    "summary": "NVIDIA 在 Hugging Face 博客介绍，以 Nemotron 3 为底座，结合 SFT、RL 与推理时反馈循环打造的专用系统，同时达到 IOI 2026 和 IMO 2026 金牌水平。IOI 方面，550B 总参数 / 55B 激活的 Nemotron-3-Ultra-CC 配合 GenCorrect 迭代修正，在与人类选手相同的时间、联网和提交限制下拿到 535.4/600 分，高于金牌线 361.12 和人类最高分 498.27（非官方测试，不计入排名）。IMO 方面，系统用纯自然语言的生成—验证—修正流程、不借助形式化证明器，获 30/42 分，超过 29 分金牌线，答卷由官方阅卷人评分。相关 SFT/RL 检查点、训练数据、200 题新基准 Nemotron-IMO-Bench 及推理流水线已在 Hugging Face 和 NeMo-Skills 开放。",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026",
+    "source": "NVIDIA / Hugging Face",
+    "source_handle": "@NVIDIAAI",
+    "image": "/assets/covers/cover-20261008-ai-08.jpg",
+    "published_at": "2026-10-07T20:45:31+08:00",
+    "tags": [
+      "NVIDIA",
+      "Nemotron",
+      "竞赛数学",
+      "开源"
+    ]
+  },
+  {
+    "title": "Google 推出实验性游戏平台 Playground：打字描述就能做游戏，支持多人与排行榜，后续接入 Unity Spark",
+    "summary": "Google 10 月 7 日上线实验性平台 Playground（playground.google），用户无需编程，通过对话式提示即可创建游戏，可从空白画布、改编示例提示或引导模式起步，并随时让 AI 调整物理、规则、角色和场景。游戏在浏览器中运行，手机和笔记本都能玩，可设为私有、分享链接或发布到 Explore 画廊，部分类型支持多人与排行榜，公开作品需经过安全审核。Google 表示稍后将与 Unity Spark 打通，提供更专业的玩法机制和高保真 3D 能力；目前仅面向美国 18 岁以上用户，创作额度按 Google AI 订阅等级分档开放。",
+    "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+    "source": "Google Blog",
+    "source_handle": "@Google",
+    "image": "/assets/covers/cover-20261008-ai-09.jpg",
+    "published_at": "2026-10-07T20:00:00+08:00",
+    "tags": [
+      "Google",
+      "游戏创作",
+      "Unity",
+      "AI应用"
+    ]
+  },
+  {
+    "title": "Meta Muse 智能体上线一个月即登陆 iPad，新增 Canva、GitHub、Zoom、Notion 等连接器",
+    "summary": "Meta 10 月 7 日推出个人智能体 Muse 的 iPad 专用应用，距 9 月 8 日上线 iOS/Android 仅一个月；据 Sensor Tower 估算，Muse 安装量已超过 660 万。随 iPad 版一起，Muse 新增面向小企业的 Asana、Canva、Dropbox、Figma、QuickBooks、GitHub、Klaviyo、Zoom 连接器，以及 Meta 广告账户、Notion 和 Granola，可代用户处理邮件、会议、账单、订餐和购物。Meta 近期还接入百思买、Gap、丝芙兰、沃尔玛、Wayfair 等零售伙伴代为下单，但网站仍可能把智能体误当成爬虫拦截。",
+    "url": "https://techcrunch.com/2026/10/07/metas-muse-launches-on-ipad-just-a-month-after-its-mobile-debut/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261008-ai-10.jpg",
+    "published_at": "2026-10-08T02:30:57+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "个人智能体",
+      "AI应用"
+    ]
+  },
+  {
+    "title": "微软亚洲研究院开源 Agent Lightning v1.0：约 3,500 行代码，直接用真实智能体 harness 做强化学习",
+    "summary": "微软亚洲研究院提出「Harnessed Agentic RL」训练范式，并开源重建的 Agent Lightning v1.0：在智能体和模型之间放置一个 OpenAI 兼容的 LLM 代理，mini-SWE-agent、OpenHands 等现有 harness 无需改写，只需把模型端点指向代理即可接入 RL 训练，保证训练的就是实际部署的智能体。框架约 3,500 行代码，由 API 网关、Rollout 控制器和基于 verl 的训练器组成，智能体以标准 Kubernetes Job 运行，不依赖 Modal、E2B 等商业沙箱；Collocated Async RL 让 rollout 与训练共用 GPU，端到端比同步 RL 快约 2 倍。示例中仅用约 6,000 条样本，就把 Qwen3.5-9B 在 SWE-bench Verified 上的 Pass@1 从 41.8% 提升到 56.4%。",
+    "url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses/",
+    "source": "Microsoft Research",
+    "source_handle": "@MSFTResearch",
+    "image": "/assets/covers/cover-20261008-ai-11.jpg",
+    "published_at": "2026-10-08T00:00:00+08:00",
+    "tags": [
+      "微软",
+      "强化学习",
+      "智能体训练",
+      "开源"
+    ]
+  },
+  {
+    "title": "vLLM 优化 DeepSeek-V4.1-Flash 三周：智能体场景吞吐提升 5.3 倍、低并发提速 1.9 倍",
+    "summary": "vLLM 社区与 Inferact 在 DeepSeek-V4.1-Flash 发布后三周内持续优化，在 SemiAnalysis AgentX 智能体服务基准上，低并发速度比首日实现快 1.9 倍，150 TPS 约束下吞吐提升 5.3 倍。关键手段包括 SWA 有界重放配合 CUDA Graph（预填充计算减少 30–40%），以及集成 DeepSeek 新开源的 MegaAttention、Mega-mHC、Mega-Gate、DeepSelect 等内核，并把 all-reduce 与前后算子融合。博客也拆解了 V4.1 的因果编码器—解码器架构：解码时每 token 激活 16B 参数、预填充仅 8B，全局 KV 缓存压缩到每 token 约 890 字节；SWA 有界重放默认开启，可用 --no-swa-bounded-replay 关闭。",
+    "url": "https://vllm.ai/blog/2026-10-07-deepseek-v41-flash",
+    "source": "vLLM Blog",
+    "source_handle": "@vllm_project",
+    "image": "/assets/covers/cover-20261008-ai-12.jpg",
+    "published_at": "2026-10-07T08:00:00+08:00",
+    "tags": [
+      "vLLM",
+      "DeepSeek",
+      "推理优化",
+      "开源"
+    ]
+  },
+  {
+    "title": "Perplexity 开源 pplx-embed-v2-late 多模态检索模型：0.6B 与 9B 共享向量空间，文本、图片、文档页面一起搜",
+    "summary": "Perplexity 10 月 7 日发布 pplx-embed-v2-late 晚交互（late-interaction）嵌入模型，提供 0.6B 和 9B 两个尺寸，已在 Hugging Face 公开。模型采用 ColBERT 式架构，为每个 token 输出 128 维向量并用 MaxSim 打分，可统一检索文本、图像和渲染后的文档页面。两个尺寸共享同一嵌入空间，可以用 9B 离线建索引、用更快的 0.6B 编码在线查询；官方称在视觉文档检索基准 ViDoRe V3 上，0.6B 版可比肩激活参数约其五倍的模型。使用需 sentence-transformers ≥ 6.0.0 与 transformers ≥ 5.4.0，完整技术报告将于今年晚些时候发布。",
+    "url": "https://www.perplexity.ai/en-GB/hub/blog/multimodal-embeddings-beyond-a-single-vector",
+    "source": "Perplexity",
+    "source_handle": "@perplexity_ai",
+    "image": "/assets/covers/cover-20261008-ai-13.jpg",
+    "published_at": "2026-10-08T00:30:00+08:00",
+    "tags": [
+      "Perplexity",
+      "嵌入模型",
+      "多模态检索",
+      "开源"
+    ]
+  },
+  {
+    "title": "Google Research 三个月专利律师实验：AI 让作品普遍变好，但只有资深律师的独立判断力真正提升",
+    "summary": "Google Research 与 MIT 经济学家 David Autor 在 NBER 论文中报告一项随机对照实验：11 家知识产权律所的 133 名专利律师中，三分之二获准使用一款当时未发布的 Google Labs 专利撰写助手（现已并入 Gemini Notebook）。用 AI 后撰写质量在第 10 天提高 0.34 个标准差、第 90 天提高 0.38 个标准差，初级律师还平均快了约 18 分钟。但在禁用 AI 的第 90 天改稿测试中，提升完全来自 7 年以上经验的资深律师（+0.45 SD），初级律师平均没有进步，成绩反而两极分化。研究者认为，提升眼前的工作质量与培养长期职业判断是两个不同目标，对新人而言甚至可能相互冲突。",
+    "url": "https://research.google/blog/does-better-work-always-mean-better-workers/",
+    "source": "Google Research",
+    "source_handle": "@GoogleResearch",
+    "image": "/assets/covers/cover-20261008-ai-14.jpg",
+    "published_at": "2026-10-07T08:00:00+08:00",
+    "tags": [
+      "研究",
+      "职场技能",
+      "法律",
+      "Google"
+    ]
+  },
+  {
+    "title": "Biohub 牵头 18 亿美元「虚拟细胞」计划：Meta、Google DeepMind、Isomorphic Labs 合计出资 3 亿美元",
+    "summary": "据 The Decoder 援引路透社报道，扎克伯格与陈慧娴支持的非营利机构 Biohub 正协调一项总额 18 亿美元的计划，涵盖数据、实验设备与算力，目标是训练能预测细胞行为的 AI 模型以加速药物研发。其中 Meta、Google DeepMind 与 Isomorphic Labs 合计出资 3 亿美元，美国能源部五年内投入超过 5 亿美元用于实验测量和算力，NIH 负责协调此前由超 5 亿美元联邦经费产生的数据集，由 Biohub 统一标准化后用于 AI 训练。商业出资方对所资助的数据享有一年独占期，之后公开；首个数据集预计约一年后就绪。",
+    "url": "https://the-decoder.com/zuckerbergs-biohub-leads-a-1-8-billion-push-to-build-ai-models-that-predict-cell-behavior/",
+    "source": "The Decoder / Reuters",
+    "source_handle": "",
+    "image": "/assets/covers/cover-20261008-ai-15.jpg",
+    "published_at": "2026-10-08T01:58:20+08:00",
+    "tags": [
+      "生物AI",
+      "虚拟细胞",
+      "Meta",
+      "Google DeepMind"
+    ]
+  },
+  {
+    "title": "The Verge：AI 外卖初创 Bites 让用户在 ChatGPT 里直接向餐厅下单，DoorDash 致信餐厅示警",
+    "summary": "The Verge 报道，仅 10 人、在湾区签约约 300 家餐厅的初创公司 Bites 主打「AI 原生」：用户可通过 ChatGPT 中的 Bites 插件直接下单，订单经 Toast、Square 等收银系统直达餐厅，每单只收 1 美元附加费，而 DoorDash 对餐厅抽佣 15%–30%。8 月 DoorDash 给湾区餐厅发信，警告它们可能在未同意的情况下被列上 Bites，且「视各州法律可能违法」。The Verge 实测同一份披萨加饮料，经 ChatGPT + Bites 共 56.73 美元，DoorDash 为 70.29 美元；一位在 Bites 上有 13 家店的餐厅老板称，其订单已有约 65% 来自 Bites。Grubhub 联合创始人 Matt Maloney 也是 Bites 的联合创始人。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1005726/doordash-ai-agentic-food-delivery-bites",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20261008-ai-16.jpg",
+    "published_at": "2026-10-07T20:00:00+08:00",
+    "tags": [
+      "智能体电商",
+      "外卖",
+      "ChatGPT",
+      "AI应用"
+    ]
+  },
+  {
+    "title": "LangChain 重构 Deep Agents 的 Skills：工具绑定到技能按需加载，支持固定技能与线程内重载",
+    "summary": "LangChain 为 Deep Agents 更新 Agent Skills 支持，面向技能库扩张到上千个的企业场景。其一，工具可绑定到技能：在 SKILL.md 的 metadata.include_tools 中声明后，智能体读到该技能前工具 schema 不进上下文、提前调用会报未知工具；在支持对话中途加工具的 Anthropic、OpenAI 新模型上，还能保持提示缓存不失效。其二，固定技能（pinned skills）：应用可解析用户输入的 /meeting-prep 之类命令，在下一次模型调用前直接注入技能说明，省掉一次 read_file 往返。其三，线程内重载：把 skills_metadata 置为 None，长线程下一轮就会重新扫描技能库，拾取新增或修改的技能。",
+    "url": "https://www.langchain.com/blog/revamping-skills-in-deep-agents",
+    "source": "LangChain Blog",
+    "source_handle": "@LangChainAI",
+    "image": "/assets/covers/cover-20261008-ai-17.jpg",
+    "published_at": "2026-10-08T02:49:50+08:00",
+    "tags": [
+      "LangChain",
+      "Agent Skills",
+      "智能体开发",
+      "使用技巧"
+    ]
+  },
+  {
+    "title": "开发者用 Claude Opus 5.5「净室」复刻 Adobe 七件套：Photoshop、Premiere 等开源替代品放出，但远未完工",
+    "summary": "Ars Technica 报道，AI 视觉工具 Artcraft 转型推出七款开源应用，复刻 Photoshop、Illustrator、Premiere、Lightroom、After Effects、InDesign 和 Acrobat Pro 的界面与工具，用 Rust 编写并提供可在浏览器运行的 WebAssembly 版本，采用 MIT/Apache 许可。开发者 Brandon Thomas 称这些是用 Claude Opus 5.5 打造的「净室替代品」，起初宣称一个月内实现 100% 功能对等，随后改口为「以月而非以年计」；Hacker News 等社区则指出目前仍有大量缺陷。项目靠出售 Artcraft 视觉模型的 token 访问维持开发，Ars 指出若外观过于接近 Adobe，仍可能面临「商业外观」侵权风险。",
+    "url": "https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/",
+    "source": "Ars Technica",
+    "source_handle": "@arstechnica",
+    "image": "/assets/covers/cover-20261008-ai-18.jpg",
+    "published_at": "2026-10-08T05:56:42+08:00",
+    "tags": [
+      "Claude",
+      "开源",
+      "Adobe",
+      "AI编程"
+    ]
+  },
+  {
+    "title": "美国首例 AI 辅助流媒体刷量案宣判：用数十万首 AI 歌曲和机器人骗取约 809 万美元版税，获刑 18 个月",
+    "summary": "美国司法部称，北卡罗来纳州 54 岁男子 Michael Smith 是美国首位因 AI 辅助流媒体欺诈被刑事起诉的人，他在认罪后被判 18 个月监禁，并须没收约 809 万美元所得。Smith 自 2017 年起用假邮箱和骗取的借记卡在 Amazon Music、Apple Music、Spotify、YouTube Music 注册数千个账号，再用软件让机器人持续播放他声称拥有、实为 AI 生成的数十万首歌曲，并把播放量分散开以躲避检测，七年未被发现。司法部举例称，2023 年 4 月其假歌曲被刷播 8,090 万次，同期泰勒·斯威夫特全部作品仅 930 万次。",
+    "url": "https://arstechnica.com/tech-policy/2026/10/outstreaming-taylor-swift-is-easy-with-10k-bots-and-ai-songs-fraudster-admits/",
+    "source": "Ars Technica",
+    "source_handle": "@arstechnica",
+    "image": "/assets/covers/cover-20261008-ai-19.jpg",
+    "published_at": "2026-10-08T01:57:39+08:00",
+    "tags": [
+      "AI音乐",
+      "流媒体欺诈",
+      "司法",
+      "版税"
+    ]
+  }
+]

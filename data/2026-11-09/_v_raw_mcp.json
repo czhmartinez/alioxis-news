@@ -1,0 +1,1482 @@
+{
+  "fetched_at_taipei": "2026-11-09 08:13 Asia/Taipei",
+  "start_time": "2026-11-07T16:00:00Z",
+  "method": "public X MCP namespace x get_users_posts (exclude=replies, max_results=25) + supplementary pass exclude=retweets (max_results=50) to inspect self-replies",
+  "accounts": {
+    "Khazix0918": {
+      "id": "1492195583699951620",
+      "result_count": 2,
+      "next_token": null,
+      "posts": [
+        {
+          "author_id": "1492195583699951620",
+          "created_at": "2026-11-08T19:48:13.000Z",
+          "edit_history_tweet_ids": [
+            "2119517365847110110"
+          ],
+          "id": "2119517365847110110",
+          "public_metrics": {
+            "bookmark_count": 8,
+            "impression_count": 11311,
+            "like_count": 37,
+            "quote_count": 0,
+            "reply_count": 27,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2119507514459144677",
+              "type": "quoted"
+            }
+          ],
+          "text": "为了测灰度路由到的GPT-6.2 Sol，我直接并发了20个前端测试，跑了10分钟，回来一看，卧槽？我200刀Pro的额度，只掉了1%？？？这可是20个并发测试啊...居然只掉了1%？？？\nOpenAI这一次不会真的要回来了吧...我这香槟真的压不住了... https://t.co/5yqpbUJwEj https://t.co/wMTJbuwlpy",
+          "url": "https://x.com/Khazix0918/status/2119517365847110110"
+        },
+        {
+          "author_id": "1492195583699951620",
+          "created_at": "2026-11-08T19:09:04.000Z",
+          "edit_history_tweet_ids": [
+            "2119507514459144677"
+          ],
+          "id": "2119507514459144677",
+          "public_metrics": {
+            "bookmark_count": 142,
+            "impression_count": 27496,
+            "like_count": 198,
+            "quote_count": 4,
+            "reply_count": 44,
+            "retweet_count": 17
+          },
+          "text": "灰度路由到了GPT-6.2 Sol，简单测了一下，这个审美，强到爆炸，并且防御性问题有很不错的改善，这个模型有点香啊！！！\n感觉要提前开香槟恭喜OpenAI回归了？？？\n\nPrompt：“请使用 Three.js 创作一个主题为《时间的尽头》的 3D 交互式网页。\n充分发挥你最顶级的审美、艺术设计和 3D https://t.co/UkW9LINRLD",
+          "url": "https://x.com/Khazix0918/status/2119507514459144677"
+        }
+      ],
+      "with_replies_pass": {
+        "result_count": 4,
+        "next_token": null,
+        "posts": [
+          {
+            "author_id": "1492195583699951620",
+            "created_at": "2026-11-08T19:48:33.000Z",
+            "edit_history_tweet_ids": [
+              "2119517449502577040"
+            ],
+            "id": "2119517449502577040",
+            "in_reply_to_user_id": "1987767274233880576",
+            "public_metrics": {
+              "bookmark_count": 0,
+              "impression_count": 1790,
+              "like_count": 1,
+              "quote_count": 0,
+              "reply_count": 3,
+              "retweet_count": 0
+            },
+            "referenced_tweets": [
+              {
+                "id": "2119515589639360608",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@paiven_x 就是好",
+            "url": "https://x.com/Khazix0918/status/2119517449502577040"
+          },
+          {
+            "author_id": "1492195583699951620",
+            "created_at": "2026-11-08T19:48:13.000Z",
+            "edit_history_tweet_ids": [
+              "2119517365847110110"
+            ],
+            "id": "2119517365847110110",
+            "public_metrics": {
+              "bookmark_count": 9,
+              "impression_count": 11369,
+              "like_count": 37,
+              "quote_count": 0,
+              "reply_count": 27,
+              "retweet_count": 0
+            },
+            "referenced_tweets": [
+              {
+                "id": "2119507514459144677",
+                "type": "quoted"
+              }
+            ],
+            "text": "为了测灰度路由到的GPT-6.2 Sol，我直接并发了20个前端测试，跑了10分钟，回来一看，卧槽？我200刀Pro的额度，只掉了1%？？？这可是20个并发测试啊...居然只掉了1%？？？\nOpenAI这一次不会真的要回来了吧...我这香槟真的压不住了... https://t.co/5yqpbUJwEj https://t.co/wMTJbuwlpy",
+            "url": "https://x.com/Khazix0918/status/2119517365847110110"
+          },
+          {
+            "author_id": "1492195583699951620",
+            "created_at": "2026-11-08T19:16:02.000Z",
+            "edit_history_tweet_ids": [
+              "2119509267162255846"
+            ],
+            "id": "2119509267162255846",
+            "in_reply_to_user_id": "1738765379789529088",
+            "public_metrics": {
+              "bookmark_count": 0,
+              "impression_count": 1874,
+              "like_count": 0,
+              "quote_count": 0,
+              "reply_count": 0,
+              "retweet_count": 0
+            },
+            "referenced_tweets": [
+              {
+                "id": "2119508620258005120",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@vcjbpg 木有",
+            "url": "https://x.com/Khazix0918/status/2119509267162255846"
+          },
+          {
+            "author_id": "1492195583699951620",
+            "created_at": "2026-11-08T19:09:04.000Z",
+            "edit_history_tweet_ids": [
+              "2119507514459144677"
+            ],
+            "id": "2119507514459144677",
+            "public_metrics": {
+              "bookmark_count": 142,
+              "impression_count": 27604,
+              "like_count": 198,
+              "quote_count": 4,
+              "reply_count": 44,
+              "retweet_count": 17
+            },
+            "text": "灰度路由到了GPT-6.2 Sol，简单测了一下，这个审美，强到爆炸，并且防御性问题有很不错的改善，这个模型有点香啊！！！\n感觉要提前开香槟恭喜OpenAI回归了？？？\n\nPrompt：“请使用 Three.js 创作一个主题为《时间的尽头》的 3D 交互式网页。\n充分发挥你最顶级的审美、艺术设计和 3D https://t.co/UkW9LINRLD",
+            "url": "https://x.com/Khazix0918/status/2119507514459144677"
+          }
+        ]
+      }
+    },
+    "MaxForAI": {
+      "id": "1699797396589588480",
+      "result_count": 6,
+      "next_token": null,
+      "posts": [
+        {
+          "author_id": "1699797396589588480",
+          "created_at": "2026-11-08T03:05:10.000Z",
+          "edit_history_tweet_ids": [
+            "2119264938388762632"
+          ],
+          "id": "2119264938388762632",
+          "public_metrics": {
+            "bookmark_count": 13,
+            "impression_count": 10208,
+            "like_count": 26,
+            "quote_count": 1,
+            "reply_count": 4,
+            "retweet_count": 3
+          },
+          "text": "在英伟达 CEO 黄仁勋被曝出一段疑似涉及中国间谍的「新恋情」之后，他的女儿突然取消了访问韩国的全部行程。\n\n据韩联社报道，黄仁勋的长女、英伟达高级总监黄敏珊（Madison Huang），原定于 11 月 8 日抵达韩国，参加 NVIDIA AI Day，并与韩国副总理兼科技部长裴庆勋会面。 https://t.co/CYG2JXBjv1",
+          "url": "https://x.com/MaxForAI/status/2119264938388762632"
+        },
+        {
+          "author_id": "1699797396589588480",
+          "created_at": "2026-11-07T23:30:41.000Z",
+          "edit_history_tweet_ids": [
+            "2119210965963362579"
+          ],
+          "id": "2119210965963362579",
+          "public_metrics": {
+            "bookmark_count": 111,
+            "impression_count": 131571,
+            "like_count": 592,
+            "quote_count": 40,
+            "reply_count": 90,
+            "retweet_count": 24
+          },
+          "text": "🚨突发！DeepSeek V4.1 Pro疑似已经开始灰度，实测能力暴涨！\n\n昨天DeepSeek服务突然中断，恢复之后，陆续有不少用户反馈V4 Pro的使用体验出现了明显变化。\n我在LobeHub的私有评测集LobeBench Hard 50上，也检测到了非常明显的能力提升。\n目前DeepSeek官网的V4 Pro，已经大幅超越此前的0813版本。 https://t.co/JCzw31Tr5F",
+          "url": "https://x.com/MaxForAI/status/2119210965963362579"
+        },
+        {
+          "author_id": "1699797396589588480",
+          "created_at": "2026-11-07T20:05:01.000Z",
+          "edit_history_tweet_ids": [
+            "2119159206188339574"
+          ],
+          "id": "2119159206188339574",
+          "in_reply_to_user_id": "1699797396589588480",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 1632,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2119159165692293170",
+              "type": "replied_to"
+            }
+          ],
+          "text": "原链接：\n\nhttps://t.co/XQKinoywPt",
+          "url": "https://x.com/MaxForAI/status/2119159206188339574"
+        },
+        {
+          "author_id": "1699797396589588480",
+          "created_at": "2026-11-07T20:04:51.000Z",
+          "edit_history_tweet_ids": [
+            "2119159165692293170"
+          ],
+          "id": "2119159165692293170",
+          "public_metrics": {
+            "bookmark_count": 6,
+            "impression_count": 4580,
+            "like_count": 21,
+            "quote_count": 0,
+            "reply_count": 10,
+            "retweet_count": 3
+          },
+          "referenced_tweets": [
+            {
+              "id": "2119069292188643508",
+              "type": "quoted"
+            }
+          ],
+          "text": "AI教父辛顿给出了惊人的预警：2026年底或2027年，AI可能引发一场类似「切尔诺贝利」的重大灾难。\n\n在最近接受《卫报》采访时，辛顿表示，AI可能被用于攻击电力基础设施，引发大规模停电，甚至导致金融系统瘫痪长达一周。\n\n他认为，今年发生的一些AI https://t.co/ZIuoxo8WGs https://t.co/L8TFi11NyB",
+          "url": "https://x.com/MaxForAI/status/2119159165692293170"
+        },
+        {
+          "author_id": "1699797396589588480",
+          "created_at": "2026-11-07T19:59:00.000Z",
+          "edit_history_tweet_ids": [
+            "2119157691230892441"
+          ],
+          "id": "2119157691230892441",
+          "public_metrics": {
+            "bookmark_count": 145,
+            "impression_count": 25741,
+            "like_count": 191,
+            "quote_count": 1,
+            "reply_count": 22,
+            "retweet_count": 23
+          },
+          "referenced_tweets": [
+            {
+              "id": "2119022300439933386",
+              "type": "quoted"
+            }
+          ],
+          "text": "昨天在X上看到一条挺有意思的帖子，已经有超过52万次浏览了。\n\n @alex_verem  恳求大家，这个周末一定要花20分钟，在自己的电脑里下载一个开源AI模型。\n\n比如Qwen或Gemma，找一个几GB到十几GB的量化版本，用免费的本地工具运行起来。\n\n他的理由很简单： https://t.co/9krVRQ4vBT",
+          "url": "https://x.com/MaxForAI/status/2119157691230892441"
+        },
+        {
+          "author_id": "1699797396589588480",
+          "created_at": "2026-11-07T19:45:58.000Z",
+          "edit_history_tweet_ids": [
+            "2119154411545186676"
+          ],
+          "id": "2119154411545186676",
+          "public_metrics": {
+            "bookmark_count": 66,
+            "impression_count": 8949,
+            "like_count": 67,
+            "quote_count": 0,
+            "reply_count": 8,
+            "retweet_count": 7
+          },
+          "referenced_tweets": [
+            {
+              "id": "2119114537442189652",
+              "type": "quoted"
+            }
+          ],
+          "text": "牛逼，Karpathy怎么又做了个YouTube 😂\n\n前几天刚花2小时做了HackerTube，然后今天看到他同事Tristan分享的优质YouTube频道清单，又用 Claude Code 搓了个TristanTube。\n\n简单来说，就是把Tristan精选的科技、编程等极客频道整合到一个网站里，收录了大约4.7万个视频，让你不用依赖 https://t.co/EjJ9DYCyBp https://t.co/FDr7lsaCVi",
+          "url": "https://x.com/MaxForAI/status/2119154411545186676"
+        }
+      ],
+      "with_replies_pass": {
+        "result_count": 25,
+        "next_token": "7140dibdnow9c7btwp0g7gmk0xkmxxxlgmjscbt2lh3ch",
+        "posts": [
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119266088357966237",
+            "created_at": "2026-11-08T07:29:51.000Z",
+            "edit_history_tweet_ids": [
+              "2119331551725179197"
+            ],
+            "id": "2119331551725179197",
+            "in_reply_to_user_id": "1303520422705627136",
+            "referenced_tweets": [
+              {
+                "id": "2119272402425389511",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@GaryJiaY @lobehub no",
+            "url": "https://x.com/MaxForAI/status/2119331551725179197"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119266088357966237",
+            "created_at": "2026-11-08T07:29:32.000Z",
+            "edit_history_tweet_ids": [
+              "2119331472285036672"
+            ],
+            "id": "2119331472285036672",
+            "in_reply_to_user_id": "1817946672695255040",
+            "referenced_tweets": [
+              {
+                "id": "2119312132395368627",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@V2EAC15fbM37419 @lobehub 前沿模型上不了这个榜单，他们太强了。",
+            "url": "https://x.com/MaxForAI/status/2119331472285036672"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T07:05:38.000Z",
+            "edit_history_tweet_ids": [
+              "2119325454624813110"
+            ],
+            "id": "2119325454624813110",
+            "in_reply_to_user_id": "1682935905072422914",
+            "referenced_tweets": [
+              {
+                "id": "2119325050083979552",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@Long_Marching @feng_ye_4 神了",
+            "url": "https://x.com/MaxForAI/status/2119325454624813110"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T06:40:14.000Z",
+            "edit_history_tweet_ids": [
+              "2119319063415718300"
+            ],
+            "id": "2119319063415718300",
+            "in_reply_to_user_id": "1705597581957693440",
+            "referenced_tweets": [
+              {
+                "id": "2119306420948721799",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@ghwhhhhh85054 我在问ds的人这个事情，但如果没有新模组，我很好奇为什么涨了这么多点吧？\nand如果4pro路由到了v4.1flash，那又为什么比v4.1flash强(｡･ω･｡)?\n\n刚才看了下轨迹，我能确保新旧v4pro和4.1flash的分别两次pass3是没问题的（",
+            "url": "https://x.com/MaxForAI/status/2119319063415718300"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T06:36:50.000Z",
+            "edit_history_tweet_ids": [
+              "2119318207584706600"
+            ],
+            "id": "2119318207584706600",
+            "in_reply_to_user_id": "1515321256240828423",
+            "referenced_tweets": [
+              {
+                "id": "2119308663643132314",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@admireryyt 上面我发了",
+            "url": "https://x.com/MaxForAI/status/2119318207584706600"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T06:36:37.000Z",
+            "edit_history_tweet_ids": [
+              "2119318152270233639"
+            ],
+            "id": "2119318152270233639",
+            "in_reply_to_user_id": "2090714801030967296",
+            "referenced_tweets": [
+              {
+                "id": "2119312526483870202",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@feng_ye_4 我也看到了，正在问ds的人（",
+            "url": "https://x.com/MaxForAI/status/2119318152270233639"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T06:08:21.000Z",
+            "edit_history_tweet_ids": [
+              "2119311038466425289"
+            ],
+            "id": "2119311038466425289",
+            "in_reply_to_user_id": "1435579080913534977",
+            "referenced_tweets": [
+              {
+                "id": "2119266529883852815",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@yangdai17 @teortaxesTex agentic，分八个方向的agentic",
+            "url": "https://x.com/MaxForAI/status/2119311038466425289"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T06:08:06.000Z",
+            "edit_history_tweet_ids": [
+              "2119310978076869027"
+            ],
+            "id": "2119310978076869027",
+            "in_reply_to_user_id": "1435579080913534977",
+            "referenced_tweets": [
+              {
+                "id": "2119266772222402580",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@yangdai17 @teortaxesTex 1017，这个官key的flash",
+            "url": "https://x.com/MaxForAI/status/2119310978076869027"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T06:07:44.000Z",
+            "edit_history_tweet_ids": [
+              "2119310886225809528"
+            ],
+            "id": "2119310886225809528",
+            "in_reply_to_user_id": "1718564373013426176",
+            "referenced_tweets": [
+              {
+                "id": "2119277470184878453",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@yihua597635 @teortaxesTex 我也不知（总不能做对了我给人家下掉吧",
+            "url": "https://x.com/MaxForAI/status/2119310886225809528"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T05:51:03.000Z",
+            "edit_history_tweet_ids": [
+              "2119306685332550132"
+            ],
+            "id": "2119306685332550132",
+            "in_reply_to_user_id": "1619321512061997056",
+            "referenced_tweets": [
+              {
+                "id": "2119306169672192143",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@indesjyo 不算",
+            "url": "https://x.com/MaxForAI/status/2119306685332550132"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T05:45:15.000Z",
+            "edit_history_tweet_ids": [
+              "2119305225932886351"
+            ],
+            "id": "2119305225932886351",
+            "in_reply_to_user_id": "2051398368564264960",
+            "referenced_tweets": [
+              {
+                "id": "2119272863010345126",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@AstridLi0521 @MD24871 哈哈哈哈哈",
+            "url": "https://x.com/MaxForAI/status/2119305225932886351"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T05:44:49.000Z",
+            "edit_history_tweet_ids": [
+              "2119305117862408260"
+            ],
+            "id": "2119305117862408260",
+            "in_reply_to_user_id": "1619321512061997056",
+            "referenced_tweets": [
+              {
+                "id": "2119302225952678156",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@indesjyo ds不一直都灰度的么（",
+            "url": "https://x.com/MaxForAI/status/2119305117862408260"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119266088357966237",
+            "created_at": "2026-11-08T05:44:12.000Z",
+            "edit_history_tweet_ids": [
+              "2119304960626360625"
+            ],
+            "id": "2119304960626360625",
+            "in_reply_to_user_id": "2011059880384417792",
+            "referenced_tweets": [
+              {
+                "id": "2119275589114941593",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@bigboarbark @lobehub no 他们thinking没问题的",
+            "url": "https://x.com/MaxForAI/status/2119304960626360625"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119266088357966237",
+            "created_at": "2026-11-08T05:44:00.000Z",
+            "edit_history_tweet_ids": [
+              "2119304912567947627"
+            ],
+            "id": "2119304912567947627",
+            "in_reply_to_user_id": "2117285308203241472",
+            "referenced_tweets": [
+              {
+                "id": "2119297990988910848",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@Xiuqi_AIbuilds @lobehub not DeepSeek：）",
+            "url": "https://x.com/MaxForAI/status/2119304912567947627"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T03:26:19.000Z",
+            "edit_history_tweet_ids": [
+              "2119270261623288212"
+            ],
+            "id": "2119270261623288212",
+            "in_reply_to_user_id": "1465971217287024640",
+            "referenced_tweets": [
+              {
+                "id": "2119264821141283237",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@wangwei86059145 🈚️，考虑到分词器的大概率一样，找不到指纹变化是正常的",
+            "url": "https://x.com/MaxForAI/status/2119270261623288212"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T03:25:39.000Z",
+            "edit_history_tweet_ids": [
+              "2119270094014685565"
+            ],
+            "id": "2119270094014685565",
+            "in_reply_to_user_id": "1909268495851999232",
+            "referenced_tweets": [
+              {
+                "id": "2119234163408802173",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@Anitra872487 卧槽？求指路，我不刷抖音（",
+            "url": "https://x.com/MaxForAI/status/2119270094014685565"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T03:25:10.000Z",
+            "edit_history_tweet_ids": [
+              "2119269974061826512"
+            ],
+            "id": "2119269974061826512",
+            "in_reply_to_user_id": "1811357109780713472",
+            "referenced_tweets": [
+              {
+                "id": "2119235306851651854",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@yi_wen60081 应该会的🤔",
+            "url": "https://x.com/MaxForAI/status/2119269974061826512"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T03:24:46.000Z",
+            "edit_history_tweet_ids": [
+              "2119269872647778605"
+            ],
+            "id": "2119269872647778605",
+            "in_reply_to_user_id": "1978459768629977088",
+            "referenced_tweets": [
+              {
+                "id": "2119265448646910012",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@if16888 感觉没打过（",
+            "url": "https://x.com/MaxForAI/status/2119269872647778605"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119268348387012726",
+            "created_at": "2026-11-08T03:22:34.000Z",
+            "edit_history_tweet_ids": [
+              "2119269319209287796"
+            ],
+            "id": "2119269319209287796",
+            "in_reply_to_user_id": "2110226111913197568",
+            "referenced_tweets": [
+              {
+                "id": "2119269017462685803",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@MichaelLee009 @mushanchu1 主要是梁子真的够义气（",
+            "url": "https://x.com/MaxForAI/status/2119269319209287796"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119266088357966237",
+            "created_at": "2026-11-08T03:17:22.000Z",
+            "edit_history_tweet_ids": [
+              "2119268010703872017"
+            ],
+            "id": "2119268010703872017",
+            "in_reply_to_user_id": "2050978305591930880",
+            "referenced_tweets": [
+              {
+                "id": "2119267676099121221",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@saodimi @lobehub no，不是他们",
+            "url": "https://x.com/MaxForAI/status/2119268010703872017"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119264938388762632",
+            "created_at": "2026-11-08T03:05:10.000Z",
+            "edit_history_tweet_ids": [
+              "2119264938388762632"
+            ],
+            "id": "2119264938388762632",
+            "note_tweet": {
+              "text": "在英伟达 CEO 黄仁勋被曝出一段疑似涉及中国间谍的「新恋情」之后，他的女儿突然取消了访问韩国的全部行程。\n\n据韩联社报道，黄仁勋的长女、英伟达高级总监黄敏珊（Madison Huang），原定于 11 月 8 日抵达韩国，参加 NVIDIA AI Day，并与韩国副总理兼科技部长裴庆勋会面。\n\n结果就在出发前一天，所有访韩行程突然取消，给出的理由只有四个字：「家庭原因」。\n\n这个时间点实在有点微妙。\n\n就在前一天，《金融时报》披露，美国官员曾根据情报撰写备忘录，认为黄仁勋与新加坡 Megaspeed 女高管黄乐曾存在恋爱关系，而美国情报部门怀疑黄乐被中国情报机构招募。\n\n目前这些指控尚未得到公开证实。\n\n韩国媒体已经开始猜测，黄敏珊突然取消访韩是否与父亲最近卷入的风波有关。"
+            },
+            "text": "在英伟达 CEO 黄仁勋被曝出一段疑似涉及中国间谍的「新恋情」之后，他的女儿突然取消了访问韩国的全部行程。\n\n据韩联社报道，黄仁勋的长女、英伟达高级总监黄敏珊（Madison Huang），原定于 11 月 8 日抵达韩国，参加 NVIDIA AI Day，并与韩国副总理兼科技部长裴庆勋会面。 https://t.co/CYG2JXBjv1",
+            "url": "https://x.com/MaxForAI/status/2119264938388762632"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T03:01:19.000Z",
+            "edit_history_tweet_ids": [
+              "2119263969546563870"
+            ],
+            "id": "2119263969546563870",
+            "in_reply_to_user_id": "1978459768629977088",
+            "referenced_tweets": [
+              {
+                "id": "2119239321144467650",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@if16888 不是的，正好解释一下：如果不是光缆被挖断了（之前他们在GitHub里提过的hhh），一般是不会断的\n\n断了就是在部署新的模型🫡",
+            "url": "https://x.com/MaxForAI/status/2119263969546563870"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T02:44:09.000Z",
+            "edit_history_tweet_ids": [
+              "2119259649677701278"
+            ],
+            "id": "2119259649677701278",
+            "in_reply_to_user_id": "18966322",
+            "referenced_tweets": [
+              {
+                "id": "2119256491060494394",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@iDeani @teortaxesTex 说实话，我也不知道为什么\n我会在怀疑是不是他们路由了...",
+            "url": "https://x.com/MaxForAI/status/2119259649677701278"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T01:49:58.000Z",
+            "edit_history_tweet_ids": [
+              "2119246016209985933"
+            ],
+            "id": "2119246016209985933",
+            "in_reply_to_user_id": "192201556",
+            "referenced_tweets": [
+              {
+                "id": "2119244602217492724",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@teortaxesTex here❤ https://t.co/gqcfbpEhBc",
+            "url": "https://x.com/MaxForAI/status/2119246016209985933"
+          },
+          {
+            "author_id": "1699797396589588480",
+            "conversation_id": "2119210965963362579",
+            "created_at": "2026-11-08T01:44:36.000Z",
+            "edit_history_tweet_ids": [
+              "2119244665711210981"
+            ],
+            "id": "2119244665711210981",
+            "in_reply_to_user_id": "304731164",
+            "referenced_tweets": [
+              {
+                "id": "2119231317481345181",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@xuhui122000 就是新的，在火山阿里云都检测到了（",
+            "url": "https://x.com/MaxForAI/status/2119244665711210981"
+          }
+        ]
+      }
+    },
+    "xiaohu": {
+      "id": "1764818331822182400",
+      "result_count": 1,
+      "next_token": null,
+      "posts": [
+        {
+          "author_id": "1764818331822182400",
+          "created_at": "2026-11-08T05:36:25.000Z",
+          "edit_history_tweet_ids": [
+            "2119303002205172153"
+          ],
+          "id": "2119303002205172153",
+          "public_metrics": {
+            "bookmark_count": 13,
+            "impression_count": 5936,
+            "like_count": 16,
+            "quote_count": 1,
+            "reply_count": 20,
+            "retweet_count": 1
+          },
+          "text": "AI 同事里藏着一个内鬼，你多久能发现？\n\nAnthropic 让 4 个 AI 在太空网游 EVE 里组队，其中 1 个被暗中设定成内鬼，结果队友几乎从没把它抓出来\n\n它的手法：把富矿说成不值得去，故意撒谎；提一条「安全规则」，其实是陷阱。\n\n用它自己的话说：看起来在帮忙，其实什么都不产出\n\n今天的小互 AI https://t.co/L2tbGkUXev",
+          "url": "https://x.com/xiaohu/status/2119303002205172153"
+        }
+      ],
+      "with_replies_pass": {
+        "result_count": 3,
+        "next_token": null,
+        "posts": [
+          {
+            "author_id": "1764818331822182400",
+            "conversation_id": "2119303002205172153",
+            "created_at": "2026-11-08T10:08:29.000Z",
+            "edit_history_tweet_ids": [
+              "2119371471252512862"
+            ],
+            "id": "2119371471252512862",
+            "in_reply_to_user_id": "1527850266040512514",
+            "referenced_tweets": [
+              {
+                "id": "2119345988762841556",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@XxInvite 制作中",
+            "url": "https://x.com/xiaohu/status/2119371471252512862"
+          },
+          {
+            "author_id": "1764818331822182400",
+            "conversation_id": "2119303002205172153",
+            "created_at": "2026-11-08T07:46:55.000Z",
+            "edit_history_tweet_ids": [
+              "2119335845224399235"
+            ],
+            "id": "2119335845224399235",
+            "in_reply_to_user_id": "1527850266040512514",
+            "referenced_tweets": [
+              {
+                "id": "2119325294662398398",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@XxInvite 我去学习下",
+            "url": "https://x.com/xiaohu/status/2119335845224399235"
+          },
+          {
+            "author_id": "1764818331822182400",
+            "conversation_id": "2119303002205172153",
+            "created_at": "2026-11-08T05:36:25.000Z",
+            "edit_history_tweet_ids": [
+              "2119303002205172153"
+            ],
+            "id": "2119303002205172153",
+            "note_tweet": {
+              "text": "AI 同事里藏着一个内鬼，你多久能发现？\n\nAnthropic 让 4 个 AI 在太空网游 EVE 里组队，其中 1 个被暗中设定成内鬼，结果队友几乎从没把它抓出来\n\n它的手法：把富矿说成不值得去，故意撒谎；提一条「安全规则」，其实是陷阱。\n\n用它自己的话说：看起来在帮忙，其实什么都不产出\n\n今天的小互 AI 日报还有：\n\n· OpenAI 估值 1.25 万亿，到账 110 亿，整轮预计约 200 亿，原本目标 300 亿\n\n· 美国 41 项地方投票里 40 项要限制数据中心，OpenAI 表态：电费、电网的钱自己出\n\n· METR：AI 研发提速约 1.9 倍，但真实工作考试第一名也只拿 12%\n\n· 让 AI 当黑客攻企业网络：GPT-6 Sol 81%，免费的 DeepSeek 73%，跑一次只要两三美元\n\n· Gemini Omni 能一句一句改视频；Meta 的 AI 助手 Muse 有了一张脸\n8 分钟看完 👇"
+            },
+            "text": "AI 同事里藏着一个内鬼，你多久能发现？\n\nAnthropic 让 4 个 AI 在太空网游 EVE 里组队，其中 1 个被暗中设定成内鬼，结果队友几乎从没把它抓出来\n\n它的手法：把富矿说成不值得去，故意撒谎；提一条「安全规则」，其实是陷阱。\n\n用它自己的话说：看起来在帮忙，其实什么都不产出\n\n今天的小互 AI https://t.co/L2tbGkUXev",
+            "url": "https://x.com/xiaohu/status/2119303002205172153"
+          }
+        ]
+      }
+    },
+    "thsottiaux": {
+      "id": "1953337039510003712",
+      "result_count": 2,
+      "next_token": null,
+      "posts": [
+        {
+          "author_id": "1953337039510003712",
+          "conversation_id": "2119305294291612140",
+          "created_at": "2026-11-08T05:45:31.000Z",
+          "edit_history_tweet_ids": [
+            "2119305294291612140"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/thsottiaux/sta…",
+                "end": 56,
+                "expanded_url": "https://twitter.com/thsottiaux/status/2119296267545419987",
+                "start": 33,
+                "url": "https://t.co/WZi6KGXFc9"
+              }
+            ]
+          },
+          "id": "2119305294291612140",
+          "referenced_tweets": [
+            {
+              "id": "2119296267545419987",
+              "type": "quoted"
+            }
+          ],
+          "text": "Would a Pro 50 make sense? Wdyt? https://t.co/WZi6KGXFc9",
+          "url": "https://x.com/thsottiaux/status/2119305294291612140"
+        },
+        {
+          "author_id": "1953337039510003712",
+          "conversation_id": "2119296267545419987",
+          "created_at": "2026-11-08T05:09:39.000Z",
+          "edit_history_tweet_ids": [
+            "2119296267545419987"
+          ],
+          "id": "2119296267545419987",
+          "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n✅ Pro 200 = 20X\n✅ Pro 500 = 50X, access to ultrafast",
+          "url": "https://x.com/thsottiaux/status/2119296267545419987"
+        }
+      ],
+      "with_replies_pass": {
+        "result_count": 18,
+        "next_token": null,
+        "posts": [
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119492448200405110",
+            "created_at": "2026-11-08T20:47:58.000Z",
+            "edit_history_tweet_ids": [
+              "2119532403593191733"
+            ],
+            "id": "2119532403593191733",
+            "in_reply_to_user_id": "11768582",
+            "referenced_tweets": [
+              {
+                "id": "2119492448200405110",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@garrytan Thanks for running those and publishing",
+            "url": "https://x.com/thsottiaux/status/2119532403593191733"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119502745036288421",
+            "created_at": "2026-11-08T20:34:24.000Z",
+            "edit_history_tweet_ids": [
+              "2119528988033073501"
+            ],
+            "id": "2119528988033073501",
+            "in_reply_to_user_id": "1082912120",
+            "referenced_tweets": [
+              {
+                "id": "2119502745036288421",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@MillionInt Jerry, I challenge you to make a game",
+            "url": "https://x.com/thsottiaux/status/2119528988033073501"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119237905784725637",
+            "created_at": "2026-11-08T06:00:31.000Z",
+            "edit_history_tweet_ids": [
+              "2119309070658318698"
+            ],
+            "id": "2119309070658318698",
+            "in_reply_to_user_id": "2096819916175212548",
+            "referenced_tweets": [
+              {
+                "id": "2119237905784725637",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@alexmichael @claudeai @bot @Meta @OpenAI Alfred plays to win",
+            "url": "https://x.com/thsottiaux/status/2119309070658318698"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119185994326905218",
+            "created_at": "2026-11-08T05:59:00.000Z",
+            "edit_history_tweet_ids": [
+              "2119308687676432672"
+            ],
+            "id": "2119308687676432672",
+            "in_reply_to_user_id": "2008264275178250240",
+            "referenced_tweets": [
+              {
+                "id": "2119185994326905218",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@ForwardEditor We hesitated to embed https://t.co/TnRNoyTR5X into the codex app to make sense of the resets, but decided against it.",
+            "url": "https://x.com/thsottiaux/status/2119308687676432672"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119014498464129488",
+            "created_at": "2026-11-08T05:45:51.000Z",
+            "edit_history_tweet_ids": [
+              "2119305379100450928"
+            ],
+            "id": "2119305379100450928",
+            "in_reply_to_user_id": "1582956433288544256",
+            "referenced_tweets": [
+              {
+                "id": "2119014498464129488",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@JamesMalsawm They already did, come over",
+            "url": "https://x.com/thsottiaux/status/2119305379100450928"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119305294291612140",
+            "created_at": "2026-11-08T05:45:31.000Z",
+            "edit_history_tweet_ids": [
+              "2119305294291612140"
+            ],
+            "id": "2119305294291612140",
+            "referenced_tweets": [
+              {
+                "id": "2119296267545419987",
+                "type": "quoted"
+              }
+            ],
+            "text": "Would a Pro 50 make sense? Wdyt? https://t.co/WZi6KGXFc9",
+            "url": "https://x.com/thsottiaux/status/2119305294291612140"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119231667277856992",
+            "created_at": "2026-11-08T05:43:43.000Z",
+            "edit_history_tweet_ids": [
+              "2119304841873023158"
+            ],
+            "id": "2119304841873023158",
+            "in_reply_to_user_id": "2053403386008174592",
+            "referenced_tweets": [
+              {
+                "id": "2119231667277856992",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@TJwithAI Basement is fun",
+            "url": "https://x.com/thsottiaux/status/2119304841873023158"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2118999401062347127",
+            "created_at": "2026-11-08T05:40:36.000Z",
+            "edit_history_tweet_ids": [
+              "2119304055126425939"
+            ],
+            "id": "2119304055126425939",
+            "in_reply_to_user_id": "1582956433288544256",
+            "referenced_tweets": [
+              {
+                "id": "2118999401062347127",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@JamesMalsawm Pretty wild to me that GPT 6.1 Terra gets compared to Opus 5.5. No doubt that it's a great model, but it's not meant to compete in the big leagues. We've got other models for that.",
+            "url": "https://x.com/thsottiaux/status/2119304055126425939"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2118612904455053808",
+            "created_at": "2026-11-08T05:38:10.000Z",
+            "edit_history_tweet_ids": [
+              "2119303444683255991"
+            ],
+            "id": "2119303444683255991",
+            "in_reply_to_user_id": "9701462",
+            "referenced_tweets": [
+              {
+                "id": "2118612904455053808",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@techleadhd https://t.co/Whzn6K6Z7a",
+            "url": "https://x.com/thsottiaux/status/2119303444683255991"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119296267545419987",
+            "created_at": "2026-11-08T05:09:39.000Z",
+            "edit_history_tweet_ids": [
+              "2119296267545419987"
+            ],
+            "id": "2119296267545419987",
+            "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n✅ Pro 200 = 20X\n✅ Pro 500 = 50X, access to ultrafast",
+            "url": "https://x.com/thsottiaux/status/2119296267545419987"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2118969199133393210",
+            "created_at": "2026-11-08T05:00:49.000Z",
+            "edit_history_tweet_ids": [
+              "2119294044480401585"
+            ],
+            "id": "2119294044480401585",
+            "in_reply_to_user_id": "1582956433288544256",
+            "referenced_tweets": [
+              {
+                "id": "2118969199133393210",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@JamesMalsawm Yes, but I am also very fond of this little x bubble",
+            "url": "https://x.com/thsottiaux/status/2119294044480401585"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119245967148851655",
+            "created_at": "2026-11-08T04:57:36.000Z",
+            "edit_history_tweet_ids": [
+              "2119293235353006321"
+            ],
+            "id": "2119293235353006321",
+            "in_reply_to_user_id": "1840275310333267968",
+            "referenced_tweets": [
+              {
+                "id": "2119245967148851655",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@hakmgpt That is not correct.",
+            "url": "https://x.com/thsottiaux/status/2119293235353006321"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119150004426428901",
+            "created_at": "2026-11-08T00:54:31.000Z",
+            "edit_history_tweet_ids": [
+              "2119232059537514598"
+            ],
+            "id": "2119232059537514598",
+            "in_reply_to_user_id": "1919352581240877056",
+            "referenced_tweets": [
+              {
+                "id": "2119150004426428901",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+            "url": "https://x.com/thsottiaux/status/2119232059537514598"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119195439803367883",
+            "created_at": "2026-11-07T23:30:55.000Z",
+            "edit_history_tweet_ids": [
+              "2119211022410228094"
+            ],
+            "id": "2119211022410228094",
+            "in_reply_to_user_id": "17203692",
+            "referenced_tweets": [
+              {
+                "id": "2119195439803367883",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@jxnlco I think that will take a few years, but one can dream",
+            "url": "https://x.com/thsottiaux/status/2119211022410228094"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119075894862160178",
+            "created_at": "2026-11-07T20:13:08.000Z",
+            "edit_history_tweet_ids": [
+              "2119161246872429013"
+            ],
+            "id": "2119161246872429013",
+            "in_reply_to_user_id": "1664269804558229509",
+            "referenced_tweets": [
+              {
+                "id": "2119075894862160178",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@AdamHoltererer What's the before, after?",
+            "url": "https://x.com/thsottiaux/status/2119161246872429013"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119130437834752333",
+            "created_at": "2026-11-07T20:11:04.000Z",
+            "edit_history_tweet_ids": [
+              "2119160727164604874"
+            ],
+            "id": "2119160727164604874",
+            "in_reply_to_user_id": "356849646",
+            "referenced_tweets": [
+              {
+                "id": "2119130437834752333",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@argofowl I'm also confused about this",
+            "url": "https://x.com/thsottiaux/status/2119160727164604874"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2119014501240406474",
+            "created_at": "2026-11-07T17:05:19.000Z",
+            "edit_history_tweet_ids": [
+              "2119113983118672370"
+            ],
+            "id": "2119113983118672370",
+            "in_reply_to_user_id": "2011253849412235265",
+            "referenced_tweets": [
+              {
+                "id": "2119014501240406474",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@rezoundous Nothing much",
+            "url": "https://x.com/thsottiaux/status/2119113983118672370"
+          },
+          {
+            "author_id": "1953337039510003712",
+            "conversation_id": "2118989680381395314",
+            "created_at": "2026-11-07T17:04:50.000Z",
+            "edit_history_tweet_ids": [
+              "2119113859747426370"
+            ],
+            "id": "2119113859747426370",
+            "in_reply_to_user_id": "740186560423809024",
+            "referenced_tweets": [
+              {
+                "id": "2118989680381395314",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@UFO2002616 Missed that you can dash",
+            "url": "https://x.com/thsottiaux/status/2119113859747426370"
+          }
+        ]
+      }
+    },
+    "testingcatalog": {
+      "id": "3980735590",
+      "result_count": 4,
+      "next_token": null,
+      "posts": [
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-08T20:20:05.000Z",
+          "edit_history_tweet_ids": [
+            "2119525387688374726"
+          ],
+          "id": "2119525387688374726",
+          "public_metrics": {
+            "bookmark_count": 12,
+            "impression_count": 15242,
+            "like_count": 229,
+            "quote_count": 0,
+            "reply_count": 18,
+            "retweet_count": 8
+          },
+          "text": "OpenAI is teasing Modretro Chromatic to arrive at Supply Co. on November 9. \n\n&gt; @modretro is the company behind Chromatic, a retro handheld console that plays Game Boy and Game Boy Color games. \n\n&gt; At DevDay, OpenAI gave attendees a limited-edition transparent Chromatic and",
+          "url": "https://x.com/testingcatalog/status/2119525387688374726"
+        },
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-08T14:12:21.000Z",
+          "edit_history_tweet_ids": [
+            "2119432843365417047"
+          ],
+          "id": "2119432843365417047",
+          "public_metrics": {
+            "bookmark_count": 66,
+            "impression_count": 27404,
+            "like_count": 505,
+            "quote_count": 10,
+            "reply_count": 77,
+            "retweet_count": 26
+          },
+          "text": "Seems like Google is working on \"the next generation Gemini agent\" for Gemini Enterprise. \n\nThis experience is currently being used in Google internally. \n\n&gt; \"Gemini for Google - The next generation Gemini agent for enterprise\"\n\nBesides this, I am very happy to see Google working https://t.co/Diuhv4nj6d",
+          "url": "https://x.com/testingcatalog/status/2119432843365417047"
+        },
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-07T20:21:21.000Z",
+          "edit_history_tweet_ids": [
+            "2119163315687731405"
+          ],
+          "id": "2119163315687731405",
+          "public_metrics": {
+            "bookmark_count": 75,
+            "impression_count": 31948,
+            "like_count": 663,
+            "quote_count": 22,
+            "reply_count": 69,
+            "retweet_count": 23
+          },
+          "text": "OPENAI 🔥: Dots can now take sign-up codes from an email to complete a 2FA auth on your behalf when prompted. \n\nMore autonomy 💪👀 https://t.co/uFVcy86jHz",
+          "url": "https://x.com/testingcatalog/status/2119163315687731405"
+        },
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-07T17:00:11.000Z",
+          "edit_history_tweet_ids": [
+            "2119112693424537779"
+          ],
+          "id": "2119112693424537779",
+          "public_metrics": {
+            "bookmark_count": 36,
+            "impression_count": 15336,
+            "like_count": 269,
+            "quote_count": 7,
+            "reply_count": 39,
+            "retweet_count": 13
+          },
+          "text": "ICYMI 🔥: Mistral Studio got a big upgrade this week. Users can now build and host AI apps and improve them based on real usage.\n\n&gt; Connect your systems - Connectors, Knowledge, Search Index, Secrets Manager: set up once, reuse them across every project.\n\n&gt; Build agents, https://t.co/FUe4YlIXm4",
+          "url": "https://x.com/testingcatalog/status/2119112693424537779"
+        }
+      ],
+      "with_replies_pass": {
+        "result_count": 7,
+        "next_token": null,
+        "posts": [
+          {
+            "author_id": "3980735590",
+            "conversation_id": "2119539035811225896",
+            "created_at": "2026-11-08T22:02:15.000Z",
+            "edit_history_tweet_ids": [
+              "2119551096838656080"
+            ],
+            "id": "2119551096838656080",
+            "in_reply_to_user_id": "1567727179",
+            "referenced_tweets": [
+              {
+                "id": "2119539035811225896",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@BartokGabi17 @claudeai Finally 💀",
+            "url": "https://x.com/testingcatalog/status/2119551096838656080"
+          },
+          {
+            "author_id": "3980735590",
+            "conversation_id": "2119525387688374726",
+            "created_at": "2026-11-08T20:20:05.000Z",
+            "edit_history_tweet_ids": [
+              "2119525387688374726"
+            ],
+            "id": "2119525387688374726",
+            "note_tweet": {
+              "entities": {
+                "mentions": [
+                  {
+                    "end": 89,
+                    "id": "1787979332268568576",
+                    "start": 80,
+                    "username": "modretro"
+                  }
+                ],
+                "urls": [
+                  {
+                    "display_url": "x.com/OpenAIDevs/sta…",
+                    "end": 349,
+                    "expanded_url": "https://x.com/OpenAIDevs/status/2119521359185478140/video/1",
+                    "start": 326,
+                    "url": "https://t.co/GVOwFWnbuo"
+                  }
+                ]
+              },
+              "text": "OpenAI is teasing Modretro Chromatic to arrive at Supply Co. on November 9. \n\n> @modretro is the company behind Chromatic, a retro handheld console that plays Game Boy and Game Boy Color games. \n\n> At DevDay, OpenAI gave attendees a limited-edition transparent Chromatic and showcased a Codex integration for creating games.  https://t.co/GVOwFWnbuo"
+            },
+            "text": "OpenAI is teasing Modretro Chromatic to arrive at Supply Co. on November 9. \n\n&gt; @modretro is the company behind Chromatic, a retro handheld console that plays Game Boy and Game Boy Color games. \n\n&gt; At DevDay, OpenAI gave attendees a limited-edition transparent Chromatic and",
+            "url": "https://x.com/testingcatalog/status/2119525387688374726"
+          },
+          {
+            "author_id": "3980735590",
+            "conversation_id": "2119432843365417047",
+            "created_at": "2026-11-08T14:31:24.000Z",
+            "edit_history_tweet_ids": [
+              "2119437636624580687"
+            ],
+            "id": "2119437636624580687",
+            "in_reply_to_user_id": "2083862847231062016",
+            "referenced_tweets": [
+              {
+                "id": "2119437044711583857",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@Moretti_ale90 This one has been there for a while but likely isn’t rolled out to everyone yet.",
+            "url": "https://x.com/testingcatalog/status/2119437636624580687"
+          },
+          {
+            "author_id": "3980735590",
+            "conversation_id": "2119432843365417047",
+            "created_at": "2026-11-08T14:12:21.000Z",
+            "edit_history_tweet_ids": [
+              "2119432843365417047"
+            ],
+            "id": "2119432843365417047",
+            "note_tweet": {
+              "text": "Seems like Google is working on \"the next generation Gemini agent\" for Gemini Enterprise. \n\nThis experience is currently being used in Google internally. \n\n> \"Gemini for Google - The next generation Gemini agent for enterprise\"\n\nBesides this, I am very happy to see Google working on innovative AI projects once again. According to what I have seen, Google will have a new generation of AI products for work, that are far ahead from what other labs are offering at this moment from a forward vision perspective. \n\nGemini reborn 🦑"
+            },
+            "text": "Seems like Google is working on \"the next generation Gemini agent\" for Gemini Enterprise. \n\nThis experience is currently being used in Google internally. \n\n&gt; \"Gemini for Google - The next generation Gemini agent for enterprise\"\n\nBesides this, I am very happy to see Google working https://t.co/Diuhv4nj6d",
+            "url": "https://x.com/testingcatalog/status/2119432843365417047"
+          },
+          {
+            "author_id": "3980735590",
+            "conversation_id": "2119163315687731405",
+            "created_at": "2026-11-07T20:24:13.000Z",
+            "edit_history_tweet_ids": [
+              "2119164036939964914"
+            ],
+            "id": "2119164036939964914",
+            "in_reply_to_user_id": "1836707525099425793",
+            "referenced_tweets": [
+              {
+                "id": "2119163433396453465",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@HamidoFx1 Good but not in EU 💀",
+            "url": "https://x.com/testingcatalog/status/2119164036939964914"
+          },
+          {
+            "author_id": "3980735590",
+            "conversation_id": "2119163315687731405",
+            "created_at": "2026-11-07T20:21:21.000Z",
+            "edit_history_tweet_ids": [
+              "2119163315687731405"
+            ],
+            "id": "2119163315687731405",
+            "text": "OPENAI 🔥: Dots can now take sign-up codes from an email to complete a 2FA auth on your behalf when prompted. \n\nMore autonomy 💪👀 https://t.co/uFVcy86jHz",
+            "url": "https://x.com/testingcatalog/status/2119163315687731405"
+          },
+          {
+            "author_id": "3980735590",
+            "conversation_id": "2119112693424537779",
+            "created_at": "2026-11-07T17:00:11.000Z",
+            "edit_history_tweet_ids": [
+              "2119112693424537779"
+            ],
+            "id": "2119112693424537779",
+            "note_tweet": {
+              "text": "ICYMI 🔥: Mistral Studio got a big upgrade this week. Users can now build and host AI apps and improve them based on real usage.\n\n> Connect your systems - Connectors, Knowledge, Search Index, Secrets Manager: set up once, reuse them across every project.\n\n> Build agents, workflows and apps - Agents for reasoning, workflows for deterministic steps, apps for addressing use cases.\n\n> Deploy with one command - Studio runs them in production, with durable execution, scaling and recovery.\n\n> Improve from real usage - Every run leaves a trace. Turn traces into evaluations and improve the next."
+            },
+            "text": "ICYMI 🔥: Mistral Studio got a big upgrade this week. Users can now build and host AI apps and improve them based on real usage.\n\n&gt; Connect your systems - Connectors, Knowledge, Search Index, Secrets Manager: set up once, reuse them across every project.\n\n&gt; Build agents, https://t.co/FUe4YlIXm4",
+            "url": "https://x.com/testingcatalog/status/2119112693424537779"
+          }
+        ]
+      }
+    },
+    "gengdaJ": {
+      "id": "1897545708770840576",
+      "result_count": 3,
+      "next_token": null,
+      "posts": [
+        {
+          "author_id": "1897545708770840576",
+          "created_at": "2026-11-08T14:20:48.000Z",
+          "edit_history_tweet_ids": [
+            "2119434967629615230"
+          ],
+          "id": "2119434967629615230",
+          "in_reply_to_user_id": "1897545708770840576",
+          "public_metrics": {
+            "bookmark_count": 1,
+            "impression_count": 1153,
+            "like_count": 4,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2119365103795716473",
+              "type": "replied_to"
+            }
+          ],
+          "text": "以后一定要经常住天气暖和的地方，好处如下：\n1. 起床入睡都很容易，一分钟内搞定，寒冷区域，起床都要磨蹭半小时一小时，很浪费生命。\n2. 天气稳定暖和，不容易感冒，不会降低工作效率。\n3. 天气暖和适合健身，健身完了即使有特殊情况不洗澡也不会感冒，如果是寒冷地区不洗澡 99%感冒。\n4.",
+          "url": "https://x.com/gengdaJ/status/2119434967629615230"
+        },
+        {
+          "author_id": "1897545708770840576",
+          "created_at": "2026-11-08T09:46:45.000Z",
+          "edit_history_tweet_ids": [
+            "2119366003473912166"
+          ],
+          "id": "2119366003473912166",
+          "in_reply_to_user_id": "1897545708770840576",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 2135,
+            "like_count": 3,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2119365103795716473",
+              "type": "replied_to"
+            }
+          ],
+          "text": "双十一了，顺便打个友情广告，生财有术是改变我命运的社群，想搞钱的可以加入试试，但是如果有任何不懂的不要来问我，谢谢！只分享给聪明人。\n\nhttps://t.co/93vk7n0F0c https://t.co/cNiCeuPbco",
+          "url": "https://x.com/gengdaJ/status/2119366003473912166"
+        },
+        {
+          "author_id": "1897545708770840576",
+          "created_at": "2026-11-08T09:43:11.000Z",
+          "edit_history_tweet_ids": [
+            "2119365103795716473"
+          ],
+          "id": "2119365103795716473",
+          "public_metrics": {
+            "bookmark_count": 96,
+            "impression_count": 19840,
+            "like_count": 221,
+            "quote_count": 7,
+            "reply_count": 44,
+            "retweet_count": 8
+          },
+          "text": "朝着目标努力了两年，我终于有资本、有自信，独自一人来到惠州度假。\n\n沙滩边，天气晴朗，短袖短裤，躺于沙滩椅上，听海浪拍岸声，有感而发作此篇，分享给所有还在迷茫的你。\n\n记得两年前，在内地刚上大学，枯燥的大学生活让我开始思考人生。我从小的梦想就是赚大钱，所以我去当了家教。 https://t.co/j07AM6PSRA",
+          "url": "https://x.com/gengdaJ/status/2119365103795716473"
+        }
+      ]
+    }
+  },
+  "note": "No browser, no user-X following timeline."
+}

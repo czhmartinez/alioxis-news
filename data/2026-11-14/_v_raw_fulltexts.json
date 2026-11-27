@@ -1,0 +1,2285 @@
+{
+ "fetched_at_taipei": "2026-11-14 08:12 Asia/Taipei",
+ "method": "get_posts_by_ids (note_post/article), 30 ids",
+ "result": {
+  "data": [
+   {
+    "article": {
+     "cover_media": "3_2121037557391880192",
+     "entities": {
+      "posts": [
+       {
+        "id": "2120891190333607989"
+       },
+       {
+        "id": "2120882522011930632"
+       },
+       {
+        "id": "2120887322312921465"
+       }
+      ]
+     },
+     "media_entities": [
+      "3_2121037405239263232",
+      "3_2121037463892480000",
+      "3_2121037471312216064",
+      "3_2121037389674295296",
+      "3_2121037423207657472",
+      "3_2121037413636313088",
+      "3_2121037375463911425",
+      "3_2121037448319008768",
+      "3_2121037439406120960",
+      "3_2121037456334286850",
+      "3_2121037397345619968",
+      "3_2121037431491485696",
+      "3_2121037382623653888"
+     ],
+     "plain_text": "昨晚，一则消息，刷屏了所有的渠道。\n \n英伟达发了一份正式公告：黄仁勋辞去公司总裁、首席执行官和董事职务，即刻生效。\n同时，董事会感谢他对公司和行业做出的不可磨灭的贡献。\n这一连串操作，放在任何一家公司里，都足够狗血、离奇与震撼。\n何况这是英伟达。\n何况这是黄仁勋。\n一个创立公司33年、亲手将英伟达发展为几乎是全球AI代言人、个人影响力几乎与公司品牌完全绑定的创始人，就这么被扫地出门了。\n英伟达的股价开盘应声下跌14个点，梗图也满天飞了。\n \n甚至还有xAI门口的AI图，降半衣。\n \n要知道，我的AI热点网站AIHOT上线半年了，我几乎从来没有见过95分以上的新闻，连90分的，都屈指可数。\n但是今天，黄仁勋辞职，这条新闻，AIHOT第一次打出来98分。。。\n \n真正意义上的见证历史了。。。\n同时，整个行业也为黄仁勋献上了挽歌。\n比如Perplexity的老板。\n \n比如OpenCode的创始人。\n \n比如Epic的老板。\n \n黄仁勋辞职整件事实在是太乱了，要素也极多，芯片走私、出口管制、新加坡公司、中国、白宫、国会，最后还有婚外情，这些乱七八糟的东西混在一起，比甄嬛传还甄嬛传。\n很多人可能会好奇，这中间的故事曲折到底是什么样的？为什么一个会被扫地出门？这其中又有多少的秘辛？所以我想用这篇文章来带你梳理一下整个故事的始末，以及我自己的一些想法。\n为了让大家读懂这所有的一切，我觉得还得回到2022年大模型爆发的前夜，那时候，中美之间的AI战争，就已经在浪潮涌动了。\n我们都知道，算力就是AI时代最珍贵的资源和资产，并且也是正儿八经卡脖子的东西。\n所有国家都极其清楚这一点，所以，从2022年秋天开始，美国就不准英伟达把最先进的AI芯片卖给中国了，那时候包括A100、H100这些都在禁售名单里。\n但是英伟达毕竟是个商业公司，所以呢，在美国的规则之下，英伟达为了向中国公司卖卡，当时专门做了一个缩水版本，性能就卡在禁售红线下面一点点，后来就是循环了，美国改规则，英伟达再砍性能再出新版本，来来回回搞了好几轮。\n到了特朗普又一次上台的时候，这件事搞得就更乱了，2025年4月，英伟达给中国特供的H20也被卡了，然后老黄一通折腾，过了几个月，终于又放开了，条件是卖芯片的收入要分一部分给美国政府，再然后就是年底又批准了更强的H200对华出口。\n这里面有一个很朴素的市场规律，就是禁令你是能管住英伟达直接向中国供货，但是你管不住市场的需求啊。\n我们国内的公司要训练要推理，也要大力发展AI，虽然DeepSeek和华为的组合已经开始能抗住一些需求了，但是国内对算力的需求毕竟还是海量的，所以，你正规渠道不让卖，那需求又在这，市场自然会想办法去找到自己的路。\n这几年就我自己知道的，大概有三条路。\n走私。这个就是最普通的了，美国这几年也查了一些，当时就是把H100、H200换个标签当普通服务器报关的之类的，然后绕好几个国家最后进到香港的。\n借道第三国。因为新加坡、马来西亚这些地本来就是数据中心扎堆的地方。甚至之前英伟达的财报里，新加坡一度能占到总收入的两成多，然后英伟达的解释是，这只是客户的开票地址。\n远程访问。芯片根本不需要进中国，就老老实实待在马来西亚、印尼的机房里，然后中国公司在国内通过远程访问租用算力。这在美国现行的规则下是不违规的，或者说，现在的法律压根就没管到这一块。打个比方，你不许我家买发电机，那我从隔壁扯根电线过来用电，发电机一直在隔壁，我也没啥问题啊对吧。所以美国众议院今年1月以369票对22票通过了一个《远程访问安全法》，就是想堵这个口子，但到现在参议院其实也没通过过。\n这就是在算力稀缺的大背景下，英伟达的卡，就是目前最稀缺的资源。\n而Megaspeed，就是在这个背景下冒出来的，这是一家，跟黄仁勋今天的辞职事件，几乎是息息相关的公司。\n \n这家公司的前身，是中国游戏公司第七大道的海外子公司，老玩家可能还记得它家的《弹弹堂》，2023年，第七大道把新加坡的海外业务拆出来，改名叫Megaspeed。\n一家做游戏起家的公司转头去做AI算力，本身其实没啥，那两年这么转型的公司多了去了，但问题在于它的体量。\nMegaspeed在2024年答应在一年里买大约20亿美元的英伟达芯片，很快就成了英伟达在东南亚最大的客户。而且据《纽约时报》的调查，它并不是直接找英伟达下单的，而是通过一家叫Aivres的美国公司采购，Aivres是浪潮在美国的子公司，而浪潮本身早就上了美国的实体清单。\n芯片买来之后，进了它在马来西亚、印尼的子公司Speedmatrix的机房。\n这事其实本身就有点蹊跷，所以2024年下半年，美国商务部的人去马来西亚的机房查过一次，发现大批英伟达的GPU还原封不动地装在箱子里，这就很奇怪了，那会儿全世界都在抢卡，一个做算力生意的公司，抢到卡不拆箱上架，放在那吃灰干啥？\n《纽约时报》的记者也去看过。新加坡的办公室，工作日只有两个员工在，问业务也说不清楚，后来又说，它在马来西亚的子公司从2024年6月到今年2月，买了至少48亿美元带英伟达芯片的设备。\n事实情况我们不得而知，当然，Megaspeed一直否认，说美国、马来西亚的官方和英伟达都去现场查过，没发现问题。英伟达的说法也一样，说我们多次去现场看过，人家就是在运营一个小型商业云，跟世界上很多公司一样没啥区别啊，是美国出口管制规则允许的。\n这块注意，按当时的规则，在马来西亚开机房、把算力租给中国客户，这个做法确实不违法。\n2025年10月，《纽约时报》发了一篇长调查，把Megaspeed的事情捅了出来，那篇文章的标题叫《一个神秘的CEO和数十亿美元的销售额：中国在买被禁的英伟达芯片吗？》\n \n标题里那位“神秘的CEO”，就是这次风暴的中心，黄乐，英文名Alice Huang。\n \n关于黄乐，公开信息其实极少，我几乎把全网信息翻遍了，讲道理，也没有找到特别多，甚至《华盛顿邮报》之前还给她写过一篇特稿，说她过得几乎就是一种“幽灵般的人生”。\n我从一些媒体的信息里，大概拼凑了一下。\n中国人，跟黄仁勋同姓，但两人没有任何亲戚关系，早年在国内当过电视记者，后来转行做金融，在汇丰的香港私人银行和中信证券都干过，在她加入Megaspeed之前，在上海一家投资过第七大道的基金当过董事。\n2023年3月，第七大道的新加坡子公司改名Megaspeed，她成了这家公司的控股股东和董事总经理。同一年晚些时候，股份就转了出去，她也辞掉了董事职务，所以从表面上看，她好像已经跟这家公司没关系了。\n但其实背后还有千丝万缕的关系，之前Culper在做调查时找到的一位Megaspeed的员工说：“她其实还是我们老板。”\n至于她跟黄仁勋啥时候认识的，说法就更乱了，《华尔街日报》说是2024年初，在加州英伟达的一个年度活动上，她作为Megaspeed的代表出席认识的，The Information又说，两人的交往至少能追溯到2023年。\n不过无所谓，大家知道他两反正认识有很长一段时间就行了。\n黄乐也很懂得怎么用这层关系来帮助自己做生意，《纽约时报》说，她在给自己的生意融资时，会拿跟黄仁勋的交情做背书，The Information说，她会给生意伙伴看她和黄仁勋的合影，给自己撑场面。\n然后是钱。\n11月10号，The Information发了一篇独家，说黄乐和她的丈夫、妹妹，在中国和新加坡搭起了一张公司网络，专门搞英伟达的芯片。网络的中心是一家叫上海世纪利通的算力公司，2023年6月成立，创始股东之一背后是黄乐的妹妹，成立才4个月，就拿到了英伟达“优选云合作伙伴”的资格，可以优先拿货。按这篇报道的说法，这张网经手的英伟达芯片至少值75亿美元，其中一部分最后服务的是阿里、腾讯和其他的AI实验室，里面还包括本来禁止卖到国内的型号。\n如果到这一步，其实还是稍微野一点的生意关系，但是问题在于，背后倒腾的，是算力，算力生意，那就不是普通的生意了。\n真正让事情变了性质的，是美国情报部门。\n据《纽约时报》报道，美国情报机构对黄乐做了至少一年的电子监控。今年春天，一份在国务卿兼国家安全顾问鲁比奥主持下起草的高度机密备忘录，在特朗普政府的高层里传阅，所谓的结论是：黄乐是间谍，任务是搜集黄仁勋的情报，同时影响他，让他去推动美国把最先进的芯片卖给中国。\n不过这里面有一个非常小的细节差异。\n黄仁勋从来没收到过所谓的“防御性简报”，因为按惯例，美国情报部门发现某个美国人被外国情报机构盯上了，有时会私下提醒他一声。\n但这次却是例外，并没有提醒黄仁勋。据报道，官员们担心一提醒，黄乐那边就会知道自己暴露了，也就是说，有很长一段时间，白宫和好几个部门的高层都知道这件事，唯独黄仁勋本人，按官方的说法，是完全不知情的。\n当然，黄乐到底是不是所谓的间谍，事实和真相到底是什么样的，在整个事件的漩涡里根本就无所谓，因为棋局之上，黄乐和黄仁勋，都只是棋子而已。\n回到美国政府这边，那态度就极其的耐人寻味了，我大概说3个比较重要的事。\n一封邮件。\n管芯片出口的，是美国商务部下面的工业与安全局，简称BIS，前面说去马来西亚机房开箱查货的，就是他们。\n而BIS从2024年就在查Megaspeed。\n但据《纽约时报》说，特朗普2025年第二个任期开始后，商务部领导层定过一条规矩，凡是要调查英伟达、或是跟英伟达接触，都得先跟商务部领导层报批。\n因为特朗普实在是太护着英伟达了，所以基本美国商务部都在摸鱼。\n结果，这个默契被一封邮件给搅浑了。\n2025年8月，正在查Megaspeed的BIS探员，收到了英伟达总法律顾问的一封邮件，想问问调查进展、约个见面，还特意提了一句：“BIS的一把手、副部长凯斯勒，已经同意我们跟你们联系了。”\n这一封邮件直接就炸了，你也不知道对方是啥意思，究竟是脑子有泡还是真的靠山很硬。\n查走私的探员，收到被查公司的芯片供应商发来的邮件，里面还抬出了自己大老板的名字，这案子还怎么查啊？再查下去自己的饭碗怕不是直接就没了。。。\n探员们拒绝了见面，然后把邮件转给了凯斯勒，凯斯勒回的就非常的有意思，他回了一句：“按规矩办”。\n规矩，那是啥规矩呢？鬼知道啥规矩。\n但这封邮件惹出的麻烦比想象的还要大，因为按照美国商务部的正常程序，凯斯勒作为BIS的最高负责人，未来还有可能在相关行政案件里充当裁决者，所以他本来就应该跟一线调查的具体细节保持一定距离。\n结果现在，英伟达的律师不仅跟他接触过，还直接拿着他的名字来找调查人员。那万一将来真的要起诉Megaspeed，对方律师完全可能拿这件事做文章，质疑调查程序的公正性，甚至要求调取凯斯勒跟英伟达的通信记录。\n所以，事情到了这一步，就真的麻烦了。\n最后，美国司法部直接要求BIS暂停调查，把案件交给司法部主导，然后直接升级成了刑事案件。\n直到今天，这件事再被扒出来，中间的敏感性大家就都懂了。\n2. 特朗普对黄仁勋的态度。\n据《纽约时报》说，2025年10月前后，官员们就向特朗普汇报过，说黄乐跟黄仁勋走得很近，而且被认为是间谍，特朗普听完了以后没有动作。\n今年5月特朗普访华，黄仁勋一开始压根不在随行企业家的名单上，说是因为鲁比奥从国家安全风险角度考虑，把黄仁勋给踢出了访华随行商界名单，这事当时还上了新闻。\n然后特朗普看到黄仁勋没有受邀的新闻后，临时给黄仁勋打电话，让他赶往阿拉斯加，与正在途中加油的空军一号会合。\n \n而就在黄仁勋登机前，鲁比奥在空军一号上，又当面把这件事又一次的告诉了特朗普，但特朗普听完后完全没理鲁比奥，依然决定让黄仁勋登机，随后黄仁勋登上空军一号，随团前往北京。\n特朗普和鲁比奥对黄仁勋的不同的态度其实也能看出来，在美国体系内，其实也是四分五裂。\n特朗普政府内部，对于先进AI芯片出口到中国，一直存在两套不同的战略判断。\n一套强调国家安全：说是先进GPU可能增强中国的AI研发和军事技术能力，因此应该限制出口。\n另一套则强调市场与技术生态：说是如果彻底禁止美国芯片进入中国市场，中国企业就会更积极地转向华为及其他国产替代产品，长期反而可能削弱美国技术体系的全球影响力。\n黄仁勋是长期主张第二套思路，你甭管他是为了多卖卡还是真的为了美国着想，这不重要，重要的是，特朗普在后面很长一段时间里，是接受了黄仁勋的提议的。\n3. 美国国会风向变了。\n如果大家比较关注美国国会这两年对AI的动向的话，就会发现，在黄仁勋和黄乐这件事情爆发之前，美国国会其实就已经有越来越多人，对英伟达和特朗普政府的芯片出口政策感到不满了。\n而且这种不满，早就开始落实到具体的立法上。\n比如前面讲过的《远程访问安全法》，今年1月就在众议院以369票赞成、22票反对通过了，然后卡在参议院那。\n还有一项叫《AI Overwatch Act》的法案，试图加强国会对先进AI芯片出口许可的审查权。\n以及《Chip Security Act》，要求先进芯片增加位置验证等安全机制，防止芯片卖到海外以后，又被偷偷转运进中国。\n美国国会早就意识到了，光靠现有的出口许可制度，可能已经管不住先进AI芯片的全球流动了。\n但之前这些法案想推进，阻力一直都很大，其中的一部分阻力，就来自英伟达。\n比如去年12月，美国国会原本想把一项叫《GAIN AI法案》的限制措施塞进国防授权法案，要求芯片厂商优先满足美国客户需求，再考虑向中国等国家销售高端AI芯片。\n结果英伟达一通游说，这项法案最后没能进入国防授权法案。\n当时彭博社还专门发了一篇报道，标题就叫：《英伟达赢得游说胜利》。\n \n但到了今年，事情就完全不一样了，随着模型能力的进一步升级，美国国会里面同意加强管理的人越来越多，但一直没有找到更合适的抓手。\n但现在，因为黄乐事件的爆发，等于给美国国会里那些原本就主张收紧芯片出口的人，提供了一个极其有力的政治理由。\n英伟达最大的客户之一涉嫌违规转运芯片，其背后的关键人物又被美国情报部门怀疑从事间谍活动，甚至还跟英伟达CEO存在私人关系。\n那你让那些原本就反对放松出口管制的议员，怎么可能放过这个机会？\n剩下的，就是最后这14天。\n一个人从神坛上走下来，需要多久？\n英伟达给出的答案是，14天。\n10月29号，《纽约时报》发了文章，美国情报机构认定，黄乐在为中国搜集情报，而且跟黄仁勋关系密切。\n英伟达当天就回应了，而且回应的极其硬气，说两人的接触“既不反常，也不意外”，这个其实真的是个臭棋，明明可以不回应的，在公关层面上，直接以沉默应对，却非要撒谎，这下就骑虎难下了。\n然后过了一段时间，还是《纽约时报》，11月8号的时候，直接披露了鲁比奥那份备忘录，说是美国情报机构长期监控黄乐，而监控让情报官员确信两人存在恋爱关系。\n你甭管美国媒体究竟从哪拿到的消息，反正他们就是拿到了，打蛇打七寸。\n这一下子没招了，当天，黄仁勋给全体员工发了一封信，第一次承认：\n“我对妻子不忠。”\n \n同一天，董事会宣布启动独立调查，但毕竟还是私德问题，董事会说没有理由相信国家安全或公司机密受到了损害，对他的领导有信心，特朗普当晚也出来力挺，说他应该继续当CEO。\n紧接着，信息释放继续，11月10号，上文我们提到的黄乐背后跟英伟达那个75亿美金交易被The Information爆出来，英伟达继续暴跌。\n11月11号，《纽约时报》给了黄仁勋致命一击，从五名曾在英伟达工作过的匿名人士的口中得知，黄仁勋还有第二段婚外情，对象是英伟达的一位女高管，直接向他汇报。\n \n这个所谓的婚外情，是真的是假的都已经不重要了，理由有了，所谓的“正义”与“程序”，就有了。\n当天，董事会开会准备让他走人。\n我们的12号晚上，美国的12号一早，公告发出。\n黄仁勋辞职。\n至此，时间线收束。\n黄仁勋在英伟达待了33年，从事件的开始距今14天，距离美国中期选举特朗普惨败，刚刚过去10天。从美国媒体首次披露那份机密备忘录，到接连3篇几乎篇篇打七寸的精准报道，只过了4天。\n有一个词我觉得描述的特别精准，那就是，节奏大师。\n就好像，各方人马布局了很久，一次性的精准收网行动一样，这节奏，令人叹为观止。\n这可能就是美国吧。\n即使你是黄仁勋，有的时候也会变成政治风暴的祭品。\n2016年，他亲手把世界上第一台DGX-1，送进了旧金山一个当时还没什么名气的非营利实验室，在机器上写了一行字：“献给Elon和OpenAI团队，献给计算和人类的未来。”\n \n那个实验室，后来做出了ChatGPT，开启了伟大的大模型时代。\n所以《时代》周刊2025年的年度人物，给了一群“AI的建筑师”，他是其中之一。每年GTC，他穿着那件皮衣上台，激情的向全世界描绘着他的愿景。他能跟着美国总统的代表团去中国，也能在北京的链博会上说，英伟达会坚定不移地服务中国市场。\n黄仁勋是一个纯粹的人。\n2023年，有人问他，如果能重来一次，还会不会创办英伟达。他说，不会了，因为这件事，比他想象的难了一百万倍。\n2024年，他回到斯坦福，对台下的年轻人说了一句后来被转发了无数遍的话：“我祝你们，经历足够多的痛苦和磨难”。\n也许再过十年、二十年，连GPU这个词都会慢慢变得古老，今天我们引以为傲的大模型，在那个时代看来，也不过是一些非常原始的玩具。\n但我想，那个时代的人回头翻看AI的历史，依然会看到一个穿着黑色皮衣的男人。\n他站在台上，挥舞着双手，眼睛里闪着光，像一个永远不知道疲倦的孩子，兴奋地向全世界讲述着，计算的未来究竟能够有多么不可思议。\n命运有时候就是这么荒诞。\n黄仁勋的英伟达时代，结束了。\n3年或5年以后，政治风暴逐渐停止，我想，他们一定会想念黄仁勋的。\n当然，我心中最期待的，还是黄仁勋拿到的是乔布斯的剧本。\n \n虽然我知道，几乎不太可能。\n毕竟一个是政治，一个是商业。\n但，人还是喜欢奇迹的，对吧。\n以上，既然看到这里了，如果觉得不错，随手点个赞、评论、转发三连吧，这对我们有特别大的帮助~\n谢谢你看我的文章，我们，下次再见。",
+     "preview_text": "昨晚，一则消息，刷屏了所有的渠道。\n \n英伟达发了一份正式公告：黄仁勋辞去公司总裁、首席执行官和董事职务，即刻生效。\n同时，董事会感谢他对公司和行业做出的不可磨灭的贡献。",
+     "title": "黄仁勋辞职始末。"
+    },
+    "article_title": {
+     "title": "黄仁勋辞职始末。"
+    },
+    "author_id": "1492195583699951620",
+    "created_at": "2026-11-13T00:29:40.000Z",
+    "edit_history_post_ids": [
+     "2121037747259625601"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/i/article/2121…",
+       "end": 23,
+       "expanded_url": "https://x.com/i/article/2121037479814078464",
+       "start": 0,
+       "status": 404,
+       "unwound_url": "https://x.com/i/article/2121037479814078464",
+       "url": "https://t.co/sgNHh8o6Jr"
+      }
+     ]
+    },
+    "id": "2121037747259625601",
+    "public_metrics": {
+     "bookmark_count": 92,
+     "impression_count": 39506,
+     "like_count": 318,
+     "quote_count": 20,
+     "reply_count": 49,
+     "repost_count": 29
+    },
+    "text": "https://t.co/sgNHh8o6Jr",
+    "url": "https://x.com/Khazix0918/status/2121037747259625601"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121159058870980610"
+     ]
+    },
+    "author_id": "1492195583699951620",
+    "created_at": "2026-11-13T08:33:29.000Z",
+    "edit_history_post_ids": [
+     "2121159503995666943"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/gh3g5vY3Cb",
+       "end": 160,
+       "expanded_url": "https://x.com/Khazix0918/status/2121159503995666943/photo/1",
+       "media_key": "3_2121159058870980610",
+       "start": 137,
+       "url": "https://t.co/gh3g5vY3Cb"
+      },
+      {
+       "display_url": "x.com/Khazix0918/sta…",
+       "end": 184,
+       "expanded_url": "https://twitter.com/Khazix0918/status/2117054043868860521",
+       "start": 161,
+       "url": "https://t.co/pTHRLMy7iZ"
+      }
+     ]
+    },
+    "id": "2121159503995666943",
+    "public_metrics": {
+     "bookmark_count": 207,
+     "impression_count": 39063,
+     "like_count": 222,
+     "quote_count": 2,
+     "reply_count": 77,
+     "repost_count": 19
+    },
+    "referenced_tweets": [
+     {
+      "id": "2117054043868860521",
+      "type": "quoted"
+     }
+    ],
+    "text": "有了AI之后，人啊，就是喜欢折腾。。。\n我的Agent自动化系统看板之前做了一个3D微缩景观的视觉，用了2周，感觉越来越不喜欢了主要感觉是不清晰。\n于是，昨晚又折腾了一下，用Fable 5.2重新找了一下风格，重写了一下UI，这一下，喜欢多了...\n看了一天没看腻，喜欢。 https://t.co/gh3g5vY3Cb https://t.co/pTHRLMy7iZ",
+    "url": "https://x.com/Khazix0918/status/2121159503995666943"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121134870990884864"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-13T06:55:52.000Z",
+    "edit_history_post_ids": [
+     "2121134937508282830"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/jSs0gemX8S",
+       "end": 112,
+       "expanded_url": "https://x.com/MaxForAI/status/2121134937508282830/photo/1",
+       "media_key": "3_2121134870990884864",
+       "start": 89,
+       "url": "https://t.co/jSs0gemX8S"
+      },
+      {
+       "display_url": "x.com/willdepue/stat…",
+       "end": 136,
+       "expanded_url": "https://twitter.com/willdepue/status/2120992457630326841",
+       "start": 113,
+       "url": "https://t.co/scu9r2Lb0w"
+      }
+     ]
+    },
+    "id": "2121134937508282830",
+    "public_metrics": {
+     "bookmark_count": 9,
+     "impression_count": 5588,
+     "like_count": 32,
+     "quote_count": 0,
+     "reply_count": 5,
+     "repost_count": 0
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120992457630326841",
+      "type": "quoted"
+     }
+    ],
+    "text": "老外终于发现中国模型团队可以用到B200/B300了么？？\n\n这并非什么秘密，甚至我的群聊里各种有人兜售B300（甚至现货）\n\n价格的话是从年初的一千多万人民币涨到了两千万了（ https://t.co/jSs0gemX8S https://t.co/scu9r2Lb0w",
+    "url": "https://x.com/MaxForAI/status/2121134937508282830"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120991467766181888"
+     ]
+    },
+    "author_id": "998575387067142144",
+    "created_at": "2026-11-12T21:29:42.000Z",
+    "edit_history_post_ids": [
+     "2120992457630326841"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/qlttvJsXG7",
+       "end": 303,
+       "expanded_url": "https://x.com/willdepue/status/2120992457630326841/photo/1",
+       "media_key": "3_2120991467766181888",
+       "start": 280,
+       "url": "https://t.co/qlttvJsXG7"
+      }
+     ]
+    },
+    "id": "2120992457630326841",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "unemploymentlabs.com/checkpoint-for…",
+        "end": 2816,
+        "expanded_url": "http://unemploymentlabs.com/checkpoint-forensics",
+        "start": 2793,
+        "url": "https://t.co/YOtzND0Jqk"
+       }
+      ]
+     },
+     "text": "I have a major result to share.\n\nI’ve found conclusive forensic evidence that the top 4 Chinese AI labs—DeepSeek, Moonshot, MiniMax and Ant Group—have built their newest models on NVIDIA’s most advanced Blackwell chips, which are barred from export to China.\n\nThis sounds insane, but I discovered that almost every AI model carries a hidden signature of the GPU that trained it. When a model is first set up, the starting values of its weights are laid out in a pattern that depends on the exact GPU. Each combination of GPU and seed number produces a unique pattern—a sort of fingerprint of the hardware used to create the model. Traces of that pattern survive training into the published model.\n\nAgain, this evidence isn’t based on any insider information or leaking. It’s based on a forensic analysis of the model weights released by the companies themselves.\n\nI searched more than six trillion combinations of chip layout and seed number and matched them to open-weights models. In doing so, I found conclusive evidence that six Chinese AI models—including DeepSeek-V4-Pro, Kimi K3, and MiniMax-M3—were initialized on NVIDIA Blackwell systems. Four of the models match Grace Blackwell, the GB200 and GB300 parts in NVIDIA’s flagship liquid-cooled rack-scale systems.\n\nI then verified these results on real hardware. Running unmodified PyTorch with the seeds I’d recovered, a Blackwell B300 reproduced DeepSeek-V4-Flash’s untouched starting weights bit for bit, and a rented GB200 reproduced Kimi K3’s to a correlation of 0.999995. A Hopper H100 reproduced none of DeepSeek-V4-Flash’s, and changing the seed by one broke the match. (DeepSeek’s seed is 953049583 by the way.) The method also was verified to match 24 known open-weights models to the hardware that developers said they used.\n\nIt is exceedingly unlikely that these results are a coincidence. Across six trillion combinations, the best accidental match should reach only about 8 sigma (i.e., eight standard deviations above what random chance would produce). The real matches range from 49 to 1,385 sigma, and even the weakest single test hits 20.\n\nThese were data-center-scale training runs. With some analysis of release schedules and model details, I estimate that the largest, Kimi K3 and DeepSeek-V4-Pro, used 2,000 to 3,000 Blackwell GPUs each. Clusters of this size cost on the order of $150 to $200 million each to buy, and across these labs alone would add up to more than half a billion dollars of export-controlled GPUs, not counting experimental compute or otherwise. It’s quite likely that we see multi-billion dollar expenditure on export-controlled GPUs.\n\nI am highly confident in this result, and it has been independently verified by senior researchers at OpenAI and Anthropic. You can read the full report at https://t.co/YOtzND0Jqk.\n\nThere is much more I’ve identified about these models through other forms of checkpoint forensics like this, and will have more to share soon."
+    },
+    "public_metrics": {
+     "bookmark_count": 20032,
+     "impression_count": 6141159,
+     "like_count": 39430,
+     "quote_count": 2099,
+     "reply_count": 1727,
+     "repost_count": 6111
+    },
+    "text": "I have a major result to share.\n\nI’ve found conclusive forensic evidence that the top 4 Chinese AI labs—DeepSeek, Moonshot, MiniMax and Ant Group—have built their newest models on NVIDIA’s most advanced Blackwell chips, which are barred from export to China.\n\nThis sounds insane, https://t.co/qlttvJsXG7",
+    "url": "https://x.com/willdepue/status/2120992457630326841"
+   },
+   {
+    "author_id": "1714580962569588736",
+    "created_at": "2026-11-13T14:24:44.000Z",
+    "edit_history_post_ids": [
+     "2121247896918253875"
+    ],
+    "id": "2121247896918253875",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "cdn.deepseek.com/chat-demo",
+        "end": 486,
+        "expanded_url": "https://cdn.deepseek.com/chat-demo",
+        "start": 463,
+        "url": "https://t.co/TI0Iw5qLQK"
+       },
+       {
+        "display_url": "github.com/deepseek-ai/ch…",
+        "end": 518,
+        "expanded_url": "https://github.com/deepseek-ai/chat-demo",
+        "start": 495,
+        "url": "https://t.co/ImA0LrgUgX"
+       },
+       {
+        "display_url": "api-docs.deepseek.com/guides/build_a…",
+        "end": 553,
+        "expanded_url": "https://api-docs.deepseek.com/guides/build_a_chatbot",
+        "start": 530,
+        "url": "https://t.co/t0dJxXM6Lk"
+       }
+      ]
+     },
+     "text": "🚀 The full DeepSeek App experience, now via API\n\nSearch, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.\nEnable built-in features with a few parameters, or call standalone APIs such as OCR, ASR, and TTS. Build richer conversations or recreate the full DeepSeek App in your own application.\n\nTry our open-source frontend demo, with support for importing DeepSeek conversation history.\n\n🔗 Demo: https://t.co/TI0Iw5qLQK\n📦 Code: https://t.co/ImA0LrgUgX\n📖 Details: https://t.co/t0dJxXM6Lk\n\n1/4"
+    },
+    "public_metrics": {
+     "bookmark_count": 2019,
+     "impression_count": 538154,
+     "like_count": 7074,
+     "quote_count": 345,
+     "reply_count": 312,
+     "repost_count": 582
+    },
+    "text": "🚀 The full DeepSeek App experience, now via API\n\nSearch, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.\nEnable built-in features with a few parameters, or call standalone APIs such as OCR, ASR, and TTS. Build",
+    "url": "https://x.com/deepseek_ai/status/2121247896918253875"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121251579169001472"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-13T14:41:31.000Z",
+    "edit_history_post_ids": [
+     "2121251671485378667",
+     "2121252121203167578"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 44,
+       "id": "1714580962569588736",
+       "start": 32,
+       "username": "deepseek_ai"
+      }
+     ],
+     "urls": [
+      {
+       "display_url": "pic.x.com/WESJ17Vnon",
+       "end": 165,
+       "expanded_url": "https://x.com/MaxForAI/status/2121252121203167578/photo/1",
+       "media_key": "3_2121251579169001472",
+       "start": 142,
+       "url": "https://t.co/WESJ17Vnon"
+      }
+     ]
+    },
+    "id": "2121252121203167578",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 44,
+        "id": "1714580962569588736",
+        "start": 32,
+        "username": "deepseek_ai"
+       }
+      ]
+     },
+     "text": "🚨DeepSeek居然把他们整个App也开源了。。。。\n\n刚刚 @deepseek_ai  正式发布全家桶应用API，直接把DeepSeek App里几乎所有的功能都开放给开发者了。\n\n包括联网搜索、深度思考搜索、文件解析、阅读链接、语音交互，以及OCR、ASR、TTS等底层能力。\n甚至官方还直接开源了一套完整的聊天前端Demo，支持导入DeepSeek历史对话。\n也就是说，现在开发者拿着DeepSeek的API，基本就能1:1复刻一个DeepSeek App。\n\nDeepSeek在公告最后还专门表示：「DeepSeek现有的对话产品只是较为基础的一种形态。现在，官方产品背后的各项能力均已支持通过 DeepSeek API 随心调用、自由组合，我们期待开发者能够借此省去重复的基础工作，打造出更多样、更极致、更具想象力的产品。欢迎使用 DeepSeek API，尽情创造。」\n\n现在各家AI公司都在拼命做自己的超级入口，想方设法把用户留在自家App里。\nDeepSeek倒好，直接把自己App背后的能力全部开放出来，连复刻方案都给你准备好了。\n\n你想做一个自己的DeepSeek？可以。\n你想把DeepSeek的搜索、语音、文件处理能力拆出来，重新组合成一个新产品？也可以。\n甚至可以在DeepSeek已有的能力之上，做出比官方App更复杂的产品。\n\n这才是这次发布最值得关注的地方，DeepSeek对自己在AI生态里要扮演什么角色，似乎想得很清楚。\n\n就是下次能不能别在北京时间的周五晚十点发布了。。。。"
+    },
+    "public_metrics": {
+     "bookmark_count": 467,
+     "impression_count": 64310,
+     "like_count": 1005,
+     "quote_count": 15,
+     "reply_count": 43,
+     "repost_count": 102
+    },
+    "text": "🚨DeepSeek居然把他们整个App也开源了。。。。\n\n刚刚 @deepseek_ai  正式发布全家桶应用API，直接把DeepSeek App里几乎所有的功能都开放给开发者了。\n\n包括联网搜索、深度思考搜索、文件解析、阅读链接、语音交互，以及OCR、ASR、TTS等底层能力。 https://t.co/WESJ17Vnon",
+    "url": "https://x.com/MaxForAI/status/2121252121203167578"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2121063253514350592"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-13T02:14:26.000Z",
+    "edit_history_post_ids": [
+     "2121064112956522596"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/TizEG9G5eh",
+       "end": 174,
+       "expanded_url": "https://x.com/xiaohu/status/2121064112956522596/video/1",
+       "media_key": "13_2121063253514350592",
+       "start": 151,
+       "url": "https://t.co/TizEG9G5eh"
+      }
+     ]
+    },
+    "id": "2121064112956522596",
+    "note_tweet": {
+     "text": "33 年，老黄下台。\n\n欢迎收看今天的小互 AI 日报\n\n1. 英伟达董事会官宣：黄仁勋辞去 CEO，也退出董事会，立即生效。财务长科莱特·克雷斯临时接任，董事会开始找正式接班人，还第一次设了董事长。\n\n起因是被曝的两段关系，三个众议院委员会也要他 18 号闭门说明。辞职公布后，英伟达一开盘最多跌了 14%，市值一度跌破 4 万亿美元。\n\n2. Anthropic 上市定价：纳斯达克，代码 ANT，每股 70–78 美元，按上限、算上全部期权，估值约 1.4 万亿美元。招股书里还认定，自家安全政策里「AI 大幅加速 AI 研究」那条线已经到了——是按对下一代模型的预期判断的。\n\n3. 谷歌 Gemini 4 Carbon 正式开放，三个第三方榜单第一。DeepMind 还用 AI 给 Signal 的核心代码做了数学证明：5 个人、4 周、600 多万行证明，查过的那几项安全性质都站得住。\n\n4. 人形机器人进厂：Gemini Robotics 2.5 在奔驰产线配零件，成功率 96%（概念验证）；英伟达 GR00T 2 看 5 段示范，新活成功率 95%，5 段加起来不到 3 分钟。\n\n5. 现在就能用：Claude 有了自己的表格和白板，测试版，所有付费用户都能用。Pro、Max、Ultra 和 Team 用户还能在设置的用量页面领一次免费重置，12 月 10 号前有效。\n\n还有：百度文心 5.5 Flash 和昆仑芯、豆包办公版接进 Kimi/GLM/DeepSeek、美联航不许 AI 替你下单、纽约 AI 安全法明年生效。"
+    },
+    "public_metrics": {
+     "bookmark_count": 11,
+     "impression_count": 5526,
+     "like_count": 23,
+     "quote_count": 1,
+     "reply_count": 5,
+     "repost_count": 1
+    },
+    "text": "33 年，老黄下台。\n\n欢迎收看今天的小互 AI 日报\n\n1. 英伟达董事会官宣：黄仁勋辞去 CEO，也退出董事会，立即生效。财务长科莱特·克雷斯临时接任，董事会开始找正式接班人，还第一次设了董事长。\n\n起因是被曝的两段关系，三个众议院委员会也要他 18 号闭门说明。辞职公布后，英伟达一开盘最多跌了 https://t.co/TizEG9G5eh",
+    "url": "https://x.com/xiaohu/status/2121064112956522596"
+   },
+   {
+    "author_id": "1953337039510003712",
+    "created_at": "2026-11-13T00:24:58.000Z",
+    "edit_history_post_ids": [
+     "2121036562058400200"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "description": "Join for the next era of cyber defense.",
+       "display_url": "openai.com/cyber-at-the-f…",
+       "end": 165,
+       "expanded_url": "https://openai.com/cyber-at-the-frontier/",
+       "start": 142,
+       "status": 200,
+       "title": "Cyber at the Frontier",
+       "unwound_url": "https://openai.com/cyber-at-the-frontier/",
+       "url": "https://t.co/fW371aFjB5"
+      }
+     ]
+    },
+    "id": "2121036562058400200",
+    "public_metrics": {
+     "bookmark_count": 624,
+     "impression_count": 594878,
+     "like_count": 3226,
+     "quote_count": 82,
+     "reply_count": 674,
+     "repost_count": 157
+    },
+    "text": "We announced new tools we're developing for cybersecurity today across automated patching and automated red teaming. Watch the recording here https://t.co/fW371aFjB5",
+    "url": "https://x.com/thsottiaux/status/2121036562058400200"
+   },
+   {
+    "author_id": "1953337039510003712",
+    "created_at": "2026-11-13T02:09:55.000Z",
+    "edit_history_post_ids": [
+     "2121062974161092792"
+    ],
+    "id": "2121062974161092792",
+    "public_metrics": {
+     "bookmark_count": 617,
+     "impression_count": 1917627,
+     "like_count": 9567,
+     "quote_count": 485,
+     "reply_count": 12202,
+     "repost_count": 168
+    },
+    "text": "How can codex be improved? Try not to say model.",
+    "url": "https://x.com/thsottiaux/status/2121062974161092792"
+   },
+   {
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T10:18:19.000Z",
+    "edit_history_post_ids": [
+     "2121185887337820440"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/testingcatalog…",
+       "end": 300,
+       "expanded_url": "https://twitter.com/testingcatalog/status/2120809757107737072",
+       "start": 277,
+       "url": "https://t.co/7riJj1czN6"
+      }
+     ]
+    },
+    "id": "2121185887337820440",
+    "note_tweet": {
+     "text": "DAILY AI BRIEF 🗞 — Nov 13\n\nGOOGLE 🔥:\n- Gemini 4 Hydrogen is out in the Gemini app, Search, AI Studio, and the API at $1.50/$7.50 per 1M tokens, finishing tasks 2.5x faster than 3.8 Flash.\n- Antigravity is rolling out Orchestrator to Ultra subscribers, where Carbon plans and a faster model executes.\n- Gemini-powered smart glasses from Warby Parker and Gentle Monster, built with Samsung, are up for pre-order, with Warby Parker at $395.\n\nANTHROPIC 🔥:\n- Claude Meetings is rolling out in beta on Team and Enterprise plans.\n- Self-hosted Claude Managed Agents is in private beta.\n- Claude Duet is sending invites, 3 per user, with a free month of Pro for eligible US users.\n- Anthropic is working on a \"Brush\" beta feature for the Claude prompt composer.\n- Anthropic will start trading on Nasdaq as ANT on November 19.\n\nOPENAI 🔥:\n- OpenAI launched Daybreak Red Team in early access and Daybreak Defense Factory via the Daybreak plugin in Codex.\n- At the same event, OpenAI showed an unreleased cyber model scoring 77% on ExploitGym (via AiBattle_).\n- Codex is rolling out a banked usage reset to all accounts.\n- Dots now follow custom instructions and reply faster.\n- Dots appears to be rolling out to Pro users in Europe (via kimmonismus).\n\nSPACEXSI 🔥:\n- Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Location, and Contacts.\n- Grok Bot is working on an \"Outcomes\" tab for jobs that bots own and report on (via nima_owji).\n- Grok Bot preview is adding comments on documents, PDFs, and images (via alexmichael).\n- Gemini 4 Hydrogen is in Cursor, scoring 54.3% on CursorBench.\n\nNVIDIA 🔥:\n- Jensen Huang has resigned as CEO, and CFO Colette Kress is interim CEO.\n\nMICROSOFT 🔥:\n- MAI-Transcribe-2 is generally available in Microsoft Foundry at $0.10 per audio hour.\n- Microsoft Ignite starts next week on November 17, with Microsoft AI teasing new models.\n\nPERPLEXITY 🔥:\n- Perplexity open-sourced Decider v1.3 and Decider Flash v1.3 with a new \"locate\" feature, free on OpenRouter for a week.\n\nTHINKING MACHINES 🔥:\n- Inkling 2 Small weights are on Hugging Face under Apache 2.0.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+    },
+    "public_metrics": {
+     "bookmark_count": 16,
+     "impression_count": 14042,
+     "like_count": 174,
+     "quote_count": 4,
+     "reply_count": 70,
+     "repost_count": 11
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120809757107737072",
+      "type": "quoted"
+     }
+    ],
+    "text": "DAILY AI BRIEF 🗞 — Nov 13\n\nGOOGLE 🔥:\n- Gemini 4 Hydrogen is out in the Gemini app, Search, AI Studio, and the API at $1.50/$7.50 per 1M tokens, finishing tasks 2.5x faster than 3.8 Flash.\n- Antigravity is rolling out Orchestrator to Ultra subscribers, where Carbon plans and a https://t.co/7riJj1czN6",
+    "url": "https://x.com/testingcatalog/status/2121185887337820440"
+   },
+   {
+    "author_id": "20536157",
+    "created_at": "2026-11-13T17:27:13.000Z",
+    "edit_history_post_ids": [
+     "2121293823837921433"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 263,
+       "id": "1806359170830172162",
+       "start": 253,
+       "username": "GeminiApp"
+      }
+     ]
+    },
+    "id": "2121293823837921433",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 263,
+        "id": "1806359170830172162",
+        "start": 253,
+        "username": "GeminiApp"
+       },
+       {
+        "end": 965,
+        "id": "575818188",
+        "start": 959,
+        "username": "Plaid"
+       }
+      ]
+     },
+     "text": "Personal Intelligence in Gemini securely connects information from apps you already use to make your experience more personalized and helpful. Today, we’re adding Google Wallet to the list of connected apps so you can get more tailored responses in the @GeminiApp around personal finance questions, based on your spending habits, including:\n\n📈 Generate dynamic charts tracking cash flow, asset allocation, and budgets directly in your chat to help you visualize your spending.\n📅 Find forgotten subscriptions and recurring charges across your linked accounts, and Gemini will also flag any price increases.\n🎁 Set a budget for the holidays by asking “How much did I spend on gifts and travel last year? Use that to help me set a holiday budget” and Gemini will look at your transactions from the last year to suggest a budget tailored for you.\n\nYou’ll also have the option to securely link your financial accounts from your credit cards and banks to Wallet via @Plaid to unlock deeper insights."
+    },
+    "public_metrics": {
+     "bookmark_count": 95,
+     "impression_count": 466192,
+     "like_count": 533,
+     "quote_count": 34,
+     "reply_count": 83,
+     "repost_count": 62
+    },
+    "text": "Personal Intelligence in Gemini securely connects information from apps you already use to make your experience more personalized and helpful. Today, we’re adding Google Wallet to the list of connected apps so you can get more tailored responses in the @GeminiApp around personal",
+    "url": "https://x.com/Google/status/2121293823837921433"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2121265084018434048"
+     ]
+    },
+    "author_id": "1872861011453329410",
+    "created_at": "2026-11-13T15:34:06.000Z",
+    "edit_history_post_ids": [
+     "2121265353867284498"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/Pf6RFBpXjp",
+       "end": 300,
+       "expanded_url": "https://x.com/xadisingh/status/2121265353867284498/video/1",
+       "media_key": "13_2121265084018434048",
+       "start": 277,
+       "url": "https://t.co/Pf6RFBpXjp"
+      }
+     ]
+    },
+    "id": "2121265353867284498",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "reasonmachines.com",
+        "end": 408,
+        "expanded_url": "http://reasonmachines.com",
+        "start": 385,
+        "url": "https://t.co/B31tg4p00k"
+       }
+      ]
+     },
+     "text": "Frontier coding performance at up to 20x lower cost.\n\nIntroducing the world’s most cost-efficient harness: Reason\n\nStop burning thousands on runaway agent bills. \n\nReason outperforms top harnesses on Terminal-Bench and DeepSWE while dropping cost per task to a fraction of the frontier baseline.\n\nComment “Reason” and we’ll send you early access + free compute credits.\n\nTry for free:\nhttps://t.co/B31tg4p00k"
+    },
+    "public_metrics": {
+     "bookmark_count": 1045,
+     "impression_count": 1495726,
+     "like_count": 1282,
+     "quote_count": 180,
+     "reply_count": 918,
+     "repost_count": 491
+    },
+    "text": "Frontier coding performance at up to 20x lower cost.\n\nIntroducing the world’s most cost-efficient harness: Reason\n\nStop burning thousands on runaway agent bills. \n\nReason outperforms top harnesses on Terminal-Bench and DeepSWE while dropping cost per task to a fraction of the https://t.co/Pf6RFBpXjp",
+    "url": "https://x.com/xadisingh/status/2121265353867284498"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121263682046889984"
+     ]
+    },
+    "author_id": "1058501423653101574",
+    "created_at": "2026-11-13T15:46:15.000Z",
+    "edit_history_post_ids": [
+     "2121268413112758744"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/xWgNcvQVVI",
+       "end": 113,
+       "expanded_url": "https://x.com/LuminaBench/status/2121268413112758744/photo/1",
+       "media_key": "3_2121263682046889984",
+       "start": 90,
+       "url": "https://t.co/xWgNcvQVVI"
+      }
+     ]
+    },
+    "id": "2121268413112758744",
+    "public_metrics": {
+     "bookmark_count": 11,
+     "impression_count": 18122,
+     "like_count": 149,
+     "quote_count": 4,
+     "reply_count": 18,
+     "repost_count": 4
+    },
+    "text": "Muse-Spark-1.4-internal is in a Meta PR 👀\n\nThey also report an actual model call using it https://t.co/xWgNcvQVVI",
+    "url": "https://x.com/LuminaBench/status/2121268413112758744"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120926915989327872"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-12T17:09:18.000Z",
+    "edit_history_post_ids": [
+     "2120926926852489454"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/jQ9skr3N2I",
+       "end": 35,
+       "expanded_url": "https://x.com/MaxForAI/status/2120926926852489454/photo/1",
+       "media_key": "3_2120926915989327872",
+       "start": 12,
+       "url": "https://t.co/jQ9skr3N2I"
+      }
+     ]
+    },
+    "id": "2120926926852489454",
+    "public_metrics": {
+     "bookmark_count": 0,
+     "impression_count": 3043,
+     "like_count": 27,
+     "quote_count": 0,
+     "reply_count": 3,
+     "repost_count": 1
+    },
+    "text": "我们能不能看到这一幕？ https://t.co/jQ9skr3N2I",
+    "url": "https://x.com/MaxForAI/status/2120926926852489454"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2121139129933348864"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-13T07:13:23.000Z",
+    "edit_history_post_ids": [
+     "2121139346191286711"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/6bwYcniN7L",
+       "end": 141,
+       "expanded_url": "https://x.com/xiaohu/status/2121139346191286711/video/1",
+       "media_key": "13_2121139129933348864",
+       "start": 118,
+       "url": "https://t.co/6bwYcniN7L"
+      }
+     ]
+    },
+    "id": "2121139346191286711",
+    "note_tweet": {
+     "text": "学生家长的救星来了\n刷到个网易新推出的AI教育产品：欧拉讲题\n\n我测试了下，果然有点牛P，能实时生成讲题动画过程啊，边讲边画动画\n\n你还能实时互动\n\n曾经几何题我最烦的就是：过 A 点作一条辅助线\n\n线我会画，但怎么想到往这儿画的？😂\n\n讲到辅助线这一步，你可以打断它，问「为什么要画成平行的？」让它接着在图上讲：哪些角因此相等，又怎么用这些角找出相似三角形。\n\n我觉得有意思的是，它会先规划怎么讲这道题，再把讲解变成板书、图形、动画和语音的指令。说到哪个角，图上就标到哪个角；你卡在哪一步，它就从那一步接着讲。\n\n家里有孩子的，你再也不用抓耳挠腮了..."
+    },
+    "public_metrics": {
+     "bookmark_count": 293,
+     "impression_count": 29466,
+     "like_count": 307,
+     "quote_count": 2,
+     "reply_count": 34,
+     "repost_count": 46
+    },
+    "text": "学生家长的救星来了\n刷到个网易新推出的AI教育产品：欧拉讲题\n\n我测试了下，果然有点牛P，能实时生成讲题动画过程啊，边讲边画动画\n\n你还能实时互动\n\n曾经几何题我最烦的就是：过 A 点作一条辅助线\n\n线我会画，但怎么想到往这儿画的？😂 https://t.co/6bwYcniN7L",
+    "url": "https://x.com/xiaohu/status/2121139346191286711"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121083170108096512",
+      "3_2121083170145918976"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-13T03:30:13.000Z",
+    "edit_history_post_ids": [
+     "2121083182871466010"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/R85Hz4lcDp",
+       "end": 198,
+       "expanded_url": "https://x.com/xiaohu/status/2121083182871466010/photo/1",
+       "media_key": "3_2121083170108096512",
+       "start": 175,
+       "url": "https://t.co/R85Hz4lcDp"
+      },
+      {
+       "display_url": "pic.x.com/R85Hz4lcDp",
+       "end": 198,
+       "expanded_url": "https://x.com/xiaohu/status/2121083182871466010/photo/2",
+       "media_key": "3_2121083170145918976",
+       "start": 175,
+       "url": "https://t.co/R85Hz4lcDp"
+      }
+     ]
+    },
+    "id": "2121083182871466010",
+    "note_tweet": {
+     "text": "空房间一张，家具图九张，它直接给你摆成客厅\n\nMiniMax 刚开源的 H3-Image\n你丢一张空房间照片，再丢沙发、茶几、边桌这些单品图\n它把东西放进同一个房间，出一张约 1600 万像素的效果图，不用再拿去放大\n\n一步出 4K 大图\n方图 4096×4096，16:9 横图 5472×3072\n比 2048 那档多 4 倍像素，模型直接生成\n\n参考图各管一件事\n最多 16 张，一张管房间，一张管沙发\n还能丢一张灰模渲染图定构图，它补金属、月壤和光影；在地图上画个红箭头，它画出站在那儿看到的第一人称画面（官方样例，只是静态图，没法真走进去）\n\n一句中文也能用\nAPI 会先把你的短要求扩写成详细的英文画面描述再出图，摄影细节不用自己写\n\n本地能跑，但很大\nSGLang、vLLM、ComfyUI 都有路径，从零下载约 135 GB...\n社区许可，美国、欧盟等地区被排除，年收入超 100 万美元要单独授权\n\n走 API 的话，官方示例一张 4096×4096 约 0.069 美元，11 月 18 日前半价 0.034"
+    },
+    "public_metrics": {
+     "bookmark_count": 21,
+     "impression_count": 6515,
+     "like_count": 22,
+     "quote_count": 4,
+     "reply_count": 24,
+     "repost_count": 2
+    },
+    "text": "空房间一张，家具图九张，它直接给你摆成客厅\n\nMiniMax 刚开源的 H3-Image\n你丢一张空房间照片，再丢沙发、茶几、边桌这些单品图\n它把东西放进同一个房间，出一张约 1600 万像素的效果图，不用再拿去放大\n\n一步出 4K 大图\n方图 4096×4096，16:9 横图 5472×3072\n比 2048 那档多 4 倍像素，模型直接生成 https://t.co/R85Hz4lcDp",
+    "url": "https://x.com/xiaohu/status/2121083182871466010"
+   },
+   {
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-13T03:30:24.000Z",
+    "edit_history_post_ids": [
+     "2121083228924899472"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "description": "MiniMax 推出 H3 家族的图像生成与编辑模型，同一个模型既能凭文字出图，也能结合多张参考图改图。它直接生成约 1600 万像素的画面，无需再接放大模型。",
+       "display_url": "xiaohu.ai/article/minima…",
+       "end": 98,
+       "expanded_url": "https://xiaohu.ai/article/minimax-h3-image/",
+       "start": 75,
+       "status": 200,
+       "title": "MiniMax 开源 H3-Image：原生 4K 出图，最多用 16 张参考图改图 · XiaoHu.AI",
+       "unwound_url": "https://xiaohu.ai/article/minimax-h3-image/",
+       "url": "https://t.co/xCBq5mPDlI"
+      }
+     ]
+    },
+    "id": "2121083228924899472",
+    "public_metrics": {
+     "bookmark_count": 2,
+     "impression_count": 2699,
+     "like_count": 4,
+     "quote_count": 0,
+     "reply_count": 5,
+     "repost_count": 0
+    },
+    "referenced_tweets": [
+     {
+      "id": "2121083182871466010",
+      "type": "replied_to"
+     }
+    ],
+    "text": "接 API 有个坑，客户端超时或断开，服务端照样生成并收费，重发就再扣一次，官方建议把 SDK 自动重试关掉（max_retries=0）\n完整解读：https://t.co/xCBq5mPDlI",
+    "url": "https://x.com/xiaohu/status/2121083228924899472"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120939413362593792"
+     ],
+     "media_source_tweet_id": [
+      "2120946968403095906"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T00:15:34.000Z",
+    "edit_history_post_ids": [
+     "2121034197012029673"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/yLOGaI5Z9I",
+       "end": 199,
+       "expanded_url": "https://x.com/bot/status/2120946968403095906/photo/1",
+       "media_key": "3_2120939413362593792",
+       "start": 176,
+       "url": "https://t.co/yLOGaI5Z9I"
+      }
+     ]
+    },
+    "id": "2121034197012029673",
+    "public_metrics": {
+     "bookmark_count": 9,
+     "impression_count": 9646,
+     "like_count": 121,
+     "quote_count": 4,
+     "reply_count": 27,
+     "repost_count": 5
+    },
+    "text": "SPACEXSI 🔥: Users can now connect a new set of Apple apps to Grok Bot.\n\nA full list: Messages, Mail, Notes, Reminders, Calendar, Location, and Contacts.\n\nNew stuff every day 👀 https://t.co/yLOGaI5Z9I",
+    "url": "https://x.com/testingcatalog/status/2121034197012029673"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2121281623022825473"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T16:39:05.000Z",
+    "edit_history_post_ids": [
+     "2121281708888564178"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/4VeUc78emA",
+       "end": 304,
+       "expanded_url": "https://x.com/testingcatalog/status/2121281708888564178/video/1",
+       "media_key": "13_2121281623022825473",
+       "start": 281,
+       "url": "https://t.co/4VeUc78emA"
+      }
+     ]
+    },
+    "id": "2121281708888564178",
+    "note_tweet": {
+     "text": "OPENAI 🔥: ChatGPT Wallet is rolling out on Dots for ChatGPT Pro subscribers in the US.\n\n> \"It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase, while also preserving existing card rewards and protections for eligible disputes.\"\n\nChatGPT Wallet was built in partnership with American Express, Mastercard, and Visa.\n\nA new economy 👀"
+    },
+    "public_metrics": {
+     "bookmark_count": 27,
+     "impression_count": 12772,
+     "like_count": 319,
+     "quote_count": 3,
+     "reply_count": 41,
+     "repost_count": 10
+    },
+    "text": "OPENAI 🔥: ChatGPT Wallet is rolling out on Dots for ChatGPT Pro subscribers in the US.\n\n&gt; \"It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase, while also preserving existing card rewards https://t.co/4VeUc78emA",
+    "url": "https://x.com/testingcatalog/status/2121281708888564178"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2121294472646664192"
+     ],
+     "media_source_tweet_id": [
+      "2121294533879267683"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T17:42:33.000Z",
+    "edit_history_post_ids": [
+     "2121297682333606345"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/wJWyUIHmTN",
+       "end": 321,
+       "expanded_url": "https://x.com/perplexity_ai/status/2121294533879267683/video/1",
+       "media_key": "13_2121294472646664192",
+       "start": 298,
+       "url": "https://t.co/wJWyUIHmTN"
+      }
+     ]
+    },
+    "id": "2121297682333606345",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/perplexity_ai/…",
+        "end": 321,
+        "expanded_url": "https://x.com/perplexity_ai/status/2121294533879267683/video/1",
+        "start": 298,
+        "url": "https://t.co/wJWyUIHmTN"
+       }
+      ]
+     },
+     "text": "PERPLEXITY 🔥: Perplexity Teammates are now available on the Perplexity Mac application for Perplexity Max subscribers. \n\n> Perplexity Teammates are personalized, proactive agents from Perplexity that can operate Plugins and Skills and are powered by Perplexity's range of models. \n\nNeeds testing 👀 https://t.co/wJWyUIHmTN"
+    },
+    "public_metrics": {
+     "bookmark_count": 21,
+     "impression_count": 10268,
+     "like_count": 228,
+     "quote_count": 3,
+     "reply_count": 25,
+     "repost_count": 7
+    },
+    "text": "PERPLEXITY 🔥: Perplexity Teammates are now available on the Perplexity Mac application for Perplexity Max subscribers. \n\n&gt; Perplexity Teammates are personalized, proactive agents from Perplexity that can operate Plugins and Skills and are powered by Perplexity's range of models.",
+    "url": "https://x.com/testingcatalog/status/2121297682333606345"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121359312337436672"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T21:49:21.000Z",
+    "edit_history_post_ids": [
+     "2121359790039277839"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/3GqQaTUIXZ",
+       "end": 306,
+       "expanded_url": "https://x.com/testingcatalog/status/2121359790039277839/photo/1",
+       "media_key": "3_2121359312337436672",
+       "start": 283,
+       "url": "https://t.co/3GqQaTUIXZ"
+      }
+     ]
+    },
+    "id": "2121359790039277839",
+    "note_tweet": {
+     "text": "Sesame is ending its \"preview\" period and introducing Plus and Pro paid plans. \n\nFree users will keep access to 👀\n- 30 minutes of talk time a day\n- Limited weekly credits for texts and tasks\n- Every feature, the same on every plan\n\n> Plus will cost $20 and include 4x usage.\n> Pro will cost $100 and will come with 20x usage.\n\nPaid plans are supposed to go live next week. \n\nI am still using it daily, mainly because of Sesame Link, through which I control my Mac mini. Let's see how it goes!"
+    },
+    "public_metrics": {
+     "bookmark_count": 27,
+     "impression_count": 8372,
+     "like_count": 89,
+     "quote_count": 4,
+     "reply_count": 14,
+     "repost_count": 0
+    },
+    "text": "Sesame is ending its \"preview\" period and introducing Plus and Pro paid plans. \n\nFree users will keep access to 👀\n- 30 minutes of talk time a day\n- Limited weekly credits for texts and tasks\n- Every feature, the same on every plan\n\n&gt; Plus will cost $20 and include 4x usage.\n&gt; https://t.co/3GqQaTUIXZ",
+    "url": "https://x.com/testingcatalog/status/2121359790039277839"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121138259321663488"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-13T07:09:16.000Z",
+    "edit_history_post_ids": [
+     "2121138310500483412"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 119,
+       "id": "4398626122",
+       "start": 112,
+       "username": "OpenAI"
+      }
+     ],
+     "urls": [
+      {
+       "display_url": "pic.x.com/SAQw6I9lib",
+       "end": 182,
+       "expanded_url": "https://x.com/MaxForAI/status/2121138310500483412/photo/1",
+       "media_key": "3_2121138259321663488",
+       "start": 159,
+       "url": "https://t.co/SAQw6I9lib"
+      },
+      {
+       "display_url": "x.com/zack_overflow/…",
+       "end": 206,
+       "expanded_url": "https://twitter.com/zack_overflow/status/2121092676510695723",
+       "start": 183,
+       "url": "https://t.co/UShD5leLOt"
+      }
+     ]
+    },
+    "id": "2121138310500483412",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 119,
+        "id": "4398626122",
+        "start": 112,
+        "username": "OpenAI"
+       }
+      ]
+     },
+     "text": "不是，这么烂的活儿怎么能有这么多媒体上钩啊？？？\n\n今天看到国内一堆媒体在发新闻，说什么数百名英伟达员工联名要求董事会辞职，让黄仁勋回来继续当 CEO。\n\n结果我去看了一眼所谓的联名信，差点没绷住。\n这不就是 2023 年 @OpenAI 宫斗的时候，OpenAI员工支持 Sam Altman 的那封联名信吗？？？\n\n基本就是照着原文抄了一遍，把 OpenAI 换成 NVIDIA，把 Sam Altman 换成黄仁勋。\n最搞笑的是，连当年 OpenAI 员工威胁集体辞职去微软的那段，都给改成了跟着老黄和马斯克去 SpaceX Terafab🤣\n甚至连重新编个故事都懒得编。。。\n\n不是，2023 年 OpenAI 那场宫斗，国内这些科技媒体当年不都报道过吗？\n这才过去三年啊，换了几个名字就认不出来了？？？\n现在有些媒体发新闻，是真的连原始信息都不看一眼了吗。。。"
+    },
+    "public_metrics": {
+     "bookmark_count": 1,
+     "impression_count": 6660,
+     "like_count": 23,
+     "quote_count": 0,
+     "reply_count": 8,
+     "repost_count": 3
+    },
+    "referenced_tweets": [
+     {
+      "id": "2121092676510695723",
+      "type": "quoted"
+     }
+    ],
+    "text": "不是，这么烂的活儿怎么能有这么多媒体上钩啊？？？\n\n今天看到国内一堆媒体在发新闻，说什么数百名英伟达员工联名要求董事会辞职，让黄仁勋回来继续当 CEO。\n\n结果我去看了一眼所谓的联名信，差点没绷住。\n这不就是 2023 年 @OpenAI 宫斗的时候，OpenAI员工支持 Sam Altman 的那封联名信吗？？？ https://t.co/SAQw6I9lib https://t.co/UShD5leLOt",
+    "url": "https://x.com/MaxForAI/status/2121138310500483412"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121092219608432640"
+     ]
+    },
+    "author_id": "1331009587303084035",
+    "created_at": "2026-11-13T04:07:56.000Z",
+    "edit_history_post_ids": [
+     "2121092676510695723"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/yEQMKAajh3",
+       "end": 177,
+       "expanded_url": "https://x.com/zack_overflow/status/2121092676510695723/photo/1",
+       "media_key": "3_2121092219608432640",
+       "start": 154,
+       "url": "https://t.co/yEQMKAajh3"
+      }
+     ]
+    },
+    "id": "2121092676510695723",
+    "public_metrics": {
+     "bookmark_count": 1973,
+     "impression_count": 2080085,
+     "like_count": 16780,
+     "quote_count": 504,
+     "reply_count": 931,
+     "repost_count": 1820
+    },
+    "text": "BREAKING: hundreds of NVIDIA employees have signed an internal letter demanding the reinstatement of Jensen Huang as CEO and the resignation of the board https://t.co/yEQMKAajh3",
+    "url": "https://x.com/zack_overflow/status/2121092676510695723"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2121245825556783104"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T14:17:37.000Z",
+    "edit_history_post_ids": [
+     "2121246108479262858"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/ZHPwMk0WX0",
+       "end": 299,
+       "expanded_url": "https://x.com/testingcatalog/status/2121246108479262858/video/1",
+       "media_key": "13_2121245825556783104",
+       "start": 276,
+       "url": "https://t.co/ZHPwMk0WX0"
+      }
+     ]
+    },
+    "id": "2121246108479262858",
+    "note_tweet": {
+     "text": "Nace AI has launched Drex for Finance, its decision model designed for prediction markets.\n\nIt reads each rule and the final price for the requested prediction, then gives a probability score for each side.\n\nWhen Drex is less than 90% sure, it uses Claude to double-check the answer. This happened only 7 times out of 108. According to Nace, Drex scored 100% on all 108 predictions from the test suite, while being 93% cheaper than Claude."
+    },
+    "public_metrics": {
+     "bookmark_count": 13,
+     "impression_count": 7578,
+     "like_count": 148,
+     "quote_count": 0,
+     "reply_count": 18,
+     "repost_count": 2
+    },
+    "text": "Nace AI has launched Drex for Finance, its decision model designed for prediction markets.\n\nIt reads each rule and the final price for the requested prediction, then gives a probability score for each side.\n\nWhen Drex is less than 90% sure, it uses Claude to double-check the https://t.co/ZHPwMk0WX0",
+    "url": "https://x.com/testingcatalog/status/2121246108479262858"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2121338525266128896"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T20:25:07.000Z",
+    "edit_history_post_ids": [
+     "2121338593675489338"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/DspXQs6nHw",
+       "end": 302,
+       "expanded_url": "https://x.com/testingcatalog/status/2121338593675489338/video/1",
+       "media_key": "13_2121338525266128896",
+       "start": 279,
+       "url": "https://t.co/DspXQs6nHw"
+      },
+      {
+       "display_url": "x.com/xadisingh/stat…",
+       "end": 326,
+       "expanded_url": "https://twitter.com/xadisingh/status/2121265353867284498",
+       "start": 303,
+       "url": "https://t.co/wk6OyJx8Si"
+      }
+     ]
+    },
+    "id": "2121338593675489338",
+    "note_tweet": {
+     "text": "Reason Machines has launched Reason, its AI coding agent designed to maximize work completed per dollar.\n\nDuring testing, Reason solved more tasks than Codex on the same model while spending 22% less.\n\nUsers can give it standing jobs to run autonomously, such as reviewing every new pull request, and run it using their own ChatGPT, Claude, GitHub Copilot, or Grok membership."
+    },
+    "public_metrics": {
+     "bookmark_count": 19,
+     "impression_count": 6660,
+     "like_count": 133,
+     "quote_count": 1,
+     "reply_count": 30,
+     "repost_count": 3
+    },
+    "referenced_tweets": [
+     {
+      "id": "2121265353867284498",
+      "type": "quoted"
+     }
+    ],
+    "text": "Reason Machines has launched Reason, its AI coding agent designed to maximize work completed per dollar.\n\nDuring testing, Reason solved more tasks than Codex on the same model while spending 22% less.\n\nUsers can give it standing jobs to run autonomously, such as reviewing every https://t.co/DspXQs6nHw https://t.co/wk6OyJx8Si",
+    "url": "https://x.com/testingcatalog/status/2121338593675489338"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2121348915156967424"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T21:07:05.000Z",
+    "edit_history_post_ids": [
+     "2121349152277995703"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/43VLYyCdBi",
+       "end": 304,
+       "expanded_url": "https://x.com/testingcatalog/status/2121349152277995703/video/1",
+       "media_key": "13_2121348915156967424",
+       "start": 281,
+       "url": "https://t.co/43VLYyCdBi"
+      },
+      {
+       "display_url": "x.com/Maketplans/sta…",
+       "end": 328,
+       "expanded_url": "https://twitter.com/Maketplans/status/2121340388703424963",
+       "start": 305,
+       "url": "https://t.co/bZI8Lng6i2"
+      }
+     ]
+    },
+    "id": "2121349152277995703",
+    "note_tweet": {
+     "text": "Maket has launched Custom Materials, a feature that lets users design their own floors and walls for the homes they plan in Maket.\n\nUsers can describe a material, such as an aged checkered stone tile, or upload an image of one, and then use it across their floor plans.\n\nThe rooms can be viewed in 3D, giving users a realistic view of the home they are planning, including their custom floors and walls."
+    },
+    "public_metrics": {
+     "bookmark_count": 16,
+     "impression_count": 5592,
+     "like_count": 119,
+     "quote_count": 0,
+     "reply_count": 10,
+     "repost_count": 5
+    },
+    "referenced_tweets": [
+     {
+      "id": "2121340388703424963",
+      "type": "quoted"
+     }
+    ],
+    "text": "Maket has launched Custom Materials, a feature that lets users design their own floors and walls for the homes they plan in Maket.\n\nUsers can describe a material, such as an aged checkered stone tile, or upload an image of one, and then use it across their floor plans.\n\nThe rooms https://t.co/43VLYyCdBi https://t.co/bZI8Lng6i2",
+    "url": "https://x.com/testingcatalog/status/2121349152277995703"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2121260359298281472"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T15:16:29.000Z",
+    "edit_history_post_ids": [
+     "2121260921435623813"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/aQFjH4te08",
+       "end": 308,
+       "expanded_url": "https://x.com/testingcatalog/status/2121260921435623813/video/1",
+       "media_key": "13_2121260359298281472",
+       "start": 285,
+       "url": "https://t.co/aQFjH4te08"
+      }
+     ]
+    },
+    "id": "2121260921435623813",
+    "note_tweet": {
+     "text": "META 🔥: Muse is getting a new Chrome extension that can operate on open web pages. \n\nChrome Web Store description 👀\n\n> \"Your personal AI agent in Chrome. Hand off tasks, take busywork off your plate and stay in control.\"\n\n> \"Muse is your personal AI agent that gets things done, always working on what matters to you. Bring it into Chrome to take everyday tasks off your plate, from filling out forms to comparing prices and following up on refunds.\"\n\n> \"Open Muse in Chrome’s side panel without leaving the page you’re on. Pick up your conversations, right alongside your browsing.\n\n> \"Approve actions before they happen. Muse keeps a full activity log, and lets you revoke any connector anytime.\"\n\nIt's already available for testing; check it out below!"
+    },
+    "public_metrics": {
+     "bookmark_count": 34,
+     "impression_count": 13873,
+     "like_count": 284,
+     "quote_count": 6,
+     "reply_count": 40,
+     "repost_count": 15
+    },
+    "text": "META 🔥: Muse is getting a new Chrome extension that can operate on open web pages. \n\nChrome Web Store description 👀\n\n&gt; \"Your personal AI agent in Chrome. Hand off tasks, take busywork off your plate and stay in control.\"\n\n&gt; \"Muse is your personal AI agent that gets things done, https://t.co/aQFjH4te08",
+    "url": "https://x.com/testingcatalog/status/2121260921435623813"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121272947285356544",
+      "3_2121272965798981632"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T16:04:38.000Z",
+    "edit_history_post_ids": [
+     "2121273038607929694"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/k8fjXYYnY7",
+       "end": 309,
+       "expanded_url": "https://x.com/testingcatalog/status/2121273038607929694/photo/1",
+       "media_key": "3_2121272947285356544",
+       "start": 286,
+       "url": "https://t.co/k8fjXYYnY7"
+      },
+      {
+       "display_url": "pic.x.com/k8fjXYYnY7",
+       "end": 309,
+       "expanded_url": "https://x.com/testingcatalog/status/2121273038607929694/photo/2",
+       "media_key": "3_2121272965798981632",
+       "start": 286,
+       "url": "https://t.co/k8fjXYYnY7"
+      },
+      {
+       "display_url": "x.com/LuminaBench/st…",
+       "end": 333,
+       "expanded_url": "https://twitter.com/LuminaBench/status/2121268413112758744",
+       "start": 310,
+       "url": "https://t.co/VhEpXRseC0"
+      }
+     ]
+    },
+    "id": "2121273038607929694",
+    "note_tweet": {
+     "text": "META 🔥: Muse-Spark-1.4-internal has been spotted in one of the PRs on Github. \n\n> The PR is a small logging change to RocksDB's experimental \"live tuning\" feature. \n\n> The mention appears to be in the PR notes, which seem to be auto-generated. \n\nIt's expected that Muse Spark 1.4 is in the works and is already used internally at Meta, as it seems."
+    },
+    "public_metrics": {
+     "bookmark_count": 32,
+     "impression_count": 15824,
+     "like_count": 326,
+     "quote_count": 2,
+     "reply_count": 16,
+     "repost_count": 14
+    },
+    "referenced_tweets": [
+     {
+      "id": "2121268413112758744",
+      "type": "quoted"
+     }
+    ],
+    "text": "META 🔥: Muse-Spark-1.4-internal has been spotted in one of the PRs on Github. \n\n&gt; The PR is a small logging change to RocksDB's experimental \"live tuning\" feature. \n\n&gt; The mention appears to be in the PR notes, which seem to be auto-generated. \n\nIt's expected that Muse Spark 1.4 https://t.co/k8fjXYYnY7 https://t.co/VhEpXRseC0",
+    "url": "https://x.com/testingcatalog/status/2121273038607929694"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2121352709949308928"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-13T21:21:25.000Z",
+    "edit_history_post_ids": [
+     "2121352761379860628"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/RqtneaY7jD",
+       "end": 280,
+       "expanded_url": "https://x.com/testingcatalog/status/2121352761379860628/video/1",
+       "media_key": "13_2121352709949308928",
+       "start": 257,
+       "url": "https://t.co/RqtneaY7jD"
+      },
+      {
+       "display_url": "x.com/Google/status/…",
+       "end": 304,
+       "expanded_url": "https://twitter.com/Google/status/2121293823837921433",
+       "start": 281,
+       "url": "https://t.co/76qt28ELRf"
+      }
+     ]
+    },
+    "id": "2121352761379860628",
+    "public_metrics": {
+     "bookmark_count": 16,
+     "impression_count": 7180,
+     "like_count": 189,
+     "quote_count": 3,
+     "reply_count": 16,
+     "repost_count": 8
+    },
+    "referenced_tweets": [
+     {
+      "id": "2121293823837921433",
+      "type": "quoted"
+     }
+    ],
+    "text": "GOOGLE 🔥: All Gemini users in the U.S. can now connect their Google Wallets to Gemini. \n\nUsers also have the option to securely link their financial accounts, including credit cards and banks, to Wallet via Plaid to unlock deeper insights.\n\nGoogle's turn 👀 https://t.co/RqtneaY7jD https://t.co/76qt28ELRf",
+    "url": "https://x.com/testingcatalog/status/2121352761379860628"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121264335360339975"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-13T15:30:04.000Z",
+    "edit_history_post_ids": [
+     "2121264341236564386"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/lTSnSs8nRU",
+       "end": 126,
+       "expanded_url": "https://x.com/xiaohu/status/2121264341236564386/photo/1",
+       "media_key": "3_2121264335360339975",
+       "start": 103,
+       "url": "https://t.co/lTSnSs8nRU"
+      },
+      {
+       "display_url": "x.com/deepseek_ai/st…",
+       "end": 150,
+       "expanded_url": "https://twitter.com/deepseek_ai/status/2121247896918253875",
+       "start": 127,
+       "url": "https://t.co/96uALUjvC0"
+      }
+     ]
+    },
+    "id": "2121264341236564386",
+    "public_metrics": {
+     "bookmark_count": 15,
+     "impression_count": 4296,
+     "like_count": 14,
+     "quote_count": 0,
+     "reply_count": 10,
+     "repost_count": 5
+    },
+    "referenced_tweets": [
+     {
+      "id": "2121247896918253875",
+      "type": "quoted"
+     }
+    ],
+    "text": "Deepseek发布大一统API\n\n联网搜索、深度思考、传文件、读链接全包了\n\n底层能力还能单独拆出来用：\n\n比如 OCR（文字识别）、ASR（语音识别）、TTS（语音合成）都能独立调用\n\n价格也很美丽🫡 https://t.co/lTSnSs8nRU https://t.co/96uALUjvC0",
+    "url": "https://x.com/xiaohu/status/2121264341236564386"
+   }
+  ],
+  "includes": {
+   "media": [
+    {
+     "media_key": "3_2121159058870980610",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW_e7PgbUAINIvZ.jpg"
+    },
+    {
+     "media_key": "3_2120991467766181888",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW9GgJ_WcAA9m3I.jpg"
+    },
+    {
+     "media_key": "3_2121134870990884864",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW_I7UobEAAMHoY.png"
+    },
+    {
+     "media_key": "3_2121251579169001472",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HXAzEoea0AAGIzM.jpg"
+    },
+    {
+     "duration_ms": 511960,
+     "media_key": "13_2121063253514350592",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121063253514350592/img/ns9-__XvEZbwSnho.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121063253514350592/vid/avc1/480x270/fZs9wLWZQ_dCGran.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121063253514350592/vid/avc1/1280x720/9KqTZrBsbLzgM99X.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121063253514350592/pl/R82R4pfG9lPyZvlN.m3u8"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121063253514350592/vid/avc1/640x360/Q8fHmh2g2kT4Q4Zl.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121063253514350592/vid/avc1/1920x1080/dMXFaTnadFQ_627a.mp4"
+      }
+     ]
+    },
+    {
+     "duration_ms": 90173,
+     "media_key": "13_2121265084018434048",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121265084018434048/img/RKgD3UbkPbkIC3ap.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121265084018434048/vid/avc1/480x270/hoY6QNOC4-FzJfxm.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121265084018434048/vid/avc1/640x360/3oggq5pyvZreau8L.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121265084018434048/vid/avc1/1280x720/aYl-dlGLnKE2Li0y.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121265084018434048/pl/7Xb0T9XI2w9wOAWU.m3u8?v=a95"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2121263682046889984",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HXA-FHNXkAA5xZZ.png"
+    },
+    {
+     "media_key": "3_2120926915989327872",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW8Lyv4b0AAK2Qd.jpg"
+    },
+    {
+     "duration_ms": 171734,
+     "media_key": "13_2121139129933348864",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121139129933348864/img/t5lK228IqVewoW1b.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 632000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121139129933348864/vid/avc1/320x684/L5-Wy75KkU0i6fqK.mp4"
+      },
+      {
+       "bit_rate": 950000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121139129933348864/vid/avc1/448x960/jrauTfKFt1ExZ8nf.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121139129933348864/pl/roQTg0bEEhglv0z5.m3u8?v=961"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2121083170108096512",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW-Z571aQAAzd5l.jpg"
+    },
+    {
+     "media_key": "3_2121083170145918976",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW-Z57-bYAAVx1o.jpg"
+    },
+    {
+     "media_key": "3_2120939413362593792",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW8XKMOaUAAegaG.jpg"
+    },
+    {
+     "duration_ms": 45290,
+     "media_key": "13_2121281623022825473",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121281623022825473/img/vpTf7tcYCDjlM6Ur.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121281623022825473/vid/avc1/1920x1080/9xCMWwL92JVpVcJV.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121281623022825473/pl/nFW91edqjwEkTJMX.m3u8?v=cfc"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121281623022825473/vid/avc1/1280x720/YaPFkKvRUZgGsoft.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121281623022825473/vid/avc1/640x360/PnHTzGF5T09PnBfg.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121281623022825473/vid/avc1/480x270/giimEuEGOpYokqBY.mp4"
+      }
+     ]
+    },
+    {
+     "duration_ms": 37033,
+     "media_key": "13_2121294472646664192",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121294472646664192/img/11up3pome0oMvwWx.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 288000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121294472646664192/vid/avc1/480x270/lvBFTv1sek0wRRz-.mp4?tag=16"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121294472646664192/vid/avc1/1920x1080/9BQiAlipz8vzQAii.mp4?tag=16"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121294472646664192/vid/avc1/1280x720/DSiVNsHKLwt6DhB_.mp4?tag=16"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121294472646664192/vid/avc1/640x360/jIGnMrJKBugy3BCe.mp4?tag=16"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121294472646664192/pl/mrPxRrQIx9Dx2i8k.m3u8?tag=16&v=cfc"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2121359312337436672",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HXCVDhzXAAABRX5.jpg"
+    },
+    {
+     "media_key": "3_2121092219608432640",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW-iIr2bAAAg0P5.png"
+    },
+    {
+     "media_key": "3_2121138259321663488",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW_MAjJbsAAh7Lo.jpg"
+    },
+    {
+     "duration_ms": 19200,
+     "media_key": "13_2121245825556783104",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121245825556783104/img/iHbrld5HJUuQZrAO.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121245825556783104/vid/avc1/1920x1080/iatSobMb1x5y17bs.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121245825556783104/vid/avc1/1280x720/B5iRDWpdEzZXgwD5.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121245825556783104/pl/HQpAMLteCNgCOmbO.m3u8"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121245825556783104/vid/avc1/640x360/T44tMfaU0CTjuwNF.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121245825556783104/vid/avc1/480x270/TWqBvVDXWOnlnOWL.mp4"
+      }
+     ]
+    },
+    {
+     "duration_ms": 36009,
+     "media_key": "13_2121338525266128896",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121338525266128896/img/4S5HDLzaNZZQKD9-.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121338525266128896/vid/avc1/640x360/MKSmWQLKuTbQbmcZ.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121338525266128896/vid/avc1/480x270/8OneoZAwupRi8saJ.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121338525266128896/vid/avc1/1280x720/lQIIX-w1Nu5piTYK.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121338525266128896/vid/avc1/1920x1080/fjS5t7I_4ozf8PLR.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121338525266128896/pl/ZKBJ3fBP3hNhcnN8.m3u8?v=cfc"
+      },
+      {
+       "bit_rate": 25128000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121338525266128896/vid/avc1/3840x2160/xiHHl_jokI__Id6S.mp4"
+      }
+     ]
+    },
+    {
+     "duration_ms": 24000,
+     "media_key": "13_2121340355128037376",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121340355128037376/img/Htugh-ur6dRYn3Rh.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121340355128037376/vid/avc1/1280x720/j6FKdlid5G9xjxZR.mp4?tag=16"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121340355128037376/pl/nAhK884MUy9UwP7o.m3u8?tag=16&v=cfc"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121340355128037376/vid/avc1/640x360/P8KqTJb-2IXTt8TK.mp4?tag=16"
+      },
+      {
+       "bit_rate": 288000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121340355128037376/vid/avc1/480x270/ToUZSXcQRswKkk70.mp4?tag=16"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121340355128037376/vid/avc1/1920x1080/W1c8s4ueyjAUpAw8.mp4?tag=16"
+      }
+     ]
+    },
+    {
+     "duration_ms": 70208,
+     "media_key": "13_2121348915156967424",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121348915156967424/img/Y7639RejOUSr-OeX.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121348915156967424/pl/Wb0pcbuk_lUVOco-.m3u8?v=cfc"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121348915156967424/vid/avc1/640x360/4Pa-MQDKlv-TmIB4.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121348915156967424/vid/avc1/480x270/mDqKaEP4Sq6BhQWZ.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121348915156967424/vid/avc1/1280x720/b6wPL8lwAnFixHhQ.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121348915156967424/vid/avc1/1920x1080/b86aifvgRl_7oucn.mp4"
+      }
+     ]
+    },
+    {
+     "duration_ms": 24766,
+     "media_key": "13_2121260359298281472",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121260359298281472/img/xz6p9-rZX9y5RLpJ.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121260359298281472/vid/avc1/634x360/18cyA9iaOCQtV8j7.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121260359298281472/vid/avc1/1904x1080/qG9E0YTJAtqdsSTm.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121260359298281472/pl/j80MmOAkJydDSPW2.m3u8"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121260359298281472/vid/avc1/1268x720/3nEA7MCQm1UghtzM.mp4"
+      },
+      {
+       "bit_rate": 25128000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121260359298281472/vid/avc1/3808x2160/TyzE-sZdCbdc06au.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121260359298281472/vid/avc1/476x270/ARB4wQcRulDeXBLc.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2121272947285356544",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HXBGga6W8AAP2cM.png"
+    },
+    {
+     "media_key": "3_2121272965798981632",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HXBGhf4WcAAivtR.jpg"
+    },
+    {
+     "duration_ms": 24066,
+     "media_key": "13_2121352709949308928",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121352709949308928/img/UBAPoJXq3jxs4fRm.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121352709949308928/vid/avc1/1280x720/p-Pc15XZ3NZs0owy.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121352709949308928/vid/avc1/640x360/XVWZ1hHA3Xz_EeIc.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121352709949308928/vid/avc1/1920x1080/FycAKSGwJAPYcgJn.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2121352709949308928/vid/avc1/480x270/lN7KjG60tfUM-OWq.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2121352709949308928/pl/Lqzen6O1AZ-qNlcW.m3u8"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2121264335360339975",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HXA-rI_bsAcnFcF.jpg"
+    }
+   ],
+   "posts": [
+    {
+     "article": {
+      "cover_media": "3_2117053977955373056",
+      "entities": {
+       "code": [
+        {
+         "code": "{\n  \"name\": \"中台意见\",\n  \"when\": {\n    \"source\": \"virxact-hub\",\n    \"types\": [\"feedback.new\", \"feedback.followup\", \"feedback.decided\"]\n  },\n  \"to\": \"m5-claude\",\n  \"cwd\": \"~/code/work/virxact-hub\",\n  \"skill\": \"hub-feedback\",\n  \"ask\": \"按其中“被 Agent 自动化中台叫起来的”一节处理。\",\n  \"group\": \"hub-feedback\",\n  \"parallel\": 3,\n  \"tell\": \"needed\"\n}",
+         "content": "```\n{\n  \"name\": \"中台意见\",\n  \"when\": {\n    \"source\": \"virxact-hub\",\n    \"types\": [\"feedback.new\", \"feedback.followup\", \"feedback.decided\"]\n  },\n  \"to\": \"m5-claude\",\n  \"cwd\": \"~/code/work/virxact-hub\",\n  \"skill\": \"hub-feedback\",\n  \"ask\": \"按其中“被 Agent 自动化中台叫起来的”一节处理。\",\n  \"group\": \"hub-feedback\",\n  \"parallel\": 3,\n  \"tell\": \"needed\"\n}\n\n```",
+         "language": "none"
+        }
+       ],
+       "posts": [
+        {
+         "id": "2114343004471460341"
+        }
+       ],
+       "urls": [
+        {
+         "text": "feedback.new"
+        },
+        {
+         "text": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647686948&idx=1&sn=d43b6d924d339092f96e3ba826119f6c&scene=21#wechat_redirect"
+        }
+       ]
+      },
+      "media_entities": [
+       "3_2117052522007584768",
+       "3_2117053652783476736",
+       "3_2117053461024169984",
+       "3_2117053177589809152",
+       "3_2117052567801004032",
+       "3_2117052385738797056",
+       "3_2117052979216007169",
+       "3_2117053028469813248",
+       "3_2117053127778357248",
+       "3_2117053554360000512",
+       "3_2117053419815043072",
+       "3_2117053331655086082",
+       "3_2117053287572881408",
+       "3_2117053080504279040",
+       "3_2117053509204054016",
+       "3_2117052621144158208",
+       "3_2117052330235531264"
+      ],
+      "plain_text": "上周六的时候，DeepSeek发了他们一篇很长的技术文章，叫《Super-agent设计探索：迈向更自主的Agent系统》，细细读完了，非常棒的架构，对很多开发者来说，都非常非常值得学习。\n其中里面最重要的一句话，我觉得就开篇的那句：\n“一个人通常只能同时跟进3到5个活跃的会话，在这种设计下，单任务的上限取决于模型能力，多任务的上限取决于人的注意力。”\n在整个Agent系统里，人的注意力是最宝贵的资产，同时也是最大的瓶颈。\n其实历史上出现过无数次这种情形。\n1380年，朱元璋借着胡惟庸案，把中书省和丞相一起废了，从此六部直接对皇帝负责，天下大事，全部直通他本人。\n然后报应很快就来了，洪武十七年九月，给事中张文辅给朱元璋报了一笔账，从十四号到二十一号，八天时间，内外各衙门送上来的奏札一共1660件，里面要处理的事，三千多件。\n平均下来，一天两百多份奏札，朱元璋要一个人处理400多件事。\n朱元璋是出了名的勤快，但这个强度，他自己也绷不住了，当场跟大臣们说了一句话，“朕一人处此多务，岂能一一周遍”。\n翻译过来就是：\n我一个人，管这么多事，怎么可能每一件都照顾得过来啊。\n你看，皇帝的注意力，跟我们普通人的，其实也差不了多少。\n六百多年过去了，我们人类也步入了AI社会，每个人也都开始成为了自己的皇帝，只不过这一次，递奏折的不是六部九卿，是一个个Agent。\n如何设计Agent的调度系统，解放自己的注意力同时，大幅提高生产力效率，尽可能让自己抽身出来，只做最关键的决策，就是未来我们每个人都要学习和思考的命题。\n这个特质，其实也叫：\n领导力。\n所以，我也想用这篇文章，来斗胆给大家分享一下我自己这将近1年的Agent系统的成果和经验，以及我是如何让Agent自动化的去处理各种事务的，架构是什么样的，我又是如何尽可能的抽身出来跟Agent协同，只做最关键的判断的。\n整体确实是我这种非专业用户自己这么长时间的探索和使用，以及我觉得可能也更加适合普通用户一些的流程，希望能对大家有用～\n\n1. Agent自动化系统\n首先还是分享一下我对Agent自动化的理解。\n现在大部分人用Agent的方式，其实都还是偏聊天的方式。\n打开Claude Code或者Codex，给它一个任务，看着它干，干完了你检查一下，再给它下一个任务。\n这个过程里有一个弊端，你会发现，所有事情的起点都是你，你只要不打开那个窗口，什么都不会发生，所以不管模型有多强，你能同时推进的事，永远就是你盯得过来的那几个窗口，DeepSeek说的3到5个会话，就是这个意思。\n所以我们在用Agent的时候，一定要尽可能的是领导力思维，把这个任务发生的起点，从人的身上拿掉，用各种信号来去触发Agent进行工作，而不是必须等待你下命令。\n你可以想象你现在就像朱元璋一样，一定不是所有的任务都需要推到你的面前，且也绝对不是你不说话，底下的大臣们就不干活了，一定是大臣们遇见事情，能自己处理的就处理掉了，只有他们拿不准的，必须需要上升到你这进行决策的，才会推到你的面前。\n这个就是我自己理解的Agent自动化系统最终极的意义。\n这就跟带团队一样，一个好的团队，从来不会什么事都跟你汇报，它会自行推进，只把需要你拍板的事拿给你，剩下的，自己去干掉就OK了，你需要给与的，就是充分的信任。\n所以在这套理解下，我整个的系统架构和流程，是这样子的。\n \n我唯一要做的事，就是最后一步，我称为批奏折。\n在飞书里面，我的AI助理小卡会给我弹一张卡片，让我确认，我只要点击就可以了。\n \n点完以后，Agent就收到我的决策了，继续自己干活了。\n基本能最大化释放我的人力。\n顺着流程，我们一个一个模块说。\n\n2. 自动化中台\n先说最核心的这个，Agent自动化中台。\n \n在Agent的体系里面，既然我们要把人给拿出去，那在何时、在何种信号下触发Agent，让它进行工作，就变成了一个需要设计的命题。\n这也就是：事件。\n世间万物，任何的信号触发，我们都可以归纳为一个事件。\n比如定时任务就是一个事件的搜寻行为，固定每分钟或者每小时去轮询请求，来发现事件，比如Webhook触发也是一种事件，比如我们收到一条消息、收到一份邮件、某个系统突然触发了告警等等。\n定时去找的那种，Claude和Codex自己的应用里已经做得很好了，每天几点跑一次什么，设一下就行，我自己也有一大批定时任务，就放在它们的应用里跑。\n \n甚至还有个很好玩的东西，是每一天下午，Codex都会从微信群的聊天记录、X、小红书、抖音等平台搜索大家对于AIHOT的最新讨论和反馈，然后汇总成一份报告给我，给我可行的评估建议，是否要去优化。\n还有每周操控我的浏览器，去豆包、DeepSeek、千问、元宝、ChatGPT、Gemini等等平台，去问一遍我们的一些GEO问题，来判断AIHOT的GEO情况，等等等等。\n然后AIHOT也开源了，每一天都有朋友在Github上提建议、提PR等等，Claude就会每天晚上6点扫一遍，然后处理问题还有PR。\n \n但定时任务轮询有个天生的问题，就是不及时，同事提了一条意见，线上突然报了一个错，你总不能等到第二天早上的定时任务再去看对吧。\n这种事件，必须一发生，Agent马上就被叫醒，这就得靠Webhook，有事的时候，那边的系统主动推一条消息过来。\n而找上门来的事件，来源五花八门，飞书消息、飞书机器人、邮件、各种系统的告警，每一种长得都不一样。\n并且因为模型的能力不同，擅长的任务也不同，为了最大化性价比和省Token，所以事件触发以后，要叫醒的Agent、模型、推理深度也都不一样。\n比如有的事件要叫醒Claude Code用Claude Opus 5.5 high推理去处理，有的要叫醒Codex用GPT-6.1 Terra xhigh去浏览器搜索一些正常拿不到的数据，有的又是要推给GPT-6.1 Sol xhigh去修复BUG等等等等。\n如果每接一种事件，都单独写一套脚本，去接这个来源，去叫醒那个Agent，做三五个还行，做到十几个、几十个，一定会乱成一锅粥的，你再也无法管理了。\n所以，为了以后不乱，我就自建了这个中台，专门用来管所有的事件触发，后来把定时任务也纳入进去了，全部打通。\n它本身是一个很小的独立服务，部在线上一台轻量服务器上，有自己的网址和数据库。\n它干的事也很简单，所有的事件，都先发到这里，由它统一决定交给哪个Agent，统一去叫醒，统一把结果收回来，真需要我来决策的时候，再通过飞书告诉我给我弹一张卡片，我来决策。\n它的第一件事，就是给所有事件定一个统一的格式。不管从哪来，发到中台的都是一条很短的消息，里面只有几样东西，从哪来、什么类型、对象是谁、一句话摘要，再加一个回到原处的链接。比如虚实中台发来一条feedback.new #12，就是同事给虚实中台又提了一条新意见，编号是#12。\n格式统一了，后面就好办了，中台收到事件以后，去查规则。所有规则都写在一个叫rules.json的文件里，比如同事意见这一条，是这么写的。\n \n翻译成人话就是，对产品新意见、同事的补充、还有我拍过板的决定，都交给M5上的Claude Code，在虚实中台的代码目录里，用hub-feedback这个skill去处理，给Agent的指令就一句，按skill里对应的那一节办，每条意见单独开一轮，同一条意见同时只跑一轮，最多三条一起跑，做完了，只在需要我决策的时候才告诉我，否则就不需要推到我这边。\n然后是叫醒Agent，这里有个技术上的小问题，Webhook能把消息推到中台，但中台推不到我的Mac上，我的Claude和Codex都是部在本地的，因为我的两台Mac都在家里和办公室的内网里，外面根本连不进来。\n所以我们反过来做，每台Mac上都跑着一个接单程序，一直挂在中台上等活，一次最长等50秒，有活立刻接走，没活就再挂上去接着等，这样Mac不用暴露到公网上，速度也跟实时推送也差不多。\n它的好处，我觉得有这么几个。\n第一，接一种新的事件，变得特别简单。不用再写一套新脚本，在rules.json里加一条规则就行。我跟Agent说一句，它改完文件、过了检查，几分钟就生效。\n第二，换Agent也特别简单。哪类事交给谁，就是规则里的一行字。今天交给Claude Opus 5.5，明天想换成GPT-6.2 Astra，改一行就行，以后出了更好用的模型，可以随意替换。\n第三，去重。自动化跑起来以后，同一件事被发好几遍，是常态，比如网络抖一下，来源那边以为没发出去，就会再发一遍。同事提完意见，又补了一句话，又贴了一张图，这又是好几条事件。如果每来一条就叫醒一次Agent，同一件事就会有好几个Agent同时在干，这个Agent改一遍，那个Agent又改一遍，最后绝对是乱的要死的，所以就让自动化中台做统一去重，非常省心。\n第四，所有消息，只有一个出口。不管哪个Agent、哪个任务要找我，都只走一条路，就是小卡，我在飞书里的AI助理。而且每条规则都写清楚了，只在必须需要我判断和决策的时候才说，不会这个脚本发一条，那个机器人发一条，把我的飞书刷屏，尽最大可能保护我的精力。\n第五，数据沉淀。因为所有的事件都从中台过，所以每一件事都留了底，什么时候来的、从哪来的、交给了哪个Agent、它最后的结论是什么、有没有需要我留意的、后来又是怎么解决的，全都记在中台的数据库里，点开任何一件任务，还能直接跳到当时Agent干活的那个会话，看它到底干了什么。这些东西攒久了，就是非常完整的数据沉淀了，哪条流水线最忙，哪个Agent干得最多，哪类事老出问题，一眼就能看出来，以后要换模型、改规则，也有数据依据。\n并且还有一个符合我自己爽感的东西，就是所有的自动化任务，我一眼就能看清，可能我确实受种田游戏影响颇多，所以对这种自动化的可视化有深深的迷恋，玩《戴森球计划》的时候，最喜欢看的就是那种密密麻麻的自动化流水线。\n所以，我甚至还做了一个有趣的网页，来把我们的流水线像游戏一样展示出来，并且跟现实世界时间和天气完全打通，现实下雪，那这个自动化小镇里也会下雪。\n之前渲染了一个视频，给大家看看～\n \n这个中台就是让每个事件一发生，就能自己找到该干活的Agent，只把真正需要我的那一小部分，递到我面前。\n\n3. Agent执行\n在触发了事件之后，接下来就是Agent领任务和执行了。\n \n首先我想说一个巨大的前提，就是我们并不是无限Token，即使我开了200刀的Claude会员，猛用下来3天就能用完近90%。\n \n且几个主流模型所擅长的能力点，确实不太一样，各有优劣，所以才会涉及到调度，就是为了整体性价比最优。\n目前我是200刀Claude会员+100刀的GPT会员，基本够用。\n目前主要是几个模型：\nClaude Opus 5.5，它是我们的主力开发，AIHOT的自动化开发、同事对公司中台提的意见这类比较复杂、需要一定主观能动性且能做决策的活，基本都是它在干，我现在几个核心项目的代码，大部分也都是它写的。\nGPT-6.1 Sol，它主要管我们所有项目的运维，告警、每天早上的系统日报、各种到期的复查等等，出了问题它就去查，查到BUG或者问题就直接修了，在做这种活上效果非常好，性价比也极高。\nGPT-6.1 Terra，专门干浏览器&电脑操控的活。它能直接操控我MacMini上那个登录好各种账号的Chrome，前面说的每天去各个平台搜大家对AIHOT的讨论，每周去各家AI问一遍GEO问题，这些没有接口、正常拿不到的数据，全靠它去处理的。\n我自己如果日常主动触发的任务，用的也都是Claude来进行任务的处理，其实我也经常能看到很多人用Grok或者是一些其他的弱一点的模型来指挥Claude，我觉得还是有点不太对，因为做决策和做管理的模型，它一定得是智力和主动性最强的，你不能用笨逼来指挥聪明的，这样会乱套的。\n同时，我自己是有两台MacMini的，一台新买的M5 Pro，一台是去年买的M4的Mac Mini。\n \nM5 Pro是我的主力日常用机，而我的Agent自动化任务基本都是运行在M4那台机器上的，两端通过局域网互通，基本都在本地，没有上云。\n主要是我基本是独立开发，我的代码仓库、发布权限、飞书身份，还有那个登录好各种账号的Chrome，全都在这两台Mac上。\n要是把Agent放到云上，就得把这些登录和权限，在每一家云上都复制一份，既麻烦，又不安全。\n而且很多国内的东西，海外的云端Agent根本就没法用，他们大多跑在海外，跨境访问我们在北京的服务器，动不动就慢就超时。浏览器类的任务更别说了，像微信这种，换成云上虚拟机里的浏览器去打开，直接就给你崩了。\n再加上两台Mac本来就是现成的，一直开着也无所谓，功耗也极低。\n日常需要用M5 Pro电脑操控M4，直接Agent操控或者UU远程就行了，方便快捷。\n \n然后我觉得在Agent自动化执行里面，还有一个蛮重要的东西，是skill。\n我们每个自动化任务，基本上都配着一个专属的Skill，Skill其实过了这么久了，大家也都知道本质上它就是一个沉淀下来给Agents用的SOP，里面附带着一些规则、参考还有脚本之类的。\n比如每周日早上我有个大扫除的定时任务，就搭配了一个专门的Skill，写的就是把这一周合进来的屎山找出来删掉，同一件事写了两遍的、为个案打的补丁、停用了却没拆干净的、变成流水账的文档，能删的直接删掉，再上线。\n \n这样的好处就是清晰、可控、可管理，你想对这个任务的详情进行修改，直接去改Skill就可以了，不用去改这个Agent执行本身的逻辑，尽可能解耦，可管理。\n\n4. CI中台\nAgent把代码写完、提交上来以后，就到了第三块，CI中台。\n \nCI这个词，可能很多不写代码的朋友没怎么听过，大概意思就是，代码写完以后，自动帮你审查、测试、上线的那一整套流水线。\n这块之所以要单独拎出来做一个中台，原因很简单，量太大了。\nGitHub自带的CI，用的是它自己的机器，每个月我开了会员也才3000分钟的免费额度，超了就得另外交钱，而我们的量实在太大了，光AIHOT一个项目，整个10月已经合进去了将近一千个合并请求，平均一天二三十个，每一个还要来回跑好几遍检查，那点额度根本扛不住。\n我之前算过，按照我们提交PR的数量，如果还是用Github的CI体系的话，每个月光超额费用就得交50美金以上。\n所以干脆在家里的那台老的M4的MacMini上自己自建了一台CI中台，机器是现成的，不用另外花钱，而且性能强多了，还在北京，跑得比GitHub自己的CI快多了。\n这一块，如果你有Linux的机器来做CI其实会更好，我的Mac是ARM的，所以其实是模拟的环境，但是我觉得也够用了。\n然后因为项目多，Agent多，所以这个本地CI我就升级了一下，也变成了中台，供我所有的项目使用。\n流程大概是这样的。\n \n不管是Claude还是Codex，Agent的活，干到提交代码、开一个合并请求，就结束了，它自己不能上线。后面所有的事，全部交给CI中台，一共五步，审查、检查、合并、发布、核实。\n第一步，Agent审查，这个我觉得是整套系统里最值得说的一块。\n我们几个项目的代码，现在基本都是Claude在写，但每一个合并请求在合进去之前，都要先过一遍Codex的审查，用的就是前面说的GPT-6.1 Sol，GPT模型在审查这块还是牛逼的。\n之前也遇到过无限审查和挑错的情况，Codex能审个10轮磨磨唧唧，所以学习了Anthropic自己那篇《How the Claude Code team does code review》，他们Claude Code团队就是每个改动合并前都审一遍，但是最多审3次。\n最近两周，四个项目，一共审了298个合并请求，Codex报了333条问题，306条在合并前被修掉了，其中最严重的那一档有51条。\n并且审查也有几条规矩，比如Codex是只读的，只能看不能改，连不了网，也读不到任何钥匙。只报真会出错的问题，不报代码风格，不然它能给你挑几十条「可以写得更好」，能给你打回去能改到天荒地老。\n成本也不高，一次审查中位数两分多钟，大概占那次任务5%到15%的Token。\n第二步，检查。审查过了，就开始跑完整的检查，类型检查、全部测试、构建，还有数据库只能加不能改这类硬规矩，有一条不过，就不能合。\n这些检查，就跑在前面说的那台M4的MacMini上。每个任务都开一台全新的虚拟机，跑完连机器带身份一起删掉，Agent写的代码，从来不会直接在我的Mac本机上跑。\n第三步，合并。审查和检查都过了，GitHub自动合并，而且这两项是写死在GitHub上的规则，没审过、没检查过的代码，不管是哪个Agent、哪个工具，都合不进主干。\n第四步，发布。合进主干以后，GitHub会自动启动发布流程，活照样派给那台M4单独开一台专门发布的虚拟机来跑。\n第五步，核实。合并进去、发出去，依然没有结束。M4上的交付程序会等GitHub上的发布流程全部跑完，再去线上问一遍，现在跑着的版本是不是已经包含了这次的改动，确认真的上线了，再把结果写回GitHub，这一轮才算结束。\n最后执行开发任务的本地Agent，看一眼GitHub就知道最终状态是什么样了。\n五步走下来，从Agent把代码交过来，到真正上线，中位数两三分钟，速度极快，体验极佳，全程不需要我管，并且上线的质量大大提高，几乎很难会有BUG或者返工的情况。\n并且因为有了CI中台，所以未来我们做任何项目，都是完全可以复用这一整套流程的，非常的省心加愉快。\n\n5. 在飞书上批奏折\n能自动解决的，Agent都自动解决了。\n那最后能推到我这边的，一定是需要我做的决策或者是大事。\n我也不喜欢Agent通过什么DOT、Grok Bot之类的所谓Personal Agent来去找我，我觉得会有点麻烦，于是就直接跟飞书打通了，我的AI助理直接给我推一个卡片，我就能第一时间看到。\n \n并且还可以直接做选择。\n \n这个感觉，其实讲道理，跟皇帝批奏折真的没有什么区别。\n朱元璋那会儿自己是一个人硬扛，到了他的子孙，慢慢摸索出了一套办法，叫票拟和批红。\n奏章送上来，先交给内阁，大学士把建议的处理意见写在一张小票上，贴在奏章上面，这叫票拟，皇帝看一眼，同意就用红笔批下去，这叫批红。\n这样确实是最省心的方式。\n所以我的决定卡片，就是Agent给我写的票拟。\n我只做判断，只要点击就行，然后在之前等着我审批的Agent就会接着往下干，卡片也会自己改成结论，比如今晚临时发生的，有个龟儿子进了AIHOT的飞书群，把推送机器人也移除了，然后自己退群了，我都不知道还有这个漏洞，然后因为报错，就触发了整个自动化工作流，给我推了一条卡片。。。\n \n但卡片做的这个交互方式即使有用，但是最重要的就是到底什么事情应该推到我的面前。\n之前其实踩过很多坑，甚至有的时候一天给我推几十条，严重影响我的注意力。\n所以现在必须先问我的就那么几类了，比如删数据、停服、花钱、对外发消息、改产品方向、新建或轮换密钥、修改权限等等，剩下的，Agent就自己全权做完上线。\n而且我定过的事，Agent不会问第二遍。\n我们的仓库里，有一份文件就叫「卡兹克定的事」，只记我亲口做的决定，带着原话和日期。\n然后还有一份「定了不做的事」，我拒绝过的，Agent以后再碰到，直接照着回答，不会再拿来烦我。\n最后还有一个小东西，是我完全没有交给Agent的，每一个，我一定都亲自看，然后把有价值的，亲自发给Agent，让它去做后续的执行。\n这就是用户反馈。\n我每天都会收到一些用户直接的反馈内容，我特别感谢他们。\n \n只要是我觉得能做的，每一个我都会复制粘贴，让Agent来去解决。然后解决完以后，给对方的邮箱发一封真诚的回信反馈。\n可能这也是最后的一种仪式感吧。\n\n写在最后\n上面就是我整个走Agent自动化的一些探索和技巧啦。\n我肯定没有那么专业，只是想跟大家分享一下，我自己的一些经验和玩法，因为这确实是我最近用的非常爽的方式。\n万一呢，万一真的对一些人有用，真的能帮助到大家呢，那也真的是一件非常开心的事了。\n想一想这一年，还真的有一些魔幻。\n一年前，我是一个完全不懂开发的设计师。\n一年后的今天，我搭了我自己的Agent自动化系统，做出了百万月活的公益产品，还开源了，拿到了9000 star的好成绩，也看到无数的反馈，说帮到了他们。\n \n我还给公司搭了公司的中台：我花了5天时间，对公司进行了一场AI化改造。也在用Agent的方式，去迭代整个公司。\n每一天，我都在开发中、在创作中学习，一年前，我连CI是什么都不知道，半年前，我甚至连CDN是什么都不知道，但是不妨碍我，现在都知道了。\n这可能，就是学习的快乐吧。\n希望今天这篇内容，能对大家有用。\n也愿我们，永远对世界，保持好奇。",
+      "preview_text": "上周六的时候，DeepSeek发了他们一篇很长的技术文章，叫《Super-agent设计探索：迈向更自主的Agent系统》，细细读完了，非常棒的架构，对很多开发者来说，都非常非常值得学习。",
+      "title": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。"
+     },
+     "article_title": {
+      "title": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。"
+     },
+     "author_id": "1492195583699951620",
+     "created_at": "2026-11-02T00:39:51.000Z",
+     "edit_history_post_ids": [
+      "2117054043868860521"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/i/article/2117…",
+        "end": 23,
+        "expanded_url": "https://x.com/i/article/2117052113822117888",
+        "start": 0,
+        "status": 404,
+        "unwound_url": "https://x.com/i/article/2117052113822117888",
+        "url": "https://t.co/zQ9V1fVaSZ"
+       }
+      ]
+     },
+     "id": "2117054043868860521",
+     "public_metrics": {
+      "bookmark_count": 9780,
+      "impression_count": 874722,
+      "like_count": 5273,
+      "quote_count": 177,
+      "reply_count": 318,
+      "repost_count": 810
+     },
+     "text": "https://t.co/zQ9V1fVaSZ"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120991467766181888"
+      ]
+     },
+     "author_id": "998575387067142144",
+     "created_at": "2026-11-12T21:29:42.000Z",
+     "edit_history_post_ids": [
+      "2120992457630326841"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/qlttvJsXG7",
+        "end": 303,
+        "expanded_url": "https://x.com/willdepue/status/2120992457630326841/photo/1",
+        "media_key": "3_2120991467766181888",
+        "start": 280,
+        "url": "https://t.co/qlttvJsXG7"
+       }
+      ]
+     },
+     "id": "2120992457630326841",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "unemploymentlabs.com/checkpoint-for…",
+         "end": 2816,
+         "expanded_url": "http://unemploymentlabs.com/checkpoint-forensics",
+         "start": 2793,
+         "url": "https://t.co/YOtzND0Jqk"
+        }
+       ]
+      },
+      "text": "I have a major result to share.\n\nI’ve found conclusive forensic evidence that the top 4 Chinese AI labs—DeepSeek, Moonshot, MiniMax and Ant Group—have built their newest models on NVIDIA’s most advanced Blackwell chips, which are barred from export to China.\n\nThis sounds insane, but I discovered that almost every AI model carries a hidden signature of the GPU that trained it. When a model is first set up, the starting values of its weights are laid out in a pattern that depends on the exact GPU. Each combination of GPU and seed number produces a unique pattern—a sort of fingerprint of the hardware used to create the model. Traces of that pattern survive training into the published model.\n\nAgain, this evidence isn’t based on any insider information or leaking. It’s based on a forensic analysis of the model weights released by the companies themselves.\n\nI searched more than six trillion combinations of chip layout and seed number and matched them to open-weights models. In doing so, I found conclusive evidence that six Chinese AI models—including DeepSeek-V4-Pro, Kimi K3, and MiniMax-M3—were initialized on NVIDIA Blackwell systems. Four of the models match Grace Blackwell, the GB200 and GB300 parts in NVIDIA’s flagship liquid-cooled rack-scale systems.\n\nI then verified these results on real hardware. Running unmodified PyTorch with the seeds I’d recovered, a Blackwell B300 reproduced DeepSeek-V4-Flash’s untouched starting weights bit for bit, and a rented GB200 reproduced Kimi K3’s to a correlation of 0.999995. A Hopper H100 reproduced none of DeepSeek-V4-Flash’s, and changing the seed by one broke the match. (DeepSeek’s seed is 953049583 by the way.) The method also was verified to match 24 known open-weights models to the hardware that developers said they used.\n\nIt is exceedingly unlikely that these results are a coincidence. Across six trillion combinations, the best accidental match should reach only about 8 sigma (i.e., eight standard deviations above what random chance would produce). The real matches range from 49 to 1,385 sigma, and even the weakest single test hits 20.\n\nThese were data-center-scale training runs. With some analysis of release schedules and model details, I estimate that the largest, Kimi K3 and DeepSeek-V4-Pro, used 2,000 to 3,000 Blackwell GPUs each. Clusters of this size cost on the order of $150 to $200 million each to buy, and across these labs alone would add up to more than half a billion dollars of export-controlled GPUs, not counting experimental compute or otherwise. It’s quite likely that we see multi-billion dollar expenditure on export-controlled GPUs.\n\nI am highly confident in this result, and it has been independently verified by senior researchers at OpenAI and Anthropic. You can read the full report at https://t.co/YOtzND0Jqk.\n\nThere is much more I’ve identified about these models through other forms of checkpoint forensics like this, and will have more to share soon."
+     },
+     "public_metrics": {
+      "bookmark_count": 20032,
+      "impression_count": 6141159,
+      "like_count": 39430,
+      "quote_count": 2099,
+      "reply_count": 1727,
+      "repost_count": 6111
+     },
+     "text": "I have a major result to share.\n\nI’ve found conclusive forensic evidence that the top 4 Chinese AI labs—DeepSeek, Moonshot, MiniMax and Ant Group—have built their newest models on NVIDIA’s most advanced Blackwell chips, which are barred from export to China.\n\nThis sounds insane, https://t.co/qlttvJsXG7"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-12T09:23:43.000Z",
+     "edit_history_post_ids": [
+      "2120809757107737072"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/testingcatalog…",
+        "end": 301,
+        "expanded_url": "https://twitter.com/testingcatalog/status/2120442345044787636",
+        "start": 278,
+        "url": "https://t.co/FBbz9YNAKr"
+       }
+      ]
+     },
+     "id": "2120809757107737072",
+     "note_tweet": {
+      "text": "DAILY AI BRIEF 🗞 — Nov 12\n\nGOOGLE 🔥:\n- Gemini Decision 1 is live in the Gemini API and AI Studio, scoring up to 1,000 questions per call at $0.10 per 1M input tokens with no output cost.\n- Antigravity is rolling out browser use to all users.\n- Google Labs announced Tabletop, a shared AI space for groups, with a waitlist for US Ultra testers.\n- Gemini is now on Apple CarPlay with Gemini Live.\n- Managed Agents in the Gemini API now support self-hosted sandbox environments.\n- DeepMind used AlphaProof Code to formally verify Signal's protocol down to the code.\n- DeepMind released AlphaGenome 2, which models how DNA variants act in specific cell types.\n\nANTHROPIC 🔥:\n- Claude for iOS is getting a Saved logins section for credentials Claude can use to sign in to websites.\n- Claude Fable 5.2 is now available on Google Cloud.\n\nOPENAI 🔥:\n- ChatGPT Finances is now on ChatGPT desktop, with interactive widgets, for US Free, Go, Plus, and Pro users.\n- OpenAI announced ChatGPT Plus for veterans and servicemembers.\n\nSPACEXSI 🔥:\n- Grok Bot 1.0 is out, with shareable bots, Slack and Teams collaboration, and meeting invites.\n- Gopuff is now built into Grok Bot for end-to-end grocery delivery.\n- SpaceX ordered 100 GW/year of HJT solar manufacturing equipment from Germany's Singulus for Starmind.\n\nMICROSOFT 🔥:\n- Claude Fable 5.2 is rolling out in Copilot Cowork and Copilot Studio.\n\nNVIDIA 🔥:\n- NVIDIA's board is reportedly preparing to oust CEO Jensen Huang, sending shares sharply lower after hours.\n\nBYTEDANCE 🔥:\n- ByteDance plans to release a proactive AI agent in the coming weeks, per Bloomberg.\n\nN8N 🔥:\n- n8n Labs released Nod, an open-source agent for small tasks like chasing invoices, in research preview.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+     },
+     "public_metrics": {
+      "bookmark_count": 29,
+      "impression_count": 26838,
+      "like_count": 142,
+      "quote_count": 1,
+      "reply_count": 52,
+      "repost_count": 10
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120442345044787636",
+       "type": "quoted"
+      }
+     ],
+     "text": "DAILY AI BRIEF 🗞 — Nov 12\n\nGOOGLE 🔥:\n- Gemini Decision 1 is live in the Gemini API and AI Studio, scoring up to 1,000 questions per call at $0.10 per 1M input tokens with no output cost.\n- Antigravity is rolling out browser use to all users.\n- Google Labs announced Tabletop, a https://t.co/FBbz9YNAKr"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2121083170108096512",
+       "3_2121083170145918976"
+      ]
+     },
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-13T03:30:13.000Z",
+     "edit_history_post_ids": [
+      "2121083182871466010"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/R85Hz4lcDp",
+        "end": 198,
+        "expanded_url": "https://x.com/xiaohu/status/2121083182871466010/photo/1",
+        "media_key": "3_2121083170108096512",
+        "start": 175,
+        "url": "https://t.co/R85Hz4lcDp"
+       },
+       {
+        "display_url": "pic.x.com/R85Hz4lcDp",
+        "end": 198,
+        "expanded_url": "https://x.com/xiaohu/status/2121083182871466010/photo/2",
+        "media_key": "3_2121083170145918976",
+        "start": 175,
+        "url": "https://t.co/R85Hz4lcDp"
+       }
+      ]
+     },
+     "id": "2121083182871466010",
+     "note_tweet": {
+      "text": "空房间一张，家具图九张，它直接给你摆成客厅\n\nMiniMax 刚开源的 H3-Image\n你丢一张空房间照片，再丢沙发、茶几、边桌这些单品图\n它把东西放进同一个房间，出一张约 1600 万像素的效果图，不用再拿去放大\n\n一步出 4K 大图\n方图 4096×4096，16:9 横图 5472×3072\n比 2048 那档多 4 倍像素，模型直接生成\n\n参考图各管一件事\n最多 16 张，一张管房间，一张管沙发\n还能丢一张灰模渲染图定构图，它补金属、月壤和光影；在地图上画个红箭头，它画出站在那儿看到的第一人称画面（官方样例，只是静态图，没法真走进去）\n\n一句中文也能用\nAPI 会先把你的短要求扩写成详细的英文画面描述再出图，摄影细节不用自己写\n\n本地能跑，但很大\nSGLang、vLLM、ComfyUI 都有路径，从零下载约 135 GB...\n社区许可，美国、欧盟等地区被排除，年收入超 100 万美元要单独授权\n\n走 API 的话，官方示例一张 4096×4096 约 0.069 美元，11 月 18 日前半价 0.034"
+     },
+     "public_metrics": {
+      "bookmark_count": 21,
+      "impression_count": 6515,
+      "like_count": 22,
+      "quote_count": 4,
+      "reply_count": 24,
+      "repost_count": 2
+     },
+     "text": "空房间一张，家具图九张，它直接给你摆成客厅\n\nMiniMax 刚开源的 H3-Image\n你丢一张空房间照片，再丢沙发、茶几、边桌这些单品图\n它把东西放进同一个房间，出一张约 1600 万像素的效果图，不用再拿去放大\n\n一步出 4K 大图\n方图 4096×4096，16:9 横图 5472×3072\n比 2048 那档多 4 倍像素，模型直接生成 https://t.co/R85Hz4lcDp"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2121092219608432640"
+      ]
+     },
+     "author_id": "1331009587303084035",
+     "created_at": "2026-11-13T04:07:56.000Z",
+     "edit_history_post_ids": [
+      "2121092676510695723"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/yEQMKAajh3",
+        "end": 177,
+        "expanded_url": "https://x.com/zack_overflow/status/2121092676510695723/photo/1",
+        "media_key": "3_2121092219608432640",
+        "start": 154,
+        "url": "https://t.co/yEQMKAajh3"
+       }
+      ]
+     },
+     "id": "2121092676510695723",
+     "public_metrics": {
+      "bookmark_count": 1973,
+      "impression_count": 2080085,
+      "like_count": 16780,
+      "quote_count": 504,
+      "reply_count": 931,
+      "repost_count": 1820
+     },
+     "text": "BREAKING: hundreds of NVIDIA employees have signed an internal letter demanding the reinstatement of Jensen Huang as CEO and the resignation of the board https://t.co/yEQMKAajh3"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2121265084018434048"
+      ]
+     },
+     "author_id": "1872861011453329410",
+     "created_at": "2026-11-13T15:34:06.000Z",
+     "edit_history_post_ids": [
+      "2121265353867284498"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/Pf6RFBpXjp",
+        "end": 300,
+        "expanded_url": "https://x.com/xadisingh/status/2121265353867284498/video/1",
+        "media_key": "13_2121265084018434048",
+        "start": 277,
+        "url": "https://t.co/Pf6RFBpXjp"
+       }
+      ]
+     },
+     "id": "2121265353867284498",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "reasonmachines.com",
+         "end": 408,
+         "expanded_url": "http://reasonmachines.com",
+         "start": 385,
+         "url": "https://t.co/B31tg4p00k"
+        }
+       ]
+      },
+      "text": "Frontier coding performance at up to 20x lower cost.\n\nIntroducing the world’s most cost-efficient harness: Reason\n\nStop burning thousands on runaway agent bills. \n\nReason outperforms top harnesses on Terminal-Bench and DeepSWE while dropping cost per task to a fraction of the frontier baseline.\n\nComment “Reason” and we’ll send you early access + free compute credits.\n\nTry for free:\nhttps://t.co/B31tg4p00k"
+     },
+     "public_metrics": {
+      "bookmark_count": 1045,
+      "impression_count": 1495726,
+      "like_count": 1282,
+      "quote_count": 180,
+      "reply_count": 918,
+      "repost_count": 491
+     },
+     "text": "Frontier coding performance at up to 20x lower cost.\n\nIntroducing the world’s most cost-efficient harness: Reason\n\nStop burning thousands on runaway agent bills. \n\nReason outperforms top harnesses on Terminal-Bench and DeepSWE while dropping cost per task to a fraction of the https://t.co/Pf6RFBpXjp"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2121340355128037376"
+      ]
+     },
+     "author_id": "1362131140614754310",
+     "created_at": "2026-11-13T20:32:15.000Z",
+     "edit_history_post_ids": [
+      "2121340388703424963"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/2psqvnFW2l",
+        "end": 224,
+        "expanded_url": "https://x.com/Maketplans/status/2121340388703424963/video/1",
+        "media_key": "13_2121340355128037376",
+        "start": 201,
+        "url": "https://t.co/2psqvnFW2l"
+       }
+      ]
+     },
+     "id": "2121340388703424963",
+     "public_metrics": {
+      "bookmark_count": 30,
+      "impression_count": 87899,
+      "like_count": 157,
+      "quote_count": 19,
+      "reply_count": 17,
+      "repost_count": 11
+     },
+     "text": "Generate floor and wall textures from text or an image.\n\nLight oak, terracotta tile, or checkerboard marble? Try it out in your space and see what feels right.\n\nYour next room refresh starts in Maket. https://t.co/2psqvnFW2l"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2121263682046889984"
+      ]
+     },
+     "author_id": "1058501423653101574",
+     "created_at": "2026-11-13T15:46:15.000Z",
+     "edit_history_post_ids": [
+      "2121268413112758744"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/xWgNcvQVVI",
+        "end": 113,
+        "expanded_url": "https://x.com/LuminaBench/status/2121268413112758744/photo/1",
+        "media_key": "3_2121263682046889984",
+        "start": 90,
+        "url": "https://t.co/xWgNcvQVVI"
+       }
+      ]
+     },
+     "id": "2121268413112758744",
+     "public_metrics": {
+      "bookmark_count": 11,
+      "impression_count": 18122,
+      "like_count": 149,
+      "quote_count": 4,
+      "reply_count": 18,
+      "repost_count": 4
+     },
+     "text": "Muse-Spark-1.4-internal is in a Meta PR 👀\n\nThey also report an actual model call using it https://t.co/xWgNcvQVVI"
+    },
+    {
+     "author_id": "20536157",
+     "created_at": "2026-11-13T17:27:13.000Z",
+     "edit_history_post_ids": [
+      "2121293823837921433"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 263,
+        "id": "1806359170830172162",
+        "start": 253,
+        "username": "GeminiApp"
+       }
+      ]
+     },
+     "id": "2121293823837921433",
+     "note_tweet": {
+      "entities": {
+       "mentions": [
+        {
+         "end": 263,
+         "id": "1806359170830172162",
+         "start": 253,
+         "username": "GeminiApp"
+        },
+        {
+         "end": 965,
+         "id": "575818188",
+         "start": 959,
+         "username": "Plaid"
+        }
+       ]
+      },
+      "text": "Personal Intelligence in Gemini securely connects information from apps you already use to make your experience more personalized and helpful. Today, we’re adding Google Wallet to the list of connected apps so you can get more tailored responses in the @GeminiApp around personal finance questions, based on your spending habits, including:\n\n📈 Generate dynamic charts tracking cash flow, asset allocation, and budgets directly in your chat to help you visualize your spending.\n📅 Find forgotten subscriptions and recurring charges across your linked accounts, and Gemini will also flag any price increases.\n🎁 Set a budget for the holidays by asking “How much did I spend on gifts and travel last year? Use that to help me set a holiday budget” and Gemini will look at your transactions from the last year to suggest a budget tailored for you.\n\nYou’ll also have the option to securely link your financial accounts from your credit cards and banks to Wallet via @Plaid to unlock deeper insights."
+     },
+     "public_metrics": {
+      "bookmark_count": 95,
+      "impression_count": 466192,
+      "like_count": 533,
+      "quote_count": 34,
+      "reply_count": 83,
+      "repost_count": 62
+     },
+     "text": "Personal Intelligence in Gemini securely connects information from apps you already use to make your experience more personalized and helpful. Today, we’re adding Google Wallet to the list of connected apps so you can get more tailored responses in the @GeminiApp around personal"
+    },
+    {
+     "author_id": "1714580962569588736",
+     "created_at": "2026-11-13T14:24:44.000Z",
+     "edit_history_post_ids": [
+      "2121247896918253875"
+     ],
+     "id": "2121247896918253875",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "cdn.deepseek.com/chat-demo",
+         "end": 486,
+         "expanded_url": "https://cdn.deepseek.com/chat-demo",
+         "start": 463,
+         "url": "https://t.co/TI0Iw5qLQK"
+        },
+        {
+         "display_url": "github.com/deepseek-ai/ch…",
+         "end": 518,
+         "expanded_url": "https://github.com/deepseek-ai/chat-demo",
+         "start": 495,
+         "url": "https://t.co/ImA0LrgUgX"
+        },
+        {
+         "display_url": "api-docs.deepseek.com/guides/build_a…",
+         "end": 553,
+         "expanded_url": "https://api-docs.deepseek.com/guides/build_a_chatbot",
+         "start": 530,
+         "url": "https://t.co/t0dJxXM6Lk"
+        }
+       ]
+      },
+      "text": "🚀 The full DeepSeek App experience, now via API\n\nSearch, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.\nEnable built-in features with a few parameters, or call standalone APIs such as OCR, ASR, and TTS. Build richer conversations or recreate the full DeepSeek App in your own application.\n\nTry our open-source frontend demo, with support for importing DeepSeek conversation history.\n\n🔗 Demo: https://t.co/TI0Iw5qLQK\n📦 Code: https://t.co/ImA0LrgUgX\n📖 Details: https://t.co/t0dJxXM6Lk\n\n1/4"
+     },
+     "public_metrics": {
+      "bookmark_count": 2019,
+      "impression_count": 538154,
+      "like_count": 7074,
+      "quote_count": 345,
+      "reply_count": 312,
+      "repost_count": 582
+     },
+     "text": "🚀 The full DeepSeek App experience, now via API\n\nSearch, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.\nEnable built-in features with a few parameters, or call standalone APIs such as OCR, ASR, and TTS. Build"
+    }
+   ],
+   "users": [
+    {
+     "id": "1492195583699951620",
+     "name": "数字生命卡兹克",
+     "username": "Khazix0918"
+    },
+    {
+     "id": "1699797396589588480",
+     "name": "Max For AI",
+     "username": "MaxForAI"
+    },
+    {
+     "id": "998575387067142144",
+     "name": "will depue",
+     "username": "willdepue"
+    },
+    {
+     "id": "1714580962569588736",
+     "name": "DeepSeek",
+     "username": "deepseek_ai"
+    },
+    {
+     "id": "1764818331822182400",
+     "name": "小互",
+     "username": "xiaohu"
+    },
+    {
+     "id": "1953337039510003712",
+     "name": "Tibo",
+     "username": "thsottiaux"
+    },
+    {
+     "id": "3980735590",
+     "name": "🚨 AI News | TestingCatalog",
+     "username": "testingcatalog"
+    },
+    {
+     "id": "20536157",
+     "name": "Google",
+     "username": "Google"
+    },
+    {
+     "id": "1872861011453329410",
+     "name": "Adi Singh",
+     "username": "xadisingh"
+    },
+    {
+     "id": "1058501423653101574",
+     "name": "Lumina",
+     "username": "LuminaBench"
+    },
+    {
+     "id": "1331009587303084035",
+     "name": "zack",
+     "username": "zack_overflow"
+    }
+   ]
+  },
+  "meta": {
+   "result_count": 30
+  }
+ }
+}

@@ -1,0 +1,41 @@
+大V视野收集报告 — 2026-10-18（Asia/Taipei）
+
+读取方式：公开 X MCP（namespace x）
+- get_users_by_usernames → get_users_posts（exclude=replies, start_time=2026-10-16T20:00:00Z）
+- 长文补全：get_posts_by_ids（note_tweet）
+- 辅助核验：search_posts_all 同窗 from:六账号 -is:reply
+- 未使用浏览器关注页；未消耗 user-X credits
+
+入选：12 条
+各 handle 入选计数：
+  @Khazix0918: 0
+  @MaxForAI: 4
+  @xiaohu: 1
+  @thsottiaux: 3
+  @testingcatalog: 3
+  @gengdaJ: 1
+
+原始拉取条数摘要：
+  @Khazix0918: 0（窗内无新帖；最新为 2026-10-16T12:53:13Z / RTX Spark，已在 10-17 入选）
+  @MaxForAI: 11
+  @xiaohu: 2
+  @thsottiaux: 10（含若干自线程回复碎片）
+  @testingcatalog: 4（其中 1 条 URL 与 10-17 重复已跳过）
+  @gengdaJ: 2（1 条为更正回复）
+
+Lead：Max 深度实测 DeepSeek V4.1-Flash-1017：蒸 GPT 太狠、写作回升、3 元出片
+Lead URL：https://x.com/MaxForAI/status/2111440821484667343
+
+筛选说明：
+- 跳过梗图/表情引用（Qoder舔狗、梁圣偶像图等）、非 AI 领奖日常、纯「Done」/nerfed 玩笑、Zeabur 关停（偏通用 PaaS）
+- 跳过与近三日/_prior_urls 相同 URL：Tibo Day 12、TestingCatalog Astra Pro 升级短讯
+- DeepSeek 主题保留 Max 长文实测 + 发布评测详解 + RSI 短评 + TestingCatalog 英文快讯（角度/语种不同）；未再堆叠首发 API 短讯
+- 优先信息密度：OpenCode 蒸馏攻击、逸尘 Personal Agent 驯化清单、Daily Brief、Dots 多 Agent 办税
+
+输出文件：
+  data/2026-10-18/v.json
+  data/2026-10-18/_cover_prompts_v.json
+  data/2026-10-18/_v_raw_mcp.json
+  data/2026-10-18/_v_collect_report.txt
+
+未执行：build / 生图 / 发布

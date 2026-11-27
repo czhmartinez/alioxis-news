@@ -1,0 +1,18 @@
+Alioxis News 大V视野 browser scrape notes — 2026-10-04 Asia/Taipei
+
+Login: confirmed. X home showed zihan chen / @zihanch71347739 in the account menu.
+Following: confirmed selected at https://x.com/home (tab label 正在关注). Feed was refreshed and scrolled through the visible recent items to roughly the 3-hours-ago post; a separate ad and non-AI posts were skipped.
+
+Profiles visited (browser only):
+- @Khazix0918: pinned/visible posts were 9月29日 or older; no recent post within the target window.
+- @MaxForAI: recent AI posts at 7h/10h/10h; kept 2 substantive, skipped a Claude dating meme with no substance.
+- @xiaohu: 12h GPT-code critique, 16h Dario effect video, 16h Claude Code Mods; kept all three, with the Dario item explicitly limited to its visible title/video note.
+- @testingcatalog: 5h Kolibri, 13h Meta Agent Engine, 16h Oct 3 AI brief; kept these three. Skipped the 10/2 Gemini Desktop pinned post because it is already in 2026-10-03/v.json, and skipped a subscription promo and the duplicate Muse Gadgets post (2106116684280987731) already in prior v.json.
+- @zaobaosg: one current AI investment post, same status seen in Following.
+- @nanyuan0412: latest visible AI posts dated Oct 1 or older; outside target window.
+- @gengdaJ: latest visible AI posts dated Oct 1 or older; outside target window.
+- @Fukugyo_clinic: recent ChatGPT use/Claude workflow/AI碎片工作 posts; kept three with visible AI substance, noted promotional nature in content summaries.
+
+Skip notes: ads (including Fluence), non-AI news, non-substantive pure-image/meme posts, and URLs present in prior 2026-10-03/2026-10-02 v.json. No posts fabricated; date-only entries retain coarse published_at estimates.
+
+Unique kept: 12. Breakdown: @Fukugyo_clinic 3, @testingcatalog 3, @xiaohu 3, @MaxForAI 2, @zaobaosg 1.

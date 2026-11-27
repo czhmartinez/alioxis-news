@@ -1,0 +1,1982 @@
+{
+  "data": [
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118400683942477824"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118469389452271860",
+      "created_at": "2026-11-05T22:23:56.000Z",
+      "edit_history_tweet_ids": [
+        "2118469389452271860"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/s8ipA7M6kv",
+            "end": 383,
+            "expanded_url": "https://x.com/Muse/status/2118411960337289583/video/1",
+            "media_key": "13_2118400683942477824",
+            "start": 360,
+            "url": "https://t.co/s8ipA7M6kv"
+          }
+        ]
+      },
+      "id": "2118469389452271860",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/Muse/status/21…",
+              "end": 383,
+              "expanded_url": "https://x.com/Muse/status/2118411960337289583/video/1",
+              "start": 360,
+              "url": "https://t.co/s8ipA7M6kv"
+            }
+          ]
+        },
+        "text": "META 🔥: Muse Voice and expressive avatars are rolling out for Muse users in the US.  \n\n> Voice helps users think out loud, making tasks like brainstorming, trip planning, and interview prep easier.\n\n> Your Muse’s avatar reacts as it listens and speaks, with expressions and gestures that match the conversation.\n\nAdditionally, Muse is rolling out in Mexico 🇲🇽 https://t.co/s8ipA7M6kv"
+      },
+      "public_metrics": {
+        "bookmark_count": 4,
+        "impression_count": 5305,
+        "like_count": 125,
+        "quote_count": 1,
+        "reply_count": 11,
+        "retweet_count": 2
+      },
+      "text": "META 🔥: Muse Voice and expressive avatars are rolling out for Muse users in the US.  \n\n&gt; Voice helps users think out loud, making tasks like brainstorming, trip planning, and interview prep easier.\n\n&gt; Your Muse’s avatar reacts as it listens and speaks, with expressions and",
+      "url": "https://x.com/testingcatalog/status/2118469389452271860"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118455242933116929",
+          "3_2118455291297538048"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118455315914187151",
+      "created_at": "2026-11-05T21:28:00.000Z",
+      "edit_history_tweet_ids": [
+        "2118455315914187151"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/WbKop26FwY",
+            "end": 310,
+            "expanded_url": "https://x.com/testingcatalog/status/2118455315914187151/photo/1",
+            "media_key": "3_2118455242933116929",
+            "start": 287,
+            "url": "https://t.co/WbKop26FwY"
+          },
+          {
+            "display_url": "pic.x.com/WbKop26FwY",
+            "end": 310,
+            "expanded_url": "https://x.com/testingcatalog/status/2118455315914187151/photo/1",
+            "media_key": "3_2118455291297538048",
+            "start": 287,
+            "url": "https://t.co/WbKop26FwY"
+          },
+          {
+            "display_url": "x.com/METR_Evals/sta…",
+            "end": 334,
+            "expanded_url": "https://twitter.com/METR_Evals/status/2118412183860351084",
+            "start": 311,
+            "url": "https://t.co/naZ1aH0ZZd"
+          }
+        ]
+      },
+      "id": "2118455315914187151",
+      "lang": "en",
+      "note_tweet": {
+        "text": "ANTHROPIC 🔥: According to the latest report from METR, Anthropic is accelerating its internal AI model development, and this is attributable to Anthropic’s extensive use of AI for R&D\n\n> Anthropic have accelerated 1.9x since October 2025. \n\n> The chart categorizes Opus 5.5 as \"non-frontier\" and highlights internal models named Model 3 and Model 4, with substantial improvement achieved in a very short period.  \n\nRSI bench? 👀"
+      },
+      "public_metrics": {
+        "bookmark_count": 21,
+        "impression_count": 10719,
+        "like_count": 167,
+        "quote_count": 3,
+        "reply_count": 21,
+        "retweet_count": 8
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118412183860351084",
+          "type": "quoted"
+        }
+      ],
+      "text": "ANTHROPIC 🔥: According to the latest report from METR, Anthropic is accelerating its internal AI model development, and this is attributable to Anthropic’s extensive use of AI for R&amp;D\n\n&gt; Anthropic have accelerated 1.9x since October 2025. \n\n&gt; The chart categorizes Opus 5.5 as https://t.co/WbKop26FwY https://t.co/naZ1aH0ZZd",
+      "url": "https://x.com/testingcatalog/status/2118455315914187151"
+    },
+    {
+      "author_id": "3980735590",
+      "conversation_id": "2118446954958975289",
+      "created_at": "2026-11-05T20:54:48.000Z",
+      "edit_history_tweet_ids": [
+        "2118446958138515907"
+      ],
+      "entities": {
+        "mentions": [
+          {
+            "end": 24,
+            "id": "279463439",
+            "start": 11,
+            "username": "AlexAtServal"
+          },
+          {
+            "end": 228,
+            "id": "1783878865523208192",
+            "start": 218,
+            "username": "getserval"
+          }
+        ]
+      },
+      "id": "2118446958138515907",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "mentions": [
+            {
+              "end": 24,
+              "id": "279463439",
+              "start": 11,
+              "username": "AlexAtServal"
+            },
+            {
+              "end": 228,
+              "id": "1783878865523208192",
+              "start": 218,
+              "username": "getserval"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "serval.com/careers",
+              "end": 358,
+              "expanded_url": "https://www.serval.com/careers",
+              "start": 335,
+              "url": "https://t.co/M0uEWFC4ry"
+            }
+          ]
+        },
+        "text": "Serval CTO @AlexAtServal announced five open roles, mostly based in San Francisco, with others in New York, London, and Austin. New hires receive a paid week-long luxury vacation valued at up to $10,000.\n\nThis follows @getserval raising $150 million at a $3 billion valuation in late October, in a round led by Sequoia.\n\nTake a look 👀\nhttps://t.co/M0uEWFC4ry"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1632,
+        "like_count": 6,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118446954958975289",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Serval CTO @AlexAtServal announced five open roles, mostly based in San Francisco, with others in New York, London, and Austin. New hires receive a paid week-long luxury vacation valued at up to $10,000.\n\nThis follows @getserval raising $150 million at a $3 billion valuation in",
+      "url": "https://x.com/testingcatalog/status/2118446958138515907"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118446781579116544"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118446954958975289",
+      "created_at": "2026-11-05T20:54:47.000Z",
+      "edit_history_tweet_ids": [
+        "2118446954958975289"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/qMwExVbDMP",
+            "end": 303,
+            "expanded_url": "https://x.com/testingcatalog/status/2118446954958975289/video/1",
+            "media_key": "13_2118446781579116544",
+            "start": 280,
+            "url": "https://t.co/qMwExVbDMP"
+          },
+          {
+            "display_url": "x.com/AlexAtServal/s…",
+            "end": 327,
+            "expanded_url": "https://twitter.com/AlexAtServal/status/2118396934566097349",
+            "start": 304,
+            "url": "https://t.co/oi5lusI3Jg"
+          }
+        ]
+      },
+      "id": "2118446954958975289",
+      "lang": "en",
+      "note_tweet": {
+        "text": "Serval is looking for engineers to work on Catalyst, an AI agent that simplifies creating working automations for IT technicians.\n\nUsers can start by describing what they need, such as automatically giving new staff members access to an app, and have Catalyst write the necessary code for it.\n\nTeams can test and approve each automation before it runs on a schedule."
+      },
+      "public_metrics": {
+        "bookmark_count": 4,
+        "impression_count": 5777,
+        "like_count": 80,
+        "quote_count": 0,
+        "reply_count": 13,
+        "retweet_count": 3
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118396934566097349",
+          "type": "quoted"
+        }
+      ],
+      "text": "Serval is looking for engineers to work on Catalyst, an AI agent that simplifies creating working automations for IT technicians.\n\nUsers can start by describing what they need, such as automatically giving new staff members access to an app, and have Catalyst write the necessary https://t.co/qMwExVbDMP https://t.co/oi5lusI3Jg",
+      "url": "https://x.com/testingcatalog/status/2118446954958975289"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118401044841390080"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118416495508099118",
+      "created_at": "2026-11-05T18:53:45.000Z",
+      "edit_history_tweet_ids": [
+        "2118416495508099118"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/ALepT9Kdxa",
+            "end": 238,
+            "expanded_url": "https://x.com/claudeai/status/2118403114890137895/video/1",
+            "media_key": "13_2118401044841390080",
+            "start": 215,
+            "url": "https://t.co/ALepT9Kdxa"
+          }
+        ]
+      },
+      "id": "2118416495508099118",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 19,
+        "impression_count": 10301,
+        "like_count": 181,
+        "quote_count": 1,
+        "reply_count": 34,
+        "retweet_count": 4
+      },
+      "text": "ANTHROPIC 🔥: Claude Personal Finance is now rolling out to Pro, Max, and Ultra users in the US. \n\nClaude is getting read-only access to selected services so users can chat about their finances. \n\nNot Claude Monet 💀 https://t.co/ALepT9Kdxa",
+      "url": "https://x.com/testingcatalog/status/2118416495508099118"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118403412312162304"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118403543547949365",
+      "created_at": "2026-11-05T18:02:18.000Z",
+      "edit_history_tweet_ids": [
+        "2118403546991251716"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/8uAvmWennE",
+            "end": 33,
+            "expanded_url": "https://x.com/testingcatalog/status/2118403546991251716/photo/1",
+            "media_key": "3_2118403412312162304",
+            "start": 10,
+            "url": "https://t.co/8uAvmWennE"
+          }
+        ]
+      },
+      "id": "2118403546991251716",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 2079,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118403543547949365",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Testing 👀 https://t.co/8uAvmWennE",
+      "url": "https://x.com/testingcatalog/status/2118403546991251716"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118376364311023617"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118403543547949365",
+      "created_at": "2026-11-05T18:02:17.000Z",
+      "edit_history_tweet_ids": [
+        "2118403543547949365"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/4UC3iIXoS6",
+            "end": 201,
+            "expanded_url": "https://x.com/GoogleAIStudio/status/2118390015382454491/video/1",
+            "media_key": "13_2118376364311023617",
+            "start": 178,
+            "url": "https://t.co/4UC3iIXoS6"
+          }
+        ]
+      },
+      "id": "2118403543547949365",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 15,
+        "impression_count": 9226,
+        "like_count": 219,
+        "quote_count": 3,
+        "reply_count": 14,
+        "retweet_count": 7
+      },
+      "text": "GOOGLE 🔥: Omni 1.2 Flash video generation model is now available on Google AI Studio and Gemini APIs. \n\nUp to 15 seconds long and up to 4K video resolution, at 30% lower cost.   https://t.co/4UC3iIXoS6",
+      "url": "https://x.com/testingcatalog/status/2118403543547949365"
+    },
+    {
+      "author_id": "3980735590",
+      "conversation_id": "2118402053563117740",
+      "created_at": "2026-11-05T17:56:23.000Z",
+      "edit_history_tweet_ids": [
+        "2118402057317253629"
+      ],
+      "id": "2118402057317253629",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "eon.io/yukon",
+              "end": 476,
+              "expanded_url": "https://www.eon.io/yukon",
+              "start": 453,
+              "url": "https://t.co/e7QRo3kMNT"
+            }
+          ]
+        },
+        "text": "On Eon's benchmark, which streamed 1 million events per second for one hour, each tool was required to keep its tables less than two minutes behind real time.\n\nYukon saves tables in an open format in an AWS or Google Cloud account, so other tools can read them even if users stop using Yukon.\n\nIt can also keep notes on what each table contains and what changed, so an agent can check last week's changes without reading the whole table.\n\nTake a look 👀\nhttps://t.co/e7QRo3kMNT"
+      },
+      "public_metrics": {
+        "bookmark_count": 0,
+        "impression_count": 1716,
+        "like_count": 5,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118402053563117740",
+          "type": "replied_to"
+        }
+      ],
+      "text": "On Eon's benchmark, which streamed 1 million events per second for one hour, each tool was required to keep its tables less than two minutes behind real time.\n\nYukon saves tables in an open format in an AWS or Google Cloud account, so other tools can read them even if users stop",
+      "url": "https://x.com/testingcatalog/status/2118402057317253629"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118401944087678976"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118402053563117740",
+      "created_at": "2026-11-05T17:56:22.000Z",
+      "edit_history_tweet_ids": [
+        "2118402053563117740"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/VdFZRIeYe3",
+            "end": 302,
+            "expanded_url": "https://x.com/testingcatalog/status/2118402053563117740/photo/1",
+            "media_key": "3_2118401944087678976",
+            "start": 279,
+            "url": "https://t.co/VdFZRIeYe3"
+          },
+          {
+            "display_url": "x.com/OfirEhrlich/st…",
+            "end": 326,
+            "expanded_url": "https://twitter.com/OfirEhrlich/status/2118357800648659127",
+            "start": 303,
+            "url": "https://t.co/EwSTBipsKg"
+          }
+        ]
+      },
+      "id": "2118402053563117740",
+      "lang": "en",
+      "note_tweet": {
+        "text": "Eon has launched Eon Yukon, a new service that cleans up incoming context into polished data tables on the fly.\n\nBy processing the data, Yukon allows AI agents to work with clean tables within a minute of arrival.\n\nCompared with similar pipelines built on Apache Spark or Apache Flink, Yukon used about 1/4 of Spark's computing power and 1/7 of Flink's."
+      },
+      "public_metrics": {
+        "bookmark_count": 11,
+        "impression_count": 5849,
+        "like_count": 78,
+        "quote_count": 0,
+        "reply_count": 6,
+        "retweet_count": 1
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118357800648659127",
+          "type": "quoted"
+        }
+      ],
+      "text": "Eon has launched Eon Yukon, a new service that cleans up incoming context into polished data tables on the fly.\n\nBy processing the data, Yukon allows AI agents to work with clean tables within a minute of arrival.\n\nCompared with similar pipelines built on Apache Spark or Apache https://t.co/VdFZRIeYe3 https://t.co/EwSTBipsKg",
+      "url": "https://x.com/testingcatalog/status/2118402053563117740"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118389256930660352"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118396884381225153",
+      "created_at": "2026-11-05T17:35:49.000Z",
+      "edit_history_tweet_ids": [
+        "2118396884381225153"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/hrL1p0ijCu",
+            "end": 303,
+            "expanded_url": "https://x.com/perplexity_ai/status/2118389326459670825/video/1",
+            "media_key": "13_2118389256930660352",
+            "start": 280,
+            "url": "https://t.co/hrL1p0ijCu"
+          }
+        ]
+      },
+      "id": "2118396884381225153",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/perplexity_ai/…",
+              "end": 303,
+              "expanded_url": "https://x.com/perplexity_ai/status/2118389326459670825/video/1",
+              "start": 280,
+              "url": "https://t.co/hrL1p0ijCu"
+            }
+          ]
+        },
+        "text": "PERPLEXITY 🔥: Teammates, Perplexity's new proactive agents, are rolling out to Perplexity Max subscribers on the web!\n\nTeammates are running in an isolated environment and can execute Computer tasks, skills, memory, and tools. \n\nComing soon to mobile apps, too! \n\nTesting time! 👀 https://t.co/hrL1p0ijCu"
+      },
+      "public_metrics": {
+        "bookmark_count": 23,
+        "impression_count": 9706,
+        "like_count": 167,
+        "quote_count": 6,
+        "reply_count": 24,
+        "retweet_count": 10
+      },
+      "text": "PERPLEXITY 🔥: Teammates, Perplexity's new proactive agents, are rolling out to Perplexity Max subscribers on the web!\n\nTeammates are running in an isolated environment and can execute Computer tasks, skills, memory, and tools. \n\nComing soon to mobile apps, too! \n\nTesting time!",
+      "url": "https://x.com/testingcatalog/status/2118396884381225153"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118395239287193600"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118390979459776709",
+      "created_at": "2026-11-05T17:29:19.000Z",
+      "edit_history_tweet_ids": [
+        "2118395245520179510"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/VDfLnW7YIS",
+            "end": 36,
+            "expanded_url": "https://x.com/testingcatalog/status/2118395245520179510/photo/1",
+            "media_key": "3_2118395239287193600",
+            "start": 13,
+            "url": "https://t.co/VDfLnW7YIS"
+          }
+        ]
+      },
+      "id": "2118395245520179510",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 2452,
+        "like_count": 21,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 3
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118390979459776709",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Benchmarks 👀 https://t.co/VDfLnW7YIS",
+      "url": "https://x.com/testingcatalog/status/2118395245520179510"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118387217588465664"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118390979459776709",
+      "created_at": "2026-11-05T17:12:21.000Z",
+      "edit_history_tweet_ids": [
+        "2118390979459776709"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/Lembxv2AKu",
+            "end": 319,
+            "expanded_url": "https://x.com/OpenAI/status/2118390190246879554/video/1",
+            "media_key": "13_2118387217588465664",
+            "start": 296,
+            "url": "https://t.co/Lembxv2AKu"
+          }
+        ]
+      },
+      "id": "2118390979459776709",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/OpenAI/status/…",
+              "end": 319,
+              "expanded_url": "https://x.com/OpenAI/status/2118390190246879554/video/1",
+              "start": 296,
+              "url": "https://t.co/Lembxv2AKu"
+            }
+          ]
+        },
+        "text": "OPENAI 🔥: A new GPT-6 Cyber model for advanced security research is now available on Daybreak!\n\n> \"GPT-6 Cyber is available to select Daybreak Red customers, and we are expanding access over time.\"\n\n> OpenAI is hosting a Cyber-related livestream on November 12, with more updates being planned.  https://t.co/Lembxv2AKu"
+      },
+      "public_metrics": {
+        "bookmark_count": 9,
+        "impression_count": 9465,
+        "like_count": 192,
+        "quote_count": 1,
+        "reply_count": 18,
+        "retweet_count": 8
+      },
+      "text": "OPENAI 🔥: A new GPT-6 Cyber model for advanced security research is now available on Daybreak!\n\n&gt; \"GPT-6 Cyber is available to select Daybreak Red customers, and we are expanding access over time.\"\n\n&gt; OpenAI is hosting a Cyber-related livestream on November 12, with more updates",
+      "url": "https://x.com/testingcatalog/status/2118390979459776709"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118339442674946048",
+          "3_2118339469547880448"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118339502548934871",
+      "created_at": "2026-11-05T13:47:48.000Z",
+      "edit_history_tweet_ids": [
+        "2118339502548934871"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/Tb48jolULQ",
+            "end": 193,
+            "expanded_url": "https://x.com/testingcatalog/status/2118339502548934871/photo/1",
+            "media_key": "3_2118339442674946048",
+            "start": 170,
+            "url": "https://t.co/Tb48jolULQ"
+          },
+          {
+            "display_url": "pic.x.com/Tb48jolULQ",
+            "end": 193,
+            "expanded_url": "https://x.com/testingcatalog/status/2118339502548934871/photo/1",
+            "media_key": "3_2118339469547880448",
+            "start": 170,
+            "url": "https://t.co/Tb48jolULQ"
+          },
+          {
+            "display_url": "x.com/bedros_p/statu…",
+            "end": 217,
+            "expanded_url": "https://twitter.com/bedros_p/status/2118206066068738304",
+            "start": 194,
+            "url": "https://t.co/pkM5Wyqde3"
+          }
+        ]
+      },
+      "id": "2118339502548934871",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 32,
+        "impression_count": 17074,
+        "like_count": 432,
+        "quote_count": 7,
+        "reply_count": 53,
+        "retweet_count": 17
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118206066068738304",
+          "type": "quoted"
+        }
+      ],
+      "text": "GOOGLE 🔥:  Gemini Omni 1.2 Flash model references have been spotted on GCP.\n\nIt is expected to be a minor upgrade over the current Omni 1.1 Flash video generation model. https://t.co/Tb48jolULQ https://t.co/pkM5Wyqde3",
+      "url": "https://x.com/testingcatalog/status/2118339502548934871"
+    },
+    {
+      "author_id": "3980735590",
+      "conversation_id": "2118268779901628880",
+      "created_at": "2026-11-05T09:06:48.000Z",
+      "edit_history_tweet_ids": [
+        "2118268785534882213"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "description": "TestingCatalog covers latest AI news, model releases, leaks, and rumours from the world of artificial intelligence",
+            "display_url": "testingcatalog.com/#/portal/signup",
+            "end": 112,
+            "expanded_url": "https://www.testingcatalog.com/#/portal/signup",
+            "images": [
+              {
+                "height": 655,
+                "url": "https://pbs.twimg.com/news_img/2116098372457119744/f-gfqIsp?format=jpg&name=orig",
+                "width": 1200
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2116098372457119744/f-gfqIsp?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 89,
+            "status": 200,
+            "title": "TestingCatalog | AI News & Rumours",
+            "unwound_url": "https://www.testingcatalog.com/#/portal/signup",
+            "url": "https://t.co/hnndzp1OJ9"
+          }
+        ]
+      },
+      "id": "2118268785534882213",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 3413,
+        "like_count": 8,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118268779901628880",
+          "type": "replied_to"
+        }
+      ],
+      "text": "\"Daily AI Brief\" also arrives in email format from Tuesday to Saturday.\n\nOPT-IN below 👀 \nhttps://t.co/hnndzp1OJ9",
+      "url": "https://x.com/testingcatalog/status/2118268785534882213"
+    },
+    {
+      "author_id": "3980735590",
+      "conversation_id": "2118268779901628880",
+      "created_at": "2026-11-05T09:06:47.000Z",
+      "edit_history_tweet_ids": [
+        "2118268779901628880"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/testingcatalog…",
+            "end": 298,
+            "expanded_url": "https://twitter.com/testingcatalog/status/2117921199879532604",
+            "start": 275,
+            "url": "https://t.co/sYDVoir2dI"
+          }
+        ]
+      },
+      "id": "2118268779901628880",
+      "lang": "en",
+      "note_tweet": {
+        "text": "DAILY AI BRIEF 🗞 — Nov 5\n\nOPENAI 🔥:\n- OpenAI launched Images 2.6 with GIFs and reference images in ChatGPT and Codex, plus the Flare and Sunburst models in the API.\n- GPT-6.2 Astra and Sol showed up on Google Cloud quotas, and The Information says they could ship as soon as Friday (via AiBattle_).\n- OpenAI is acquiring Pierre Computer Company to build Git workflows for Codex.\n- An OpenAI security pipeline using an upcoming cyber model patched 948 Linux kernel privilege-escalation bugs in one run.\n\nMOONSHOT 🔥:\n- Kimi K3.1 Pro open weights are now on Hugging Face.\n\nGOOGLE 🔥:\n- Antigravity v2.29 brings Voice Mode and Remote Agents for AI Pro and Ultra subscribers.\n- Antigravity now opens Jupyter notebooks natively.\n- The Gemini API computer use tool is now generally available.\n- Voice Remixing for Gemini 3.8 Flash TTS is live in AI Studio and the Gemini API.\n- Gemini Omni 1.2 Flash was spotted on Google Cloud (via mrfanduu).\n\nANTHROPIC 🔥:\n- Claude desktop added a /storage command to check disk use and clear old tasks and worktrees.\n- Claude Code background subagents now use about 99% less usage on status updates.\n\nMETA 🔥:\n- Conductor, a platform for local and cloud coding agents, is joining Meta.\n\nSPACEXSI 🔥:\n- Native Grok Bot calling is limited to eligible US accounts dialing US numbers, with international support still on the roadmap.\n- Grok Bot is testing a refer-a-friend option that earns free usage resets (via blankspeaker).\n- Grok Bot is testing a Re-run button so a routine can restart from a connector card in chat (via blankspeaker).\n\nMICROSOFT 🔥:\n- GitHub Copilot is now in public preview inside Xcode's built-in coding assistant.\n\nPERPLEXITY 🔥:\n- Perplexity added web grounding to its Decisions API.\n\nCOGNITION 🔥:\n- Cognition released SWE-2 Flash, a fast coding model.\n\nFACTORY 🔥:\n- HumanLayer is joining Factory.\n\nNOUS RESEARCH 🔥:\n- Hermes Agent got a unified marketplace.\n- The Hermes mobile app opened a waitlist.\n\nMIDJOURNEY 🔥:\n- Midjourney v9 is reportedly coming before the end of the year (via koltregaskes).\n\nRICURSIVE 🔥:\n- Ricursive released Ripple-65B Preview, an open-weight model built for agentic coding.\n\nNOTION 🔥:\n- Notion now lets ChatGPT, Claude and other agents share one memory and skill set.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+      },
+      "public_metrics": {
+        "bookmark_count": 29,
+        "impression_count": 16595,
+        "like_count": 224,
+        "quote_count": 8,
+        "reply_count": 60,
+        "retweet_count": 9
+      },
+      "referenced_tweets": [
+        {
+          "id": "2117921199879532604",
+          "type": "quoted"
+        }
+      ],
+      "text": "DAILY AI BRIEF 🗞 — Nov 5\n\nOPENAI 🔥:\n- OpenAI launched Images 2.6 with GIFs and reference images in ChatGPT and Codex, plus the Flare and Sunburst models in the API.\n- GPT-6.2 Astra and Sol showed up on Google Cloud quotas, and The Information says they could ship as soon as https://t.co/sYDVoir2dI",
+      "url": "https://x.com/testingcatalog/status/2118268779901628880"
+    },
+    {
+      "author_id": "3980735590",
+      "conversation_id": "2118127525008118157",
+      "created_at": "2026-11-05T00:45:52.000Z",
+      "edit_history_tweet_ids": [
+        "2118142718971109760"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "description": "Images 2.6 adds GIF creation in ChatGPT and Codex, plus Flare and Sunburst API models with SVG exports and image markup.",
+            "display_url": "testingcatalog.com/openai-launche…",
+            "end": 37,
+            "expanded_url": "https://www.testingcatalog.com/openai-launches-images-2-6-with-gifs-and-image-reference/",
+            "images": [
+              {
+                "height": 675,
+                "url": "https://pbs.twimg.com/news_img/2118142720317546496/F_3fFM2h?format=jpg&name=orig",
+                "width": 1200
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2118142720317546496/F_3fFM2h?format=jpg&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 14,
+            "status": 200,
+            "title": "OpenAI launches Images 2.6 with GIFs and image reference",
+            "unwound_url": "https://www.testingcatalog.com/openai-launches-images-2-6-with-gifs-and-image-reference/",
+            "url": "https://t.co/lS9ryf95Ae"
+          }
+        ]
+      },
+      "id": "2118142718971109760",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 1,
+        "impression_count": 3618,
+        "like_count": 12,
+        "quote_count": 0,
+        "reply_count": 2,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118127525008118157",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Documented 🗞️\nhttps://t.co/lS9ryf95Ae",
+      "url": "https://x.com/testingcatalog/status/2118142718971109760"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "16_2118138464134672384"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118138826212385225",
+      "created_at": "2026-11-05T00:30:23.000Z",
+      "edit_history_tweet_ids": [
+        "2118138826212385225"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/sz9dK1843G",
+            "end": 105,
+            "expanded_url": "https://x.com/testingcatalog/status/2118138826212385225/photo/1",
+            "media_key": "16_2118138464134672384",
+            "start": 82,
+            "url": "https://t.co/sz9dK1843G"
+          },
+          {
+            "display_url": "x.com/testingcatalog…",
+            "end": 129,
+            "expanded_url": "https://twitter.com/testingcatalog/status/2118127525008118157",
+            "start": 106,
+            "url": "https://t.co/sADe03LCtw"
+          }
+        ]
+      },
+      "id": "2118138826212385225",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 12,
+        "impression_count": 10426,
+        "like_count": 142,
+        "quote_count": 1,
+        "reply_count": 18,
+        "retweet_count": 5
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118127525008118157",
+          "type": "quoted"
+        }
+      ],
+      "text": "AI news every day 👀\n\n* Made with the new ChatGPT Images 2.6 for testing purposes. https://t.co/sz9dK1843G https://t.co/sADe03LCtw",
+      "url": "https://x.com/testingcatalog/status/2118138826212385225"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118124891572748288"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118127525008118157",
+      "created_at": "2026-11-04T23:45:29.000Z",
+      "edit_history_tweet_ids": [
+        "2118127525008118157"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/xGTHMQDUO8",
+            "end": 452,
+            "expanded_url": "https://x.com/OpenAI/status/2118124944928432327/video/1",
+            "media_key": "13_2118124891572748288",
+            "start": 429,
+            "url": "https://t.co/xGTHMQDUO8"
+          }
+        ]
+      },
+      "id": "2118127525008118157",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/OpenAI/status/…",
+              "end": 452,
+              "expanded_url": "https://x.com/OpenAI/status/2118124944928432327/video/1",
+              "start": 429,
+              "url": "https://t.co/xGTHMQDUO8"
+            }
+          ]
+        },
+        "text": "BREAKING 🔥: OpenAI released GPT‑Image‑2.6 Flare and Sunburst image models on APIs and ChatGPT!\n\n> \"ChatGPT Images 2.6 now supports GIF generation and reference images.\"\n\n> \"Images 2.6 generates images 50% faster than before.\"\n\nImages 2.6 is available globally today in ChatGPT and Codex across all subscription tiers on desktop, mobile, and web.\n\nImages 2.6 pricing for image-to-image and text-to-image - $8/$5 input, $30 output https://t.co/xGTHMQDUO8"
+      },
+      "public_metrics": {
+        "bookmark_count": 61,
+        "impression_count": 28895,
+        "like_count": 492,
+        "quote_count": 10,
+        "reply_count": 39,
+        "retweet_count": 17
+      },
+      "text": "BREAKING 🔥: OpenAI released GPT‑Image‑2.6 Flare and Sunburst image models on APIs and ChatGPT!\n\n&gt; \"ChatGPT Images 2.6 now supports GIF generation and reference images.\"\n\n&gt; \"Images 2.6 generates images 50% faster than before.\"\n\nImages 2.6 is available globally today in ChatGPT",
+      "url": "https://x.com/testingcatalog/status/2118127525008118157"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118125511490568192",
+          "3_2118125551802023936"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118125584320721402",
+      "created_at": "2026-11-04T23:37:46.000Z",
+      "edit_history_tweet_ids": [
+        "2118125584320721402"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/wPotsYTKsR",
+            "end": 156,
+            "expanded_url": "https://x.com/testingcatalog/status/2118125584320721402/photo/1",
+            "media_key": "3_2118125511490568192",
+            "start": 133,
+            "url": "https://t.co/wPotsYTKsR"
+          },
+          {
+            "display_url": "pic.x.com/wPotsYTKsR",
+            "end": 156,
+            "expanded_url": "https://x.com/testingcatalog/status/2118125584320721402/photo/1",
+            "media_key": "3_2118125551802023936",
+            "start": 133,
+            "url": "https://t.co/wPotsYTKsR"
+          },
+          {
+            "display_url": "x.com/AiBattle_/stat…",
+            "end": 180,
+            "expanded_url": "https://twitter.com/AiBattle_/status/2118123362245587208",
+            "start": 157,
+            "url": "https://t.co/qE9IbwdBtT"
+          }
+        ]
+      },
+      "id": "2118125584320721402",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 114,
+        "impression_count": 61936,
+        "like_count": 1392,
+        "quote_count": 25,
+        "reply_count": 50,
+        "retweet_count": 61
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118123362245587208",
+          "type": "quoted"
+        }
+      ],
+      "text": "BREAKING 🔥: GPT-6.2 Astra and GPT-6.2 Sol have been spotted on the Google Cloud Console quotas page!\n\nThey are indeed coming soon! 👀 https://t.co/wPotsYTKsR https://t.co/qE9IbwdBtT",
+      "url": "https://x.com/testingcatalog/status/2118125584320721402"
+    },
+    {
+      "author_id": "3980735590",
+      "conversation_id": "2118124334115930610",
+      "created_at": "2026-11-04T23:32:49.000Z",
+      "edit_history_tweet_ids": [
+        "2118124336707952688"
+      ],
+      "id": "2118124336707952688",
+      "lang": "en",
+      "note_tweet": {
+        "entities": {
+          "urls": [
+            {
+              "display_url": "oumi.ai",
+              "end": 319,
+              "expanded_url": "https://oumi.ai",
+              "start": 296,
+              "url": "https://t.co/Q3GJrmHySE"
+            }
+          ]
+        },
+        "text": "Those who already have an agent like Claude or GPT can connect it to Oumi and train a new AI model to replace it.\n\nThis lets companies retain full ownership of the models they use.\n\nA reinforcement learning option that trains models based on task completion is in private preview.\n\nTest it out 👀\nhttps://t.co/Q3GJrmHySE"
+      },
+      "public_metrics": {
+        "bookmark_count": 2,
+        "impression_count": 2049,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 0,
+        "retweet_count": 0
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118124334115930610",
+          "type": "replied_to"
+        }
+      ],
+      "text": "Those who already have an agent like Claude or GPT can connect it to Oumi and train a new AI model to replace it.\n\nThis lets companies retain full ownership of the models they use.\n\nA reinforcement learning option that trains models based on task completion is in private preview.",
+      "url": "https://x.com/testingcatalog/status/2118124336707952688"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118123666919608321"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118124334115930610",
+      "created_at": "2026-11-04T23:32:48.000Z",
+      "edit_history_tweet_ids": [
+        "2118124334115930610"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/YOIAE0uWW8",
+            "end": 307,
+            "expanded_url": "https://x.com/testingcatalog/status/2118124334115930610/video/1",
+            "media_key": "13_2118123666919608321",
+            "start": 284,
+            "url": "https://t.co/YOIAE0uWW8"
+          },
+          {
+            "display_url": "x.com/Koukoumidis/st…",
+            "end": 331,
+            "expanded_url": "https://twitter.com/Koukoumidis/status/2118025491131101581",
+            "start": 308,
+            "url": "https://t.co/Da1JZUlTB7"
+          }
+        ]
+      },
+      "id": "2118124334115930610",
+      "lang": "en",
+      "note_tweet": {
+        "text": "Oumi has launched a platform for building AI agents, with an AI engineer called FAiE. \n\nFAiE can handle everything from training agents to verifying the results.\n\n> Users can correct agent mistakes by telling FAiE the right answer in chat. After that, FAiE can update the training examples, retrain the agent, and measure the improvements."
+      },
+      "public_metrics": {
+        "bookmark_count": 17,
+        "impression_count": 6834,
+        "like_count": 63,
+        "quote_count": 2,
+        "reply_count": 14,
+        "retweet_count": 4
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118025491131101581",
+          "type": "quoted"
+        }
+      ],
+      "text": "Oumi has launched a platform for building AI agents, with an AI engineer called FAiE. \n\nFAiE can handle everything from training agents to verifying the results.\n\n&gt; Users can correct agent mistakes by telling FAiE the right answer in chat. After that, FAiE can update the training https://t.co/YOIAE0uWW8 https://t.co/Da1JZUlTB7",
+      "url": "https://x.com/testingcatalog/status/2118124334115930610"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "3_2118095817202352129",
+          "3_2118095817256861696"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118095823750000850",
+      "created_at": "2026-11-04T21:39:31.000Z",
+      "edit_history_tweet_ids": [
+        "2118095823750000850"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/4T82V1BZBG",
+            "end": 306,
+            "expanded_url": "https://x.com/testingcatalog/status/2118095823750000850/photo/1",
+            "media_key": "3_2118095817202352129",
+            "start": 283,
+            "url": "https://t.co/4T82V1BZBG"
+          },
+          {
+            "display_url": "pic.x.com/4T82V1BZBG",
+            "end": 306,
+            "expanded_url": "https://x.com/testingcatalog/status/2118095823750000850/photo/1",
+            "media_key": "3_2118095817256861696",
+            "start": 283,
+            "url": "https://t.co/4T82V1BZBG"
+          },
+          {
+            "display_url": "x.com/charlieholtz/s…",
+            "end": 330,
+            "expanded_url": "https://twitter.com/charlieholtz/status/2118045232218743264",
+            "start": 307,
+            "url": "https://t.co/FnSb6D1YIc"
+          }
+        ]
+      },
+      "id": "2118095823750000850",
+      "lang": "en",
+      "note_tweet": {
+        "text": "Conductor ❤️ Meta \n\nConductor, a platform for running local and cloud coding agents, joined Meta.\n\n> “We have some big, crazy plans for the next interface. If you liked Conductor, you’re gonna love what’s coming. We’ll have something new for you to use early next year.”\n\nMeta is getting its own coding super app? \n\nEarly next year 👀"
+      },
+      "public_metrics": {
+        "bookmark_count": 12,
+        "impression_count": 9661,
+        "like_count": 135,
+        "quote_count": 4,
+        "reply_count": 30,
+        "retweet_count": 7
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118045232218743264",
+          "type": "quoted"
+        }
+      ],
+      "text": "Conductor ❤️ Meta \n\nConductor, a platform for running local and cloud coding agents, joined Meta.\n\n&gt; “We have some big, crazy plans for the next interface. If you liked Conductor, you’re gonna love what’s coming. We’ll have something new for you to use early next year.”\n\nMeta is https://t.co/4T82V1BZBG https://t.co/FnSb6D1YIc",
+      "url": "https://x.com/testingcatalog/status/2118095823750000850"
+    },
+    {
+      "attachments": {
+        "media_keys": [
+          "13_2118044579278770176"
+        ]
+      },
+      "author_id": "3980735590",
+      "conversation_id": "2118093764858159358",
+      "created_at": "2026-11-04T21:31:20.000Z",
+      "edit_history_tweet_ids": [
+        "2118093764858159358"
+      ],
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/iK41qeFTJh",
+            "end": 207,
+            "expanded_url": "https://x.com/lydiahallie/status/2118045439803195567/video/1",
+            "media_key": "13_2118044579278770176",
+            "start": 184,
+            "url": "https://t.co/iK41qeFTJh"
+          }
+        ]
+      },
+      "id": "2118093764858159358",
+      "lang": "en",
+      "public_metrics": {
+        "bookmark_count": 44,
+        "impression_count": 13916,
+        "like_count": 246,
+        "quote_count": 4,
+        "reply_count": 26,
+        "retweet_count": 16
+      },
+      "text": "Anthropic added a new /storage command to Claude desktop, allowing users to see how much space Claude actually uses. \n\nThere, users can also clear inactive tasks and unused worktrees. https://t.co/iK41qeFTJh",
+      "url": "https://x.com/testingcatalog/status/2118093764858159358"
+    }
+  ],
+  "includes": {
+    "media": [
+      {
+        "media_key": "13_2118400683942477824",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118400683942477824/img/8Nq_kxkL9PZTDlo7.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2118455242933116929",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZD0cOXoAEkKoj.jpg"
+      },
+      {
+        "media_key": "3_2118455291297538048",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWZD3QZWIAA-r_-.jpg"
+      },
+      {
+        "media_key": "13_2118446781579116544",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118446781579116544/img/_JnEMgmX4v8jIYp-.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "13_2118401044841390080",
+        "preview_image_url": "https://pbs.twimg.com/media/HWYUk7ZWwAAcrVe.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2118403412312162304",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWYUrgHXgAAgPkY.jpg"
+      },
+      {
+        "media_key": "13_2118376364311023617",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118376364311023617/img/mXXhU9jd_CIcdZY0.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2118401944087678976",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWYTWCjX0AAIYKK.jpg"
+      },
+      {
+        "media_key": "13_2118389256930660352",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118389256930660352/img/GPUe0mXgz4f2dJ6O.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2118395239287193600",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWYNPxOXgAA4IF8.jpg"
+      },
+      {
+        "media_key": "13_2118387217588465664",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118387217588465664/img/N2grMUmP0O_EMvS2.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2118339442674946048",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWXaf-pW0AAj1GA.png"
+      },
+      {
+        "media_key": "3_2118339469547880448",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWXahiwXQAAlRbg.png"
+      },
+      {
+        "media_key": "16_2118138464134672384",
+        "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HWUjtfPWsAAJmrN.jpg",
+        "type": "animated_gif"
+      },
+      {
+        "media_key": "13_2118124891572748288",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118124891572748288/img/ZSIlzNmSPQEK0Sfd.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2118125511490568192",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWUX7i4WgAAuE8i.png"
+      },
+      {
+        "media_key": "3_2118125551802023936",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWUX95DWgAA-gyD.jpg"
+      },
+      {
+        "media_key": "13_2118123666919608321",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118123666919608321/img/rbURLdafsHMAdoQQ.jpg",
+        "type": "video"
+      },
+      {
+        "media_key": "3_2118095817202352129",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWT87HCWQAEhZ3r.jpg"
+      },
+      {
+        "media_key": "3_2118095817256861696",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWT87HPWAAAbSqy.jpg"
+      },
+      {
+        "media_key": "13_2118044579278770176",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2118044579278770176/img/qcV7HPLHfpsTjVp-.jpg",
+        "type": "video"
+      }
+    ],
+    "tweets": [
+      {
+        "author_id": "1706770561903497216",
+        "conversation_id": "2118412183860351084",
+        "created_at": "2026-11-05T18:36:37.000Z",
+        "edit_history_tweet_ids": [
+          "2118412183860351084"
+        ],
+        "id": "2118412183860351084",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 1172,
+          "impression_count": 431687,
+          "like_count": 2420,
+          "quote_count": 139,
+          "reply_count": 94,
+          "retweet_count": 285
+        },
+        "text": "Since August, a team within METR has worked with internal Anthropic information to assess whether AI itself is accelerating AI development.\n\nWe are now publishing a report summarizing the results of this risk assessment."
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118446781579116544"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2118446954958975289",
+        "created_at": "2026-11-05T20:54:47.000Z",
+        "edit_history_tweet_ids": [
+          "2118446954958975289"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/qMwExVbDMP",
+              "end": 303,
+              "expanded_url": "https://x.com/testingcatalog/status/2118446954958975289/video/1",
+              "media_key": "13_2118446781579116544",
+              "start": 280,
+              "url": "https://t.co/qMwExVbDMP"
+            },
+            {
+              "display_url": "x.com/AlexAtServal/s…",
+              "end": 327,
+              "expanded_url": "https://twitter.com/AlexAtServal/status/2118396934566097349",
+              "start": 304,
+              "url": "https://t.co/oi5lusI3Jg"
+            }
+          ]
+        },
+        "id": "2118446954958975289",
+        "lang": "en",
+        "note_tweet": {
+          "text": "Serval is looking for engineers to work on Catalyst, an AI agent that simplifies creating working automations for IT technicians.\n\nUsers can start by describing what they need, such as automatically giving new staff members access to an app, and have Catalyst write the necessary code for it.\n\nTeams can test and approve each automation before it runs on a schedule."
+        },
+        "public_metrics": {
+          "bookmark_count": 4,
+          "impression_count": 5777,
+          "like_count": 80,
+          "quote_count": 0,
+          "reply_count": 13,
+          "retweet_count": 3
+        },
+        "referenced_tweets": [
+          {
+            "id": "2118396934566097349",
+            "type": "quoted"
+          }
+        ],
+        "text": "Serval is looking for engineers to work on Catalyst, an AI agent that simplifies creating working automations for IT technicians.\n\nUsers can start by describing what they need, such as automatically giving new staff members access to an app, and have Catalyst write the necessary https://t.co/qMwExVbDMP https://t.co/oi5lusI3Jg"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118396208423059456"
+          ]
+        },
+        "author_id": "279463439",
+        "conversation_id": "2118396934566097349",
+        "created_at": "2026-11-05T17:36:01.000Z",
+        "edit_history_tweet_ids": [
+          "2118396934566097349"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/HZCqA0ofvT",
+              "end": 304,
+              "expanded_url": "https://x.com/AlexAtServal/status/2118396934566097349/video/1",
+              "media_key": "13_2118396208423059456",
+              "start": 281,
+              "url": "https://t.co/HZCqA0ofvT"
+            },
+            {
+              "display_url": "x.com/khishida/statu…",
+              "end": 328,
+              "expanded_url": "https://twitter.com/khishida/status/2118376740825203090",
+              "start": 305,
+              "url": "https://t.co/8Ka8WPPDXA"
+            }
+          ]
+        },
+        "id": "2118396934566097349",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "mentions": [
+              {
+                "end": 732,
+                "id": "1783878865523208192",
+                "start": 722,
+                "username": "getserval"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "serval.com/careers",
+                "end": 866,
+                "expanded_url": "https://www.serval.com/careers",
+                "start": 843,
+                "url": "https://t.co/OjUgQgjeM0"
+              }
+            ]
+          },
+          "text": "Starting today, every engineer who joins Serval begins with a weeklong, $10,000 paid vacation. We’re building the next generational company. We need generational talent to see it through.\n\nOur mission has always been to empower people across every team to turn their understanding of a problem into working, trustworthy automations. Making that function inside the largest enterprises takes world-class engineering.\n\nThat’s what you’d be joining us to do. There are foundational decisions still to make, and the engineers making them will shape the future of how big we can build this company.\n\nWe want you to arrive rested and ready to do the best work of your life. So your first week is a chance to get away.\n\nAnd if a @getserval employee refers you, both you and that employee receive $30,000, on top of the vacation.\n\nCome build with us: https://t.co/OjUgQgjeM0"
+        },
+        "public_metrics": {
+          "bookmark_count": 294,
+          "impression_count": 215718,
+          "like_count": 537,
+          "quote_count": 87,
+          "reply_count": 74,
+          "retweet_count": 65
+        },
+        "referenced_tweets": [
+          {
+            "id": "2118376740825203090",
+            "type": "quoted"
+          }
+        ],
+        "text": "Starting today, every engineer who joins Serval begins with a weeklong, $10,000 paid vacation. We’re building the next generational company. We need generational talent to see it through.\n\nOur mission has always been to empower people across every team to turn their understanding https://t.co/HZCqA0ofvT https://t.co/8Ka8WPPDXA"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118376364311023617"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2118403543547949365",
+        "created_at": "2026-11-05T18:02:17.000Z",
+        "edit_history_tweet_ids": [
+          "2118403543547949365"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/4UC3iIXoS6",
+              "end": 201,
+              "expanded_url": "https://x.com/GoogleAIStudio/status/2118390015382454491/video/1",
+              "media_key": "13_2118376364311023617",
+              "start": 178,
+              "url": "https://t.co/4UC3iIXoS6"
+            }
+          ]
+        },
+        "id": "2118403543547949365",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 15,
+          "impression_count": 9226,
+          "like_count": 219,
+          "quote_count": 3,
+          "reply_count": 14,
+          "retweet_count": 7
+        },
+        "text": "GOOGLE 🔥: Omni 1.2 Flash video generation model is now available on Google AI Studio and Gemini APIs. \n\nUp to 15 seconds long and up to 4K video resolution, at 30% lower cost.   https://t.co/4UC3iIXoS6"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2118401944087678976"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2118402053563117740",
+        "created_at": "2026-11-05T17:56:22.000Z",
+        "edit_history_tweet_ids": [
+          "2118402053563117740"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/VdFZRIeYe3",
+              "end": 302,
+              "expanded_url": "https://x.com/testingcatalog/status/2118402053563117740/photo/1",
+              "media_key": "3_2118401944087678976",
+              "start": 279,
+              "url": "https://t.co/VdFZRIeYe3"
+            },
+            {
+              "display_url": "x.com/OfirEhrlich/st…",
+              "end": 326,
+              "expanded_url": "https://twitter.com/OfirEhrlich/status/2118357800648659127",
+              "start": 303,
+              "url": "https://t.co/EwSTBipsKg"
+            }
+          ]
+        },
+        "id": "2118402053563117740",
+        "lang": "en",
+        "note_tweet": {
+          "text": "Eon has launched Eon Yukon, a new service that cleans up incoming context into polished data tables on the fly.\n\nBy processing the data, Yukon allows AI agents to work with clean tables within a minute of arrival.\n\nCompared with similar pipelines built on Apache Spark or Apache Flink, Yukon used about 1/4 of Spark's computing power and 1/7 of Flink's."
+        },
+        "public_metrics": {
+          "bookmark_count": 11,
+          "impression_count": 5849,
+          "like_count": 78,
+          "quote_count": 0,
+          "reply_count": 6,
+          "retweet_count": 1
+        },
+        "referenced_tweets": [
+          {
+            "id": "2118357800648659127",
+            "type": "quoted"
+          }
+        ],
+        "text": "Eon has launched Eon Yukon, a new service that cleans up incoming context into polished data tables on the fly.\n\nBy processing the data, Yukon allows AI agents to work with clean tables within a minute of arrival.\n\nCompared with similar pipelines built on Apache Spark or Apache https://t.co/VdFZRIeYe3 https://t.co/EwSTBipsKg"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118357747632627712"
+          ]
+        },
+        "author_id": "835567507",
+        "conversation_id": "2118357800648659127",
+        "created_at": "2026-11-05T15:00:31.000Z",
+        "edit_history_tweet_ids": [
+          "2118357800648659127"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/NRn8KFaS1i",
+              "end": 300,
+              "expanded_url": "https://x.com/OfirEhrlich/status/2118357800648659127/video/1",
+              "media_key": "13_2118357747632627712",
+              "start": 277,
+              "url": "https://t.co/NRn8KFaS1i"
+            }
+          ]
+        },
+        "id": "2118357800648659127",
+        "lang": "en",
+        "note_tweet": {
+          "text": "What I'm seeing across the industry right now is that the biggest bottleneck to AI adoption isn't model capabilities. It's data infrastructure.\n\nToday, we're expanding the Eon Data Foundation with the launch of Eon Yukon, a new serverless data engine purposely built to change that.\n\nAI agents need fresh, contextualized data to act. \nSpecialized models need a continuous feed of data and feedback to improve. Both are still served by a stack, an architecture, and methods built for dashboards:\n\n-Spark and Flink clusters sized for peak, plus compaction jobs to keep tables usable.\n\n-A pipeline and a copy for every consumer, staged bronze to silver to gold.\n\n-Hand-written jobs, wired together by an orchestrator and kept alive by specialists.\n\nThe result: shipping data is complicated, risky, and expensive. While coding agents ship apps in hours, they rarely build or run data pipelines. The data is too volatile, and a mistake costs too much.\n\nWith Yukon, data moves from ingestion to processing to serving in one continuous flow, without the infrastructure and pipelines traditionally required to connect them.\n\nEvents become compacted, sorted, deduplicated Iceberg tables within seconds.\n\nReal-time aggregations run inline, with fully managed state. Agents and applications can access fresh data with sub-millisecond latency through a Redis-compatible API or through our SQL and spark compatible query engine.\n\nBeyond moving and serving data, Yukon makes it continuously understandable - Live column-level statistics, accessible through MCP, give agents visibility into the data. Built-in monitoring, sampling, and data minimization help teams maintain control.\n\nAt 1M events/sec and equal freshness, Yukon used 4x less compute than Spark and 7x less than Flink. The benchmark is public: run it yourself with Eon’s ingest-bench.\n\nThis is another major step toward our vision of an Autonomous Data Foundation for the AI era, built to both protect enterprise data and unlock its full potential."
+        },
+        "public_metrics": {
+          "bookmark_count": 207,
+          "impression_count": 260454,
+          "like_count": 578,
+          "quote_count": 58,
+          "reply_count": 78,
+          "retweet_count": 81
+        },
+        "text": "What I'm seeing across the industry right now is that the biggest bottleneck to AI adoption isn't model capabilities. It's data infrastructure.\n\nToday, we're expanding the Eon Data Foundation with the launch of Eon Yukon, a new serverless data engine purposely built to change https://t.co/NRn8KFaS1i"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118387217588465664"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2118390979459776709",
+        "created_at": "2026-11-05T17:12:21.000Z",
+        "edit_history_tweet_ids": [
+          "2118390979459776709"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/Lembxv2AKu",
+              "end": 319,
+              "expanded_url": "https://x.com/OpenAI/status/2118390190246879554/video/1",
+              "media_key": "13_2118387217588465664",
+              "start": 296,
+              "url": "https://t.co/Lembxv2AKu"
+            }
+          ]
+        },
+        "id": "2118390979459776709",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/OpenAI/status/…",
+                "end": 319,
+                "expanded_url": "https://x.com/OpenAI/status/2118390190246879554/video/1",
+                "start": 296,
+                "url": "https://t.co/Lembxv2AKu"
+              }
+            ]
+          },
+          "text": "OPENAI 🔥: A new GPT-6 Cyber model for advanced security research is now available on Daybreak!\n\n> \"GPT-6 Cyber is available to select Daybreak Red customers, and we are expanding access over time.\"\n\n> OpenAI is hosting a Cyber-related livestream on November 12, with more updates being planned.  https://t.co/Lembxv2AKu"
+        },
+        "public_metrics": {
+          "bookmark_count": 9,
+          "impression_count": 9465,
+          "like_count": 192,
+          "quote_count": 1,
+          "reply_count": 18,
+          "retweet_count": 8
+        },
+        "text": "OPENAI 🔥: A new GPT-6 Cyber model for advanced security research is now available on Daybreak!\n\n&gt; \"GPT-6 Cyber is available to select Daybreak Red customers, and we are expanding access over time.\"\n\n&gt; OpenAI is hosting a Cyber-related livestream on November 12, with more updates"
+      },
+      {
+        "author_id": "1623990945094987778",
+        "conversation_id": "2118206066068738304",
+        "created_at": "2026-11-05T04:57:35.000Z",
+        "edit_history_tweet_ids": [
+          "2118206066068738304"
+        ],
+        "id": "2118206066068738304",
+        "lang": "et",
+        "public_metrics": {
+          "bookmark_count": 8,
+          "impression_count": 20055,
+          "like_count": 51,
+          "quote_count": 5,
+          "reply_count": 2,
+          "retweet_count": 2
+        },
+        "text": "gemini-omni-1.2-flash"
+      },
+      {
+        "author_id": "3980735590",
+        "conversation_id": "2118268779901628880",
+        "created_at": "2026-11-05T09:06:47.000Z",
+        "edit_history_tweet_ids": [
+          "2118268779901628880"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/testingcatalog…",
+              "end": 298,
+              "expanded_url": "https://twitter.com/testingcatalog/status/2117921199879532604",
+              "start": 275,
+              "url": "https://t.co/sYDVoir2dI"
+            }
+          ]
+        },
+        "id": "2118268779901628880",
+        "lang": "en",
+        "note_tweet": {
+          "text": "DAILY AI BRIEF 🗞 — Nov 5\n\nOPENAI 🔥:\n- OpenAI launched Images 2.6 with GIFs and reference images in ChatGPT and Codex, plus the Flare and Sunburst models in the API.\n- GPT-6.2 Astra and Sol showed up on Google Cloud quotas, and The Information says they could ship as soon as Friday (via AiBattle_).\n- OpenAI is acquiring Pierre Computer Company to build Git workflows for Codex.\n- An OpenAI security pipeline using an upcoming cyber model patched 948 Linux kernel privilege-escalation bugs in one run.\n\nMOONSHOT 🔥:\n- Kimi K3.1 Pro open weights are now on Hugging Face.\n\nGOOGLE 🔥:\n- Antigravity v2.29 brings Voice Mode and Remote Agents for AI Pro and Ultra subscribers.\n- Antigravity now opens Jupyter notebooks natively.\n- The Gemini API computer use tool is now generally available.\n- Voice Remixing for Gemini 3.8 Flash TTS is live in AI Studio and the Gemini API.\n- Gemini Omni 1.2 Flash was spotted on Google Cloud (via mrfanduu).\n\nANTHROPIC 🔥:\n- Claude desktop added a /storage command to check disk use and clear old tasks and worktrees.\n- Claude Code background subagents now use about 99% less usage on status updates.\n\nMETA 🔥:\n- Conductor, a platform for local and cloud coding agents, is joining Meta.\n\nSPACEXSI 🔥:\n- Native Grok Bot calling is limited to eligible US accounts dialing US numbers, with international support still on the roadmap.\n- Grok Bot is testing a refer-a-friend option that earns free usage resets (via blankspeaker).\n- Grok Bot is testing a Re-run button so a routine can restart from a connector card in chat (via blankspeaker).\n\nMICROSOFT 🔥:\n- GitHub Copilot is now in public preview inside Xcode's built-in coding assistant.\n\nPERPLEXITY 🔥:\n- Perplexity added web grounding to its Decisions API.\n\nCOGNITION 🔥:\n- Cognition released SWE-2 Flash, a fast coding model.\n\nFACTORY 🔥:\n- HumanLayer is joining Factory.\n\nNOUS RESEARCH 🔥:\n- Hermes Agent got a unified marketplace.\n- The Hermes mobile app opened a waitlist.\n\nMIDJOURNEY 🔥:\n- Midjourney v9 is reportedly coming before the end of the year (via koltregaskes).\n\nRICURSIVE 🔥:\n- Ricursive released Ripple-65B Preview, an open-weight model built for agentic coding.\n\nNOTION 🔥:\n- Notion now lets ChatGPT, Claude and other agents share one memory and skill set.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+        },
+        "public_metrics": {
+          "bookmark_count": 29,
+          "impression_count": 16595,
+          "like_count": 224,
+          "quote_count": 8,
+          "reply_count": 60,
+          "retweet_count": 9
+        },
+        "referenced_tweets": [
+          {
+            "id": "2117921199879532604",
+            "type": "quoted"
+          }
+        ],
+        "text": "DAILY AI BRIEF 🗞 — Nov 5\n\nOPENAI 🔥:\n- OpenAI launched Images 2.6 with GIFs and reference images in ChatGPT and Codex, plus the Flare and Sunburst models in the API.\n- GPT-6.2 Astra and Sol showed up on Google Cloud quotas, and The Information says they could ship as soon as https://t.co/sYDVoir2dI"
+      },
+      {
+        "author_id": "3980735590",
+        "conversation_id": "2117921199879532604",
+        "created_at": "2026-11-04T10:05:37.000Z",
+        "edit_history_tweet_ids": [
+          "2117921199879532604"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/testingcatalog…",
+              "end": 297,
+              "expanded_url": "https://twitter.com/testingcatalog/status/2117522547856040410",
+              "start": 274,
+              "url": "https://t.co/glcHQEgHcx"
+            }
+          ]
+        },
+        "id": "2117921199879532604",
+        "lang": "en",
+        "note_tweet": {
+          "text": "DAILY AI BRIEF 🗞 — Nov 4\n\nAPPLE 🔥:\n- Apple opened Siri AI to all developers via an App Intents developer preview in the iOS and macOS 27.3 betas.\n\nTENCENT 🔥:\n- Tencent launched Hy4 with vision and computer use on Tencent Cloud and OpenRouter, with open weights coming soon.\n\nOPENAI 🔥:\n- ChatGPT Voice now works inside ChatGPT Finances for US users.\n- ChatGPT side chats no longer expire after an app restart or update.\n\nANTHROPIC 🔥:\n- Claude plugins now auto-connect at login to MCP servers that trust Claude as an issuer.\n- Cat Wu has left Anthropic.\n\nSPACEXSI 🔥:\n- Grok Bot rolled out a new shopping experience to find deals, compare items and track orders.\n- Grok Bot passkey approvals for purchases are coming soon (via alexmichael).\n- Grok Bot can now post on X for you (via alexmichael).\n- Grok Bot is testing image markup to circle, pin notes or paint over parts of a photo for edits (via alexmichael).\n- Grok Bot is testing a usage breakdown chart by source or by bot (via blankspeaker).\n\nGOOGLE 🔥:\n- Google's Dreambeans app is now available to everyone in India in 14 languages.\n- Google made Guided Learning globally available in Google Classroom.\n\nPERPLEXITY 🔥:\n- Perplexity Computer now supports Agent Plugins imported from GitHub or a .zip file.\n\nMETA 🔥:\n- Meta Muse added a dance feature with sharing to Instagram, Facebook and WhatsApp.\n\nCOHERE 🔥:\n- Cohere Model Vault now hosts open models like DeepSeek V4.1 Flash, GLM 5.3 Flash and Gemma 4.\n\nDEEPSEEK 🔥:\n- DeepSeek reportedly plans to pretrain V5 on Huawei Ascend 950 chips, with the full run in 2027.\n\nMICROSOFT 🔥:\n- GitHub Copilot is now available in JetBrains Air.\n\nCLOUDFLARE 🔥:\n- Cloudflare launched Zero Wire, a public vulnerability intelligence feed on Cloudflare Radar.\n\nOPENROUTER 🔥:\n- Stealth models Crouton Alpha and Pulse Alpha are free on OpenRouter and OpenCode with 1M context.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+        },
+        "public_metrics": {
+          "bookmark_count": 20,
+          "impression_count": 27803,
+          "like_count": 158,
+          "quote_count": 4,
+          "reply_count": 53,
+          "retweet_count": 12
+        },
+        "referenced_tweets": [
+          {
+            "id": "2117522547856040410",
+            "type": "quoted"
+          }
+        ],
+        "text": "DAILY AI BRIEF 🗞 — Nov 4\n\nAPPLE 🔥:\n- Apple opened Siri AI to all developers via an App Intents developer preview in the iOS and macOS 27.3 betas.\n\nTENCENT 🔥:\n- Tencent launched Hy4 with vision and computer use on Tencent Cloud and OpenRouter, with open weights coming soon. https://t.co/glcHQEgHcx"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118124891572748288"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2118127525008118157",
+        "created_at": "2026-11-04T23:45:29.000Z",
+        "edit_history_tweet_ids": [
+          "2118127525008118157"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/xGTHMQDUO8",
+              "end": 452,
+              "expanded_url": "https://x.com/OpenAI/status/2118124944928432327/video/1",
+              "media_key": "13_2118124891572748288",
+              "start": 429,
+              "url": "https://t.co/xGTHMQDUO8"
+            }
+          ]
+        },
+        "id": "2118127525008118157",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/OpenAI/status/…",
+                "end": 452,
+                "expanded_url": "https://x.com/OpenAI/status/2118124944928432327/video/1",
+                "start": 429,
+                "url": "https://t.co/xGTHMQDUO8"
+              }
+            ]
+          },
+          "text": "BREAKING 🔥: OpenAI released GPT‑Image‑2.6 Flare and Sunburst image models on APIs and ChatGPT!\n\n> \"ChatGPT Images 2.6 now supports GIF generation and reference images.\"\n\n> \"Images 2.6 generates images 50% faster than before.\"\n\nImages 2.6 is available globally today in ChatGPT and Codex across all subscription tiers on desktop, mobile, and web.\n\nImages 2.6 pricing for image-to-image and text-to-image - $8/$5 input, $30 output https://t.co/xGTHMQDUO8"
+        },
+        "public_metrics": {
+          "bookmark_count": 61,
+          "impression_count": 28895,
+          "like_count": 492,
+          "quote_count": 10,
+          "reply_count": 39,
+          "retweet_count": 17
+        },
+        "text": "BREAKING 🔥: OpenAI released GPT‑Image‑2.6 Flare and Sunburst image models on APIs and ChatGPT!\n\n&gt; \"ChatGPT Images 2.6 now supports GIF generation and reference images.\"\n\n&gt; \"Images 2.6 generates images 50% faster than before.\"\n\nImages 2.6 is available globally today in ChatGPT"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2118123356943777792"
+          ]
+        },
+        "author_id": "1367154052409212928",
+        "conversation_id": "2118123362245587208",
+        "created_at": "2026-11-04T23:28:57.000Z",
+        "edit_history_tweet_ids": [
+          "2118123362245587208"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/iKzePq3eTj",
+              "end": 126,
+              "expanded_url": "https://x.com/AiBattle_/status/2118123362245587208/photo/1",
+              "media_key": "3_2118123356943777792",
+              "start": 103,
+              "url": "https://t.co/iKzePq3eTj"
+            }
+          ]
+        },
+        "id": "2118123362245587208",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 37,
+          "impression_count": 90792,
+          "like_count": 362,
+          "quote_count": 22,
+          "reply_count": 8,
+          "retweet_count": 20
+        },
+        "text": "GPT-6.2 Astra and Sol appeared on the Quotas page in the Google Cloud Console\n\nRelease likely tomorrow https://t.co/iKzePq3eTj"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118123666919608321"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2118124334115930610",
+        "created_at": "2026-11-04T23:32:48.000Z",
+        "edit_history_tweet_ids": [
+          "2118124334115930610"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/YOIAE0uWW8",
+              "end": 307,
+              "expanded_url": "https://x.com/testingcatalog/status/2118124334115930610/video/1",
+              "media_key": "13_2118123666919608321",
+              "start": 284,
+              "url": "https://t.co/YOIAE0uWW8"
+            },
+            {
+              "display_url": "x.com/Koukoumidis/st…",
+              "end": 331,
+              "expanded_url": "https://twitter.com/Koukoumidis/status/2118025491131101581",
+              "start": 308,
+              "url": "https://t.co/Da1JZUlTB7"
+            }
+          ]
+        },
+        "id": "2118124334115930610",
+        "lang": "en",
+        "note_tweet": {
+          "text": "Oumi has launched a platform for building AI agents, with an AI engineer called FAiE. \n\nFAiE can handle everything from training agents to verifying the results.\n\n> Users can correct agent mistakes by telling FAiE the right answer in chat. After that, FAiE can update the training examples, retrain the agent, and measure the improvements."
+        },
+        "public_metrics": {
+          "bookmark_count": 17,
+          "impression_count": 6834,
+          "like_count": 63,
+          "quote_count": 2,
+          "reply_count": 14,
+          "retweet_count": 4
+        },
+        "referenced_tweets": [
+          {
+            "id": "2118025491131101581",
+            "type": "quoted"
+          }
+        ],
+        "text": "Oumi has launched a platform for building AI agents, with an AI engineer called FAiE. \n\nFAiE can handle everything from training agents to verifying the results.\n\n&gt; Users can correct agent mistakes by telling FAiE the right answer in chat. After that, FAiE can update the training https://t.co/YOIAE0uWW8 https://t.co/Da1JZUlTB7"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2117998400402759680"
+          ]
+        },
+        "author_id": "50240806",
+        "conversation_id": "2118025491131101581",
+        "created_at": "2026-11-04T17:00:02.000Z",
+        "edit_history_tweet_ids": [
+          "2118025491131101581"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/G6eA2fMx82",
+              "end": 301,
+              "expanded_url": "https://x.com/Koukoumidis/status/2118025491131101581/video/1",
+              "media_key": "13_2117998400402759680",
+              "start": 278,
+              "url": "https://t.co/G6eA2fMx82"
+            }
+          ]
+        },
+        "id": "2118025491131101581",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "mentions": [
+              {
+                "end": 891,
+                "id": "1826372184560062464",
+                "start": 883,
+                "username": "oumi_ai"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "platform.oumi.ai",
+                "end": 1059,
+                "expanded_url": "https://platform.oumi.ai/",
+                "start": 1036,
+                "url": "https://t.co/shBBxeyRUZ"
+              },
+              {
+                "display_url": "oumi.ai/events/fall26",
+                "end": 1112,
+                "expanded_url": "https://oumi.ai/events/fall26",
+                "start": 1089,
+                "url": "https://t.co/lW2gssJMvX"
+              }
+            ]
+          },
+          "text": "We're using AI agents to automate everything. Except the engineering of AI agents themselves.\n\nThat seemed backwards to us.\n\nWhat if you could train your own specialized AI agent with just 15 minutes of your time instead of months of AI engineering?\n\nWould you keep renting the same expensive generic models as your competitors, endlessly patching prompts and harnesses until you hit a wall?\n\nToday, we're launching the agent that builds, trains, and continuously improves AI agents. 🚀\n\nMeet FAiE, our Frontier AI Engineer. Describe what your agent should accomplish, and FAiE designs evaluations, diagnoses failures, curates data, selects training strategies, and runs experiments.\n\n15 minutes of your effort. A few hours of automated AI engineering. Your own specialized agent, with its model weights trained for your task.\n\nAlready have an agent? Keep your harness. Connect it to @oumi_ai and train the model behind it with SFT, DPO, or GRPO (Private Preview).\n\nThe agent that builds your best agent.\n\nExcited to see what you build: https://t.co/shBBxeyRUZ\nLive demo today at 10 AM PT: https://t.co/lW2gssJMvX"
+        },
+        "public_metrics": {
+          "bookmark_count": 244,
+          "impression_count": 1180312,
+          "like_count": 297,
+          "quote_count": 116,
+          "reply_count": 97,
+          "retweet_count": 72
+        },
+        "text": "We're using AI agents to automate everything. Except the engineering of AI agents themselves.\n\nThat seemed backwards to us.\n\nWhat if you could train your own specialized AI agent with just 15 minutes of your time instead of months of AI engineering?\n\nWould you keep renting the https://t.co/G6eA2fMx82"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2118044320859406337"
+          ]
+        },
+        "author_id": "1244418065854599170",
+        "conversation_id": "2118045232218743264",
+        "created_at": "2026-11-04T18:18:29.000Z",
+        "edit_history_tweet_ids": [
+          "2118045232218743264"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 217,
+              "id": "13235832",
+              "start": 205,
+              "username": "natfriedman"
+            },
+            {
+              "end": 236,
+              "id": "615818451",
+              "start": 222,
+              "username": "alexandr_wang"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/pjzJkTEp1v",
+              "end": 299,
+              "expanded_url": "https://x.com/charlieholtz/status/2118045232218743264/video/1",
+              "media_key": "13_2118044320859406337",
+              "start": 276,
+              "url": "https://t.co/pjzJkTEp1v"
+            }
+          ]
+        },
+        "id": "2118045232218743264",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "mentions": [
+              {
+                "end": 217,
+                "id": "13235832",
+                "start": 205,
+                "username": "natfriedman"
+              },
+              {
+                "end": 236,
+                "id": "615818451",
+                "start": 222,
+                "username": "alexandr_wang"
+              },
+              {
+                "end": 419,
+                "id": "28612255",
+                "start": 405,
+                "username": "aaron_epstein"
+              },
+              {
+                "end": 428,
+                "id": "116669011",
+                "start": 421,
+                "username": "ilyasu"
+              },
+              {
+                "end": 441,
+                "id": "2565",
+                "start": 434,
+                "username": "nabeel"
+              }
+            ]
+          },
+          "text": "I am very excited to share that Conductor is joining Meta!\n\nWe have some big, crazy plans for the next interface. If you liked Conductor, you’re gonna love what’s coming.\n\nWe’re super excited to work with @natfriedman and @alexandr_wang at MSL to build it. They’ve been on an absolute tear, and I’m convinced MSL has the highest talent density of all the labs.\n\nA huge thank you to our earliest believers @aaron_epstein, @ilyasu, and @nabeel. And to everyone here who tried Conductor, sent us feedback, and prompt requests - you made this so much fun. Thank you ❤️🚂\n\nChoo choo!"
+        },
+        "public_metrics": {
+          "bookmark_count": 578,
+          "impression_count": 875434,
+          "like_count": 4308,
+          "quote_count": 346,
+          "reply_count": 770,
+          "retweet_count": 156
+        },
+        "text": "I am very excited to share that Conductor is joining Meta!\n\nWe have some big, crazy plans for the next interface. If you liked Conductor, you’re gonna love what’s coming.\n\nWe’re super excited to work with @natfriedman and @alexandr_wang at MSL to build it. They’ve been on an https://t.co/pjzJkTEp1v"
+      }
+    ],
+    "users": [
+      {
+        "id": "3980735590",
+        "name": "🚨 AI News | TestingCatalog",
+        "username": "testingcatalog"
+      }
+    ]
+  },
+  "meta": {
+    "newest_id": "2118469389452271860",
+    "next_token": "7140dibdnow9c7btwp0g7eh8ibrgp1yqjgcm309sjm4vs",
+    "oldest_id": "2118093764858159358",
+    "result_count": 23
+  }
+}

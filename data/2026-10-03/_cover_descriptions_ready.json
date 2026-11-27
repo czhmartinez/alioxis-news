@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ai-00",
+    "filename": "cover-20261003-ai-00.jpg",
+    "title": "Google Project Suncatcher 首颗原型卫星发射入轨：与 Planet 合作搭载 TPU 测试太空算力",
+    "style_hint": "orbital documentary: Planet-built cubeSat with TPU board under harsh sun and Earth limb",
+    "description": "Photorealistic 16:9 editorial space documentary still: a small Planet-style Earth-observation cubeSat in low orbit, solar panels catching near-continuous sunlight, an exposed gold-PCB TPU accelerator board visible through an open thermal bay, Earth limb and thin atmosphere below, faint laser crosslink beams toward a distant sister satellite. Composition is low-angle looking past solar arrays toward Earth. Hard vacuum sunlight, deep black sky, no text, no logos, no Chinese characters, no masthead bands, no abstract geometry wallpaper.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-01",
+    "filename": "cover-20261003-ai-01.jpg",
+    "title": "Ai2 开源 AstaBrief 8B：基于 Qwen3-8B 的科学报告生成模型，Asta Fast 模式约 3.5× 提速",
+    "style_hint": "research lab: open scientific report on desk with citation cards and Ai2-style notebook",
+    "description": "Photorealistic 16:9 research-lab cover: wooden desk with an open scientific PDF report showing dense citation sidebar (blurred unreadable), stacked preprint printouts, a small open notebook labeled only with abstract glyphs, warm desk lamp, soft Seattle-lab daylight through blinds. Foreground shallow depth on the report edge; background softly blurred bookshelves. No readable text, no logos, no Chinese headlines, no flat icons, no conference-room stock.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-02",
+    "filename": "cover-20261003-ai-02.jpg",
+    "title": "NVIDIA：Blackwell GPU 加速 OpenAI GPT-6 Astra Ultrafast，生成速度最高约 8×",
+    "style_hint": "NVIDIA Blackwell GPU product photo with ultrafast token-stream light trails",
+    "description": "Photorealistic 16:9 product photography: a close-up of a black NVIDIA Blackwell-class GPU on a dark reflective surface, cool cyan edge lighting, abstract luminous token-stream light trails streaking past the heatsink fins suggesting 8x faster generation, subtle motion blur only on the light trails. Studio softbox highlights on metal shroud. No text, no logos, no Chinese characters, no generic tech desk clutter, no masthead template.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-03",
+    "filename": "cover-20261003-ai-03.jpg",
+    "title": "NVIDIA DGX Spark 推出 64GB 统一内存版：10 月 23 日起售价 $4,999，可双机集群",
+    "style_hint": "product photo: compact DGX Spark mini workstation with twin units daisy-chained",
+    "description": "Photorealistic 16:9 hardware product shot: two compact matte-black DGX Spark-like mini AI workstations on a clean white infinity cove, short Direct Attach copper cable linking their rear ConnectX ports, soft studio lighting, one unit slightly angled toward camera showing ports and status LEDs. Premium catalog photography, sharp detail. No text overlays, no logos, no Chinese characters, no abstract shapes, no office stock.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-04",
+    "filename": "cover-20261003-ai-04.jpg",
+    "title": "Suno 推出 Speech beta：首个将语音与原创背景音乐一体生成的音频模型",
+    "style_hint": "creative audio scene: vocal booth mic with floating musical waveform ribbons",
+    "description": "Photorealistic 16:9 creative-audio cover: a vintage-modern condenser microphone in a soft-lit vocal booth, colorful translucent musical waveform ribbons and soft melody particles swirling around the mic capsule suggesting speech fused with original background music, warm wood acoustic panels, gentle rim light. Cinematic, story-specific, no readable lyrics, no logos, no Chinese text blocks, no generic laptop desk.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-05",
+    "filename": "cover-20261003-ai-05.jpg",
+    "title": "ChatGPT Finances 上线美国用户：经 Plaid/Experian 连接账户做订阅、账单与信用分析",
+    "style_hint": "fintech product UI: phone finances dashboard with cards, bills, credit chart props",
+    "description": "Semi-realistic 16:9 product lifestyle scene: a smartphone and laptop on a sunlit kitchen table showing a clean personal-finances dashboard (blurred unreadable numbers), physical credit cards, a paper bill stack, and a small pie-chart printout of subscriptions. Soft morning light, shallow depth of field on the phone screen edge. No readable text, no bank logos, no Chinese headlines, no abstract geometry, no conference room.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-06",
+    "filename": "cover-20261003-ai-06.jpg",
+    "title": "加州检察长 Bonta 向 OpenAI 发出调查传票：聚焦 AI 模型网络安全事件与风险",
+    "style_hint": "news photography: California AG subpoena envelope and cybersecurity brief on desk",
+    "description": "Documentary news photography 16:9: a serious California government office desk with a sealed manila subpoena envelope stamped INVESTIGATIVE (text barely illegible/blurred), a thick cybersecurity incident binder, and a muted monitor showing abstract red network-alert glyphs. Cool fluorescent mix with window daylight, tense but not sensational. No readable Chinese, no logos, no blood, no masthead color band, no flat single-symbol art.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-07",
+    "filename": "cover-20261003-ai-07.jpg",
+    "title": "Epoch AI：2025–27 年 HBM 出货足可支撑约 3000 万–1.7 亿并发前沿模型智能体",
+    "style_hint": "infra documentary: HBM memory wafers and dense agent-swarm metaphor server aisle",
+    "description": "Photorealistic 16:9 infrastructure documentary: extreme close-up of stacked HBM memory stacks on a silicon wafer in foreground, behind them a softly blurred data-center aisle with countless tiny glowing agent-node lights suggesting a huge concurrent agent population. Cool blue industrial lighting, shallow depth. No text, no logos, no Chinese characters, no abstract wallpaper, no generic conference room.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-08",
+    "filename": "cover-20261003-ai-08.jpg",
+    "title": "Meta：数学家用 Muse Spark 1.1/1.2 Thinking 模式协作完成六篇数学研究论文",
+    "style_hint": "math research collaboration: chalkboard proofs with Muse Spark thinking UI glow",
+    "description": "Photorealistic 16:9 academic research scene: a large chalkboard covered in elegant mathematical proofs (intentionally soft/unreadable), chalk dust in air, a tablet on a side table showing a soft purple thinking-mode chat glow (no readable UI text), open topology and probability textbooks. Warm library afternoon light. No Chinese headlines, no logos, no flat icons, no masthead bands.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-09",
+    "filename": "cover-20261003-ai-09.jpg",
+    "title": "Manus 2.0 推出 Video Editor：生成初稿后可在时间线精修画面、字幕与配乐",
+    "style_hint": "video editor workspace: timeline scrubber, subtitle track, travel clip proxies",
+    "description": "Semi-realistic 16:9 creative workspace: a dual-monitor video editing bay with a detailed multitrack timeline (blurred labels), subtitle lane, waveform audio track, and a preview window showing colorful travel footage; color-grading panel open, coffee and SD cards nearby. Cool monitor glow plus practical desk lamp. No readable Chinese text, no logos, no generic empty tech desk, no abstract geometry.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-10",
+    "filename": "cover-20261003-ai-10.jpg",
+    "title": "OpenAI 发布 GPT-6 家族实用指南：选型、提示词/技能与长任务生产化",
+    "style_hint": "developer guide scene: GPT-6 family model cards pinned above coding workstation",
+    "description": "Semi-realistic 16:9 developer workspace: a coding desk with three distinct physical model-family cards pinned on a corkboard (Astra / Sol / Luna suggested by different color tabs only, no readable brand text), terminal and IDE on screen with blurred code, sticky notes for steering and long-running tasks. Warm evening lamp plus cool screen light. No Chinese headlines, no logos, no masthead template, no flat symbols.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-11",
+    "filename": "cover-20261003-ai-11.jpg",
+    "title": "Baseten：Claude Code + Fable 5 生成的推理引擎比 vLLM 解码最高快约 90%",
+    "style_hint": "agentic optimization lab: B200 GPU bench with Claude Code terminal and speed graphs",
+    "description": "Photorealistic 16:9 engineering lab cover: an open GPU server chassis with a large B200-class accelerator under test probes, a nearby laptop running a dense Claude Code-like terminal (blurred), and a floating oscilloscope-style speed comparison graph showing a steep uplift versus a baseline curve. Cool server-room lighting with warm laptop glow. No readable text, no logos, no Chinese characters, no stock conference room.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-12",
+    "filename": "cover-20261003-ai-12.jpg",
+    "title": "OpenRouter：对比 LangChain/CrewAI 编排与 OpenRouter 原生路由的三层分工",
+    "style_hint": "systems diagram photography: three-layer routing board orchestration vs native router",
+    "description": "Semi-realistic 16:9 systems-architecture cover: a physical transparent acrylic layered board on a dark desk showing three distinct horizontal layers—workflow orchestration graph nodes on top, model-routing chips in the middle, provider-routing switches at the bottom—connected by glowing fiber-like threads. Overhead soft spotlight. No readable labels, no logos, no Chinese text, no abstract flat wallpaper.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-13",
+    "filename": "cover-20261003-ai-13.jpg",
+    "title": "Prime Intellect 发布 Prime Inference：无服务器与预留容量托管前沿开源模型，首发 GLM-5.3",
+    "style_hint": "cloud inference product: serverless endpoint rack with GLM open-model badge glow",
+    "description": "Photorealistic 16:9 cloud infrastructure product scene: a sleek half-rack of inference servers with soft teal status LEDs, a foreground holographic-looking capacity dial suggesting serverless burst plus reserved capacity, faint open-model constellation glow. Clean data-center aisle perspective. No text, no logos, no Chinese headlines, no generic conference room, no masthead bands.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-14",
+    "filename": "cover-20261003-ai-14.jpg",
+    "title": "Modal 推出 Sandbox Sidecars：同主机隔离容器，跨信任边界通信约 3× 更快",
+    "style_hint": "security sandbox: twin containers on one host with trust-boundary glass partition",
+    "description": "Semi-realistic 16:9 security engineering scene: a single metal host chassis split by a clear glass trust-boundary partition into two glowing container environments—one trusted sidecar with a key vault prop, one untrusted agent sandbox with terminal clutter—fiber link between them illuminated to suggest 3x faster cross-boundary messaging. Cool cyan/amber lighting. No readable text, no logos, no gore, no Chinese characters.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-15",
+    "filename": "cover-20261003-ai-15.jpg",
+    "title": "Google Research：基于 TEE 的下一代联邦学习，可外部验证隐私且 Gboard 已部署",
+    "style_hint": "privacy documentary: TEE enclave chip with phones federating Gboard-like training",
+    "description": "Photorealistic 16:9 privacy-tech documentary: macro of a secure enclave / TEE chip under a glass dome on a lab bench, surrounded by several smartphones with soft anonymized typing glow (no readable keys), thin encrypted light threads flowing from phones into the enclave. Cool clinical lighting. No logos, no Chinese headlines, no flat icons, no abstract geometry wallpaper.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-16",
+    "filename": "cover-20261003-ai-16.jpg",
+    "title": "Anthropic 推出 Claude Frontier Academy：投入 1 亿美元培养 1 万名企业前沿部署工程师",
+    "style_hint": "enterprise training academy: residency cohort workshop with Claude orange accents",
+    "description": "News-editorial 16:9 photography: a modern San Francisco training studio with a cohort of professionals at long tables during an intensive residency workshop, large display showing abstract architecture diagrams (blurred), warm wood and glass architecture, subtle terracotta/orange accent lighting suggesting Claude academy branding without logos or text. Documentary candid feel. No Chinese text blocks, no masthead bands, no stock empty boardroom.",
+    "status": "pending_GenerateImage"
+  },
+  {
+    "id": "ai-17",
+    "filename": "cover-20261003-ai-17.jpg",
+    "title": "Ai2 发布 Olmo-core 3：面向万亿参数 MoE 的开源训练基础设施",
+    "style_hint": "MoE training infra: expert-pool GPU mesh with trillion-scale cluster glow",
+    "description": "Photorealistic 16:9 open-source ML infra cover: a dense mesh of GPU boards arranged as an expert-pool lattice, select four nodes brightly lit among many dim ones to suggest MoE routing (4-of-128 experts), fiber backplane glowing, scale implied by receding racks toward a vanishing point. Cool violet-blue industrial light. No text, no logos, no Chinese characters, no abstract wallpaper, no conference room stock.",
+    "status": "pending_GenerateImage"
+  }
+]

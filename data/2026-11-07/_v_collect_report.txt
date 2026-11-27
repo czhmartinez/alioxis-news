@@ -1,0 +1,40 @@
+大V视野收集报告 — 2026-11-07（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-05T16:00:00Z（约覆盖 11-06 全日 + 11-07 早，Asia/Taipei），max_results=25
+- 分页：@testingcatalog 本窗 23 条且 meta 无 next_token，未翻页；其余账号无 next_token
+- 长文/截断补全：get_posts_by_ids 一批约 20 ids + 若干补充（Max Hy4/ERNIE、TC Daily Brief note_tweet、Muse Spaces/Wonder、Nace、小互流水线等）
+- 未使用浏览器；未使用 user-X（关注时间线）；用公开读取代替关注时间线
+
+原始拉取条数（exclude replies 后 API 返回）：
+- @Khazix0918：1
+- @MaxForAI：12
+- @xiaohu：7
+- @thsottiaux：8（含自回复串节点；exclude=replies 仍返回部分 conversation 续帖）
+- @testingcatalog：23
+- @gengdaJ：0
+
+入选 v.json：17 条
+各 handle 入选计数：{'@Khazix0918': 1, '@MaxForAI': 3, '@xiaohu': 3, '@testingcatalog': 8, '@thsottiaux': 2}
+- @Khazix0918：1
+- @MaxForAI：3
+- @xiaohu：3
+- @thsottiaux：2
+- @testingcatalog：8
+- @gengdaJ：0
+
+Lead：卡兹克：Agent-Autoloop 完成 Windows 兼容上线——开源数日已 3.5K Star
+URL：https://x.com/Khazix0918/status/2118682277102391312
+
+合并/跳过说明：
+- 合并：Tibo「hypersecure infrastructure」主帖 + 形式化证明自回复 → 一条（URL 用主帖）；卡兹克 Windows 帖引用其 11/4 开源长文，摘要点出关联但不重复收录旧 Article
+- 跳过梗图/气氛短帖：Max「这tm就是AI时代的科研」「我还不能死」「技术群哀鸿遍野」、大学拼 Token 短引用、Qwen4 一句「也许是今晚」（与 TC Qwen4 预告软重复，留 TC）
+- 跳过非 AI / 弱增量：小互「取悦他们」张一鸣采访引用、MacBook 触控玩法；Tibo「fluffiness」招聘串；TC Serval 招聘续帖、Surface Ultra 装机征集、Eon/METR/Omni/GPT-6 Cyber 独立快讯（后三者已进 11/6 简报或昨日 v；METR/Serval/Eon/Tibo 生图40亿/cyber 首发已在 11-06 v.json）
+- 跳过昨日已收录 URL（对照 data/2026-11-06/v.json + _prior_urls.json）；今日尚无 ai.json，未做 AI 页硬去重
+- 传闻标注：Max 文心后训练人事（公开转述）、TC 简报内模型预测与第三方转述、小互行情数字
+
+备份：_v_raw_mcp.json（元信息）、_v_raw_testingcatalog_p1.txt、_v_raw_fulltexts.json
+未生成封面、未 build、未发布。
+
+完成时间：2026-11-07 08:12:27 Asia/Taipei

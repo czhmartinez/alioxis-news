@@ -1,0 +1,2904 @@
+{
+ "date": "2026-10-25",
+ "method": "public X MCP namespace=x",
+ "start_time": "2026-10-23T20:00:00Z",
+ "exclude": "replies",
+ "users": {
+  "Khazix0918": {
+   "id": "1492195583699951620",
+   "fetched": 1,
+   "post_ids": [
+    "2113829042487267393"
+   ],
+   "meta": {
+    "newest_id": "2113829042487267393",
+    "oldest_id": "2113829042487267393",
+    "result_count": 1
+   },
+   "posts": [
+    {
+     "article": {
+      "title": "Kimi K3.1 Pro来了，国产模型审美的新巅峰。"
+     },
+     "created_at": "2026-10-24T03:04:51.000Z",
+     "edit_history_tweet_ids": [
+      "2113829042487267393"
+     ],
+     "id": "2113829042487267393",
+     "public_metrics": {
+      "bookmark_count": 21,
+      "impression_count": 17118,
+      "like_count": 60,
+      "quote_count": 2,
+      "reply_count": 31,
+      "retweet_count": 2
+     },
+     "text": "https://t.co/XGnuvrb192",
+     "url": "https://x.com/i/status/2113829042487267393"
+    }
+   ],
+   "includes": {}
+  },
+  "MaxForAI": {
+   "id": "1699797396589588480",
+   "fetched": 16,
+   "post_ids": [
+    "2114040966781042913",
+    "2114037887700484102",
+    "2114037768305430909",
+    "2113993631485092041",
+    "2113992325395546256",
+    "2113990493151674491",
+    "2113988769171018143",
+    "2113987566781514140",
+    "2113891381534138515",
+    "2113886655606411271",
+    "2113878122865311827",
+    "2113877832078438729",
+    "2113873534313447592",
+    "2113873204020490460",
+    "2113850811251827075",
+    "2113849659861213568"
+   ],
+   "meta": {
+    "newest_id": "2114040966781042913",
+    "oldest_id": "2113849659861213568",
+    "result_count": 16
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-24T17:06:58.000Z",
+     "edit_history_tweet_ids": [
+      "2114040966781042913"
+     ],
+     "id": "2114040966781042913",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2828,
+      "like_count": 9,
+      "quote_count": 1,
+      "reply_count": 7,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113972174524674247",
+       "type": "quoted"
+      }
+     ],
+     "text": "WTF，Claude Code团队什么情况，两名重要成员接连宣布离开Anthropic？？\n\n一个是 @trq212  ，Claude Code的核心开发者，也是团队里非常活跃的技术布道者。\n他在Anthropic工作了一年多，亲眼见证Claude Code发展到远超自己想象的规模。\n\n另一个是 @amorriscode  ，他创建了桌面端的Claude https://t.co/XsrE6zfYbJ",
+     "url": "https://x.com/i/status/2114040966781042913"
+    },
+    {
+     "created_at": "2026-10-24T16:54:44.000Z",
+     "edit_history_tweet_ids": [
+      "2114037887700484102"
+     ],
+     "id": "2114037887700484102",
+     "in_reply_to_user_id": "1699797396589588480",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 996,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114037768305430909",
+       "type": "replied_to"
+      }
+     ],
+     "text": "@MiniMax_AI 原文链接：https://t.co/sDyXCPXPAC",
+     "url": "https://x.com/i/status/2114037887700484102"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114037658058141696"
+      ]
+     },
+     "created_at": "2026-10-24T16:54:15.000Z",
+     "edit_history_tweet_ids": [
+      "2114037768305430909"
+     ],
+     "id": "2114037768305430909",
+     "public_metrics": {
+      "bookmark_count": 27,
+      "impression_count": 7151,
+      "like_count": 61,
+      "quote_count": 1,
+      "reply_count": 11,
+      "retweet_count": 2
+     },
+     "text": "神了，MiniMax居然成了全日本的希望🤣\n\n前两天刷到了投资界一篇叫《中国AI开始攻占日本》的文章，标题挺大的，我本来以为又是常规的出海故事。\n\n读了才发现是讲 @MiniMax_AI  的H3在日本的故事。 https://t.co/DbISY8YaoL",
+     "url": "https://x.com/i/status/2114037768305430909"
+    },
+    {
+     "created_at": "2026-10-24T13:58:52.000Z",
+     "edit_history_tweet_ids": [
+      "2113993631485092041"
+     ],
+     "id": "2113993631485092041",
+     "in_reply_to_user_id": "1699797396589588480",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3091,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113990493151674491",
+       "type": "replied_to"
+      }
+     ],
+     "text": "HTX的CT检查链接⬇️\n\nhttps://t.co/xdtUeFt6W8",
+     "url": "https://x.com/i/status/2113993631485092041"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113992316390354944"
+      ]
+     },
+     "created_at": "2026-10-24T13:53:41.000Z",
+     "edit_history_tweet_ids": [
+      "2113992325395546256"
+     ],
+     "id": "2113992325395546256",
+     "public_metrics": {
+      "bookmark_count": 91,
+      "impression_count": 81850,
+      "like_count": 463,
+      "quote_count": 5,
+      "reply_count": 55,
+      "retweet_count": 40
+     },
+     "text": "今天看到一条新闻，挺感慨的。\n\n山东聊城一个90后小伙，父亲晚上遛弯回来，突然双腿无力、吞咽困难。\n因为症状看起来不算特别严重，家里原本打算等第二天天亮了再去医院。\n\n睡觉前，他习惯性地打开豆包，输入了父亲的症状和“三高”病史，想问问明天应该挂什么科。 https://t.co/OY6zC0VkdW",
+     "url": "https://x.com/i/status/2113992325395546256"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113990474918973440"
+      ]
+     },
+     "created_at": "2026-10-24T13:46:24.000Z",
+     "edit_history_tweet_ids": [
+      "2113990493151674491"
+     ],
+     "id": "2113990493151674491",
+     "public_metrics": {
+      "bookmark_count": 39,
+      "impression_count": 28652,
+      "like_count": 97,
+      "quote_count": 3,
+      "reply_count": 15,
+      "retweet_count": 13
+     },
+     "text": "iPhone Duo大批量屏幕碎裂的原因找到了？\n\n昨天，苹果首款折叠屏iPhone Duo正式开售，结果国内外接连出现多起内屏开裂、爆线的报告。\n\n最奇怪的是，这些机器的损坏位置几乎一模一样：屏幕沿着折叠轴出现一道黑色竖线，随后向右侧延伸出一条横向亮线，形成类似L形或T形的故障痕迹。 https://t.co/UGJOkCJTNt",
+     "url": "https://x.com/i/status/2113990493151674491"
+    },
+    {
+     "created_at": "2026-10-24T13:39:33.000Z",
+     "edit_history_tweet_ids": [
+      "2113988769171018143"
+     ],
+     "id": "2113988769171018143",
+     "public_metrics": {
+      "bookmark_count": 15,
+      "impression_count": 12712,
+      "like_count": 42,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113810106177773587",
+       "type": "quoted"
+      }
+     ],
+     "text": "笑死了，AI圈可能出现了史上最抽象的一次「重大数据泄露事件」。\n\n今天， @typesafeai  的CEO @CompleteSkeptic  突然发公告，称公司发现了一起大规模未经授权的数据泄露，所有客户的Noul输出全部遭到泄露。 https://t.co/RRJ8QEIplK",
+     "url": "https://x.com/i/status/2113988769171018143"
+    },
+    {
+     "created_at": "2026-10-24T13:34:46.000Z",
+     "edit_history_tweet_ids": [
+      "2113987566781514140"
+     ],
+     "id": "2113987566781514140",
+     "public_metrics": {
+      "bookmark_count": 175,
+      "impression_count": 19234,
+      "like_count": 278,
+      "quote_count": 2,
+      "reply_count": 10,
+      "retweet_count": 51
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113811517955260525",
+       "type": "quoted"
+      }
+     ],
+     "text": "塔勒布这段话骂得真狠。\n\n他说，问题根本不在于AI有没有智能，而在于太多成年人活得像机器，机械、模仿、缺乏想象力、公式化、容易受影响，还傲慢得超出自己的能力范围。\n最讽刺的是，维护成本还特别高。\n\n我觉得他说得太对了。 https://t.co/QVDgpQ0jpl",
+     "url": "https://x.com/i/status/2113987566781514140"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113891370196996096"
+      ]
+     },
+     "created_at": "2026-10-24T07:12:34.000Z",
+     "edit_history_tweet_ids": [
+      "2113891381534138515"
+     ],
+     "id": "2113891381534138515",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 6340,
+      "like_count": 28,
+      "quote_count": 0,
+      "reply_count": 8,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113848923945304528",
+       "type": "quoted"
+      }
+     ],
+     "text": "神了，Thariq离职之后立刻就开始质疑前同事Opus5.5是不是变笨了🤣\n\n我的体感是变笨了 https://t.co/DcL25XVk0J https://t.co/D4Yode2rTo",
+     "url": "https://x.com/i/status/2113891381534138515"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113886546285969408"
+      ]
+     },
+     "created_at": "2026-10-24T06:53:47.000Z",
+     "edit_history_tweet_ids": [
+      "2113886655606411271"
+     ],
+     "id": "2113886655606411271",
+     "public_metrics": {
+      "bookmark_count": 1684,
+      "impression_count": 1327329,
+      "like_count": 11236,
+      "quote_count": 57,
+      "reply_count": 406,
+      "retweet_count": 184
+     },
+     "text": "果然，中国人最恨的模型是Claude！ https://t.co/iXeSun7Txi",
+     "url": "https://x.com/i/status/2113886655606411271"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113877930917134336"
+      ]
+     },
+     "created_at": "2026-10-24T06:19:53.000Z",
+     "edit_history_tweet_ids": [
+      "2113878122865311827"
+     ],
+     "id": "2113878122865311827",
+     "in_reply_to_user_id": "1699797396589588480",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 4105,
+      "like_count": 12,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113877832078438729",
+       "type": "replied_to"
+      }
+     ],
+     "text": "原帖是小红书的博主\n\n现在算法群正在激烈讨论大肥鱼这样是因为后训练的时候没有做nsfw过滤还是search接入贴吧做few shot学坏了（我倾向于few shot学坏了） https://t.co/uWgS6lVpL9",
+     "url": "https://x.com/i/status/2113878122865311827"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113877684459917312",
+       "3_2113877684413673473",
+       "3_2113877684409585664"
+      ]
+     },
+     "created_at": "2026-10-24T06:18:43.000Z",
+     "edit_history_tweet_ids": [
+      "2113877832078438729"
+     ],
+     "id": "2113877832078438729",
+     "public_metrics": {
+      "bookmark_count": 31,
+      "impression_count": 35576,
+      "like_count": 116,
+      "quote_count": 1,
+      "reply_count": 15,
+      "retweet_count": 5
+     },
+     "text": "不要给你的DeepSeek上贴吧的权限🤣 https://t.co/4EnQfJ1WzP",
+     "url": "https://x.com/i/status/2113877832078438729"
+    },
+    {
+     "created_at": "2026-10-24T06:01:39.000Z",
+     "edit_history_tweet_ids": [
+      "2113873534313447592"
+     ],
+     "id": "2113873534313447592",
+     "in_reply_to_user_id": "1699797396589588480",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2030,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113622667584757989",
+       "type": "quoted"
+      },
+      {
+       "id": "2113673243848831003",
+       "type": "replied_to"
+      }
+     ],
+     "text": "原帖\n\nhttps://t.co/TN1nnY65wW",
+     "url": "https://x.com/i/status/2113873534313447592"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113873191215288320"
+      ]
+     },
+     "created_at": "2026-10-24T06:00:20.000Z",
+     "edit_history_tweet_ids": [
+      "2113873204020490460"
+     ],
+     "id": "2113873204020490460",
+     "public_metrics": {
+      "bookmark_count": 5,
+      "impression_count": 11407,
+      "like_count": 43,
+      "quote_count": 2,
+      "reply_count": 10,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113785350921580830",
+       "type": "quoted"
+      }
+     ],
+     "text": "草，居然是推友原创的吗。。。  \n昨天算法群看到的  \n非常抱歉😭 https://t.co/eKj0i0QwuU https://t.co/He8vdD2cT9",
+     "url": "https://x.com/i/status/2113873204020490460"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113850800795701248"
+      ]
+     },
+     "created_at": "2026-10-24T04:31:21.000Z",
+     "edit_history_tweet_ids": [
+      "2113850811251827075"
+     ],
+     "id": "2113850811251827075",
+     "public_metrics": {
+      "bookmark_count": 66,
+      "impression_count": 10445,
+      "like_count": 113,
+      "quote_count": 2,
+      "reply_count": 14,
+      "retweet_count": 14
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113769988813144118",
+       "type": "quoted"
+      }
+     ],
+     "text": "卧槽？？763B参数的DeepSeek，居然已经能在12GB显存的消费级显卡上本地运行了。\n\n奥地利ISTA的DASLab团队发布了DeepSeek-V4.1-Flash-1017的GSQ-RCO量化版本，最低压缩到1.75bit，2bit版本在AIME25、GPQA-Diamond和LiveCodeBench v6三项测试中，甚至取得了和原始模型完全一致的成绩。 https://t.co/XcswwQtybP https://t.co/oUQIiwJA59",
+     "url": "https://x.com/i/status/2113850811251827075"
+    },
+    {
+     "created_at": "2026-10-24T04:26:46.000Z",
+     "edit_history_tweet_ids": [
+      "2113849659861213568"
+     ],
+     "id": "2113849659861213568",
+     "public_metrics": {
+      "bookmark_count": 164,
+      "impression_count": 104309,
+      "like_count": 543,
+      "quote_count": 5,
+      "reply_count": 40,
+      "retweet_count": 36
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113844051938054167",
+       "type": "quoted"
+      }
+     ],
+     "text": "传言是真的……Anthropic唯一拟人的员工，真的离开Anthropic了。\n\nClaude Code核心开发者Thariq（@trq212）刚刚宣布，自己已经从Anthropic离职。\n\n他在Anthropic工作了一年多，亲眼见证了Claude Code以超出自己想象的速度增长。接下来准备休息一段时间，再去做点新的事情。 https://t.co/GK7s44sLrU",
+     "url": "https://x.com/i/status/2113849659861213568"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2114037658058141696",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVaSDKJasAAJRQr.jpg"
+     },
+     {
+      "media_key": "3_2113992316390354944",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVZoz7RaMAAT6D1.jpg"
+     },
+     {
+      "media_key": "3_2113990474918973440",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVZnIvQa0AA6SlR.jpg"
+     },
+     {
+      "media_key": "3_2113891370196996096",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVYNAFZbEAAc6nq.jpg"
+     },
+     {
+      "media_key": "3_2113886546285969408",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVYInS7aQAAdBeX.jpg"
+     },
+     {
+      "media_key": "3_2113877930917134336",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVYAx0LagAAE4zu.jpg"
+     },
+     {
+      "media_key": "3_2113877684459917312",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVYAjeDb0AASwzX.jpg"
+     },
+     {
+      "media_key": "3_2113877684413673473",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVYAjd4aMAEVQgO.jpg"
+     },
+     {
+      "media_key": "3_2113877684409585664",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVYAjd3b0AAVMe5.jpg"
+     },
+     {
+      "media_key": "3_2113873191215288320",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVX8d7ab0AAWyxT.jpg"
+     },
+     {
+      "media_key": "3_2113850800795701248",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVXoGomaUAAoDRg.jpg"
+     }
+    ]
+   }
+  },
+  "xiaohu": {
+   "id": "1764818331822182400",
+   "fetched": 2,
+   "post_ids": [
+    "2114033765802717515",
+    "2113861921040740839"
+   ],
+   "meta": {
+    "newest_id": "2114033765802717515",
+    "oldest_id": "2113861921040740839",
+    "result_count": 2
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-24T16:38:21.000Z",
+     "edit_history_tweet_ids": [
+      "2114033765802717515"
+     ],
+     "id": "2114033765802717515",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 237,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 250
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114001582719369281",
+       "type": "retweeted"
+      }
+     ],
+     "text": "RT @alexmashrabov: @jensenhuang and NVIDIA just invested in Higgsfield\n\nWe turn competition at the foundation layer into compounding advant…",
+     "url": "https://x.com/i/status/2114033765802717515"
+    },
+    {
+     "created_at": "2026-10-24T05:15:30.000Z",
+     "edit_history_tweet_ids": [
+      "2113861921040740839"
+     ],
+     "id": "2113861921040740839",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 41356,
+      "like_count": 129,
+      "quote_count": 4,
+      "reply_count": 113,
+      "retweet_count": 0
+     },
+     "text": "Codex 又削减了额度\n\n我就搞了几篇文章100%的额度没了\n\n妈蛋",
+     "url": "https://x.com/i/status/2113861921040740839"
+    }
+   ],
+   "includes": {}
+  },
+  "thsottiaux": {
+   "id": "1953337039510003712",
+   "fetched": 5,
+   "post_ids": [
+    "2114074885622501706",
+    "2114030784625647855",
+    "2113838156193894447",
+    "2113770862860222611",
+    "2113770573994299544"
+   ],
+   "meta": {
+    "newest_id": "2114074885622501706",
+    "oldest_id": "2113770573994299544",
+    "result_count": 5
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-24T19:21:45.000Z",
+     "edit_history_tweet_ids": [
+      "2114074885622501706"
+     ],
+     "id": "2114074885622501706",
+     "public_metrics": {
+      "bookmark_count": 408,
+      "impression_count": 463472,
+      "like_count": 4586,
+      "quote_count": 103,
+      "reply_count": 1279,
+      "retweet_count": 110
+     },
+     "text": "DM if you want to help scale dots to 1B users and have done similar things in the past",
+     "url": "https://x.com/i/status/2114074885622501706"
+    },
+    {
+     "created_at": "2026-10-24T16:26:30.000Z",
+     "edit_history_tweet_ids": [
+      "2114030784625647855"
+     ],
+     "id": "2114030784625647855",
+     "public_metrics": {
+      "bookmark_count": 193,
+      "impression_count": 528407,
+      "like_count": 4503,
+      "quote_count": 61,
+      "reply_count": 1008,
+      "retweet_count": 70
+     },
+     "text": "Saturday is for fixing bugs while sipping coffee. What are some great places to hangout in SF?",
+     "url": "https://x.com/i/status/2114030784625647855"
+    },
+    {
+     "created_at": "2026-10-24T03:41:04.000Z",
+     "edit_history_tweet_ids": [
+      "2113838156193894447"
+     ],
+     "id": "2113838156193894447",
+     "public_metrics": {
+      "bookmark_count": 754,
+      "impression_count": 941327,
+      "like_count": 9621,
+      "quote_count": 245,
+      "reply_count": 1235,
+      "retweet_count": 413
+     },
+     "text": "The difference between having a tool and being a tool is subtle these days and it’s easy to accidentally build yourself into being a tool. Don’t be a tool.",
+     "url": "https://x.com/i/status/2113838156193894447"
+    },
+    {
+     "created_at": "2026-10-23T23:13:40.000Z",
+     "edit_history_tweet_ids": [
+      "2113770862860222611"
+     ],
+     "id": "2113770862860222611",
+     "in_reply_to_user_id": "1953337039510003712",
+     "public_metrics": {
+      "bookmark_count": 69,
+      "impression_count": 499747,
+      "like_count": 1703,
+      "quote_count": 27,
+      "reply_count": 215,
+      "retweet_count": 30
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113770573994299544",
+       "type": "replied_to"
+      }
+     ],
+     "text": "On codex cli updates. We've added reusable prompt presets, inline model and permission settings, and enterprise MCP sign-in. We've also fixed failures when resuming long sessions and added Windows corporate-proxy authentication.\n\nSurprisingly the CLI has grown 2X in usage since",
+     "url": "https://x.com/i/status/2113770862860222611"
+    },
+    {
+     "created_at": "2026-10-23T23:12:31.000Z",
+     "edit_history_tweet_ids": [
+      "2113770573994299544"
+     ],
+     "id": "2113770573994299544",
+     "public_metrics": {
+      "bookmark_count": 309,
+      "impression_count": 1146744,
+      "like_count": 8023,
+      "quote_count": 274,
+      "reply_count": 1220,
+      "retweet_count": 219
+     },
+     "text": "Day 19/ Small updates. Calls connect much faster for dots, changing reasoning in codex &amp; work mid conversation does not invalidate cache anymore and a we've also updated the codex cli.",
+     "url": "https://x.com/i/status/2113770573994299544"
+    }
+   ],
+   "includes": {}
+  },
+  "testingcatalog": {
+   "id": "3980735590",
+   "fetched": 8,
+   "post_ids": [
+    "2114092099541074101",
+    "2113933478056087821",
+    "2113903077992337472",
+    "2113766526545232108",
+    "2113752209217474575",
+    "2113748445014188053",
+    "2113748441608106460",
+    "2113733041788965215"
+   ],
+   "meta": {
+    "newest_id": "2114092099541074101",
+    "oldest_id": "2113733041788965215",
+    "result_count": 8
+   },
+   "posts": [
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114089660095889409"
+      ]
+     },
+     "created_at": "2026-10-24T20:30:09.000Z",
+     "edit_history_tweet_ids": [
+      "2114092099541074101"
+     ],
+     "id": "2114092099541074101",
+     "public_metrics": {
+      "bookmark_count": 26,
+      "impression_count": 11851,
+      "like_count": 179,
+      "quote_count": 4,
+      "reply_count": 35,
+      "retweet_count": 5
+     },
+     "text": "Interestingly, Google seems to be shifting its internal naming from \"AI\" to \"SI\" as well. \n\n&gt; \"build_arena_andwise_si_comparison\" is an internal string related to model comparison. \n\nWill this spread even further?\n\n- ✅ SpaceXSI\n- ✅ MSL\n- ✅ SSI\n\n- 👀 MAI &gt; MSI?\n- 👀 OpenAI &gt; https://t.co/NYgsFpW8WB",
+     "url": "https://x.com/i/status/2114092099541074101"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113933473161334784",
+       "3_2113933473232646144"
+      ]
+     },
+     "created_at": "2026-10-24T09:59:50.000Z",
+     "edit_history_tweet_ids": [
+      "2113933478056087821"
+     ],
+     "id": "2113933478056087821",
+     "public_metrics": {
+      "bookmark_count": 57,
+      "impression_count": 14992,
+      "like_count": 175,
+      "quote_count": 4,
+      "reply_count": 46,
+      "retweet_count": 6
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113400672238616800",
+       "type": "quoted"
+      }
+     ],
+     "text": "ICYMI 👀: Perplexity released its pplx-decider-flash-v1.2 decision model as Mac application that serves decision API locally. \n\nThe model takes 5.8 GB of a space and requires 16 GB of memory. \n\n100% True 🤖 https://t.co/Tkxcx6Uefk https://t.co/pIZibjTNxZ",
+     "url": "https://x.com/i/status/2113933478056087821"
+    },
+    {
+     "created_at": "2026-10-24T07:59:02.000Z",
+     "edit_history_tweet_ids": [
+      "2113903077992337472"
+     ],
+     "id": "2113903077992337472",
+     "public_metrics": {
+      "bookmark_count": 15,
+      "impression_count": 12326,
+      "like_count": 132,
+      "quote_count": 2,
+      "reply_count": 41,
+      "retweet_count": 10
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113539708181450875",
+       "type": "quoted"
+      }
+     ],
+     "text": "DAILY AI BRIEF 🗞 — Oct 24\n\nMOONSHOT 🔥:\n- Kimi K3.1 Pro launched as a 2.8T-parameter MoE model (104B active) with 1M context, live now on Kimi web, mobile, and API, with open weights due November 4.\n- Kimi K3.1 Pro debuted 4th on the Artificial Analysis Intelligence Index with a https://t.co/mmIkRZpDBI",
+     "url": "https://x.com/i/status/2113903077992337472"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2113766445226094592"
+      ]
+     },
+     "created_at": "2026-10-23T22:56:26.000Z",
+     "edit_history_tweet_ids": [
+      "2113766526545232108"
+     ],
+     "id": "2113766526545232108",
+     "public_metrics": {
+      "bookmark_count": 347,
+      "impression_count": 61575,
+      "like_count": 836,
+      "quote_count": 16,
+      "reply_count": 51,
+      "retweet_count": 59
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113697902916751661",
+       "type": "quoted"
+      }
+     ],
+     "text": "Jack Dorsey announced a new full-duplex speech model, called Dessa. \n\nDessa was trained solely on voice conversations, with no text data or pretrained models. \n\nCurrently, only demo samples are available, but they far surpass anything else in emotional expression and natural https://t.co/WnELO6PYIA https://t.co/XNgClVAYpd",
+     "url": "https://x.com/i/status/2113766526545232108"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2113716259032592384"
+      ]
+     },
+     "created_at": "2026-10-23T21:59:32.000Z",
+     "edit_history_tweet_ids": [
+      "2113752209217474575"
+     ],
+     "id": "2113752209217474575",
+     "public_metrics": {
+      "bookmark_count": 26,
+      "impression_count": 13494,
+      "like_count": 206,
+      "quote_count": 4,
+      "reply_count": 23,
+      "retweet_count": 14
+     },
+     "text": "SPACEXSI 🔥: Grok Bot now has its own Vault for storing logins, contacts and credit card info. \n\nSaved info can be found in a new Vault tab in settings. The feature is rolling out on mobile and desktop apps. \n\nGrok Bot is slowly getting new superpowers!  https://t.co/VB9qEK3IKO",
+     "url": "https://x.com/i/status/2113752209217474575"
+    },
+    {
+     "created_at": "2026-10-23T21:44:35.000Z",
+     "edit_history_tweet_ids": [
+      "2113748445014188053"
+     ],
+     "id": "2113748445014188053",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2613,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113748441608106460",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Banyan Sapling is a research preview open model from Mubit that tells you whether the context supports a claim, violates it, is missing information, or contradicts it, with calibrated probabilities.\n\nIt is available under the Apache 2.0 license, and in Mubit's evaluation, Banyan",
+     "url": "https://x.com/i/status/2113748445014188053"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113748412877168640"
+      ]
+     },
+     "created_at": "2026-10-23T21:44:34.000Z",
+     "edit_history_tweet_ids": [
+      "2113748441608106460"
+     ],
+     "id": "2113748441608106460",
+     "public_metrics": {
+      "bookmark_count": 13,
+      "impression_count": 7444,
+      "like_count": 50,
+      "quote_count": 0,
+      "reply_count": 15,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113651823131132155",
+       "type": "quoted"
+      }
+     ],
+     "text": "Mubit has launched a platform that lets teams train their own AI models for repetitive tasks, along with an open model and a new benchmark.\n\nMubit acts as a proxy base URL in front of OpenAI, Anthropic, or Gemini APIs and trains a small model based on agent tasks. The new model https://t.co/MEf1rujih2 https://t.co/WdYtzntezU",
+     "url": "https://x.com/i/status/2113748441608106460"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2113733035141046272",
+       "3_2113733035124293632"
+      ]
+     },
+     "created_at": "2026-10-23T20:43:23.000Z",
+     "edit_history_tweet_ids": [
+      "2113733041788965215"
+     ],
+     "id": "2113733041788965215",
+     "public_metrics": {
+      "bookmark_count": 30,
+      "impression_count": 23769,
+      "like_count": 414,
+      "quote_count": 2,
+      "reply_count": 20,
+      "retweet_count": 20
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113718797505036665",
+       "type": "quoted"
+      }
+     ],
+     "text": "OPENAI 🔥: Frontier AI training was already resumed on October 1st, according to the latest statement from OpenAI. \n\n&gt; Additionally, a substantial amount of compute will be consistently allocated to red teaming.\n\nThis is a very important part as the cost of aligned frontier AI https://t.co/r6EhwF3MMN https://t.co/aqhm8mKbpH",
+     "url": "https://x.com/i/status/2113733041788965215"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2114089660095889409",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVbBWE1XgAEufma.png"
+     },
+     {
+      "media_key": "3_2113933473161334784",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVYzSzKW0AAlSX4.jpg"
+     },
+     {
+      "media_key": "3_2113933473232646144",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVYzSzbW8AAFalK.jpg"
+     },
+     {
+      "media_key": "13_2113766445226094592",
+      "type": "video"
+     },
+     {
+      "media_key": "13_2113716259032592384",
+      "type": "video"
+     },
+     {
+      "media_key": "3_2113748412877168640",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVWK-34W4AAFhgm.jpg"
+     },
+     {
+      "media_key": "3_2113733035141046272",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVV8_xWXIAALn7y.jpg"
+     },
+     {
+      "media_key": "3_2113733035124293632",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVV8_xSXgAAOnZS.jpg"
+     }
+    ]
+   }
+  },
+  "gengdaJ": {
+   "id": "1897545708770840576",
+   "fetched": 2,
+   "post_ids": [
+    "2114010358705009123",
+    "2114004476319486197"
+   ],
+   "meta": {
+    "newest_id": "2114010358705009123",
+    "oldest_id": "2114004476319486197",
+    "result_count": 2
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-24T15:05:20.000Z",
+     "edit_history_tweet_ids": [
+      "2114010358705009123"
+     ],
+     "id": "2114010358705009123",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 113,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 14
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114001504088768799",
+       "type": "retweeted"
+      }
+     ],
+     "text": "RT @ElevenCreative: Getting a character’s voice and delivery right, then syncing it to AI video, used to mean endless regenerations and wor…",
+     "url": "https://x.com/i/status/2114010358705009123"
+    },
+    {
+     "created_at": "2026-10-24T14:41:58.000Z",
+     "edit_history_tweet_ids": [
+      "2114004476319486197"
+     ],
+     "id": "2114004476319486197",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 98,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 312
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113996828379336979",
+       "type": "retweeted"
+      }
+     ],
+     "text": "RT @higgsfield: Jensen Huang: “… the founders of Higgsfield are visionary in the work that they do … but these are some of the brightest pe…",
+     "url": "https://x.com/i/status/2114004476319486197"
+    }
+   ],
+   "includes": {}
+  }
+ },
+ "longform_enriched_ids": [
+  "2113829042487267393",
+  "2114040966781042913",
+  "2114037768305430909",
+  "2113992325395546256",
+  "2113988769171018143",
+  "2113987566781514140",
+  "2113891381534138515",
+  "2113886655606411271",
+  "2113877832078438729",
+  "2113878122865311827",
+  "2113850811251827075",
+  "2113849659861213568",
+  "2113873204020490460",
+  "2114092099541074101",
+  "2113933478056087821",
+  "2113861921040740839",
+  "2113972174524674247",
+  "2113844051938054167",
+  "2113769988813144118",
+  "2113810106177773587",
+  "2113811517955260525",
+  "2113848923945304528",
+  "2113400672238616800",
+  "2113785350921580830",
+  "2114001582719369281",
+  "2113990493151674491"
+ ],
+ "longform_enriched": [
+  {
+   "article": {
+    "cover_media": "3_2113829028180414464",
+    "entities": {
+     "posts": [
+      {
+       "id": "2113681863109939271"
+      },
+      {
+       "id": "2113680701770068067"
+      }
+     ]
+    },
+    "media_entities": [
+     "13_2113828366520602624",
+     "16_2113826050883072000",
+     "3_2113826104943538176",
+     "3_2113824098099036161",
+     "16_2113827443702439936",
+     "3_2113824059687632896",
+     "3_2113824164524253184",
+     "13_2113827738943721472",
+     "3_2113824153229021184",
+     "3_2113826091727286272",
+     "13_2113827539915583488",
+     "3_2113824176712900608",
+     "3_2113826098220068864",
+     "3_2113824111202119681",
+     "3_2113826073645645824",
+     "13_2113827634136403968",
+     "13_2113828603201007616",
+     "13_2113828167211507712",
+     "3_2113824139937251328",
+     "3_2113826083426734080",
+     "13_2113828484808318976",
+     "13_2113827818484461568",
+     "3_2113826111604051968",
+     "13_2113828060252590080",
+     "13_2113827925380513792"
+    ],
+    "plain_text": "今天凌晨，Kimi终于发布了自家最新的模型，Kimi K3.1 Pro。\n \n和之前一样，昨天一早Kimi就发了个视频剧透。\n \n终于，时隔3个多月，Kimi带来了他们最新的旗舰模型。\n没想到的是，这段时间一直苦等的Fable 5.5还没上，Kimi就先来了。。。\nK3.1 Pro这次的参数规模和K3一样到了3万亿级，具体为2.8T，并且同样支持100万Token上下文。\n相比于K3，这次多了一个Pro的后缀，从这个推理的话，那我觉得后面可能还会有一个K3.1 Flash会放出来，做一下模型的全链路布局。\n同时，这一次的K3.1 Pro依旧开源，完整模型权重预计会在11月4日前开放。\n \n坦率的讲，其实这段时间，国产大模型的存在感确实没有之前那么强了。\n海外模型一个接一个往外发，GPT-6 Astra、6.1 Sol、Grok 4.7、Claude Opus 5.5，Sonnet 5.5，Haiku 5.5。。。\n太多太多了。\n这次，终于到Kimi交卷了，并且是以旗舰模型之姿，而非性价比的调性，硬扛海外。\n先简单看一下基础信息。\nK3.1 Pro的API定价，输入每百万Token 13元，输出68元，缓存命中输入1.3元，依然是旗舰模型的定价，但相比于K3，基本都直接砍半了。\n \n如果我们用GPT-6 Astra对比，按两家的美元标准API定价，K3.1 Pro的输入和输出价格，都只是Astra的五分之一，比Claude Opus 5.5便宜一些，因为缓存命中价格是一样的，但常规输入和输出正好是一半。\n另外，这次Kimi还同步推出了一个Highspeed高速版本，智能水平相同，官方给出的输出速度大约是标准版的2到3倍，价格翻倍。\n跑分方面，这是官方的版本。\n \n整体上看，基本上就是仅次于Claude Opus 5.5和GPT-Astra。\n在Terminal-Bench 4.0这项测试真实终端编程任务的基准中，K3.1 Pro拿到了65.7%，超过GPT-6 Astra的58.2%，距离Claude Opus 5.5的66.4%也只差了一点点。\n \n在测试3D空间重建和CAD代码生成能力的BenchCAD上，K3.1 Pro拿到了92.7%，而GPT-6 Astra是95.9%，Opus 5.5是96.2%。\n \n并且在严肃办公领域，我们看分数的话，增长巨大，在OfficeQA Pro v2上，甚至拿到了SOTA。\n \n在Kimi自己的一个关于幻觉率评估上，从K3的23.4%降到了8.3%，直接降低了65%，仅次于GPT-6 Astra了，众所周知，GPT系列在幻觉控制上，一直都是变态级别的，所以在科研领域，很多时候都是一骑绝尘。\n如果我们再去看第三方AA的分数的话，基本也是差不多，甚至还超越了GPT-6-Astra。\n \n确实非常非常强，属实是国模之光了。\n他们自己也放了几个好玩的case，来展示他们的视觉和审美。\n \n \n所以，这次我也自己通宵跑了不少测试，主要集中在视觉方向，以3D和视频动效为主。\n先说说我的整体感受吧。\nK3.1 Pro这次最让我惊喜的，还是它的3D能力。\n在我测试体感上，虽然整体还是稍逊一点点（真的就是一点点）GPT-6 Astra，但在绝大多数任务中，已经能和GPT-6 Astra不相上下了。\n视频动效方面，相比于其他过去所有的国产模型，真的提升都是巨大的，已经能够做一些惊艳的视频出来，但在这块，距离Opus 5.5还会有一些差距，但如今防蒸馏这么严格，Kimi基本是纯粹靠自己做出来的，能做到这个程度，已经极其钦佩了。\n给大家看看我们一些测下来比较好玩的case。\n先看3D方面。\n比如GPT-6发布之后网上开始火起来的，在网页里生成一块有弹性、符合果冻质感，还能实时产生物理反馈的3D果冻。\n现在K3.1 Pro一轮直出也能实现非常不错的效果。\n \n而下面这个是GPT-6 Astra做的：\n \n这种重物理交互的任务，单看这两个结果，都实现得非常不错。\n所以，我又加了点难度。\n让它搓了一个高精度的机械键盘。\n用的下面这段提示词。\n创建一个 Web 3D 项目，展示一把精细度极高的机械键盘，以同一型号与配置为基准，专业且精细还原出键帽的曲面、字符与颗粒纹理、外壳倒角、金属加工质感及零件装配细节，并且体现出塑料、金属、透明轴壳、PCB 与吸音材料等不同材质，要求可以自由切换明亮／暗光（开启背光）模式、材质／白模／X-ray／爆炸视图、以二维平面呈现的俯视图／正视图／左视图，支持微距观察、按键下压与回弹，可以隐藏及单独探索指定部件，并且尽可能还原内部结构，特别是键帽底部、轴体外壳、轴心、弹簧与金属触点、大键稳定器及其联动关系以及定位板、PCB、吸音层与外壳之间的装配结构。\n要求能展示出键帽、轴体、定位板、PCB、外壳等各种零件结构，还要能切换白模、X-ray透视、爆炸视图，以及不同方向的视图。\n这次我们先来看看GPT-6 Astra做出来的效果：\n \n再看K3.1 Pro做的。\n \n大家可以感受一下。\n对比起来虽然整体准确性方面会稍逊GPT-6 Astra一点，但K3.1 Pro搓出来的键盘精度已经完全达到GPT-6 Astra同样的级别。\n除了物体的3D建模，GPT-6-Astra很强的一点，就是他们的空间理解能力，所以我也测了测。\n我找了一张户型图，还有一张我想要参考的室内装饰风格图：\n \n然后让K3.1 Pro用Three.js做成一个能在浏览器里以第一视角漫游的网站。\n一张是户型平面图，一张是我想要的装修风格效果图，请用 Three.js 把它做成一个可以在浏览器里以第一视角漫游的网站，按平面图还原实际比例，让每个房间、每一处装修细节和每一件家具都与照片一致。验收标准就是这些实拍照片本身。把房子拆成可以独立评估的部分，为每一部分安排一个负责搭建的 Agent，以及一个使用全新上下文、独立评审的 Agent。评审 Agent 要把我们做出的房间截图与对应的实拍照片进行比较，选出更好的一张，指出最大的差距，再把反馈交回搭建 Agent 修改。持续重复这个过程，直到我们的版本胜出，或者我叫停。最后告诉我，还有哪些地方没能还原。\n这类任务对模型的要求就更综合了，除了前端的3D建模，还有对于视觉和空间的理解。\n因为平面图只能告诉它空间怎么分，效果图展示出装修大概长什么样，它要完全根据这两张二维的图搓出一个可以在里面漫游的三维场景。\n下面是Kimi最终搓出来的效果：\n \n你可以直接用第一视角，在整个房子里面走来走去。\n右上角还有一个小地图，能够实时显示当前所在的位置。\n并且除了对参考图的装修风格和元素还原得不错外，还有一个让我挺惊喜的点：\n就是我所提供的装修参考图并不对应户型图中的任意位置，所以在建筑骨架上两者肯定会有所不同，比如户型图中的会客厅并不宽敞，并且一侧还衔接有一个小阳台，中间是有墙壁间隔开的，但装修图中的电视背景墙，明显就要长得多。\n \n但K3.1 Pro现在可以做到非常准确地参考两者必要的元素：\n取装修图的风格，取户型图的布局，强到离谱。\n最后我还拿我们的公司布局试了一下。\n正好最近公司搬了新家，我就顺便把公司的平面布局也丢给了Kimi，让它给公司建个模。\n \n但这里有个小问题。\n搬进来以后，我们又陆陆续续添了不少东西，沙发休息区、吃饭休闲区、绿植，等等等等。\n所以，实际的摆放和这张平面图，已经有一些差异了。\n为了更加还原，我就又拿手机随手一边唠嗑一边拍了个视频，丢给了它。\n \n我很好奇，虽然是同一个办公室，底图给出了基本布局，K3.1 Pro能不能把底图和我随手拍的视频对上。\n说实话，我把视频丢给它的时候，是真的没报什么希望的，但最后做出来的效果比我预期的好很多。\n \n整个办公室的空间分布，包括桌椅的摆放、休息区的位置，基本都对了。\n一些原来平面图里没有、后来才添置的东西，像懒人沙发、绿植等等，也能根据后面提供的手持拍摄视频理解还原。\n在整个3D层面上，几乎就是可以跟GPT-6-Astra完全正面掰掰手腕的。\n除了3D之外，那还有一个大家可能最关心的，就是K3.1 Pro做动效和视频的能力。\n毕竟，Opus 5.5发布之后，网上拿它做的各种视频铺天盖地的火，而且这玩意太吃Coding和审美了。\n所以这次Kimi更新，我也很好奇，它在这方面上能做到什么程度。\n我先拿K3.1 Pro随手搓了一个动效，用的下面的提示词。\n打造一支16:9横版的动态图形作品集开场片，水准要像一位顶尖动态设计师的代表作。片中集中展现多项高阶技法：动态排版、丝滑转场、2D与3D动画结合、抽象几何构成、流体模拟、粒子系统、扭曲形变、创意遮罩、多层合成、光影塑造、空间纵深以及连贯的镜头运动。整体节奏紧凑、利落、充满自信，画面之间环环相扣、自然过渡，不断制造视觉惊喜。要有统一而清晰的艺术指导，色彩、风格和运动语言高度一致，杜绝特效的简单堆砌。在创意构思、细节打磨、节奏控制与视觉冲击力上都追求极致，让人看完就想立刻录用这位设计师。\n这是一轮直出的效果。\n \n这个程度，非常客观的讲，跟Opus 5.5肯定还存在一些差距，但是那毕竟是Opus 5.5，那玩意的惊艳程度是一骑绝尘的，所以也已经相当让人惊艳了。\n各个画面之间通过橘色的点元素进行串联过渡，看起来就比较连贯，不是那种各种特效乱飞的大杂烩。\n然后我把我的AIHOT网址丢给它，让它简单做个宣传片。\n \n说实话，这个还是超出了一些我的预期的，各种动效，还有配音，也能都做出来。\n精致程度上有些细节问题，你真要拿来当正式宣传片，还需要接着迭代，但一轮直出能有这个效果，我觉得已经超级棒了。\n接着，还有像因为Opus 5.5点横空出世而各种爆火的科普动效视频。\n现在也能一句话，让K3.1 Pro做了。\n比如我直接极其朴素的口喷了一句：\n做一个手绘风格的科普视频，讲解一下打印机的工作原理。\n然后就跑出了这样的视频效果：\n⚠️⚠️⚠️22\n如果你需要更系统更专业的讲解，那也可以稍微改一下需求。\n比如我让它，做一个究极详细专业的科普视频，面向我这样的小白，讲解一下信息论。\n然后你就能得到一个近半小时的讲解视频。\n⚠️⚠️⚠️23\n真的就是将近半个小时，太夸张了。。。\n这都快成一节课了。\n当然，具体的讲解是否准确肯定还是需要人工去核对的。\n但光是从一句朴素的要求，直接就能做到近半小时的成片，这个完成度已经相当牛逼了。\n整体测下来，在3D能力、视频动效上K3.1 Pro的表现还是让我很惊喜的。\n现在，Kimi网页版、App、Kimi Work和Kimi Code都已经能用上K3.1 Pro。\n强烈建议大家上手试试，这是国产模型，在真正意义的旗舰层面上，真正的一次公平竞争了。\n \n就是Kimi以前的套餐额度，大家懂的都懂，我就不多吐槽了，毕竟也没办法，国产都缺卡。。\n这次他们配合着K3.1 Pro上线，把套餐名也全都改了，现在也是Plus、Pro、Max、Ultra啥的了，基本是跟海外价格对齐，便宜一点点。\n \n所以大家如果真的是用量比较大的话，还是买Max或者Ultra吧，基本对标海外的100刀和200刀，然后慎用那个high-speed快速模型。\n不过这是国产几乎唯一能对标Claude Opus 5.5和GPT-6 Astra的旗舰模型了，放心用，有的时候才是最重要的。\n最后，想分享Kimi这次官宣K3.1 Pro时，引用的阿瑟·C·克拉克在《未来的轮廓》里的一句话。\nThe only way of discovering the limits of the possible is to venture a little way past them into the impossible.\n发现「可能」之极限的唯一方法，是向「不可能」的方向多走一小步。\n当Claude疯狂封号，GPT疯狂降智砍额度，我们无比需要，我也无比高兴看到，有个国模能够出来和国外的顶级模型掰掰手腕。\n而且价格还便宜那么多。\n去找未来的轮廓，去探寻可能之极限的唯一办法，就是朝不可能的方向多走一小步。\n愿我们永远保持好奇。\n永远有勇气，朝不可能的方向多走。\n哪怕只是一小步。\n感谢Kimi。\n以上，既然看到这里了，如果觉得不错，随手点个赞、评论、转发三连吧，这对我们有特别大的帮助~\n谢谢你看我的文章，我们，下次再见。",
+    "preview_text": "今天凌晨，Kimi终于发布了自家最新的模型，Kimi K3.1 Pro。\n \n和之前一样，昨天一早Kimi就发了个视频剧透。\n \n终于，时隔3个多月，Kimi带来了他们最新的旗舰模型。\n没想到的是，这段时间一直苦等的Fable",
+    "title": "Kimi K3.1 Pro来了，国产模型审美的新巅峰。"
+   },
+   "article_title": {
+    "title": "Kimi K3.1 Pro来了，国产模型审美的新巅峰。"
+   },
+   "author_id": "1492195583699951620",
+   "created_at": "2026-10-24T03:04:51.000Z",
+   "edit_history_post_ids": [
+    "2113829042487267393"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/i/article/2113…",
+      "end": 23,
+      "expanded_url": "https://x.com/i/article/2113826834836234240",
+      "start": 0,
+      "status": 404,
+      "unwound_url": "https://x.com/i/article/2113826834836234240",
+      "url": "https://t.co/XGnuvrb192"
+     }
+    ]
+   },
+   "id": "2113829042487267393",
+   "public_metrics": {
+    "bookmark_count": 21,
+    "impression_count": 17118,
+    "like_count": 60,
+    "quote_count": 2,
+    "reply_count": 31,
+    "repost_count": 2
+   },
+   "text": "https://t.co/XGnuvrb192",
+   "url": "https://x.com/Khazix0918/status/2113829042487267393"
+  },
+  {
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T17:06:58.000Z",
+   "edit_history_post_ids": [
+    "2114040966781042913"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 58,
+      "id": "352806502",
+      "start": 51,
+      "username": "trq212"
+     },
+     {
+      "end": 161,
+      "id": "73253803",
+      "start": 149,
+      "username": "amorriscode"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "x.com/amorriscode/st…",
+      "end": 202,
+      "expanded_url": "https://twitter.com/amorriscode/status/2113972174524674247",
+      "start": 179,
+      "url": "https://t.co/XsrE6zfYbJ"
+     }
+    ]
+   },
+   "id": "2114040966781042913",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 58,
+       "id": "352806502",
+       "start": 51,
+       "username": "trq212"
+      },
+      {
+       "end": 161,
+       "id": "73253803",
+       "start": 149,
+       "username": "amorriscode"
+      }
+     ]
+    },
+    "text": "WTF，Claude Code团队什么情况，两名重要成员接连宣布离开Anthropic？？\n\n一个是 @trq212  ，Claude Code的核心开发者，也是团队里非常活跃的技术布道者。\n他在Anthropic工作了一年多，亲眼见证Claude Code发展到远超自己想象的规模。\n\n另一个是 @amorriscode  ，他创建了桌面端的Claude Code。就在10月14日，他还在介绍新版桌面端的功能，跟社区讨论产品改进。\n结果十天后就发了离职告别帖。\n\nThariq说，他依然非常认同Anthropic的使命，相信团队的能力，接下来打算休息一段时间，再开始新的事情。\nAnthony则说，他相信每个人都可以成为创造者，而社区的每一次功能建议和Bug反馈，都帮助他们做出了影响数百万人的产品。\n\n我觉得挺感慨的。\nClaude Code正在成为AI时代最重要的开发工具之一，结果两位亲手参与打造它的人，在这个时候选择离开（在Anthropic上市前）。\n\n目前没有证据表明这两次离职存在关联，也不知道他们具体为什么走。\n\n不过我还挺期待他们下一步会做什么的。毕竟真正从零到一做过成功Agent产品的人，可能比绝大多数人都更清楚下一代AI应用应该长什么样。"
+   },
+   "public_metrics": {
+    "bookmark_count": 2,
+    "impression_count": 2830,
+    "like_count": 9,
+    "quote_count": 1,
+    "reply_count": 7,
+    "repost_count": 1
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113972174524674247",
+     "type": "quoted"
+    }
+   ],
+   "text": "WTF，Claude Code团队什么情况，两名重要成员接连宣布离开Anthropic？？\n\n一个是 @trq212  ，Claude Code的核心开发者，也是团队里非常活跃的技术布道者。\n他在Anthropic工作了一年多，亲眼见证Claude Code发展到远超自己想象的规模。\n\n另一个是 @amorriscode  ，他创建了桌面端的Claude https://t.co/XsrE6zfYbJ",
+   "url": "https://x.com/MaxForAI/status/2114040966781042913"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114037658058141696"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T16:54:15.000Z",
+   "edit_history_post_ids": [
+    "2114037768305430909"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 93,
+      "id": "1875078099538423808",
+      "start": 82,
+      "username": "MiniMax_AI"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "pic.x.com/DbISY8YaoL",
+      "end": 129,
+      "expanded_url": "https://x.com/MaxForAI/status/2114037768305430909/photo/1",
+      "media_key": "3_2114037658058141696",
+      "start": 106,
+      "url": "https://t.co/DbISY8YaoL"
+     }
+    ]
+   },
+   "id": "2114037768305430909",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 93,
+       "id": "1875078099538423808",
+       "start": 82,
+       "username": "MiniMax_AI"
+      }
+     ]
+    },
+    "text": "神了，MiniMax居然成了全日本的希望🤣\n\n前两天刷到了投资界一篇叫《中国AI开始攻占日本》的文章，标题挺大的，我本来以为又是常规的出海故事。\n\n读了才发现是讲 @MiniMax_AI  的H3在日本的故事。\n\n顺着线索翻了日本的行业报告、版权组织声明，以及MiniMax和日方的合作方案，发现里面还真有很多有意思的点，给大家分享下：\n\n1️⃣先看日本的处境。\n限时老牌商业帝国索尼的电视业务今年初宣布准备交给中国TCL控股的新公司，今年百年人偶老店“五色”进入破产程序，老牌连裤袜厂福西针织也撑不住了。\n而人口一年减少约53万，靠内需养活的老生意，越来越难做。\n按理说日本还有动画产业对吧，起码饿不死。\n你猜对了，2024年日本动画海外市场达到2.17万亿日元，同比增长26%。\n但问题是帝国数据银行的调查显示，2025年仍有34.6%的动画制作公司亏损。\n日本的作品在全球越来越火，做作品的公司却要承受不断上涨的制作成本，后续IP收益也未必能分到自己手里。\n\n2️⃣然后AI来了，问题更尖锐了。\n日本花几十年积累的角色和作品，如果被海外公司拿去训练模型，用户以后直接付钱给AI平台，版权方怎么办？\n去年CODA（打击盗版的联盟）就因为Sora 2，正式向OpenAI提出过停止未经许可训练的要求。\n可日本同样需要AI啊，因为现在制作缺人、成本高，IP又想找到更多海外用户。\n总不能全球每个想用《足球小将》做一段视频的人，都去找版权方单独谈授权。\n\n3️⃣MiniMax的角色就在这里有意思了。\n用之前发布的H3视频模型负责生成，支持角色参考、定向编辑、音画协同。\n又因为是个开源模型，合作方在许可范围内可以自己部署和改造。\nH3 IP Edition计划再结合日本KAGAMIAI开发的Kagami Gate，把哪些角色能用、能怎么用、使用量怎么记录、收益怎么分，尝试做成一套能够规模化运转的流程。\n这样一来，日本版权方能够继续掌握IP的使用规则，模型公司（MiniMax）负责提供生成能力，全球用户则可以在授权范围内创作内容。\n\n4️⃣我还发现有个实验数据挺值得看。\n之前KAGAMIAI此前和另一个公司做过《足球小将》授权生成试验，45天吸引12.6万人，生成约33万件内容，99%以上来自日本境外。\n虽然这是个小范围参与的试验，但很能说明这门生意的潜在市场在哪里。\n日本手里有全世界都认识的IP，中国公司提供新的生成技术，日本伙伴负责搭建授权和收益分配体系。\n这种合作如果跑通，面对的市场可能远超日本本土。\n\n我觉得最有意思的就是这种反差：日本花了几十年建立起来的动画工业，到了新一轮技术变革的时候，开始需要一家中国模型公司来帮它探索下一门生意。\n\n日本动画里总有危急时刻赶来救场的队友。\n没想到到了AI这一集，新队友居然是来自中国的MiniMax。\n\nPS：原文写的很好，推荐去看下"
+   },
+   "public_metrics": {
+    "bookmark_count": 27,
+    "impression_count": 7167,
+    "like_count": 61,
+    "quote_count": 1,
+    "reply_count": 11,
+    "repost_count": 2
+   },
+   "text": "神了，MiniMax居然成了全日本的希望🤣\n\n前两天刷到了投资界一篇叫《中国AI开始攻占日本》的文章，标题挺大的，我本来以为又是常规的出海故事。\n\n读了才发现是讲 @MiniMax_AI  的H3在日本的故事。 https://t.co/DbISY8YaoL",
+   "url": "https://x.com/MaxForAI/status/2114037768305430909"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113992316390354944"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T13:53:41.000Z",
+   "edit_history_post_ids": [
+    "2113992325395546256"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/OY6zC0VkdW",
+      "end": 150,
+      "expanded_url": "https://x.com/MaxForAI/status/2113992325395546256/photo/1",
+      "media_key": "3_2113992316390354944",
+      "start": 127,
+      "url": "https://t.co/OY6zC0VkdW"
+     }
+    ]
+   },
+   "id": "2113992325395546256",
+   "note_tweet": {
+    "text": "今天看到一条新闻，挺感慨的。\n\n山东聊城一个90后小伙，父亲晚上遛弯回来，突然双腿无力、吞咽困难。\n因为症状看起来不算特别严重，家里原本打算等第二天天亮了再去医院。\n\n睡觉前，他习惯性地打开豆包，输入了父亲的症状和“三高”病史，想问问明天应该挂什么科。\n没想到，豆包直接提醒他：“立即去医院就诊，排除脑梗。”\n在补充病史之后，又警告了一次：“这是高危信号，不能拖。”\n\n他这才意识到问题的严重性，连夜带父亲去了医院。\n结果真的是急性脑梗。\n好在送医及时，赶上了静脉溶栓的黄金窗口期，如今父亲恢复良好，没有留下后遗症。\n后来接受采访时，他说自己已经把豆包列为了救命恩人。\n我觉得这件事特别有意义。\n\n我们平时讨论AI，总喜欢讨论它的智力有多高，能不能超过顶尖专家，能不能替代多少工作。\n但对于大多数普通人来说，可能一辈子都不会遇到什么需要顶尖智能才能解决的复杂问题（谁天天去破解数学难题啊）。\n反倒是生活里那些看起来微不足道的事情，有时候会决定一个人甚至一个家庭的命运。\n比如一个原本准备等到天亮再去医院的人，因为AI的一句提醒，提前几个小时接受了治疗。\n\n我很喜欢这个故事。\n因为技术进步的意义，最终还是要回到具体的人身上。\n一个普通人，因为AI及时得到了一条重要的信息，避免了一场可能改变整个家庭生活的灾难。\n我觉得这就已经很有价值了。"
+   },
+   "public_metrics": {
+    "bookmark_count": 91,
+    "impression_count": 81957,
+    "like_count": 463,
+    "quote_count": 5,
+    "reply_count": 55,
+    "repost_count": 40
+   },
+   "text": "今天看到一条新闻，挺感慨的。\n\n山东聊城一个90后小伙，父亲晚上遛弯回来，突然双腿无力、吞咽困难。\n因为症状看起来不算特别严重，家里原本打算等第二天天亮了再去医院。\n\n睡觉前，他习惯性地打开豆包，输入了父亲的症状和“三高”病史，想问问明天应该挂什么科。 https://t.co/OY6zC0VkdW",
+   "url": "https://x.com/MaxForAI/status/2113992325395546256"
+  },
+  {
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T13:39:33.000Z",
+   "edit_history_post_ids": [
+    "2113988769171018143"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 48,
+      "id": "2014504062797152256",
+      "start": 37,
+      "username": "typesafeai"
+     },
+     {
+      "end": 71,
+      "id": "2867689615",
+      "start": 55,
+      "username": "CompleteSkeptic"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "x.com/CompleteSkepti…",
+      "end": 142,
+      "expanded_url": "https://twitter.com/CompleteSkeptic/status/2113810106177773587",
+      "start": 119,
+      "url": "https://t.co/RRJ8QEIplK"
+     }
+    ]
+   },
+   "id": "2113988769171018143",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 48,
+       "id": "2014504062797152256",
+       "start": 37,
+       "username": "typesafeai"
+      },
+      {
+       "end": 71,
+       "id": "2867689615",
+       "start": 55,
+       "username": "CompleteSkeptic"
+      }
+     ]
+    },
+    "text": "笑死了，AI圈可能出现了史上最抽象的一次「重大数据泄露事件」。\n\n今天， @typesafeai  的CEO @CompleteSkeptic  突然发公告，称公司发现了一起大规模未经授权的数据泄露，所有客户的Noul输出全部遭到泄露。\n\n他还一本正经地表示，公司高度重视信息透明，为了让所有人了解事件的严重性，决定直接公开泄露数据，并附上了GitHub链接。\n\n结果点进去一看，所谓的泄露数据，就是从0.00、0.01、0.02，一直排列到1.00的101个数字。\n\n因为他们的模型会输出0到1之间的概率值，所以理论上，这些数字确实覆盖了一系列可能的输出。\n\n最他妈抽象的是，整份公告写得跟公司马上要破产一样，连发现泄露的时间都精确到了晚上6:49。\n\n我甚至怀疑有人看到公告第一时间就去检查自己的API密钥了。\n\nAI行业发展到今天，终于有人连数据泄露公告都拿来整活了.....\n\n太抽象了。。。。"
+   },
+   "public_metrics": {
+    "bookmark_count": 15,
+    "impression_count": 12719,
+    "like_count": 42,
+    "quote_count": 0,
+    "reply_count": 3,
+    "repost_count": 0
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113810106177773587",
+     "type": "quoted"
+    }
+   ],
+   "text": "笑死了，AI圈可能出现了史上最抽象的一次「重大数据泄露事件」。\n\n今天， @typesafeai  的CEO @CompleteSkeptic  突然发公告，称公司发现了一起大规模未经授权的数据泄露，所有客户的Noul输出全部遭到泄露。 https://t.co/RRJ8QEIplK",
+   "url": "https://x.com/MaxForAI/status/2113988769171018143"
+  },
+  {
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T13:34:46.000Z",
+   "edit_history_post_ids": [
+    "2113987566781514140"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/nntaleb/status…",
+      "end": 133,
+      "expanded_url": "https://twitter.com/nntaleb/status/2113811517955260525",
+      "start": 110,
+      "url": "https://t.co/QVDgpQ0jpl"
+     }
+    ]
+   },
+   "id": "2113987566781514140",
+   "note_tweet": {
+    "text": "塔勒布这段话骂得真狠。\n\n他说，问题根本不在于AI有没有智能，而在于太多成年人活得像机器，机械、模仿、缺乏想象力、公式化、容易受影响，还傲慢得超出自己的能力范围。\n最讽刺的是，维护成本还特别高。\n\n我觉得他说得太对了。\n尤其是很多大企业里的所谓精英，看起来聪明，满嘴方法论和行业经验，但很多时候，只是熟练掌握了一套旧世界的游戏规则。\n他们把对规则的熟悉误认为智慧，把过去的成功误认为永远正确。\n\n这也是为什么很多大企业会逐渐衰老。\n一个人靠过去的经验获得地位，又不断被组织奖励，最后连重新认识世界的能力都丧失了。\n这让我想起道格拉斯·亚当斯那句调侃：35岁之前出现的新技术是改变世界的革命，35岁之后出现的就是违背自然规律的异端。\n\n人确实是会老的，但最可怕的衰老，是认知停止更新。\n\nAI时代最残酷的事情，可能就是让很多人突然发现，自己引以为傲的专业、经验和聪明，其实没有那么值钱。"
+   },
+   "public_metrics": {
+    "bookmark_count": 176,
+    "impression_count": 19244,
+    "like_count": 279,
+    "quote_count": 2,
+    "reply_count": 10,
+    "repost_count": 51
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113811517955260525",
+     "type": "quoted"
+    }
+   ],
+   "text": "塔勒布这段话骂得真狠。\n\n他说，问题根本不在于AI有没有智能，而在于太多成年人活得像机器，机械、模仿、缺乏想象力、公式化、容易受影响，还傲慢得超出自己的能力范围。\n最讽刺的是，维护成本还特别高。\n\n我觉得他说得太对了。 https://t.co/QVDgpQ0jpl",
+   "url": "https://x.com/MaxForAI/status/2113987566781514140"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113891370196996096"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T07:12:34.000Z",
+   "edit_history_post_ids": [
+    "2113891381534138515"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/DcL25XVk0J",
+      "end": 71,
+      "expanded_url": "https://x.com/MaxForAI/status/2113891381534138515/photo/1",
+      "media_key": "3_2113891370196996096",
+      "start": 48,
+      "url": "https://t.co/DcL25XVk0J"
+     },
+     {
+      "display_url": "x.com/trq212/status/…",
+      "end": 95,
+      "expanded_url": "https://twitter.com/trq212/status/2113848923945304528",
+      "start": 72,
+      "url": "https://t.co/D4Yode2rTo"
+     }
+    ]
+   },
+   "id": "2113891381534138515",
+   "public_metrics": {
+    "bookmark_count": 1,
+    "impression_count": 6342,
+    "like_count": 28,
+    "quote_count": 0,
+    "reply_count": 8,
+    "repost_count": 0
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113848923945304528",
+     "type": "quoted"
+    }
+   ],
+   "text": "神了，Thariq离职之后立刻就开始质疑前同事Opus5.5是不是变笨了🤣\n\n我的体感是变笨了 https://t.co/DcL25XVk0J https://t.co/D4Yode2rTo",
+   "url": "https://x.com/MaxForAI/status/2113891381534138515"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113886546285969408"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T06:53:47.000Z",
+   "edit_history_post_ids": [
+    "2113886655606411271"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/iXeSun7Txi",
+      "end": 43,
+      "expanded_url": "https://x.com/MaxForAI/status/2113886655606411271/photo/1",
+      "media_key": "3_2113886546285969408",
+      "start": 20,
+      "url": "https://t.co/iXeSun7Txi"
+     }
+    ]
+   },
+   "id": "2113886655606411271",
+   "public_metrics": {
+    "bookmark_count": 1684,
+    "impression_count": 1327722,
+    "like_count": 11241,
+    "quote_count": 57,
+    "reply_count": 406,
+    "repost_count": 184
+   },
+   "text": "果然，中国人最恨的模型是Claude！ https://t.co/iXeSun7Txi",
+   "url": "https://x.com/MaxForAI/status/2113886655606411271"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113877684459917312",
+     "3_2113877684413673473",
+     "3_2113877684409585664"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T06:18:43.000Z",
+   "edit_history_post_ids": [
+    "2113877832078438729"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/4EnQfJ1WzP",
+      "end": 44,
+      "expanded_url": "https://x.com/MaxForAI/status/2113877832078438729/photo/1",
+      "media_key": "3_2113877684459917312",
+      "start": 21,
+      "url": "https://t.co/4EnQfJ1WzP"
+     },
+     {
+      "display_url": "pic.x.com/4EnQfJ1WzP",
+      "end": 44,
+      "expanded_url": "https://x.com/MaxForAI/status/2113877832078438729/photo/1",
+      "media_key": "3_2113877684413673473",
+      "start": 21,
+      "url": "https://t.co/4EnQfJ1WzP"
+     },
+     {
+      "display_url": "pic.x.com/4EnQfJ1WzP",
+      "end": 44,
+      "expanded_url": "https://x.com/MaxForAI/status/2113877832078438729/photo/1",
+      "media_key": "3_2113877684409585664",
+      "start": 21,
+      "url": "https://t.co/4EnQfJ1WzP"
+     }
+    ]
+   },
+   "id": "2113877832078438729",
+   "public_metrics": {
+    "bookmark_count": 32,
+    "impression_count": 35585,
+    "like_count": 116,
+    "quote_count": 1,
+    "reply_count": 15,
+    "repost_count": 5
+   },
+   "text": "不要给你的DeepSeek上贴吧的权限🤣 https://t.co/4EnQfJ1WzP",
+   "url": "https://x.com/MaxForAI/status/2113877832078438729"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113877930917134336"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T06:19:53.000Z",
+   "edit_history_post_ids": [
+    "2113878122865311827"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/uWgS6lVpL9",
+      "end": 110,
+      "expanded_url": "https://x.com/MaxForAI/status/2113878122865311827/photo/1",
+      "media_key": "3_2113877930917134336",
+      "start": 87,
+      "url": "https://t.co/uWgS6lVpL9"
+     }
+    ]
+   },
+   "id": "2113878122865311827",
+   "public_metrics": {
+    "bookmark_count": 1,
+    "impression_count": 4106,
+    "like_count": 12,
+    "quote_count": 0,
+    "reply_count": 1,
+    "repost_count": 0
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113877832078438729",
+     "type": "replied_to"
+    }
+   ],
+   "text": "原帖是小红书的博主\n\n现在算法群正在激烈讨论大肥鱼这样是因为后训练的时候没有做nsfw过滤还是search接入贴吧做few shot学坏了（我倾向于few shot学坏了） https://t.co/uWgS6lVpL9",
+   "url": "https://x.com/MaxForAI/status/2113878122865311827"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113850800795701248"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T04:31:21.000Z",
+   "edit_history_post_ids": [
+    "2113850811251827075"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/XcswwQtybP",
+      "end": 207,
+      "expanded_url": "https://x.com/MaxForAI/status/2113850811251827075/photo/1",
+      "media_key": "3_2113850800795701248",
+      "start": 184,
+      "url": "https://t.co/XcswwQtybP"
+     },
+     {
+      "display_url": "x.com/mhelcig/status…",
+      "end": 231,
+      "expanded_url": "https://twitter.com/mhelcig/status/2113769988813144118",
+      "start": 208,
+      "url": "https://t.co/oUQIiwJA59"
+     }
+    ]
+   },
+   "id": "2113850811251827075",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "github.com/Niko1221/Strata",
+       "end": 576,
+       "expanded_url": "https://github.com/Niko1221/Strata",
+       "start": 553,
+       "url": "https://t.co/cxFunoquuV"
+      }
+     ]
+    },
+    "text": "卧槽？？763B参数的DeepSeek，居然已经能在12GB显存的消费级显卡上本地运行了。\n\n奥地利ISTA的DASLab团队发布了DeepSeek-V4.1-Flash-1017的GSQ-RCO量化版本，最低压缩到1.75bit，2bit版本在AIME25、GPQA-Diamond和LiveCodeBench v6三项测试中，甚至取得了和原始模型完全一致的成绩。\n\n他们还与开源推理引擎Strata合作，把这套763B模型放到了消费级显卡上。\n\n根据Strata公布的实测数据：\n\nRTX 5070 12GB搭配64GB内存，每秒大约生成5个token；RTX 3060 12GB搭配46GB内存，可以达到6～9个token。\n\n当然，代价是你还需要大量系统内存，以及至少239GB的模型存储空间。因为模型的大部分权重依然要放在内存和SSD上，按需读取。\n\n这速度算不上快，运行复杂Agent任务仍然很吃力。\n\n但一张12GB显卡、几十GB内存，加上一块大容量SSD，就能在本地启动763B的模型，这已经挺有意思了。\n\n现在连这种规模的模型，本地部署都开始进入消费级硬件能够尝试的范围了。\n\n推理工程和量化算法的发展，确实在不断降低运行大模型的门槛。\n\nStrata已经开源，有兴趣的可以研究一下：\n\nhttps://t.co/cxFunoquuV"
+   },
+   "public_metrics": {
+    "bookmark_count": 66,
+    "impression_count": 10445,
+    "like_count": 113,
+    "quote_count": 2,
+    "reply_count": 14,
+    "repost_count": 14
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113769988813144118",
+     "type": "quoted"
+    }
+   ],
+   "text": "卧槽？？763B参数的DeepSeek，居然已经能在12GB显存的消费级显卡上本地运行了。\n\n奥地利ISTA的DASLab团队发布了DeepSeek-V4.1-Flash-1017的GSQ-RCO量化版本，最低压缩到1.75bit，2bit版本在AIME25、GPQA-Diamond和LiveCodeBench v6三项测试中，甚至取得了和原始模型完全一致的成绩。 https://t.co/XcswwQtybP https://t.co/oUQIiwJA59",
+   "url": "https://x.com/MaxForAI/status/2113850811251827075"
+  },
+  {
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T04:26:46.000Z",
+   "edit_history_post_ids": [
+    "2113849659861213568"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 71,
+      "id": "352806502",
+      "start": 64,
+      "username": "trq212"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "x.com/trq212/status/…",
+      "end": 188,
+      "expanded_url": "https://twitter.com/trq212/status/2113844051938054167",
+      "start": 165,
+      "url": "https://t.co/GK7s44sLrU"
+     }
+    ]
+   },
+   "id": "2113849659861213568",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 71,
+       "id": "352806502",
+       "start": 64,
+       "username": "trq212"
+      }
+     ]
+    },
+    "text": "传言是真的……Anthropic唯一拟人的员工，真的离开Anthropic了。\n\nClaude Code核心开发者Thariq（@trq212）刚刚宣布，自己已经从Anthropic离职。\n\n他在Anthropic工作了一年多，亲眼见证了Claude Code以超出自己想象的速度增长。接下来准备休息一段时间，再去做点新的事情。\n\n说实话，我还挺舍不得他的。\n\n如果你经常关注Claude Code，应该对他很熟悉。\n他算是Anthropic最活跃、最愿意和社区交流的员工之一。\n\n从新功能的技术细节，到Claude Code的使用技巧，再到用户对额度调整的抱怨，他经常亲自下场解释、回复，甚至直接承认团队有些事情做得不好。\n\n在Anthropic这种动不动就封号、限制额度，官方沟通又经常让人摸不着头脑的公司里，Thariq简直是一股清流。\n\n而且他的技术文章也确实写得很好，有不少关于Agent和Claude Code的实践值得反复读。\n\n挺有意思的是，他的离职声明里依然充满了对Anthropic的认可，尤其是对公司使命和同事的信任。\n\n祝他下一站顺利吧。\n\n以后Anthropic要是再出什么幺蛾子，评论区又少了一个能出来说人话的人。"
+   },
+   "public_metrics": {
+    "bookmark_count": 164,
+    "impression_count": 104316,
+    "like_count": 543,
+    "quote_count": 5,
+    "reply_count": 40,
+    "repost_count": 36
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113844051938054167",
+     "type": "quoted"
+    }
+   ],
+   "text": "传言是真的……Anthropic唯一拟人的员工，真的离开Anthropic了。\n\nClaude Code核心开发者Thariq（@trq212）刚刚宣布，自己已经从Anthropic离职。\n\n他在Anthropic工作了一年多，亲眼见证了Claude Code以超出自己想象的速度增长。接下来准备休息一段时间，再去做点新的事情。 https://t.co/GK7s44sLrU",
+   "url": "https://x.com/MaxForAI/status/2113849659861213568"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113873191215288320"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T06:00:20.000Z",
+   "edit_history_post_ids": [
+    "2113873204020490460"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/eKj0i0QwuU",
+      "end": 57,
+      "expanded_url": "https://x.com/MaxForAI/status/2113873204020490460/photo/1",
+      "media_key": "3_2113873191215288320",
+      "start": 34,
+      "url": "https://t.co/eKj0i0QwuU"
+     },
+     {
+      "display_url": "x.com/qingj1314/stat…",
+      "end": 81,
+      "expanded_url": "https://twitter.com/qingj1314/status/2113785350921580830",
+      "start": 58,
+      "url": "https://t.co/He8vdD2cT9"
+     }
+    ]
+   },
+   "id": "2113873204020490460",
+   "public_metrics": {
+    "bookmark_count": 5,
+    "impression_count": 11407,
+    "like_count": 43,
+    "quote_count": 2,
+    "reply_count": 10,
+    "repost_count": 0
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113785350921580830",
+     "type": "quoted"
+    }
+   ],
+   "text": "草，居然是推友原创的吗。。。  \n昨天算法群看到的  \n非常抱歉😭 https://t.co/eKj0i0QwuU https://t.co/He8vdD2cT9",
+   "url": "https://x.com/MaxForAI/status/2113873204020490460"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114089660095889409"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-24T20:30:09.000Z",
+   "edit_history_post_ids": [
+    "2114092099541074101"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/NYgsFpW8WB",
+      "end": 305,
+      "expanded_url": "https://x.com/testingcatalog/status/2114092099541074101/photo/1",
+      "media_key": "3_2114089660095889409",
+      "start": 282,
+      "url": "https://t.co/NYgsFpW8WB"
+     }
+    ]
+   },
+   "id": "2114092099541074101",
+   "note_tweet": {
+    "text": "Interestingly, Google seems to be shifting its internal naming from \"AI\" to \"SI\" as well. \n\n> \"build_arena_andwise_si_comparison\" is an internal string related to model comparison. \n\nWill this spread even further?\n\n- ✅ SpaceXSI\n- ✅ MSL\n- ✅ SSI\n\n- 👀 MAI > MSI?\n- 👀 OpenAI > OpenSI?\n- 👀 Apple Intelligence > ASI?"
+   },
+   "public_metrics": {
+    "bookmark_count": 26,
+    "impression_count": 11863,
+    "like_count": 179,
+    "quote_count": 4,
+    "reply_count": 35,
+    "repost_count": 5
+   },
+   "text": "Interestingly, Google seems to be shifting its internal naming from \"AI\" to \"SI\" as well. \n\n&gt; \"build_arena_andwise_si_comparison\" is an internal string related to model comparison. \n\nWill this spread even further?\n\n- ✅ SpaceXSI\n- ✅ MSL\n- ✅ SSI\n\n- 👀 MAI &gt; MSI?\n- 👀 OpenAI &gt; https://t.co/NYgsFpW8WB",
+   "url": "https://x.com/testingcatalog/status/2114092099541074101"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113933473161334784",
+     "3_2113933473232646144"
+    ]
+   },
+   "author_id": "3980735590",
+   "created_at": "2026-10-24T09:59:50.000Z",
+   "edit_history_post_ids": [
+    "2113933478056087821"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/Tkxcx6Uefk",
+      "end": 228,
+      "expanded_url": "https://x.com/testingcatalog/status/2113933478056087821/photo/1",
+      "media_key": "3_2113933473161334784",
+      "start": 205,
+      "url": "https://t.co/Tkxcx6Uefk"
+     },
+     {
+      "display_url": "pic.x.com/Tkxcx6Uefk",
+      "end": 228,
+      "expanded_url": "https://x.com/testingcatalog/status/2113933478056087821/photo/1",
+      "media_key": "3_2113933473232646144",
+      "start": 205,
+      "url": "https://t.co/Tkxcx6Uefk"
+     },
+     {
+      "display_url": "x.com/perplexitydevs…",
+      "end": 252,
+      "expanded_url": "https://twitter.com/perplexitydevs/status/2113400672238616800",
+      "start": 229,
+      "url": "https://t.co/pIZibjTNxZ"
+     }
+    ]
+   },
+   "id": "2113933478056087821",
+   "public_metrics": {
+    "bookmark_count": 57,
+    "impression_count": 14994,
+    "like_count": 175,
+    "quote_count": 4,
+    "reply_count": 46,
+    "repost_count": 6
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113400672238616800",
+     "type": "quoted"
+    }
+   ],
+   "text": "ICYMI 👀: Perplexity released its pplx-decider-flash-v1.2 decision model as Mac application that serves decision API locally. \n\nThe model takes 5.8 GB of a space and requires 16 GB of memory. \n\n100% True 🤖 https://t.co/Tkxcx6Uefk https://t.co/pIZibjTNxZ",
+   "url": "https://x.com/testingcatalog/status/2113933478056087821"
+  },
+  {
+   "author_id": "1764818331822182400",
+   "created_at": "2026-10-24T05:15:30.000Z",
+   "edit_history_post_ids": [
+    "2113861921040740839"
+   ],
+   "id": "2113861921040740839",
+   "public_metrics": {
+    "bookmark_count": 4,
+    "impression_count": 41358,
+    "like_count": 129,
+    "quote_count": 4,
+    "reply_count": 113,
+    "repost_count": 0
+   },
+   "text": "Codex 又削减了额度\n\n我就搞了几篇文章100%的额度没了\n\n妈蛋",
+   "url": "https://x.com/xiaohu/status/2113861921040740839"
+  },
+  {
+   "author_id": "73253803",
+   "created_at": "2026-10-24T12:33:36.000Z",
+   "edit_history_post_ids": [
+    "2113972174524674247"
+   ],
+   "id": "2113972174524674247",
+   "note_tweet": {
+    "text": "Yesterday was my last day at Anthropic.\n \nI created Claude Code on desktop because I believe everyone can be a builder. Every feature request and bug report we got from this community was a gift that impacted millions of lives. I’m eternally grateful for those gifts, the product wouldn’t be what it is without you.\n \nAnthropic is doing some of the most important work of our time. Contributing to that mission will forever be a career highlight for me. I never imagined I’d get to contribute to something so special in my lifetime.\n\nWalking away from my best friends, a product I poured my heart into, and the mission was the hardest thing I’ve done in my career. But now I have some free time for GTA VI.\n\nI'm already itching to get back to addressing all your feedback. I'll share what's next soon!"
+   },
+   "public_metrics": {
+    "bookmark_count": 906,
+    "impression_count": 612518,
+    "like_count": 7336,
+    "quote_count": 206,
+    "reply_count": 701,
+    "repost_count": 204
+   },
+   "text": "Yesterday was my last day at Anthropic.\n \nI created Claude Code on desktop because I believe everyone can be a builder. Every feature request and bug report we got from this community was a gift that impacted millions of lives. I’m eternally grateful for those gifts, the product",
+   "url": "https://x.com/amorriscode/status/2113972174524674247"
+  },
+  {
+   "author_id": "352806502",
+   "created_at": "2026-10-24T04:04:29.000Z",
+   "edit_history_post_ids": [
+    "2113844051938054167"
+   ],
+   "id": "2113844051938054167",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 910,
+       "id": "35432643",
+       "start": 899,
+       "username": "addyosmani"
+      },
+      {
+       "end": 925,
+       "id": "879696238953865217",
+       "start": 913,
+       "username": "lydiahallie"
+      },
+      {
+       "end": 934,
+       "id": "974757274206978049",
+       "start": 927,
+       "username": "_catwu"
+      },
+      {
+       "end": 947,
+       "id": "2024518793679294464",
+       "start": 936,
+       "username": "ClaudeDevs"
+      },
+      {
+       "end": 971,
+       "id": "159337660",
+       "start": 963,
+       "username": "bcherny"
+      }
+     ]
+    },
+    "text": "I’ve left Anthropic after more than a year of working on Claude Code and seeing it scale larger than I ever imagined.\n\nI have really loved working at Ant and believe deeply in the mission, and most of all, the idea of a race to the top.\n\nThe idea that if we work hard and responsibly, we can raise the bar and inspire others to great outcomes. And if we all push each other to be better, things can be radically good. I will carry the spirit of this with me forever.\n\nMy colleagues at Anthropic are the most talented, thoughtful, competent, and earnest people I have ever met. I am glad they are at the wheel and trust them deeply.\n\nTo the community on X, thank you for everything. You’ve made this the most fun (and sometimes stressful) job I’ve ever had.\n\nFor me, it is time for a bit of a break before diving into something new.\n\nIf you want more excellent Claude Code content, you should follow @addyosmani , @lydiahallie, @_catwu, @ClaudeDevs  and of course @bcherny who started it all."
+   },
+   "public_metrics": {
+    "bookmark_count": 5434,
+    "impression_count": 4132570,
+    "like_count": 27597,
+    "quote_count": 753,
+    "reply_count": 2015,
+    "repost_count": 950
+   },
+   "text": "I’ve left Anthropic after more than a year of working on Claude Code and seeing it scale larger than I ever imagined.\n\nI have really loved working at Ant and believe deeply in the mission, and most of all, the idea of a race to the top.\n\nThe idea that if we work hard and",
+   "url": "https://x.com/trq212/status/2113844051938054167"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113763848926707712"
+    ]
+   },
+   "author_id": "1952717074301693952",
+   "created_at": "2026-10-23T23:10:11.000Z",
+   "edit_history_post_ids": [
+    "2113769988813144118"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/6VADyfAet7",
+      "end": 249,
+      "expanded_url": "https://x.com/mhelcig/status/2113769988813144118/photo/1",
+      "media_key": "3_2113763848926707712",
+      "start": 226,
+      "url": "https://t.co/6VADyfAet7"
+     }
+    ]
+   },
+   "id": "2113769988813144118",
+   "public_metrics": {
+    "bookmark_count": 1613,
+    "impression_count": 161020,
+    "like_count": 1667,
+    "quote_count": 63,
+    "reply_count": 92,
+    "repost_count": 184
+   },
+   "text": "Run a 763B-parameter model locally. DeepSeek-V4.1-Flash-1017 on a 12GB GPU.\n\nFrontier quality with GSQ-RCO quants, directly supported in the Strata inference engine.\n\nFurther info below. Much more to come. Follow for updates. https://t.co/6VADyfAet7",
+   "url": "https://x.com/mhelcig/status/2113769988813144118"
+  },
+  {
+   "author_id": "2867689615",
+   "created_at": "2026-10-24T01:49:36.000Z",
+   "edit_history_post_ids": [
+    "2113810106177773587"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 76,
+      "id": "2014504062797152256",
+      "start": 65,
+      "username": "typesafeai"
+     }
+    ],
+    "urls": [
+     {
+      "description": "GitHub Gist: instantly share code, notes, and snippets.",
+      "display_url": "gist.github.com/diogo149/81003…",
+      "end": 277,
+      "expanded_url": "https://gist.github.com/diogo149/810037374943dae22ff251941346b4e8",
+      "images": [
+       {
+        "height": 640,
+        "url": "https://pbs.twimg.com/news_img/2113810108421722112/57Pi-my0?format=png&name=orig",
+        "width": 1280
+       },
+       {
+        "height": 150,
+        "url": "https://pbs.twimg.com/news_img/2113810108421722112/57Pi-my0?format=png&name=150x150",
+        "width": 150
+       }
+      ],
+      "start": 254,
+      "status": 200,
+      "title": "outputs.json",
+      "unwound_url": "https://gist.github.com/diogo149/810037374943dae22ff251941346b4e8",
+      "url": "https://t.co/HWKvYpHS8V"
+     }
+    ]
+   },
+   "id": "2113810106177773587",
+   "public_metrics": {
+    "bookmark_count": 1338,
+    "impression_count": 972716,
+    "like_count": 5489,
+    "quote_count": 241,
+    "reply_count": 419,
+    "repost_count": 281
+   },
+   "text": "despite the unfortunate timing, we take disclosures seriously at @typesafeai\n\nat approximately 6:49PM this Friday evening, we became aware of a massive unauthorized leak of ALL customer noul outputs\n\nin effort to maximize transparency, here is the link: https://t.co/HWKvYpHS8V",
+   "url": "https://x.com/CompleteSkeptic/status/2113810106177773587"
+  },
+  {
+   "author_id": "381289719",
+   "created_at": "2026-10-24T01:55:13.000Z",
+   "edit_history_post_ids": [
+    "2113811517955260525"
+   ],
+   "id": "2113811517955260525",
+   "public_metrics": {
+    "bookmark_count": 2981,
+    "impression_count": 517073,
+    "like_count": 11677,
+    "quote_count": 261,
+    "reply_count": 345,
+    "repost_count": 1582
+   },
+   "text": "The problem isn’t that AI is intelligent. It isn’t. The problem is that too many adults (but not all) are at once mechanistic, imitative, unimaginative, stupid, formulaic, influenceable, &amp; gullible, arrogant beyond their skill set, &amp; too expensive to maintain.",
+   "url": "https://x.com/nntaleb/status/2113811517955260525"
+  },
+  {
+   "author_id": "352806502",
+   "created_at": "2026-10-24T04:23:51.000Z",
+   "edit_history_post_ids": [
+    "2113848923945304528"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 12,
+      "id": "879696238953865217",
+      "start": 0,
+      "username": "lydiahallie"
+     }
+    ]
+   },
+   "id": "2113848923945304528",
+   "public_metrics": {
+    "bookmark_count": 334,
+    "impression_count": 754895,
+    "like_count": 9954,
+    "quote_count": 317,
+    "reply_count": 515,
+    "repost_count": 370
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113848824229994548",
+     "type": "replied_to"
+    }
+   ],
+   "text": "@lydiahallie wait is it just me or is Opus 5.5 dumber",
+   "url": "https://x.com/trq212/status/2113848923945304528"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2113400649283170305"
+    ]
+   },
+   "author_id": "1902403003887284224",
+   "created_at": "2026-10-22T22:42:40.000Z",
+   "edit_history_post_ids": [
+    "2113400672238616800"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "description": "Run pplx-decider-flash-v1.2 on your Mac from the menu bar and call the Decisions API at 127.0.0.1 with no API key.",
+      "display_url": "pplx.ai/decider-for-mac",
+      "end": 262,
+      "expanded_url": "https://pplx.ai/decider-for-mac",
+      "start": 239,
+      "status": 200,
+      "title": "Decider for Mac - Perplexity",
+      "unwound_url": "https://docs.perplexity.ai/docs/decisions/decider-for-mac",
+      "url": "https://t.co/1BJ4Qv3Urr"
+     },
+     {
+      "display_url": "pic.x.com/raBBZ26kbC",
+      "end": 286,
+      "expanded_url": "https://x.com/perplexitydevs/status/2113400672238616800/video/1",
+      "media_key": "13_2113400649283170305",
+      "start": 263,
+      "url": "https://t.co/raBBZ26kbC"
+     }
+    ]
+   },
+   "id": "2113400672238616800",
+   "public_metrics": {
+    "bookmark_count": 415,
+    "impression_count": 91640,
+    "like_count": 458,
+    "quote_count": 30,
+    "reply_count": 20,
+    "repost_count": 47
+   },
+   "text": "You can now run pplx-decider-flash-v1.2 locally on your Mac, without an API key.\n\nDecider for Mac is an app that runs the 4B decision model on device. Ask a question about text or an image and get a probability back, all on your machine.\n\nhttps://t.co/1BJ4Qv3Urr https://t.co/raBBZ26kbC",
+   "url": "https://x.com/perplexitydevs/status/2113400672238616800"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113785278301360128",
+     "3_2113785289265270784"
+    ]
+   },
+   "author_id": "1982024781659803648",
+   "created_at": "2026-10-24T00:11:14.000Z",
+   "edit_history_post_ids": [
+    "2113785350921580830"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/BdOOk9DgCB",
+      "end": 43,
+      "expanded_url": "https://x.com/qingj1314/status/2113785350921580830/photo/1",
+      "media_key": "3_2113785278301360128",
+      "start": 20,
+      "url": "https://t.co/BdOOk9DgCB"
+     },
+     {
+      "display_url": "pic.x.com/BdOOk9DgCB",
+      "end": 43,
+      "expanded_url": "https://x.com/qingj1314/status/2113785350921580830/photo/1",
+      "media_key": "3_2113785289265270784",
+      "start": 20,
+      "url": "https://t.co/BdOOk9DgCB"
+     }
+    ]
+   },
+   "id": "2113785350921580830",
+   "public_metrics": {
+    "bookmark_count": 18,
+    "impression_count": 129133,
+    "like_count": 287,
+    "quote_count": 6,
+    "reply_count": 83,
+    "repost_count": 1
+   },
+   "text": "被某个AI大号洗稿了\n\n一个字都不改吗 https://t.co/BdOOk9DgCB",
+   "url": "https://x.com/qingj1314/status/2113785350921580830"
+  },
+  {
+   "author_id": "1570599115",
+   "created_at": "2026-10-24T14:30:28.000Z",
+   "edit_history_post_ids": [
+    "2114001582719369281"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 12,
+      "id": "2070631956824698880",
+      "start": 0,
+      "username": "JensenHuang"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "x.com/higgsfield/sta…",
+      "end": 290,
+      "expanded_url": "https://twitter.com/higgsfield/status/2113996828379336979",
+      "start": 267,
+      "url": "https://t.co/PtRb2TCZJN"
+     }
+    ]
+   },
+   "id": "2114001582719369281",
+   "public_metrics": {
+    "bookmark_count": 94,
+    "impression_count": 126458,
+    "like_count": 529,
+    "quote_count": 29,
+    "reply_count": 62,
+    "repost_count": 250
+   },
+   "referenced_tweets": [
+    {
+     "id": "2113996828379336979",
+     "type": "quoted"
+    }
+   ],
+   "text": "@jensenhuang and NVIDIA just invested in Higgsfield\n\nWe turn competition at the foundation layer into compounding advantage for our customers. Every advance at the frontier expands what Higgsfield can deliver\n\nThe moat is ownership of demand, and we clearly own one. https://t.co/PtRb2TCZJN",
+   "url": "https://x.com/alexmashrabov/status/2114001582719369281"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2113990474918973440"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-24T13:46:24.000Z",
+   "edit_history_post_ids": [
+    "2113990493151674491"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/UGJOkCJTNt",
+      "end": 167,
+      "expanded_url": "https://x.com/MaxForAI/status/2113990493151674491/photo/1",
+      "media_key": "3_2113990474918973440",
+      "start": 144,
+      "url": "https://t.co/UGJOkCJTNt"
+     }
+    ]
+   },
+   "id": "2113990493151674491",
+   "note_tweet": {
+    "text": "iPhone Duo大批量屏幕碎裂的原因找到了？\n\n昨天，苹果首款折叠屏iPhone Duo正式开售，结果国内外接连出现多起内屏开裂、爆线的报告。\n\n最奇怪的是，这些机器的损坏位置几乎一模一样：屏幕沿着折叠轴出现一道黑色竖线，随后向右侧延伸出一条横向亮线，形成类似L形或T形的故障痕迹。\n有澳大利亚用户表示，自己的手机到手仅6小时，开合不到20次，就在展开时听到“咔嚓”一声，屏幕直接裂开。\n随后苹果门店为其更换了新机。\n\n更有意思的是，结合此前HTX Studio（何同学）公布的内部CT扫描图，有人开始怀疑问题可能出在铰链中部的机械结构上。\n从CT图像来看，铰链中央存在一套相当复杂的机械机构，而红框标记的位置，恰好位于中部排线通道与下方铰链机构的交界附近。\n\n有人怀疑，这可能与铰链的装配公差有关。\n如果某个零件存在微小的位置偏差，就可能导致屏幕在反复展开、折叠时局部受力过大，最终造成柔性OLED屏幕损坏。\n当然，目前这仍然只是推测，红框位置与实际损坏点是否对应，以及究竟是铰链、屏幕支撑结构还是屏幕模组本身的问题，都还没有得到证实。\n\n但我觉得最值得注意的是，为什么不同国家、不同用户的手机，偏偏都坏在这么相似的位置？\n\n苹果花了这么多年才推出第一台折叠屏iPhone，结果刚上市，就遇上了折叠屏最经典的可靠性问题。\n\n真的是拉完了。。。。等下一代再买吧。。"
+   },
+   "public_metrics": {
+    "bookmark_count": 39,
+    "impression_count": 28697,
+    "like_count": 97,
+    "quote_count": 3,
+    "reply_count": 15,
+    "repost_count": 13
+   },
+   "text": "iPhone Duo大批量屏幕碎裂的原因找到了？\n\n昨天，苹果首款折叠屏iPhone Duo正式开售，结果国内外接连出现多起内屏开裂、爆线的报告。\n\n最奇怪的是，这些机器的损坏位置几乎一模一样：屏幕沿着折叠轴出现一道黑色竖线，随后向右侧延伸出一条横向亮线，形成类似L形或T形的故障痕迹。 https://t.co/UGJOkCJTNt",
+   "url": "https://x.com/MaxForAI/status/2113990493151674491"
+  }
+ ],
+ "longform_includes": {
+  "media": [
+   {
+    "media_key": "3_2114037658058141696",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVaSDKJasAAJRQr.jpg"
+   },
+   {
+    "media_key": "3_2113992316390354944",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVZoz7RaMAAT6D1.jpg"
+   },
+   {
+    "media_key": "3_2113891370196996096",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVYNAFZbEAAc6nq.jpg"
+   },
+   {
+    "media_key": "3_2113886546285969408",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVYInS7aQAAdBeX.jpg"
+   },
+   {
+    "media_key": "3_2113877684459917312",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVYAjeDb0AASwzX.jpg"
+   },
+   {
+    "media_key": "3_2113877684413673473",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVYAjd4aMAEVQgO.jpg"
+   },
+   {
+    "media_key": "3_2113877684409585664",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVYAjd3b0AAVMe5.jpg"
+   },
+   {
+    "media_key": "3_2113877930917134336",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVYAx0LagAAE4zu.jpg"
+   },
+   {
+    "media_key": "3_2113763848926707712",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVWZBXpWwAAOaAS.jpg"
+   },
+   {
+    "media_key": "3_2113850800795701248",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVXoGomaUAAoDRg.jpg"
+   },
+   {
+    "media_key": "3_2113785278301360128",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVWsguSaUAA5pHR.jpg"
+   },
+   {
+    "media_key": "3_2113785289265270784",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVWshXIaUAAPfyO.jpg"
+   },
+   {
+    "media_key": "3_2113873191215288320",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVX8d7ab0AAWyxT.jpg"
+   },
+   {
+    "media_key": "3_2114089660095889409",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVbBWE1XgAEufma.png"
+   },
+   {
+    "duration_ms": 51833,
+    "media_key": "13_2113400649283170305",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2113400649283170305/img/1h0pyXmoOP38UuxR.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 632000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2113400649283170305/vid/avc1/320x400/Lq5BrmKNkMDAvbDr.mp4?tag=16"
+     },
+     {
+      "bit_rate": 950000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2113400649283170305/vid/avc1/480x600/vuCllqUNqXwWzmKZ.mp4?tag=16"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2113400649283170305/pl/-2dxXKajWTPalW5b.m3u8?tag=16"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2113400649283170305/vid/avc1/720x900/fEr4yTHYyBsVwFkl.mp4?tag=16"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2113400649283170305/vid/avc1/1080x1350/rtLmOQHZlaKmtUQG.mp4?tag=16"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2113933473161334784",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVYzSzKW0AAlSX4.jpg"
+   },
+   {
+    "media_key": "3_2113933473232646144",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVYzSzbW8AAFalK.jpg"
+   },
+   {
+    "duration_ms": 37791,
+    "media_key": "13_2113996487868960769",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2113996487868960769/img/4tpbN3VfD6-LRgQL.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2113996487868960769/vid/avc1/1280x720/CY7RRKQopGKannlJ.mp4"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2113996487868960769/vid/avc1/1920x1080/6l6Z7MsN7F9mvq2Z.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2113996487868960769/vid/avc1/480x270/jGNTjt6Y3KmO69GP.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2113996487868960769/pl/Qe-sSBtIVUc8NTj0.m3u8?v=4fb"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2113996487868960769/vid/avc1/640x360/JAP7G8YAZ9_Wf9-m.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2113990474918973440",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVZnIvQa0AA6SlR.jpg"
+   }
+  ],
+  "posts": [
+   {
+    "author_id": "73253803",
+    "created_at": "2026-10-24T12:33:36.000Z",
+    "edit_history_post_ids": [
+     "2113972174524674247"
+    ],
+    "id": "2113972174524674247",
+    "note_tweet": {
+     "text": "Yesterday was my last day at Anthropic.\n \nI created Claude Code on desktop because I believe everyone can be a builder. Every feature request and bug report we got from this community was a gift that impacted millions of lives. I’m eternally grateful for those gifts, the product wouldn’t be what it is without you.\n \nAnthropic is doing some of the most important work of our time. Contributing to that mission will forever be a career highlight for me. I never imagined I’d get to contribute to something so special in my lifetime.\n\nWalking away from my best friends, a product I poured my heart into, and the mission was the hardest thing I’ve done in my career. But now I have some free time for GTA VI.\n\nI'm already itching to get back to addressing all your feedback. I'll share what's next soon!"
+    },
+    "public_metrics": {
+     "bookmark_count": 906,
+     "impression_count": 612518,
+     "like_count": 7336,
+     "quote_count": 206,
+     "reply_count": 701,
+     "repost_count": 204
+    },
+    "text": "Yesterday was my last day at Anthropic.\n \nI created Claude Code on desktop because I believe everyone can be a builder. Every feature request and bug report we got from this community was a gift that impacted millions of lives. I’m eternally grateful for those gifts, the product"
+   },
+   {
+    "author_id": "2867689615",
+    "created_at": "2026-10-24T01:49:36.000Z",
+    "edit_history_post_ids": [
+     "2113810106177773587"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 76,
+       "id": "2014504062797152256",
+       "start": 65,
+       "username": "typesafeai"
+      }
+     ],
+     "urls": [
+      {
+       "description": "GitHub Gist: instantly share code, notes, and snippets.",
+       "display_url": "gist.github.com/diogo149/81003…",
+       "end": 277,
+       "expanded_url": "https://gist.github.com/diogo149/810037374943dae22ff251941346b4e8",
+       "images": [
+        {
+         "height": 640,
+         "url": "https://pbs.twimg.com/news_img/2113810108421722112/57Pi-my0?format=png&name=orig",
+         "width": 1280
+        },
+        {
+         "height": 150,
+         "url": "https://pbs.twimg.com/news_img/2113810108421722112/57Pi-my0?format=png&name=150x150",
+         "width": 150
+        }
+       ],
+       "start": 254,
+       "status": 200,
+       "title": "outputs.json",
+       "unwound_url": "https://gist.github.com/diogo149/810037374943dae22ff251941346b4e8",
+       "url": "https://t.co/HWKvYpHS8V"
+      }
+     ]
+    },
+    "id": "2113810106177773587",
+    "public_metrics": {
+     "bookmark_count": 1338,
+     "impression_count": 972716,
+     "like_count": 5489,
+     "quote_count": 241,
+     "reply_count": 419,
+     "repost_count": 281
+    },
+    "text": "despite the unfortunate timing, we take disclosures seriously at @typesafeai\n\nat approximately 6:49PM this Friday evening, we became aware of a massive unauthorized leak of ALL customer noul outputs\n\nin effort to maximize transparency, here is the link: https://t.co/HWKvYpHS8V"
+   },
+   {
+    "author_id": "381289719",
+    "created_at": "2026-10-24T01:55:13.000Z",
+    "edit_history_post_ids": [
+     "2113811517955260525"
+    ],
+    "id": "2113811517955260525",
+    "public_metrics": {
+     "bookmark_count": 2981,
+     "impression_count": 517073,
+     "like_count": 11677,
+     "quote_count": 261,
+     "reply_count": 345,
+     "repost_count": 1582
+    },
+    "text": "The problem isn’t that AI is intelligent. It isn’t. The problem is that too many adults (but not all) are at once mechanistic, imitative, unimaginative, stupid, formulaic, influenceable, &amp; gullible, arrogant beyond their skill set, &amp; too expensive to maintain."
+   },
+   {
+    "author_id": "352806502",
+    "created_at": "2026-10-24T04:23:51.000Z",
+    "edit_history_post_ids": [
+     "2113848923945304528"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 12,
+       "id": "879696238953865217",
+       "start": 0,
+       "username": "lydiahallie"
+      }
+     ]
+    },
+    "id": "2113848923945304528",
+    "public_metrics": {
+     "bookmark_count": 334,
+     "impression_count": 754895,
+     "like_count": 9954,
+     "quote_count": 317,
+     "reply_count": 515,
+     "repost_count": 370
+    },
+    "referenced_tweets": [
+     {
+      "id": "2113848824229994548",
+      "type": "replied_to"
+     }
+    ],
+    "text": "@lydiahallie wait is it just me or is Opus 5.5 dumber"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2113877684459917312",
+      "3_2113877684413673473",
+      "3_2113877684409585664"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-10-24T06:18:43.000Z",
+    "edit_history_post_ids": [
+     "2113877832078438729"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/4EnQfJ1WzP",
+       "end": 44,
+       "expanded_url": "https://x.com/MaxForAI/status/2113877832078438729/photo/1",
+       "media_key": "3_2113877684459917312",
+       "start": 21,
+       "url": "https://t.co/4EnQfJ1WzP"
+      },
+      {
+       "display_url": "pic.x.com/4EnQfJ1WzP",
+       "end": 44,
+       "expanded_url": "https://x.com/MaxForAI/status/2113877832078438729/photo/1",
+       "media_key": "3_2113877684413673473",
+       "start": 21,
+       "url": "https://t.co/4EnQfJ1WzP"
+      },
+      {
+       "display_url": "pic.x.com/4EnQfJ1WzP",
+       "end": 44,
+       "expanded_url": "https://x.com/MaxForAI/status/2113877832078438729/photo/1",
+       "media_key": "3_2113877684409585664",
+       "start": 21,
+       "url": "https://t.co/4EnQfJ1WzP"
+      }
+     ]
+    },
+    "id": "2113877832078438729",
+    "public_metrics": {
+     "bookmark_count": 32,
+     "impression_count": 35585,
+     "like_count": 116,
+     "quote_count": 1,
+     "reply_count": 15,
+     "repost_count": 5
+    },
+    "text": "不要给你的DeepSeek上贴吧的权限🤣 https://t.co/4EnQfJ1WzP"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2113763848926707712"
+     ]
+    },
+    "author_id": "1952717074301693952",
+    "created_at": "2026-10-23T23:10:11.000Z",
+    "edit_history_post_ids": [
+     "2113769988813144118"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/6VADyfAet7",
+       "end": 249,
+       "expanded_url": "https://x.com/mhelcig/status/2113769988813144118/photo/1",
+       "media_key": "3_2113763848926707712",
+       "start": 226,
+       "url": "https://t.co/6VADyfAet7"
+      }
+     ]
+    },
+    "id": "2113769988813144118",
+    "public_metrics": {
+     "bookmark_count": 1613,
+     "impression_count": 161020,
+     "like_count": 1667,
+     "quote_count": 63,
+     "reply_count": 92,
+     "repost_count": 184
+    },
+    "text": "Run a 763B-parameter model locally. DeepSeek-V4.1-Flash-1017 on a 12GB GPU.\n\nFrontier quality with GSQ-RCO quants, directly supported in the Strata inference engine.\n\nFurther info below. Much more to come. Follow for updates. https://t.co/6VADyfAet7"
+   },
+   {
+    "author_id": "352806502",
+    "created_at": "2026-10-24T04:04:29.000Z",
+    "edit_history_post_ids": [
+     "2113844051938054167"
+    ],
+    "id": "2113844051938054167",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 910,
+        "id": "35432643",
+        "start": 899,
+        "username": "addyosmani"
+       },
+       {
+        "end": 925,
+        "id": "879696238953865217",
+        "start": 913,
+        "username": "lydiahallie"
+       },
+       {
+        "end": 934,
+        "id": "974757274206978049",
+        "start": 927,
+        "username": "_catwu"
+       },
+       {
+        "end": 947,
+        "id": "2024518793679294464",
+        "start": 936,
+        "username": "ClaudeDevs"
+       },
+       {
+        "end": 971,
+        "id": "159337660",
+        "start": 963,
+        "username": "bcherny"
+       }
+      ]
+     },
+     "text": "I’ve left Anthropic after more than a year of working on Claude Code and seeing it scale larger than I ever imagined.\n\nI have really loved working at Ant and believe deeply in the mission, and most of all, the idea of a race to the top.\n\nThe idea that if we work hard and responsibly, we can raise the bar and inspire others to great outcomes. And if we all push each other to be better, things can be radically good. I will carry the spirit of this with me forever.\n\nMy colleagues at Anthropic are the most talented, thoughtful, competent, and earnest people I have ever met. I am glad they are at the wheel and trust them deeply.\n\nTo the community on X, thank you for everything. You’ve made this the most fun (and sometimes stressful) job I’ve ever had.\n\nFor me, it is time for a bit of a break before diving into something new.\n\nIf you want more excellent Claude Code content, you should follow @addyosmani , @lydiahallie, @_catwu, @ClaudeDevs  and of course @bcherny who started it all."
+    },
+    "public_metrics": {
+     "bookmark_count": 5434,
+     "impression_count": 4132570,
+     "like_count": 27597,
+     "quote_count": 753,
+     "reply_count": 2015,
+     "repost_count": 950
+    },
+    "text": "I’ve left Anthropic after more than a year of working on Claude Code and seeing it scale larger than I ever imagined.\n\nI have really loved working at Ant and believe deeply in the mission, and most of all, the idea of a race to the top.\n\nThe idea that if we work hard and"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2113785278301360128",
+      "3_2113785289265270784"
+     ]
+    },
+    "author_id": "1982024781659803648",
+    "created_at": "2026-10-24T00:11:14.000Z",
+    "edit_history_post_ids": [
+     "2113785350921580830"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/BdOOk9DgCB",
+       "end": 43,
+       "expanded_url": "https://x.com/qingj1314/status/2113785350921580830/photo/1",
+       "media_key": "3_2113785278301360128",
+       "start": 20,
+       "url": "https://t.co/BdOOk9DgCB"
+      },
+      {
+       "display_url": "pic.x.com/BdOOk9DgCB",
+       "end": 43,
+       "expanded_url": "https://x.com/qingj1314/status/2113785350921580830/photo/1",
+       "media_key": "3_2113785289265270784",
+       "start": 20,
+       "url": "https://t.co/BdOOk9DgCB"
+      }
+     ]
+    },
+    "id": "2113785350921580830",
+    "public_metrics": {
+     "bookmark_count": 18,
+     "impression_count": 129133,
+     "like_count": 287,
+     "quote_count": 6,
+     "reply_count": 83,
+     "repost_count": 1
+    },
+    "text": "被某个AI大号洗稿了\n\n一个字都不改吗 https://t.co/BdOOk9DgCB"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2113400649283170305"
+     ]
+    },
+    "author_id": "1902403003887284224",
+    "created_at": "2026-10-22T22:42:40.000Z",
+    "edit_history_post_ids": [
+     "2113400672238616800"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "description": "Run pplx-decider-flash-v1.2 on your Mac from the menu bar and call the Decisions API at 127.0.0.1 with no API key.",
+       "display_url": "pplx.ai/decider-for-mac",
+       "end": 262,
+       "expanded_url": "https://pplx.ai/decider-for-mac",
+       "start": 239,
+       "status": 200,
+       "title": "Decider for Mac - Perplexity",
+       "unwound_url": "https://docs.perplexity.ai/docs/decisions/decider-for-mac",
+       "url": "https://t.co/1BJ4Qv3Urr"
+      },
+      {
+       "display_url": "pic.x.com/raBBZ26kbC",
+       "end": 286,
+       "expanded_url": "https://x.com/perplexitydevs/status/2113400672238616800/video/1",
+       "media_key": "13_2113400649283170305",
+       "start": 263,
+       "url": "https://t.co/raBBZ26kbC"
+      }
+     ]
+    },
+    "id": "2113400672238616800",
+    "public_metrics": {
+     "bookmark_count": 415,
+     "impression_count": 91640,
+     "like_count": 458,
+     "quote_count": 30,
+     "reply_count": 20,
+     "repost_count": 47
+    },
+    "text": "You can now run pplx-decider-flash-v1.2 locally on your Mac, without an API key.\n\nDecider for Mac is an app that runs the 4B decision model on device. Ask a question about text or an image and get a probability back, all on your machine.\n\nhttps://t.co/1BJ4Qv3Urr https://t.co/raBBZ26kbC"
+   },
+   {
+    "author_id": "879696238953865217",
+    "created_at": "2026-10-24T04:23:27.000Z",
+    "edit_history_post_ids": [
+     "2113848824229994548"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 7,
+       "id": "352806502",
+       "start": 0,
+       "username": "trq212"
+      }
+     ]
+    },
+    "id": "2113848824229994548",
+    "public_metrics": {
+     "bookmark_count": 42,
+     "impression_count": 266736,
+     "like_count": 1649,
+     "quote_count": 1,
+     "reply_count": 7,
+     "repost_count": 4
+    },
+    "referenced_tweets": [
+     {
+      "id": "2113844051938054167",
+      "type": "replied_to"
+     }
+    ],
+    "text": "@trq212 😭😭 we'll miss you thariq!! it was so inspiring to work with you, i know you'll crush whatever's next (and looking forward to your claude code feedback!)"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2113996487868960769"
+     ]
+    },
+    "author_id": "1895453094361890816",
+    "created_at": "2026-10-24T14:11:34.000Z",
+    "edit_history_post_ids": [
+     "2113996828379336979"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/pU9f1NnPJJ",
+       "end": 299,
+       "expanded_url": "https://x.com/higgsfield/status/2113996828379336979/video/1",
+       "media_key": "13_2113996487868960769",
+       "start": 276,
+       "url": "https://t.co/pU9f1NnPJJ"
+      },
+      {
+       "display_url": "x.com/business/statu…",
+       "end": 323,
+       "expanded_url": "https://twitter.com/business/status/2113540985388929500",
+       "start": 300,
+       "url": "https://t.co/DuqdoLALyt"
+      }
+     ]
+    },
+    "id": "2113996828379336979",
+    "note_tweet": {
+     "text": "Jensen Huang: “… the founders of Higgsfield are visionary in the work that they do … but these are some of the brightest people in the world.”\n\nWe're grateful to Jensen and the teams at NVIDIA and TCV for believing in us. Both companies have joined Higgsfield as investors in our Series B\nextension.\n\nSince our August Series B:\n• We’ve crossed $1 billion in annualized revenue.\n• Enterprise contracts are up 71%, growing 100%+ month-over-month\n• We’ve grown from 30 million to over 40 million users globally.\n\nTCV has backed Netflix, Facebook, ByteDance and Spotify, companies that changed how people create and consume media. NVIDIA has powered every generation of Higgsfield, from L40 and A40 GPUs through Hopper and Blackwell, with Vera Rubin next to meet growing demand.\n\nThank you to our creators and customers for building with us every day, and to everyone at Higgsfield whose work brought us here.\n\nThe full Bloomberg Announcement is linked below."
+    },
+    "public_metrics": {
+     "bookmark_count": 645,
+     "impression_count": 419394,
+     "like_count": 891,
+     "quote_count": 91,
+     "reply_count": 110,
+     "repost_count": 312
+    },
+    "referenced_tweets": [
+     {
+      "id": "2113540985388929500",
+      "type": "quoted"
+     }
+    ],
+    "text": "Jensen Huang: “… the founders of Higgsfield are visionary in the work that they do … but these are some of the brightest people in the world.”\n\nWe're grateful to Jensen and the teams at NVIDIA and TCV for believing in us. Both companies have joined Higgsfield as investors in https://t.co/pU9f1NnPJJ https://t.co/DuqdoLALyt"
+   }
+  ],
+  "users": [
+   {
+    "id": "1492195583699951620",
+    "name": "数字生命卡兹克",
+    "username": "Khazix0918"
+   },
+   {
+    "id": "1699797396589588480",
+    "name": "Max For AI",
+    "username": "MaxForAI"
+   },
+   {
+    "id": "3980735590",
+    "name": "🚨 AI News | TestingCatalog",
+    "username": "testingcatalog"
+   },
+   {
+    "id": "1764818331822182400",
+    "name": "小互",
+    "username": "xiaohu"
+   },
+   {
+    "id": "73253803",
+    "name": "Anthony Morris ツ",
+    "username": "amorriscode"
+   },
+   {
+    "id": "352806502",
+    "name": "Thariq",
+    "username": "trq212"
+   },
+   {
+    "id": "1952717074301693952",
+    "name": "Michael Helcig",
+    "username": "mhelcig"
+   },
+   {
+    "id": "2867689615",
+    "name": "Diogo Almeida",
+    "username": "CompleteSkeptic"
+   },
+   {
+    "id": "381289719",
+    "name": "Nassim Nicholas Taleb",
+    "username": "nntaleb"
+   },
+   {
+    "id": "1902403003887284224",
+    "name": "Perplexity Developers",
+    "username": "perplexitydevs"
+   },
+   {
+    "id": "1982024781659803648",
+    "name": "情酱",
+    "username": "qingj1314"
+   },
+   {
+    "id": "1570599115",
+    "name": "Alex 🧩 Scaling Video GenAI",
+    "username": "alexmashrabov"
+   }
+  ]
+ },
+ "aux_search": null,
+ "selected_ids": [
+  "2113829042487267393",
+  "2114040966781042913",
+  "2113850811251827075",
+  "2114037768305430909",
+  "2113992325395546256",
+  "2113861921040740839",
+  "2113933478056087821",
+  "2114092099541074101",
+  "2113838156193894447",
+  "2113877832078438729",
+  "2113988769171018143",
+  "2113987566781514140"
+ ]
+}

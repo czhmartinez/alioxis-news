@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-17",
+  "method": "public X MCP namespace x",
+  "start_time": "2026-10-15T20:00:00Z",
+  "exclude": "replies",
+  "handles": {
+    "Khazix0918": {
+      "user_id": "1492195583699951620",
+      "raw_count": 2,
+      "note": "RTX Spark + Kling 4.0 article"
+    },
+    "MaxForAI": {
+      "user_id": "1699797396589588480",
+      "raw_count": 27,
+      "note": "25 first page + 3 pagination (1 overlap reply chain)"
+    },
+    "xiaohu": {
+      "user_id": "1764818331822182400",
+      "raw_count": 8,
+      "note": "many Roadster non-AI; 1 Codex selected"
+    },
+    "thsottiaux": {
+      "user_id": "1953337039510003712",
+      "raw_count": 6,
+      "note": "Day 12 + GPT-6 Pro replies"
+    },
+    "testingcatalog": {
+      "user_id": "3980735590",
+      "raw_count": 14,
+      "note": "2 skipped as prior-day URL dup (Argon, FLUX3)"
+    },
+    "gengdaJ": {
+      "user_id": "1897545708770840576",
+      "raw_count": 0,
+      "note": "no posts in window"
+    }
+  },
+  "selected_urls": [
+    "https://x.com/MaxForAI/status/2111089608020664680",
+    "https://x.com/Khazix0918/status/2111078005330399726",
+    "https://x.com/Khazix0918/status/2110914404393091205",
+    "https://x.com/MaxForAI/status/2111077609186713690",
+    "https://x.com/MaxForAI/status/2110923965107704110",
+    "https://x.com/MaxForAI/status/2110934488507392255",
+    "https://x.com/MaxForAI/status/2111071676607943087",
+    "https://x.com/MaxForAI/status/2110965605813961074",
+    "https://x.com/MaxForAI/status/2110918306190524615",
+    "https://x.com/MaxForAI/status/2110922653246894238",
+    "https://x.com/MaxForAI/status/2110936912521560180",
+    "https://x.com/thsottiaux/status/2111244596131111253",
+    "https://x.com/testingcatalog/status/2111199863689879841",
+    "https://x.com/testingcatalog/status/2111181283355218026",
+    "https://x.com/testingcatalog/status/2111174690337177607",
+    "https://x.com/testingcatalog/status/2111144801710006394",
+    "https://x.com/testingcatalog/status/2111130452111114618",
+    "https://x.com/xiaohu/status/2111040270028714235"
+  ]
+}

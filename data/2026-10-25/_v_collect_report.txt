@@ -1,0 +1,47 @@
+大V视野收集报告 — 2026-10-25（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用 2026-10-24 _v_raw_mcp.json 中已解析的 id → get_users_posts（exclude=replies, start_time=2026-10-23T20:00:00Z, max_results=25；@MaxForAI 40；@testingcatalog 50；均未返回 next_token，无需翻页）
+- 长文补全：get_posts_by_ids（note_tweet / article，26 个 id，含卡兹克 X 长文 article 全文《Kimi K3.1 Pro来了，国产模型审美的新巅峰。》、Max 长帖（Claude Code 成员离职两帖、MiniMax H3 日本、豆包救人、DeepSeek 763B 量化、typesafe 泄露、塔勒布、iPhone Duo 碎屏、贴吧大肥鱼及自回复）、小互 Codex 额度、TestingCatalog SI 命名与 Decider for Mac，以及被引用的 @trq212 / @amorriscode 告别帖、@trq212 Opus 5.5 帖、@mhelcig Strata 原帖、@CompleteSkeptic 公告、@nntaleb 原帖、@perplexitydevs Decider for Mac 原帖、Higgsfield 投资原帖）
+- 另用 curl 读取 Max 两条纯图帖的配图以核实内容（贴吧大肥鱼聊天截图、AI 应用贴纸投票墙）
+- 未使用浏览器关注页；未使用 user-X；本次共 7 次 X 读取（6 次 get_users_posts + 1 次 get_posts_by_ids）
+
+入选：12 条
+各 handle 入选计数：
+  @Khazix0918: 1
+  @MaxForAI: 7（Claude Code 两人离职 + Thariq「Opus 5.5 变笨」合并为一条）
+  @xiaohu: 1
+  @thsottiaux: 1（「Don't be a tool」+ Dots 招聘合并为一条）
+  @testingcatalog: 2
+  @gengdaJ: 0
+
+原始拉取条数摘要：
+  @Khazix0918: 1（长文《Kimi K3.1 Pro来了，国产模型审美的新巅峰。》）
+  @MaxForAI: 16（含链接自回复 3、iPhone Duo 碎屏 1、梗图 2、洗稿致歉 1）
+  @xiaohu: 2（Codex 额度吐槽 + RT Higgsfield 获英伟达投资）
+  @thsottiaux: 5（其中 Day 19 主帖 + CLI 自回复已于 10-24 收录；Don't be a tool、Dots 招聘、周六修 bug 闲聊）
+  @testingcatalog: 8（其中 6 条为 10-23 20:43–22:56Z，已于 10-24 收录或判定跳过；新增 Google SI 命名、Perplexity Decider for Mac、DAILY AI BRIEF Oct 24）
+  @gengdaJ: 2（均为无评论转推：ElevenCreative、Higgsfield）
+
+Lead：卡兹克通宵实测 Kimi K3.1 Pro：3D 与空间理解已能和 GPT-6 Astra 掰手腕，视频动效是国产模型最大进步
+Lead URL：https://x.com/Khazix0918/status/2113829042487267393
+（K3.1 Pro 发布已是 10-24 两个页签的主题，但卡兹克这篇是通宵上手实测的独家长文——3D 果冻/机械键盘/户型图漫游/办公室视频建模/近半小时科普视频，角度与昨日 Max 的参数解读不重复；今日 AIHOT 头条为 OpenAI 智能体借 CPU 缓存隐蔽通信，两页签头条不同题。生成时 data/2026-10-25/ai.json 尚不存在）
+
+筛选说明：
+- 本时段六个账号原创 AI 内容整体偏少（卡兹克 1、小互 1、逸尘 0 原创），仅够 12 条，已到下限，未为凑数收录 RT 或碎片
+- 跳过梗图/非 AI：Max「果然，中国人最恨的模型是Claude！」（展会贴纸投票墙照片，无文字信息）、「iPhone Duo 大批量屏幕碎裂」与「HTX 的 CT 检查链接」（非 AI）；Tibo「周六修 bug，SF 有什么好去处」
+- 跳过碎片/致歉：Max「原帖」「@MiniMax_AI 原文链接」自回复、「草，居然是推友原创的吗…非常抱歉」（洗稿致歉，非内容）；Max「Thariq 离职后质疑 Opus 5.5 变笨」并入 Claude Code 离职条；Max 贴吧大肥鱼自回复并入主条
+- 跳过转推无评论：小互 / 逸尘 RT Higgsfield 获英伟达投资（10-24 v.json 已收 Max Higgsfield 追加投资）、逸尘 RT ElevenCreative
+- 跳过汇总：TestingCatalog DAILY AI BRIEF Oct 24
+- 已收录/旧闻：Tibo Day 19 + CLI 自回复（10-24 已收）；TestingCatalog OpenAI 恢复前沿训练、Mubit + Banyan Sapling、Grok Bot Vault、Jack Dorsey Dessa（均已于 10-24 收录）
+- 与 2026-10-11～10-24 v.json 及 ai.json 去重（437 个 URL，见 _prior_urls.json；10-12、10-13 无数据）：入选 12 条无重复 URL
+- 三位优先账号：卡兹克 1、Max 7、小互 1（卡兹克、小互本时段原创 AI 内容各仅 1 条，全部入选）
+
+输出文件：
+  data/2026-10-25/v.json
+  data/2026-10-25/_cover_prompts_v.json
+  data/2026-10-25/_v_raw_mcp.json
+  data/2026-10-25/_v_collect_report.txt
+  data/2026-10-25/_prior_urls.json
+
+未执行：build / 生图 / 发布

@@ -1,0 +1,10 @@
+Alioxis News 大V视野 browser scrape notes — 2026-10-07 Asia/Taipei
+Source: _v_raw_posts.md (read-only logged-in X collection ~08:15, window since 2026-10-06 08:00 Taipei; 22 kept posts in raw). Login fine (no wall); home 正在关注 dominated by @ChineseWSJ/@zaobaosg/ads, so priority profiles used. X tab later stalled on "Loading…".
+Profiles: @Khazix0918 3 kept (企业中台 / AIHOT 性价比帕累托 / Claude 中文; image-only self-reply folded into the Claude-中文 item),
+@MaxForAI 2 seen / 1 kept (skipped 「字节员工：想当黄毛」 non-AI meme), @xiaohu 3 kept (Higgsfield quote is marked paid partnership — kept for xiaohu's own playbook commentary; SemiAnalysis thread sibling 2107385445021847636 not listed twice),
+@thsottiaux 6 seen / 3 kept (math blog, Day 2 roundup, Day 2.1 Auto-review; Day 2.2 API tiers / 2.3 Meetings / 2.4 Decisions API merged into the roundup summary; 2 poll-only posts skipped),
+@testingcatalog 8 seen / 6 kept (skipped OpenAI math-repo post — same story as Tibo's math item; skipped Sesame eyewear-2027 post — folded into the Sesame upgrade item; AgentID & Ampersand kept as product/funding news, quoted launch posts are paid partnerships — noted in summaries),
+@zaobaosg 0 (all in-window posts non-AI), @nanyuan0412 nothing in window, @gengdaJ Higgsfield paid-partnership ad skipped, @Fukugyo_clinic 2 note-monetization promos skipped.
+published_at = post-ID (snowflake) timestamp = UI time, rounded to nearest hour (+08:00). Note: a few raw "Time:" lines disagreed with their UI time (e.g. Tibo Day 2.1 raw 01:20 vs UI/ID 15:13); UI/ID time used.
+Overlap with ai.json is topical only (math, Decisions API, Claude×Google Workspace, EmbeddingGemma 2) — no URL appears in both.
+Unique kept: 16. Breakdown: @Khazix0918 3 / @MaxForAI 1 / @xiaohu 3 / @thsottiaux 3 / @testingcatalog 6.

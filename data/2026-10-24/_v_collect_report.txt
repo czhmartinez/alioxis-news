@@ -1,0 +1,47 @@
+大V视野收集报告 — 2026-10-24（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用 2026-10-23 _v_raw_mcp.json 中已解析的 id → get_users_posts（exclude=replies, start_time=2026-10-22T20:00:00Z, max_results=25；@MaxForAI 40 并翻 1 页；@testingcatalog 50 并翻 1 页）
+- 长文补全：get_posts_by_ids（note_tweet / article，36 个 id，含卡兹克 X 长文 article 全文、Max 长帖（Kimi K3.1 发布前后、晚点投毒复盘、Higgsfield、国务院文件、Warp）、小互 EdgeRock 自线程、Tibo Day 18/19 与 CLI 自回复、TestingCatalog 长帖，以及被引用的 Kimi 官方发布、Arena WebDev 排名、OpenAI 训练环境声明、Jack Dorsey Dessa、MiniMax 权重、Mubit、phoneuse 原帖）
+- 未使用浏览器关注页；未使用 user-X；本次共 9 次 X 读取（6 次 get_users_posts + 2 次翻页 + 1 次 get_posts_by_ids）
+- x-api-mcp-guide Skill：本执行环境无 Skill 工具，未加载；直接按 GetDynamicTools 的 schema 调用
+
+入选：18 条
+各 handle 入选计数：
+  @Khazix0918: 1
+  @MaxForAI: 5
+  @xiaohu: 1
+  @thsottiaux: 1（Day 18 + Day 19 + CLI 自回复合并为一条）
+  @testingcatalog: 8
+  @gengdaJ: 2
+
+原始拉取条数摘要：
+  @Khazix0918: 1（长文《我好像陷入了某种，AI时代的虚无主义。》）
+  @MaxForAI: 35（两页；第二页 11 条均为 10-22 20:11–21:36Z，与昨日窗口重叠；含 RT 1、自回复碎片若干、梗图/短评若干）
+  @xiaohu: 4（EdgeRock 主帖 + 2 条自回复、「牛p」引用 iPhone Duo Tiny Computers）
+  @thsottiaux: 4（Day 18 + 「Landing tomorrow」自回复、Day 19 + CLI 自回复）
+  @testingcatalog: 28（两页；含 Kling 4.0 自线程 3、Kimi 相关 5、DAILY AI BRIEF 2、赞助/产品自回复若干）
+  @gengdaJ: 5（Monid 主帖 + 链接自回复、phoneuse 引用帖、链接碎片、RT Ideogram 矢量模型）
+
+Lead：卡兹克长文：我好像陷入了某种「AI 时代的虚无主义」——技能树被一键点亮之后，人该如何快乐地生活
+Lead URL：https://x.com/Khazix0918/status/2113466426216583632
+（今日 AIHOT 头条为 Kimi K3.1 Pro 发布，AI新闻页签大概率同题；为避免两个页签头条同题，大V视野头条选优先账号卡兹克的独家长文，Max 的 Kimi K3.1 Pro 解读放第 1 条。生成时 data/2026-10-24/ai.json 尚不存在）
+
+筛选说明：
+- 跳过梗图/非 AI：Max「我就说 ChatGPT 很智能吧」「豆姐：明明我们都是国摸的」「GPT-3.5 下线日小号解封」「看了这张图我觉得人类又有希望了」「iPhone Duo 折痕贴膜」「Anthropic 安全主管真会说话」「大厂漏音癖」「老登」「1024 程序员节」、RT「codex 现在跟路边的野狗没区别了」；小互「牛p」（iPhone Duo 复古电脑 App，非 AI）；逸尘 RT Ideogram（转推无评论）
+- 跳过碎片：Max「报道原文」、「ohoh 他们来了」「3.1 Pro* BTW」「你好啊 K3.1-Pro」「省流：K3.1」并入 Kimi 主条；Max @thsottiaux 两条回复；小互 EdgeRock 两条自回复并入主帖；Tibo「Landing tomorrow」与 CLI 自回复并入 Day 18–19 条；TestingCatalog Kimi 预告/灰度上线/「Documented」「Early outputs」并入 Kimi Arena 条，Banyan Sapling 自回复并入 Mubit 条，Kylon「We tagged」、MonoDesk 自回复、Daily AI Brief 邮件订阅自回复；逸尘 Monid 链接自回复与链接碎片
+- 跳过赞助/弱相关产品：TestingCatalog Kylon Annotations、Envato MonoDesk、Meta Muse 日本上线（仅一句扩区，Muse 近两周已多次收录）
+- 跳过汇总：TestingCatalog DAILY AI BRIEF Oct 23
+- 同题旧闻：TestingCatalog Kling 4.0 自线程（可灵 4.0 已见 10-16/10-17，今日 AIHOT 亦有）；TestingCatalog Kimi K3.1 Pro 官方公告帖（与 Max 主条同题，保留 Arena 排名角度一条）；Max Kevin Weil Warp Sciences（10-23 ai.json 已收）；Max 红杉 Stephanie Zhan 基金、GovAI 中国 RSI、Levie 网安岗位、DeepMind 不贬损条款、英国警察 Copilot（昨日已判定跳过）
+- 与 2026-10-10～10-23 v.json 及 ai.json 去重（430 个 URL，见 _prior_urls.json；10-12、10-13 无数据）：命中重复已剔除 Max METR 监控评估、Max Claude 招聘助手、Max Quant-Arena、Max Claude API 新版本、Max Agent Skills 捐赠、TestingCatalog Claude on GCP / Grok Bot 系统应用 / Decisions API / Claude auto mode；入选 18 条无重复 URL
+- 与今日 AIHOT 有交叠（保留，按大V视角成文）：Kimi K3.1 Pro、MiniMax M3.1 Flash 权重公开（10-20 已收官宣，今日为权重开放新进展）
+- 三位优先账号：卡兹克 1、Max 5、小互 1（卡兹克、小互本时段原创 AI 内容各仅 1 条）
+
+输出文件：
+  data/2026-10-24/v.json
+  data/2026-10-24/_cover_prompts_v.json
+  data/2026-10-24/_v_raw_mcp.json
+  data/2026-10-24/_v_collect_report.txt
+  data/2026-10-24/_prior_urls.json
+
+未执行：build / 生图 / 发布

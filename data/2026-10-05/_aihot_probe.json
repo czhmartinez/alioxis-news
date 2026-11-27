@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-05T08:24:07.520519+08:00",
+  "dated": {
+    "url": "https://aihot.news/api/v1/dailies/2026-10-05",
+    "http": "404"
+  },
+  "agent_daily": {
+    "url": "https://aihot.news/api/v1/agent/daily/2026-10-05",
+    "http": "404"
+  },
+  "html": {
+    "url": "https://aihot.news/daily/2026-10-05",
+    "http": "404"
+  },
+  "latest_date": "2026-10-04",
+  "note": "No 2026-10-05 daily yet; fetch-aihot-daily.js fell back to 2026-10-04 → saved as _aihot_daily_fallback_2026-10-04.json (NOT _aihot_daily.json, to avoid stale 今日日报 strip)."
+}

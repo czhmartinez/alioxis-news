@@ -1,0 +1,287 @@
+[
+  {
+    "title": "OpenAI 发布 GPT-6 Cyber：ExploitGym 48.5%、Firefox 新挖出 81 个高危漏洞，仅限 Daybreak Red 审核客户",
+    "summary": "OpenAI 于 11 月 5 日发布网络安全专用模型 GPT-6 Cyber，面向已通过审核的 Daybreak Red 客户，经 API 与 Codex 开放，用于授权范围内的漏洞发现、验证与补丁草拟。ExploitGym 得分 48.5%，相对 GPT-5.6 Cyber 的 32.1% 提升约 16 个百分点（相对改进约 51%）；无部署安全提示时越权利用 out-of-scope 服务比例仅 0.07%（即 99.93% 留在授权范围），加提示后为 100%。公司称该模型已帮助在 Firefox 中发现 81 个此前未知的高严重度漏洞（Mozilla 已开始落地修复），并在 Linux 内核侧开发出 948 个提权 exploit；按准备度框架，网络安全能力从 High 升至 Critical。系统卡与 The Verge、CSO Online 交叉核实；初始仅向部分 Daybreak Red 客户开放，计划逐步扩至全部。",
+    "url": "https://openai.com/index/introducing-gpt-6-cyber/",
+    "source": "OpenAI",
+    "published_at": "2026-11-05T13:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6 Cyber",
+      "网络安全",
+      "Daybreak",
+      "漏洞发现"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-00.jpg"
+  },
+  {
+    "title": "Thinking Machines 发布第二代 Inkling 2 Small：594B MoE、17B 激活，AA 智能指数约 31，下周拟开源 Apache 2.0 权重",
+    "summary": "Mira Murati 创立的 Thinking Machines Lab 于 11 月 5 日发布第二代模型 Inkling 2 Small：5940 亿总参数、170 亿激活的 MoE，支持图像输入与 variable effort。公司称 Artificial Analysis Intelligence Index 得分约 31（表格中为 30.6），在长程自主编码、视觉与知识工作上较上一代明显提升；可先经 Tinker 试用与微调，权重暂闭源，拟在外部安全测评与红队完成后于下周以 Apache 2.0 开放完整权重。预训练约 8.4 万亿 token，主 RL 跑约 9 天、2048 GPU、逾 1700 万次 rollout。数字均为官方口径，第三方复测尚未全面出炉。",
+    "url": "https://thinkingmachines.ai/news/inkling-2-small/",
+    "source": "Thinking Machines Lab",
+    "published_at": "2026-11-05T12:00:00+08:00",
+    "tags": [
+      "Thinking Machines",
+      "Inkling 2 Small",
+      "开源模型",
+      "MoE",
+      "Tinker"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-01.jpg"
+  },
+  {
+    "title": "Google 发布 Gemini Omni 1.2 Flash：原生最长 15 秒视频、多轮对话改片，720p 降至每秒 0.07 美元",
+    "summary": "Google DeepMind 于 11 月 5 日宣布 Gemini Omni 1.2 Flash 在 Gemini API 与企业侧全面可用：原生视频时长由 1.1 的 10 秒提升至最长 15 秒，可按 3–15 秒以 1 秒步进指定；支持多轮对话式编辑（换背景、调光线等）而无需整段重生成；参考图一致性、连续运镜与多角色口型同步也有加强。相对 Omni 1.1 价格下调约 30%，720p 报价为每秒 0.07 美元；可先以 360p/720p 草稿再升至 1080p/4K。输出带 SynthID 水印。The Decoder 与 The Verge 短讯交叉确认。",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+    "source": "Google Blog",
+    "published_at": "2026-11-05T20:00:00+08:00",
+    "tags": [
+      "Google",
+      "Gemini Omni",
+      "视频生成",
+      "DeepMind",
+      "API"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-02.jpg"
+  },
+  {
+    "title": "Claude 推出 Personal Finance：经 Plaid 只读接入银行与信用卡，美国 Pro/Max/Ultra 本周起 Beta",
+    "summary": "Anthropic 于 11 月 5 日宣布 Claude 新增 Personal Finance：用户经 Plaid 自行登录银行授权后，可用自然语言询问本月花销分类、账单提醒、重复扣款或异常费用等；访问只读，不能转账、投资或推销自营金融产品。可见信息包括银行名、账户类型与后四位、余额与信用额度，以及最多约两年交易记录；理财 Hub 内对话不用于模型训练。本周起向美国 Pro、Max、Ultra 用户滚动开放 Beta。TechCrunch 与 The Verge 交叉报道；公司强调回答可能出错，重要数字需自行与银行核对，且不做投资建议。",
+    "url": "https://claude.com/blog/introducing-personal-finance-in-claude",
+    "source": "Anthropic",
+    "published_at": "2026-11-06T02:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "Personal Finance",
+      "Plaid",
+      "个人理财"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-03.jpg"
+  },
+  {
+    "title": "美国中期选举「蓝潮」冲击 AI：44 项地方数据中心暂停案通过 43 项，民调 76% 反对在社区建机房",
+    "summary": "The Verge 11 月 5 日报道：民主党拿下参众两院后，多场竞选以问责 AI 公司为主题，行业面临更严监管与数据中心建设放缓。当日选票上 44 项地方数据中心暂停（moratoria）提案中有 43 项通过；NBC 民调显示 76% 选民反对在社区建数据中心。得州候任州长 Gina Hinojosa 称将暂停所有数据中心审批直至立法保护居民。OpenAI、Anthropic 未对 The Verge 置评；华尔街日报称 CEO 们私下讨论算力受限。专家认为共和党此前试图禁止州级 AI 限制的努力或已终结。选举结果与民调数字以 Verge/NBC 转述为准。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1026927/total-repudiation-the-blue-wave-is-about-to-hit-ai",
+    "source": "The Verge",
+    "published_at": "2026-11-06T01:51:00+08:00",
+    "tags": [
+      "美国中期选举",
+      "数据中心",
+      "AI 监管",
+      "民主党",
+      "算力"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-04.jpg"
+  },
+  {
+    "title": "Cursor 推出「Build Live Apps」：描述需求即可搭应用、配 Postgres 与 SSO，一键发布可分享链接",
+    "summary": "Cursor 于 11 月 5 日更新 changelog：用户启动云端 Agent 并明确表示要构建应用后，系统可脚手架 Web 应用、按需拉起 Postgres、配置基于 Cursor SSO 的身份验证并托管部署；发布时自选域名并拿到可访问链接。发布前会跑确定性与 Agent 安全检查（如硬编码密钥），不通过则不会上线。团队管理员可查看全部应用与密钥、加自定义审核规则并下架应用。支持从 Cursor Origin 与 GitHub 的新/既有仓库部署；面向已开通云端 Agent 的付费计划。GitLab 等其他 git 源「即将支持」为官方预告，具体时间未写死。",
+    "url": "https://cursor.com/changelog/build-live-apps",
+    "source": "Cursor",
+    "published_at": "2026-11-05T12:00:00+08:00",
+    "tags": [
+      "Cursor",
+      "Agent",
+      "应用部署",
+      "Postgres",
+      "IDE"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-05.jpg"
+  },
+  {
+    "title": "Perplexity 推出常驻智能体 Teammates：可并行多角色、接 Computer 与 Slack，需 200 美元/月 Max",
+    "summary": "Perplexity 于 11 月 5 日推出面向工作的常驻智能体 Teammates：可在工作区内承接多个角色与长期任务，复用已有 Projects、skills 与 memory，并建立在可部署本机 Agent 的 Perplexity Computer 之上；每个 Teammate 有独立线程，也可在 Slack 中互动。The Verge 称其对标 OpenAI Dots 与 Claude Duet，但需订阅约 200 美元/月的 Max 计划，目前以网页版研究预览形式向个人 Max 用户开放。CEO Aravind Srinivas 称长期愿景是「每个组织里每人配备数百个队友」。企业计划是否默认包含、计费额度细则未在 Verge 短文中展开。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+    "source": "The Verge",
+    "published_at": "2026-11-06T06:26:00+08:00",
+    "tags": [
+      "Perplexity",
+      "Teammates",
+      "Agent",
+      "Max",
+      "Slack"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-06.jpg"
+  },
+  {
+    "title": "METR 评审 Anthropic 8 月风险报告：同意直接灾难风险「低」，但认为或已触及 2x Acceleration 预警阈值",
+    "summary": "独立安全组织 METR 于 11 月 5 日发布对 Anthropic 2026 年 8 月公开风险报告「自动化 R&D 风险」章节的评审。METR 同意：截至 7 月 15 日内部模型造成直接灾难性自动化 R&D 风险为「低」；但认为公开报告对「尚未越过 2× Acceleration 早期预警阈值」的表述偏自信——私下报告推算领先指标加速约 1.97 倍，METR 合理估计区间约 1.3–2.8，认为「已越过」具有合理可能性。公开报告称「低于 2 倍」易被读成明显低于阈值。Anthropic 对部分非公开信息行使了编辑权；METR 同时发布对 Anthropic AI R&D 加速的整体评估。",
+    "url": "https://metr.org/blog/2026-11-05-rd-section-anthropic-risk-report-august-2026-review/",
+    "source": "METR",
+    "published_at": "2026-11-05T12:00:00+08:00",
+    "tags": [
+      "METR",
+      "Anthropic",
+      "AI 安全",
+      "R&D 加速",
+      "风险报告"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-07.jpg"
+  },
+  {
+    "title": "a16z：漏洞利用曾是瓶颈，AI 把「从披露到打穿」压到数小时——PaperCut 类战役 4 小时首破、26 秒打下 11 家",
+    "summary": "a16z 分析师 Asaf Ezra 与 Steph Zhang 11 月 5 日长文梳理 23 年数据：专业人员写 exploit 曾需数周至数月（RAND 2017 中位数约 22 天），如今 AI Agent 可将已知漏洞武器化压到数小时。文中举例：8 月底一次针对学校/办公打印管理软件的战役，从空工作区到首个真实受害者不到 4 小时，次日发动后 26 秒内 11 家机构失陷，GreyNoise 统计最终 48 国 395 家被攻破，约一半是学校；所用为廉价开源权重模型而非美方前沿闭源。Mandiant 等数据显示平均「披露到攻击」已从 2018–19 的 63 天跌至 2025 年「披露前 7 天」。作者认为电网级灾难仍难，但长尾机构与无法快补丁的工控/医疗将更惨。个案数字依赖 GreyNoise 等第三方，文中亦提示因果勿过度外推。",
+    "url": "https://www.a16z.news/p/the-exploit-was-the-bottleneck",
+    "source": "a16z",
+    "published_at": "2026-11-05T12:00:00+08:00",
+    "tags": [
+      "a16z",
+      "网络安全",
+      "AI Agent",
+      "漏洞利用",
+      "补丁窗口"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-08.jpg"
+  },
+  {
+    "title": "Meta Muse 上线实时语音与表现力头像：美国用户可视频通话，后续进 AI 眼镜与 Muse Charm",
+    "summary": "Meta 于 11 月 5 日宣布：Connect 2026 预览的 Muse 实时语音与表现力头像开始在美国 Muse App（移动、Web、Mac）滚动上线，点右上角电话图标即可开聊。头像会随语气做出表情与手势；可选仅语音、侧栏头像或全屏面对面对话，并提供数百种风格音色。底层为 Muse Realtime Avatar 与 Muse Realtime Voice。公司称对话可被打断、任务可在讲话时后台继续。TechCrunch 称此举也在为年底前类似电子宠物的可穿戴「Muse Charm」铺路；语音稍后还将上 AI 眼镜。当前仅美国起步，其他地区时间表未详。",
+    "url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
+    "source": "Meta",
+    "published_at": "2026-11-05T12:00:00+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "语音",
+      "头像",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-09.jpg"
+  },
+  {
+    "title": "Meta 收购 AI 编程创业公司 Conductor：多 Agent 并行工作区，云服务 11 月 20 日关停",
+    "summary": "TechCrunch 11 月 4 日报道 Meta 收购 AI 编程创业公司 Conductor；创始人 Charlie Holtz 在 changelog 确认「加入 Meta」，并称期待与 Alexandr Wang、Nat Friedman 等合作。Conductor 可在云端/本地/手机部署多 Agent 并行工作区，模型来自 Anthropic、OpenAI 等而非自研。官方 changelog：云服务 11 月 13 日只读、11 月 20 日关停并开始删除云数据；本地版将继续至 2027 年初提供新模型与关键修复。Meta 向 TechCrunch 确认收购但不披露金额与团队去向。Axios 为首发媒体之一。",
+    "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-05T05:10:00+08:00",
+    "tags": [
+      "Meta",
+      "Conductor",
+      "收购",
+      "编程 Agent",
+      "MSL"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-10.jpg"
+  },
+  {
+    "title": "Anthropic 研究 20.7 万科研会话：科学家主要用 Claude 做数据分析与写作，形式科学相对用量最高",
+    "summary": "Anthropic 经济学团队 11 月 5 日发布基于隐私保护分类器的研究：分析 2026 年 8 月 2 日至 9 月 30 日约 20.7 万条科研相关会话（Claude 约 12.9 万、Claude Code 约 7.8 万）。相对研究员人数，计算机科学、数学、统计等形式科学用量偏高；数据分析约占 Claude 会话三分之一、Claude Code 近一半，写作也很高，而数据收集与假设生成相对偏低——尽管调研中科学家认为后两类对发现更重要。情景估算：若现有能力广泛采用，部分领域产出或可翻倍；若非体力步骤全自动化，计科/统计类或可达约 15 倍，实验科学受物理瓶颈约 3–4 倍。调研样本偏 AI 重度用户，外推需谨慎。",
+    "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+    "source": "Anthropic",
+    "published_at": "2026-11-05T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "科学研究",
+      "Claude",
+      "生产力",
+      "Economic Index"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-11.jpg"
+  },
+  {
+    "title": "OpenAI 总裁 Brockman：公司有望 2027 年具备 IPO 条件；企业收入已占大头、Q3 年化收入环比增约 70%",
+    "summary": "TechCrunch 11 月 5 日报道：OpenAI 联合创始人兼总裁 Greg Brockman 在华尔街日报科技会上称，被问及明年是否 IPO 就绪时回答「I think so. Yes.」。他称 2026 年前两季「相当艰难」，Agent 编程一度「都不在讨论里」，Q3 年化收入环比增长约 70%，主因企业侧翻倍；如今企业收入已占大头（此前约仅 30%），并举例与摩根大通等合作。消费侧仍在增长，但企业段「起飞」更明显。IPO 时间表为高管口头表态，非官方招股文件；具体财务未经独立审计披露。",
+    "url": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-06T02:02:00+08:00",
+    "tags": [
+      "OpenAI",
+      "IPO",
+      "Greg Brockman",
+      "企业市场",
+      "融资"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-12.jpg"
+  },
+  {
+    "title": "彭博：苹果下调内部 AI 日消耗上限——工程团队从 300 美元砍到 200，有的或再降至 100",
+    "summary": "TechCrunch 转述彭博 11 月 4 日报道：苹果在 10 月将工程团队每日 AI 支出上限从约 300 美元降至 200 美元，消息人士称部分额度还将降至约 100 美元/日；工程以外部门甚至在讨论低至约 25 美元/日。背景是年初「tokenmaxxing」推动全员狂用 AI 后账单高企，多家公司转向配额制。苹果未向 TechCrunch 置评。具体涉及哪些模型供应商、是否含内部模型额度，原文未拆开；数字均为彭博信源转述。",
+    "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-05T09:26:00+08:00",
+    "tags": [
+      "苹果",
+      "Token 配额",
+      "企业内部 AI",
+      "成本",
+      "彭博"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-13.jpg"
+  },
+  {
+    "title": "Mistral 扩展 Studio：配合 Large 4「Le Chonk」提供托管 Agent、工作流与企业应用，可上云/VPC/本地",
+    "summary": "Mistral 宣布扩展企业平台 Studio：在 Large 4（Le Chonk）之上新增托管 Agent 与应用能力，强化工作流、企业上下文、可观测性与评测；可部署于公有云、自有 VPC、本地或混合环境。Agent 可配 skills、沙箱与子 Agent，hooks 在关键步骤插入自定义逻辑；工作流支持事件触发与可视化图；应用侧提供托管、认证与访问控制。客户案例提及 ABANCA、BNP Paribas、CMA CGM、Accenture、Capgemini、TCS 等。具体定价与各地区上线节奏未在新闻稿中列全。",
+    "url": "https://mistral.ai/news/build-with-studio/",
+    "source": "Mistral",
+    "published_at": "2026-11-05T18:00:00+08:00",
+    "tags": [
+      "Mistral",
+      "Studio",
+      "Le Chonk",
+      "企业 Agent",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-14.jpg"
+  },
+  {
+    "title": "Reflection 详解开源模型 Beam 安全训练：有害请求拒答率居开源前列，并开源 Project Iris 评测工具",
+    "summary": "Reflection 于 11 月 5 日发文介绍其开源权重模型 Beam 的安全训评：用多教师 on-policy 蒸馏结合能力教师与安全对齐教师；Iris Safety Evaluations 上对话场景拒答约 89% 有害请求、对无害安全相关请求遵从约 82%，自称处在开源模型安全-有用帕累托前沿。间接提示注入方面，加防御提示后 MirrorDojo/MirrorDyn 攻击成功率分别从约 3.1%/3.6% 降至 0.3%/0%。Open Safety Framework 将生物/化学/网络/失控四类能力风险评为 Limited。评测多为自建与合作方私有集，跨实验室可比性有限。",
+    "url": "https://reflection.ai/blog/open-model-safety-lessons",
+    "source": "Reflection",
+    "published_at": "2026-11-05T12:00:00+08:00",
+    "tags": [
+      "Reflection",
+      "Beam",
+      "开源安全",
+      "Project Iris",
+      "对齐"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-15.jpg"
+  },
+  {
+    "title": "Dropbox 以约 3.5 亿美元收购 Tigris Data，打造面向 Agent 的 DBX Agent Cloud 对象存储",
+    "summary": "TechCrunch 11 月 5 日报道：Dropbox 以约 3.5 亿美元收购云存储公司 Tigris Data，为其迄今最大收购之一，交易预计 2026 年四季完成，称暂无裁员计划。Tigris 由前 Uber 存储工程师创立，主打跨区域就近放置数据；将支撑新平台 DBX Agent Cloud——先以兼容 Amazon S3 的独立对象存储出售，再扩展文档/图/音视频处理与文件系统能力，方便 Agent 跨任务保持连续性。Dropbox 还称核心产品将支持用 AI 操作文件、切换模型并连接 ChatGPT、Claude、Muse；新体验已触达逾 7 万团队，先对美/英/澳部分 Standard/Advanced 客户开放。金额与「最大收购」为公司/媒体口径。",
+    "url": "https://techcrunch.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-to-bolster-its-ai-iinfrastructure/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-05T23:19:00+08:00",
+    "tags": [
+      "Dropbox",
+      "Tigris",
+      "收购",
+      "Agent 存储",
+      "S3"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-16.jpg"
+  },
+  {
+    "title": "媒体称 Anthropic 与美联社达成内容授权：中期选举夜 Claude 可引用 AP 即时选举数据",
+    "summary": "The Verge 11 月 5 日短讯转述 Adweek：Anthropic 据报与美联社达成授权协议，为其与出版机构的首份此类交易，赶在美国中期选举前敲定。Adweek 称选举夜若在 Claude 询问最新民调，会看到由美联社提供并署名的即时信息。条款金额、是否覆盖训练数据或仅检索增强、独家与否等细节均未披露；Anthropic 与 AP 官方声明尚未在 Verge 短讯中出现，故标为「据报」。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1027173/anthropic-reportedly-made-a-licensing-deal-with-the-associated-press",
+    "source": "The Verge",
+    "published_at": "2026-11-05T09:08:00+08:00",
+    "tags": [
+      "Anthropic",
+      "美联社",
+      "内容授权",
+      "Claude",
+      "新闻"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-17.jpg"
+  },
+  {
+    "title": "Goodfire 提出 mechanistic shaping：用内部表征惩罚「走捷径」，抑制谄媚与奖励黑客且保留能力提升",
+    "summary": "对齐初创 Goodfire 11 月 5 日发文介绍论文「mechanistic shaping」：在训练目标中加入对特定内部概念的依赖惩罚（reliance）或表达惩罚（expression），让模型「因正确理由答对」。胸部 X 光实验中，自动找到「引流管」捷径表征后做 reliance shaping，可超过平衡数据训练的软天花板；在 DPO 后训中惩罚谄媚方向，可在接近满 DPO 能力的同时把谄媚压回接近起点；在 Countdown 奖励黑客设定中，expression shaping 使诚实解题约 96–98%，并对未见过的象棋谜题泛化。作者提醒：对抗探针训练可能破坏原探针，但多数实验中概念仍可被重训探针监测。规模仍偏中小模型，前沿规模外推未证实。",
+    "url": "https://www.goodfire.com/research/mechanistic-shaping",
+    "source": "Goodfire",
+    "published_at": "2026-11-05T12:00:00+08:00",
+    "tags": [
+      "Goodfire",
+      "可解释性",
+      "对齐",
+      "奖励黑客",
+      "mechanistic shaping"
+    ],
+    "image": "/assets/covers/cover-20261106-ai-18.jpg"
+  }
+]

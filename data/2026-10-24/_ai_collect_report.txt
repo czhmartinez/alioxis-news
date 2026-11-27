@@ -1,0 +1,57 @@
+Alioxis News AI新闻收集报告 — 2026-10-24（Asia/Taipei）
+
+条数：20
+Lead：Kimi K3.1 Pro 官方成绩单：Terminal-Bench 4.0 拿下 65.7% 超 GPT-6 Astra，幻觉率从 23.4% 降到 8.3%，3T 级权重 11 月 4 日前开放
+Lead URL：https://www.kimi.ai/blog/kimi-k3-1-pro
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-24/_aihot_daily.json（fetch-aihot-daily.js 成功，08:15 抓取）
+- /workspace/alioxis-news/data/2026-10-24/_aihot_summary.txt（与 10-23 同格式：lead 头 + sections + flashes；同一脚本已用 10-23 数据回放校验逐字节一致）
+- /workspace/alioxis-news/data/2026-10-24/_prior_urls.json（已存在，08:14 由大V视野流程写入，扁平 URL 列表 430 个；未覆盖、直接复用）
+- /workspace/alioxis-news/data/2026-10-24/ai.json
+- /workspace/alioxis-news/data/2026-10-24/_cover_prompts_ai.json（20 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-24/_ai_collect_report.txt
+
+纳入（20）：
+00 Kimi K3.1 Pro：curl + trafilatura 核实 kimi.ai/blog 原文（页面日期 10-24）；HN 首帖 10-23 16:59Z（670 分）；交叉 TNW 10-23 18:19Z、MarkTechPost、The Decoder；AIHOT 头条（已改写标题措辞，侧重官方基准/幻觉率/网络能力剔除）
+01 OpenAI 前沿训练断网 + 离线世界 + 红队：WebFetch 核实 openai.com 原文（页面 10-23，RSS 10-23 10:00Z）；交叉 TechCrunch 23:05:49Z、The Verge 21:11:07Z；AIHOT 安全栏
+02 Anthropic × UK AISI Mythos 5 对齐评估：curl 核实 anthropic.com/research 原文（10-23 14:51:41Z）；交叉 The Decoder 17:19:49Z；AIHOT 安全栏
+03 英国 AI Biosecurity Lab：curl 核实 gov.uk 原文（2026-10-24 00:01 BST = 10-23 23:01Z）
+04 Claude Duet 安全/隐私/凭证隔离设计：curl 核实 claude.com/blog 原文（仅日期 10-23）；Duet 产品本身 10-22 已收录，此条为安全设计新角度；AIHOT 产品栏
+05 Google Personal Intelligence 数据可用于个性化广告：curl 核实 The Verge 10-23 16:52:55Z；HN 239 分
+06 Daytona 6000 万美元 B 轮 / 10 亿美元估值：curl 核实 TechCrunch 10-23 16:26:29Z
+07 PHP 第三个 RCE CVE-2026-115560：curl 核实 The Register 原文（10-23 20:04Z，正文用 <p> 正则抽取，trafilatura 只取到侧栏）；与 10-22/10-23 PHP2Shell 卡角度不同
+08 neocloud 信用风险 / Solidigm 撤回 IPO：curl 核实 CNBC 10-23 22:49Z
+09 寒武纪 Q3 不及预期：curl 核实 The Next Web 10-23 17:42:31Z（援引 Bloomberg / China AI Dispatch）
+10 Meta 新商业条款延期至 11 月 20 日：curl 核实 The Verge 10-23 14:47:41Z；10-22 已收录「删去训练措辞」，此条为后续进展
+11 Microduck 预订破 2 万：curl 核实 TechCrunch 10-23 21:59:19Z
+12 宇树 Unitree Rehearsal：curl 核实 The Next Web 10-23 14:18:39Z（援引 SCMP / Bloomberg）
+13 Rivian 收购 Third Dimension：curl 核实 TechCrunch 10-22 21:05:05Z
+14 Wayve × Stellantis × 英伟达 × 法国政府：curl 核实 The Next Web 10-23 17:08:23Z
+15 OpenClaw 作者 1000 万美元 token：curl 核实 The Next Web 10-23 13:49:57Z（援引 The Register 现场报道）
+16 Gemini Notebook 成为 Connected App：curl 核实 9to5Google 10-23 20:21:15Z；交叉同站 Android 侧边栏/设置改版稿
+17 Meta 收购 Sundial：curl 核实 IT之家 1/017/294（10-24 08:08+08:00，援引 Axios 10-23；axios.com 对 curl 返回 403）
+18 Etsy 禁售 AI 生成食谱/图样：curl 核实 CNBC 10-22 23:45:50Z
+19 奥特曼「AI 终将逃出沙箱」：curl 核实 The Decoder 10-23 15:42:18Z（转述访谈，标注为观点）
+
+跳过 / 未单独成卡：
+- 与今日 v.json（大V视野流程写入，18 条，头条为卡兹克长文「AI 时代的虚无主义」）同题而撤下：Block/Jack Dorsey 语音模型 Dessa（The Verge 10-23 19:32:39Z 已核实；v.json #12）、MiniMax M3.1 Flash 开放权重（HF 模型卡已核实 428B/23B、1M 上下文；v.json #15）、国务院办公厅 AI 就业意见（IT之家 1/017/113 已核实；v.json #2），改补 16 Gemini Notebook、17 Meta Sundial、19 奥特曼沙箱观点
+- 与今日 v.json 同题但保留（沿用 10-18..10-23 双页签并存先例，两页签头条已错开）：00 Kimi K3.1 Pro（v.json #1 Max、#9 TestingCatalog Arena 排名；AI新闻取官方博客基准与安全数据）、01 OpenAI 断网训练（v.json #8 TestingCatalog；AI新闻取 OpenAI 原文红队细节）
+- v.json 已收录、AI新闻不重复：字节实习生投毒复盘、Higgsfield 追加投资、Kimi 新套餐命名、EdgeRock-4B、Codex CLI、Cursor Computer Use、Grok Bot Vault（亦为 AIHOT 快讯）、Seedance 2.5 4K、Mubit
+- Kling 4.0 on fal（近期已多次收录）、禾赛 Kosmo（10-14 旧闻）、iPhone Duo 开售（非 AI 主题）、Latent Space PHP2Shell 梳理（解读，前两日已收录同题）、WSJ OpenAI 解雇 3 名安全研究员（AIHOT 原文为 X 帖，WSJ 付费墙无法核实原文）、Pichai 谈 Hassabis/Jeff Dean（X 帖）、OpenAI 1.25 万亿估值（10-23 已收录）、Uber ChatGPT Work（10-23 已收录）：未纳入
+- calif.io iPhone 文（页面日期 10-16，未确认 AI 角度）、OpenAI 小鼠大脑智能体（10-21 旧闻）、Register 红队报告 OpenAI 监控失败（与 10-23 METR/Redwood 同题）：未纳入
+- Anthropic 早期投资人账面回报（TechCrunch）、ModelCompare「人类是羊群」（The Register）、Torvalds AI 专栏（观点）、Hindsight 替代 Perspective API（TNW，偏推广）、You.com Inference Router（MarkTechPost 10-22）、AI 设计病毒首次用于人体（The Register 10-22）：名额或相关性原因未成卡，可作备选
+
+去重：
+- 对照 _prior_urls.json（430 个 URL）：本批 20 个 URL 无完全重复，批内 URL 亦唯一
+- 已与今日 v.json（18 条）交叉：URL 无重复；同题处理见上方「跳过」
+- AIHOT 日报 12 个标题键（lead + sections）：已用 build.js 的 normalizeTitle/aihotTitleKeys/overlapsAihot 原函数脚本自检，20 条均无命中（00 初版标题命中 AIHOT 头条键，已改写）；与 AIHOT 同题的 00/01/02/04 均已改写标题措辞
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词：外滩薄雾中银色巨月下迈步的肌肉纤维人形、3D 打印齿轮与 CAD 椅子（Kimi 模型发布锚点）/ 剪断网线的玻璃立方机柜内纸质网页微缩城、两颗芯片间光波私语（OpenAI 断网训练）/ 夜里厨房桌前的开源维护者、窗上倒映施压的影子人、荆棘代码藤蔓（Mythos 越界）/ 英国生物安全柜前穿防护服的科学家（AIBL 新闻摄影）/ 咖啡桌手机图标审批卡、溶解的一次性卡、亚克力封存钥匙（Claude Duet）/ 相册信封文件盒牵出光线织成广告目录（Google 个性化广告）/ 云端大厅千万张小桌各配电脑与小机器人（Daytona）/ 戴手套的手拨下老服务器的物理开关、大象影子（PHP 第三漏洞）/ 夜间交易大厅红色下行光带、厅中空机柜（neocloud 动荡）/ 防静电垫上的 AI 芯片与玻璃隔开的 HBM 模组、库存纸箱（寒武纪产品摄影）/ 黎明印报车间、翻页日历、爬虫机器人停在栅栏门前（Meta 条款延期）/ 聚光灯下摇摆翻跟头的黄色小鸭机器人与皮夹克手臂（Microduck 产品摄影）/ 杭州实验室人形机器人洗画笔、围棋盘与仿真分身（宇树）/ 电动 SUV 周围由胶片实时生成的 3D 伦敦街景（Rivian 世界模型）/ 巴黎林荫道上带顶置传感器的电动车（Wayve 新闻摄影）/ 会场溢出的发光 token 罐与两个谈判权限的小机器人（OpenClaw）/ 温室里掌心悬浮的发光笔记本飞出蝴蝶（Gemini Notebook）/ 玻璃中庭握手的创始人与日晷雕塑（Meta 收购 Sundial）/ 手织毛衣、毛线与面包旁碎裂的完美数字渲染图（Etsy）/ 黄昏沙漠里玻璃沙箱裂缝中溜出的发光身影与远处望远镜观察者（奥特曼沙箱）
+- 16:9，无文字数字，无统一刊头色带、无万能会议室/科技桌；file 名 cover-20261024-ai-00…19.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：WebFetch（openai.com ×1）/ curl + trafilatura（元数据与正文：kimi.ai、anthropic.com、claude.com、gov.uk、huggingface.co、techcrunch.com、theverge.com、thenextweb.com、the-decoder.com、cnbc.com、9to5google.com、ithome.com、marktechpost.com、block.xyz）/ curl + <p> 正则（theregister.com）/ HN Algolia API（front_page）/ RSS feedparser（TechCrunch、The Verge、The Decoder、OpenAI、MarkTechPost、TNW、The Register、9to5Google、CNBC 等）/ X MCP 未使用
+AIHOT 线索：fetch-aihot-daily.js 成功（lead 为 Kimi K3.1 Pro，sections 12 条 + 快讯 3 条）；核实后改写标题纳入 00/01/02/04；MiniMax 权重与国务院就业意见因与 v.json 同题撤下，Kling 4.0/禾赛/iPhone Duo/WSJ/Pichai 等未纳入，其余由公开源补齐
+published_at 说明：有精确时间的取源站元数据/RSS 时间换算 +08:00；只有日期的 Claude Duet 安全博客按 10-23 12:00+08:00 占位（同 10-18..10-23 惯例）；Kimi 官方博客仅日期（10-24），取 HN 首帖 10-23 16:59:08Z（=10-24 00:59:08+08:00）近似；OpenAI 博客取 RSS 10-23 10:00Z；The Register PHP 稿取 RSS 10-23 20:04Z；IT之家 Sundial 取页面时间 10-24 08:08+08:00

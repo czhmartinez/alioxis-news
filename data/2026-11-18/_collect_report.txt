@@ -1,0 +1,6 @@
+2026-11-18 采集报告
+时区 Asia/Taipei。窗口按 AIHOT：2026-11-17T00:00:00Z 至 2026-11-18T00:00:00Z（即 11-17 08:00 至 11-18 08:00）。
+AI新闻 11 条（真实来源不足 15，不硬凑）。头条：OpenAI 发布 GPT-6.2 Astra 与 Sol。
+大V视野 16 条。头条：卡兹克淘宝设计师长文。使用公开 X 读取，不是「正在关注」时间线。
+未收入：Fireworks Kimi 评测与 Google AI Studio Android 全栈博文的 AIHOT 时间戳为 2026-11-16T16:00:00Z，落在窗口之前；Java4Shell 非 AI 主线；ChinaTalk/Ed Zitron 与已有官方稿重复或为评论；WSJ/SEC 仅见转发截图，未核到原文；Kling 公众号遇验证码，未核实。
+截断帖只写可见内容，不补造后半句。

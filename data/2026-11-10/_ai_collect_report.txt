@@ -1,0 +1,81 @@
+Alioxis News AI新闻收集报告 — 2026-11-10（Asia/Taipei）
+============================================================
+完成时间：2026-11-10 08:21:03 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-10/
+产出：ai.json（20）、_cover_prompts_ai.json（20）、本报告；目录另有 _aihot_daily.json、_aihot_summary.txt、_aihot_clues.json、_prior_urls.json（2150 URL）
+
+一、条数与头条
+- 条数：20（目标 15–20，达上限）
+- Lead（#00）：Anthropic 发布 Claude Fable 5.2 与 Mythos 5.2：同一底座模型，千代理 30 小时形式化费马大定理、8 天从零写出可启动操作系统，价格降至每百万 token 8/40 美元
+  URL：https://www.anthropic.com/claude-fable-and-mythos-5-2
+  理由：AIHOT 11-10 lead；一手官方发布页（WebFetch 全文核对基准表、定价、安全评测、可用性），Artificial Analysis 同日列其智能指数第一（65），TechCrunch/The Verge/IT之家 均跟进。当日影响面最大的模型发布。
+  备选：#01 Anthropic IPO 定档 / #02 Meta Muse Ember / #03 谷歌 TPU 8tx/8i Max
+
+二、与 v.json 交叉情况
+- 写盘时同目录 v.json 已存在（19 条，另一 worker 写入），硬 URL 去重 overlap=0
+- 软同题（保留，角度不同）：v 有卡兹克/Max/TC/小互 对 Fable 5.2 的实测与解读（本频道 #00 为官方发布全貌、#07 为硬件设计研究页，v 未收）；v 有小互 Seedream 5.5 实测（本频道 #08 为官方发布与评测数据）；v 有 TC 的 Muse Ember、TPU 8tx/8i Max 简讯（本频道 #02/#03 为官方一手页面详述）
+- 主动回避：ERNIE Evolve（v 已收 Max 解读；按 11-06 惯例对软重复让给 v，已从 AI 频道撤下）、卡兹克「Token 羊毛」（v 已收）、Google AI Studio/Maps（v 已收）、OpenAI×ModRetro 掌机（v 已收）
+
+三、AIHOT 使用情况
+- 已跑 node scripts/fetch-aihot-daily.js 2026-11-10，dated API 成功（window 2026-11-09T00:00Z–2026-11-10T00:00Z），5 sections（12 items）+ 0 flash + 3 highlights；脚本未生成 summary/clues，已按 11-09 格式手工补写 _aihot_summary.txt、_aihot_clues.json
+- 采用并落到原文：
+  · Claude Fable 5.2 / Mythos 5.2 → #00 anthropic.com
+  · Meta Muse Ember → #02 research.meta.ai
+  · Google TPU 8tx/8i Max（线索源为 X @Google）→ #03 改链 blog.google 官方文章（DCD、TestingCatalog 交叉）
+  · 黄仁勋风波削弱出口管制游说 → #05 The Decoder（转述彭博）
+  · Redwood Astra 隐性摆烂 → #06 blog.redwoodresearch.org
+  · Claude 电子设备设计 → #07 anthropic.com/research
+  · Seedream 5.5 → #08 seed.bytedance.com
+  · ZONOS3-Mini → #18 zyphra.com
+- 未采用：ERNIE Evolve（与 v 软重复，见上）；Claude Mythos AAV 衣壳 YouTube（已并入 #00 摘要）；Claude.dev 选型指南（与 #00 同源，偏开发者文档）；卡兹克 Token羊毛（公众号，留给 v）
+
+四、补充采用（非 AIHOT 主列表）
+  · Anthropic IPO 11/19–20、代码 ANT → #01 IT之家（转述 WSJ；彭博 11/6 估值回落稿交叉）
+  · OpenAI Control Room → #04 openai.com（Investing.com/Unite.AI 交叉）
+  · 迪士尼 × Adobe Firefly Foundry → #10 news.adobe.com（The Verge、路透/Investing.com 交叉）
+  · 猫王/阿姆出版商诉 Suno → #11 洛杉矶时报（Variety、Copyright Now 诉状摘要、WREG 诉状 PDF 交叉）
+  · 特朗普《60 分钟》谈 AI → #12 The Verge（IT之家 024/071、CGTN 交叉）
+  · ChatGPT Enterprise 上架 AWS Marketplace → #13 openai.com
+  · 苹果 Intelligence Usage Packs → #14 The Verge（9to5Mac、Apple 支持页交叉）
+  · 三星 Galaxy AI Premium 测试 → #15 IT之家（SamMobile、Android Authority 交叉）
+  · 美团 LongCat-2.5 开源 → #09 IT之家（HF 模型页、美团技术团队博客交叉；11-03 v 已收发布/API，本条增量为权重开源+MIT）
+  · 千问办公 2.0 → #16 IT之家（InfoQ、千问办公文档交叉）
+  · Automattic Spacefast → #17 TechCrunch（PR Newswire 交叉）
+  · Instagram Effect Builder → #19 The Verge
+
+五、去重
+- _prior_urls.json：2150 条（全部历史 ai.json + v.json，不含 11-10）；本日 20 条 URL 0 命中；内部 URL 无重复
+- 与 v.json：硬 URL overlap=0
+- 对照 11-09 ai.json：未再收 NVIDIA 董事会调查（#05 为出口管制/游说角度的后续增量）、Anthropic 燃气发电机（TechCrunch 11/9 跟进稿跳过）、苹果代理式 Siri、DeepSeek Harness 日活、Co-Design Bench（阿里 26.4% 即此基准，The Neuron 11/9 再提，跳过）
+- 未收（窗口内可选但偏旧/偏弱）：字节限制员工自费用 Claude/Codex（IT之家 11/4 旧闻）、Claude 删除法学教授讲义（Tom's Hardware 11/6，旧）、Claude Code 设置文件泄露密钥（11-08 已收同题）、Medium TK、ElevenAgents Campaign Manager、DeepX 二代芯片（厂商自称未验证）、Scott Wiener 当选、腾讯姚顺雨谈生物武器、TechCrunch 黄仁勋公关公司/做空者/起诉潮系列、Sakana AI IPO 传闻
+- published_at 均为 +08:00 ISO；Verge/TechCrunch/LA Times 按页面 UTC/PT 时间换算；IT之家用页面精确时刻；#00/#07 按 TechCrunch 相对时间估为 03:00；#03 按美东上午估为 22:00；#04/#05/#06/#08/#13/#18 原文无精确时刻，按惯例记为 11-09 12:00 +08:00
+- source 为字符串；image 为 /assets/covers/cover-20261110-ai-NN.jpg（00–19），与 _cover_prompts_ai.json 一一对应
+
+六、核实手段摘要
+00 anthropic.com WebFetch 全文 + kamol 汇总（AA 指数 65）+ TechCrunch 列表
+01 IT之家 WebFetch + 彭博/IT之家 023/640 搜索摘要
+02 research.meta.ai WebFetch + The Verge 摘要（18:00 UTC）
+03 blog.google 搜索全文摘要 + DCD、TestingCatalog、beri.net（2027 上市、无定价）
+04 openai.com WebFetch 全文 + Investing.com/Unite.AI 摘要
+05 The Decoder WebFetch
+06 Redwood Research WebFetch
+07 anthropic.com/research WebFetch
+08 seed.bytedance.com WebFetch + The Decoder 摘要
+09 IT之家 WebFetch + HF 模型页/美团技术博客 搜索摘要
+10 news.adobe.com 搜索全文摘要 + The Verge + 路透（Investing.com）
+11 LA Times WebFetch + Variety、Copyright Now（269 首、40.35M）
+12 The Verge WebFetch + IT之家/CGTN 摘要
+13 openai.com WebFetch
+14 The Verge WebFetch + Apple 支持页/9to5Mac 摘要
+15 IT之家 WebFetch + SamMobile 摘要
+16 IT之家 WebFetch + InfoQ 摘要
+17 TechCrunch WebFetch
+18 zyphra.com WebFetch
+19 The Verge WebFetch
+- curl 复查：18/20 返回 200；openai.com 两条（#04、#13）对 curl 返回 403（Cloudflare 屏蔽机器人），但 WebFetch 均成功读取全文
+
+七、缺口与说明
+- 未生成封面、未 build、未发布（按任务范围）
+- #04 OpenAI Control Room 页面未显示发布日期，依据 kamol/Investing.com 汇总列为 11/9 发布
+- #01（WSJ 消息人士）、#05（情报评估）、#12（特朗普称威胁逮捕 AI 高管，未获证实）、#15（三星测试传闻）均含未证实信息，摘要已标明
+- #00 与 #07 同属 Fable 5.2 发布，#07 为独立研究页（硬件设计），若编辑阶段需压缩条数可优先拿掉 #07 或 #19

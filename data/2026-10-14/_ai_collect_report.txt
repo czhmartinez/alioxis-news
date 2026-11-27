@@ -1,0 +1,13 @@
+Alioxis News AI 收集报告 — 2026-10-14 (Asia/Taipei)
+条数: 20
+Lead: Google 全面开放 Gemini 4 Argon：Vals Index 第一，限时 2/10 美元定价，Antigravity 内智能体代码提交增 35%
+Lead URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/
+参考 AIHOT: data/2026-10-14/_aihot_daily.json（fetch-aihot-daily.js 成功，AIHOT lead 同为 Gemini 4 Argon）
+  - 纳入并逐条回原文核实：Gemini 4 Argon（Google Blog + OpenRouter X）、MiniCPM-V 4.7（Hugging Face 模型卡）、LFM2.5-24B-A2B（Liquid 博客）、Apple HomeView（Apple Newsroom）、RTX Spark/Nemotron 3.5 Bolt（NVIDIA Blog）、千问 AI 眼镜（智东西）、Character.AI 破产（TechCrunch）、OpenAI 窃听装置（OpenAI Newsroom X + TechCrunch/CNBC/DOJ 报道）、XBOW Chrome 全链（XBOW 博客 + Oege de Moor X）、Anthropic 反蒸馏、Anthropic Scion、Meta Muse Wonder（Verge/TechRepublic + Arena X）、ElevenLabs 上议院（ElevenLabs X）、Prime Intellect 收购 Moondream、LangSmith AI Search
+  - 未单列：Google ADK 一夜优化（并入 Argon 头条摘要）、ComfyUI NVIDIA VFX 节点（并入 RTX Spark 条）、Hassabis 祝贺 AMIE《柳叶刀》（10-09 已收 AMIE 主文）、LangChain scaledown、Pydantic「代码即图」、Manus×OPPO
+  - 预计 build 时因标题前缀与 AIHOT 重合被隐藏 4 条：#06 Scion、#07 Character.AI、#11 MiniCPM-V 4.7、#14 千问眼镜（可见约 16 条）
+去重: 对照 10-09/10-10/10-11 ai.json 主文与 URL，0 条 URL 重复。10-10「Antigravity 隐藏引用 Argon」、10-11「Gemini 4 Carbon」为传闻/预告，本次为 Argon 正式全面开放，属新事件；10-09「Character.AI 遭肯塔基追加指控」与本次破产为不同事件；OpenAI 智能体审计/Medicare、Anthropic 意外行为等近几日已覆盖主题未再收。另跳过 Tibo「GPT-6.1 Sol 默认上下文 500K」（@thsottiaux 属大V视野来源，避免跨页签重复）。
+补充公开源（AIHOT 之外）: Anthropic 自我复制研究（anthropic.com/research/self-replicating-ai，The Verge 引用）、Microsoft Maia 300（The Verge）、Amex Intent Intelligence Framework（TechCrunch）、苹果诉 OpenAI 招聘记录裁定（TechCrunch）、Pluto Security 4200 万美元（TechCrunch）。
+published_at: 有精确时刻的用原文时间换算 +08:00（TechCrunch/Verge/X）；官方博客仅给日期的（Google、Anthropic、Apple、NVIDIA、Liquid、Prime Intellect、HF、智东西）按发布日估算时刻。
+封面 prompts: 20 条，与 ai.json 等长同序；image 为计划路径 /assets/covers/cover-20261014-ai-NN.jpg，未生成实图
+未执行: build / 封面生成 / 发布

@@ -1,0 +1,1401 @@
+{
+ "fetched_at_taipei": "2026-11-13 08:20 Asia/Taipei",
+ "method": "get_posts_by_ids (note_post/article), 30 ids",
+ "result": {
+  "data": [
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121018473111236608",
+      "3_2121018473165836288"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T23:13:07.000Z",
+    "edit_history_post_ids": [
+     "2121018480757797299"
+    ],
+    "id": "2121018480757797299",
+    "referenced_tweets": [
+     {
+      "id": "2121009824666116472",
+      "type": "quoted"
+     }
+    ],
+    "text": "Anthropic started sending invites for Claude Duet. \n\nDuet users are getting 3 invites each. It also comes with a free month of Claude Pro for eligible users while remains US only. https://t.co/yWZNfxz0A0 https://t.co/BciKny3Ik6",
+    "url": "https://x.com/i/status/2121018480757797299"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2121009774724530176"
+     ]
+    },
+    "author_id": "2096819916175212548",
+    "created_at": "2026-11-12T22:38:43.000Z",
+    "edit_history_post_ids": [
+     "2121009824666116472"
+    ],
+    "id": "2121009824666116472",
+    "text": "Claude Duet invites just showed up in my account\n\nIf we’ve interacted and you want to skip the waitlist, DM me 👀 https://t.co/kS7sdPwxuh",
+    "url": "https://x.com/i/status/2121009824666116472"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2120970641876586497"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T20:41:17.000Z",
+    "edit_history_post_ids": [
+     "2120980274037104672"
+    ],
+    "id": "2120980274037104672",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/claudeai/statu…",
+        "end": 590,
+        "expanded_url": "https://x.com/claudeai/status/2120973994191094179/video/1",
+        "start": 567,
+        "url": "https://t.co/t1X105vDnz"
+       }
+      ]
+     },
+     "text": "ANTHROPIC 🔥: Claude Meetings is now available in beta on Team and Enterprise plans!\n\nDuring the meeting, Claude can work on documents, whiteboards, or other artifacts.  \n\nTwo thoughts 👀\n\nWe can finally have a call with 10 managers and one engineer (Claude) who won't complain.\n\nNow I want to get into a meeting with Claude and Grok bots to see how they interact. \n\nYet, it is clear that Anthropic is aggressively targeting businesses and enterprises. In a few years, they may have a complete office suite served by Claude for an entire work ecosystem (speculation).  https://t.co/t1X105vDnz"
+    },
+    "text": "ANTHROPIC 🔥: Claude Meetings is now available in beta on Team and Enterprise plans!\n\nDuring the meeting, Claude can work on documents, whiteboards, or other artifacts.  \n\nTwo thoughts 👀\n\nWe can finally have a call with 10 managers and one engineer (Claude) who won't complain.",
+    "url": "https://x.com/i/status/2120980274037104672"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120975635757555712"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T20:25:05.000Z",
+    "edit_history_post_ids": [
+     "2120976195441274887"
+    ],
+    "id": "2120976195441274887",
+    "note_tweet": {
+     "text": "Retell crossed a $100M revenue run rate and introduced Tell 1, its first AI model designed to power the voice agents used in enterprise contact centers.\n\nAccording to Retell, Tell 1 was trained on more than 1 million hours of customer calls, which allows it to reason through complex requests without making the caller wait.\n\nRetell users can also use Conductor, a tool that analyzes failed calls, creates test cases, and proposes fixes for approval."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120925189647315177",
+      "type": "quoted"
+     }
+    ],
+    "text": "Retell crossed a $100M revenue run rate and introduced Tell 1, its first AI model designed to power the voice agents used in enterprise contact centers.\n\nAccording to Retell, Tell 1 was trained on more than 1 million hours of customer calls, which allows it to reason through https://t.co/hpttekf5o6 https://t.co/GlRsLzaNOq",
+    "url": "https://x.com/i/status/2120976195441274887"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2120921389591072768"
+     ]
+    },
+    "author_id": "1763765455012192256",
+    "created_at": "2026-11-12T17:02:24.000Z",
+    "edit_history_post_ids": [
+     "2120925189647315177"
+    ],
+    "id": "2120925189647315177",
+    "note_tweet": {
+     "text": "Retell just crossed $100M in revenue run rate.\n\n$10M to $100M in 17 months. Profitable. $4.6M raised.\n\nFrom day one, we’ve focused on solving the hardest parts of deploying voice AI in the product itself, so customers can build, manage, and improve their own agents without depending on us.\n\nOur bet: the future of the contact center belongs to the teams who run it.\n\nProud of our team. Grateful to every customer who believed in us."
+    },
+    "text": "Retell just crossed $100M in revenue run rate.\n\n$10M to $100M in 17 months. Profitable. $4.6M raised.\n\nFrom day one, we’ve focused on solving the hardest parts of deploying voice AI in the product itself, so customers can build, manage, and improve their own agents without https://t.co/CQV1KJn6Ic",
+    "url": "https://x.com/i/status/2120925189647315177"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2120967215528689664"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T19:49:52.000Z",
+    "edit_history_post_ids": [
+     "2120967333502161164"
+    ],
+    "id": "2120967333502161164",
+    "note_tweet": {
+     "text": "Simular has launched Box, a cloud computer designed to be operated by AI assistants such as  ChatGPT and Claude.\n\nIt allows multiple agents to connect and operate their own apps and websites without users needing their own computers on.\n\nBox’s cloud computer can store logins and files across sessions and agents, allowing Codex to continue a task Claude started."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120904821373096408",
+      "type": "quoted"
+     }
+    ],
+    "text": "Simular has launched Box, a cloud computer designed to be operated by AI assistants such as  ChatGPT and Claude.\n\nIt allows multiple agents to connect and operate their own apps and websites without users needing their own computers on.\n\nBox’s cloud computer can store logins and https://t.co/a0ohO1US3N https://t.co/9fOys1H15t",
+    "url": "https://x.com/i/status/2120967333502161164"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120944364113334272"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T18:19:14.000Z",
+    "edit_history_post_ids": [
+     "2120944524620865864"
+    ],
+    "id": "2120944524620865864",
+    "referenced_tweets": [
+     {
+      "id": "2120940236805169182",
+      "type": "quoted"
+     }
+    ],
+    "text": "GOOGLE 🔥: Gemini 4 Hydrogen has been officially announced! \n\n2.5x faster than 3.8 Flash; 4 thinking levels, including a new \"Extra\" level. Outperforms Claude Sonnet 5.5 and GPT 6.1 Terra on most benchmarks. \n\nRolling out to Pro and Ultra subscribers, as well as on APIs. https://t.co/w6Cm6EYeqs https://t.co/0jZ5m0YVvP",
+    "url": "https://x.com/i/status/2120944524620865864"
+   },
+   {
+    "author_id": "14130366",
+    "created_at": "2026-11-12T18:02:12.000Z",
+    "edit_history_post_ids": [
+     "2120940236805169182"
+    ],
+    "id": "2120940236805169182",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 370,
+        "id": "1742923424056713217",
+        "start": 355,
+        "username": "GoogleAIStudio"
+       },
+       {
+        "end": 398,
+        "id": "1806359170830172162",
+        "start": 388,
+        "username": "GeminiApp"
+       },
+       {
+        "end": 474,
+        "id": "1965856473084473347",
+        "start": 462,
+        "username": "Antigravity"
+       }
+      ]
+     },
+     "text": "Following Carbon + Argon, Gemini 4 Hydrogen brings cutting-edge intelligence to everyone. Built for speed and efficiency for everyday tasks, coding and agentic workflows.\n\nCompared to 3.8 Flash, it finishes tasks 2.5x faster. Also has 4 thinking levels, so you only wait and pay for the reasoning depth a task requires.\n\nRolling out today to all tiers of @GoogleAIStudio, the Gemini API, @GeminiApp, Search and paid Google AI Pro and Ultra subscribers in Google @Antigravity."
+    },
+    "text": "Following Carbon + Argon, Gemini 4 Hydrogen brings cutting-edge intelligence to everyone. Built for speed and efficiency for everyday tasks, coding and agentic workflows.\n\nCompared to 3.8 Flash, it finishes tasks 2.5x faster. Also has 4 thinking levels, so you only wait and pay",
+    "url": "https://x.com/i/status/2120940236805169182"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120941606777876481"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T18:07:48.000Z",
+    "edit_history_post_ids": [
+     "2120941648687313306"
+    ],
+    "id": "2120941648687313306",
+    "note_tweet": {
+     "text": "Amplitude has launched Wave, an AI agent specialized in studying how users interact with a product.\n\nWave can read signals such as clicks and session replays, process customer feedback, and suggest evidence-backed product changes.\n\nUsers can then approve a change, ship it, and have Wave measure how well the fix worked.\n\nA full-stack product owner 👀"
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120927743319892184",
+      "type": "quoted"
+     }
+    ],
+    "text": "Amplitude has launched Wave, an AI agent specialized in studying how users interact with a product.\n\nWave can read signals such as clicks and session replays, process customer feedback, and suggest evidence-backed product changes.\n\nUsers can then approve a change, ship it, and https://t.co/UaBB9NErar https://t.co/IG7Iaoqzx0",
+    "url": "https://x.com/i/status/2120941648687313306"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2120885330488250368"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T16:37:48.000Z",
+    "edit_history_post_ids": [
+     "2120918997520560254"
+    ],
+    "id": "2120918997520560254",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/Android/status…",
+        "end": 365,
+        "expanded_url": "https://x.com/Android/status/2120885368417333468/video/1",
+        "start": 342,
+        "url": "https://t.co/J7TQkWZv3o"
+       }
+      ]
+     },
+     "text": "Google announced a pre-order for intelligent eyewear from Gentle Monster and Warby Parker, built in partnership with Samsung.\n\n- Warby Parker comes at $395 👀\n- Gentle Monster seems to be \"not available\" yet. \n\nUp to 9h of battery life. These glasses allow users to \"capture, navigate, and translate their physical surroundings in real time.\" https://t.co/J7TQkWZv3o"
+    },
+    "text": "Google announced a pre-order for intelligent eyewear from Gentle Monster and Warby Parker, built in partnership with Samsung.\n\n- Warby Parker comes at $395 👀\n- Gentle Monster seems to be \"not available\" yet. \n\nUp to 9h of battery life. These glasses allow users to \"capture,",
+    "url": "https://x.com/i/status/2120918997520560254"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120912699814969344"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T16:14:05.000Z",
+    "edit_history_post_ids": [
+     "2120913030787813475"
+    ],
+    "id": "2120913030787813475",
+    "text": "Anthropic is working on a new \"Brush\" feature for the Claude prompt composer. \n\nThe feature is marked as \"Beta\" and remains in development. \n\nIs it a reincarnation of the \"Sketch\" feature? 👀 https://t.co/qrzarLVB5v",
+    "url": "https://x.com/i/status/2120913030787813475"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120902592658128896",
+      "3_2120902637587410944",
+      "3_2120902637600034816",
+      "3_2120902637495197696"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T15:50:27.000Z",
+    "edit_history_post_ids": [
+     "2120907083801297015"
+    ],
+    "id": "2120907083801297015",
+    "note_tweet": {
+     "text": "We tested Seedream 5.5, ByteDance's newest image model, which specializes in keeping details consistent across multiple edits.\n\nIn BytePlus’s own test, one image withstood 100 rounds of edits while keeping the person and scene fully consistent.\n\nIn our test, Seedream 5.5 recolored only the hoodie across four versions of the same image, while the robot, the monitors, and the TestingCatalog sticker stayed the same across generations."
+    },
+    "text": "We tested Seedream 5.5, ByteDance's newest image model, which specializes in keeping details consistent across multiple edits.\n\nIn BytePlus’s own test, one image withstood 100 rounds of edits while keeping the person and scene fully consistent.\n\nIn our test, Seedream 5.5 https://t.co/stwWJ4Uru1",
+    "url": "https://x.com/i/status/2120907083801297015"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120881095843422209",
+      "3_2120881095927316480"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T14:07:13.000Z",
+    "edit_history_post_ids": [
+     "2120881103917781414"
+    ],
+    "id": "2120881103917781414",
+    "referenced_tweets": [
+     {
+      "id": "2120876571829662014",
+      "type": "quoted"
+     }
+    ],
+    "text": "BREAKING 🔥: @JensenHuang resigned from being NVIDIA CEO according to the official statement. \n\n&gt; “Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer”\n\nReally BREAKING 👀 https://t.co/WbCcKXqErk https://t.co/pXmEeeGFYw",
+    "url": "https://x.com/i/status/2120881103917781414"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120857025361895424"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T12:34:34.000Z",
+    "edit_history_post_ids": [
+     "2120857786078593262"
+    ],
+    "id": "2120857786078593262",
+    "referenced_tweets": [
+     {
+      "id": "2120841731302154708",
+      "type": "quoted"
+     }
+    ],
+    "text": "ANTHROPIC 🔥: Public trading is scheduled for November 19, while retail investors can ask for IPO shares through a participating brokerage before pricing.\n\nFor example, Deutsche Bank has them at $70-$120 USD per share. \n\n$ANT ticker is already supported on X 👀 https://t.co/El4eo9d7DL https://t.co/bz36Y9OUcF",
+    "url": "https://x.com/i/status/2120857786078593262"
+   },
+   {
+    "author_id": "1353836358901501952",
+    "created_at": "2026-11-12T11:30:46.000Z",
+    "edit_history_post_ids": [
+     "2120841731302154708"
+    ],
+    "id": "2120841731302154708",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "ipo.anthropic.com",
+        "end": 52,
+        "expanded_url": "https://ipo.anthropic.com",
+        "start": 29,
+        "url": "https://t.co/Ah4BkI2loD"
+       },
+       {
+        "display_url": "sec.gov/Archives/edgar…",
+        "end": 328,
+        "expanded_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+        "start": 305,
+        "url": "https://t.co/Z44axxzf9b"
+       },
+       {
+        "display_url": "sec.gov",
+        "end": 549,
+        "expanded_url": "http://www.sec.gov",
+        "start": 526,
+        "url": "https://t.co/94ojsWZTKi"
+       }
+      ]
+     },
+     "text": "Our initial public offering: https://t.co/Ah4BkI2loD\n\nLegal disclaimer: Anthropic has filed a registration statement (including a prospectus) with the SEC for the offering to which this communication relates. Before you invest, you should read the prospectus in that registration statement (available at: https://t.co/Z44axxzf9b) and other documents Anthropic has filed with the SEC for more complete information about Anthropic and this offering. You may get these documents for free by visiting EDGAR on the SEC Web site at https://t.co/94ojsWZTKi. Alternatively, copies of the preliminary prospectus may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014.\n\nThe securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. This post is not an offer to sell, or a solicitation of an offer to buy, the securities in any jurisdiction where the offer or sale is not permitted."
+    },
+    "text": "Our initial public offering: https://t.co/wPZ1LteuQv\n\nLegal disclaimer: Anthropic has filed a registration statement (including a prospectus) with the SEC for the offering to which this communication relates. Before you invest, you should read the prospectus in that registration",
+    "url": "https://x.com/i/status/2120841731302154708"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120821086233235457"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T10:08:46.000Z",
+    "edit_history_post_ids": [
+     "2120821094114329045"
+    ],
+    "id": "2120821094114329045",
+    "note_tweet": {
+     "text": "Nace AI has launched Drex for Document Processing, allowing its decision model to analyse and fix scanned pages or photos of documents.\n\nIn Nace's tests, Drex can correct the page 38% faster than regenerating it from scratch.\n\nIt’s priced at $7 per 1,000 pages and handles 30 file types, including PDFs, spreadsheets, and emails."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120575235678228632",
+      "type": "quoted"
+     }
+    ],
+    "text": "Nace AI has launched Drex for Document Processing, allowing its decision model to analyse and fix scanned pages or photos of documents.\n\nIn Nace's tests, Drex can correct the page 38% faster than regenerating it from scratch.\n\nIt’s priced at $7 per 1,000 pages and handles 30 file https://t.co/MFldsWcH8A https://t.co/JEMFSHu5Tg",
+    "url": "https://x.com/i/status/2120821094114329045"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2120970792531795968"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T21:46:26.000Z",
+    "edit_history_post_ids": [
+     "2120996666077856024"
+    ],
+    "id": "2120996666077856024",
+    "text": "OpenAI added support for custom instructions for Dots, along with faster replies.\n\nCustom instructions are super important for personalized agents; there is nothing more annoying than repeating the same thing to the agent in every session.  https://t.co/3UbIS0ulRd",
+    "url": "https://x.com/i/status/2120996666077856024"
+   },
+   {
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T09:23:43.000Z",
+    "edit_history_post_ids": [
+     "2120809757107737072"
+    ],
+    "id": "2120809757107737072",
+    "note_tweet": {
+     "text": "DAILY AI BRIEF 🗞 — Nov 12\n\nGOOGLE 🔥:\n- Gemini Decision 1 is live in the Gemini API and AI Studio, scoring up to 1,000 questions per call at $0.10 per 1M input tokens with no output cost.\n- Antigravity is rolling out browser use to all users.\n- Google Labs announced Tabletop, a shared AI space for groups, with a waitlist for US Ultra testers.\n- Gemini is now on Apple CarPlay with Gemini Live.\n- Managed Agents in the Gemini API now support self-hosted sandbox environments.\n- DeepMind used AlphaProof Code to formally verify Signal's protocol down to the code.\n- DeepMind released AlphaGenome 2, which models how DNA variants act in specific cell types.\n\nANTHROPIC 🔥:\n- Claude for iOS is getting a Saved logins section for credentials Claude can use to sign in to websites.\n- Claude Fable 5.2 is now available on Google Cloud.\n\nOPENAI 🔥:\n- ChatGPT Finances is now on ChatGPT desktop, with interactive widgets, for US Free, Go, Plus, and Pro users.\n- OpenAI announced ChatGPT Plus for veterans and servicemembers.\n\nSPACEXSI 🔥:\n- Grok Bot 1.0 is out, with shareable bots, Slack and Teams collaboration, and meeting invites.\n- Gopuff is now built into Grok Bot for end-to-end grocery delivery.\n- SpaceX ordered 100 GW/year of HJT solar manufacturing equipment from Germany's Singulus for Starmind.\n\nMICROSOFT 🔥:\n- Claude Fable 5.2 is rolling out in Copilot Cowork and Copilot Studio.\n\nNVIDIA 🔥:\n- NVIDIA's board is reportedly preparing to oust CEO Jensen Huang, sending shares sharply lower after hours.\n\nBYTEDANCE 🔥:\n- ByteDance plans to release a proactive AI agent in the coming weeks, per Bloomberg.\n\nN8N 🔥:\n- n8n Labs released Nod, an open-source agent for small tasks like chasing invoices, in research preview.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2120442345044787636",
+      "type": "quoted"
+     }
+    ],
+    "text": "DAILY AI BRIEF 🗞 — Nov 12\n\nGOOGLE 🔥:\n- Gemini Decision 1 is live in the Gemini API and AI Studio, scoring up to 1,000 questions per call at $0.10 per 1M input tokens with no output cost.\n- Antigravity is rolling out browser use to all users.\n- Google Labs announced Tabletop, a https://t.co/FBbz9YNAKr",
+    "url": "https://x.com/i/status/2120809757107737072"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120856681865523200",
+      "3_2120856681802579968"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-12T12:30:12.000Z",
+    "edit_history_post_ids": [
+     "2120856688899321922"
+    ],
+    "id": "2120856688899321922",
+    "note_tweet": {
+     "text": "做个带真地图的小工具，终于不用先绑外币信用卡了\n\n以前往网页里接张能查店、算路线的 Google 地图，代码没写一行，先要去云后台建项目、绑卡、开权限折腾半小时...\n现在在 Google AI Studio 里用大白话提句需求，点一下启用，它自己就会生成免绑卡的演示密钥锁进后台配置，右边直接跑起能拖拽缩放的 2D/3D 真地图\n\n四路实时地理数据直接调\n接上的是实时全球数据库，能做写实 3D 城市航拍、附近门店筛选、多车队多站点排线，还能拉取空气质量和花粉浓度（内置防瞎编核实，防止 AI 凭空捏造假地址或关门店铺）\n\n单接口每天免费调 100 次\n每个地图 API 每天有 100 次免费额度，每 24 小时重置。就算代码写死循环刷爆了也只是暂停报错，绝不扣费（仅限个人 Gmail 账号，且免费钥匙拿不到顾客拍的门店照片和文字评论）\n\n纯新号比老号免费权限更大\n以前从没建过 Google 云项目的纯新号，免绑卡几乎能调全套地图能力；反而是建过云项目的老号如果选免绑卡模式，只开放地图渲染、地点检索、路线、天气等 6 类基础功能\n\n绑卡后 0 行代码改动上线\n等原型跑通想正式发布，去云控制台给项目绑上结算账号，手里那串演示密钥原地变成正式生产密钥，一行代码都不用改。官方模板库里已经放了纽约帝国大厦 3D 航拍、旧金山 3 辆宠物车 18 段排线和 8 类标签门店查找器 3 套现成模板，点开就能直接改写"
+    },
+    "text": "做个带真地图的小工具，终于不用先绑外币信用卡了\n\n以前往网页里接张能查店、算路线的 Google 地图，代码没写一行，先要去云后台建项目、绑卡、开权限折腾半小时...\n现在在 Google AI Studio 里用大白话提句需求，点一下启用，它自己就会生成免绑卡的演示密钥锁进后台配置，右边直接跑起能拖拽缩放的 https://t.co/w0Thq0qJ7i",
+    "url": "https://x.com/i/status/2120856688899321922"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2120495703717998592"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-12T08:10:29.000Z",
+    "edit_history_post_ids": [
+     "2120791327902445893"
+    ],
+    "id": "2120791327902445893",
+    "note_tweet": {
+     "text": "发现一个好东西\n360度无死角\n全功能活人感的 Personal Agent\n\n虽然目前来看还是不够完美，但是这个应该是正确的方向\n\n我一直说要把 AI 当一个具体的人而不是一个工具来用，但现在所有单一的 Personal Agent 工具都没有那种指哪打哪的感觉...\n\n这玩意使用起来真的就像站在你的员工后面，一边口喷一边指指点点\n\n它就在那哼哧哼哧一通忙活，一边干活一边还能实时对话，需要其他员工配合的，他直接安排..\n\n你也可以不在电脑前面，连上手机，照样干活，如果你没在用手机，任务完成了还会主动打电话给你。\n\n这种拟人感我觉得是目前其他产品没有的，唯一让我有点感觉的是muse..."
+    },
+    "text": "发现一个好东西\n360度无死角\n全功能活人感的 Personal Agent\n\n虽然目前来看还是不够完美，但是这个应该是正确的方向\n\n我一直说要把 AI 当一个具体的人而不是一个工具来用，但现在所有单一的 Personal Agent 工具都没有那种指哪打哪的感觉... https://t.co/0B3P1HxJp9",
+    "url": "https://x.com/i/status/2120791327902445893"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120757821914673152"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-12T05:58:51.000Z",
+    "edit_history_post_ids": [
+     "2120758199339073727"
+    ],
+    "id": "2120758199339073727",
+    "note_tweet": {
+     "text": "豆包工作开放了第三方模型，可以接入其他开源模型来进行不同级别的任务\n\n新增 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型\n\n看标注比官方便宜很多…\n\n同时豆包工作已针对豆包 2.1 Lite 和 DeepSeek V4.1 Flash 推出限时优惠，下调这两款模型的额度消耗倍率，同等任务消耗更少、额度更耐用。\n\n从聊天对话到 Agent，模型的角色在变，Codex 也支持搭配任何开源模型\n\n进入 Agent 时代，专业工作场景里的任务复杂多样，任务类型增多、链路变长，叠加模型迭代快、单一模型每种复杂任务上对表现也不一样，有的对不同模型产出的结果喜好可能也不同，现在可选择自由度更高了！\n\n豆包工作还对每种模型都标注了对应基准消耗的费用倍率，实测消耗比官方的确实低很多…"
+    },
+    "text": "豆包工作开放了第三方模型，可以接入其他开源模型来进行不同级别的任务\n\n新增 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型\n\n看标注比官方便宜很多…\n\n同时豆包工作已针对豆包 2.1 Lite 和 DeepSeek V4.1 Flash https://t.co/2QG2rpBUq2",
+    "url": "https://x.com/i/status/2120758199339073727"
+   },
+   {
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-12T04:51:33.000Z",
+    "edit_history_post_ids": [
+     "2120741262710149129"
+    ],
+    "id": "2120741262710149129",
+    "referenced_tweets": [
+     {
+      "id": "2120540672696451162",
+      "type": "quoted"
+     }
+    ],
+    "text": "国内模型脚步确实放缓了\n🙃 https://t.co/bwwJWfgKuR",
+    "url": "https://x.com/i/status/2120741262710149129"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120879918066307072"
+     ]
+    },
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-12T14:02:33.000Z",
+    "edit_history_post_ids": [
+     "2120879274165239853",
+     "2120879926861791372"
+    ],
+    "id": "2120879926861791372",
+    "note_tweet": {
+     "text": "快讯：\n\n英伟达宣布黄仁勋辞职 \n盘前下跌11%\n\n英伟达宣布，黄仁勋即日起辞去总裁、首席执行官及董事会成员职务。\n\n任命科莱特·克雷斯为临时首席执行官，将继续兼任公司执行副总裁兼首席财务官。任命哈维·C·琼斯为公司首任董事会主席。\n\n董事会已启动永久首席执行官的遴选工作，并将考虑内部及外部候选人。\n\n消息公布后，英伟达盘前暴跌11%。"
+    },
+    "text": "快讯：\n\n英伟达宣布黄仁勋辞职 \n盘前下跌11%\n\n英伟达宣布，黄仁勋即日起辞去总裁、首席执行官及董事会成员职务。\n\n任命科莱特·克雷斯为临时首席执行官，将继续兼任公司执行副总裁兼首席财务官。任命哈维·C·琼斯为公司首任董事会主席。 https://t.co/YeaWw1XXJE",
+    "url": "https://x.com/i/status/2120879926861791372"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120878973517492225"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-12T13:58:48.000Z",
+    "edit_history_post_ids": [
+     "2120878982656880775"
+    ],
+    "id": "2120878982656880775",
+    "note_tweet": {
+     "text": "国运来了….\n\n沈一石自焚了！\n\n英伟达宣布，公司董事会已批准黄仁勋辞去公司总裁、首席执行官及董事职务，即刻生效。公司现任执行副总裁兼首席财务官科莱特·克雷斯（Colette Kress）出任临时CEO，并继续担任CFO，直至正式继任者确定。董事会将启动新任CEO遴选程序，同时考虑内部及外部候选人。\n\n英伟达董事会还任命Harvey C. Jones担任公司首任董事会主席。"
+    },
+    "text": "国运来了….\n\n沈一石自焚了！\n\n英伟达宣布，公司董事会已批准黄仁勋辞去公司总裁、首席执行官及董事职务，即刻生效。公司现任执行副总裁兼首席财务官科莱特·克雷斯（Colette Kress）出任临时CEO，并继续担任CFO，直至正式继任者确定。董事会将启动新任CEO遴选程序，同时考虑内部及外部候选人。 https://t.co/7xddQzPJN3",
+    "url": "https://x.com/i/status/2120878982656880775"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120799591041994752"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-12T08:44:28.000Z",
+    "edit_history_post_ids": [
+     "2120799877474975855"
+    ],
+    "id": "2120799877474975855",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 487,
+        "id": "1353836358901501952",
+        "start": 475,
+        "username": "AnthropicAI"
+       },
+       {
+        "end": 497,
+        "id": "4398626122",
+        "start": 490,
+        "username": "OpenAI"
+       }
+      ]
+     },
+     "text": "字节张一鸣：字节将会在2029年追平OpenAI和Anthropic！！\n\n11月12日，字节跳动创始人张一鸣再次在内部表达了他对字节跳动AI的态度。\n\n据了解，张一鸣在近期一次面向AI团队的All hands（全员会）上表示，字节有能力与OpenAI和Anthropic展开竞争，但真正追平前沿技术，“最早也要到2029年或2030年”。\n\n字节跳动的大模型自2023年起就一直试图对标国际第一梯队。\n\n同时张一鸣坦言，与海外顶尖AI公司相比，字节Seed系列模型的预训练数据集规模仍然少了，这是字节AI当下最需要关注的问题。\n\n外媒报道称，字节Seed团队正在预训练一款参数规模最高可达10万亿的模型，其量级可与Anthropic最高端的模型相媲美（据称目前已经完成了3-5T级别模型的训练）。\n\n这不是张一鸣第一次在内部重点关注AI业务的发展路径。\n\n此前张一鸣曾表示字节Seed模型绝不做蒸馏海外模型，并且在内部会议中表示，做模型要坚持长期主义、延迟满足感，而不是用别人的输出，换一时的榜单排名。\n\nPS：虽然但是，到底29年追平什么程度的 @AnthropicAI 和 @OpenAI 呢？\n\n2029年的还是2026年的🤣"
+    },
+    "text": "字节张一鸣：字节将会在2029年追平OpenAI和Anthropic！！\n\n11月12日，字节跳动创始人张一鸣再次在内部表达了他对字节跳动AI的态度。\n\n据了解，张一鸣在近期一次面向AI团队的All hands（全员会）上表示，字节有能力与OpenAI和Anthropic展开竞争，但真正追平前沿技术，“最早也要到2029年或2030年”。 https://t.co/CwHlcm2MUa",
+    "url": "https://x.com/i/status/2120799877474975855"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120572030122860544",
+      "3_2120572039656517635",
+      "3_2120572063245316096",
+      "3_2120572077476646912"
+     ]
+    },
+    "author_id": "1897545708770840576",
+    "created_at": "2026-11-12T01:30:01.000Z",
+    "edit_history_post_ids": [
+     "2120690544825250061"
+    ],
+    "id": "2120690544825250061",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 24,
+        "id": "1876494331491848192",
+        "start": 13,
+        "username": "chatcutapp"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "ChatCut.io/grok",
+        "end": 917,
+        "expanded_url": "http://ChatCut.io/grok",
+        "start": 894,
+        "url": "https://t.co/ecbc3EojiG"
+       }
+      ]
+     },
+     "text": "我去真的后悔没早点用上啊，@chatcutapp帮我打开了全新的剪辑思路——直接用手机版Grok bot实现了云剪辑，爽飞啊！出门在外，再也不用背电脑，一部手机，随时随地剪辑。\n\n之前一直没意识到Grok Bot的应用场景，这两天做数字人的时候，刚好用iPhone录制了几段很长的原始口播素材，但感觉上传到Mac再剪辑太麻烦了，我就在想，能不能用手机就把视频给剪辑了？云Agent似乎可以操作？🤔\n\n所以我直接掏出Grok Bot，结果发现这家伙只支持196MB以下的视频。。。\n\n最后神级解决方案就是用ChatCut生成一个上传链接，然后打开链接就能上传视频到ChatCut的云上，再操控Grok Bot来剪辑。\n\nChatCut真的是不用不知道，绝对的宝藏工具，用上剪辑（认知）水平都能提升一大截。\n\n有个“素材库”，里面包含了MG动画、音效、转场、特效、缩放、LUT、音频效果。对于没有一点剪辑实力的我来说，真的太友好了。。。直接挑选模板就能一键应用，傻瓜式永远是最牛逼（摩擦最小）的产品🤪\n\n而且口播剪辑、MG动画、加字幕、调色这些基础功能，全部都是免费的，所以手机云剪辑基本没啥成本。添加MG动画的时候，用Grok Bot还能给我几个模板让我挑选，如果是Claude Code，可能一口气干完了然后再返工。。。\n\n如果还需要进阶剪电商类或者财经类的精品视频，chatcut内置的也有图片生成、视频生成、音乐生成、音效生成、数字人克隆这些功能。\n\nGrok Bot手机云剪辑的应用场景还有很多：\n1、把手机相册里面的照片和各种视频片段，剪辑成Vlog直接发抖音、小红书。\n2、比如我开发的Glimdo App，我接下来打算在小红书再卖一波，所以大概率就用iPhone内录，Grok Bot+ChatCut手机上就剪辑完了。\n3、为啥我感觉Grok Bot剪辑很好？真的是随时随地都可以剪辑，打车的时候很无聊，没法集中精神工作，就适合personal agent这种碎片化工作，对ADHD真的很友好。\n使用方法也很简单：\n\n1、新建一个“视频剪辑”Bot。\n2、发送指令：Read https://t.co/ecbc3EojiG to connect the ChatCut app。\n3、Bot 会读取安装指南，引导用户在对话内给连接器授权，同时安装好skill。\n4、然后发送指令：生成一个ChatCut上传链接，把想要剪辑的视频在打开的网页里面上传。\n5、正常和Grok Bot对话（语音输入法），畅享vibe editing。"
+    },
+    "text": "我去真的后悔没早点用上啊，@chatcutapp帮我打开了全新的剪辑思路——直接用手机版Grok bot实现了云剪辑，爽飞啊！出门在外，再也不用背电脑，一部手机，随时随地剪辑。\n\n之前一直没意识到Grok https://t.co/j72TblBCSP",
+    "url": "https://x.com/i/status/2120690544825250061"
+   },
+   {
+    "author_id": "1953337039510003712",
+    "created_at": "2026-11-12T21:59:39.000Z",
+    "edit_history_post_ids": [
+     "2120999993079451919"
+    ],
+    "id": "2120999993079451919",
+    "referenced_tweets": [
+     {
+      "id": "2120970988796170275",
+      "type": "quoted"
+     }
+    ],
+    "text": "We shipped some good updates to dots today and the banked reset has been activated and should land in everyones accounts sometime soon! https://t.co/Y7Mnp6Cuu1",
+    "url": "https://x.com/i/status/2120999993079451919"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120885357831196672"
+     ]
+    },
+    "author_id": "1492195583699951620",
+    "created_at": "2026-11-12T14:25:55.000Z",
+    "edit_history_post_ids": [
+     "2120885807653474789"
+    ],
+    "id": "2120885807653474789",
+    "text": "AIHOT上线半年了，我几乎从来没有见过95分以上的新闻，连90分的，都屈指可数。\n但是今天，黄仁勋辞职，这条新闻，AIHOT第一次打出来98分。。。\n真正的见证历史了。。。 https://t.co/ysBRIcKMMT",
+    "url": "https://x.com/i/status/2120885807653474789"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120931617292054528"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T17:29:15.000Z",
+    "edit_history_post_ids": [
+     "2120931947442491664"
+    ],
+    "id": "2120931947442491664",
+    "referenced_tweets": [
+     {
+      "id": "2120927911373165000",
+      "type": "quoted"
+     }
+    ],
+    "text": "GOOGLE 🔥: Gemini 4 Hydrogen is rolling out to all users in the Gemini app! \n\nIt seems to be a fast, gradual rollout, and we will likely see an official announcement soon. \n\nA Hydrogen doze 💉 https://t.co/GmQm11bKE0 https://t.co/SzBr16H7qn",
+    "url": "https://x.com/i/status/2120931947442491664"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2120927877801631744"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-12T17:13:13.000Z",
+    "edit_history_post_ids": [
+     "2120927911373165000"
+    ],
+    "id": "2120927911373165000",
+    "referenced_tweets": [
+     {
+      "id": "2120926953905488301",
+      "type": "quoted"
+     }
+    ],
+    "text": "GOOGLE 🔥: Gemini 4 Hydrogen (Flash) is rolling out on Antigravity! You will need to update to the latest version in order to give it a try. \n\nTesting time! 👀 https://t.co/rD0rcacusH https://t.co/ferJqhmobJ",
+    "url": "https://x.com/i/status/2120927911373165000"
+   }
+  ],
+  "includes": {
+   "media": [
+    {
+     "media_key": "3_2121009774724530176",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW9XJwuWQAA4oAG.jpg"
+    },
+    {
+     "media_key": "3_2121018473111236608",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW9fEEvWMAA5f_G.jpg"
+    },
+    {
+     "media_key": "3_2121018473165836288",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW9fEE8XUAAZpku.jpg"
+    },
+    {
+     "duration_ms": 62541,
+     "media_key": "13_2120970641876586497",
+     "preview_image_url": "https://pbs.twimg.com/media/HW82tOPWUAAsEFY.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120970641876586497/pl/v3kt028wFmz9dxHn.m3u8?v=76c"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120970641876586497/vid/avc1/1280x720/pbR605XOH3K6XtF1.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120970641876586497/vid/avc1/1920x1080/GSxy8WyJp7bII_Zl.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120970641876586497/vid/avc1/480x270/1TPiAwqF3Rp_MgNu.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120970641876586497/vid/avc1/640x360/H7i-ktRqFfTUyLYM.mp4"
+      }
+     ]
+    },
+    {
+     "duration_ms": 107006,
+     "media_key": "13_2120921389591072768",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120921389591072768/img/9RdP1mEG7fpXEeGE.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120921389591072768/vid/avc1/640x360/fnHkyarTKifhXIHc.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120921389591072768/vid/avc1/1920x1080/pJMgvhA1Y47axaEH.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120921389591072768/pl/cuwDHrezdFrXBkAo.m3u8?v=165"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120921389591072768/vid/avc1/480x270/H0bJpvP4oNXsVy98.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120921389591072768/vid/avc1/1280x720/O5EKPsUWCQw5sl28.mp4"
+      },
+      {
+       "bit_rate": 25128000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120921389591072768/vid/avc1/3840x2160/4YqpYwQvlRNpPCL_.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120975635757555712",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW84GnKWYAAvISF.jpg"
+    },
+    {
+     "duration_ms": 84949,
+     "media_key": "13_2120903619382034432",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120903619382034432/img/JlR_SzGjkCokZeT7.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120903619382034432/vid/avc1/480x270/B0_AAoRIdGmNfddW.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120903619382034432/pl/1sdpujmUoIVQW5uR.m3u8?v=9f9"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120903619382034432/vid/avc1/640x360/XjpiaxOM-Ksu8NAT.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120903619382034432/vid/avc1/1920x1080/-XUMVfFcIUEQDScW.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120903619382034432/vid/avc1/1280x720/E36Dji8aN6u--mSq.mp4"
+      }
+     ]
+    },
+    {
+     "duration_ms": 49493,
+     "media_key": "13_2120967215528689664",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120967215528689664/img/NiLP6IQ5-LRLykHS.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120967215528689664/vid/avc1/1920x1080/EIsHF2NjsY_R8WJa.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120967215528689664/pl/Qn8lNP98O0HtXRlu.m3u8?v=cfc"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120967215528689664/vid/avc1/1280x720/_fUejwHdwqxFw6-O.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120967215528689664/vid/avc1/480x270/Ij7xo--CMszXNr9n.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120967215528689664/vid/avc1/640x360/l3Xuya5ZsZ8DIsHD.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120944364113334272",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW8bqXNXkAAC_sQ.jpg"
+    },
+    {
+     "duration_ms": 119566,
+     "media_key": "13_2120922038735187974",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120922038735187974/img/6p54iX2LXmBRYey2.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120922038735187974/vid/avc1/1920x1080/rujWFGrmAdt7Gylr.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120922038735187974/vid/avc1/1280x720/0i_tv8OyRhrVeBN5.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120922038735187974/pl/y4cqbLNaC23fj63x.m3u8?v=417"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120922038735187974/vid/avc1/640x360/DaVgLG5xGfo2W0Wc.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120922038735187974/vid/avc1/480x270/ULRdK9QG9iGFigwi.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120941606777876481",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW8ZJ3VXcAEGGMC.jpg"
+    },
+    {
+     "duration_ms": 28700,
+     "media_key": "13_2120885330488250368",
+     "preview_image_url": "https://pbs.twimg.com/media/HW7mAL-WgAAtxYE.png",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120885330488250368/vid/avc1/1280x720/Aq6iRCAFWon2iFQW.mp4?tag=16"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120885330488250368/vid/avc1/1920x1080/5RVXlexzi7y-fvGf.mp4?tag=16"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120885330488250368/vid/avc1/640x360/FhxK6jZdUQ_s3zEb.mp4?tag=16"
+      },
+      {
+       "bit_rate": 288000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120885330488250368/vid/avc1/480x270/971j0A6tJSlAXldD.mp4?tag=16"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120885330488250368/pl/1YkGpg3Rnfc0LxFC.m3u8?tag=16&v=cfc"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120912699814969344",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW7-3QgWAAANK7m.jpg"
+    },
+    {
+     "media_key": "3_2120902592658128896",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW71q8aXwAAhs1y.jpg"
+    },
+    {
+     "media_key": "3_2120902637587410944",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW71tjyWMAALkqx.jpg"
+    },
+    {
+     "media_key": "3_2120902637600034816",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW71tj1W0AAIbcL.jpg"
+    },
+    {
+     "media_key": "3_2120902637495197696",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW71tjcXIAAdgKR.jpg"
+    },
+    {
+     "media_key": "3_2120881095843422209",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW7iHqiWoAEt3HS.jpg"
+    },
+    {
+     "media_key": "3_2120881095927316480",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW7iHq2WwAAf_1n.jpg"
+    },
+    {
+     "media_key": "3_2120857025361895424",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW7MOlAWYAAy2MQ.jpg"
+    },
+    {
+     "duration_ms": 31000,
+     "media_key": "13_2120573690039447552",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120573690039447552/img/YNxTQynPLHl7co-4.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120573690039447552/vid/avc1/1280x720/yOVDpVitNlDwAedT.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120573690039447552/vid/avc1/1920x1080/t9-bTwXj11_Il9CB.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120573690039447552/vid/avc1/640x360/Fv7Bu19E6svItjxe.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120573690039447552/vid/avc1/480x270/ja54ftNIxf54p84e.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120573690039447552/pl/R2bAQq_rZdQoiS_m.m3u8?v=cfc"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120821086233235457",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW6ripUXEAENflH.jpg"
+    },
+    {
+     "duration_ms": 16299,
+     "media_key": "13_2120970792531795968",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120970792531795968/img/nDlkM6TFXmnctW5h.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120970792531795968/vid/avc1/1280x720/376Mot9SYvJf3zUw.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120970792531795968/vid/avc1/640x360/r8bw6xyKimPexy6v.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120970792531795968/vid/avc1/480x270/So0yd6uw7s4MP2Zg.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120970792531795968/pl/sqO225kabeeB12dF.m3u8"
+      },
+      {
+       "bit_rate": 25128000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120970792531795968/vid/avc1/3840x2160/N-wx13rzZ8LcGV-Z.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120970792531795968/vid/avc1/1920x1080/I-fxYozv9LbQ_E1z.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120856681865523200",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW7L6lYbsAAJxcd.jpg"
+    },
+    {
+     "media_key": "3_2120856681802579968",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW7L6lJbQAAS4Qd.jpg"
+    },
+    {
+     "duration_ms": 382266,
+     "media_key": "13_2120495703717998592",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120495703717998592/img/SFurl6NqBJthGG7s.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120495703717998592/vid/avc1/1280x720/3a19m3MilsWA1LUW.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120495703717998592/vid/avc1/480x270/QQKh5rOxOTspTT-S.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2120495703717998592/pl/FXYbayyxkZieaCrd.m3u8?v=aad"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120495703717998592/vid/avc1/1920x1080/eTXF58-62A3y8nWX.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2120495703717998592/vid/avc1/640x360/7g36OwXQfmCvMQ5c.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2120757821914673152",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW5yALXa8AA0Cnw.jpg"
+    },
+    {
+     "media_key": "3_2120879918066307072",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW7hDG-aEAAydoF.jpg"
+    },
+    {
+     "media_key": "3_2120878973517492225",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW7gMIQa8AEpmCU.jpg"
+    },
+    {
+     "media_key": "3_2120799591041994752",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW6X_dfaEAA-Iz2.jpg"
+    },
+    {
+     "media_key": "3_2120572030122860544",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW3JBrAaIAAv-Se.jpg"
+    },
+    {
+     "media_key": "3_2120572039656517635",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW3JCOhaMAMk5H2.jpg"
+    },
+    {
+     "media_key": "3_2120572063245316096",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW3JDmZasAAGRAM.jpg"
+    },
+    {
+     "media_key": "3_2120572077476646912",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW3JEbabkAAjlpH.jpg"
+    },
+    {
+     "media_key": "3_2120885357831196672",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW7l_vrbEAAaXUa.png"
+    },
+    {
+     "media_key": "3_2120927877801631744",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW8Mqu6W4AAHwJf.jpg"
+    },
+    {
+     "media_key": "3_2120931617292054528",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW8QEZmWcAAgTKY.jpg"
+    },
+    {
+     "media_key": "3_2120926904374996992",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HW8LyEnXMAAvw3Z.png"
+    }
+   ],
+   "posts": [
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2121009774724530176"
+      ]
+     },
+     "author_id": "2096819916175212548",
+     "created_at": "2026-11-12T22:38:43.000Z",
+     "edit_history_post_ids": [
+      "2121009824666116472"
+     ],
+     "id": "2121009824666116472",
+     "text": "Claude Duet invites just showed up in my account\n\nIf we’ve interacted and you want to skip the waitlist, DM me 👀 https://t.co/kS7sdPwxuh"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120921389591072768"
+      ]
+     },
+     "author_id": "1763765455012192256",
+     "created_at": "2026-11-12T17:02:24.000Z",
+     "edit_history_post_ids": [
+      "2120925189647315177"
+     ],
+     "id": "2120925189647315177",
+     "note_tweet": {
+      "text": "Retell just crossed $100M in revenue run rate.\n\n$10M to $100M in 17 months. Profitable. $4.6M raised.\n\nFrom day one, we’ve focused on solving the hardest parts of deploying voice AI in the product itself, so customers can build, manage, and improve their own agents without depending on us.\n\nOur bet: the future of the contact center belongs to the teams who run it.\n\nProud of our team. Grateful to every customer who believed in us."
+     },
+     "text": "Retell just crossed $100M in revenue run rate.\n\n$10M to $100M in 17 months. Profitable. $4.6M raised.\n\nFrom day one, we’ve focused on solving the hardest parts of deploying voice AI in the product itself, so customers can build, manage, and improve their own agents without https://t.co/CQV1KJn6Ic"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120903619382034432"
+      ]
+     },
+     "author_id": "1491478290091024389",
+     "created_at": "2026-11-12T15:41:28.000Z",
+     "edit_history_post_ids": [
+      "2120904821373096408"
+     ],
+     "id": "2120904821373096408",
+     "note_tweet": {
+      "entities": {
+       "mentions": [
+        {
+         "end": 156,
+         "id": "57371606",
+         "start": 148,
+         "username": "Simular"
+        }
+       ]
+      },
+      "text": "2,000,000,000 PCs sit on people's desks today.\n\nThe next billion computers?\n\nThey’ll be autonomous computers, driven by agents.\n\nIntroducing box by @Simular: one computer for ChatGPT, Claude, Codex, Gemini, DeepSeek and all your other agents.\n\nWith box, agents open apps, run the terminal, fill in forms, and stay signed in for whatever tasks come next."
+     },
+     "text": "2,000,000,000 PCs sit on people's desks today.\n\nThe next billion computers?\n\nThey’ll be autonomous computers, driven by agents.\n\nIntroducing box by @Simular: one computer for ChatGPT, Claude, Codex, Gemini, DeepSeek and all your other agents.\n\nWith box, agents open apps, run the https://t.co/Z566ucAH5e"
+    },
+    {
+     "author_id": "14130366",
+     "created_at": "2026-11-12T18:02:12.000Z",
+     "edit_history_post_ids": [
+      "2120940236805169182"
+     ],
+     "id": "2120940236805169182",
+     "note_tweet": {
+      "entities": {
+       "mentions": [
+        {
+         "end": 370,
+         "id": "1742923424056713217",
+         "start": 355,
+         "username": "GoogleAIStudio"
+        },
+        {
+         "end": 398,
+         "id": "1806359170830172162",
+         "start": 388,
+         "username": "GeminiApp"
+        },
+        {
+         "end": 474,
+         "id": "1965856473084473347",
+         "start": 462,
+         "username": "Antigravity"
+        }
+       ]
+      },
+      "text": "Following Carbon + Argon, Gemini 4 Hydrogen brings cutting-edge intelligence to everyone. Built for speed and efficiency for everyday tasks, coding and agentic workflows.\n\nCompared to 3.8 Flash, it finishes tasks 2.5x faster. Also has 4 thinking levels, so you only wait and pay for the reasoning depth a task requires.\n\nRolling out today to all tiers of @GoogleAIStudio, the Gemini API, @GeminiApp, Search and paid Google AI Pro and Ultra subscribers in Google @Antigravity."
+     },
+     "text": "Following Carbon + Argon, Gemini 4 Hydrogen brings cutting-edge intelligence to everyone. Built for speed and efficiency for everyday tasks, coding and agentic workflows.\n\nCompared to 3.8 Flash, it finishes tasks 2.5x faster. Also has 4 thinking levels, so you only wait and pay"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120922038735187974"
+      ]
+     },
+     "author_id": "1053497479",
+     "created_at": "2026-11-12T17:12:33.000Z",
+     "edit_history_post_ids": [
+      "2120927743319892184"
+     ],
+     "id": "2120927743319892184",
+     "note_tweet": {
+      "text": "Introducing Wave.\n\nThe world's first AI that reads your customers' mind.\n\n$1.47 trillion will be spent on software this year, but only a fraction of software features are used by customers.\n\nAI can build anything you want, but it doesn't know what your customers need.\n\nWave fixes that."
+     },
+     "text": "Introducing Wave.\n\nThe world's first AI that reads your customers' mind.\n\n$1.47 trillion will be spent on software this year, but only a fraction of software features are used by customers.\n\nAI can build anything you want, but it doesn't know what your customers need.\n\nWave fixes https://t.co/XwEbuaLYUw"
+    },
+    {
+     "author_id": "1897072581301424128",
+     "created_at": "2026-11-12T13:49:13.000Z",
+     "edit_history_post_ids": [
+      "2120876571829662014"
+     ],
+     "id": "2120876571829662014",
+     "text": "NVIDIA announces CEO transition. Read the release: https://t.co/MTTUvFHCJA"
+    },
+    {
+     "author_id": "1353836358901501952",
+     "created_at": "2026-11-12T11:30:46.000Z",
+     "edit_history_post_ids": [
+      "2120841731302154708"
+     ],
+     "id": "2120841731302154708",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "ipo.anthropic.com",
+         "end": 52,
+         "expanded_url": "https://ipo.anthropic.com",
+         "start": 29,
+         "url": "https://t.co/Ah4BkI2loD"
+        },
+        {
+         "display_url": "sec.gov/Archives/edgar…",
+         "end": 328,
+         "expanded_url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+         "start": 305,
+         "url": "https://t.co/Z44axxzf9b"
+        },
+        {
+         "display_url": "sec.gov",
+         "end": 549,
+         "expanded_url": "http://www.sec.gov",
+         "start": 526,
+         "url": "https://t.co/94ojsWZTKi"
+        }
+       ]
+      },
+      "text": "Our initial public offering: https://t.co/Ah4BkI2loD\n\nLegal disclaimer: Anthropic has filed a registration statement (including a prospectus) with the SEC for the offering to which this communication relates. Before you invest, you should read the prospectus in that registration statement (available at: https://t.co/Z44axxzf9b) and other documents Anthropic has filed with the SEC for more complete information about Anthropic and this offering. You may get these documents for free by visiting EDGAR on the SEC Web site at https://t.co/94ojsWZTKi. Alternatively, copies of the preliminary prospectus may be obtained from: Goldman Sachs & Co. LLC, Attention: Prospectus Department, 200 West Street, New York, NY 10282, by telephone at (866) 471-2526, or by email at prospectus-ny@ny.email.gs.com; or Morgan Stanley & Co. LLC, Attention: Prospectus Department, 180 Varick Street, 2nd Floor, New York, NY 10014.\n\nThe securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. This post is not an offer to sell, or a solicitation of an offer to buy, the securities in any jurisdiction where the offer or sale is not permitted."
+     },
+     "text": "Our initial public offering: https://t.co/wPZ1LteuQv\n\nLegal disclaimer: Anthropic has filed a registration statement (including a prospectus) with the SEC for the offering to which this communication relates. Before you invest, you should read the prospectus in that registration"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120573690039447552"
+      ]
+     },
+     "author_id": "1904210068704481280",
+     "created_at": "2026-11-11T17:51:49.000Z",
+     "edit_history_post_ids": [
+      "2120575235678228632"
+     ],
+     "id": "2120575235678228632",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "console.nace.ai",
+         "end": 285,
+         "expanded_url": "http://console.nace.ai",
+         "start": 262,
+         "url": "https://t.co/eTUlO9j0wU"
+        }
+       ]
+      },
+      "text": "Introducing Drex for Document Processing 📑\n\nDecision-powered parsing that catches errors before they reach your agents.\n\n→ #1 on our parsing leaderboard\n→ Beats GPT-6 Astra, Claude Opus 4.7 & every parser tested\n→ 38% faster corrections on RealDocBench\n\nTry it: https://t.co/eTUlO9j0wU"
+     },
+     "text": "Introducing Drex for Document Processing 📑\n\nDecision-powered parsing that catches errors before they reach your agents.\n\n→ #1 on our parsing leaderboard\n→ Beats GPT-6 Astra, Claude Opus 4.7 &amp; every parser tested\n→ 38% faster corrections on RealDocBench\n\nTry it: https://t.co/koVSEcZzSD"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T09:03:45.000Z",
+     "edit_history_post_ids": [
+      "2120442345044787636"
+     ],
+     "id": "2120442345044787636",
+     "note_tweet": {
+      "text": "DAILY AI BRIEF 🗞 — Nov 11\n\nMODEL FORECAST 👀:\n- Gemini 4 Hydrogen (Flash), today!!!\n- GPT-6.2 Sol, this week? codexy\n- GPT-6.2 Astra, this week? codexy\n- Qwen4 Flash/Plus/27B, soon?\n- Grok 4.8, \"soft\" this week\n- Tencent Hy4 open weights and Flash, soon\n- Claude Fable 5.5 and Mythos 5.5, not soon?\n- DeepSeek V4.1 Pro, not soon?\n\nGOOGLE 🔥:\n- Gemini 4 Carbon is out for Ultra subscribers in the Gemini app, Antigravity, and AI Mode, and in the API at $2/$10 per 1M tokens.\n- Antigravity launched /swarm, which runs agents in parallel and has them coordinate on a shared message board.\n- Gemini Robotics 2.5 is here, hitting 96% accuracy sorting car parts with Apptronik's Apollo 2 at Mercedes-Benz.\n- Gemini for healthcare launched in preview, with read-only Epic and Oracle Health connectors.\n- Google is expanding its Adobe partnership to bring Adobe tools into Gemini, Workspace, and AI Mode.\n\nANTHROPIC 🔥:\n- Claude Whiteboards and Sheets are in beta, and Claude Dashboards is now generally available as Claude Data on all paid plans.\n- Claude Meetings, which joins Google Meet calls as a participant, is coming to Team and Enterprise in beta.\n- Pro, Max, Ultra, and Team users get one free full limit reset to use before December 10.\n- Anthropic launched its IPO roadshow, with a price range of $70 to $78 per share.\n\nOPENAI 🔥:\n- Businesses in ChatGPT is in beta, letting companies claim their profiles and build a Business Agent for customers.\n- ChatGPT Business plans now work in tools like Notion, v0, Warp, and opencode through Sign in with ChatGPT.\n- OpenAI acquired Odessia, an AI trip-planning and booking platform.\n- ChatGPT will retire Advanced and Standard Voice modes on December 11.\n- OpenAI will hold a Cyber at the Frontier keynote on November 12.\n\nSPACEXSI 🔥:\n- Grok 4.8 is in RL and expected to soft-launch to some Grok Bot users this week.\n- Cursor rebuilt Projects for multiplayer, so teammates and their agents share one workspace.\n- Gemini 4 Carbon is in Cursor and tops CursorBench at 60.4% on high effort.\n- Starlink Mini 2 is up for preorder with a quick-swap battery that lasts up to 4.5 hours.\n\nMETA 🔥:\n- Muse now has its own email address for paid subscribers in the US and Canada.\n- Muse can now book Uber Courier deliveries in chat.\n\nMICROSOFT 🔥:\n- Gemini 4 Carbon is generally available in GitHub Copilot.\n\nPERPLEXITY 🔥:\n- Gemini 4 Carbon is in Perplexity Computer and matches Claude Fable 5.2 on WANDR at 40% of the cost.\n\nALIBABA 🔥:\n- Qwen4-Max is in preview on Alibaba's Token Plan, QwenWork, Qoder, and the Qwen app.\n\nMINIMAX 🔥:\n- MiniMax H3-Image is a new open-weight model that makes 4K images in about 10 seconds.\n\nSTRIPE 🔥:\n- Stripe has completed its acquisition of OpenRouter.\n\nELEVENLABS 🔥:\n- ElevenLabs launched Scribe v3 and Scribe v3 Live, its most accurate speech-to-text models yet.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120094172187103521",
+       "type": "quoted"
+      }
+     ],
+     "text": "DAILY AI BRIEF 🗞 — Nov 11\n\nMODEL FORECAST 👀:\n- Gemini 4 Hydrogen (Flash), today!!!\n- GPT-6.2 Sol, this week? codexy\n- GPT-6.2 Astra, this week? codexy\n- Qwen4 Flash/Plus/27B, soon?\n- Grok 4.8, \"soft\" this week\n- Tencent Hy4 open weights and Flash, soon\n- Claude Fable 5.5 and https://t.co/cavCFOTxlP"
+    },
+    {
+     "author_id": "1981270038817693696",
+     "created_at": "2026-11-11T15:34:28.000Z",
+     "edit_history_post_ids": [
+      "2120540672696451162"
+     ],
+     "id": "2120540672696451162",
+     "note_tweet": {
+      "text": "A big Chinese lab reached out to me asking for help distilling Fable into their model. I said no.\n\nI told them to use the millions of books that have no copyright instead. Offered to help pick them and to help train the model a different way. They only wanted distillation, which tells you a lot about the mindset there.\n\nI've worked deep in this field and distillation is real. I wasn't convinced at one point. What I saw changed my mind completely.\n\nI'm the biggest supporter of open source. I'm for releasing weights and for the freedom to research and build, because humanity only grows when knowledge gets shared. But let's be logical.\n\nNobody will convince me that labs shipping a model every month or less, each one a big leap, now can't ship a better one after three months.\n\nKimi K3.1 Pro isn't a big leap over Kimi K3 and it's been about 100 days.\n\nDeepSeek still can't put out a respectable Pro model.\n\nZai used to release their strongest model in under two months. It's been three with nothing.\n\nAll I hear about Qwen 4 Max is that it's a letdown.\n\nKimi K3.1 Pro and DeepSeek Flash both show traces of Astra distillation. The leak showed Moonshot used it, and so did DeepSeek.\n\nIf this isn't the effect of Anthropic blocking distillation then what is it?\n\nChinese labs need to get serious about using the talented researchers they have and give their models an identity. Right now their models at their best are a cheaper alternative. I want them out of that box. I want to see what makes them different.\n\nAnthropic has crossed lines too, no argument there. They destroyed millions of books, human knowledge that was in people's hands, and kept it for themselves. I'll never forgive them for that.\n\nBut Chinese labs rely on distillation more than they rely on better data.\n\nI didn't work with them. Transparency and honesty matter to me, like you've known since I started here."
+     },
+     "text": "A big Chinese lab reached out to me asking for help distilling Fable into their model. I said no.\n\nI told them to use the millions of books that have no copyright instead. Offered to help pick them and to help train the model a different way. They only wanted distillation, which"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120970792531795968"
+      ]
+     },
+     "author_id": "1714438092655149056",
+     "created_at": "2026-11-12T20:04:24.000Z",
+     "edit_history_post_ids": [
+      "2120970988796170275"
+     ],
+     "id": "2120970988796170275",
+     "note_tweet": {
+      "text": "Your dot now has…\n\n⚡️ Faster replies\n💬 Less jargon\n🫡 Better follow-through\n\nAnd, they can now follow your custom instructions. Tell your dot in the thread things like how to behave or which actions need your go-ahead.\n\n“always talk in lowercase.”\n“Show me a draft before sending any emails.”\n\nYou can also set custom instructions and rules in Customize > Behavior on mobile, or through your dot’s menu on web and desktop."
+     },
+     "text": "Your dot now has…\n\n⚡️ Faster replies\n💬 Less jargon\n🫡 Better follow-through\n\nAnd, they can now follow your custom instructions. Tell your dot in the thread things like how to behave or which actions need your go-ahead.\n\n“always talk in lowercase.”\n“Show me a draft before https://t.co/StQmM0dCFr"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120927877801631744"
+      ]
+     },
+     "author_id": "3980735590",
+     "created_at": "2026-11-12T17:13:13.000Z",
+     "edit_history_post_ids": [
+      "2120927911373165000"
+     ],
+     "id": "2120927911373165000",
+     "referenced_tweets": [
+      {
+       "id": "2120926953905488301",
+       "type": "quoted"
+      }
+     ],
+     "text": "GOOGLE 🔥: Gemini 4 Hydrogen (Flash) is rolling out on Antigravity! You will need to update to the latest version in order to give it a try. \n\nTesting time! 👀 https://t.co/rD0rcacusH https://t.co/ferJqhmobJ"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120926904374996992"
+      ]
+     },
+     "author_id": "1058501423653101574",
+     "created_at": "2026-11-12T17:09:25.000Z",
+     "edit_history_post_ids": [
+      "2120926953905488301"
+     ],
+     "id": "2120926953905488301",
+     "referenced_tweets": [
+      {
+       "id": "2120926528293032127",
+       "type": "quoted"
+      }
+     ],
+     "text": "Gemini 4 Hydrogen is available on Pro subs too\n\nAmazing news https://t.co/No2zczZlyC https://t.co/Czm9YUNGn5"
+    }
+   ]
+  },
+  "meta": {
+   "result_count": 30
+  }
+ }
+}

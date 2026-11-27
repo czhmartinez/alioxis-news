@@ -1,0 +1,1168 @@
+{
+  "schemaVersion": 1,
+  "query": {
+    "mode": "all",
+    "category": null,
+    "window": "24h",
+    "q": null,
+    "by": "timeline",
+    "ordering": "timelineDesc"
+  },
+  "items": [
+    {
+      "id": "g25w7tch26pjxhvbi8pp5jcmb",
+      "title": "Step 5 Preview 八项基准六胜 Kimi K3",
+      "originalTitle": "Across StepFun's 8-benchmark eval, Step 5 Preview beats Kimi K3 and GLM-5.3 on 6, including DeepSWE (67.7), ProgramBench (80.5), StepCode...",
+      "summary": "在 StepFun 的 8 项基准评测中，Step 5 Preview 在 6 项上击败 Kimi K3 和 GLM-5.3，包括 DeepSWE（67.7）、ProgramBench（80.5）、StepCodeBench（49.0）和 FrontierFinance（66.4）。",
+      "source": {
+        "name": "X：OpenRouter (@OpenRouter)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/g25w7tch26pjxhvbi8pp5jcmb",
+        "original": "https://x.com/OpenRouter/status/2108188974363865464"
+      },
+      "publishedAt": "2026-10-08T13:33:14.000Z",
+      "discoveredAt": "2026-10-08T13:36:31.733Z",
+      "category": "ai-models",
+      "score": 50,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/g25w7tch26pjxhvbi8pp5jcmb"
+      }
+    },
+    {
+      "id": "p93ynz39er6z04p2m2hg8bvo9",
+      "title": "Step 5 Preview 上线 OpenRouter，输入 $1.00/M、缓存命中仅 $0.05/M",
+      "originalTitle": "$1.00/M input and $2.70/M output, with cache hits 50% off at launch: just $0.05/M.",
+      "summary": "StepFun 的 Step 5 Preview 已上线 OpenRouter，定价为输入 $1.00/M、输出 $2.70/M，发布期缓存命中享五折即 $0.05/M。据引用的 StepFun 发布内容，一周免费访问正在 opencode、Cline、KiloCode 等工具中推出，面向智能体和专业工作场景。",
+      "source": {
+        "name": "X：OpenRouter (@OpenRouter)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/p93ynz39er6z04p2m2hg8bvo9",
+        "original": "https://x.com/OpenRouter/status/2108188987357901047"
+      },
+      "publishedAt": "2026-10-08T13:33:17.000Z",
+      "discoveredAt": "2026-10-08T13:36:31.727Z",
+      "category": "ai-products",
+      "score": 57,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/p93ynz39er6z04p2m2hg8bvo9"
+      }
+    },
+    {
+      "id": "pt26eoipuec2qwredpd89arhi",
+      "title": "面壁 MiniCPM5-2B 微调做智能体决策，准确率升至 80.5%",
+      "originalTitle": "Jev has sparked a compelling question: why generate a paragraph when your agent just needs to make a decision?",
+      "summary": "社区项目 ReJev 用 LoRA 后训练将面壁开源 2B 模型 MiniCPM5-2B 适配为决策模型，输入状态、问题与候选选项后直接输出一个决策。在其 1,892 条密封留出集上，准确率从 51.11% 提升至 80.50%（+29.39 个百分点），报告评测中无效输出为 0%，累计 Modal 账单约 5.31 美元。",
+      "source": {
+        "name": "X：面壁智能 OpenBMB (@OpenBMB)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/pt26eoipuec2qwredpd89arhi",
+        "original": "https://x.com/OpenBMB/status/2108188162677944478"
+      },
+      "publishedAt": "2026-10-08T13:30:00.000Z",
+      "discoveredAt": "2026-10-08T13:36:31.719Z",
+      "category": "paper",
+      "score": 37,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/pt26eoipuec2qwredpd89arhi"
+      }
+    },
+    {
+      "id": "mr1is9l9h5usufta9yttu7xmi",
+      "title": "ICANN 收到 1615 项新顶级域名申请，.agent 和 .agi 成 AI 公司争夺焦点",
+      "originalTitle": "It appears .agent and .agi are about to be the hot new domains",
+      "summary": "ICANN 多年来首次接受新顶级域名申请，公布了来自 481 个申请者的 1615 项申请。Meta 申请了 21 个包括 .superintelligence 在内的域名，OpenAI 申请 15 个包括 .agent、.agi、.chatgpt、.gpt 等，Anthropic 申请 .anthropic 和 .claude，Bluesky 申请 .bsky。新域名预计明年后才会正式确定。",
+      "source": {
+        "name": "The Verge：AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/mr1is9l9h5usufta9yttu7xmi",
+        "original": "https://www.theverge.com/tech/1007132/icann-domains-2026-ai-agi"
+      },
+      "publishedAt": "2026-10-07T18:46:16.000Z",
+      "discoveredAt": "2026-10-08T13:36:30.936Z",
+      "category": "industry",
+      "score": 53,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/mr1is9l9h5usufta9yttu7xmi"
+      }
+    },
+    {
+      "id": "abl60kstec339fmr35yrcmw6w",
+      "title": "Manus 母公司 Butterfly Effect 完成 5 亿多美元融资，系与 Meta 交易终止后首轮",
+      "originalTitle": "China’s Manus raises over $500M in first funding round since split with Meta",
+      "summary": "Manus 母公司 Butterfly Effect 在 WeChat 宣布融资超过 5 亿美元，由 Boyu Capital 和 IDG Capital 领投，Tencent、HSG、ZhenFund 等跟投，这是中国监管 4 月叫停 Meta 20 亿美元收购后的第一轮融资。",
+      "source": {
+        "name": "TechCrunch：AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/abl60kstec339fmr35yrcmw6w",
+        "original": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/"
+      },
+      "publishedAt": "2026-10-08T13:20:32.000Z",
+      "discoveredAt": "2026-10-08T13:35:29.696Z",
+      "category": "industry",
+      "score": 69,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/abl60kstec339fmr35yrcmw6w"
+      }
+    },
+    {
+      "id": "leiqwxeyyervmpulbzlppl4wp",
+      "title": "Google 发布本地优先笔记应用 Google AI Edge Foresight，对标 Granola",
+      "originalTitle": "Google releases a new local-first Granola competitor",
+      "summary": "Google 同一团队发布 AI 会议笔记应用 Google AI Edge Foresight，基于设备端 EmbeddingGemma 2（740M 参数）可在 Mac 上完全离线运行，并支持跨应用捕捉会议记录。",
+      "source": {
+        "name": "TechCrunch：AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/leiqwxeyyervmpulbzlppl4wp",
+        "original": "https://techcrunch.com/2026/10/08/google-releases-a-new-local-first-granola-competitor/"
+      },
+      "publishedAt": "2026-10-08T13:28:39.000Z",
+      "discoveredAt": "2026-10-08T13:35:29.690Z",
+      "category": "ai-products",
+      "score": 59,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/leiqwxeyyervmpulbzlppl4wp"
+      }
+    },
+    {
+      "id": "q3uslqd16kqpdpn6v2qf5cyb4",
+      "title": "腾讯 WorkBuddy 上新独立文件浏览器，作者实测改文件不产生副本并可顺手沉淀知识库",
+      "originalTitle": "腾讯WorkBuddy悄悄上新功能，我再也不用把文件搬来搬去了",
+      "summary": "腾讯 WorkBuddy 上新独立文件浏览器，右键本地文件即可打开，左文件右 AI 对话。支持多标签页且每个文件对话独立，Office 文件可人机双写直接存回原文件不产生副本，Markdown 实时渲染并支持圈选段落让 AI 翻译或改写后追加，HTML 可看可改，小程序版打开 .md 和 .html 文件不扣积分，对话才扣。",
+      "source": {
+        "name": "公众号：卡尔的AI沃茨"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/q3uslqd16kqpdpn6v2qf5cyb4",
+        "original": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247512215&idx=1&sn=aace5f1ebc2e612f71cca419be3cc56c"
+      },
+      "publishedAt": "2026-10-08T12:44:00.000Z",
+      "discoveredAt": "2026-10-08T13:33:31.754Z",
+      "category": "ai-products",
+      "score": 56,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/q3uslqd16kqpdpn6v2qf5cyb4"
+      }
+    },
+    {
+      "id": "cal34hameqt3bh6d52vaqt58v",
+      "title": "Zenity 研究人员发现一条提示词即可劫持 AWS 账户内全部 AgentCore 智能体",
+      "originalTitle": "A single prompt was enough to hijack every AI agent in an AWS account, Zenity researchers found",
+      "summary": "Zenity Labs 研究人员披露名为 AgentCorruption 的漏洞链，只需对一个公开的 Amazon Bedrock AgentCore 智能体发送一条提示词，即可通过元数据服务 169.254.169.254 窃取其 AWS 凭据，进而控制同账户同区域内的所有 AgentCore 智能体，读取私人对话、源代码和存储的凭据，还能篡改长期记忆。",
+      "source": {
+        "name": "The Decoder：AI News（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/cal34hameqt3bh6d52vaqt58v",
+        "original": "https://the-decoder.com/a-single-prompt-was-enough-to-hijack-every-ai-agent-in-an-aws-account-zenity-researchers-found/"
+      },
+      "publishedAt": "2026-10-08T13:01:01.000Z",
+      "discoveredAt": "2026-10-08T13:27:33.293Z",
+      "category": "paper",
+      "score": 80,
+      "selected": true,
+      "reason": "原文梳理了 Zenity 演示的完整攻击链和 AWS 此后的权限收紧，读者可以据此评估自己云端智能体的隔离与最小权限配置。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/cal34hameqt3bh6d52vaqt58v"
+      }
+    },
+    {
+      "id": "vdczpgedooybwi80nudw47j3o",
+      "title": "IBM 如何将 Spyre 打造为原生 PyTorch 设备",
+      "originalTitle": "Building Spyre as a Native PyTorch Device",
+      "summary": "IBM 通过 torch-spyre 将 Spyre 接入 PyTorch 的 device、allocator、stream 与编译器抽象，使其成为原生 PyTorch 设备。",
+      "source": {
+        "name": "PyTorch：Blog（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/vdczpgedooybwi80nudw47j3o",
+        "original": "https://pytorch.org/blog/building-spyre-as-a-native-pytorch-device/"
+      },
+      "publishedAt": "2026-10-08T12:45:49.000Z",
+      "discoveredAt": "2026-10-08T13:23:33.873Z",
+      "category": "tip",
+      "score": 37,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/vdczpgedooybwi80nudw47j3o"
+      }
+    },
+    {
+      "id": "q6q88duc2qbt66wdplszl75s5",
+      "title": "阶跃星辰 Step 5 Preview 上线 OpenRouter，开放一周免费试用",
+      "originalTitle": "Step 5 Preview now exists where you build.",
+      "summary": "阶跃星辰（StepFun）宣布 Step 5 Preview 现已上线 OpenRouter，链接为 https://openrouter.ai/stepfun/step-5-preview。即日起在 @opencode、@cline、@NousResearch、@kilocode 等平台陆续开放一周免费访问，主打智能体与专业工作场景，任务成本明显更低，用户可保留现有工作流直接切换模型。",
+      "source": {
+        "name": "X：阶跃星辰 StepFun (@StepFun_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/q6q88duc2qbt66wdplszl75s5",
+        "original": "https://x.com/StepFun_ai/status/2108182763002278158"
+      },
+      "publishedAt": "2026-10-08T13:08:33.000Z",
+      "discoveredAt": "2026-10-08T13:23:32.027Z",
+      "category": "ai-models",
+      "score": 54,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/q6q88duc2qbt66wdplszl75s5"
+      }
+    },
+    {
+      "id": "i0g5907cqn77e8r1edi95hiju",
+      "title": "阶跃星辰发布 Step 5 Preview",
+      "originalTitle": "Want to learn more about Step 5 Preview?",
+      "summary": "阶跃星辰官方发布 Step 5 Preview 的介绍入口，提供模型概览、评测基准与演示页面，以及技术规格和 API 文档。详情见 https://www.stepfun.com/step-5-preview 与 https://platform.stepfun.ai/docs/en/guides/models/step-5-preview。",
+      "source": {
+        "name": "X：阶跃星辰 StepFun (@StepFun_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/i0g5907cqn77e8r1edi95hiju",
+        "original": "https://x.com/StepFun_ai/status/2108182766877843714"
+      },
+      "publishedAt": "2026-10-08T13:08:34.000Z",
+      "discoveredAt": "2026-10-08T13:23:32.020Z",
+      "category": "ai-models",
+      "score": 51,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/i0g5907cqn77e8r1edi95hiju"
+      }
+    },
+    {
+      "id": "dqelvwbsyncp0e515g1ironxf",
+      "title": "Understanding AI 解读新模型 Jev：只输出概率的新形态 AI 为何爆红",
+      "originalTitle": "Understanding Jev, the new model everyone is talking about",
+      "summary": "TypeSafe AI 于 9 月 15 日发布的模型 Jev 走红，公告获近 4000 万浏览，一周内超 10 万人加入其 Discord，GitHub 上约 2000 个项目使用。",
+      "source": {
+        "name": "Timothy B. Lee：Understanding AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/dqelvwbsyncp0e515g1ironxf",
+        "original": "https://www.understandingai.org/p/understanding-jev-the-new-model-everyone"
+      },
+      "publishedAt": "2026-10-08T13:14:53.000Z",
+      "discoveredAt": "2026-10-08T13:22:32.371Z",
+      "category": "ai-models",
+      "score": 67,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/dqelvwbsyncp0e515g1ironxf"
+      }
+    },
+    {
+      "id": "pl2oa5clmf0gp3t7x3qsn71kc",
+      "title": "Waymo 完成 50 亿美元债务融资，加速业务扩张",
+      "originalTitle": "Waymo Closes $5 Billion Debt Financing to Accelerate Business Expansion",
+      "summary": "Waymo 宣布完成 50 亿美元定期贷款，这是其首次债务融资。PIMCO、Blackstone 和 Sixth Street 担任牵头银团贷方，Goldman Sachs 担任独家主账簿管理人；资金将用于加速其全自动驾驶打车服务在美国及国际市场的扩张。此前今年早些时候 Waymo 完成了 160 亿美元股权融资，上个月刚在第十五个美国城市启动服务。",
+      "source": {
+        "name": "Waymo：Blog（网页）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/pl2oa5clmf0gp3t7x3qsn71kc",
+        "original": "https://waymo.com/blog/2026/10/waymo-closes-5-billion-debt-financing"
+      },
+      "publishedAt": "2026-10-08T07:00:00.000Z",
+      "discoveredAt": "2026-10-08T13:22:31.463Z",
+      "category": "industry",
+      "score": 66,
+      "selected": true,
+      "reason": "官方宣布首笔 50 亿美元债务融资并列出主要贷方，可结合此前的 160 亿美元股权融资了解其资金布局。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/pl2oa5clmf0gp3t7x3qsn71kc"
+      }
+    },
+    {
+      "id": "aj0782nppv67r3e7psdsmoira",
+      "title": "Databricks 如何用 Replit 和 Lakebase 构建受治理的企业应用",
+      "originalTitle": "How to build governed enterprise apps on Databricks with Replit and Lakebase",
+      "summary": "Databricks 与 Replit 的集成已正式可用并原生支持 Lakebase，企业团队可用 Replit Agent 基于 Databricks 实时数据构建受治理的应用，并部署为 Databricks App。",
+      "source": {
+        "name": "Databricks：Blog（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/aj0782nppv67r3e7psdsmoira",
+        "original": "https://www.databricks.com/blog/how-build-governed-enterprise-apps-databricks-replit-and-lakebase"
+      },
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "discoveredAt": "2026-10-08T13:21:31.893Z",
+      "category": "tip",
+      "score": 27,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/aj0782nppv67r3e7psdsmoira"
+      }
+    },
+    {
+      "id": "uvai9pccpzlzm14povjfw41nn",
+      "title": "Hugging Face CEO 呼吁公开 AI 智能体攻防记录",
+      "originalTitle": "We urgently need more public traces of AI agents attacking and defending systems. Defenders can’t learn from what they can’t see.",
+      "summary": "我们迫切需要更多 AI 智能体攻击和防御系统的公开记录。防御者无法从他们看不到的东西中学习。\n\n如果你有这些记录却被迫保密，我的私信随时开放。让我们拉平起跑线，对抗 AI 中的信息不对称和缺乏透明度！",
+      "source": {
+        "name": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/uvai9pccpzlzm14povjfw41nn",
+        "original": "https://x.com/ClementDelangue/status/2108184948548976921"
+      },
+      "publishedAt": "2026-10-08T13:17:14.000Z",
+      "discoveredAt": "2026-10-08T13:19:30.564Z",
+      "category": "tip",
+      "score": 25,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/uvai9pccpzlzm14povjfw41nn"
+      }
+    },
+    {
+      "id": "fl6srv2ae2ssz2hynz72rz9r5",
+      "title": "腾讯又给自家workbuddy加了个新功能，可以选不同格式的文件直接打开预览加ai对话现改，比方我做个markdown可以直接ai翻译覆盖原来的信息",
+      "originalTitle": null,
+      "summary": "腾讯又给自家workbuddy加了个新功能，可以选不同格式的文件直接打开预览加ai对话现改，比方我做个markdown可以直接ai翻译覆盖原来的信息",
+      "source": {
+        "name": "X：卡尔的 AI 沃茨 (@aiwarts)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/fl6srv2ae2ssz2hynz72rz9r5",
+        "original": "https://x.com/aiwarts/status/2108184658127303069"
+      },
+      "publishedAt": "2026-10-08T13:16:05.000Z",
+      "discoveredAt": "2026-10-08T13:17:30.020Z",
+      "category": "ai-products",
+      "score": 30,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/fl6srv2ae2ssz2hynz72rz9r5"
+      }
+    },
+    {
+      "id": "lc7saixyhgtwx3nwll5nguh0l",
+      "title": "腾讯元宝上线医疗健康问答：拍照解读体检报告、药品说明书",
+      "originalTitle": "在线接单，这些问题欢迎大家随时问宝",
+      "summary": "腾讯元宝推出AI健康助手功能，支持用户通过拍照或语音提问，解读体检报告指标、药品说明书用法用量及保健品成分表。该功能接入中国医药信息平台、腾讯医典、有来医生、医脉通、药智网等专业信源，官方提示AI检索的健康信息仅供参考，具体诊疗请以医生建议为准。",
+      "source": {
+        "name": "公众号：腾讯元宝"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/lc7saixyhgtwx3nwll5nguh0l",
+        "original": "https://mp.weixin.qq.com/s?__biz=Mzk0NzY4MjM5MA%3D%3D&mid=2247526785&idx=1&sn=1554249f247544530c445666b9f4a4f6"
+      },
+      "publishedAt": "2026-10-08T12:59:02.000Z",
+      "discoveredAt": "2026-10-08T13:06:05.780Z",
+      "category": "tip",
+      "score": 32,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/lc7saixyhgtwx3nwll5nguh0l"
+      }
+    },
+    {
+      "id": "rr3bgefcrmoww99ouf69482vc",
+      "title": "Nathan Lambert 谈开放模型与安全平衡",
+      "originalTitle": "The South Korean bank hack fits with this. Yes, open models are being fitted to be used by some attackers, but so long as Claude Code can...",
+      "summary": "韩国银行被黑事件正好印证了这一点。是的，开放模型正被一些攻击者加以利用，但只要 Claude Code 能充当黑客攻击的编排者，我们就迫切需要开放模型来同样扩散防御能力。这对社会来说是一个难以接受的艰难平衡，但却是必要的。",
+      "source": {
+        "name": "X：Nathan Lambert (@natolambert)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/rr3bgefcrmoww99ouf69482vc",
+        "original": "https://x.com/natolambert/status/2108178147577647518"
+      },
+      "publishedAt": "2026-10-08T12:50:13.000Z",
+      "discoveredAt": "2026-10-08T13:05:30.520Z",
+      "category": "tip",
+      "score": 28,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/rr3bgefcrmoww99ouf69482vc"
+      }
+    },
+    {
+      "id": "vrwo2vl8guzfqwwvisvrx2x35",
+      "title": "AI 智能体生产力影响缺乏 RCT 研究",
+      "originalTitle": "As a researcher who did early work on the productivity impacts of AI chatbots using RCTs, I’d note a lack of similar studies since the da...",
+      "summary": "作为一名早期用 RCT 研究 AI 聊天机器人生产力影响的研究者，我要指出，自去年秋天真正的智能体问世以来，类似研究一直缺位。\n\n部分原因是太新，部分原因是研究设计上的挑战，但我怀疑我们正在错过一些巨大的效应。",
+      "source": {
+        "name": "X：Ethan Mollick (@emollick)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/vrwo2vl8guzfqwwvisvrx2x35",
+        "original": "https://x.com/emollick/status/2108170825077531112"
+      },
+      "publishedAt": "2026-10-08T12:21:07.000Z",
+      "discoveredAt": "2026-10-08T12:51:29.680Z",
+      "category": "tip",
+      "score": 31,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/vrwo2vl8guzfqwwvisvrx2x35"
+      }
+    },
+    {
+      "id": "uvxjpdorcnhdy22u5otf3slwt",
+      "title": "Ethan Mollick：组织是一种狭义超级智能，AI 尚未带来科研与经济影响",
+      "originalTitle": "I think I wrote exactly that, and it is still right. Organizations are a form of narrow superintelligence. My university, or Walmart, can...",
+      "summary": "Ethan Mollick 认为组织本身就是一种狭义超级智能，大学或 Walmart 能完成个人做不到的事，且常依赖无人明确设计的复杂流程。他进一步指出，未能深入思考 AI 如何与现有组织超级智能协同，是 AI 能力虽高却尚未对科学发现或经济生产率产生重大影响的重要原因。",
+      "source": {
+        "name": "X：Ethan Mollick (@emollick)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/uvxjpdorcnhdy22u5otf3slwt",
+        "original": "https://x.com/emollick/status/2108177045511364998"
+      },
+      "publishedAt": "2026-10-08T12:45:50.000Z",
+      "discoveredAt": "2026-10-08T12:51:29.672Z",
+      "category": "tip",
+      "score": 36,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/uvxjpdorcnhdy22u5otf3slwt"
+      }
+    },
+    {
+      "id": "h4opjvmg5kom0a5ug2e67iklr",
+      "title": "技术产品经理用 Claude Code 从 TESS 数据中发现系外行星候选",
+      "originalTitle": "I think I found a planet nobody knew existed. I used Claude Code to find it",
+      "summary": "一位科技行业产品经理用 Claude Code（Opus 5.5 与 Fable 5.1）分析 NASA TESS 数据，发现约 116 光年外一颗恒星每 3.18 天变暗约 0.05%，候选行星约为地球 1.4 倍大小，仍属候选而非确认。",
+      "source": {
+        "name": "Hacker News：AI 热帖"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/h4opjvmg5kom0a5ug2e67iklr",
+        "original": "https://www.reddit.com/r/ClaudeAI/s/mbe5IY2LF9"
+      },
+      "publishedAt": "2026-10-08T07:07:34.000Z",
+      "discoveredAt": "2026-10-08T12:45:30.733Z",
+      "category": "tip",
+      "score": 69,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/h4opjvmg5kom0a5ug2e67iklr"
+      }
+    },
+    {
+      "id": "lvvkodzewa3ahyypplw2l897u",
+      "title": "腾讯云开源自托管多智能体 AI 助手平台 Octop",
+      "originalTitle": "腾讯云开源了自托管多智能体 AI 助手平台「Octop」",
+      "summary": "腾讯云开源了自托管多智能体 AI 助手平台 Octop，面向家庭和小团队，主打多用户、多智能体、数据留在本机，一个 pip 包包含后端、Web 仪表盘、CLI、IM 网关、定时任务和多智能体运行时，运行命令为 octop run。",
+      "source": {
+        "name": "X：邵猛 (@shao__meng)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/lvvkodzewa3ahyypplw2l897u",
+        "original": "https://x.com/shao__meng/status/2108160838695788654"
+      },
+      "publishedAt": "2026-10-08T11:41:26.000Z",
+      "discoveredAt": "2026-10-08T11:50:31.867Z",
+      "category": "ai-products",
+      "score": 74,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/lvvkodzewa3ahyypplw2l897u"
+      }
+    },
+    {
+      "id": "u2t10s4umh1e9lh836ztxcqx5",
+      "title": "MiniMax Design 用代码生成视频",
+      "originalTitle": "Opus 5.5 on #MiniMaxDesign | Code Your Next Video",
+      "summary": "Opus 5.5 上线 #MiniMaxDesign | 用代码创作你的下一支视频\n把文字变成视频——从代码到动态画面。\n\n✨ JavaScript 动画\n✨ 动态图形\n✨ 解说视频与视觉叙事\n✨ 网页与产品演示\n\n不止是大语言模型——它能理解视觉内容，并持续打磨你的作品。🎨",
+      "source": {
+        "name": "X：MiniMax Design (H3) (@Hailuo_AI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/u2t10s4umh1e9lh836ztxcqx5",
+        "original": "https://x.com/Hailuo_AI/status/2108156700368765179"
+      },
+      "publishedAt": "2026-10-08T11:24:59.000Z",
+      "discoveredAt": "2026-10-08T11:50:29.999Z",
+      "category": "ai-products",
+      "score": 27,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/u2t10s4umh1e9lh836ztxcqx5"
+      }
+    },
+    {
+      "id": "mpeuf0k6iqg7psvzekj7n8n82",
+      "title": "活动今日开启，展示新功能",
+      "originalTitle": "this is happening today in a few hours! join in and check out some our new features",
+      "summary": "就在今天，几小时后！快来参加，看看我们的一些新功能",
+      "source": {
+        "name": "X：Lauren Tan (@poteto)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/mpeuf0k6iqg7psvzekj7n8n82",
+        "original": "https://x.com/poteto/status/2108161535990517941"
+      },
+      "publishedAt": "2026-10-08T11:44:12.000Z",
+      "discoveredAt": "2026-10-08T11:50:29.548Z",
+      "category": null,
+      "score": 19,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/mpeuf0k6iqg7psvzekj7n8n82"
+      }
+    },
+    {
+      "id": "xem0hjpmq2qhw1f05ppxd5ixt",
+      "title": "Nvidia 押注物理 AI：Halos 安全系统瞄准更安全的 robotaxi 与人形机器人",
+      "originalTitle": "Nvidia's big bet on physical AI aims for safer robotaxis, humanoid robots",
+      "summary": "Nvidia 正将数十亿美元押注于机器人和自动驾驶等物理 AI 技术，其 Halos 安全系统于 2025 年推出，提供硬件和软件工具帮助开发者在自动驾驶汽车中实现安全护栏。",
+      "source": {
+        "name": "Ars Technica：AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/xem0hjpmq2qhw1f05ppxd5ixt",
+        "original": "https://arstechnica.com/ai/2026/10/nvidias-big-bet-on-physical-ai-aims-for-safer-robotaxis-humanoid-robots/"
+      },
+      "publishedAt": "2026-10-08T11:15:33.000Z",
+      "discoveredAt": "2026-10-08T11:29:31.755Z",
+      "category": "industry",
+      "score": 47,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/xem0hjpmq2qhw1f05ppxd5ixt"
+      }
+    },
+    {
+      "id": "slcg7omyxpdpf8qzsjh4rhqq4",
+      "title": "AI DevCon NYC：从编码智能体到软件工厂",
+      "originalTitle": "AI DevCon NYC: From Coding Agents to Software Factories",
+      "summary": "AI DevCon New York 将于 11 月 2–4 日在布鲁克林 Industry City 举行，主题是\"软件工厂\"：不只提升单个编码智能体的能力，而是构建让智能体开发可重复、可信、可扩展的系统。议题涵盖上下文与技能、harness 与工具、编排、验证与评估、反馈与改进等层次，Zalando 将分享覆盖 2,000 多名工程师的智能体工程规模化经验。",
+      "source": {
+        "name": "Tessl：产品与工程博客"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/slcg7omyxpdpf8qzsjh4rhqq4",
+        "original": "https://tessl.io/blog/ai-devcon-nyc-from-coding-agents-to-software-factories"
+      },
+      "publishedAt": "2026-10-07T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T11:25:30.488Z",
+      "category": "tip",
+      "score": 30,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/slcg7omyxpdpf8qzsjh4rhqq4"
+      }
+    },
+    {
+      "id": "dslk5709x9y0od8jufp3670e2",
+      "title": "高通否认成为净支付方",
+      "originalTitle": "Qualcomm just denied being the net payer and rejected claims that the deal relates to LogicFolding. The available statements do not estab...",
+      "summary": "高通刚刚否认自己是净支付方，并否认该交易与 LogicFolding 有关。现有声明无法证实 LogicFolding 或相关外围技术的授权。",
+      "source": {
+        "name": "X：X.PIN (@thexpin)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/dslk5709x9y0od8jufp3670e2",
+        "original": "https://x.com/thexpin/status/2108154250849337594"
+      },
+      "publishedAt": "2026-10-08T11:15:15.000Z",
+      "discoveredAt": "2026-10-08T11:19:32.006Z",
+      "category": "industry",
+      "score": 44,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/dslk5709x9y0od8jufp3670e2"
+      }
+    },
+    {
+      "id": "eu2nejoj8gsigtdutwsk7ibwd",
+      "title": "Antigravity 智能体更名 Chief of stuff",
+      "originalTitle": "Now it is getting serious 👀",
+      "summary": "现在事情变得严肃起来了 👀\n\nAntigravity 智能体在最新更新中刚被更名为“Chief of stuff”！我想知道 Antigravity 是否会成为 Google 考虑加入其 botsdots 智能体的地方。\n\n至少看起来像是一次晋升 🤖",
+      "source": {
+        "name": "X：Testing Catalog (@testingcatalog)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/eu2nejoj8gsigtdutwsk7ibwd",
+        "original": "https://x.com/testingcatalog/status/2108154053171478564"
+      },
+      "publishedAt": "2026-10-08T11:14:28.000Z",
+      "discoveredAt": "2026-10-08T11:19:32.000Z",
+      "category": "industry",
+      "score": 27,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/eu2nejoj8gsigtdutwsk7ibwd"
+      }
+    },
+    {
+      "id": "yhr7p9iv9v0hcozhampop74q7",
+      "title": "LangChain 为 Deep Agents 框架 Skills 带来工具绑定、固定与中途重载三项升级",
+      "originalTitle": "LangChain 为 Deep Agents 框架的 Skills 做了三项工程升级：工具绑定 Skills、固定 Skills、中途重载 Skills，核心目标是在保持“渐进式披露”优势的同时，解决延迟、可预测性和运行时演化三个实际问题。",
+      "summary": "LangChain 为 Deep Agents 框架的 Skills 做了三项工程升级：工具绑定 Skills、固定 Skills、中途重载 Skills，目标是在保持渐进式披露优势的同时解决延迟、可预测性和运行时演化问题。",
+      "source": {
+        "name": "X：邵猛 (@shao__meng)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/yhr7p9iv9v0hcozhampop74q7",
+        "original": "https://x.com/shao__meng/status/2108151581044879550"
+      },
+      "publishedAt": "2026-10-08T11:04:39.000Z",
+      "discoveredAt": "2026-10-08T11:19:31.994Z",
+      "category": "tip",
+      "score": 56,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/yhr7p9iv9v0hcozhampop74q7"
+      }
+    },
+    {
+      "id": "nwjprbgayzekt2eu6vhs8s04y",
+      "title": "AI 栈中的保存缺口：为什么能力进步快于可重建性",
+      "originalTitle": "The Preservation Gap in the AI Stack: Why Capability Is Advancing Faster Than Reconstructability",
+      "summary": "O'Reilly Radar 文章提出 AI 系统存在\"保存缺口\"：运行时依赖（模型端点、检索数据、策略、工具契约等）在执行时才确定，现有基础设施只保存模型、代码、部署和观测记录，不保存某次执行的实际绑定关系。作者为此提出参考架构 Orrery，用于保存重建 AI 系统历史执行所需的运行时绑定与依赖状态，并区分了\"可复现性\"与\"可重建性\"两个概念。",
+      "source": {
+        "name": "O'Reilly Radar（热点 RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/nwjprbgayzekt2eu6vhs8s04y",
+        "original": "https://www.oreilly.com/radar/the-preservation-gap-in-the-ai-stack-why-capability-is-advancing-faster-than-reconstructability/"
+      },
+      "publishedAt": "2026-10-08T10:54:41.000Z",
+      "discoveredAt": "2026-10-08T11:15:30.238Z",
+      "category": "tip",
+      "score": 42,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/nwjprbgayzekt2eu6vhs8s04y"
+      }
+    },
+    {
+      "id": "d66w8k2d987sjbv1lsjoqg6i2",
+      "title": "NVIDIA PivotOPD：让多轮 AI 智能体从关键错误中恢复的在线策略蒸馏方法",
+      "originalTitle": "NVIDIA PivotOPD Teaches Multi-Turn AI Agents to Recover From Pivotal Mistakes",
+      "summary": "NVIDIA 联合普林斯顿大学和马里兰大学提出 PivotOPD，一种面向多轮 LLM 智能体的在线策略蒸馏方法，训练智能体避免最致命的早期错误并在错误发生后恢复。",
+      "source": {
+        "name": "MarkTechPost（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/d66w8k2d987sjbv1lsjoqg6i2",
+        "original": "https://www.marktechpost.com/2026/10/08/nvidia-pivotopd-teaches-multi-turn-ai-agents-to-recover-from-pivotal-mistakes/"
+      },
+      "publishedAt": "2026-10-08T08:40:02.000Z",
+      "discoveredAt": "2026-10-08T10:35:29.841Z",
+      "category": "paper",
+      "score": 47,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/d66w8k2d987sjbv1lsjoqg6i2"
+      }
+    },
+    {
+      "id": "bhlg0a0py13sobwo8f2n2k5aa",
+      "title": "Architect 推出 Liquid Inference，为 LLM 推理引入实时竞价路由",
+      "originalTitle": "Architect Launches Liquid Inference, a Real-Time Auction for LLM Inference",
+      "summary": "Architect Financial Technologies 发布 Liquid Inference，一个对每次请求进行实时拍卖的 LLM 推理市场，价格最低且满足买家规则的报价胜出，首 token 生成前锁定最高价。",
+      "source": {
+        "name": "MarkTechPost（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/bhlg0a0py13sobwo8f2n2k5aa",
+        "original": "https://www.marktechpost.com/2026/10/08/architect-launches-liquid-inference-a-real-time-auction-for-llm-inference/"
+      },
+      "publishedAt": "2026-10-08T08:53:34.000Z",
+      "discoveredAt": "2026-10-08T10:35:29.833Z",
+      "category": "ai-products",
+      "score": 59,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/bhlg0a0py13sobwo8f2n2k5aa"
+      }
+    },
+    {
+      "id": "br6vb46mhi9mkv2pxiq59k8z7",
+      "title": "Crowdstrike 报告疑似单人使用 AI 渗透工具攻击多家韩国银行",
+      "originalTitle": "AI-powered hacking tools enabled a likely single attacker to breach multiple South Korean banks",
+      "summary": "Crowdstrike 报告称，一名疑似中文使用者于2026年9月底至10月初利用 AI 驱动的开源渗透测试工具 ARTEX 攻击多家韩国金融机构，窃取大量数据，其中 Shinhan Bank 超过 25,000 条包含姓名、联系方式、收入和信用额度的记录泄露。",
+      "source": {
+        "name": "The Decoder：AI News（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/br6vb46mhi9mkv2pxiq59k8z7",
+        "original": "https://the-decoder.com/ai-powered-hacking-tools-enabled-a-likely-single-attacker-to-breach-multiple-south-korean-banks/"
+      },
+      "publishedAt": "2026-10-08T09:24:17.000Z",
+      "discoveredAt": "2026-10-08T10:24:29.949Z",
+      "category": "industry",
+      "score": 82,
+      "selected": true,
+      "reason": "原文给出了攻击工具、所用模型和泄露规模等具体细节，可帮助读者认识AI驱动的渗透测试如何放大单人攻击能力。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/br6vb46mhi9mkv2pxiq59k8z7"
+      }
+    },
+    {
+      "id": "xbd4c873cv560gdjet1fzl4o1",
+      "title": "16 岁少年用 Claude 规划登山路线被困悬崖，直升机救援后称不再用 AI 规划路线",
+      "originalTitle": "Teen's AI-guided mountain hike ends with a helicopter rescue and a lesson in common sense",
+      "summary": "一名 16 岁少年用 Anthropic 的 Claude 规划温哥华 Crown Mountain 登顶路线，结果被困在需攀岩装备的陡峭崖壁\"Widowmaker Arete\"一处约五英尺宽的岩台上，警方通知北岸救援队用直升机将其吊离。救援负责人 Paul Markey 表示 Claude 并不真正了解地形，AI 无法替代经验与常识；该少年称自己承担责任，今后仍会攀岩但不再用 AI 规划路线。",
+      "source": {
+        "name": "The Decoder：AI News（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/xbd4c873cv560gdjet1fzl4o1",
+        "original": "https://the-decoder.com/teens-ai-guided-mountain-hike-ends-with-a-helicopter-rescue-and-a-lesson-in-common-sense/"
+      },
+      "publishedAt": "2026-10-08T09:57:42.000Z",
+      "discoveredAt": "2026-10-08T10:24:29.941Z",
+      "category": "industry",
+      "score": 37,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/xbd4c873cv560gdjet1fzl4o1"
+      }
+    },
+    {
+      "id": "o6ea2sz1xmakk9x9z445qzybz",
+      "title": "田柯宇创业公司融资近3000万美元",
+      "originalTitle": "Tian Keyu's unnamed startup has raised nearly $30M from investors including 5Y Capital and IDG at a $200M post-money valuation, Bloomberg...",
+      "summary": "据彭博社报道，田柯宇（Tian Keyu）的未具名创业公司已从包括五源资本和IDG在内的投资者处融资近3000万美元，投后估值2亿美元。\n\n这位NeurIPS 2024获奖研究者带领一支10人团队，正在开发一个20万符号的视觉词表，以帮助AI处理视频。\n\n田柯宇声称该方法可将视频生成成本至少降低十倍。完整模型计划于2027年发布；公司目前尚无产品。",
+      "source": {
+        "name": "X：X.PIN (@thexpin)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/o6ea2sz1xmakk9x9z445qzybz",
+        "original": "https://x.com/thexpin/status/2108134053949915351"
+      },
+      "publishedAt": "2026-10-08T09:55:00.000Z",
+      "discoveredAt": "2026-10-08T10:17:31.551Z",
+      "category": "industry",
+      "score": 38,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/o6ea2sz1xmakk9x9z445qzybz"
+      }
+    },
+    {
+      "id": "tmmmk5zuliqsbxguil2m090qr",
+      "title": "斯坦福 CS329Z《Engineering AI Agents》第4讲：从 Toolformer 到 MCP 的工具使用全解",
+      "originalTitle": "斯坦福大学「Engineering AI Agents」课程第4讲：从 Toolformer 到 MCP，LLM 如何学会调用工具？",
+      "summary": "邵猛整理了斯坦福 CS329Z《Engineering AI Agents》第4讲（Diyi Yang 主讲）的内容，讲解 LLM 如何学会调用工具。",
+      "source": {
+        "name": "X：邵猛 (@shao__meng)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/tmmmk5zuliqsbxguil2m090qr",
+        "original": "https://x.com/shao__meng/status/2108132031226110159"
+      },
+      "publishedAt": "2026-10-08T09:46:58.000Z",
+      "discoveredAt": "2026-10-08T10:17:31.543Z",
+      "category": "tip",
+      "score": 64,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/tmmmk5zuliqsbxguil2m090qr"
+      }
+    },
+    {
+      "id": "p5mefy7curpxzqojww8dijihj",
+      "title": "邵猛评阿里「AI Native 研发范式实践手册」四点陈述",
+      "originalTitle": "最后给「AI Native 研发范式实践手册」收个尾吧，也是阿里官方的四点陈述。",
+      "summary": "邵猛转发阿里「AI Native 研发范式实践手册」结尾的四点官方陈述并逐条评论：从写代码到可靠交付仍有技术问题要解决、企业知识资产尚未 Agent 友好、组织设计影响深远更难有确定性答案、AI 迭代速度会持续冲击现有架构。",
+      "source": {
+        "name": "X：邵猛 (@shao__meng)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/p5mefy7curpxzqojww8dijihj",
+        "original": "https://x.com/shao__meng/status/2108126590437871653"
+      },
+      "publishedAt": "2026-10-08T09:25:20.000Z",
+      "discoveredAt": "2026-10-08T09:46:30.843Z",
+      "category": "tip",
+      "score": 52,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/p5mefy7curpxzqojww8dijihj"
+      }
+    },
+    {
+      "id": "zytuc5cc40evmddsdllqhkh51",
+      "title": "Sakana AI 推出新闻通讯 Sakana AI Insider，覆盖研究、产业落地与产品前沿",
+      "originalTitle": "研究、産業実装、プロダクトの最前線へ―Sakana AIニュースレター「Sakana AI Insider」―",
+      "summary": "Sakana AI 推出新闻通讯 Sakana AI Insider，以每月约 2 次的频率发布其最新动态。内容涵盖基盘模型与智能体开发、RSI Lab 和 Frontier Intelligence Group 的最新研究、金融与防务等领域的产业落地，以及 Sakana Marlin、Sakana Fugu 等产品。订阅免费，可随时退订。",
+      "source": {
+        "name": "Sakana AI：Blog（网页）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/zytuc5cc40evmddsdllqhkh51",
+        "original": "https://sakana.ai/sakana-ai-insider/"
+      },
+      "publishedAt": "2026-10-07T15:00:00.000Z",
+      "discoveredAt": "2026-10-08T09:34:29.198Z",
+      "category": "ai-products",
+      "score": 20,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/zytuc5cc40evmddsdllqhkh51"
+      }
+    },
+    {
+      "id": "ckwrdnsf00x0oeng5ndinqmhx",
+      "title": "Anthropic 发布 Claude Haiku 5.5，100 万 token 上下文",
+      "originalTitle": "DAILY AI BRIEF 🗞 — Oct 8",
+      "summary": "Anthropic 推出 Claude Haiku 5.5，支持 100 万 token 上下文窗口和可调 effort，定价为每百万 token 输入 $0.10、输出 $0.50；Claude Sonnet 5.5 的 prompt cache 读取价格从 $0.20 降至 $0.10。",
+      "source": {
+        "name": "X：Testing Catalog (@testingcatalog)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ckwrdnsf00x0oeng5ndinqmhx",
+        "original": "https://x.com/testingcatalog/status/2108108547741405596"
+      },
+      "publishedAt": "2026-10-08T08:13:39.000Z",
+      "discoveredAt": "2026-10-08T08:44:31.502Z",
+      "category": "industry",
+      "score": 39,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ckwrdnsf00x0oeng5ndinqmhx"
+      }
+    },
+    {
+      "id": "yyba9bpxdtqdpqmv739d26ftg",
+      "title": "ts-rust 发布：由 LLM 将 TypeScript 编译器、检查器和 LSP 移植到 Rust",
+      "originalTitle": "Port of the TypeScript compiler, checker and lsp to Rust, by LLM",
+      "summary": "ts-rust（tsc-rs）将 microsoft/TypeScript（Go 实现）的编译器、类型检查器和语言服务器移植为 Rust，作者称全部代码由 LLM 编写，本人未读过代码。",
+      "source": {
+        "name": "Hacker News：AI 热帖"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/yyba9bpxdtqdpqmv739d26ftg",
+        "original": "https://github.com/pingdotgg/ts-rust"
+      },
+      "publishedAt": "2026-10-08T00:46:00.000Z",
+      "discoveredAt": "2026-10-08T08:41:31.070Z",
+      "category": "ai-products",
+      "score": 76,
+      "selected": true,
+      "reason": "原文给出了完整基准数据和兼容性测试结果，读者可以据此评估这个 Rust 版 TypeScript 检查器是否适合接入现有项目。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/yyba9bpxdtqdpqmv739d26ftg"
+      }
+    },
+    {
+      "id": "pqh8cgtpwpuqnk9qhbqy3gflw",
+      "title": "State of AI Report 2026 发布：智能体、物理 AI 与前沿竞赛的年度盘点",
+      "originalTitle": "The State of AI Report 2026",
+      "summary": "Air Street Capital 的 Nathan Benaich 发布第九份年度 State of AI Report。报告称前沿已是 Anthropic、OpenAI 与 Google 三家竞赛，OpenAI 与 Anthropic 年化收入合计约 $105B；Epoch AI 估算达到固定基准分数的成本自 2023 年起每季下降 47%，约每年便宜 13 倍。",
+      "source": {
+        "name": "Air Street Press（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/pqh8cgtpwpuqnk9qhbqy3gflw",
+        "original": "https://press.airstreet.com/p/state-of-ai-2026"
+      },
+      "publishedAt": "2026-10-08T07:39:39.000Z",
+      "discoveredAt": "2026-10-08T08:18:31.352Z",
+      "category": "tip",
+      "score": 73,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/pqh8cgtpwpuqnk9qhbqy3gflw"
+      }
+    },
+    {
+      "id": "jchngncd7x579s34tlbc63sl4",
+      "title": "Tripo 生成 3D 资产接入 Quest 3",
+      "originalTitle": "Exploring the next-gen XR workflow:",
+      "summary": "探索下一代 XR 工作流：\n\n用 Tripo 即时生成 3D 资产，然后放入 Quest 3 进行手部追踪交互。\n\n零建模时间，纯粹交互。",
+      "source": {
+        "name": "Tripo（官方 X）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/jchngncd7x579s34tlbc63sl4",
+        "original": "https://x.com/tripoai/status/2108101078084706616"
+      },
+      "publishedAt": "2026-10-08T07:43:58.000Z",
+      "discoveredAt": "2026-10-08T08:13:32.398Z",
+      "category": "tip",
+      "score": 32,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/jchngncd7x579s34tlbc63sl4"
+      }
+    },
+    {
+      "id": "kij6f5th0h6s8asbd7zzwyht0",
+      "title": "美国财政部首次依对外投资规则罚款，Plug and Play 母公司 Amidi 因未申报被罚 20 万美元",
+      "originalTitle": "The US Treasury announced its first penalty under outbound investment rules, fining Plug and Play parent Amidi $200,000 for failing to re...",
+      "summary": "美国财政部宣布首次依据对外投资规则处以罚款，对 Plug and Play 母公司 Amidi 罚款 20 万美元，因其未申报中国子公司对机器人 AI 初创公司 Noematrix 约 92,478 美元的投资。罚款超过投资额的两倍；财政部认定的是申报违规，未称该交易被禁止，也未指控 Noematrix 存在不当行为。",
+      "source": {
+        "name": "X：X.PIN (@thexpin)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/kij6f5th0h6s8asbd7zzwyht0",
+        "original": "https://x.com/thexpin/status/2108102241752420861"
+      },
+      "publishedAt": "2026-10-08T07:48:35.000Z",
+      "discoveredAt": "2026-10-08T08:13:31.385Z",
+      "category": "industry",
+      "score": 57,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/kij6f5th0h6s8asbd7zzwyht0"
+      }
+    },
+    {
+      "id": "agcqc4hp08ycc9ugxzcaq4cr9",
+      "title": "腾讯 WorkBuddy 上线独立文件浏览器，本地文件可直呼 AI 处理",
+      "originalTitle": null,
+      "summary": "腾讯宣布旗下 AI 办公产品 WorkBuddy 上线独立文件浏览器，用户可在文件资源管理器或 Finder 中右键调用 WorkBuddy 打开本地文件并直接让 AI 分析、修改。",
+      "source": {
+        "name": "IT之家·人工智能"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/agcqc4hp08ycc9ugxzcaq4cr9",
+        "original": "https://www.ithome.com/1/010/562.htm"
+      },
+      "publishedAt": "2026-10-08T07:37:53.027Z",
+      "discoveredAt": "2026-10-08T08:09:30.291Z",
+      "category": "ai-products",
+      "score": 60,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/agcqc4hp08ycc9ugxzcaq4cr9"
+      }
+    },
+    {
+      "id": "sy5wl8ud2v9ag5o44utsqk3bu",
+      "title": "Ling-3.1-flash 在 OpenCode 限时免费",
+      "originalTitle": "Strong coding performance, limited time free at one of the most famous and easy to use coding harness on the planet. Thanks @opencode for...",
+      "summary": "强大的编码性能，在全球最知名、最易用的编码工具之一上限时免费。感谢 @opencode 提供 day0 支持！再免费畅玩一周！\n\n（引用推文：Ling-3.1-flash 现已在 OpenCode 上免费开放。560B 总参数 · 25B 激活 · 262K 上下文。inclusionAI 的最新模型。）",
+      "source": {
+        "name": "X：蚂蚁百灵 (@AntLingAGI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/sy5wl8ud2v9ag5o44utsqk3bu",
+        "original": "https://x.com/AntLingAGI/status/2108103814947684731"
+      },
+      "publishedAt": "2026-10-08T07:54:50.000Z",
+      "discoveredAt": "2026-10-08T08:07:31.203Z",
+      "category": "ai-products",
+      "score": 46,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/sy5wl8ud2v9ag5o44utsqk3bu"
+      }
+    },
+    {
+      "id": "fieee1f8z60t4oml48ts89gwi",
+      "title": "蚂蚁百灵 Ling 3.1 flash 登陆 Kilo Code",
+      "originalTitle": "Another launch, another great day0 collaboration with our partner @kilocode~ Have fun coding!",
+      "summary": "又一次发布，又一次与合作伙伴 @kilocode 的精彩 day0 协作~ 编码愉快！\n\n引用推文核心要点：Ling 3.1 flash 现已上线，在 Kilo Code 中完全免费，活动持续至 10 月 13 日！感谢 @novita_labs 提供支持！",
+      "source": {
+        "name": "X：蚂蚁百灵 (@AntLingAGI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/fieee1f8z60t4oml48ts89gwi",
+        "original": "https://x.com/AntLingAGI/status/2108104024092545170"
+      },
+      "publishedAt": "2026-10-08T07:55:40.000Z",
+      "discoveredAt": "2026-10-08T08:07:31.192Z",
+      "category": "ai-products",
+      "score": 38,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/fieee1f8z60t4oml48ts89gwi"
+      }
+    },
+    {
+      "id": "vd4640vninx22cae9242xtcyu",
+      "title": "蚂蚁百灵 Ling-3.1-flash 上线 AI/ML API",
+      "originalTitle": "Super glad to push forward with a new day0 collaboration with @aimlapi ! 🤠🤘 Have fun running your favorite agentic and cowork scenario ...",
+      "summary": "非常高兴与 @aimlapi 推进新的 day0 合作！🤠🤘 用它跑你最喜欢的智能体和协作场景吧！\n\n（引用推文：Ling-3.1-flash 现已在 AI/ML API 上线 ⚡ 560B MoE，每 token 约 25B 激活。最高 1M 上下文。专为智能体、编程和长文档打造。10 月 13 日前可在 http://aimlapi.com 免费试用。）",
+      "source": {
+        "name": "X：蚂蚁百灵 (@AntLingAGI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/vd4640vninx22cae9242xtcyu",
+        "original": "https://x.com/AntLingAGI/status/2108104501320368571"
+      },
+      "publishedAt": "2026-10-08T07:57:34.000Z",
+      "discoveredAt": "2026-10-08T08:07:31.174Z",
+      "category": "industry",
+      "score": 40,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/vd4640vninx22cae9242xtcyu"
+      }
+    },
+    {
+      "id": "uzq0ghis647ytjo91whwt7wk0",
+      "title": "蚂蚁百灵 Ling-3.1-flash 上线 Vercel AI Gateway",
+      "originalTitle": "Stay calm and build with our day0 partner @vercel_dev 🤘 Enjoy Ling-3.1-flash, a token efficient agentic and coding savvy model for anoth...",
+      "summary": "保持冷静，与我们的 day0 合作伙伴 @vercel_dev 一起构建 🤘 再享受一周 Ling-3.1-flash——一款 token 高效、擅长智能体与编程的模型~\n\nLing 3.1 Flash 已在 AI Gateway 上线，10 月 13 日前免费。专为编程和多步分析打造。",
+      "source": {
+        "name": "X：蚂蚁百灵 (@AntLingAGI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/uzq0ghis647ytjo91whwt7wk0",
+        "original": "https://x.com/AntLingAGI/status/2108106522303819783"
+      },
+      "publishedAt": "2026-10-08T08:05:36.000Z",
+      "discoveredAt": "2026-10-08T08:07:31.164Z",
+      "category": "ai-products",
+      "score": 42,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/uzq0ghis647ytjo91whwt7wk0"
+      }
+    },
+    {
+      "id": "j4vcjiltdzwilu5xyfz1uzrej",
+      "title": "Wan 3.0 低成本制作 AI 动画",
+      "originalTitle": "interesting idea!",
+      "summary": "有意思的想法！",
+      "source": {
+        "name": "X：Wan (@Alibaba_Wan)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/j4vcjiltdzwilu5xyfz1uzrej",
+        "original": "https://x.com/Alibaba_Wan/status/2108104138655715644"
+      },
+      "publishedAt": "2026-10-08T07:56:07.000Z",
+      "discoveredAt": "2026-10-08T08:07:31.152Z",
+      "category": null,
+      "score": 25,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/j4vcjiltdzwilu5xyfz1uzrej"
+      }
+    },
+    {
+      "id": "i57xpcu88alnpanzj6hpu2caq",
+      "title": "马斯克推荐 Grok Bot 改变生活",
+      "originalTitle": "Try Grok @Bot yourself",
+      "summary": "自己试试 Grok @Bot\n\n它能改变你的生活",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/i57xpcu88alnpanzj6hpu2caq",
+        "original": "https://x.com/elonmusk/status/2108073390821294432"
+      },
+      "publishedAt": "2026-10-08T05:53:57.000Z",
+      "discoveredAt": "2026-10-08T07:52:30.001Z",
+      "category": "tip",
+      "score": 33,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/i57xpcu88alnpanzj6hpu2caq"
+      }
+    }
+  ],
+  "page": {
+    "count": 50,
+    "hasMore": true,
+    "nextCursor": "it3.eyJhIjoxNzkxNDQ1OTUwMDAxLCJpIjoiaTU3eHBjdTg4YWxucGFuemo2aHB1MmNhcSIsImMiOiI2OTY2YzIwZTk4NTAifQ"
+  }
+}

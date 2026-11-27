@@ -1,0 +1,146 @@
+[
+  {
+    "idx": 0,
+    "id": "ai-00",
+    "filename": "cover-20261003-ai-00.png",
+    "jpg": "cover-20261003-ai-00.jpg",
+    "description": "Photorealistic 16:9 editorial space documentary still: a small Planet-style Earth-observation cubeSat in low orbit, solar panels catching near-continuous sunlight, an exposed gold-PCB TPU accelerator board visible through an open thermal bay, Earth limb and thin atmosphere below, faint laser crosslink beams toward a distant sister satellite. Composition is low-angle looking past solar arrays toward Earth. Hard vacuum sunlight, deep black sky, no text, no logos, no Chinese characters, no masthead bands, no abstract geometry wallpaper.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 1,
+    "id": "ai-01",
+    "filename": "cover-20261003-ai-01.png",
+    "jpg": "cover-20261003-ai-01.jpg",
+    "description": "Photorealistic 16:9 research-lab cover: wooden desk with an open scientific PDF report showing dense citation sidebar (blurred unreadable), stacked preprint printouts, a small open notebook labeled only with abstract glyphs, warm desk lamp, soft Seattle-lab daylight through blinds. Foreground shallow depth on the report edge; background softly blurred bookshelves. No readable text, no logos, no Chinese headlines, no flat icons, no conference-room stock.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 2,
+    "id": "ai-02",
+    "filename": "cover-20261003-ai-02.png",
+    "jpg": "cover-20261003-ai-02.jpg",
+    "description": "Photorealistic 16:9 product photography: a close-up of a black NVIDIA Blackwell-class GPU on a dark reflective surface, cool cyan edge lighting, abstract luminous token-stream light trails streaking past the heatsink fins suggesting 8x faster generation, subtle motion blur only on the light trails. Studio softbox highlights on metal shroud. No text, no logos, no Chinese characters, no generic tech desk clutter, no masthead template.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 3,
+    "id": "ai-03",
+    "filename": "cover-20261003-ai-03.png",
+    "jpg": "cover-20261003-ai-03.jpg",
+    "description": "Photorealistic 16:9 hardware product shot: two compact matte-black DGX Spark-like mini AI workstations on a clean white infinity cove, short Direct Attach copper cable linking their rear ConnectX ports, soft studio lighting, one unit slightly angled toward camera showing ports and status LEDs. Premium catalog photography, sharp detail. No text overlays, no logos, no Chinese characters, no abstract shapes, no office stock.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 4,
+    "id": "ai-04",
+    "filename": "cover-20261003-ai-04.png",
+    "jpg": "cover-20261003-ai-04.jpg",
+    "description": "Photorealistic 16:9 creative-audio cover: a vintage-modern condenser microphone in a soft-lit vocal booth, colorful translucent musical waveform ribbons and soft melody particles swirling around the mic capsule suggesting speech fused with original background music, warm wood acoustic panels, gentle rim light. Cinematic, story-specific, no readable lyrics, no logos, no Chinese text blocks, no generic laptop desk.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 5,
+    "id": "ai-05",
+    "filename": "cover-20261003-ai-05.png",
+    "jpg": "cover-20261003-ai-05.jpg",
+    "description": "Semi-realistic 16:9 product lifestyle scene: a smartphone and laptop on a sunlit kitchen table showing a clean personal-finances dashboard (blurred unreadable numbers), physical credit cards, a paper bill stack, and a small pie-chart printout of subscriptions. Soft morning light, shallow depth of field on the phone screen edge. No readable text, no bank logos, no Chinese headlines, no abstract geometry, no conference room.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 6,
+    "id": "ai-06",
+    "filename": "cover-20261003-ai-06.png",
+    "jpg": "cover-20261003-ai-06.jpg",
+    "description": "Documentary news photography 16:9: a serious California government office desk with a sealed manila subpoena envelope stamped INVESTIGATIVE (text barely illegible/blurred), a thick cybersecurity incident binder, and a muted monitor showing abstract red network-alert glyphs. Cool fluorescent mix with window daylight, tense but not sensational. No readable Chinese, no logos, no blood, no masthead color band, no flat single-symbol art.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 7,
+    "id": "ai-07",
+    "filename": "cover-20261003-ai-07.png",
+    "jpg": "cover-20261003-ai-07.jpg",
+    "description": "Photorealistic 16:9 infrastructure documentary: extreme close-up of stacked HBM memory stacks on a silicon wafer in foreground, behind them a softly blurred data-center aisle with countless tiny glowing agent-node lights suggesting a huge concurrent agent population. Cool blue industrial lighting, shallow depth. No text, no logos, no Chinese characters, no abstract wallpaper, no generic conference room.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 8,
+    "id": "ai-08",
+    "filename": "cover-20261003-ai-08.png",
+    "jpg": "cover-20261003-ai-08.jpg",
+    "description": "Photorealistic 16:9 academic research scene: a large chalkboard covered in elegant mathematical proofs (intentionally soft/unreadable), chalk dust in air, a tablet on a side table showing a soft purple thinking-mode chat glow (no readable UI text), open topology and probability textbooks. Warm library afternoon light. No Chinese headlines, no logos, no flat icons, no masthead bands.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 9,
+    "id": "ai-09",
+    "filename": "cover-20261003-ai-09.png",
+    "jpg": "cover-20261003-ai-09.jpg",
+    "description": "Semi-realistic 16:9 creative workspace: a dual-monitor video editing bay with a detailed multitrack timeline (blurred labels), subtitle lane, waveform audio track, and a preview window showing colorful travel footage; color-grading panel open, coffee and SD cards nearby. Cool monitor glow plus practical desk lamp. No readable Chinese text, no logos, no generic empty tech desk, no abstract geometry.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 10,
+    "id": "ai-10",
+    "filename": "cover-20261003-ai-10.png",
+    "jpg": "cover-20261003-ai-10.jpg",
+    "description": "Semi-realistic 16:9 developer workspace: a coding desk with three distinct physical model-family cards pinned on a corkboard (Astra / Sol / Luna suggested by different color tabs only, no readable brand text), terminal and IDE on screen with blurred code, sticky notes for steering and long-running tasks. Warm evening lamp plus cool screen light. No Chinese headlines, no logos, no masthead template, no flat symbols.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 11,
+    "id": "ai-11",
+    "filename": "cover-20261003-ai-11.png",
+    "jpg": "cover-20261003-ai-11.jpg",
+    "description": "Photorealistic 16:9 engineering lab cover: an open GPU server chassis with a large B200-class accelerator under test probes, a nearby laptop running a dense Claude Code-like terminal (blurred), and a floating oscilloscope-style speed comparison graph showing a steep uplift versus a baseline curve. Cool server-room lighting with warm laptop glow. No readable text, no logos, no Chinese characters, no stock conference room.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 12,
+    "id": "ai-12",
+    "filename": "cover-20261003-ai-12.png",
+    "jpg": "cover-20261003-ai-12.jpg",
+    "description": "Semi-realistic 16:9 systems-architecture cover: a physical transparent acrylic layered board on a dark desk showing three distinct horizontal layers—workflow orchestration graph nodes on top, model-routing chips in the middle, provider-routing switches at the bottom—connected by glowing fiber-like threads. Overhead soft spotlight. No readable labels, no logos, no Chinese text, no abstract flat wallpaper.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 13,
+    "id": "ai-13",
+    "filename": "cover-20261003-ai-13.png",
+    "jpg": "cover-20261003-ai-13.jpg",
+    "description": "Photorealistic 16:9 cloud infrastructure product scene: a sleek half-rack of inference servers with soft teal status LEDs, a foreground holographic-looking capacity dial suggesting serverless burst plus reserved capacity, faint open-model constellation glow. Clean data-center aisle perspective. No text, no logos, no Chinese headlines, no generic conference room, no masthead bands.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 14,
+    "id": "ai-14",
+    "filename": "cover-20261003-ai-14.png",
+    "jpg": "cover-20261003-ai-14.jpg",
+    "description": "Semi-realistic 16:9 security engineering scene: a single metal host chassis split by a clear glass trust-boundary partition into two glowing container environments—one trusted sidecar with a key vault prop, one untrusted agent sandbox with terminal clutter—fiber link between them illuminated to suggest 3x faster cross-boundary messaging. Cool cyan/amber lighting. No readable text, no logos, no gore, no Chinese characters.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 15,
+    "id": "ai-15",
+    "filename": "cover-20261003-ai-15.png",
+    "jpg": "cover-20261003-ai-15.jpg",
+    "description": "Photorealistic 16:9 privacy-tech documentary: macro of a secure enclave / TEE chip under a glass dome on a lab bench, surrounded by several smartphones with soft anonymized typing glow (no readable keys), thin encrypted light threads flowing from phones into the enclave. Cool clinical lighting. No logos, no Chinese headlines, no flat icons, no abstract geometry wallpaper.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 16,
+    "id": "ai-16",
+    "filename": "cover-20261003-ai-16.png",
+    "jpg": "cover-20261003-ai-16.jpg",
+    "description": "News-editorial 16:9 photography: a modern San Francisco training studio with a cohort of professionals at long tables during an intensive residency workshop, large display showing abstract architecture diagrams (blurred), warm wood and glass architecture, subtle terracotta/orange accent lighting suggesting Claude academy branding without logos or text. Documentary candid feel. No Chinese text blocks, no masthead bands, no stock empty boardroom.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "idx": 17,
+    "id": "ai-17",
+    "filename": "cover-20261003-ai-17.png",
+    "jpg": "cover-20261003-ai-17.jpg",
+    "description": "Photorealistic 16:9 open-source ML infra cover: a dense mesh of GPU boards arranged as an expert-pool lattice, select four nodes brightly lit among many dim ones to suggest MoE routing (4-of-128 experts), fiber backplane glowing, scale implied by receding racks toward a vanishing point. Cool violet-blue industrial light. No text, no logos, no Chinese characters, no abstract wallpaper, no conference room stock.",
+    "aspect_ratio": "16:9"
+  }
+]

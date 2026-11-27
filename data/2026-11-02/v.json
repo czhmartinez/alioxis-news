@@ -1,0 +1,148 @@
+[
+  {
+    "title": "卡兹克：AIHOT 公开评测扩至 56 份重算 ELO——综合与编程 No.1 均为 Claude Opus 5.5，科研/知识 GPT-6 Astra，办公 Gemini 4 Argon",
+    "summary": "卡兹克把 AIHOT 模型榜背后抓取的公开评测集从 39 份扩到 56 份，按既有算法重算全量 ELO，并剔除尚未正式上线的模型（如 Gemini 4 Carbon）。当前结果：综合与编程第一均为 Claude Opus 5.5；科研与知识第一为 GPT-6 Astra；办公第一为 Gemini 4 Argon。他表示该排名仍较符合自己对各模型的体感，并附上 AIHOT leaderboard 链接与完整榜单截图。",
+    "url": "https://x.com/Khazix0918/status/2116801460579234047",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-01T15:56:11+08:00",
+    "tags": [
+      "AIHOT",
+      "ELO",
+      "Claude Opus 5.5",
+      "GPT-6 Astra",
+      "Gemini 4 Argon",
+      "评测榜"
+    ],
+    "image": "/assets/covers/cover-20261102-v-00.jpg"
+  },
+  {
+    "title": "TestingCatalog：Anthropic 官网 HTML 藏有 Claude Mythos 5.5——定位网络安全与生物学研究最强模型类，或下周见；Fable 5.5 同传属猜测",
+    "summary": "TestingCatalog 援引匿名爆料与截图称，Anthropic 官网源码中已出现隐藏条目「Claude Mythos 5.5 - Our most capable model class for cybersecurity and biology research」。他据此猜测 Mythos 5.5 或面向网络防御、可能下周露面，并顺带推测 Fable 5.5 或许一并到来（明确标为 speculation）。该帖互动很高（千赞级），属官网藏彩蛋/泄露类情报。",
+    "url": "https://x.com/testingcatalog/status/2116915996850074008",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-01T23:31:18+08:00",
+    "tags": [
+      "Claude Mythos 5.5",
+      "Anthropic",
+      "网络安全",
+      "生物学",
+      "模型泄露"
+    ],
+    "image": "/assets/covers/cover-20261102-v-01.jpg"
+  },
+  {
+    "title": "Max：字节扣子企业版正式公告下线——11/30 停新售，火山引擎旧套餐 2026 年底停服，新企业版最晚 2027 年底全面下线",
+    "summary": "Max 转发扣子文档「扣子企业版下线公告」截图并感叹企业版要关。公告写明因产品整合：2026 年 11 月 30 日起停止企业标准版/旗舰版新购；火山引擎侧旧个人专业版/旧企业/旧团队等将于 2026 年 12 月 31 日全面停服并自动退还未用完费用；新企业标准版与旗舰版服务最晚至 2027 年 12 月 31 日，且续费与加座不得突破该日期。已签约未下单用户需联系商务确认后续开通安排。",
+    "url": "https://x.com/MaxForAI/status/2116878961041109355",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-01T21:04:08+08:00",
+    "tags": [
+      "扣子",
+      "Coze",
+      "字节跳动",
+      "企业版",
+      "下线",
+      "火山引擎"
+    ],
+    "image": "/assets/covers/cover-20261102-v-02.jpg"
+  },
+  {
+    "title": "TestingCatalog：Antigravity 即将上线「Chief of Stuff」Agent——支持 Gemini Live，可自主操作并拆分召唤子 Agent，暂未对公开放",
+    "summary": "TestingCatalog 披露 Antigravity 即将获得带 Gemini Live 支持的 AI Agent，目前内部名「Chief of Stuff」：可自主操作 Antigravity、再 spawn 其他 Agent 执行子任务。示例能力包括回顾近 3 天待处理会话、检查并修复需关注的 CL、从历史对话生成个性化规则、根据使用史推荐 skills/plugins。帖文注明尚未对公众开放。",
+    "url": "https://x.com/testingcatalog/status/2116885887313133576",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-01T21:31:40+08:00",
+    "tags": [
+      "Antigravity",
+      "Chief of Stuff",
+      "Gemini Live",
+      "Agent",
+      "Google"
+    ],
+    "image": "/assets/covers/cover-20261102-v-03.jpg"
+  },
+  {
+    "title": "TestingCatalog：Gemini 4 Carbon 自 10/31 起以 Argon 4 马甲在 Arena 测试——被认为是已公布模型中最强之一，并晒出惊艳输出",
+    "summary": "TestingCatalog 称 Google 自 10 月 31 日起在 Arena 以 Argon 4 名义测试 Gemini 4 Carbon，观感上已是迄今公布模型中表现最好的之一，并附输出样例与「Gemini 4 Carbon Outputs」跟帖链接。所引用更早帖指出 Carbon-H/Argon 4 在编程、设计与 3D 上明显强于早期 Carbon，速度也更快，部分输出观感接近 Opus 5.5。",
+    "url": "https://x.com/testingcatalog/status/2117009417342468398",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-02T05:42:31+08:00",
+    "tags": [
+      "Gemini 4 Carbon",
+      "Argon 4",
+      "Arena",
+      "Google",
+      "评测"
+    ],
+    "image": "/assets/covers/cover-20261102-v-04.jpg"
+  },
+  {
+    "title": "Max：DSH-Go 上线一天 GitHub 日榜第一斩获 3000+ star——称其为目前最好用的手机端 Harness 社区版",
+    "summary": "Max 引用 DSH-Go 作者帖并评价：该移动端 Harness 项目上线一天拿下 3000+ star、登上 GitHub 日趋势榜一；他称这是目前用过最好用的手机 Harness 社区版本（甚至「也许不只是社区」）。原帖附仓库与演示视频，作者表示持续优化并欢迎 star 与传播。",
+    "url": "https://x.com/MaxForAI/status/2116806586761130066",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-01T16:16:33+08:00",
+    "tags": [
+      "DSH-Go",
+      "Harness",
+      "手机端",
+      "GitHub",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261102-v-05.jpg"
+  },
+  {
+    "title": "TestingCatalog：Gemini Notebook 或新增 Comic 产物——可据资料生成教学向 AI 漫画，支持大纲与角色/语气引导",
+    "summary": "TestingCatalog 透露 Gemini Notebook 可能新增「Comic」artifact 类型，让用户基于已接入资料生成 AI 漫画；产品文案示例包括添加高层大纲，或引导角色、语气与焦点（如「做轻松漫画给初学者讲清关键概念」）。他评论教育场景或将被改变，并致谢爆料来源。",
+    "url": "https://x.com/testingcatalog/status/2116933497608712665",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-02T00:40:51+08:00",
+    "tags": [
+      "Gemini Notebook",
+      "Comic",
+      "教育",
+      "Google",
+      "生成式 AI"
+    ],
+    "image": "/assets/covers/cover-20261102-v-06.jpg"
+  },
+  {
+    "title": "TestingCatalog：Nace AI 开源决策模型 Drex Max——可本机跑在 M4/M5 Mac；HF 提供 27GB Q8，M5 Pro 概率误差约 0.02 对比 H100",
+    "summary": "TestingCatalog 介绍 Nace AI 开源多模态决策模型 Drex Max：可在 M4/M5 Mac 完全本地运行；用法是给文档+固定选项问题（如工单该分给哪组），模型返回各选项概率。跟帖补充：Hugging Face 有 27GB Q8_0 权重，可用 Nace 版 llama.cpp/Ollama 在 Mac 推理；官方在 48GB M5 Pro 上测得样本请求概率与 H100 全精度相差约 0.02；单题最多 255 个答案选项，并附权重与代码链接。",
+    "url": "https://x.com/testingcatalog/status/2116978469053878481",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-02T03:39:33+08:00",
+    "tags": [
+      "Drex Max",
+      "Nace AI",
+      "开源",
+      "Apple Silicon",
+      "决策模型"
+    ],
+    "image": "/assets/covers/cover-20261102-v-07.jpg"
+  },
+  {
+    "title": "逸尘：数字人工作流进度 60/100——自称已吊打原真人出镜片，暂不开源，先冲小红书/抖音万粉",
+    "summary": "逸尘晒数字人内容工作流进展到 60/100，配对比视频称生成效果已明显超过自己原来真人录制的视频；计划继续优化，并预计今年定下的小红书与抖音冲击万粉目标本月有望达成。他明确暂不开源这套工作流，理由是已投入大量真金白银，想先把自己账号做起来。",
+    "url": "https://x.com/gengdaJ/status/2116729100631175591",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-11-01T11:08:39+08:00",
+    "tags": [
+      "数字人",
+      "工作流",
+      "小红书",
+      "抖音",
+      "内容创作"
+    ],
+    "image": "/assets/covers/cover-20261102-v-08.jpg"
+  }
+]

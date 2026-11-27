@@ -1,0 +1,290 @@
+[
+ {
+  "title": "卡兹克：花 2 天把几十个 Agent 自动化任务做成「微缩工厂」流水线可视化——Claude Code 是小螃蟹，Codex 是一朵云",
+  "summary": "卡兹克日常有几十个自动化任务在跑：Claude 与 Codex 里的定时任务、自建 Webhook 中台触发的 Agent，多到自己都数不清。本想做个列表网页，作为模拟经营和《戴森球计划》玩家，他干脆把它做成俯瞰视角的小清新微缩工厂：每个项目是一座厂区，长期任务是一条产线；中间玻璃圆顶的分拣大厅就是 Webhook 中台，与飞书打通；右边两个 Agent——Claude Code 是像素小螃蟹 Clawd，Codex 是蓝紫色的云，每个真实任务化作包裹沿传送带送达，干完原地转一圈码上托盘。场景还接入了现实时间与天气。目前为初版，只接了少量任务做演示。",
+  "url": "https://x.com/Khazix0918/status/2112838884510048647",
+  "source": "数字生命卡兹克",
+  "source_handle": "@Khazix0918",
+  "published_at": "2026-10-21T17:30:19+08:00",
+  "tags": [
+   "Agent",
+   "自动化",
+   "Claude Code",
+   "Codex",
+   "可视化"
+  ],
+  "image": "/assets/covers/cover-20261022-v-00.jpg"
+ },
+ {
+  "title": "TestingCatalog：Anthropic 发布主动式 Agent Claude Duet——独立研究预览 App，Stripe Link 购物、Shop Pay 结账、1Password 登录",
+  "summary": "Anthropic 宣布 Claude Duet：一款以独立研究预览 App 形式推出的主动式 Agent，目前通过候补名单向美国 Pro 与 Max 用户开放。它围绕 Claude Opus 5.5 设计，能判断并决定你需要什么，记忆、Skills 与已连接应用直接沿用 Claude 账户。TestingCatalog 在后续帖中补充：Duet 支持大量连接器，可用 Stripe 数字钱包 Link 为企业采购、用 Shopify 的 Shop Pay 在网店结账，即将支持调用 1Password 中保存的登录信息；早期界面的「话题标签」暗示可能采用类似 Slack 的线程式对话，内部代号为「aibo」。他也期待 Duet 语音模式尽快支持实时。",
+  "url": "https://x.com/testingcatalog/status/2112986070874812923",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-22T03:15:11+08:00",
+  "tags": [
+   "Anthropic",
+   "Claude Duet",
+   "主动式Agent",
+   "Agent购物",
+   "Opus 5.5"
+  ],
+  "image": "/assets/covers/cover-20261022-v-01.jpg"
+ },
+ {
+  "title": "卡兹克长文：8 个让人惊艳的 Claude Opus 5.5 玩法——手稿变字体、16 岁高中生建古希腊、一人 298 天做出 Steam 好评如潮游戏",
+  "summary": "卡兹克从 Claude 官方分享的创意项目出发，整理了 8 个 Opus 5.5 案例：工程师把 120 页大学手写笔记喂给 Opus 5.5，约一小时提取字迹特征生成个人字体，连「i」上画小圈的习惯都保留；16 岁高中生用 9 张参考图加提示词两天构建古希腊世界；结合 Tripo 与 Blender 花 16 天做的《小王子》3D 剧情游戏；基于清华龙瀛团队建筑数据集的成都城市讲解视频；一句话直出火烧前圆明园；Opus 5.5 做角色、Haiku 5.5 做场景的《指环王》故事视频；用 Opus 5.5 加 REA 逆向自家电视；以及 Nenly 用 Claude/Codex 写代码、GPT-image-2 与 Nano Banana 画图、Seedance 做动画、Suno 配乐、ElevenLabs 音效，298 天做出近期好评率 98% 的 Steam 游戏《群侠传：幸存者》。",
+  "url": "https://x.com/Khazix0918/status/2112794968981139875",
+  "source": "数字生命卡兹克",
+  "source_handle": "@Khazix0918",
+  "published_at": "2026-10-21T14:35:49+08:00",
+  "tags": [
+   "Claude",
+   "Opus 5.5",
+   "创意案例",
+   "AI游戏",
+   "逆向"
+  ],
+  "image": "/assets/covers/cover-20261022-v-02.jpg"
+ },
+ {
+  "title": "Max：PHP2Shell 严重漏洞预警——两个 CVSS 9.2 远程代码执行，OpenAI 称由 GPT-5.6 Sol 参与发现",
+  "summary": "Max 提醒：PHP 官方预告修复两个 CVSS v4.0 评分均为 9.2 的严重漏洞（CVE-2026-109618、CVE-2026-109619），CERT-EU 公告称可能导致远程代码执行，潜在影响 PHP 5 及以后版本；官方仅支持 8.2–8.5，8.1 及以下已停止维护，建议有 PHP 业务的团队立刻确认版本与更新渠道，暂时无法修复的对外服务可先隔离公网。随后他引用 OpenAI 公告调侃「连 5.6 Sol 都可以找到这个漏洞」：OpenAI 称在 Patch the Planet 计划中，其模型帮助研究者发现了这批 PHP 关键漏洞，并牵头维护者与安全厂商用两个月提前准备修复，认为这标志着 AI 能发现互联网级影响漏洞的新阶段。",
+  "url": "https://x.com/MaxForAI/status/2112902601402404944",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-21T21:43:30+08:00",
+  "tags": [
+   "安全",
+   "PHP",
+   "OpenAI",
+   "GPT-5.6 Sol",
+   "漏洞"
+  ],
+  "image": "/assets/covers/cover-20261022-v-03.jpg"
+ },
+ {
+  "title": "小互：XiaoHu AI 日报视频版 Demo——抓取、动画、制作到剪辑全由 Claude Code 完成，可整点自动出片",
+  "summary": "小互做了 XiaoHu AI 日报的视频版 Demo：从内容抓取、动画效果、视频制作到剪辑，全部由 Claude Code 自己完成；固定模板后可以自动化运行，甚至每个整点生成一期。下一步他要解决配音问题，让声音更像真人。动态模板与指导来自 @lemomo_ai。",
+  "url": "https://x.com/xiaohu/status/2112748049609158836",
+  "source": "小互",
+  "source_handle": "@xiaohu",
+  "published_at": "2026-10-21T11:29:22+08:00",
+  "tags": [
+   "Claude Code",
+   "AI视频",
+   "自动化",
+   "日报",
+   "内容生产"
+  ],
+  "image": "/assets/covers/cover-20261022-v-04.jpg"
+ },
+ {
+  "title": "Max：智谱下一代 GLM-5.5 最新消息——基座 2.5–3.5 万亿参数，曾遇 loss 不降，目标旗舰级且首日大规模服务",
+  "summary": "Max 透露 @Zai_org 下一代 GLM-5.5 的进展：基座规模在 2.5 万亿到 3.5 万亿之间，比此前流传的 1.6T 大不少，架构改动激进，希望同时提升训练与推理速度、压低推理成本，目标发布首日即可大规模服务；前段时间基座训练出现 loss 不降，进度慢于预期，问题近期应已解决；预计能达到 Fable 级旗舰水平，并继续向 Claude 的使用体感靠拢，在后训练阶段大量投入任务环境，一个基座持续后训练半年以上。RSI 已有进展但尚未成为能力提升主力，他补充称听创始人分享，目前有很大一部分算力给到了 RSI。",
+  "url": "https://x.com/MaxForAI/status/2112830110281908654",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-21T16:55:27+08:00",
+  "tags": [
+   "智谱",
+   "GLM-5.5",
+   "大模型",
+   "RSI",
+   "国产模型"
+  ],
+  "image": "/assets/covers/cover-20261022-v-05.jpg"
+ },
+ {
+  "title": "Tibo：Codex Day 16——API 可选 12 小时提示缓存，Codex 与 Work 登录用户缓存永久保留",
+  "summary": "Tibo 在 Day 16 更新中宣布：API 现在可以把提示缓存保留 12 小时；对 Codex 与 Work 的登录用户，缓存将永久保留，回到旧对话或隔几小时继续工作不再有任何惩罚，并保证命中缓存。他引用的 OpenAI Devs 公告解释，像 dots 这样的常驻 Agent 会全天复用上下文，现在共享的指令、工具与上下文可以缓存更久，即使请求相隔数小时也能按更低的缓存输入价计费。",
+  "url": "https://x.com/thsottiaux/status/2112712984644784534",
+  "source": "Tibo",
+  "source_handle": "@thsottiaux",
+  "published_at": "2026-10-21T09:10:02+08:00",
+  "tags": [
+   "OpenAI",
+   "Codex",
+   "提示缓存",
+   "API",
+   "Agent成本"
+  ],
+  "image": "/assets/covers/cover-20261022-v-06.jpg"
+ },
+ {
+  "title": "TestingCatalog：Recursive 开源首个本地编程模型 Flint——40B MoE、Apache 2.0，RTX Spark 上超 220 tokens/s",
+  "summary": "Recursive 发布首个开放权重编程模型 Flint，采用 Apache 2.0 许可，称比同类快 2 倍。Flint 是 40B 参数的 MoE 模型，面向本地编程；Recursive 称在 64GB RTX Spark 上超过 220 tokens/s，其自动化研究系统 Eureka Machine 还在不改权重的情况下写出定制 GPU 代码，把速度再提升 55%。模型可在 RTX Spark、DGX Spark、GeForce RTX 与 RTX PRO GPU 以及 M4 Pro 上运行，权重已上 Hugging Face；Richard Socher 介绍该模型不到 4 个月从零训练，可在 opencode 或 pi 上免费试用。",
+  "url": "https://x.com/testingcatalog/status/2112983874309628360",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-22T03:06:27+08:00",
+  "tags": [
+   "Recursive",
+   "Flint",
+   "开源模型",
+   "本地编程",
+   "MoE"
+  ],
+  "image": "/assets/covers/cover-20261022-v-07.jpg"
+ },
+ {
+  "title": "逸尘：无头剪映项目收到律师函——「没有 Agent 打通的剪映，在 AI 时代迟早被干掉」",
+  "summary": "逸尘称自己的无头剪映项目收到了律师函，认为 AI 时代与传统 App 入口的竞争已进入白热化，项目可能存活不了太久，建议大家尽快 Fork。他的观点是：这个项目让很多不用剪映的人借助 Agent 降低门槛用起了剪映，反而增加了开通 SVIP 与使用付费功能的可能；而团队更看重软植广告，「没有 Agent 打通的剪映，在 AI 时代，迟早被干掉」。他还在评论区征集如何回复这封信。",
+  "url": "https://x.com/gengdaJ/status/2112852661309669815",
+  "source": "逸尘",
+  "source_handle": "@gengdaJ",
+  "published_at": "2026-10-21T18:25:04+08:00",
+  "tags": [
+   "剪映",
+   "Agent",
+   "Skill",
+   "开源",
+   "律师函"
+  ],
+  "image": "/assets/covers/cover-20261022-v-08.jpg"
+ },
+ {
+  "title": "Max：推荐 harness 层必看的 GACC-Bench——目标自适应上下文压缩，10% 预算下最佳模型仅 14.8% 目标全对",
+  "summary": "Max 推荐 GACC-Bench：评测 Agent 长任务中的目标自适应上下文压缩。压缩时只给模型原始上下文、目标和 token 预算，隐藏后续问题，再让固定模型用同一份压缩结果回答该目标下的多个问题。基准覆盖 7 个来源、281 份上下文、500 个目标与 2571 个问题，含文档、代码与 Agent 交互轨迹，均经专家审核。10 款模型中，保留 10% 预算时表现最好的也只有 14.8% 的目标能做到问题全对，完整上下文时为 96.8%；消融显示带正确目标压缩持续优于不给目标，给错目标反而更差。数据、评测代码与提示词均已开源。",
+  "url": "https://x.com/MaxForAI/status/2112795603315183672",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-21T14:38:20+08:00",
+  "tags": [
+   "Agent",
+   "上下文压缩",
+   "Benchmark",
+   "Harness",
+   "Memory"
+  ],
+  "image": "/assets/covers/cover-20261022-v-09.jpg"
+ },
+ {
+  "title": "Max：OpenAI 公开的 GPT-6.1 Sol 原始 CoT 已近乎「乱码」——以后国产模型可能蒸不了 GPT 了",
+  "summary": "OpenAI 公开了一份内部 Agent 安全事件报告，网友细看其中的原始思维链，发现大量英文单词黏在一起、省略空格与语法，夹杂代码变量和缩写，整段看去像乱码，OpenAI 甚至另附补上空格的版本和整理后的解释版。Karpathy 翻出自己 2024 年 9 月的旧推——模型在思维链里不再用英语，说明 RL 做到位了。Max 由此担心推理蒸馏：如果前沿模型经过更多 RL 形成越来越远离人类语言的推理表达，这些轨迹换到别的模型上还能学走多少，对依赖蒸馏追赶的国内团队是个重要问题。",
+  "url": "https://x.com/MaxForAI/status/2112786972708409538",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-21T14:04:02+08:00",
+  "tags": [
+   "OpenAI",
+   "思维链",
+   "蒸馏",
+   "强化学习",
+   "GPT-6.1 Sol"
+  ],
+  "image": "/assets/covers/cover-20261022-v-10.jpg"
+ },
+ {
+  "title": "TestingCatalog：Grok Bot 支持 Live Artifacts——可生成报告、备忘录与仪表盘，并持续更新",
+  "summary": "TestingCatalog 报道，SpaceXAI 的 Grok Bot 现已支持 live artifacts：可以直接构建报告、备忘录和仪表盘页面，用户可以让 Bot 继续编辑这些页面，或让它随时间自动保持内容更新。官方账号的表述是：向 Bot 要一个页面，然后和它一起编辑，或让它持续维护。",
+  "url": "https://x.com/testingcatalog/status/2113046603041038418",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-22T07:15:43+08:00",
+  "tags": [
+   "Grok Bot",
+   "SpaceXAI",
+   "Artifacts",
+   "Agent",
+   "仪表盘"
+  ],
+  "image": "/assets/covers/cover-20261022-v-11.jpg"
+ },
+ {
+  "title": "逸尘：无头剪映与剪映 Skill 大升级——适配 11.6.0、接入 520 万音效库，ASR 换 Step 2.5 成本降五倍",
+  "summary": "逸尘更新了无头剪映与配套剪辑 Skill，并分享了永久安装包：一是适配剪映 11.6.0，默认使用新版，同时兼容 11.5 与 11.4.2；二是接入 Openverse，超过 520 万个音频文件可免费使用，联网即取；三是 ASR 模型从豆包换成首发的 Step 2.5 ASR，剪辑效果和各项指标更优，成本从 0.8 元/小时降到 0.15 元/小时，同样支持毫秒级输出。帖内附 GitHub、Skill 与 Step 2.5 ASR 地址。",
+  "url": "https://x.com/gengdaJ/status/2112778834378670195",
+  "source": "逸尘",
+  "source_handle": "@gengdaJ",
+  "published_at": "2026-10-21T13:31:42+08:00",
+  "tags": [
+   "剪映",
+   "Skill",
+   "ASR",
+   "视频剪辑",
+   "Agent"
+  ],
+  "image": "/assets/covers/cover-20261022-v-12.jpg"
+ },
+ {
+  "title": "TestingCatalog：OpenAI 模型登陆 Google Cloud——GPT-6 Astra、GPT-6.1 Sol、GPT-6 Luna 进入 Model Garden",
+  "summary": "Google Cloud 宣布把 OpenAI 模型带入 Model Garden，GPT-6 Astra、GPT-6.1 Sol 与 GPT-6 Luna 现已可用。Google Cloud 称自己因此成为唯一一家在统一企业平台上同时提供三大闭源大模型（OpenAI、Anthropic 与 Google）以及 200 多个其他模型的超大规模云厂商。TestingCatalog 直呼「Goooood」。",
+  "url": "https://x.com/testingcatalog/status/2112981561591107979",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-22T02:57:16+08:00",
+  "tags": [
+   "OpenAI",
+   "Google Cloud",
+   "Model Garden",
+   "GPT-6",
+   "云平台"
+  ],
+  "image": "/assets/covers/cover-20261022-v-13.jpg"
+ },
+ {
+  "title": "Max：有人用 AI 把巴西大选现场视频里的人换成「金发美女支持者」——4770 万播放，再导流卖成人订阅",
+  "summary": "巴西总统候选人弗拉维奥·博索纳罗的一段竞选视频走红，画面中跟着音乐挥手的金发美女「Julia Berlli Cortez」其实并不存在：原视频同位置是一名男性，有的视频甚至把众议员 Nikolas Ferreira 换掉，背景与其他人物基本保留。事实核查机构 Lupa 发现仅两个账号就发布了 28 条 AI 修改的竞选视频，累计 4770 万播放、170 万粉丝；BBC 找到 37 个类似账号，合计约 700 万粉丝。其模式是用政治热点引流、AI 美女吸睛，再导流到 Telegram 卖每月 9.9–39.9 雷亚尔的成人订阅；调查未发现与竞选团队有直接联系。",
+  "url": "https://x.com/MaxForAI/status/2112746754668187834",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-21T11:24:13+08:00",
+  "tags": [
+   "AI视频",
+   "深度伪造",
+   "选举",
+   "虚假信息",
+   "流量变现"
+  ],
+  "image": "/assets/covers/cover-20261022-v-14.jpg"
+ },
+ {
+  "title": "TestingCatalog：Mistral 与 NVIDIA 合作 AI 工业工程——更快仿真、物理 AI 开放基准，模型接入 Omniverse 生成 3D 场景",
+  "summary": "Mistral AI 宣布与 NVIDIA 合作，打造由 NVIDIA 加速计算驱动的新一代 AI 原生工程工作流，面向工业工程：更快的仿真、物理 AI 的开放基准与配套数据集，以及针对 CAE 与 EDA 场景的 Agentic AI 评测。TestingCatalog 补充，Mistral 的模型还将与 NVIDIA Omniverse 库集成，用于 GPU 加速的 3D 场景生成。",
+  "url": "https://x.com/testingcatalog/status/2112882685559308547",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-21T20:24:22+08:00",
+  "tags": [
+   "Mistral",
+   "NVIDIA",
+   "工业仿真",
+   "物理AI",
+   "Omniverse"
+  ],
+  "image": "/assets/covers/cover-20261022-v-15.jpg"
+ },
+ {
+  "title": "TestingCatalog 直击 GTC Berlin：NVIDIA 推 DSX POD 与 OpenShell 参考架构——AI 工厂部署从 6 个月缩至 14 天",
+  "summary": "TestingCatalog 文字直播 NVIDIA GTC Berlin 主题演讲：NVIDIA 推出新的 OpenShell 参考架构与 NVIDIA DSX POD，在已就绪场地上部署 AI 工厂的时间从六个月缩短到 14 天。现场要点还包括：OpenShell for Agents 可在出问题时切断 Agent 的互联网连接；演讲提到自 2 月以来全球 token 消耗增长约 34 倍，主要因 OpenClaw 等 Agent；Vera Rubin 芯片被设计为运行带 harness 的 Agent 而不只是模型；NVIDIA 在开源模型发布量上领先，阿里与 Hugging Face 紧随其后。",
+  "url": "https://x.com/testingcatalog/status/2112849355090559438",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-21T18:11:55+08:00",
+  "tags": [
+   "NVIDIA",
+   "GTC Berlin",
+   "AI工厂",
+   "OpenShell",
+   "Agent"
+  ],
+  "image": "/assets/covers/cover-20261022-v-16.jpg"
+ },
+ {
+  "title": "Max：AI 安全研究者 Sören Mindermann 将加入清华人工智能学院——研究 AI 参与 AI 研发时人类如何监督",
+  "summary": "AI 安全研究者 Sören Mindermann 宣布将于 11 月移居北京，加入清华大学人工智能学院任助理教授，同时继续剑桥的研究。他是牛津机器学习博士、博士后师从 Yoshua Bengio，曾任《国际 AI 安全报告》科学负责人，参与过伪装对齐、潜伏智能体等研究，现任清华今年 7 月启动的「清智人工智能安全枢纽」（BASH）联合主任。他看重中国顶尖高校学者深度参与产业与政策、姚期智领导的学院不以顶会论文数论成果。Max 最关注其与 RSI 相关的方向：AI 越来越多参与 AI 研发时，人类如何有效监督，模型是否会操纵下一代模型或破坏约束流程。",
+  "url": "https://x.com/MaxForAI/status/2112865850047045694",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-21T19:17:28+08:00",
+  "tags": [
+   "AI安全",
+   "清华",
+   "RSI",
+   "对齐",
+   "人才"
+  ],
+  "image": "/assets/covers/cover-20261022-v-17.jpg"
+ }
+]

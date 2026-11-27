@@ -1,0 +1,2487 @@
+{
+  "fetched_at_taipei": "2026-11-15 08:10 Asia/Taipei",
+  "start_time": "2026-11-13T16:00:00Z",
+  "extended_start_time": "2026-11-13T08:00:00Z",
+  "extended_end_time": "2026-11-13T16:00:00Z",
+  "method": "public X MCP (namespace x) get_users_posts exclude=replies max_results=25; fields include note_post (responses still use note_tweet; parser accepts both); main window start_time=2026-11-13T16:00:00Z; because priority accounts were thin, also fetched 2026-11-13T08:00:00Z–2026-11-13T16:00:00Z (extended). testingcatalog main window 18 posts (not a full page of 25, no page 2).",
+  "accounts": {
+    "Khazix0918": {
+      "data": [
+        {
+          "author_id": "1492195583699951620",
+          "conversation_id": "2121602766976237610",
+          "created_at": "2026-11-14T13:54:51.000Z",
+          "edit_history_tweet_ids": [
+            "2121602766976237610"
+          ],
+          "id": "2121602766976237610",
+          "lang": "zh",
+          "note_tweet": {
+            "text": "跟Claude对话，Claude做规划和前端，派活给GPT写后端和数据处理，然后Claude收尾，Codex启动最多三轮审查，可能就是目前Agent自动化开发的最优解了。\n\n所以我的CLAUDE.md里一直有这么一段，用起来还是蛮舒适的（codex-worker是我自己定义的脚本，没用codex的官方插件，官方插件有点麻烦，问题也有点多），给大家分享一下～\n\n## 派活\n- 成块的后端、算法、数据处理和性能活（不是一两行的修补）交给本机的 Codex（GPT-6.1 Sol）写，你定接口和验收标准；前端、视觉、文案、拆解和验收自己做。\n- 用 `codex-worker <工作树> \"任务\"` 派，追加用 `codex-worker --resume <会话ID> <工作树> \"追加\"`，放后台跑，会话 ID 在输出最后。\n- 它只能写工作树和临时目录，提交不了、联不了网：装依赖、联网测试、提交推送由你做。它只看得到任务和工作树，接口、验收标准、要一起改的同类都写进任务。\n- Codex 交回后你读 diff、自己跑测试（合并前的审查也是 GPT，你这步才是换家模型的交叉检查）。PR 里有 Codex 写的代码就是混合来源，交付不带 `--agent`。"
+          },
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 591,
+            "impression_count": 38136,
+            "like_count": 536,
+            "quote_count": 5,
+            "reply_count": 112,
+            "retweet_count": 45
+          },
+          "text": "跟Claude对话，Claude做规划和前端，派活给GPT写后端和数据处理，然后Claude收尾，Codex启动最多三轮审查，可能就是目前Agent自动化开发的最优解了。",
+          "url": "https://x.com/Khazix0918/status/2121602766976237610"
+        }
+      ],
+      "includes": {
+        "users": [
+          {
+            "id": "1492195583699951620",
+            "name": "数字生命卡兹克",
+            "username": "Khazix0918",
+            "verified": false
+          }
+        ]
+      },
+      "meta": {
+        "newest_id": "2121602766976237610",
+        "oldest_id": "2121602766976237610",
+        "result_count": 1
+      }
+    },
+    "MaxForAI": {
+      "data": [
+        {
+          "author_id": "1699797396589588480",
+          "created_at": "2026-11-14T23:45:23.000Z",
+          "edit_history_tweet_ids": [
+            "2121751377403941200"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "end": 67,
+                "start": 44,
+                "url": "https://t.co/nYqt2MQ4w8"
+              }
+            ]
+          },
+          "id": "2121751377403941200",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 300,
+            "like_count": 1,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121384329783697489",
+              "type": "quoted"
+            }
+          ],
+          "text": "为什么Denny’s要这么对黄仁勋？？？\n\n他是犯下了反人类罪还是上了爱泼斯坦的岛？？ https://t.co/nYqt2MQ4w8",
+          "url": "https://x.com/MaxForAI/status/2121751377403941200"
+        }
+      ],
+      "includes": {
+        "tweets": [
+          {
+            "attachments": {
+              "media_keys": [
+                "3_2121384219347722240",
+                "3_2121384278650949632"
+              ]
+            },
+            "author_id": "1261335549215989760",
+            "created_at": "2026-11-13T23:26:52.000Z",
+            "edit_history_tweet_ids": [
+              "2121384329783697489"
+            ],
+            "id": "2121384329783697489",
+            "public_metrics": {
+              "bookmark_count": 1848,
+              "impression_count": 2935621,
+              "like_count": 10455,
+              "quote_count": 845,
+              "reply_count": 1353,
+              "retweet_count": 549
+            },
+            "text": "BREAKING: Denny’s has reportedly removed the plaque honoring the booth where Jensen Huang &amp; his co-founders came up with Nvidia. https://t.co/fFWDplVykr"
+          }
+        ],
+        "users": [
+          {
+            "id": "1699797396589588480",
+            "name": "Max For AI",
+            "username": "MaxForAI",
+            "verified": false
+          }
+        ]
+      },
+      "meta": {
+        "newest_id": "2121751377403941200",
+        "oldest_id": "2121751377403941200",
+        "result_count": 1
+      }
+    },
+    "xiaohu": {
+      "data": [
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121498019581624320"
+            ]
+          },
+          "author_id": "1764818331822182400",
+          "created_at": "2026-11-14T06:58:40.000Z",
+          "edit_history_tweet_ids": [
+            "2121498030247723058"
+          ],
+          "id": "2121498030247723058",
+          "public_metrics": {
+            "bookmark_count": 29,
+            "impression_count": 18351,
+            "like_count": 43,
+            "quote_count": 1,
+            "reply_count": 46,
+            "retweet_count": 3
+          },
+          "text": "现在可以定制你自己的\nClaude Cdoe客户端页面了\n\n你可以随意改造你的客户端...\n看看我的 https://t.co/g4vUlVezFP",
+          "url": "https://x.com/xiaohu/status/2121498030247723058"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121464063205244928"
+            ]
+          },
+          "author_id": "1764818331822182400",
+          "created_at": "2026-11-14T04:54:46.000Z",
+          "edit_history_tweet_ids": [
+            "2121466849187737876"
+          ],
+          "id": "2121466849187737876",
+          "public_metrics": {
+            "bookmark_count": 4,
+            "impression_count": 4160,
+            "like_count": 9,
+            "quote_count": 0,
+            "reply_count": 5,
+            "retweet_count": 0
+          },
+          "text": "老黄走了，英伟达连跌 6 周。\n\n小互 AI 周报大放送\n把一周的 AI 大事倒着数了一遍\n8 件大事加 20 款上新，一起回顾...\n\n第 1 名：黄仁勋辞去英伟达 CEO，也退出董事会，33 年就此结束。到周五收盘，英伟达一周跌了 12.75%，连跌六周，是 2012 年以来最长，市值跌破 4 万亿美元。\n\n第 2 名：Anthropic https://t.co/D3om1v5Vxy",
+          "url": "https://x.com/xiaohu/status/2121466849187737876"
+        },
+        {
+          "author_id": "1764818331822182400",
+          "created_at": "2026-11-14T02:23:25.000Z",
+          "edit_history_tweet_ids": [
+            "2121428762520916154"
+          ],
+          "entities": {
+            "mentions": [
+              {
+                "end": 12,
+                "id": "44196397",
+                "start": 3,
+                "username": "elonmusk"
+              },
+              {
+                "end": 25,
+                "id": "1577705091737432070",
+                "start": 14,
+                "username": "yunta_tsai"
+              }
+            ]
+          },
+          "id": "2121428762520916154",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 183,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 19777
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121345211959804234",
+              "type": "retweeted"
+            }
+          ],
+          "text": "RT @elonmusk: @yunta_tsai A petition is underway to reinstate Jensen and I’m signing it too",
+          "url": "https://x.com/xiaohu/status/2121428762520916154"
+        }
+      ],
+      "includes": {
+        "media": [
+          {
+            "media_key": "3_2121498019581624320",
+            "type": "photo"
+          },
+          {
+            "media_key": "13_2121464063205244928",
+            "type": "video"
+          }
+        ],
+        "tweets": [
+          {
+            "author_id": "44196397",
+            "created_at": "2026-11-13T20:51:25.000Z",
+            "edit_history_tweet_ids": [
+              "2121345211959804234"
+            ],
+            "entities": {
+              "mentions": [
+                {
+                  "end": 11,
+                  "id": "1577705091737432070",
+                  "start": 0,
+                  "username": "yunta_tsai"
+                }
+              ]
+            },
+            "id": "2121345211959804234",
+            "in_reply_to_user_id": "1577705091737432070",
+            "public_metrics": {
+              "bookmark_count": 6773,
+              "impression_count": 9819516,
+              "like_count": 223496,
+              "quote_count": 3049,
+              "reply_count": 7312,
+              "retweet_count": 19777
+            },
+            "referenced_tweets": [
+              {
+                "id": "2121242163644412202",
+                "type": "replied_to"
+              }
+            ],
+            "text": "@yunta_tsai A petition is underway to reinstate Jensen and I’m signing it too"
+          }
+        ],
+        "users": [
+          {
+            "id": "1764818331822182400",
+            "name": "小互",
+            "username": "xiaohu",
+            "verified": false
+          },
+          {
+            "id": "44196397",
+            "name": "Elon Musk",
+            "username": "elonmusk",
+            "verified": false
+          },
+          {
+            "id": "1577705091737432070",
+            "name": "Yun-Ta Tsai",
+            "username": "yunta_tsai",
+            "verified": false
+          }
+        ]
+      },
+      "meta": {
+        "newest_id": "2121498030247723058",
+        "oldest_id": "2121428762520916154",
+        "result_count": 3
+      }
+    },
+    "thsottiaux": {
+      "meta": {
+        "result_count": 0
+      }
+    },
+    "testingcatalog": {
+      "data": [
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121636243976921088",
+              "3_2121636243955982336"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-14T16:07:54.000Z",
+          "edit_history_tweet_ids": [
+            "2121636249903710411"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "end": 202,
+                "start": 179,
+                "url": "https://t.co/pN27EZ0AYX"
+              }
+            ]
+          },
+          "id": "2121636249903710411",
+          "public_metrics": {
+            "bookmark_count": 13,
+            "impression_count": 11788,
+            "like_count": 236,
+            "quote_count": 1,
+            "reply_count": 30,
+            "retweet_count": 10
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121624592326480311",
+              "type": "quoted"
+            }
+          ],
+          "text": "SPACEXSI 🔥: Grok Bot now has 7% more usage on paid plans and up to 15% on scheduled runs, according to Grok Bot team. \n\nTime to test these optimisations 👀 https://t.co/wN4Zzh4KgD https://t.co/pN27EZ0AYX",
+          "url": "https://x.com/testingcatalog/status/2121636249903710411"
+        },
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-14T09:25:32.000Z",
+          "edit_history_tweet_ids": [
+            "2121534991725113363"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "end": 301,
+                "start": 278,
+                "url": "https://t.co/8nZrdACCVZ"
+              }
+            ]
+          },
+          "id": "2121534991725113363",
+          "public_metrics": {
+            "bookmark_count": 19,
+            "impression_count": 17093,
+            "like_count": 185,
+            "quote_count": 9,
+            "reply_count": 92,
+            "retweet_count": 5
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121185887337820440",
+              "type": "quoted"
+            }
+          ],
+          "text": "DAILY AI BRIEF 🗞 — Nov 14\n\nOPENAI 🔥:\n- ChatGPT Wallet is rolling out on Dots for US Pro subscribers, so agents can pay without seeing your real card details.\n\nGOOGLE 🔥:\n- Antigravity is rolling out Dynamic Workflows, where /run-workflow writes a Python script that orchestrates https://t.co/8nZrdACCVZ",
+          "url": "https://x.com/testingcatalog/status/2121534991725113363"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121392351218397185"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-14T00:26:45.000Z",
+          "edit_history_tweet_ids": [
+            "2121399402141233334"
+          ],
+          "id": "2121399402141233334",
+          "public_metrics": {
+            "bookmark_count": 70,
+            "impression_count": 22278,
+            "like_count": 513,
+            "quote_count": 6,
+            "reply_count": 69,
+            "retweet_count": 11
+          },
+          "text": "ANTHROPIC 🔥: Claude Code on desktop now supports custom themes! \n\nUsers can tell Claude how they want an app to look, so it can tailor it to their preferences. That needs testing!\n\nFriday feature drop 👀 https://t.co/KWg9Gv3Y3n",
+          "url": "https://x.com/testingcatalog/status/2121399402141233334"
+        },
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T21:51:38.000Z",
+          "edit_history_tweet_ids": [
+            "2121360364000674137"
+          ],
+          "id": "2121360364000674137",
+          "in_reply_to_user_id": "3980735590",
+          "public_metrics": {
+            "bookmark_count": 1,
+            "impression_count": 4061,
+            "like_count": 7,
+            "quote_count": 0,
+            "reply_count": 2,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121359790039277839",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Plans page https://t.co/QiPeIUyRTd",
+          "url": "https://x.com/testingcatalog/status/2121360364000674137"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121359312337436672"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T21:49:21.000Z",
+          "edit_history_tweet_ids": [
+            "2121359790039277839"
+          ],
+          "id": "2121359790039277839",
+          "public_metrics": {
+            "bookmark_count": 67,
+            "impression_count": 18659,
+            "like_count": 204,
+            "quote_count": 5,
+            "reply_count": 18,
+            "retweet_count": 11
+          },
+          "text": "Sesame is ending its \"preview\" period and introducing Plus and Pro paid plans. \n\nFree users will keep access to 👀\n- 30 minutes of talk time a day\n- Limited weekly credits for texts and tasks\n- Every feature, the same on every plan\n\n&gt; Plus will cost $20 and include 4x usage.\n&gt; https://t.co/3GqQaTUIXZ",
+          "url": "https://x.com/testingcatalog/status/2121359790039277839"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121352709949308928"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T21:21:25.000Z",
+          "edit_history_tweet_ids": [
+            "2121352761379860628"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "end": 304,
+                "start": 281,
+                "url": "https://t.co/76qt28ELRf"
+              }
+            ]
+          },
+          "id": "2121352761379860628",
+          "public_metrics": {
+            "bookmark_count": 49,
+            "impression_count": 17187,
+            "like_count": 470,
+            "quote_count": 6,
+            "reply_count": 23,
+            "retweet_count": 23
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121293823837921433",
+              "type": "quoted"
+            }
+          ],
+          "text": "GOOGLE 🔥: All Gemini users in the U.S. can now connect their Google Wallets to Gemini. \n\nUsers also have the option to securely link their financial accounts, including credit cards and banks, to Wallet via Plaid to unlock deeper insights.\n\nGoogle's turn 👀 https://t.co/RqtneaY7jD https://t.co/76qt28ELRf",
+          "url": "https://x.com/testingcatalog/status/2121352761379860628"
+        },
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T21:07:06.000Z",
+          "edit_history_tweet_ids": [
+            "2121349155662536767"
+          ],
+          "id": "2121349155662536767",
+          "in_reply_to_user_id": "3980735590",
+          "public_metrics": {
+            "bookmark_count": 1,
+            "impression_count": 2622,
+            "like_count": 9,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121349152277995703",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Generated materials are stored under My Materials and can be reused across designs.\n\nThe free plan includes 30 one-time credits.\n\nTest it out 👀\nhttps://t.co/VOatENFaTL",
+          "url": "https://x.com/testingcatalog/status/2121349155662536767"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121348915156967424"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T21:07:05.000Z",
+          "edit_history_tweet_ids": [
+            "2121349152277995703"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "end": 328,
+                "start": 305,
+                "url": "https://t.co/bZI8Lng6i2"
+              }
+            ]
+          },
+          "id": "2121349152277995703",
+          "public_metrics": {
+            "bookmark_count": 31,
+            "impression_count": 10422,
+            "like_count": 197,
+            "quote_count": 0,
+            "reply_count": 10,
+            "retweet_count": 7
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121340388703424963",
+              "type": "quoted"
+            }
+          ],
+          "text": "Maket has launched Custom Materials, a feature that lets users design their own floors and walls for the homes they plan in Maket.\n\nUsers can describe a material, such as an aged checkered stone tile, or upload an image of one, and then use it across their floor plans.\n\nThe rooms https://t.co/43VLYyCdBi https://t.co/bZI8Lng6i2",
+          "url": "https://x.com/testingcatalog/status/2121349152277995703"
+        },
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T20:25:08.000Z",
+          "edit_history_tweet_ids": [
+            "2121338597051666832"
+          ],
+          "id": "2121338597051666832",
+          "in_reply_to_user_id": "3980735590",
+          "public_metrics": {
+            "bookmark_count": 3,
+            "impression_count": 2764,
+            "like_count": 9,
+            "quote_count": 0,
+            "reply_count": 3,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121338593675489338",
+              "type": "replied_to"
+            }
+          ],
+          "text": "The Pro plan costs $50 a month and starts with a 3-day free trial.\n\nTest it out 👀\nhttps://t.co/ysKWWB9Zdn",
+          "url": "https://x.com/testingcatalog/status/2121338597051666832"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121338525266128896"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T20:25:07.000Z",
+          "edit_history_tweet_ids": [
+            "2121338593675489338"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "end": 326,
+                "start": 303,
+                "url": "https://t.co/wk6OyJx8Si"
+              }
+            ]
+          },
+          "id": "2121338593675489338",
+          "public_metrics": {
+            "bookmark_count": 33,
+            "impression_count": 15975,
+            "like_count": 241,
+            "quote_count": 1,
+            "reply_count": 52,
+            "retweet_count": 8
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121265353867284498",
+              "type": "quoted"
+            }
+          ],
+          "text": "Reason Machines has launched Reason, its AI coding agent designed to maximize work completed per dollar.\n\nDuring testing, Reason solved more tasks than Codex on the same model while spending 22% less.\n\nUsers can give it standing jobs to run autonomously, such as reviewing every https://t.co/DspXQs6nHw https://t.co/wk6OyJx8Si",
+          "url": "https://x.com/testingcatalog/status/2121338593675489338"
+        },
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T17:55:55.000Z",
+          "edit_history_tweet_ids": [
+            "2121301046240924060"
+          ],
+          "id": "2121301046240924060",
+          "in_reply_to_user_id": "3980735590",
+          "public_metrics": {
+            "bookmark_count": 1,
+            "impression_count": 2356,
+            "like_count": 7,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121297685361709290",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Documented 🗞️\nhttps://t.co/eThf0HVZIM",
+          "url": "https://x.com/testingcatalog/status/2121301046240924060"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121297602297647104"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T17:42:34.000Z",
+          "edit_history_tweet_ids": [
+            "2121297685361709290"
+          ],
+          "id": "2121297685361709290",
+          "in_reply_to_user_id": "3980735590",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 3932,
+            "like_count": 14,
+            "quote_count": 0,
+            "reply_count": 4,
+            "retweet_count": 2
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121297682333606345",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Teammates work for you 👀 https://t.co/V9XZpTMqKd",
+          "url": "https://x.com/testingcatalog/status/2121297685361709290"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121294472646664192"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T17:42:33.000Z",
+          "edit_history_tweet_ids": [
+            "2121297682333606345"
+          ],
+          "id": "2121297682333606345",
+          "public_metrics": {
+            "bookmark_count": 24,
+            "impression_count": 13744,
+            "like_count": 275,
+            "quote_count": 3,
+            "reply_count": 29,
+            "retweet_count": 11
+          },
+          "text": "PERPLEXITY 🔥: Perplexity Teammates are now available on the Perplexity Mac application for Perplexity Max subscribers. \n\n&gt; Perplexity Teammates are personalized, proactive agents from Perplexity that can operate Plugins and Skills and are powered by Perplexity's range of models.",
+          "url": "https://x.com/testingcatalog/status/2121297682333606345"
+        },
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T17:15:16.000Z",
+          "edit_history_tweet_ids": [
+            "2121290815188205706"
+          ],
+          "id": "2121290815188205706",
+          "in_reply_to_user_id": "3980735590",
+          "public_metrics": {
+            "bookmark_count": 2,
+            "impression_count": 2601,
+            "like_count": 8,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121273038607929694",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Documented 🗞️\nhttps://t.co/ALy3pMZz68",
+          "url": "https://x.com/testingcatalog/status/2121290815188205706"
+        },
+        {
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T16:39:06.000Z",
+          "edit_history_tweet_ids": [
+            "2121281710906093956"
+          ],
+          "id": "2121281710906093956",
+          "in_reply_to_user_id": "3980735590",
+          "public_metrics": {
+            "bookmark_count": 1,
+            "impression_count": 2719,
+            "like_count": 11,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 1
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121281708888564178",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Source https://t.co/4GK8XYpDqz",
+          "url": "https://x.com/testingcatalog/status/2121281710906093956"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121281623022825473"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T16:39:05.000Z",
+          "edit_history_tweet_ids": [
+            "2121281708888564178"
+          ],
+          "id": "2121281708888564178",
+          "public_metrics": {
+            "bookmark_count": 33,
+            "impression_count": 16501,
+            "like_count": 396,
+            "quote_count": 3,
+            "reply_count": 46,
+            "retweet_count": 12
+          },
+          "text": "OPENAI 🔥: ChatGPT Wallet is rolling out on Dots for ChatGPT Pro subscribers in the US.\n\n&gt; \"It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase, while also preserving existing card rewards https://t.co/4VeUc78emA",
+          "url": "https://x.com/testingcatalog/status/2121281708888564178"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121275313413836801"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T16:20:36.000Z",
+          "edit_history_tweet_ids": [
+            "2121277055513862172"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "end": 327,
+                "start": 304,
+                "url": "https://t.co/9ScJmiDIqS"
+              }
+            ]
+          },
+          "id": "2121277055513862172",
+          "public_metrics": {
+            "bookmark_count": 73,
+            "impression_count": 9682,
+            "like_count": 161,
+            "quote_count": 1,
+            "reply_count": 11,
+            "retweet_count": 9
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121226572002664928",
+              "type": "quoted"
+            }
+          ],
+          "text": "Envato is offering MiniMax H3 unlimited for free on its platform for 24 hours, starting November 19 at 8 AM EST.\n\nMiniMax H3 is an AI video model focused on expressive movement, cinematic sequences, and high-resolution stereo audio.\n\nFor 24 hours, users get unlimited generations https://t.co/k3mzhbP9dL https://t.co/9ScJmiDIqS",
+          "url": "https://x.com/testingcatalog/status/2121277055513862172"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121272947285356544",
+              "3_2121272965798981632"
+            ]
+          },
+          "author_id": "3980735590",
+          "created_at": "2026-11-13T16:04:38.000Z",
+          "edit_history_tweet_ids": [
+            "2121273038607929694"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "end": 333,
+                "start": 310,
+                "url": "https://t.co/VhEpXRseC0"
+              }
+            ]
+          },
+          "id": "2121273038607929694",
+          "public_metrics": {
+            "bookmark_count": 36,
+            "impression_count": 19156,
+            "like_count": 400,
+            "quote_count": 2,
+            "reply_count": 17,
+            "retweet_count": 16
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121268413112758744",
+              "type": "quoted"
+            }
+          ],
+          "text": "META 🔥: Muse-Spark-1.4-internal has been spotted in one of the PRs on Github. \n\n&gt; The PR is a small logging change to RocksDB's experimental \"live tuning\" feature. \n\n&gt; The mention appears to be in the PR notes, which seem to be auto-generated. \n\nIt's expected that Muse Spark 1.4 https://t.co/k8fjXYYnY7 https://t.co/VhEpXRseC0",
+          "url": "https://x.com/testingcatalog/status/2121273038607929694"
+        }
+      ],
+      "includes": {
+        "media": [
+          {
+            "media_key": "3_2121636243976921088",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_2121636243955982336",
+            "type": "photo"
+          },
+          {
+            "media_key": "13_2121392351218397185",
+            "type": "video"
+          },
+          {
+            "media_key": "3_2121359312337436672",
+            "type": "photo"
+          },
+          {
+            "media_key": "13_2121352709949308928",
+            "type": "video"
+          },
+          {
+            "media_key": "13_2121348915156967424",
+            "type": "video"
+          },
+          {
+            "media_key": "13_2121338525266128896",
+            "type": "video"
+          },
+          {
+            "media_key": "3_2121297602297647104",
+            "type": "photo"
+          },
+          {
+            "media_key": "13_2121294472646664192",
+            "type": "video"
+          },
+          {
+            "media_key": "13_2121281623022825473",
+            "type": "video"
+          },
+          {
+            "media_key": "3_2121275313413836801",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_2121272947285356544",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_2121272965798981632",
+            "type": "photo"
+          }
+        ],
+        "tweets": [
+          {
+            "author_id": "1518984544421965824",
+            "created_at": "2026-11-14T15:21:35.000Z",
+            "edit_history_tweet_ids": [
+              "2121624592326480311"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "end": 124,
+                  "start": 101,
+                  "url": "https://t.co/YBnn2r2SDi"
+                }
+              ]
+            },
+            "id": "2121624592326480311",
+            "public_metrics": {
+              "bookmark_count": 56,
+              "impression_count": 46381,
+              "like_count": 1844,
+              "quote_count": 16,
+              "reply_count": 162,
+              "retweet_count": 62
+            },
+            "referenced_tweets": [
+              {
+                "id": "2121303079803089179",
+                "type": "quoted"
+              }
+            ],
+            "text": "Grok Bot plans have ~7% more usage and up to ~15% more for routine runs!\n\nAwesome work from the team https://t.co/YBnn2r2SDi"
+          },
+          {
+            "author_id": "3980735590",
+            "created_at": "2026-11-13T10:18:19.000Z",
+            "edit_history_tweet_ids": [
+              "2121185887337820440"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "end": 300,
+                  "start": 277,
+                  "url": "https://t.co/7riJj1czN6"
+                }
+              ]
+            },
+            "id": "2121185887337820440",
+            "public_metrics": {
+              "bookmark_count": 22,
+              "impression_count": 30843,
+              "like_count": 231,
+              "quote_count": 5,
+              "reply_count": 73,
+              "retweet_count": 12
+            },
+            "referenced_tweets": [
+              {
+                "id": "2120809757107737072",
+                "type": "quoted"
+              }
+            ],
+            "text": "DAILY AI BRIEF 🗞 — Nov 13\n\nGOOGLE 🔥:\n- Gemini 4 Hydrogen is out in the Gemini app, Search, AI Studio, and the API at $1.50/$7.50 per 1M tokens, finishing tasks 2.5x faster than 3.8 Flash.\n- Antigravity is rolling out Orchestrator to Ultra subscribers, where Carbon plans and a https://t.co/7riJj1czN6"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "3_2121359312337436672"
+              ]
+            },
+            "author_id": "3980735590",
+            "created_at": "2026-11-13T21:49:21.000Z",
+            "edit_history_tweet_ids": [
+              "2121359790039277839"
+            ],
+            "id": "2121359790039277839",
+            "public_metrics": {
+              "bookmark_count": 67,
+              "impression_count": 18659,
+              "like_count": 204,
+              "quote_count": 5,
+              "reply_count": 18,
+              "retweet_count": 11
+            },
+            "text": "Sesame is ending its \"preview\" period and introducing Plus and Pro paid plans. \n\nFree users will keep access to 👀\n- 30 minutes of talk time a day\n- Limited weekly credits for texts and tasks\n- Every feature, the same on every plan\n\n&gt; Plus will cost $20 and include 4x usage.\n&gt; https://t.co/3GqQaTUIXZ"
+          },
+          {
+            "author_id": "20536157",
+            "created_at": "2026-11-13T17:27:13.000Z",
+            "edit_history_tweet_ids": [
+              "2121293823837921433"
+            ],
+            "entities": {
+              "mentions": [
+                {
+                  "end": 263,
+                  "id": "1806359170830172162",
+                  "start": 253,
+                  "username": "GeminiApp"
+                }
+              ]
+            },
+            "id": "2121293823837921433",
+            "public_metrics": {
+              "bookmark_count": 173,
+              "impression_count": 979425,
+              "like_count": 887,
+              "quote_count": 65,
+              "reply_count": 132,
+              "retweet_count": 97
+            },
+            "text": "Personal Intelligence in Gemini securely connects information from apps you already use to make your experience more personalized and helpful. Today, we’re adding Google Wallet to the list of connected apps so you can get more tailored responses in the @GeminiApp around personal"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "13_2121348915156967424"
+              ]
+            },
+            "author_id": "3980735590",
+            "created_at": "2026-11-13T21:07:05.000Z",
+            "edit_history_tweet_ids": [
+              "2121349152277995703"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "end": 328,
+                  "start": 305,
+                  "url": "https://t.co/bZI8Lng6i2"
+                }
+              ]
+            },
+            "id": "2121349152277995703",
+            "public_metrics": {
+              "bookmark_count": 31,
+              "impression_count": 10422,
+              "like_count": 197,
+              "quote_count": 0,
+              "reply_count": 10,
+              "retweet_count": 7
+            },
+            "referenced_tweets": [
+              {
+                "id": "2121340388703424963",
+                "type": "quoted"
+              }
+            ],
+            "text": "Maket has launched Custom Materials, a feature that lets users design their own floors and walls for the homes they plan in Maket.\n\nUsers can describe a material, such as an aged checkered stone tile, or upload an image of one, and then use it across their floor plans.\n\nThe rooms https://t.co/43VLYyCdBi https://t.co/bZI8Lng6i2"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "13_2121340355128037376"
+              ]
+            },
+            "author_id": "1362131140614754310",
+            "created_at": "2026-11-13T20:32:15.000Z",
+            "edit_history_tweet_ids": [
+              "2121340388703424963"
+            ],
+            "id": "2121340388703424963",
+            "public_metrics": {
+              "bookmark_count": 58,
+              "impression_count": 213673,
+              "like_count": 192,
+              "quote_count": 22,
+              "reply_count": 27,
+              "retweet_count": 15
+            },
+            "text": "Generate floor and wall textures from text or an image.\n\nLight oak, terracotta tile, or checkerboard marble? Try it out in your space and see what feels right.\n\nYour next room refresh starts in Maket. https://t.co/2psqvnFW2l"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "13_2121338525266128896"
+              ]
+            },
+            "author_id": "3980735590",
+            "created_at": "2026-11-13T20:25:07.000Z",
+            "edit_history_tweet_ids": [
+              "2121338593675489338"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "end": 326,
+                  "start": 303,
+                  "url": "https://t.co/wk6OyJx8Si"
+                }
+              ]
+            },
+            "id": "2121338593675489338",
+            "public_metrics": {
+              "bookmark_count": 33,
+              "impression_count": 15975,
+              "like_count": 241,
+              "quote_count": 1,
+              "reply_count": 52,
+              "retweet_count": 8
+            },
+            "referenced_tweets": [
+              {
+                "id": "2121265353867284498",
+                "type": "quoted"
+              }
+            ],
+            "text": "Reason Machines has launched Reason, its AI coding agent designed to maximize work completed per dollar.\n\nDuring testing, Reason solved more tasks than Codex on the same model while spending 22% less.\n\nUsers can give it standing jobs to run autonomously, such as reviewing every https://t.co/DspXQs6nHw https://t.co/wk6OyJx8Si"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "13_2121265084018434048"
+              ]
+            },
+            "author_id": "1872861011453329410",
+            "created_at": "2026-11-13T15:34:06.000Z",
+            "edit_history_tweet_ids": [
+              "2121265353867284498"
+            ],
+            "id": "2121265353867284498",
+            "public_metrics": {
+              "bookmark_count": 1549,
+              "impression_count": 3255291,
+              "like_count": 2120,
+              "quote_count": 213,
+              "reply_count": 1152,
+              "retweet_count": 513
+            },
+            "text": "Frontier coding performance at up to 20x lower cost.\n\nIntroducing the world’s most cost-efficient harness: Reason\n\nStop burning thousands on runaway agent bills. \n\nReason outperforms top harnesses on Terminal-Bench and DeepSWE while dropping cost per task to a fraction of the https://t.co/Pf6RFBpXjp"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "3_2121297602297647104"
+              ]
+            },
+            "author_id": "3980735590",
+            "created_at": "2026-11-13T17:42:34.000Z",
+            "edit_history_tweet_ids": [
+              "2121297685361709290"
+            ],
+            "id": "2121297685361709290",
+            "in_reply_to_user_id": "3980735590",
+            "public_metrics": {
+              "bookmark_count": 0,
+              "impression_count": 3932,
+              "like_count": 14,
+              "quote_count": 0,
+              "reply_count": 4,
+              "retweet_count": 2
+            },
+            "referenced_tweets": [
+              {
+                "id": "2121297682333606345",
+                "type": "replied_to"
+              }
+            ],
+            "text": "Teammates work for you 👀 https://t.co/V9XZpTMqKd"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "13_2121294472646664192"
+              ]
+            },
+            "author_id": "3980735590",
+            "created_at": "2026-11-13T17:42:33.000Z",
+            "edit_history_tweet_ids": [
+              "2121297682333606345"
+            ],
+            "id": "2121297682333606345",
+            "public_metrics": {
+              "bookmark_count": 24,
+              "impression_count": 13744,
+              "like_count": 275,
+              "quote_count": 3,
+              "reply_count": 29,
+              "retweet_count": 11
+            },
+            "text": "PERPLEXITY 🔥: Perplexity Teammates are now available on the Perplexity Mac application for Perplexity Max subscribers. \n\n&gt; Perplexity Teammates are personalized, proactive agents from Perplexity that can operate Plugins and Skills and are powered by Perplexity's range of models."
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "3_2121272947285356544",
+                "3_2121272965798981632"
+              ]
+            },
+            "author_id": "3980735590",
+            "created_at": "2026-11-13T16:04:38.000Z",
+            "edit_history_tweet_ids": [
+              "2121273038607929694"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "end": 333,
+                  "start": 310,
+                  "url": "https://t.co/VhEpXRseC0"
+                }
+              ]
+            },
+            "id": "2121273038607929694",
+            "public_metrics": {
+              "bookmark_count": 36,
+              "impression_count": 19156,
+              "like_count": 400,
+              "quote_count": 2,
+              "reply_count": 17,
+              "retweet_count": 16
+            },
+            "referenced_tweets": [
+              {
+                "id": "2121268413112758744",
+                "type": "quoted"
+              }
+            ],
+            "text": "META 🔥: Muse-Spark-1.4-internal has been spotted in one of the PRs on Github. \n\n&gt; The PR is a small logging change to RocksDB's experimental \"live tuning\" feature. \n\n&gt; The mention appears to be in the PR notes, which seem to be auto-generated. \n\nIt's expected that Muse Spark 1.4 https://t.co/k8fjXYYnY7 https://t.co/VhEpXRseC0"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "13_2121281623022825473"
+              ]
+            },
+            "author_id": "3980735590",
+            "created_at": "2026-11-13T16:39:05.000Z",
+            "edit_history_tweet_ids": [
+              "2121281708888564178"
+            ],
+            "id": "2121281708888564178",
+            "public_metrics": {
+              "bookmark_count": 33,
+              "impression_count": 16501,
+              "like_count": 396,
+              "quote_count": 3,
+              "reply_count": 46,
+              "retweet_count": 12
+            },
+            "text": "OPENAI 🔥: ChatGPT Wallet is rolling out on Dots for ChatGPT Pro subscribers in the US.\n\n&gt; \"It’s the first wallet that lets agents pay without access to users’ actual card details and that requires a security check for every purchase, while also preserving existing card rewards https://t.co/4VeUc78emA"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "13_2121216882283790336"
+              ]
+            },
+            "author_id": "16582191",
+            "created_at": "2026-11-13T12:59:59.000Z",
+            "edit_history_tweet_ids": [
+              "2121226572002664928"
+            ],
+            "entities": {
+              "mentions": [
+                {
+                  "end": 49,
+                  "id": "1875078099538423808",
+                  "start": 38,
+                  "username": "MiniMax_AI"
+                }
+              ]
+            },
+            "id": "2121226572002664928",
+            "public_metrics": {
+              "bookmark_count": 928,
+              "impression_count": 502901,
+              "like_count": 1349,
+              "quote_count": 114,
+              "reply_count": 100,
+              "retweet_count": 206
+            },
+            "text": "Coming soon on Envato. Free unlimited @MiniMax_AI H3 for 24 hours. For everyone.*\n\nStarting from 19 Nov at 8AM EST.\n\nCreate a free account to get access. Get ready to create. https://t.co/Yj5rlAQv3H"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "3_2121263682046889984"
+              ]
+            },
+            "author_id": "1058501423653101574",
+            "created_at": "2026-11-13T15:46:15.000Z",
+            "edit_history_tweet_ids": [
+              "2121268413112758744"
+            ],
+            "id": "2121268413112758744",
+            "public_metrics": {
+              "bookmark_count": 15,
+              "impression_count": 23141,
+              "like_count": 177,
+              "quote_count": 5,
+              "reply_count": 18,
+              "retweet_count": 5
+            },
+            "text": "Muse-Spark-1.4-internal is in a Meta PR 👀\n\nThey also report an actual model call using it https://t.co/xWgNcvQVVI"
+          }
+        ],
+        "users": [
+          {
+            "id": "3980735590",
+            "name": "🚨 AI News | TestingCatalog",
+            "username": "testingcatalog",
+            "verified": true
+          }
+        ]
+      },
+      "meta": {
+        "newest_id": "2121636249903710411",
+        "oldest_id": "2121273038607929694",
+        "result_count": 18
+      }
+    },
+    "gengdaJ": {
+      "data": [
+        {
+          "author_id": "1897545708770840576",
+          "conversation_id": "2121442608845328697",
+          "created_at": "2026-11-14T15:30:11.000Z",
+          "edit_history_tweet_ids": [
+            "2121626756511940804"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/gengdaJ/status…",
+                "end": 23,
+                "expanded_url": "https://x.com/gengdaJ/status/2120690544825250061?a=R-IAxUVDp9L3h70tCy8&s=20",
+                "start": 0,
+                "url": "https://t.co/AK6dYbRTED"
+              }
+            ]
+          },
+          "id": "2121626756511940804",
+          "lang": "zxx",
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 2,
+            "impression_count": 2692,
+            "like_count": 1,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 1
+          },
+          "referenced_tweets": [
+            {
+              "id": "2120690544825250061",
+              "type": "quoted"
+            },
+            {
+              "id": "2121442608845328697",
+              "type": "replied_to"
+            }
+          ],
+          "text": "https://t.co/AK6dYbRTED",
+          "url": "https://x.com/gengdaJ/status/2121626756511940804"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121440612482433024",
+              "3_2121441058483761152"
+            ]
+          },
+          "author_id": "1897545708770840576",
+          "conversation_id": "2121442608845328697",
+          "created_at": "2026-11-14T03:18:27.000Z",
+          "edit_history_tweet_ids": [
+            "2121442608845328697"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/RcdmJJu3aK",
+                "end": 167,
+                "expanded_url": "https://x.com/gengdaJ/status/2121442608845328697/photo/1",
+                "media_key": "3_2121440612482433024",
+                "start": 144,
+                "url": "https://t.co/RcdmJJu3aK"
+              },
+              {
+                "display_url": "pic.x.com/RcdmJJu3aK",
+                "end": 167,
+                "expanded_url": "https://x.com/gengdaJ/status/2121442608845328697/photo/2",
+                "media_key": "3_2121441058483761152",
+                "start": 144,
+                "url": "https://t.co/RcdmJJu3aK"
+              }
+            ]
+          },
+          "id": "2121442608845328697",
+          "lang": "zh",
+          "note_tweet": {
+            "entities": {
+              "urls": [
+                {
+                  "display_url": "experthub.tencent.com/?referral_code…",
+                  "end": 777,
+                  "expanded_url": "https://experthub.tencent.com/?referral_code=736G7A",
+                  "start": 754,
+                  "url": "https://t.co/CCOo3NFZm1"
+                },
+                {
+                  "display_url": "corexpertdata.com/x/lb-1Z2QWpt",
+                  "end": 815,
+                  "expanded_url": "https://corexpertdata.com/x/lb-1Z2QWpt",
+                  "start": 792,
+                  "url": "https://t.co/MJYBDP1GSR"
+                },
+                {
+                  "display_url": "siriser.com",
+                  "end": 850,
+                  "expanded_url": "https://www.siriser.com",
+                  "start": 827,
+                  "url": "https://t.co/FzRmiEqBU8"
+                }
+              ]
+            },
+            "text": "大厂的AI商战真是朴实无华，就是猛猛砸钱找专家，猛猛做数据标注。。。字节的Xpert，10月份有一个人领了18万。。。\n\nAI时代，只要你有任何特长，只靠贡献自己的知识和努力，也能活得很滋润：\n\n⓵专业问答与评测\n-专业领域问答（医疗、法律、金融、STEM等）\n-模型回复打分与对比评测\n-Benchmark出题与标准答案设计\n\n⓶聊天 / 对话相关\n-多轮对话评估：对模型在聊天中的回复打分、排序、指出问题（准确性、自然度、逻辑、人设一致性等）\n-对话生成 / 改写：写或优化多轮对话数据，用于训练聊天机器人\n-偏好排序（RLHF）：同一问题给出多个回复，选出更好的那个并写理由\n-角色扮演 / 人设对话：按指定角色（医生、律师、客服、特定性格等）进行对话评测或数据生产\n-对话纠错：找出聊天回复中的事实错误、逻辑漏洞、不当内容\n\n⓷内容生产类\n-高质量专业内容撰写（案例库、知识库、语料）\n-复杂指令设计（多约束、高难度Prompt）\n-参考答案撰写\n-专业内容改写与优化\n\n⓸代码 / 技术类\n-代码生成评估\n-Agentic Coding / 长程任务评测\n-Bug查找与代码审查\n-编程题出题与判题标准制定\n\n⓹语音 / 多模态类\n-方言语音采集与标注\n-语音转写质检\n-视频/3D/动捕数据相关\n-多模态内容评估\n\n⓺审核与质检类\n-模型输出合规性审核（医疗、法律、金融强合规场景）\n-知识准确性审核\n-已有标注数据的二次质检\n\n⓻其他\n-访谈类任务\n-数据采集（按脚本录制真实场景）\n-创意内容评估（影视、文学、设计美学等）\n\n上面这些任务，简单到只要愿意花时间聊天，时薪也在三位数。更专业一些的比如生物、法律、金融、制造，就更加赚钱了。\n\n可以参与的平台：\n1、腾讯旗下的ExpertHub：https://t.co/CCOo3NFZm1\n2、字节旗下的Xpert：\nhttps://t.co/MJYBDP1GSR\n3、阿里的晓天睿士：\nhttps://t.co/FzRmiEqBU8"
+          },
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 1238,
+            "impression_count": 113509,
+            "like_count": 781,
+            "quote_count": 9,
+            "reply_count": 45,
+            "retweet_count": 143
+          },
+          "text": "大厂的AI商战真是朴实无华，就是猛猛砸钱找专家，猛猛做数据标注。。。字节的Xpert，10月份有一个人领了18万。。。\n\nAI时代，只要你有任何特长，只靠贡献自己的知识和努力，也能活得很滋润：\n\n⓵专业问答与评测\n-专业领域问答（医疗、法律、金融、STEM等）\n-模型回复打分与对比评测 https://t.co/RcdmJJu3aK",
+          "url": "https://x.com/gengdaJ/status/2121442608845328697"
+        }
+      ],
+      "includes": {
+        "media": [
+          {
+            "media_key": "3_2121440612482433024",
+            "type": "photo"
+          },
+          {
+            "media_key": "3_2121441058483761152",
+            "type": "photo"
+          }
+        ],
+        "tweets": [
+          {
+            "attachments": {
+              "media_keys": [
+                "3_2121440612482433024",
+                "3_2121441058483761152"
+              ]
+            },
+            "author_id": "1897545708770840576",
+            "conversation_id": "2121442608845328697",
+            "created_at": "2026-11-14T03:18:27.000Z",
+            "edit_history_tweet_ids": [
+              "2121442608845328697"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "display_url": "pic.x.com/RcdmJJu3aK",
+                  "end": 167,
+                  "expanded_url": "https://x.com/gengdaJ/status/2121442608845328697/photo/1",
+                  "media_key": "3_2121440612482433024",
+                  "start": 144,
+                  "url": "https://t.co/RcdmJJu3aK"
+                },
+                {
+                  "display_url": "pic.x.com/RcdmJJu3aK",
+                  "end": 167,
+                  "expanded_url": "https://x.com/gengdaJ/status/2121442608845328697/photo/2",
+                  "media_key": "3_2121441058483761152",
+                  "start": 144,
+                  "url": "https://t.co/RcdmJJu3aK"
+                }
+              ]
+            },
+            "id": "2121442608845328697",
+            "lang": "zh",
+            "note_tweet": {
+              "entities": {
+                "urls": [
+                  {
+                    "display_url": "experthub.tencent.com/?referral_code…",
+                    "end": 777,
+                    "expanded_url": "https://experthub.tencent.com/?referral_code=736G7A",
+                    "start": 754,
+                    "url": "https://t.co/CCOo3NFZm1"
+                  },
+                  {
+                    "display_url": "corexpertdata.com/x/lb-1Z2QWpt",
+                    "end": 815,
+                    "expanded_url": "https://corexpertdata.com/x/lb-1Z2QWpt",
+                    "start": 792,
+                    "url": "https://t.co/MJYBDP1GSR"
+                  },
+                  {
+                    "display_url": "siriser.com",
+                    "end": 850,
+                    "expanded_url": "https://www.siriser.com",
+                    "start": 827,
+                    "url": "https://t.co/FzRmiEqBU8"
+                  }
+                ]
+              },
+              "text": "大厂的AI商战真是朴实无华，就是猛猛砸钱找专家，猛猛做数据标注。。。字节的Xpert，10月份有一个人领了18万。。。\n\nAI时代，只要你有任何特长，只靠贡献自己的知识和努力，也能活得很滋润：\n\n⓵专业问答与评测\n-专业领域问答（医疗、法律、金融、STEM等）\n-模型回复打分与对比评测\n-Benchmark出题与标准答案设计\n\n⓶聊天 / 对话相关\n-多轮对话评估：对模型在聊天中的回复打分、排序、指出问题（准确性、自然度、逻辑、人设一致性等）\n-对话生成 / 改写：写或优化多轮对话数据，用于训练聊天机器人\n-偏好排序（RLHF）：同一问题给出多个回复，选出更好的那个并写理由\n-角色扮演 / 人设对话：按指定角色（医生、律师、客服、特定性格等）进行对话评测或数据生产\n-对话纠错：找出聊天回复中的事实错误、逻辑漏洞、不当内容\n\n⓷内容生产类\n-高质量专业内容撰写（案例库、知识库、语料）\n-复杂指令设计（多约束、高难度Prompt）\n-参考答案撰写\n-专业内容改写与优化\n\n⓸代码 / 技术类\n-代码生成评估\n-Agentic Coding / 长程任务评测\n-Bug查找与代码审查\n-编程题出题与判题标准制定\n\n⓹语音 / 多模态类\n-方言语音采集与标注\n-语音转写质检\n-视频/3D/动捕数据相关\n-多模态内容评估\n\n⓺审核与质检类\n-模型输出合规性审核（医疗、法律、金融强合规场景）\n-知识准确性审核\n-已有标注数据的二次质检\n\n⓻其他\n-访谈类任务\n-数据采集（按脚本录制真实场景）\n-创意内容评估（影视、文学、设计美学等）\n\n上面这些任务，简单到只要愿意花时间聊天，时薪也在三位数。更专业一些的比如生物、法律、金融、制造，就更加赚钱了。\n\n可以参与的平台：\n1、腾讯旗下的ExpertHub：https://t.co/CCOo3NFZm1\n2、字节旗下的Xpert：\nhttps://t.co/MJYBDP1GSR\n3、阿里的晓天睿士：\nhttps://t.co/FzRmiEqBU8"
+            },
+            "possibly_sensitive": false,
+            "public_metrics": {
+              "bookmark_count": 1238,
+              "impression_count": 113509,
+              "like_count": 781,
+              "quote_count": 9,
+              "reply_count": 45,
+              "retweet_count": 143
+            },
+            "text": "大厂的AI商战真是朴实无华，就是猛猛砸钱找专家，猛猛做数据标注。。。字节的Xpert，10月份有一个人领了18万。。。\n\nAI时代，只要你有任何特长，只靠贡献自己的知识和努力，也能活得很滋润：\n\n⓵专业问答与评测\n-专业领域问答（医疗、法律、金融、STEM等）\n-模型回复打分与对比评测 https://t.co/RcdmJJu3aK"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "3_2120572030122860544",
+                "3_2120572039656517635",
+                "3_2120572063245316096",
+                "3_2120572077476646912"
+              ]
+            },
+            "author_id": "1897545708770840576",
+            "conversation_id": "2120690544825250061",
+            "created_at": "2026-11-12T01:30:01.000Z",
+            "edit_history_tweet_ids": [
+              "2120690544825250061"
+            ],
+            "entities": {
+              "mentions": [
+                {
+                  "end": 24,
+                  "id": "1876494331491848192",
+                  "start": 13,
+                  "username": "chatcutapp"
+                }
+              ],
+              "urls": [
+                {
+                  "display_url": "pic.x.com/j72TblBCSP",
+                  "end": 126,
+                  "expanded_url": "https://x.com/gengdaJ/status/2120690544825250061/photo/1",
+                  "media_key": "3_2120572030122860544",
+                  "start": 103,
+                  "url": "https://t.co/j72TblBCSP"
+                },
+                {
+                  "display_url": "pic.x.com/j72TblBCSP",
+                  "end": 126,
+                  "expanded_url": "https://x.com/gengdaJ/status/2120690544825250061/photo/2",
+                  "media_key": "3_2120572039656517635",
+                  "start": 103,
+                  "url": "https://t.co/j72TblBCSP"
+                },
+                {
+                  "display_url": "pic.x.com/j72TblBCSP",
+                  "end": 126,
+                  "expanded_url": "https://x.com/gengdaJ/status/2120690544825250061/photo/3",
+                  "media_key": "3_2120572063245316096",
+                  "start": 103,
+                  "url": "https://t.co/j72TblBCSP"
+                },
+                {
+                  "display_url": "pic.x.com/j72TblBCSP",
+                  "end": 126,
+                  "expanded_url": "https://x.com/gengdaJ/status/2120690544825250061/photo/4",
+                  "media_key": "3_2120572077476646912",
+                  "start": 103,
+                  "url": "https://t.co/j72TblBCSP"
+                }
+              ]
+            },
+            "id": "2120690544825250061",
+            "lang": "zh",
+            "note_tweet": {
+              "entities": {
+                "mentions": [
+                  {
+                    "end": 24,
+                    "id": "1876494331491848192",
+                    "start": 13,
+                    "username": "chatcutapp"
+                  }
+                ],
+                "urls": [
+                  {
+                    "display_url": "ChatCut.io/grok",
+                    "end": 917,
+                    "expanded_url": "http://ChatCut.io/grok",
+                    "start": 894,
+                    "url": "https://t.co/ecbc3EojiG"
+                  }
+                ]
+              },
+              "text": "我去真的后悔没早点用上啊，@chatcutapp帮我打开了全新的剪辑思路——直接用手机版Grok bot实现了云剪辑，爽飞啊！出门在外，再也不用背电脑，一部手机，随时随地剪辑。\n\n之前一直没意识到Grok Bot的应用场景，这两天做数字人的时候，刚好用iPhone录制了几段很长的原始口播素材，但感觉上传到Mac再剪辑太麻烦了，我就在想，能不能用手机就把视频给剪辑了？云Agent似乎可以操作？🤔\n\n所以我直接掏出Grok Bot，结果发现这家伙只支持196MB以下的视频。。。\n\n最后神级解决方案就是用ChatCut生成一个上传链接，然后打开链接就能上传视频到ChatCut的云上，再操控Grok Bot来剪辑。\n\nChatCut真的是不用不知道，绝对的宝藏工具，用上剪辑（认知）水平都能提升一大截。\n\n有个“素材库”，里面包含了MG动画、音效、转场、特效、缩放、LUT、音频效果。对于没有一点剪辑实力的我来说，真的太友好了。。。直接挑选模板就能一键应用，傻瓜式永远是最牛逼（摩擦最小）的产品🤪\n\n而且口播剪辑、MG动画、加字幕、调色这些基础功能，全部都是免费的，所以手机云剪辑基本没啥成本。添加MG动画的时候，用Grok Bot还能给我几个模板让我挑选，如果是Claude Code，可能一口气干完了然后再返工。。。\n\n如果还需要进阶剪电商类或者财经类的精品视频，chatcut内置的也有图片生成、视频生成、音乐生成、音效生成、数字人克隆这些功能。\n\nGrok Bot手机云剪辑的应用场景还有很多：\n1、把手机相册里面的照片和各种视频片段，剪辑成Vlog直接发抖音、小红书。\n2、比如我开发的Glimdo App，我接下来打算在小红书再卖一波，所以大概率就用iPhone内录，Grok Bot+ChatCut手机上就剪辑完了。\n3、为啥我感觉Grok Bot剪辑很好？真的是随时随地都可以剪辑，打车的时候很无聊，没法集中精神工作，就适合personal agent这种碎片化工作，对ADHD真的很友好。\n使用方法也很简单：\n\n1、新建一个“视频剪辑”Bot。\n2、发送指令：Read https://t.co/ecbc3EojiG to connect the ChatCut app。\n3、Bot 会读取安装指南，引导用户在对话内给连接器授权，同时安装好skill。\n4、然后发送指令：生成一个ChatCut上传链接，把想要剪辑的视频在打开的网页里面上传。\n5、正常和Grok Bot对话（语音输入法），畅享vibe editing。"
+            },
+            "possibly_sensitive": false,
+            "public_metrics": {
+              "bookmark_count": 315,
+              "impression_count": 54487,
+              "like_count": 187,
+              "quote_count": 4,
+              "reply_count": 32,
+              "retweet_count": 27
+            },
+            "text": "我去真的后悔没早点用上啊，@chatcutapp帮我打开了全新的剪辑思路——直接用手机版Grok bot实现了云剪辑，爽飞啊！出门在外，再也不用背电脑，一部手机，随时随地剪辑。\n\n之前一直没意识到Grok https://t.co/j72TblBCSP"
+          }
+        ],
+        "users": [
+          {
+            "id": "1897545708770840576",
+            "name": "逸尘",
+            "username": "gengdaJ",
+            "verified": false
+          }
+        ]
+      },
+      "meta": {
+        "newest_id": "2121626756511940804",
+        "oldest_id": "2121442608845328697",
+        "result_count": 2
+      }
+    },
+    "Khazix0918_extended": {
+      "data": [
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121159058870980610"
+            ]
+          },
+          "author_id": "1492195583699951620",
+          "created_at": "2026-11-13T08:33:29.000Z",
+          "edit_history_tweet_ids": [
+            "2121159503995666943"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "end": 184,
+                "start": 161,
+                "url": "https://t.co/pTHRLMy7iZ"
+              }
+            ]
+          },
+          "id": "2121159503995666943",
+          "public_metrics": {
+            "bookmark_count": 258,
+            "impression_count": 51996,
+            "like_count": 267,
+            "quote_count": 3,
+            "reply_count": 91,
+            "retweet_count": 20
+          },
+          "referenced_tweets": [
+            {
+              "id": "2117054043868860521",
+              "type": "quoted"
+            }
+          ],
+          "text": "有了AI之后，人啊，就是喜欢折腾。。。\n我的Agent自动化系统看板之前做了一个3D微缩景观的视觉，用了2周，感觉越来越不喜欢了主要感觉是不清晰。\n于是，昨晚又折腾了一下，用Fable 5.2重新找了一下风格，重写了一下UI，这一下，喜欢多了...\n看了一天没看腻，喜欢。 https://t.co/gh3g5vY3Cb https://t.co/pTHRLMy7iZ",
+          "url": "https://x.com/Khazix0918/status/2121159503995666943"
+        }
+      ],
+      "includes": {
+        "media": [
+          {
+            "media_key": "3_2121159058870980610",
+            "type": "photo"
+          }
+        ],
+        "tweets": [
+          {
+            "article": {
+              "title": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。"
+            },
+            "author_id": "1492195583699951620",
+            "created_at": "2026-11-02T00:39:51.000Z",
+            "edit_history_tweet_ids": [
+              "2117054043868860521"
+            ],
+            "id": "2117054043868860521",
+            "public_metrics": {
+              "bookmark_count": 9885,
+              "impression_count": 892783,
+              "like_count": 5345,
+              "quote_count": 179,
+              "reply_count": 324,
+              "retweet_count": 822
+            },
+            "text": "https://t.co/zQ9V1fVaSZ"
+          }
+        ],
+        "users": [
+          {
+            "id": "1492195583699951620",
+            "name": "数字生命卡兹克",
+            "username": "Khazix0918"
+          }
+        ]
+      },
+      "meta": {
+        "newest_id": "2121159503995666943",
+        "oldest_id": "2121159503995666943",
+        "result_count": 1
+      }
+    },
+    "MaxForAI_extended": {
+      "data": [
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121251579169001472"
+            ]
+          },
+          "author_id": "1699797396589588480",
+          "conversation_id": "2121252121203167578",
+          "created_at": "2026-11-13T14:41:31.000Z",
+          "edit_history_tweet_ids": [
+            "2121251671485378667",
+            "2121252121203167578"
+          ],
+          "entities": {
+            "mentions": [
+              {
+                "end": 44,
+                "id": "1714580962569588736",
+                "start": 32,
+                "username": "deepseek_ai"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/WESJ17Vnon",
+                "end": 165,
+                "expanded_url": "https://x.com/MaxForAI/status/2121252121203167578/photo/1",
+                "media_key": "3_2121251579169001472",
+                "start": 142,
+                "url": "https://t.co/WESJ17Vnon"
+              }
+            ]
+          },
+          "id": "2121252121203167578",
+          "lang": "zh",
+          "note_tweet": {
+            "entities": {
+              "mentions": [
+                {
+                  "end": 44,
+                  "id": "1714580962569588736",
+                  "start": 32,
+                  "username": "deepseek_ai"
+                }
+              ]
+            },
+            "text": "🚨DeepSeek居然把他们整个App也开源了。。。。\n\n刚刚 @deepseek_ai  正式发布全家桶应用API，直接把DeepSeek App里几乎所有的功能都开放给开发者了。\n\n包括联网搜索、深度思考搜索、文件解析、阅读链接、语音交互，以及OCR、ASR、TTS等底层能力。\n甚至官方还直接开源了一套完整的聊天前端Demo，支持导入DeepSeek历史对话。\n也就是说，现在开发者拿着DeepSeek的API，基本就能1:1复刻一个DeepSeek App。\n\nDeepSeek在公告最后还专门表示：「DeepSeek现有的对话产品只是较为基础的一种形态。现在，官方产品背后的各项能力均已支持通过 DeepSeek API 随心调用、自由组合，我们期待开发者能够借此省去重复的基础工作，打造出更多样、更极致、更具想象力的产品。欢迎使用 DeepSeek API，尽情创造。」\n\n现在各家AI公司都在拼命做自己的超级入口，想方设法把用户留在自家App里。\nDeepSeek倒好，直接把自己App背后的能力全部开放出来，连复刻方案都给你准备好了。\n\n你想做一个自己的DeepSeek？可以。\n你想把DeepSeek的搜索、语音、文件处理能力拆出来，重新组合成一个新产品？也可以。\n甚至可以在DeepSeek已有的能力之上，做出比官方App更复杂的产品。\n\n这才是这次发布最值得关注的地方，DeepSeek对自己在AI生态里要扮演什么角色，似乎想得很清楚。\n\n就是下次能不能别在北京时间的周五晚十点发布了。。。。"
+          },
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 2918,
+            "impression_count": 463826,
+            "like_count": 4941,
+            "quote_count": 113,
+            "reply_count": 131,
+            "retweet_count": 791
+          },
+          "text": "🚨DeepSeek居然把他们整个App也开源了。。。。\n\n刚刚 @deepseek_ai  正式发布全家桶应用API，直接把DeepSeek App里几乎所有的功能都开放给开发者了。\n\n包括联网搜索、深度思考搜索、文件解析、阅读链接、语音交互，以及OCR、ASR、TTS等底层能力。 https://t.co/WESJ17Vnon",
+          "url": "https://x.com/MaxForAI/status/2121252121203167578"
+        }
+      ],
+      "includes": {
+        "media": [
+          {
+            "media_key": "3_2121251579169001472",
+            "type": "photo"
+          }
+        ],
+        "users": [
+          {
+            "id": "1699797396589588480",
+            "name": "Max For AI",
+            "username": "MaxForAI"
+          },
+          {
+            "id": "1714580962569588736",
+            "name": "DeepSeek",
+            "username": "deepseek_ai"
+          }
+        ]
+      },
+      "meta": {
+        "newest_id": "2121252121203167578",
+        "oldest_id": "2121252121203167578",
+        "result_count": 1
+      }
+    },
+    "xiaohu_extended": {
+      "data": [
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121264335360339975"
+            ]
+          },
+          "author_id": "1764818331822182400",
+          "created_at": "2026-11-13T15:30:04.000Z",
+          "edit_history_tweet_ids": [
+            "2121264341236564386"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "end": 150,
+                "start": 127,
+                "url": "https://t.co/96uALUjvC0"
+              }
+            ]
+          },
+          "id": "2121264341236564386",
+          "public_metrics": {
+            "bookmark_count": 30,
+            "impression_count": 10004,
+            "like_count": 31,
+            "quote_count": 0,
+            "reply_count": 14,
+            "retweet_count": 8
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121247896918253875",
+              "type": "quoted"
+            }
+          ],
+          "text": "Deepseek发布大一统API\n\n联网搜索、深度思考、传文件、读链接全包了\n\n底层能力还能单独拆出来用：\n\n比如 OCR（文字识别）、ASR（语音识别）、TTS（语音合成）都能独立调用\n\n价格也很美丽🫡 https://t.co/lTSnSs8nRU https://t.co/96uALUjvC0",
+          "url": "https://x.com/xiaohu/status/2121264341236564386"
+        }
+      ],
+      "includes": {
+        "media": [
+          {
+            "media_key": "3_2121264335360339975",
+            "type": "photo"
+          }
+        ],
+        "tweets": [
+          {
+            "author_id": "1714580962569588736",
+            "created_at": "2026-11-13T14:24:44.000Z",
+            "edit_history_tweet_ids": [
+              "2121247896918253875"
+            ],
+            "id": "2121247896918253875",
+            "public_metrics": {
+              "bookmark_count": 3591,
+              "impression_count": 1038092,
+              "like_count": 11394,
+              "quote_count": 517,
+              "reply_count": 441,
+              "retweet_count": 1134
+            },
+            "text": "🚀 The full DeepSeek App experience, now via API\n\nSearch, files, links, safety, and voice. The capabilities behind the DeepSeek App are now available through the DeepSeek API.\nEnable built-in features with a few parameters, or call standalone APIs such as OCR, ASR, and TTS. Build"
+          }
+        ],
+        "users": [
+          {
+            "id": "1764818331822182400",
+            "name": "小互",
+            "username": "xiaohu"
+          }
+        ]
+      },
+      "meta": {
+        "newest_id": "2121264341236564386",
+        "oldest_id": "2121264341236564386",
+        "result_count": 1
+      }
+    },
+    "thsottiaux_extended": {
+      "meta": {
+        "result_count": 0
+      }
+    },
+    "testingcatalog_extended": {
+      "data": [
+        {
+          "author_id": "3980735590",
+          "conversation_id": "2121260921435623813",
+          "created_at": "2026-11-13T15:16:30.000Z",
+          "edit_history_tweet_ids": [
+            "2121260925025951863"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "description": "Muse from Meta is live on the Chrome Web Store, bringing the AI agent into a browser sidebar where users can continue chats and delegate tasks.",
+                "display_url": "testingcatalog.com/meta-brings-mu…",
+                "end": 37,
+                "expanded_url": "https://www.testingcatalog.com/meta-brings-muse-ai-agent-to-chrome-with-new-extension/",
+                "images": [
+                  {
+                    "height": 791,
+                    "url": "https://pbs.twimg.com/news_img/2121260928314339328/QjKdBXBt?format=jpg&name=orig",
+                    "width": 1200
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2121260928314339328/QjKdBXBt?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 14,
+                "status": 200,
+                "title": "Meta brings Muse AI agent to Chrome with new extension",
+                "unwound_url": "https://www.testingcatalog.com/meta-brings-muse-ai-agent-to-chrome-with-new-extension/",
+                "url": "https://t.co/KfHX9BW5m3"
+              }
+            ]
+          },
+          "id": "2121260925025951863",
+          "lang": "en",
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 1,
+            "impression_count": 2808,
+            "like_count": 10,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121260921435623813",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Documented 🗞️\nhttps://t.co/KfHX9BW5m3",
+          "url": "https://x.com/testingcatalog/status/2121260925025951863"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121260359298281472"
+            ]
+          },
+          "author_id": "3980735590",
+          "conversation_id": "2121260921435623813",
+          "created_at": "2026-11-13T15:16:29.000Z",
+          "edit_history_tweet_ids": [
+            "2121260921435623813"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/aQFjH4te08",
+                "end": 308,
+                "expanded_url": "https://x.com/testingcatalog/status/2121260921435623813/video/1",
+                "media_key": "13_2121260359298281472",
+                "start": 285,
+                "url": "https://t.co/aQFjH4te08"
+              }
+            ]
+          },
+          "id": "2121260921435623813",
+          "lang": "en",
+          "note_tweet": {
+            "text": "META 🔥: Muse is getting a new Chrome extension that can operate on open web pages. \n\nChrome Web Store description 👀\n\n> \"Your personal AI agent in Chrome. Hand off tasks, take busywork off your plate and stay in control.\"\n\n> \"Muse is your personal AI agent that gets things done, always working on what matters to you. Bring it into Chrome to take everyday tasks off your plate, from filling out forms to comparing prices and following up on refunds.\"\n\n> \"Open Muse in Chrome’s side panel without leaving the page you’re on. Pick up your conversations, right alongside your browsing.\n\n> \"Approve actions before they happen. Muse keeps a full activity log, and lets you revoke any connector anytime.\"\n\nIt's already available for testing; check it out below!"
+          },
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 47,
+            "impression_count": 20649,
+            "like_count": 332,
+            "quote_count": 7,
+            "reply_count": 42,
+            "retweet_count": 14
+          },
+          "text": "META 🔥: Muse is getting a new Chrome extension that can operate on open web pages. \n\nChrome Web Store description 👀\n\n&gt; \"Your personal AI agent in Chrome. Hand off tasks, take busywork off your plate and stay in control.\"\n\n&gt; \"Muse is your personal AI agent that gets things done, https://t.co/aQFjH4te08",
+          "url": "https://x.com/testingcatalog/status/2121260921435623813"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121245912177516544"
+            ]
+          },
+          "author_id": "3980735590",
+          "conversation_id": "2121246108479262858",
+          "created_at": "2026-11-13T14:17:38.000Z",
+          "edit_history_tweet_ids": [
+            "2121246110844858821"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "description": "Sign in to Console by Nace.AI. Data Intelligence suite for AI agents and developers.",
+                "display_url": "console.nace.ai/dashboard/bill…",
+                "end": 178,
+                "expanded_url": "https://console.nace.ai/dashboard/billing?promo=TESTCAT-5",
+                "images": [
+                  {
+                    "height": 630,
+                    "url": "https://pbs.twimg.com/news_img/2121246121141907456/6uRkXHO1?format=jpg&name=orig",
+                    "width": 1200
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2121246121141907456/6uRkXHO1?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 155,
+                "status": 200,
+                "title": "Sign in | Console",
+                "unwound_url": "https://console.nace.ai/login?next=%2Fdashboard%2Fbilling%3Fpromo%3DTESTCAT-5",
+                "url": "https://t.co/CgGMgzIqfq"
+              },
+              {
+                "display_url": "pic.x.com/j4Y3sz61tB",
+                "end": 202,
+                "expanded_url": "https://x.com/testingcatalog/status/2121246110844858821/video/1",
+                "media_key": "13_2121245912177516544",
+                "start": 179,
+                "url": "https://t.co/j4Y3sz61tB"
+              }
+            ]
+          },
+          "id": "2121246110844858821",
+          "lang": "en",
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 2688,
+            "like_count": 10,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121246108479262858",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Drex for Finance is available on the Nace Console, and Nace has provided our readers with a promo code that adds $10 in credits: TESTCAT-5.\n\nTest it out 👀\nhttps://t.co/CgGMgzIqfq https://t.co/j4Y3sz61tB",
+          "url": "https://x.com/testingcatalog/status/2121246110844858821"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121245825556783104"
+            ]
+          },
+          "author_id": "3980735590",
+          "conversation_id": "2121246108479262858",
+          "created_at": "2026-11-13T14:17:37.000Z",
+          "edit_history_tweet_ids": [
+            "2121246108479262858"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/ZHPwMk0WX0",
+                "end": 299,
+                "expanded_url": "https://x.com/testingcatalog/status/2121246108479262858/video/1",
+                "media_key": "13_2121245825556783104",
+                "start": 276,
+                "url": "https://t.co/ZHPwMk0WX0"
+              }
+            ]
+          },
+          "id": "2121246108479262858",
+          "lang": "en",
+          "note_tweet": {
+            "text": "Nace AI has launched Drex for Finance, its decision model designed for prediction markets.\n\nIt reads each rule and the final price for the requested prediction, then gives a probability score for each side.\n\nWhen Drex is less than 90% sure, it uses Claude to double-check the answer. This happened only 7 times out of 108. According to Nace, Drex scored 100% on all 108 predictions from the test suite, while being 93% cheaper than Claude."
+          },
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 15,
+            "impression_count": 8601,
+            "like_count": 156,
+            "quote_count": 0,
+            "reply_count": 18,
+            "retweet_count": 4
+          },
+          "text": "Nace AI has launched Drex for Finance, its decision model designed for prediction markets.\n\nIt reads each rule and the final price for the requested prediction, then gives a probability score for each side.\n\nWhen Drex is less than 90% sure, it uses Claude to double-check the https://t.co/ZHPwMk0WX0",
+          "url": "https://x.com/testingcatalog/status/2121246108479262858"
+        },
+        {
+          "author_id": "3980735590",
+          "conversation_id": "2121175111617462378",
+          "created_at": "2026-11-13T10:42:08.000Z",
+          "edit_history_tweet_ids": [
+            "2121191878552854917"
+          ],
+          "id": "2121191878552854917",
+          "lang": "en",
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 3963,
+            "like_count": 29,
+            "quote_count": 1,
+            "reply_count": 8,
+            "retweet_count": 1
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121175111617462378",
+              "type": "replied_to"
+            }
+          ],
+          "text": "UPD: False alarm - it was a glitch 💀",
+          "url": "https://x.com/testingcatalog/status/2121191878552854917"
+        },
+        {
+          "author_id": "3980735590",
+          "conversation_id": "2121185887337820440",
+          "created_at": "2026-11-13T10:25:19.000Z",
+          "edit_history_tweet_ids": [
+            "2121187645850329527"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "description": "TestingCatalog covers latest AI news, model releases, leaks, and rumours from the world of artificial intelligence",
+                "display_url": "testingcatalog.com/#/portal/signup",
+                "end": 111,
+                "expanded_url": "https://www.testingcatalog.com/#/portal/signup",
+                "images": [
+                  {
+                    "height": 655,
+                    "url": "https://pbs.twimg.com/news_img/2120094219440365568/XkPz3fc7?format=jpg&name=orig",
+                    "width": 1200
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2120094219440365568/XkPz3fc7?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 88,
+                "status": 200,
+                "title": "TestingCatalog | AI News & Rumours",
+                "unwound_url": "https://www.testingcatalog.com/#/portal/signup",
+                "url": "https://t.co/hnndzp1OJ9"
+              }
+            ]
+          },
+          "id": "2121187645850329527",
+          "lang": "en",
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 2670,
+            "like_count": 3,
+            "quote_count": 0,
+            "reply_count": 0,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2121185887337820440",
+              "type": "replied_to"
+            }
+          ],
+          "text": "\"Daily AI Brief\" also arrives in email format from Tuesday to Saturday.\n\nOPT-IN below 👀\nhttps://t.co/hnndzp1OJ9",
+          "url": "https://x.com/testingcatalog/status/2121187645850329527"
+        },
+        {
+          "author_id": "3980735590",
+          "conversation_id": "2121185887337820440",
+          "created_at": "2026-11-13T10:18:19.000Z",
+          "edit_history_tweet_ids": [
+            "2121185887337820440"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/testingcatalog…",
+                "end": 300,
+                "expanded_url": "https://twitter.com/testingcatalog/status/2120809757107737072",
+                "start": 277,
+                "url": "https://t.co/7riJj1czN6"
+              }
+            ]
+          },
+          "id": "2121185887337820440",
+          "lang": "en",
+          "note_tweet": {
+            "text": "DAILY AI BRIEF 🗞 — Nov 13\n\nGOOGLE 🔥:\n- Gemini 4 Hydrogen is out in the Gemini app, Search, AI Studio, and the API at $1.50/$7.50 per 1M tokens, finishing tasks 2.5x faster than 3.8 Flash.\n- Antigravity is rolling out Orchestrator to Ultra subscribers, where Carbon plans and a faster model executes.\n- Gemini-powered smart glasses from Warby Parker and Gentle Monster, built with Samsung, are up for pre-order, with Warby Parker at $395.\n\nANTHROPIC 🔥:\n- Claude Meetings is rolling out in beta on Team and Enterprise plans.\n- Self-hosted Claude Managed Agents is in private beta.\n- Claude Duet is sending invites, 3 per user, with a free month of Pro for eligible US users.\n- Anthropic is working on a \"Brush\" beta feature for the Claude prompt composer.\n- Anthropic will start trading on Nasdaq as ANT on November 19.\n\nOPENAI 🔥:\n- OpenAI launched Daybreak Red Team in early access and Daybreak Defense Factory via the Daybreak plugin in Codex.\n- At the same event, OpenAI showed an unreleased cyber model scoring 77% on ExploitGym (via AiBattle_).\n- Codex is rolling out a banked usage reset to all accounts.\n- Dots now follow custom instructions and reply faster.\n- Dots appears to be rolling out to Pro users in Europe (via kimmonismus).\n\nSPACEXSI 🔥:\n- Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Location, and Contacts.\n- Grok Bot is working on an \"Outcomes\" tab for jobs that bots own and report on (via nima_owji).\n- Grok Bot preview is adding comments on documents, PDFs, and images (via alexmichael).\n- Gemini 4 Hydrogen is in Cursor, scoring 54.3% on CursorBench.\n\nNVIDIA 🔥:\n- Jensen Huang has resigned as CEO, and CFO Colette Kress is interim CEO.\n\nMICROSOFT 🔥:\n- MAI-Transcribe-2 is generally available in Microsoft Foundry at $0.10 per audio hour.\n- Microsoft Ignite starts next week on November 17, with Microsoft AI teasing new models.\n\nPERPLEXITY 🔥:\n- Perplexity open-sourced Decider v1.3 and Decider Flash v1.3 with a new \"locate\" feature, free on OpenRouter for a week.\n\nTHINKING MACHINES 🔥:\n- Inkling 2 Small weights are on Hugging Face under Apache 2.0.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+          },
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 22,
+            "impression_count": 30870,
+            "like_count": 231,
+            "quote_count": 5,
+            "reply_count": 73,
+            "retweet_count": 12
+          },
+          "referenced_tweets": [
+            {
+              "id": "2120809757107737072",
+              "type": "quoted"
+            }
+          ],
+          "text": "DAILY AI BRIEF 🗞 — Nov 13\n\nGOOGLE 🔥:\n- Gemini 4 Hydrogen is out in the Gemini app, Search, AI Studio, and the API at $1.50/$7.50 per 1M tokens, finishing tasks 2.5x faster than 3.8 Flash.\n- Antigravity is rolling out Orchestrator to Ultra subscribers, where Carbon plans and a https://t.co/7riJj1czN6",
+          "url": "https://x.com/testingcatalog/status/2121185887337820440"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2121136497474535424"
+            ],
+            "media_source_tweet_id": [
+              "2121136502851710994"
+            ]
+          },
+          "author_id": "3980735590",
+          "conversation_id": "2121175111617462378",
+          "created_at": "2026-11-13T09:35:30.000Z",
+          "edit_history_tweet_ids": [
+            "2121175111617462378"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/jeKdYEt1tt",
+                "end": 190,
+                "expanded_url": "https://x.com/viticci/status/2121136502851710994/photo/1",
+                "media_key": "3_2121136497474535424",
+                "start": 167,
+                "url": "https://t.co/jeKdYEt1tt"
+              }
+            ]
+          },
+          "id": "2121175111617462378",
+          "lang": "en",
+          "possibly_sensitive": false,
+          "public_metrics": {
+            "bookmark_count": 44,
+            "impression_count": 32993,
+            "like_count": 524,
+            "quote_count": 6,
+            "reply_count": 55,
+            "retweet_count": 21
+          },
+          "text": "OPENAI 🔥: Many users are reporting that Dots are rolling out on ChatGPT in EU! \n\nI don’t have it yet but monitoring 👀\n\nHave you gotten them too and in which country?  https://t.co/jeKdYEt1tt",
+          "url": "https://x.com/testingcatalog/status/2121175111617462378"
+        }
+      ],
+      "includes": {
+        "media": [
+          {
+            "media_key": "13_2121260359298281472",
+            "type": "video"
+          },
+          {
+            "media_key": "13_2121245912177516544",
+            "type": "video"
+          },
+          {
+            "media_key": "13_2121245825556783104",
+            "type": "video"
+          },
+          {
+            "media_key": "3_2121136497474535424",
+            "type": "photo"
+          }
+        ],
+        "tweets": [
+          {
+            "attachments": {
+              "media_keys": [
+                "13_2121260359298281472"
+              ]
+            },
+            "author_id": "3980735590",
+            "conversation_id": "2121260921435623813",
+            "created_at": "2026-11-13T15:16:29.000Z",
+            "edit_history_tweet_ids": [
+              "2121260921435623813"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "display_url": "pic.x.com/aQFjH4te08",
+                  "end": 308,
+                  "expanded_url": "https://x.com/testingcatalog/status/2121260921435623813/video/1",
+                  "media_key": "13_2121260359298281472",
+                  "start": 285,
+                  "url": "https://t.co/aQFjH4te08"
+                }
+              ]
+            },
+            "id": "2121260921435623813",
+            "lang": "en",
+            "note_tweet": {
+              "text": "META 🔥: Muse is getting a new Chrome extension that can operate on open web pages. \n\nChrome Web Store description 👀\n\n> \"Your personal AI agent in Chrome. Hand off tasks, take busywork off your plate and stay in control.\"\n\n> \"Muse is your personal AI agent that gets things done, always working on what matters to you. Bring it into Chrome to take everyday tasks off your plate, from filling out forms to comparing prices and following up on refunds.\"\n\n> \"Open Muse in Chrome’s side panel without leaving the page you’re on. Pick up your conversations, right alongside your browsing.\n\n> \"Approve actions before they happen. Muse keeps a full activity log, and lets you revoke any connector anytime.\"\n\nIt's already available for testing; check it out below!"
+            },
+            "possibly_sensitive": false,
+            "public_metrics": {
+              "bookmark_count": 47,
+              "impression_count": 20649,
+              "like_count": 332,
+              "quote_count": 7,
+              "reply_count": 42,
+              "retweet_count": 14
+            },
+            "text": "META 🔥: Muse is getting a new Chrome extension that can operate on open web pages. \n\nChrome Web Store description 👀\n\n&gt; \"Your personal AI agent in Chrome. Hand off tasks, take busywork off your plate and stay in control.\"\n\n&gt; \"Muse is your personal AI agent that gets things done, https://t.co/aQFjH4te08"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "13_2121245825556783104"
+              ]
+            },
+            "author_id": "3980735590",
+            "conversation_id": "2121246108479262858",
+            "created_at": "2026-11-13T14:17:37.000Z",
+            "edit_history_tweet_ids": [
+              "2121246108479262858"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "display_url": "pic.x.com/ZHPwMk0WX0",
+                  "end": 299,
+                  "expanded_url": "https://x.com/testingcatalog/status/2121246108479262858/video/1",
+                  "media_key": "13_2121245825556783104",
+                  "start": 276,
+                  "url": "https://t.co/ZHPwMk0WX0"
+                }
+              ]
+            },
+            "id": "2121246108479262858",
+            "lang": "en",
+            "note_tweet": {
+              "text": "Nace AI has launched Drex for Finance, its decision model designed for prediction markets.\n\nIt reads each rule and the final price for the requested prediction, then gives a probability score for each side.\n\nWhen Drex is less than 90% sure, it uses Claude to double-check the answer. This happened only 7 times out of 108. According to Nace, Drex scored 100% on all 108 predictions from the test suite, while being 93% cheaper than Claude."
+            },
+            "possibly_sensitive": false,
+            "public_metrics": {
+              "bookmark_count": 15,
+              "impression_count": 8601,
+              "like_count": 156,
+              "quote_count": 0,
+              "reply_count": 18,
+              "retweet_count": 4
+            },
+            "text": "Nace AI has launched Drex for Finance, its decision model designed for prediction markets.\n\nIt reads each rule and the final price for the requested prediction, then gives a probability score for each side.\n\nWhen Drex is less than 90% sure, it uses Claude to double-check the https://t.co/ZHPwMk0WX0"
+          },
+          {
+            "attachments": {
+              "media_keys": [
+                "3_2121136497474535424"
+              ],
+              "media_source_tweet_id": [
+                "2121136502851710994"
+              ]
+            },
+            "author_id": "3980735590",
+            "conversation_id": "2121175111617462378",
+            "created_at": "2026-11-13T09:35:30.000Z",
+            "edit_history_tweet_ids": [
+              "2121175111617462378"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "display_url": "pic.x.com/jeKdYEt1tt",
+                  "end": 190,
+                  "expanded_url": "https://x.com/viticci/status/2121136502851710994/photo/1",
+                  "media_key": "3_2121136497474535424",
+                  "start": 167,
+                  "url": "https://t.co/jeKdYEt1tt"
+                }
+              ]
+            },
+            "id": "2121175111617462378",
+            "lang": "en",
+            "possibly_sensitive": false,
+            "public_metrics": {
+              "bookmark_count": 44,
+              "impression_count": 32993,
+              "like_count": 524,
+              "quote_count": 6,
+              "reply_count": 55,
+              "retweet_count": 21
+            },
+            "text": "OPENAI 🔥: Many users are reporting that Dots are rolling out on ChatGPT in EU! \n\nI don’t have it yet but monitoring 👀\n\nHave you gotten them too and in which country?  https://t.co/jeKdYEt1tt"
+          },
+          {
+            "author_id": "3980735590",
+            "conversation_id": "2121185887337820440",
+            "created_at": "2026-11-13T10:18:19.000Z",
+            "edit_history_tweet_ids": [
+              "2121185887337820440"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "display_url": "x.com/testingcatalog…",
+                  "end": 300,
+                  "expanded_url": "https://twitter.com/testingcatalog/status/2120809757107737072",
+                  "start": 277,
+                  "url": "https://t.co/7riJj1czN6"
+                }
+              ]
+            },
+            "id": "2121185887337820440",
+            "lang": "en",
+            "note_tweet": {
+              "text": "DAILY AI BRIEF 🗞 — Nov 13\n\nGOOGLE 🔥:\n- Gemini 4 Hydrogen is out in the Gemini app, Search, AI Studio, and the API at $1.50/$7.50 per 1M tokens, finishing tasks 2.5x faster than 3.8 Flash.\n- Antigravity is rolling out Orchestrator to Ultra subscribers, where Carbon plans and a faster model executes.\n- Gemini-powered smart glasses from Warby Parker and Gentle Monster, built with Samsung, are up for pre-order, with Warby Parker at $395.\n\nANTHROPIC 🔥:\n- Claude Meetings is rolling out in beta on Team and Enterprise plans.\n- Self-hosted Claude Managed Agents is in private beta.\n- Claude Duet is sending invites, 3 per user, with a free month of Pro for eligible US users.\n- Anthropic is working on a \"Brush\" beta feature for the Claude prompt composer.\n- Anthropic will start trading on Nasdaq as ANT on November 19.\n\nOPENAI 🔥:\n- OpenAI launched Daybreak Red Team in early access and Daybreak Defense Factory via the Daybreak plugin in Codex.\n- At the same event, OpenAI showed an unreleased cyber model scoring 77% on ExploitGym (via AiBattle_).\n- Codex is rolling out a banked usage reset to all accounts.\n- Dots now follow custom instructions and reply faster.\n- Dots appears to be rolling out to Pro users in Europe (via kimmonismus).\n\nSPACEXSI 🔥:\n- Grok Bot on Mac can now use Messages, Mail, Notes, Reminders, Calendar, Location, and Contacts.\n- Grok Bot is working on an \"Outcomes\" tab for jobs that bots own and report on (via nima_owji).\n- Grok Bot preview is adding comments on documents, PDFs, and images (via alexmichael).\n- Gemini 4 Hydrogen is in Cursor, scoring 54.3% on CursorBench.\n\nNVIDIA 🔥:\n- Jensen Huang has resigned as CEO, and CFO Colette Kress is interim CEO.\n\nMICROSOFT 🔥:\n- MAI-Transcribe-2 is generally available in Microsoft Foundry at $0.10 per audio hour.\n- Microsoft Ignite starts next week on November 17, with Microsoft AI teasing new models.\n\nPERPLEXITY 🔥:\n- Perplexity open-sourced Decider v1.3 and Decider Flash v1.3 with a new \"locate\" feature, free on OpenRouter for a week.\n\nTHINKING MACHINES 🔥:\n- Inkling 2 Small weights are on Hugging Face under Apache 2.0.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+            },
+            "possibly_sensitive": false,
+            "public_metrics": {
+              "bookmark_count": 22,
+              "impression_count": 30870,
+              "like_count": 231,
+              "quote_count": 5,
+              "reply_count": 73,
+              "retweet_count": 12
+            },
+            "referenced_tweets": [
+              {
+                "id": "2120809757107737072",
+                "type": "quoted"
+              }
+            ],
+            "text": "DAILY AI BRIEF 🗞 — Nov 13\n\nGOOGLE 🔥:\n- Gemini 4 Hydrogen is out in the Gemini app, Search, AI Studio, and the API at $1.50/$7.50 per 1M tokens, finishing tasks 2.5x faster than 3.8 Flash.\n- Antigravity is rolling out Orchestrator to Ultra subscribers, where Carbon plans and a https://t.co/7riJj1czN6"
+          },
+          {
+            "author_id": "3980735590",
+            "conversation_id": "2120809757107737072",
+            "created_at": "2026-11-12T09:23:43.000Z",
+            "edit_history_tweet_ids": [
+              "2120809757107737072"
+            ],
+            "entities": {
+              "urls": [
+                {
+                  "display_url": "x.com/testingcatalog…",
+                  "end": 301,
+                  "expanded_url": "https://twitter.com/testingcatalog/status/2120442345044787636",
+                  "start": 278,
+                  "url": "https://t.co/FBbz9YNAKr"
+                }
+              ]
+            },
+            "id": "2120809757107737072",
+            "lang": "en",
+            "note_tweet": {
+              "text": "DAILY AI BRIEF 🗞 — Nov 12\n\nGOOGLE 🔥:\n- Gemini Decision 1 is live in the Gemini API and AI Studio, scoring up to 1,000 questions per call at $0.10 per 1M input tokens with no output cost.\n- Antigravity is rolling out browser use to all users.\n- Google Labs announced Tabletop, a shared AI space for groups, with a waitlist for US Ultra testers.\n- Gemini is now on Apple CarPlay with Gemini Live.\n- Managed Agents in the Gemini API now support self-hosted sandbox environments.\n- DeepMind used AlphaProof Code to formally verify Signal's protocol down to the code.\n- DeepMind released AlphaGenome 2, which models how DNA variants act in specific cell types.\n\nANTHROPIC 🔥:\n- Claude for iOS is getting a Saved logins section for credentials Claude can use to sign in to websites.\n- Claude Fable 5.2 is now available on Google Cloud.\n\nOPENAI 🔥:\n- ChatGPT Finances is now on ChatGPT desktop, with interactive widgets, for US Free, Go, Plus, and Pro users.\n- OpenAI announced ChatGPT Plus for veterans and servicemembers.\n\nSPACEXSI 🔥:\n- Grok Bot 1.0 is out, with shareable bots, Slack and Teams collaboration, and meeting invites.\n- Gopuff is now built into Grok Bot for end-to-end grocery delivery.\n- SpaceX ordered 100 GW/year of HJT solar manufacturing equipment from Germany's Singulus for Starmind.\n\nMICROSOFT 🔥:\n- Claude Fable 5.2 is rolling out in Copilot Cowork and Copilot Studio.\n\nNVIDIA 🔥:\n- NVIDIA's board is reportedly preparing to oust CEO Jensen Huang, sending shares sharply lower after hours.\n\nBYTEDANCE 🔥:\n- ByteDance plans to release a proactive AI agent in the coming weeks, per Bloomberg.\n\nN8N 🔥:\n- n8n Labs released Nod, an open-source agent for small tasks like chasing invoices, in research preview.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+            },
+            "possibly_sensitive": false,
+            "public_metrics": {
+              "bookmark_count": 30,
+              "impression_count": 29624,
+              "like_count": 145,
+              "quote_count": 2,
+              "reply_count": 53,
+              "retweet_count": 10
+            },
+            "referenced_tweets": [
+              {
+                "id": "2120442345044787636",
+                "type": "quoted"
+              }
+            ],
+            "text": "DAILY AI BRIEF 🗞 — Nov 12\n\nGOOGLE 🔥:\n- Gemini Decision 1 is live in the Gemini API and AI Studio, scoring up to 1,000 questions per call at $0.10 per 1M input tokens with no output cost.\n- Antigravity is rolling out browser use to all users.\n- Google Labs announced Tabletop, a https://t.co/FBbz9YNAKr"
+          }
+        ],
+        "users": [
+          {
+            "id": "3980735590",
+            "name": "🚨 AI News | TestingCatalog",
+            "username": "testingcatalog"
+          }
+        ]
+      },
+      "meta": {
+        "newest_id": "2121260925025951863",
+        "oldest_id": "2121175111617462378",
+        "result_count": 8
+      }
+    },
+    "gengdaJ_extended": {
+      "meta": {
+        "result_count": 0
+      }
+    }
+  }
+}

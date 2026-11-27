@@ -1,0 +1,59 @@
+Alioxis News AI新闻收集报告 — 2026-10-29（Asia/Taipei）
+
+条数：20
+Lead：谷歌两周再推前沿模型 Gemini 4 Carbon：AA 智能指数 v5 登顶 59 分，SEC-bench Pro 88.2% 主打网络防御，先只开放给安全团队
+Lead URL：https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-29/_aihot_daily.json（fetch-aihot-daily.js 成功，08:13 抓取；lead 为「Google DeepMind 发布 Gemini 4 Carbon 前沿模型」，sections 12 条 + flashes 7 条）
+- /workspace/alioxis-news/data/2026-10-29/_aihot_summary.txt（与 10-28 同格式：lead 头 + sections + flashes）
+- /workspace/alioxis-news/data/2026-10-29/_prior_urls.json（新写入，扁平 URL 列表 428 个，覆盖 10-17..10-28 的 ai.json/v.json）
+- /workspace/alioxis-news/data/2026-10-29/ai.json
+- /workspace/alioxis-news/data/2026-10-29/_cover_prompts_ai.json（20 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-29/_ai_collect_report.txt
+
+纳入（20）：
+00 Gemini 4 Carbon：curl + trafilatura 核实 deepmind.google 官方博客；交叉 The Decoder、The Verge（AA v5 59 分、SEC-bench Pro、先向安全团队开放）；AIHOT 头条/模型栏（标题刻意避开「Google DeepMind 发布」前缀，自检未撞键）
+01 Android Studio 开放第三方编程智能体 + Connected Apps：curl + trafilatura 核实 the-decoder.com 原文（10-28 16:59:59Z）；交叉 TechCrunch
+02 Chrome 自动填表接 Gmail：curl + trafilatura 核实 techcrunch.com 原文（10-28 17:00Z）；交叉 The Verge
+03 GitHub Octoverse 2026（40%+ PR 由智能体起草）：curl + trafilatura 核实 github.blog 原文（10-28 16:07:40Z）；AIHOT 开发栏（标题已避开 AIHOT 键）
+04 微软 Copilot harness 上架 Foundry：curl + trafilatura 核实 blogs.microsoft.com 原文（10-28 16:51:35Z）；AIHOT 开发栏（标题已避开）
+05 《连线》用 Codex 搭多智能体管英超梦幻足球队：curl + trafilatura 核实 wired.com 原文（10-28 18:30Z）
+06 NVIDIA Nemotron 3.5 Transcribe：curl + trafilatura 核实 huggingface.co/blog 原文（10-28 14:58:17Z）；交叉 TechCrunch（初稿「英伟达开源」前缀撞旧题，已改写）
+07 Artificial Analysis 智能指数 v5：curl + trafilatura 核实 the-decoder.com 原文（10-28 15:04:43Z）；交叉 IT之家（初稿两版标题撞旧题前缀，已改写）
+08 Claude for Legal 法律 Artifacts：curl + trafilatura 核实 the-decoder.com 原文（10-28 16:20:03Z）；AIHOT 快讯「法律 Artifacts 画廊」
+09 Anthropic 企业 ROI 报表与共享 Token 预算：curl + trafilatura 核实 techcrunch.com 原文（10-28 19:19:58Z）
+10 内部 Claude 模型五条攻击链：curl + trafilatura 核实 anthropic.com/research/discovering-vulnerabilities-with-claude（datePublished 仅 10-27 日期）；published_at 取 IT之家 1/019/268 pubtime（10-29 06:35:25+08:00）；AIHOT 安全栏（标题已避开）
+11 微软季度从 OpenAI 收入 100 亿美元：curl + trafilatura 核实 techcrunch.com 原文（10-28 21:34:30Z）；Azure 332 亿美元/同比 48% 据 TechCrunch 同日另文（21:58:32Z），股价盘后 +4% 据 CNBC（16:00:01Z 发布，后续更新）；AIHOT 财报栏（标题已避开）
+12 Alphabet 盘后重挫 10%：curl + trafilatura 核实 cnbc.com 原文（10-28 16:00:01Z 发布，后续更新）；AIHOT 财报栏（标题已避开）
+13 MiniMax MCode Stack：curl + trafilatura 核实 marktechpost.com 原文（10-28 17:20:29Z）
+14 FlashMap 流映射推测解码：curl + trafilatura 核实 marktechpost.com 原文（10-28 08:18:03Z）
+15 DOJ 问询英伟达收购 Hugging Face：curl 核实 IT之家 1/019/272（pubtime 10-29 07:08:07+08:00，援引路透社）
+16 苹果首款触屏 MacBook Pro：curl + trafilatura 核实 cnbc.com 原文（10-28 17:08:09Z）；配置细节交叉 IT之家 1/019/251（pubtime 10-29 02:42:43+08:00）
+17 xAI 收购密西西比住宅换放弃起诉：curl + trafilatura 核实 theverge.com 原文（10-28 14:44Z，援引《卫报》）
+18 纽约州儿童 AI 聊天机器人法：curl + trafilatura 核实 engadget.com 原文（10-28 16:33:01Z）
+19 腾讯网盘内测：curl 核实 IT之家 1/019/283（pubtime 10-29 07:57:06+08:00）
+
+跳过 / 未单独成卡：
+- 与 10-17..10-28 已收录同题：Cathedral 侵入 Anthropic（10-28 #04）、SK 海力士（URL 重复）、GPT-4o 诉讼（10-28 #02）、Genie 4（10-28 头条）、M6 MacBook Pro（10-28 #05；今日触屏 MBP 为新品保留）、OpenAI DevDay 柏林/Dots 欧洲（10-27 v 已收）
+- AIHOT 条目原文为 X 帖或未纳入：面壁 MiniCPM-OCR、Anthropic IPO 最大赢家 Amazon、Claude Code 用量上限转 OpenRouter、Addy Osmani Claude Code Mods、OpenAI 员工撰文 AI 进组织架构、犹他州 Claude Code 试点、Cartesia H-Net、a16z CISO、Grok Bot 0.77.0
+- Connected Apps 并入 01 Android 条目，不单独成卡
+- 名额原因降为备选（均已核实）：Marvell 洽购 Lumentum（IT之家 1/019/279）、Anthropic 致信纽森（1/019/271）、Valve 回应 Steam AI 垃圾游戏（1/019/274）、Perplexity Mac 语音换 gpt-live-1（9to5mac）、Meta Waddle World（The Verge）
+- 抓取失败跳过：VentureBeat RSS（429）；openai.com 被拦截（ServiceNow 合作、future-of-firm、Legora 原文未能核实，不纳入）
+
+去重：
+- 对照 _prior_urls.json（428 个 URL）：本批 20 个 URL 无完全重复，批内 URL 唯一
+- 已与今日 v.json（大V视野流程 08:17 写入，18 条，头条为卡兹克 Genie 4 长文）交叉：URL 无重复；头条错开（AI新闻头条 Gemini 4 Carbon）；标题用 overlapsAihot 对 v 标题自检 0 命中
+- 与今日 v.json 同题而撤下：GitHub Universe'26 Copilot app/Fusion（v TestingCatalog 已收，改用 Octoverse 报告补位）、ChatGPT Dot 支持 iMessage/RCS 短信（v TestingCatalog 速递已收，engadget 原文已核实，改用《连线》多智能体实验补位）；ChatGPT iCloud 插件（10-28 v 已收）同理不补
+- 与今日 v.json 同题但保留（沿用双页签并存先例，角度错开）：00 Gemini 4 Carbon（v Max 讲「美国大豆包」与榜单；AI新闻取官方博客、安全基准与开放策略，且为 AIHOT 头条）；07 AA 指数 v5（v Max 仅提 Carbon 登顶；AI新闻取评测改版与开闭源差距）
+- AIHOT 日报 12 个标题键：已用 build.js 原函数 normalizeTitle/aihotTitleKeys/overlapsAihot 自检，20 条无命中
+- 额外用同一函数对照 10-15..10-28 全部 ai/v 标题：复检 0 命中（06、07 初稿撞旧题前缀，已改写）
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词：夜班安全运营室里被碳晶格封堵的入侵路径（Carbon）/ IDE 小门走进各式机器人助手（Android Studio）/ 从邮箱里拉出机票与快递单自动填表（Chrome）/ 由提交光点构成的章鱼雕塑与机器人绘图员（Octoverse）/ 可换发动机模块的底盘与铁锈色齿轮核心（Copilot harness）/ 穿球衣读报争吵的机器人球探团（梦幻足球）/ 同传间里八路声波编成多语丝带（Nemotron Transcribe）/ 密封试卷考场与悬殊奖杯阶梯（AA v5）/ 脚注连到书架原典的法律文件（Claude for Legal）/ 财务团队共享代币罐（ROI 报表）/ 显微镜下的手机与五条红线证据板（攻击链）/ 雷德蒙德总部的金色收入管道（微软）/ 交易大厅红色暴跌 K 线（Alphabet）/ 挂满技能卡匣的洞洞板（MCode Stack）/ 一次射出十六颗光珠的流线轨道（FlashMap）/ 司法部台阶前的芯片与拥抱脸玩偶（DOJ）/ 手指触碰屏幕泛起涟漪的产品照（触屏 MBP）/ 数据中心墙后的密西西比小镇街道（xAI）/ 深夜卧室手机与年龄验证卡（纽约法案）/ 云形硬盘连向多个 AI 助手（腾讯网盘）
+- 16:9，无文字数字，无统一刊头色带、无万能会议室/科技桌、无抽象几何；file 名 cover-20261029-ai-00…19.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：curl + trafilatura（deepmind.google、the-decoder.com、theverge.com、techcrunch.com、github.blog、blogs.microsoft.com、wired.com、huggingface.co、anthropic.com、cnbc.com、marktechpost.com、engadget.com）/ curl + pubtime_baidu（ithome.com）/ feedparser 解析 RSS 筛选 / X MCP 未使用
+AIHOT 线索：fetch-aihot-daily.js 成功（lead 为 Gemini 4 Carbon，sections 12 条 + 快讯 7 条）；核实后改写标题纳入 00/03/04/08/10/11/12；X 帖类与已收录同题未纳入，其余由公开源补齐
+published_at 说明：均取源站元数据/RSS 精确时间换算为 +08:00（10 源站仅有日期，取 IT之家报道时间）；时间范围 10-28 16:18 至 10-29 07:57（+08:00），均在 24 小时窗口内

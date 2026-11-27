@@ -1,0 +1,44 @@
+大V视野收集报告 — 2026-10-28（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用 2026-10-27 _v_raw_mcp.json 中已解析的 id → get_users_posts（exclude=replies, start_time=2026-10-26T16:00:00Z（约 32 小时）, max_results=25；@testingcatalog 返回 next_token 后翻 1 页，共 37 条）
+- 长文补全：get_posts_by_ids（23 个 id：卡兹克 X Article「Anthropic 招股书 11 个细节」全文、TestingCatalog 被截断的 Sentient OS / Genie 4 / Judgment / Glasser / Cursor / Grok Bot / Gemini Notebook / MAI Cyber / MAI Image / NVIDIA×Meta / ChatGPT iCloud / Drex 帖，以及被引用的 @aditya_vellanki Sentient OS、@GoogleDeepMind Genie 4、@khookhar Concurrence、@alexshander03 Judgment、@mustafasuleyman MAI Cyber、@nvidianewsroom、@rrwilliams ETH、@Baidu_Inc Unlimited OCR 2、@FundaAI Anthropic 现金、@GavinSBaker ARR）
+- 未使用浏览器；未使用 user-X；本次共 8 次 X 读取（6 次 get_users_posts + 1 次翻页 + 1 次 get_posts_by_ids）
+
+入选：19 条
+各 handle 入选计数：
+  @Khazix0918: 2
+  @MaxForAI: 6（ETH 主帖 + 「最疯狂也最危险的时代」自回复合并；Anthropic 现金 + Gavin Baker 年化 1000 亿两帖合并；OCR 条并入小互 Unlimited OCR 2 拆解串）
+  @xiaohu: 2（灵光 2.0 四帖串合并，并入逸尘灵光体验帖；AI 文本「机器方言」主帖 + 提示词自回复合并；小互 Unlimited OCR 2 七帖串并入 Max OCR 条）
+  @thsottiaux: 0（窗口内仅 1 条 Day 22 Terra，已于 10-27 收录）
+  @testingcatalog: 8（ChatGPT iCloud / Grok Bot 记忆导入 / Gemini Notebook 录音 / Cursor Design 批注合并为一条速递；MAI Image 2.7 + MAI Cyber 1.1 Flash 合并；Sentient、Judgment、Glasser、Concurrence 各自主帖 + 自回复合并）
+  @gengdaJ: 1（Atypica；灵光体验帖并入小互灵光条）
+
+原始拉取条数摘要：
+  @Khazix0918: 2（X Article Anthropic 招股书 11 个细节、GPT-6.1 Terra 切换默认模型）
+  @MaxForAI: 19（Carmack 南瓜灯 Benchmark、《三星堆》AI 电影票房、文心 Unlimited OCR 2、「AI 比我强怎么还没取代我」梗、中国大陆版本梗、本地 LLM 提问、华为 AI 图 2 帖、小米遥控器 vibe coding 梗、AI 研究员群截图、X 新产品负责人 Peter Sellis、RT @lidangzzz ETH、微软 6 万人自愿离职、ETH 自回复、ETH 主帖、Anthropic 现金、Anthropic 年化 1000 亿、路透社中国 AI 泡沫、GPT-6.1 Terra（10-27 已收录））
+  @xiaohu: 18（RT @higgsfield_ai、非 AI 感想 1、AI 文本疲惫 2 帖、片头视频、灵光 2.0 四帖串、Unlimited OCR 2 七帖串、微软 6 万人 2 帖（10-27 已拉取））
+  @thsottiaux: 1（Day 22 Terra，10-27 已收录）
+  @testingcatalog: 37（Gemini Notebook、X Share Photo 2 帖、Drex MADQA 2 帖、Grok Bot Memory Import、Cursor Design 批注、Concurrence 2 帖、ChatGPT iCloud、MAI Cyber、Sentient 2 帖、Judgment 2 帖、MAI Image、Genie 4、AA Intelligence Index v5 预告、NVIDIA×Meta 2 帖、Glasser 4 帖；第 2 页 13 条多为 10-27 已收录的 Terra / Cohere / Muse / Riverside / Eon 及 Daily AI Brief）
+  @gengdaJ: 5（灵光 2.0 体验 2 帖、Atypica 3 帖）
+
+Lead：卡兹克长文：飞机上扒完 Anthropic 招股书，总结 11 个有趣细节——股票代码 ANT、五个季度收入涨 30 倍、7 位创始人花 7 美元握住 50.1% 投票权
+Lead URL：https://x.com/Khazix0918/status/2114878401190506902
+（卡兹克 X Article 原创长文，信息密度最高；10-27 AI新闻 头条为 Anthropic S-1 本身，本条为招股书细节深度解读，属同题不同视角、无重复 URL。第 1 条为 Max 解读 OpenAI ETH 证伪——10-27 ai.json 已有 The Verge 报道，本条补充理论界视角与独立审查信息）
+
+筛选说明：
+- 跳过梗图/玩笑：Max「AI 比我强怎么还没 AGI 取代我」「中国大陆版本」「华为 AI 图」「小米遥控器卖爆」「AI 研究员群话题」、Max 本地 LLM 一句话提问
+- 跳过转推无评论：Max RT @lidangzzz、小互 RT @higgsfield_ai
+- 跳过非 AI / 弱 AI：小互「尊重他人命运」感想、Max「X 新产品负责人 Peter Sellis」、TestingCatalog「X Share Photo」2 帖、Max「路透社称中国 AI 泡沫破裂」（股市估值吐槽，信息量低）
+- 跳过已有/碎片：小互「搞了个片头」（引用 10-27 已收录帖，无新信息）、TestingCatalog Drex MADQA 登顶（10-27 已收录 Drex 发布）、AA Intelligence Index v5 预告（尚未上线）、Daily AI Brief、DevDay Q&A 等第 2 页旧帖
+- 去重：与 2026-10-20～10-27 v.json（131 个 X status id）及 ai.json、data/2026-10-28/_prior_urls.json（198 个 status id）比对，入选 19 条及其合并帖均无重复
+- 同题提示：Genie 4 出现在今日 AIHOT 摘要中，若今日 ai.json 也收录，属同题不同来源
+- 三位优先账号：卡兹克 2、Max 6、小互 2（另有小互 OCR 串、逸尘灵光帖作为合并补充）
+
+输出文件：
+  data/2026-10-28/v.json
+  data/2026-10-28/_cover_prompts_v.json
+  data/2026-10-28/_v_raw_mcp.json
+  data/2026-10-28/_v_collect_report.txt
+
+未执行：build / 生图 / 发布

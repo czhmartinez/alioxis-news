@@ -1,0 +1,4 @@
+covers 2026-10-05: 0/37 generated (pending)
+BLOCKER: GenerateImage not available to executor subagent (not in tool list or MCP catalog).
+Prompts ready: _cover_prompts_ai.json (20), _cover_prompts_v.json (17).
+Next: parent generates 37 images (16:9), writes _cover_id_map.json {id: abs_path}, runs scripts/finish-20261005.sh

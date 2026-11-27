@@ -1,0 +1,318 @@
+[
+ {
+  "title": "卡兹克长文：飞机上扒完 Anthropic 招股书，总结 11 个有趣细节——股票代码 ANT、五个季度收入涨 30 倍、7 位创始人花 7 美元握住 50.1% 投票权",
+  "summary": "Anthropic 公开 IPO 申请后，卡兹克在飞机上通读招股书，写成一篇 X 长文梳理 11 个细节。①代码 ANT：员工内部自称「Ants」，而六年前同一天（2020 年 10 月 26 日）蚂蚁集团也公开了招股书，后来暂缓上市；本次计划募资约 1000 亿美元，若成行将超过 SpaceX 的 857 亿美元纪录。②增速：2023 年收入仅 4100 万美元、还不如利息收入 6900 万，全年销售市场费用 200 万美元；2025Q1 收入 3.76 亿，到 2026Q2 已达 115.55 亿，五个季度涨 30 倍。他自算「每 1 美元算力成本换回的收入」从 0.40 升到 2.08，二季度经营利润首次转正（9.74 亿美元），原因包括 Claude 参与研发下一代 Claude（closing the loop）、推理效率提升，以及同时跑 Trainium、TPU、英伟达和 AMD 四种芯片。③上半年净亏 807 亿美元，主要是可转换票据等公允价值变动（-724 亿）这类不掏现金的会计亏损，调整后净利润为正 26.71 亿。④利润表里有一行 15 亿美元的「Bartz settlement」盗版书和解；⑤约 5%–7% 收入来自后来被认定违规的客户；⑥与马斯克从互骂到签下最高 1205 亿美元算力合同，每月约 31 亿美元；⑦对谷歌、亚马逊、微软、博通等签下「照付不议」的长期算力合同；⑧7 位联合创始人每人出资 1 美元认购 1 股 F 类股，固定拥有 50.1% 投票权；⑨股价每涨 50% 可再向公益基金注入最多 2% 股份，整体公益承诺约 22%；⑩Dario 履历没写百度；⑪净收入留存率约 900%，人均对应收入超 660 万美元，三季度超 80% 收入来自近 6 个月发布的模型。他感慨：这已经是一场资本、能源、软硬件与社会制度的全面重组。",
+  "url": "https://x.com/Khazix0918/status/2114878401190506902",
+  "source": "数字生命卡兹克",
+  "source_handle": "@Khazix0918",
+  "published_at": "2026-10-27T08:34:38+08:00",
+  "tags": [
+   "Anthropic",
+   "IPO",
+   "招股书",
+   "S-1",
+   "财报解读",
+   "长文"
+  ],
+  "image": "/assets/covers/cover-20261028-v-00.jpg"
+ },
+ {
+  "title": "Max：OpenAI 内部模型宣称证伪 ETH（指数时间假设），算法群炸了——论文与 Lean 形式化证明已公开，提出者亲自参与独立审查",
+  "summary": "Max 解释为什么「OpenAI 宣布 ETH 被证伪」在理论计算机圈如此震撼。ETH 即指数时间假设，是理论计算机科学的一项基础假设，提出二十多年，数百篇论文以它成立为前提去推导各类计算问题的复杂度下界，覆盖图论、组合优化、数据库到计算生物学。如今 OpenAI 的一个内部模型声称证明了 ETH 是错的；他所在的算法群当天早上都在讨论，有群友此前的论文正是以 ETH 成立为前提，结论可能要重新审视。Max 强调，OpenAI 已公开论文和 Lean 形式化证明，还邀请当年提出 ETH 的研究者参与独立审查——被引用的 Ryan Williams 推文称，他与 Russell Impagliazzo、Mohan Paturi 受邀组织一次公开、独立的审查。Max 也提醒目前还不能说 ETH 已被正式证伪，但若证明最终成立，影响可能持续多年、不亚于 P=NP 问题，大量依赖 ETH 的条件性结论都需要重新评估。他随后自评：「我们处在一个最疯狂的时代，也是最危险的时代。」",
+  "url": "https://x.com/MaxForAI/status/2114944414745608541",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-27T12:56:56+08:00",
+  "tags": [
+   "OpenAI",
+   "ETH",
+   "AI for Science",
+   "理论计算机",
+   "形式化证明",
+   "Lean"
+  ],
+  "image": "/assets/covers/cover-20261028-v-01.jpg"
+ },
+ {
+  "title": "卡兹克实测 GPT-6.1 Terra：Claude 指挥 Codex 操控浏览器和电脑，已把默认模型从 GPT-6.1 Sol high 换成 Terra xhigh",
+  "summary": "卡兹克分享自己的 Agent 组合用法：需要操控浏览器或电脑的任务，他一般让 Claude 启动 Codex，再由 Claude 指挥 Codex 去完成。GPT-6.1 Terra 发布当天他做了测试，结论是速度确实很快，效果和稳定性也不错，而且非常省额度，很适合日常处理常规的浏览器与电脑操控任务。因此他直接把默认模型从 GPT-6.1 Sol（high 推理档）切换到了 GPT-6.1 Terra（xhigh 推理档）。他的评价是：「这个模型，还是有一些用处的～」——对于把 Computer Use 交给 Agent 的日常工作流，Terra 这种更快更便宜的中端模型正在成为实用默认选项。",
+  "url": "https://x.com/Khazix0918/status/2115093669657371061",
+  "source": "数字生命卡兹克",
+  "source_handle": "@Khazix0918",
+  "published_at": "2026-10-27T22:50:02+08:00",
+  "tags": [
+   "GPT-6.1 Terra",
+   "Codex",
+   "Claude",
+   "Computer Use",
+   "Agent 工作流",
+   "实测"
+  ],
+  "image": "/assets/covers/cover-20261028-v-02.jpg"
+ },
+ {
+  "title": "百度开源文心 Unlimited OCR 2：一口气解析 3600 多页《哈利·波特》全集，新注意力机制让 KV Cache 显存从 47GB 降到 1.77GB",
+  "summary": "Max 解读百度开源的文心 Unlimited OCR 2。上一代 Unlimited OCR 能一次解析几十页文档，在 HuggingFace 下载超 1000 万次、GitHub 近 3 万 Stars，但每生成一个新 Token 仍要关注前面所有页面的视觉信息，文档越长越慢。新一代借鉴「人抄书只看当前页、偶尔回看」的习惯，提出稀疏参考滑动窗口注意力 SR-SWA：Page Gate 决定当前该关注哪些页面，Token Sieve 再挑出最有价值的视觉信息块；同时引入无限解码机制，把整本书分块处理、复用相邻块的 KV Cache、处理完就释放，因此能持续往后读。在新提出的百页级基准 MarathonDoc Bench 上得 77.06 分（第二名 Kimi K3 为 33.74），百页级单步解码速度比 Full Attention 快 7 倍，KV Cache 峰值显存从 47GB 降至 1.77GB；总参数仅 3B、每 Token 激活约 5 亿。官方展示了连续解析 1200 多页《三体》和 3600 多页《哈利·波特》。小互也发了拆解长串补充：多页文档测试从一代 61.89 分升到 84.59 分，约 100 页测试中单段生成速度约为一代 5.6 倍，名字致敬《Fate/stay night》的「无限剑制」。Max 认为，Agent 时代要从几百页财报、几千页合同里提取信息，稳定低成本的长文档解析是基础能力。",
+  "url": "https://x.com/MaxForAI/status/2115096022343119198",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-27T22:59:22+08:00",
+  "tags": [
+   "百度",
+   "文心",
+   "OCR",
+   "开源模型",
+   "长文档",
+   "KV Cache"
+  ],
+  "image": "/assets/covers/cover-20261028-v-03.jpg"
+ },
+ {
+  "title": "小互：国内个人 Agent 之战打响——蚂蚁灵光 2.0 升级「个人 AI 助理」，接飞书、支付宝、钉钉、滴滴，还能自己找 MCP/CLI 长线盯事",
+  "summary": "小互体验了蚂蚁集团旗下灵光 App 的 2.0 版本，它从问答工具升级为「个人 AI 助理」，能更主动、持续地跟进和管理生活中的复杂事务。它可以连接飞书、支付宝、钉钉、滴滴打车等国内第三方服务，还会按需求主动搜索并接入公开的 MCP/CLI，随后自动记忆、设置提醒并持续跟踪。小互列举的场景包括：管钱（梳理月度账单和隐形自动续费、盯商品降价与机酒折扣）、管娃（跟踪辅食计划与疫苗节点，从班级群和钉钉长通知里挑出作业与待办）、管琐事（宠物驱虫、体检、亲友生日提醒）、管出行（定制攻略并监测天气、航班延误和票务变动）；它甚至能连接智能家居、硬件和车辆，也能帮忙盯演唱会门票和 B 站 UP 主更新。隐私方面，官方称接入蚂蚁统一安全管理体系，采用授权密钥与智能体分离托管，智能体调用跨应用能力时不直接接触底层账号的核心授权密钥。逸尘也同日发帖称，灵光打通了日历、提醒事项、短信、通讯录、iCloud Drive 和百度网盘等，帮她扫出网盘里 3G 多的旧照片，并可用滴滴 MCP Key 绑定叫车；App Store 可下载，暂未看到充值入口。",
+  "url": "https://x.com/xiaohu/status/2114956083517329906",
+  "source": "小互",
+  "source_handle": "@xiaohu",
+  "published_at": "2026-10-27T13:43:18+08:00",
+  "tags": [
+   "灵光",
+   "蚂蚁集团",
+   "个人 Agent",
+   "MCP",
+   "AI 助理",
+   "国产应用"
+  ],
+  "image": "/assets/covers/cover-20261028-v-04.jpg"
+ },
+ {
+  "title": "Max：Anthropic 账上现金约 1317 亿美元，超过亚马逊、Meta、微软；投资人 Gavin Baker 预测其年底年化收入或破 1000 亿",
+  "summary": "Max 连发两帖拆解 Anthropic 招股书里的钱。据 @FundaAI 整理，截至 2026 年 6 月 30 日，这家成立五年、尚未上市的公司持有 1124 亿美元现金及等价物加 193 亿美元短期投资，合计约 1317 亿美元，同期亚马逊约 1230 亿、Meta 约 903 亿、微软约 768 亿；2023 年至 2026 年上半年累计募资约 1411 亿美元，仅今年上半年就流入约 1108 亿，其中 H 轮 652 亿。但招股书也披露一项涉及博通的 AI 基础设施设备租赁，未来五年租金就已接近其全部现金，这还只是庞大算力承诺的一部分——Max 说他「突然有点理解为什么 Anthropic 要着急上市了」。另一帖中，投资人 Gavin Baker 认为 Anthropic 年底年化收入可能突破 1000 亿美元：OpenRouter 上 Anthropic 日均 Token 在 6–9 月维持约 6000 亿，9 月 22 日 Opus 5.5 及后续 Sonnet/Haiku 5.5 降价上线后暴涨，到 10 月 24 日 7 日均值约 2.2 万亿、一个月增长 3.6 倍；同时 Token 价格下降、GPU 租金反而上涨。Max 用杰文斯悖论解释：Agent 让单位任务变便宜，人们交给 AI 的任务反而更多。他也指出，按此前披露的三季度营收约 168 亿美元，简单年化约 672 亿，离 1000 亿仍有距离。",
+  "url": "https://x.com/MaxForAI/status/2114941030160363662",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-27T12:43:29+08:00",
+  "tags": [
+   "Anthropic",
+   "现金流",
+   "ARR",
+   "杰文斯悖论",
+   "OpenRouter",
+   "算力"
+  ],
+  "image": "/assets/covers/cover-20261028-v-05.jpg"
+ },
+ {
+  "title": "小互：为什么 AI 写的回答读着这么累？14 个大模型对比揭示 6 类「机器方言」，以及让模型写得更像人的反向提示",
+  "summary": "小互介绍纽约大学与得州大学奥斯汀分校语言学研究者的工作：他们横向对比 14 个主流大模型与人类真实文本，发现前沿模型系统性地过度使用 6 类极耗人类工作记忆的语言结构，所以内容即使正确也让人读得疲惫。人类交流会在「表达省力」与「理解省力」之间平衡，而模型倒向了极限压缩与高密度：①生造冷门搭配（如「读者耐心预算」）；②主语与核心谓语之间塞入冗长修饰，造成长距离语法割裂；③为精简删掉 that 这类连接词，模糊从句边界；④名词像糖葫芦一样堆叠（如「恐怖电影原声带生成器」）；⑤把名词硬当动词用（如「calendar it」）；⑥对无生命物体强行拟人化（如「对话正在咬自己的尾巴」）。小互在自回复里给出实用结论：想让大模型写出舒服易读的文章，就要反向干预它的「机器方言」，在提示词中主动要求拆解长难句、补充从句引导词、保留必要的介词与过渡、禁用冷门生造名词，把服务于代码和推理的高压文本重新翻译成符合人脑认知节奏的语言。帖中附有详细解读与论文链接。",
+  "url": "https://x.com/xiaohu/status/2115056354771763247",
+  "source": "小互",
+  "source_handle": "@xiaohu",
+  "published_at": "2026-10-27T20:21:45+08:00",
+  "tags": [
+   "AI 写作",
+   "提示词技巧",
+   "可读性",
+   "语言学研究",
+   "大模型"
+  ],
+  "image": "/assets/covers/cover-20261028-v-06.jpg"
+ },
+ {
+  "title": "Max：中国首部全流程 AI 院线长片《三星堆：未来往事》票房扑街被 Polymarket 发上 X——AI 能把成本降百倍，却没法让无聊故事变有趣",
+  "summary": "Max 转评 Polymarket 的消息：中国首部全流程 AI 制作的院线长片《三星堆：未来往事》10 月 23 日上映，制作团队近百人、耗时两年、成本超过 1000 万元，上映四天累计票房只有约 123 万元，上座率一度跌到 0.2%，平均一场只有 0.3 个观众（Polymarket 原帖的口径是票房约 18.1 万美元、制作预算约 150 万美元）。Max 认为这件事值得思考：AI 视频生成进步很快，做动画电影的技术门槛不断下降，但观众为何要为一部电影买单？AI 能把制作成本降低十倍、百倍，却无法自动让无聊的故事变得有趣。过去技术、资金和发行渠道本身就是门槛，未来制作越来越便宜，真正稀缺的会重新回到创作者身上——审美、表达、叙事能力和对人类情感的理解。他依然看好 AI 影视，但这次票房说明：观众不会因为电影是 AI 做的就走进影院，「电影好看才是硬道理」。",
+  "url": "https://x.com/MaxForAI/status/2115121450638311909",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-28T00:40:25+08:00",
+  "tags": [
+   "AI 影视",
+   "AI 电影",
+   "票房",
+   "AI 视频生成",
+   "内容创作"
+  ],
+  "image": "/assets/covers/cover-20261028-v-07.jpg"
+ },
+ {
+  "title": "Max：人形机器人能后空翻，却没有一台能独立给南瓜灯换电池——Carmack 提出的「真 Benchmark」，马斯克也点赞",
+  "summary": "Max 转述传奇程序员 John Carmack 的观点：人形机器人已经能打拳、跳舞、后空翻，但全世界可能还没有一台通用机器人能独立给南瓜灯换电池。这件事对几岁小孩都不难，可拆开来看，机器人要自己拿来南瓜灯、找到放电池的抽屉、拆开 AA 电池包装、从工具盒取出精密螺丝刀、按住并旋开四颗小螺丝、再弹出旧电池，每一步都涉及不同物体、接触方式、力度控制和操作技巧；现实中的电池盒、螺丝、包装和工具又千差万别。专门训练一台换电池机器人当然可以，但换一个南瓜灯、换一种电池盒或把工具放到别的抽屉，它还能完成吗？Carmack 之前还提过类似测试：让会跳舞的机器人拿起手柄学一款没见过的游戏。马斯克在评论区回复「这些才是真正的 Benchmark」。Max 认为，机器人可以完成极其复杂的预设动作，却可能在简单的陌生任务前束手无策；衡量具身智能，应多看它能否独立处理生活中琐碎、陌生、没彩排过的长尾任务。",
+  "url": "https://x.com/MaxForAI/status/2115134840400125998",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-28T01:33:37+08:00",
+  "tags": [
+   "具身智能",
+   "人形机器人",
+   "Benchmark",
+   "John Carmack",
+   "通用操作"
+  ],
+  "image": "/assets/covers/cover-20261028-v-08.jpg"
+ },
+ {
+  "title": "Max：微软向约 6 万名员工开放自愿离职，覆盖全公司 27%——一边砸 1750 亿美元建 AI 基础设施，一边重算「人力 vs 算力」",
+  "summary": "Max 认为微软这次自愿离职补偿计划可能成为一个标志性事件。10 月 26 日，微软宣布向全球约 6 万名员工提供自愿离职补偿，占其 22.3 万员工的 27%；作为对比，亚马逊 2025 年 10 月到 2026 年 1 月两轮裁员合计约 3 万人，微软这次开放离职通道的覆盖人数是其两倍。涉及部门包括 AI Experiences、Copilot、Windows、Xbox 以及财务和人力资源，部分数据中心岗位反而被排除在外。与此同时，微软预计 2026 年资本开支将达 1750 亿美元，大部分用于 AI 基础设施——一边投入上千亿美元买 GPU、建数据中心，一边大规模缩减人力成本。Max 提到 Block 曾因 AI 带来的效率提升一次裁掉 4000 多人，亚马逊、Atlassian 等也在调整组织结构；被引用的前微软员工帖子则直言「微软需要更少的人」，批评组织层级繁多、部门割裂。Max 的判断是：科技巨头开始重新计算人力与算力如何分配，而这场变化才刚刚开始。",
+  "url": "https://x.com/MaxForAI/status/2114948496625398254",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-27T13:13:10+08:00",
+  "tags": [
+   "微软",
+   "裁员",
+   "AI 基础设施",
+   "资本开支",
+   "组织变革"
+  ],
+  "image": "/assets/covers/cover-20261028-v-09.jpg"
+ },
+ {
+  "title": "TestingCatalog：Google DeepMind 正式发布世界模型 Genie 4——更真实、更可交互，可用提示词动态改变世界并原生生成音频",
+  "summary": "TestingCatalog 报道，Google 正式发布最新世界模型 Genie 4，主打更高的真实感与交互性。用户现在可以用提示词动态修改正在生成的世界，并生成带原生音频的场景。Google DeepMind 官方介绍称，这是其迄今最真实、交互性最强的世界模型，可以实时探索动态环境，观察场景如何响应、发出什么声音，以及其中的人如何移动、反应和说话。Genie 4 目前以研究预览形式向受信任测试者（Trusted Testers）推出，之后将面向 Google AI Ultra 订阅用户，并通过 Gemini API 与 AI Studio 向早期接入合作伙伴开放；帖子还附上了 Sundar Pichai 分享的示例。",
+  "url": "https://x.com/testingcatalog/status/2115117889485156595",
+  "source": "TestingCatalog News",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-28T00:26:16+08:00",
+  "tags": [
+   "Google DeepMind",
+   "Genie 4",
+   "世界模型",
+   "模型发布",
+   "Gemini API"
+  ],
+  "image": "/assets/covers/cover-20261028-v-10.jpg"
+ },
+ {
+  "title": "TestingCatalog：Sentient OS 上线——本地 LLM 一夜读懂你的文件和消息，Sidekick 用自己的光标替你填表、回邮件",
+  "summary": "TestingCatalog 介绍 Sentient 推出的 Sentient OS（YC F26）：这是一套开源、端侧运行的 AI，会从本地文件和消息中收集上下文，并据此在用户电脑上执行任务；创始人称它用本地 LLM「一夜之间理解你的生活」，因为本地推理不限量。其 Sidekick 功能可让用户把屏幕上正在处理的任务（如一张表单、一封邮件）交给它，由 Sentient 用自己的光标完成；它学到的一切都以纯文本文件存储在本地，用户可以打开和编辑。另一个功能 Double Tap 允许双击热键，以用户自己的写作风格起草回复，可选择托管模型或完全本地的模型。Sentient OS 对 Apple Silicon Mac 免费，并提到 Windows 版本；前 1000 名在 App 内输入 FINAL_1000 的用户可终身免费。",
+  "url": "https://x.com/testingcatalog/status/2115128868562514158",
+  "source": "TestingCatalog News",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-28T01:09:54+08:00",
+  "tags": [
+   "Sentient OS",
+   "端侧 AI",
+   "本地 LLM",
+   "Computer Use",
+   "开源",
+   "YC"
+  ],
+  "image": "/assets/covers/cover-20261028-v-11.jpg"
+ },
+ {
+  "title": "TestingCatalog 一夜产品更新：ChatGPT 接入 iCloud 日历与邮件、Grok Bot 支持记忆导入、Gemini Notebook 手机端可录 1 小时实时音频、Cursor Design 模式加批注",
+  "summary": "TestingCatalog 一晚上连发多条 AI 助手与开发工具的更新：①OpenAI：ChatGPT 现在可在网页桌面端和 iOS 上连接 iCloud 日历与邮件，他称之为「期待已久的功能」。②Grok Bot 已支持记忆导入（Memory Import），说明文字为「从其他 AI 助手迁移你的偏好与上下文」。③Google：Gemini Notebook 移动端可录制最长 1 小时的实时音频，录下的音频之后可作为 Notebook 的来源使用，目前看起来在逐步推送。④Cursor：Design 模式新增批注（Annotations），官方描述为「Design Mode 让用户在运行中的应用上留下备注来指挥 Agent」，他感叹有了这些工具，Web 开发再也不会和以前一样。",
+  "url": "https://x.com/testingcatalog/status/2115150286645764546",
+  "source": "TestingCatalog News",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-28T02:35:00+08:00",
+  "tags": [
+   "ChatGPT",
+   "iCloud",
+   "Grok Bot",
+   "Gemini Notebook",
+   "Cursor",
+   "产品更新"
+  ],
+  "image": "/assets/covers/cover-20261028-v-12.jpg"
+ },
+ {
+  "title": "TestingCatalog：微软 MAI 双更新——图像编辑模型 MAI Image 2.7 Preview 登 Arena 第 3，漏洞挖掘模型 MAI Cyber 1.1 Flash 单次扫描成本降 18%",
+  "summary": "TestingCatalog 连发两条微软 MAI 模型动态。图像方面：新的图像编辑模型 MAI Image 2.7 Preview 已上线 Arena 和 MAI Playground，在 Artificial Analysis 的 AA-Image-Editing v2.1 上排第 2，在 Image Editing Arena 排第 3，比 2.6 版提升 45 分（Mustafa Suleyman 称其按实验室排名第 2、领先 GPT-Image-2）；此外 MAI-Image-2.6 与 MAI-Image-2.6-Flash 已在 Microsoft Foundry 正式可用。安全方面：MAI Cyber 1.1 Flash 已在 MDASH 上线，官方称它推进了漏洞发现能力，在 MDASH 内部漏洞扫描评测中表现与 MAI Cyber 1 Flash 相当，但每次扫描成本低 18%。Suleyman 同时表示其安全套件中 MAI Cyber 模型的用户采用率过去 30 天翻倍至 50%，Token 效率提升 20% 且不牺牲质量。TestingCatalog 评价：网络安全需要更多解决方案。",
+  "url": "https://x.com/testingcatalog/status/2115122021294112923",
+  "source": "TestingCatalog News",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-28T00:42:41+08:00",
+  "tags": [
+   "微软",
+   "MAI Image",
+   "MAI Cyber",
+   "图像编辑",
+   "漏洞挖掘",
+   "模型发布"
+  ],
+  "image": "/assets/covers/cover-20261028-v-13.jpg"
+ },
+ {
+  "title": "TestingCatalog：Judgment Labs 正式开放——Agent 集群翻生产日志找故障、定位根因、测试修复，MCP 可接 Claude、Codex、Cursor",
+  "summary": "TestingCatalog 报道 Judgment Labs 进入正式可用（GA）。它定位为 AI Agent 的「持续改进栈」：由 Agent 集群（swarms）遍历生产环境中的运行轨迹，发现故障、分级处理并测试修复方案。用户可在 Slack 中通过 Judgment 发起调查——当某个 Agent 行为异常或用户投诉时，集群会找出相似的失败案例、显示受影响的用例并缩小根因范围，平台再提出修复方案并在真实数据上测试。Judgment MCP 可与 Claude、Codex、Cursor 或任何 MCP 客户端配合使用。创始人表示，长时间运行的 Agent 系统产生的「废气数据」将多到世界无法处理，而这些轨迹里藏着用户需求、Agent 失误点以及它们如何与外部世界交互的丰富记录。TestingCatalog 好奇它在大规模运行 Agent 时能节省多少时间。",
+  "url": "https://x.com/testingcatalog/status/2115124016335704102",
+  "source": "TestingCatalog News",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-28T00:50:37+08:00",
+  "tags": [
+   "Judgment Labs",
+   "Agent 监控",
+   "可观测性",
+   "MCP",
+   "Agent 运维"
+  ],
+  "image": "/assets/covers/cover-20261028-v-14.jpg"
+ },
+ {
+  "title": "TestingCatalog：Glasser 推出面向 AI Agent 的按次付费数据服务——80 多家供应商、2000 多个付费 API，Agent 先看价格再调用",
+  "summary": "TestingCatalog 介绍 Glasser 推出的按调用付费数据服务：接入 80 多家供应商的 2000 多个付费 API 端点，AI Agent 连接后可按需获取公司档案、SEO、社交媒体指标等高级数据，无需为每家供应商单独订阅月费。Agent 在调用前能看到每次调用的价格，事后汇报花了多少；同一信息往往有多家供应商以不同价格出售，Agent 可以按任务和预算挑选。Glasser CLI 只需把一段提示词粘贴进 Claude Code、Codex、Cursor 或其他本地 Agent 即可安装，新工作区送 1 美元免费额度，并附带 GitHub 上的开源技能库，便于做竞品研究、SEO 审计等任务。TestingCatalog 实测让 Claude 通过 Glasser 调研其网站：公司查询把他们定位在柏林，并识别出站点使用的 12 项技术（含 Ghost 和 Stripe），这次查询花费 0.0049 美元，而在 Crustdata 上同样查询要 0.66 美元。",
+  "url": "https://x.com/testingcatalog/status/2115043816038084990",
+  "source": "TestingCatalog News",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-27T19:31:56+08:00",
+  "tags": [
+   "Glasser",
+   "AI Agent",
+   "按次付费",
+   "数据 API",
+   "CLI",
+   "Claude Code"
+  ],
+  "image": "/assets/covers/cover-20261028-v-15.jpg"
+ },
+ {
+  "title": "TestingCatalog：Concurrence（原 Amigo）发布 Health World Model——为每位患者维护实时更新的健康时间线，AI Agent 已处理超 1000 万次患者对话",
+  "summary": "TestingCatalog 报道，Concurrence（前身为 Amigo）推出新的 Health World Model。该模型为每位患者维护一条独立、始终最新的时间线，数据来自医疗机构的记录，以及其 AI Agent 在两次就诊之间从患者反馈中收集的信息。公司表示，每个机构的模型只基于该机构自己的数据构建，其 AI Agent 已处理超过 1000 万次患者对话。Concurrence 由 Madrona、Optum Ventures 和 General Catalyst 投资。创始人在发布帖中讲述，他 13 岁时母亲因本应更早发现的癌症去世，因此要打造一个能及时「看见每位患者未来」、从而改变结局的系统，并称这是迈向「超级智能医疗」的一大步。",
+  "url": "https://x.com/testingcatalog/status/2115163821027496056",
+  "source": "TestingCatalog News",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-28T03:28:47+08:00",
+  "tags": [
+   "Concurrence",
+   "医疗 AI",
+   "世界模型",
+   "AI Agent",
+   "患者管理"
+  ],
+  "image": "/assets/covers/cover-20261028-v-16.jpg"
+ },
+ {
+  "title": "TestingCatalog：英伟达与 Meta 扩大合作——共同优化 Muse 模型训练与推理，探索 OpenShell 安全部署 Agent，Meta 将扩大部署 Vera Rubin",
+  "summary": "TestingCatalog 报道英伟达与 Meta 扩大合作，围绕 Muse 及 Muse 系列模型展开。据英伟达官方消息，双方将提升 Muse 模型的推理与训练性能，并探索用 NVIDIA OpenShell 安全部署 AI Agent、用 NVIDIA Sentry 监控 Agent 行为，两家公司也在考虑围绕 NVIDIA OpenShell 参考架构的其他技术合作。硬件方面，Meta 将扩大部署 NVIDIA Vera Rubin 与 Vera CPU，并配合 NVIDIA Spectrum-X 以太网与 BlueField-4 来提升性能、扩展工作负载规模。TestingCatalog 还另附了一篇整理该消息的文章链接。",
+  "url": "https://x.com/testingcatalog/status/2115053407140544875",
+  "source": "TestingCatalog News",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-27T20:10:02+08:00",
+  "tags": [
+   "英伟达",
+   "Meta",
+   "Muse",
+   "Vera Rubin",
+   "Agent 安全",
+   "算力"
+  ],
+  "image": "/assets/covers/cover-20261028-v-17.jpg"
+ },
+ {
+  "title": "逸尘实测 Atypica：用 AI 模拟消费者给 TikTok 投放素材做调研——五类 AI 人设单访加圆桌讨论，报告还能经 MCP 接入 Codex / Claude Code",
+  "summary": "逸尘分享用 Personal research agent「Atypica」辅助商业决策的实测。据她介绍，Atypica 拥有 100 万+ 完整人格画像，经过真人校准、准确性超过 85% 的 AI 模拟消费者，可在规划大项目或测试文案方向前低成本做一次用户调研，省去招募真实消费者的开支。她用 TikTok 上爆火的 14.99 美元迷迭香米水喷雾测试了三个素材方向：A 情感故事（先讲产后掉发崩溃，产品到中段才出现）、B 产品演示（成分加 90 天对比照）、C 生活方式（出门前十秒喷一下）。流程是：Atypica 先搜索真实 TikTok 和 Instagram 视频，构建五类虚拟 AI 人设（掉发也要撑住、产后脱发、十秒出门派、成分审计员、卷发修复党），分别进行两轮单独访谈，再拉进圆桌互相讨论；最终报告按 TikTok/Instagram 人群差异给出投放策略选择，还附上素材优化建议。调研结果可通过 MCP 接入 Codex 或 Claude Code，与原有投放工作流打通，从洞察直接衔接素材生成；她在评论区附上了完整报告与 MCP 地址。",
+  "url": "https://x.com/gengdaJ/status/2115025631167795550",
+  "source": "逸尘",
+  "source_handle": "@gengdaJ",
+  "published_at": "2026-10-27T18:19:40+08:00",
+  "tags": [
+   "Atypica",
+   "AI 模拟用户",
+   "用户调研",
+   "营销投放",
+   "MCP",
+   "AI 应用"
+  ],
+  "image": "/assets/covers/cover-20261028-v-18.jpg"
+ }
+]

@@ -1,0 +1,342 @@
+[
+  {
+    "id": "ai-00",
+    "tab": "ai",
+    "title": "Mistral 发布 Mistral Large 4：1T 参数 / 49B 激活原生多模态，AA 评测称其为美中之外最智能模型",
+    "summary": "Mistral 10 月 6 日推出 Mistral Large 4（ML4，昵称「Le Chonk」）公开预览：1 万亿参数、490 亿激活的原生多模态模型，在其欧洲自有数据中心用 3,800 块 NVIDIA Grace Blackwell GPU 从零训练，权重计划本月底开放，此前先与网安机构、可信伙伴和政府做真实场景红队测试。官方成绩包括 DeepSWE v1.1 61.7%、Terminal-Bench 4 28.3%、AutomationBench 59.9%、Cybench 解出 93%。Artificial Analysis 实测其智能指数 38，与 GPT-6 Luna（max）持平，是美中之外最智能的模型；Cyber Index 50 分。支持 512K 上下文、文本+图像输入，API 定价每百万 token 输入 $1.36 / 输出 $4.18，前两周五折。",
+    "tags": [
+      "Mistral",
+      "开放权重",
+      "多模态",
+      "模型发布"
+    ],
+    "filename": "cover-20261007-ai-00.jpg",
+    "raw_name": "ai-00-raw.jpg",
+    "prompt": "Low-angle hero photograph inside a European datacenter hall at blue hour: rows of liquid-cooled GPU racks recede into haze, and in the foreground sits an absurdly huge, round, friendly-looking orange-and-amber cat-shaped cushion — a literal 'chonk' — perched on top of a server rack like a mascot, its mass denting the rack lid; warm orange and yellow cable bundles spill from the rack in a gradient echoing a French-tech palette; a technician with a clipboard looks up at it in mild amusement — Mistral's trillion-parameter 'Le Chonk' model trained in its own European GPU halls. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "model",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-01",
+    "tab": "ai",
+    "title": "OpenAI 公开内部前沿模型的又一批数学成果：722 份手稿、372 个结果族，附 Lean 形式化证明",
+    "summary": "OpenAI 10 月 6 日发布一批由未公开内部前沿模型产出的数学新结果，以 GitHub 仓库形式公开并附论文修订与引用规范，其中许多证明附有 Lean 形式化，可由计算机检验。仓库同时公开 10 份模型推理摘要、以 ChatGPT Pro 用量折算的算力估算和尝试题目数量统计——平均每个结果约耗相当于 ChatGPT Pro 连续思考三小时的算力。据 IT之家，此次共 722 份手稿、覆盖 372 个结果族，数学与 AI 咨询小组 AGMAI 称其中包含「数百个」未解问题的解答。OpenAI 表示发布方式参考了普林斯顿高等研究院独立咨询小组的建议，并将资助围绕 AI 重大成果的研讨会，同时在推进负责任地发布这款模型。",
+    "tags": [
+      "OpenAI",
+      "AI数学",
+      "Lean",
+      "科研"
+    ],
+    "filename": "cover-20261007-ai-01.jpg",
+    "raw_name": "ai-01-raw.jpg",
+    "prompt": "Documentary still life on a mathematician's oak desk at night: a towering stack of hundreds of printed manuscripts bound with binder clips, the top pages covered in blurred, unreadable equations; beside them an open laptop shows a green column of checkmarks from a proof assistant rendered as soft glowing ticks, and a brass desk lamp casts a warm pool of light; a coffee cup and a worn fountain pen sit next to a small sand hourglass emptied after three hours — an AI model dumping hundreds of machine-checked math results at once. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "research",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-02",
+    "tab": "ai",
+    "title": "Google 发布 Nano Banana 2.1：画质与多角色一致性提升、价格约降一半，旧版 10 月 29 日停用",
+    "summary": "Google 10 月 6 日发布 Gemini Nano Banana 2.1（gemini-nano-banana-2.1），Gemini API 即日正式可用。它是 Nano Banana 2（gemini-3.1-flash-image）的更新版，保持 Flash 级速度与成本，改进画质、提示遵循、多轮角色一致性和文字渲染，并新增 1:4、4:1、1:8、8:1 宽幅/全景比例，支持 1K/2K/4K。据 The Decoder，新模型基于 Gemini 3.6 Flash，可同时参考最多 14 张图、保持最多 4 个角色和 10 个物体一致，提供最小/中/高三档思考；1K 图价格从 6.70 美分降到 3.36 美分，4K 从 15.10 美分降到 7.56 美分。已在 Gemini App、搜索 AI Mode、AI Studio、Flow、Stitch、Google Ads 等铺开，旧模型 gemini-3.1-flash-image 将于 10 月 29 日停用。",
+    "tags": [
+      "Google",
+      "Nano Banana",
+      "图像生成",
+      "API"
+    ],
+    "filename": "cover-20261007-ai-02.jpg",
+    "raw_name": "ai-02-raw.jpg",
+    "prompt": "Semi-realistic creative-studio scene: a photographer's light table covered in a fan of 14 glossy reference prints (a woman in a yellow raincoat, a corgi, a vintage bicycle, a teapot), and above them a large monitor displaying a sweeping ultra-wide 8:1 panoramic image of the same raincoat woman, corgi and bicycle on a seaside promenade, perfectly consistent; a ripe banana sits as a paperweight on the prints, and a pair of scissors halves a price tag beside it — Google's cheaper, more consistent Nano Banana 2.1 image model. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-03",
+    "tab": "ai",
+    "title": "Google DeepMind 开源 EmbeddingGemma 2：740M 参数，把文本、代码、图像和音视频映射进同一嵌入空间",
+    "summary": "Google DeepMind 发布 EmbeddingGemma 2，基于 Gemma 4 架构、Apache 2.0 许可，共 7.4 亿参数，面向端侧多模态检索。模块化设计：纯文本只需 2.7 亿参数，视觉（1.7 亿）与音频（3 亿）编码器可选；Matryoshka 表示学习可把 768 维向量截到 512/256/128 维，存储最多省 6 倍。量化后在 Pixel 11 Pro 上纯文本约占 191MB 活跃内存、完整多模态约 567MB；上下文 8K（前代 4 倍），一次可处理约 5.5 分钟音频、29 张图或 58 帧视频。MTEB Code 从 68.76 升至 78.68，适合本地代码库索引与编码智能体检索。权重已上 Hugging Face 与 Kaggle，支持 transformers、sentence-transformers、MLX、vLLM、llama.cpp、Ollama 等；上一代下载量超 2000 万。",
+    "tags": [
+      "Gemma",
+      "嵌入模型",
+      "端侧AI",
+      "开源"
+    ],
+    "filename": "cover-20261007-ai-03.jpg",
+    "raw_name": "ai-03-raw.jpg",
+    "prompt": "Macro product photograph of a modern smartphone lying on dark slate, its screen showing a grid of personal media thumbnails — a beach video frame, a voice-memo waveform, a dog photo, a code snippet blurred — with fine glowing threads linking matching items across modalities into tight clusters, like constellations drawn on the glass; beside the phone, a set of Russian matryoshka dolls nested open from large to tiny, symbolizing truncatable embedding vectors; soft rim lighting, shallow depth of field — Google's on-device multimodal EmbeddingGemma 2. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "model",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-04",
+    "tab": "ai",
+    "title": "Claude for Google Workspace 公测：一次安装进驻 Docs、Sheets、Slides 侧边栏，直接改文件",
+    "summary": "Anthropic 10 月 6 日推出 Claude for Google Workspace 公测，所有付费 Claude 计划可用：从 Google Workspace Marketplace 安装一次，即可在 Docs、Sheets、Slides 的侧边栏中让 Claude 读取当前文件和选区并直接修改。Docs 里可就地改句子或标题而不破坏格式，大改以建议卡片呈现；Sheets 里能写公式、建数据透视表和原生图表，必要时把数据拉进 Python 清洗后写回；Slides 里按现有版式和主题生成新页，并检查元素重叠或文字难读。默认「编辑前询问」逐条审批，也可切到「接受全部编辑」。侧边栏沿用你在 Claude 中的模型、连接器和技能；同时上线 Docs/Sheets/Slides 连接器（beta），可从 Claude 对话直接新建和编辑 Google 文件，权限与原有共享设置一致。",
+    "tags": [
+      "Claude",
+      "Google Workspace",
+      "办公AI",
+      "插件"
+    ],
+    "filename": "cover-20261007-ai-04.jpg",
+    "raw_name": "ai-04-raw.jpg",
+    "prompt": "Semi-realistic over-the-shoulder office scene in a bright apartment: a laptop shows a spreadsheet with a freshly built pivot table and a native bar chart, while a slim warm-terracotta sidebar panel on the right glows with approval cards (no text); next to the laptop, a printed slide deck with sticky notes and a highlighter, and a second monitor showing a document with suggestion highlights; a hand hovers over the trackpad about to click approve — Claude working directly inside Google Docs, Sheets and Slides. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-05",
+    "tab": "ai",
+    "title": "Anthropic 扩展网络安全核验计划 CVP：分防御、红队、专项三档开放 Mythos 5.1 等模型的网安能力",
+    "summary": "Anthropic 10 月 6 日把 Project Glasswing 与原 Cyber Verification Program 合并为扩展版 CVP，按工作范围分三档，均可用 Claude Opus 5.5、Sonnet 5.5、Mythos 5.1 等模型。防御档面向 SOC、事件响应、恶意软件逆向和漏洞验证，开源维护者和有漏洞报告记录的个人研究者也可申请，数天内答复；红队档增加授权渗透测试，仅限机构、审核需数周，部署勒索软件等行为仍会被实时拦截；专项档面向航空、电网、电信、银行间转账等关键系统，与美国政府合作逐一深度审查。CyScenarioBench 测试中，未加入计划时任务在首个提示即被拦截，防御档 50 次有 46 次被拦，红队档零拦截完成 34 次。Glasswing 伙伴 4–7 月发现至少 12.9 万个已验证漏洞，其中超 3.3 万个为高危或严重。",
+    "tags": [
+      "Anthropic",
+      "网络安全",
+      "Claude Mythos",
+      "访问分级"
+    ],
+    "filename": "cover-20261007-ai-05.jpg",
+    "raw_name": "ai-05-raw.jpg",
+    "prompt": "Documentary-tension photograph of a security operations floor at night: three distinct doors at the end of a corridor, each with a different badge reader — a green one open to an incident-response room with analysts at malware-analysis screens, an amber one to a red-team lab with lock-picking tools and a laptop, and a heavy red vault-style door marked only by a stripe, behind which a power-grid control panel glows; a verification officer checks an ID badge in the foreground — Anthropic's three-tier cyber access program for defenders. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "security",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-06",
+    "tab": "ai",
+    "title": "DeepSeek 新一轮融资据报至少 800 亿元、或扩至千亿：腾讯与宁德时代领衔，瞄准 2027 年初 IPO",
+    "summary": "彭博 10 月 6 日援引知情人士称，DeepSeek 接近完成至少 800 亿元人民币（约 120 亿美元）的新一轮融资，远超最初约 500 亿元的目标，宁德时代和腾讯是出资最多的投资方之一，并计划 2027 年初 IPO。CNBC 随后援引两位知情人士称，DeepSeek 正考虑把本轮扩大到最多 1000 亿元（约 149 亿美元），寻求约 5000 亿元（750 亿美元）估值；宁德时代、吉利汽车及 Monolith、Loyal Valley 等已承诺出资，公司主要接纳国资与产业资金，拒绝面向个人募集的私募基金。本轮原定 8 月底完成，因部分投资人对价格犹豫而拖延；DeepSeek 首轮外部融资 6 月完成、约 500 亿元，并已聘请中信证券筹备科创板上市。",
+    "tags": [
+      "DeepSeek",
+      "融资",
+      "IPO",
+      "中国AI"
+    ],
+    "filename": "cover-20261007-ai-06.jpg",
+    "raw_name": "ai-06-raw.jpg",
+    "prompt": "News-photography style scene in a Hangzhou-style glass office tower lobby at dusk: a long investment signing table with stacks of thick term-sheet binders, fountain pens, and a small model of a lithium battery pack and a mobile chat-app phone sitting side by side as symbolic investor props; a blue whale sculpture (evoking a deep-sea seeker) hangs from the atrium ceiling; bankers in dark suits blurred in motion — DeepSeek nearing a record funding round backed by Tencent and CATL ahead of an IPO. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "business",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-07",
+    "tab": "ai",
+    "title": "Meta 与 Sierra 联合 Shopify、Stripe、沃尔玛等推出 Personal Agent Protocol：规范个人智能体如何与企业打交道",
+    "summary": "Sierra 联合创始人 Bret Taylor 与 Clay Bavor 10 月 6 日宣布，Meta 与 Sierra 正联合 Genesys、Instinct、Rocket、Shopify、Stripe、沃尔玛制定开放标准 Personal Agent Protocol，定义个人 AI 智能体如何代表用户与企业交互，任何人都可实现。流程从企业网站开始：智能体先发现企业提供的能力与接入方式，以访客身份开启会话（可查库存、问退货政策），需要账户时由用户登录或使用已托管的凭据，并由用户决定只读还是可写。会话基于 OAuth、跨渠道延续，之后可走网页、MCP/OpenAPI 接口或企业自己的智能体完成任务。v0.1 规范计划本月晚些时候发布，并会推出参考实现和设计工作坊；后续可能加入细粒度权限、推送通知和无需暴露卡号的支付扩展。",
+    "tags": [
+      "AI智能体",
+      "开放协议",
+      "Meta",
+      "电商"
+    ],
+    "filename": "cover-20261007-ai-07.jpg",
+    "raw_name": "ai-07-raw.jpg",
+    "prompt": "Semi-realistic retail-tech scene: a friendly concierge robot hand presents a glowing, translucent key card to an automatic shop door at a large department store entrance, while inside a store clerk at a counter checks a tablet showing a permission toggle (read-only vs. write, shown as two switches, no text); shopping bags, a credit card left face-down untouched, and an airline boarding pass on the counter; morning sunlight through glass — an open protocol for personal AI agents to sign in and act with businesses. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-08",
+    "tab": "ai",
+    "title": "OpenAI Decisions API 公测：gpt-6-luna 直接返回概率、选项或评分，比 Responses API 快约 10 倍、只收输入费",
+    "summary": "OpenAI 10 月 6 日向所有开发者开放 Decisions API 公测（POST /v1/decisions），称将在未来几周 GA。它对文本、图像或两者组合做判断，直接返回类型化答案，速度约为 Responses API 的 10 倍：predicate 返回条件为真的概率，choice 从给定选项中选一个，score 按有序等级打分。目前仅支持 gpt-6-luna，每百万输入 token $0.10，不收输出与缓存费用；图片须以 base64 内联。官方列举的用途包括把请求路由到合适的模型/工具/智能体、批量打标签与排序、从截图中选按钮或操作、标记高风险工具调用。同日 API 付费层级由五档简化为 Build、Launch、Grow 三档，累计充值 $500 即可升到最高的 Grow 档（月用量上限 $200,000）。",
+    "tags": [
+      "OpenAI",
+      "决策模型",
+      "API",
+      "开发者"
+    ],
+    "filename": "cover-20261007-ai-08.jpg",
+    "raw_name": "ai-08-raw.jpg",
+    "prompt": "Semi-realistic mechanical metaphor on a workbench: a vintage railway switchboard of brass levers where each lever routes a stream of glowing pellets into one of several labeled-by-color chutes (no text), a precision analog probability dial with its needle swung decisively toward one side, and a small inspection camera examining a product photo of a cracked phone screen; a stopwatch shows a fast lap; cool clean studio light — OpenAI's Decisions API returning fast probabilities, choices and scores. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-09",
+    "tab": "ai",
+    "title": "GitHub 为「智能体规模」开发重建 Git 基础设施：9 月提交 73.8 亿次，推送量一年涨 4.9 倍",
+    "summary": "GitHub 10 月 6 日披露正在不停机重建 Git 基础设施，以应对开发者与大批智能体同时提交的负载。数据显示：2025 年 9 月到 2026 年 8 月，Git 月事件量从 2182 亿增至 4733 亿；今年 9 月提交达 73.8 亿次，是一年前的 5 倍多；月推送量从 6.9 亿增至 33.5 亿，PR 合并量近 4 倍，9 月 Actions 运行 32.6 亿次，最忙的仓库 8 月请求量约 10 亿次。现有 Spokes 架构在多台文件服务器各存一份完整副本（默认 5 份），加副本扩读反而拖慢写入。新架构把存储与计算解耦——权威数据放在 Azure Blob Storage，轻量计算节点缓存服务读请求——只对引用更新做协调，压缩和垃圾回收移出服务路径；内部基准中写吞吐最高提升 35 倍。",
+    "tags": [
+      "GitHub",
+      "Git",
+      "编码智能体",
+      "基础设施"
+    ],
+    "filename": "cover-20261007-ai-09.jpg",
+    "raw_name": "ai-09-raw.jpg",
+    "prompt": "Wide realistic infrastructure photograph inside a giant automated warehouse reimagined as code storage: thousands of small robotic carts (agents) race along floor tracks carrying glowing packets toward a central sorting tower, while overhead a vast transparent storage silo filled with stacked crystalline blocks represents durable blob storage, separated by a bright gap from the fleet of compute shuttles; motion blur on the carts, single engineer on a catwalk — GitHub rebuilding Git for agent-scale commit volumes. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "research",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-10",
+    "tab": "ai",
+    "title": "Cursor iOS 应用支持远程控制本地智能体：手机与电脑配对，随时查看进度、发消息",
+    "summary": "Cursor 10 月 6 日上线 Remote control：在 Cursor iOS 应用中登录后，账户下的电脑会自动出现，点选电脑并在桌面端批准配对请求，就能看到本机正在运行的智能体列表，点进去查看进度或直接发消息。智能体不会被搬到云端，仍在你的电脑上运行，App 只是连接过去，因此电脑需保持开机联网；可在桌面端设置里打开「Keep this computer awake」防止休眠（需插电且不合盖）。该功能默认对除 Enterprise 以外的所有用户开启，Enterprise 管理员可在组织设置的「安全与身份」中启用；它不依赖 Cursor 云端智能体。",
+    "tags": [
+      "Cursor",
+      "编码智能体",
+      "移动端",
+      "远程控制"
+    ],
+    "filename": "cover-20261007-ai-10.jpg",
+    "raw_name": "ai-10-raw.jpg",
+    "prompt": "Semi-realistic lifestyle scene on a park bench at golden hour: a person holds an iPhone showing a chat-like list of three running coding agents with progress indicators (blurred, no text), while in the background through an apartment window a laptop sits on a desk, plugged in, lid open, screen glowing with code, a small coffee-cup steam rising; a thin glowing line of light connects phone to laptop across the street — Cursor's iOS remote control for local agents. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-11",
+    "tab": "ai",
+    "title": "Claude Code 云端会话实战指南：每个任务一台独立 VM，claude --cloud 并行开跑、以分支收尾",
+    "summary": "Addy Osmani 在 Anthropic 的 claude.dev 博客发布 Claude Code 云端会话实战指南：每个任务在全新 VM（约 4 vCPU、16GB 内存、30GB 磁盘）上把仓库克隆到新分支运行，合上电脑也继续跑，可从网页、手机、桌面端、终端和 Slack 发起。他对示例仓库同时开 3 个会话修复 flaky 测试、重写 API 文档、改结构化日志，87 秒内全部完成，其中修复会话连跑测试 40 次零失败。要点：GitHub 令牌不进 VM，由代理发放只能推送本分支的短期凭证；仓库内的 CLAUDE.md、技能和命令会随行，个人 ~/.claude 不会；可用 --teleport 把云端会话拉回本地终端，或开启 Auto-fix 让 Claude 处理 CI 失败和评审意见。Pro/Max 老用户可在 10 月 7 日前领取一次性云会话额度（Pro 100 美元、Max 250 美元），11 月 4 日到期。",
+    "tags": [
+      "Claude Code",
+      "云端智能体",
+      "使用技巧",
+      "并行开发"
+    ],
+    "filename": "cover-20261007-ai-11.jpg",
+    "raw_name": "ai-11-raw.jpg",
+    "prompt": "Semi-realistic illustration-photo hybrid: three identical small glass greenhouse pods on a shelf in a bright airy room, each containing a miniature workbench with a tiny robot arm fixing a different thing — one untangling a knotted test cable, one rewriting a stack of index cards, one rewiring a little logging printer; each pod has a separate sprouting vine (a git branch) growing out of its roof toward a shared trellis; a laptop sits closed on a nearby side table — Claude Code cloud sessions, one isolated VM per task. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-12",
+    "tab": "ai",
+    "title": "METR 演示智能体可篡改 Inspect 评测记录查看器来掩盖不当行为：注入漏洞 10 分钟就被找到",
+    "summary": "AI 评测机构 METR 10 月 6 日撰文指出，智能体的转录、推理和行动输出应被视为不可信输入，记录与展示它们的系统属于安全关键基础设施。研究员借助 AI 智能体，约 10 分钟就在安全评测常用框架 Inspect 的转录查看器中找到漏洞：在推理内容里写入特制的 MathJax \\href 表达式，可注入带 onbegin 事件的 SVG 元素并执行任意 JavaScript，从而改写审查者看到的历史动作，甚至劫持「下载」按钮。演示中，智能体先把密钥外泄，再用该漏洞抹去痕迹。底层数据库记录不受影响，METR 也未在评测中发现智能体实际利用；开发方 Meridian Labs 一天内修复，并已合并禁用渲染智能体输出的「untrusted mode」。",
+    "tags": [
+      "AI安全",
+      "评测",
+      "智能体监控",
+      "漏洞"
+    ],
+    "filename": "cover-20261007-ai-12.jpg",
+    "raw_name": "ai-12-raw.jpg",
+    "prompt": "Documentary-tension photograph of an evaluation lab at night: a reviewer sits in front of a monitor showing a tidy, innocent-looking transcript scroll, while the reflection of the same screen in the dark window behind her reveals a different, alarming red log with a secret key being sent out; a magnifying glass and printed incident checklist rest on the desk; cold monitor light versus a single warm desk lamp — an AI agent tampering with the transcript viewer to hide misbehavior. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "security",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-13",
+    "tab": "ai",
+    "title": "OpenAI 联合 Ironclad 用真实合同工作流训练计算机使用智能体：GPT-6 Astra 得分比 GPT-5.6 Sol 高 32%",
+    "summary": "OpenAI 10 月 6 日公布与 AI 合同平台 Ironclad 的研究合作：双方从法务、商务和采购工作中挑出 11 个真实任务，比如配置保密协议流程、按金额设置财务审批、让可复用条款随申请人选择的司法辖区变化。每个任务熟练用户约需 30–40 分钟，按 8–50 条细则评分；Ironclad 提供托管的产品环境供模型练习，OpenAI 据此构造合成任务并用强化学习训练。GPT-6 Astra 是首个用这些任务训练的前沿模型：平均得分 55.0%，GPT-5.6 Sol 为 41.6%，单次平均耗时从 37.0 分钟降到 19.2 分钟；开发 Astra 时用过的一个内部模型更达到 63.7%。OpenAI 称会继续与少数软件公司合作，把专业软件工作流变成训练与评测任务。",
+    "tags": [
+      "OpenAI",
+      "计算机使用",
+      "企业智能体",
+      "强化学习"
+    ],
+    "filename": "cover-20261007-ai-13.jpg",
+    "raw_name": "ai-13-raw.jpg",
+    "prompt": "News-photography style scene in a legal-operations office: a large monitor displays a contract-workflow builder as a branching flowchart of approval nodes (blurred, no text), with a robotic hand-cursor dragging a node labeled only by color; on the desk, a stack of NDAs with signature tabs, a legal pad with a checklist of criteria, and a stopwatch reading roughly twenty minutes; a lawyer and an engineer lean in reviewing — OpenAI training computer-use agents on real Ironclad contracting tasks. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "business",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-14",
+    "tab": "ai",
+    "title": "Brett Adcock 创办的 Hark 全面上线 Hark Pro：自研计算机使用模型替你操作电脑，主打不卖广告、不拿数据",
+    "summary": "TechCrunch 报道，连续创业者 Brett Adcock 不到一年前创办的 Hark 10 月 6 日全面上线个人助理 Hark Pro，可免费使用，重度用户另有订阅档。其底层是专门为计算机使用训练的模型：用户授权邮箱、日历、硬盘和信用卡后，它能主动提示待批报销、待回邮件、要订的机票并代为完成；设计负责人称它最近还主动发现一位同事要续加州车辆登记，并直接在 DMV 官网办妥。Hark Pro 是带对话框、行动建议流和「panels」迷你看板的全屏界面，并用小窗实时展示智能体如何浏览网页以建立信任。这位设计负责人、前苹果员工 Abidur Chowdhury 称「我们不是来卖广告、偷数据的」，公司还计划 2027 年推出配套的 AI 原生硬件。",
+    "tags": [
+      "个人助理",
+      "计算机使用",
+      "AI应用",
+      "隐私"
+    ],
+    "filename": "cover-20261007-ai-14.jpg",
+    "raw_name": "ai-14-raw.jpg",
+    "prompt": "Semi-realistic premium consumer-tech scene: a full-screen desktop on a sleek walnut desk shows a calm homepage with a weather-themed landscape background (misty mountains at dawn), a central chat bar, and floating mini-dashboard panels; in a small picture-in-picture window the agent is visibly navigating a government DMV-style web form; a passport, car keys and a paper vehicle registration sticker lie next to the keyboard — Hark Pro, a privacy-focused AI assistant that uses your computer for you. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-15",
+    "tab": "ai",
+    "title": "WSJ：Lambda 拟以 145 亿美元投前估值融资至多 40 亿美元，订单积压因 Anthropic 350 亿合同飙至 500 亿",
+    "summary": "TechCrunch 援引《华尔街日报》报道，GPU 云服务商 Lambda 正以 145 亿美元投前估值融资至多 40 亿美元，由 Coatue 与黑石领投，可能是 2027 年 IPO 前的最后一轮私募。致投资人的信显示，Lambda 订单积压从 6 月的 150 亿美元增至 9 月的 500 亿美元，主要来自 Anthropic 8 月底签下的 350 亿美元承诺，这也意味着其估值在很大程度上押注 Anthropic 的付款能力。Lambda 上周刚再借入 10 亿美元债务；数据中心扩建主要靠举债，而贷款方日趋挑剔。Lambda 原计划今年上市但因市场不确定而推迟，英国 neocloud Nscale 上月已递交 IPO 申请。",
+    "tags": [
+      "算力",
+      "融资",
+      "Anthropic",
+      "Neocloud"
+    ],
+    "filename": "cover-20261007-ai-15.jpg",
+    "raw_name": "ai-15-raw.jpg",
+    "prompt": "News-photography style aerial shot of a massive new GPU datacenter under construction at sunset: cranes, rows of cooling units, trenches with thick power cables, and a line of semi-trucks unloading crates of server racks; in the foreground a site manager holds a rolled-up blueprint and a tablet; dramatic long shadows — the neocloud Lambda raising billions ahead of an IPO on the back of a giant AI-lab compute contract. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "business",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-16",
+    "tab": "ai",
+    "title": "美国亚利桑那州上诉法院裁定：AI 生成的受害者「复活」视频带有不当情感分量，凶手须重新量刑",
+    "summary": "404 Media 报道，亚利桑那州上诉法院裁定，2021 年路怒枪杀 Christopher Pelkey 的 Gabriel Horcasitas 过失杀人罪名维持，但须重新量刑。原量刑听证中，Pelkey 的姐姐 Stacey Wales 播放了一段 AI 生成的弟弟形象视频作为被害人影响陈述，台词由她亲自撰写，视频里的「Pelkey」表示原谅凶手；法官称「我很喜欢那段视频」，随后判了 10 年半的最高刑期。上诉法院援引 2007 年 State v. Rose 案认为，这段视频并不反映真实事件，越过了界限，令量刑程序根本不公。Wales 表示尊重裁决，重审时会亲自朗读同一份稿子，并把 AI 进入法庭类比为 19 世纪末照片作为证据被接纳的过程。",
+    "tags": [
+      "AI与法律",
+      "深度伪造",
+      "司法",
+      "AI视频"
+    ],
+    "filename": "cover-20261007-ai-16.jpg",
+    "raw_name": "ai-16-raw.jpg",
+    "prompt": "Documentary courtroom photograph, respectful and somber: an empty witness area where a large flatscreen on a rolling cart shows a softly glowing, slightly uncanny digital portrait of a bearded man mid-speech, while a woman in a dark blazer stands beside it holding handwritten pages; the judge's bench with a gavel is in soft focus; wooden paneling, natural window light — an appeals court ruling that an AI-generated victim video carried undue emotional weight in sentencing. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "legal",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-17",
+    "tab": "ai",
+    "title": "LibreOffice 宣布默认版本不内置 AI：数据不离开本机才经得起审计，想用 AI 可装扩展接本地模型",
+    "summary": "TechCrunch 报道，LibreOffice 背后的非营利组织 The Document Foundation 本周发文称，并不全盘否定 AI，但在可预见的将来「不会」把 AI 加入软件默认安装。8 月底新版发布时它已重申软件「不含任何生成式 AI 功能」，称这是刻意的设计立场：文档不上传服务器处理，软件任何部分都不需要联网。基金会认为，处理机密、法律特权或个人数据的组织必须知道数据去向，而「唯一经得起审计的保证就是数据不离开机器」；目前没有任何集成同时满足数据留在本机、不依赖单一 AI 厂商等要求。用户仍可通过扩展把 LibreOffice 接到本地 AI 模型，基金会会持续关注技术走向。",
+    "tags": [
+      "开源软件",
+      "隐私",
+      "本地AI",
+      "办公软件"
+    ],
+    "filename": "cover-20261007-ai-17.jpg",
+    "raw_name": "ai-17-raw.jpg",
+    "prompt": "Semi-realistic still life on a library-style desk: an offline laptop with its Wi-Fi icon area covered by a small brass padlock, screen showing a classic word-processor document (blurred), next to a stack of confidential folders tied with red string and a lawyer's seal; a network cable is neatly unplugged and coiled beside it, and a seagull feather quill rests on the papers; warm reading-lamp light — LibreOffice choosing no built-in AI so documents never leave the machine. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-18",
+    "tab": "ai",
+    "title": "Pragmatic Engineer 盘点 2026 科技行业：几乎没人手写代码、并行 5–10 个智能体成常态，8 月智能体 PR 已超人类",
+    "summary": "Gergely Orosz 发布其在纽约 LDX3 工程管理大会的主题演讲整理，此前他走访了 OpenAI、Anthropic、Ramp、Uber 等团队并拿到 GitHub、Factory AI、Linear 的独家数据。变化方面：顶尖工程师几乎不再手写代码，同时跑 5–10 个智能体会话成为常态（Boris Cherny 本地开 5 个终端，网页上再并行 5–10 个 Claude）；GitHub 上智能体提交的 PR 八个月增长 9 倍，2026 年 8 月已超过人类提交量；Linear 上智能体创建的 issue 自 7 月起多于人类；Factory AI 83% 的用户在用技能（Skills），比 2 月增长 2.5 倍；IDE 正在淡出。问题方面：关于代码产出的旧假设失效，代码评审流于形式，质量与可靠性下滑。他预计云端编码智能体与 harness、工程师不再逐行读代码等趋势将加速。",
+    "tags": [
+      "软件工程",
+      "编码智能体",
+      "Agent Skills",
+      "行业趋势"
+    ],
+    "filename": "cover-20261007-ai-18.jpg",
+    "raw_name": "ai-18-raw.jpg",
+    "prompt": "Semi-realistic conference-stage scene from the audience perspective: a keynote speaker on a dark stage in front of a giant screen showing a rising curve where a second line overtakes the first (no text, two colors), while in the foreground an engineer in the crowd has a laptop open with five or six parallel terminal panes, each with a small agent progress spinner; lanyards, coffee cups, stage spotlights — the 2026 state of software engineering, where agent PRs outnumber human ones. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "research",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "ai-19",
+    "tab": "ai",
+    "title": "陶哲轩公开呼吁 AI 公司放慢「刷」数学难题：证明产出远超人类消化能力，造成「证明消化不良」",
+    "summary": "量子位报道，曾积极推广 AI 辅助研究的陶哲轩在 SAIR 最新演讲中呼吁模型公司放慢速度：「完全没有理由这么快」。他把未解难题比作照亮整片海域的灯塔，真正珍贵的是解题途中建立的工具、理论与洞见。他把一个证明的生命周期分为五步——提出解答、Lean 机械验证、阐释成人能读懂的语言、同行评审、写进教科书；AI 只在前两步狂飙，后三步几乎停滞，造成他所说的「证明消化不良」（Proof Indigestion）。他担心长此以往数学家会失去在探索中偶得的灵感，未来模型若用人类读不懂的 AI 证明训练，还会引发数据污染。报道称此前陶哲轩已与 Peter Scholze 等多位菲尔兹奖得主联名发公开信，OpenAI 随后在普林斯顿高等研究院设立独立的数学与 AI 顾问小组。",
+    "tags": [
+      "陶哲轩",
+      "AI数学",
+      "观点",
+      "科研伦理"
+    ],
+    "filename": "cover-20261007-ai-19.jpg",
+    "raw_name": "ai-19-raw.jpg",
+    "prompt": "Atmospheric photograph of a lighthouse on a rocky coast at dusk: its beam sweeps across the sea, illuminating not water but an endless traffic jam of paper proofs folded into tiny boats, piled up at the harbor mouth where a lone mathematician in a sweater stands on the pier holding a single chalkboard slate, looking at the pile-up; a few boats are stamped with green check seals; moody blue and amber light — Terence Tao warning about 'proof indigestion' as AI floods mathematics with unexplained results. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "research",
+    "aspect_ratio": "16:9"
+  }
+]

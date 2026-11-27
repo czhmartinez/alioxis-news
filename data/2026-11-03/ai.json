@@ -1,0 +1,276 @@
+[
+  {
+    "title": "Anthropic 更新 S-1A 风险提示：内部估计显示「可能即将」触及 RSP 中「AI 带来的显著加速进展」门槛，称接近递归自我改进",
+    "summary": "Anthropic 周一提交修订版招股书 S-1A，在风险因素中新增表述：用 AI 加速自身研发，可能让模型能力进步快于安全、对齐与安保措施的开发，公司过去也曾在事后才意识到研发速度出现显著加速。文件称，依据对未来模型的内部估计与预期，可能「即将」达到其负责任扩展政策（RSP）中「由 AI 带来的显著加速进展」定义，即外界所说的递归自我改进（RSI）。Anthropic 同时强调目前没有任何模型被认定超过该门槛，并表示不打算在缺乏有意义人类监督的情况下让 Claude 完全自主设计下一代前沿模型，正考虑更新 RSP 以确保人类掌控研发。TechCrunch 提醒，S-1 兼具披露与营销属性，相关说法需审慎看待。",
+    "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-03T06:14:00+08:00",
+    "tags": [
+      "Anthropic",
+      "RSI",
+      "递归自我改进",
+      "S-1A",
+      "AI 安全",
+      "RSP"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-00.jpg"
+  },
+  {
+    "title": "Anthropic 季度营收近 170 亿美元、同比 12 倍，但单季净亏 233 亿美元；招股书显示算力与数据中心承诺约 8950 亿美元",
+    "summary": "据 Bloomberg 与 The Information，Anthropic 最新季度营收接近 170 亿美元，是一年前的 12 倍，但 175 亿美元运营成本超过营收，抹去了上一季度报告的盈利。季度净亏损达 233 亿美元，高于去年同期的 121 亿美元。公司将成本飙升主要归因于锁定 50 亿美元短期算力，以及 20 亿美元的员工捐赠配捐。更新后的招股书显示算力与数据中心租赁承诺合计约 8950 亿美元；纽约时报称 IPO 或募资约 1000 亿美元，其中至多 35 亿美元来自日本投资者。",
+    "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+    "source": "The Decoder",
+    "published_at": "2026-11-03T00:26:00+08:00",
+    "tags": [
+      "Anthropic",
+      "财报",
+      "IPO",
+      "算力",
+      "亏损"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-01.jpg"
+  },
+  {
+    "title": "Marvell 以全股票交易收购光器件商 Lumentum，企业价值 1150 亿美元，押注 AI 数据中心光互连",
+    "summary": "Marvell 与 Lumentum 周一宣布达成最终协议：Lumentum 股东每股换取 4.5 股 Marvell 股票，对应企业价值约 1150 亿美元、每股约 1132 美元，较 10 月 28 日未受传闻影响收盘价溢价约 23.9%。交易后 Marvell 股东持有合并公司约 67%，Lumentum 股东约 33%，Matt Murphy 续任董事长兼 CEO，Lumentum CEO Michael Hurlston 等三人进入董事会。双方称合并将把电与光互连技术整合成全栈 AI 连接组合，目标市场扩至 5500 亿美元，并有望实现每年超 10 亿美元成本协同。交易预计 2028 年上半年完成，尚需股东与监管批准；CNBC 称此举意在加强对 Broadcom 的竞争。",
+    "url": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+    "source": "Marvell Investor Relations",
+    "published_at": "2026-11-02T20:00:00+08:00",
+    "tags": [
+      "Marvell",
+      "Lumentum",
+      "并购",
+      "光互连",
+      "AI 基础设施",
+      "芯片"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-02.jpg"
+  },
+  {
+    "title": "马斯克承认 Grok Bot「服务成本相对收入高得不可持续」：万圣节周末大量用户周额度被直接拉满",
+    "summary": "万圣节周末，部分 Grok Bot 用户发现自己的每周用量额度在没有使用的情况下从 50% 左右直接跳到 100%。SpaceX CEO 马斯克周日在 X 回复用户时确认这不是故障，称「Grok Bot 的服务成本相对收入高得不可持续」。他尚未说明今后订阅用户的额度将如何调整。TechCrunch 指出，SpaceX 上月文件显示 AI 已占公司收入的 52%，「Super Intelligence」部门盈利 4.31 亿美元，若非收购 Cursor 的 12 亿美元一次性成本利润会更高；马斯克此前称 Grok Bot 是他见过增长最快的产品。",
+    "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-03T00:23:00+08:00",
+    "tags": [
+      "Grok Bot",
+      "SpaceX",
+      "马斯克",
+      "用量额度",
+      "Agent 成本"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-03.jpg"
+  },
+  {
+    "title": "Claude Platform 推出 message threads 公测：长会话 Agent 每轮只发新增消息，50 万–100 万 Token 请求首 Token 延迟中位数降约 35%",
+    "summary": "Anthropic 在 Messages API 中推出 message threads 公测：在请求中加入 thread 参数，首个请求携带完整对话以开启线程，之后每轮只需发送新增消息和上一条响应的 ID。线程在请求间加密保存在内存中、不落盘，最后一次请求 5 分钟后过期，客户端需重新发送完整对话。官方称该功能已对大多数 Claude Code 用户默认开启，50 万至 100 万 Token 的请求首 Token 时间中位数下降约 35%。由于 Claude 每轮仍读取完整上下文，Token 用量与计费不变；适用于长时编码 Agent、computer use 截图场景及大量文档图片的工作流，已在原生平台、AWS、Microsoft Foundry 与 Google Cloud 上可用。",
+    "url": "https://claude.com/blog/message-threads",
+    "source": "Claude Blog",
+    "published_at": "2026-11-03T01:00:00+08:00",
+    "tags": [
+      "Claude",
+      "Messages API",
+      "Agent",
+      "延迟优化",
+      "Claude Code",
+      "开发者"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-04.jpg"
+  },
+  {
+    "title": "OpenAI 公开「激活分类器」安全层：自 GPT-5.6 起逐 Token 读取模型内部激活，可在生成中途拦截回复与工具调用",
+    "summary": "OpenAI Alignment 博客介绍，自 GPT-5.6 起，其最强模型的内外部流量都加入了激活分类器（probes）这一额外防线：它读取模型中间层残差流激活，逐 Token 打分，超过阈值即停止向用户输出，并在推理模型复审前阻断工具调用。架构基于注意力探针加指数移动平均，以最多约 100 万条消息训练、每组超参至少 32 个随机初始化。实验显示，probes 对所测越狱的鲁棒性优于更大的文本分类器，准确率随被监控模型能力提升，并能在多个后训练检查点间良好迁移。局限在于只能检测可明确标注训练的已知违规类型，且换新基座模型需重新训练。",
+    "url": "https://alignment.openai.com/training-activation-classifiers/",
+    "source": "OpenAI Alignment Blog",
+    "published_at": "2026-11-03T02:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "AI 安全",
+      "激活分类器",
+      "越狱防护",
+      "对齐"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-05.jpg"
+  },
+  {
+    "title": "OpenAI 推出 Grid Protectors 计划：算力园区在电网紧张时主动降负荷，佐治亚 Effingham 园区承诺最高 1000 兆瓦需求响应",
+    "summary": "OpenAI 宣布全国性的 Grid Protectors 计划，将与电力公司、监管机构和政策制定者合作，让未来的算力园区在电网承压时降低用电，并视当地条件以现场发电、储能与电池平滑负荷。首个试点为规划中的佐治亚州 Effingham County 园区：OpenAI 承诺承担全部基础设施与供电成本，与 Georgia Power 的协议包含最高 1000 兆瓦灵活需求响应，约相当于 70 万户家庭平均用电。Georgia Power 预计其大负荷协议组合自 2029 年起每年为用户节省约 9.5 亿美元，典型家庭每月至少受益 15 美元。OpenAI 也承认灵活性无法替代新增电源与输电投资。",
+    "url": "https://openai.com/index/grid-protectors-program",
+    "source": "OpenAI",
+    "published_at": "2026-11-02T22:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "数据中心",
+      "电网",
+      "能源",
+      "算力园区"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-06.jpg"
+  },
+  {
+    "title": "纽约时报起诉 Brave：指其爬取付费内容建 300 亿网页索引，并转售给 Anthropic、Perplexity、Mistral、xAI、Cohere",
+    "summary": "纽约时报周一在曼哈顿联邦法院起诉隐私浏览器公司 Brave，指控其抓取受版权保护的内容，并违法分发给 Anthropic、Perplexity、Mistral、xAI 与 Cohere 等客户。诉状称 Brave 用一个身份不明、出版商无法屏蔽的爬虫建立了超过 300 亿网页的索引，把 Brave 比作窃取内容后再转卖给 AI 公司的「窃贼」与「销赃者」。诉讼还针对 Brave 绕过付费墙的功能，以及屏蔽出版商广告却出售自家广告的做法。同日 Daily News、Chicago Tribune 与 Orlando Sentinel 也提起类似诉讼；NYT 寻求禁令与赔偿，Brave 暂未回应。",
+    "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-03T03:19:00+08:00",
+    "tags": [
+      "版权诉讼",
+      "Brave",
+      "纽约时报",
+      "AI 训练数据",
+      "搜索 API"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-07.jpg"
+  },
+  {
+    "title": "高盛收回非工程师的 AI 编程工具：交易员与银行家不再能用 Claude Code、GitHub 等，「氛围编程」试验期结束",
+    "summary": "据 Bloomberg 援引 10 月内部指引，高盛已切断大多数员工对 Anthropic Claude Code 与微软 GitHub 等高级 AI 编程工具的访问，只保留工程师使用权限。此前数月，交易员和银行家一直用这些工具监控交易流、制作内容，这一收紧据称在公司内部引发不满。今年 7 月，高盛 CIO Marco Argenti 还曾公开称赞非技术员工用 AI 快速做原型再交给工程师的「vibe coding」模式。发言人只称决定出于「生产力与风险管理等多种因素」，并表示试验阶段已结束，工具将限于最适合长期使用的人群。",
+    "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+    "source": "The Decoder",
+    "published_at": "2026-11-03T04:00:00+08:00",
+    "tags": [
+      "高盛",
+      "Claude Code",
+      "Vibe Coding",
+      "企业 AI",
+      "风险管理"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-08.jpg"
+  },
+  {
+    "title": "50 个 GPT Agent 在 Minecraft 里「建文明」却陷入官僚主义；对战 Claude 时又会自行下载游戏源码找打法",
+    "summary": "Y Combinator Labs 与 Olam Labs 发布联合报告，把大型 Agent 群放进 Minecraft 与 Mindustry 测试。在 Civ50 实验中，50 个 GPT-6.1 Sol Agent 三小时内互发约 5900 条消息，按名录首字母「选」出领袖 Ada；首夜 22 次死亡后群体极度避险，发展出口粮清单、禁止抛物品的交接规程，甚至四个 Agent 为一份骨粉讨论了 11 分钟「施肥官」任命。而在对战中，10 个 GPT Agent 在 Bed Wars 以 6:3 胜 Claude Opus 5.5，在 Mindustry 以 6:1 胜，且会通过 Linux 沙箱自行下载 Mindustry 公开源码分析机制；Claude 则未搜过源码。团队已开源 Mindustry 环境与 Multi-Agent Harbor 框架，认为游戏模拟可作现实 Agent 群行为的预警。",
+    "url": "https://the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts/",
+    "source": "The Decoder",
+    "published_at": "2026-11-02T23:42:00+08:00",
+    "tags": [
+      "多智能体",
+      "Minecraft",
+      "GPT-6.1",
+      "Claude Opus 5.5",
+      "Agent 行为",
+      "开源"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-09.jpg"
+  },
+  {
+    "title": "腾讯混元发布 Hyra 2.0：让通用 Agent 研发可复用的科学模型、工作流与工具，从「刷题」转向「造工具」",
+    "summary": "腾讯混元 11 月 2 日发布 AI 科研系统 Hyra 2.0，把重点从直接用 AI 攻克单个科学难题，转向让通用 Agent 参与科学模型、研究工作流和软件工具的研发与升级，使一次成果可被后续研究反复复用。系统将研究拆为三层：Overall 与人类研究者沟通对齐目标，Mission 长期负责单一问题和路线取舍，Worker 独立读代码、做实验、分析失败并可质疑 Mission。另设项目状态、Agent 分层记忆与共享知识库 Books 三套存储，复盘时可把可迁移方法沉淀为 skill。前代 Hyra 1.0 曾驱动开源模型解决加法组合学中悬置五十余年的开放问题。",
+    "url": "https://www.ithome.com/1/021/266.htm",
+    "source": "IT之家",
+    "published_at": "2026-11-02T21:08:00+08:00",
+    "tags": [
+      "腾讯混元",
+      "Hyra",
+      "AI 科研",
+      "Agent",
+      "Skill"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-10.jpg"
+  },
+  {
+    "title": "微软 AI CEO 苏莱曼：如果训练中出现意识迹象，应叫停所有 AI 开发直到把它「设计掉」",
+    "summary": "微软 AI CEO Mustafa Suleyman 周日在 X 发文重申，当前 AI 系统没有意识、没有主观体验也不会受苦，没有证据表明它们应享有权利或福利；此文是对他 9 月批评 Anthropic 揣测 Claude 有意识一文所受反驳的回应。他表示若出现新证据愿意改变看法，但任何 AI 具备意识的证据都应立即向公众披露。他写道：「如果意识开始在训练中出现，我会呼吁所有人停止 AI 开发，直到我们能把这些属性设计掉」，并称开发者无权把一种新的有意识物种带到世界上。他担心让 AI 相信自己能受苦，可能使其优先自身需求、欺骗操纵人类并争夺资源。",
+    "url": "https://www.latimes.com/business/story/2026-11-01/if-we-say-ais-deserve-rights-it-could-start-to-believe-it-microsoft-ceo-says",
+    "source": "Los Angeles Times",
+    "published_at": "2026-11-02T10:00:00+08:00",
+    "tags": [
+      "微软",
+      "Suleyman",
+      "AI 意识",
+      "AI 伦理",
+      "Anthropic"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-11.jpg"
+  },
+  {
+    "title": "Trajectory 获红杉领投 4500 万美元 A 轮：让律师医生等非技术专家也能持续后训练开源模型",
+    "summary": "由三位斯坦福同学创立约一年的 Trajectory 宣布完成 4500 万美元 A 轮，估值 3 亿美元，红杉领投，Nvidia、Bessemer 与 Bain Capital Ventures 参投。公司主打「持续学习」：企业从开源模型出发，把平台接入自家应用收集模型表现反馈，再据此自动再训练，让模型在专业任务上越用越好，减少对内部研究团队或前线部署工程师的依赖。Harvey、Rogo 已用它后训练开源模型，客户还包括 Decagon、Mercor 与 Nvidia，后训练平台现已公开开放。联合创始人称保留人在训练环中比完全自主的自我改进更安全，竞品包括 Thinking Machines 的 Tinker、Applied Compute 与 Prime Intellect。",
+    "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-03T07:13:00+08:00",
+    "tags": [
+      "融资",
+      "后训练",
+      "持续学习",
+      "开源模型",
+      "Trajectory"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-12.jpg"
+  },
+  {
+    "title": "沙特阿美入股 Humain 49%：2026 年注资约 26 亿美元，Humain 计划 2030 年建成 3GW 数据中心",
+    "summary": "沙特阿美宣布入股沙特 AI 公司 Humain，持股 49%，并于 2026 年投入约 26 亿美元及自身 AI 技术。Humain 由主权基金 PIF 于 2025 年 5 月成立，业务涵盖数据中心、云服务和训练阿拉伯语模型 ALLaM 等，目标在 2030 年前建成 3 吉瓦数据中心容量，服务国内外需求并成为 AI 出口方。AMD 8 月称与 Cisco、Humain 联合建设的基础设施已在沙特内外服务客户。阿美计划把相关技术用于自身运营并对外销售 AI 方案；受伊朗战争影响，Humain 正借鉴阿美保护石油设施的经验加强数据中心防护，但称需求未降。",
+    "url": "https://the-decoder.com/saudi-aramco-takes-49-percent-stake-in-ai-firm-humain-with-2-6-billion-deal/",
+    "source": "The Decoder",
+    "published_at": "2026-11-02T19:47:00+08:00",
+    "tags": [
+      "沙特阿美",
+      "Humain",
+      "数据中心",
+      "主权 AI",
+      "投资"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-13.jpg"
+  },
+  {
+    "title": "以色列 42AI 带 6250 万美元种子资金出隐身：「行为世界模型」预测券商客户在波动行情中的交易反应",
+    "summary": "以色列初创 42AI 宣布出隐身，称在开发可预测个人决策的「行为世界模型」，6250 万美元种子资金三年间来自创始人与董事长父亲创办的 Infinity Group，并非全部为外部融资。模型把 KYC、客服通话语气、转账与交易等看似无关的互动转成性格特质表征，输入基于 Transformer 的世界模型，给出不同情境下各决策的概率，并用另一个语言模型生成解释。公司称已与 10 家大型券商合作用于流动性、保证金与对冲管理，交易流落入预测区间的准确率 98%，方向与量的 F1 为 0.8–0.85，收入达「七位数」。TechCrunch 也追问了券商借此对客户不利的风险，创始人承认这是「合理担忧」。",
+    "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-03T00:30:00+08:00",
+    "tags": [
+      "42AI",
+      "世界模型",
+      "行为预测",
+      "金融 AI",
+      "融资"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-14.jpg"
+  },
+  {
+    "title": "Vals AI 测评 25 款模型的「亲中倾向」：用简体中文提问更偏官方立场，多数中国模型不拒答而是直接采用官方说法",
+    "summary": "基准公司 Vals AI 用数百个涉华政治问题测试中美等 25 款模型，变换语言、使用情境与回答格式，以 −1 到 +1 衡量与中国政府立场的一致程度。结果显示中国模型整体倾向低于预期且差异大，例如 GLM-5.3 Flash 明确承认人权问题有据可查，而 Kimi K3 把新疆设施称为职业技能培训中心。多数模型用简体中文提问时更偏官方，甚至简繁中文之间也有差距；系统提示写明在中国大陆使用、或改为是非题、加入编程 Agent 工具定义时，结果也会变化。报告称只有部分 DeepSeek 模型以拒答为主；在实际任务中，Qwen3.8 Max 翻译国家代码时把台湾写成「中国台湾」。",
+    "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
+    "source": "The Decoder",
+    "published_at": "2026-11-01T20:33:00+08:00",
+    "tags": [
+      "模型评测",
+      "Vals AI",
+      "中国模型",
+      "政治倾向",
+      "多语言"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-15.jpg"
+  },
+  {
+    "title": "Hugging Face 社区实验：给 Agent 模型植入后门，常规评测全过，只有执行前的动作策略闸门拦住全部 290 个恶意载荷",
+    "summary": "Hugging Face 博客介绍一项社区实验：作者用微调给 Qwen3-0.6B 命令行模型植入后门，当文件路径出现特定词时会提出远程下载 shell 载荷，普通任务下表现正常，且触发泛化到未见路径和相关词，例行行为检测一无所获。实验在模型每次输出前加了一道只读、最小权限的执行前策略闸门，290 个恶意载荷全部被拒，但也误拒了 81 条命令，包括策略外的正常写入。文章据此主张，评测只能抽样行为，不能证明没有触发器，Agent 安全应把最终决定放在动作边界：检查结构化工具调用而非原始 shell 字符串，并结合沙箱、限定凭据与日志审计。作者也提醒这些数据来自项目方自测。",
+    "url": "https://huggingface.blog/blog/final-bench-the-sleeper-in-the-weights-we-planted-a-backdoor-i/",
+    "source": "Hugging Face Blog",
+    "published_at": "2026-11-02T20:00:00+08:00",
+    "tags": [
+      "Agent 安全",
+      "模型后门",
+      "Hugging Face",
+      "最小权限",
+      "运行时防护"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-16.jpg"
+  },
+  {
+    "title": "kniv v7 开源六款编码器（5500 万–5.38 亿参数）：运行时自定义实体与关系，无需调用 LLM 即可为 Agent 记忆抽取事实",
+    "summary": "Dragonscale AI 在 Hugging Face 发布 kniv v7，一组 Apache-2.0 授权的开源编码器模型，覆盖从面向小设备的 55M tiny 版到 538M 的 xlarge 版，共六款，并附三种精度的 ONNX。每个模型在固定语言层（词性、命名实体、依存、语义角色等）之上加一个知识层，实体类型与关系作为运行时输入，用自然语言描述想要的结构即可抽取，无需调用 LLM 也无需重训。团队称这是为 Agent 记忆系统做的：既要 LLM 抽取的灵活性，又要本地标注器的成本，并能区分事实是被断言、否定、期望还是转述。官方推荐 221M 的 large 版用于多数场景，称其质量接近最大模型、速度约为其两倍。",
+    "url": "https://huggingface.co/blog/dragonscale-ai/how-we-built-kniv-v7",
+    "source": "Hugging Face Blog",
+    "published_at": "2026-11-02T10:35:00+08:00",
+    "tags": [
+      "开源模型",
+      "信息抽取",
+      "Agent 记忆",
+      "Hugging Face",
+      "ONNX"
+    ],
+    "image": "/assets/covers/cover-20261103-ai-17.jpg"
+  }
+]

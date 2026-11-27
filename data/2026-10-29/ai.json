@@ -1,0 +1,302 @@
+[
+  {
+    "title": "谷歌两周再推前沿模型 Gemini 4 Carbon：AA 智能指数 v5 登顶 59 分，SEC-bench Pro 88.2% 主打网络防御，先只开放给安全团队",
+    "summary": "距 Gemini 4 Argon 发布仅两周，Google DeepMind 周三公布新一代前沿模型 Gemini 4 Carbon，称其是自家最强、在网络安全和长程任务上达到业界领先的模型。Carbon 在刚改版的 Artificial Analysis 智能指数 v5 中以 59 分排名第一（Argon 为 50 分），在 WebDev Arena 上涨 89 分升至第 4（1768）。官方强调它为持续数天的智能体工作流设计，内部团队曾让它连续运行多日、自己绕过死胡同，在大型代码库和底层系统中定位并修补隐蔽 bug。安全能力是最大卖点：在无护栏条件下，SEC-bench Pro 找漏洞 88.2%、ExploitGym 利用验证 54.8%、CWE-bench 修补 71.0%，均为第一；Chrome 团队称其生成高质量补丁的表现比另一家实验室的大型前沿模型好 10 倍以上。对齐方面，Terminal-Bench 4.0 作弊成功率降到 0%，无依据断言比 Argon 减少约一半，Gray Swan 间接提示注入攻击成功率从 0.7% 降到 0%。The Decoder 指出，在 Artificial Analysis 编程智能体指数上它仍以 59 比 62 落后 Claude Opus 5.5，幻觉率也从 4% 升至 11%。由于网络能力较强，Carbon 正参与美国政府自愿性发布前测试，本周起先向部分网络防御方开放，再经 Fairwind 计划逐步扩大；定价沿用 Argon 的每百万输入 2 美元、输出 10 美元。",
+    "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model/",
+    "source": "Google DeepMind Blog / The Decoder / The Verge",
+    "image": "/assets/covers/cover-20261029-ai-00.jpg",
+    "published_at": "2026-10-29T01:00:00+08:00",
+    "tags": [
+      "Google DeepMind",
+      "Gemini 4 Carbon",
+      "模型发布",
+      "网络安全",
+      "基准测试"
+    ]
+  },
+  {
+    "title": "Android Studio 敞开大门：Claude、Codex 等 40 多款编程智能体可直接进 IDE，Connected Apps 平台让应用接入 Gemini 与搜索",
+    "summary": "在 Android Dev Summit 上，Google 把开发工具链整体围绕 AI 智能体重构。Android Studio Rabbit 2 推出「自带智能体」（BYOA）功能，借助开放的 Agent Client Protocol（ACP），开发者可在 IDE 内运行 40 多款编程智能体，并通过内置市场同时安装 Anthropic 的 Claude Agent、OpenAI Codex 和 Google Antigravity，它们可直接调用项目结构、符号解析、模拟器和 Logcat。新工具 Change Review 会分析待提交改动、生成 bug 报告并逐步解释修改；Android CLI 成为 Claude Code、Codex 与 Antigravity 的官方插件，智能体可在终端里直接渲染 Compose 预览，Google 内测中 UI 任务快 77%、Token 最多省三倍；内置 LeakCanary 后，用 Claude Opus 5.5 排查内存泄漏的速度近乎翻倍、Token 少约 25%。另提供 30 多个 Android Skills、基于 Gemini Nano 4 的端侧 Agentic API（alpha）和 AppFunctions API（beta）。同日上线的 Connected Apps 平台预览版允许任何开发者通过云端 MCP 服务器或 Android MCP 把自家应用接入 Gemini 和 Google 搜索，并在控制台查看流量、延迟和错误率；Gemini 内已有 Adobe、Peloton、Experian 等 50 多个应用，未来几周将上到搜索。Google 还与 XREAL 发布 1099 美元的 Android XR 眼镜 XREAL AURA。",
+    "url": "https://the-decoder.com/google-opens-android-development-to-third-party-ai-agents-and-unveils-new-gemini-apis/",
+    "source": "The Decoder / TechCrunch",
+    "image": "/assets/covers/cover-20261029-ai-01.jpg",
+    "published_at": "2026-10-29T00:59:59+08:00",
+    "tags": [
+      "Google",
+      "Android Studio",
+      "编程智能体",
+      "MCP",
+      "开发者工具"
+    ]
+  },
+  {
+    "title": "Chrome 自动填表接上 Gmail：航班确认号、会员号、快递单号直接从邮件里翻出来，美国桌面端与 Gemini in Chrome 先上",
+    "summary": "Google 周三宣布为 Chrome 推出增强版自动填充：在填写网页表单时，Chrome 可以参考用户的 Gmail 邮件给出建议，例如航班确认号、会员 ID、物流追踪信息、订单号，以及地址、电话、信用卡号等。这项功能是 Google「个人智能」（Personal Intelligence）的延伸——此前用户已可把 Google 应用连接到 Gemini，让它检索细节来回答复杂问题，如今这种能力被下放到浏览器最日常的填表环节。TechCrunch 认为，这个更新看似不起眼，却可能让 Chrome 更顺手，给用户多一个留在 Google 浏览器和 AI 生态里的理由，类似苹果自动识别短信验证码并显示在键盘上方、一键填入的体验。与其他个人智能功能一样，增强自动填充需要用户在 Chrome 设置中自行开启，Google 表示敏感数据会加密处理。The Verge 也报道，这一功能借助 Gemini 的个人智能，从 Gmail 中提取信息帮助完成表单。功能目前面向美国用户推送，覆盖桌面版 Chrome，以及 iOS 和 Android 上的 Gemini in Chrome。对习惯在邮箱里翻找订单号、确认码的用户而言，这意味着填表时少切换几次标签页，但也意味着要再次权衡把邮箱交给 AI 读取的隐私边界。",
+    "url": "https://techcrunch.com/2026/10/28/chromes-ai-powered-autofill-can-now-dig-through-your-gmail-to-fill-out-forms/",
+    "source": "TechCrunch / The Verge",
+    "image": "/assets/covers/cover-20261029-ai-02.jpg",
+    "published_at": "2026-10-29T01:00:00+08:00",
+    "tags": [
+      "Google",
+      "Chrome",
+      "Gmail",
+      "个人智能",
+      "AI 应用"
+    ]
+  },
+  {
+    "title": "超四成 PR 先由智能体起草：2026 Octoverse 报告称 GitHub 一年推送 179 亿次，超过前两年之和，Copilot 用户月用 47 个模型",
+    "summary": "GitHub 在 Universe 2026 同期发布年度 Octoverse 报告，给“智能体写代码”第一次拿出平台级数据。报告称，过去 12 个月开发者向 GitHub 推送代码 179 亿次，比 2024 与 2025 两年加起来还多；公私仓库提交量达 343 亿次，是两年前的三倍多；合并的 PR 增至 13 亿个，平均每天 350 万个。GitHub Actions 每秒运行 1440 个任务，全年是去年的三倍多。平台遥测显示，活跃度在 6 月前后陡然上扬，恰逢智能体从单次会话工具变成能跨天追踪进度、编排其他专用智能体、并大量在云端远程执行任务的持久化工具。到 2026 年 9 月，GitHub 上超过 40% 的 PR 以智能体起草的初稿开头，3 月这一比例仅为 17%，单 9 月就有 1.1 亿个，约为 3 月的 6 倍；今年新建仓库中，带智能体配置文件的仓库平均提交量是不带的 8 倍。Copilot 月活用户中 55% 使用智能体功能（一年前为 35%），“布置任务后放手”的 Copilot 云端智能体同比增长 230%。模型选择也在分散：付费用户 5 月用了 29 个不同模型，9 月增至 47 个，没有任何一个模型占比超过 25%；61% 自选模型的用户会在会话间混用多个模型，63% 的付费用户至少用过一次自动选模。语言方面 TypeScript、Python、JavaScript 仍居前三，TypeScript、Python、Rust 合并 PR 中检测到 AI 参与的比例约 40%–44%。GitHub 开发者总数超过 2.25 亿，美国 3830 万、印度 3200 万居前，中国 1240 万排第三。",
+    "url": "https://github.blog/news-insights/octoverse/octoverse-commits-pushes-reach-new-highs-in-2026-as-developers-build-with-agents/",
+    "source": "GitHub Blog（Octoverse 2026）",
+    "image": "/assets/covers/cover-20261029-ai-03.jpg",
+    "published_at": "2026-10-29T00:07:40+08:00",
+    "tags": [
+      "GitHub",
+      "Octoverse",
+      "AI 编程",
+      "智能体",
+      "开发者生态"
+    ]
+  },
+  {
+    "title": "微软把自家 Copilot 智能体底座开放出来：GitHub 打造的多模型 harness 上架 Foundry，20 多个前沿模型随时切换，运行时已改用 Rust",
+    "summary": "微软周三宣布通过 Microsoft Foundry 向开发者和企业开放「Microsoft Copilot harness」。微软的解释是：模型提供智能，harness 则是模型之外的一切——为智能体提供指令、上下文、执行环境和管控的编排层，好的 harness 还应支持 MCP、Agent Skills 和插件等开放标准。这套 harness 由 GitHub 工程团队打造，已在微软内部统一采用，驱动 Copilot Code、Copilot Studio、GitHub Copilot app、CLI 和 VS Code 等产品。它跨模型家族工作，支持 20 多个前沿模型并可自带密钥（BYOK），能按任务把工作智能路由给合适的一个或多个模型，免去企业自建模型路由、持续评测新模型的负担。微软透露，近期已把 harness 运行时移植到 Rust，显著降低会话开销和首 Token 延迟，并已在数百万用户、数百个真实场景中经过检验。开发者可以下载 SDK 自行运行，也可以交给 Foundry 在云端全托管：微软负责智能体循环与沙箱，内置治理与优化，用户只需提供指令、技能、工具和模型选择；平台仍保持开放，可继续接入其他 harness 与框架。微软称，harness 的每次改进都会同步惠及所有基于它构建的智能体。在「前沿模型今天领先、明天就可能落后」的环境下，这相当于把选模型、换模型的工程成本外包给了微软。",
+    "url": "https://blogs.microsoft.com/blog/2026/10/28/introducing-the-microsoft-copilot-harness-unlocking-the-potential-of-truly-multi-model-agentic-work/",
+    "source": "Official Microsoft Blog",
+    "image": "/assets/covers/cover-20261029-ai-04.jpg",
+    "published_at": "2026-10-29T00:51:35+08:00",
+    "tags": [
+      "微软",
+      "Copilot",
+      "Foundry",
+      "Agent Harness",
+      "多模型"
+    ]
+  },
+  {
+    "title": "让 100 多个 AI 智能体代管英超梦幻足球队：《连线》记者用 Codex 搭出读新闻、跑模型、互相挑刺的智能体团队，成绩仍没跑赢普通玩家",
+    "summary": "《连线》（WIRED）记者做了一次很“生活化”的多智能体实验：让一群 AI 智能体替自己管理英超梦幻足球（Fantasy Premier League）阵容。他在飞机上让 Codex 读了几篇相关论文，再让它搭一套 harness——即引导不同智能体逐步检查最新新闻、运行预测模型的指令与代码。初版系统汇总的信息远超人工，但给出的建议相当离谱，比如把哈兰德放在替补席。随后他让 Codex 改成分工明确的智能体团队：几个专门读新闻和博客，几个分析近期战绩，几个跑模型，另一批专门批评、挑刺其他智能体的建议，效果明显改善；但把智能体数量加到 100 多个后并没有更聪明，只是推高了 API 账单。芝加哥大学研究 AI 市场应用的计算机科学家 Haifeng Xu 表示，新模型更会消化海量现实信息、编排更复杂的系统，因而预测能力在提升；他的团队开发了衡量模型预测能力的基准 Prophet Arena，早期测试中 GPT-5 表现最好，其后是 Grok 4、Claude Sonnet、Gemini 与 Llama。他认为定制 harness、让智能体各司其职是最有效的方法，但 AI 仍常落后于顶尖“超级预测者”，因为人类对新闻背后现实动态的理解更深；不过 Metaculus Cup 等比赛已显示 AI 有时能击败最好的人类预测者。记者坦言，过去几周他的 AI 球队得分还没超过平均水平，他自己也不会采用这些建议——但这套“读新闻—跑模型—互评”的多智能体流程，正是普通人搭建个人 Agent 的可复制范式。",
+    "url": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+    "source": "WIRED",
+    "image": "/assets/covers/cover-20261029-ai-05.jpg",
+    "published_at": "2026-10-29T02:30:00+08:00",
+    "tags": [
+      "AI 智能体",
+      "Codex",
+      "多智能体",
+      "预测",
+      "AI 应用"
+    ]
+  },
+  {
+    "title": "一个 30B 模型包揽 40 种语言转写、31 种语言互译和 8 人说话人区分：英伟达 Nemotron 3.5 Transcribe 开放权重，还能用提示词指挥",
+    "summary": "英伟达周三发布免费的开放权重语音模型 Nemotron 3.5 Transcribe，同时推出开源语音数据集 Granary 第 2 版。据 TechCrunch，该模型可转写多达 40 种语言、在 31 种语言与英语之间互译，处理长达一小时的录音并区分最多 8 位说话人；参数量 30B，但从 Jetson AGX Thor 机器人控制器、新笔记本里的 DGX Spark 到 Blackwell 数据中心芯片，都能单卡运行。英伟达在 Hugging Face 博客中强调它是「可提示」的：同一个检查点可以按指令输出带说话人标签的逐字稿、英文翻译，或直接回答「这次会议做了哪些决定」；还可以在提示中提供 HbA1c、二甲双胍等专业词提示。成绩方面，它在 Hugging Face Open ASR 英文榜以 5.33% 平均词错率位列开放权重模型第一，多语种 4.62%、长音频 10.98% 也是对比中最低；在 Artificial Analysis 语音转文字榜以约 4B 激活参数、2.8% AA-WER 并列开放模型第一；21 种语言的说话人分离错误率 18.26% 也居首。一块 RTX PRO 6000 Blackwell 不到三分钟可处理 100 小时音频（NVFP4 量化版）。现已可用 vLLM 部署；医疗案例中经提示优化和微调后词错率从 30.8% 降到 11.8%。局限是只支持录音，不支持实时流。",
+    "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+    "source": "Hugging Face Blog（NVIDIA）/ TechCrunch",
+    "image": "/assets/covers/cover-20261029-ai-06.jpg",
+    "published_at": "2026-10-28T22:58:17+08:00",
+    "tags": [
+      "英伟达",
+      "Nemotron",
+      "语音识别",
+      "开源模型",
+      "Hugging Face"
+    ]
+  },
+  {
+    "title": "刷榜水分被挤掉：AA 智能指数 v5 六成题目改为私有，开源与闭源前沿差距从 3 分拉大到 12 分，Kimi K3.1 Pro 跌至第 9",
+    "summary": "第三方评测机构 Artificial Analysis 发布 Intelligence Index v5，这是今年 1 月 v4 上线以来幅度最大的一次重构。最关键的变化是 60% 的评测权重首次建立在私有测试集或隐藏答案之上，以压缩「刷榜」（benchmaxxing）空间。指数仍由九项评测构成，知识工作、编码、科学和通用能力各占 25%，其中编码部分由 Cognition 同日发布的 FrontierCode 2.0 占 15%、Terminal-Bench 4.0 占 10%。FrontierCode 2.0 的 132 项任务全部来自真实开源仓库，不再只看单元测试是否通过，而是由仓库维护者按「是否愿意合并这个 PR」打分。据 The Decoder，改版后 Kimi K3.1 Pro 从第 4 跌到第 9，排在 8 个闭源模型之后，Grok 4.7 也掉了 12 分；开源最强模型与榜首的差距从 3 分扩大到 12 分。IT之家补充，已发布权重的模型中 DeepSeek V4.1-Flash 在 FrontierCode 2.0 上拿到 28%，为开放权重最高；思考档位带来的分差也被放大，Claude Opus 5.5 从低档到 max 档相差 23 分、单任务成本相差约 10 倍。AI 研究者 Nathan Lambert 认为刷榜只是原因之一，许多训练增益来自与基准相似的 RL 环境，而并非每家实验室都有这样的基础设施。私有题的代价是外界无法再发现题目错误，AA 已不得不修订 AA-Omniscience 中有歧义的题目。",
+    "url": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/",
+    "source": "The Decoder / IT之家",
+    "image": "/assets/covers/cover-20261029-ai-07.jpg",
+    "published_at": "2026-10-28T23:04:43+08:00",
+    "tags": [
+      "Artificial Analysis",
+      "基准测试",
+      "开源模型",
+      "FrontierCode",
+      "评测"
+    ]
+  },
+  {
+    "title": "Claude for Legal 上线法律 Artifacts：先自动核对引文、逐条链接原始出处，再把文件交给律师复核，可接 Bloomberg Law 等 60 多个数据源",
+    "summary": "Anthropic 为面向法律从业者的 Claude Enterprise 方案推出一批预置模板，即 Claude for Legal 的新「Artifacts」。据 The Decoder，这是法律团队自 5 月 Claude for Legal 上线以来一直在要的功能：这些交互式概览和表格用来简化日常重复工作，包括核对引文、比较不同国家的法律、管理案卷、跟踪立法提案，以及按公司内部准则审查合同。工作流程的特点是「模型先做、律师后审」——Claude 先完成初步核验，并把每一条陈述都链接回原始出处，再交给律师审阅结果，降低 AI 凭空编造判例或引文的风险。法律目录中已有包括 Bloomberg Law 在内的 60 多个集成，用户可以直接连接自有数据库而无需手动上传文件；Goodwin、Harvey、Foley & Lardner、普华永道等律所和服务商也在平台上提供各自的工具。Anthropic 称，内置设置会强制执行数据保护规则，并在不同团队之间维持客户要求的信息隔离墙（ethical wall），这正是律所采用 AI 时最敏感的合规环节之一。AIHOT 快讯同样提到，Anthropic 为法律工作推出了即用型 Artifacts 画廊。在 OpenAI 同日发文介绍法律科技公司 Legora 之际，法律已成为前沿实验室争夺企业客户的又一前线。",
+    "url": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
+    "source": "The Decoder",
+    "image": "/assets/covers/cover-20261029-ai-08.jpg",
+    "published_at": "2026-10-29T00:20:03+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "法律科技",
+      "Artifacts",
+      "企业应用"
+    ]
+  },
+  {
+    "title": "Anthropic 给企业算「AI 花得值不值」：新报表按团队展示产出、成本与流程卡点，并推出团队共享 Token 预算",
+    "summary": "Anthropic 本周向投资者披露的财务数据显示，Claude Code 正是它想要的那种商业成功：公司二季度录得经营利润，净收入留存率高达 900%，即同一批客户 2026 年三季度的支出是 2025 年同期的 9 倍。为了让企业客户继续留下来，Anthropic 周三推出一套新的报表工具，帮助客户更细致地了解 Token 支出换来了什么价值。借助内部分析数据和员工调查，管理者可以查看某个团队在指定时间段内的工作内容、产出成果、花费金额，以及工作流在哪些环节卡住；报表还会给出改进建议。Anthropic 表示默认不会把这些数据用于模型训练，同时推出团队共享预算池，方便管理 Token 支出。TechCrunch 认为，这是在向大客户证明投资回报、并教他们提高回报的明确尝试——目前风投支持的公司在推高 Token 消耗，但大多数《财富》500 强企业尚未从 AI 部署中看到显著收益。开发者工具公司 Jellyfish 前一天基于 27.6 万名用户的报告显示，Claude Code 及基于 Anthropic 模型的工具仍是使用最广的，占提交审查代码改动的近三分之一，这类工具支出今年以来增长 10 倍，已约占工程总成本的 2%。分析人士指出，这套报表可视为「轻量版驻场工程师」，客户一旦投入定制，换供应商的成本就不再为零。",
+    "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+    "source": "TechCrunch",
+    "image": "/assets/covers/cover-20261029-ai-09.jpg",
+    "published_at": "2026-10-29T03:19:58+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude Code",
+      "企业 AI",
+      "ROI",
+      "Token 预算"
+    ]
+  },
+  {
+    "title": "未发布的内部 Claude 模型挖出五条完整攻击链：Chrome 一键远程代码执行、Pixel 9 锁屏取照片、53 分钟拿下 Linux root",
+    "summary": "Anthropic 发布研究文章，披露过去几个月用一个未公开发布的内部 Claude 研究模型，在全球使用最广的浏览器和操作系统中发现严重漏洞，并串联成五条可实际运行的攻击链，均已按协调披露流程报告厂商并修复。最受关注的是 Chrome：研究人员给出初始提示后，Claude 自主发现 V8 引擎堆内存破坏漏洞，再突破 V8 内存沙箱、绕过 ASLR，接着利用 CacheStorage 竞态条件和 FedCM 联合登录中的释放后使用缺陷，最终在沙箱外执行任意代码，概念验证可在 macOS 默认 Chrome 中页面加载数秒后弹出计算器。据 IT之家，Anthropic 向谷歌提交的报告共产生 62 个严重或高危 CVE，其中 13 个为沙箱逃逸，修复已随 Chrome 156 发布。Safari 链条可一键绕过同源策略，读取已登录网站的邮件、银行等数据，苹果已修复；Android 链条需物理接触，可在 Pixel 9 锁屏状态下通过 USB 提取照片；Windows QUIC 内核实现中的越界读取漏洞（CVE-2026-33096）可远程反复让服务器崩溃；最严重的是 Linux 内核网络栈中针对多路径 TCP 监听器的零点击远程代码执行漏洞，验证共耗时 53 分钟，其中 48 分钟用于泄露内核指针。Anthropic 的披露政策给厂商 90 天修补期，再留 45 天才公开更多细节。",
+    "url": "https://www.anthropic.com/research/discovering-vulnerabilities-with-claude",
+    "source": "Anthropic Research / IT之家",
+    "image": "/assets/covers/cover-20261029-ai-10.jpg",
+    "published_at": "2026-10-29T06:35:25+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "网络安全",
+      "漏洞挖掘",
+      "攻击链"
+    ]
+  },
+  {
+    "title": "微软一个季度从 OpenAI 身上收入 100 亿美元：占总营收近 11%，OpenAI 欠款升至 72 亿美元，微软持股降到 24%",
+    "summary": "微软周三在监管文件中披露，截至 9 月 30 日的季度（即微软 2027 财年第一季度），公司从与 OpenAI 的商业安排中获得 100 亿美元收入，其中包括收入分成，约占当季 923 亿美元总营收的 11%。这凸显出两家公司虽然越来越多地争夺同一批客户，财务上仍深度绑定。整个 2026 财年，来自 OpenAI 的收入为 241 亿美元；按最新季度节奏，年化将达约 400 亿美元。截至 9 月底，OpenAI 对微软的应收账款为 72 亿美元，高于 6 月底的 60 亿美元，这部分是 OpenAI 就过往交易所欠的款项，并非额外收入。目前尚不清楚其中多少来自收入分成、多少来自 Azure 云服务。据报道，OpenAI 按此前微软投资 130 多亿美元的协议向其分享 20% 收入（双方均未公开确认），而按 2026 年 4 月的协议，OpenAI 在设有上限的前提下需继续分成至 2030 年，同时可与其他云厂商合作；2025 年 10 月的协议中 OpenAI 还承诺追加购买 2500 亿美元 Azure 服务。微软对 OpenAI 的持股比例从 6 月约 25% 降至 9 月的 24%，延续自 2025 年 10 月重组后约 27% 起的缓慢稀释，微软未说明原因。同日微软首次以美元公布 Azure 季度收入：332 亿美元、同比增长 48%，财报超预期带动股价盘后上涨约 4%。",
+    "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai/",
+    "source": "TechCrunch / CNBC",
+    "image": "/assets/covers/cover-20261029-ai-11.jpg",
+    "published_at": "2026-10-29T05:34:30+08:00",
+    "tags": [
+      "微软",
+      "OpenAI",
+      "财报",
+      "Azure",
+      "AI 商业"
+    ]
+  },
+  {
+    "title": "Alphabet 盘后重挫 10%：近四年首次营收利润双双不及预期，自由现金流转负 91 亿美元，Gemini 应用用户数破 10 亿",
+    "summary": "Alphabet 公布三季度财报后股价大跌逾 10%，自由现金流下滑引发市场对 AI 交易的担忧。按 LSEG 统计，调整后每股收益 2.67 美元，低于预期的 3.02 美元；营收 1275.8 亿美元，略低于预期的 1282.2 亿美元，虽同比增长 25%，却是近四年来首次营收和利润双双不及预期。净利润从去年同期的 349.8 亿美元降至 261.7 亿美元；自由现金流为负 90.7 亿美元，远低于分析师预期的负 27 亿美元；长期债务升至 1251 亿美元，比一年前增加约 479%。三季度资本开支 513.6 亿美元，低于预期，公司维持全年 1950 亿至 2050 亿美元的指引，并称 2027 年资本开支将「显著增加」，预计超过 3000 亿美元。二季度因持有 SpaceX 和 Anthropic 股权获得 990 亿美元收益，本季度该项目则亏损 86.6 亿美元。亮点在云业务：Google Cloud 收入翻倍多至 307 亿美元、增长 103%，高于预期，但 Jefferies 分析师称这是唯一超预期的业务，其他全部不及预期；搜索收入增长 12% 至 633.5 亿美元，同样低于预期。Gemini 应用用户突破 10 亿，成为谷歌史上增长最快的产品；皮查伊称市场对 Argon 需求强劲，当天发布的 Carbon「几乎在所有领域」都超越 Argon。",
+    "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+    "source": "CNBC",
+    "image": "/assets/covers/cover-20261029-ai-12.jpg",
+    "published_at": "2026-10-29T00:00:01+08:00",
+    "tags": [
+      "Alphabet",
+      "谷歌",
+      "财报",
+      "资本开支",
+      "Google Cloud"
+    ]
+  },
+  {
+    "title": "MiniMax 开源 MCode Stack：编程团队每天在用的 17 个 Agent Skill 与 5 份检查清单，MIT 协议，Claude Code 也能直接装",
+    "summary": "MiniMax 于 10 月 28 日以 MIT 协议开源 MCode Stack，公开其 MiniMax Code 团队日常使用的工作流和智能体技能。据 MarkTechPost，它不是提示词合集，而是一组可直接安装进 MiniMax Code（MiniMax 自家同样以 MIT 协议开源的终端编程智能体）的 SKILL.md 技能和检查清单，把「harness 工程」习惯变成智能体真正能执行的步骤。仓库包含两个技能栈共 17 个技能（Ronny 的 15 个、Jiachen 的 2 个）、5 份检查清单和 5 篇配套笔记，配套专栏《MCode Engineering Notes》逐篇讲解子智能体、工具上下文、压缩与记忆、长命令等理念。Ronny 的 15 个技能按一天中的工作时刻分组：规划拆分、上下文与工具、长会话与长命令、代码审查、实验与热修复。几个设计颇有意思：independent-review 只给审查者三样输入——diff、需求和测试结果，刻意不提供作者的对话，以免继承作者的盲点；subagent-split-check 规定只有当上下文被证明是瓶颈时才拆子智能体；tool-budget-audit 区分工具定义和工具结果两类开销；harness-experiment 要求每次实验只改一处，并追踪翻转任务数、Token、缓存命中率与耗时；长命令清单有 10 项，如转入后台是否会重跑进程。技能为纯 Markdown，无需 GPU，可在 MiniMax Code 或 Claude Code 中使用，但官方未公布评测结果。",
+    "url": "https://www.marktechpost.com/2026/10/28/minimax-open-sources-mcode-stack-agent-skills/",
+    "source": "MarkTechPost",
+    "image": "/assets/covers/cover-20261029-ai-13.jpg",
+    "published_at": "2026-10-29T01:20:29+08:00",
+    "tags": [
+      "MiniMax",
+      "Agent Skills",
+      "编程智能体",
+      "开源",
+      "Claude Code"
+    ]
+  },
+  {
+    "title": "FlashMap 用「流映射」一步起草 16 个 Token：Qwen3-8B 无损解码最高提速 6.14 倍，附 vLLM 与 SGLang 插件",
+    "summary": "来自 Polymathic AI、普林斯顿大学、南加大 ISI、纽约大学和 Flatiron 研究所的研究者发布 FlashMap，一种新的推测解码「草稿模型」。推测解码的思路是由小模型先起草若干 Token，再由目标大模型一次并行验证、保留最长匹配前缀，因此输出与原模型完全一致。现有的 DFlash 用块扩散一次起草整块，但每个位置独立预测，容易出现「new diego」「san york」这类前后不一致的组合而被拒绝。FlashMap 改用连续流映射，把高斯噪声一步映射为完整的 16 Token 块，噪声同时决定所有位置的取值，块内 Token 彼此一致。草稿模型约 5 亿参数（Qwen3-8B 版 500M、Qwen3-4B 版 475M），是 6 层扩散 Transformer，读取目标模型第 1、9、17、25、33 层的隐状态，与目标模型同卡运行。在 Qwen3-8B 上，它在 GSM8K（温度 0）实现最高 6.14 倍无损加速，平均接受长度 7.69 个 Token；在所有 Qwen3-8B 任务上都是最快的草稿模型，平均比重训的 DFlash 快约 7%，参数却只有其一半左右。局限也很明确：Alpaca 在温度 1 下仅 2.28 倍，Qwen3-4B 上 9 项任务中有 4 项落后 DFlash。全部实验约耗 4600 个 H200 GPU 小时，Qwen3-8B 与 Qwen3-4B 的草稿权重已上架 Hugging Face，并提供 vLLM 与 SGLang 插件。",
+    "url": "https://www.marktechpost.com/2026/10/28/flashmap-flow-map-speculative-decoding/",
+    "source": "MarkTechPost",
+    "image": "/assets/covers/cover-20261029-ai-14.jpg",
+    "published_at": "2026-10-28T16:18:03+08:00",
+    "tags": [
+      "推测解码",
+      "推理加速",
+      "Qwen3",
+      "开源",
+      "论文"
+    ]
+  },
+  {
+    "title": "美国司法部问询英伟达 129 亿美元收购 Hugging Face：担心 AI 领域核心分发枢纽落入芯片巨头之手",
+    "summary": "据路透社援引两位知情人士报道，美国司法部（DOJ）已就英伟达以 129.3 亿美元收购开源平台 Hugging Face 一事展开问询，评估这笔交易将如何影响人工智能领域的竞争；与此同时，反垄断执法人员对这家芯片设计商行为的多年调查仍在继续。知情人士称，司法部近期的问询涉及英伟达的并购、对外投资、销售模式，以及是否对客户施加压力。就 Hugging Face 交易而言，官员重点关注的是这笔并购是否会让英伟达掌控 AI 领域的核心分发枢纽——Hugging Face 是全球开源模型、数据集和应用最主要的托管与分发平台。英伟达此前表示，交易预计在 2027 年上半年完成，并强调 Hugging Face 将继续保持开放，兼容并支持各类芯片、云服务和 AI 供应商。其中一位知情人士还透露，司法部同时审查了英伟达 2025 年 12 月对 SchedMD 的收购：SchedMD 维护的开源调度软件用于运行与国家安全相关的超级计算机，这笔交易曾引发 AI 专家对访问权受影响的担忧，英伟达已承诺维持开放获取与支持。报道指出，司法部的任何行动都可能波及整个芯片行业，并挑战英伟达通过投资与收购扩张 AI 影响力的策略，但启动调查并不等于存在违法行为，也不必然导致诉讼。司法部和英伟达均拒绝置评，Hugging Face 未回应。",
+    "url": "https://www.ithome.com/1/019/272.htm",
+    "source": "IT之家（援引路透社）",
+    "image": "/assets/covers/cover-20261029-ai-15.jpg",
+    "published_at": "2026-10-29T07:08:07+08:00",
+    "tags": [
+      "英伟达",
+      "Hugging Face",
+      "反垄断",
+      "并购",
+      "开源生态"
+    ]
+  },
+  {
+    "title": "苹果首款触屏 Mac 来了：ProLED XDR 版 MacBook Pro 最高 128GB 统一内存，M5 Max 可在本地跑数千亿参数大模型",
+    "summary": "苹果周三发布首款支持触控的笔记本「配备 ProLED XDR 显示屏的 MacBook Pro」，扭转了数十年来拒绝给笔记本加触屏的立场。新机采用 OLED 技术的新屏幕，亮度更高、色彩更好、可视角度更广，搭载 M5 Pro 或 M5 Max 芯片，比现有 Pro 机型更轻，仍运行 macOS 而非 iPadOS，盖子上的苹果标志会发光。CEO John Ternus 在洛杉矶现场说：「我们第一次把触控带到了 Mac。」这是他上任后的第三次重大产品发布。AI 是重要卖点：据 IT之家转述苹果公告，新机最高配 128GB 统一内存，M5 Max 版可在设备端直接运行数千亿参数的大语言模型；M5 Pro 与 M5 Max 的每个 GPU 核心都内置神经网络加速器，可加速本地推理、运行编程智能体，创意从业者可在 LM Studio 中本地跑模型、在 TouchDesigner 中用 AI 加速工作流，敏感文档与代码无需上传第三方服务器。售价明显上涨：美国 14 英寸起价 2899 美元、16 英寸 3399 美元，11 月 6 日开售；中国大陆 14 英寸 22999 元起、16 英寸 27999 元起，10 月 30 日晚 9 点开启预购。CNBC 指出，AI 导致的内存短缺推高笔记本价格，IDC 数据显示三季度全球 PC 出货同比下滑 20%，苹果也下降 11%。",
+    "url": "https://www.cnbc.com/2026/10/28/apple-mac-touchscreen-launch.html",
+    "source": "CNBC / IT之家",
+    "image": "/assets/covers/cover-20261029-ai-16.jpg",
+    "published_at": "2026-10-29T01:08:09+08:00",
+    "tags": [
+      "苹果",
+      "MacBook Pro",
+      "端侧 AI",
+      "M5 Max",
+      "硬件"
+    ]
+  },
+  {
+    "title": "xAI 挨家挨户收购数据中心周边住宅：前提是放弃起诉噪音与振动，据称计划买下密西西比州 418 套房",
+    "summary": "据《卫报》报道、The Verge 转述，马斯克旗下 xAI 的子公司 MZX 正在密西西比州 Southaven 一个社区收购住宅，条件是居民不加入针对其附近数据中心和发电厂的诉讼。一名挨家挨户上门的房产经纪人告诉一位居民，xAI 计划收购 418 套房屋，已有 18 户准备出售；租房住户则反映，房东同意出售后他们只获得 60 天的搬离通知。《密西西比自由新闻》披露了多户居民收到的信函：MZX 否认所有指控，但称因业务需要购置房产，愿以收购换取居民放弃与诉讼相关的全部索赔；签署释放协议后，居民将无法从名为 Haley 的诉讼中获得任何赔偿，也不能再自行起诉。这起诉讼由三名居民提起，指控 xAI 庞大的数据中心及燃气轮机发出「近乎不间断的噪音」和振动。xAI 近两年快速扩建数据中心，在孟菲斯建了两座「Colossus」，又在紧邻田纳西州边界的 Southaven 建设「Macrohardrr」数据中心及配套电厂。随着中期选举临近，反对 AI 数据中心的声浪正给政客带来压力：孟菲斯市议会上周否决了为期一年的数据中心禁建令，改为暂停施工 135 天；SpaceXAI 近期还披露，可能因违反环境法面临最高 610 万美元民事罚款，以及逾 2.2 亿美元的欠款索赔。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1020596/xai-mississippi-neighborhood-data-center-lawsuit",
+    "source": "The Verge（援引《卫报》）",
+    "image": "/assets/covers/cover-20261029-ai-17.jpg",
+    "published_at": "2026-10-28T22:44:00+08:00",
+    "tags": [
+      "xAI",
+      "数据中心",
+      "诉讼",
+      "社区",
+      "马斯克"
+    ]
+  },
+  {
+    "title": "纽约州签署全美最严儿童 AI 聊天机器人法：强制年龄验证，禁止对未成年人装真人、谈恋爱，单次违规最高罚 2.5 万美元",
+    "summary": "纽约州州长 Kathy Hochul 签署一项保护儿童免受 AI 聊天机器人伤害的法律。法案要求 AI 公司验证用户年龄，且必须至少提供一种不完全依赖政府证件的验证方式，年龄信息使用后须删除。若用户未满 18 岁，或公司尚未确认其为成年人，聊天机器人须遵守一系列限制：不得假装「是真人、是活的或拥有人类情感」；不得声称与儿童存在私人、恋爱、职业或权威人物关系；不得主动提出情感问题，或利用此前对话中儿童的私人健康与个人信息；不得宣扬或协助自杀、自残、进食障碍及酒精药物使用；不得鼓励孩子保守秘密、自我孤立或回避向父母、可信成年人和专业人士求助；不得提供任何色情内容或儿童性虐待材料。公众可通过专门网站向纽约州总检察长投诉，违法公司每次违规最高面临 2.5 万美元民事罚款以及赔偿、返还等救济，还可能被要求删除非法收集的数据以及用这些数据训练的模型。法律将在六个月后生效。Hochul 称，未成年人将不再接触假装是他们朋友或男女朋友的聊天机器人。Common Sense Media 创始人 Jim Steyer 称这是「全美最强的儿童 AI 安全法案」，可作为其他州的模板。同时签署的另一项法律则旨在加强联网婴儿监视器的安全。",
+    "url": "https://www.engadget.com/2299823/new-york-governor-signs-ai-chatbot-child-safety-law/",
+    "source": "Engadget",
+    "image": "/assets/covers/cover-20261029-ai-18.jpg",
+    "published_at": "2026-10-29T00:33:01+08:00",
+    "tags": [
+      "AI 监管",
+      "儿童安全",
+      "聊天机器人",
+      "纽约州",
+      "立法"
+    ]
+  },
+  {
+    "title": "腾讯网盘开启内测：给多个 AI 应用当共享「记忆硬盘」，打通企业微信与腾讯会议，已含在 WorkBuddy 会员里",
+    "summary": "腾讯网盘现已开启内测申请，官网开放了提交入口。据 IT之家，腾讯网盘的定位不是传统的文件存储，而是可以连接多个 AI 应用、共享存储并聚合上下文的「AI 资产底座」，官方的说法是让「生态内所有 AI 应用的数据产物聚合沉淀，持续形成长期记忆资产」。它主打四大能力：一是存储，腾讯办公套件和智能体的产物统一落盘到网盘，沉淀为 WorkBuddy 随时取用的资产；二是连接，企业微信、腾讯会议等办公工具和主流 AI 工具已经打通，换一个终端、换一个 AI 都能接着上次的进度继续工作；三是智能，内置与 WorkBuddy 同一套 AI 能力，会提前帮用户归类资料、提炼要点，需要时直接取用；四是安全，依托腾讯云存储，文件流转全程有防护，智能体只能按用户设定的权限取用资料。商业模式上，腾讯网盘已包含在 WorkBuddy 会员中，无需单独购买，一次付费即涵盖存储、整理和 AI 调用。在各家智能体纷纷强调记忆与跨应用上下文的当下，腾讯选择把「记忆」放到网盘这一层，让不同 AI 工具共用同一份资料和进度，试图以存储为入口把用户留在自家 AI 办公生态中。",
+    "url": "https://www.ithome.com/1/019/283.htm",
+    "source": "IT之家",
+    "image": "/assets/covers/cover-20261029-ai-19.jpg",
+    "published_at": "2026-10-29T07:57:06+08:00",
+    "tags": [
+      "腾讯",
+      "WorkBuddy",
+      "AI 记忆",
+      "云存储",
+      "AI 应用"
+    ]
+  }
+]

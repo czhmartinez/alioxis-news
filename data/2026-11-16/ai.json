@@ -1,0 +1,197 @@
+[
+  {
+    "title": "金融时报：黄仁勋与亲信讨论重返英伟达 CEO，硅谷盟友筹建「战情室」游说董事会并寻求白宫支持；财长 Bessent 则呼吁「大幅改组」、从外部选帅",
+    "summary": "据 Financial Times 11 月 15 日报道、Yahoo News 转述：黄仁勋已与亲信讨论重返英伟达 CEO 的可能性。一名盟友对 FT 表示，正在筹建由硅谷高管组成的「战情室」，游说董事会让他回来，并尝试争取白宫支持；该人士称相关努力得到了黄仁勋的支持，还说「前沿实验室之外、科技圈里说了算的人都喜欢 Jensen」。Yahoo News 称，英伟达与黄仁勋的发言人均拒绝对 FT 置评；黄仁勋并不持有可压过董事会的控股权。报道同时写道：特斯拉的马斯克、Epic Games 的 Tim Sweeney 已公开支持「让 Jensen 回来」的联署；上周五，股东 Altimeter Capital 的 Brad Gerstner 与 Atreides Management 的 Gavin Baker 在公开信中敦促董事会把包括黄仁勋回归在内的「所有选项」留在桌上。同一窗口，美国财长 Scott Bessent 周日呼吁对英伟达做「大幅改组」（dramatic shakeup），并主张从公司外部寻找新 CEO。Yahoo News 援引 CNBC：Bessent 在福克斯新闻上质疑英伟达的文化，以及是否曾「推动这些看似违规的销售来抬高营收和利润」，并表示希望「在未来 10 天内从董事会和外部律师那里得到答复」。该公司将于周二公布季报，这是黄仁勋辞职后的首份季报；CNBC 还报道临时 CEO Colette Kress 定于周三召开全员会，董事会周五曾表示尚未聘请猎头、也尚未「正式接触任何潜在候选人」。FT 此前还报道董事会曾接洽 Arm CEO Rene Haas。以上均为转述，黄仁勋与英伟达均未公开确认回归计划。",
+    "url": "https://tech.yahoo.com/general/breaking-news/article/jensen-huang-weighs-comeback-as-nvidia-ceo-as-allies-lobby-board-ft-reports-bessent-calls-for-dramatic-shakeup-204839950.html",
+    "source": "Yahoo News",
+    "published_at": "2026-11-16T04:50:00+08:00",
+    "tags": [
+      "英伟达",
+      "黄仁勋",
+      "公司治理",
+      "美国政府",
+      "AI芯片"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-00.jpg"
+  },
+  {
+    "title": "OpenAI 开设科学博客，首篇客座文章：物理学家 Nathaniel Craig 与 GPT-6 Astra 提出标准模型的格点候选定义，但仍待检验，尚不能用于实际模拟",
+    "summary": "OpenAI 11 月 15 日宣布开设科学博客，并刊出首篇客座文章。加州大学圣塔芭芭拉分校粒子理论组负责人、Kavli 理论物理研究所常任成员 Nathaniel Craig（亦为 OpenAI 访问科学家）写道：他在一篇 10 月预印本中，借助 GPT-6 Astra，为粒子物理标准模型提出了一种不依赖微扰论的格点候选定义。Craig 说自己原有策略，但未能证明它覆盖所有必要情形；Astra 帮助把该策略做成构造，并在详细证明中起了主导作用。文章强调，标准模型虽在从氢的 21 厘米射电到大型强子对撞机的约 18 个数量级上与实验高度吻合，但完整理论仍缺少非微扰定义；难点在于弱力是手征相互作用，把左手费米子放到格点上时，最自然的规则会额外给出不想要的右手伙伴。Craig 写明这只是候选方案，需要专家讨论其是否具备全部所需性质，「原则上的答案远多于实践上的答案」，眼下他尤其关注该构造在有限格距下是否满足反射正性；连续时空中的相互作用理论定义也仍未解决。他同时提到，OpenAI 近期关于杨–米尔斯理论存在性的证明，使团队得以从格点上的 overlap 费米子取连续极限，证明包含标准模型规范场与费米子的最简统一杨–米尔斯理论的存在性。",
+    "url": "https://openai.com/index/step-toward-defining-the-standard-model/",
+    "source": "OpenAI",
+    "published_at": "2026-11-15T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "科学研究",
+      "标准模型",
+      "物理学"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-01.jpg"
+  },
+  {
+    "title": "彭博社 Gurman：苹果智能眼镜计划 2027 年 6 月 WWDC 发布、同年年底出货，首款无 AR 显示，靠 Siri AI 与配对 iPhone 运行第三方应用",
+    "summary": "据 MacRumors 11 月 15 日对彭博社 Mark Gurman「Power On」通讯的报道：苹果计划在 2027 年 6 月的 WWDC 上发布首款智能眼镜，并争取同年年底出货。内部代号「N50」的原型比 Meta 第二代 Ray-Ban 略薄，部分测试机把椭圆摄像头开口做进镜框、不外凸，正面有指示使用或充电的灯，并在试验其他隐私相关设计。首款不会投射增强现实画面，佩戴者主要通过 Siri 交互，利用摄像头回答周围环境问题，例如辨认建筑、根据冰箱食材建议餐食、导航、翻译路牌和对话，以及通话、信息、通知、日历、提醒、音乐和智能家居控制。第三方应用不必为眼镜单独开发，而是在配对的较新款 iPhone 上运行，不支持 Android；部分不依赖第三方应用的功能可经 Wi-Fi 在手机不在身旁时使用，但眼镜并非完全独立设备。内部原型据称运行精简版 visionOS 28，处理器源自较旧的 Apple Watch 芯片。苹果已在本月首个 iOS 27.3 测试版中引入更精细的 Siri 应用操作控制，计划 12 月先开放自家应用支持、2027 年再向第三方开放。Gurman 称硬件大体已定，软件和 AI 进度落后，可能推迟原定的 2027 年发布。另据该报道，配备摄像头的 AirPods 仍计划 2027 年年底推出。以上均为彭博社消息，苹果尚未官方宣布该产品。",
+    "url": "https://www.macrumors.com/2026/11/15/apple-smart-glasses-hinge-on-siri/",
+    "source": "MacRumors",
+    "published_at": "2026-11-16T01:55:00+08:00",
+    "tags": [
+      "苹果",
+      "Siri AI",
+      "智能眼镜",
+      "彭博社",
+      "硬件"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-02.jpg"
+  },
+  {
+    "title": "TechCrunch：英伟达长期首席安全官 8 月以健康理由离职，继任者与公司均未说明安全团队对 Megaspeed 调查及黄仁勋关系知情多少",
+    "summary": "TechCrunch 11 月 14 日报道：外界几乎没有注意到，在黄仁勋因婚外关系问题离任约两个半月前，英伟达长期首席安全官兼产品安全负责人 David Reber 已于 8 月离职。Reber 在英伟达任职七年、担任 CSO 四年，当时在 LinkedIn 上说此次转变并非预先计划，并把家庭和健康放在首位，还披露两年多前被诊断为早发性帕金森病。继任者 Saša Zdjelar 此前在埃克森美孚工作 17 年、做到高级 IT 经理，后在 Salesforce 一年、并在网络安全公司 ReversingLabs 任职数年；Zdjelar 周四未回应有关交接及安全团队知情情况的提问。文中写明，目前没有公开信息把 Reber 或 Zdjelar 的职务变动与 Megaspeed 一事联系起来，但提出一个问题：安全团队对政府审查 Megaspeed、以及对黄仁勋的关系知道多少、是否曾提出过担忧。Reber 与英伟达亦未回答相关提问。报道援引《纽约时报》：英伟达首席律师一年多前就已介入政府对 Megaspeed 的调查；并转述时报所称五名员工指黄仁勋与直接下属、医疗健康副总裁有关系，以及路透社援引两人报道的另一段关系。退休情报官员 Nicholas Eftimiades 对 TechCrunch 表示，安全团队常因不直接创造收入而拨款不足，许多公司仍把安全主要理解为设施、网络攻击和人身威胁，而情报机构更看重政策内情与人际杠杆。文章强调，董事会独立调查和联邦调查推进后，安全团队当时知道什么、能否采取行动才会更清楚。",
+    "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-15T08:08:00+08:00",
+    "tags": [
+      "英伟达",
+      "安全",
+      "黄仁勋",
+      "公司治理",
+      "出口管制"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-03.jpg"
+  },
+  {
+    "title": "印度芯片初创 Bharat Semi 完成 2400 万美元种子轮，开发把成像、处理与 AI 做在同一颗芯片上的可编程图像传感器，目标 2027 年商用",
+    "summary": "据 TechCrunch 11 月 15 日报道：总部位于新德里、成立近五年、尚无营收的半导体初创公司 Bharat Semi 完成 2400 万美元全股权种子轮，由 Info Edge Group、South Park Commons 和 Indus Bridge Ventures 领投，Valour Capital、Micromax、Gaingels 及个人投资者跟投，用于扩充工程团队、完成产品开发并推向市场。联合创始人 Vrinda Kapoor 称，公司在开发把图像采集、处理与 AI 能力集成在单颗芯片上的可编程图像传感器，以减少把视觉数据送往独立处理器的需求，并表示相较「独立图像传感器 + 图像信号处理器 + 片上系统」的传统方案，系统成本有望至少降低 70%。她对 TechCrunch 说目标是「从传感器走向感知方案」。公司称已获得美国国防技术公司 General Atomics 与印度 Kaynes Semicon 的设计导入（design wins），但传感器仍在开发中，目标 2027 年进入初始商业生产；第一代已在原型阶段，融入更先进 AI 能力的第二代预计 2027 年中进入原型、年底交给客户。Bharat Semi 约有 75 名员工，分布在印度和美国，其中美国约 10 到 12 人、主要在圣克拉拉做工程与商务，计划到 2027 年中把美国人数增至约 20 人，并已开始在欧洲招工程师。Kapoor 还说，2024 年宣布的、涉及与美国太空军技术合作的印度晶圆厂项目仍在推进、将另寻国内合作方建设和运营，与图像传感器业务分开，公司将保持无晶圆厂模式，本轮资金不用于该工厂。",
+    "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-16T07:30:00+08:00",
+    "tags": [
+      "芯片",
+      "融资",
+      "印度",
+      "传感器",
+      "边缘AI"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-04.jpg"
+  },
+  {
+    "title": "华为云 MaaS 上线开源盘古 openPangu-2.1-Pro：面向 Agent、鸿蒙应用开发与昇腾算子生成升级，现仅开通西南-贵阳一区域",
+    "summary": "据 IT之家 11 月 15 日报道，并经华为云官方文档交叉核对：华为云 MaaS 平台当日正式上线开源盘古模型 openPangu-2.1-Pro。官方文档更新时间为 2026-11-15 GMT+08:00，并写明预置模型服务目前仅支持「西南-贵阳一」区域；文档称该模型相对上一代在 Agent、代码生成和吞吐能力上有明显提升。IT之家转述华为云的介绍：Agent 方面基于 10 万余条专项数据优化 Skills 触发、工具选择与调用，以增强复杂任务规划执行，并面向深度研究和鸿蒙系统操控等场景加强；代码方面重点适配鸿蒙 ArkTS 应用开发与昇腾算子生成。报道还称，该模型将接入华为云智果 AgentArts、码道 CodeArts、果办 OfficeAce 等产品。IT之家给出的推理价格为：输入 0.8 元/百万 tokens、输出 3.2 元/百万 tokens、缓存命中输入 0.016 元/百万 tokens。本次以 IT之家报道为条目链接，区域限制与上线日期已用官方文档核对；价目与「10 万余条」等细节来自 IT之家对官方介绍的转述。",
+    "url": "https://www.ithome.com/1/027/450.htm",
+    "source": "IT之家",
+    "published_at": "2026-11-15T21:16:54+08:00",
+    "tags": [
+      "华为",
+      "开源盘古",
+      "大模型",
+      "Agent",
+      "鸿蒙"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-05.jpg"
+  },
+  {
+    "title": "行情数据公司 Databento 完成 1 亿美元 C 轮、估值 11 亿美元：称已与六家最大前沿 AI 实验室中的五家签订企业合同，团队仍不到 40 人",
+    "summary": "Databento 在 11 月 12 日的官方博客中宣布完成 1 亿美元 C 轮融资，估值 11 亿美元。本轮由早期投资人 Fifth Down Capital 领投，并引入 Fitch Ventures 作为战略投资人；跟投的既有股东包括 NEA、DRW Venture Capital、Tribe Capital、Redpoint Ventures、Hedosophia、Trousdale Ventures、Cross Creek、Operator Collective、AVG 和 TGVP。CEO Christina Qi 写道，自今年早些时候完成 B 轮以来营收已翻倍以上；公司并未主动融资，但业绩增强了投资人加仓意愿，客户也要求更快扩张。她称 Databento 已从机构金融数据服务扩展到 AI 与智能体工作流，目前已与六家最大前沿 AI 实验室中的五家签订企业合同，且估值是在团队仍略少于 40 人的情况下达到的。博客还说，过去四个月已基本完成九个数据中心的基础设施一期建设，包括 ASX ALC、HKEX、JPX、Aruba IT3、Equinix LD4、Equinix NY3、Equinix ZH4、LSE 和 Nasdaq Väsby，并打算打造「全球最大的可商用历史行情数据档案」。官方页仅标日期 11 月 12 日，无精确时刻。",
+    "url": "https://databento.com/blog/series-c",
+    "source": "Databento",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "融资",
+      "AI基础设施",
+      "金融数据",
+      "智能体",
+      "Databento"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-06.jpg"
+  },
+  {
+    "title": "MIT Technology Review：众议员 Foster 称英伟达代表曾私下承认可以落实《芯片安全法》所要求的追踪手段，尽管行业公开质疑其可行性",
+    "summary": "MIT Technology Review 11 月 12 日报道：伊利诺伊州联邦众议员、科学空间与技术委员会成员 Bill Foster 在周四采访中表示，英伟达代表曾告诉他，落实《芯片安全法》（Chip Security Act）所要求的防走私措施在技术上是可行的。该法案由 Foster 联合提出，要求通过地理追踪核验先进 AI 芯片位置，以防止其走私到中国；它是参议院《国防授权法案》考虑纳入的三份芯片安全法案之一。Foster 说对方「从来没有形成书面」，但在技术讨论中的反应是「对，我们当然能做这个」。这与半导体行业协会（英伟达也是成员）2026 年 3 月公开反对该法案、并称芯片追踪要求「新颖、未经检验、可能不可行」形成对照。报道还提到，英伟达 2025 年 12 月发布的 Fleet Intelligence 可让客户监控不同数据中心中芯片的运行情况，并曾向路透社确认该工具可以显示芯片所在国家，但未说明能否用于防走私；英伟达未回应置评请求，也未确认 Foster 的转述。Foster 说，即便法案随国防授权法案通过，新的追踪机制也只能告诉调查人员芯片在哪里，并不能在发现被走私后将其断开；他打算来年提出更严的规则，要求先进 GPU 持有运营许可，上线前先核验许可。文章写明，Foster 并未询问英伟达若技术上做得到、为何不自愿采用此类追踪工具。",
+    "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+    "source": "MIT Technology Review",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "英伟达",
+      "出口管制",
+      "芯片安全",
+      "美国国会",
+      "政策"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-07.jpg"
+  },
+  {
+    "title": "英伟达 cuBLAS 在 CUDA Toolkit 13.4.2 引入 Ozaki-II 与 2M 算法：用整数 Tensor Core 做完整 FP64 精度的矩阵乘，DGEMM 在 VR NVL72 上比原生 FP64 快 5.5 倍",
+    "summary": "英伟达技术博客 11 月 13 日发布：CUDA Toolkit 13.4.2 的 cuBLAS 引入 Ozaki-II 和 2M 两类算法，把双精度浮点拆成整数片段，在 GPU 的整数 Tensor Core 上相乘再组装回完整 FP64 精度结果，并称对 DGEMM、ZGEMM 可自动加速、无需改应用代码。官方介绍：Ozaki-II 借助中国剩余定理，比此前的 Ozaki-I 减少整数乘法次数；2M 则把复数矩阵乘所需的实数乘法从四次减为两次。给出的性能数字包括：采用 Ozaki-II 的 DGEMM 在 NVIDIA VR NVL72 上比原生 FP64 快 5.5 倍、在 GB200 上快 3.9 倍；采用 2M 的 ZGEMM 在 GB200 上比原生 CFP64 快 5 倍。量子化学 CCSD 计算用 Ozaki-II DGEMM，在完整 FP64 精度下于 VR NVL72 和 GB200 上分别获得 2 倍和 1.4 倍端到端加速，混合精度模式为 5 倍和 3.5 倍；材料科学软件 BerkeleyGW 用 Ozaki-II 2M ZGEMM，相对原生 ZGEMM 在这两款平台上分别快 6.6 倍和 3.9 倍。文中还提到 Rubin GPU 引入 TI16 数值格式和 tcgen05.mma 指令，可进一步加速 Ozaki 类计算，并指向 cublasSetEmulationStrategy 等 API。发布时间按页面 datePublished 2026-11-13T22:13:51+00:00 换算。",
+    "url": "https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/",
+    "source": "英伟达",
+    "published_at": "2026-11-14T06:13:51+08:00",
+    "tags": [
+      "英伟达",
+      "CUDA",
+      "科学计算",
+      "GPU",
+      "cuBLAS"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-08.jpg"
+  },
+  {
+    "title": "Anthropic 发布安全评测构建建议：安全评测测的是模型是否「做对了」，并建议先写清构念、用人类判断校准评分器、报告不确定性",
+    "summary": "Anthropic 于 11 月 13 日在官网发布《Building strong safety evaluations》。文章区分安全评测与能力评测：安全评测衡量的是模型促成伤害的倾向、回应会让伤害更可能还是更不可能、以及伤害有多严重，核心问题是「给定输入，模型是否做对了」，而不是任务有没有做成。作者指出，评测容易被钻空子、不一定量到声称的东西、文档也常不足以复现，结果还会随选择题或开放题、甚至选项顺序而变。文中借鉴心理学可重复性危机后的预注册、更好测量和更严格统计等改革，结合 Anthropic 系统卡中的例子，给出给安全评测设计者的建议，包括组建同时具备方法与领域专长的团队、在沙箱中安全地运行评测（近期因自身事件强化了评测环境，并曾暂时停止许多需联网的评测），以及在发现已部署系统的严重缺陷时先通知开发者、给修复时间再发表。文末说，若只做三件事：在收集数据前写清要测量的构念，在采信评分器数字前用人类判断做校验，以及报告不确定性，好让读者分辨信号与噪声。这是方法与实践建议稿，不是新产品发布。官方页仅标 11 月 13 日。",
+    "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+    "source": "Anthropic",
+    "published_at": "2026-11-13T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "AI安全",
+      "评测",
+      "研究方法",
+      "系统卡"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-09.jpg"
+  },
+  {
+    "title": "谷歌把 Gemini 4 Hydrogen 接入搜索：官方称为迄今最大的搜索模型升级，已向全球所有搜索用户开放",
+    "summary": "谷歌搜索产品副总裁 Robby Stein 在 11 月 12 日的官方博客中宣布，Google Search 开始在全球范围内向所有用户提供 Gemini 4 Hydrogen，并称这是迄今最大的一次搜索模型升级。官方列出的能力包括：更好理解意图，能处理更曲折、更复杂的问题，包括多部分提问、难以辨认的打字错误或非常具体的请求，并凭借更深的指令遵循和工具调用更精确地回应用户想要的每一部分；改进查询扇出（query fan-out）与链接，同时检索相关子话题，从而给出更广的有用链接；回应更视觉化，出现更多图片、结构化回答、对比表和为用户即时生成的自定义工具；以及在所有已支持 AI Mode 的语言里提供更细致的理解。该文未在正文中给出搜索侧的质量分数或分区上线范围。Hydrogen 模型本身已于 11 月 13 日 AI新闻收录，本条是搜索产品分发，属未收录的官方渠道更新。发布时间按页面 datePublished 2026-11-12T18:00:00+00:00 换算。",
+    "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+    "source": "Google",
+    "published_at": "2026-11-13T02:00:00+08:00",
+    "tags": [
+      "谷歌",
+      "Gemini",
+      "搜索",
+      "Hydrogen",
+      "产品"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-10.jpg"
+  },
+  {
+    "title": "Google Research 发布可辅导「健康年龄」框架：用可穿戴数据训练 SensorWM，在超 228 万人员周数据上模拟 12 周习惯轨迹，研究原型尚非临床诊断工具",
+    "summary": "Google Research 11 月 11 日发表博客，介绍一套仍处于研究阶段的机器学习框架：把消费级可穿戴设备的被动信号转成可干预的「可辅导健康年龄」（coachable health age, CHA），再用动作条件世界模型模拟个性化的 12 周「如果改变习惯会怎样」轨迹，并在有常规血液指标时扩展到心血管–肾脏–代谢（CKM）风险刻画。CHA 主要使用静息心率、每日步数、睡眠时长和每周 Active Zone Minutes，并可纳入 VO2max、睡眠规律和胰岛素抵抗等可选标记。验证包括：All of Us 项目中 22,748 名参与者、逾 68,000 人员年随访，基线健康年龄大于日历年龄者在未来八年发生高血压、心血管疾病或 2 型糖尿病的风险显著更高；以及 1,464 人的纵向 Fitbit 队列。世界模型 SensorWM 在约 10 万名同意的 Fitbit 用户、228 万人员周去标识数据上预训练，可根据两周基线预测未来 12 周 20 项生理标记在不同步数、睡眠和有氧安排下的变化。与可行性约束优化器和语言模型教练搭配后，会为每人模拟 125 种 12 周组合。在 5 名生活方式教练和 5 名医师对 49 个参与者画像、共 490 对盲评中，教练在 71.4% 的评估里把基于反事实模拟的方案选为总体最佳（p<0.001）；医师认为 99.2% 的方案处于安全运动强度范围内、97.6% 的生理陈述准确。文中明确：评估为回顾性离线研究，模型是研究原型而非临床诊断工具。官方页仅标 11 月 11 日。",
+    "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/",
+    "source": "Google Research",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "谷歌",
+      "健康",
+      "可穿戴",
+      "世界模型",
+      "研究"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-11.jpg"
+  },
+  {
+    "title": "Pony.ai 财务长：若黄仁勋离任后对华芯片出口进一步收紧，中国自动驾驶公司已准备「B 计划」，更多使用中端算力与国产芯片",
+    "summary": "TechCrunch Mobility 11 月 15 日刊出对 Pony.ai 财务长 Leo Wang（王皓）的访谈。作者问及，若黄仁勋辞职的后续导致对华英伟达芯片出口管制进一步收紧，中国自动驾驶行业会怎样。Wang 说算力需求本就远大于供给，这是 Pony.ai 的痛点之一；公司策略有两手：一是要求工程师在部署训练模型时尽量提高效率，必要时用中端而非高端算力；二是更多转向国产芯片以补缺口。他表示，近年来国内芯片也获得了大量关注和发展，为 AI 训练提供了另一种选择，「这给了我们一些灵活性」。谈到出口若再收紧，Wang 说相关局面已发展了几年，「每个人也都在做某种 B 计划有几年了」，替代方案已经存在，而且比几年前更成熟，「尽管在成本效益上可能还不是最好的选择」。稿件后半还提到 May Mobility 计划用大众纯电 ID. Buzz 做全球网约车，并称目标是到 2031 年部署超过 1 万辆自动驾驶车辆等交通行业消息，与英伟达出口议题无直接关系，本条只取 Pony.ai 访谈要点。",
+    "url": "https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-16T01:05:00+08:00",
+    "tags": [
+      "自动驾驶",
+      "英伟达",
+      "出口管制",
+      "Pony.ai",
+      "国产芯片"
+    ],
+    "image": "/assets/covers/cover-20261116-ai-12.jpg"
+  }
+]

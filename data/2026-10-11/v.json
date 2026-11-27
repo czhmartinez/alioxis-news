@@ -1,0 +1,275 @@
+[
+  {
+    "title": "卡兹克发长文：花 5 天对公司做了一场 AI 化改造，自建企业中台 + MCP 一键部署同事的 Vibe Coding 应用",
+    "summary": "卡兹克写虚实传媒（约 30 人）国庆改造实录：人人用 AI/Vibe Coding，财务曾给商务搓开票助手；痛点是应用部署、权限与 Skill 分发。他用 Claude Opus 5.5 先用代码做出品牌 VI、UI 组件与百页动效 PPT，并打成 Skill；进而自建以飞书数据为底座、可替换飞书工作台的企业中台，把中台封成 MCP——同事把 Prompt 贴给 Agent 即可隔离部署到公司服务器、自动分子域名并配置可见范围。还做了商务 Excel→邮件→项目表小应用、千人千面首页等，愿景是新人觉得流程蠢就「让 Agent 改一下」。",
+    "url": "https://x.com/Khazix0918/status/2108800048050106751",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20261011-v-00.jpg",
+    "published_at": "2026-10-10T14:01:25+08:00",
+    "tags": [
+      "卡兹克",
+      "企业中台",
+      "MCP",
+      "Vibe Coding",
+      "飞书",
+      "Opus"
+    ]
+  },
+  {
+    "title": "Max：御三家已攻克 RSI 并非传闻，公开模型年底或迎非线性跃升",
+    "summary": "Max 引用圈内传言及此前与 OpenAI 交流听闻，并提到 GMD 的 Shunyu Yao 有过相关确认：Google、Anthropic、OpenAI 已接近或已经攻克递归自我改进（RSI）。外界还在盯发版与榜分时，实验室内部模型已在一轮轮自我改进；等能力反映到公开模型上，可能不再是渐进提升，时间点指向今年年底。",
+    "url": "https://x.com/MaxForAI/status/2108755060184559860",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261011-v-01.jpg",
+    "published_at": "2026-10-10T11:02:39+08:00",
+    "tags": [
+      "RSI",
+      "OpenAI",
+      "Anthropic",
+      "Google",
+      "自我改进"
+    ]
+  },
+  {
+    "title": "Max：出版社出的小说正文里忘了删 AI 回复，江苏凤凰文艺称将全部回收重印",
+    "summary": "Max 分享网友买到江苏凤凰文艺出版社《终焉路独行》，第 80 章突然冒出「需要我再微调部分语句，让整体文风更贴合悬疑灵异的氛围吗？」——典型 AI 润色收尾客套。对照网文原版无此句，作者称写作未用 AI；出版社回应经编辑校对多环节，已决定对已发书全部回收销毁并修订。Max 说 2026 年用 AI 润色可以理解，但正式出版物全流程竟无人发现混进 AI 回复。",
+    "url": "https://x.com/MaxForAI/status/2108814387066941511",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261011-v-02.jpg",
+    "published_at": "2026-10-10T14:58:24+08:00",
+    "tags": [
+      "AI写作",
+      "出版",
+      "润色",
+      "翻车"
+    ]
+  },
+  {
+    "title": "小互：Anthropic 透明度报告——2026 上半年 Claude 封禁 1140 万账号，申诉约 39.8 万仅 4.2 万解封",
+    "summary": "小互根据 Anthropic 公布的透明度数据：仅 2026 上半年封禁 1140 万账户，收到约 39.8 万次申诉，其中仅约 4.2 万撤销封禁（他本人申诉成功）。官方列出的封禁情形包括违反使用政策、服务条款以及支持地区政策。他另发短视频感叹「仅半年」。",
+    "url": "https://x.com/xiaohu/status/2108955802480615551",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261011-v-03.jpg",
+    "published_at": "2026-10-11T00:20:20+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "封禁",
+      "透明度"
+    ]
+  },
+  {
+    "title": "Max：Claude 再次停止对新用户开放，感叹「Opus 5.5 叔叔还是太好用了」",
+    "summary": "Max 晒出 Claude 对新用户关闭注册/开放的提示截图，调侃 Opus 5.5 太好用以至于 Anthropic 又收紧入口。帖子配图为产品侧状态提示，社区讨论集中在额度与供给紧张。",
+    "url": "https://x.com/MaxForAI/status/2108940901242524018",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261011-v-04.jpg",
+    "published_at": "2026-10-10T23:21:07+08:00",
+    "tags": [
+      "Claude",
+      "Opus",
+      "注册",
+      "限流"
+    ]
+  },
+  {
+    "title": "Max：还是 Opus 5.5 好——速度可慢、额度可少，最怕模型一本正经胡说八道",
+    "summary": "Max 发图对比使用体验：宁可慢一点、额度少一点，也要智商稳；「怕限流，但更怕模型一本正经地胡说八道」。他用「烧心」形容高分却爱胡编的模型，称不烧心的 Opus 5.5 三天不重置额度也踏实，好不好不看跑分看用着累不累。",
+    "url": "https://x.com/MaxForAI/status/2108807974919790956",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261011-v-05.jpg",
+    "published_at": "2026-10-10T14:32:55+08:00",
+    "tags": [
+      "Opus",
+      "Claude",
+      "使用体验",
+      "幻觉"
+    ]
+  },
+  {
+    "title": "Max 转发：New API 格式转换拆成独立 Go 包 RelayKit，打通 OpenAI / Claude / Gemini",
+    "summary": "Max 转发并称「New API 这个牛逼」：QuantumNous 把格式转换拆成独立 Go 包 RelayKit，支持 OpenAI Chat/Responses、Claude、Gemini 互转，AstrLink 也在用；对方称想为社区做基建、少重复造轮子。附 GitHub relaykit 路径。",
+    "url": "https://x.com/MaxForAI/status/2108804204064313571",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261011-v-06.jpg",
+    "published_at": "2026-10-10T14:17:56+08:00",
+    "tags": [
+      "New API",
+      "RelayKit",
+      "开源",
+      "API网关"
+    ]
+  },
+  {
+    "title": "Max：字节飞书「豆包工作」把网易 UU 远程致敬进去了，远程桌面能力正急需",
+    "summary": "Max 截图指出飞书里的豆包工作出现类似网易 UU 远程的远程协助/桌面能力，评论「这个功能确实是急需的」。帖子聚焦办公 Agent 场景下远程操控与协同桌面的产品化。",
+    "url": "https://x.com/MaxForAI/status/2108766081397792906",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261011-v-07.jpg",
+    "published_at": "2026-10-10T11:46:27+08:00",
+    "tags": [
+      "飞书",
+      "豆包",
+      "远程桌面",
+      "Agent"
+    ]
+  },
+  {
+    "title": "小互实测豆包工作画布大升级：一张形象图长出 VI、盲盒、电商页，婚礼照还能导出 PSD 做成 HTML 邀请函",
+    "summary": "小互测试豆包工作画布：只给一张形象图即可衍生表情、服装、盲盒周边、快闪店、24000px VI 手册、电商页与招商 Deck；婚礼合照可生成分层图（遮挡处自动补画）并导出 PSD，再写成会动的 HTML 邀请页；用 HTML 出中秋海报可保持版式统一。他称画布已是能把设计项目从头跑到尾的 Agent，并附提示词与操作教程。",
+    "url": "https://x.com/xiaohu/status/2108874566906876063",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261011-v-08.jpg",
+    "published_at": "2026-10-10T18:57:32+08:00",
+    "tags": [
+      "豆包",
+      "工作画布",
+      "设计Agent",
+      "VI"
+    ]
+  },
+  {
+    "title": "小互：Anthropic 为 Claude Code 加动态工作流，单次最多并行调度 1000 个智能体",
+    "summary": "小互梳理 Claude Code 动态工作流公开测试：主 Agent 为任务写调度程序，再由程序分阶段派多个 Agent；可读材料并行、共享文件、后台继续跑，并支持查看进度与会话预算。单次最多可并行约 1000 个智能体，强调「写程序编排」而非只靠一次对话硬扛。",
+    "url": "https://x.com/xiaohu/status/2108814557179486226",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261011-v-09.jpg",
+    "published_at": "2026-10-10T14:59:04+08:00",
+    "tags": [
+      "Claude Code",
+      "多智能体",
+      "动态工作流",
+      "Anthropic"
+    ]
+  },
+  {
+    "title": "小互发布 Claude Code Projects 4 分钟入门：跨仓大目标拆多线程，合上电脑云端也能继续",
+    "summary": "小互配合官方放宽 waitlist，给出 Claude Code Projects 上手要点：创建项目、填入目标与相关仓库后，Claude 把工作拆成多任务并建独立线程并行，默认云端运行，合上电脑也可继续推进。定位为把「多次会话、多仓库」的大目标交给可持续推进的项目空间。",
+    "url": "https://x.com/xiaohu/status/2108739734306685221",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261011-v-10.jpg",
+    "published_at": "2026-10-10T10:01:45+08:00",
+    "tags": [
+      "Claude Code",
+      "Projects",
+      "教程",
+      "云端Agent"
+    ]
+  },
+  {
+    "title": "小互观摩 LibTV AI 短片黑客松：48 小时出片，审美与专业经验仍是上限",
+    "summary": "小互参加 LibTV AI 短片黑客松现场观摩（未参赛），感叹高手与时间压力下，即便 AI 能力再强，短时间完成好作品仍极依赖审美与专业知识。他展示多部用 LibTV 工具在 48 小时内完成的短片（含银奖《身在其中》、最佳视效《幕》等），强调工具降低门槛但不替代判断力。",
+    "url": "https://x.com/xiaohu/status/2108884435487908043",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261011-v-11.jpg",
+    "published_at": "2026-10-10T19:36:45+08:00",
+    "tags": [
+      "AI短片",
+      "LibTV",
+      "黑客松",
+      "审美"
+    ]
+  },
+  {
+    "title": "小互：可确定 Grok Bot 现由 Opus 5.5 驱动——喂指南后一击生成配音视频",
+    "summary": "小互把此前 Claude Motion/Dashboards 指南喂给 Grok Bot，上传自己的形象让其配音，一次生成可用视频，据此判断当前 Grok Bot 由 Opus 5.5 驱动。帖子配演示视频，强调「学习指南 → 一击命中」的工作流。",
+    "url": "https://x.com/xiaohu/status/2108754371609813340",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261011-v-12.jpg",
+    "published_at": "2026-10-10T10:59:55+08:00",
+    "tags": [
+      "Grok Bot",
+      "Opus",
+      "视频生成",
+      "实测"
+    ]
+  },
+  {
+    "title": "Tibo：ChatGPT 个人订阅现可直接当 Devin 用，GPT 用量走原配额",
+    "summary": "Tibo 转发 Cognition 公告并概括：任意个人 ChatGPT 计划（Go/Plus/Pro）都可连接 Devin，连接后所有 GPT 模型用量从该 ChatGPT 订阅配额扣减——「Your ChatGPT subscription is now also a Devin subscription」。",
+    "url": "https://x.com/thsottiaux/status/2108777962053292398",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261011-v-13.jpg",
+    "published_at": "2026-10-10T12:33:40+08:00",
+    "tags": [
+      "ChatGPT",
+      "Devin",
+      "Cognition",
+      "订阅"
+    ]
+  },
+  {
+    "title": "Tibo：Dots 大升级——可在 Codex 开工并跟进线程，还能改 ChatGPT Work 定时任务",
+    "summary": "Tibo 转发官方说明：Dot 现可把工作委托到 Codex、在已有 Codex 线程跟进，并综合 ChatGPT 对话、Codex 线程与自动化来决定续写还是新开；也可查看与编辑 ChatGPT Work 里的 Scheduled Tasks。他称之为 Dots 的一次较大升级。",
+    "url": "https://x.com/thsottiaux/status/2108773703064657936",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261011-v-14.jpg",
+    "published_at": "2026-10-10T12:16:44+08:00",
+    "tags": [
+      "Dots",
+      "Codex",
+      "ChatGPT",
+      "Agent"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Claude 隐藏 Voice Preview 页，疑似升级语音体验甚至自研语音模型",
+    "summary": "TestingCatalog 发现 Claude 存在标注 Preview 的隐藏 Voice 页，指向可能升级的语音体验；尚不确定 Anthropic 是否自研语音模型，但移动端近期出现可分享语音数据用于训练的选项。作者猜测自研语音对 vibe coding 方案与主动式助手都重要。",
+    "url": "https://x.com/testingcatalog/status/2108940487658807525",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261011-v-15.jpg",
+    "published_at": "2026-10-10T23:19:29+08:00",
+    "tags": [
+      "Claude",
+      "Voice",
+      "Anthropic",
+      "语音"
+    ]
+  },
+  {
+    "title": "TestingCatalog：OpenAI API 定价页惊现未官宣的 gpt-rosalind-discovery，疑似药物发现向",
+    "summary": "TestingCatalog 称 API 定价页出现尚未公开宣布的 gpt-rosalind-discovery，价格与 gpt-rosalind-research 相同，具体用途未明；作者猜测是否专用于药物发现，并称若属实影响会很大。",
+    "url": "https://x.com/testingcatalog/status/2108804914071658577",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261011-v-16.jpg",
+    "published_at": "2026-10-10T14:20:45+08:00",
+    "tags": [
+      "OpenAI",
+      "rosalind",
+      "药物发现",
+      "API"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Codex Day 6——可显式请求让 Codex 在额度将尽时自行使用 reset",
+    "summary": "配合 Tibo「Day 6/ Reset」，TestingCatalog 说明 Usage & billing 新选项：当用户在对话中明确要求且当前额度剩余 ≤10% 时，可允许 Codex 自行使用一次 reset；强调不会自动消耗。全局 reset 亦计划于当日结束前完成。",
+    "url": "https://x.com/testingcatalog/status/2109055151163965917",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261011-v-17.jpg",
+    "published_at": "2026-10-11T06:55:07+08:00",
+    "tags": [
+      "Codex",
+      "Reset",
+      "用量",
+      "OpenAI"
+    ]
+  }
+]

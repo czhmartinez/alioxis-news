@@ -1,0 +1,46 @@
+大V视野收集报告 — 2026-10-22（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用 2026-10-21 _v_raw_mcp.json 中已解析的 id → get_users_posts（exclude=replies, start_time=2026-10-20T20:00:00Z, max_results=25；@testingcatalog 为 40 并翻 1 页）
+- 长文补全：get_posts_by_ids（note_tweet / article，46 个 id，含卡兹克 X 长文 article 全文、Max 长帖、TestingCatalog Duet/Flint 自线程补充，以及被引用的 OpenAI Patch the Planet、gdb 长文、OpenAI Devs 缓存公告、Google Cloud、Mistral、Richard Socher、scaling01 等原帖）
+- 未使用浏览器关注页；未使用 user-X；本次共 8 次 X 读取（6 次 get_users_posts + 1 次翻页 + 1 次 get_posts_by_ids）
+- x-api-mcp-guide Skill：本执行环境无 Skill 工具，未加载；直接按 GetDynamicTools 的 schema 调用
+
+入选：18 条
+各 handle 入选计数：
+  @Khazix0918: 2
+  @MaxForAI: 6
+  @xiaohu: 1
+  @thsottiaux: 1
+  @testingcatalog: 6
+  @gengdaJ: 2
+
+原始拉取条数摘要：
+  @Khazix0918: 3（Agent 流水线可视化、长文《分享8个让我最近很惊艳的Claude Opus 5.5玩法。》、回应「提示词」争议帖）
+  @MaxForAI: 21（含 RT gdb 1、自回复链接碎片 3、梗图/短评若干）
+  @xiaohu: 5（AI 日报视频 Demo、3D 交互课本网站 + 灵感来源自回复、宇树功夫保镖机器人、「是你吗？兄弟」梗图）
+  @thsottiaux: 3（Day 16 缓存、「Dot, Dotter, Dottest」+ Pro 计划说明自回复）
+  @testingcatalog: 45（两页；约 30 条为 GTC Berlin 直播/自线程回复，已并入主帖）
+  @gengdaJ: 4（无头剪映 Skill 升级、律师函、安装包自回复、RT Higgsfield Kling 4.0）
+
+Lead：卡兹克：花 2 天把几十个 Agent 自动化任务做成「微缩工厂」流水线可视化——Claude Code 是小螃蟹，Codex 是一朵云
+Lead URL：https://x.com/Khazix0918/status/2112838884510048647
+（Claude Duet、PHP2Shell、12h 缓存、OpenAI 上 Google Cloud、DSX POD 均已出现在今日 AIHOT，大V视野头条改用优先账号的原创作品以避免两个页签头条同题；Duet 放第 1 条）
+
+筛选说明：
+- 跳过梗图/非 AI：Max「功臣！」「卧槽…高市早苗警告PHP漏洞」「再说一遍，二次元搞技术最狠了」「人类完蛋了」「这条推的笑点是」、OpenAI 换 Logo；小互「是你吗？兄弟」；小互宇树功夫保镖机器人（机器人硬件，帖内无 AI 内容）；小互 3D 交互课本网站（帖内未说明 AI 相关，暂跳过）；Tibo「Dot, Dotter, Dottest」（语义不明，无法不臆测地成文）
+- 跳过碎片：Max GitHub/原始链接/@Zai_org 自回复（RSI 算力一句并入 GLM-5.5 主帖）；Max「连5.6Sol都可以找到这个漏洞」并入 PHP2Shell 主帖；TestingCatalog Duet 补充帖（2112988683628408852 连接器/购物、2113004898929299492 Stripe Link 流程、2112999639360106637 语音模式、2112987484158374184 候补链接）并入 Duet 主帖；Flint HF 补充帖 2112983878235271455 并入；GTC Berlin 直播回复（OpenShell for Agents、34 倍 token、Vera Rubin、开源模型数量等）并入 DSX POD 主帖；逸尘安装包自回复
+- 跳过 RT：Max RT gdb（内容并入 PHP2Shell 条）；逸尘 RT Higgsfield Kling 4.0
+- 跳过汇总：TestingCatalog DAILY AI BRIEF Oct 21；GTC Berlin 开播预告 2112825940074205610
+- 同题旧闻：Max Anthropic 上半年净亏 807 亿美元（10-21 ai.json 已收 S-1）；Max DeepSeek 开源 DeepInfer 解读与「光纤被挖断」文档彩蛋（10-21 v.json 已收 Max DeepInfer）；TestingCatalog ElevenLabs Eleven Realtime（10-21 ai.json 已收）；卡兹克回应「提示词」争议（10-19 v.json 已收卡兹克怒卸 GrokBot 同题）
+- 与 2026-10-08～10-21 v.json 及 ai.json 去重（425 个 URL，见 _prior_urls.json）：TestingCatalog EAGLE-4（2112665677152829772）、Voxtral 3（2112647073464201546）、Vyb（2112638397177372745）为 10-21 已收 URL，跳过；入选 18 条无重复 URL
+- 三位优先账号：卡兹克 2、Max 6、小互 1（小互其余为非 AI/梗图/未明确 AI 的帖）
+
+输出文件：
+  data/2026-10-22/v.json
+  data/2026-10-22/_cover_prompts_v.json
+  data/2026-10-22/_v_raw_mcp.json
+  data/2026-10-22/_v_collect_report.txt
+  data/2026-10-22/_prior_urls.json
+
+未执行：build / 生图 / 发布

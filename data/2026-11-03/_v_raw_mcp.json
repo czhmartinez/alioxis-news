@@ -1,0 +1,3360 @@
+{
+ "fetched_at": "2026-11-03T08:15:00+08:00",
+ "method": "public X MCP namespace x",
+ "start_time": "2026-11-01T16:00:00Z",
+ "exclude": "replies",
+ "max_results": 25,
+ "post_fields": "created_at,public_metrics,author_id,lang,conversation_id,note_tweet,text,referenced_tweets",
+ "expansions": "referenced_tweets.id,attachments.media_keys",
+ "handles": {
+  "@Khazix0918": {
+   "id": "1492195583699951620",
+   "result_count": 3,
+   "next_token": null,
+   "post_ids": [
+    "2117187358760354067",
+    "2117054331849720246",
+    "2117054043868860521"
+   ],
+   "response": {
+    "data": [
+     {
+      "created_at": "2026-11-02T09:29:36.000Z",
+      "edit_history_tweet_ids": [
+       "2117187358760354067"
+      ],
+      "id": "2117187358760354067",
+      "public_metrics": {
+       "bookmark_count": 115,
+       "impression_count": 30386,
+       "like_count": 257,
+       "quote_count": 3,
+       "reply_count": 58,
+       "retweet_count": 13
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117054043868860521",
+        "type": "quoted"
+       }
+      ],
+      "text": "因为今天这篇文章，终于正式突破10万粉啦！\n2026.1.12～2026.11.2\n294天，从0到1，10万粉纪念～\n谢谢X上的诸位！ https://t.co/pTHRLMy7iZ",
+      "url": "https://x.com/i/status/2117187358760354067"
+     },
+     {
+      "created_at": "2026-11-02T00:41:00.000Z",
+      "edit_history_tweet_ids": [
+       "2117054331849720246"
+      ],
+      "id": "2117054331849720246",
+      "public_metrics": {
+       "bookmark_count": 414,
+       "impression_count": 56614,
+       "like_count": 449,
+       "quote_count": 10,
+       "reply_count": 88,
+       "retweet_count": 41
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117054043868860521",
+        "type": "quoted"
+       }
+      ],
+      "text": "花了一天写完了，也算是给自己的阶段性成果一个交代。\n想一想这一年，还真的有一些魔幻。\n\n一年前，我是一个完全不懂开发的设计师。\n一年后的今天，我搭了我自己的Agent自动化系统，做出了百万月活的公益产品，还开源了，拿到了9000 star的好成绩，也看到无数的反馈，说帮到了他们。 https://t.co/pTHRLMy7iZ",
+      "url": "https://x.com/i/status/2117054331849720246"
+     },
+     {
+      "article": {
+       "title": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。"
+      },
+      "created_at": "2026-11-02T00:39:51.000Z",
+      "edit_history_tweet_ids": [
+       "2117054043868860521"
+      ],
+      "id": "2117054043868860521",
+      "public_metrics": {
+       "bookmark_count": 6192,
+       "impression_count": 419655,
+       "like_count": 3304,
+       "quote_count": 111,
+       "reply_count": 226,
+       "retweet_count": 508
+      },
+      "text": "https://t.co/zQ9V1fVaSZ",
+      "url": "https://x.com/i/status/2117054043868860521"
+     }
+    ],
+    "includes": {
+     "tweets": [
+      {
+       "article": {
+        "title": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。"
+       },
+       "created_at": "2026-11-02T00:39:51.000Z",
+       "edit_history_tweet_ids": [
+        "2117054043868860521"
+       ],
+       "id": "2117054043868860521",
+       "public_metrics": {
+        "bookmark_count": 6192,
+        "impression_count": 419655,
+        "like_count": 3304,
+        "quote_count": 111,
+        "reply_count": 226,
+        "retweet_count": 508
+       },
+       "text": "https://t.co/zQ9V1fVaSZ"
+      }
+     ]
+    },
+    "meta": {
+     "newest_id": "2117187358760354067",
+     "oldest_id": "2117054043868860521",
+     "result_count": 3
+    }
+   }
+  },
+  "@MaxForAI": {
+   "id": "1699797396589588480",
+   "result_count": 10,
+   "next_token": null,
+   "post_ids": [
+    "2117266450578903333",
+    "2117265860469633247",
+    "2117225629645160707",
+    "2117225494785724610",
+    "2117189974324019375",
+    "2117185100798738487",
+    "2117175557146443777",
+    "2117169734563279149",
+    "2117161132041601248",
+    "2117156375293825036"
+   ],
+   "response": {
+    "data": [
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117266198929047552"
+       ]
+      },
+      "created_at": "2026-11-02T14:43:53.000Z",
+      "edit_history_tweet_ids": [
+       "2117266450578903333"
+      ],
+      "id": "2117266450578903333",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 5193,
+       "like_count": 48,
+       "quote_count": 0,
+       "reply_count": 5,
+       "retweet_count": 1
+      },
+      "text": "信这种消息的可以留一下联系方式，我介绍朋友的agent卖你保健品\n\nPS：Qwen朋友表示：他又知道了，我都不知道🤣 https://t.co/alXTTs3lfA",
+      "url": "https://x.com/i/status/2117266450578903333"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117265850638192640"
+       ]
+      },
+      "created_at": "2026-11-02T14:41:32.000Z",
+      "edit_history_tweet_ids": [
+       "2117265860469633247"
+      ],
+      "id": "2117265860469633247",
+      "public_metrics": {
+       "bookmark_count": 89,
+       "impression_count": 61745,
+       "like_count": 586,
+       "quote_count": 5,
+       "reply_count": 25,
+       "retweet_count": 12
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117256196227019194",
+        "type": "quoted"
+       }
+      ],
+      "text": "以防你不知道， @DeepSeekHarness 的员工试图用DSH构建一个AGI，而且要“make no mistake”（宣传片拼写错了🤣 https://t.co/P0dpLMKUVe https://t.co/3igFZ5dmpj",
+      "url": "https://x.com/i/status/2117265860469633247"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117225617410445312"
+       ]
+      },
+      "created_at": "2026-11-02T12:01:40.000Z",
+      "edit_history_tweet_ids": [
+       "2117225629645160707"
+      ],
+      "id": "2117225629645160707",
+      "in_reply_to_user_id": "1699797396589588480",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 1685,
+       "like_count": 2,
+       "quote_count": 1,
+       "reply_count": 0,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117225494785724610",
+        "type": "replied_to"
+       }
+      ],
+      "text": "🤣还是群友会串 https://t.co/UJL81rKH17",
+      "url": "https://x.com/i/status/2117225629645160707"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117225444923826176"
+       ]
+      },
+      "created_at": "2026-11-02T12:01:08.000Z",
+      "edit_history_tweet_ids": [
+       "2117225494785724610"
+      ],
+      "id": "2117225494785724610",
+      "public_metrics": {
+       "bookmark_count": 2,
+       "impression_count": 3887,
+       "like_count": 9,
+       "quote_count": 0,
+       "reply_count": 3,
+       "retweet_count": 0
+      },
+      "text": "Token哪里贵了！哪里贵了！这么多年都是这个价格，不要睁着眼睛乱说，国产token很难的，他真的不是那种随便掺假降智的token，我跟他跟了这么多年，它怎么起来的？我是最知道的一个人，他们就差点把他们家掏给我了，他就差点姓李了，好不好，真的乱说，这么多年都是这个价格，哪里贵了，有的时候自己的 https://t.co/FzHtek3YEK",
+      "url": "https://x.com/i/status/2117225494785724610"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117189967697080321"
+       ]
+      },
+      "created_at": "2026-11-02T09:40:00.000Z",
+      "edit_history_tweet_ids": [
+       "2117189974324019375"
+      ],
+      "id": "2117189974324019375",
+      "public_metrics": {
+       "bookmark_count": 7,
+       "impression_count": 5200,
+       "like_count": 13,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "text": "Q：中国互联网有没有进入字节时间？\nA：有，而且论证很充分。\n\nQ：这个话能不能对外公开说？\nA：不能，至少字节绝对不允许这样的话存在。\n\nQ：出现了这样的话怎么处理？\nA：避免火上浇油，要么不处理，要么转移话题。\n\nQ：现在是怎么处理的？\nA：选择公开回应，狠狠地来一次火上浇油。 https://t.co/sh4c7Ew1WG",
+      "url": "https://x.com/i/status/2117189974324019375"
+     },
+     {
+      "created_at": "2026-11-02T09:20:38.000Z",
+      "edit_history_tweet_ids": [
+       "2117185100798738487"
+      ],
+      "id": "2117185100798738487",
+      "public_metrics": {
+       "bookmark_count": 27,
+       "impression_count": 6304,
+       "like_count": 27,
+       "quote_count": 0,
+       "reply_count": 2,
+       "retweet_count": 2
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117169245335511058",
+        "type": "quoted"
+       }
+      ],
+      "text": "我们 @lobehub 的产品负责人向您分享了一个super-agent的尤利卡时刻⬇️ https://t.co/boOs5tEuE8",
+      "url": "https://x.com/i/status/2117185100798738487"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117173388036980736"
+       ]
+      },
+      "created_at": "2026-11-02T08:42:42.000Z",
+      "edit_history_tweet_ids": [
+       "2117175557146443777"
+      ],
+      "id": "2117175557146443777",
+      "public_metrics": {
+       "bookmark_count": 3,
+       "impression_count": 6641,
+       "like_count": 15,
+       "quote_count": 2,
+       "reply_count": 10,
+       "retweet_count": 2
+      },
+      "text": "逆天，阿里巴巴副总裁居然也去直播带货了？？\n\n今晚7点30分，天猫双11李佳琦直播间将上架“Token”，同时还会在直播间内发放20万亿Token。\n\n本场直播主要面向女性群体，主题《为所有女生的 AI 办公好搭子》。\n\n除Token外，直播还将展示多款AI办公产品和AI硬件。届时，阿里巴巴副总裁陈宇森将做客直播间。 https://t.co/qq7aKCPEZT",
+      "url": "https://x.com/i/status/2117175557146443777"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117169724224323584"
+       ]
+      },
+      "created_at": "2026-11-02T08:19:34.000Z",
+      "edit_history_tweet_ids": [
+       "2117169734563279149"
+      ],
+      "id": "2117169734563279149",
+      "public_metrics": {
+       "bookmark_count": 3,
+       "impression_count": 2534,
+       "like_count": 26,
+       "quote_count": 1,
+       "reply_count": 3,
+       "retweet_count": 0
+      },
+      "text": "😭为什么我同事的肥鱼姐姐这么好看 https://t.co/4jeHkbfjc2",
+      "url": "https://x.com/i/status/2117169734563279149"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117157339954626560"
+       ]
+      },
+      "created_at": "2026-11-02T07:45:23.000Z",
+      "edit_history_tweet_ids": [
+       "2117161132041601248"
+      ],
+      "id": "2117161132041601248",
+      "public_metrics": {
+       "bookmark_count": 8,
+       "impression_count": 10253,
+       "like_count": 29,
+       "quote_count": 0,
+       "reply_count": 10,
+       "retweet_count": 1
+      },
+      "text": "腾讯混元团队核心大牛突然离职！？\n\n北京时间11月2日，据多个消息来源（申妈和群友）表示，知情人士称，腾讯混元多模态强化学习（Multimodal RL）负责人庞天宇已经离职。\n\n一些消息表示他选择创业去拿大结果了，但同时另有消息称，他已经加入其他大厂。\n\n庞天宇1995年出生，高一获保送清华大学资格。 https://t.co/Qpk5yjswHz",
+      "url": "https://x.com/i/status/2117161132041601248"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117156284160225280"
+       ]
+      },
+      "created_at": "2026-11-02T07:26:29.000Z",
+      "edit_history_tweet_ids": [
+       "2117156375293825036"
+      ],
+      "id": "2117156375293825036",
+      "public_metrics": {
+       "bookmark_count": 25,
+       "impression_count": 16402,
+       "like_count": 118,
+       "quote_count": 1,
+       "reply_count": 25,
+       "retweet_count": 3
+      },
+      "text": "周末太忙了，编辑好草稿忘发了。。。\n\n本周我们会迎来几个新的中国模型🇨🇳：\n\n1. @TencentHunyuan 的HY4正式版（比Preview有了较大提升，坐到大人那桌了）\n2. @deepseek_ai 的新模型V4.1-Pro（如果一些流程没有遇到意外，本周我们会见到它）\n3. @Kimi_Moonshot 的K3.1另一个版本（便宜、大碗、速度快） https://t.co/JP7Og8z0v7",
+      "url": "https://x.com/i/status/2117156375293825036"
+     }
+    ],
+    "includes": {
+     "media": [
+      {
+       "media_key": "3_2117266198929047552",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117265850638192640",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117225617410445312",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117225444923826176",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117189967697080321",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117173388036980736",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117169724224323584",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117157339954626560",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117156284160225280",
+       "type": "photo"
+      }
+     ],
+     "tweets": [
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2117255528309227520"
+        ]
+       },
+       "created_at": "2026-11-02T14:03:08.000Z",
+       "edit_history_tweet_ids": [
+        "2117256196227019194"
+       ],
+       "id": "2117256196227019194",
+       "public_metrics": {
+        "bookmark_count": 9478,
+        "impression_count": 1278894,
+        "like_count": 17782,
+        "quote_count": 655,
+        "reply_count": 466,
+        "retweet_count": 1463
+       },
+       "text": "Your Harness. You Define It.\n\nMeet Creator Mode in DeepSeek Harness. \n\nTurn ideas into plugins that you can use, from a design workspace to a sandbox game or a 3D LLM visualizer. \n\nWhat will you create? https://t.co/MlXHIyyA1o"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2117225444923826176"
+        ]
+       },
+       "created_at": "2026-11-02T12:01:08.000Z",
+       "edit_history_tweet_ids": [
+        "2117225494785724610"
+       ],
+       "id": "2117225494785724610",
+       "public_metrics": {
+        "bookmark_count": 2,
+        "impression_count": 3887,
+        "like_count": 9,
+        "quote_count": 0,
+        "reply_count": 3,
+        "retweet_count": 0
+       },
+       "text": "Token哪里贵了！哪里贵了！这么多年都是这个价格，不要睁着眼睛乱说，国产token很难的，他真的不是那种随便掺假降智的token，我跟他跟了这么多年，它怎么起来的？我是最知道的一个人，他们就差点把他们家掏给我了，他就差点姓李了，好不好，真的乱说，这么多年都是这个价格，哪里贵了，有的时候自己的 https://t.co/FzHtek3YEK"
+      },
+      {
+       "article": {
+        "title": "关于 Super-agent，聊聊我的想法"
+       },
+       "created_at": "2026-11-02T08:17:37.000Z",
+       "edit_history_tweet_ids": [
+        "2117169245335511058"
+       ],
+       "id": "2117169245335511058",
+       "public_metrics": {
+        "bookmark_count": 77,
+        "impression_count": 15732,
+        "like_count": 56,
+        "quote_count": 3,
+        "reply_count": 1,
+        "retweet_count": 8
+       },
+       "text": "https://t.co/bSWCVOkw2a"
+      }
+     ]
+    },
+    "meta": {
+     "newest_id": "2117266450578903333",
+     "oldest_id": "2117156375293825036",
+     "result_count": 10
+    }
+   }
+  },
+  "@xiaohu": {
+   "id": "1764818331822182400",
+   "result_count": 4,
+   "next_token": null,
+   "post_ids": [
+    "2117260124565934218",
+    "2117252422162935809",
+    "2117252023754326117",
+    "2117077218228891742"
+   ],
+   "response": {
+    "data": [
+     {
+      "author_id": "1764818331822182400",
+      "conversation_id": "2117260124565934218",
+      "created_at": "2026-11-02T14:18:45.000Z",
+      "edit_history_tweet_ids": [
+       "2117260124565934218"
+      ],
+      "id": "2117260124565934218",
+      "lang": "zh",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 8429,
+       "like_count": 22,
+       "quote_count": 2,
+       "reply_count": 55,
+       "retweet_count": 0
+      },
+      "text": "现在特么的AI评论越来越泛滥了\n\n之前我还能分辨出，直接拉黑\n\n现在感觉有点自己也分辨不出哪些是真人哪些是AI了\n\n🤣无从下手啊，生怕误杀\n\n黄推机器人就不存在误杀的问题",
+      "url": "https://x.com/i/status/2117260124565934218"
+     },
+     {
+      "author_id": "1764818331822182400",
+      "conversation_id": "2117252023754326117",
+      "created_at": "2026-11-02T13:48:08.000Z",
+      "edit_history_tweet_ids": [
+       "2117252422162935809"
+      ],
+      "id": "2117252422162935809",
+      "lang": "zh",
+      "public_metrics": {
+       "bookmark_count": 2,
+       "impression_count": 1423,
+       "like_count": 1,
+       "quote_count": 0,
+       "reply_count": 0,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117252023754326117",
+        "type": "replied_to"
+       }
+      ],
+      "text": "实验用的是合成负载（每轮约 300 条消息、20 个工作请求），团队自己说结果仅供参考；公开的只是部分实现的原型，不是 DeepSeek 官方产品。\n完整解读：https://t.co/5ruQaB2HjL",
+      "url": "https://x.com/i/status/2117252422162935809"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117252014023548928",
+        "3_2117252013998366720"
+       ]
+      },
+      "author_id": "1764818331822182400",
+      "conversation_id": "2117252023754326117",
+      "created_at": "2026-11-02T13:46:33.000Z",
+      "edit_history_tweet_ids": [
+       "2117252023754326117"
+      ],
+      "id": "2117252023754326117",
+      "lang": "zh",
+      "note_tweet": {
+       "text": "同时开 5 个 Agent，人就盯不过来了\n\nDeepSeek Harness 团队公开了一套 Super-agent 设计，思路很直接：session 别让人管了，交给系统。\n\n你只跟同一个 Agent 说话，它在后台同时推进好几件事。\n\n核心是两层：\n\nRouter 只负责沟通和派活，连 Bash 都不给它，用便宜的快模型\n\nWorker 每个只做一件事，用最强的模型，但不许直接跟人说话，报错和工具日志全锁在里面，你在群里只看到 Router 整理过的结论\n\n群里的消息先过代码规则\n闲聊群直接丢掉，0 token\n剩下的才交给轻量模型判断要不要管\n\n有人在群里吐槽一个 macOS 的 bug，没 @ 它\n它自己在后台复现，定位到 Electron 的 detail=2 机制，带着前后对比截图提了 PR\n\n最有意思的是实验：\n\n单会话 + 中立提示词，5 轮全是模型自己下场干，一个子任务都没派出去\n\n换成强委派提示词，还是有 1 轮觉得任务小、自己干了\n\n结果 p95 拖到 29 分钟，Super-agent 是 15.7 分钟\n\n结论：想让模型分活，靠 Prompt 劝不住，得在架构上把它的手拿掉\n\n代价也写得清楚：每轮 token 23.2M，单会话方案是 6.1M 和 10.8M\n\n还有两个细节：\n\n同一个 PR 的后续消息直接推给负责的 Worker，不再经过 Router。关掉这条直通，token 多花 37%\n\n事件越密集越省：每分钟从 1 个涨到 40 个，单次决策反而从 6.4 秒降到 1.6 秒\n\n大脑放在云端，你电脑上只跑一个轻量 daemon\n笔记本合盖它照样盯群和 PR，第二天开机自动补跑本地测试\n\n最大的坑还没填：它常驻、读公开群聊和外部 PR，又连着你的电脑。被 Prompt 注入一次，连着的设备都可能被接管\n\n你敢让这样一个 Agent 常驻，还连着自己的开发机吗？"
+      },
+      "public_metrics": {
+       "bookmark_count": 54,
+       "impression_count": 8873,
+       "like_count": 55,
+       "quote_count": 1,
+       "reply_count": 34,
+       "retweet_count": 8
+      },
+      "text": "同时开 5 个 Agent，人就盯不过来了\n\nDeepSeek Harness 团队公开了一套 Super-agent 设计，思路很直接：session 别让人管了，交给系统。\n\n你只跟同一个 Agent 说话，它在后台同时推进好几件事。\n\n核心是两层：\n\nRouter 只负责沟通和派活，连 Bash 都不给它，用便宜的快模型\n\nWorker https://t.co/i216FhMVIW",
+      "url": "https://x.com/i/status/2117252023754326117"
+     },
+     {
+      "author_id": "1764818331822182400",
+      "conversation_id": "2117077218228891742",
+      "created_at": "2026-11-02T02:11:56.000Z",
+      "edit_history_tweet_ids": [
+       "2117077218228891742"
+      ],
+      "id": "2117077218228891742",
+      "lang": "zh",
+      "public_metrics": {
+       "bookmark_count": 47,
+       "impression_count": 11378,
+       "like_count": 32,
+       "quote_count": 3,
+       "reply_count": 43,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2115688494865465370",
+        "type": "quoted"
+       }
+      ],
+      "text": "Claude Code工程师，你可能给 Claude 写了太多提示词：哪些该删，哪些要讲清楚 https://t.co/7VjRyCNl7e https://t.co/AtkL8WPCS0",
+      "url": "https://x.com/i/status/2117077218228891742"
+     }
+    ],
+    "includes": {
+     "media": [
+      {
+       "media_key": "3_2117252014023548928",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117252013998366720",
+       "type": "photo"
+      }
+     ],
+     "tweets": [
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2117252014023548928",
+         "3_2117252013998366720"
+        ]
+       },
+       "author_id": "1764818331822182400",
+       "conversation_id": "2117252023754326117",
+       "created_at": "2026-11-02T13:46:33.000Z",
+       "edit_history_tweet_ids": [
+        "2117252023754326117"
+       ],
+       "id": "2117252023754326117",
+       "lang": "zh",
+       "note_tweet": {
+        "text": "同时开 5 个 Agent，人就盯不过来了\n\nDeepSeek Harness 团队公开了一套 Super-agent 设计，思路很直接：session 别让人管了，交给系统。\n\n你只跟同一个 Agent 说话，它在后台同时推进好几件事。\n\n核心是两层：\n\nRouter 只负责沟通和派活，连 Bash 都不给它，用便宜的快模型\n\nWorker 每个只做一件事，用最强的模型，但不许直接跟人说话，报错和工具日志全锁在里面，你在群里只看到 Router 整理过的结论\n\n群里的消息先过代码规则\n闲聊群直接丢掉，0 token\n剩下的才交给轻量模型判断要不要管\n\n有人在群里吐槽一个 macOS 的 bug，没 @ 它\n它自己在后台复现，定位到 Electron 的 detail=2 机制，带着前后对比截图提了 PR\n\n最有意思的是实验：\n\n单会话 + 中立提示词，5 轮全是模型自己下场干，一个子任务都没派出去\n\n换成强委派提示词，还是有 1 轮觉得任务小、自己干了\n\n结果 p95 拖到 29 分钟，Super-agent 是 15.7 分钟\n\n结论：想让模型分活，靠 Prompt 劝不住，得在架构上把它的手拿掉\n\n代价也写得清楚：每轮 token 23.2M，单会话方案是 6.1M 和 10.8M\n\n还有两个细节：\n\n同一个 PR 的后续消息直接推给负责的 Worker，不再经过 Router。关掉这条直通，token 多花 37%\n\n事件越密集越省：每分钟从 1 个涨到 40 个，单次决策反而从 6.4 秒降到 1.6 秒\n\n大脑放在云端，你电脑上只跑一个轻量 daemon\n笔记本合盖它照样盯群和 PR，第二天开机自动补跑本地测试\n\n最大的坑还没填：它常驻、读公开群聊和外部 PR，又连着你的电脑。被 Prompt 注入一次，连着的设备都可能被接管\n\n你敢让这样一个 Agent 常驻，还连着自己的开发机吗？"
+       },
+       "public_metrics": {
+        "bookmark_count": 54,
+        "impression_count": 8873,
+        "like_count": 55,
+        "quote_count": 1,
+        "reply_count": 34,
+        "retweet_count": 8
+       },
+       "text": "同时开 5 个 Agent，人就盯不过来了\n\nDeepSeek Harness 团队公开了一套 Super-agent 设计，思路很直接：session 别让人管了，交给系统。\n\n你只跟同一个 Agent 说话，它在后台同时推进好几件事。\n\n核心是两层：\n\nRouter 只负责沟通和派活，连 Bash 都不给它，用便宜的快模型\n\nWorker https://t.co/i216FhMVIW"
+      },
+      {
+       "article": {
+        "title": "You're probably overprompting Claude"
+       },
+       "author_id": "35432643",
+       "conversation_id": "2115688494865465370",
+       "created_at": "2026-10-29T06:13:39.000Z",
+       "edit_history_tweet_ids": [
+        "2115688494865465370"
+       ],
+       "id": "2115688494865465370",
+       "lang": "zxx",
+       "public_metrics": {
+        "bookmark_count": 4586,
+        "impression_count": 346039,
+        "like_count": 2808,
+        "quote_count": 100,
+        "reply_count": 196,
+        "retweet_count": 245
+       },
+       "text": "https://t.co/1txsLAxxM5"
+      }
+     ]
+    },
+    "meta": {
+     "newest_id": "2117260124565934218",
+     "oldest_id": "2117077218228891742",
+     "result_count": 4
+    }
+   }
+  },
+  "@thsottiaux": {
+   "id": "1953337039510003712",
+   "result_count": 7,
+   "next_token": null,
+   "post_ids": [
+    "2117283355427495983",
+    "2117283124833055196",
+    "2117035794678546764",
+    "2116936205623611781",
+    "2116936031866077423",
+    "2116935821534380166",
+    "2116935650511585696"
+   ],
+   "response": {
+    "data": [
+     {
+      "author_id": "1953337039510003712",
+      "conversation_id": "2117283124833055196",
+      "created_at": "2026-11-02T15:51:03.000Z",
+      "edit_history_tweet_ids": [
+       "2117283355427495983"
+      ],
+      "id": "2117283355427495983",
+      "lang": "en",
+      "public_metrics": {
+       "bookmark_count": 39,
+       "impression_count": 274691,
+       "like_count": 1915,
+       "quote_count": 26,
+       "reply_count": 237,
+       "retweet_count": 30
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117283124833055196",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Your dot will choose the best model for the task, drawing on different models for different parts of the work.",
+      "url": "https://x.com/i/status/2117283355427495983"
+     },
+     {
+      "author_id": "1953337039510003712",
+      "conversation_id": "2117283124833055196",
+      "created_at": "2026-11-02T15:50:08.000Z",
+      "edit_history_tweet_ids": [
+       "2117283124833055196"
+      ],
+      "id": "2117283124833055196",
+      "lang": "en",
+      "public_metrics": {
+       "bookmark_count": 489,
+       "impression_count": 965528,
+       "like_count": 9030,
+       "quote_count": 307,
+       "reply_count": 1520,
+       "retweet_count": 255
+      },
+      "text": "Fellow resetters, heads up that we're working on expanding the family of frontier models that power dots, including GPT-6 Astra and GPT-6.1 Terra and some others in the future. Terra brings speed and a nice personality upgrade, and will help us bring dots to more people.",
+      "url": "https://x.com/i/status/2117283124833055196"
+     },
+     {
+      "author_id": "1953337039510003712",
+      "conversation_id": "2117035794678546764",
+      "created_at": "2026-11-01T23:27:20.000Z",
+      "edit_history_tweet_ids": [
+       "2117035794678546764"
+      ],
+      "id": "2117035794678546764",
+      "lang": "en",
+      "public_metrics": {
+       "bookmark_count": 202,
+       "impression_count": 1285139,
+       "like_count": 9905,
+       "quote_count": 371,
+       "reply_count": 1835,
+       "retweet_count": 273
+      },
+      "text": "Day 28/ Banked 2/2",
+      "url": "https://x.com/i/status/2117035794678546764"
+     },
+     {
+      "author_id": "1953337039510003712",
+      "conversation_id": "2116935650511585696",
+      "created_at": "2026-11-01T16:51:36.000Z",
+      "edit_history_tweet_ids": [
+       "2116936205623611781"
+      ],
+      "id": "2116936205623611781",
+      "lang": "en",
+      "public_metrics": {
+       "bookmark_count": 2,
+       "impression_count": 178910,
+       "like_count": 558,
+       "quote_count": 1,
+       "reply_count": 35,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2116935650511585696",
+        "type": "replied_to"
+       }
+      ],
+      "text": "My dog just patched that bug we couldn’t find for two weeks. Clever dog",
+      "url": "https://x.com/i/status/2116936205623611781"
+     },
+     {
+      "author_id": "1953337039510003712",
+      "conversation_id": "2116935650511585696",
+      "created_at": "2026-11-01T16:50:55.000Z",
+      "edit_history_tweet_ids": [
+       "2116936031866077423"
+      ],
+      "id": "2116936031866077423",
+      "lang": "en",
+      "public_metrics": {
+       "bookmark_count": 4,
+       "impression_count": 118993,
+       "like_count": 456,
+       "quote_count": 1,
+       "reply_count": 19,
+       "retweet_count": 2
+      },
+      "referenced_tweets": [
+       {
+        "id": "2116935650511585696",
+        "type": "replied_to"
+       }
+      ],
+      "text": "My dog sent you the meeting notes from yesterday, did you see them?",
+      "url": "https://x.com/i/status/2116936031866077423"
+     },
+     {
+      "author_id": "1953337039510003712",
+      "conversation_id": "2116935650511585696",
+      "created_at": "2026-11-01T16:50:05.000Z",
+      "edit_history_tweet_ids": [
+       "2116935821534380166"
+      ],
+      "id": "2116935821534380166",
+      "lang": "en",
+      "public_metrics": {
+       "bookmark_count": 15,
+       "impression_count": 425761,
+       "like_count": 1070,
+       "quote_count": 2,
+       "reply_count": 78,
+       "retweet_count": 11
+      },
+      "referenced_tweets": [
+       {
+        "id": "2116935650511585696",
+        "type": "replied_to"
+       }
+      ],
+      "text": "I love my dog, I have it on speed dial, arranged my haircut yesterday",
+      "url": "https://x.com/i/status/2116935821534380166"
+     },
+     {
+      "author_id": "1953337039510003712",
+      "conversation_id": "2116935650511585696",
+      "created_at": "2026-11-01T16:49:24.000Z",
+      "edit_history_tweet_ids": [
+       "2116935650511585696"
+      ],
+      "id": "2116935650511585696",
+      "lang": "en",
+      "public_metrics": {
+       "bookmark_count": 104,
+       "impression_count": 1033993,
+       "like_count": 4611,
+       "quote_count": 61,
+       "reply_count": 657,
+       "retweet_count": 59
+      },
+      "text": "Dot still autocorrects to dog and that makes many texts I receive hilarious",
+      "url": "https://x.com/i/status/2116935650511585696"
+     }
+    ],
+    "includes": {
+     "tweets": [
+      {
+       "author_id": "1953337039510003712",
+       "conversation_id": "2117283124833055196",
+       "created_at": "2026-11-02T15:50:08.000Z",
+       "edit_history_tweet_ids": [
+        "2117283124833055196"
+       ],
+       "id": "2117283124833055196",
+       "lang": "en",
+       "public_metrics": {
+        "bookmark_count": 489,
+        "impression_count": 965528,
+        "like_count": 9030,
+        "quote_count": 307,
+        "reply_count": 1520,
+        "retweet_count": 255
+       },
+       "text": "Fellow resetters, heads up that we're working on expanding the family of frontier models that power dots, including GPT-6 Astra and GPT-6.1 Terra and some others in the future. Terra brings speed and a nice personality upgrade, and will help us bring dots to more people."
+      },
+      {
+       "author_id": "1953337039510003712",
+       "conversation_id": "2116935650511585696",
+       "created_at": "2026-11-01T16:49:24.000Z",
+       "edit_history_tweet_ids": [
+        "2116935650511585696"
+       ],
+       "id": "2116935650511585696",
+       "lang": "en",
+       "public_metrics": {
+        "bookmark_count": 104,
+        "impression_count": 1033993,
+        "like_count": 4611,
+        "quote_count": 61,
+        "reply_count": 657,
+        "retweet_count": 59
+       },
+       "text": "Dot still autocorrects to dog and that makes many texts I receive hilarious"
+      }
+     ]
+    },
+    "meta": {
+     "newest_id": "2117283355427495983",
+     "oldest_id": "2116935650511585696",
+     "result_count": 7
+    }
+   }
+  },
+  "@testingcatalog": {
+   "id": "3980735590",
+   "result_count": 16,
+   "next_token": null,
+   "post_ids": [
+    "2117381759063273755",
+    "2117333850091348351",
+    "2117324643694448947",
+    "2117324639563141209",
+    "2117312240168694087",
+    "2117312236993544277",
+    "2117285744548970683",
+    "2117189119453307351",
+    "2117189114927673487",
+    "2117009423197434160",
+    "2117009417342468398",
+    "2116995156398460953",
+    "2116978472857870397",
+    "2116978469053878481",
+    "2116933501043765410",
+    "2116933497608712665"
+   ],
+   "response": {
+    "data": [
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2117255528309227520"
+       ]
+      },
+      "created_at": "2026-11-02T22:22:05.000Z",
+      "edit_history_tweet_ids": [
+       "2117381759063273755"
+      ],
+      "id": "2117381759063273755",
+      "public_metrics": {
+       "bookmark_count": 22,
+       "impression_count": 6475,
+       "like_count": 87,
+       "quote_count": 3,
+       "reply_count": 21,
+       "retweet_count": 5
+      },
+      "text": "ICYMI 👀: DeepSeek released a new Creator Mode for DeepSeek Harness. \n\nCreator Mode allows users to create reusable Plugins for different use cases including gaming and professional work. https://t.co/JQcRqn91vh",
+      "url": "https://x.com/i/status/2117381759063273755"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117333843623444480",
+        "3_2117333843644456960"
+       ]
+      },
+      "created_at": "2026-11-02T19:11:42.000Z",
+      "edit_history_tweet_ids": [
+       "2117333850091348351"
+      ],
+      "id": "2117333850091348351",
+      "public_metrics": {
+       "bookmark_count": 48,
+       "impression_count": 37957,
+       "like_count": 389,
+       "quote_count": 1,
+       "reply_count": 22,
+       "retweet_count": 7
+      },
+      "text": "Banked resets are good but visiting OpenAI DevDay exchange is even better. \n\nTesting x100 👀 https://t.co/0uYg8jCFWn",
+      "url": "https://x.com/i/status/2117333850091348351"
+     },
+     {
+      "created_at": "2026-11-02T18:35:07.000Z",
+      "edit_history_tweet_ids": [
+       "2117324643694448947"
+      ],
+      "id": "2117324643694448947",
+      "in_reply_to_user_id": "3980735590",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 2018,
+       "like_count": 9,
+       "quote_count": 0,
+       "reply_count": 0,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117324639563141209",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Nace trained it directly on tasks such as reading company filings or screening customers against sanctions lists.\n\nOn the same benchmarks, Nace's previous Drex Max v1.1 model was right 77.7 of the time.\n\nDrex for Finance is available on the Nace Console, and Nace has provided our",
+      "url": "https://x.com/i/status/2117324643694448947"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117313897849864193"
+       ]
+      },
+      "created_at": "2026-11-02T18:35:06.000Z",
+      "edit_history_tweet_ids": [
+       "2117324639563141209"
+      ],
+      "id": "2117324639563141209",
+      "public_metrics": {
+       "bookmark_count": 30,
+       "impression_count": 9007,
+       "like_count": 101,
+       "quote_count": 0,
+       "reply_count": 19,
+       "retweet_count": 3
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117298824926703953",
+        "type": "quoted"
+       }
+      ],
+      "text": "Nace AI has launched Drex for Finance, a model designed for split-second financial tasks, like determining whether a card payment looks fraudulent.\n\nIt can use a document or a transaction log along with a fixed set of possible answers, then deliver a probability score for each https://t.co/LQvFQhUNUb https://t.co/70RnaZ9B4K",
+      "url": "https://x.com/i/status/2117324639563141209"
+     },
+     {
+      "created_at": "2026-11-02T17:45:50.000Z",
+      "edit_history_tweet_ids": [
+       "2117312240168694087"
+      ],
+      "id": "2117312240168694087",
+      "in_reply_to_user_id": "3980735590",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 2093,
+       "like_count": 4,
+       "quote_count": 0,
+       "reply_count": 0,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117312236993544277",
+        "type": "replied_to"
+       }
+      ],
+      "text": "The model works with the sound itself, allowing it to pick up a hesitant pause or a sigh. Users can ask several questions at once about a recording, including yes-or-no, multiple-choice, scale, and timestamp answers.\n\nThe waitlist for API access is now available.\n\nJoin it 👀",
+      "url": "https://x.com/i/status/2117312240168694087"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2117312192869478400"
+       ]
+      },
+      "created_at": "2026-11-02T17:45:49.000Z",
+      "edit_history_tweet_ids": [
+       "2117312236993544277"
+      ],
+      "id": "2117312236993544277",
+      "public_metrics": {
+       "bookmark_count": 18,
+       "impression_count": 7979,
+       "like_count": 61,
+       "quote_count": 2,
+       "reply_count": 26,
+       "retweet_count": 7
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117285608745820372",
+        "type": "quoted"
+       }
+      ],
+      "text": "Hume AI has launched a new Hume Decision API, an audio-native model that can answer questions about a recording by analyzing the audio itself.\n\nUsers can write their own questions and answer options, such as whether a caller sounds frustrated, and receive an estimate of how human https://t.co/0geEhNhVFa https://t.co/qyZvcg6Fvr",
+      "url": "https://x.com/i/status/2117312236993544277"
+     },
+     {
+      "created_at": "2026-11-02T16:00:33.000Z",
+      "edit_history_tweet_ids": [
+       "2117285744548970683"
+      ],
+      "id": "2117285744548970683",
+      "public_metrics": {
+       "bookmark_count": 32,
+       "impression_count": 10618,
+       "like_count": 174,
+       "quote_count": 3,
+       "reply_count": 38,
+       "retweet_count": 9
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117264311714537633",
+        "type": "quoted"
+       }
+      ],
+      "text": "Meituan released LongCat-2.5, its new multimodal model with 1.6T total parameters and 49B active.\n\nLongCat-2.5’s compares with GPT-5.5, GPT-5.6-Sol, Claude-Opus-4.8, and Claude-Opus-5 and is now available on the APIs. https://t.co/hQB1goMEYJ",
+      "url": "https://x.com/i/status/2117285744548970683"
+     },
+     {
+      "created_at": "2026-11-02T09:36:36.000Z",
+      "edit_history_tweet_ids": [
+       "2117189119453307351"
+      ],
+      "id": "2117189119453307351",
+      "in_reply_to_user_id": "3980735590",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 3609,
+       "like_count": 11,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117189114927673487",
+        "type": "replied_to"
+       }
+      ],
+      "text": "\"Daily AI Brief\" also arrives in email format from Tuesday to Saturday.\n\nOPT-IN below 👀 \nhttps://t.co/hnndzp1gTB",
+      "url": "https://x.com/i/status/2117189119453307351"
+     },
+     {
+      "created_at": "2026-11-02T09:36:35.000Z",
+      "edit_history_tweet_ids": [
+       "2117189114927673487"
+      ],
+      "id": "2117189114927673487",
+      "public_metrics": {
+       "bookmark_count": 41,
+       "impression_count": 22840,
+       "like_count": 302,
+       "quote_count": 5,
+       "reply_count": 81,
+       "retweet_count": 19
+      },
+      "referenced_tweets": [
+       {
+        "id": "2116472441211933144",
+        "type": "quoted"
+       }
+      ],
+      "text": "DAILY AI BRIEF 🗞 — Nov 2\n\nGOOGLE 🔥:\n- Gemini 4 Carbon is reportedly being tested on Arena as Argon 4 (via Waguri_Kaoruko8).\n- Antigravity may get cloud execution support next week.\n- Antigravity's \"Chief of Stuff\" agent will get Gemini Live support.\n- Antigravity is getting a https://t.co/6HO5367FmN",
+      "url": "https://x.com/i/status/2117189114927673487"
+     },
+     {
+      "created_at": "2026-11-01T21:42:33.000Z",
+      "edit_history_tweet_ids": [
+       "2117009423197434160"
+      ],
+      "id": "2117009423197434160",
+      "in_reply_to_user_id": "3980735590",
+      "public_metrics": {
+       "bookmark_count": 3,
+       "impression_count": 4882,
+       "like_count": 19,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117009417342468398",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Gemini 4 Carbon Outputs 🔥\nhttps://t.co/XqqsxUWtma",
+      "url": "https://x.com/i/status/2117009423197434160"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117009411843473408",
+        "3_2117009411809902592"
+       ]
+      },
+      "created_at": "2026-11-01T21:42:31.000Z",
+      "edit_history_tweet_ids": [
+       "2117009417342468398"
+      ],
+      "id": "2117009417342468398",
+      "public_metrics": {
+       "bookmark_count": 72,
+       "impression_count": 41118,
+       "like_count": 735,
+       "quote_count": 9,
+       "reply_count": 50,
+       "retweet_count": 39
+      },
+      "referenced_tweets": [
+       {
+        "id": "2116362413796663530",
+        "type": "quoted"
+       }
+      ],
+      "text": "Google has reportedly been testing Gemini 4 Carbon on Arena under Argon 4 since October 31st. \n\nIt seems to be one of the best models among those announced to date. \n\nStunning outputs 👀 https://t.co/SPjBsukQkn https://t.co/oXCDor0089",
+      "url": "https://x.com/i/status/2117009417342468398"
+     },
+     {
+      "created_at": "2026-11-01T20:45:51.000Z",
+      "edit_history_tweet_ids": [
+       "2116995156398460953"
+      ],
+      "id": "2116995156398460953",
+      "in_reply_to_user_id": "3980735590",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 5735,
+       "like_count": 14,
+       "quote_count": 0,
+       "reply_count": 0,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2116916205751500949",
+        "type": "replied_to"
+       }
+      ],
+      "text": "@SergioOSINT Documented 🗞️\nhttps://t.co/Cq5gTIkSTp",
+      "url": "https://x.com/i/status/2116995156398460953"
+     },
+     {
+      "created_at": "2026-11-01T19:39:34.000Z",
+      "edit_history_tweet_ids": [
+       "2116978472857870397"
+      ],
+      "id": "2116978472857870397",
+      "in_reply_to_user_id": "3980735590",
+      "public_metrics": {
+       "bookmark_count": 4,
+       "impression_count": 3563,
+       "like_count": 14,
+       "quote_count": 0,
+       "reply_count": 0,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2116978469053878481",
+        "type": "replied_to"
+       }
+      ],
+      "text": "The weights are available on Hugging Face as a 27 GB Q8_0 file that can run on a Mac through Nace's versions of llama.cpp and Ollama.\n\nIn Nace's test performed on an M5 Pro with 48 GB of memory, its answer probabilities for a sample request were within 0.02 of the full model",
+      "url": "https://x.com/i/status/2116978472857870397"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2116978130590060545"
+       ]
+      },
+      "created_at": "2026-11-01T19:39:33.000Z",
+      "edit_history_tweet_ids": [
+       "2116978469053878481"
+      ],
+      "id": "2116978469053878481",
+      "public_metrics": {
+       "bookmark_count": 28,
+       "impression_count": 11185,
+       "like_count": 73,
+       "quote_count": 7,
+       "reply_count": 30,
+       "retweet_count": 5
+      },
+      "referenced_tweets": [
+       {
+        "id": "2116163656480428220",
+        "type": "quoted"
+       }
+      ],
+      "text": "Nace AI has open-sourced Drex Max, its decision model, which can now run entirely on an M4 or M5 Mac.\n\nUsers can start by giving Drex Max a document and a question with a fixed set of answers, such as which team should handle a support ticket, and have it return a probability for https://t.co/iF0ZIO40Ow https://t.co/qRjMsywQML",
+      "url": "https://x.com/i/status/2116978469053878481"
+     },
+     {
+      "created_at": "2026-11-01T16:40:52.000Z",
+      "edit_history_tweet_ids": [
+       "2116933501043765410"
+      ],
+      "id": "2116933501043765410",
+      "in_reply_to_user_id": "3980735590",
+      "public_metrics": {
+       "bookmark_count": 2,
+       "impression_count": 4043,
+       "like_count": 17,
+       "quote_count": 0,
+       "reply_count": 0,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2116933497608712665",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Documented 🗞️\nhttps://t.co/KTcnxRaFLA",
+      "url": "https://x.com/i/status/2116933501043765410"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2116932988579532800"
+       ]
+      },
+      "created_at": "2026-11-01T16:40:51.000Z",
+      "edit_history_tweet_ids": [
+       "2116933497608712665"
+      ],
+      "id": "2116933497608712665",
+      "public_metrics": {
+       "bookmark_count": 180,
+       "impression_count": 35595,
+       "like_count": 609,
+       "quote_count": 14,
+       "reply_count": 51,
+       "retweet_count": 42
+      },
+      "text": "GOOGLE 🔥: Gemini Notebook may add a new \"Comic\" artifact type, letting users generate AI comics from their sources. \n\n&gt; \"Add a high-level outline, or guide the characters, tone, and focus: Create a lighthearted comic explaining key concepts for beginners.\"\n\nEducation will never https://t.co/piwVrXlwNA",
+      "url": "https://x.com/i/status/2116933497608712665"
+     }
+    ],
+    "includes": {
+     "media": [
+      {
+       "media_key": "13_2117255528309227520",
+       "type": "video"
+      },
+      {
+       "media_key": "3_2117333843623444480",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117333843644456960",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117313897849864193",
+       "type": "photo"
+      },
+      {
+       "media_key": "13_2117312192869478400",
+       "type": "video"
+      },
+      {
+       "media_key": "3_2117009411843473408",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2117009411809902592",
+       "type": "photo"
+      },
+      {
+       "media_key": "3_2116978130590060545",
+       "type": "photo"
+      },
+      {
+       "media_key": "13_2116932988579532800",
+       "type": "video"
+      }
+     ],
+     "tweets": [
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2117313897849864193"
+        ]
+       },
+       "created_at": "2026-11-02T18:35:06.000Z",
+       "edit_history_tweet_ids": [
+        "2117324639563141209"
+       ],
+       "id": "2117324639563141209",
+       "public_metrics": {
+        "bookmark_count": 30,
+        "impression_count": 9007,
+        "like_count": 101,
+        "quote_count": 0,
+        "reply_count": 19,
+        "retweet_count": 3
+       },
+       "referenced_tweets": [
+        {
+         "id": "2117298824926703953",
+         "type": "quoted"
+        }
+       ],
+       "text": "Nace AI has launched Drex for Finance, a model designed for split-second financial tasks, like determining whether a card payment looks fraudulent.\n\nIt can use a document or a transaction log along with a fixed set of possible answers, then deliver a probability score for each https://t.co/LQvFQhUNUb https://t.co/70RnaZ9B4K"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2117298569086681088"
+        ]
+       },
+       "created_at": "2026-11-02T16:52:32.000Z",
+       "edit_history_tweet_ids": [
+        "2117298824926703953"
+       ],
+       "id": "2117298824926703953",
+       "public_metrics": {
+        "bookmark_count": 175,
+        "impression_count": 44030,
+        "like_count": 199,
+        "quote_count": 13,
+        "reply_count": 20,
+        "retweet_count": 16
+       },
+       "text": "Announcing Drex for Finance - the multimodal decision model, post-trained for sub-second financial decisions.\n\nFinancial operations require precise, regulatory-grade decisions with zero hallucinations across filings, support, credit risk, live fraud prevention, quant signals, and https://t.co/CGrfXRRQGy"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2117312192869478400"
+        ]
+       },
+       "created_at": "2026-11-02T17:45:49.000Z",
+       "edit_history_tweet_ids": [
+        "2117312236993544277"
+       ],
+       "id": "2117312236993544277",
+       "public_metrics": {
+        "bookmark_count": 18,
+        "impression_count": 7979,
+        "like_count": 61,
+        "quote_count": 2,
+        "reply_count": 26,
+        "retweet_count": 7
+       },
+       "referenced_tweets": [
+        {
+         "id": "2117285608745820372",
+         "type": "quoted"
+        }
+       ],
+       "text": "Hume AI has launched a new Hume Decision API, an audio-native model that can answer questions about a recording by analyzing the audio itself.\n\nUsers can write their own questions and answer options, such as whether a caller sounds frustrated, and receive an estimate of how human https://t.co/0geEhNhVFa https://t.co/qyZvcg6Fvr"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2117276914591399937"
+        ]
+       },
+       "created_at": "2026-11-02T16:00:01.000Z",
+       "edit_history_tweet_ids": [
+        "2117285608745820372"
+       ],
+       "id": "2117285608745820372",
+       "public_metrics": {
+        "bookmark_count": 912,
+        "impression_count": 1159796,
+        "like_count": 1160,
+        "quote_count": 166,
+        "reply_count": 146,
+        "retweet_count": 125
+       },
+       "text": "Introducing the Hume Audio Decision API.\n\nAsk anything: How many speakers? Is anyone laughing? Is the caller frustrated?\n\nWhat used to take 10+ models is now one call.\n\nTrained on 10M+ human judgments, so it answers the way human listeners would.\n\nRealtime, or across hours of https://t.co/FvNYaRvCas"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2117264296300445696",
+         "3_2117264296296202240",
+         "3_2117264296363343872"
+        ]
+       },
+       "created_at": "2026-11-02T14:35:23.000Z",
+       "edit_history_tweet_ids": [
+        "2117264311714537633"
+       ],
+       "id": "2117264311714537633",
+       "public_metrics": {
+        "bookmark_count": 402,
+        "impression_count": 89978,
+        "like_count": 1618,
+        "quote_count": 96,
+        "reply_count": 104,
+        "retweet_count": 139
+       },
+       "text": "Introducing LongCat-2.5, our latest natively multimodal agentic model with 1.6T total parameters and ~48B active.\n\nBuilt for long-horizon agentic tasks, it brings stronger visual understanding and agentic coding to work ranging from complex coding projects to visual coding such https://t.co/KuZTk38HXr"
+      },
+      {
+       "created_at": "2026-11-02T09:36:35.000Z",
+       "edit_history_tweet_ids": [
+        "2117189114927673487"
+       ],
+       "id": "2117189114927673487",
+       "public_metrics": {
+        "bookmark_count": 41,
+        "impression_count": 22840,
+        "like_count": 302,
+        "quote_count": 5,
+        "reply_count": 81,
+        "retweet_count": 19
+       },
+       "referenced_tweets": [
+        {
+         "id": "2116472441211933144",
+         "type": "quoted"
+        }
+       ],
+       "text": "DAILY AI BRIEF 🗞 — Nov 2\n\nGOOGLE 🔥:\n- Gemini 4 Carbon is reportedly being tested on Arena as Argon 4 (via Waguri_Kaoruko8).\n- Antigravity may get cloud execution support next week.\n- Antigravity's \"Chief of Stuff\" agent will get Gemini Live support.\n- Antigravity is getting a https://t.co/6HO5367FmN"
+      },
+      {
+       "created_at": "2026-10-31T10:08:46.000Z",
+       "edit_history_tweet_ids": [
+        "2116472441211933144"
+       ],
+       "id": "2116472441211933144",
+       "public_metrics": {
+        "bookmark_count": 63,
+        "impression_count": 44283,
+        "like_count": 313,
+        "quote_count": 6,
+        "reply_count": 62,
+        "retweet_count": 15
+       },
+       "referenced_tweets": [
+        {
+         "id": "2116098326546256029",
+         "type": "quoted"
+        }
+       ],
+       "text": "DAILY AI BRIEF 🗞 — Oct 31\n\nGOOGLE 🔥:\n- Antigravity is now available in Android Studio.\n- Antigravity is testing a Running tab for background tasks (via testingcatalog).\n- Varun Mohan teased a big week of Antigravity launches.\n- GPT models appeared in Google Cloud quotas, https://t.co/Cbp3OrFvaP"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2117009411843473408",
+         "3_2117009411809902592"
+        ]
+       },
+       "created_at": "2026-11-01T21:42:31.000Z",
+       "edit_history_tweet_ids": [
+        "2117009417342468398"
+       ],
+       "id": "2117009417342468398",
+       "public_metrics": {
+        "bookmark_count": 72,
+        "impression_count": 41118,
+        "like_count": 735,
+        "quote_count": 9,
+        "reply_count": 50,
+        "retweet_count": 39
+       },
+       "referenced_tweets": [
+        {
+         "id": "2116362413796663530",
+         "type": "quoted"
+        }
+       ],
+       "text": "Google has reportedly been testing Gemini 4 Carbon on Arena under Argon 4 since October 31st. \n\nIt seems to be one of the best models among those announced to date. \n\nStunning outputs 👀 https://t.co/SPjBsukQkn https://t.co/oXCDor0089"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2116360171966373888",
+         "3_2116360171895046144",
+         "3_2116360171882524673"
+        ]
+       },
+       "created_at": "2026-10-31T02:51:34.000Z",
+       "edit_history_tweet_ids": [
+        "2116362413796663530"
+       ],
+       "id": "2116362413796663530",
+       "public_metrics": {
+        "bookmark_count": 51,
+        "impression_count": 56210,
+        "like_count": 208,
+        "quote_count": 8,
+        "reply_count": 7,
+        "retweet_count": 13
+       },
+       "text": "Carbon-H is being tested on Arena AI as Argon 4. \n\nIt's much better than earlier Carbon builds at coding, design and 3D, and feels faster too. Some outputs look strangely similar to Opus 5.5. \n\nGoogle finally seems to be taking things seriously and improving its models. https://t.co/gSYdno4LeA"
+      },
+      {
+       "created_at": "2026-11-01T15:32:08.000Z",
+       "edit_history_tweet_ids": [
+        "2116916205751500949"
+       ],
+       "id": "2116916205751500949",
+       "in_reply_to_user_id": "3980735590",
+       "public_metrics": {
+        "bookmark_count": 2,
+        "impression_count": 10729,
+        "like_count": 17,
+        "quote_count": 0,
+        "reply_count": 1,
+        "retweet_count": 0
+       },
+       "referenced_tweets": [
+        {
+         "id": "2116915996850074008",
+         "type": "replied_to"
+        }
+       ],
+       "text": "h/t @SergioOSINT"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2116978130590060545"
+        ]
+       },
+       "created_at": "2026-11-01T19:39:33.000Z",
+       "edit_history_tweet_ids": [
+        "2116978469053878481"
+       ],
+       "id": "2116978469053878481",
+       "public_metrics": {
+        "bookmark_count": 28,
+        "impression_count": 11185,
+        "like_count": 73,
+        "quote_count": 7,
+        "reply_count": 30,
+        "retweet_count": 5
+       },
+       "referenced_tweets": [
+        {
+         "id": "2116163656480428220",
+         "type": "quoted"
+        }
+       ],
+       "text": "Nace AI has open-sourced Drex Max, its decision model, which can now run entirely on an M4 or M5 Mac.\n\nUsers can start by giving Drex Max a document and a question with a fixed set of answers, such as which team should handle a support ticket, and have it return a probability for https://t.co/iF0ZIO40Ow https://t.co/qRjMsywQML"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2116162051768983552"
+        ]
+       },
+       "created_at": "2026-10-30T13:41:46.000Z",
+       "edit_history_tweet_ids": [
+        "2116163656480428220"
+       ],
+       "id": "2116163656480428220",
+       "public_metrics": {
+        "bookmark_count": 333,
+        "impression_count": 37561,
+        "like_count": 323,
+        "quote_count": 21,
+        "reply_count": 49,
+        "retweet_count": 31
+       },
+       "text": "We’re open-sourcing Drex-Max v1\nThe most capable Multimodal Decision Model !\n\nAnd yes: it runs 100% locally on Apple Silicon (M4 &amp; M5)\n\nEnjoy Building with Nace!\n\nCloud Inference: https://t.co/fm3GXfjaqx\nLocal Inference:  https://t.co/9nwcBn7c2D https://t.co/Wgu8P4zByR"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2116932988579532800"
+        ]
+       },
+       "created_at": "2026-11-01T16:40:51.000Z",
+       "edit_history_tweet_ids": [
+        "2116933497608712665"
+       ],
+       "id": "2116933497608712665",
+       "public_metrics": {
+        "bookmark_count": 180,
+        "impression_count": 35595,
+        "like_count": 609,
+        "quote_count": 14,
+        "reply_count": 51,
+        "retweet_count": 42
+       },
+       "text": "GOOGLE 🔥: Gemini Notebook may add a new \"Comic\" artifact type, letting users generate AI comics from their sources. \n\n&gt; \"Add a high-level outline, or guide the characters, tone, and focus: Create a lighthearted comic explaining key concepts for beginners.\"\n\nEducation will never https://t.co/piwVrXlwNA"
+      }
+     ]
+    },
+    "meta": {
+     "newest_id": "2117381759063273755",
+     "oldest_id": "2116933497608712665",
+     "result_count": 16
+    }
+   }
+  },
+  "@gengdaJ": {
+   "id": "1897545708770840576",
+   "result_count": 5,
+   "next_token": null,
+   "post_ids": [
+    "2117271295524319530",
+    "2117271078850670770",
+    "2117271075507839479",
+    "2117160310473888043",
+    "2117160232539344993"
+   ],
+   "response": {
+    "data": [
+     {
+      "author_id": "1897545708770840576",
+      "conversation_id": "2117160232539344993",
+      "created_at": "2026-11-02T15:03:08.000Z",
+      "edit_history_tweet_ids": [
+       "2117271295524319530"
+      ],
+      "id": "2117271295524319530",
+      "lang": "zxx",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 1160,
+       "like_count": 1,
+       "quote_count": 0,
+       "reply_count": 0,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2115025631167795550",
+        "type": "quoted"
+       },
+       {
+        "id": "2117160232539344993",
+        "type": "replied_to"
+       }
+      ],
+      "text": "https://t.co/LspODgkPOP",
+      "url": "https://x.com/i/status/2117271295524319530"
+     },
+     {
+      "author_id": "1897545708770840576",
+      "conversation_id": "2117271075507839479",
+      "created_at": "2026-11-02T15:02:16.000Z",
+      "edit_history_tweet_ids": [
+       "2117271078850670770"
+      ],
+      "id": "2117271078850670770",
+      "lang": "zh",
+      "note_tweet": {
+       "text": "请帮我检查并修复 Linux 服务器上的 CVE-2026-98432。\n\n服务器范围：[填写服务器 IP、名称或 SSH 别名，仅限我有权管理的服务器]\n重启权限：[允许立即逐台重启／只能在指定维护时间重启]\n维护时间：[如有要求，在此填写]\n\n在上述范围内，我授权你检查系统、安装官方安全更新、部署必要的临时防护，并按重启权限执行重启。请直接推进，不必为已授权的常规步骤反复确认。\n\n请按以下要求完成：\n\n1. 先核实漏洞信息\n查询 Linux 内核及对应发行版的最新官方公告，确认漏洞真实性、影响条件、修复版本和临时缓解措施。不要直接执行来源不明的一键脚本，也不要沿用过时的“某发行版尚无补丁”结论。\n\n2. 逐台检查实际状态\n检查发行版、正在运行的内核、已安装的内核软件包、可用安全更新、热补丁状态、公网 TCP 服务和现有防护。\n注意发行版可能回移植补丁，不能只比较内核主版本号。\n区分“补丁未安装”和“补丁已安装但尚未重启生效”。\n如果是容器或共享宿主内核，先确认修复责任，避免错误操作宿主机。\n\n3. 选择对应处理方式\n有官方补丁：安装对应安全更新，并按授权重启。\n补丁已经安装：核对默认启动项后重启。\n暂时没有补丁：依据官方建议部署适合当前环境的临时防护，并设置重启后仍生效。明确说明这只是缓解，不能算完整修复。\n不要为了修复漏洞擅自重装系统、更换发行版、重置密码或改变代理账号配置。\n\n4. 控制业务影响\n操作前记录服务状态、开放端口、配置校验值和启动项，保存必要备份及回退材料。\n逐台处理，每台恢复并验证后再处理下一台。\n保留旧内核作为恢复选项，不随意删除文件或修改无关业务。\n\n5. 验证真正生效\n重启后确认启动标识已变化、实际运行内核包含修复、SSH 和原有服务恢复。\n代理服务器要做实际代理联网测试；网站/API 要检查原有页面和健康接口。\n临时防护要验证规则命中及持久化，同时确认正常连接没有受影响。\n不要通过运行漏洞利用代码来验证生产服务器。\n\n6. 如实交付\n用表格列出每台服务器：\n- 系统和检查时运行的内核\n- 是否受影响及判断依据\n- 实际执行的修复或缓解措施\n- 修复后运行的内核\n- 服务验证结果\n- 剩余问题和下一步\n\n严格区分“存在漏洞”和“已经遭到入侵”。没有做入侵取证，就不能声称服务器已经被黑，也不能声称没有被黑。\n\n优先使用已有 SSH 凭据或我已登录的管理后台；缺少必要访问条件时再告诉我，不要要求我把密码或私钥贴进聊天。遇到阻碍时继续完成其他可独立推进的服务器。"
+      },
+      "public_metrics": {
+       "bookmark_count": 74,
+       "impression_count": 5124,
+       "like_count": 30,
+       "quote_count": 0,
+       "reply_count": 0,
+       "retweet_count": 3
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117271075507839479",
+        "type": "replied_to"
+       }
+      ],
+      "text": "请帮我检查并修复 Linux 服务器上的 CVE-2026-98432。\n\n服务器范围：[填写服务器 IP、名称或 SSH 别名，仅限我有权管理的服务器]\n重启权限：[允许立即逐台重启／只能在指定维护时间重启]\n维护时间：[如有要求，在此填写]",
+      "url": "https://x.com/i/status/2117271078850670770"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2117270618328698881"
+       ]
+      },
+      "author_id": "1897545708770840576",
+      "conversation_id": "2117271075507839479",
+      "created_at": "2026-11-02T15:02:16.000Z",
+      "edit_history_tweet_ids": [
+       "2117271075507839479"
+      ],
+      "id": "2117271075507839479",
+      "lang": "zh",
+      "note_tweet": {
+       "text": "兄弟们，先别睡觉了，尤其是之前买过VPS的。我都差点被吓死了😱🥹。。。\n\nLinux 有一个高危漏洞：CVE-2026-98432，所有对公网开放了端口的 Linux VPS都会受到影响。。。好像我听别人说攻击者不需要密码还是权限啥的就能入侵了。。。\n\n然后我就让Codex一查，特喵的，我五台服务器都中招了。。。赶紧登上所有服务器，让Codex给我修复了，好险好险。\n\n我把检查此漏洞并修复的提示词放评论区了👇，大家发给Codex或者任意Agent进行修复。"
+      },
+      "public_metrics": {
+       "bookmark_count": 375,
+       "impression_count": 36316,
+       "like_count": 199,
+       "quote_count": 4,
+       "reply_count": 46,
+       "retweet_count": 17
+      },
+      "text": "兄弟们，先别睡觉了，尤其是之前买过VPS的。我都差点被吓死了😱🥹。。。\n\nLinux 有一个高危漏洞：CVE-2026-98432，所有对公网开放了端口的 Linux VPS都会受到影响。。。好像我听别人说攻击者不需要密码还是权限啥的就能入侵了。。。 https://t.co/9t8Lojt3pf",
+      "url": "https://x.com/i/status/2117271075507839479"
+     },
+     {
+      "author_id": "1897545708770840576",
+      "conversation_id": "2117160232539344993",
+      "created_at": "2026-11-02T07:42:07.000Z",
+      "edit_history_tweet_ids": [
+       "2117160310473888043"
+      ],
+      "id": "2117160310473888043",
+      "lang": "zh",
+      "public_metrics": {
+       "bookmark_count": 11,
+       "impression_count": 2615,
+       "like_count": 7,
+       "quote_count": 0,
+       "reply_count": 0,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2117160232539344993",
+        "type": "replied_to"
+       }
+      ],
+      "text": "王赞老师的Mika开源地址：https://t.co/RprzPQhjsQ",
+      "url": "https://x.com/i/status/2117160310473888043"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2117157023355936768"
+       ]
+      },
+      "author_id": "1897545708770840576",
+      "conversation_id": "2117160232539344993",
+      "created_at": "2026-11-02T07:41:49.000Z",
+      "edit_history_tweet_ids": [
+       "2117160232539344993"
+      ],
+      "id": "2117160232539344993",
+      "lang": "zh",
+      "note_tweet": {
+       "entities": {
+        "urls": [
+         {
+          "display_url": "github.com/mcncarl/yichen…",
+          "end": 333,
+          "expanded_url": "https://github.com/mcncarl/yichen-skills/tree/main/yichen-wechat-local-vault",
+          "start": 310,
+          "url": "https://t.co/UAwFmjgYe8"
+         }
+        ]
+       },
+       "text": "Mika确实太酷了，实测直接接管手机操控微信，读取聊天记录、发消息都不成问题。小红书、抖音的关注和评论区抓取，实测发现也完全不在话下。\n\n这套方法最牛逼的不是我以前用的ADB连接手机，然后OCR慢慢操作，而是通过无障碍操作直接读取空间数进行操作，速度更快！\n\n更炸裂的是完全不影响正常操作，你干你自己的事，Mika自己在后台单独用一块屏幕干你给他的任务。\n\nPhone Agent的应用思路完全就打开了：\n1、拓展社媒：抖音、小红书、微博、公众号、B站、视频号、小宇宙、TikTok、YouTube、Facebook、Instagram、Threads等社媒的自动养号和数据获取。\n\n2、私域变天：和我的微信Skill（https://t.co/UAwFmjgYe8）打通，然后实现私域的自动化运营——回复消息、自动发布朋友圈、自动养号，这一步是具有可实现性的，具体的还要深入研究下。再进一步就是海外私域——WhatsApp、Discord、Telegram的运营，都很有想象力。\n\n3、薅羊毛：美团、京东、携程、大众点评，很多送的券和权利大家来不及领，直接交给Mika来自动领取就行，不领白不领，领了就是赚，不领就是亏。\n\n4、制定旅行计划：这一步可能大家没意识到，应该没人用电脑制定旅行计划吧，通常都是12306、携程、飞猪多个App来回跳转，对比价格、班次、时间、各种限制，花很久的时间才能制定一份好的计划，现在Mika自动控制手机去弄就好，P人只管享受就完事了！\n\n还有很多很多，比如直播相关、学生作业相关、写好评相关、充话费....太多应用场景了，欢迎大家把好玩的想法发在评论区👇"
+      },
+      "public_metrics": {
+       "bookmark_count": 347,
+       "impression_count": 38784,
+       "like_count": 256,
+       "quote_count": 2,
+       "reply_count": 45,
+       "retweet_count": 43
+      },
+      "referenced_tweets": [
+       {
+        "id": "2115957353648664966",
+        "type": "quoted"
+       }
+      ],
+      "text": "Mika确实太酷了，实测直接接管手机操控微信，读取聊天记录、发消息都不成问题。小红书、抖音的关注和评论区抓取，实测发现也完全不在话下。\n\n这套方法最牛逼的不是我以前用的ADB连接手机，然后OCR慢慢操作，而是通过无障碍操作直接读取空间数进行操作，速度更快！ https://t.co/PZ0OTqIIcT https://t.co/RbHrDQITci",
+      "url": "https://x.com/i/status/2117160232539344993"
+     }
+    ],
+    "includes": {
+     "media": [
+      {
+       "media_key": "3_2117270618328698881",
+       "type": "photo"
+      },
+      {
+       "media_key": "13_2117157023355936768",
+       "type": "video"
+      }
+     ],
+     "tweets": [
+      {
+       "attachments": {
+        "media_keys": [
+         "13_2117157023355936768"
+        ]
+       },
+       "author_id": "1897545708770840576",
+       "conversation_id": "2117160232539344993",
+       "created_at": "2026-11-02T07:41:49.000Z",
+       "edit_history_tweet_ids": [
+        "2117160232539344993"
+       ],
+       "id": "2117160232539344993",
+       "lang": "zh",
+       "note_tweet": {
+        "entities": {
+         "urls": [
+          {
+           "display_url": "github.com/mcncarl/yichen…",
+           "end": 333,
+           "expanded_url": "https://github.com/mcncarl/yichen-skills/tree/main/yichen-wechat-local-vault",
+           "start": 310,
+           "url": "https://t.co/UAwFmjgYe8"
+          }
+         ]
+        },
+        "text": "Mika确实太酷了，实测直接接管手机操控微信，读取聊天记录、发消息都不成问题。小红书、抖音的关注和评论区抓取，实测发现也完全不在话下。\n\n这套方法最牛逼的不是我以前用的ADB连接手机，然后OCR慢慢操作，而是通过无障碍操作直接读取空间数进行操作，速度更快！\n\n更炸裂的是完全不影响正常操作，你干你自己的事，Mika自己在后台单独用一块屏幕干你给他的任务。\n\nPhone Agent的应用思路完全就打开了：\n1、拓展社媒：抖音、小红书、微博、公众号、B站、视频号、小宇宙、TikTok、YouTube、Facebook、Instagram、Threads等社媒的自动养号和数据获取。\n\n2、私域变天：和我的微信Skill（https://t.co/UAwFmjgYe8）打通，然后实现私域的自动化运营——回复消息、自动发布朋友圈、自动养号，这一步是具有可实现性的，具体的还要深入研究下。再进一步就是海外私域——WhatsApp、Discord、Telegram的运营，都很有想象力。\n\n3、薅羊毛：美团、京东、携程、大众点评，很多送的券和权利大家来不及领，直接交给Mika来自动领取就行，不领白不领，领了就是赚，不领就是亏。\n\n4、制定旅行计划：这一步可能大家没意识到，应该没人用电脑制定旅行计划吧，通常都是12306、携程、飞猪多个App来回跳转，对比价格、班次、时间、各种限制，花很久的时间才能制定一份好的计划，现在Mika自动控制手机去弄就好，P人只管享受就完事了！\n\n还有很多很多，比如直播相关、学生作业相关、写好评相关、充话费....太多应用场景了，欢迎大家把好玩的想法发在评论区👇"
+       },
+       "public_metrics": {
+        "bookmark_count": 347,
+        "impression_count": 38784,
+        "like_count": 256,
+        "quote_count": 2,
+        "reply_count": 45,
+        "retweet_count": 43
+       },
+       "referenced_tweets": [
+        {
+         "id": "2115957353648664966",
+         "type": "quoted"
+        }
+       ],
+       "text": "Mika确实太酷了，实测直接接管手机操控微信，读取聊天记录、发消息都不成问题。小红书、抖音的关注和评论区抓取，实测发现也完全不在话下。\n\n这套方法最牛逼的不是我以前用的ADB连接手机，然后OCR慢慢操作，而是通过无障碍操作直接读取空间数进行操作，速度更快！ https://t.co/PZ0OTqIIcT https://t.co/RbHrDQITci"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2115025392465797120",
+         "3_2115025406759972864",
+         "3_2115025421947604993",
+         "3_2115025436518543360"
+        ]
+       },
+       "author_id": "1897545708770840576",
+       "conversation_id": "2115025631167795550",
+       "created_at": "2026-10-27T10:19:40.000Z",
+       "edit_history_tweet_ids": [
+        "2115025631167795550"
+       ],
+       "id": "2115025631167795550",
+       "lang": "zh",
+       "note_tweet": {
+        "entities": {
+         "mentions": [
+          {
+           "end": 58,
+           "id": "1947932538967924736",
+           "start": 47,
+           "username": "atypica_AI"
+          }
+         ],
+         "urls": [
+          {
+           "display_url": "atypica.ai/?via=yichen",
+           "end": 1148,
+           "expanded_url": "https://atypica.ai/?via=yichen",
+           "start": 1125,
+           "url": "https://t.co/3M9gnqz21G"
+          }
+         ]
+        },
+        "text": "所有老板和流量操盘手都来和我一起偷师！\n\n上次我去混沌商学院，才发现年营收几个亿的老板们都在用@atypica_AI这个Personal research agent来辅助自己做商业决策。\n\nAtypica有100万+ 完整人格画像、且经过真人校准、超过85%准确性的AI模拟消费者。\n\n可以让日常的商业判断（大到产品构建迭代，小到文案方向测试）有据可靠，一定程度上规避风险，做出让消费者买单的决策。\n\n比如，老板每次规划一个重大的项目，集中所有资源、人力、物力去突破，其实都有很大的风险，一个逻辑推演错误所有的钱就都没了。。。如果花钱招募真实消费者来测评这个项目，也是一笔很大的开支。。。\n\n但是，如果让Atypica去社媒上搜索真实用户语料来构建目标AI消费者，就可以非常低成本地获得一次完整的用户调研。\n\n而且这套思路不仅是规划大项目有用，迁移到内容营销侧的素材投放仍然适用！\n\n做过TikTok、Facebook投流的朋友应该知道，光是每天手里面投放的钱就是几十万。如果提前预判内容素材是否有流量/能转化，岂不节省一大笔预算？\n\n所以我用最近TikTok爆火的卖$14.99的迷迭香米水喷雾试了一下，给了它三个方向：\nA 情感故事：\"4 months postpartum and my hair was coming out in clumps…\" 先讲掉发的崩溃，产品到视频中间才出现\nB 产品演示：\"Rosemary + rice water. Non-greasy, alcohol-free. Here's my 90-day progress.\" 成分加 90 天对比照\nC 生活方式：\"10 seconds before I leave. No oily scalp, no wash-day drama.\" 出门前喷一下就扎头发，对比要洗一整天的迷迭香精油\n\n让它来判断这三个方向，到底哪个转化会更高？\n\n1、Atypica先搜索真实TikTok和Instagram视频，然后构建虚拟AI人设（代表五类消费者），总共五大类：掉发也要撑住、产后脱发类、十秒出门派、成分审计员、卷发修复党。\n\n2、然后再和AI人设进行了两轮的单独访谈，最后再把五个AI人设，拉进一个圆桌访谈，大家彼此讨论。\n\n3、最后得出的报告也根据TikTok/Instagram人群的不同，给出相当客观的投放策略选取。甚至还给出了素材优化建议。。。超纲了。。。\n完整报告可见评论区。\n\n最后的调研内容，还能直接通过MCP的方式接入Codex或者Claude Code，可以直接和原有的投放工作流打通，从洞察结果无缝衔接内容素材生成。\n\nAtypica传送门：https://t.co/3M9gnqz21G"
+       },
+       "public_metrics": {
+        "bookmark_count": 116,
+        "impression_count": 28451,
+        "like_count": 86,
+        "quote_count": 11,
+        "reply_count": 25,
+        "retweet_count": 13
+       },
+       "referenced_tweets": [
+        {
+         "id": "2109586171596775926",
+         "type": "quoted"
+        }
+       ],
+       "text": "所有老板和流量操盘手都来和我一起偷师！\n\n上次我去混沌商学院，才发现年营收几个亿的老板们都在用@atypica_AI这个Personal research agent来辅助自己做商业决策。\n\nAtypica有100万+ 完整人格画像、且经过真人校准、超过85%准确性的AI模拟消费者。 https://t.co/03Qz5uvaDK https://t.co/9kCwOaga4I"
+      },
+      {
+       "attachments": {
+        "media_keys": [
+         "3_2117270618328698881"
+        ]
+       },
+       "author_id": "1897545708770840576",
+       "conversation_id": "2117271075507839479",
+       "created_at": "2026-11-02T15:02:16.000Z",
+       "edit_history_tweet_ids": [
+        "2117271075507839479"
+       ],
+       "id": "2117271075507839479",
+       "lang": "zh",
+       "note_tweet": {
+        "text": "兄弟们，先别睡觉了，尤其是之前买过VPS的。我都差点被吓死了😱🥹。。。\n\nLinux 有一个高危漏洞：CVE-2026-98432，所有对公网开放了端口的 Linux VPS都会受到影响。。。好像我听别人说攻击者不需要密码还是权限啥的就能入侵了。。。\n\n然后我就让Codex一查，特喵的，我五台服务器都中招了。。。赶紧登上所有服务器，让Codex给我修复了，好险好险。\n\n我把检查此漏洞并修复的提示词放评论区了👇，大家发给Codex或者任意Agent进行修复。"
+       },
+       "public_metrics": {
+        "bookmark_count": 375,
+        "impression_count": 36316,
+        "like_count": 199,
+        "quote_count": 4,
+        "reply_count": 46,
+        "retweet_count": 17
+       },
+       "text": "兄弟们，先别睡觉了，尤其是之前买过VPS的。我都差点被吓死了😱🥹。。。\n\nLinux 有一个高危漏洞：CVE-2026-98432，所有对公网开放了端口的 Linux VPS都会受到影响。。。好像我听别人说攻击者不需要密码还是权限啥的就能入侵了。。。 https://t.co/9t8Lojt3pf"
+      },
+      {
+       "author_id": "1813556838815911937",
+       "conversation_id": "2115957353648664966",
+       "created_at": "2026-10-30T00:02:00.000Z",
+       "edit_history_tweet_ids": [
+        "2115957353648664966"
+       ],
+       "id": "2115957353648664966",
+       "lang": "zh",
+       "note_tweet": {
+        "entities": {
+         "urls": [
+          {
+           "display_url": "github.com/wangzan101/mika",
+           "end": 519,
+           "expanded_url": "https://github.com/wangzan101/mika",
+           "start": 496,
+           "url": "https://t.co/OdAAyIPRYQ"
+          }
+         ]
+        },
+        "text": "Mika 正式开源：真正的 Phone Agent，就跑在你的安卓手机上。\n\n一句话交给它，它就能在你手机上把事干完。\n\n复用你现有的登录态，不用额外授权，也不用 Root，更不用电脑。\n\n你继续玩手机，它在后台干活，互不干扰。干完了通知你，你也可以随时随地再丢任务给它。\n\n他能干什么？\n\n1、操作你手机上的任何 App：发微信、总结群聊、小红书总结博主内容，在 BOSS 直聘批量打招呼、订闹钟、改设置，手机上的 App 都能操作，不用事先适配\n\n2、内置浏览器：强大的 Browser use，搜索、筛选、读网页、批量操作，帮你把事干好的同时，节奏像真人一样，不容易被风控\n\n3、悬浮胶囊：在任何 App 里都能随时呼起，和它对话，叫它干活，或者把这一屏发给它，问这个怎么回、帮我记下来\n\n4、本地 Linux 沙箱：跑 Python、处理你发来的文件、Agent 写的脚本\n\n不要 root，无需电脑，就跑在你的安卓手机上，真正的 phone Agent，替你在手机上把事都干了。\n\n更多功能正在赶来的路上。\n\n欢迎 star，下载使用，感兴趣也可以一起开发。\n\nGithub 地址：https://t.co/OdAAyIPRYQ"
+       },
+       "public_metrics": {
+        "bookmark_count": 5535,
+        "impression_count": 1255580,
+        "like_count": 3272,
+        "quote_count": 124,
+        "reply_count": 370,
+        "retweet_count": 445
+       },
+       "text": "Mika 正式开源：真正的 Phone Agent，就跑在你的安卓手机上。\n\n一句话交给它，它就能在你手机上把事干完。\n\n复用你现有的登录态，不用额外授权，也不用 Root，更不用电脑。\n\n你继续玩手机，它在后台干活，互不干扰。干完了通知你，你也可以随时随地再丢任务给它。\n\n他能干什么？"
+      }
+     ]
+    },
+    "meta": {
+     "newest_id": "2117271295524319530",
+     "oldest_id": "2117160232539344993",
+     "result_count": 5
+    }
+   }
+  }
+ },
+ "lookups": {
+  "data": [
+   {
+    "article": {
+     "cover_media": "3_2117053977955373056",
+     "entities": {
+      "code": [
+       {
+        "code": "{\n  \"name\": \"中台意见\",\n  \"when\": {\n    \"source\": \"virxact-hub\",\n    \"types\": [\"feedback.new\", \"feedback.followup\", \"feedback.decided\"]\n  },\n  \"to\": \"m5-claude\",\n  \"cwd\": \"~/code/work/virxact-hub\",\n  \"skill\": \"hub-feedback\",\n  \"ask\": \"按其中“被 Agent 自动化中台叫起来的”一节处理。\",\n  \"group\": \"hub-feedback\",\n  \"parallel\": 3,\n  \"tell\": \"needed\"\n}",
+        "content": "```\n{\n  \"name\": \"中台意见\",\n  \"when\": {\n    \"source\": \"virxact-hub\",\n    \"types\": [\"feedback.new\", \"feedback.followup\", \"feedback.decided\"]\n  },\n  \"to\": \"m5-claude\",\n  \"cwd\": \"~/code/work/virxact-hub\",\n  \"skill\": \"hub-feedback\",\n  \"ask\": \"按其中“被 Agent 自动化中台叫起来的”一节处理。\",\n  \"group\": \"hub-feedback\",\n  \"parallel\": 3,\n  \"tell\": \"needed\"\n}\n\n```",
+        "language": "none"
+       }
+      ],
+      "posts": [
+       {
+        "id": "2114343004471460341"
+       }
+      ],
+      "urls": [
+       {
+        "text": "feedback.new"
+       },
+       {
+        "text": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647686948&idx=1&sn=d43b6d924d339092f96e3ba826119f6c&scene=21#wechat_redirect"
+       }
+      ]
+     },
+     "media_entities": [
+      "3_2117052522007584768",
+      "3_2117053652783476736",
+      "3_2117053461024169984",
+      "3_2117053177589809152",
+      "3_2117052567801004032",
+      "3_2117052385738797056",
+      "3_2117052979216007169",
+      "3_2117053028469813248",
+      "3_2117053127778357248",
+      "3_2117053554360000512",
+      "3_2117053419815043072",
+      "3_2117053331655086082",
+      "3_2117053287572881408",
+      "3_2117053080504279040",
+      "3_2117053509204054016",
+      "3_2117052621144158208",
+      "3_2117052330235531264"
+     ],
+     "plain_text": "https://x.com/Khazix0918/status/2114343004471460341上周六的时候，DeepSeek发了他们一篇很长的技术文章，叫《Super-agent设计探索：迈向更自主的Agent系统》，细细读完了，非常棒的架构，对很多开发者来说，都非常非常值得学习。\n其中里面最重要的一句话，我觉得就开篇的那句：\n“一个人通常只能同时跟进3到5个活跃的会话，在这种设计下，单任务的上限取决于模型能力，多任务的上限取决于人的注意力。”\n在整个Agent系统里，人的注意力是最宝贵的资产，同时也是最大的瓶颈。\n其实历史上出现过无数次这种情形。\n1380年，朱元璋借着胡惟庸案，把中书省和丞相一起废了，从此六部直接对皇帝负责，天下大事，全部直通他本人。\n然后报应很快就来了，洪武十七年九月，给事中张文辅给朱元璋报了一笔账，从十四号到二十一号，八天时间，内外各衙门送上来的奏札一共1660件，里面要处理的事，三千多件。\n平均下来，一天两百多份奏札，朱元璋要一个人处理400多件事。\n朱元璋是出了名的勤快，但这个强度，他自己也绷不住了，当场跟大臣们说了一句话，“朕一人处此多务，岂能一一周遍”。\n翻译过来就是：\n我一个人，管这么多事，怎么可能每一件都照顾得过来啊。\n你看，皇帝的注意力，跟我们普通人的，其实也差不了多少。\n六百多年过去了，我们人类也步入了AI社会，每个人也都开始成为了自己的皇帝，只不过这一次，递奏折的不是六部九卿，是一个个Agent。\n如何设计Agent的调度系统，解放自己的注意力同时，大幅提高生产力效率，尽可能让自己抽身出来，只做最关键的决策，就是未来我们每个人都要学习和思考的命题。\n这个特质，其实也叫：\n领导力。\n所以，我也想用这篇文章，来斗胆给大家分享一下我自己这将近1年的Agent系统的成果和经验，以及我是如何让Agent自动化的去处理各种事务的，架构是什么样的，我又是如何尽可能的抽身出来跟Agent协同，只做最关键的判断的。\n整体确实是我这种非专业用户自己这么长时间的探索和使用，以及我觉得可能也更加适合普通用户一些的流程，希望能对大家有用～\n\n1. Agent自动化系统\n首先还是分享一下我对Agent自动化的理解。\n现在大部分人用Agent的方式，其实都还是偏聊天的方式。\n打开Claude Code或者Codex，给它一个任务，看着它干，干完了你检查一下，再给它下一个任务。\n这个过程里有一个弊端，你会发现，所有事情的起点都是你，你只要不打开那个窗口，什么都不会发生，所以不管模型有多强，你能同时推进的事，永远就是你盯得过来的那几个窗口，DeepSeek说的3到5个会话，就是这个意思。\n所以我们在用Agent的时候，一定要尽可能的是领导力思维，把这个任务发生的起点，从人的身上拿掉，用各种信号来去触发Agent进行工作，而不是必须等待你下命令。\n你可以想象你现在就像朱元璋一样，一定不是所有的任务都需要推到你的面前，且也绝对不是你不说话，底下的大臣们就不干活了，一定是大臣们遇见事情，能自己处理的就处理掉了，只有他们拿不准的，必须需要上升到你这进行决策的，才会推到你的面前。\n这个就是我自己理解的Agent自动化系统最终极的意义。\n这就跟带团队一样，一个好的团队，从来不会什么事都跟你汇报，它会自行推进，只把需要你拍板的事拿给你，剩下的，自己去干掉就OK了，你需要给与的，就是充分的信任。\n所以在这套理解下，我整个的系统架构和流程，是这样子的。\n \n我唯一要做的事，就是最后一步，我称为批奏折。\n在飞书里面，我的AI助理小卡会给我弹一张卡片，让我确认，我只要点击就可以了。\n \n点完以后，Agent就收到我的决策了，继续自己干活了。\n基本能最大化释放我的人力。\n顺着流程，我们一个一个模块说。\n\n2. 自动化中台\n先说最核心的这个，Agent自动化中台。\n \n在Agent的体系里面，既然我们要把人给拿出去，那在何时、在何种信号下触发Agent，让它进行工作，就变成了一个需要设计的命题。\n这也就是：事件。\n世间万物，任何的信号触发，我们都可以归纳为一个事件。\n比如定时任务就是一个事件的搜寻行为，固定每分钟或者每小时去轮询请求，来发现事件，比如Webhook触发也是一种事件，比如我们收到一条消息、收到一份邮件、某个系统突然触发了告警等等。\n定时去找的那种，Claude和Codex自己的应用里已经做得很好了，每天几点跑一次什么，设一下就行，我自己也有一大批定时任务，就放在它们的应用里跑。\n \n甚至还有个很好玩的东西，是每一天下午，Codex都会从微信群的聊天记录、X、小红书、抖音等平台搜索大家对于AIHOT的最新讨论和反馈，然后汇总成一份报告给我，给我可行的评估建议，是否要去优化。\n还有每周操控我的浏览器，去豆包、DeepSeek、千问、元宝、ChatGPT、Gemini等等平台，去问一遍我们的一些GEO问题，来判断AIHOT的GEO情况，等等等等。\n然后AIHOT也开源了，每一天都有朋友在Github上提建议、提PR等等，Claude就会每天晚上6点扫一遍，然后处理问题还有PR。\n \n但定时任务轮询有个天生的问题，就是不及时，同事提了一条意见，线上突然报了一个错，你总不能等到第二天早上的定时任务再去看对吧。\n这种事件，必须一发生，Agent马上就被叫醒，这就得靠Webhook，有事的时候，那边的系统主动推一条消息过来。\n而找上门来的事件，来源五花八门，飞书消息、飞书机器人、邮件、各种系统的告警，每一种长得都不一样。\n并且因为模型的能力不同，擅长的任务也不同，为了最大化性价比和省Token，所以事件触发以后，要叫醒的Agent、模型、推理深度也都不一样。\n比如有的事件要叫醒Claude Code用Claude Opus 5.5 high推理去处理，有的要叫醒Codex用GPT-6.1 Terra xhigh去浏览器搜索一些正常拿不到的数据，有的又是要推给GPT-6.1 Sol xhigh去修复BUG等等等等。\n如果每接一种事件，都单独写一套脚本，去接这个来源，去叫醒那个Agent，做三五个还行，做到十几个、几十个，一定会乱成一锅粥的，你再也无法管理了。\n所以，为了以后不乱，我就自建了这个中台，专门用来管所有的事件触发，后来把定时任务也纳入进去了，全部打通。\n它本身是一个很小的独立服务，部在线上一台轻量服务器上，有自己的网址和数据库。\n它干的事也很简单，所有的事件，都先发到这里，由它统一决定交给哪个Agent，统一去叫醒，统一把结果收回来，真需要我来决策的时候，再通过飞书告诉我给我弹一张卡片，我来决策。\n它的第一件事，就是给所有事件定一个统一的格式。不管从哪来，发到中台的都是一条很短的消息，里面只有几样东西，从哪来、什么类型、对象是谁、一句话摘要，再加一个回到原处的链接。比如虚实中台发来一条feedback.new #12，就是同事给虚实中台又提了一条新意见，编号是#12。\n格式统一了，后面就好办了，中台收到事件以后，去查规则。所有规则都写在一个叫rules.json的文件里，比如同事意见这一条，是这么写的。\n \n翻译成人话就是，对产品新意见、同事的补充、还有我拍过板的决定，都交给M5上的Claude Code，在虚实中台的代码目录里，用hub-feedback这个skill去处理，给Agent的指令就一句，按skill里对应的那一节办，每条意见单独开一轮，同一条意见同时只跑一轮，最多三条一起跑，做完了，只在需要我决策的时候才告诉我，否则就不需要推到我这边。\n然后是叫醒Agent，这里有个技术上的小问题，Webhook能把消息推到中台，但中台推不到我的Mac上，我的Claude和Codex都是部在本地的，因为我的两台Mac都在家里和办公室的内网里，外面根本连不进来。\n所以我们反过来做，每台Mac上都跑着一个接单程序，一直挂在中台上等活，一次最长等50秒，有活立刻接走，没活就再挂上去接着等，这样Mac不用暴露到公网上，速度也跟实时推送也差不多。\n它的好处，我觉得有这么几个。\n第一，接一种新的事件，变得特别简单。不用再写一套新脚本，在rules.json里加一条规则就行。我跟Agent说一句，它改完文件、过了检查，几分钟就生效。\n第二，换Agent也特别简单。哪类事交给谁，就是规则里的一行字。今天交给Claude Opus 5.5，明天想换成GPT-6.2 Astra，改一行就行，以后出了更好用的模型，可以随意替换。\n第三，去重。自动化跑起来以后，同一件事被发好几遍，是常态，比如网络抖一下，来源那边以为没发出去，就会再发一遍。同事提完意见，又补了一句话，又贴了一张图，这又是好几条事件。如果每来一条就叫醒一次Agent，同一件事就会有好几个Agent同时在干，这个Agent改一遍，那个Agent又改一遍，最后绝对是乱的要死的，所以就让自动化中台做统一去重，非常省心。\n第四，所有消息，只有一个出口。不管哪个Agent、哪个任务要找我，都只走一条路，就是小卡，我在飞书里的AI助理。而且每条规则都写清楚了，只在必须需要我判断和决策的时候才说，不会这个脚本发一条，那个机器人发一条，把我的飞书刷屏，尽最大可能保护我的精力。\n第五，数据沉淀。因为所有的事件都从中台过，所以每一件事都留了底，什么时候来的、从哪来的、交给了哪个Agent、它最后的结论是什么、有没有需要我留意的、后来又是怎么解决的，全都记在中台的数据库里，点开任何一件任务，还能直接跳到当时Agent干活的那个会话，看它到底干了什么。这些东西攒久了，就是非常完整的数据沉淀了，哪条流水线最忙，哪个Agent干得最多，哪类事老出问题，一眼就能看出来，以后要换模型、改规则，也有数据依据。\n并且还有一个符合我自己爽感的东西，就是所有的自动化任务，我一眼就能看清，可能我确实受种田游戏影响颇多，所以对这种自动化的可视化有深深的迷恋，玩《戴森球计划》的时候，最喜欢看的就是那种密密麻麻的自动化流水线。\n所以，我甚至还做了一个有趣的网页，来把我们的流水线像游戏一样展示出来，并且跟现实世界时间和天气完全打通，现实下雪，那这个自动化小镇里也会下雪。\n之前渲染了一个视频，给大家看看～\n \n这个中台就是让每个事件一发生，就能自己找到该干活的Agent，只把真正需要我的那一小部分，递到我面前。\n\n3. Agent执行\n在触发了事件之后，接下来就是Agent领任务和执行了。\n \n首先我想说一个巨大的前提，就是我们并不是无限Token，即使我开了200刀的Claude会员，猛用下来3天就能用完近90%。\n \n且几个主流模型所擅长的能力点，确实不太一样，各有优劣，所以才会涉及到调度，就是为了整体性价比最优。\n目前我是200刀Claude会员+100刀的GPT会员，基本够用。\n目前主要是几个模型：\nClaude Opus 5.5，它是我们的主力开发，AIHOT的自动化开发、同事对公司中台提的意见这类比较复杂、需要一定主观能动性且能做决策的活，基本都是它在干，我现在几个核心项目的代码，大部分也都是它写的。\nGPT-6.1 Sol，它主要管我们所有项目的运维，告警、每天早上的系统日报、各种到期的复查等等，出了问题它就去查，查到BUG或者问题就直接修了，在做这种活上效果非常好，性价比也极高。\nGPT-6.1 Terra，专门干浏览器&电脑操控的活。它能直接操控我MacMini上那个登录好各种账号的Chrome，前面说的每天去各个平台搜大家对AIHOT的讨论，每周去各家AI问一遍GEO问题，这些没有接口、正常拿不到的数据，全靠它去处理的。\n我自己如果日常主动触发的任务，用的也都是Claude来进行任务的处理，其实我也经常能看到很多人用Grok或者是一些其他的弱一点的模型来指挥Claude，我觉得还是有点不太对，因为做决策和做管理的模型，它一定得是智力和主动性最强的，你不能用笨逼来指挥聪明的，这样会乱套的。\n同时，我自己是有两台MacMini的，一台新买的M5 Pro，一台是去年买的M4的Mac Mini。\n \nM5 Pro是我的主力日常用机，而我的Agent自动化任务基本都是运行在M4那台机器上的，两端通过局域网互通，基本都在本地，没有上云。\n主要是我基本是独立开发，我的代码仓库、发布权限、飞书身份，还有那个登录好各种账号的Chrome，全都在这两台Mac上。\n要是把Agent放到云上，就得把这些登录和权限，在每一家云上都复制一份，既麻烦，又不安全。\n而且很多国内的东西，海外的云端Agent根本就没法用，他们大多跑在海外，跨境访问我们在北京的服务器，动不动就慢就超时。浏览器类的任务更别说了，像微信这种，换成云上虚拟机里的浏览器去打开，直接就给你崩了。\n再加上两台Mac本来就是现成的，一直开着也无所谓，功耗也极低。\n日常需要用M5 Pro电脑操控M4，直接Agent操控或者UU远程就行了，方便快捷。\n \n然后我觉得在Agent自动化执行里面，还有一个蛮重要的东西，是skill。\n我们每个自动化任务，基本上都配着一个专属的Skill，Skill其实过了这么久了，大家也都知道本质上它就是一个沉淀下来给Agents用的SOP，里面附带着一些规则、参考还有脚本之类的。\n比如每周日早上我有个大扫除的定时任务，就搭配了一个专门的Skill，写的就是把这一周合进来的屎山找出来删掉，同一件事写了两遍的、为个案打的补丁、停用了却没拆干净的、变成流水账的文档，能删的直接删掉，再上线。\n \n这样的好处就是清晰、可控、可管理，你想对这个任务的详情进行修改，直接去改Skill就可以了，不用去改这个Agent执行本身的逻辑，尽可能解耦，可管理。\n\n4. CI中台\nAgent把代码写完、提交上来以后，就到了第三块，CI中台。\n \nCI这个词，可能很多不写代码的朋友没怎么听过，大概意思就是，代码写完以后，自动帮你审查、测试、上线的那一整套流水线。\n这块之所以要单独拎出来做一个中台，原因很简单，量太大了。\nGitHub自带的CI，用的是它自己的机器，每个月我开了会员也才3000分钟的免费额度，超了就得另外交钱，而我们的量实在太大了，光AIHOT一个项目，整个10月已经合进去了将近一千个合并请求，平均一天二三十个，每一个还要来回跑好几遍检查，那点额度根本扛不住。\n我之前算过，按照我们提交PR的数量，如果还是用Github的CI体系的话，每个月光超额费用就得交50美金以上。\n所以干脆在家里的那台老的M4的MacMini上自己自建了一台CI中台，机器是现成的，不用另外花钱，而且性能强多了，还在北京，跑得比GitHub自己的CI快多了。\n这一块，如果你有Linux的机器来做CI其实会更好，我的Mac是ARM的，所以其实是模拟的环境，但是我觉得也够用了。\n然后因为项目多，Agent多，所以这个本地CI我就升级了一下，也变成了中台，供我所有的项目使用。\n流程大概是这样的。\n \n不管是Claude还是Codex，Agent的活，干到提交代码、开一个合并请求，就结束了，它自己不能上线。后面所有的事，全部交给CI中台，一共五步，审查、检查、合并、发布、核实。\n第一步，Agent审查，这个我觉得是整套系统里最值得说的一块。\n我们几个项目的代码，现在基本都是Claude在写，但每一个合并请求在合进去之前，都要先过一遍Codex的审查，用的就是前面说的GPT-6.1 Sol，GPT模型在审查这块还是牛逼的。\n之前也遇到过无限审查和挑错的情况，Codex能审个10轮磨磨唧唧，所以学习了Anthropic自己那篇《How the Claude Code team does code review》，他们Claude Code团队就是每个改动合并前都审一遍，但是最多审3次。\n最近两周，四个项目，一共审了298个合并请求，Codex报了333条问题，306条在合并前被修掉了，其中最严重的那一档有51条。\n并且审查也有几条规矩，比如Codex是只读的，只能看不能改，连不了网，也读不到任何钥匙。只报真会出错的问题，不报代码风格，不然它能给你挑几十条「可以写得更好」，能给你打回去能改到天荒地老。\n成本也不高，一次审查中位数两分多钟，大概占那次任务5%到15%的Token。\n第二步，检查。审查过了，就开始跑完整的检查，类型检查、全部测试、构建，还有数据库只能加不能改这类硬规矩，有一条不过，就不能合。\n这些检查，就跑在前面说的那台M4的MacMini上。每个任务都开一台全新的虚拟机，跑完连机器带身份一起删掉，Agent写的代码，从来不会直接在我的Mac本机上跑。\n第三步，合并。审查和检查都过了，GitHub自动合并，而且这两项是写死在GitHub上的规则，没审过、没检查过的代码，不管是哪个Agent、哪个工具，都合不进主干。\n第四步，发布。合进主干以后，GitHub会自动启动发布流程，活照样派给那台M4单独开一台专门发布的虚拟机来跑。\n第五步，核实。合并进去、发出去，依然没有结束。M4上的交付程序会等GitHub上的发布流程全部跑完，再去线上问一遍，现在跑着的版本是不是已经包含了这次的改动，确认真的上线了，再把结果写回GitHub，这一轮才算结束。\n最后执行开发任务的本地Agent，看一眼GitHub就知道最终状态是什么样了。\n五步走下来，从Agent把代码交过来，到真正上线，中位数两三分钟，速度极快，体验极佳，全程不需要我管，并且上线的质量大大提高，几乎很难会有BUG或者返工的情况。\n并且因为有了CI中台，所以未来我们做任何项目，都是完全可以复用这一整套流程的，非常的省心加愉快。\n\n5. 在飞书上批奏折\n能自动解决的，Agent都自动解决了。\n那最后能推到我这边的，一定是需要我做的决策或者是大事。\n我也不喜欢Agent通过什么DOT、Grok Bot之类的所谓Personal Agent来去找我，我觉得会有点麻烦，于是就直接跟飞书打通了，我的AI助理直接给我推一个卡片，我就能第一时间看到。\n \n并且还可以直接做选择。\n \n这个感觉，其实讲道理，跟皇帝批奏折真的没有什么区别。\n朱元璋那会儿自己是一个人硬扛，到了他的子孙，慢慢摸索出了一套办法，叫票拟和批红。\n奏章送上来，先交给内阁，大学士把建议的处理意见写在一张小票上，贴在奏章上面，这叫票拟，皇帝看一眼，同意就用红笔批下去，这叫批红。\n这样确实是最省心的方式。\n所以我的决定卡片，就是Agent给我写的票拟。\n我只做判断，只要点击就行，然后在之前等着我审批的Agent就会接着往下干，卡片也会自己改成结论，比如今晚临时发生的，有个龟儿子进了AIHOT的飞书群，把推送机器人也移除了，然后自己退群了，我都不知道还有这个漏洞，然后因为报错，就触发了整个自动化工作流，给我推了一条卡片。。。\n \n但卡片做的这个交互方式即使有用，但是最重要的就是到底什么事情应该推到我的面前。\n之前其实踩过很多坑，甚至有的时候一天给我推几十条，严重影响我的注意力。\n所以现在必须先问我的就那么几类了，比如删数据、停服、花钱、对外发消息、改产品方向、新建或轮换密钥、修改权限等等，剩下的，Agent就自己全权做完上线。\n而且我定过的事，Agent不会问第二遍。\n我们的仓库里，有一份文件就叫「卡兹克定的事」，只记我亲口做的决定，带着原话和日期。\n然后还有一份「定了不做的事」，我拒绝过的，Agent以后再碰到，直接照着回答，不会再拿来烦我。\n最后还有一个小东西，是我完全没有交给Agent的，每一个，我一定都亲自看，然后把有价值的，亲自发给Agent，让它去做后续的执行。\n这就是用户反馈。\n我每天都会收到一些用户直接的反馈内容，我特别感谢他们。\n \n只要是我觉得能做的，每一个我都会复制粘贴，让Agent来去解决。然后解决完以后，给对方的邮箱发一封真诚的回信反馈。\n可能这也是最后的一种仪式感吧。\n\n写在最后\n上面就是我整个走Agent自动化的一些探索和技巧啦。\n我肯定没有那么专业，只是想跟大家分享一下，我自己的一些经验和玩法，因为这确实是我最近用的非常爽的方式。\n万一呢，万一真的对一些人有用，真的能帮助到大家呢，那也真的是一件非常开心的事了。\n想一想这一年，还真的有一些魔幻。\n一年前，我是一个完全不懂开发的设计师。\n一年后的今天，我搭了我自己的Agent自动化系统，做出了百万月活的公益产品，还开源了，拿到了9000 star的好成绩，也看到无数的反馈，说帮到了他们。\n \n我还给公司搭了公司的中台：我花了5天时间，对公司进行了一场AI化改造。也在用Agent的方式，去迭代整个公司。\n每一天，我都在开发中、在创作中学习，一年前，我连CI是什么都不知道，半年前，我甚至连CDN是什么都不知道，但是不妨碍我，现在都知道了。\n这可能，就是学习的快乐吧。\n希望今天这篇内容，能对大家有用。\n也愿我们，永远对世界，保持好奇。",
+     "preview_text": "上周六的时候，DeepSeek发了他们一篇很长的技术文章，叫《Super-agent设计探索：迈向更自主的Agent系统》，细细读完了，非常棒的架构，对很多开发者来说，都非常非常值得学习。",
+     "title": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。"
+    },
+    "article_title": {
+     "title": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。"
+    },
+    "author_id": "1492195583699951620",
+    "created_at": "2026-11-02T00:39:51.000Z",
+    "edit_history_post_ids": [
+     "2117054043868860521"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/i/article/2117…",
+       "end": 23,
+       "expanded_url": "https://x.com/i/article/2117052113822117888",
+       "start": 0,
+       "status": 404,
+       "unwound_url": "https://x.com/i/article/2117052113822117888",
+       "url": "https://t.co/zQ9V1fVaSZ"
+      }
+     ]
+    },
+    "id": "2117054043868860521",
+    "text": "https://t.co/zQ9V1fVaSZ",
+    "url": "https://x.com/i/status/2117054043868860521"
+   },
+   {
+    "author_id": "1492195583699951620",
+    "created_at": "2026-11-02T00:41:00.000Z",
+    "edit_history_post_ids": [
+     "2117054331849720246"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/Khazix0918/sta…",
+       "end": 164,
+       "expanded_url": "https://twitter.com/Khazix0918/status/2117054043868860521",
+       "start": 141,
+       "url": "https://t.co/pTHRLMy7iZ"
+      }
+     ]
+    },
+    "id": "2117054331849720246",
+    "note_tweet": {
+     "text": "花了一天写完了，也算是给自己的阶段性成果一个交代。\n想一想这一年，还真的有一些魔幻。\n\n一年前，我是一个完全不懂开发的设计师。\n一年后的今天，我搭了我自己的Agent自动化系统，做出了百万月活的公益产品，还开源了，拿到了9000 star的好成绩，也看到无数的反馈，说帮到了他们。\n也在用Agent的方式，去迭代整个公司。 每一天，我都在开发中、在创作中学习。\n\n一年前，我连CI是什么都不知道，半年前，我甚至连CDN是什么都不知道，但是不妨碍我，现在都知道了。\n这可能，就是学习的快乐吧。\n\n希望今天这篇内容，能对大家有用。\n也愿我们，永远对世界，保持好奇。"
+    },
+    "referenced_tweets": [
+     {
+      "id": "2117054043868860521",
+      "type": "quoted"
+     }
+    ],
+    "text": "花了一天写完了，也算是给自己的阶段性成果一个交代。\n想一想这一年，还真的有一些魔幻。\n\n一年前，我是一个完全不懂开发的设计师。\n一年后的今天，我搭了我自己的Agent自动化系统，做出了百万月活的公益产品，还开源了，拿到了9000 star的好成绩，也看到无数的反馈，说帮到了他们。 https://t.co/pTHRLMy7iZ",
+    "url": "https://x.com/i/status/2117054331849720246"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2117225444923826176"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-02T12:01:08.000Z",
+    "edit_history_post_ids": [
+     "2117225494785724610"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/FzHtek3YEK",
+       "end": 171,
+       "expanded_url": "https://x.com/MaxForAI/status/2117225494785724610/photo/1",
+       "media_key": "3_2117225444923826176",
+       "start": 148,
+       "url": "https://t.co/FzHtek3YEK"
+      }
+     ]
+    },
+    "id": "2117225494785724610",
+    "note_tweet": {
+     "text": "Token哪里贵了！哪里贵了！这么多年都是这个价格，不要睁着眼睛乱说，国产token很难的，他真的不是那种随便掺假降智的token，我跟他跟了这么多年，它怎么起来的？我是最知道的一个人，他们就差点把他们家掏给我了，他就差点姓李了，好不好，真的乱说，这么多年都是这个价格，哪里贵了，有的时候自己的原因好吧，这么多年工资涨没涨，有没有认真工作...."
+    },
+    "text": "Token哪里贵了！哪里贵了！这么多年都是这个价格，不要睁着眼睛乱说，国产token很难的，他真的不是那种随便掺假降智的token，我跟他跟了这么多年，它怎么起来的？我是最知道的一个人，他们就差点把他们家掏给我了，他就差点姓李了，好不好，真的乱说，这么多年都是这个价格，哪里贵了，有的时候自己的 https://t.co/FzHtek3YEK",
+    "url": "https://x.com/i/status/2117225494785724610"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2117157339954626560"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-02T07:45:23.000Z",
+    "edit_history_post_ids": [
+     "2117161132041601248"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/Qpk5yjswHz",
+       "end": 176,
+       "expanded_url": "https://x.com/MaxForAI/status/2117161132041601248/photo/1",
+       "media_key": "3_2117157339954626560",
+       "start": 153,
+       "url": "https://t.co/Qpk5yjswHz"
+      }
+     ]
+    },
+    "id": "2117161132041601248",
+    "note_tweet": {
+     "text": "腾讯混元团队核心大牛突然离职！？\n\n北京时间11月2日，据多个消息来源（申妈和群友）表示，知情人士称，腾讯混元多模态强化学习（Multimodal RL）负责人庞天宇已经离职。\n\n一些消息表示他选择创业去拿大结果了，但同时另有消息称，他已经加入其他大厂。\n\n庞天宇1995年出生，高一获保送清华大学资格。‌2017年本科毕业于清华大学数理基科班，2022年博士毕业于清华大学计算机系，导师为朱军教授。\n\n主要研究方向涵盖机器学习、深度学习及其鲁棒性、多模态大模型等。\n\n庞天宇在学术界表现卓越，曾在ICML、NeurIPS、ICLR等顶级会议上发表多篇论文，并获得微软学者奖学金、英伟达学术先锋奖等荣誉。\n\n清华毕业后，庞天宇在新加坡Sea人工智能实验室（Ai Lab）担任高级研究科学家。\n\n庞天宇今年1月30日在小红书宣布加入腾讯，担任混元首席研究科学家，同时担任Tech Lead of Multimodal RL，并开源了多模态深度搜索智能体方案OpenSearch-VL3。"
+    },
+    "text": "腾讯混元团队核心大牛突然离职！？\n\n北京时间11月2日，据多个消息来源（申妈和群友）表示，知情人士称，腾讯混元多模态强化学习（Multimodal RL）负责人庞天宇已经离职。\n\n一些消息表示他选择创业去拿大结果了，但同时另有消息称，他已经加入其他大厂。\n\n庞天宇1995年出生，高一获保送清华大学资格。 https://t.co/Qpk5yjswHz",
+    "url": "https://x.com/i/status/2117161132041601248"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2117156284160225280"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-02T07:26:29.000Z",
+    "edit_history_post_ids": [
+     "2117156375293825036"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 57,
+       "id": "1810933558703493120",
+       "start": 42,
+       "username": "TencentHunyuan"
+      },
+      {
+       "end": 105,
+       "id": "1714580962569588736",
+       "start": 93,
+       "username": "deepseek_ai"
+      },
+      {
+       "end": 159,
+       "id": "1863959670169501696",
+       "start": 145,
+       "username": "Kimi_Moonshot"
+      }
+     ],
+     "urls": [
+      {
+       "display_url": "pic.x.com/JP7Og8z0v7",
+       "end": 205,
+       "expanded_url": "https://x.com/MaxForAI/status/2117156375293825036/photo/1",
+       "media_key": "3_2117156284160225280",
+       "start": 182,
+       "url": "https://t.co/JP7Og8z0v7"
+      }
+     ]
+    },
+    "id": "2117156375293825036",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 57,
+        "id": "1810933558703493120",
+        "start": 42,
+        "username": "TencentHunyuan"
+       },
+       {
+        "end": 105,
+        "id": "1714580962569588736",
+        "start": 93,
+        "username": "deepseek_ai"
+       },
+       {
+        "end": 159,
+        "id": "1863959670169501696",
+        "start": 145,
+        "username": "Kimi_Moonshot"
+       },
+       {
+        "end": 201,
+        "id": "1961699105434210304",
+        "start": 185,
+        "username": "Meituan_LongCat"
+       },
+       {
+        "end": 240,
+        "id": "1753339277386342400",
+        "start": 227,
+        "username": "Alibaba_Qwen"
+       },
+       {
+        "end": 276,
+        "id": "1726486879456096256",
+        "start": 268,
+        "username": "Zai_org"
+       }
+      ]
+     },
+     "text": "周末太忙了，编辑好草稿忘发了。。。\n\n本周我们会迎来几个新的中国模型🇨🇳：\n\n1. @TencentHunyuan 的HY4正式版（比Preview有了较大提升，坐到大人那桌了）\n2. @deepseek_ai 的新模型V4.1-Pro（如果一些流程没有遇到意外，本周我们会见到它）\n3. @Kimi_Moonshot 的K3.1另一个版本（便宜、大碗、速度快）\n4. @Meituan_LongCat LongCat2.5正式版（纯国产卡训练）\n5. @Alibaba_Qwen Qwen4（如果性能没有意外，它会发布）\n\nBTW， @Zai_org 的新一代旗舰模型还需要一些时间～"
+    },
+    "text": "周末太忙了，编辑好草稿忘发了。。。\n\n本周我们会迎来几个新的中国模型🇨🇳：\n\n1. @TencentHunyuan 的HY4正式版（比Preview有了较大提升，坐到大人那桌了）\n2. @deepseek_ai 的新模型V4.1-Pro（如果一些流程没有遇到意外，本周我们会见到它）\n3. @Kimi_Moonshot 的K3.1另一个版本（便宜、大碗、速度快） https://t.co/JP7Og8z0v7",
+    "url": "https://x.com/i/status/2117156375293825036"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2117173388036980736"
+     ]
+    },
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-02T08:42:42.000Z",
+    "edit_history_post_ids": [
+     "2117175557146443777"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/qq7aKCPEZT",
+       "end": 183,
+       "expanded_url": "https://x.com/MaxForAI/status/2117175557146443777/photo/1",
+       "media_key": "3_2117173388036980736",
+       "start": 160,
+       "url": "https://t.co/qq7aKCPEZT"
+      }
+     ]
+    },
+    "id": "2117175557146443777",
+    "note_tweet": {
+     "text": "逆天，阿里巴巴副总裁居然也去直播带货了？？\n\n今晚7点30分，天猫双11李佳琦直播间将上架“Token”，同时还会在直播间内发放20万亿Token。\n\n本场直播主要面向女性群体，主题《为所有女生的 AI 办公好搭子》。\n\n除Token外，直播还将展示多款AI办公产品和AI硬件。届时，阿里巴巴副总裁陈宇森将做客直播间。\n\n公开信息显示，陈宇森出生于1992年，与李佳琦同岁，是阿里巴巴最年轻的副总裁。\n\n今年6月，阿里巴巴宣布钉钉管理层调整，创始人陈航（花名无招）卸任钉钉CEO，由陈宇森接任。\n\n7月，阿里将可编程智能体应用QoderWork、AI工作平台悟空，以及MuleRun三条AI Agent产品线整合为面向企业办公场景的千问办公，同样由陈宇森负责。"
+    },
+    "text": "逆天，阿里巴巴副总裁居然也去直播带货了？？\n\n今晚7点30分，天猫双11李佳琦直播间将上架“Token”，同时还会在直播间内发放20万亿Token。\n\n本场直播主要面向女性群体，主题《为所有女生的 AI 办公好搭子》。\n\n除Token外，直播还将展示多款AI办公产品和AI硬件。届时，阿里巴巴副总裁陈宇森将做客直播间。 https://t.co/qq7aKCPEZT",
+    "url": "https://x.com/i/status/2117175557146443777"
+   },
+   {
+    "author_id": "1699797396589588480",
+    "created_at": "2026-11-02T09:20:38.000Z",
+    "edit_history_post_ids": [
+     "2117185100798738487"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 11,
+       "id": "1707003452700930048",
+       "start": 3,
+       "username": "lobehub"
+      }
+     ],
+     "urls": [
+      {
+       "display_url": "x.com/amazing129/sta…",
+       "end": 68,
+       "expanded_url": "https://twitter.com/amazing129/status/2117169245335511058",
+       "start": 45,
+       "url": "https://t.co/boOs5tEuE8"
+      }
+     ]
+    },
+    "id": "2117185100798738487",
+    "referenced_tweets": [
+     {
+      "id": "2117169245335511058",
+      "type": "quoted"
+     }
+    ],
+    "text": "我们 @lobehub 的产品负责人向您分享了一个super-agent的尤利卡时刻⬇️ https://t.co/boOs5tEuE8",
+    "url": "https://x.com/i/status/2117185100798738487"
+   },
+   {
+    "article": {
+     "cover_media": "3_2117158972235055104",
+     "entities": {
+      "urls": [
+       {
+        "text": "https://mp.weixin.qq.com/s/zoS7GlReWPhfCjENGxXCdg"
+       },
+       {
+        "text": "https://x.com/amazing129/status/2104769536591544418?a=T2fCmNgn6wXiOs85ZL4&s=20"
+       }
+      ]
+     },
+     "media_entities": [
+      "3_2117142819026657280",
+      "3_2117164616728158208",
+      "3_2117164849465884674",
+      "3_2117139243252555776",
+      "3_2117158258012196864",
+      "3_2117148382288596992"
+     ],
+     "plain_text": "所谓 Super-agent，指代 Deepseek 文章 中表达的内容。我认为这些东西并不新鲜，DeepSeek 这次只是用了一个框架将他们整合在了一起。\n那么借着这个机会，聊聊最近半年我对 Agent 发展的总结。我不懂也不讲技术，只涉及产品层面的一些思考。\n从对话到任务\nLobeHub 在今年 4 月，上线了 Task 系统，像 Linear 管理 Issue 一样，管理 Agent 的任务。在当时，其实已经有一些软件通过给 Session 打上生命周期的标签（Backlog / Todo / Needs Review...）来管理，比如 Craft Agent；还有一些产品，更进一步做成了协作看板，比如 Multica。\n我认可这个方向，但是在那个时间点，我回答不了一个问题：如果 Task 的底层还是对话，那么用户究竟怎么区分这两种形态？换句话说，当你把这两盘菜端到用户面前时，用户还是会习惯性地开启对话，而不是启动一个任务。\n事实上，用户心智想要从 Session 要转化为 Task，使用场景要满足三个特征：并行、长程和异步。这三个，是今年 Agent 发展过程中逐步成型的。\n并行：当时已经成为了共识，从 cli 的多窗口，到 codex app 同时切 n 个 worktree 左侧轻松切换。\n长程：这件事有一个左脚踩右脚的过程。一方面，模型的能力变强了，可以自主探索、做更多的事情，另一方面，模型本身就被训练、harness 也被设计为让它更多地去做事（比如 goal 的功能，比如过度探索导致的越界）；一方面，人们希望 Agent 可以将自己的事情端到端完成，另一方面，模型厂商也希望消耗更多的 token。\n长程带来了很多影响。比如说远程化或者云端化。其实并行不会直接导致云化——只有任务都结束比较快，本地也可以并行，遇到的性能和存储瓶颈也只是升级本机设备的问题。但是长程就必将导致云化。一方面，时间长会导致并行任务的积压，等不到结束，单机就无法再开启新任务了；另一方面，在如此长的时间内，本机可能需要做别的事情，本机也可能要临时关闭，但是任务不能停。那自然而然的，Agent 就被放到远端去执行，任务的完成也就变成异步了——人们希望一个回调函数，完成时通知自己。\n异步：但除了任务的异步结束，我觉得下半年更重要的一个改变，也是我认为用户终于可以接受“任务”的产品形态了，那就是可以异步开始——当我给 Agent 发了消息，却不是希望它立刻执行的。大家可能第一反应是定时任务，但定时任务只是一种特殊情况。\n在团队协作中，异步任务有着更广泛的应用。假设团队已经建立了软件工厂，不管外部还是内部的缺陷，都可以直接转给一台 7✖️24 运行的 claude code 来处理。那源源不断的问题进来，如果没有一个任务管理来区分紧急重要、规模大小、以及问题与问题之间的依赖和冲突等，那么受限于订阅 / API 额度有限、环境资源有限等，claude code 必然是处理不过来的，就一定需要编排。\n说到这里，其实已经像我们曾经的全人类团队了：同一时间有很多需求并行；一个需求的完成是长程的（需要一段时间）；大家都在异步工作（有需求的依赖）；资源总是有限的（人力、财务等）。下图是 LobeHub 的 Agent 和人协作的任务看板，已经成为了我们团队的开发日常。\n \nRouter 到 Worker 的双层架构\n其实双层架构并不是什么新鲜事。相信大家都有过这样的实践，让更强的模型来设计方案，然后让没那么强但是足够完成任务的模型来执行。通过这种方式，来实现成本和速度的平衡。相当于老板拍方案，手下的人去执行。\n那 Deepseek 里提到的，本质就是把模型选择反过来——让一个足够便宜且快速、但是智能达标的模型，在接受噪音的情况下，做一些简单的总结、分发，真正的工作还是让高级模型来执行。相当于秘书接电话，选事情上报给老板处理。\n \n思路很简单，但也是经历了一些演化。比如最开始 Raft（当时还叫做 slock）让大家把 Codex / Claude Code 接入聊天频道，让他们可以直接感知人类讨论的上下文去干活。 但是这里存在问题（当时的版本，不知道他们后来怎么处理的）在他们的博客中也提到了，一是成本，比如频道中每发一条消息，他们可能都需要去读一下才知道是否和自己相关，相比之下，人类只需要扫一眼就行；二是智能。如果我希望保障 Codex 的产出质量，是不希望频道控制相关的上下文也混入其中的。（开发者对 harness 和 context 更为敏感，比如同样的模型，很多人用 pi 也不相信 codex）\n真正的转折点发生在模型的进步。今年第一档模型的发展放缓了（相比于去年），但是第二档模型在速度、成本、智能上的优化却是惊人的。这才有了采用比如 Deepseek Flash 来作为中转模型，接受这些聊天噪音，并且清晰地提取出任务，再交给专业的 Harness 和模型来隔离处理问题，一举解决了刚才提到的问题。\n至于如何让 Agent 可以从噪音中提取出信号，我们已经完成了产品化——可以加规则，可以调程度，也可以反馈迭代。\n \n下图是在 LobeHub 的 Discord 中的真实截图：一个专门感知人类对话的 Agent，背后由 Deepseek 驱动。但是真正的代码任务，会交给 Dario，背后由 Claude Code 驱动。没错，我们让 CEO 亲自来干活：）\n \n存算分离\n其实 Deepseek 所讲的「一个 Agent 不再受限于单台机器，而是可以在不同的执行设备之间切换，根据任务需要选择环境来执行命令并获取环境中的上下文。」在 LobeHub 上也是 5 月份就实现了。\n \n其实我之前表达过 Agent 和 Computer 的关系，在 Personal Agent 中，这种选择只会让用户困惑，也无法保证切换设备后，该有的 skill 还有，还有的软件还有；GrokBot 是我看来的最佳方案。\n但是在团队场景下、在生产力场景下，设备本身只是一种资源，并且一定是配置好的。问题又变成了资源的调度。一方面，Agent 能够自行选择设备，就可以做到根据性能和空闲选择机器、不同操作系统的切换构建验证；另一方面，我们也可以在设备侧做一层抽象，变成动态调伸缩和调配。这也必将是未来 Agent Infra 的方向。\n \n很高兴看到 Deepseek 梳理的架构和我们在产品上一直探索的方向很契合，对于接下来各家 Agent 产品的形态变化，我也非常兴奋和期待。",
+     "preview_text": "所谓 Super-agent，指代 Deepseek 文章 中表达的内容。我认为这些东西并不新鲜，DeepSeek 这次只是用了一个框架将他们整合在了一起。\n那么借着这个机会，聊聊最近半年我对 Agent",
+     "title": "关于 Super-agent，聊聊我的想法"
+    },
+    "article_title": {
+     "title": "关于 Super-agent，聊聊我的想法"
+    },
+    "author_id": "767166726077165568",
+    "created_at": "2026-11-02T08:17:37.000Z",
+    "edit_history_post_ids": [
+     "2117169245335511058"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/i/article/2117…",
+       "end": 23,
+       "expanded_url": "https://x.com/i/article/2117126982291087360",
+       "start": 0,
+       "status": 404,
+       "unwound_url": "https://x.com/i/article/2117126982291087360",
+       "url": "https://t.co/bSWCVOkw2a"
+      }
+     ]
+    },
+    "id": "2117169245335511058",
+    "text": "https://t.co/bSWCVOkw2a",
+    "url": "https://x.com/i/status/2117169245335511058"
+   },
+   {
+    "author_id": "3980735590",
+    "created_at": "2026-11-02T09:36:35.000Z",
+    "edit_history_post_ids": [
+     "2117189114927673487"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/testingcatalog…",
+       "end": 300,
+       "expanded_url": "https://twitter.com/testingcatalog/status/2116472441211933144",
+       "start": 277,
+       "url": "https://t.co/6HO5367FmN"
+      }
+     ]
+    },
+    "id": "2117189114927673487",
+    "note_tweet": {
+     "text": "DAILY AI BRIEF 🗞 — Nov 2\n\nGOOGLE 🔥:\n- Gemini 4 Carbon is reportedly being tested on Arena as Argon 4 (via Waguri_Kaoruko8).\n- Antigravity may get cloud execution support next week.\n- Antigravity's \"Chief of Stuff\" agent will get Gemini Live support.\n- Antigravity is getting a new security notice about coding agent risks.\n- Gemini Notebook may add a \"Comic\" artifact type.\n\nOPENAI 🔥:\n- GPT-6.2 Astra is showing up in Codex and ChatGPT Work usage analytics (via StatsWire).\n\nANTHROPIC 🔥:\n- A hidden Claude Mythos 5.5 mention was spotted on Anthropic's website.\n\nSPACEXSI 🔥:\n- SpaceXSI will enable text watermarking on Nov 7.\n\nDEEPSEEK 🔥:\n- DeepSeek open-sourced dsh-superagent, a research prototype of an autonomous coding agent.\n- DeepSeek V4.1 Pro is showing up in benchmark setups (via LuminaBench).\n\nMEITUAN 🔥:\n- Meituan released LongCat-2.5, a native multimodal model for agents, API only.\n\nSEMIANALYSIS 🔥:\n- SemiAnalysis released GDPx, an agentic benchmark where the top model scores 12%.\n\nHERMES 🔥:\n- The Hermes mobile app opened beta testing on iOS and Android, and both betas are now full.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2116472441211933144",
+      "type": "quoted"
+     }
+    ],
+    "text": "DAILY AI BRIEF 🗞 — Nov 2\n\nGOOGLE 🔥:\n- Gemini 4 Carbon is reportedly being tested on Arena as Argon 4 (via Waguri_Kaoruko8).\n- Antigravity may get cloud execution support next week.\n- Antigravity's \"Chief of Stuff\" agent will get Gemini Live support.\n- Antigravity is getting a https://t.co/6HO5367FmN",
+    "url": "https://x.com/i/status/2117189114927673487"
+   },
+   {
+    "author_id": "3980735590",
+    "created_at": "2026-11-02T18:35:07.000Z",
+    "edit_history_post_ids": [
+     "2117324643694448947"
+    ],
+    "id": "2117324643694448947",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "console.nace.ai/dashboard/bill…",
+        "end": 367,
+        "expanded_url": "https://console.nace.ai/dashboard/billing?promo=TESTCAT-2",
+        "start": 344,
+        "url": "https://t.co/UsPdZrHvt6"
+       }
+      ]
+     },
+     "text": "Nace trained it directly on tasks such as reading company filings or screening customers against sanctions lists.\n\nOn the same benchmarks, Nace's previous Drex Max v1.1 model was right 77.7 of the time.\n\nDrex for Finance is available on the Nace Console, and Nace has provided our readers with a promo code: TESTCAT-2.\n\nTest Drex for Finance 👀\nhttps://t.co/UsPdZrHvt6"
+    },
+    "referenced_tweets": [
+     {
+      "id": "2117324639563141209",
+      "type": "replied_to"
+     }
+    ],
+    "text": "Nace trained it directly on tasks such as reading company filings or screening customers against sanctions lists.\n\nOn the same benchmarks, Nace's previous Drex Max v1.1 model was right 77.7 of the time.\n\nDrex for Finance is available on the Nace Console, and Nace has provided our",
+    "url": "https://x.com/i/status/2117324643694448947"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2117313897849864193"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-02T18:35:06.000Z",
+    "edit_history_post_ids": [
+     "2117324639563141209"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/LQvFQhUNUb",
+       "end": 301,
+       "expanded_url": "https://x.com/testingcatalog/status/2117324639563141209/photo/1",
+       "media_key": "3_2117313897849864193",
+       "start": 278,
+       "url": "https://t.co/LQvFQhUNUb"
+      },
+      {
+       "display_url": "x.com/NaceAI/status/…",
+       "end": 325,
+       "expanded_url": "https://twitter.com/NaceAI/status/2117298824926703953",
+       "start": 302,
+       "url": "https://t.co/70RnaZ9B4K"
+      }
+     ]
+    },
+    "id": "2117324639563141209",
+    "note_tweet": {
+     "text": "Nace AI has launched Drex for Finance, a model designed for split-second financial tasks, like determining whether a card payment looks fraudulent.\n\nIt can use a document or a transaction log along with a fixed set of possible answers, then deliver a probability score for each one.\n\nIn tests with 3,361 decisions from 48 finance benchmarks not included in training, it was right 85.7% of the time, compared to 70.9% for GPT-6 Luna."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2117298824926703953",
+      "type": "quoted"
+     }
+    ],
+    "text": "Nace AI has launched Drex for Finance, a model designed for split-second financial tasks, like determining whether a card payment looks fraudulent.\n\nIt can use a document or a transaction log along with a fixed set of possible answers, then deliver a probability score for each https://t.co/LQvFQhUNUb https://t.co/70RnaZ9B4K",
+    "url": "https://x.com/i/status/2117324639563141209"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2117298569086681088"
+     ]
+    },
+    "author_id": "1904210068704481280",
+    "created_at": "2026-11-02T16:52:32.000Z",
+    "edit_history_post_ids": [
+     "2117298824926703953"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/CGrfXRRQGy",
+       "end": 304,
+       "expanded_url": "https://x.com/NaceAI/status/2117298824926703953/photo/1",
+       "media_key": "3_2117298569086681088",
+       "start": 281,
+       "url": "https://t.co/CGrfXRRQGy"
+      }
+     ]
+    },
+    "id": "2117298824926703953",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "console.nace.ai",
+        "end": 1011,
+        "expanded_url": "https://console.nace.ai",
+        "start": 988,
+        "url": "https://t.co/vdEavE1LhL"
+       }
+      ]
+     },
+     "text": "Announcing Drex for Finance - the multimodal decision model, post-trained for sub-second financial decisions.\n\nFinancial operations require precise, regulatory-grade decisions with zero hallucinations across filings, support, credit risk, live fraud prevention, quant signals, and compliance.\n\nEvaluated on 48 held-out finance benchmarks:\n- 85.7% accuracy across 3,361 decisions (+14.8% vs. GPT-6 Luna)\n- 77.3 Finance Index (+13.7 vs. Jev 1.14, +11.5 vs. Drex-Max v1.1)\n\nTrained for sub-second financial intelligence across the entire pipeline:\n- Financial Documents & Filings: Extraction decisions, classification, and clustering\n- Credit & Lending: Automated underwriting, PD modeling, and EWS\n- Fraud & AML: Sub-second transaction scoring, ATO defense, and SAR clustering\n- Markets & Trading: Regime detection, meta-labeling, and LOB execution signals\n- Insurtech & RegTech: Claims fraud detection, sanctions screening, and audit reconciliation\n\nAvailable exclusively on Nace Console: https://t.co/vdEavE1LhL"
+    },
+    "text": "Announcing Drex for Finance - the multimodal decision model, post-trained for sub-second financial decisions.\n\nFinancial operations require precise, regulatory-grade decisions with zero hallucinations across filings, support, credit risk, live fraud prevention, quant signals, and https://t.co/CGrfXRRQGy",
+    "url": "https://x.com/i/status/2117298824926703953"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2117312192869478400"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-02T17:45:49.000Z",
+    "edit_history_post_ids": [
+     "2117312236993544277"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/0geEhNhVFa",
+       "end": 304,
+       "expanded_url": "https://x.com/testingcatalog/status/2117312236993544277/video/1",
+       "media_key": "13_2117312192869478400",
+       "start": 281,
+       "url": "https://t.co/0geEhNhVFa"
+      },
+      {
+       "display_url": "x.com/hume_ai/status…",
+       "end": 328,
+       "expanded_url": "https://twitter.com/hume_ai/status/2117285608745820372",
+       "start": 305,
+       "url": "https://t.co/qyZvcg6Fvr"
+      }
+     ]
+    },
+    "id": "2117312236993544277",
+    "note_tweet": {
+     "text": "Hume AI has launched a new Hume Decision API, an audio-native model that can answer questions about a recording by analyzing the audio itself.\n\nUsers can write their own questions and answer options, such as whether a caller sounds frustrated, and receive an estimate of how human listeners would answer.\n\nIn initial tests, the model agreed with the panel's average answer 70.7% of the time, compared to 56.5% for a single listener."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2117285608745820372",
+      "type": "quoted"
+     }
+    ],
+    "text": "Hume AI has launched a new Hume Decision API, an audio-native model that can answer questions about a recording by analyzing the audio itself.\n\nUsers can write their own questions and answer options, such as whether a caller sounds frustrated, and receive an estimate of how human https://t.co/0geEhNhVFa https://t.co/qyZvcg6Fvr",
+    "url": "https://x.com/i/status/2117312236993544277"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2117276914591399937"
+     ]
+    },
+    "author_id": "1369199443015176193",
+    "created_at": "2026-11-02T16:00:01.000Z",
+    "edit_history_post_ids": [
+     "2117285608745820372"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/FvNYaRvCas",
+       "end": 300,
+       "expanded_url": "https://x.com/hume_ai/status/2117285608745820372/video/1",
+       "media_key": "13_2117276914591399937",
+       "start": 277,
+       "url": "https://t.co/FvNYaRvCas"
+      }
+     ]
+    },
+    "id": "2117285608745820372",
+    "note_tweet": {
+     "text": "Introducing the Hume Audio Decision API.\n\nAsk anything: How many speakers? Is anyone laughing? Is the caller frustrated?\n\nWhat used to take 10+ models is now one call.\n\nTrained on 10M+ human judgments, so it answers the way human listeners would.\n\nRealtime, or across hours of recordings.\n\nRequest access below."
+    },
+    "text": "Introducing the Hume Audio Decision API.\n\nAsk anything: How many speakers? Is anyone laughing? Is the caller frustrated?\n\nWhat used to take 10+ models is now one call.\n\nTrained on 10M+ human judgments, so it answers the way human listeners would.\n\nRealtime, or across hours of https://t.co/FvNYaRvCas",
+    "url": "https://x.com/i/status/2117285608745820372"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2117264296300445696",
+      "3_2117264296296202240",
+      "3_2117264296363343872"
+     ]
+    },
+    "author_id": "1961699105434210304",
+    "created_at": "2026-11-02T14:35:23.000Z",
+    "edit_history_post_ids": [
+     "2117264311714537633"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/KuZTk38HXr",
+       "end": 302,
+       "expanded_url": "https://x.com/Meituan_LongCat/status/2117264311714537633/photo/1",
+       "media_key": "3_2117264296300445696",
+       "start": 279,
+       "url": "https://t.co/KuZTk38HXr"
+      },
+      {
+       "display_url": "pic.x.com/KuZTk38HXr",
+       "end": 302,
+       "expanded_url": "https://x.com/Meituan_LongCat/status/2117264311714537633/photo/1",
+       "media_key": "3_2117264296296202240",
+       "start": 279,
+       "url": "https://t.co/KuZTk38HXr"
+      },
+      {
+       "display_url": "pic.x.com/KuZTk38HXr",
+       "end": 302,
+       "expanded_url": "https://x.com/Meituan_LongCat/status/2117264311714537633/photo/1",
+       "media_key": "3_2117264296363343872",
+       "start": 279,
+       "url": "https://t.co/KuZTk38HXr"
+      }
+     ]
+    },
+    "id": "2117264311714537633",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "longcat.ai/blog/longcat-2…",
+        "end": 366,
+        "expanded_url": "https://longcat.ai/blog/longcat-2.5/",
+        "start": 343,
+        "url": "https://t.co/ULLDweplqR"
+       }
+      ]
+     },
+     "text": "Introducing LongCat-2.5, our latest natively multimodal agentic model with 1.6T total parameters and ~48B active.\n\nBuilt for long-horizon agentic tasks, it brings stronger visual understanding and agentic coding to work ranging from complex coding projects to visual coding such as creative design and 3D tasks.\n\nLearn more about LongCat-2.5: https://t.co/ULLDweplqR"
+    },
+    "text": "Introducing LongCat-2.5, our latest natively multimodal agentic model with 1.6T total parameters and ~48B active.\n\nBuilt for long-horizon agentic tasks, it brings stronger visual understanding and agentic coding to work ranging from complex coding projects to visual coding such https://t.co/KuZTk38HXr",
+    "url": "https://x.com/i/status/2117264311714537633"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2117333843623444480",
+      "3_2117333843644456960"
+     ]
+    },
+    "author_id": "3980735590",
+    "created_at": "2026-11-02T19:11:42.000Z",
+    "edit_history_post_ids": [
+     "2117333850091348351"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/0uYg8jCFWn",
+       "end": 115,
+       "expanded_url": "https://x.com/testingcatalog/status/2117333850091348351/photo/1",
+       "media_key": "3_2117333843623444480",
+       "start": 92,
+       "url": "https://t.co/0uYg8jCFWn"
+      },
+      {
+       "display_url": "pic.x.com/0uYg8jCFWn",
+       "end": 115,
+       "expanded_url": "https://x.com/testingcatalog/status/2117333850091348351/photo/1",
+       "media_key": "3_2117333843644456960",
+       "start": 92,
+       "url": "https://t.co/0uYg8jCFWn"
+      }
+     ]
+    },
+    "id": "2117333850091348351",
+    "text": "Banked resets are good but visiting OpenAI DevDay exchange is even better. \n\nTesting x100 👀 https://t.co/0uYg8jCFWn",
+    "url": "https://x.com/i/status/2117333850091348351"
+   },
+   {
+    "article": {
+     "cover_media": "3_2115687604150763520",
+     "entities": {
+      "urls": [
+       {
+        "text": "claude.ai/code"
+       },
+       {
+        "text": "https://code.claude.com/docs/en/claude-projects"
+       },
+       {
+        "text": "https://code.claude.com/docs/en/commands#:~:text=/doctor%20%5Bprompt%2Daudit%20%5Bpath%5D%5D"
+       },
+       {
+        "text": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+       },
+       {
+        "text": "https://x.com/ClaudeDevs/status/2100633571543367691"
+       },
+       {
+        "text": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+       },
+       {
+        "text": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/"
+       },
+       {
+        "text": "https://claude.com/resources/articles/auto-mode-default-in-claude-code"
+       },
+       {
+        "text": "https://claude.dev/blog/claude-code-in-the-cloud/"
+       },
+       {
+        "text": "https://x.com/trq212/status/2080710971228918066"
+       }
+      ]
+     },
+     "media_entities": [
+      "3_2115684953707188225",
+      "3_2115685241138597888",
+      "3_2115685632408526848"
+     ],
+     "plain_text": "Newer models require less prompting than most of us still do.\nFor Opus 5.5, try giving Claude a single prompt with a clear goal of what you want to do and how Claude should verify it has achieved it, and let Claude work on it. Start with /effort medium and adjust as needed. \n \nIf you don't know yet what you're trying to do, ask Claude to interview you until it could write a spec. Then start a new session and use that spec to build what you want.\nClaude will stop on its own when it believes it's done. \nIf it can execute something that checks in terms of pass/fail or a number to beat, with reports in a way it can read, Claude can keep going without you having to watch. \nFor long background tasks, you can use /goal to specify a condition that a separate model to check after every turn. \nRecent versions of Claude Code have also adopted auto mode as the default starting mode for interactive terminal sessions. In that mode, a classifier analyzes Claude's actions rather than relying on the usual permission prompts. This is not a guarantee of safe behavior - neither is blindly approving every prompt. When Claude reports back, ask it to show you the command and output or a screenshot.\nFor models like Claude Opus 5 and Claude Fable 5, over 80% of the Claude Code system prompt was removed with no measurable degradation of its coding evals. \nWhen a new model like Opus 5.5 comes out, you can do the same experiment with your own instructions: remove some, then add back only those that the model misses. The /doctor prompt-audit command flags those written for older models.\n \nAnother area to reduce your own work is subagents. \nClaude delegates to them on its own, so you rarely need to ask. Ask only for substantial, standalone work like long audits or migrations, which Opus 5.5 can split across parallel subagents. For small jobs, subagents multiply cost and latency. Subagents can parallelize work or provide a second opinion, but they don't, by default, make things smarter. \nFor agents you build, a single agent with skills can outperform a subagent design on quality, often at lower cost and latency from what I’ve seen.\nUse Claude cloud sessions when you want to shut your laptop. Start one from claude.ai/code, the Claude app or via claude --cloud. Cloud sessions run in a separate VM with a fresh clone of your repo, so be sure to push any commits before you start. Check in from your phone, address any questions the session posed, then review the diff and open the PR. Keep a session local if the task requires resources that are only available on your machine.\nParallel sessions only pay off once a single session can finish without you. If you have Projects in Claude Code, I think you'd find them very useful. Without a project, you are the manager of multiple sessions and must track what each session is doing, and which ones have completed. \n \nA project is one long-running chat that does most of the project management for you: as issues and jobs come up, paste them in, and Claude creates a separate thread (usually a cloud session) for each and runs them in parallel. You provide instructions once, and they are applied to all new threads. And the Overview shows which tasks have completed, which PRs are ready and what's pending your input. \nProjects are in public beta on Pro and Max, so you may not have them yet, but hopefully soon!\nReview still matters. On the Claude Code team, however, most of the reading has become automated: most changes are reviewed and fixed by Claude at least once before a human is asked to look. \nYou can use Code Review on Team and Enterprise plans or the lighter /code-review, which reviews your diff in a subagent that hasn't seen the conversation. You can also simply start a new session. If you do, give it the spec and tell it to ignore stylistic stuff.\nEvery few months, audit how you work to make sure you aren't building for how older models used to work. ",
+     "preview_text": "Newer models require less prompting than most of us still do.\nFor Opus 5.5, try giving Claude a single prompt with a clear goal of what you want to do and how Claude should verify it has achieved it,",
+     "title": "You're probably overprompting Claude"
+    },
+    "article_title": {
+     "title": "You're probably overprompting Claude"
+    },
+    "author_id": "35432643",
+    "created_at": "2026-10-29T06:13:39.000Z",
+    "edit_history_post_ids": [
+     "2115688494865465370"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/i/article/2115…",
+       "end": 23,
+       "expanded_url": "https://x.com/i/article/2115682550723313664",
+       "start": 0,
+       "status": 404,
+       "unwound_url": "https://x.com/i/article/2115682550723313664",
+       "url": "https://t.co/1txsLAxxM5"
+      }
+     ]
+    },
+    "id": "2115688494865465370",
+    "text": "https://t.co/1txsLAxxM5",
+    "url": "https://x.com/i/status/2115688494865465370"
+   },
+   {
+    "author_id": "1764818331822182400",
+    "created_at": "2026-11-02T02:11:56.000Z",
+    "edit_history_post_ids": [
+     "2117077218228891742"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "description": "从具体任务出发，重审旧指令，讲清目标、检查方法和权限边界。",
+       "display_url": "xiaohu.ai/article/claude…",
+       "end": 70,
+       "expanded_url": "https://xiaohu.ai/article/claude-overprompting/",
+       "images": [
+        {
+         "height": 630,
+         "url": "https://pbs.twimg.com/news_img/2117077227326304256/6r662qDR?format=jpg&name=orig",
+         "width": 1200
+        },
+        {
+         "height": 150,
+         "url": "https://pbs.twimg.com/news_img/2117077227326304256/6r662qDR?format=jpg&name=150x150",
+         "width": 150
+        }
+       ],
+       "start": 47,
+       "status": 200,
+       "title": "Claude Code：哪些提示词该删，哪些要讲清楚",
+       "unwound_url": "https://xiaohu.ai/article/claude-overprompting/",
+       "url": "https://t.co/7VjRyCNl7e"
+      },
+      {
+       "display_url": "x.com/addyosmani/sta…",
+       "end": 94,
+       "expanded_url": "https://twitter.com/addyosmani/status/2115688494865465370",
+       "start": 71,
+       "url": "https://t.co/AtkL8WPCS0"
+      }
+     ]
+    },
+    "id": "2117077218228891742",
+    "referenced_tweets": [
+     {
+      "id": "2115688494865465370",
+      "type": "quoted"
+     }
+    ],
+    "text": "Claude Code工程师，你可能给 Claude 写了太多提示词：哪些该删，哪些要讲清楚 https://t.co/7VjRyCNl7e https://t.co/AtkL8WPCS0",
+    "url": "https://x.com/i/status/2117077218228891742"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2117255528309227520"
+     ]
+    },
+    "author_id": "2067518374469640193",
+    "created_at": "2026-11-02T14:03:08.000Z",
+    "edit_history_post_ids": [
+     "2117256196227019194"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/MlXHIyyA1o",
+       "end": 226,
+       "expanded_url": "https://x.com/DeepSeekHarness/status/2117256196227019194/video/1",
+       "media_key": "13_2117255528309227520",
+       "start": 203,
+       "url": "https://t.co/MlXHIyyA1o"
+      }
+     ]
+    },
+    "id": "2117256196227019194",
+    "text": "Your Harness. You Define It.\n\nMeet Creator Mode in DeepSeek Harness. \n\nTurn ideas into plugins that you can use, from a design workspace to a sandbox game or a 3D LLM visualizer. \n\nWhat will you create? https://t.co/MlXHIyyA1o",
+    "url": "https://x.com/i/status/2117256196227019194"
+   },
+   {
+    "author_id": "1953337039510003712",
+    "created_at": "2026-11-02T15:50:08.000Z",
+    "edit_history_post_ids": [
+     "2117283124833055196"
+    ],
+    "id": "2117283124833055196",
+    "text": "Fellow resetters, heads up that we're working on expanding the family of frontier models that power dots, including GPT-6 Astra and GPT-6.1 Terra and some others in the future. Terra brings speed and a nice personality upgrade, and will help us bring dots to more people.",
+    "url": "https://x.com/i/status/2117283124833055196"
+   }
+  ],
+  "includes": {
+   "media": [
+    {
+     "media_key": "3_2117225444923826176",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWHlUxoaYAAOQ2o.jpg"
+    },
+    {
+     "media_key": "3_2117157339954626560",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWGnYi2bQAARuVh.jpg"
+    },
+    {
+     "media_key": "3_2117156284160225280",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWGmbFtbMAA7UAC.jpg"
+    },
+    {
+     "media_key": "3_2117173388036980736",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWG1-qnawAA3a8M.png"
+    },
+    {
+     "media_key": "3_2117313897849864193",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWI1xadWwAEGiHb.jpg"
+    },
+    {
+     "media_key": "3_2117298569086681088",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWIn1KXawAAzmsR.jpg"
+    },
+    {
+     "duration_ms": 204501,
+     "media_key": "13_2117276914591399937",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2117276914591399937/img/UT3OrHoJmR0zyCbG.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117276914591399937/vid/avc1/1280x720/DV_u-qIiFMH-R51d.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117276914591399937/vid/avc1/480x270/ZgmIzdBfU1TQ7ZJw.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117276914591399937/vid/avc1/640x360/F6_2LC3ewymhsXx1.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2117276914591399937/pl/w4n65X9RHz_NYU7x.m3u8?v=974"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117276914591399937/vid/avc1/1920x1080/4NwkzSstFzM2Vn9_.mp4"
+      }
+     ]
+    },
+    {
+     "duration_ms": 10025,
+     "media_key": "13_2117312192869478400",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2117312192869478400/img/tEnBcK_-TpGxj4qO.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117312192869478400/vid/avc1/2004x1080/Xlu43R6V1uXyuxW-.mp4"
+      },
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117312192869478400/vid/avc1/1336x720/rAXqxIOCLH91R1c3.mp4"
+      },
+      {
+       "bit_rate": 25128000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117312192869478400/vid/avc1/3840x2068/SGLTvy4EBteUnfCy.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2117312192869478400/pl/1RrFyiMf2NHUtLa6.m3u8?v=cfc"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117312192869478400/vid/avc1/668x360/Zo-F09e3wf4c1eqL.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117312192869478400/vid/avc1/500x270/gU4BGWF0Fs0vANCt.mp4"
+      }
+     ]
+    },
+    {
+     "media_key": "3_2117264296300445696",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWIIqOSbAAAeW8v.jpg"
+    },
+    {
+     "media_key": "3_2117264296296202240",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWIIqORaQAAr7tz.jpg"
+    },
+    {
+     "media_key": "3_2117264296363343872",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWIIqOhawAAUzOZ.jpg"
+    },
+    {
+     "media_key": "3_2117333843623444480",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWJH6aQWgAAKO3Y.jpg"
+    },
+    {
+     "media_key": "3_2117333843644456960",
+     "type": "photo",
+     "url": "https://pbs.twimg.com/media/HWJH6aVXIAA23hy.jpg"
+    },
+    {
+     "duration_ms": 99381,
+     "media_key": "13_2117255528309227520",
+     "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2117255528309227520/img/bcnmVclr5ToXKbxg.jpg",
+     "type": "video",
+     "variants": [
+      {
+       "bit_rate": 2176000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117255528309227520/vid/avc1/1280x720/XWSyD7yPHJjqycmK.mp4"
+      },
+      {
+       "bit_rate": 832000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117255528309227520/vid/avc1/640x360/CixPNPaqllYjQD-K.mp4"
+      },
+      {
+       "bit_rate": 10368000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117255528309227520/vid/avc1/1920x1080/6IWmgERSPGcaMT8S.mp4"
+      },
+      {
+       "bit_rate": 256000,
+       "content_type": "video/mp4",
+       "url": "https://video.twimg.com/amplify_video/2117255528309227520/vid/avc1/480x270/6mjlbVwJy23ChR2-.mp4"
+      },
+      {
+       "content_type": "application/x-mpegURL",
+       "url": "https://video.twimg.com/amplify_video/2117255528309227520/pl/zkD5iu2PktGIAvjj.m3u8?v=cfc"
+      }
+     ]
+    }
+   ],
+   "posts": [
+    {
+     "article": {
+      "cover_media": "3_2117053977955373056",
+      "entities": {
+       "code": [
+        {
+         "code": "{\n  \"name\": \"中台意见\",\n  \"when\": {\n    \"source\": \"virxact-hub\",\n    \"types\": [\"feedback.new\", \"feedback.followup\", \"feedback.decided\"]\n  },\n  \"to\": \"m5-claude\",\n  \"cwd\": \"~/code/work/virxact-hub\",\n  \"skill\": \"hub-feedback\",\n  \"ask\": \"按其中“被 Agent 自动化中台叫起来的”一节处理。\",\n  \"group\": \"hub-feedback\",\n  \"parallel\": 3,\n  \"tell\": \"needed\"\n}",
+         "content": "```\n{\n  \"name\": \"中台意见\",\n  \"when\": {\n    \"source\": \"virxact-hub\",\n    \"types\": [\"feedback.new\", \"feedback.followup\", \"feedback.decided\"]\n  },\n  \"to\": \"m5-claude\",\n  \"cwd\": \"~/code/work/virxact-hub\",\n  \"skill\": \"hub-feedback\",\n  \"ask\": \"按其中“被 Agent 自动化中台叫起来的”一节处理。\",\n  \"group\": \"hub-feedback\",\n  \"parallel\": 3,\n  \"tell\": \"needed\"\n}\n\n```",
+         "language": "none"
+        }
+       ],
+       "posts": [
+        {
+         "id": "2114343004471460341"
+        }
+       ],
+       "urls": [
+        {
+         "text": "feedback.new"
+        },
+        {
+         "text": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647686948&idx=1&sn=d43b6d924d339092f96e3ba826119f6c&scene=21#wechat_redirect"
+        }
+       ]
+      },
+      "media_entities": [
+       "3_2117052522007584768",
+       "3_2117053652783476736",
+       "3_2117053461024169984",
+       "3_2117053177589809152",
+       "3_2117052567801004032",
+       "3_2117052385738797056",
+       "3_2117052979216007169",
+       "3_2117053028469813248",
+       "3_2117053127778357248",
+       "3_2117053554360000512",
+       "3_2117053419815043072",
+       "3_2117053331655086082",
+       "3_2117053287572881408",
+       "3_2117053080504279040",
+       "3_2117053509204054016",
+       "3_2117052621144158208",
+       "3_2117052330235531264"
+      ],
+      "plain_text": "https://x.com/Khazix0918/status/2114343004471460341上周六的时候，DeepSeek发了他们一篇很长的技术文章，叫《Super-agent设计探索：迈向更自主的Agent系统》，细细读完了，非常棒的架构，对很多开发者来说，都非常非常值得学习。\n其中里面最重要的一句话，我觉得就开篇的那句：\n“一个人通常只能同时跟进3到5个活跃的会话，在这种设计下，单任务的上限取决于模型能力，多任务的上限取决于人的注意力。”\n在整个Agent系统里，人的注意力是最宝贵的资产，同时也是最大的瓶颈。\n其实历史上出现过无数次这种情形。\n1380年，朱元璋借着胡惟庸案，把中书省和丞相一起废了，从此六部直接对皇帝负责，天下大事，全部直通他本人。\n然后报应很快就来了，洪武十七年九月，给事中张文辅给朱元璋报了一笔账，从十四号到二十一号，八天时间，内外各衙门送上来的奏札一共1660件，里面要处理的事，三千多件。\n平均下来，一天两百多份奏札，朱元璋要一个人处理400多件事。\n朱元璋是出了名的勤快，但这个强度，他自己也绷不住了，当场跟大臣们说了一句话，“朕一人处此多务，岂能一一周遍”。\n翻译过来就是：\n我一个人，管这么多事，怎么可能每一件都照顾得过来啊。\n你看，皇帝的注意力，跟我们普通人的，其实也差不了多少。\n六百多年过去了，我们人类也步入了AI社会，每个人也都开始成为了自己的皇帝，只不过这一次，递奏折的不是六部九卿，是一个个Agent。\n如何设计Agent的调度系统，解放自己的注意力同时，大幅提高生产力效率，尽可能让自己抽身出来，只做最关键的决策，就是未来我们每个人都要学习和思考的命题。\n这个特质，其实也叫：\n领导力。\n所以，我也想用这篇文章，来斗胆给大家分享一下我自己这将近1年的Agent系统的成果和经验，以及我是如何让Agent自动化的去处理各种事务的，架构是什么样的，我又是如何尽可能的抽身出来跟Agent协同，只做最关键的判断的。\n整体确实是我这种非专业用户自己这么长时间的探索和使用，以及我觉得可能也更加适合普通用户一些的流程，希望能对大家有用～\n\n1. Agent自动化系统\n首先还是分享一下我对Agent自动化的理解。\n现在大部分人用Agent的方式，其实都还是偏聊天的方式。\n打开Claude Code或者Codex，给它一个任务，看着它干，干完了你检查一下，再给它下一个任务。\n这个过程里有一个弊端，你会发现，所有事情的起点都是你，你只要不打开那个窗口，什么都不会发生，所以不管模型有多强，你能同时推进的事，永远就是你盯得过来的那几个窗口，DeepSeek说的3到5个会话，就是这个意思。\n所以我们在用Agent的时候，一定要尽可能的是领导力思维，把这个任务发生的起点，从人的身上拿掉，用各种信号来去触发Agent进行工作，而不是必须等待你下命令。\n你可以想象你现在就像朱元璋一样，一定不是所有的任务都需要推到你的面前，且也绝对不是你不说话，底下的大臣们就不干活了，一定是大臣们遇见事情，能自己处理的就处理掉了，只有他们拿不准的，必须需要上升到你这进行决策的，才会推到你的面前。\n这个就是我自己理解的Agent自动化系统最终极的意义。\n这就跟带团队一样，一个好的团队，从来不会什么事都跟你汇报，它会自行推进，只把需要你拍板的事拿给你，剩下的，自己去干掉就OK了，你需要给与的，就是充分的信任。\n所以在这套理解下，我整个的系统架构和流程，是这样子的。\n \n我唯一要做的事，就是最后一步，我称为批奏折。\n在飞书里面，我的AI助理小卡会给我弹一张卡片，让我确认，我只要点击就可以了。\n \n点完以后，Agent就收到我的决策了，继续自己干活了。\n基本能最大化释放我的人力。\n顺着流程，我们一个一个模块说。\n\n2. 自动化中台\n先说最核心的这个，Agent自动化中台。\n \n在Agent的体系里面，既然我们要把人给拿出去，那在何时、在何种信号下触发Agent，让它进行工作，就变成了一个需要设计的命题。\n这也就是：事件。\n世间万物，任何的信号触发，我们都可以归纳为一个事件。\n比如定时任务就是一个事件的搜寻行为，固定每分钟或者每小时去轮询请求，来发现事件，比如Webhook触发也是一种事件，比如我们收到一条消息、收到一份邮件、某个系统突然触发了告警等等。\n定时去找的那种，Claude和Codex自己的应用里已经做得很好了，每天几点跑一次什么，设一下就行，我自己也有一大批定时任务，就放在它们的应用里跑。\n \n甚至还有个很好玩的东西，是每一天下午，Codex都会从微信群的聊天记录、X、小红书、抖音等平台搜索大家对于AIHOT的最新讨论和反馈，然后汇总成一份报告给我，给我可行的评估建议，是否要去优化。\n还有每周操控我的浏览器，去豆包、DeepSeek、千问、元宝、ChatGPT、Gemini等等平台，去问一遍我们的一些GEO问题，来判断AIHOT的GEO情况，等等等等。\n然后AIHOT也开源了，每一天都有朋友在Github上提建议、提PR等等，Claude就会每天晚上6点扫一遍，然后处理问题还有PR。\n \n但定时任务轮询有个天生的问题，就是不及时，同事提了一条意见，线上突然报了一个错，你总不能等到第二天早上的定时任务再去看对吧。\n这种事件，必须一发生，Agent马上就被叫醒，这就得靠Webhook，有事的时候，那边的系统主动推一条消息过来。\n而找上门来的事件，来源五花八门，飞书消息、飞书机器人、邮件、各种系统的告警，每一种长得都不一样。\n并且因为模型的能力不同，擅长的任务也不同，为了最大化性价比和省Token，所以事件触发以后，要叫醒的Agent、模型、推理深度也都不一样。\n比如有的事件要叫醒Claude Code用Claude Opus 5.5 high推理去处理，有的要叫醒Codex用GPT-6.1 Terra xhigh去浏览器搜索一些正常拿不到的数据，有的又是要推给GPT-6.1 Sol xhigh去修复BUG等等等等。\n如果每接一种事件，都单独写一套脚本，去接这个来源，去叫醒那个Agent，做三五个还行，做到十几个、几十个，一定会乱成一锅粥的，你再也无法管理了。\n所以，为了以后不乱，我就自建了这个中台，专门用来管所有的事件触发，后来把定时任务也纳入进去了，全部打通。\n它本身是一个很小的独立服务，部在线上一台轻量服务器上，有自己的网址和数据库。\n它干的事也很简单，所有的事件，都先发到这里，由它统一决定交给哪个Agent，统一去叫醒，统一把结果收回来，真需要我来决策的时候，再通过飞书告诉我给我弹一张卡片，我来决策。\n它的第一件事，就是给所有事件定一个统一的格式。不管从哪来，发到中台的都是一条很短的消息，里面只有几样东西，从哪来、什么类型、对象是谁、一句话摘要，再加一个回到原处的链接。比如虚实中台发来一条feedback.new #12，就是同事给虚实中台又提了一条新意见，编号是#12。\n格式统一了，后面就好办了，中台收到事件以后，去查规则。所有规则都写在一个叫rules.json的文件里，比如同事意见这一条，是这么写的。\n \n翻译成人话就是，对产品新意见、同事的补充、还有我拍过板的决定，都交给M5上的Claude Code，在虚实中台的代码目录里，用hub-feedback这个skill去处理，给Agent的指令就一句，按skill里对应的那一节办，每条意见单独开一轮，同一条意见同时只跑一轮，最多三条一起跑，做完了，只在需要我决策的时候才告诉我，否则就不需要推到我这边。\n然后是叫醒Agent，这里有个技术上的小问题，Webhook能把消息推到中台，但中台推不到我的Mac上，我的Claude和Codex都是部在本地的，因为我的两台Mac都在家里和办公室的内网里，外面根本连不进来。\n所以我们反过来做，每台Mac上都跑着一个接单程序，一直挂在中台上等活，一次最长等50秒，有活立刻接走，没活就再挂上去接着等，这样Mac不用暴露到公网上，速度也跟实时推送也差不多。\n它的好处，我觉得有这么几个。\n第一，接一种新的事件，变得特别简单。不用再写一套新脚本，在rules.json里加一条规则就行。我跟Agent说一句，它改完文件、过了检查，几分钟就生效。\n第二，换Agent也特别简单。哪类事交给谁，就是规则里的一行字。今天交给Claude Opus 5.5，明天想换成GPT-6.2 Astra，改一行就行，以后出了更好用的模型，可以随意替换。\n第三，去重。自动化跑起来以后，同一件事被发好几遍，是常态，比如网络抖一下，来源那边以为没发出去，就会再发一遍。同事提完意见，又补了一句话，又贴了一张图，这又是好几条事件。如果每来一条就叫醒一次Agent，同一件事就会有好几个Agent同时在干，这个Agent改一遍，那个Agent又改一遍，最后绝对是乱的要死的，所以就让自动化中台做统一去重，非常省心。\n第四，所有消息，只有一个出口。不管哪个Agent、哪个任务要找我，都只走一条路，就是小卡，我在飞书里的AI助理。而且每条规则都写清楚了，只在必须需要我判断和决策的时候才说，不会这个脚本发一条，那个机器人发一条，把我的飞书刷屏，尽最大可能保护我的精力。\n第五，数据沉淀。因为所有的事件都从中台过，所以每一件事都留了底，什么时候来的、从哪来的、交给了哪个Agent、它最后的结论是什么、有没有需要我留意的、后来又是怎么解决的，全都记在中台的数据库里，点开任何一件任务，还能直接跳到当时Agent干活的那个会话，看它到底干了什么。这些东西攒久了，就是非常完整的数据沉淀了，哪条流水线最忙，哪个Agent干得最多，哪类事老出问题，一眼就能看出来，以后要换模型、改规则，也有数据依据。\n并且还有一个符合我自己爽感的东西，就是所有的自动化任务，我一眼就能看清，可能我确实受种田游戏影响颇多，所以对这种自动化的可视化有深深的迷恋，玩《戴森球计划》的时候，最喜欢看的就是那种密密麻麻的自动化流水线。\n所以，我甚至还做了一个有趣的网页，来把我们的流水线像游戏一样展示出来，并且跟现实世界时间和天气完全打通，现实下雪，那这个自动化小镇里也会下雪。\n之前渲染了一个视频，给大家看看～\n \n这个中台就是让每个事件一发生，就能自己找到该干活的Agent，只把真正需要我的那一小部分，递到我面前。\n\n3. Agent执行\n在触发了事件之后，接下来就是Agent领任务和执行了。\n \n首先我想说一个巨大的前提，就是我们并不是无限Token，即使我开了200刀的Claude会员，猛用下来3天就能用完近90%。\n \n且几个主流模型所擅长的能力点，确实不太一样，各有优劣，所以才会涉及到调度，就是为了整体性价比最优。\n目前我是200刀Claude会员+100刀的GPT会员，基本够用。\n目前主要是几个模型：\nClaude Opus 5.5，它是我们的主力开发，AIHOT的自动化开发、同事对公司中台提的意见这类比较复杂、需要一定主观能动性且能做决策的活，基本都是它在干，我现在几个核心项目的代码，大部分也都是它写的。\nGPT-6.1 Sol，它主要管我们所有项目的运维，告警、每天早上的系统日报、各种到期的复查等等，出了问题它就去查，查到BUG或者问题就直接修了，在做这种活上效果非常好，性价比也极高。\nGPT-6.1 Terra，专门干浏览器&电脑操控的活。它能直接操控我MacMini上那个登录好各种账号的Chrome，前面说的每天去各个平台搜大家对AIHOT的讨论，每周去各家AI问一遍GEO问题，这些没有接口、正常拿不到的数据，全靠它去处理的。\n我自己如果日常主动触发的任务，用的也都是Claude来进行任务的处理，其实我也经常能看到很多人用Grok或者是一些其他的弱一点的模型来指挥Claude，我觉得还是有点不太对，因为做决策和做管理的模型，它一定得是智力和主动性最强的，你不能用笨逼来指挥聪明的，这样会乱套的。\n同时，我自己是有两台MacMini的，一台新买的M5 Pro，一台是去年买的M4的Mac Mini。\n \nM5 Pro是我的主力日常用机，而我的Agent自动化任务基本都是运行在M4那台机器上的，两端通过局域网互通，基本都在本地，没有上云。\n主要是我基本是独立开发，我的代码仓库、发布权限、飞书身份，还有那个登录好各种账号的Chrome，全都在这两台Mac上。\n要是把Agent放到云上，就得把这些登录和权限，在每一家云上都复制一份，既麻烦，又不安全。\n而且很多国内的东西，海外的云端Agent根本就没法用，他们大多跑在海外，跨境访问我们在北京的服务器，动不动就慢就超时。浏览器类的任务更别说了，像微信这种，换成云上虚拟机里的浏览器去打开，直接就给你崩了。\n再加上两台Mac本来就是现成的，一直开着也无所谓，功耗也极低。\n日常需要用M5 Pro电脑操控M4，直接Agent操控或者UU远程就行了，方便快捷。\n \n然后我觉得在Agent自动化执行里面，还有一个蛮重要的东西，是skill。\n我们每个自动化任务，基本上都配着一个专属的Skill，Skill其实过了这么久了，大家也都知道本质上它就是一个沉淀下来给Agents用的SOP，里面附带着一些规则、参考还有脚本之类的。\n比如每周日早上我有个大扫除的定时任务，就搭配了一个专门的Skill，写的就是把这一周合进来的屎山找出来删掉，同一件事写了两遍的、为个案打的补丁、停用了却没拆干净的、变成流水账的文档，能删的直接删掉，再上线。\n \n这样的好处就是清晰、可控、可管理，你想对这个任务的详情进行修改，直接去改Skill就可以了，不用去改这个Agent执行本身的逻辑，尽可能解耦，可管理。\n\n4. CI中台\nAgent把代码写完、提交上来以后，就到了第三块，CI中台。\n \nCI这个词，可能很多不写代码的朋友没怎么听过，大概意思就是，代码写完以后，自动帮你审查、测试、上线的那一整套流水线。\n这块之所以要单独拎出来做一个中台，原因很简单，量太大了。\nGitHub自带的CI，用的是它自己的机器，每个月我开了会员也才3000分钟的免费额度，超了就得另外交钱，而我们的量实在太大了，光AIHOT一个项目，整个10月已经合进去了将近一千个合并请求，平均一天二三十个，每一个还要来回跑好几遍检查，那点额度根本扛不住。\n我之前算过，按照我们提交PR的数量，如果还是用Github的CI体系的话，每个月光超额费用就得交50美金以上。\n所以干脆在家里的那台老的M4的MacMini上自己自建了一台CI中台，机器是现成的，不用另外花钱，而且性能强多了，还在北京，跑得比GitHub自己的CI快多了。\n这一块，如果你有Linux的机器来做CI其实会更好，我的Mac是ARM的，所以其实是模拟的环境，但是我觉得也够用了。\n然后因为项目多，Agent多，所以这个本地CI我就升级了一下，也变成了中台，供我所有的项目使用。\n流程大概是这样的。\n \n不管是Claude还是Codex，Agent的活，干到提交代码、开一个合并请求，就结束了，它自己不能上线。后面所有的事，全部交给CI中台，一共五步，审查、检查、合并、发布、核实。\n第一步，Agent审查，这个我觉得是整套系统里最值得说的一块。\n我们几个项目的代码，现在基本都是Claude在写，但每一个合并请求在合进去之前，都要先过一遍Codex的审查，用的就是前面说的GPT-6.1 Sol，GPT模型在审查这块还是牛逼的。\n之前也遇到过无限审查和挑错的情况，Codex能审个10轮磨磨唧唧，所以学习了Anthropic自己那篇《How the Claude Code team does code review》，他们Claude Code团队就是每个改动合并前都审一遍，但是最多审3次。\n最近两周，四个项目，一共审了298个合并请求，Codex报了333条问题，306条在合并前被修掉了，其中最严重的那一档有51条。\n并且审查也有几条规矩，比如Codex是只读的，只能看不能改，连不了网，也读不到任何钥匙。只报真会出错的问题，不报代码风格，不然它能给你挑几十条「可以写得更好」，能给你打回去能改到天荒地老。\n成本也不高，一次审查中位数两分多钟，大概占那次任务5%到15%的Token。\n第二步，检查。审查过了，就开始跑完整的检查，类型检查、全部测试、构建，还有数据库只能加不能改这类硬规矩，有一条不过，就不能合。\n这些检查，就跑在前面说的那台M4的MacMini上。每个任务都开一台全新的虚拟机，跑完连机器带身份一起删掉，Agent写的代码，从来不会直接在我的Mac本机上跑。\n第三步，合并。审查和检查都过了，GitHub自动合并，而且这两项是写死在GitHub上的规则，没审过、没检查过的代码，不管是哪个Agent、哪个工具，都合不进主干。\n第四步，发布。合进主干以后，GitHub会自动启动发布流程，活照样派给那台M4单独开一台专门发布的虚拟机来跑。\n第五步，核实。合并进去、发出去，依然没有结束。M4上的交付程序会等GitHub上的发布流程全部跑完，再去线上问一遍，现在跑着的版本是不是已经包含了这次的改动，确认真的上线了，再把结果写回GitHub，这一轮才算结束。\n最后执行开发任务的本地Agent，看一眼GitHub就知道最终状态是什么样了。\n五步走下来，从Agent把代码交过来，到真正上线，中位数两三分钟，速度极快，体验极佳，全程不需要我管，并且上线的质量大大提高，几乎很难会有BUG或者返工的情况。\n并且因为有了CI中台，所以未来我们做任何项目，都是完全可以复用这一整套流程的，非常的省心加愉快。\n\n5. 在飞书上批奏折\n能自动解决的，Agent都自动解决了。\n那最后能推到我这边的，一定是需要我做的决策或者是大事。\n我也不喜欢Agent通过什么DOT、Grok Bot之类的所谓Personal Agent来去找我，我觉得会有点麻烦，于是就直接跟飞书打通了，我的AI助理直接给我推一个卡片，我就能第一时间看到。\n \n并且还可以直接做选择。\n \n这个感觉，其实讲道理，跟皇帝批奏折真的没有什么区别。\n朱元璋那会儿自己是一个人硬扛，到了他的子孙，慢慢摸索出了一套办法，叫票拟和批红。\n奏章送上来，先交给内阁，大学士把建议的处理意见写在一张小票上，贴在奏章上面，这叫票拟，皇帝看一眼，同意就用红笔批下去，这叫批红。\n这样确实是最省心的方式。\n所以我的决定卡片，就是Agent给我写的票拟。\n我只做判断，只要点击就行，然后在之前等着我审批的Agent就会接着往下干，卡片也会自己改成结论，比如今晚临时发生的，有个龟儿子进了AIHOT的飞书群，把推送机器人也移除了，然后自己退群了，我都不知道还有这个漏洞，然后因为报错，就触发了整个自动化工作流，给我推了一条卡片。。。\n \n但卡片做的这个交互方式即使有用，但是最重要的就是到底什么事情应该推到我的面前。\n之前其实踩过很多坑，甚至有的时候一天给我推几十条，严重影响我的注意力。\n所以现在必须先问我的就那么几类了，比如删数据、停服、花钱、对外发消息、改产品方向、新建或轮换密钥、修改权限等等，剩下的，Agent就自己全权做完上线。\n而且我定过的事，Agent不会问第二遍。\n我们的仓库里，有一份文件就叫「卡兹克定的事」，只记我亲口做的决定，带着原话和日期。\n然后还有一份「定了不做的事」，我拒绝过的，Agent以后再碰到，直接照着回答，不会再拿来烦我。\n最后还有一个小东西，是我完全没有交给Agent的，每一个，我一定都亲自看，然后把有价值的，亲自发给Agent，让它去做后续的执行。\n这就是用户反馈。\n我每天都会收到一些用户直接的反馈内容，我特别感谢他们。\n \n只要是我觉得能做的，每一个我都会复制粘贴，让Agent来去解决。然后解决完以后，给对方的邮箱发一封真诚的回信反馈。\n可能这也是最后的一种仪式感吧。\n\n写在最后\n上面就是我整个走Agent自动化的一些探索和技巧啦。\n我肯定没有那么专业，只是想跟大家分享一下，我自己的一些经验和玩法，因为这确实是我最近用的非常爽的方式。\n万一呢，万一真的对一些人有用，真的能帮助到大家呢，那也真的是一件非常开心的事了。\n想一想这一年，还真的有一些魔幻。\n一年前，我是一个完全不懂开发的设计师。\n一年后的今天，我搭了我自己的Agent自动化系统，做出了百万月活的公益产品，还开源了，拿到了9000 star的好成绩，也看到无数的反馈，说帮到了他们。\n \n我还给公司搭了公司的中台：我花了5天时间，对公司进行了一场AI化改造。也在用Agent的方式，去迭代整个公司。\n每一天，我都在开发中、在创作中学习，一年前，我连CI是什么都不知道，半年前，我甚至连CDN是什么都不知道，但是不妨碍我，现在都知道了。\n这可能，就是学习的快乐吧。\n希望今天这篇内容，能对大家有用。\n也愿我们，永远对世界，保持好奇。",
+      "preview_text": "上周六的时候，DeepSeek发了他们一篇很长的技术文章，叫《Super-agent设计探索：迈向更自主的Agent系统》，细细读完了，非常棒的架构，对很多开发者来说，都非常非常值得学习。",
+      "title": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。"
+     },
+     "article_title": {
+      "title": "折腾了整整1年，毫无保留地分享一下我这套Agent自动化系统。"
+     },
+     "author_id": "1492195583699951620",
+     "created_at": "2026-11-02T00:39:51.000Z",
+     "edit_history_post_ids": [
+      "2117054043868860521"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/i/article/2117…",
+        "end": 23,
+        "expanded_url": "https://x.com/i/article/2117052113822117888",
+        "start": 0,
+        "status": 404,
+        "unwound_url": "https://x.com/i/article/2117052113822117888",
+        "url": "https://t.co/zQ9V1fVaSZ"
+       }
+      ]
+     },
+     "id": "2117054043868860521",
+     "text": "https://t.co/zQ9V1fVaSZ"
+    },
+    {
+     "article": {
+      "cover_media": "3_2117158972235055104",
+      "entities": {
+       "urls": [
+        {
+         "text": "https://mp.weixin.qq.com/s/zoS7GlReWPhfCjENGxXCdg"
+        },
+        {
+         "text": "https://x.com/amazing129/status/2104769536591544418?a=T2fCmNgn6wXiOs85ZL4&s=20"
+        }
+       ]
+      },
+      "media_entities": [
+       "3_2117142819026657280",
+       "3_2117164616728158208",
+       "3_2117164849465884674",
+       "3_2117139243252555776",
+       "3_2117158258012196864",
+       "3_2117148382288596992"
+      ],
+      "plain_text": "所谓 Super-agent，指代 Deepseek 文章 中表达的内容。我认为这些东西并不新鲜，DeepSeek 这次只是用了一个框架将他们整合在了一起。\n那么借着这个机会，聊聊最近半年我对 Agent 发展的总结。我不懂也不讲技术，只涉及产品层面的一些思考。\n从对话到任务\nLobeHub 在今年 4 月，上线了 Task 系统，像 Linear 管理 Issue 一样，管理 Agent 的任务。在当时，其实已经有一些软件通过给 Session 打上生命周期的标签（Backlog / Todo / Needs Review...）来管理，比如 Craft Agent；还有一些产品，更进一步做成了协作看板，比如 Multica。\n我认可这个方向，但是在那个时间点，我回答不了一个问题：如果 Task 的底层还是对话，那么用户究竟怎么区分这两种形态？换句话说，当你把这两盘菜端到用户面前时，用户还是会习惯性地开启对话，而不是启动一个任务。\n事实上，用户心智想要从 Session 要转化为 Task，使用场景要满足三个特征：并行、长程和异步。这三个，是今年 Agent 发展过程中逐步成型的。\n并行：当时已经成为了共识，从 cli 的多窗口，到 codex app 同时切 n 个 worktree 左侧轻松切换。\n长程：这件事有一个左脚踩右脚的过程。一方面，模型的能力变强了，可以自主探索、做更多的事情，另一方面，模型本身就被训练、harness 也被设计为让它更多地去做事（比如 goal 的功能，比如过度探索导致的越界）；一方面，人们希望 Agent 可以将自己的事情端到端完成，另一方面，模型厂商也希望消耗更多的 token。\n长程带来了很多影响。比如说远程化或者云端化。其实并行不会直接导致云化——只有任务都结束比较快，本地也可以并行，遇到的性能和存储瓶颈也只是升级本机设备的问题。但是长程就必将导致云化。一方面，时间长会导致并行任务的积压，等不到结束，单机就无法再开启新任务了；另一方面，在如此长的时间内，本机可能需要做别的事情，本机也可能要临时关闭，但是任务不能停。那自然而然的，Agent 就被放到远端去执行，任务的完成也就变成异步了——人们希望一个回调函数，完成时通知自己。\n异步：但除了任务的异步结束，我觉得下半年更重要的一个改变，也是我认为用户终于可以接受“任务”的产品形态了，那就是可以异步开始——当我给 Agent 发了消息，却不是希望它立刻执行的。大家可能第一反应是定时任务，但定时任务只是一种特殊情况。\n在团队协作中，异步任务有着更广泛的应用。假设团队已经建立了软件工厂，不管外部还是内部的缺陷，都可以直接转给一台 7✖️24 运行的 claude code 来处理。那源源不断的问题进来，如果没有一个任务管理来区分紧急重要、规模大小、以及问题与问题之间的依赖和冲突等，那么受限于订阅 / API 额度有限、环境资源有限等，claude code 必然是处理不过来的，就一定需要编排。\n说到这里，其实已经像我们曾经的全人类团队了：同一时间有很多需求并行；一个需求的完成是长程的（需要一段时间）；大家都在异步工作（有需求的依赖）；资源总是有限的（人力、财务等）。下图是 LobeHub 的 Agent 和人协作的任务看板，已经成为了我们团队的开发日常。\n \nRouter 到 Worker 的双层架构\n其实双层架构并不是什么新鲜事。相信大家都有过这样的实践，让更强的模型来设计方案，然后让没那么强但是足够完成任务的模型来执行。通过这种方式，来实现成本和速度的平衡。相当于老板拍方案，手下的人去执行。\n那 Deepseek 里提到的，本质就是把模型选择反过来——让一个足够便宜且快速、但是智能达标的模型，在接受噪音的情况下，做一些简单的总结、分发，真正的工作还是让高级模型来执行。相当于秘书接电话，选事情上报给老板处理。\n \n思路很简单，但也是经历了一些演化。比如最开始 Raft（当时还叫做 slock）让大家把 Codex / Claude Code 接入聊天频道，让他们可以直接感知人类讨论的上下文去干活。 但是这里存在问题（当时的版本，不知道他们后来怎么处理的）在他们的博客中也提到了，一是成本，比如频道中每发一条消息，他们可能都需要去读一下才知道是否和自己相关，相比之下，人类只需要扫一眼就行；二是智能。如果我希望保障 Codex 的产出质量，是不希望频道控制相关的上下文也混入其中的。（开发者对 harness 和 context 更为敏感，比如同样的模型，很多人用 pi 也不相信 codex）\n真正的转折点发生在模型的进步。今年第一档模型的发展放缓了（相比于去年），但是第二档模型在速度、成本、智能上的优化却是惊人的。这才有了采用比如 Deepseek Flash 来作为中转模型，接受这些聊天噪音，并且清晰地提取出任务，再交给专业的 Harness 和模型来隔离处理问题，一举解决了刚才提到的问题。\n至于如何让 Agent 可以从噪音中提取出信号，我们已经完成了产品化——可以加规则，可以调程度，也可以反馈迭代。\n \n下图是在 LobeHub 的 Discord 中的真实截图：一个专门感知人类对话的 Agent，背后由 Deepseek 驱动。但是真正的代码任务，会交给 Dario，背后由 Claude Code 驱动。没错，我们让 CEO 亲自来干活：）\n \n存算分离\n其实 Deepseek 所讲的「一个 Agent 不再受限于单台机器，而是可以在不同的执行设备之间切换，根据任务需要选择环境来执行命令并获取环境中的上下文。」在 LobeHub 上也是 5 月份就实现了。\n \n其实我之前表达过 Agent 和 Computer 的关系，在 Personal Agent 中，这种选择只会让用户困惑，也无法保证切换设备后，该有的 skill 还有，还有的软件还有；GrokBot 是我看来的最佳方案。\n但是在团队场景下、在生产力场景下，设备本身只是一种资源，并且一定是配置好的。问题又变成了资源的调度。一方面，Agent 能够自行选择设备，就可以做到根据性能和空闲选择机器、不同操作系统的切换构建验证；另一方面，我们也可以在设备侧做一层抽象，变成动态调伸缩和调配。这也必将是未来 Agent Infra 的方向。\n \n很高兴看到 Deepseek 梳理的架构和我们在产品上一直探索的方向很契合，对于接下来各家 Agent 产品的形态变化，我也非常兴奋和期待。",
+      "preview_text": "所谓 Super-agent，指代 Deepseek 文章 中表达的内容。我认为这些东西并不新鲜，DeepSeek 这次只是用了一个框架将他们整合在了一起。\n那么借着这个机会，聊聊最近半年我对 Agent",
+      "title": "关于 Super-agent，聊聊我的想法"
+     },
+     "article_title": {
+      "title": "关于 Super-agent，聊聊我的想法"
+     },
+     "author_id": "767166726077165568",
+     "created_at": "2026-11-02T08:17:37.000Z",
+     "edit_history_post_ids": [
+      "2117169245335511058"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/i/article/2117…",
+        "end": 23,
+        "expanded_url": "https://x.com/i/article/2117126982291087360",
+        "start": 0,
+        "status": 404,
+        "unwound_url": "https://x.com/i/article/2117126982291087360",
+        "url": "https://t.co/bSWCVOkw2a"
+       }
+      ]
+     },
+     "id": "2117169245335511058",
+     "text": "https://t.co/bSWCVOkw2a"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-10-31T10:08:46.000Z",
+     "edit_history_post_ids": [
+      "2116472441211933144"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/testingcatalog…",
+        "end": 295,
+        "expanded_url": "https://twitter.com/testingcatalog/status/2116098326546256029",
+        "start": 272,
+        "url": "https://t.co/Cbp3OrFvaP"
+       }
+      ]
+     },
+     "id": "2116472441211933144",
+     "note_tweet": {
+      "text": "DAILY AI BRIEF 🗞 — Oct 31\n\nGOOGLE 🔥:\n- Antigravity is now available in Android Studio.\n- Antigravity is testing a Running tab for background tasks (via testingcatalog).\n- Varun Mohan teased a big week of Antigravity launches.\n- GPT models appeared in Google Cloud quotas, hinting they may come to Antigravity (via AiBattle_).\n- Google's Omni Flash 1.2 was spotted with 1080p and 4K output, frame interpolation and extend (via chetaslua).\n- Project Suncatcher prompted a TPU in orbit and got a haiku back.\n\nANTHROPIC 🔥:\n- Max 5x is now Max ($100) and Max 20x is now Ultra ($200), with no 5-hour limit on verified Ultra.\n- Anthropic used thousands of Claude agents to automate subtle misalignment red-teaming.\n- The Claude API max request size rose from 32 MB to 128 MB.\n- Claude Code got a server-side rule restricting rewrites of existing video games (via chasmmmmmmmmmmm).\n\nOPENAI 🔥:\n- The Agents API added Auto Review and async compaction.\n- OpenAI, Google, Microsoft and Anthropic will honor a shared robots.txt AI-training opt-out.\n- ChatGPT and Codex will share one usage limit starting in December (via btibor91).\n\nSPACEXSI 🔥:\n- Grok Bot 1.0, the first stable build, is out for download.\n- Grok Bot is preparing a Tasks hub and texting support (via testingcatalog).\n- Grok Bot added per-bot voice and voice-language settings.\n\nAMAZON 🔥:\n- AWS grew 39% to $46B in Q3, its fastest growth in nearly five years.\n\nPERPLEXITY 🔥:\n- Perplexity Computer can now control Chrome from the Mac and Windows apps.\n- Computer can now share a session when you ask it to.\n\nNVIDIA 🔥:\n- NVIDIA open-sourced RE-USE, a 9.6M-parameter speech-cleanup model.\n\nCOHERE 🔥:\n- Cohere will invest over C$4B in Canada and add 1,500+ jobs by 2031.\n\nPIKA 🔥:\n- Pika released H3 Flex, an open-weight video model.\n\nGRANOLA 🔥:\n- Granola added free, unlimited voice typing in any app.\n\nIDEOGRAM 🔥:\n- Ideogram added context-window edits up to 2K in high-res images.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+     },
+     "referenced_tweets": [
+      {
+       "id": "2116098326546256029",
+       "type": "quoted"
+      }
+     ],
+     "text": "DAILY AI BRIEF 🗞 — Oct 31\n\nGOOGLE 🔥:\n- Antigravity is now available in Android Studio.\n- Antigravity is testing a Running tab for background tasks (via testingcatalog).\n- Varun Mohan teased a big week of Antigravity launches.\n- GPT models appeared in Google Cloud quotas, https://t.co/Cbp3OrFvaP"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2117313897849864193"
+      ]
+     },
+     "author_id": "3980735590",
+     "created_at": "2026-11-02T18:35:06.000Z",
+     "edit_history_post_ids": [
+      "2117324639563141209"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/LQvFQhUNUb",
+        "end": 301,
+        "expanded_url": "https://x.com/testingcatalog/status/2117324639563141209/photo/1",
+        "media_key": "3_2117313897849864193",
+        "start": 278,
+        "url": "https://t.co/LQvFQhUNUb"
+       },
+       {
+        "display_url": "x.com/NaceAI/status/…",
+        "end": 325,
+        "expanded_url": "https://twitter.com/NaceAI/status/2117298824926703953",
+        "start": 302,
+        "url": "https://t.co/70RnaZ9B4K"
+       }
+      ]
+     },
+     "id": "2117324639563141209",
+     "note_tweet": {
+      "text": "Nace AI has launched Drex for Finance, a model designed for split-second financial tasks, like determining whether a card payment looks fraudulent.\n\nIt can use a document or a transaction log along with a fixed set of possible answers, then deliver a probability score for each one.\n\nIn tests with 3,361 decisions from 48 finance benchmarks not included in training, it was right 85.7% of the time, compared to 70.9% for GPT-6 Luna."
+     },
+     "referenced_tweets": [
+      {
+       "id": "2117298824926703953",
+       "type": "quoted"
+      }
+     ],
+     "text": "Nace AI has launched Drex for Finance, a model designed for split-second financial tasks, like determining whether a card payment looks fraudulent.\n\nIt can use a document or a transaction log along with a fixed set of possible answers, then deliver a probability score for each https://t.co/LQvFQhUNUb https://t.co/70RnaZ9B4K"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2117298569086681088"
+      ]
+     },
+     "author_id": "1904210068704481280",
+     "created_at": "2026-11-02T16:52:32.000Z",
+     "edit_history_post_ids": [
+      "2117298824926703953"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/CGrfXRRQGy",
+        "end": 304,
+        "expanded_url": "https://x.com/NaceAI/status/2117298824926703953/photo/1",
+        "media_key": "3_2117298569086681088",
+        "start": 281,
+        "url": "https://t.co/CGrfXRRQGy"
+       }
+      ]
+     },
+     "id": "2117298824926703953",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "console.nace.ai",
+         "end": 1011,
+         "expanded_url": "https://console.nace.ai",
+         "start": 988,
+         "url": "https://t.co/vdEavE1LhL"
+        }
+       ]
+      },
+      "text": "Announcing Drex for Finance - the multimodal decision model, post-trained for sub-second financial decisions.\n\nFinancial operations require precise, regulatory-grade decisions with zero hallucinations across filings, support, credit risk, live fraud prevention, quant signals, and compliance.\n\nEvaluated on 48 held-out finance benchmarks:\n- 85.7% accuracy across 3,361 decisions (+14.8% vs. GPT-6 Luna)\n- 77.3 Finance Index (+13.7 vs. Jev 1.14, +11.5 vs. Drex-Max v1.1)\n\nTrained for sub-second financial intelligence across the entire pipeline:\n- Financial Documents & Filings: Extraction decisions, classification, and clustering\n- Credit & Lending: Automated underwriting, PD modeling, and EWS\n- Fraud & AML: Sub-second transaction scoring, ATO defense, and SAR clustering\n- Markets & Trading: Regime detection, meta-labeling, and LOB execution signals\n- Insurtech & RegTech: Claims fraud detection, sanctions screening, and audit reconciliation\n\nAvailable exclusively on Nace Console: https://t.co/vdEavE1LhL"
+     },
+     "text": "Announcing Drex for Finance - the multimodal decision model, post-trained for sub-second financial decisions.\n\nFinancial operations require precise, regulatory-grade decisions with zero hallucinations across filings, support, credit risk, live fraud prevention, quant signals, and https://t.co/CGrfXRRQGy"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2117276914591399937"
+      ]
+     },
+     "author_id": "1369199443015176193",
+     "created_at": "2026-11-02T16:00:01.000Z",
+     "edit_history_post_ids": [
+      "2117285608745820372"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/FvNYaRvCas",
+        "end": 300,
+        "expanded_url": "https://x.com/hume_ai/status/2117285608745820372/video/1",
+        "media_key": "13_2117276914591399937",
+        "start": 277,
+        "url": "https://t.co/FvNYaRvCas"
+       }
+      ]
+     },
+     "id": "2117285608745820372",
+     "note_tweet": {
+      "text": "Introducing the Hume Audio Decision API.\n\nAsk anything: How many speakers? Is anyone laughing? Is the caller frustrated?\n\nWhat used to take 10+ models is now one call.\n\nTrained on 10M+ human judgments, so it answers the way human listeners would.\n\nRealtime, or across hours of recordings.\n\nRequest access below."
+     },
+     "text": "Introducing the Hume Audio Decision API.\n\nAsk anything: How many speakers? Is anyone laughing? Is the caller frustrated?\n\nWhat used to take 10+ models is now one call.\n\nTrained on 10M+ human judgments, so it answers the way human listeners would.\n\nRealtime, or across hours of https://t.co/FvNYaRvCas"
+    },
+    {
+     "article": {
+      "cover_media": "3_2115687604150763520",
+      "entities": {
+       "urls": [
+        {
+         "text": "claude.ai/code"
+        },
+        {
+         "text": "https://code.claude.com/docs/en/claude-projects"
+        },
+        {
+         "text": "https://code.claude.com/docs/en/commands#:~:text=/doctor%20%5Bprompt%2Daudit%20%5Bpath%5D%5D"
+        },
+        {
+         "text": "https://claude.dev/blog/solving-code-review-at-anthropic/"
+        },
+        {
+         "text": "https://x.com/ClaudeDevs/status/2100633571543367691"
+        },
+        {
+         "text": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop"
+        },
+        {
+         "text": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5/"
+        },
+        {
+         "text": "https://claude.com/resources/articles/auto-mode-default-in-claude-code"
+        },
+        {
+         "text": "https://claude.dev/blog/claude-code-in-the-cloud/"
+        },
+        {
+         "text": "https://x.com/trq212/status/2080710971228918066"
+        }
+       ]
+      },
+      "media_entities": [
+       "3_2115684953707188225",
+       "3_2115685241138597888",
+       "3_2115685632408526848"
+      ],
+      "plain_text": "Newer models require less prompting than most of us still do.\nFor Opus 5.5, try giving Claude a single prompt with a clear goal of what you want to do and how Claude should verify it has achieved it, and let Claude work on it. Start with /effort medium and adjust as needed. \n \nIf you don't know yet what you're trying to do, ask Claude to interview you until it could write a spec. Then start a new session and use that spec to build what you want.\nClaude will stop on its own when it believes it's done. \nIf it can execute something that checks in terms of pass/fail or a number to beat, with reports in a way it can read, Claude can keep going without you having to watch. \nFor long background tasks, you can use /goal to specify a condition that a separate model to check after every turn. \nRecent versions of Claude Code have also adopted auto mode as the default starting mode for interactive terminal sessions. In that mode, a classifier analyzes Claude's actions rather than relying on the usual permission prompts. This is not a guarantee of safe behavior - neither is blindly approving every prompt. When Claude reports back, ask it to show you the command and output or a screenshot.\nFor models like Claude Opus 5 and Claude Fable 5, over 80% of the Claude Code system prompt was removed with no measurable degradation of its coding evals. \nWhen a new model like Opus 5.5 comes out, you can do the same experiment with your own instructions: remove some, then add back only those that the model misses. The /doctor prompt-audit command flags those written for older models.\n \nAnother area to reduce your own work is subagents. \nClaude delegates to them on its own, so you rarely need to ask. Ask only for substantial, standalone work like long audits or migrations, which Opus 5.5 can split across parallel subagents. For small jobs, subagents multiply cost and latency. Subagents can parallelize work or provide a second opinion, but they don't, by default, make things smarter. \nFor agents you build, a single agent with skills can outperform a subagent design on quality, often at lower cost and latency from what I’ve seen.\nUse Claude cloud sessions when you want to shut your laptop. Start one from claude.ai/code, the Claude app or via claude --cloud. Cloud sessions run in a separate VM with a fresh clone of your repo, so be sure to push any commits before you start. Check in from your phone, address any questions the session posed, then review the diff and open the PR. Keep a session local if the task requires resources that are only available on your machine.\nParallel sessions only pay off once a single session can finish without you. If you have Projects in Claude Code, I think you'd find them very useful. Without a project, you are the manager of multiple sessions and must track what each session is doing, and which ones have completed. \n \nA project is one long-running chat that does most of the project management for you: as issues and jobs come up, paste them in, and Claude creates a separate thread (usually a cloud session) for each and runs them in parallel. You provide instructions once, and they are applied to all new threads. And the Overview shows which tasks have completed, which PRs are ready and what's pending your input. \nProjects are in public beta on Pro and Max, so you may not have them yet, but hopefully soon!\nReview still matters. On the Claude Code team, however, most of the reading has become automated: most changes are reviewed and fixed by Claude at least once before a human is asked to look. \nYou can use Code Review on Team and Enterprise plans or the lighter /code-review, which reviews your diff in a subagent that hasn't seen the conversation. You can also simply start a new session. If you do, give it the spec and tell it to ignore stylistic stuff.\nEvery few months, audit how you work to make sure you aren't building for how older models used to work. ",
+      "preview_text": "Newer models require less prompting than most of us still do.\nFor Opus 5.5, try giving Claude a single prompt with a clear goal of what you want to do and how Claude should verify it has achieved it,",
+      "title": "You're probably overprompting Claude"
+     },
+     "article_title": {
+      "title": "You're probably overprompting Claude"
+     },
+     "author_id": "35432643",
+     "created_at": "2026-10-29T06:13:39.000Z",
+     "edit_history_post_ids": [
+      "2115688494865465370"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/i/article/2115…",
+        "end": 23,
+        "expanded_url": "https://x.com/i/article/2115682550723313664",
+        "start": 0,
+        "status": 404,
+        "unwound_url": "https://x.com/i/article/2115682550723313664",
+        "url": "https://t.co/1txsLAxxM5"
+       }
+      ]
+     },
+     "id": "2115688494865465370",
+     "text": "https://t.co/1txsLAxxM5"
+    }
+   ]
+  },
+  "meta": {
+   "result_count": 20
+  }
+ }
+}

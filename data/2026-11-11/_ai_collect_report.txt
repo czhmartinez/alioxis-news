@@ -1,0 +1,82 @@
+Alioxis News AI新闻收集报告 — 2026-11-11（Asia/Taipei）
+============================================================
+完成时间：2026-11-11 08:14:29 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-11/
+产出：ai.json（20）、_cover_prompts_ai.json（20）、本报告；目录另有 _aihot_daily.json、_aihot_summary.txt、_aihot_clues.json、_prior_urls.json（2189 URL）
+
+一、条数与头条
+- 条数：20（目标 15–20，达上限）
+- Lead（#00）：谷歌 Gemini 4 Carbon 全面开放：CursorBench 4.0 等三项实测榜第一、单任务成本低一半以上，Antigravity 预览 /swarm 多智能体，入门价每百万 token 2/10 美元
+  URL：https://deepmind.google/blog/gemini-4-carbon-is-now-available/
+  理由：AIHOT 11-11 lead；一手官方博客（WebFetch 全文核对基准、定价、安全数据、可用性）。10-29 已收「仅向安全团队开放」稿，本条增量为全面 GA、API 定价（11/30 后 4/20 美元）、/swarm、安全评测新数据。
+  备选：#01 Anthropic IPO 路演 / #02 Claude Whiteboards·Sheets·Data / #04 AlphaProof Code
+
+二、与 v.json 交叉情况
+- 开工时同目录无 v.json；写盘前另一 worker 已写入 v.json（17 条），硬 URL 去重 overlap=0
+- 软同题（保留，角度不同）：v 有 TC 的 Gemini 4 Carbon 上线/SKU 简讯与 /swarm 开发中简讯（本频道 #00 为官方发布全貌）；v 有 TC 的 IPO 路演简讯（本频道 #01 含招股书估值 1.404 万亿、N 类股私募、营收亏损等细节）；v 有 TC 的 Whiteboards/Sheets/Data 简讯（本频道 #02 为官方博客详述）；v 有 TC 的 H3-Image 权重简讯（本频道 #05 为官方博客与定价）；v 的 TC 11/10 简报提及 GR00T 2（本频道 #09 为 NVIDIA 官方详述）
+- 主动回避（让给 v，已撤下或未收）：Stripe 完成收购 OpenRouter（原拟 #06，v 已收 TC 版，内容基本重合，撤下）、ChatGPT Business Hub/Businesses（原拟 #11，v 已收 TC 版，撤下）、OpenAI 收购 Odessia（v 已收）、The Information 黄乐芯片网络（v 已收 Max 解读）、Gemini Robotics 2.5（v 已收）
+- 替补：#06 Anthropic homeopathic learning（AIHOT flash）、#11 Hugging Face 政策主管警告（TechCrunch）
+
+三、AIHOT 使用情况
+- 已跑 node scripts/fetch-aihot-daily.js 2026-11-11，dated API 成功（window 2026-11-10T00:00Z–2026-11-11T00:00Z），5 sections（12 items）+ 10 flashes + 3 highlights；脚本未生成 summary/clues，已按 11-10 格式手工补写 _aihot_summary.txt、_aihot_clues.json（original 取自 links.original）
+- 采用并落到原文：
+  · Gemini 4 Carbon（含 @_philschmid 上线 API/AI Studio/Antigravity 线索）→ #00 deepmind.google
+  · Anthropic IPO 路演 → #01 anthropic.com/news（TechCrunch 招股书解读交叉）
+  · Claude Whiteboards/Sheets/Data + 交互式连接器 flash → #02 claude.com
+  · AlphaProof Code（线索源 X @rohanpaul_ai）→ #04 改链 deepmind.google 官方博客（论文页、GitHub、WIRED、The Register 交叉）
+  · MiniMax H3-Image → #05 minimax.io（IT之家 交叉）
+  · Anthropic 稀释投毒（flash）→ #06 alignment.anthropic.com
+  · OpenAI ExploitGym 越权报告 → #07 alignment.openai.com
+  · Microsoft Lazarus（flash）→ #08 microsoft.com/research
+  · NVIDIA GR00T 2（flash）→ #09 blogs.nvidia.com
+  · n8n Nod → #10 blog.n8n.io
+  · PSI（flash）→ #18 TechCrunch
+- 未采用：Stripe×OpenRouter、ChatGPT Businesses（与 v 软重复，见上）；FT Alice Huang/Megaspeed（10-30、11-08 已收同题，v 当日另有黄乐芯片网络；本频道改收 #16 英伟达 51% 配额的产业角度）；Claude Code 设置文件泄露凭据（11-08 已收同题）；OpenRouter 结构化输出教程、最佳 OCR 实测（偏教程）；Simon Willison llm-anthropic 0.31（小版本）；Google AI Edge Gallery 端侧语音（偏小）；OpenAI CoT 可监控性研究（与 #07 同为 OpenAI 对齐，避免扎堆）
+
+四、补充采用（非 AIHOT 主列表）
+  · Claude Meetings → #03 TechCrunch（Claude 博客同日发布）
+  · Hugging Face 政策主管谈开源平台安全 → #11 TechCrunch
+  · Adobe MAX 智能体与本地 MCP → #12 news.adobe.com（blog.adobe.com、Adobe×Google 合作稿交叉）
+  · Gemini for healthcare → #13 cloud.google.com（Fierce Healthcare、Fortune 搜索摘要交叉）
+  · 纽约 RAISE Act 注册门户 → #14 TechCrunch
+  · Fireworks AI 二次入侵披露 → #15 fireworks.ai 官方公告（The Register、Bloomberg Law、The Record 交叉）
+  · 英伟达 51% 非中国客户配额 → #16 Tom's Hardware（转述 FT；TechRadar、siliconreport 交叉）
+  · Oura 收购 Counsel Health → #17 TechCrunch
+  · 智元 WITA-Omni → #19 IT之家
+
+五、去重
+- _prior_urls.json：2189 条（全部历史 ai.json + v.json，不含 11-11）；本日 20 条 URL 0 命中；内部 URL 无重复；与 v.json 硬 URL overlap=0
+- 对照 11-10 ai.json：未再收 Fable 5.2 发布本体（#18 PSI 为 Fable 5.2 解决猜想的新增量）、Anthropic IPO 传闻稿（#01 为官方路演与招股书定价，属增量）、Muse Ember（Muse 手表版/邮箱 11-11 跳过，近两周已多次收 Muse）、TPU 8tx/8i Max
+- 对照 10-29：Gemini 4 Carbon 当时为限量开放，本日为 GA 增量
+- published_at 均为 +08:00 ISO；TechCrunch 按页面 PST 时间换算；DeepMind Carbon 按 Training Data Daily 标注 16:03 UTC；Lazarus、OpenRouter（已撤）按 AIHOT publishedAt / X 雪花 ID 换算；Adobe 按新闻稿 9:00 AM ET 换算；IT之家用页面精确时刻；#04/#06/#07/#10/#13/#15 原文无精确时刻，按惯例记为 11-10 12:00 +08:00；#16 Tom's Hardware 仅有日期，记为 11-09 12:00 +08:00；#05 按 IT之家「10 日深夜」记为 23:00
+- source 为字符串；image 为 /assets/covers/cover-20261111-ai-NN.jpg（00–19），与 _cover_prompts_ai.json 一一对应
+
+六、核实手段摘要
+00 deepmind.google WebFetch 全文 + blog.google 同文 + Training Data Daily 时间
+01 anthropic.com WebFetch 全文 + TechCrunch WebFetch（招股书数据）
+02 claude.com WebFetch 全文 + TechCrunch 交叉
+03 TechCrunch WebFetch
+04 deepmind.google 搜索全文摘要 + 论文页/GitHub + WIRED、The Register 摘要
+05 minimax.io WebFetch + IT之家 WebFetch
+06 alignment.anthropic.com WebFetch 全文
+07 alignment.openai.com WebFetch 全文
+08 microsoft.com/research WebFetch
+09 blogs.nvidia.com WebFetch
+10 blog.n8n.io WebFetch
+11 TechCrunch WebFetch
+12 news.adobe.com 搜索全文摘要 + blog.adobe.com、Adobe×Google 新闻稿
+13 cloud.google.com WebFetch 全文
+14 TechCrunch WebFetch
+15 fireworks.ai WebFetch + The Register/Bloomberg Law/The Record 搜索摘要 + The Neuron（福布斯客户流失）
+16 Tom's Hardware WebFetch + TechRadar/siliconreport 摘要
+17 TechCrunch WebFetch
+18 TechCrunch WebFetch
+19 IT之家 WebFetch
+- curl 复查：19/20 返回 200；microsoft.com（#08）对 curl 返回 403（机器人屏蔽），但 WebFetch 成功读取全文
+
+七、缺口与说明
+- 未生成封面、未 build、未发布（按任务范围）
+- #16 为 FT 报道经 Tom's Hardware 转述，英伟达未证实或否认，摘要已标明；#19 性能数据均为智元官方口径
+- #01 估值 1.404 万亿、营收亏损等来自 TechCrunch 对更新招股书的解读，官方公告仅含股数与价格区间
+- #02 与 #03 同属 Anthropic 11/10 办公产品发布，#03 为独立的会议功能（TechCrunch 稿）；若编辑阶段需压缩条数可优先拿掉 #03 或 #11
+- 安全类条目较多（#07/#08/#11/#15 + #06 对齐），封面已分别用不同场景区分

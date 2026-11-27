@@ -1,0 +1,227 @@
+[
+  {
+    "title": "卡兹克长文：Buddy One 正式上线——腾讯用 WorkBuddy 打通文档、会议、ima、网盘全家桶，积分通用，微信聊天记录可一键扔给 Agent，「腾讯的第三个时代，可能属于 WorkBuddy」",
+    "summary": "卡兹克发布 X 长文《Buddy One正式上线，腾讯要用WorkBuddy打通自己的全家桶了》。他解释，Buddy One 是腾讯把 WorkBuddy、腾讯会议、腾讯文档、ima、腾讯网盘打包在一起、账号体系全部打通，分两层：①免费的 Buddy One ID，任何用户在官网或 WorkBuddy 个人主页一次性关联首批产品即可（送 100 积分），关联后身份统一、积分共享——WorkBuddy 积分可作为通用积分在 WorkBuddy、腾讯文档、ima、腾讯网盘四个产品里共同使用，不再各算各的；数据层也做了账号级打通，但他实测目前只有只读权限，WorkBuddy 能读到文档、会议、ima 里的数据，写入或操作仍需靠 WorkBuddy 里的连接器（MCP）。②Buddy One VIP，即原旗舰版，700 元/月、5 万积分，这次「加量不加价」，额外送腾讯会议专业版、腾讯文档 Plus 会员和 1TB 腾讯网盘。他特别强调微信入口：手机和电脑上的微信多选聊天记录后都能直接转发给 WorkBuddy，且电脑端微信只支持 WorkBuddy——他本地装了绝大多数 Agent，除 WorkBuddy 外都不支持。他自己的常用玩法是框选与朋友的行程聊天转给 WorkBuddy，调用飞书连接器 1 分钟内录进飞书日历，也用它接飞书处理微信里的品牌方、博主沟通，产出多维表格、文档、邮件。他自己因 Claude、Codex 用得多，只开了 70 元标准版（4000 积分，每天签到 100 积分），并提到 DeepSeek-V4.1-Flash-1017「省的离谱强的离谱」。最后他大胆判断：QQ 连接人，微信连接生活，WorkBuddy 开始尝试连接任务——在中国脱离微信的 personal agent 都称不上 personal agent，腾讯的第三个时代还真可能属于 WorkBuddy。（注：10-29 AI新闻 收录过「腾讯网盘内测、含在 WorkBuddy 会员里」，本条为 Buddy One 整体上线的实测解读，属相关不同事件。）",
+    "url": "https://x.com/Khazix0918/status/2115662773103530096",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-29T12:31:26+08:00",
+    "tags": [
+      "腾讯",
+      "WorkBuddy",
+      "Buddy One",
+      "个人 Agent",
+      "微信",
+      "长文"
+    ],
+    "image": "/assets/covers/cover-20261030-v-00.jpg"
+  },
+  {
+    "title": "卡兹克一个例子讲清 Claude 和 Codex 的性格差异：同样是「20 个 Excel 合成总表」，GPT 立刻写好鼠标脚本，Claude 反问「你下载它们干啥」直接写 SQL 接数据源",
+    "summary": "卡兹克用一个场景形容 Claude 与 Codex 的性格差异。需求是：每周都要从后台下载 20 个 Excel，再手动复制粘贴成一张总表，太麻烦，请帮写个自动操作鼠标的脚本。GPT 的回答是「好的老板！」——已写好自动点击、下载、复制、粘贴的脚本，还加了异常处理和失败重试，以后点一下运行就行。Claude 的回答则是「不是哥们」：这 20 个 Excel 不都是从同一个数据库导出来的吗？于是直接写了个 SQL、接上后台数据源，以后每周自动生成最终报表，并吐槽「你好好的下载 Excel 干什么玩意」。前者照单执行、把指定方案做到完善，后者跳出需求质疑问题本身、换掉整条流程。该帖获得约 3500 赞、800 多收藏、近 280 条回复。",
+    "url": "https://x.com/Khazix0918/status/2115691027860443268",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-29T14:23:43+08:00",
+    "tags": [
+      "Claude",
+      "Codex",
+      "GPT",
+      "模型性格",
+      "使用技巧"
+    ],
+    "image": "/assets/covers/cover-20261030-v-01.jpg"
+  },
+  {
+    "title": "Max 所在 LobeHub 团队发布 Interaction Bench：只给 Agent 用户目标、不告诉 Bug，25 个真实开源应用 44 个任务，最强 GPT-6 Astra 也只完成 34.1%",
+    "summary": "Max 介绍他所在的 @lobehub 团队新发布的 Agent 评测 Interaction Bench（0.1 Preview）。他说团队一直觉得 Agent 评测和真实用户体验之间存在相当大的距离：真实用户不会告诉 Agent 哪一行代码出了 Bug，也不会给详细修复方案，只会说「我想实现这个功能」或「这个东西坏了，帮我解决一下」。因此 Interaction Bench 从 25 个真实开源应用中提取了 44 个任务，只告诉 Agent 用户想实现的目标，让它自己探索环境、发现问题、尝试解决并验证最终结果。首轮结果中 GPT-6 Astra 以 34.1% 排名第一，Claude Opus 5.5 为 27.3%，其他模型成功率只有 4.5%～15.9%——即便最强模型，面对这些真实任务仍有超过六成无法完成。他认为随着 Agent 真正进入软件、接管工作流，需要更多反映真实用户体验的评测，「Benchmark 上的分数再高，都不如一句『这件事我已经帮你搞定了』」。项目已在 GitHub 和官网开放，欢迎体验、提 Issue 和共建。被引用的 @arvin17x 发布帖以「Benchmarked on what users feel」概括：Agent 只拿到用户目标，永远拿不到 Bug。",
+    "url": "https://x.com/MaxForAI/status/2115913730806755538",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-30T05:08:39+08:00",
+    "tags": [
+      "Benchmark",
+      "Agent 评测",
+      "LobeHub",
+      "GPT-6 Astra",
+      "Claude Opus 5.5"
+    ],
+    "image": "/assets/covers/cover-20261030-v-02.jpg"
+  },
+  {
+    "title": "小互：OpenAI「被迫」取消用量削减计划——Pro 100/200/500 与 Business Premium 用量上限即日翻倍，Pro 200 的 Work 与 Codex 额度不再下调",
+    "summary": "小互引用 Tibo（@thsottiaux）的「Day 25」公告评论：OpenAI 被迫不得不取消用量削减计划，宣布将 Codex 的限额在现有基础上翻倍。Tibo 原帖写道：即日起所有 Pro 100/200/500 档位和 Business Premium 的用量上限全部翻倍；「听到了大家友善的反馈」，不会再下调 Pro 200 的用量，Work 和 Codex 用量保持不变；dots 继续提供扩展额度，且 dot 的用量仍与默认用量分开计算；之后还会继续推出更好的模型和效率改进，持续提高实际可用量。Tibo 随后自嘲「从 The Reset Company 毕业，成为 The Token Company」，并引用同事 @ajambrosino 的帖子让大家把「友善的反馈」发给他——后者称用量限额已恢复翻倍、「你们的反馈起作用了」，团队当天还启动了一个大幅提升 App 简洁性和性能的冲刺，由他亲自负责，欢迎吐槽。TestingCatalog 同步报道了用量翻倍、Dots 用量继续单独计算。（注：今日 AIHOT 收录了 Tibo 原帖，若今日 ai.json 也收录，属同题不同来源。）",
+    "url": "https://x.com/xiaohu/status/2115958355655315738",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-30T08:05:59+08:00",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "用量限额",
+      "ChatGPT Pro",
+      "Tibo"
+    ],
+    "image": "/assets/covers/cover-20261030-v-03.jpg"
+  },
+  {
+    "title": "Max 解读《纽约时报》爆料：美情报机构怀疑新加坡算力公司 Megaspeed 前高管黄乐接近黄仁勋为北京搜集情报，其马来西亚关联公司已采购至少 48 亿美元 AI 设备",
+    "summary": "Max 转述《纽约时报》报道：美国情报机构认为，一名中国女企业家涉嫌通过接近黄仁勋为北京搜集情报，特朗普约一年前就收到相关简报但最终没有采取行动。这名女性叫黄乐（Alice Huang），曾是新加坡算力公司 Megaspeed 的高管；2024 年 6 月她和黄仁勋在台北一家酒吧参加行业聚会，2025 年 5 月两人又在台北一家餐厅外被拍到，Megaspeed 本身也是英伟达客户。他回顾，去年《纽约时报》和彭博社就报道过美国商务部调查 Megaspeed 是否通过东南亚数据中心帮助中国企业规避先进芯片出口限制——商务部官员在马来西亚一座数据中心检查时发现部分英伟达设备还装在箱子里，引发转运怀疑；据最新报道，2024 年 6 月至 2026 年 2 月，Megaspeed 的马来西亚关联公司已采购至少 48 亿美元的先进 AI 设备。他同时强调：这些情报指控仍缺乏公开证据，英伟达表示与黄乐的接触只是正常客户往来、未提供敏感商业机密，中国驻美使馆也否认指控，报道没有证明黄仁勋知情或参与。他认为值得关注的是，美国对中国获取先进算力的警惕已延伸到东南亚数据中心、芯片采购链路乃至英伟达 CEO 本人的商业关系，「甚至一次普通的客户晚宴，都可能成为情报机构关注的对象」。（注：今日 AIHOT 收录了 The Decoder 同题报道，若今日 ai.json 也收录，属同题不同来源。）",
+    "url": "https://x.com/MaxForAI/status/2115859097061056718",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-30T01:31:34+08:00",
+    "tags": [
+      "英伟达",
+      "黄仁勋",
+      "芯片出口管制",
+      "Megaspeed",
+      "算力"
+    ],
+    "image": "/assets/covers/cover-20261030-v-04.jpg"
+  },
+  {
+    "title": "小互谈 Claude 防封：只要不在电脑上用国产模型和国产 harness 基本不会被封，节点关系不大，「混着用一定会被封」",
+    "summary": "小互引用宝玉（@vista8）分享的 Claude 账号从未被封的经验并给出自己的判断：只要你不在电脑上使用国产模型和国产 harness，基本就不会被封；实际上和节点之类也有关系，但不大；如果混着用，一定会被封。被引用的宝玉帖子列出了他的做法：①用自己的域名邮箱注册 Claude，通过 Cloudflare Email Routing 把邮件路由到 Gmail；②IP 用自己在 Vultr 服务器搭的代理，日常一直用，不太会跳验证；③备 2–3 个免费 Claude 账号随便对话；④通过 iOS 海外 App Store 账号下载客户端，用 App Store 充值余额支付升级 20 美元订阅，安卓则在 Google Play 绑定众安银行卡直接升级。他一直只开 20 美元档、两个账号换着用，没开 200 美元档；日常直接用官方客户端，没刻意只用 Claude CLI，也没改电脑时区和语言，对话一直是中文，并自问「可能是幸存者偏差？」。（注：10-29 大V视野 收录过逸尘转述的「Claude 风控积分制 18 条」，本条为另一组经验与小互的不同观点。）",
+    "url": "https://x.com/xiaohu/status/2115700285503136155",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-29T15:00:30+08:00",
+    "tags": [
+      "Claude",
+      "封号",
+      "风控",
+      "使用技巧",
+      "国产模型"
+    ],
+    "image": "/assets/covers/cover-20261030-v-05.jpg"
+  },
+  {
+    "title": "Anthropic 公布「自我评估」安全技术：Claude 每次回复后立即给对话做初步安全评估，在 Claude Fable 5 上能抓到强分类器 78% 的可疑对话、94% 的高优先级对话",
+    "summary": "TestingCatalog 报道 Anthropic 推出的新安全技术 self-assessment（自我评估）：Claude 在每次回复后立刻对整段对话给出初步安全评估。数据显示，在 Claude Fable 5 上，自我评估能标记出「更强的提示式分类器」判为潜在有害的对话中的 78%，以及高优先级对话中的 94%，误报率为 1%。Anthropic 还说明了自我评估与提示式分类器如何协同阻挡攻击：「每一次成功攻击所需生成的 token，大约是没有防护时的四倍。」TestingCatalog 评论称，我们已经生活在一个「安全取决于为防御系统分配多少算力」的世界。Anthropic 官方帖补充：自 6 月开始使用以来，自我评估已发现了其他防护手段原本没设计去捕捉的滥用；由于 Claude 已经读过对话，这种方式非常高效；与只针对一组特定危害的分类器不同，它依靠 Claude 自身的判断，因此会随模型变强而越来越准，详情发布在新的 Safeguards 博客上。",
+    "url": "https://x.com/testingcatalog/status/2115877778352722039",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-30T02:45:48+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "AI 安全",
+      "self-assessment",
+      "滥用检测"
+    ],
+    "image": "/assets/covers/cover-20261030-v-06.jpg"
+  },
+  {
+    "title": "Mistral 开放 Le Chonk（Mistral Large 4）权重上架 Hugging Face：开源模型中 Cognition FrontierCode 第一，主打 Agent 编程与网络防御",
+    "summary": "TestingCatalog 报道 Mistral 已在 Hugging Face 上开放 Le Chonk（Mistral Large 4）权重。官方表述称新模型在推理效率上大幅提升，让开发者获得更高性能的同时降低推理成本，并称 Mistral Large 4 是「编程方面最好的开放权重模型」、整体也属全球最强开源模型之列；它在 Cognition 的 FrontierCode 基准上位列开源模型第一。TestingCatalog 顺带喊话「现在需要新的 Mistral Small 了」。Mistral 官方帖补充三点：Built to build——FrontierCode 开源第一，并在 Artificial Analysis 上刷新帕累托效率；Built to defend——网络防御能力达到 SOTA，经 CrowdStrike、Cloudflare、Rubrik、Zscaler 等头部安全厂商实测；Built for sovereignty——可在 Hugging Face 下载权重、用 Mistral Forge 定制并部署到任何需要的地方。（注：今日 AIHOT 头条为 Hugging Face 官方博客同题，若今日 ai.json 也收录，属同题不同来源。）",
+    "url": "https://x.com/testingcatalog/status/2115813050057990158",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-29T22:28:35+08:00",
+    "tags": [
+      "Mistral",
+      "Le Chonk",
+      "Mistral Large 4",
+      "开源模型",
+      "Hugging Face"
+    ],
+    "image": "/assets/covers/cover-20261030-v-07.jpg"
+  },
+  {
+    "title": "Canva 推出自研设计视觉语言模型 Brush：用一句话描述改动，它规划并执行整份设计的编辑，官方称比前沿模型快 69%、每任务便宜 46%",
+    "summary": "TestingCatalog 报道 Canva 推出自家的视觉语言模型 Brush，可以编辑已有设计：用户描述想要的改动，Brush 会规划并在整份设计中执行编辑。据 Canva 称，在通用设计编辑任务上 Brush 整体比前沿模型快 69%、每个任务便宜 46%。Brush 可在编辑器中打开设计时，或在对话中附上设计时，通过 Canva AI 侧边栏调用；它做出的修改可以像普通 Canva 文件一样继续手动编辑。Brush 紧随大约一周前发布的 Canva 首个自研图像模型 Craft。Canva 官方帖称，Brush 能像人一样看懂设计的版式、图层和整体风格，与你一起编辑——小到改一行字，大到重做整套演示文稿，或从空白页开始搭建。",
+    "url": "https://x.com/testingcatalog/status/2115917177727643782",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-30T05:22:21+08:00",
+    "tags": [
+      "Canva",
+      "Brush",
+      "视觉语言模型",
+      "AI 设计",
+      "图像编辑"
+    ],
+    "image": "/assets/covers/cover-20261030-v-08.jpg"
+  },
+  {
+    "title": "Google Antigravity 上线插件市场：Jira、Confluence、Notion、Stripe、Linear、Figma、Vercel 等一大批连接器一次到位",
+    "summary": "TestingCatalog 报道，Google 的 Agent 编程工具 Antigravity 上线了新的 Plugins（插件）市场，带来大量不同的连接器，包括 Jira、Confluence、Bitbucket、Firebase、Notion、Stripe、Linear、Figma、Canva、Trello、Dropbox、Datadog、Postman、Vercel 等等，「终于来了」。这意味着 Antigravity 中的 Agent 可以通过插件直接接入项目管理、文档、代码托管、支付、设计、监控、API 测试与部署等常用工作流工具。（注：10-29 AI新闻 提到 Android CLI 成为 Antigravity 官方插件，本条为 Antigravity 自身插件市场上线，属不同功能。）",
+    "url": "https://x.com/testingcatalog/status/2115889458935382213",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-30T03:32:12+08:00",
+    "tags": [
+      "Google",
+      "Antigravity",
+      "插件市场",
+      "连接器",
+      "Agent IDE"
+    ],
+    "image": "/assets/covers/cover-20261030-v-09.jpg"
+  },
+  {
+    "title": "Claude 一波体验更新：安卓折叠屏/平板变「笔记本模式」、多账号登录、新增 24 种界面语言、语音模式更快、支持 CarPlay",
+    "summary": "TestingCatalog 汇总了一批 Claude 的小更新：①在 iPad 和 iPhone Duo 上有优化视图，Chromebook、Googlebook 和折叠屏上同样适配——安卓版 Claude 现在用起来像笔记本电脑上的应用；②支持多账号登录；③Claude 界面新增支持 24 种语言；④语音模式回答速度提升，非英语语音更自然；⑤支持 CarPlay；⑥移动端「下拉搜索」功能即将推出。TestingCatalog 评价这些是实打实的体验（QOL）改进。",
+    "url": "https://x.com/testingcatalog/status/2115869339987640632",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-30T02:12:16+08:00",
+    "tags": [
+      "Claude",
+      "Anthropic",
+      "多账号",
+      "CarPlay",
+      "语音模式"
+    ],
+    "image": "/assets/covers/cover-20261030-v-10.jpg"
+  },
+  {
+    "title": "Snaptrude 发布建筑设计 Agent：从设计任务书直接生成可施工的 LOD 400 三维模型，含结构、机电和图纸，可与 Revit 双向导入导出",
+    "summary": "TestingCatalog 报道 Snaptrude 推出 Snaptrude Agent，可把设计任务书变成可施工的 3D 模型，包括结构、MEP（给排水、电气、暖通）和图纸。Agent 先给出计划，再建模和出图，加入的每样东西都可以继续编辑，建筑师随时可以接手；它能依据厂商规格书建模特定产品，细到玻璃幕墙上的螺栓位置；在进行中的项目里，设计师可以用标注描述改动，Agent 先测试多个方案再执行；作品可与 Revit 互相导入导出并保留团队构件。Agent 可免费试用，详细建模和导出需 60 美元的 Pro 计划。Snaptrude 创始人 @altafganihar 在发布帖中说，公司一年前把全部押在 AI 上，灵感来自软件工程从自动补全到指挥 Agent 写代码的转变；他举例客户砍预算 30% 时，设计师只需决定从哪里省，Agent 会更新布局、协调结构和机电并重出图纸，方案可以从 3 个变成 300 个。自 8 月以来用户已消耗超过 1400 亿 token，Jacobs、鹿岛（Kajima）等数百家公司在用；9 月以来抢先体验中 2000 多名设计师跑了超过 2.5 万个任务；团队还发布了建筑领域基准 AECBench 的首批结果。",
+    "url": "https://x.com/testingcatalog/status/2115856057914601719",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-30T01:19:29+08:00",
+    "tags": [
+      "Snaptrude",
+      "AI Agent",
+      "建筑设计",
+      "BIM",
+      "Revit"
+    ],
+    "image": "/assets/covers/cover-20261030-v-11.jpg"
+  },
+  {
+    "title": "小互的 AI 资讯站完成全新改版：新版面向 Agent 打造，「对人免费、对 Agent 收费」",
+    "summary": "小互宣布其 AI 资讯网站全新改版基本完成，还有几个功能在打磨。他说新版基本上是面向 Agent 打造的——对人是免费的，但对 Agent 是收费的；在这里能获得「最全最新最精华的 AI 内容」。这是一种为 AI Agent 作为读者/调用方而设计的内容产品思路：人类浏览不收费，Agent 抓取或调用内容则需要付费。同日他还调侃自己的「小互AI日报 新闻联播」开始接广告了。",
+    "url": "https://x.com/xiaohu/status/2115664042249564385",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-29T12:36:29+08:00",
+    "tags": [
+      "小互",
+      "AI 资讯",
+      "Agent 经济",
+      "内容付费",
+      "产品改版"
+    ],
+    "image": "/assets/covers/cover-20261030-v-12.jpg"
+  },
+  {
+    "title": "Articul8 推出决策模型 Bivia：接入 AI Agent、按整个任务目标权衡每一步，信心不足时会主动「收手」，每百万输入 token 仅 0.042 美元",
+    "summary": "TestingCatalog 报道 Articul8 发布自家决策模型 Bivia，可接入 AI Agent，并在信心不足时选择不贸然行动。要点：Bivia 会对照整个任务的目标来权衡每一个决策，而不是孤立地评判每一步；支持结构化回复，Agent 可在执行中途调用；它是多模态模型，专门在真实生产工作流上训练；Agent 每次提问时可附带其正在运行任务的上下文；目前价格为每百万输入 token 0.042 美元，无需订阅。TestingCatalog 解释了这类模型的意义：长任务里小错误会累积——每步 95% 准确率时，一个 20 步任务只有约 36% 的概率能完整完成。Articul8 还开发面向能源、制造、航空航天等行业的领域专用模型；官方帖称团队已在半导体、能源、制造等复杂行业部署 AI 三年多，Bivia 是为完成完整工作流而非回答单个问题打造的。",
+    "url": "https://x.com/testingcatalog/status/2115692114826661956",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-29T14:28:02+08:00",
+    "tags": [
+      "Articul8",
+      "Bivia",
+      "决策模型",
+      "AI Agent",
+      "长任务"
+    ],
+    "image": "/assets/covers/cover-20261030-v-13.jpg"
+  }
+]

@@ -1,0 +1,81 @@
+Alioxis News AI新闻收集报告 — 2026-11-07（Asia/Taipei）
+============================================================
+完成时间：2026-11-07 08:12 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-07/
+产出：ai.json（19）、_cover_prompts_ai.json（19）、本报告；目录既有 _aihot_daily.json、_aihot_summary.txt、_aihot_clues.json、_prior_urls.json（2059 URL）
+
+一、条数与头条
+- 条数：19（目标 15–20，优先 18–20）
+- Lead（#00）：OpenAI 完成约 110 亿美元融资首批到账，估值报 1.25 万亿美元；整轮或扩至约 200 亿
+  URL：https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/
+  理由：AIHOT lead 为 Bloomberg 融资/估值爆料；一手 Bloomberg 付费墙，改落 TechCrunch 可公开全文，并用 CNA（SoftBank/MGX）与 CNBC（CFO 确认首批 110 亿）交叉。融资+估值数字硬、行业冲击大，压过同日产品更新作头条。
+  备选：#01 ERNIE-5.5-Flash-Base、#08 Anthropic IPO 估值承压、#07 H200 香港滞仓
+
+二、与 v.json 交叉情况
+- 写盘后复查：同目录已有 v.json（17 条），硬 URL 去重 overlap=0
+- 软同题保留说明（本频道收硬新闻/一手源，大V拆解留给 v）：
+  · Meta Muse spaces — AI #04 about.fb.com 官方；v 有 TestingCatalog 拆解
+  · 百度 ERNIE 5.5 Flash Base — AI #01 ernie.baidu.com 官方；v 有 Max 视角
+  · AI 股暴跌脉络 — 未单独立条（卡兹克/小互属大V）；商业冲击并入 #00/#08/#10
+
+三、AIHOT 使用情况
+- 既有 _aihot_summary.txt / _aihot_daily.json / _aihot_clues.json 已读，未重拉 AIHOT
+- 采用并落到原文：
+  · Bloomberg OpenAI 融资 lead → #00 TechCrunch（+ CNA/CNBC 交叉）
+  · 百度 ERNIE-5.5-Flash-Base → #01 ernie.baidu.com
+  · 蚂蚁 Ling-3.2-flash → #02 developer.ant-ling.com changelog（IT之家评测数字作转述标注）
+  · OpenRouter Auto/Auto Code → #03 openrouter.ai
+  · Meta Muse spaces → #04 about.fb.com
+  · Cursor 语音聊天 → #05 cursor.com/changelog
+  · Amp spaces → #06 ampcode.com
+  · Nvidia H200 香港滞仓 → #07 CNA 转 Reuters
+  · OpenAI 沙箱绕网 → #11 alignment.openai.com
+  · Anthropic agent memory → #12 anthropic.com/research
+  · Anthropic welfare regard → #13 alignment.anthropic.com
+  · OpenClaw 新模型热更新 → #15 openclaw.ai
+  · OpenAI Community Compact → #16 openai.com
+  · OpenAI 文件名提示词注入评分器 → #17 alignment.openai.com
+- flashes 采用：
+  · Anthropic IPO 估值遇阻 → #08 CNBC（较 Decoder/路透转载更一手可读）
+  · OpenClaw / Compact / 文件名注入 — 见上
+- 未采用：
+  · METR「7 月已触发加速预警」Decoder 文 — 与 11-06 ai.json METR 评审软同题，跳过
+  · Thinking Machines Inkling 2 Small 长任务 flash — URL 已在 prior，且 11-06 已作头条
+  · Artificial Analysis 实测 GPT Image 2.6（仅 X）— 无独立评测长文；Images 2.6 官网为 11-04，时间偏旧，排在 19 外
+  · 卡兹克「中期选举后 AI 股暴跌」微信长文 — 非硬新闻一手源；市场冲击并入融资/IPO/CFO 条
+  · AIHOT 指向的 X 原始帖（Rohan Paul / thexpin 等）— 已改落 TechCrunch/CNA 等可靠媒体
+
+四、补充采用（非 AIHOT 主列表）
+  · Anthropic IPO 估值承压 → #08 CNBC
+  · Google×TeraWulf×Anthropic ~190 亿租赁背书 → #09 CoinDesk（SEC 文件脉络）
+  · OpenAI CFO Friar 数据中心表态 → #10 CNBC
+  · Claude Enterprise 安全中心/推理钩子 GA → #14 claude.com
+  · Planet AI App → #18 planet.com/pulse
+
+五、去重
+- _prior_urls.json：2059 条；本日 19 条 URL 0 命中；内部 URL 无重复
+- 与 v.json：硬 URL overlap=0
+- 对照 11-06 ai.json：未再收 GPT-6 Cyber / Inkling / Omni 1.2 / Personal Finance / Build Live Apps / Teammates / METR / Muse 语音头像 / Conductor 等昨日条
+- Muse spaces（#04）与昨日 Muse 语音头像为不同产品面；OpenAI 两则失准报告（#11/#17）主题不同故分立
+- published_at 均为 +08:00 ISO；美西媒体按原文时间换算台北
+- source 为字符串；image 为 /assets/covers/cover-20261107-ai-NN.jpg（00–18），与 _cover_prompts_ai.json 一一对应
+
+六、核实手段摘要
+00 TechCrunch WebFetch + CNA/CNBC WebSearch/WebFetch 交叉
+01 ernie.baidu.com WebFetch（完整官方评测表）
+02 ant-ling changelog + models 页 WebFetch；IT之家数字标为转述
+03 openrouter.ai WebFetch
+04 about.fb.com WebFetch
+05 cursor.com/changelog WebFetch
+06 ampcode.com WebFetch
+07 CNA WebFetch（Reuters exclusive）
+08 CNBC WebFetch
+09 CoinDesk WebFetch
+10 CNBC WebFetch（Friar 访谈）
+11–12–13–14–15–16–17–18 均 WebFetch 一手页
+
+七、缺口与说明
+- 未生成封面、未 build、未发布（按任务范围）
+- Bloomberg 原文付费；lead 以 TechCrunch 为可访问原文
+- Ling 官方未列出与 Claude Opus 5 的逐项分数，摘要中第三方基准已标明来源
+- 写盘时完成硬/软去重检查

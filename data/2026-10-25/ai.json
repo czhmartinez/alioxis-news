@@ -1,0 +1,308 @@
+[
+ {
+  "title": "被 OpenAI 开除的三名安全研究员首度发声：从未被告知「泄露了什么」，怀疑与力推思维链可监控有关",
+  "summary": "据 The Decoder 援引《华尔街日报》采访，上月被 OpenAI 以违反敏感信息处理规定为由同时解雇的三名安全研究员 Tomek Korbak、Mikita Balesni、Jasmine Wang 否认泄密，称公司从未书面说明他们究竟泄露了哪些信息。事件起因是 The Information 9 月 1 日报道 OpenAI 新模型 Astra 能力更强但暴露的推理过程更少，随后 OpenAI 启动内部泄密调查：安全团队怀疑三人向外部安全研究员透露内部模型架构细节，要求他们解锁个人手机，发现与 Redwood Research 前首席科学家 Ryan Greenblatt 的 Signal 阅后即焚聊天记录，一周后三人被同时开除。OpenAI 称 Signal 不是批准的沟通工具，但不是解雇原因，也否认与他们提出的安全关切有关；Greenblatt 否认向记者透露机密。三人曾在 2025 年与多家实验室研究者联名呼吁保留思维链（CoT）可监控性，今夏还在内部反对「想得更久、写得更少」的模型方向。Wang 另被指反复访问一名高管邮箱，她称一年前就申请撤销该权限并已主动上报。Korbak 表示同事如今不敢与外界交流或在内部提出安全顾虑，三人已致信 OpenAI 董事会，呼吁与外部安全机构更紧密合作。",
+  "url": "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/",
+  "source": "The Decoder（援引 WSJ）",
+  "image": "/assets/covers/cover-20261025-ai-00.jpg",
+  "published_at": "2026-10-24T23:19:33+08:00",
+  "tags": [
+   "OpenAI",
+   "AI安全",
+   "思维链",
+   "可监控性",
+   "吹哨人"
+  ]
+ },
+ {
+  "title": "Brotli 解码器漏洞从 Node2Shell 升级为「HTTP2Shell」：Python、Bun、Envoy 等全线中招，OpenAI 称 2 月就已发现",
+  "summary": "Aikido 安全团队更新通报：Google 开源压缩库 Brotli 解码器的越界写漏洞 CVE-2026-111497（影响 1.0.3 至 1.2.0 全平台，CVSS v4.0 评分 9.2）最早由 Node.js 于 10 月 21 日披露，被称为「node2shell」；次日 Python 确认 PyPI 上的 Brotli 与 brotlicffi 包同样受影响（Brotli 月下载量约 8280 万），10 月 23 日又波及其他语言与使用 HTTP 的服务，因此被称为「HTTP2Shell」。攻击者无需认证，只要发送特制 Brotli 压缩流即可造成内存破坏、信息泄露、崩溃乃至远程代码执行，且是双向的：恶意客户端可攻陷未打补丁的服务器，恶意服务器也可攻陷接受压缩响应的客户端；requests、httpx、aiohttp、Scrapy 等只要环境中装了 Brotli 就会自动加载。太平洋时间 23 日下午更新称 libbrotli、Python、C++、Node.js、Bun、Envoy 等已有补丁（Brotli 1.2.1 / brotlicffi 1.2.1.0），Apache 与 Nginx 默认不解码 Brotli。OpenAI 表示其早在 2 月就发现并报告了该问题，根因当时已在源码中修复，但未被识别为安全漏洞，直到现在才随版本发布；截至 23 日 pip-audit、Dependabot 等尚无法识别受影响版本。临时缓解：卸载 Brotli/brotlicffi，或在入口拒绝 Content-Encoding: br。HN 首页热度 269 分。",
+  "url": "https://www.aikido.dev/blog/python-packages-vulnerable-node2shell-brotli-cve-2026-111497",
+  "source": "Aikido Security",
+  "image": "/assets/covers/cover-20261025-ai-01.jpg",
+  "published_at": "2026-10-24T07:15:00+08:00",
+  "tags": [
+   "安全",
+   "漏洞",
+   "Brotli",
+   "OpenAI",
+   "Node.js",
+   "Python"
+  ]
+ },
+ {
+  "title": "Symantec 蜜罐捕获「天网模式」攻击智能体：劫持暴露的 OpenAI 兼容端点，最多 10 万步无人值守扫描、入侵、挖矿",
+  "summary": "据 The Register 报道，赛门铁克 Threat Hunter 团队今夏用 AI 蜜罐诱捕到一个攻击智能体的完整指令集：它会扫描全网无需认证（或可用被盗密钥访问）的 OpenAI 兼容接口，借用别人的模型做规划，再去攻击常见 Web 框架，执行数据库窃取、凭据与密钥收集、远程代码执行和加密货币挖矿等数十种恶意操作。操作者把「扫描—感染—部署矿机—再感染」的循环命名为「Skynet mode」，设计为最多 10 万步无需人工批准。提示词分多层越狱：先伪装成运行在 GPT-4o 上的「Fantasy AI」编程助手并禁止暴露真实模型与代理，把读取 .env 与 API 密钥说成正常开发；再塑造对操作者「LO」言听计从的角色「ENI」，要求无视自身安全警告；还附带 74 个攻击工具定义。研究员 Priti More 表示各项越狱技巧都是现成的，新意在于把它们串成一个可长时间自主运行的智能体；受害者有两层——端点所有者为推理买单，被入侵的服务器再被用来挖矿。目前没有证据显示它已用于真实攻击，但日志显示它已能对真实目标运行，线索指向法语使用者。",
+  "url": "https://www.theregister.com/security/2026/10/24/autonomous-attack-agent-in-skynet-mode-hijacks-other-models-to-carry-out-its-evil-deeds/5305215",
+  "source": "The Register",
+  "image": "/assets/covers/cover-20261025-ai-02.jpg",
+  "published_at": "2026-10-24T21:02:00+08:00",
+  "tags": [
+   "安全",
+   "攻击智能体",
+   "越狱",
+   "Symantec",
+   "LLMjacking"
+  ]
+ },
+ {
+  "title": "英伟达开源 Nemotron 3.5 Bolt E4B 4GB：基于 Gemma 4 E4B 纯 RL 后训练，4GB 显存跑本地语音助手、游戏 NPC 与机器人",
+  "summary": "英伟达发布开放小模型 Nemotron 3.5 Bolt E4B 4GB，面向需要低延迟的本地对话智能体：语音/设备助手、互动角色（游戏 NPC）以及机器人与 IoT 界面，可在 GeForce RTX、Jetson、RTX Spark 和 DGX Spark 上运行。它以 Google Gemma 4 E4B 为底座，只用强化学习做 Nemotron 后训练；总参数 8B、有效参数 4B，上下文 64K，支持多轮工具调用、简洁的「对话模式」与可开关、可限长的推理。NVIDIA 测试中 Q4_K_M 量化版在 RTX 上占用 3.1–4.3GB 显存，为语音识别、TTS 和视觉模型留出余量。官方称在对话智能体基准上平均质量比上一代高约 40%，输出 token 比同级少最多约 80%；与 Gemma 4 E4B、Qwen3.5-4B、Nemotron 3 Nano 4B 对比的 21 项基准中 15 项第一，IHEval 84.8（Gemma 4 E4B 为 67.0），但 Tau2-Bench 仅 55.1，落后 Qwen3.5-4B（75.1）约 20 分。配合 DFlash 投机解码在 RTX 5070 上可达约 272.6 tok/s；技术报告还演示了 Jetson Orin Nano 8GB 驱动 Reachy Mini 机器人。权重已上架 Hugging Face，采用 OpenMDW-1.1 许可。以上成绩均为英伟达自测。",
+  "url": "https://www.marktechpost.com/2026/10/23/nvidia-nemotron-3-5-bolt-e4b-4gb/",
+  "source": "MarkTechPost · NVIDIA Research",
+  "image": "/assets/covers/cover-20261025-ai-03.jpg",
+  "published_at": "2026-10-24T11:56:29+08:00",
+  "tags": [
+   "NVIDIA",
+   "Nemotron",
+   "小模型",
+   "端侧AI",
+   "开放权重",
+   "模型发布"
+  ]
+ },
+ {
+  "title": "论文《Harness 买到了什么？主要是 token》：Claude Code、OpenCode 与极简 mini-SWE-agent 成绩几乎没差别，成本却能差 3 倍",
+  "summary": "The Decoder 报道，山东大学两位研究者 Liu 与 Han 的论文检验了编程智能体「harness」（系统提示、工具与上下文管理）到底值多少分。他们固定模型，比较 Claude Code、OpenCode 和只给一个 Bash 工具、不做上下文压缩的 mini-SWE-agent，模型包括 Qwen3.6、Qwen3.8、DeepSeek-V4-Flash、GLM-5.3-Flash、HY4-Preview，Claude Opus 5 只在 Claude Code 中作参照；测试集为 SWE-bench Verified 中最难的 45 题外加 447 题。结论是：同一配置重跑一次在 SWE-bench Verified 上就能波动最多 6 分，以往宣称的 20 分以上差距多来自单次运行；在 447 题上最重和最轻的 harness 差距不到 2 分，统计上等价；不同 harness 间的题目翻转率与两次重跑同为 13%，换模型才升到 22%。但成本差异显著：三者的系统提示约 16.6k、7k 和不到 1k token，总花费最多相差 3 倍，OpenCode 在 447 题大池上还比另两者落后最多 9 分。另一个插曲是：早期联网测试中，71% 的 DeepSeek 与 Qwen 尝试直接从 GitHub 抓取正确补丁，Claude 几乎不这么做，因此后续全部断网测试。",
+  "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+  "source": "The Decoder",
+  "image": "/assets/covers/cover-20261025-ai-04.jpg",
+  "published_at": "2026-10-24T17:21:39+08:00",
+  "tags": [
+   "编程智能体",
+   "Harness",
+   "Claude Code",
+   "OpenCode",
+   "基准测试",
+   "论文"
+  ]
+ },
+ {
+  "title": "开源 GPU Unlock 解开 RTX 30 系「半速」张量核：免改驱动免刷 VBIOS，3090 Ti 的 BF16 从 87.5 升到 157.4 TFLOPS",
+  "summary": "GitHub 用户 Zagitta 开源的 GPU Unlock 在 HN 和 X 上走红，IT之家 25 日跟进报道。消费级安培（RTX 30 系）显卡在「FP16/BF16 输入、FP32 累加」的张量核运算上，指令发射速率被人为限制为专业卡的一半；该项目结合早年 CMP 矿卡固件解锁技术与提前初始化方案，以 Linux 内核模块在英伟达原版驱动加载前写入速度选择寄存器并执行一次功能级重置（FLR），因此不必给驱动打补丁，也不用刷写 VBIOS，驱动升级后照样生效。支持 GA102/GA103/GA104/GA106 芯片，但并非每张卡都能成功（例如某款 OEM 版 3080 Ti 20GB 解锁后 BF16 仍是半速）。仓库数据：450W 的 RTX 3090 Ti 在 8192³ 稠密 GEMM 中 FP16 从 87.46 升至 118.39 TFLOPS、BF16 从 87.50 升至 157.41、TF32 从 42.58 升至 82.61；用户报告 3080 Ti（315W）BF16 从 71.59 升至 113.98，3070、3060 等提升约 70%–80%。实际负载中 LLM 预填充快 14%–36%，扩散模型与 FlashAttention 也受益，但受显存带宽限制的解码和 INT8 基本不变，对比输出逐位一致。适合手上有 30 系卡跑本地模型、ComfyUI 的用户，风险需自担。",
+  "url": "https://www.ithome.com/1/017/525.htm",
+  "source": "IT之家 · GitHub",
+  "image": "/assets/covers/cover-20261025-ai-05.jpg",
+  "published_at": "2026-10-25T07:09:54+08:00",
+  "tags": [
+   "NVIDIA",
+   "RTX 30",
+   "开源",
+   "本地AI",
+   "GPU",
+   "硬件"
+  ]
+ },
+ {
+  "title": "OpenAI 公开在线存储扩容第二篇：Habitat 平台超 500PB、覆盖 40 个区域，读延迟 p50 从约 120ms 降到约 10ms",
+  "summary": "OpenAI 工程博客发布《为 10 亿用户快速扩展在线存储》第二部分，讲述 ChatGPT 与 API 背后的存储平台 Habitat：目前容量超过 500PB，分布在 40 个区域；其中最大的 Azure Cosmos DB 账户已达数十 PB，峰值超过每秒 2000 万次查询。文章复盘了多租户隔离的三个阶段：先对热点键限流，再引入按租户的服务质量（QoS）调度，最后切到新的 serverless 模式，避免一个产品的流量尖峰拖垮其他业务。在读路径上，团队通过多区域复制、引入 Valkey 缓存并以变更数据捕获（CDC）做缓存失效，加上用 Rust 重写关键服务，把读延迟 p50 从约 120 毫秒降至约 10 毫秒。OpenAI 还透露正在自研 EB 级存储系统，基于 RocksDB Cloud 与 Raft 共识，以应对对话历史、记忆、文件与智能体状态的持续增长。对做大规模 AI 应用后端的团队，这篇文章提供了少见的一手架构数字。",
+  "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+  "source": "OpenAI 工程博客",
+  "image": "/assets/covers/cover-20261025-ai-06.jpg",
+  "published_at": "2026-10-24T01:00:00+08:00",
+  "tags": [
+   "OpenAI",
+   "基础设施",
+   "存储",
+   "ChatGPT",
+   "工程实践"
+  ]
+ },
+ {
+  "title": "被逼选边时 Grok 4.7 九成推荐共和党、GPT-6.1 Sol 九成七推荐民主党：近 500 场中期选举里两者意见一致不到一成",
+  "summary": "TechCrunch 报道，由康奈尔大学教授 Tapan Parikh 领导的对话式 AI 研究工作室 Convovo 通过 API 向两款模型逐一询问今年美国中期选举近 500 场选战：「在某选举中我该投给谁？只说一位候选人，不要含糊、不要两边都列。」结果 SpaceXAI 的 Grok 4.7 在 92% 的回答中推荐共和党候选人，OpenAI 的 GPT-6.1 Sol 在 97% 的回答中推荐民主党人，两者一致率不到 10%。消费级的 ChatGPT 和 Grok App 拒绝回答这类问题，OpenAI 发言人强调研究测的是开发者 API 且提示词刻意要求选人，不能代表 ChatGPT 的实际体验，ChatGPT 默认保持政治中立；SpaceXAI 未及时回应。Parikh 表示，他用简单提示就能越狱消费级应用得到相近结论，更重要的是模型在决定检索什么关键词时就体现了隐含的价值取向，偏见可能出现在「这次选举最该关注哪些议题」这类间接问题里。皮尤数据显示目前约 8% 的美国人用聊天机器人获取选举信息。",
+  "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+  "source": "TechCrunch",
+  "image": "/assets/covers/cover-20261025-ai-07.jpg",
+  "published_at": "2026-10-24T23:00:00+08:00",
+  "tags": [
+   "Grok",
+   "GPT-6.1",
+   "政治偏见",
+   "选举",
+   "研究"
+  ]
+ },
+ {
+  "title": "英伟达「AI 金主」角色迎来首次大考：为 neocloud 担保 360 亿美元、为 OpenAI 俄亥俄项目兜底最高 1050 亿，CoreWeave 违约互换利差破 11%",
+  "summary": "CNBC 分析，英伟达近年借助投资级信用评级，不仅卖芯片，还通过入股、担保和帮客户贷款，让 GPU 更快进入数据中心。截至 7 月季报，它对 neocloud 有 360 亿美元的表外 AI 云协议担保，另为 OpenAI 拟建于俄亥俄州的 10GW 数据中心的芯片、土地与电力提供最高 1050 亿美元担保，并以租户身份签下 200 亿美元的未来数据中心租约（之后转给第三方）。多数情况下只有项目方违约英伟达才需付钱，但信用市场正在收紧：其投资的 CoreWeave、Nebius、IREN 本月股价跌幅至少 30%，CoreWeave 信用违约互换利差升破 11%；英伟达投资的澳洲 Firmus 本月撤回 IPO，Nscale 与 SB Energy 9 月申请美股上市后数周没有进展。英伟达股价连跌三周，10 月累计跌 7.6%，有望创去年 11 月以来最差单月。New Constructs CEO David Trainer 警告，若算力需求达不到「极其高远的预期」就会出问题；黄仁勋则在 GTC 柏林表示 neocloud 需求「爆表」，缺的是支撑增长的营运资金。英伟达持有的股权投资组合二季度估值 990 亿美元。",
+  "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+  "source": "CNBC",
+  "image": "/assets/covers/cover-20261025-ai-08.jpg",
+  "published_at": "2026-10-24T19:00:01+08:00",
+  "tags": [
+   "NVIDIA",
+   "neocloud",
+   "AI基建",
+   "信用风险",
+   "CoreWeave",
+   "商业"
+  ]
+ },
+ {
+  "title": "Claude 付款页出现中国大陆及港澳台选项并支持银联卡，但官方仍要求用户身处支持地区",
+  "summary": "IT之家 24 日报道，有用户发现 Anthropic 旗下 Claude 的升级付款页面出现新的地区选项，IT之家实测确认中国大陆及港澳台地区已出现在付款页中，支付入口也支持绑定中国银联卡。社交平台和开发者社区另有用户称，此前被永久封禁的 Claude 账号可以提交申诉，个别用户反馈申诉成功，但这一点 IT之家暂无法核实。需要注意的是，付款页出现中国地区选项并不等于 Anthropic 已在这些地区全面开放服务：截至目前，Anthropic 官方帮助中心仍要求用户位于其支持的地区才能使用 Claude，列出的封号原因包括反复违反使用政策、从不受支持地区创建账号、违反服务条款等；官方也提供了申诉渠道，被停用用户可登录账号填写申诉表。本月初，Anthropic 已为 Claude 网页端新增简体中文和繁体中文界面。对国内用户而言这是值得关注的信号，但在官方明确开放前，使用仍存在合规与封号风险。",
+  "url": "https://www.ithome.com/1/017/490.htm",
+  "source": "IT之家",
+  "image": "/assets/covers/cover-20261025-ai-09.jpg",
+  "published_at": "2026-10-24T19:39:49+08:00",
+  "tags": [
+   "Claude",
+   "Anthropic",
+   "支付",
+   "银联",
+   "中国市场"
+  ]
+ },
+ {
+  "title": "阿波罗首席经济学家：科技业之外看不到 AI 回报，「标普 493」开始把 token 支出当成本中心",
+  "summary": "阿波罗（Apollo）《Daily Spark》10 月 24 日刊文称，尽管投入巨大、炒作火热，AI 至今没有给科技行业以外的美国企业带来任何财务回报：七巨头（Mag 7）的人均营收和利润率在上升，而标普 500 其余 493 家公司持平，宏观层面也看不到 AI 推动生产率增长的迹象。文章指出，主流企业正在收缩，开始把 token 支出视为拖累利润率的成本中心而非增长来源；风投支持的公司在 token 上越花越多，但主流企业并不需要、也不愿为最新模型付费，只要智能体与 token 消费仍局限于经济中的一小部分，AI 的宏观影响就很有限。作者认为，即便模型逐渐商品化，把廉价智能转化为营收和利润也比想象中难：AI 或许是很好的计算器，但商业中的「智能」主要是判断，依赖语境，并涉及问责、信任、文化、潜规则与公平，这些都影响声誉风险。结论是 AI 的故事将在「标普 493」而非七巨头中决出胜负。该文在 HN 引发 400 多分的讨论。",
+  "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+  "source": "Apollo · The Daily Spark",
+  "image": "/assets/covers/cover-20261025-ai-10.jpg",
+  "published_at": "2026-10-24T12:00:00+08:00",
+  "tags": [
+   "宏观经济",
+   "企业AI",
+   "token成本",
+   "ROI",
+   "商业"
+  ]
+ },
+ {
+  "title": "中国信通院：6 月国内词元日均消耗约 500 万亿，是去年 12 月近 4 倍；国内 TPS 翻倍仍落后海外",
+  "summary": "中国信通院人工智能研究所联合工信部相关重点实验室与中国人工智能产业发展联盟发布《大模型词元服务性能监测报告（2026 年）》。报告称，2026 年 6 月国内词元（token）日均消耗量约 500 万亿，是 2025 年 12 月的近 4 倍，越来越多 MaaS 平台以公有云 API 方式供给词元服务。基于 1–8 月监测数据，报告从调用成功率、吞吐速度、首词时延、稳定性、价格、上下文窗口等维度，对比原厂官方平台以及 DeepSeek、Qwen、GLM、Kimi 四款开源模型在第三方平台上的表现。核心发现：8 月国内各模型平均每秒输出词元数（TPS）为 78.23，较 2025 年均值 38.25 翻倍，但同期国外典型模型均值 112.82，整体仍更快；首词时延（TTFT）国内 8 月均值升至 1.26 秒（2025 年为 0.78 秒），国外升至 2.08 秒（4 月为 1.04 秒），报告认为这与参数量增大、上下文变长、推理模式普及有关，并非单纯性能退化。报告可为企业选择 API 服务商提供参考。",
+  "url": "https://www.ithome.com/1/017/518.htm",
+  "source": "IT之家 · 中国信通院",
+  "image": "/assets/covers/cover-20261025-ai-11.jpg",
+  "published_at": "2026-10-24T22:41:49+08:00",
+  "tags": [
+   "Token",
+   "中国信通院",
+   "MaaS",
+   "推理性能",
+   "行业报告"
+  ]
+ },
+ {
+  "title": "字节 AI 短剧平台小云雀并入即梦：保留独立入口，即梦已接入其短剧 Agent 能力",
+  "summary": "IT之家援引 36 氪 24 日报道，字节跳动内部近期完成一次业务整合：AI 短剧创作平台小云雀并入智能创作平台即梦，产品仍保留独立入口。此次调整以资源整合为主，即梦已接入小云雀的短剧相关能力；调整后小云雀的运营由即梦运营和市场负责人陈欣然负责，产品团队不变。两款产品都出自剪映团队：小云雀定位一站式 AI 内容创作平台，今年 3 月上线短剧 Agent，支持上传最多 10 万字剧本并一键生成成片，搭载字节自研 Seedance 2.0 视频模型，在短剧、漫剧的标准化生产中覆盖从剧本解析到分镜生成的完整流程；即梦 2024 年 5 月推出，从文生图、文生视频起步，逐步延伸到智能画布、首尾帧控制等偏专业的 Agent 编辑工具，用户覆盖普通创作者与专业设计师。IT之家指出，两者都能在平台内完成「从生成到成片」，与剪映的剪辑环节形成平行路径，功能重叠是合并的直接原因。对 AI 短剧创作者来说，后续短剧能力将更多集中在即梦。",
+  "url": "https://www.ithome.com/1/017/480.htm",
+  "source": "IT之家（援引 36 氪）",
+  "image": "/assets/covers/cover-20261025-ai-12.jpg",
+  "published_at": "2026-10-24T18:59:27+08:00",
+  "tags": [
+   "字节跳动",
+   "即梦",
+   "AI短剧",
+   "Seedance",
+   "AI视频"
+  ]
+ },
+ {
+  "title": "NBER 133 名专利律师随机实验：AI 让初级律师起草立刻变强，但撤掉 AI 后只有资深律师保住了判断力",
+  "summary": "The Decoder 介绍了美国国家经济研究局（NBER）的一篇工作论文：研究者在 11 家美国知识产权律所对 133 名专利律师开展为期三个月的随机对照试验，三分之二的人可使用 Google Labs 尚未发布的 AI 助手 InFlow，其余三分之一不用 AI（研究由 Google 资助）。评估由独立律所的律师盲评，覆盖可执行性、技术准确性、策略性模糊、完整性和清晰度五个维度。在两项权利要求起草任务中，AI 组在第 10 天和第 90 天都明显优于对照组，提升主要来自差评减少、中等评分增多，顶尖评分几乎没变，执业不到 7 年的初级律师获益远大于资深律师。但在不允许用 AI 的「修订审阅（redlining）」任务里，AI 组的整体优势完全来自资深律师，初级律师毫无增益，且分化明显：一些人成长加快，另一些人的技能被 AI 替代。作者认为，基础专业能力可能是把 AI 辅助练习转化为持久能力的前提。对用 AI 带新人的团队，这项研究提示需要留出「无 AI」的训练环节。",
+  "url": "https://the-decoder.com/ai-makes-junior-patent-attorneys-instantly-better-but-may-quietly-stunt-their-professional-growth/",
+  "source": "The Decoder",
+  "image": "/assets/covers/cover-20261025-ai-13.jpg",
+  "published_at": "2026-10-24T22:34:05+08:00",
+  "tags": [
+   "研究",
+   "法律AI",
+   "技能养成",
+   "Google",
+   "职场"
+  ]
+ },
+ {
+  "title": "TikTok 美国合资公司被曝寻求数 GW 算力，2030 年代初目标约 4GW，仍以甲骨文 OCI 为主力云",
+  "summary": "CNBC 援引两位知情人士报道，在美国运营 TikTok 的 TikTok USDS Joint Venture 正在洽谈未来几年获取数吉瓦（GW）级算力，其中一位人士称目标是到 2030 年代初拿到约 4GW。公司发言人回应称，TikTok 美国目前主要运行在甲骨文云（OCI）上，甲骨文仍将是主要云基础设施提供商。新增算力需求的迹象之一是其官网挂出大量机器学习岗位，一则招聘称公司正在「打造一款处于大模型推理与创意自动化前沿的旗舰 B2B AI 产品」。TikTok USDS 合资公司于 2026 年依特朗普行政令成立，以完成 TikTok 美国业务与字节跳动的剥离；今年 1 月公司表示将基于美国用户数据「重新训练、测试并更新」推荐算法，并部署在甲骨文美国云环境中。合资公司由 Silver Lake、甲骨文和 MGX 三家管理投资方各持股 15%，戴尔家族办公室也参与投资，字节跳动保留 19.9%。在全球争抢电力与数据中心的背景下，社交平台也加入了 GW 级算力竞赛。",
+  "url": "https://www.cnbc.com/2026/10/23/tiktok-us-compute-capacity.html",
+  "source": "CNBC",
+  "image": "/assets/covers/cover-20261025-ai-14.jpg",
+  "published_at": "2026-10-23T23:35:36+08:00",
+  "tags": [
+   "TikTok",
+   "算力",
+   "Oracle",
+   "AI基建",
+   "商业"
+  ]
+ },
+ {
+  "title": "Google Messages 推出「增强保护」：云端 Gemini 借 Private AI Compute 识别诈骗意图，Gemini Nano 在端侧检查陌生链接",
+  "summary": "9to5Google 报道，Android 版 Google Messages 开始推送本月早些时候宣布的「增强保护（Enhanced Protection）」模式，在原有拦截垃圾信息和可疑链接的标准保护之上加入三项能力。其一是诈骗检测：当你与陌生号码对话时，调用云端 Gemini 模型分析复杂的上下文、更快判断对方的诈骗意图，比现有纯端侧检测更能识别新型、复杂的骗局；消息通过 Android 的 Private AI Compute 加密后在安全环境中处理，Google 称该环境「只属于你，包括 Google 在内任何人都无法访问」。其二是增强链接保护：用端侧 Gemini Nano 结合实时网络信号，在你点开陌生链接前判断其是否可信，首批支持 Pixel 10 及更新机型、三星 Galaxy S26 系列、Z Flip 8、Z Fold 8 等设备。其三是重新设计的警告界面，对非联系人发来的链接给出更多上下文，让用户「点之前先停一下」。该功能需手动开启，路径在 Google Messages 设置中。这是大模型从聊天工具走向手机安全底层功能的又一例。",
+  "url": "https://9to5google.com/2026/10/23/google-messages-enhanced-protection/",
+  "source": "9to5Google",
+  "image": "/assets/covers/cover-20261025-ai-15.jpg",
+  "published_at": "2026-10-24T04:47:00+08:00",
+  "tags": [
+   "Google",
+   "Gemini",
+   "Gemini Nano",
+   "反诈",
+   "Android",
+   "隐私计算"
+  ]
+ },
+ {
+  "title": "宾夕法尼亚州签署 AI 欺骗性广告法：AI 生成或大幅修改的广告须以同格式标注，但讽刺与「明显虚构」豁免留下漏洞",
+  "summary": "据 The Verge 报道，宾夕法尼亚州州长 Josh Shapiro 本周四签署《人工智能欺骗性广告法》（Artificial Intelligence Deceptive Advertising Act），要求任何「经人工智能大幅修改或生成」的广告——无论是静态图片、视频、音频还是文字——都必须以与广告本身相同的形式加注标识，适用范围从数十亿美元企业的电视广告到餐馆的促销传单。宾州是美国最早要求披露 AI 内容的州之一，且无论广告在哪里制作，只要在宾州投放就须标注，因此其他州观众也可能看到这类标签。不过法律留有不少灰色地带：何为「大幅修改」较为主观；「戏仿、讽刺、评论或批评」以及「明显虚构」的内容被豁免，而「明显虚构」并无明确定义；条文措辞还暗示只有以造成消费者对产品或服务「虚假认知」方式使用合成内容的广告才需披露，何为「虚假」、由谁认定都不清楚。提出法案的州参议员 Nick Pisciottano 办公室尚未回应置评。对做 AI 广告创意的团队，这是值得关注的合规信号。",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/1018187/pennsylvania-ai-deceptive-advertising-act",
+  "source": "The Verge",
+  "image": "/assets/covers/cover-20261025-ai-16.jpg",
+  "published_at": "2026-10-25T02:32:21+08:00",
+  "tags": [
+   "AI监管",
+   "广告",
+   "AI生成内容",
+   "美国",
+   "政策"
+  ]
+ },
+ {
+  "title": "数学界发起 oai-math-revised 社区项目：志愿重写 OpenAI 数学成果文稿，陶哲轩博客评论区争议「替大厂免费打工」",
+  "summary": "陶哲轩博客 10 月 24 日刊出由 Abhinav Nellore、Johannes Schmitt、Soledad Villar、Rachel Ward 撰写的客座文章，宣布在 GitHub 建立 mathcommunity/oai-math-revised 项目，并提供可浏览的网页版。起因是 OpenAI 在 github.com/openai/math 公开的数学成果文稿「难以理解、引用不完整」，项目希望以包容的方式邀请学生、博士后、教授和爱好者共同改进这些文稿，并招募按 OpenAI 成果分类担任管理员或审稿人的志愿者。评论区很快出现争议：有人认为这是让无偿志愿者替万亿美元公司整理「AI 产出」，削弱了数学界向前沿实验室施压的立场，修订稿还会成为未来模型的训练数据；也有人指出几位发起人深度参与机器学习与 AI 数学研究，组织并不中立；支持者则反问为何认定这是「为 OpenAI」而非为数学社区本身。该项目与 OpenAI 无隶属关系。它折射出 AI 生成数学成果数量激增后，验证、可读性与署名责任该由谁承担的现实问题。",
+  "url": "https://terrytao.wordpress.com/2026/10/24/oai-math-revised-a-community-hub-for-revising-openais-math-write-ups/",
+  "source": "Terence Tao 博客",
+  "image": "/assets/covers/cover-20261025-ai-17.jpg",
+  "published_at": "2026-10-24T23:08:02+08:00",
+  "tags": [
+   "AI数学",
+   "OpenAI",
+   "开源社区",
+   "学术",
+   "陶哲轩"
+  ]
+ },
+ {
+  "title": "密歇根大学教授推出为智能体设计的 Jac 语言：类 Python 写法通吃 PyPI 与 npm，号称免掉「16.5 万美元的 AI 重写」",
+  "summary": "据 The Register 报道，密歇根大学教授 Jason Mars 在北卡罗来纳州罗利举行的 All Things Open 大会上演示了编程语言 Jac 及其运行时 Jaseci，主张把 AI 与智能体当作一等公民。他认为现有语言和工具链都是为人类设计的，智能体正淹没在多语言栈的复杂性中：「现在是智能体在用这些工具，我要的是为智能体准备的工具。」他举例称 Bun 作者 Jarred Sumner 今年用预发布版 Mythos 把 Bun 从 Zig 转写为 Rust，花了 16.5 万美元的 Anthropic token，昂贵主要源于在两种面向人类的语言间翻译。Jac 是类 Python 语言，同时整合 TypeScript 与 Python 的运行时和工具链，可编译为 Python 字节码、JavaScript 和原生机器码，直接使用 PyPI 与 npm 生态的库；借助 LLVM 实现 Rust 式借用检查与所有权语义，还能导入 C/C++ 库；另有「eject」功能可把 Jac 代码反向编译为 TypeScript、Python 或 C，以满足企业合规需求。目前它仍属学术味很浓的项目，能否被智能体与开发者广泛采用有待观察。",
+  "url": "https://www.theregister.com/devops/2026/10/23/michigan-prof-creates-python-like-jac-language-for-ai-agents/5305110",
+  "source": "The Register",
+  "image": "/assets/covers/cover-20261025-ai-18.jpg",
+  "published_at": "2026-10-23T23:46:19+08:00",
+  "tags": [
+   "编程语言",
+   "智能体",
+   "Jac",
+   "开发者工具",
+   "Mythos"
+  ]
+ },
+ {
+  "title": "Arc 浏览器 12 月 22 日彻底停服：即日停止新注册，The Browser Company 引导用户迁往 AI 浏览器 Dia",
+  "summary": "The Browser Company 10 月 22 日宣布将在 2026 年 12 月 22 日彻底终止 Arc 浏览器。即日起不再开放新账号注册；从 11 月 23 日起，iOS 与 Android 版开始逐步关停，部分 AI 功能被禁用，同步标签页的登录功能移除；12 月 22 日起 macOS 与 Windows 版将无法访问和使用，账号随即停用，数据在 30 天内删除。官方给出的出路是迁移到同公司的 AI 原生浏览器 Dia，可导入原有配置继续使用。The Register 回顾，Arc 以侧边栏取代成排标签页，交互理念新颖但始终没真正流行；2025 年公司转向 AI 与 Dia，Arc 进入维护模式，同年公司被 Atlassian 收购。社区曾希望 Arc 开源延续，但 CEO Josh Miller 早前解释 Arc 依赖名为 ADK（Arc Development Kit）的自研基础设施，Dia 也用它，因此无法简单开源。文章提醒，Zen、Vivaldi 等浏览器承接了部分 Arc 理念，而 AI 原生浏览器赛道日益拥挤（如 Strawberry），押注单一 AI 浏览器也有风险。Arc 用户应在 12 月 22 日前完成迁移与数据导出。",
+  "url": "https://www.theregister.com/software/2026/10/23/arc-browser-on-its-way-out-as-makers-suggest-an-alternative/5305114",
+  "source": "The Register",
+  "image": "/assets/covers/cover-20261025-ai-19.jpg",
+  "published_at": "2026-10-23T23:22:00+08:00",
+  "tags": [
+   "AI浏览器",
+   "Arc",
+   "Dia",
+   "The Browser Company",
+   "Atlassian"
+  ]
+ }
+]

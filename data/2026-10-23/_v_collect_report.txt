@@ -1,0 +1,47 @@
+大V视野收集报告 — 2026-10-23（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用 2026-10-22 _v_raw_mcp.json 中已解析的 id → get_users_posts（exclude=replies, start_time=2026-10-21T20:00:00Z, max_results=25；@MaxForAI 40 并翻 1 页；@testingcatalog 50 并翻 1 页，第二页为空）
+- 长文补全：get_posts_by_ids（note_tweet / article，43 个 id，含卡兹克 X 长文 article 全文、Max 长帖、TestingCatalog 长帖、Tibo Day 17 自线程，以及被引用的 ClaudeDevs API 版本/Skills 捐赠、OpenAI METR 评估、cnm13ryan Fable 隐写、EinsiaAI Quant-Arena、Axios 银行、HeyGen、Claude auto mode、OpenAI Devs Decisions、Grok Bot 系统应用、Ideogram、Google Cloud ACE、Claude on GCP 等原帖）
+- 未使用浏览器关注页；未使用 user-X；本次共 9 次 X 读取（6 次 get_users_posts + 2 次翻页 + 1 次 get_posts_by_ids）
+- x-api-mcp-guide Skill：本执行环境无 Skill 工具，未加载；直接按 GetDynamicTools 的 schema 调用
+
+入选：20 条
+各 handle 入选计数：
+  @Khazix0918: 1
+  @MaxForAI: 10
+  @xiaohu: 2
+  @thsottiaux: 0（Day 17 重置公告并入小互 Codex 重置条）
+  @testingcatalog: 7
+  @gengdaJ: 0
+
+原始拉取条数摘要：
+  @Khazix0918: 1（长文《AI挖出藏了十几年的底层PHP漏洞，网络安全也回不去那个旧时代了。》）
+  @MaxForAI: 30（两页；含自回复碎片 2、梗图/短评若干）
+  @xiaohu: 6（AI 日报视频第二期、Codex 重置卡攻略 + 「被我说中了」+「凌晨1点重置」自回复、「牛P 正在学习」、Kling 4.0 API）
+  @thsottiaux: 4（Day 17 重置日 + 「Lands tomorrow before 10am PST」自回复、「Dot, Dotter, Dottest」+ Pro 计划自回复）
+  @testingcatalog: 25（翻页第二页为空；含 Duet 自线程补充 4、赞助/产品自回复若干）
+  @gengdaJ: 2（无头剪映项目转私有提醒、RT mediastorm iPhone 抽奖）
+
+Lead：Max：Arena 现两款匿名模型 Kibitz 与 Kalmia，疑为 Kimi K3.1 与 Qwen4——已进入线上匿名测试最后阶段，本周内或发布
+Lead URL：https://x.com/MaxForAI/status/2113205199112196377
+（今日 AIHOT 头条即 PHP2Shell 全景复盘，与卡兹克长文同题；为避免两个页签头条同题，大V视野头条改用优先账号 Max 的独家模型动态，卡兹克长文放第 1 条）
+
+筛选说明：
+- 跳过梗图/非 AI：Max「这哥们真的赢了」「这就是AI时代的魔幻」「支付宝冷知识」「我不是Token神」+ 自回复、BABYQUEEN AI 女团、梅西 ChatGPT 广告、塔勒布白领警告、Levie 网安岗位观点评论、红杉 Stephanie Zhan 基金、DeepMind 终身不贬损条款、英国警察用 Copilot 被调查、GovAI 中国 RSI 文章；小互「牛P 正在学习」（引用帖仅链接，内容不明）；Tibo「Dot, Dotter, Dottest」（语义不明）；逸尘 RT iPhone 抽奖
+- 跳过碎片：Max Fable 隐写两条自回复（Blog 链接）并入主帖；Max 小米 bug「原帖地址」自回复并入主帖；小互「被我说中了」「凌晨1点重置」与 Tibo Day 17 两帖并入小互 Codex 重置条；TestingCatalog Ideogram「Tested over here」、MonoDesk/DataVendor/Nectar/1Password/Kylon 自回复
+- 跳过赞助/弱相关产品：TestingCatalog Kylon Annotations、Envato MonoDesk、Nectar、HUD DataVendor、Microsoft Copilot 改版（ICYMI 旧消息）、「You have been warned」观点长帖
+- 跳过汇总：TestingCatalog DAILY AI BRIEF Oct 22
+- 同题旧闻：小互 Kling 4.0 API（可灵 4.0 已见 10-16/10-17）；逸尘无头剪映转私有（10-22 v.json 已收律师函与升级两条，属同题后续）；TestingCatalog Duet 购物流程/Shopify/语音（10-22 已并入 Duet 主帖）；TestingCatalog Grok Bot live artifacts（2113046603041038418，10-22 已收 URL）；Max Anthropic 本周五公开 S-1（10-21 ai.json 已收 S-1 同题）；Max Deedy PHP2Shell 与「运维老哥的一晚」（与卡兹克长文及 10-22 PHP2Shell 同题，避免三条重复）；Max Kevin Weil Warp Sciences 融资（偏药物研发融资，名额让位）
+- 与 2026-10-09～10-22 v.json 及 ai.json 去重（425 个 URL，见 _prior_urls.json）：入选 20 条无重复 URL
+- 与今日 AIHOT 有交叠（保留，按大V视角成文）：Claude auto mode、Decisions API GA、Agent Skills 捐赠 AAIF、PHP2Shell
+- 三位优先账号：卡兹克 1、Max 10、小互 2（卡兹克本时段仅 1 条长文）
+
+输出文件：
+  data/2026-10-23/v.json
+  data/2026-10-23/_cover_prompts_v.json
+  data/2026-10-23/_v_raw_mcp.json
+  data/2026-10-23/_v_collect_report.txt
+  data/2026-10-23/_prior_urls.json
+
+未执行：build / 生图 / 发布

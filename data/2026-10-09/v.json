@@ -1,0 +1,227 @@
+[
+  {
+    "title": "Max：韩国多家银行被黑，CrowdStrike 报告称疑似单人用 AI 渗透工具作案，还靠 Claude Code 记录暴露线索",
+    "summary": "Max 转述 CrowdStrike 10 月 7 日的调查：9 月底至 10 月初韩国多家金融机构遭攻击，攻击者使用中国开源 AI 渗透工具 ARTEX，主要接入 DeepSeek V4.1-Flash，也用了 GLM-5.3、Grok 4.6 和 Claude Code。对方在服务器上开放了目录列表，研究人员由此翻出 CLAUDE.md、Claude Code 历史会话、ARTEX 配置和记忆文件，其中还有询问被盗数据去哪里卖、请 Claude 代写网络安全研究员简历的对话。Max 感叹：AI 能力再强，也架不住人类自己留下这么离谱的安全漏洞。",
+    "url": "https://x.com/MaxForAI/status/2108128680513868018",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261009-v-00.jpg",
+    "published_at": "2026-10-08T17:33:39+08:00",
+    "tags": [
+      "网络安全",
+      "CrowdStrike",
+      "Claude Code",
+      "AI渗透"
+    ]
+  },
+  {
+    "title": "Max：OpenAI 收入比预期少 200 亿美元，带崩美股 AI 板块，问题出在统计口径",
+    "summary": "Max 解读 FT 报道：OpenAI 截至 9 月底年化收入接近 500 亿美元，而非此前流传的 700 亿。他梳理称，Anthropic 计入云合作伙伴代售收入、OpenAI 不计入，部分投资人为方便比较先把 OpenAI 约 300 亿调成约 400 亿，再叠加「较 7 月增长 70% 以上」，才得出近 700 亿。他提到前一晚纳指跌 1.25%、费城半导体指数跌 3.4%、英伟达跌 2.9%、甲骨文跌近 6%，并认为真正值得注意的是华尔街对 AI 增长预期已敏感到何种程度。",
+    "url": "https://x.com/MaxForAI/status/2108381727341334535",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261009-v-01.jpg",
+    "published_at": "2026-10-09T10:19:10+08:00",
+    "tags": [
+      "OpenAI",
+      "营收",
+      "美股",
+      "AI泡沫"
+    ]
+  },
+  {
+    "title": "Max：Anthropic 又找了个新理由封号——新版政策禁止持续虐待 Claude",
+    "summary": "Max 转引 The Verge 独家并查看官方公告：Anthropic 一年多来首次更新使用政策，其中一条正式禁止对 Claude 持续进行无意义的虐待或残忍行为。他强调这不意味着写代码写崩骂两句就会被封，正常表达不满、批评模型、安全测试和研究都不受限，执行上 Claude 可主动结束对话。他认为这是 Anthropic 首次把「模型福祉」理念写进面向用户的政策，「以前担心 AI 会不会伤害人类，现在连 AI 公司都开始担心人类会不会伤害 AI 了」。",
+    "url": "https://x.com/MaxForAI/status/2108384575437304106",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261009-v-02.jpg",
+    "published_at": "2026-10-09T10:30:29+08:00",
+    "tags": [
+      "Anthropic",
+      "使用政策",
+      "模型福祉",
+      "Claude"
+    ]
+  },
+  {
+    "title": "Max：贝佐斯称 AI 可能让人每周只工作 3 天，但省下的时间到底归谁？",
+    "summary": "Max 转述贝佐斯接受 Fox News 采访：AI 带来的生产力提升可能让原本需要工作 5 天的人只需工作 3 天、双职工家庭只需一人工作，甚至可能导致劳动力短缺而非大规模失业；主持人追问亚马逊过去 12 个月裁员约 3 万人，贝佐斯归因于疫情期间过度招聘。Max 认同 Agent 成熟后生产力会大幅提升，但认为短期内公司更可能让员工用省下的 2 天做更多工作，真正的问题是「AI 帮我们节省下来的时间，最后到底属于谁」。",
+    "url": "https://x.com/MaxForAI/status/2108257707128201234",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261009-v-03.jpg",
+    "published_at": "2026-10-09T02:06:21+08:00",
+    "tags": [
+      "贝佐斯",
+      "AI与就业",
+      "生产力",
+      "观点"
+    ]
+  },
+  {
+    "title": "Max 国庆实测 Step 5 Preview：重点看 Agent 真实任务表现，详细测评将陆续发布",
+    "summary": "Max 称国庆假期一直在测阶跃星辰的 Step 5 Preview，围绕 Agentic 能力用大量实际任务反复测试任务完成情况、执行速度和多轮执行稳定性，比起 Benchmark 更关心模型在真实 Agent 场景中能把事情做成什么样。他表示为避免因个别任务下判断而多测了几轮，接下来会陆续发布详细实测内容和判断，并评价 Step 5 Preview「确实有不少值得聊的地方」，且目前还只是 Preview 版本。",
+    "url": "https://x.com/MaxForAI/status/2108226015290089983",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261009-v-04.jpg",
+    "published_at": "2026-10-09T00:00:25+08:00",
+    "tags": [
+      "Step 5",
+      "阶跃星辰",
+      "模型实测",
+      "Agent"
+    ]
+  },
+  {
+    "title": "小互：Anthropic 新政禁止「辱骂、虐待」Claude，同时细化受限地区的合规边界",
+    "summary": "小互梳理 Anthropic 新版使用政策：用户不得持续、无必要地虐待模型，包括持续羞辱贬低模型、反复逼模型表演痛苦等，适用于 Claude 网页版、Claude Code、API、经云平台或授权经销商使用 Claude 的客户及集成产品的所有终端用户。他在后续推文中指出，Anthropic 还明确了支持地区的执行口径：人在不受支持地区境内时不得使用；注册地或总部在非支持地区的企业，其员工即便身处支持地区也不得使用；由非支持地区个人或实体直接或间接控股或实际控制的企业同样受限。",
+    "url": "https://x.com/xiaohu/status/2108398989876105231",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261009-v-05.jpg",
+    "published_at": "2026-10-09T11:27:46+08:00",
+    "tags": [
+      "Anthropic",
+      "使用政策",
+      "地区限制",
+      "合规"
+    ]
+  },
+  {
+    "title": "Codex「28 天」第 4 天：steering 改为即时生效，同时发布 GPT-6.1 Sol Ultrafast",
+    "summary": "Codex 负责人 Tibo 宣布第 4 天更新：steering 现在即时生效，用户中途调整时模型反应快得多，可以实时纠偏、避免模型白费功夫；同时发布 GPT-6.1 Sol Ultrafast，他称两者搭配效果很好。被引用的 OpenAI Developers 公告称 Ultrafast 已在 API、Codex 和 ChatGPT Work 推出，提供接近 Astra 的智能、速度最高为 Sol Standard 的 8 倍。",
+    "url": "https://x.com/thsottiaux/status/2108275041276420573",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261009-v-06.jpg",
+    "published_at": "2026-10-09T03:15:14+08:00",
+    "tags": [
+      "Codex",
+      "GPT-6.1",
+      "Ultrafast",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Claude Dashboards 向全部付费计划开放，Motion 上线 Team 与 Enterprise",
+    "summary": "TestingCatalog 报道：Claude 可查询数据平台或 CRM 工具，生成交互式仪表盘或短动画，所有内容都以代码形式生成。他认为这再次证明 Anthropic 专注软件开发的方向是对的，让它顺滑地切入企业市场，对分析团队、产品经理等数以千计的岗位都是大事。",
+    "url": "https://x.com/testingcatalog/status/2108294558497030514",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261009-v-07.jpg",
+    "published_at": "2026-10-09T04:32:47+08:00",
+    "tags": [
+      "Claude",
+      "Dashboards",
+      "Motion",
+      "企业"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Gemini Agent 将同时提供 Gemini Argon 4 与 Claude Opus 5、Sonnet 5.5",
+    "summary": "TestingCatalog 称 Gemini Business 新发布的 Gemini Agent 将提供 Gemini Argon 4、Gemini Flash 3.8，以及 Claude Opus 5 和 Claude Sonnet 5.5，这是 Claude 模型首次出现在 Gemini 中。他认为此举有助于 Google 争夺正在流向 Claude 和 ChatGPT 的企业客户，也标志着全面多模型时代的开始。",
+    "url": "https://x.com/testingcatalog/status/2108270023319970086",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261009-v-08.jpg",
+    "published_at": "2026-10-09T02:55:17+08:00",
+    "tags": [
+      "Google",
+      "Gemini Agent",
+      "Claude",
+      "多模型"
+    ]
+  },
+  {
+    "title": "TestingCatalog：开源 Atomic Agent Desktop 登陆三端，本地跑 Qwen、Gemma，云端只负责规划",
+    "summary": "TestingCatalog 报道：开源免费的 Atomic Agent Desktop 支持 macOS、Windows 和 Linux，无需账号，可在本地运行 Qwen、Gemma 等开放模型，只在用户选择时才连接云端模型。安装向导会检测内存并推荐能跑好的模型；Fusion 功能让云端模型做规划、最多 8 个本地智能体执行，演示中云端仅做一次规划调用、28 个步骤由本地模型完成；本地推理基于 Atomic 改造的 llama.cpp 与 Google TurboQuant，官方称长对话内存占用最多降 80%，还可几步导入 Claude Code、Codex、Hermes、OpenClaw 的配置。",
+    "url": "https://x.com/testingcatalog/status/2108327626523697464",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261009-v-09.jpg",
+    "published_at": "2026-10-09T06:44:11+08:00",
+    "tags": [
+      "Atomic",
+      "本地模型",
+      "开源",
+      "AI Agent"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Voyager 推出 Mac 桌面应用，让 AI 智能体直接操作 After Effects、Blender、Unity",
+    "summary": "TestingCatalog 报道：Voyager 发布桌面应用，让 AI 智能体在 Mac 上的 After Effects、DaVinci Resolve、Blender、Unity 等创意工具中工作，读取工程文件、操作软件并输出可编辑结果，覆盖视频剪辑、动态图形、调色、Blender 3D 场景和 Unity 游戏原型，内置技能、自定义技能及会学习用户习惯的记忆。应用运行于 Apple Silicon Mac，可接 Opus 等前沿模型和开放权重模型，并附带 Codex 与 Claude 插件及独立的创意 CLI；Voyager 由 Moda 联合创始人打造，自称「创意工作的 Codex」。",
+    "url": "https://x.com/testingcatalog/status/2108264326977270074",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261009-v-10.jpg",
+    "published_at": "2026-10-09T02:32:39+08:00",
+    "tags": [
+      "Voyager",
+      "创意工具",
+      "AI Agent",
+      "Blender"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Odyssey-3 世界模型开放研究预览，Pro 版 Physics-IQ 66.1 创最高纪录",
+    "summary": "TestingCatalog 报道：Odyssey 发布迄今最强的基础世界模型 Odyssey-3 并免费开放研究预览，模型可根据提示生成环境，并在人物移动或触发事件时实时预测变化，支持第一/第三人称漫游和独立镜头。Odyssey-3 Pro 在 Physics-IQ Verified 视频到视频（best-of-8）上得分 66.1，为已报告最高；Odyssey 还把模型适配到机械臂、人形机器人和印度真实道路上的汽车，各系统使用各自训练的策略。",
+    "url": "https://x.com/testingcatalog/status/2108246975883751665",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261009-v-11.jpg",
+    "published_at": "2026-10-09T01:23:43+08:00",
+    "tags": [
+      "Odyssey",
+      "世界模型",
+      "具身智能",
+      "Physics-IQ"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Antigravity 里的智能体被改名为「Chief of stuff」，Google 或要把 bots 智能体放进来",
+    "summary": "TestingCatalog 发现 Google Antigravity 最新更新中，智能体被改名为「Chief of stuff」，他调侃「看起来像是升职了」，并猜测 Antigravity 可能会成为 Google 放置其 bots/dots 类智能体的地方。此前他已报道 Google 在为 Gemini 4 登陆 Antigravity 做准备。",
+    "url": "https://x.com/testingcatalog/status/2108154053171478564",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261009-v-12.jpg",
+    "published_at": "2026-10-08T19:14:28+08:00",
+    "tags": [
+      "Google",
+      "Antigravity",
+      "AI Agent",
+      "爆料"
+    ]
+  },
+  {
+    "title": "逸尘：Monid 像是「Agent 界的 OpenRouter」，聚合 2,443 个工具与 API，列出 50 个用法",
+    "summary": "逸尘介绍 Monid 聚合了 2,443 个 tools 与 API，并列出 50 种组合用法，例如 Exa 语义搜索、Firecrawl 整站抓取、TinyFish 浏览器自动化、Artificial Analysis 模型评测查询、Seedance 视频生成、ElevenLabs 配音、Recall.ai 会议录制、AgentMail 智能体邮箱、Smol Machines 云电脑、Crunchbase 融资研究、Yahoo Finance 行情等，覆盖社媒数据、SEO、电商比价、地产、链上数据与法律检索等场景。",
+    "url": "https://x.com/gengdaJ/status/2108390780809482384",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "image": "/assets/covers/cover-20261009-v-13.jpg",
+    "published_at": "2026-10-09T10:55:08+08:00",
+    "tags": [
+      "Monid",
+      "Agent工具",
+      "API聚合",
+      "工具清单"
+    ]
+  },
+  {
+    "title": "逸尘：把余温 1027 篇文章喂给 Teamily AI，8 个 Agent 并行分析出 X 爆文规律",
+    "summary": "逸尘用 Teamily AI 的 Website Builder 调动 8 个 Agent 并行：由主 Agent 写计划，开头结构、正文结构、爆文关键词 Agent 分析 1027 篇文章，前端、后端、API 测试、运维和代码审查 Agent 共同把结果做成网站数据报告。结论是阅读中位数最高的是「情绪爆发式」开头，高频关键词包括 YouTube、雅思、港卡、播客、出海、封号、Discord 等，他总结流量密码就是「抓住观众的情绪」，并公开了三份报告。",
+    "url": "https://x.com/gengdaJ/status/2108349221334319380",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "image": "/assets/covers/cover-20261009-v-14.jpg",
+    "published_at": "2026-10-09T08:10:00+08:00",
+    "tags": [
+      "多智能体",
+      "Teamily",
+      "内容分析",
+      "Personal Agent"
+    ]
+  }
+]

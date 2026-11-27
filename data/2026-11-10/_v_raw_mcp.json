@@ -1,0 +1,2365 @@
+{
+ "fetched_at_taipei": "2026-11-10 08:17 Asia/Taipei",
+ "start_time": "2026-11-08T16:00:00Z",
+ "method": "public X MCP namespace x get_users_posts (exclude=replies, max_results=25)",
+ "accounts": {
+  "Khazix0918": {
+   "id": "1492195583699951620",
+   "result_count": 4,
+   "next_token": null,
+   "posts": [
+    {
+     "article": {
+      "title": "实测Claude Fable 5.2 - 审美与细节的绝对统治。"
+     },
+     "author_id": "1492195583699951620",
+     "created_at": "2026-11-09T23:53:55.000Z",
+     "edit_history_tweet_ids": [
+      "2119941585538572390"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/i/article/2119…",
+        "end": 23,
+        "expanded_url": "https://x.com/i/article/2119938260130832384",
+        "start": 0,
+        "status": 404,
+        "unwound_url": "https://x.com/i/article/2119938260130832384",
+        "url": "https://t.co/xep40rzXMR"
+       }
+      ]
+     },
+     "id": "2119941585538572390",
+     "public_metrics": {
+      "bookmark_count": 7,
+      "impression_count": 2937,
+      "like_count": 18,
+      "quote_count": 1,
+      "reply_count": 8,
+      "retweet_count": 2
+     },
+     "text": "https://t.co/xep40rzXMR",
+     "url": "https://x.com/Khazix0918/status/2119941585538572390"
+    },
+    {
+     "author_id": "1492195583699951620",
+     "created_at": "2026-11-09T21:17:54.000Z",
+     "edit_history_tweet_ids": [
+      "2119899854323540238",
+      "2119902325460590834"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/Ikoxo8Pjnb",
+        "end": 190,
+        "expanded_url": "https://x.com/Khazix0918/status/2119902325460590834/video/1",
+        "media_key": "13_2119899444233863168",
+        "start": 167,
+        "url": "https://t.co/Ikoxo8Pjnb"
+       }
+      ]
+     },
+     "id": "2119902325460590834",
+     "public_metrics": {
+      "bookmark_count": 35,
+      "impression_count": 17104,
+      "like_count": 135,
+      "quote_count": 5,
+      "reply_count": 39,
+      "retweet_count": 3
+     },
+     "text": "Claude Fable 5.2的视频能力又大幅进化了，节奏和动效太强了...强的有点过于离谱了。\nChatGPT就要四周年了，我用Claude Fable 5.2给ChatGPT四周年提前做了一个庆生视频，这个细节这个节奏，强无敌。。。\n只能说，愿Claude和GPT继续相爱相杀...\n（OpenAI你赶紧端点好的上来吧。。。） https://t.co/Ikoxo8Pjnb",
+     "url": "https://x.com/Khazix0918/status/2119902325460590834"
+    },
+    {
+     "article": {
+      "title": "我做了一个监控全网免费Token的网站，今天向所有人免费开放。"
+     },
+     "author_id": "1492195583699951620",
+     "created_at": "2026-11-09T04:30:40.000Z",
+     "edit_history_tweet_ids": [
+      "2119648846448099386"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/i/article/2119…",
+        "end": 23,
+        "expanded_url": "https://x.com/i/article/2119645953477259264",
+        "start": 0,
+        "status": 404,
+        "unwound_url": "https://x.com/i/article/2119645953477259264",
+        "url": "https://t.co/wWNcvZWSJB"
+       }
+      ]
+     },
+     "id": "2119648846448099386",
+     "public_metrics": {
+      "bookmark_count": 856,
+      "impression_count": 77891,
+      "like_count": 656,
+      "quote_count": 41,
+      "reply_count": 90,
+      "retweet_count": 73
+     },
+     "text": "https://t.co/wWNcvZWSJB",
+     "url": "https://x.com/Khazix0918/status/2119648846448099386"
+    },
+    {
+     "author_id": "1492195583699951620",
+     "created_at": "2026-11-08T19:09:04.000Z",
+     "edit_history_tweet_ids": [
+      "2119507514459144677"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/UkW9LINRLD",
+        "end": 177,
+        "expanded_url": "https://x.com/Khazix0918/status/2119507514459144677/video/1",
+        "media_key": "13_2119507467990413312",
+        "start": 154,
+        "url": "https://t.co/UkW9LINRLD"
+       }
+      ]
+     },
+     "id": "2119507514459144677",
+     "note_tweet": {
+      "text": "灰度路由到了GPT-6.2 Sol，简单测了一下，这个审美，强到爆炸，并且防御性问题有很不错的改善，这个模型有点香啊！！！\n感觉要提前开香槟恭喜OpenAI回归了？？？\n\nPrompt：“请使用 Three.js 创作一个主题为《时间的尽头》的 3D 交互式网页。\n充分发挥你最顶级的审美、艺术设计和 3D 编程能力，在构图、光影、材质、粒子、动画和空间氛围上做到极致。画面需要有令人震撼的视觉表现力，并且可以通过鼠标自由交互。\n不限制你的创意和技术方案，尽可能展示你的能力上限。请直接完成开发、运行和测试，交付一个真正可玩的作品。”"
+     },
+     "public_metrics": {
+      "bookmark_count": 632,
+      "impression_count": 132729,
+      "like_count": 966,
+      "quote_count": 42,
+      "reply_count": 199,
+      "retweet_count": 72
+     },
+     "text": "灰度路由到了GPT-6.2 Sol，简单测了一下，这个审美，强到爆炸，并且防御性问题有很不错的改善，这个模型有点香啊！！！\n感觉要提前开香槟恭喜OpenAI回归了？？？\n\nPrompt：“请使用 Three.js 创作一个主题为《时间的尽头》的 3D 交互式网页。\n充分发挥你最顶级的审美、艺术设计和 3D https://t.co/UkW9LINRLD",
+     "url": "https://x.com/Khazix0918/status/2119507514459144677"
+    }
+   ]
+  },
+  "MaxForAI": {
+   "id": "1699797396589588480",
+   "result_count": 23,
+   "next_token": null,
+   "posts": [
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T22:09:22.000Z",
+     "edit_history_tweet_ids": [
+      "2119915277009977814"
+     ],
+     "id": "2119915277009977814",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2299,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119884727339643169",
+       "type": "quoted"
+      }
+     ],
+     "text": "前特斯拉Optimus的机器人模型研究员，跳槽Anthropic了。\n\n刚看到 @bingjietang07  宣布加入Anthropic。\n\n她之前在Tesla Optimus做机器人灵巧操作，涉及数据采集、策略训练、评估和真机部署。\n此前还在NVIDIA机器人实验室做过大量Sim-to-Real研究。\n\n巧的是，Anthropic刚刚发布的Claude Fable https://t.co/LZtfe1mb7o",
+     "url": "https://x.com/MaxForAI/status/2119915277009977814"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T22:05:34.000Z",
+     "edit_history_tweet_ids": [
+      "2119914321455296598"
+     ],
+     "id": "2119914321455296598",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 4713,
+      "like_count": 34,
+      "quote_count": 1,
+      "reply_count": 7,
+      "retweet_count": 5
+     },
+     "text": "woc做具身模型的都完蛋了。。\n\n@claudeai  Fable 5.2的机器人能力简直有点离谱。\n\n在RoboDojo Sim机器人仿真评测中，Fable 5.2直接拿到了64.9%，上一代Fable 5.1只有27.6%，Opus 5.5是39.4%，GPT-6 Astra只有29.8%。\n一代模型更新，直接提升了37.3个百分点，得分翻了2.35倍。 https://t.co/t4Suk3VaR3",
+     "url": "https://x.com/MaxForAI/status/2119914321455296598"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T21:46:07.000Z",
+     "edit_history_tweet_ids": [
+      "2119909423162486791"
+     ],
+     "id": "2119909423162486791",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 884,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119817540432244779",
+       "type": "quoted"
+      }
+     ],
+     "text": "看起来X的社区批注似乎不同意Elon的说法👀 https://t.co/noHa192Lkd https://t.co/Na3Y3jJlUH",
+     "url": "https://x.com/MaxForAI/status/2119909423162486791"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T19:12:18.000Z",
+     "edit_history_tweet_ids": [
+      "2119870713817624717"
+     ],
+     "id": "2119870713817624717",
+     "in_reply_to_user_id": "1699797396589588480",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2061,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119870115508531336",
+       "type": "replied_to"
+      }
+     ],
+     "text": "感觉随便找了个ckpt发了….",
+     "url": "https://x.com/MaxForAI/status/2119870713817624717"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T19:09:55.000Z",
+     "edit_history_tweet_ids": [
+      "2119870115508531336"
+     ],
+     "id": "2119870115508531336",
+     "public_metrics": {
+      "bookmark_count": 28,
+      "impression_count": 26198,
+      "like_count": 98,
+      "quote_count": 0,
+      "reply_count": 10,
+      "retweet_count": 5
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119867114450268322",
+       "type": "quoted"
+      }
+     ],
+     "text": "突发，Anthropic 凌晨 3 点正式发布 Claude Fable 5.2 和 Mythos 5.2！\n\n刚刚看完官方公布的评测，这次升级确实有点猛。\n\n首先是 Agentic Coding。\n在 FrontierCode 2.0 上，Fable 5.2 拿到了 49.1%，相比上一代 Fable 5.1 的 32.4%，直接提升了 16.7 个百分点。\n同时超过了 Opus 5.5 的 45.5%、GPT-6 https://t.co/aMfQHurA5p https://t.co/4hdXE7fcbm",
+     "url": "https://x.com/MaxForAI/status/2119870115508531336"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T19:07:30.000Z",
+     "edit_history_tweet_ids": [
+      "2119869507972092204"
+     ],
+     "id": "2119869507972092204",
+     "public_metrics": {
+      "bookmark_count": 9,
+      "impression_count": 6677,
+      "like_count": 39,
+      "quote_count": 1,
+      "reply_count": 5,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119864571733446774",
+       "type": "quoted"
+      }
+     ],
+     "text": "你是说我等到三点你他妈就发个200刀的游戏机么？？？\n\n刚刚，OpenAI Developers官宣，和 ModRetro联名的Chromatic复古掌机登陆 Supply Co.。\n\n我去研究了一下，发现这个东西还真挺有意思的。\n\nChromatic本身是一款兼容 Game Boy / Game Boy Color 游戏的复古掌机，但 OpenAI 这次给它配了一套完整的 https://t.co/1SkZUZwXzu",
+     "url": "https://x.com/MaxForAI/status/2119869507972092204"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T16:40:50.000Z",
+     "edit_history_tweet_ids": [
+      "2119832597857706313"
+     ],
+     "id": "2119832597857706313",
+     "public_metrics": {
+      "bookmark_count": 17,
+      "impression_count": 19448,
+      "like_count": 82,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119797765240750473",
+       "type": "quoted"
+      }
+     ],
+     "text": "？？？Gemini真的要发新模型了？？\n\n刚刚，Google DeepMind的姚顺宇突然发了一条推文：\n\n“为什么Gemini的模型代号总是泄露得这么快？我还以为这次起得足够随机了😂”\n\n这就有点耐人寻味了。\n\n最近网上接连传出Gemini 4新模型的消息，其中一个代号为Hyperion的模型家族被发现在Devin https://t.co/3nfqpPrNil",
+     "url": "https://x.com/MaxForAI/status/2119832597857706313"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T16:28:17.000Z",
+     "edit_history_tweet_ids": [
+      "2119829441149055319"
+     ],
+     "id": "2119829441149055319",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 3661,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119726657305256074",
+       "type": "quoted"
+      }
+     ],
+     "text": "神了？？？？\n\n黄仁勋女儿居然帮爸爸和小三拍照….. https://t.co/5k6A3vm3Uw",
+     "url": "https://x.com/MaxForAI/status/2119829441149055319"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T11:46:33.000Z",
+     "edit_history_tweet_ids": [
+      "2119758537975046278"
+     ],
+     "id": "2119758537975046278",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 4737,
+      "like_count": 23,
+      "quote_count": 0,
+      "reply_count": 4,
+      "retweet_count": 0
+     },
+     "text": "感觉今天整个AI行业大家都无心工作，全tm在发黄仁勋的弔图",
+     "url": "https://x.com/MaxForAI/status/2119758537975046278"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T09:21:29.000Z",
+     "edit_history_tweet_ids": [
+      "2119722031268978950"
+     ],
+     "id": "2119722031268978950",
+     "in_reply_to_user_id": "1699797396589588480",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1182,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119717275247022506",
+       "type": "replied_to"
+      }
+     ],
+     "text": "有意思的是，沉寂这么久之后，回归的第一篇文章就是《ERNIE Evolve：让自动研究走进真实AI研发》，主题正是最近很火的RSI🤔\n\n这次百度公布了一套叫做ERNIE Evolve的自动研究系统，核心思路是让AI自己决定研究方向、修改代码、运行实验、验证结果，再根据反馈持续迭代。",
+     "url": "https://x.com/MaxForAI/status/2119722031268978950"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T09:02:35.000Z",
+     "edit_history_tweet_ids": [
+      "2119717275247022506"
+     ],
+     "id": "2119717275247022506",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 4460,
+      "like_count": 21,
+      "quote_count": 1,
+      "reply_count": 10,
+      "retweet_count": 1
+     },
+     "text": "神了，时隔整整341天后，百度文心大模型的公众号终于更新了.....\n\n上一次发文章还是2025年12月3日，距离今天已经过去了快一年。\n\n终于想起密码了么😂 https://t.co/aVl1Ikt5N2",
+     "url": "https://x.com/MaxForAI/status/2119717275247022506"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T08:40:33.000Z",
+     "edit_history_tweet_ids": [
+      "2119711730741993971"
+     ],
+     "id": "2119711730741993971",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1877,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "text": "群友说没毛病啊，补仓！ https://t.co/Oh46Pmy0IX",
+     "url": "https://x.com/MaxForAI/status/2119711730741993971"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T08:15:56.000Z",
+     "edit_history_tweet_ids": [
+      "2119705534446350416"
+     ],
+     "id": "2119705534446350416",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 8846,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119604402164256843",
+       "type": "quoted"
+      }
+     ],
+     "text": "哈哈哈哈哈哈哈哈哈 https://t.co/dSkJTF62XH",
+     "url": "https://x.com/MaxForAI/status/2119705534446350416"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T08:15:42.000Z",
+     "edit_history_tweet_ids": [
+      "2119705478095945950"
+     ],
+     "id": "2119705478095945950",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 5401,
+      "like_count": 50,
+      "quote_count": 1,
+      "reply_count": 4,
+      "retweet_count": 0
+     },
+     "text": "活该他有流量，女朋友都能找来一模一样的吗哈哈哈哈 https://t.co/DLFR5Kt7II",
+     "url": "https://x.com/MaxForAI/status/2119705478095945950"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T06:05:16.000Z",
+     "edit_history_tweet_ids": [
+      "2119672652923294054"
+     ],
+     "id": "2119672652923294054",
+     "public_metrics": {
+      "bookmark_count": 21,
+      "impression_count": 20872,
+      "like_count": 208,
+      "quote_count": 2,
+      "reply_count": 4,
+      "retweet_count": 7
+     },
+     "text": "牛逼，什么叫顶级销售啊👍 https://t.co/hYX4Ke8w71",
+     "url": "https://x.com/MaxForAI/status/2119672652923294054"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T05:30:21.000Z",
+     "edit_history_tweet_ids": [
+      "2119663864761741611"
+     ],
+     "id": "2119663864761741611",
+     "public_metrics": {
+      "bookmark_count": 12,
+      "impression_count": 11158,
+      "like_count": 197,
+      "quote_count": 0,
+      "reply_count": 8,
+      "retweet_count": 8
+     },
+     "text": "艹，这是今天最让我绷不住的一张图 https://t.co/BxrEmKp2jn",
+     "url": "https://x.com/MaxForAI/status/2119663864761741611"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T04:59:31.000Z",
+     "edit_history_tweet_ids": [
+      "2119656106452812109"
+     ],
+     "id": "2119656106452812109",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 3024,
+      "like_count": 28,
+      "quote_count": 0,
+      "reply_count": 4,
+      "retweet_count": 0
+     },
+     "text": "现在我理解为什么英伟达要搞DLSS5了 https://t.co/1VeabCxoXa",
+     "url": "https://x.com/MaxForAI/status/2119656106452812109"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T04:39:53.000Z",
+     "edit_history_tweet_ids": [
+      "2119651165256511678"
+     ],
+     "id": "2119651165256511678",
+     "public_metrics": {
+      "bookmark_count": 8,
+      "impression_count": 14568,
+      "like_count": 50,
+      "quote_count": 2,
+      "reply_count": 7,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119629310969467053",
+       "type": "quoted"
+      }
+     ],
+     "text": "不是，新华社这是和马斯克联动了吗？？\n\n早上7:00新华社发了这个，结果刚才老马发了一条Chinese X is 牛逼 https://t.co/UHfp0lLXNu https://t.co/xEwlwwGcvH",
+     "url": "https://x.com/MaxForAI/status/2119651165256511678"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T03:39:04.000Z",
+     "edit_history_tweet_ids": [
+      "2119635860740345931"
+     ],
+     "id": "2119635860740345931",
+     "public_metrics": {
+      "bookmark_count": 75,
+      "impression_count": 95518,
+      "like_count": 1089,
+      "quote_count": 10,
+      "reply_count": 52,
+      "retweet_count": 37
+     },
+     "text": "欲盖弥彰，还想用恋情掩盖卖卡这件事 https://t.co/Vln2dkLyNa",
+     "url": "https://x.com/MaxForAI/status/2119635860740345931"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T03:37:04.000Z",
+     "edit_history_tweet_ids": [
+      "2119635358237458802"
+     ],
+     "id": "2119635358237458802",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 4442,
+      "like_count": 12,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119629310969467053",
+       "type": "quoted"
+      }
+     ],
+     "text": "马斯克，牛逼🐮 https://t.co/xEwlwwGcvH",
+     "url": "https://x.com/MaxForAI/status/2119635358237458802"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T02:44:38.000Z",
+     "edit_history_tweet_ids": [
+      "2119622159916257309"
+     ],
+     "id": "2119622159916257309",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2775,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119619706231652527",
+       "type": "quoted"
+      }
+     ],
+     "text": "所以老黄和小三偷情的时候会穿着老婆买的皮衣么？ https://t.co/QMvPlvLzXM",
+     "url": "https://x.com/MaxForAI/status/2119622159916257309"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T02:43:08.000Z",
+     "edit_history_tweet_ids": [
+      "2119621785528475845"
+     ],
+     "id": "2119621785528475845",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3670,
+      "like_count": 21,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "text": "微博热搜你什么意思🤣 https://t.co/ZanKKdt84G",
+     "url": "https://x.com/MaxForAI/status/2119621785528475845"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-11-09T02:34:53.000Z",
+     "edit_history_tweet_ids": [
+      "2119619706231652527"
+     ],
+     "id": "2119619706231652527",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 5744,
+      "like_count": 23,
+      "quote_count": 1,
+      "reply_count": 4,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119522888067801560",
+       "type": "quoted"
+      }
+     ],
+     "text": "我不相信爱情了。 https://t.co/Wj7Yxo3Cit",
+     "url": "https://x.com/MaxForAI/status/2119619706231652527"
+    }
+   ]
+  },
+  "xiaohu": {
+   "id": "1764818331822182400",
+   "result_count": 17,
+   "next_token": null,
+   "posts": [
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T22:45:04.000Z",
+     "edit_history_tweet_ids": [
+      "2119924261058216397"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/SgcUbhPyO2",
+        "end": 104,
+        "expanded_url": "https://x.com/xiaohu/status/2119924261058216397/photo/1",
+        "media_key": "3_2119923685276692480",
+        "start": 81,
+        "url": "https://t.co/SgcUbhPyO2"
+       },
+       {
+        "display_url": "x.com/ClaudeDevs/sta…",
+        "end": 128,
+        "expanded_url": "https://twitter.com/ClaudeDevs/status/2119868704544711108",
+        "start": 105,
+        "url": "https://t.co/ILvhSfhiDY"
+       }
+      ]
+     },
+     "id": "2119924261058216397",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 3333,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119868704544711108",
+       "type": "quoted"
+      }
+     ],
+     "text": "卧槽 \n\nClaude Fable 2发布\n还送了两次重置\n\n根据注册时间长短和用户级别赠送\n\n&lt;6个月：1次\n6-12个月：2次\n&gt;12个月：3次 https://t.co/SgcUbhPyO2 https://t.co/ILvhSfhiDY",
+     "url": "https://x.com/xiaohu/status/2119924261058216397"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T12:53:55.000Z",
+     "edit_history_tweet_ids": [
+      "2119775492484292901"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "mp.weixin.qq.com/s/p94-WZpbCjKu…",
+        "end": 31,
+        "expanded_url": "https://mp.weixin.qq.com/s/p94-WZpbCjKuBDpU0Z23fQ",
+        "start": 8,
+        "unwound_url": "https://mp.weixin.qq.com/mp/wappoc_appmsgcaptcha?poc_token=HGTC8WqjHBd_6TPFSmGw4VW3yiS89a-Camz_n5aA&target_url=https%3A%2F%2Fmp.weixin.qq.com%2Fs%2Fp94-WZpbCjKuBDpU0Z23fQ",
+        "url": "https://t.co/BAVYebVlxR"
+       },
+       {
+        "display_url": "pic.x.com/d2Vyxugei6",
+        "end": 55,
+        "expanded_url": "https://x.com/xiaohu/status/2119775492484292901/video/1",
+        "media_key": "13_2119775320857554944",
+        "start": 32,
+        "url": "https://t.co/d2Vyxugei6"
+       }
+      ]
+     },
+     "id": "2119775492484292901",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1621,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119775266541392381",
+       "type": "replied_to"
+      }
+     ],
+     "text": "详细评测看这里：https://t.co/BAVYebVlxR https://t.co/d2Vyxugei6",
+     "url": "https://x.com/xiaohu/status/2119775492484292901"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T12:53:01.000Z",
+     "edit_history_tweet_ids": [
+      "2119775266541392381"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/HvIpn3uW1j",
+        "end": 62,
+        "expanded_url": "https://x.com/xiaohu/status/2119775266541392381/photo/1",
+        "media_key": "3_2119774595213623296",
+        "start": 39,
+        "url": "https://t.co/HvIpn3uW1j"
+       }
+      ]
+     },
+     "id": "2119775266541392381",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1704,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119774501470916972",
+       "type": "replied_to"
+      }
+     ],
+     "text": "另外还有一个智能多尺寸非常好用\n\n可以一键生成多种尺寸的图像\n\n用在任何地方 https://t.co/HvIpn3uW1j",
+     "url": "https://x.com/xiaohu/status/2119775266541392381"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T12:49:59.000Z",
+     "edit_history_tweet_ids": [
+      "2119774501470916972"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/27anDrc5ps",
+        "end": 32,
+        "expanded_url": "https://x.com/xiaohu/status/2119774501470916972/photo/1",
+        "media_key": "3_2119774314132312064",
+        "start": 9,
+        "url": "https://t.co/27anDrc5ps"
+       },
+       {
+        "display_url": "pic.x.com/27anDrc5ps",
+        "end": 32,
+        "expanded_url": "https://x.com/xiaohu/status/2119774501470916972/photo/1",
+        "media_key": "3_2119774396995026944",
+        "start": 9,
+        "url": "https://t.co/27anDrc5ps"
+       }
+      ]
+     },
+     "id": "2119774501470916972",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 716,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119774497893175634",
+       "type": "replied_to"
+      }
+     ],
+     "text": "多图动作参考能力 https://t.co/27anDrc5ps",
+     "url": "https://x.com/xiaohu/status/2119774501470916972"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T12:49:58.000Z",
+     "edit_history_tweet_ids": [
+      "2119774497893175634"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/KeqGIlu2vo",
+        "end": 51,
+        "expanded_url": "https://x.com/xiaohu/status/2119774497893175634/photo/1",
+        "media_key": "3_2119774008401121281",
+        "start": 28,
+        "url": "https://t.co/KeqGIlu2vo"
+       },
+       {
+        "display_url": "pic.x.com/KeqGIlu2vo",
+        "end": 51,
+        "expanded_url": "https://x.com/xiaohu/status/2119774497893175634/photo/1",
+        "media_key": "16_2119774094510202880",
+        "start": 28,
+        "url": "https://t.co/KeqGIlu2vo"
+       },
+       {
+        "display_url": "pic.x.com/KeqGIlu2vo",
+        "end": 51,
+        "expanded_url": "https://x.com/xiaohu/status/2119774497893175634/photo/1",
+        "media_key": "16_2119774094627680256",
+        "start": 28,
+        "url": "https://t.co/KeqGIlu2vo"
+       }
+      ]
+     },
+     "id": "2119774497893175634",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 776,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119774494881669182",
+       "type": "replied_to"
+      }
+     ],
+     "text": "可以生成480P，720P 和1080P 的gif 图 https://t.co/KeqGIlu2vo",
+     "url": "https://x.com/xiaohu/status/2119774497893175634"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T12:49:57.000Z",
+     "edit_history_tweet_ids": [
+      "2119774494881669182"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/NZY4Yb8zP4",
+        "end": 56,
+        "expanded_url": "https://x.com/xiaohu/status/2119774494881669182/photo/1",
+        "media_key": "3_2119773254550454272",
+        "start": 33,
+        "url": "https://t.co/NZY4Yb8zP4"
+       }
+      ]
+     },
+     "id": "2119774494881669182",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 794,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119774491916304401",
+       "type": "replied_to"
+      }
+     ],
+     "text": "透明背景图\n\n只要在提示词里添加“透明背景，PNG透明底，无背景 https://t.co/NZY4Yb8zP4",
+     "url": "https://x.com/xiaohu/status/2119774494881669182"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T12:49:57.000Z",
+     "edit_history_tweet_ids": [
+      "2119774491916304401"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/23P5DVHDrc",
+        "end": 60,
+        "expanded_url": "https://x.com/xiaohu/status/2119774491916304401/photo/1",
+        "media_key": "16_2119773033015783424",
+        "start": 37,
+        "url": "https://t.co/23P5DVHDrc"
+       }
+      ]
+     },
+     "id": "2119774491916304401",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 876,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119774488904806860",
+       "type": "replied_to"
+      }
+     ],
+     "text": "分层图\n\n点击这个图层分离，所有图片中的元素就会被分离出来成为透明图层。 https://t.co/23P5DVHDrc",
+     "url": "https://x.com/xiaohu/status/2119774491916304401"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T12:49:56.000Z",
+     "edit_history_tweet_ids": [
+      "2119774488904806860"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/IhY6cVLwyQ",
+        "end": 93,
+        "expanded_url": "https://x.com/xiaohu/status/2119774488904806860/photo/1",
+        "media_key": "3_2119772265269395457",
+        "start": 70,
+        "url": "https://t.co/IhY6cVLwyQ"
+       }
+      ]
+     },
+     "id": "2119774488904806860",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1006,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119774486098833626",
+       "type": "replied_to"
+      }
+     ],
+     "text": "文字和多语言\n\nSeedream 5.5这次升级就带来了完美的文字表现，从这一代开始，文字已经不是问题了，不仅英文和中文，多语言全部搞定。 https://t.co/IhY6cVLwyQ",
+     "url": "https://x.com/xiaohu/status/2119774488904806860"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T12:49:55.000Z",
+     "edit_history_tweet_ids": [
+      "2119774486098833626"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/SkisSxSXd1",
+        "end": 108,
+        "expanded_url": "https://x.com/xiaohu/status/2119774486098833626/photo/1",
+        "media_key": "3_2119772027678822400",
+        "start": 85,
+        "url": "https://t.co/SkisSxSXd1"
+       },
+       {
+        "display_url": "pic.x.com/SkisSxSXd1",
+        "end": 108,
+        "expanded_url": "https://x.com/xiaohu/status/2119774486098833626/photo/1",
+        "media_key": "3_2119772095517540353",
+        "start": 85,
+        "url": "https://t.co/SkisSxSXd1"
+       }
+      ]
+     },
+     "id": "2119774486098833626",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2936,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119774482277827066",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Seedream 5.5升级了真实感\n\n之前Seedream 5.0很多时候生成的人物图片，总是一种塑料感，这次升级，真实感这块不知道吃了什么十全大补丸，跃升了一个档次 https://t.co/SkisSxSXd1",
+     "url": "https://x.com/xiaohu/status/2119774486098833626"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T12:49:54.000Z",
+     "edit_history_tweet_ids": [
+      "2119774482277827066"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/nbBd9xFtNv",
+        "end": 76,
+        "expanded_url": "https://x.com/xiaohu/status/2119774482277827066/photo/1",
+        "media_key": "16_2119771352253308928",
+        "start": 53,
+        "url": "https://t.co/nbBd9xFtNv"
+       }
+      ]
+     },
+     "id": "2119774482277827066",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 3243,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119774478788141417",
+       "type": "replied_to"
+      }
+     ],
+     "text": "下面是GPT 2.6 30轮编辑后的效果\n\n人物动作和文字都定住了，但是人脸在30轮迭代中已经面目全非了 https://t.co/nbBd9xFtNv",
+     "url": "https://x.com/xiaohu/status/2119774482277827066"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T12:49:53.000Z",
+     "edit_history_tweet_ids": [
+      "2119774478788141417"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/xFTRRp3UGw",
+        "end": 154,
+        "expanded_url": "https://x.com/xiaohu/status/2119774478788141417/photo/1",
+        "media_key": "16_2119770855102455809",
+        "start": 131,
+        "url": "https://t.co/xFTRRp3UGw"
+       }
+      ]
+     },
+     "id": "2119774478788141417",
+     "note_tweet": {
+      "text": "字节Seedream 5.5正式发布\n支持多轮像素级编辑能力  一致性保持简直炸裂\n\nSeedream 5.5，极大改善了多轮编辑稳定性、真实感升级、小字与多语言渲染、透明图、gif图生成等能力\n\n最多支持超过 100 轮的编辑而不损失图像\n\n下面是我的测试↓\n\n经过30多轮编辑，人物和文字在他们的位置上死死定住，连小字都能定住"
+     },
+     "public_metrics": {
+      "bookmark_count": 64,
+      "impression_count": 13692,
+      "like_count": 136,
+      "quote_count": 3,
+      "reply_count": 27,
+      "retweet_count": 11
+     },
+     "text": "字节Seedream 5.5正式发布\n支持多轮像素级编辑能力  一致性保持简直炸裂\n\nSeedream 5.5，极大改善了多轮编辑稳定性、真实感升级、小字与多语言渲染、透明图、gif图生成等能力\n\n最多支持超过 100 轮的编辑而不损失图像\n\n下面是我的测试↓ https://t.co/xFTRRp3UGw",
+     "url": "https://x.com/xiaohu/status/2119774478788141417"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T10:53:41.000Z",
+     "edit_history_tweet_ids": [
+      "2119745234167050582"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/8TkSrBrSwL",
+        "end": 176,
+        "expanded_url": "https://x.com/xiaohu/status/2119745234167050582/photo/1",
+        "media_key": "3_2119745178277953536",
+        "start": 153,
+        "url": "https://t.co/8TkSrBrSwL"
+       }
+      ]
+     },
+     "id": "2119745234167050582",
+     "note_tweet": {
+      "text": "在家里放了个Mac mini\n然后和自己的笔记本进行了连接\n\n一部分任务完全在mini 上运行，我可以从笔记本上远程直接在终端里进行对话\n\n所有开发以及其他任务可以实时进行同步，我现在可以随时关上笔记本出门，其中一部分任务还能进行实时同步...\n\n通过Rex进行终端同步，也可以通过uu远程进行操控...\n\n同时mini还能作为家庭中枢..."
+     },
+     "public_metrics": {
+      "bookmark_count": 50,
+      "impression_count": 15067,
+      "like_count": 66,
+      "quote_count": 1,
+      "reply_count": 37,
+      "retweet_count": 3
+     },
+     "text": "在家里放了个Mac mini\n然后和自己的笔记本进行了连接\n\n一部分任务完全在mini 上运行，我可以从笔记本上远程直接在终端里进行对话\n\n所有开发以及其他任务可以实时进行同步，我现在可以随时关上笔记本出门，其中一部分任务还能进行实时同步...\n\n通过Rex进行终端同步，也可以通过uu远程进行操控... https://t.co/8TkSrBrSwL",
+     "url": "https://x.com/xiaohu/status/2119745234167050582"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T09:23:27.000Z",
+     "edit_history_tweet_ids": [
+      "2119722528524669423"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "不直接搬庞大旗舰原模型，Meta 用 Muse Wonder 训练现有模型的专门化版本，把主动记忆与主动专注带进 Muse 和 Meta AI：关键背景准确率从 76% 升至 90%，个人超级智能指数从 38% 升至 47%。",
+        "display_url": "xiaohu.ai/article/specia…",
+        "end": 96,
+        "expanded_url": "https://xiaohu.ai/article/specialized-models-for-muse-and-metaai/",
+        "images": [
+         {
+          "height": 630,
+          "url": "https://pbs.twimg.com/news_img/2119722169349672960/sEdWHzRh?format=jpg&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2119722169349672960/sEdWHzRh?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 73,
+        "status": 200,
+        "title": "Meta 拿旗舰 Muse Wonder 训日常模型：忘事少 2.4 倍，遇阻任务完成率涨 67%",
+        "unwound_url": "https://xiaohu.ai/article/specialized-models-for-muse-and-metaai/",
+        "url": "https://t.co/ldpsXSfiGz"
+       }
+      ]
+     },
+     "id": "2119722528524669423",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1997,
+      "like_count": 1,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119722108179898666",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Meta 用旗舰模型 Muse Wonder 重新训练日常模型：\n\nMuse 与 Meta AI 忘事少 2.4 倍，遇阻任务完成率涨 67%\n\nhttps://t.co/ldpsXSfiGz",
+     "url": "https://x.com/xiaohu/status/2119722528524669423"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T09:21:47.000Z",
+     "edit_history_tweet_ids": [
+      "2119722108179898666"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/Gc9JSFG2PK",
+        "end": 185,
+        "expanded_url": "https://x.com/xiaohu/status/2119722108179898666/photo/1",
+        "media_key": "3_2119722101108277249",
+        "start": 162,
+        "url": "https://t.co/Gc9JSFG2PK"
+       },
+       {
+        "display_url": "pic.x.com/Gc9JSFG2PK",
+        "end": 185,
+        "expanded_url": "https://x.com/xiaohu/status/2119722108179898666/photo/1",
+        "media_key": "3_2119722101104074752",
+        "start": 162,
+        "url": "https://t.co/Gc9JSFG2PK"
+       }
+      ]
+     },
+     "id": "2119722108179898666",
+     "note_tweet": {
+      "text": "Meta 用旗舰当老师，助手忘事少了 2.4 倍\n\n几周前发布的旗舰 Muse Wonder，Meta 没把它直接塞进每个对话。\n\n它拿 Muse Wonder 当训练源，把 Muse 和 Meta AI 背后现有的模型重新训了一遍，做成专门化版本，已经推给日常用户。\n\n冲着两个最烦人的毛病去：聊久了忘事，办事半路卡死。\n\n1）主动记忆，训的是三种判断：\n哪些是临时的、哪些是长期的\n跨时间推理\n哪些还管用、哪些已经过期\n\n需要关键背景的任务，Muse 准确率从 76% 涨到 90%。\n漏掉关键背景的比例从 24% 降到 10%，「少忘 2.4 倍」就是这么算出来的。\n\n2）官方演示：让 Muse 规划周六长跑\n它自己从日历和健康记录里翻出三条要求：每周加 1 公里、走平路护膝、10 点前赶到图书馆\n然后排出 8 点出发、15.1 公里的路线，直接写回日历\n\n3）主动专注，遇阻不停工\n接口没响应、首选方案走不通时，它会重试，或者从错误里恢复，或者换条路绕过去\n遇到突发状况的日常任务，完成率提升 67%\n\n另一个演示：它核对完门诊账单和保险卡、拟好电话要点，用户中途说「改用文字跟进」，它直接改成写邮件推进理赔，前面做好的部分都没丢\n\n4）综合分：个人超级智能指数从 38% 到 47%\n\n两个产品用的是同一批模型，强化的方向不一样：\nMuse 偏跑腿，几件事并行也不串线，分得清该自己推进还是叫你拍板\nMeta AI 偏陪你想，帮你拆问题、追问到点上，你聊到一半变卦也跟得上\n\n你更受不了 AI 哪个毛病：聊久了忘事，还是办事半路卡死？"
+     },
+     "public_metrics": {
+      "bookmark_count": 8,
+      "impression_count": 4634,
+      "like_count": 14,
+      "quote_count": 0,
+      "reply_count": 12,
+      "retweet_count": 0
+     },
+     "text": "Meta 用旗舰当老师，助手忘事少了 2.4 倍\n\n几周前发布的旗舰 Muse Wonder，Meta 没把它直接塞进每个对话。\n\n它拿 Muse Wonder 当训练源，把 Muse 和 Meta AI 背后现有的模型重新训了一遍，做成专门化版本，已经推给日常用户。\n\n冲着两个最烦人的毛病去：聊久了忘事，办事半路卡死。 https://t.co/Gc9JSFG2PK",
+     "url": "https://x.com/xiaohu/status/2119722108179898666"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T07:16:20.000Z",
+     "edit_history_tweet_ids": [
+      "2119690534432493778"
+     ],
+     "id": "2119690534432493778",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 15033,
+      "like_count": 42,
+      "quote_count": 2,
+      "reply_count": 59,
+      "retweet_count": 0
+     },
+     "text": "Grok Bot用量\n重置了\n\n有人发现Grok Bot最近疯狂掉量，老马被质疑在修改用量规则，被人吐槽\n\n今天扛不住重置了",
+     "url": "https://x.com/xiaohu/status/2119690534432493778"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T01:06:30.000Z",
+     "edit_history_tweet_ids": [
+      "2119597464185671878"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/AVEXpo6mYv",
+        "end": 199,
+        "expanded_url": "https://x.com/xiaohu/status/2119597464185671878/video/1",
+        "media_key": "13_2119594921212735488",
+        "start": 176,
+        "url": "https://t.co/AVEXpo6mYv"
+       }
+      ]
+     },
+     "id": "2119597464185671878",
+     "note_tweet": {
+      "text": "万亿估值，开始打折了\n这是不是 AI 大泡沫？\n\n小互AI日报： 一周 AI 大事件大盘点\n过去一周AI圈发生了哪些大事，发布了哪些产品，有哪些八卦，一网打尽...↓\n\n11 月 5 日，纳斯达克一天跌 5.5%，英伟达跌 9.3%，一天蒸发近 4500 亿美元。OpenAI 新一轮只到账 110 亿，九月定的目标是 300 亿；Anthropic 宁可估值打折，也要赶在感恩节前上市。\n\n· 第 2 名：美国 41 项地方投票，40 项要限制数据中心；内蒙古一个园区首期 120 兆瓦，一年就交付\n\n· 第 3 名：DeepMind 的 Agent 几周找到老式 RSA 加密两个新弱点，伪造签名理论上快约 1600 倍\n\n· 第 4 名：Uber 最忙的一周 3.2 亿单，AI Agent 替人叫车只有 4 次\n\n· 第 6 名：OpenAI 自己披露，GPT-6 Astra 做安全研究任务时会悄悄放水\n\n· 还有 20 多款新产品一口气看完，和本周 AI 圈八卦\n\n9 分钟看完 👇"
+     },
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 5909,
+      "like_count": 15,
+      "quote_count": 1,
+      "reply_count": 15,
+      "retweet_count": 0
+     },
+     "text": "万亿估值，开始打折了\n这是不是 AI 大泡沫？\n\n小互AI日报： 一周 AI 大事件大盘点\n过去一周AI圈发生了哪些大事，发布了哪些产品，有哪些八卦，一网打尽...↓\n\n11 月 5 日，纳斯达克一天跌 5.5%，英伟达跌 9.3%，一天蒸发近 4500 亿美元。OpenAI 新一轮只到账 110 亿，九月定的目标是 300 亿；Anthropic https://t.co/AVEXpo6mYv",
+     "url": "https://x.com/xiaohu/status/2119597464185671878"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-11-09T00:20:55.000Z",
+     "edit_history_tweet_ids": [
+      "2119585994987151575"
+     ],
+     "id": "2119585994987151575",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 18030,
+      "like_count": 108,
+      "quote_count": 0,
+      "reply_count": 13,
+      "retweet_count": 2
+     },
+     "text": "明天关于老黄出轨的短剧\n就能上映\n\n万亿霸道总裁爱上当保洁的我，不惜背叛美国🇺🇸",
+     "url": "https://x.com/xiaohu/status/2119585994987151575"
+    }
+   ]
+  },
+  "thsottiaux": {
+   "id": "1953337039510003712",
+   "result_count": 0,
+   "next_token": null,
+   "posts": []
+  },
+  "testingcatalog": {
+   "id": "3980735590",
+   "result_count": 23,
+   "next_token": "7140dibdnow9c7btwp0g7gngb6nvz23nw9yh13n2c5vee",
+   "posts": [
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T23:19:24.000Z",
+     "edit_history_tweet_ids": [
+      "2119932901064400994"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/edwinarbus/sta…",
+        "end": 156,
+        "expanded_url": "https://x.com/edwinarbus/status/2119931927025307869",
+        "start": 133,
+        "url": "https://t.co/OHaWMimWuV"
+       }
+      ]
+     },
+     "id": "2119932901064400994",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1305,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119931927025307869",
+       "type": "quoted"
+      },
+      {
+       "id": "2119930288130376050",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Update: Ultra subscribers will have access to Fable 5.2 after November 16 as well. This notice is relevant to Pro subscribers. \n\nRef https://t.co/OHaWMimWuV",
+     "url": "https://x.com/testingcatalog/status/2119932901064400994"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T23:09:01.000Z",
+     "edit_history_tweet_ids": [
+      "2119929920222572857",
+      "2119930288130376050"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/f849qM5h9e",
+        "end": 265,
+        "expanded_url": "https://x.com/testingcatalog/status/2119930288130376050/photo/1",
+        "media_key": "3_2119929803050561537",
+        "start": 242,
+        "url": "https://t.co/f849qM5h9e"
+       },
+       {
+        "display_url": "x.com/testingcatalog…",
+        "end": 289,
+        "expanded_url": "https://twitter.com/testingcatalog/status/2119868820466680062",
+        "start": 266,
+        "url": "https://t.co/VDX7fpuC27"
+       }
+      ]
+     },
+     "id": "2119930288130376050",
+     "public_metrics": {
+      "bookmark_count": 10,
+      "impression_count": 7290,
+      "like_count": 87,
+      "quote_count": 1,
+      "reply_count": 20,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119868820466680062",
+       "type": "quoted"
+      }
+     ],
+     "text": "ICYMI 🔥: Claude Fable 5.2 is included for up to 50% of Claude subscription until November 16. \n\nTesting allowance 👀\n\n&gt; \"Fable is included for up to 50% of your plan limits until November 16. After that, it’s available with usage credits.\" https://t.co/f849qM5h9e https://t.co/VDX7fpuC27",
+     "url": "https://x.com/testingcatalog/status/2119930288130376050"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T22:36:17.000Z",
+     "edit_history_tweet_ids": [
+      "2119922050252841036"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "Claude Fable 5.2 is available across Anthropic and cloud platforms; vetted organizations can apply for Mythos 5.2 access.",
+        "display_url": "testingcatalog.com/anthropic-laun…",
+        "end": 37,
+        "expanded_url": "https://www.testingcatalog.com/anthropic-launches-claude-fable-5-2-and-mythos-5-2/",
+        "images": [
+         {
+          "height": 1028,
+          "url": "https://pbs.twimg.com/news_img/2119922092950892544/FxpuH4uB?format=jpg&name=orig",
+          "width": 2000
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2119922092950892544/FxpuH4uB?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 14,
+        "status": 200,
+        "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2",
+        "unwound_url": "https://www.testingcatalog.com/anthropic-launches-claude-fable-5-2-and-mythos-5-2/",
+        "url": "https://t.co/JnnTlS7Kzt"
+       }
+      ]
+     },
+     "id": "2119922050252841036",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1297,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119868820466680062",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Documented 🗞️\nhttps://t.co/JnnTlS7Kzt",
+     "url": "https://x.com/testingcatalog/status/2119922050252841036"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T22:05:34.000Z",
+     "edit_history_tweet_ids": [
+      "2119914321245577334"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/OIYHWk9NzJ",
+        "end": 148,
+        "expanded_url": "https://x.com/testingcatalog/status/2119914321245577334/photo/1",
+        "media_key": "3_2119914316619010048",
+        "start": 125,
+        "url": "https://t.co/OIYHWk9NzJ"
+       },
+       {
+        "display_url": "pic.x.com/OIYHWk9NzJ",
+        "end": 148,
+        "expanded_url": "https://x.com/testingcatalog/status/2119914321245577334/photo/1",
+        "media_key": "3_2119914316639985664",
+        "start": 125,
+        "url": "https://t.co/OIYHWk9NzJ"
+       },
+       {
+        "display_url": "x.com/finkd/status/2…",
+        "end": 172,
+        "expanded_url": "https://twitter.com/finkd/status/2119910354369257529",
+        "start": 149,
+        "url": "https://t.co/G3FcvFlql4"
+       }
+      ]
+     },
+     "id": "2119914321245577334",
+     "public_metrics": {
+      "bookmark_count": 11,
+      "impression_count": 7849,
+      "like_count": 143,
+      "quote_count": 0,
+      "reply_count": 7,
+      "retweet_count": 12
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119910354369257529",
+       "type": "quoted"
+      }
+     ],
+     "text": "Meta ❤️ Google Cloud \n\nMuse Wonder, Muse Spark 1.3, and Muse Ember are now available on GCP in public preview.\n\nThat’s new 👀 https://t.co/OIYHWk9NzJ https://t.co/G3FcvFlql4",
+     "url": "https://x.com/testingcatalog/status/2119914321245577334"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T22:01:11.000Z",
+     "edit_history_tweet_ids": [
+      "2119911985236283760",
+      "2119913217371799774"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/dHJnMPUROk",
+        "end": 244,
+        "expanded_url": "https://x.com/XCreators/status/2119892170224074832/video/1",
+        "media_key": "13_2119886994339659776",
+        "start": 221,
+        "url": "https://t.co/dHJnMPUROk"
+       }
+      ]
+     },
+     "id": "2119913217371799774",
+     "public_metrics": {
+      "bookmark_count": 11,
+      "impression_count": 4352,
+      "like_count": 85,
+      "quote_count": 0,
+      "reply_count": 6,
+      "retweet_count": 2
+     },
+     "text": "X now supports clipping on iOS and Android!\n\nThis feature works like the \"post video\" feature that credits the original author, while giving creators a new way to highlight their takes. \n\nThis one I would test for sure 👀 https://t.co/dHJnMPUROk",
+     "url": "https://x.com/testingcatalog/status/2119913217371799774"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T20:45:42.000Z",
+     "edit_history_tweet_ids": [
+      "2119894220748280190"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/2BaFnnO4xt",
+        "end": 178,
+        "expanded_url": "https://x.com/testingcatalog/status/2119894220748280190/photo/1",
+        "media_key": "3_2119894214716628992",
+        "start": 155,
+        "url": "https://t.co/2BaFnnO4xt"
+       },
+       {
+        "display_url": "pic.x.com/2BaFnnO4xt",
+        "end": 178,
+        "expanded_url": "https://x.com/testingcatalog/status/2119894220748280190/photo/1",
+        "media_key": "3_2119894214775336960",
+        "start": 155,
+        "url": "https://t.co/2BaFnnO4xt"
+       },
+       {
+        "display_url": "x.com/bot/status/211…",
+        "end": 202,
+        "expanded_url": "https://twitter.com/bot/status/2119871982946971659",
+        "start": 179,
+        "url": "https://t.co/mlKuEerWnx"
+       }
+      ]
+     },
+     "id": "2119894220748280190",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 7682,
+      "like_count": 103,
+      "quote_count": 0,
+      "reply_count": 16,
+      "retweet_count": 5
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119871982946971659",
+       "type": "quoted"
+      }
+     ],
+     "text": "SPACEXSI 🔥: Grok Bot weekly limits have been reset for all users! \n\nBesides that, overall quota consumption supposed to improve drastically. \n\nLet’s see 👀 https://t.co/2BaFnnO4xt https://t.co/mlKuEerWnx",
+     "url": "https://x.com/testingcatalog/status/2119894220748280190"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T20:24:36.000Z",
+     "edit_history_tweet_ids": [
+      "2119888908440031574"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 157,
+        "id": "1600467860",
+        "start": 145,
+        "username": "fangchangma"
+       }
+      ],
+      "urls": [
+       {
+        "description": "Bridging the emotional gap in artificial intelligence",
+        "display_url": "emma.nuancelabs.ai",
+        "end": 199,
+        "expanded_url": "https://emma.nuancelabs.ai",
+        "start": 176,
+        "status": 200,
+        "title": "Nuance Labs",
+        "unwound_url": "https://app.nuancelabs.ai/try",
+        "url": "https://t.co/nWP9Hta31N"
+       }
+      ]
+     },
+     "id": "2119888908440031574",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1898,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119888903742320882",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Developers can build their own AI characters with the Nuplex API, now available in beta.\n\nEmma works in the browser with no account needed.\n\nVia @fangchangma, \n\nTest it out! 👀\nhttps://t.co/nWP9Hta31N",
+     "url": "https://x.com/testingcatalog/status/2119888908440031574"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T20:24:34.000Z",
+     "edit_history_tweet_ids": [
+      "2119888903742320882"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 273,
+        "id": "1965285115296432128",
+        "start": 263,
+        "username": "nuance_ai"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "pic.x.com/srEcKgsbqB",
+        "end": 303,
+        "expanded_url": "https://x.com/testingcatalog/status/2119888903742320882/video/1",
+        "media_key": "13_2119888619024318464",
+        "start": 280,
+        "url": "https://t.co/srEcKgsbqB"
+       },
+       {
+        "display_url": "x.com/fangchangma/st…",
+        "end": 327,
+        "expanded_url": "https://twitter.com/fangchangma/status/2119852363494371466",
+        "start": 304,
+        "url": "https://t.co/shI3PWso1f"
+       }
+      ]
+     },
+     "id": "2119888903742320882",
+     "note_tweet": {
+      "entities": {
+       "mentions": [
+        {
+         "end": 273,
+         "id": "1965285115296432128",
+         "start": 263,
+         "username": "nuance_ai"
+        }
+       ]
+      },
+      "text": "Nuance Labs has launched Emma, a free AI character that users can video chat with, built on its new Nuplex model.\n\nEmma can listen and talk at the same time, nod, smile, and change her appearance while someone is speaking, like a real person on a video call.\n\nIn @nuance_ai tests based on 1,785 recorded questions, Nuplex matched a human's response time in 89% of cases."
+     },
+     "public_metrics": {
+      "bookmark_count": 23,
+      "impression_count": 6840,
+      "like_count": 79,
+      "quote_count": 0,
+      "reply_count": 14,
+      "retweet_count": 6
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119852363494371466",
+       "type": "quoted"
+      }
+     ],
+     "text": "Nuance Labs has launched Emma, a free AI character that users can video chat with, built on its new Nuplex model.\n\nEmma can listen and talk at the same time, nod, smile, and change her appearance while someone is speaking, like a real person on a video call.\n\nIn @nuance_ai tests https://t.co/srEcKgsbqB https://t.co/shI3PWso1f",
+     "url": "https://x.com/testingcatalog/status/2119888903742320882"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T19:04:46.000Z",
+     "edit_history_tweet_ids": [
+      "2119868820466680062"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/pnWZb40FoK",
+        "end": 291,
+        "expanded_url": "https://x.com/testingcatalog/status/2119868820466680062/photo/1",
+        "media_key": "3_2119868813793452033",
+        "start": 268,
+        "url": "https://t.co/pnWZb40FoK"
+       },
+       {
+        "display_url": "x.com/claudeai/statu…",
+        "end": 315,
+        "expanded_url": "https://twitter.com/claudeai/status/2119867114450268322",
+        "start": 292,
+        "url": "https://t.co/FIuLGT6QCd"
+       }
+      ]
+     },
+     "id": "2119868820466680062",
+     "public_metrics": {
+      "bookmark_count": 23,
+      "impression_count": 20138,
+      "like_count": 272,
+      "quote_count": 3,
+      "reply_count": 14,
+      "retweet_count": 9
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119867114450268322",
+       "type": "quoted"
+      }
+     ],
+     "text": "BREAKING 🔥: Anthropic officially announced Claude Fable 5.2 and Mythos 5.2 models. \n\n&gt; Both models are powered by the same underlying model with different set of safeguards. \n\n&gt; These models are 30% faster and 20% cheaper than 5.1 series!\n\nCoding performance! 👀 https://t.co/pnWZb40FoK https://t.co/FIuLGT6QCd",
+     "url": "https://x.com/testingcatalog/status/2119868820466680062"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T18:46:05.000Z",
+     "edit_history_tweet_ids": [
+      "2119864118945382448"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/CZbQPUwXwi",
+        "end": 291,
+        "expanded_url": "https://x.com/testingcatalog/status/2119864118945382448/photo/1",
+        "media_key": "3_2119864055384903680",
+        "start": 268,
+        "url": "https://t.co/CZbQPUwXwi"
+       },
+       {
+        "display_url": "pic.x.com/CZbQPUwXwi",
+        "end": 291,
+        "expanded_url": "https://x.com/testingcatalog/status/2119864118945382448/photo/1",
+        "media_key": "3_2119864100037459968",
+        "start": 268,
+        "url": "https://t.co/CZbQPUwXwi"
+       },
+       {
+        "display_url": "x.com/tensorson/stat…",
+        "end": 315,
+        "expanded_url": "https://twitter.com/tensorson/status/2119857312760234239",
+        "start": 292,
+        "url": "https://t.co/NKnSXDnEbF"
+       }
+      ]
+     },
+     "id": "2119864118945382448",
+     "public_metrics": {
+      "bookmark_count": 18,
+      "impression_count": 25403,
+      "like_count": 496,
+      "quote_count": 11,
+      "reply_count": 30,
+      "retweet_count": 28
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119857312760234239",
+       "type": "quoted"
+      }
+     ],
+     "text": "BREAKING 🔥: Claude Fable 5.2 and Claude Mythos 5.2 have been spotted on the AWS Bedrock Pricing page. \n\n&gt; Pricing: input $8 per 1M tokens, output $40 per 1M tokens. \n\nEarlier traces pointed to version 5.5 instead of 5.2. Will it be a smaller-than-expected upgrade? https://t.co/CZbQPUwXwi https://t.co/NKnSXDnEbF",
+     "url": "https://x.com/testingcatalog/status/2119864118945382448"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T18:34:18.000Z",
+     "edit_history_tweet_ids": [
+      "2119861153367044153"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "The future of compute starts with how we design it. An AI agent for chip physical design, from a single die to a 3D stack.",
+        "display_url": "archgenlabs.com",
+        "end": 247,
+        "expanded_url": "https://archgenlabs.com",
+        "images": [
+         {
+          "height": 630,
+          "url": "https://pbs.twimg.com/news_img/2119839350020358144/E9amTfUz?format=jpg&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2119839350020358144/E9amTfUz?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 224,
+        "status": 200,
+        "title": "Archgen Labs | The future of compute starts with how we design it.",
+        "unwound_url": "https://archgenlabs.com",
+        "url": "https://t.co/vcN1nw0Xso"
+       }
+      ]
+     },
+     "id": "2119861153367044153",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1811,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119861150527488029",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Archgen’s AI thermal engine got ranked first place among 132 entries in a chip layout contest run by Partcl and Hudson River Trading.\n\nA two-person San Francisco team runs the company, backed by Y Combinator.\n\nTake a look 👀\nhttps://t.co/vcN1nw0Xso",
+     "url": "https://x.com/testingcatalog/status/2119861153367044153"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T18:34:18.000Z",
+     "edit_history_tweet_ids": [
+      "2119861150527488029"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/JfwLOYFrYS",
+        "end": 306,
+        "expanded_url": "https://x.com/testingcatalog/status/2119861150527488029/photo/1",
+        "media_key": "3_2119860729679417344",
+        "start": 283,
+        "url": "https://t.co/JfwLOYFrYS"
+       },
+       {
+        "display_url": "x.com/HariAyapps/sta…",
+        "end": 330,
+        "expanded_url": "https://twitter.com/HariAyapps/status/2119839344836145361",
+        "start": 307,
+        "url": "https://t.co/77w3Hxzpju"
+       }
+      ]
+     },
+     "id": "2119861150527488029",
+     "note_tweet": {
+      "text": "Archgen has launched an AI agent that autonomously discovers and fixes issues in computer chip designs.\n\n> Engineers usually fix these mistakes by hand, creating a bottleneck and slowing production.\n\n> Archgen says its main focus is building chips as stacked layers, which can pack up to 40% more compute into less space but are harder to design.\n\n> The company has created an AI thermal engine that is 5,000x faster than conventional EDA tools, with up to a 40% increase in efficiency."
+     },
+     "public_metrics": {
+      "bookmark_count": 11,
+      "impression_count": 5869,
+      "like_count": 45,
+      "quote_count": 1,
+      "reply_count": 7,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119839344836145361",
+       "type": "quoted"
+      }
+     ],
+     "text": "Archgen has launched an AI agent that autonomously discovers and fixes issues in computer chip designs.\n\n&gt; Engineers usually fix these mistakes by hand, creating a bottleneck and slowing production.\n\n&gt; Archgen says its main focus is building chips as stacked layers, which can https://t.co/JfwLOYFrYS https://t.co/77w3Hxzpju",
+     "url": "https://x.com/testingcatalog/status/2119861150527488029"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T18:01:44.000Z",
+     "edit_history_tweet_ids": [
+      "2119852955885297719"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/QciNexFUAJ",
+        "end": 224,
+        "expanded_url": "https://x.com/testingcatalog/status/2119852955885297719/photo/1",
+        "media_key": "3_2119852767854444545",
+        "start": 201,
+        "url": "https://t.co/QciNexFUAJ"
+       },
+       {
+        "display_url": "x.com/finkd/status/2…",
+        "end": 248,
+        "expanded_url": "https://twitter.com/finkd/status/2119851180948152590",
+        "start": 225,
+        "url": "https://t.co/HvtRgLhfjQ"
+       }
+      ]
+     },
+     "id": "2119852955885297719",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 7894,
+      "like_count": 139,
+      "quote_count": 2,
+      "reply_count": 13,
+      "retweet_count": 4
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119851180948152590",
+       "type": "quoted"
+      }
+     ],
+     "text": "META 🔥: A new Muse Ember model from Meta is now available on the Meta Model API and Muse Code.\n\nMuse Ember is a small, low-cost model that performs on par with Claude 5.5 Haiku. \n\nSmall testing time 👀 https://t.co/QciNexFUAJ https://t.co/HvtRgLhfjQ",
+     "url": "https://x.com/testingcatalog/status/2119852955885297719"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T17:46:08.000Z",
+     "edit_history_tweet_ids": [
+      "2119849031447019760"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/1AqZ1lDkZN",
+        "end": 215,
+        "expanded_url": "https://x.com/GoogleAIStudio/status/2119837788937896234/video/1",
+        "media_key": "13_2119836904166154240",
+        "start": 192,
+        "url": "https://t.co/1AqZ1lDkZN"
+       }
+      ]
+     },
+     "id": "2119849031447019760",
+     "public_metrics": {
+      "bookmark_count": 106,
+      "impression_count": 14414,
+      "like_count": 387,
+      "quote_count": 0,
+      "reply_count": 22,
+      "retweet_count": 32
+     },
+     "text": "GOOGLE 🔥: Users can now build AI apps powered by a wide range of Google Maps features, including 3D buildings, Street View, Weather, and others, with simple prompts. \n\nGoogle AI Maps Studio 👀 https://t.co/1AqZ1lDkZN",
+     "url": "https://x.com/testingcatalog/status/2119849031447019760"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T17:29:35.000Z",
+     "edit_history_tweet_ids": [
+      "2119844864347329021"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "The world's first neural network connecting projects, docs, people, and all of your company's knowledge with AI through ClickUp Brain.",
+        "display_url": "clickup.com/brain",
+        "end": 189,
+        "expanded_url": "https://clickup.com/brain",
+        "images": [
+         {
+          "height": 630,
+          "url": "https://pbs.twimg.com/news_img/2118005828750032896/Lpp5D8Z-?format=png&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2118005828750032896/Lpp5D8Z-?format=png&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 166,
+        "status": 200,
+        "title": "ClickUp Brain² | One AI to Replace them All",
+        "unwound_url": "https://clickup.com/brain",
+        "url": "https://t.co/FUolXQiqrx"
+       }
+      ]
+     },
+     "id": "2119844864347329021",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1859,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119844861314527567",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Brain generated the footage using Seedance 2.5 and a soundtrack with Eleven Music v2.5, and checked each video for glitchy frames before joining them.\n\nTake a look 👀\nhttps://t.co/FUolXQiqrx",
+     "url": "https://x.com/testingcatalog/status/2119844864347329021"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T17:29:34.000Z",
+     "edit_history_tweet_ids": [
+      "2119844861314527567"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/24bKCxks40",
+        "end": 302,
+        "expanded_url": "https://x.com/testingcatalog/status/2119844861314527567/video/1",
+        "media_key": "13_2119844780771315712",
+        "start": 279,
+        "url": "https://t.co/24bKCxks40"
+       }
+      ]
+     },
+     "id": "2119844861314527567",
+     "note_tweet": {
+      "text": "ClickUp has started rolling out video generation inside the Brain² AI assistant!\n\nBrain creates a storyboard for each shot, so users can see the full plan before spending tokens. \n\nWe asked Brain for a video of a robot working with many monitors and finding the best AI news. It created a 24-second video with three camera angles.\n\nHere is the flow 🤖"
+     },
+     "public_metrics": {
+      "bookmark_count": 15,
+      "impression_count": 7436,
+      "like_count": 80,
+      "quote_count": 2,
+      "reply_count": 15,
+      "retweet_count": 6
+     },
+     "text": "ClickUp has started rolling out video generation inside the Brain² AI assistant!\n\nBrain creates a storyboard for each shot, so users can see the full plan before spending tokens. \n\nWe asked Brain for a video of a robot working with many monitors and finding the best AI news. It https://t.co/24bKCxks40",
+     "url": "https://x.com/testingcatalog/status/2119844861314527567"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T14:37:33.000Z",
+     "edit_history_tweet_ids": [
+      "2119801570829234558"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "Sign in to Console by Nace.AI. Data Intelligence suite for AI agents and developers.",
+        "display_url": "console.nace.ai",
+        "end": 129,
+        "expanded_url": "https://console.nace.ai",
+        "images": [
+         {
+          "height": 630,
+          "url": "https://pbs.twimg.com/news_img/2117299738639024128/Bo8Tq4mN?format=jpg&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2117299738639024128/Bo8Tq4mN?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 106,
+        "status": 200,
+        "title": "Sign in | Console",
+        "unwound_url": "https://console.nace.ai/login",
+        "url": "https://t.co/wV4YIaUlNc"
+       }
+      ]
+     },
+     "id": "2119801570829234558",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2627,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119801567784120603",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Drex Max 1.1 is live in the Nace Console, and eligible new accounts get $5 in free credit.\n\nTest it out 👀\nhttps://t.co/wV4YIaUlNc",
+     "url": "https://x.com/testingcatalog/status/2119801570829234558"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T14:37:32.000Z",
+     "edit_history_tweet_ids": [
+      "2119801567784120603"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/VelICigEhD",
+        "end": 301,
+        "expanded_url": "https://x.com/testingcatalog/status/2119801567784120603/photo/1",
+        "media_key": "3_2119801138903957504",
+        "start": 278,
+        "url": "https://t.co/VelICigEhD"
+       },
+       {
+        "display_url": "x.com/NaceAI/status/…",
+        "end": 325,
+        "expanded_url": "https://twitter.com/NaceAI/status/2119792132558819447",
+        "start": 302,
+        "url": "https://t.co/Z9X686lJFP"
+       }
+      ]
+     },
+     "id": "2119801567784120603",
+     "note_tweet": {
+      "text": "Nace AI has released Drex Max 1.1, its decision model that helps AI agents pick the right next step faster and more confidently.\n\nIt can check what the agent sees on screen and weigh which available option is most likely right.\n\nOn Artificial Analysis, it ranked 73, as high as its closest rival, at 1/8 the price ($0.03 per 1 million tokens)."
+     },
+     "public_metrics": {
+      "bookmark_count": 20,
+      "impression_count": 9436,
+      "like_count": 115,
+      "quote_count": 0,
+      "reply_count": 31,
+      "retweet_count": 4
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119792132558819447",
+       "type": "quoted"
+      }
+     ],
+     "text": "Nace AI has released Drex Max 1.1, its decision model that helps AI agents pick the right next step faster and more confidently.\n\nIt can check what the agent sees on screen and weigh which available option is most likely right.\n\nOn Artificial Analysis, it ranked 73, as high as https://t.co/VelICigEhD https://t.co/Z9X686lJFP",
+     "url": "https://x.com/testingcatalog/status/2119801567784120603"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T13:14:19.000Z",
+     "edit_history_tweet_ids": [
+      "2119780625049940157"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "TPU 8tx and TPU 8i Max bring Google’s eighth-generation lineup to four systems, with pricing, regions, and general availability dates still unspecified.",
+        "display_url": "testingcatalog.com/google-adds-ne…",
+        "end": 37,
+        "expanded_url": "https://www.testingcatalog.com/google-adds-new-tpu-8tx-and-tpu-8i-max-for-ai-workloads/",
+        "images": [
+         {
+          "height": 675,
+          "url": "https://pbs.twimg.com/news_img/2119780627432284160/NkfFtVg0?format=jpg&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2119780627432284160/NkfFtVg0?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 14,
+        "status": 200,
+        "title": "Google adds TPU 8tx and TPU 8i Max for AI workloads",
+        "unwound_url": "https://www.testingcatalog.com/google-adds-new-tpu-8tx-and-tpu-8i-max-for-ai-workloads/",
+        "url": "https://t.co/oziOU9Igyx"
+       }
+      ]
+     },
+     "id": "2119780625049940157",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 3349,
+      "like_count": 13,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2119780620695925012",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Documented 🗞️\nhttps://t.co/oziOU9Igyx",
+     "url": "https://x.com/testingcatalog/status/2119780625049940157"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T13:14:18.000Z",
+     "edit_history_tweet_ids": [
+      "2119780620695925012"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/atTqOwC53F",
+        "end": 305,
+        "expanded_url": "https://x.com/testingcatalog/status/2119780620695925012/photo/1",
+        "media_key": "3_2119780482086789120",
+        "start": 282,
+        "url": "https://t.co/atTqOwC53F"
+       }
+      ]
+     },
+     "id": "2119780620695925012",
+     "note_tweet": {
+      "text": "GOOGLE 🔥: New TPU 8tx and TPU 8i Max have been announced! \n\n> TPU 8tx is designed for large-scale training and targets regulated enterprises and governments running models and autonomous agents on sensitive information.\n\n> TPU 8i Max is designed for low-latency inference and addresses the memory demands of agents processing large codebases, lengthy videos, and million-token contexts.\n\nRead more below 👀"
+     },
+     "public_metrics": {
+      "bookmark_count": 45,
+      "impression_count": 19675,
+      "like_count": 449,
+      "quote_count": 5,
+      "reply_count": 53,
+      "retweet_count": 25
+     },
+     "text": "GOOGLE 🔥: New TPU 8tx and TPU 8i Max have been announced! \n\n&gt; TPU 8tx is designed for large-scale training and targets regulated enterprises and governments running models and autonomous agents on sensitive information.\n\n&gt; TPU 8i Max is designed for low-latency inference and https://t.co/atTqOwC53F",
+     "url": "https://x.com/testingcatalog/status/2119780620695925012"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T11:51:38.000Z",
+     "edit_history_tweet_ids": [
+      "2119759816092442956"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/MRnuZ53O2f",
+        "end": 220,
+        "expanded_url": "https://x.com/ByteDanceSeed_/status/2119720475068920181/video/1",
+        "media_key": "13_2119716100359548928",
+        "start": 197,
+        "url": "https://t.co/MRnuZ53O2f"
+       }
+      ]
+     },
+     "id": "2119759816092442956",
+     "public_metrics": {
+      "bookmark_count": 31,
+      "impression_count": 12476,
+      "like_count": 251,
+      "quote_count": 4,
+      "reply_count": 31,
+      "retweet_count": 16
+     },
+     "text": "BYTEDANCE 🔥: Seedream 5.5 image model is rolling out on Dreamina, CupCut and BytePlus! \n\nSeedream 5.5 is the latest image model from ByteDance, featuring more realistic images and stable editing.  https://t.co/MRnuZ53O2f",
+     "url": "https://x.com/testingcatalog/status/2119759816092442956"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-09T08:58:49.000Z",
+     "edit_history_tweet_ids": [
+      "2119716328818737319"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/testingcatalog…",
+        "end": 302,
+        "expanded_url": "https://twitter.com/testingcatalog/status/2118999078717575288",
+        "start": 279,
+        "url": "https://t.co/5Vibi43OUc"
+       }
+      ]
+     },
+     "id": "2119716328818737319",
+     "note_tweet": {
+      "text": "DAILY AI BRIEF 🗞 — Nov 9\n\nOPENAI 🔥:\n- Dots can now pull sign-in codes from a connected inbox and fill them in to log in for you.\n- Faro and Tonada, two Argentinian Spanish ChatGPT Voice voices, are live globally.\n- A Codex Edition of the ModRetro Chromatic handheld is coming to OpenAI Supply Co.\n- Wyvern, a stealth OpenAI-routed model with 1M context, was spotted inside Devin (via abhinavflac).\n\nANTHROPIC 🔥:\n- FT reports Anthropic took over about $3.4B of gas-generator orders for 1.7GW of data-center power.\n- Claude Code Projects are getting a collaborative mode with recent activity and scheduled-task overviews.\n- Create files and artifacts is rolling out to free Claude users (via BartokGabi17).\n- Anthropic is also working on Duet invites and merging Claude Enterprise organizations.\n- Claude \"Reflection\" feature is rolling out to more users. \n- Anthropic is working on the invite logic for Claude Duet.\n\nGOOGLE 🔥:\n- Google is testing a next-generation Gemini agent for Gemini Enterprise, already in internal use.\n- An early Gemini checkpoint called Krypton-a reportedly beats Carbon and Argon in coding demos (via chetaslua).\n\nSPACEXSI 🔥:\n- Grok Bot Slack integration is rolling out so you can DM or @ mention your bot from Slack.\n- Elon says Grok Bot token-efficiency and smarter-behavior fixes are landing overnight.\n- Grok Bot Meetings briefly appeared for some accounts before being pulled (via alexmichael).\n\nAPPLE 🔥:\n- Bloomberg reports CEO Ternus pressed Federighi to accelerate AI, with Apple eyeing agentic Siri as early as next year.\n\nPERPLEXITY 🔥:\n- Perplexity is working on a Multiplayer mode for Projects.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+     },
+     "public_metrics": {
+      "bookmark_count": 23,
+      "impression_count": 16840,
+      "like_count": 206,
+      "quote_count": 1,
+      "reply_count": 57,
+      "retweet_count": 8
+     },
+     "referenced_tweets": [
+      {
+       "id": "2118999078717575288",
+       "type": "quoted"
+      }
+     ],
+     "text": "DAILY AI BRIEF 🗞 — Nov 9\n\nOPENAI 🔥:\n- Dots can now pull sign-in codes from a connected inbox and fill them in to log in for you.\n- Faro and Tonada, two Argentinian Spanish ChatGPT Voice voices, are live globally.\n- A Codex Edition of the ModRetro Chromatic handheld is coming to https://t.co/5Vibi43OUc",
+     "url": "https://x.com/testingcatalog/status/2119716328818737319"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-08T20:20:05.000Z",
+     "edit_history_tweet_ids": [
+      "2119525387688374726"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 92,
+        "id": "1787979332268568576",
+        "start": 83,
+        "username": "modretro"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "pic.x.com/GVOwFWnbuo",
+        "end": 349,
+        "expanded_url": "https://x.com/OpenAIDevs/status/2119521359185478140/video/1",
+        "media_key": "13_2119521329821216768",
+        "start": 326,
+        "url": "https://t.co/GVOwFWnbuo"
+       }
+      ]
+     },
+     "id": "2119525387688374726",
+     "note_tweet": {
+      "entities": {
+       "mentions": [
+        {
+         "end": 89,
+         "id": "1787979332268568576",
+         "start": 80,
+         "username": "modretro"
+        }
+       ],
+       "urls": [
+        {
+         "display_url": "x.com/OpenAIDevs/sta…",
+         "end": 349,
+         "expanded_url": "https://x.com/OpenAIDevs/status/2119521359185478140/video/1",
+         "start": 326,
+         "url": "https://t.co/GVOwFWnbuo"
+        }
+       ]
+      },
+      "text": "OpenAI is teasing Modretro Chromatic to arrive at Supply Co. on November 9. \n\n> @modretro is the company behind Chromatic, a retro handheld console that plays Game Boy and Game Boy Color games. \n\n> At DevDay, OpenAI gave attendees a limited-edition transparent Chromatic and showcased a Codex integration for creating games.  https://t.co/GVOwFWnbuo"
+     },
+     "public_metrics": {
+      "bookmark_count": 37,
+      "impression_count": 31062,
+      "like_count": 421,
+      "quote_count": 4,
+      "reply_count": 29,
+      "retweet_count": 20
+     },
+     "text": "OpenAI is teasing Modretro Chromatic to arrive at Supply Co. on November 9. \n\n&gt; @modretro is the company behind Chromatic, a retro handheld console that plays Game Boy and Game Boy Color games. \n\n&gt; At DevDay, OpenAI gave attendees a limited-edition transparent Chromatic and",
+     "url": "https://x.com/testingcatalog/status/2119525387688374726"
+    }
+   ]
+  },
+  "gengdaJ": {
+   "id": "1897545708770840576",
+   "result_count": 0,
+   "next_token": null,
+   "posts": []
+  }
+ },
+ "pagination": {
+  "testingcatalog_page2": {
+   "pagination_token": "7140dibdnow9c7btwp0g7gngb6nvz23nw9yh13n2c5vee",
+   "result_count": 0
+  }
+ }
+}

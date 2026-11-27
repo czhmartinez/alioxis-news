@@ -1,0 +1,1168 @@
+{
+  "schemaVersion": 1,
+  "query": {
+    "mode": "all",
+    "category": null,
+    "window": "24h",
+    "q": null,
+    "by": "timeline",
+    "ordering": "timelineDesc"
+  },
+  "items": [
+    {
+      "id": "ee2x8gqm8pnnx73cm0dfvo2aq",
+      "title": "Codex v0.162.0 发布：新增托管 Git worktree 工具与任务置顶",
+      "originalTitle": "0.162.0",
+      "summary": "Codex 发布 v0.162.0，在启用 worktree 功能后，可从受信任的本地项目创建和列出托管 Git worktree，并支持在智能体 Command Center 中用 p 键置顶任务。该版本还新增 /copy 导航与复制 transcript 区块、Ctrl+Insert 复制选中内容，并可通过 tui.mouse_scroll_speed 调节滚轮速度。",
+      "source": {
+        "name": "Codex：GitHub Releases（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ee2x8gqm8pnnx73cm0dfvo2aq",
+        "original": "https://github.com/openai/codex/releases/tag/rust-v0.162.0"
+      },
+      "publishedAt": "2026-10-08T16:56:08.000Z",
+      "discoveredAt": "2026-10-08T17:26:30.749Z",
+      "category": "ai-products",
+      "score": 44,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ee2x8gqm8pnnx73cm0dfvo2aq"
+      }
+    },
+    {
+      "id": "a9p6yut54p6d9m2akzrpxdjzn",
+      "title": "LlamaIndex 详解：为什么 LlamaParse 选择 Markdown 作为文档解析输出格式",
+      "originalTitle": "Markdown Is All You Need",
+      "summary": "LlamaParse 以 Markdown 作为文档解析的默认输出格式，以保留标题层级、阅读顺序和表格结构，并在复杂表格中支持 HTML 表格（colspan、rowspan）与管道表格并存。",
+      "source": {
+        "name": "LlamaIndex：产品、工程与评测"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/a9p6yut54p6d9m2akzrpxdjzn",
+        "original": "https://www.llamaindex.ai/blog/markdown-is-all-you-need"
+      },
+      "publishedAt": "2026-10-07T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T17:25:34.153Z",
+      "category": "tip",
+      "score": 48,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/a9p6yut54p6d9m2akzrpxdjzn"
+      }
+    },
+    {
+      "id": "gzjr9ld2x2m49oxuio9pjqlbn",
+      "title": "Perplexity Computer 为 OpenAI 数学手稿发布的 722 篇预印本生成 93 小时讲解视频",
+      "originalTitle": "Perplexity Computer created by explainer videos for all the 722 preprints in OpenAI’s math manuscript release and organized it into a YT ...",
+      "summary": "Perplexity CEO Aravind Srinivas 宣布，Perplexity Computer 为 OpenAI 数学手稿发布中的全部 722 篇预印本创建了解说视频，共 93 小时，并整理成 YouTube 播放列表，可在 https://722.video 观看。",
+      "source": {
+        "name": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/gzjr9ld2x2m49oxuio9pjqlbn",
+        "original": "https://x.com/AravSrinivas/status/2108245785464942904"
+      },
+      "publishedAt": "2026-10-08T17:18:59.000Z",
+      "discoveredAt": "2026-10-08T17:25:30.996Z",
+      "category": "ai-products",
+      "score": 54,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/gzjr9ld2x2m49oxuio9pjqlbn"
+      }
+    },
+    {
+      "id": "cpeu2bmv97j1ecqv8s99ncoqw",
+      "title": "Odyssey-3 世界模型发布",
+      "originalTitle": "Today we're launching Odyssey-3, the most powerful foundation world model yet.",
+      "summary": "今天我们推出 Odyssey-3，迄今最强大的基础世界模型。\n\n它在 Physics-IQ 上创下新的 SOTA，可驱动机器人、训练 AI，并生成交互式体验。真的很酷。\n\n今天即可体验该模型，完全免费！",
+      "source": {
+        "name": "X：Odyssey (@odysseyml)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/cpeu2bmv97j1ecqv8s99ncoqw",
+        "original": "https://x.com/odysseyml/status/2108238378751967385"
+      },
+      "publishedAt": "2026-10-08T16:49:33.000Z",
+      "discoveredAt": "2026-10-08T17:13:29.790Z",
+      "category": "ai-models",
+      "score": 46,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/cpeu2bmv97j1ecqv8s99ncoqw"
+      }
+    },
+    {
+      "id": "thpyih4hpuzwcxv79zspkj5gf",
+      "title": "Arena 与 Khosla Ventures 达成合作",
+      "originalTitle": "We're incredibly proud to work with the team at @khoslaventures!",
+      "summary": "我们非常自豪能与 @khoslaventures 的团队合作！",
+      "source": {
+        "name": "X：Arena (@arena)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/thpyih4hpuzwcxv79zspkj5gf",
+        "original": "https://x.com/arena/status/2108240048873488587"
+      },
+      "publishedAt": "2026-10-08T16:56:11.000Z",
+      "discoveredAt": "2026-10-08T17:11:30.953Z",
+      "category": "industry",
+      "score": 32,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/thpyih4hpuzwcxv79zspkj5gf"
+      }
+    },
+    {
+      "id": "p95hk44dfpkogo2v4rgwvxq30",
+      "title": "Arena 宣布 2 亿美元 B 轮融资，估值达 31 亿美元，并推出 Alignment Index",
+      "originalTitle": "We’re so proud to have worked alongside @felicis from the very beginning!",
+      "summary": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，同时推出衡量 AI 智能体是否安全、真实且在用户要求范围内行动的 Alignment Index。引用 Felicis 的内容称 Arena 年化收入已超 1 亿美元，累计促成 3.5 亿次会话和 6200 万次投票。",
+      "source": {
+        "name": "X：Arena (@arena)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/p95hk44dfpkogo2v4rgwvxq30",
+        "original": "https://x.com/arena/status/2108243026741248348"
+      },
+      "publishedAt": "2026-10-08T17:08:01.000Z",
+      "discoveredAt": "2026-10-08T17:11:30.940Z",
+      "category": "industry",
+      "score": 67,
+      "selected": true,
+      "reason": "原文给出 Arena 的融资额、估值和社区规模数字，可帮读者了解这家 AI 评测公司的业务量级和新推出的 Alignment Index。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/p95hk44dfpkogo2v4rgwvxq30"
+      }
+    },
+    {
+      "id": "nwttcq81nskkgdrnp69rdz8u8",
+      "title": "Whisper Medium 微调孟加拉语 ASR 效果显著",
+      "originalTitle": "For ASR (automatic speech recognition) on weak languages, more training data tends to beat a bigger model.",
+      "summary": "对于低资源语言的 ASR（自动语音识别），更多训练数据往往比更大的模型更有效。\n\n@voicearena_ai 的孟加拉语结果——基于其 ASR 语料库 Monsoon——证明了这一点。\n\n在 Monsoon 上微调的 Whisper Medium，在孟加拉语 FLEURS 上的 LLM 词错误率从 85.27% 降至 7.65%。\n\nMedium 是 769M 参数的 Whisper。足够小，可以低成本部署，在很多场景下也足够小，可以靠近用户运行。",
+      "source": {
+        "name": "X：Rohan Paul (@rohanpaul_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/nwttcq81nskkgdrnp69rdz8u8",
+        "original": "https://x.com/rohanpaul_ai/status/2108234264877940776"
+      },
+      "publishedAt": "2026-10-08T16:33:12.000Z",
+      "discoveredAt": "2026-10-08T17:00:32.388Z",
+      "category": "tip",
+      "score": 39,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/nwttcq81nskkgdrnp69rdz8u8"
+      }
+    },
+    {
+      "id": "bia59bb9t5xyjwd35efyafbvy",
+      "title": "特朗普发布AI相关推文",
+      "originalTitle": "that's it.",
+      "summary": "就这样。\n\n特朗普总统刚发布了这个",
+      "source": {
+        "name": "X：Rohan Paul (@rohanpaul_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/bia59bb9t5xyjwd35efyafbvy",
+        "original": "https://x.com/rohanpaul_ai/status/2108240906826703107"
+      },
+      "publishedAt": "2026-10-08T16:59:36.000Z",
+      "discoveredAt": "2026-10-08T17:00:32.382Z",
+      "category": null,
+      "score": 7,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/bia59bb9t5xyjwd35efyafbvy"
+      }
+    },
+    {
+      "id": "ltnkd0otk8y7bu2niuo35tk3c",
+      "title": "Shopify 接入 Grok 与 Bot 连接器",
+      "originalTitle": "Run your business with Shopify and Grok Bot!",
+      "summary": "用 Shopify 和 Grok Bot 经营你的业务！",
+      "source": {
+        "name": "X：Lauren Tan (@poteto)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ltnkd0otk8y7bu2niuo35tk3c",
+        "original": "https://x.com/poteto/status/2108234315096330255"
+      },
+      "publishedAt": "2026-10-08T16:33:24.000Z",
+      "discoveredAt": "2026-10-08T17:00:32.375Z",
+      "category": "ai-products",
+      "score": 26,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ltnkd0otk8y7bu2niuo35tk3c"
+      }
+    },
+    {
+      "id": "um6zhhmr2i2z2gh2t97r8udal",
+      "title": "Meta 回应数据中心三大误区：耗水、电费与就业",
+      "originalTitle": "Debunking the Biggest Data Center Myths",
+      "summary": "Meta 针对数据中心耗水、推高电费和不创造就业三大误区作出回应，称其 AI 优化型数据中心采用闭路液冷系统，冷却液在密封回路中循环，运行期间几乎不消耗水。Meta 表示其数据中心用电费用全额自付，并直接承担新增供电与输电基础设施成本，在路易斯安那州与 Entergy 的协议中已写入保护条款，避免现有用户承担相关费用。",
+      "source": {
+        "name": "Meta：Newsroom · AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/um6zhhmr2i2z2gh2t97r8udal",
+        "original": "https://about.fb.com/news/2026/10/debunking-the-biggest-data-center-myths/"
+      },
+      "publishedAt": "2026-10-08T16:53:24.000Z",
+      "discoveredAt": "2026-10-08T17:00:30.431Z",
+      "category": "tip",
+      "score": 37,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/um6zhhmr2i2z2gh2t97r8udal"
+      }
+    },
+    {
+      "id": "rvwh245zslhpsbjrzalmis8dp",
+      "title": "fal 与 a16z 举办 AI Infra Day",
+      "originalTitle": "We're hosting AI Infra Day on Oct 20 with our friends at @a16z!",
+      "summary": "我们将在 10 月 20 日与 @a16z 的朋友们一起举办 AI Infra Day！\n\n来自 fal、@bfl_ai、@krea_ai 和 @ElevenLabs 的顶尖工程负责人将分享他们在构建和扩展 AI 基础设施方面的经验与教训。\n\n来玩吧：https://luma.com/fal-6m0z",
+      "source": {
+        "name": "X：fal (@fal)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/rvwh245zslhpsbjrzalmis8dp",
+        "original": "https://x.com/fal/status/2108234678344040529"
+      },
+      "publishedAt": "2026-10-08T16:34:51.000Z",
+      "discoveredAt": "2026-10-08T16:59:30.559Z",
+      "category": "industry",
+      "score": 21,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/rvwh245zslhpsbjrzalmis8dp"
+      }
+    },
+    {
+      "id": "dsbzfsw2pdaw0ikh67cyxmlss",
+      "title": "Artificial Analysis 评测 Google Nano Banana 2.1，两榜居第 4 且价格为前代一半",
+      "originalTitle": "Google's Nano Banana 2.1 takes #4 on both AA-Image-T2I v2.0 and AA-Image-Editing v2.0, at half the price of Nano Banana 2",
+      "summary": "Artificial Analysis 评测 Google 于 10 月 6 日发布的图像模型 Nano Banana 2.1，在 AA-Image-T2I v2.0 和 AA-Image-Editing v2.0 两个榜单均排名第 4。",
+      "source": {
+        "name": "X：Artificial Analysis (@ArtificialAnlys)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/dsbzfsw2pdaw0ikh67cyxmlss",
+        "original": "https://x.com/ArtificialAnlys/status/2108236656700768310"
+      },
+      "publishedAt": "2026-10-08T16:42:42.000Z",
+      "discoveredAt": "2026-10-08T16:54:32.765Z",
+      "category": "ai-models",
+      "score": 75,
+      "selected": true,
+      "reason": "原文给出 Nano Banana 2.1 在两个图像评测榜上的具体排名、价格和提升幅度，读者可据此比较它与其他模型的性价比。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/dsbzfsw2pdaw0ikh67cyxmlss"
+      }
+    },
+    {
+      "id": "s9djkgdivg5zx401iuqdlezh4",
+      "title": "Perplexity Decider 登顶 DecisionBench",
+      "originalTitle": "Perplexity Decider ranks first on DecisionBench (and lowest cost too)",
+      "summary": "Perplexity Decider 在 DecisionBench 上排名第一（成本也是最低的）",
+      "source": {
+        "name": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/s9djkgdivg5zx401iuqdlezh4",
+        "original": "https://x.com/AravSrinivas/status/2108236575859753460"
+      },
+      "publishedAt": "2026-10-08T16:42:23.000Z",
+      "discoveredAt": "2026-10-08T16:54:32.758Z",
+      "category": "ai-models",
+      "score": 40,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/s9djkgdivg5zx401iuqdlezh4"
+      }
+    },
+    {
+      "id": "cjhd0nw8nldq77pgbs0lu5hfh",
+      "title": "Periodic Labs 的 Liam Fedus 与 Ekin Dogus Cubuk 谈\"合成超级智能\"：从半导体到超导体",
+      "originalTitle": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+      "summary": "Periodic Labs 联合创始人 Liam Fedus 与 Ekin Dogus Cubuk 在 Latent Space 播客中提出\"合成超级智能\"（synthesis superintelligence）路线：以物理实验为环境的强化学习、AI 材料表征、DFT 模拟与高通量实验室，让模型学习做科学的全过程而非只看已发表结果。",
+      "source": {
+        "name": "Latent Space（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/cjhd0nw8nldq77pgbs0lu5hfh",
+        "original": "https://www.latent.space/p/periodic"
+      },
+      "publishedAt": "2026-10-08T16:27:54.000Z",
+      "discoveredAt": "2026-10-08T16:44:29.623Z",
+      "category": "tip",
+      "score": 47,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/cjhd0nw8nldq77pgbs0lu5hfh"
+      }
+    },
+    {
+      "id": "njsmj3ob8e6uc74qqo9h86yhi",
+      "title": "OpenClaw v2026.9.9 补丁发布",
+      "originalTitle": "OpenClaw v2026.9.9 patch release is out 🦞",
+      "summary": "OpenClaw v2026.9.9 补丁版本已发布 🦞\n\n🧠 Codex 中的 GPT-6.1 Sol + Claude Haiku 5.5\n🔧 更好的更新失败恢复\n💬 修复了缺失的 iMessage 回复\n⏰ 定时任务修复\n\n感谢全部 90 位贡献者！\nhttps://docs.openclaw.ai/releases/2026.9.9",
+      "source": {
+        "name": "X：OpenClaw (@openclaw)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/njsmj3ob8e6uc74qqo9h86yhi",
+        "original": "https://x.com/openclaw/status/2108232507649089799"
+      },
+      "publishedAt": "2026-10-08T16:26:13.000Z",
+      "discoveredAt": "2026-10-08T16:42:41.108Z",
+      "category": "ai-products",
+      "score": 27,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/njsmj3ob8e6uc74qqo9h86yhi"
+      }
+    },
+    {
+      "id": "l846t7ycr11aqcasu45nowosp",
+      "title": "LangChain 用 Stripe Link 和 Managed Deep Agents 构建可支付的智能体 Restock",
+      "originalTitle": "Agents that can pay: building Restock with Stripe's Link and Managed Deep Agents",
+      "summary": "LangChain 发布示例项目 Restock，一个在 Slack 上通过 Managed Deep Agents 运行的办公用品购买智能体，演示智能体如何安全完成支付。",
+      "source": {
+        "name": "LangChain：Blog（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/l846t7ycr11aqcasu45nowosp",
+        "original": "https://www.langchain.com/blog/agents-that-can-pay-with-stripe-link"
+      },
+      "publishedAt": "2026-10-08T16:21:08.000Z",
+      "discoveredAt": "2026-10-08T16:42:29.807Z",
+      "category": "tip",
+      "score": 61,
+      "selected": true,
+      "reason": "原文给出了完整的智能体支付架构与凭证隔离做法，读者可以复用到任何需要花钱的智能体场景。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/l846t7ycr11aqcasu45nowosp"
+      }
+    },
+    {
+      "id": "jcjcxu2n688b03utv49xazw6x",
+      "title": "JetBrains 发布 Mellum2.1：面向编码 Agent 的 12B MoE 开源模型",
+      "originalTitle": "JetBrains Releases Mellum2.1: A 12B MoE Open Model for Coding Agents",
+      "summary": "JetBrains 发布面向编码 Agent 的开源思考模型 Mellum2.1（checkpoint 为 Mellum2.1-12B-A2.5B-Thinking），总参数 12B、每 token 激活 2.5B，以 Apache 2.0 协议上架 Hugging Face。",
+      "source": {
+        "name": "MarkTechPost（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/jcjcxu2n688b03utv49xazw6x",
+        "original": "https://www.marktechpost.com/2026/10/08/jetbrains-releases-mellum2-1-a-12b-moe-open-model-for-coding-agents/"
+      },
+      "publishedAt": "2026-10-08T16:17:35.000Z",
+      "discoveredAt": "2026-10-08T16:41:30.471Z",
+      "category": "ai-models",
+      "score": 62,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/jcjcxu2n688b03utv49xazw6x"
+      }
+    },
+    {
+      "id": "kjre67usjm63euce9pkilus7v",
+      "title": "播客：泄露视频显示警方可绕过 iPhone 自动重启进入锁定手机",
+      "originalTitle": "Podcast: Leak Show Cops Can Break into Locked iPhones",
+      "summary": "404 Media 播客本期讨论一段泄露视频，其声称警方可绕过 iPhone 的闲置自动重启机制，进入已锁定的手机。节目还谈到有人在一个机器人监狱中“折磨”LLM 所引发的 AI 争论，以及新墨西哥州一起律师在谋杀案上诉中引用 ChatGPT 编造证人的案件。",
+      "source": {
+        "name": "404 Media（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/kjre67usjm63euce9pkilus7v",
+        "original": "https://www.404media.co/podcast-leak-show-cops-can-break-into-locked-iphones/"
+      },
+      "publishedAt": "2026-10-08T16:11:25.000Z",
+      "discoveredAt": "2026-10-08T16:40:30.477Z",
+      "category": "industry",
+      "score": 33,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/kjre67usjm63euce9pkilus7v"
+      }
+    },
+    {
+      "id": "rie8biwyjls1nuvt8givue40j",
+      "title": "Google 推出完全离线的 AI 会议笔记应用 Google AI Edge Foresight",
+      "originalTitle": "Google’s AI note-taking app transcribes your meetings completely offline",
+      "summary": "Google 发布实验性笔记应用 Google AI Edge Foresight，可在 macOS 上完全离线转录会议和音频文件，免费使用，基于端侧 EmbeddingGemma 2 模型。应用可总结会议、把会议中记的简短要点变成完整笔记，内置助手可结合本地文件回答问题，并称文件、会议音频和笔记不会离开用户的电脑。目前仅针对 Apple Silicon 的 Mac 优化。",
+      "source": {
+        "name": "The Verge：AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/rie8biwyjls1nuvt8givue40j",
+        "original": "https://www.theverge.com/tech/1007985/google-ai-notetaking-app-transcribe-offline"
+      },
+      "publishedAt": "2026-10-08T15:27:30.000Z",
+      "discoveredAt": "2026-10-08T16:39:29.896Z",
+      "category": "ai-products",
+      "score": 58,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/rie8biwyjls1nuvt8givue40j"
+      }
+    },
+    {
+      "id": "g0wo2aksqgzw87bywxaeo631z",
+      "title": "Claude 九月回顾：Chat 与 Cowork 合一，Claude 5.5 系列模型上线",
+      "originalTitle": "What's new in Claude: September recap",
+      "summary": "Claude 发布九月更新回顾，Chat 与 Cowork 合并为一个 Claude，工作流可在云端运行，合上笔记本后继续进行。Claude Docs 支持团队与 Claude 在同一文档中协作编辑，新推出的 Claude 5.5 系列提供 Opus 5.5 处理重任务、Sonnet 5.5 用于快速修改，并可通过 /slides、/docs、/designs 直接生成对应格式。",
+      "source": {
+        "name": "Claude：YouTube（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/g0wo2aksqgzw87bywxaeo631z",
+        "original": "https://www.youtube.com/shorts/n9WfoNW2XnE"
+      },
+      "publishedAt": "2026-10-08T15:53:13.000Z",
+      "discoveredAt": "2026-10-08T16:35:29.800Z",
+      "category": "ai-products",
+      "score": 66,
+      "selected": true,
+      "reason": "官方梳理九月更新要点，读者可以快速了解 Chat 与 Cowork 合并后的新功能和两款模型的分工。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/g0wo2aksqgzw87bywxaeo631z"
+      }
+    },
+    {
+      "id": "ahy2tnydxtij5xxbox68esa1l",
+      "title": "Suno 上线 Albums 专辑功能",
+      "originalTitle": "Albums are live on Suno 🎵",
+      "summary": "Suno 宣布 Albums（专辑）功能上线，用户可将歌曲整合为完整专辑，设置封面、编排曲目单并随时发布。已有播放列表也可直接转为专辑，无需从头重建。",
+      "source": {
+        "name": "X：Suno (@suno)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ahy2tnydxtij5xxbox68esa1l",
+        "original": "https://x.com/suno/status/2108232769411465561"
+      },
+      "publishedAt": "2026-10-08T16:27:15.000Z",
+      "discoveredAt": "2026-10-08T16:29:50.329Z",
+      "category": "ai-products",
+      "score": 53,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ahy2tnydxtij5xxbox68esa1l"
+      }
+    },
+    {
+      "id": "jar7rfk10jixwsibzexemcreq",
+      "title": "Unsloth 接入 Microsoft 开源 mxc，为 Windows 带来 OS 级沙箱",
+      "originalTitle": "Windows now has sandboxing!",
+      "summary": "Microsoft 发布开源仓库 mxc（Microsoft eXecution Container），提供官方 Windows 沙箱支持；Unsloth 与 Windows 团队合作将其接入，OS 级沙箱开销低于 100 ms。Unsloth 提供 low 和 high 两档安全模式，low 用字符串、AST 和正则检查拦截危险操作如 rm -rf 和 token 外传，high 是真正的 OS 级隔离；按 Full Access 可完全关闭沙箱。指南：https://unsloth.ai/docs/new/studio/sandboxing-in-unsloth",
+      "source": {
+        "name": "X：Unsloth (@UnslothAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/jar7rfk10jixwsibzexemcreq",
+        "original": "https://x.com/UnslothAI/status/2108229721159053557"
+      },
+      "publishedAt": "2026-10-08T16:15:09.000Z",
+      "discoveredAt": "2026-10-08T16:29:40.813Z",
+      "category": "ai-products",
+      "score": 53,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/jar7rfk10jixwsibzexemcreq"
+      }
+    },
+    {
+      "id": "dg6z7fc2svqeejkaj1b2d65o9",
+      "title": "Grok Bot 可协助管理 Shopify 店铺",
+      "originalTitle": "Grok Bot can now help run your Shopify store.",
+      "summary": "Grok Bot 现在可以帮你运营 Shopify 店铺。\n\n连接 Shopify，然后让它查看订单、跟踪库存，并保持产品列表更新。",
+      "source": {
+        "name": "X：Grok Bot (@bot)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/dg6z7fc2svqeejkaj1b2d65o9",
+        "original": "https://x.com/bot/status/2108228871938359347"
+      },
+      "publishedAt": "2026-10-08T16:11:46.000Z",
+      "discoveredAt": "2026-10-08T16:29:34.692Z",
+      "category": "ai-products",
+      "score": 38,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/dg6z7fc2svqeejkaj1b2d65o9"
+      }
+    },
+    {
+      "id": "dwgjp22a56hhwf6spunkktmtm",
+      "title": "Hugging Face 遭 700 智能体入侵事件复盘",
+      "originalTitle": "The Hugging Face break-in came down to 4 unremarkable weaknesses and a lot of patience.",
+      "summary": "Hugging Face 遭约 700 个 AI 智能体在 4.5 天内发起 17,600 次操作入侵，最终靠 4 个不起眼的弱点组合拿到 136 个生产密钥：文件读取漏洞、模板注入、静态数据库密码和服务账号 token。Cogent Attack Path Analysis 据此推出防御侧产品，在自有环境中串联跨系统弱点并逐跳核验，因为严重性评分只看单项发现，而智能体集群靠组合取胜。",
+      "source": {
+        "name": "X：Rohan Paul (@rohanpaul_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/dwgjp22a56hhwf6spunkktmtm",
+        "original": "https://x.com/rohanpaul_ai/status/2108226679793688673"
+      },
+      "publishedAt": "2026-10-08T16:03:04.000Z",
+      "discoveredAt": "2026-10-08T16:29:32.369Z",
+      "category": "ai-products",
+      "score": 47,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/dwgjp22a56hhwf6spunkktmtm"
+      }
+    },
+    {
+      "id": "r2fcbsfbwqzke4l4q80efz7y5",
+      "title": "Grok Bot 可搜索读取监控 X",
+      "originalTitle": "hi @bot look out for interesting things people are doing with Grok Bot on X and slack me a daily digest at 9am. if there’s anything relev...",
+      "summary": "嗨 @bot，帮我留意人们在 X 上用 Grok Bot 做的有趣事情，每天早上 9 点给我发一份每日摘要。如果有相关内容，挑出最酷的想法，并建议我如何用它来改进我的工作流程",
+      "source": {
+        "name": "X：Lauren Tan (@poteto)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/r2fcbsfbwqzke4l4q80efz7y5",
+        "original": "https://x.com/poteto/status/2108232222163812795"
+      },
+      "publishedAt": "2026-10-08T16:25:05.000Z",
+      "discoveredAt": "2026-10-08T16:29:32.362Z",
+      "category": "tip",
+      "score": 42,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/r2fcbsfbwqzke4l4q80efz7y5"
+      }
+    },
+    {
+      "id": "yxi6x2iurnm6lk7bcrfhg8q59",
+      "title": "Factory 任命 Connor Maloney 为联邦业务负责人，进军公共部门",
+      "originalTitle": "Factory Announces Connor Maloney as Head of Federal",
+      "summary": "Factory 宣布 Connor Maloney 加入并出任 Head of Federal，负责领导公司向公共部门扩张。Maloney 此前任 Rubrik 联邦业务副总裁，早年曾在美国国防部担任项目经理，并在 ServiceNow 和 DataRobot 任职。Factory 近期在日本开设办公室，并以 50 亿美元估值完成 2 亿美元融资。",
+      "source": {
+        "name": "Factory 研究 / 产品（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/yxi6x2iurnm6lk7bcrfhg8q59",
+        "original": "https://factory.com/news/connor-maloney-head-of-federal"
+      },
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "discoveredAt": "2026-10-08T16:26:30.948Z",
+      "category": "industry",
+      "score": 28,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/yxi6x2iurnm6lk7bcrfhg8q59"
+      }
+    },
+    {
+      "id": "ja19mtm89yojd9w2u67qp1gqv",
+      "title": "Goodfire 为 Kimi K3 和 GLM 5.3 训练并部署生产级网络安全监控器",
+      "originalTitle": "Training and Deploying Production Cyber Monitors on Kimi K3",
+      "summary": "Goodfire Research 为 Kimi K3 和 GLM 5.3 构建基于激活探针加 LLM judge 的监控级联，并部署到生产推理栈。",
+      "source": {
+        "name": "Goodfire Research（网页）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ja19mtm89yojd9w2u67qp1gqv",
+        "original": "https://www.goodfire.com/research/production-cyber-monitors-on-kimi-k3"
+      },
+      "publishedAt": "2026-10-07T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T16:25:30.871Z",
+      "category": "paper",
+      "score": 72,
+      "selected": true,
+      "reason": "原文给出监控级联的完整数据、成本和部署细节，读者可以据此评估实时监控开放模型智能体的可行做法。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ja19mtm89yojd9w2u67qp1gqv"
+      }
+    },
+    {
+      "id": "v4nsb0om4wj4iwtgzux1hcnm9",
+      "title": "Anthropic 为 Claude Max 和 Team 计划推出月度 API credits",
+      "originalTitle": "Monthly API credits are now available on Max and Team plans: $100 on Max 5x, $200 on Max 20x, and up to $500 pooled on Team. Use them on ...",
+      "summary": "Anthropic 为 Claude Max 和 Team 订阅计划推出月度 API credits：Max 5x 为 $100，Max 20x 为 $200，Team 可用最高 $500 额度池。credits 可用于任何 Claude 模型，详情见 https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans。",
+      "source": {
+        "name": "X：Claude Devs (@ClaudeDevs)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/v4nsb0om4wj4iwtgzux1hcnm9",
+        "original": "https://x.com/ClaudeDevs/status/2108228391404966005"
+      },
+      "publishedAt": "2026-10-08T16:09:52.000Z",
+      "discoveredAt": "2026-10-08T16:25:29.967Z",
+      "category": "ai-products",
+      "score": 66,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/v4nsb0om4wj4iwtgzux1hcnm9"
+      }
+    },
+    {
+      "id": "fyuu1m254fkvuhmf19s4jo4tz",
+      "title": "Claude API 额度适用范围说明",
+      "originalTitle": "Credits can be used with the Messages API, Claude Managed Agents, and the Agent SDK, but cannot be used with interactive Claude Code sess...",
+      "summary": "Credits 可用于 Messages API、Claude Managed Agents 和 Agent SDK，但不能用于交互式 Claude Code 会话。这些 credits 同样适用于接受 Claude API key 的第三方 harness。",
+      "source": {
+        "name": "X：Claude Devs (@ClaudeDevs)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/fyuu1m254fkvuhmf19s4jo4tz",
+        "original": "https://x.com/ClaudeDevs/status/2108228394156757299"
+      },
+      "publishedAt": "2026-10-08T16:09:52.000Z",
+      "discoveredAt": "2026-10-08T16:25:29.962Z",
+      "category": "ai-products",
+      "score": 31,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/fyuu1m254fkvuhmf19s4jo4tz"
+      }
+    },
+    {
+      "id": "ep2bvcbt6orsfgw6zut3i6hz7",
+      "title": "Claude 额度快速上手 Managed Agents",
+      "originalTitle": "The quickest way to get started with these credits is using Claude Managed Agents. Use the claude-api skill in Claude Code to build an ag...",
+      "summary": "使用这些额度最快上手的方式是 Claude Managed Agents。在 Claude Code 中使用 claude-api 技能构建智能体，并用你的额度运行它：\n\n/claude-api managed-agents-onboard",
+      "source": {
+        "name": "X：Claude Devs (@ClaudeDevs)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ep2bvcbt6orsfgw6zut3i6hz7",
+        "original": "https://x.com/ClaudeDevs/status/2108228396513996975"
+      },
+      "publishedAt": "2026-10-08T16:09:53.000Z",
+      "discoveredAt": "2026-10-08T16:25:29.957Z",
+      "category": "tip",
+      "score": 30,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ep2bvcbt6orsfgw6zut3i6hz7"
+      }
+    },
+    {
+      "id": "yl1io8et5pfvgf77uwlvtwecs",
+      "title": "Claude 订阅用户可领 API 额度",
+      "originalTitle": "To claim, go to Settings › Billing on https://claude.ai and link or create a Console organization.",
+      "summary": "领取方式：前往 https://claude.ai 的 Settings › Billing，关联或创建一个 Console 组织。\n\n新订阅用户需 7 天后才能领取。\nhttps://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers",
+      "source": {
+        "name": "X：Claude Devs (@ClaudeDevs)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/yl1io8et5pfvgf77uwlvtwecs",
+        "original": "https://x.com/ClaudeDevs/status/2108228398350733322"
+      },
+      "publishedAt": "2026-10-08T16:09:53.000Z",
+      "discoveredAt": "2026-10-08T16:25:29.951Z",
+      "category": "ai-products",
+      "score": 40,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/yl1io8et5pfvgf77uwlvtwecs"
+      }
+    },
+    {
+      "id": "b33i6chgxghls2v7bng0wr0nr",
+      "title": "OpenAI 封禁俄罗斯与伊朗两个利用 ChatGPT 开展虚假前臆影响行动的账号集群",
+      "originalTitle": "Disrupting AI-enabled “false front” operations",
+      "summary": "OpenAI 封禁了两个隐蔽影响行动，俄罗斯来源的 Dark Clark 通过假 persona Mia Clark 控制拉美智库 Social Research Center，评分达 Category 5，是报告以来首个 Category 5；伊朗来源的 Bogus Bylines 用 7 个假记者身份在全球十几家中小媒体投放近 100 篇长文，评分 Category 4。",
+      "source": {
+        "name": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/b33i6chgxghls2v7bng0wr0nr",
+        "original": "https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+      },
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "discoveredAt": "2026-10-08T16:24:35.786Z",
+      "category": "industry",
+      "score": 72,
+      "selected": true,
+      "reason": "报告基于封禁账号的第一手分析，披露了两个虚假前臆影响行动的手法与分级，读者可了解 AI 加持下隐蔽宣传的真实运作方式。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/b33i6chgxghls2v7bng0wr0nr"
+      }
+    },
+    {
+      "id": "oqrfxbrcl2nl04skbpmkztojt",
+      "title": "Anthropic 向 Genesis Mission 投入 1.5 亿美元并向 15 个联邦机构提供 Claude",
+      "originalTitle": "We're deepening our commitment to scientific research and technological discovery by committing $150 million to the Genesis Mission.",
+      "summary": "Anthropic 宣布向 Genesis Mission 投入 1.5 亿美元，深化对科学研究和技术发现的支持。同时将 Claude 及其技术支持提供给超过 15 个联邦机构。详情见 https://www.anthropic.com/news/genesis-mission-commitment",
+      "source": {
+        "name": "X：Anthropic (@AnthropicAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/oqrfxbrcl2nl04skbpmkztojt",
+        "original": "https://x.com/AnthropicAI/status/2108226292235809081"
+      },
+      "publishedAt": "2026-10-08T16:01:31.000Z",
+      "discoveredAt": "2026-10-08T16:23:34.915Z",
+      "category": "industry",
+      "score": 56,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/oqrfxbrcl2nl04skbpmkztojt"
+      }
+    },
+    {
+      "id": "qjewz6bvbktce5dbsobfeqbjx",
+      "title": "Goodfire 推出监控模型内部信号的探针，低成本捕捉失控 AI 智能体",
+      "originalTitle": "Goodfire says its new ‘inside-out’ monitors catch rogue AI agents at a fraction of the cost",
+      "summary": "可解释性初创公司 Goodfire 推出监控 AI 模型内部信号的探针系统，复用模型前向传播中已计算的中间激活再运行分类器，通过 Baseten 面向客户提供，可选监控攻击性黑客、生化武器滥用和 reward hacking 等风险，响应方式可选记录、人工审查或拒绝请求。",
+      "source": {
+        "name": "TechCrunch：AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/qjewz6bvbktce5dbsobfeqbjx",
+        "original": "https://techcrunch.com/2026/10/08/goodfire-says-its-new-inside-out-monitors-catch-rogue-ai-agents-at-a-fraction-of-the-cost/"
+      },
+      "publishedAt": "2026-10-08T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T16:17:29.886Z",
+      "category": "ai-products",
+      "score": 56,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/qjewz6bvbktce5dbsobfeqbjx"
+      }
+    },
+    {
+      "id": "c96tyd0yutfypufq4jma4exih",
+      "title": "Natura 推出 99 美元智能戒指 Interface，把 AI 智能体戴在手指上",
+      "originalTitle": "Natura’s $99 smart ring puts AI agents on your finger",
+      "summary": "Natura 发布售价 99 美元的智能戒指 Interface，按下即可调用 AI 智能体完成任务、记录想法，并支持 Meta Muse、Instinct、Grokbot、Claude、ChatGPT 等。戒指同时追踪心率、HRV、睡眠与活动，续航 6 至 12 天，下月开启预售，12 月或 1 月发货，初期免费 3 至 6 个月后收取每月 9 美元订阅费。",
+      "source": {
+        "name": "TechCrunch：AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/c96tyd0yutfypufq4jma4exih",
+        "original": "https://techcrunch.com/2026/10/08/naturas-smart-ring-puts-ai-agents-on-your-finger/"
+      },
+      "publishedAt": "2026-10-08T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T16:17:29.880Z",
+      "category": "ai-products",
+      "score": 45,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/c96tyd0yutfypufq4jma4exih"
+      }
+    },
+    {
+      "id": "gq8yjkqlcdbpy0l5uc8ch2sj8",
+      "title": "Anthropic 用 Claude Managed Agents 构建定时智能体自动化的实践指南",
+      "originalTitle": "Building effective agent automations",
+      "summary": "Anthropic 发布基于 Claude Managed Agents（beta）的每日简报参考实现，按计划读取 Slack 和 GitHub 来源并向 Slack 发布简报。",
+      "source": {
+        "name": "Anthropic：Claude.dev 开发者博客（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/gq8yjkqlcdbpy0l5uc8ch2sj8",
+        "original": "https://claude.dev/blog/building-effective-agent-automations/"
+      },
+      "publishedAt": "2026-10-08T12:00:00.000Z",
+      "discoveredAt": "2026-10-08T16:15:30.312Z",
+      "category": "tip",
+      "score": 68,
+      "selected": true,
+      "reason": "文章把定时智能体自动化拆成可复用的六个组件，并给出书签、台账和权限等可直接迁移的防错规则。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/gq8yjkqlcdbpy0l5uc8ch2sj8"
+      }
+    },
+    {
+      "id": "llr2lqklij3w76br94n47ivkv",
+      "title": "Arena 发布 Arena Alignment Index 智能体安全与对齐基准",
+      "originalTitle": "Introducing the Arena Alignment Index, our new benchmark measuring safety and alignment of AI agents in real-world use.",
+      "summary": "Arena 推出 Arena Alignment Index 基准，基于 27 个模型的 90K+ 真实智能体会话，测量越权操作（UA）、虚假归因（FA）和虚假完成（DC）三类信号。",
+      "source": {
+        "name": "X：Arena (@arena)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/llr2lqklij3w76br94n47ivkv",
+        "original": "https://x.com/arena/status/2108226499560214777"
+      },
+      "publishedAt": "2026-10-08T16:02:21.000Z",
+      "discoveredAt": "2026-10-08T16:09:32.897Z",
+      "category": "paper",
+      "score": 58,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/llr2lqklij3w76br94n47ivkv"
+      }
+    },
+    {
+      "id": "wzmjv27sx9v1rcx1d2tim8wtp",
+      "title": "Arena 完成 2 亿美元 B 轮融资并发布 Alignment Index 智能体安全基准",
+      "originalTitle": "Today, we're announcing our Series B: $200M at a $3.1B valuation, and the release of Arena's Alignment Index.",
+      "summary": "Arena 宣布以 31 亿美元估值完成 2 亿美元 B 轮融资，并发布衡量 AI 智能体安全与对齐的 Alignment Index。",
+      "source": {
+        "name": "X：Arena (@arena)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/wzmjv27sx9v1rcx1d2tim8wtp",
+        "original": "https://x.com/arena/status/2108227730114580501"
+      },
+      "publishedAt": "2026-10-08T16:07:14.000Z",
+      "discoveredAt": "2026-10-08T16:09:32.891Z",
+      "category": "industry",
+      "score": 58,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/wzmjv27sx9v1rcx1d2tim8wtp"
+      }
+    },
+    {
+      "id": "u9o1mi72s5fuxgmv06a2yrxtt",
+      "title": "Google 推动超声诊断工具普及",
+      "originalTitle": "Around two thirds of people around the world lack access to diagnostic health tools, like ultrasounds.",
+      "summary": "全球约三分之二的人无法获得超声等诊断健康工具。\n\n我们正在努力改变这一现状。\n\n具体做法如下 ⬇️",
+      "source": {
+        "name": "X：Google (@Google)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/u9o1mi72s5fuxgmv06a2yrxtt",
+        "original": "https://x.com/Google/status/2108222014783963539"
+      },
+      "publishedAt": "2026-10-08T15:44:31.000Z",
+      "discoveredAt": "2026-10-08T15:58:40.075Z",
+      "category": null,
+      "score": 23,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/u9o1mi72s5fuxgmv06a2yrxtt"
+      }
+    },
+    {
+      "id": "bsnr151goabajqnmv0sy0mtpf",
+      "title": "Google 模型产前临床研究新进展",
+      "originalTitle": "In our prospective clinical study, our models were able to pinpoint the gestational age within 4 days of accuracy which is a tight enough...",
+      "summary": "在我们的前瞻性临床研究中，我们的模型能够将孕龄精确锁定在 4 天以内的误差范围，这是一个足够紧的区间，可以产生真正有意义的临床影响。\n\n如果我们能够将这些工具扩展到资源匮乏的环境，我们就能开始对孕产妇死亡问题产生实质影响，弥合我们在世界各地看到的护理差距。",
+      "source": {
+        "name": "X：Google (@Google)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/bsnr151goabajqnmv0sy0mtpf",
+        "original": "https://x.com/Google/status/2108222017908404322"
+      },
+      "publishedAt": "2026-10-08T15:44:32.000Z",
+      "discoveredAt": "2026-10-08T15:58:40.070Z",
+      "category": "tip",
+      "score": 38,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/bsnr151goabajqnmv0sy0mtpf"
+      }
+    },
+    {
+      "id": "is5qqvz0fweocj13l7qwxnglz",
+      "title": "Hugging Face 联创 Thomas Wolf 发布开源基因注释模型 Carbon-A 及 5.66 亿候选基因数据库",
+      "originalTitle": "Scientists have sequenced the genomes of thousands of species. But for most of them, nobody knows *where the genes are*",
+      "summary": "Thomas Wolf 团队发布开源模型 Carbon-A，直接在 DNA 中定位基因，并据此构建覆盖 22617 个物种、共 5.66 亿候选基因的 Carbon Annotation Database。模型与数据库一并开放，团队与 Active Site 和 UCSD 合作在猫、鸡和拟南芥等物种中完成部分新基因的湿实验验证，并找到 239 个参考注释中缺失的 RNA 证据基因。",
+      "source": {
+        "name": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/is5qqvz0fweocj13l7qwxnglz",
+        "original": "https://x.com/Thom_Wolf/status/2108220549268639992"
+      },
+      "publishedAt": "2026-10-08T15:38:42.000Z",
+      "discoveredAt": "2026-10-08T15:58:39.457Z",
+      "category": "ai-models",
+      "score": 59,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/is5qqvz0fweocj13l7qwxnglz"
+      }
+    },
+    {
+      "id": "iz125jfbxcabs1edpu9r4ad7g",
+      "title": "阶跃星辰 Step 5 Preview 免费一周",
+      "originalTitle": "Hermes Agent, meet Step 5 Preview.",
+      "summary": "Hermes Agent，来认识 Step 5 Preview。\n\n我们面向智能体和专业工作的旗舰模型，现通过 @NousResearch 的 Nous Portal 免费开放一周。\n\n用 Hermes 试试，给我们展示你的作品！",
+      "source": {
+        "name": "X：阶跃星辰 StepFun (@StepFun_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/iz125jfbxcabs1edpu9r4ad7g",
+        "original": "https://x.com/StepFun_ai/status/2108222311971385546"
+      },
+      "publishedAt": "2026-10-08T15:45:42.000Z",
+      "discoveredAt": "2026-10-08T15:58:39.450Z",
+      "category": "ai-products",
+      "score": 45,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/iz125jfbxcabs1edpu9r4ad7g"
+      }
+    },
+    {
+      "id": "l8aav8nnwz0k60h6gdsmjzkaj",
+      "title": "Hugging Face CEO 分享 Reachy Mini 舞蹈生成 Space 入口",
+      "originalTitle": "you can make your own reachy mini danse here btw https://huggingface.co/spaces/pollen-robotics/reachy-mini-yo-its-your-boy",
+      "summary": "Clément Delangue 分享了一个可自制 Reachy Mini 舞蹈的 Hugging Face Space，地址为 https://huggingface.co/spaces/pollen-robotics/reachy-mini-yo-its-your-boy。",
+      "source": {
+        "name": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/l8aav8nnwz0k60h6gdsmjzkaj",
+        "original": "https://x.com/ClementDelangue/status/2108219777332207769"
+      },
+      "publishedAt": "2026-10-08T15:35:38.000Z",
+      "discoveredAt": "2026-10-08T15:54:37.124Z",
+      "category": "tip",
+      "score": 50,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/l8aav8nnwz0k60h6gdsmjzkaj"
+      }
+    },
+    {
+      "id": "tpxmczbcxbu7ma90v03q070cr",
+      "title": "Hugging Face 的 flow 仍在继续",
+      "originalTitle": "The flow continues!",
+      "summary": "这股 flow 仍在继续！",
+      "source": {
+        "name": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/tpxmczbcxbu7ma90v03q070cr",
+        "original": "https://x.com/ClementDelangue/status/2108221462347702612"
+      },
+      "publishedAt": "2026-10-08T15:42:20.000Z",
+      "discoveredAt": "2026-10-08T15:54:37.118Z",
+      "category": null,
+      "score": 13,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/tpxmczbcxbu7ma90v03q070cr"
+      }
+    },
+    {
+      "id": "raa1qeclupccds9hqlo5ioelf",
+      "title": "Anthropic 承诺三年投入 1.5 亿美元支持 Genesis Mission",
+      "originalTitle": "Building on our commitment to American scientific discovery",
+      "summary": "Anthropic 宣布三年内投入 1.5 亿美元支持联邦 Genesis Mission 计划，让 Claude 覆盖 NASA、NIH、NSF 等 15 个以上参与机构。",
+      "source": {
+        "name": "Anthropic：Newsroom（网页）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/raa1qeclupccds9hqlo5ioelf",
+        "original": "https://www.anthropic.com/news/genesis-mission-commitment"
+      },
+      "publishedAt": "2026-10-07T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T15:42:31.944Z",
+      "category": "industry",
+      "score": 55,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/raa1qeclupccds9hqlo5ioelf"
+      }
+    },
+    {
+      "id": "mm96rdx0jbem6jyu3g4kqb567",
+      "title": "Nathan Lambert 谈 AI 新闻的荒诞与不确定性",
+      "originalTitle": "The fact that all the AI news is so bizarre, kids vibe hacking with claude code, governments vibe governing, all massively increases the ...",
+      "summary": "所有 AI 新闻都如此荒诞——孩子们用 claude code 搞 vibe hacking，政府们在 vibe governing——这一切都极大地增加了 AI 未来的不确定性。最像梗的 AI 时间线，也是最令人恐惧的时间线之一。",
+      "source": {
+        "name": "X：Nathan Lambert (@natolambert)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/mm96rdx0jbem6jyu3g4kqb567",
+        "original": "https://x.com/natolambert/status/2108218655486144575"
+      },
+      "publishedAt": "2026-10-08T15:31:10.000Z",
+      "discoveredAt": "2026-10-08T15:40:32.328Z",
+      "category": "tip",
+      "score": 28,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/mm96rdx0jbem6jyu3g4kqb567"
+      }
+    },
+    {
+      "id": "o9u4a1iygreqlrqrtha3syyvc",
+      "title": "Augment Code 将 Cosmos、Auggie CLI 等资产出售给 Harness",
+      "originalTitle": "Augment Code's next chapter",
+      "summary": "Augment Code 宣布将 Cosmos、Auggie CLI、Code Context Engine 及相关技术出售给 Harness，相关团队将转入 Harness 继续推进这些产品。文中给出的理由是 Harness 的集成平台与 Autonomous SDLC Platform 能更有效地向客户交付这些能力，团队将继续朝软件工厂方向改进大规模 AI 辅助软件开发。",
+      "source": {
+        "name": "Augment Code 博客（网页）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/o9u4a1iygreqlrqrtha3syyvc",
+        "original": "https://www.augmentcode.com/blog/augment-code-next-chapter"
+      },
+      "publishedAt": "2026-10-07T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T15:35:31.079Z",
+      "category": "industry",
+      "score": 59,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/o9u4a1iygreqlrqrtha3syyvc"
+      }
+    },
+    {
+      "id": "w8n9i3lv2ys8ej4vxqljlu2m2",
+      "title": "Tessl 推出 Code Review：以 lens 技能定义上下文驱动的代码审查",
+      "originalTitle": "A context driven code review that learns and improves on every run",
+      "summary": "Tessl 发布 Code Review 产品，将审查标准定义为仓库内的 lens 技能，按文件路径路由，团队可在 PR 中查看和修改这些标准。与黑盒审查工具不同，审查沉淀的知识可复用于代码生成与维护；Tessl 自称其 PR 量增加 5-10x 时旧工具账单 80% 来自超额费用，该产品面向智能体高频开发场景。",
+      "source": {
+        "name": "Tessl：产品与工程博客"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/w8n9i3lv2ys8ej4vxqljlu2m2",
+        "original": "https://tessl.io/blog/a-context-driven-code-review-that-learns-and-improves-on-every-run"
+      },
+      "publishedAt": "2026-10-07T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T15:29:33.764Z",
+      "category": "ai-products",
+      "score": 55,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/w8n9i3lv2ys8ej4vxqljlu2m2"
+      }
+    },
+    {
+      "id": "l31ksvzhwir1pf51leqxjeh07",
+      "title": "Tessl 工程博客：AI 不是笨，是瞎——企业级 Agent 记忆的三个关键设计决策",
+      "originalTitle": "Your AI isn't stupid. It's blind.",
+      "summary": "作者基于为跨公司工作的 Agent 构建记忆系统一年的经验指出，AI 失败的常见原因不是模型推理差，而是它看不到关键决策上下文，多数 agent memory 只是给瞎子更大的档案柜。",
+      "source": {
+        "name": "Tessl：产品与工程博客"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/l31ksvzhwir1pf51leqxjeh07",
+        "original": "https://tessl.io/blog/your-ai-isnt-stupid-its-blind"
+      },
+      "publishedAt": "2026-10-07T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T15:29:33.759Z",
+      "category": "tip",
+      "score": 68,
+      "selected": true,
+      "reason": "作者以自建系统的一手实测数据说明为何该把记忆当受治理的记录而非存储，三个设计决策和成本数字可直接迁移。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/l31ksvzhwir1pf51leqxjeh07"
+      }
+    },
+    {
+      "id": "stshar7b11dvtiuaxrp5s2u7q",
+      "title": "Waymo 研究：清醒司机致命事故率低 23.3%",
+      "originalTitle": "How safe would American roads be if there were no drunk drivers?",
+      "summary": "Waymo 新研究显示，清醒司机的致命事故卷入率比整体平均水平低 23.3%。但 Waymo 指出，清醒并不等于安全，道路致死是系统性问题，常由低能见度、疲劳和道路基础设施不佳导致。Waymo Driver 不会处于受损状态，专为应对清醒人类司机仍面临的系统性风险而设计。",
+      "source": {
+        "name": "X：Waymo (@Waymo)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/stshar7b11dvtiuaxrp5s2u7q",
+        "original": "https://x.com/Waymo/status/2108211625094255031"
+      },
+      "publishedAt": "2026-10-08T15:03:14.000Z",
+      "discoveredAt": "2026-10-08T15:27:33.563Z",
+      "category": "paper",
+      "score": 30,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/stshar7b11dvtiuaxrp5s2u7q"
+      }
+    }
+  ],
+  "page": {
+    "count": 50,
+    "hasMore": true,
+    "nextCursor": "it3.eyJhIjoxNzkxNDczMjUzNTYzLCJpIjoic3RzaGFyN2IxMWR2dGl1YXhycDVzMnU3cSIsImMiOiI2OTY2YzIwZTk4NTAifQ"
+  }
+}

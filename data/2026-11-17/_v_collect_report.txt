@@ -1,0 +1,36 @@
+大V视野收集报告 — 2026-11-17（Asia/Taipei）
+
+读取方式：公开 X 读取（namespace x）；未用浏览器、未用 user-X、未用 Following 时间线
+- 用户 id 复用：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- 先读取 skill x-api-mcp-guide（以 SKILL.md 文本加载；当前环境无独立 Skill 工具），再 GetDynamicTools 确认 get_users_posts / get_posts_by_ids 参数。get_users_posts：exclude=replies（未排除 retweets），窗口 start_time=2026-11-15T12:00:00Z（11-15 20:00 Asia/Taipei 起，约 36 小时至抓取），max_results=25；字段 note_post（返回仍出现 note_tweet 键，脚本两者兼容）
+- 主窗口原始条数：@Khazix0918 3 / @MaxForAI 1 / @xiaohu 2 / @thsottiaux 1 / @testingcatalog 20（第 1 页 20 条，未满 25，无需补第 2 页）/ @gengdaJ 0
+- 未再向前做 extended 窗口：该 36 小时窗口已覆盖周一白天至周二早晨；再往前会大量撞上 11-16 已收帖。Max 在窗口内仅 1 条且已是 11-16 头条，逸尘 0 条。
+- get_posts_by_ids 补长文一批 18 个 id（入选帖、重要引用原帖，以及卡兹克 X Article）。文章实体 id 2122170436289277952 不是 post、返回 Not Found；长文 plain_text 在帖 2122172073170837600 的 article 字段中补全（约 3868 字）。官方 Qwen / OpenRouter / August / Corma / Nasiko 等原帖的 note_tweet 一并落盘。全部落到 _v_raw_mcp.json / _v_raw_fulltexts.json
+- 本次共 8 次 X 读取（主窗口 6 + 因 write_to_file 预览截断而对 testingcatalog 做的 1 次 max_results=5 精简重拉，完整的首次 20 条结果随后从原始 asset 恢复，故未再分页 + 补长文 1）
+
+入选 v.json：13 条
+各 handle：{'@Khazix0918': 2, '@MaxForAI': 0, '@xiaohu': 0, '@thsottiaux': 1, '@testingcatalog': 10, '@gengdaJ': 0}
+头条：卡兹克长文《这些AI手搓的几百K的3D世界，正在让HTML再次伟大》：拆解群里流传的 1.4MB 纯 HTML 3D 游戏（约一半为 Three.js），称 Claude Fable 5.2 手搓效果最好，并分享场景提示词与让模型自我审图迭代的方法（个人体验）
+URL：https://x.com/Khazix0918/status/2122172073170837600
+（优先账号长文，有拆解、制作方法和个人判断；与本频道 AI新闻无硬 URL 冲突）
+
+跳过/说明：
+- 卡兹克 2121952242366595195（大屏三开 Claude / Antigravity / GPT）：已在 11-16 v.json，URL 去重跳过
+- Max 2121939379069534675（认同 AGI 已至 / GPT-6 Astra）：已在 11-16 v.json，URL 去重跳过；窗口内 Max 无更新帖
+- 小互 2122267771665031674（给《小互 AI 日报》做了新片头，配视频）：无可用产品或事实细节，不收
+- 小互 2122266673130655997（「今日笑话」：日本朋友去深圳参加 APEC，Claude 被封；引用 @mako_63 称账号被停）：明确标为笑话，无追加可核实的产品信息，不收
+- 逸尘：窗口内 0 帖
+- TC 2122006928826257731（彭博社苹果眼镜 / Siri AI）：已在 11-16 v.json，URL 去重跳过
+- TC 2121990594784374810（Claude Code Projects / Coordinator 与 Threads 分模型）：已在 11-16 v.json，URL 去重跳过
+- TC 2122255419099803817（DAILY AI BRIEF — Nov 16）：综合简报，多条已在 11-16 v/ai 或本日 AI新闻/更专条中覆盖（苹果眼镜、Notebook Comic、黄仁勋、Qwen4-Max、Antigravity 上下文等），不单列以免重复
+- TC 2122387728881045868（Grok Bot 将接管拉斯维加斯 Sphere 广告位）：广告位观察，产品信息不足，不收
+- TC 2122444888847601997（「Corrected link」）：仅为 Neon 线索补链，并入 Neon 条，不单列
+- TC 自帖线程续帖（Nasiko 2122469914308915411、Neon 跟进 2122444659733712957、Corma 2122408268941168784、August 2122397860985811267、Okara 2122376738101485735）：作为原帖跟帖合并进对应入选条，不另占一条
+- URL 去重：对历史全部 v.json/ai.json（_prior_urls.json，2380 个 URL）及同目录 11-17 ai.json（18 条）硬比对，入选 13 条与二者均 0 重复
+- 与 11-17 AI新闻软同题：v #03 TestingCatalog 的 Qwen4-Max 基准简报，AI新闻 #02 为阿里云对同一发布的新闻稿，保留——v 取基准与官方帖角度，ai 取官方新闻稿。v #07 TestingCatalog 转述 Hugging Face 切换 OpenRouter，AI新闻 #08 为 Hugging Face 官方博客，保留——v 取简报角度，URL 不冲突。
+- 观点/传闻标注：卡兹克对 1.4MB 游戏来源、Fable 5.2「王中王」和「商业上未必有大用」均为个人体验与指认；Tibo 对 Codex 容量错误的表述是 “might have actually fixed”；TC 对 Gemini 4 Neon 的 Flash Lite / Pro 档判断均为未证实代码线索；Nasiko 的 40%/50% 降本、August 的用户量与等待时长、Corma 的融资与估值均为公司或创始人自称；MAI「11 月 17 日将公布新模型」为对官方 Ignite 预告的预期，未点名具体型号。
+- 缺口：优先账号里，Max 窗口内无新帖、小互 2 帖均不可用、逸尘 0 帖。可用增量主要来自卡兹克 2 条长文/长帖、Tibo 1 条和 TestingCatalog 的一批简报。入选 13 条，落在 12–20 目标内，不凑数、不编造。
+
+封面提示词：_cover_prompts_v.json（13 条，cover-20261117-v-00 ～ 12）
+未生成封面、未 build、未发布。
+完成时间：2026-11-17 08:15 Asia/Taipei

@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Max：暗网有人声称从 AWS S3 误配桶拿到 Claude Fable 5 权重分片——算术对不上、文件大小疑似 DeepSeek，或是骗局",
+    "summary": "Max 引用安全情报账号 @DarkWebInformer 曝光：暗网用户 localizer 声称发现 Amazon Bedrock 关联的 AWS S3 存储桶配置错误，下载了约 7GB 的「Claude Fable 5」权重分片，并称完整模型共 640 分片、约 8TB，随后开始出售。Max 指出多处疑点：按每片约 7GiB 计，640 片只有约 4.4TiB，与 8TB 说法不符；有开发者称截图中文件大小似与 DeepSeek V4.1 Flash 1017 公开权重吻合；即便真拿到单片也远不足以还原整模。截至发帖 Anthropic 与 AWS 均未确认，证据不足，他更倾向于认为是借前沿模型权重神秘感制造的售卖骗局。",
+    "url": "https://x.com/MaxForAI/status/2116419531988251131",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-31T14:38:32+08:00",
+    "tags": [
+      "Claude Fable 5",
+      "Anthropic",
+      "暗网",
+      "模型权重",
+      "安全"
+    ],
+    "image": "/assets/covers/cover-20261101-v-00.jpg"
+  },
+  {
+    "title": "Max：法国国民议会通过「每 GB 收 0.055 欧元」互联网流量税修正案——ChatGPT/Claude 乃至多模态 Agent 都可能被波及",
+    "summary": "Max 解读法国国民议会以 11 票赞成、10 票反对通过的 2027 年预算修正案：拟对向法国用户传输数据的内容服务商按每 GB 0.055 欧元征税，年目标约 100 亿欧元，Google、Meta、Netflix、Amazon 与云服务商均在潜在范围内。他特别点出 ChatGPT、Claude 以及未来帮人操作互联网的 Agent 可能受影响，多模态 Agent 生成传输图片视频时流量远超文本对话。目前仅是预算修正案，距正式立法还有程序；他感慨过去谈 Agent 成本多盯 Token 与算力，现在法国已开始琢磨对 AI 数据流量征税，并联想到此前政协委员提具身智能征税的讨论。",
+    "url": "https://x.com/MaxForAI/status/2116430476353351753",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-31T15:22:01+08:00",
+    "tags": [
+      "法国",
+      "流量税",
+      "Agent",
+      "政策",
+      "成本"
+    ],
+    "image": "/assets/covers/cover-20261101-v-01.jpg"
+  },
+  {
+    "title": "逸尘：Claude 反复封号元凶竟是 WebRTC 泄露——推荐 IPPure 检测与 Ryuu 维护的 Mihomo/Surge 分流规则仓库",
+    "summary": "逸尘分享：朋友 Ryuu 把已过 KYC 的 Claude Max 账号借给他，并手把手教防封；排查后发现此前多次封号是因为 WebRTC 泄露，危险程度堪比 DNS 泄露，可被 Anthropic 检测到。他推荐 Ryuu 给的检测工具 IPPure（可查 WebRTC/DNS 泄露、出口 IP 与指纹），以及 Ryuu 维护的完整分流/DNS/WebRTC 规则 GitHub 仓库（适配 Mihomo、FlClash、Clash Verge Rev、Surge、Shadowrocket、sing-box）。用 Codex 配好后三项检测均通过，借来的 Claude 账号已稳定用过一天。帖获近千收藏、约 480 赞。",
+    "url": "https://x.com/gengdaJ/status/2116397558545453168",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-10-31T13:11:13+08:00",
+    "tags": [
+      "Claude",
+      "WebRTC",
+      "封号",
+      "隐私",
+      "分流规则"
+    ],
+    "image": "/assets/covers/cover-20261101-v-02.jpg"
+  },
+  {
+    "title": "小互译介陶哲轩：AI 让脑力任务变便宜后，要像管饮食一样主动锻炼思考能力",
+    "summary": "小互转发并翻译陶哲轩的类比：粮食生产革命让食物便宜充足后，人需要主动控制饮食与运动；过去体力劳动自带锻炼，如今须刻意维护。同理，AI 让脑力任务变得便宜容易，生活中原本自带的思考训练会减少，因此要留意「精神食谱」、主动保持解决问题的能力，否则越依赖 AI，一旦离开工具就难以应对现实问题。配有相关视频解读。",
+    "url": "https://x.com/xiaohu/status/2116448508593283300",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-31T16:33:40+08:00",
+    "tags": [
+      "陶哲轩",
+      "思考能力",
+      "AI 依赖",
+      "认知"
+    ],
+    "image": "/assets/covers/cover-20261101-v-03.jpg"
+  },
+  {
+    "title": "小互：Subvocal AI 眼镜靠感知发声肌细微动作「无声输入」，宣称超 200 词/分钟，已获 YC 等 130 万美元",
+    "summary": "小互介绍 Subvocal：无需出声，只需做出细微发声动作，眼镜通过感知相关肌肉运动解析意图，再由 AI 转成文字；团队宣称英文输入可超过每分钟 200 词。视频展示用途包括向 AI 提问、写消息、操作电脑，以及两名佩戴者进行旁人听不到的交流。项目已获 YC 与 Afore Capital 共约 130 万美元融资并开启预购。",
+    "url": "https://x.com/xiaohu/status/2116445350865367066",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-31T16:21:07+08:00",
+    "tags": [
+      "Subvocal",
+      "AI 眼镜",
+      "无声输入",
+      "YC"
+    ],
+    "image": "/assets/covers/cover-20261101-v-04.jpg"
+  },
+  {
+    "title": "Tibo Day 26：ChatGPT 手机端已可轻松多账号切换，桌面端即将跟进；提醒未来两天是用量重置窗口",
+    "summary": "OpenAI 产品侧 Tibo 在 Day 26 更新：ChatGPT 手机端现已可轻松在多账号间切换，桌面端也即将支持；并提示「接下来两天会是重置……攒着用量的人自行体会」。附官方帮助文档《Using multiple ChatGPT accounts on web and mobile》。该帖互动极高（约 1.3 万赞、百万级曝光）。",
+    "url": "https://x.com/thsottiaux/status/2116405414921384099",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-10-31T13:42:26+08:00",
+    "tags": [
+      "ChatGPT",
+      "多账号",
+      "OpenAI",
+      "移动端"
+    ],
+    "image": "/assets/covers/cover-20261101-v-05.jpg"
+  },
+  {
+    "title": "TestingCatalog：OpenAI API 定价页出现 gpt-6-astra-law「Legal model configuration」——输入 $10/输出 $50，促销至少至 2026 年底",
+    "summary": "TestingCatalog 称 OpenAI API 定价页已列出 gpt-6-astra-law，标注为 Legal model configuration：输入 $10、输出 $50、缓存输入 $1，并写明 GPT-6 Astra for Law 促销价至少持续到 2026 年 12 月 31 日。相关追踪账号亦在 API 模型列表中看到该条目；官方尚未正式公开发布说明。",
+    "url": "https://x.com/testingcatalog/status/2116443618659455284",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-31T16:14:14+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "法律模型",
+      "API"
+    ],
+    "image": "/assets/covers/cover-20261101-v-06.jpg"
+  },
+  {
+    "title": "TestingCatalog：Antigravity 下周或支持 Cloud 执行——本地/云端可切换，承接 Jules 关停后的能力迁移",
+    "summary": "TestingCatalog 称 Google Antigravity 可能于下周获得 Cloud execution 支持，用户可在本地与云端任务执行环境间切换。此前 Google 已宣布停用 Jules AI agent 并将其功能迁入 Antigravity；另有预告称下周有「big releases」，是否包含早前现身的「Chief of Stuff」agent 仍不明确。",
+    "url": "https://x.com/testingcatalog/status/2116534068653240822",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-31T22:13:39+08:00",
+    "tags": [
+      "Antigravity",
+      "Google",
+      "Cloud",
+      "Jules",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261101-v-07.jpg"
+  },
+  {
+    "title": "TestingCatalog：Antigravity 新增安全提示——提醒数据外泄与代码执行风险，勿处理高敏感数据并核验 Agent 操作",
+    "summary": "TestingCatalog 截图显示 Antigravity 出现新提示：AI coding agents 存在安全局限，用户应了解潜在风险，包括数据外泄与可能的代码执行；避免处理高度敏感数据，并核验 Agent 采取的所有操作。帖文同时猜测「下周会有新 agent？」与 Cloud 执行等更新形成同一产品线节奏。",
+    "url": "https://x.com/testingcatalog/status/2116566536735293885",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-01T00:22:40+08:00",
+    "tags": [
+      "Antigravity",
+      "安全",
+      "Agent",
+      "数据外泄"
+    ],
+    "image": "/assets/covers/cover-20261101-v-08.jpg"
+  },
+  {
+    "title": "TestingCatalog：Rock Matrix 开源 EdgeRock-4B——固定容量记忆的小尺寸图文推理模型，KV cache 封顶约 72MiB，可在 MacBook 本地跑",
+    "summary": "Rock Matrix 开源 EdgeRock-4B：基于 Qwen3.5-4B，将全注意力层改为固定容量历史设计（循环状态+局部注意力+Rock Memory Anchors）。只完整保留最近 1024 token，重要更早细节存入独立库，单会话注意力 KV cache 约封顶 72MiB（对比原版在 256K token 时可达 8GiB）。官方称 AIME 2024–2026 mean pass@1 约 82.9%；长上下文测试 16K–130K 查询准确率约 94.1%（关掉 RMA 仅 0.4%）。可在 MacBook Pro M5 Pro 本地以约 9 tok/s 运行；权重与代码已上 GitHub/HF/ModelScope，并有 arXiv 论文。",
+    "url": "https://x.com/testingcatalog/status/2116500778814697819",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-31T20:01:23+08:00",
+    "tags": [
+      "EdgeRock-4B",
+      "开源",
+      "固定记忆",
+      "Qwen",
+      "本地推理"
+    ],
+    "image": "/assets/covers/cover-20261101-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：Nous Research Hermes Agent 手机 App 已开 iOS/Android Beta（TestFlight 可加入）",
+    "summary": "TestingCatalog 转发 Hermes 官方测试通道：Hermes mobile app 现已对 iOS 与 Android 开放 Beta。引用帖给出 Apple TestFlight 链接与 Hermes Agent Mobile 落地页，邀请用户参与移动端测试。",
+    "url": "https://x.com/testingcatalog/status/2116590276076580979",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-01T01:57:00+08:00",
+    "tags": [
+      "Hermes",
+      "Nous Research",
+      "移动端",
+      "Agent",
+      "Beta"
+    ],
+    "image": "/assets/covers/cover-20261101-v-10.jpg"
+  },
+  {
+    "title": "TestingCatalog：PokeBot 推出 RoboAPI——自然语言指挥机械臂、零样本新任务，无需为每任务单独采数训练",
+    "summary": "PokeBot 发布 RoboAPI：用户连接带腕部相机的兼容机械臂，用自然语言下达如「清理桌子」等任务，API 近实时返回下一步动作；底层为世界-动作模型 Poke-Aurora，可同时预测下一帧画面与手臂动作。技术预览免费且非商用，支持 UR5e、Franka、YAM 等。TestingCatalog 主帖与自回复合并为一则。",
+    "url": "https://x.com/testingcatalog/status/2116436931420487969",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-31T15:47:40+08:00",
+    "tags": [
+      "PokeBot",
+      "RoboAPI",
+      "具身智能",
+      "机械臂"
+    ],
+    "image": "/assets/covers/cover-20261101-v-11.jpg"
+  },
+  {
+    "title": "Max：腾讯侧「反代全家桶」截图流传——多模型 API 反向代理产品线齐亮相",
+    "summary": "Max 发图感叹「腾讯反代全家桶都来了」，配图展示腾讯相关将多种主流模型 API 以反向代理/网关形式打包的产品界面。帖文本身较短，主要依靠截图传达信息，互动约 90 赞。具体产品名与上线细节以截图为准，未另附长文说明。",
+    "url": "https://x.com/MaxForAI/status/2116324281202438205",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-31T08:20:02+08:00",
+    "tags": [
+      "腾讯",
+      "API 反代",
+      "模型网关"
+    ],
+    "image": "/assets/covers/cover-20261101-v-12.jpg"
+  }
+]

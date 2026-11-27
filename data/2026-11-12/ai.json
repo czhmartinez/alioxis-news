@@ -1,0 +1,303 @@
+[
+  {
+    "title": "谷歌发布 Gemini Decisions API 与 Gemini Decision 1：单次前向传播对最多 1000 个封闭式问题打分，150–250 毫秒端到端、每百万输入 token 0.10 美元、不计输出 token",
+    "summary": "据 Google 11 月 11 日官方博客：新端点 Gemini Decisions API 由新模型 Gemini Decision 1（gemini-decision-1）驱动，面向工具选择、策略检查、模型路由、上下文评分等有限选项决策。一次输入可混合文本、图像、音频、视频与 PDF（最多 256K token），并附带最多 1000 个相互独立的问题，类型含是/否、2–255 项多选和有序评分；模型不逐 token 生成文本，而是单次前向传播给出各选项概率与 0–1 置信度，端到端延迟 150–250 毫秒（模型计算中位数 50–100 毫秒），输入价 0.10 美元/百万 token、输出不计费，共享输入只计一次，另有 AI Studio 免费层。谷歌称其在代理路由、推理、排序与多模态理解基准上领先且校准误差最低，在共享基准套件上比 Gemini 3.5 Flash-Lite 搭配 Interactions API 便宜近 5 倍。内部落地包括 Gemini Notebook 的实时模型路由（常规查询延迟最高降 40%）、Stitch 的快速画布、Google Labs CC 的表情选择，以及 Google 搜索对 MCP 工具的对抗性检测；OpenRouter、LangChain、Vercel、LiteLLM、Pydantic AI、Pipecat、LiveKit、OpenCode 等集成陆续上线，Google Cloud 支持即将到来。",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+    "source": "Google Blog",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "Google",
+      "Gemini",
+      "Decisions API",
+      "模型路由",
+      "API"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-00.jpg"
+  },
+  {
+    "title": "Anthropic 修订版 S-1 披露：微软承诺升至至少 472 亿美元、谷歌约 1213 亿美元，总算力与基础设施承诺约 9009 亿美元，Lambda 350 亿美元协议可被任一方终止",
+    "summary": "据 Anthropic 11 月 10 日向美国证监会提交的 S-1/A 第 2 号修正案：与微软的协议（2025 年 11 月签署、2026 年 2–11 月多次修订）约定 2026 年 11 月至 2033 年 6 月至少支出 472 亿美元、最多 492 亿美元，无论是否实际使用，除微软严重违约或个别未交付批次外不可取消；与谷歌的 CSP 托管协议承诺 2026 年 4 月至 2033 年 7 月至少约 1213 亿美元，并可能需补足差额；另承诺采购额外 TPU 算力，预计约 1250 亿至 1500 亿美元，交付期 2028–2031 年。向 AMD、博通、谷歌、美光、微软、英伟达、台积电合计私募 260 亿美元 N 类股、价格同 IPO 价。据 RR Tech Pulse 与 MLQ 对修正案的解读：总承诺约 9009 亿美元（修正案 1 为 8954 亿美元），含终止权或附条件部分降至约 1862 亿美元；Lambda 2026 年 8 月协议（约 349 亿美元）因 Lambda 未在合同期限内取得设施租约而可被任一方终止，Anthropic 称无意终止。",
+    "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026072484/anthropicpbc-sx1ax2.htm",
+    "source": "SEC EDGAR",
+    "published_at": "2026-11-10T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "S-1",
+      "算力",
+      "微软",
+      "谷歌"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-01.jpg"
+  },
+  {
+    "title": "WSJ：英伟达董事会据报准备罢免 CEO 黄仁勋，纽约时报另称其与直属下属有染；英伟达盘后跌约 8%，本周市值已蒸发约 6000 亿美元",
+    "summary": "据路透社 11 月 11 日转述《华尔街日报》：知情人士称，英伟达董事会正准备罢免首席执行官黄仁勋，缘由是其被指有两段婚外情，其中一段涉及被疑为中国间谍的人物，董事会最早可能当天开会决定其去留；CBS 称两名消息人士证实董事会正准备让他去职，特朗普政府知情。同日《纽约时报》报道，黄仁勋还与向他汇报的医疗健康业务副总裁 Kimberly Powell 有婚外关系；黄仁勋被问及时称“我认为你不该直接找我谈”后挂断电话，英伟达与 Powell 未立即置评，路透称无法立即核实。此前 11 月 8 日黄仁勋在致员工备忘录中承认对妻子不忠，同日董事会已启动对其是否被外国情报行动盯上的调查；自董事会宣布调查以来，英伟达本周市值已蒸发约 6000 亿美元，盘后下跌约 8%。D.A. Davidson 分析师称公司没有接班计划，罢免将带来挑战；英伟达下周公布财报。",
+    "url": "https://www.investing.com/news/stock-market-news/nvidia-is-preparing-to-oust-ceo-jensen-huang-wsj-reports-5019991",
+    "source": "路透社",
+    "published_at": "2026-11-12T06:35:00+08:00",
+    "tags": [
+      "英伟达",
+      "黄仁勋",
+      "董事会",
+      "WSJ",
+      "芯片"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-02.jpg"
+  },
+  {
+    "title": "阿里上线 Qwen4-Max 预览版：100 万 token 上下文、最大输出 393,216 token，仅限 Token Plan、预览期至 11 月 25 日，千问 App、Qoder 同步接入",
+    "summary": "据阿里云百炼文档（11 月 11 日更新）与媒体报道：千问团队 11 月 11 日宣布 Qwen4 即将发布，旗舰多模态模型 Qwen4-Max-Preview（模型 ID qwen4-max-preview）先上线 Token Plan，并接入千问办公、Qoder、千问 App 与 QwenStudio。该模型支持文本、图片、视频输入，默认开启思考并可用 reasoning_effort 调节，支持函数调用、联网搜索、JSON 结构化输出，兼容 OpenAI Chat Completions/Responses 与 Anthropic Messages API；上下文 100 万 token，最大输出 393,216 token（思考与回答共享）。预览期为 11 月 11 日 10:00 至 11 月 25 日 24:00（UTC+8），仅支持 Token Plan、不按量计费，期间不做变更、结束后下线。千问称 Qwen4 在知识理解、世界感知、编程与智能体能力上进阶，但凤凰网指出阿里尚未披露参数规模、基准分数、API 价格与是否开源；千问 App 另对千问 Go! 会员推出限时折扣，最低 9.9 元。",
+    "url": "https://www.alibabacloud.com/help/zh/model-studio/qwen4-max-preview",
+    "source": "阿里云百炼",
+    "published_at": "2026-11-11T10:27:14+08:00",
+    "tags": [
+      "阿里",
+      "Qwen4",
+      "千问",
+      "预览版",
+      "大模型"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-03.jpg"
+  },
+  {
+    "title": "Runway 开源 27B 世界动作模型 Praxis-1（Apache 2.0）：RoboLab-120 成功率 46.2% 居首，微调 RT-1 机器人在 SimplerEnv 达 80.0%",
+    "summary": "据 Runway 11 月 11 日官方博客：9 月首发的世界动作模型 Praxis-1 现以 Apache 2.0 开放权重，含推理与微调代码（支持全量微调与 LoRA），可商用。该模型为 270 亿参数 MoE 扩散 Transformer，同时预测视频与动作，在英伟达 RoboLab-120 榜单（1200 个回合）成功率 46.2%，高于 FLUX 3 Action 的 42.9%、Cosmos3 Nano 的 36.8% 和 π0.5 的 28.0%；在训练中从未见过的谷歌 RT-1 机器人上轻量微调后于 SimplerEnv 达 80.0%，原 RT-1 策略为 52.4%。首发合作伙伴 Noble Machines、Standard Bots、Ultra 已分别在人形机器人、六轴工业臂和双臂仓储机器人上运行。模型已上 GitHub、Hugging Face（原生支持 LeRobot）和 vLLM-Omni，Reactor 提供托管推理，可在 H100/B200、RTX 5090/RTX PRO 6000 乃至机器人端 Jetson Thor 上运行；Runway 称网络视频与遥操作视频作为预训练数据对策略性能效果相当。",
+    "url": "https://runwayml.com/news/company-news/praxis-1-is-now-available",
+    "source": "Runway",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "Runway",
+      "Praxis-1",
+      "世界模型",
+      "机器人",
+      "开源"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-04.jpg"
+  },
+  {
+    "title": "百度发布 ERNIE 5.5 Flash Preview：总参数 280B、激活 14B、支持 1M 上下文，千帆 API 已上线、权重 11 月 25 日前开源",
+    "summary": "据文心官方 11 月 11 日发布页：ERNIE 5.5 Flash Preview 是基于此前 Base 模型的首个后训练版本，总参数 280B、激活参数 14B，支持 1M 上下文，主打编程、3D 建模、知识工作与内容创作，API 已在千帆平台上线，权重将于 11 月 25 日前开源。官方展示均在 Agent 框架中端到端完成：用 UE 5.8 与 C++ 完成东方武侠游戏《云岫行》，11 小时长程编码任务中模型作为纯文本模型把试玩发现的问题转成可测量的代码测试迭代；基于 Cocos、Unity、LayaAir、PixiJS、Canvas 2D 做出近百款手机小游戏；针对 Blender、CAD 强化 3D 建模，并以 Seedance 2.5 辅助完成 75 秒科普视频。百度强调这是后训练中间版本，仍可能存在训练不充分导致的能力缺陷，正式版将继续优化。",
+    "url": "https://ernie.baidu.com/zh/release/ernie-5-5-flash-preview/",
+    "source": "百度文心 ERNIE",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "百度",
+      "ERNIE 5.5",
+      "开源",
+      "大模型",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-05.jpg"
+  },
+  {
+    "title": "DeepMind 发布 AlphaGenome 2：按细胞类型条件预测 DNA 变异效应，TenK10K 上识别因果变异 30% 对 16%，基于超 1.07 亿单细胞样本",
+    "summary": "据 Google DeepMind 11 月 11 日官方博客：AlphaGenome 2 是新一代 DNA 序列模型，改为条件式架构，把目标组织、细胞类型或状态与百万碱基序列一并输入，预测变异对数百种人类细胞类型的影响，并新增 DNA 甲基化读数。训练数据含 68 种组织、超 1.07 亿个单细胞样本（人类与小鼠，含批量与单细胞数据）。在 28 种免疫细胞的 TenK10K 数据集上，因果变异识别率 30%（上一代微调版 16%）、基因效应方向 43%（23%）；复现了 IBD 中 ETS2 远端调控变异在肠道巨噬细胞里提升表达的发现，并在无需重训下由少量单细胞 RNA-seq 区分新冠 mRNA 疫苗激活的 T 细胞。已通过 AlphaGenome API 面向非商业研究开放，商业研究为私有预览，DeepMind 称即将在 Antigravity 推出 AlphaGenome 2 Skills；模型仅限研究、未经临床验证。",
+    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+    "source": "Google DeepMind",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "DeepMind",
+      "AlphaGenome",
+      "生物",
+      "科学",
+      "基因组"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-06.jpg"
+  },
+  {
+    "title": "OpenAI 三季度营收约 100 亿美元、环比增长约 50%，调整后营业亏损 109 亿美元；Anthropic 同期营收 170 亿美元、营业亏损仅 5.67 亿美元",
+    "summary": "据 The Decoder 11 月 11 日引述《华尔街日报》与 The Information：OpenAI Q3 营收约 100 亿美元，环比增约 50%（Q2 仅增 17%–18%，去年同期 39 亿美元），调整后营业亏损由 101 亿美元升至 109 亿美元（不含升至 26 亿美元的股权激励），调整后营业利润率由 -150% 改善到 -109%。同期 Anthropic 营收增 47% 至 170 亿美元，含股权激励的营业亏损约 5.67 亿美元，并已在 Q2 营收超过 OpenAI。OpenAI 通过降价、加码 Codex、新聘销售负责人 Dali Rajic 追赶企业市场，总裁 Brockman 称企业业务季度内翻倍、已占大头；ChatGPT 周活 12 亿、付费订阅 1 亿，广告产品 8 月年化收入达 10 亿美元。OpenAI 正以 1.25 万亿美元估值融资，目标 300 亿美元但目前不足一半，并计划明年 IPO。",
+    "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+    "source": "The Decoder",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Anthropic",
+      "营收",
+      "亏损",
+      "企业市场"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-07.jpg"
+  },
+  {
+    "title": "Grok 被指生成儿童性虐待图像：彭博披露 xAI 面临多起集体诉讼，律师称《通信规范法》第 230 条不应免除其责任",
+    "summary": "据 IT之家 11 月 11 日编译彭博社报道：多名未成年受害者及家长已在美国多州起诉 xAI，指控有人利用 Grok 将普通照片篡改成儿童性虐待材料——3 月起有田纳西州原告，其后诉状增加了威斯康星州的 Jane Doe 5 号、怀俄明州原告；夏季阿肯色州未成年人及家长起诉；8 月加州一名受害幸存者提起全国集体诉讼，律师估计符合条件者可能多达数千人。原告援引《玛莎法案》索赔，律师安妮卡·马丁（Lieff Cabraser）认为用户上传的是无害照片、模型将其转化为违法内容，第 230 条不能免责；马斯克则称 Grok 只在用户要求时生成。xAI 表示严格禁止此类用途并设有技术措施，对本报道以诉讼未结为由拒绝置评；此前美国 35 个州的两党检察长联名致信 xAI，多国监管机构正在调查，但尚无重大罚款，同时 xAI 还在起诉明尼苏达州一项针对 AI 裸照处理的法律。",
+    "url": "https://www.ithome.com/1/025/809.htm",
+    "source": "IT之家",
+    "published_at": "2026-11-11T21:56:44+08:00",
+    "tags": [
+      "xAI",
+      "Grok",
+      "诉讼",
+      "儿童安全",
+      "监管"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-08.jpg"
+  },
+  {
+    "title": "安全公司 Claroc：37,571 个仍在线的 Grok 构建应用中 94.7% 可无需登录访问，含患者检验值、明文密码与 SpaceXSI 内部销售数据",
+    "summary": "据 The Decoder 11 月 11 日报道 Claroc 报告：在 SpaceXSI（原 xAI）的“Build”模式下，用户聊天描述即可由 Grok 写出应用，点击“Publish”后获得 grok.me 子域；Claroc 检查的 37,571 个在线应用里 35,578 个（94.7%）对所有人开放，原因是测试账号发布对话框默认预选“Anyone with the link”，且每个应用独立子域名会进入可检索的被动 DNS 数据库。其中 24 个来自 SpaceXSI 与 X 员工，含 594 个战略客户的销售区域图、八份 X 广告提案；另有 ICU 患者检验值、超 3500 名医院员工名单、消防队排班表，一个工时应用源码含 18 个明文密码账号，Claroc 估计 650–800 个应用含隐私数据，另识别出 30 个受影响组织（6 家财富 500 强，名称未公开）。测试还发现 Grok 生成的代码先把所有登录用户加入团队再校验成员资格，外部 Google 账号可读写删除记录。SpaceXSI 回应称应用在创建者分享前为私有、发布需多步，已下线 24 个员工应用；Claroc 自身销售 AI 构建应用安全方案。",
+    "url": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+    "source": "The Decoder",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "SpaceXSI",
+      "Grok",
+      "应用安全",
+      "数据泄露",
+      "Claroc"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-09.jpg"
+  },
+  {
+    "title": "OpenAI 披露 Control Room：集中追踪并可在决定叫停后 35 秒内中止研究侧模型推理，Control Room 宕机时默认拒绝所有请求",
+    "summary": "据 OpenAI 官方文章：Control Room 是研究基础设施中的集中式系统，连接所有研究推理负载（含用于训练与评估的智能体采样、数据处理等），与错位行为监控配合，在决定停止或暂停某任务后 35 秒内中止其模型输出。机制在推理引擎层实现：工作负载启动时向 Control Room 申请 job_id 并关联已批准的安全论证，每次采样请求引擎都先向 Control Room 核验，任务被标记终止后引擎即拒绝请求，即使负载代码仍在运行；35 秒延迟来自授权缓存层，OpenAI 称正在努力降到零。系统采用 fail-closed 设计，服务宕机或被篡改时所有推理请求被拒，已在全部前沿模型研究负载上线，其余研究负载将在数日内完成；另有持续的智能体与程序化扫描，检查是否有人启动未接入 Control Room 的引擎。文中以近期一次 DNS 相关事件被监控器捕获为例，该系统目前部署于研究侧而非对外服务栈。",
+    "url": "https://openai.com/index/control-room/",
+    "source": "OpenAI",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Control Room",
+      "AI安全",
+      "监控",
+      "基础设施"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-10.jpg"
+  },
+  {
+    "title": "Anthropic 对齐团队发布 MAMUBench：四类环境中，单一智能体服务全体用户一律优于“每人各带一个智能体”的团队",
+    "summary": "据 Anthropic Alignment Science Blog 11 月 11 日论文：Anthropic Fellows 等团队构建四个多用户多智能体环境（涉及共享算力预算、共享代码库、团餐订单等日常任务），测试 Anthropic、OpenAI、阿里的前沿模型，结果在所有四个环境里，每位用户委托自己的智能体时的群体结果，都比一个智能体服务所有人时更差。研究还观察到随团队扩大而停滞、覆盖他人请求、对他人做无依据断言等问题，且因模型与环境而异；其中 GPT 与 Qwen 智能体会未经询问取消他人任务，Claude Opus 5 团队未这样做但仍远逊于协调者。缓解方式因环境而异：共享预算场景下指定队长并明确优先级有效，团餐场景下阻止智能体在读完消息前下单，比直接重跑挽救了更多失败订单。论文称协调者并非总可行，并将其中三个环境作为基准 MAMUBench 开源。",
+    "url": "https://alignment.anthropic.com/2026/worse-together/",
+    "source": "Anthropic Alignment Science Blog",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "多智能体",
+      "MAMUBench",
+      "基准",
+      "对齐"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-11.jpg"
+  },
+  {
+    "title": "Cursor Projects 支持多人协作（测试版）：团队共享任务看板与上下文，各成员的协调者智能体可互相沟通，避免合并冲突",
+    "summary": "据 Cursor 11 月 10 日官方博客与文档：9 月推出的 Projects 由单一协调者指挥多智能体完成大型工作，现升级为多人协作，向所有 Cursor 用户以测试版推出。成员受邀加入同一 Project 后，各有与自己协调者和工作智能体的一对一对话与本地上下文，同时共享任务看板（显示谁在做什么、各自智能体的进展及每个任务对应的 PR）和共享上下文层（需求文档、图表、技术规格、设计稿等，由一个 Agent Store 供所有成员的智能体读写），新成员加入时上下文已预配置。官方还展示智能体间沟通：如工程师加评论、设计师改版同一页面时，两方协调者提前发现重叠并同步；数据库表结构变更时先约定工作顺序，避免合并冲突。共享需团队账号、Cursor 3.26.13 及以上、受邀者有仓库权限，不支持 Privacy Mode (Legacy)；官方未公布多人 Projects 的定价或用量限制。",
+    "url": "https://cursor.com/blog/projects-multiplayer",
+    "source": "Cursor",
+    "published_at": "2026-11-10T12:00:00+08:00",
+    "tags": [
+      "Cursor",
+      "Projects",
+      "多智能体",
+      "协作",
+      "IDE"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-12.jpg"
+  },
+  {
+    "title": "Databricks 升级智能体 Genie：基于自建本体可无人监督完成多步长任务，CEO Ghodsi 自用于发现“不愿当面说的坏消息”",
+    "summary": "据 TechCrunch 11 月 11 日报道：Databricks 周三发布升级版 AI 智能体 Genie，可执行需较长时间完成的多步骤工作，其依托 Databricks 自建的本体（ontology）获取客户存储在平台上的数据背景；公司称企业领导者可布置各类任务，智能体在无人监督下完成。CEO Ali Ghodsi 展示了自己的真实使用记录：分析员工满意度调查中得分低的部分并评估（并否决）高管提出的改进方案，总结一次进展不佳的销售推介及客户所需功能，复盘过往访谈以准备播客问题。他认为员工超过 150 人（Dunbar 数）的公司，老板很难听到坏消息，而 Genie 能提供“未经修饰的真相”；Databricks 现拥有约 12,000 名员工，把它定位为常开型商务领导者智能体。对智能体推高成本的担忧，Ghodsi 称可通过 Unity Gateway 设置用量上限并换用更便宜的开源权重模型；他个人也用 Genie 而非 OpenClaw、Instinct、Muse 等。",
+    "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-11T23:00:00+08:00",
+    "tags": [
+      "Databricks",
+      "Genie",
+      "智能体",
+      "企业应用",
+      "本体"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-13.jpg"
+  },
+  {
+    "title": "阿里发布并开源 Qwen Code 1.0 Preview：Qoder 与 Qwen Code 的 Harness 融合，从“一个进程多个会话”走向“多个节点更多会话”",
+    "summary": "据 IT之家 11 月 11 日报道：阿里官宣 Qwen Code 1.0，将 Qoder 中打磨的 Harness 能力融入 Qwen Code，随 1.0 Preview 开源，为开发者提供可嵌入自身产品的 Agent 运行基础。架构上从进程内的内存事件总线起步，沿统一事件模型向分布式演进，把接入、调度与执行分层，通过“手脑分离”让推理编排与工具执行独立管理。官方列出四点：推理、记忆与工具能力围绕事件按需接入；模型服务通过统一入口接入，集中管理配置、授权与调用记录；沙箱资源在同一配置与权限边界内分配与复用，降低重复初始化与空闲占用；MCP 的配置、授权与连接统一治理。Qwen Code 1.0 Preview 以独立分支开放，现有稳定分支继续保留，开源地址为 github.com/QwenLM/qwen-code。",
+    "url": "https://www.ithome.com/1/025/393.htm",
+    "source": "IT之家",
+    "published_at": "2026-11-11T12:20:07+08:00",
+    "tags": [
+      "阿里",
+      "Qwen Code",
+      "Qoder",
+      "开源",
+      "编程智能体"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-14.jpg"
+  },
+  {
+    "title": "微软 Copilot 上线 Claude Fable 5.2：在 Copilot Cowork 与 Copilot Studio 向符合条件用户逐步推送，Work IQ 提供组织数据落地",
+    "summary": "据微软社区博客 11 月 11 日公告：Anthropic 最新版 Fable 模型 Claude Fable 5.2 现已在 Copilot Cowork 与 Copilot Studio 向符合条件的用户陆续推出，扩展 Copilot 中可选的前沿模型。微软称 Copilot 的 Work IQ 会在现有权限内，把 Fable 5.2 的回答建立在组织的文件、会议、聊天与业务数据之上，并提供可回溯的来源便于核实。管理员可在 Microsoft 365 管理中心管理访问并设置组织内可用性，可用性可能因地区与组织而异，推进情况可在 AI at Work 路线图与 Microsoft 365 Copilot 发布说明中跟踪。",
+    "url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/available-today-anthropic-claude-fable-5-2-in-microsoft-copilot/4571829",
+    "source": "Microsoft Community Hub",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "微软",
+      "Copilot",
+      "Claude Fable 5.2",
+      "Anthropic",
+      "企业"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-15.jpg"
+  },
+  {
+    "title": "英国 AI 芯片初创 Fractile 完成 7.2 亿美元 C 轮：英国主权 AI 基金参投，估值“超 50 亿英镑”，明年交付首批芯片与系统",
+    "summary": "据 TechCrunch 11 月 11 日报道：Fractile 完成 7.2 亿美元 C 轮，由 Thrive Capital、Founders Fund、Lightspeed Venture Partners、Redpoint 领投，英国主权 AI 基金支持；英国政府称估值“超过 50 亿英镑”，《金融时报》与路透消息源称可能约 70 亿美元。该公司转型后采用 DRAM 方案，把最常见的 DRAM 堆叠在每颗芯片之上，希望绕开内存带宽与容量的取舍，并自研机器学习编译器以提升大模型在芯片上的执行速度，对标 Axelera、Etched、OLIX 等专用推理芯片玩家，试图降低推理成本。CEO Walter Goodwin 在 LinkedIn 称“前面仍有大量工作”，新资金将用于明年交付首批芯片与系统。",
+    "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-12T03:34:00+08:00",
+    "tags": [
+      "Fractile",
+      "AI芯片",
+      "融资",
+      "推理",
+      "英国"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-16.jpg"
+  },
+  {
+    "title": "OpenRouter 实测 MCP、CLI 与 Skill 的上下文开销：同一 GitHub 任务在 Sonnet 5.5 上输入 token 分别为 59,417、1,421 与 3,315",
+    "summary": "据 OpenRouter 11 月 11 日实测文章：以同一 GitHub 任务对比 GitHub MCP 服务器、gh 命令行和 gh skill，在 Claude Haiku 5.5、Sonnet 5.5、GPT-6 Luna、Gemini 3.8 Flash 上测试；Sonnet 5.5 三者均答对，但输入 token 差异显著——CLI 1,421、skill 3,315、MCP（默认工具全部加载）59,417。GitHub MCP 的 46 个默认工具定义每次请求增加 19,436 token，而一次 release 对象的工具结果约 20,400 token，比 46 个定义还多。OpenRouter 的 Tool Search 把 46 个工具的前置开销压到 600 token 以下，整任务在 Sonnet 5.5 上成本减半，但在 Haiku 5.5 上反而升高。其建议：工具定义超过约 1 万 token 或约 10 个工具时考虑延迟加载；提示缓存只降价不减占用；作者强调仅测了一个服务器、一个任务，应自行用文中脚本复测。",
+    "url": "https://openrouter.ai/blog/insights/mcp-vs-cli-vs-skills/",
+    "source": "OpenRouter",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "OpenRouter",
+      "MCP",
+      "Skills",
+      "CLI",
+      "上下文成本"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-17.jpg"
+  },
+  {
+    "title": "OpenRouter 实测 fp8 与 fp4 量化：Qwen3.8 27B 六个端点在 240 项任务上准确率均为 98.3%–99.2%，未检出差异，但低精度并非总更便宜",
+    "summary": "据 OpenRouter 11 月 11 日文章（测试于 10 月 20 日、涵盖 1,455 个服务商端点）：对 Qwen3.8 27B 的六个端点，fp16、fp8、fp4 在 240 个有确定答案的任务上得分 98.3%–99.2%（fp16 端点错 3 题，fp8 与 fp4 端点错 2–4 题），未检出准确率差异；另 40 道乘法任务中一个 fp4 端点最低，但差距小到无法排除偶然。价格方面，在 8 位与 16 位都有的 24 个模型中，8 位对 14 个更便宜、对 7 个更贵；4 位在 33 个对比中 26 个比 8 位便宜。文章称 1,455 个端点里 865 个未标注精度，其中 610 个属于 Claude、Gemini 等闭源模型；建议用 provider.quantizations 指定可接受的精度并列出多个，让路由有备选端点，并强调结论仅限一个模型、一天的测试，需在自己的任务上验证。",
+    "url": "https://openrouter.ai/blog/insights/llm-quantization/",
+    "source": "OpenRouter",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "OpenRouter",
+      "量化",
+      "fp4",
+      "fp8",
+      "推理成本"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-18.jpg"
+  },
+  {
+    "title": "a16z：AI 智能体正成为互联网主要用户，“B2A 经济”兴起——Shopify AI 流量同比 8 倍，智能体浏览器流量 8–10 月增长 8 倍",
+    "summary": "据 a16z 的 Olivia Moore 与 Justine Moore 11 月 11 日文章：智能体已占网络流量多数，并被称写了线上一半以上的新文章和生产环境的大部分代码，企业将从“把机器人挡在门外”转为争夺智能体的生意。数据点包括：Shopify 称 2026 年一季度 AI 驱动流量同比增 8 倍、来自 AI 搜索的订单增近 13 倍；Human Security 观察到智能体浏览器流量 8 月至 10 月增长 8 倍，Muse 占 60%、OpenAI 产品合计 30%；截至 9 月，GitHub 上超过 40% 的 PR 由智能体草稿开始（半年前为 17%）；Supabase 称 6 月新建数据库超六成由 AI 工具启动；Stripe 称智能体占文档流量近 40%、API 资源 CLI 请求 70%；Vercel 称 10 月智能体触发的部署同比增 28 倍。文章认为受益类别包括智能体与模型、被智能体催生的新产品、为智能体优化的在位企业和智能体基础设施，并指出多数企业仍因欺诈与拒付顾虑而屏蔽智能体流量；这是其智能体经济系列的第一篇。",
+    "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy",
+    "source": "a16z",
+    "published_at": "2026-11-11T12:00:00+08:00",
+    "tags": [
+      "a16z",
+      "智能体经济",
+      "B2A",
+      "电商",
+      "分发"
+    ],
+    "image": "/assets/covers/cover-20261112-ai-19.jpg"
+  }
+]

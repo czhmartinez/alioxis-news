@@ -1,0 +1,245 @@
+[
+  {
+    "title": "Max：小米 MiMo 招聘「AI 情报工程师」，JD 从竞品分析一路写到抓包、风控对抗与设备指纹",
+    "summary": "Max 转发群友在 BOSS 直聘看到的小米 MiMo 岗位：本以为只是研究 ChatGPT、Claude、Midjourney 等做技术分析，细读 JD 后发现还要求分析接口逻辑、鉴权与通信协议，对 Web/移动/桌面 AI 应用做抓包、反混淆与协议还原，并研究各家风控（账号、IP、设备、行为）、养号、实名、设备指纹，以及代理隧道、环境指纹与行为轨迹混淆。他感叹这已从竞品研究滑向逆向工程与风控攻防，「打算把全球头部 AI 产品从模型能力一路研究到设备指纹」。",
+    "url": "https://x.com/MaxForAI/status/2108444067113975903",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261010-v-00.jpg",
+    "published_at": "2026-10-09T14:26:53+08:00",
+    "tags": [
+      "小米",
+      "MiMo",
+      "竞品情报",
+      "风控"
+    ]
+  },
+  {
+    "title": "Max：切片孙哥播客谈 AI 认知，感慨「能成功是必然的」",
+    "summary": "Max 分享自己听「薄肌教父」AlanShao 与孙哥（@sunyuchentron）播客后做的切片图，聚焦孙哥对 AI 方向与认知的判断，并感慨对方能做成是必然。帖子本身偏观点传播与社区互动，配图为播客金句切片。",
+    "url": "https://x.com/MaxForAI/status/2108470360819847629",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261010-v-01.jpg",
+    "published_at": "2026-10-09T16:11:22+08:00",
+    "tags": [
+      "播客",
+      "AI认知",
+      "观点"
+    ]
+  },
+  {
+    "title": "Max 引用知乎长文：字节 Seed 团队如何解释 DeepSeek 性能漂移",
+    "summary": "Max 转发并点评知乎上关于字节 Seed 团队发现 DeepSeek 性能漂移的回答，称「知乎还是高人多」，认为文中对适配时未料到问题的解释清晰。帖子本身是对技术社区长文的推荐，指向模型服务端漂移与客户端适配之间的工程坑。",
+    "url": "https://x.com/MaxForAI/status/2108585615860343220",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261010-v-02.jpg",
+    "published_at": "2026-10-09T23:49:21+08:00",
+    "tags": [
+      "DeepSeek",
+      "性能漂移",
+      "字节Seed"
+    ]
+  },
+  {
+    "title": "小互：Claude Dashboards 与 Motion 上线——自然语言做实时看板，代码驱动把报告做成可导出动画",
+    "summary": "小互梳理 Anthropic 新功能：Claude Dashboards 可接入企业数仓或 CRM，用自然语言提问生成随数据刷新的业务看板；Claude Motion 则用代码为文字、图表、形状编排动画并导出 MP4，强调不靠视频生成模型捏人。他配演示视频，定位为「让分析与表达接到同一段对话里」。",
+    "url": "https://x.com/xiaohu/status/2108435846743671035",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261010-v-03.jpg",
+    "published_at": "2026-10-09T13:54:13+08:00",
+    "tags": [
+      "Claude",
+      "Dashboards",
+      "Motion",
+      "AI办公"
+    ]
+  },
+  {
+    "title": "小互发布 Claude Motion / Dashboards 完整上手指南：含提示词模板与交付前检查清单",
+    "summary": "在功能解读之后，小互放出长文指南，覆盖 Dashboards 实战避坑、Motion 工作流、从一句话需求到可交付视频的提示词写法、官方单车案例业务闭环，以及新手交付前检查清单。强调提问要写清业务问题与表名，而不是只说「画一张图」。",
+    "url": "https://x.com/xiaohu/status/2108541811006530031",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261010-v-04.jpg",
+    "published_at": "2026-10-09T20:55:17+08:00",
+    "tags": [
+      "Claude",
+      "教程",
+      "Dashboards",
+      "Motion"
+    ]
+  },
+  {
+    "title": "小互解读 Contra 2026 创意报告：AI 降低制作门槛，也抬高专业创意标准",
+    "summary": "小互转述 Contra Labs 调查：超 70% 创意人日用 AI，善用者客单价/项目规模平均涨逾 40%。真正用法是前期找灵感、中期让模型挑刺、终局审美仍靠人；新兴赚钱岗位包括 AI 工作流设计、AI 创意总监、落地页生成、品牌提示词包、合成品牌摄影等。他同时给出中文详解与原报告链接。",
+    "url": "https://x.com/xiaohu/status/2108504237915463862",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261010-v-05.jpg",
+    "published_at": "2026-10-09T18:25:59+08:00",
+    "tags": [
+      "创意产业",
+      "Contra",
+      "AI采用"
+    ]
+  },
+  {
+    "title": "Tibo：Codex 第 5 天上线 Composer 预测，预填下一条提示且不消耗 Pro 用量",
+    "summary": "OpenAI Codex 负责人 Tibo 宣布 Day 5：桌面端 Composer predictions 进入 beta，常能「准到让人回头再看一眼」；含在 Pro 计划中且不计入用量。他引用 Codex 团队说明：这是内部测试中最受欢迎的新功能之一。",
+    "url": "https://x.com/thsottiaux/status/2108645667451318747",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261010-v-06.jpg",
+    "published_at": "2026-10-10T03:47:58+08:00",
+    "tags": [
+      "Codex",
+      "Composer",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "Tibo：可在 ChatGPT 手机 App 内创建并短信联系自己的 dot",
+    "summary": "同日 Day 5（dots 版）：Tibo 称用户现在能完全在 ChatGPT 移动应用里创建 dot，并对其发短信；此前很多人只能走桌面/网页。他表示对这么多人早已通过桌面创建感到印象深刻，现在是时候规模化了。",
+    "url": "https://x.com/thsottiaux/status/2108646052178092403",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261010-v-07.jpg",
+    "published_at": "2026-10-10T03:49:30+08:00",
+    "tags": [
+      "dots",
+      "ChatGPT",
+      "移动端"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Microsoft-Decision-1 上线 Foundry，官方称比 GPT-6 Sol 快 35 倍",
+    "summary": "TestingCatalog 汇总 Nadella 发布：Microsoft-Decision-1 基于 Qwen3.5-9B 后训练，做单次前向决策打分，后续计划 rebase 到 MAI 与 OpenAI 模型；官方称 36 项盲测准确率最高，速度约为亚军 4.5 倍、GPT-6 Sol 的 35 倍，已在事故响应、质控与科学发现等场景试用。",
+    "url": "https://x.com/testingcatalog/status/2108647491033821668",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261010-v-08.jpg",
+    "published_at": "2026-10-10T03:55:13+08:00",
+    "tags": [
+      "Microsoft",
+      "Decision-1",
+      "模型发布"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Claude Managed Agents 动态工作流进公开测试，可编排多智能体舰队",
+    "summary": "TestingCatalog 指出 Anthropic 将动态工作流扩到公开 beta，用户可配置多智能体编排，让 Claude 规划并运营一批智能体达成目标；认为「智能体环调用多智能体工作流」会成为新的软件工程常态，并附 ClaudeDevs 演示。",
+    "url": "https://x.com/testingcatalog/status/2108597580435231118",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261010-v-09.jpg",
+    "published_at": "2026-10-10T00:36:53+08:00",
+    "tags": [
+      "Claude",
+      "Managed Agents",
+      "多智能体"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Pine Computer 云电脑上线，SaaS-Bench 检查点分高于 Opus 5 + Claude Code",
+    "summary": "TestingCatalog 介绍 Pine AI 的 Pine Computer：面向智能体任务的云电脑/harness/运行时。SaaS-Bench v1.1 上检查点分 78.3%（Opus 5+Claude Code 为 74.3%），整题完成率 27.4% 对 31.1%；特点是把网页当结构化数据读、变更直接报给模型，而非模拟点击截屏。目前私有 beta 等待名单。",
+    "url": "https://x.com/testingcatalog/status/2108595450529857856",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261010-v-10.jpg",
+    "published_at": "2026-10-10T00:28:25+08:00",
+    "tags": [
+      "Pine Computer",
+      "计算机使用",
+      "评测"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Sabi 获 5000 万美元，做非接触式「读脑」帽子把意念转成文本",
+    "summary": "TestingCatalog 报道 Sabi 获得 Khosla、Accel、Initialized、DST、Collab Fund 及 Kevin Weil 等参与的 5000 万美元融资，产品 Sabi Cap 自称用台积电非接触 EEG 芯片与自研 Brain Foundation Model，目标把脑信号变成文本，并喊出「SMART HATS ARE HERE」。",
+    "url": "https://x.com/testingcatalog/status/2108569887585022109",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261010-v-11.jpg",
+    "published_at": "2026-10-09T22:46:51+08:00",
+    "tags": [
+      "Sabi",
+      "脑机接口",
+      "融资"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Antigravity 隐藏引用 Gemini 4 Argon 三档推理；内部「Carbon」编码据称近 Opus 5.5",
+    "summary": "TestingCatalog 探测到 Antigravity 中出现 Gemini 4 Argon 的 low/medium/high 推理力度引用，Gemini 网页也统一了推理选择器；并援引 BI 称谷歌内部下一检查点 Carbon 在编码上接近 Opus 5.5，文中 Jetsky 即 Antigravity。属产品探测与媒体爆料，未正式发布。",
+    "url": "https://x.com/testingcatalog/status/2108696747874697354",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261010-v-12.jpg",
+    "published_at": "2026-10-10T07:10:57+08:00",
+    "tags": [
+      "Gemini 4",
+      "Argon",
+      "泄漏"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Grok Bot 可认领独立邮箱，实测能替用户订阅 AI Brief",
+    "summary": "TestingCatalog 称 Grok Bot 用户可让机器人申请自己的邮箱，用于通信与订阅 newsletter；作者让 bot 订阅自家每日 AI Brief 并顺利完成，进入进一步测试阶段。",
+    "url": "https://x.com/testingcatalog/status/2108628488299204970",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261010-v-13.jpg",
+    "published_at": "2026-10-10T02:39:42+08:00",
+    "tags": [
+      "Grok Bot",
+      "邮箱",
+      "xAI"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Google AI Studio Build 出现 Ultra 模式，描述为用高级技能与工具构建",
+    "summary": "TestingCatalog 发现 AI Studio Build 开发中新增 Ultra 模式，与 Plan、Build、Security review 并列；尚不清楚是否绑定 Ultra 订阅或具体工具集，推测可能服务即将到来的 Gemini 4 Argon。",
+    "url": "https://x.com/testingcatalog/status/2108540572449300741",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261010-v-14.jpg",
+    "published_at": "2026-10-09T20:50:21+08:00",
+    "tags": [
+      "Google AI Studio",
+      "Ultra",
+      "产品探测"
+    ]
+  },
+  {
+    "title": "逸尘：用 Step 5 Preview 与 DeepSeek 4.1 Flash 同提示词各做一版《保卫萝卜》，前者易玩性与 UI 更胜",
+    "summary": "逸尘回老家看到小朋友玩《保卫萝卜》后，用 Claude Code + CCswitch 分别接入 Step 5 Preview 与 DeepSeek 4.1 Flash，隔离 Skill/记忆等影响因素，用同一简单提示词一次性生成完整塔防游戏。他评价两者完整度伯仲之间，但易玩性与界面精美度上 Step 5 Preview 更好，并提到 Step 5 Preview 上线次日曾在 OpenRouter 登顶。",
+    "url": "https://x.com/gengdaJ/status/2108549740971311226",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "image": "/assets/covers/cover-20261010-v-15.jpg",
+    "published_at": "2026-10-09T21:26:47+08:00",
+    "tags": [
+      "Step 5",
+      "DeepSeek",
+      "游戏生成",
+      "模型实测"
+    ]
+  },
+  {
+    "title": "逸尘：国庆闭关写出 Claude 注册/订阅/KYC 保姆级长文，称踩坑极多后整理成可复刻流程",
+    "summary": "逸尘发布长文教程，梳理自己开通官方 Claude（含 Pro/Max 与 KYC）的完整流程要点：新 Gmail、美区 Apple ID、稳定出口 IP、清理旧配置、Shadowrocket 分流、时区、订阅与护照 KYC 等。他强调 Anthropic 封禁随机性大，文章只分享真实开通经历、不承诺防封；并表示后续可能继续写 Claude Code 玩法。内容为个人经验分享，读者需自行判断合规与风险。",
+    "url": "https://x.com/gengdaJ/status/2108365241960788340",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "image": "/assets/covers/cover-20261010-v-16.jpg",
+    "published_at": "2026-10-09T09:13:39+08:00",
+    "tags": [
+      "Claude",
+      "订阅",
+      "教程",
+      "KYC"
+    ]
+  }
+]

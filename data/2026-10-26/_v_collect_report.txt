@@ -1,0 +1,47 @@
+大V视野收集报告 — 2026-10-26（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用 2026-10-25 _v_raw_mcp.json 中已解析的 id → get_users_posts（exclude=replies, start_time=2026-10-24T20:00:00Z, max_results=25；@MaxForAI 40；@testingcatalog 50；均未返回 next_token，无需翻页）
+- 长文补全：get_posts_by_ids（8 个 id：卡兹克 Agent 流水线 note_tweet 全文、Max 黄仁勋图帖、逸尘剪映下架帖，以及被引用的 @ForkedPush 30 天 227 commits、@canghe 产品红黑榜、@NousResearch Hermes 预告、@dummerspast39 Dario 反战视频、@shawmakesmagic pumpfun 逆向原帖）
+- 另用 curl 读取配图核实内容（Nanbeige 跑分图、AI Studio Managed Agents 截图、Muse 语音引导页、Hermes 预告图、Tibo 海绵宝宝转场图、GEEKCON 谭晓生朋友圈截图、黄仁勋语录图、产品红黑榜墙、逸尘聊天截图）
+- 未使用浏览器；未使用 user-X；本次共 7 次 X 读取（6 次 get_users_posts + 1 次 get_posts_by_ids）
+
+入选：12 条
+各 handle 入选计数：
+  @Khazix0918: 1
+  @MaxForAI: 3（另将 Max「Codex 北京时间下午三点重置」并入 Tibo 条）
+  @xiaohu: 1
+  @thsottiaux: 1（Day 20 / By midnight PST / It is all propagated 三帖合并）
+  @testingcatalog: 4（Muse 语音通话 + Avatar 分享合并为一条）
+  @gengdaJ: 2
+
+原始拉取条数摘要：
+  @Khazix0918: 1（Agent 自动化流水线完成版）
+  @MaxForAI: 6（RTX 解锁、Dario 反战、Jack Clark 失控论、GEEKCON 无人机报警、黄仁勋「爱吃苦」图、Codex 重置提醒）
+  @xiaohu: 2（引用 @ForkedPush 30 天作品；引用 @canghe 产品红黑榜「得不到就诋毁」）
+  @thsottiaux: 3（Day 20 主帖 + By midnight PST 自回复 + It is all propagated）
+  @testingcatalog: 8（Nanbeige4.3-33B、Muse 语音、Muse Avatar + Documented 自回复、AI Studio Managed Agents + Documented 自回复、Hermes App、Google「SI」命名）
+  @gengdaJ: 3（Opus 5.5 3D 游戏、剪映 Skill 下架、无评论 RT @gentlemanzhao）
+
+Lead：Max：RTX 20/30/40 三代显卡的 Tensor Core 隐藏算力被民间破解——4090 从 165.6 翻倍到 331.6 TFLOPS，开源项目与中文教程已齐
+Lead URL：https://x.com/MaxForAI/status/2114402686821159108
+（卡兹克 Agent 流水线为 10-22 头条「微缩工厂」的完成版，题材已做过头条，故放第 1 条；Max RTX 解锁信息量最大、带完整数据与开源仓库链接。生成时 data/2026-10-26/ai.json 尚不存在，_aihot_summary.txt 中无同题）
+
+筛选说明：
+- 本时段六个账号原创 AI 内容偏少（周六），仅够 12 条，已到下限，未为凑数收录梗图或非 AI
+- 跳过非 AI：Max「GEEKCON 2026 因破解无人机被报警叫停」（白帽安全赛事事件，帖中未涉及 AI）
+- 跳过梗图/语录图：Max「英伟达CEO：中国人就是爱吃苦」（来源存疑的语录配图）；小互「得不到就诋毁…」（引用产品红黑榜墙照片，10-25 Max 同题照片已判定跳过）
+- 跳过碎片：TestingCatalog 两条「Documented 🗞️」链接自回复
+- 跳过转推无评论：逸尘 RT @gentlemanzhao
+- 已收录：TestingCatalog Google「SI」内部命名（10-24 20:30Z，已于 10-25 收录）
+- 与 2026-10-11～10-25 v.json 及 ai.json 去重（801 个 URL）：入选 12 条无重复 URL
+- 连续话题说明：卡兹克流水线（10-22 雏形 → 今日完成版）、逸尘剪映（10-22 律师函 → 今日下架）、Codex 额度（10-25 小互吐槽 → 今日全量重置），均为新进展、新 URL
+- 三位优先账号：卡兹克 1、Max 3、小互 1
+
+输出文件：
+  data/2026-10-26/v.json
+  data/2026-10-26/_cover_prompts_v.json
+  data/2026-10-26/_v_raw_mcp.json
+  data/2026-10-26/_v_collect_report.txt
+
+未执行：build / 生图 / 发布

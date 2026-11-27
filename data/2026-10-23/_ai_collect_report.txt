@@ -1,0 +1,57 @@
+Alioxis News AI新闻收集报告 — 2026-10-23（Asia/Taipei）
+
+条数：20
+Lead：Claude 给 123 个开源库写出汇编级「不会崩溃」证明（Anthropic 形式化验证研究）
+Lead URL：https://www.anthropic.com/research/formal-verification
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-23/_aihot_daily.json（fetch-aihot-daily.js 成功，08:08 抓取）
+- /workspace/alioxis-news/data/2026-10-23/_aihot_summary.txt（按 10-22 同格式生成：lead 头 + sections + flashes；同一脚本已用 10-22 数据回放校验逐字节一致）
+- /workspace/alioxis-news/data/2026-10-23/_prior_urls.json（已存在，08:08 由大V视野流程写入，扁平 URL 列表 425 个；已核对等于 10-09..10-22 的 ai.json + v.json URL 并集，未覆盖、直接复用）
+- /workspace/alioxis-news/data/2026-10-23/ai.json
+- /workspace/alioxis-news/data/2026-10-23/_cover_prompts_ai.json（20 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-23/_ai_collect_report.txt
+
+纳入（20）：
+00 Anthropic 形式化验证：curl 核实 anthropic.com/research 原文（仅日期 10-22，按惯例 12:00+08:00 占位）；HN 首帖 10-22 22:54Z；AIHOT 论文栏收录
+01 MAI-DxO 登 Science：curl 核实 microsoft.ai/news 原文（10-22 18:01Z）；AIHOT 论文栏（SDBench/MAI-DxO）
+02 Storm-0940 / ARTEX / ConnectWise：curl 核实 Microsoft Security Blog 原文（10-21 18:23:55Z）；交叉 Wiz 博客 10-22 13:05Z、TechCrunch 10-22 16:47Z；与 10-09 韩国银行 ARTEX 事件为不同行动
+03 Decisions API GA：WebFetch 核实 openai.com 原文（RSS 10-22 19:00Z）；交叉 TechCrunch；10-07 已收录公测，此条为 GA 新信息
+04 OpenAI 300 亿美元 / 1.25 万亿估值：curl 核实 TechCrunch 10-22 22:08:24Z
+05 DeepSeek 约 150 亿美元融资：curl 核实 TechCrunch 10-22 13:11:13Z；AIHOT 行业栏
+06 Agent Skills 捐给 AAIF：curl 核实 anthropic.com/news 原文（仅日期 10-22）；取 HN 首帖 10-22 18:00Z 近似
+07 Canva Craft：curl 核实 TechCrunch 10-22 19:00Z
+08 1Password for Agents：curl 核实 TechCrunch 10-22 19:07:09Z
+09 Uber 全员 ChatGPT Work：WebFetch 核实 openai.com 原文（RSS 仅日期 10-22）；时间取 TechCrunch 同题报道 10-22 16:00Z
+10 Liquid AI RIPL：curl 核实 MarkTechPost 10-22 17:33:25Z；延迟数字注明为厂商自测
+11 Replit Monitoring Agent：curl 核实 replit.com/blog 原文（10-22 20:24:13Z）；AIHOT 产品栏
+12 PHP2Shell 公开前已遭利用：curl 核实 AWS Security Blog 原文（10-21 22:36:26Z）；交叉 WIRED、HN 249/340 分；与昨日头条（OpenAI 披露）及今日 AIHOT 头条（复盘）角度不同
+13 METR/Redwood 红队 OpenAI 智能体监控：curl 核实 blog.redwoodresearch.org 原文（10-22 15:32:17Z）；AIHOT 论文栏
+14 赛门铁克 Skynet / LLMjacking：curl 核实 The Decoder 10-22 11:30:56Z；AIHOT 快讯
+15 Hugging Face Carbon-X：curl 核实 WIRED 10-22 10:00Z
+16 Cohere Rerank 5：curl 核实 MarkTechPost 10-22 16:31:31Z
+17 WorldTUI：curl 核实 simedw.com 原文（页面日期 10-21）；HN 498 分，取 HN 首帖 10-22 02:18Z 近似
+18 Switch 2 破解借助 Codex：curl 核实 The Verge 10-22 17:21:31Z；作者博文 HN 近 700 分
+19 Warp Sciences 2.15 亿美元：curl 核实 The Next Web 10-22 16:05:08Z
+
+跳过 / 未单独成卡：
+- 与今日 v.json（大V视野流程写入，20 条，头条为 Max「Arena 匿名模型 Kibitz/Kalmia 疑为 Kimi K3.1 与 Qwen4」）同题而撤下：美国大银行封堵 AI 智能体（The Decoder 已核实；v.json #12）、Google Cloud Agent Compute Engine（The Decoder 已核实；v.json #15），改补 09 Uber ChatGPT Work、10 Liquid RIPL
+- 与今日 v.json 同题但保留（沿用 10-18..10-22 双页签并存先例，两页签头条已错开）：03 Decisions API GA（v.json #9 TestingCatalog）、06 Agent Skills→AAIF（v.json #4 Max）、08 1Password for Agents（v.json #13）、12 PHP2Shell 抢跑利用（v.json #1 卡兹克复盘长文，角度不同）、13 METR/Redwood（v.json #6 Max 解读；AI新闻取 Redwood 原文）
+- Claude auto mode 默认开启（AIHOT 原文为 X 帖，且 v.json #2 已收录）、Claude Platform 登陆 Google Cloud（v.json #18）：不重复
+- WSJ SpaceX–Tesla 合并传闻（AIHOT 行业栏；SpaceX 相关近期已多次收录）、Newcomer Anthropic 股权结构表、Anthropic S-1（ithome 快讯，10-21 已收录同题）、MiniMax Code Mini App、Kling 4.0、Anthropic subagents 指南、Sierra τ-Entity：已有、偏解读或名额原因未成卡
+- Claude Google Docs 集成（claude.com 日期 10-06，旧闻）、NVIDIA OpenShell（仓库 2 月创建，仅 HN 上榜）、Mistral Large 4（10-07 已收录）：旧闻
+- NVIDIA Minerva、Spotify agents、AI 游说记录、Gartner 13% 报告：名额或相关性原因未成卡，可作备选
+
+去重：
+- 对照 _prior_urls.json（425 个 URL）：本批 20 个 URL 无完全重复，批内 URL 亦唯一
+- 已与今日 v.json（20 条）交叉：URL 无重复；同题处理见上方「跳过」
+- AIHOT 日报 12 个标题键（lead + sections）：已用 build.js 的 normalizeTitle/aihotTitleKeys/overlapsAihot 原函数脚本自检，20 条均无命中；与 AIHOT 同题的 00/01/02/03/05/06/11/12/13 均已改写标题措辞
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词：数学档案馆证明书塔与 RISC-V 板盖印、玻璃罐装虫（形式化验证）/ 五位全息医生圆桌会诊（MAI-DxO）/ 备份磁带库柜门被撬、钥匙如沙流出（Storm-0940）/ 黎明铁路编组站光胶囊列车三向分轨（Decisions API）/ 交易大厅金条塔、沙丘漫入、顶端黑国王棋子（OpenAI 融资）/ 西湖晨雾中载电芯与金币的纸船（DeepSeek）/ 社区图书馆工具文件夹借给企鹅基金会吉祥物（Agent Skills）/ 绘图桌半边版式草稿半边成品海报（Canva Craft）/ 送货机器人在门口出示门卡、真钥匙锁在钢盒（1Password）/ 网约车运营中心员工与小助手（Uber）/ 液冷 GPU 刀片旁静止的蜂鸟（RIPL）/ 开发者沙发熟睡、消防头盔小机器人修补应用小屋（Replit）/ 蜂巢蜜罐被戴手套的手提前探入（PHP2Shell 抢跑）/ 外部审查员手电照出控制台背后的暗处摄像头（METR/Redwood）/ 雨夜屋顶敞开机柜伸出机械藤蔓、电表狂转（Skynet）/ DNA 双螺旋从笔记本屏幕绕出成对话气泡（Carbon-X）/ 机械臂放大镜从文件堆挑出高亮段落与天平（Rerank 5）/ 拔掉线仍亮着的绿色 CRT 终端与发光神经方块（WorldTUI）/ 拆开的掌机与老游戏卡盒（Switch 2）/ 机器人模仿戴头戴相机的化学家（Warp Sciences）
+- 16:9，无文字数字，无统一刊头色带、无万能会议室；file 名 cover-20261023-ai-00…19.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：WebFetch（openai.com ×2）/ curl + trafilatura（元数据与正文：anthropic.com、microsoft.ai、microsoft.com、wiz.io、techcrunch.com、the-decoder.com、replit.com、aws.amazon.com、wired.com、blog.redwoodresearch.org、marktechpost.com、simedw.com、theverge.com、thenextweb.com、claude.com）/ HN Algolia API / RSS（TechCrunch、The Verge、The Decoder、WIRED、OpenAI、MarkTechPost、TNW 等；VentureBeat RSS 格式损坏跳过）/ X MCP 未使用
+AIHOT 线索：fetch-aihot-daily.js 成功（lead 为卡兹克 PHP2Shell 全景复盘，sections 12 条 + 快讯 7 条）；核实后改写标题纳入 00/01/02/03/05/06/11/13/14，PHP2Shell 改用 AWS 抢跑利用角度（12）；auto mode 与 v.json 同一 X 帖、SpaceX–Tesla 等未纳入，其余由公开源补齐
+published_at 说明：有精确时间的取源站元数据/RSS 时间换算 +08:00；只有日期的 Anthropic 形式化验证按 10-22 12:00+08:00 占位（同 10-18..10-22 惯例）；Agent Skills（官方仅日期）取 HN 首帖 10-22 18:00Z（=10-23 02:00+08:00）近似；WorldTUI 取 HN 首帖 10-22 02:18Z 近似；Uber 取 TechCrunch 同题报道时间

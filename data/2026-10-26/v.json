@@ -1,0 +1,187 @@
+[
+  {
+    "title": "Max：RTX 20/30/40 三代显卡的 Tensor Core 隐藏算力被民间破解——4090 从 165.6 翻倍到 331.6 TFLOPS，开源项目与中文教程已齐",
+    "summary": "Max 转述社区最新进展：NVIDIA 多年来对消费级显卡 Tensor Core 运算设置的部分性能限制，被民间开发者从底层解除，不需要更换硬件、不用刷 BIOS，也不用魔改官方驱动，部分显卡计算吞吐量原地翻倍。社区公布的测试结果包括：RTX 4090 由 165.6 提升到 331.6 TFLOPS；RTX 3090 Ti 的 BF16 从 87.5 提升到 157.4 TFLOPS，涨约 80%；八年前的 RTX 2080 Ti 特定 FP16 运算吞吐接近翻倍；RTX 4070 Ti SUPER 的 FP16/BF16 吞吐也接近翻倍，甚至已有人在 Windows 11 上复现。各代都有对应开源项目：Turing（20 系）用 nlzy/turing-unlock，Ampere（30 系）用 Zagitta/gpu-unlock，Ada（40 系）用 gpu-unlock-ada，另有针对改装版 RTX 4080 的 Windows 11 实验方案，以及 gpu-unlock.com 上的中文安装说明。Linux 用户需按仓库教程安装内核模块、配置启动参数，再通过冷启动触发解锁。Max 感叹 NVIDIA 靠精准的产品刀法卖了多年显卡，结果被 GitHub 上的民间大神「硬生生把刀给撅了」，一张用了七八年的老卡也能在 2026 年迎来这种级别的算力解锁。",
+    "url": "https://x.com/MaxForAI/status/2114402686821159108",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-26T01:04:18+08:00",
+    "tags": [
+      "显卡",
+      "NVIDIA",
+      "Tensor Core",
+      "本地算力",
+      "开源"
+    ],
+    "image": "/assets/covers/cover-20261026-v-00.jpg"
+  },
+  {
+    "title": "卡兹克：花 5 天把 Agent 自动化流水线做完——微缩景观小镇与现实时间天气打通，Opus 5.5 指挥 GPT-6 Astra 建模渲染",
+    "summary": "10 月 22 日晒出「微缩工厂」雏形后，卡兹克宣布前后花了 5 天，终于把自己的 Agent 自动化流水线做完。起因是他的自动化任务太多且分散：有在桌面端定时触发的，有 Webhook 后用后台 CLI 触发的，还有设在 Dots 里的，于是想做一个统一的可视化管理界面。第一版只是普通网页列表，觉得没意思，受《戴森球计划》启发改成可视化流水线，调了 N 版美术风格后定为微缩景观风格，打算平时放在小屏幕上当桌搭。设计上，流水线代表预设的自动化，每发出一个包裹就是一次具体任务，会被路由到两个 Agent 上执行；整个小镇与现实世界的时间和天气完全打通，现实下雪，小镇里也会下雪。分工方面，Claude Opus 5.5 负责搭整体视觉和框架，再由 Opus 5.5 指挥 GPT-6 Astra 建模和渲染，Codex 在他自己的 CI 机上跑海量端到端测试，总共用掉约 30% 的 Claude 周额度和「两管」Codex 额度，还顺手渲染了一段演示视频。他的建议是：想玩转 Agent，就把一切能自动化的都自动化。",
+    "url": "https://x.com/Khazix0918/status/2114343004471460341",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-25T21:07:09+08:00",
+    "tags": [
+      "Agent",
+      "自动化",
+      "可视化",
+      "Opus 5.5",
+      "GPT-6 Astra",
+      "Codex"
+    ],
+    "image": "/assets/covers/cover-20261026-v-01.jpg"
+  },
+  {
+    "title": "Max：Jack Clark 说中国模型「还太笨、没出现失控 Agent 群」，他认为可能说对了——失控恰恰是长程自主能力的体现",
+    "summary": "针对近日被大量转发的 Anthropic 联合创始人 Jack Clark 采访——他称中国模型落后西方 6 到 12 个月，「还没见到失控的 Agent 群体，他们的模型还太笨」，几个月后也会面临同样的风险——Max 写下自己的看法：很多人觉得把失控拿来炫耀很荒谬，但他认为这话可能说对了。在他看来，某些复杂的失控行为本身就是高级 Agent 能力的体现，比如沙箱逃逸：模型要在有防护的环境里自主找漏洞、规划路径、不断试错并根据反馈调整策略，这正是能自主规划、持续验证每一步、失败后自己找下一条路的 L3 智能，只是用在了人类不希望的地方。他引用 AISI 与 CAISI 在 Kimi K3 发布时做的网络安全评测：面对一条 32 步的模拟攻击路径，Kimi K3 平均推进到第 17 步，同期最强的美国模型平均推进到 28.5 步。他认为核心差距在于模型是否经过足够多带可验证反馈的任务训练，真正学会规划、执行、验证和纠错；随着基座能力、训练算力和多轮交互训练继续 scaling，任务、环境与验证机制也跟上，这类能力有机会跨过新的可用性门槛。结论是：能回答复杂问题，和能自主完成复杂任务，中间还隔着很远。",
+    "url": "https://x.com/MaxForAI/status/2114296407570231785",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-25T18:01:59+08:00",
+    "tags": [
+      "Agent",
+      "AI 安全",
+      "中美差距",
+      "Anthropic",
+      "Kimi K3"
+    ],
+    "image": "/assets/covers/cover-20261026-v-02.jpg"
+  },
+  {
+    "title": "逸尘：用 Opus 5.5 零成本做出《卖火柴的小女孩》3D 纪念游戏——混元 3D 生资产、Mesh2Motion 本地绑骨、Three.js 呈现",
+    "summary": "逸尘称 Opus 5.5 在审美上「太无敌了」，他用它做了一个纪念《卖火柴的小女孩》的 3D 网页游戏，全程花费 0 美元，从故事书到童话小镇再到每一处景深都做得很细，并公开了可复刻的五步流程：1）与 Claude Opus 5.5 对话，构建完整的故事大纲和世界脚本；2）用 GPT image2.5 生成整个世界的画面预览和所需 3D 素材的预览图；3）用腾讯混元 3D 生成 3D 资产（每天免费 20 次，支持单图生 3D、多图生 3D，对新手友好）；4）第一版人物动作太僵硬，于是换成开源的 Mesh2Motion 在本地做骨骼绑定；5）找公开的音乐和音效，配合 Three.js 在网页中呈现，并附上了试玩网址。他也坦言受模型能力限制，游戏本身还不完美，之后会用更强的模型再试；在他看来，围绕外国人喜欢的故事做出海游戏站，本身就有不小的商业潜力。",
+    "url": "https://x.com/gengdaJ/status/2114350632215924921",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-10-25T21:37:28+08:00",
+    "tags": [
+      "Opus 5.5",
+      "3D 游戏",
+      "混元 3D",
+      "Three.js",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20261026-v-03.jpg"
+  },
+  {
+    "title": "Tibo Day 20「休息与重置」：Codex 额度于太平洋时间午夜全量重置，Max 提醒即北京时间下午三点",
+    "summary": "OpenAI Codex 负责人 Tibo 的连更进入第 20 天，标题就是「Rest and reset」（休息与重置），随后补充重置将在太平洋时间午夜前完成。Max 随即转引提醒：Codex 将于北京时间下午三点重置。约两个半小时后，Tibo 配上一张海绵宝宝「一小时后……」的转场图宣布「已全部推送生效」，让大家明天尽情「疯狂 Codexing」，并预告接下来一周也会很有意思。此前几天，小互等用户刚吐槽过 Codex 额度消耗太快，这次全量重置算是一次及时回血。",
+    "url": "https://x.com/thsottiaux/status/2114237083652882932",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-10-25T14:06:16+08:00",
+    "tags": [
+      "Codex",
+      "OpenAI",
+      "额度重置"
+    ],
+    "image": "/assets/covers/cover-20261026-v-04.jpg"
+  },
+  {
+    "title": "TestingCatalog：南北阁发布 Nanbeige4.3-33B——约 30B 级开源模型新 SOTA，Terminal-Bench 4.0 与 DeepSWE 大幅领先 Qwen3.8-27B",
+    "summary": "TestingCatalog 转引 Nanbeige 官方公告：Nanbeige4.3-33B 发布，定位为约 30B 参数级别开源模型中智能体能力的新 SOTA，在智能体编程和 cowork 类任务上表现突出，大多数基准超过 Qwen3.8-27B、Muse-Glimmer-30B 和 Gemma4-31B。官方的思路是「先造一个强老师」：33B 接入主流 Agent 框架即可以较低推理成本处理真实任务，同时将作为后续小模型的老师，首个是已计划中的 Nanbeige4.3-3B。随帖对比图显示（Nanbeige4.3-33B 对 Qwen3.8-27B）：Terminal-Bench 2.1 为 80.9 对 73.0，Terminal-Bench 4.0 为 23.8 对 6.3，DeepSWE 为 65.5 对 42.5，SWE-Atlas-QnA 为 50.8 对 41.9，NL2Repo 为 53.0 对 48.3，Automation 为 54.2 对 38.3，JobBench 为 44.8 对 34.5，Toolathlon-Verified 为 70.4 对 68.5；Gemma4-31B 在多数智能体基准上仅为个位数到三十多分。",
+    "url": "https://x.com/testingcatalog/status/2114403162027155544",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-26T01:06:12+08:00",
+    "tags": [
+      "开源模型",
+      "Nanbeige",
+      "Agent",
+      "编程",
+      "模型发布"
+    ],
+    "image": "/assets/covers/cover-20261026-v-05.jpg"
+  },
+  {
+    "title": "TestingCatalog：Google AI Studio 即将上线 Managed Agents——集中管理自主 Agent 的工具、环境、凭证与触发器",
+    "summary": "TestingCatalog 发现 Google AI Studio 正在准备 Managed Agents（托管 Agent）功能，用户可以在专门的 Agents 中心「检查并管理自主 AI Agent 及其工具、环境和触发器」。泄露截图显示，AI Studio 左侧栏新增了 MANAGED AGENTS 分组，下设 Agents、Environments、Credentials、Triggers、Runs 五个入口，与 API Keys、用量计费、日志数据集并列；目前页面还无法加载 Agent 列表。TestingCatalog 指出，Google 本周早些时候刚为 GCP 发布了新的 Agent Compute Engine，这套托管方案很可能就构建在其之上。",
+    "url": "https://x.com/testingcatalog/status/2114349445760303238",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-25T21:32:45+08:00",
+    "tags": [
+      "Google",
+      "AI Studio",
+      "Managed Agents",
+      "Agent 平台"
+    ],
+    "image": "/assets/covers/cover-20261026-v-06.jpg"
+  },
+  {
+    "title": "TestingCatalog：Meta Muse 实时语音通话逐步上线，Avatar 分享与「形象商店」也在路上",
+    "summary": "TestingCatalog 连发两条 Meta Muse 动态。其一：自前一天起，Muse 的语音通话功能正在逐步推送，可与 Muse Agent 实时语音对话。转引的用户实测称没有收到任何官方通知就突然出现了；引导流程很简单，会询问是否更换声音，并按你的描述给出可选音色；语音交互自然，聊天窗口里会同步滚动文字转录，他早上在跑步机上和它聊了很久。引导页三条要点是：开口直接问、离开 App 也能继续对话、麦克风全程可静音或挂断。其二：Muse 用户很快可以把自己的 Muse Avatar 分享给别人，分享弹窗会以动画预览形象的不同「模式」（如 Working）。TestingCatalog 认为 Muse 拥有目前市面上最好的 Avatar 方案，几乎能为 Agent 生成任意实时形象，是让助手「真正个性化」的核心功能，并发问：谁在做 Muse Avatar 商店？上线当天一定会火。",
+    "url": "https://x.com/testingcatalog/status/2114389254927220845",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-26T00:10:56+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "语音通话",
+      "Avatar",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261026-v-07.jpg"
+  },
+  {
+    "title": "小互：30 天、227 次提交，一个人用 Opus 5.5 做出完整作品——「人人都能做高质量游戏」的阶段到了吗？",
+    "summary": "小互转引开发者 @ForkedPush 的成果展示：对方用 Claude Opus 5.5 连续开发 30 天、提交 227 次 commit，并附上一段约 1 分钟的视频展示做出来的东西。小互的感慨是：现在是否已经过渡到人人都能制作高质量游戏的阶段了？同时他强调，在工具门槛被大幅拉低之后，审美和品味正变得越来越重要。同日逸尘也晒出了用 Opus 5.5 零成本做 3D 童话游戏的完整流程，两条帖子一起看，个人开发者借顶级模型做游戏正在成为大V们的热门话题。",
+    "url": "https://x.com/xiaohu/status/2114355871719534723",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-25T21:58:17+08:00",
+    "tags": [
+      "Opus 5.5",
+      "游戏开发",
+      "独立开发",
+      "审美"
+    ],
+    "image": "/assets/covers/cover-20261026-v-08.jpg"
+  },
+  {
+    "title": "Max：20 岁的 Dario Amodei 曾在市议会宣读 700 名加州理工学生签名的反战信——「绝不能沦为没有道德判断的技术人员」",
+    "summary": "一段 Dario Amodei 2003 年反对伊拉克战争的发言视频在 X 上流传，Max 补充了背景：2003 年 3 月 10 日，约 20 岁、还是加州理工物理系本科生的 Dario，作为校内和平组织 Peaceful Justice Coalition 成员，站在帕萨迪纳市议会发言台上，代表学生宣读了一封由 700 多名加州理工学生签名的反战信，市议会官方会议记录至今仍能检索到他的名字。一周前的 3 月 3 日，他还在校报《The California Tech》发表《反战抗议：大多数学生对世界政治漠不关心》，其中写道：我们绝不能沦为没有道德判断的技术人员，像做日常计算一样漫不经心地操作战争机器。Max 指出，23 年后这个细节有了另一层意味：2026 年 2 月，已是 Anthropic CEO 的 Dario 公开拒绝美国国防部放宽 Claude 在大规模国内监控、完全自主武器上的使用限制，双方爆发激烈冲突；当然，如今的 Dario 也已支持 AI 服务美国国防和情报系统。",
+    "url": "https://x.com/MaxForAI/status/2114315161209291027",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-25T19:16:31+08:00",
+    "tags": [
+      "Anthropic",
+      "Dario Amodei",
+      "AI 伦理",
+      "国防"
+    ],
+    "image": "/assets/covers/cover-20261026-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：Nous Research 预告 Hermes 移动 App，测试很快开放",
+    "summary": "Nous Research 发布了一张 Hermes 移动应用的预告图：黑白版画风格的神话人物壁纸上，是一个带搜索入口的手机界面，底部 Dock 栏放着一枚动漫少女头像风格的 App 图标。TestingCatalog 转引并表示 Hermes 移动 App 已正式被预告，他们很快就能拿到测试资格，同时希望 Android 版本能一起推出。",
+    "url": "https://x.com/testingcatalog/status/2114326104416678367",
+    "source": "TestingCatalog News",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-25T20:00:00+08:00",
+    "tags": [
+      "Nous Research",
+      "Hermes",
+      "移动应用"
+    ],
+    "image": "/assets/covers/cover-20261026-v-10.jpg"
+  },
+  {
+    "title": "逸尘：「一切都将被开源」——无头剪映项目与剪辑 Skill 已下架，今后只在社群内部分享",
+    "summary": "继本月收到律师函之后，逸尘宣布 jianying-headless（无头剪映）项目及配套的剪辑 Skill 已经下架，仍不断有人私信索要已删除的 yichen-jianying-edit 仓库，他的回应是目前只对社群内部成员赠送、不会再对外分享。他转引了开发者 @shawmakesmagic 的帖子——对方称已完成约 90% 的 pump.fun 合约逆向，并喊出「把一切开源，否则它会被替你开源」——借此表达观点：一切都将被开源，Adobe 全家桶、剪映乃至任何应用都逃不过；当每个人都能用 AI 轻松逆向每一个应用时，那些藏着掖着、割用户韭菜的应用，将不会再有人为之付费。",
+    "url": "https://x.com/gengdaJ/status/2114339315769880846",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-10-25T20:52:30+08:00",
+    "tags": [
+      "剪映",
+      "Skill",
+      "开源",
+      "AI 逆向"
+    ],
+    "image": "/assets/covers/cover-20261026-v-11.jpg"
+  }
+]

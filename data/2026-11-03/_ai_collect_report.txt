@@ -1,0 +1,67 @@
+Alioxis News AI新闻收集报告 — 2026-11-03（Asia/Taipei）
+============================================================
+完成时间：2026-11-03 08:40 左右 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-03/
+产出：ai.json（18）、_cover_prompts_ai.json（18）、_prior_urls.json（1955 URL）、_aihot_daily.json、_aihot_summary.txt、本报告
+
+一、条数与头条
+- 条数：18（目标 15–20）
+- Lead（#00）：Anthropic 更新 S-1A 风险提示：内部估计显示「可能即将」触及 RSP「AI 带来的显著加速进展」门槛，称接近递归自我改进
+  URL：https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/
+  理由：前沿实验室首次在监管文件中写明可能即将达到 RSI 内部门槛，安全与行业意义最大；#01 同为 S-1A 财务面，角度不同保留
+
+二、与 v.json 交叉情况
+- 写盘后发现 v.json（15 条，另一流程生成）；URL 硬交叉 0
+- 软相关：大V #00 卡兹克 Agent 自动化系统即 AIHOT 未采用条目，归大V频道，AI新闻不重复收录；AI #10 Hyra 2.0 与大V「混元多模态 RL 负责人离职」同属腾讯混元但话题不同，保留
+
+三、AIHOT 使用情况
+- node scripts/fetch-aihot-daily.js 2026-11-03 成功（lead：OpenAI Grid Protectors），_aihot_summary.txt 由 JSON 生成
+- 采用线索并落到原文：
+  · OpenAI Grid Protectors → #06 openai.com/index/grid-protectors-program
+  · Anthropic 营收 12 倍/亏损 233 亿 → #01 The Decoder
+  · Claude message threads → #04 claude.com/blog/message-threads
+  · OpenAI 激活分类器 → #05 alignment.openai.com
+  · 腾讯混元 Hyra 2.0 → #10（主链改 IT之家，公众号为线索）
+- 未采用：
+  · 卡兹克 Agent 自动化系统架构（公众号）— WebFetch 遇微信「环境异常」验证页，无法核实原文；属大V频道范畴
+  · Rohan Paul X 快讯（$895.4B 合同承诺）— 已并入 #01 摘要（8950 亿美元承诺），不单列
+- 补充（WebSearch / WebFetch / curl 列表页）：TechCrunch AI 频道、The Decoder 首页、Marvell IR、LA Times、Hugging Face Blog
+
+四、跳过原因
+- 国行 Apple 智能接入千问：10-31 ai.json 已收（IT之家），v.json 亦有，跳过
+- OpenAI 合并 ChatGPT Chat/Work 页签（TechCrunch）：与 11-02 头条统一额度同题低增量，跳过
+- OpenAI 中期选举公关 / AI 算力园区改名：11-02 已收（Axios）
+- 微软追踪朝鲜黑客 AI 使用：微软原文 10-29，超出窗口
+- Bifocal 滑窗注意力（HF 社区）：页面 datetime 显示 2025-09-17，与搜索结果矛盾，不采
+- Squarespace 裁员 19%、Omen AI 收购：AI 相关性弱/信息不足
+- The Decoder 若干首页条目（OpenAI 国际标准、美国对中国开源权重模型、Amodei 开源立场等）：datePublished 为 7–9 月旧文
+
+五、每条核实手段
+00 Anthropic RSI — WebFetch TechCrunch（含 S-1A 原文引语）
+01 Anthropic 营收/亏损 — WebFetch The Decoder；curl datePublished
+02 Marvell×Lumentum — WebSearch 取 Marvell IR 新闻稿 + CNBC/Investing/Bloomberg Law 交叉
+03 Grok Bot 额度 — WebFetch TechCrunch；The Decoder 首页交叉
+04 message threads — WebFetch claude.com
+05 激活分类器 — WebFetch alignment.openai.com
+06 Grid Protectors — WebFetch openai.com
+07 NYT 诉 Brave — WebFetch TechCrunch
+08 高盛收回 AI 编程工具 — WebFetch The Decoder（转述 Bloomberg）
+09 Minecraft 50 Agent — WebFetch The Decoder
+10 Hyra 2.0 — WebFetch IT之家；GitHub Tencent-Hunyuan/hyra-results 搜索交叉
+11 Suleyman — WebFetch LA Times
+12 Trajectory — WebFetch TechCrunch
+13 阿美×Humain — WebFetch The Decoder
+14 42AI — WebFetch TechCrunch
+15 Vals AI 政治倾向 — WebFetch The Decoder
+16 HF 后门 Agent — WebFetch huggingface.blog
+17 kniv v7 — WebSearch 摘要 + curl 页面 datetime
+
+六、去重
+- _prior_urls.json：合并 data/*/ai.json + v.json 全部 URL，共 1955 条；本日 18 条 URL 0 命中，且内部无重复
+- 对照 11-02 / 11-01 / 10-31 标题做同题检查（见第四节）
+- published_at 均为 +08:00 ISO（#02/#04/#05/#06/#11/#16 原文仅有日期，时间为按日期估计）；source 均为字符串；image 为 /assets/covers/cover-20261103-ai-NN.jpg（00–17）
+
+七、缺口与说明
+- 18 条，未达 20；为保证均有可核实原文未硬凑
+- #15 Vals AI（11-01 20:33 +08）略超 36h 边缘，因未进 prior 且有价值保留
+- 未生成封面、未 build、未 publish（按任务要求）

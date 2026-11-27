@@ -1,0 +1,172 @@
+[
+  {
+    "id": "v-00",
+    "idx": 0,
+    "filename_png": "cover-20261003-v-00.png",
+    "filename_jpg": "cover-20261003-v-00.jpg",
+    "title": "日本把物理AI列为经济增长加速器",
+    "style_hint": "editorial news photography concrete subject for this exact post",
+    "description": "Photorealistic 16:9 news photo: Japanese factory floor with collaborative robots assembling precision parts, rising sun light through high windows, growth-chart hologram faint over production line, no text logos. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-01",
+    "idx": 1,
+    "filename_png": "cover-20261003-v-01.png",
+    "filename_jpg": "cover-20261003-v-01.jpg",
+    "title": "AI降低生物武器研发门槛引发担忧",
+    "style_hint": "tense documentary stilts: reports screens facilities metaphor, no gore",
+    "description": "Tense documentary 16:9: sealed biosafety lab door with warning light, blurred DNA helix model behind glass, researcher silhouette reading a risk report, cool clinical lighting, no gore no readable text. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-02",
+    "idx": 2,
+    "filename_png": "cover-20261003-v-02.png",
+    "filename_jpg": "cover-20261003-v-02.jpg",
+    "title": "ChatGPT账户据称迎来全球重置",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Editorial 16:9: globe desk lamp and rows of locked laptop lids mid-reset, soft blue progress rings, empty office at dawn suggesting global ChatGPT account reset, no logos no Chinese text. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-03",
+    "idx": 3,
+    "filename_png": "cover-20261003-v-03.png",
+    "filename_jpg": "cover-20261003-v-03.jpg",
+    "title": "Tavus Griffin视频模型声称通过图灵测试",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Product photo 16:9: photoreal talking-head AI avatar on OLED monitor in video studio, soft key light, subtle Turing-test scoreboard prop blank, no logos no readable UI. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-04",
+    "idx": 4,
+    "filename_png": "cover-20261003-v-04.png",
+    "filename_jpg": "cover-20261003-v-04.jpg",
+    "title": "让AI代理竞赛筛选Meme交易对",
+    "style_hint": "semi-realistic workspace IDE/agent props unique to this post",
+    "description": "Semi-realistic 16:9 trading desk race: multiple agent terminals racing to pick meme-coin pairs, neon tickers blurred, stopwatch and leaderboard without readable brand text. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-05",
+    "idx": 5,
+    "filename_png": "cover-20261003-v-05.png",
+    "filename_jpg": "cover-20261003-v-05.jpg",
+    "title": "Claude Code Mods支持深度定制",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Semi-realistic 16:9 Claude Code IDE with floating TypeScript mod cards hooking into a terminal event stream, warm amber accents, distinct modular UI props, no logos. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-06",
+    "idx": 6,
+    "filename_png": "cover-20261003-v-06.png",
+    "filename_jpg": "cover-20261003-v-06.jpg",
+    "title": "三个例子看懂Claude Code Mods",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Semi-realistic 16:9: three side-by-side IDE windows each showing a different Claude Code mod example as physical laminated cards (prompt rewrite, tool intercept, UI tweak), warm amber vs cool cyan contrast, no logos no Chinese text. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-07",
+    "idx": 7,
+    "filename_png": "cover-20261003-v-07.png",
+    "filename_jpg": "cover-20261003-v-07.jpg",
+    "title": "Agent双写桌搭硬件",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Photorealistic 16:9 maker bench: dual-write desktop agent hardware prototype with twin SSDs and glowing write LEDs mirrored, soldering iron and calipers nearby, workshop light, no logos no Chinese text. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-08",
+    "idx": 8,
+    "filename_png": "cover-20261003-v-08.png",
+    "filename_jpg": "cover-20261003-v-08.jpg",
+    "title": "Verification Engineering工具链",
+    "style_hint": "semi-realistic workspace IDE/agent props unique to this post",
+    "description": "Semi-realistic 16:9 verification engineering toolchain desk: CI pipeline corkboard with checkmarks, unit-test beakers as metaphor props, green gate light, laptop with blurred eval dashboard, no logos. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-09",
+    "idx": 9,
+    "filename_png": "cover-20261003-v-09.png",
+    "filename_jpg": "cover-20261003-v-09.jpg",
+    "title": "美国起诉GPU走私案老板",
+    "style_hint": "editorial news photography concrete subject for this exact post",
+    "description": "Documentary news photo 16:9: US courthouse steps with stacked GPU boxes under evidence tape metaphor (no brands), federal building columns, tense overcast light, no readable case text, no gore. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-10",
+    "idx": 10,
+    "filename_png": "cover-20261003-v-10.png",
+    "filename_jpg": "cover-20261003-v-10.jpg",
+    "title": "Claude Code可自定义自身行为",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Semi-realistic 16:9: Claude Code settings panel as physical toggle board letting the IDE rewrite its own behavior cards, soft purple anthropic-adjacent glow without logos, no Chinese headlines. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-11",
+    "idx": 11,
+    "filename_png": "cover-20261003-v-11.png",
+    "filename_jpg": "cover-20261003-v-11.jpg",
+    "title": "Anthropic为Claude讨论‘立心’",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Editorial 16:9: quiet study with open notebook titled only with abstract glyphs about AI 'heart/立心', soft candle and screen glow discussing Claude values, contemplative, no logos no Chinese blocks. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-12",
+    "idx": 12,
+    "filename_png": "cover-20261003-v-12.png",
+    "filename_jpg": "cover-20261003-v-12.jpg",
+    "title": "开源唇语输入法",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Product lifestyle 16:9: open-source lip-reading input method — webcam focused on mouth silhouette feeding glyphs into a transparent phone keyboard overlay, soft daylight desk, no logos. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-13",
+    "idx": 13,
+    "filename_png": "cover-20261003-v-13.png",
+    "filename_jpg": "cover-20261003-v-13.jpg",
+    "title": "Gemini Desktop将获完全访问权限",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Semi-realistic 16:9: Gemini desktop app window with full-access keys and folder permissions floating as physical brass keys beside a laptop, cool Google-blue accents without logos, no Chinese text. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-14",
+    "idx": 14,
+    "filename_png": "cover-20261003-v-14.png",
+    "filename_jpg": "cover-20261003-v-14.jpg",
+    "title": "Muse推出开源硬件生态",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Photorealistic 16:9 open hardware: Muse open-source hardware ecosystem — PCB daughterboards, camera modules, and 3D-printed mounts on a maker desk with soft workshop lamps, no logos. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-15",
+    "idx": 15,
+    "filename_png": "cover-20261003-v-15.png",
+    "filename_jpg": "cover-20261003-v-15.jpg",
+    "title": "Claude应用或将支持头像",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Semi-realistic 16:9: Claude chat app mock with customizable avatar silhouette slots on phone and desktop, soft terracotta accents without logos, cozy desk, no Chinese headlines. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-16",
+    "idx": 16,
+    "filename_png": "cover-20261003-v-16.png",
+    "filename_jpg": "cover-20261003-v-16.jpg",
+    "title": "DeepSeek Harness登陆三大桌面平台",
+    "style_hint": "research lab visual with recognizable product/UI anchor distinct props",
+    "description": "Product photo 16:9: DeepSeek Harness landing on three desktop platforms — macOS Windows Linux laptop lids half-open with harness dock props, cool blue studio light, no logos no Chinese text. Distinct composition; no Chinese headline text blocks; no flat single-symbol; no empty diamond; no generic conference room; no abstract geometry wallpaper; no uniform masthead color band.",
+    "aspect_ratio": "16:9"
+  }
+]

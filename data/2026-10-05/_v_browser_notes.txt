@@ -1,0 +1,19 @@
+Alioxis News 大V视野 browser scrape notes — 2026-10-05 Asia/Taipei
+
+Login: confirmed. X home showed zihan chen / @zihanch71347739 in the account menu; no login wall at any URL.
+Following: https://x.com/home loaded with tab 正在关注 selected, refreshed (Ctrl+R). The home feed rendered only a few recent items (@zaobaosg x2, @laoyingkhq crypto screener promo, @xo_namiluna promo) and did not scroll further in the automated view, so collection relied mainly on direct profile visits (browser only). Relative times converted assuming "now" ≈ 08:15 UTC+8 on 2026-10-05; published_at values are hour-level estimates.
+
+Profiles visited (browser only):
+- @Khazix0918: kept 2 (9h Claude vs GPT 200刀 quota comparison; 11h Claude logo animation). Skipped pinned 9/29 AIHOT open-source post and an undated-looking AIHOT thanks/GitHub post (older), 10/2 pixel-clock post already in prior v.json.
+- @MaxForAI: kept 3 (7h AI coding/Slop; 21h OpenAI Robinson resignation; 21h AI video quality/Macrohard Windows XP). Skipped 21h 🤣 quote meme (no substance) and pinned 6/4 post.
+- @xiaohu: kept 4 (10h US Super Intelligence Force; 11h "AI的能力不是你的能力"; 15h Gemini subscription change; 22h Apple restricts Mac Full Disk Access for AI agents). Skipped 12h SpaceXSI/XiaoHuAI rename joke (meme), 19h Muse Gadgets SDK link (topic already covered in 10-03 TestingCatalog Muse item).
+- @testingcatalog: kept 3 (7h Anthropic Interviewer; 14h Anthropic voice-data prompt incl. follow-up note; 16h GPT 6.1 Sol Ultrafast). Skipped 7h "More on this" link reply (part of Interviewer item) and Kolibri 10/4 (already in 2026-10-04/v.json). Note: profile shows a 关注 button (not followed), but visited per instruction.
+- @thsottiaux (Tibo): kept 4 (3h Codex 28-day improvement pledge; 19h simplify/efficiency reply; 19h inbox-zero with Dot; 19h what the Dot assistant does). Skipped 10/4 and 10/3 posts (outside/at edge of window; 10/3 one is non-specific).
+- @zaobaosg: kept 1 (1h North Korea AI-guided missile). Skipped non-AI items (Manulife Singapore, civil servants property, French school strikes).
+- @nanyuan0412: pinned 9/29 and latest visible 10/1 posts; nothing within window.
+- @gengdaJ: pinned 9/17, latest visible 10/1; nothing within window.
+- @Fukugyo_clinic: 3h post is side-hustle/SNS income advice (no AI substance); 10/3-10/4 posts already in prior v.json or too old.
+
+Skip notes: ads/promos (crypto screener, @xo_namiluna, Touchdowns promo), non-AI news, memes, URLs already in 2026-10-04/10-03/10-02 v.json (checked programmatically: zero overlap). No posts fabricated; summaries restrict to visible text. Images left empty.
+
+Unique kept: 17. Breakdown: @thsottiaux 4, @xiaohu 4, @testingcatalog 3, @MaxForAI 3, @Khazix0918 2, @zaobaosg 1.

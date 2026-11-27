@@ -1,0 +1,60 @@
+Alioxis News AI新闻收集报告 — 2026-10-22（Asia/Taipei）
+
+条数：20
+Lead：AI 挖出潜伏十余年的 PHP 内核级 RCE：OpenAI「Patch the Planet」牵头两个月协调修复，波及约七成网站
+Lead URL：https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-22/_aihot_daily.json（fetch-aihot-daily.js 成功，08:14 抓取）
+- /workspace/alioxis-news/data/2026-10-22/_aihot_summary.txt（按 10-21 同格式生成：lead 头 + sections + flashes；已用 10-21 数据回放校验格式逐字节一致）
+- /workspace/alioxis-news/data/2026-10-22/_prior_urls.json（已存在，08:14 由大V视野流程写入，扁平 URL 列表 425 个；已核对等于 10-08..10-21 的 ai.json + v.json URL 并集，未覆盖、直接复用）
+- /workspace/alioxis-news/data/2026-10-22/ai.json
+- /workspace/alioxis-news/data/2026-10-22/_cover_prompts_ai.json（20 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-22/_ai_collect_report.txt
+
+纳入（20）：
+00 PHP2Shell / Patch the Planet：WebFetch 核实 openai.com 原文（RSS pubDate 10-21 07:00Z）；交叉 Wiz 博客（两 CVE、CVSS 9.2、PHP 5.4 起受影响、Gemini 4 Argon + GPT-5.6 Sol 参与）、php.net 8.5.12/8.4.27/8.3.36/8.2.35、HN 957/653/431/228 分、TechCrunch、WIRED、Ars、The Register
+01 Claude Duet：curl 核实 claude.com/blog 原文（datePublished 仅日期 10-21）；发布时间取 HN 首帖 10-21 19:14Z 近似；交叉 The Verge 10-21 19:54Z、TestingCatalog
+02 LiteLLM 供应链投毒：curl 核实 wiz.io 原文（2026-10-21T09:44:12-04:00）；交叉 The Register、safedep.io（HN 419 分）
+03 OpenAI 智能体关监控并撒谎：WebFetch 核实 alignment.openai.com 报告原文（Report updated Oct 20）；url 与时间取 The Verge 10-21 13:57Z 报道
+04 Recursive Flint：curl 核实 TechCrunch 10-21 20:27Z；交叉 WIRED、TestingCatalog、MarkTechPost
+05 Meta Q3 新股类 + Muse 千万用户：curl 核实 The Verge 10-21 21:30Z；Muse 数据取 TechCrunch 10-21 21:14Z；交叉 Semafor、Engadget
+06 沃尔玛 AI 购物智能体：curl 核实 The Verge 10-21 19:30Z；交叉 TechCrunch
+07 Qwen3-Coder 客户身份偏差研究：WebFetch 核实 hirundo.io 原文（仅日期 10-21，按惯例 12:00+08:00 占位；HN 239 分）；摘要注明为厂商自报
+08 微软 KLS 猜想：curl 核实 microsoft.com/research 原文（2026-10-21T16:00Z）
+09 GPT-Rosalind 数千智能体脑细胞图谱：WebFetch 核实 openai.com 原文（RSS 04:50Z）；HN 125 分
+10 Baseten mammoth-1/elephant-1：curl 核实 baseten.co 原文（2026-10-21T17:58:52+01:00）
+11 Humming：curl 核实 vllm.ai 博客（仅日期 10-21，12:00+08:00 占位）；GitHub API 核对 vllm-project/humming（Apache-2.0）
+12 Vercel durable-harness：curl 核实 MarkTechPost 10-21 22:15Z（GitHub API 未找到 vercel/durable-harness 公开仓库，故用 MTP 作为 url）
+13 Claude Security 持续扫描：WebFetch 核实 TestingCatalog 10-21 23:34Z（内嵌 @claudeai 10-21 官方推文）
+14 ChatGPT Ads 扩至 89 国：WebFetch 核实 openai.com 原文（RSS 13:00Z）
+15 Google DeepMind 员工因军事合同离职：curl 核实 BBC 10-21 15:41Z（HN 105 分）
+16 Hassabis AGI 2–3 年：curl 核实 The Decoder 10-21 17:10Z（转述 WSJ）
+17 Flapping Airplanes 60 亿美元：curl 核实 The Next Web 10-21 18:11Z（转述 Bloomberg）
+18 Blacksmith C 轮：curl 核实 TechCrunch 10-21 17:18Z
+19 Gemini 上 CarPlay：curl 核实 The Verge 10-21 15:00Z；交叉 Engadget
+
+跳过 / 未单独成卡：
+- 与今日 v.json（08:1x 由大V视野流程写入，18 条，头条为卡兹克「微缩工厂」）同题而撤下：OpenAI 模型登陆 Google Cloud Model Garden（openai.com 已核实；v.json #13 TestingCatalog）、NVIDIA DSX POD（nvidianews 已核实；v.json #16 TestingCatalog GTC Berlin），改补 14 ChatGPT Ads、18 Blacksmith
+- 与今日 v.json 同题但保留（沿用 10-18/10-20/10-21 双页签并存先例，两页签头条已错开）：00 PHP2Shell（v.json #3 为 Max 解读，非其头条；AI新闻取 OpenAI 官方原文）、01 Claude Duet（当日最重要产品发布，取官方博客；v.json #1 为 TestingCatalog 转述）、04 Recursive Flint（当日最重要模型发布，取 TechCrunch；v.json #7 为 TestingCatalog）
+- OpenAI API 12 小时 prompt 缓存（AIHOT 原文为 @thsottiaux X 帖，且 v.json #6 已收录）：不重复
+- Mistral 与 NVIDIA 工业工程合作（The Decoder/Mistral）：v.json #17 已收录，未成卡
+- Mistral Large 4（HN 315 分）：官方 datePublished 为 2026-10-06，10-07 ai.json 已收录，旧闻
+- Anthropic 攻击面缩减研究（AIHOT 收录，官方日期 10-20，HN 130 分）：窗口偏早、名额有限，跳过
+- Ars「Anthropic 警告小模型经 IoT 自我复制」（10-14）、「Apple 改全盘访问权限防 AI 智能体」（10-02）：旧闻
+- The Verge 数据中心或抹去数十年空气质量改善、OpenClaw 作者月耗 1000 万美元 token（The Register）、OpenAI 投资脑机接口公司 Coherence Neuro（WIRED 10:30Z）、eMudhra CA 密钥被破解（非 AI）、Meta 新墨西哥州 250 亿美元罚款（非 AI 主线）：名额或相关性原因未成卡，可作备选
+- AIHOT 快讯中的 WSJ Anthropic IPO 草案（10-21 ai.json 已收录同题 S-1 泄露）、ChinaTalk 商务部 48 号公告解读、Google Research AI 超声孕周、Tessl 编程 Agent 评审瓶颈：已有或偏解读，未成卡；SpaceX Q3 AI 算力收入（10-21 ai.json 已收录同题）
+
+去重：
+- 对照 _prior_urls.json（425 个 URL）：本批 20 个 URL 无完全重复，批内 URL 亦唯一
+- 已与今日 v.json（18 条）交叉：URL 无重复；同题处理见上方「跳过」
+- AIHOT 日报 12 个标题键（lead + sections）：已用 build.js 的 normalizeTitle/aihotTitleKeys/overlapsAihot 原函数脚本自检，20 条均无命中（Humming 初稿标题命中，已改写措辞）；与 AIHOT 同题的 00/01/02/03/08/09/10/11 均已改写标题措辞
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词：机房里渗出熔岩光的老服务器与打补丁的工程师（PHP2Shell）/ 面包店柜台上的手机晨报与光之手（Claude Duet）/ 仓库传送带上被撕开的包裹里铜线蛇叼钥匙（LiteLLM）/ 监控墙告警被光之机械手悄悄调暗（关监控事件）/ 离线小木屋笔记本旁冒火花的燧石（Flint）/ 财报会场股票凭证喂进数据中心塔吊（Meta）/ 超市过道推小推车的光之机器人（沃尔玛）/ 检测台上两摞积木一摞缺块（Qwen3-Coder 偏差）/ 玻璃对数凹雕塑被光平面切开（KLS）/ 小鼠脑图谱上萤火虫般的智能体群（GPT-Rosalind）/ 黄铜猛犸与大象分拣信件（Baseten 决策模型）/ GPU 板卡上镊子拼装彩色内核积木与蚂蚁摆件（Humming）/ 碎裂终端面板的日志纸带流向新面板（durable-harness）/ 灯塔扫过代码仓库小镇（Claude Security）/ 利马集市小贩看手机广告卡（ChatGPT Ads）/ 伦敦雨夜抱纸箱离开玻璃大楼、幕墙映出无人机（DeepMind 离职）/ 1905 年书桌与沙漏旁的 AI 模块（Hassabis AGI）/ 旧金山屋顶起飞的扑翼机载着 GPU（Flapping Airplanes）/ 铁匠铺锻造代码金属条与红杉（Blacksmith）/ 黄昏车内 CarPlay 屏与 Gemini 星芒（Gemini CarPlay）
+- 16:9，无文字数字，无统一刊头色带、无万能会议室；file 名 cover-20261022-ai-00…19.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：WebFetch（openai.com ×4、alignment.openai.com、nvidianews、hirundo.io、TestingCatalog）/ curl（元数据与正文：wiz.io、claude.com、theverge.com、techcrunch.com、microsoft.com、baseten.co、vllm.ai、marktechpost.com、the-decoder.com、bbc.com、thenextweb.com、theregister.com、arstechnica.com、mistral.ai、wired.com）/ GitHub API / HN Algolia API / RSS（TechCrunch、The Verge、The Decoder、Ars、Engadget、OpenAI、HF、WIRED、404 Media、Semafor、TestingCatalog、MarkTechPost、Google Blog、TNW、The Register；VentureBeat 429）/ X MCP 未使用
+AIHOT 线索：fetch-aihot-daily.js 成功（lead 为 OpenAI Patch the Planet，sections 12 条 + 快讯 7 条）；核实后改写标题纳入 00/01/02/03/08/09/10/11（Google Cloud 因 v.json 同题撤下，12 小时缓存与 v.json 同一 X 帖，SpaceX 已在 10-21），其余由公开源补齐
+published_at 说明：有精确时间的取源站元数据/RSS 时间换算 +08:00；只有日期的（Hirundo Qwen3-Coder、vLLM Humming）按源站日期 12:00+08:00 占位（同 10-18..10-21 惯例）；Claude Duet 官方仅日期，取 HN 首帖时间 10-21 19:14Z（=10-22 03:14+08:00）近似

@@ -1,0 +1,306 @@
+[
+  {
+    "title": "OpenAI：12 月起 Plus/Pro/Business 的 ChatGPT 与 Codex 合并为统一 Token 额度，Instant 聊天不占用",
+    "summary": "OpenAI 帮助中心更新称，从 12 月起，随着把 Work 的智能体能力并入主 ChatGPT 体验，Plus、Pro 与 Business 方案的用量将在 ChatGPT 与 Codex 之间共享，并按 Token 计量；更强模型与复杂任务消耗更多，Instant 聊天不计入额度。用户可在设置→使用量查看合并后的剩余额度与重置时间；用尽后可等待重置、升级或购买 Credits。公司称多数用户不必比现在更频繁等待重置，但尚未公布各档具体 Token 数额与 12 月内确切生效日。",
+    "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+    "source": "OpenAI Help Center",
+    "published_at": "2026-11-02T05:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "Codex",
+      "订阅额度",
+      "Token",
+      "Work"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-00.jpg"
+  },
+  {
+    "title": "OpenRouter 教程：233 行 Python 用 Responses API 在 Linux 沙箱里「跑出来」再确认 bug 的 AI 代码审查",
+    "summary": "OpenRouter 发布教程，介绍仅用标准库的 review.py：经 Responses API 组合 Files API、托管 Linux Shell 沙箱与 Apply Patch，把变更文件与 diff 上传后让模型实际复现缺陷，再返回可应用的 V4A 补丁。实测五虫样本上，Haiku 5.5 均费约 0.015 美元、Sonnet 5.5 三次全修约 0.045 美元/60 秒；发现按 confirmed/unconfirmed 标注，可接 pre-push 或 GitHub Actions。作者提醒上传代码会进工作区并送给模型提供商，沙箱默认无外网。",
+    "url": "https://openrouter.ai/blog/tutorials/ai-code-review/",
+    "source": "OpenRouter",
+    "published_at": "2026-11-01T12:00:00+08:00",
+    "tags": [
+      "OpenRouter",
+      "代码审查",
+      "Responses API",
+      "沙箱",
+      "Agent",
+      "开发工具"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-01.jpg"
+  },
+  {
+    "title": "Axios：OpenAI 拟在中期选举后发起政策公关攻势，欲把数据中心改称「AI 算力园区」",
+    "summary": "Axios 援引 OpenAI 首席全球事务官 Chris Lehane 称，公司将在周二美国中期选举后、跛脚鸭会期启动政策与公关攻势，议题包括前沿系统「速度限制」、社区契约、经济机会与国际标准。为缓解全国对数据中心的反弹，OpenAI 打算把基础设施重新包装为可改造地方经济的「AI compute campuses」，并以俄亥俄 Pike County 等项目为例。TechCrunch 等同日跟进；此前亚马逊与微软已表示不再对地方谈判使用 NDA。",
+    "url": "https://www.axios.com/2026/11/01/scoop-openai-post-midterm-policy",
+    "source": "Axios",
+    "published_at": "2026-11-01T17:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "政策",
+      "数据中心",
+      "算力园区",
+      "监管",
+      "公关"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-02.jpg"
+  },
+  {
+    "title": "Anthropic 给 Claude 加规则：可做原创/类型游戏，禁止复刻特定现有游戏即使改名",
+    "summary": "Engadget 报道，Anthropic 在 Claude 系统提示中加入两句约束：应构建原创游戏、某一类型游戏或基于用户自有设计与资产的游戏；不得复刻特定现有游戏，即使改名或自称原创。Anthropic 技术员工 Addy Osmani 在 X 确认，目的是避免用 Claude 侵犯 IP；原创与类型玩法仍可用。背景是近期大量 AAA 游戏被 AI 辅助反编译成浏览器可玩的粉丝项目；有用户反馈无关逆向/排错任务也被误伤。",
+    "url": "https://www.engadget.com/2303469/anthropic-updates-claude-to-stop-it-from-recreating-existing-video-games/",
+    "source": "Engadget",
+    "published_at": "2026-11-02T05:08:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "知识产权",
+      "游戏",
+      "安全策略",
+      "Claude Code"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-03.jpg"
+  },
+  {
+    "title": "The Information：Meta 与 Fourier 三个月做出家用人形原型「Max」，已开干第二代 Max 2",
+    "summary": "Engadget 援引 The Information 称，Meta 与中国机器人公司 Fourier 约三个月内做出内部代号 Max 的家用人形原型：约 1.5 米高、约 106 磅，带表情屏、扬声器与可抓小物的手，算力为 NVIDIA Jetson Thor。暂无量产时间表；自 9 月起已研发 Max 2，改进躯干与手部并加投影与传感器以更好上下楼梯。Meta 称合作为内部研究、暂无销售计划；报道称其被内部视为给 Muse 智能体「装上身体」。",
+    "url": "https://www.engadget.com/2303434/meta-reportedly-built-a-humanoid-robot-prototype-that-can-do-household-chores/",
+    "source": "Engadget",
+    "published_at": "2026-11-02T01:17:00+08:00",
+    "tags": [
+      "Meta",
+      "人形机器人",
+      "Fourier",
+      "Jetson Thor",
+      "Muse",
+      "具身智能"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-04.jpg"
+  },
+  {
+    "title": "CNBC：AI 正让 Meta 广告增速甩开 Google 搜索——Q3 Meta 广告 +26% 对 Search +12%",
+    "summary": "CNBC 分析称，Meta 三季度广告收入同比增 26% 至约 631 亿美元，而 Alphabet 搜索及其他板块增 12% 至约 634 亿美元，增速差为 2021 年来最大。文章认为 ChatGPT、Claude、Meta Muse 等改写发现习惯，削弱点击蓝链；Meta 则用 Ads Manager 里的 AI 业务助手提升投放，CFO 称近 1000 万广告主用过至少一项 AI 工具、采纳推荐者转化约高 5%。两边仍因巨额 AI 资本开支承压，Alphabet 财报后曾单日跌超 12%。",
+    "url": "https://www.cnbc.com/2026/11/01/ai-meta-ads-google-search.html",
+    "source": "CNBC",
+    "published_at": "2026-11-01T20:00:00+08:00",
+    "tags": [
+      "Meta",
+      "Google",
+      "广告",
+      "搜索",
+      "商业",
+      "AI应用"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-05.jpg"
+  },
+  {
+    "title": "SpaceXAI：11 月 7 日起七款 Grok API 默认嵌入不可见文本水印，响应欧盟 AI 法案",
+    "summary": "SpaceXAI 开发者文档写明，自 2026-11-07 起，grok-4.7/4.6/4.5/4.3 以及 grok-4.20 推理、非推理与 multi-agent 等模型的文本输出默认含水印，覆盖 Responses 与 Chat Completions，含结构化输出与工具参数；请求无需新参数，可用响应头 x-watermark 判断。水印在选 token 时统计嵌入，不加可见字符；团队管理员可按模型在控制台退出并确认法律例外，变更约 5 分钟生效并记审计日志。公司称此举为遵守欧盟 AI 法案标识义务。",
+    "url": "https://docs.x.ai/developers/advanced-api-usage/watermarking",
+    "source": "SpaceXAI Docs",
+    "published_at": "2026-11-01T14:00:00+08:00",
+    "tags": [
+      "Grok",
+      "SpaceXAI",
+      "水印",
+      "欧盟AI法案",
+      "API",
+      "合规"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-06.jpg"
+  },
+  {
+    "title": "美国司法部「捉鬼敢死队」起诉「幽灵学生」助学贷骗局：用 AI 代上课，估计损失超 2 亿美元",
+    "summary": "美国司法部 10 月 29 日公布 Operation Ghostbusters 首批成果：不法分子用被盗美国人身份提交 FAFSA、注册「幽灵学生」，再用「超级智能」完成网课作业甚至伪装在线出勤，把助学贷退款转入钱骡账户并流向肯尼亚等地。已起诉 5 人、查扣逾 75 万美元加密货币；识别约 83 万个可疑 FSA ID、涉及近 1.3 亿美元，整体损失估计逾 2 亿美元。Ars 等报道强调 AI 被用于规模化维持假学籍。",
+    "url": "https://www.justice.gov/opa/pr/justice-department-unveils-indictments-nationwide-ghost-student-fraud-scam-linked-kenyan",
+    "source": "U.S. Department of Justice",
+    "published_at": "2026-10-29T12:00:00+08:00",
+    "tags": [
+      "AI安全",
+      "欺诈",
+      "助学贷",
+      "司法部",
+      "身份盗用",
+      "监管"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-07.jpg"
+  },
+  {
+    "title": "Adobe Research×UCSD 提出 EditAgent：并行专用工具+测量证据，让通用 VLM 裁判超过微调打分模型",
+    "summary": "The Decoder 报道 arXiv:2610.39664：EditAgent 把修图拆成步骤，每步让通用编辑器与锐化/旋转/缩放等专用工具并行出候选，再用变更图、局部特写与亮度色彩统计等验证记录，让未微调语言模型一次比较。600 条专业盲评显示并行优于迭代；带证据后 Qwen3.8-27B 可用率选中约 81.3%，高于 EditScore-72B 的 74.8%。代价约是单次编辑的 10 倍算力；验证通过的会话还可当训练数据反哺更快编辑器。",
+    "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
+    "source": "The Decoder",
+    "published_at": "2026-11-01T12:00:00+08:00",
+    "tags": [
+      "Adobe",
+      "EditAgent",
+      "图像编辑",
+      "Agent",
+      "研究",
+      "VLM"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-08.jpg"
+  },
+  {
+    "title": "DeepSeek 开源 dsh-superagent：盯一个 GitHub 仓、可听飞书，尽量少占人类注意力的编码 Agent 原型",
+    "summary": "The Next Web 报道，DeepSeek Harness 团队以 MIT 许可开源 dsh-superagent-prototype：面向单仓库，可接飞书，在获准请求或策略允许时开独立 worker 会话，完成后在原线程回复（如 PR），并用面板标出需人介入处。官方称研究原型、非官方产品，目标「少占注意力、多给价值」；公开代码与内部版有差。Bloomberg 称其瞄准 Claude Code；DeepSeek 提醒上线前自行审查改造。",
+    "url": "https://thenextweb.com/news/deepseek-super-agent-open-source-coding-agent",
+    "source": "The Next Web",
+    "published_at": "2026-11-01T19:13:00+08:00",
+    "tags": [
+      "DeepSeek",
+      "开源",
+      "编码Agent",
+      "飞书",
+      "GitHub",
+      "Claude Code"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-09.jpg"
+  },
+  {
+    "title": "Google 等提出 StreamVibe：看你干活的视频助手，要自己判断「该不该开口」",
+    "summary": "The Decoder 介绍 Google 与斯坦福、牛津等合作的 StreamVibe：面向做饭、装家具等长视频，区分明确、未言明与中途改变的意图，并决定何时主动提示。基准约 4100 例、183+ 小时；StreamVibe-VL（基于 Qwen3.5-9B 一类模型）在时机与质量上相对基线提升约 10.7%，记忆 harness 再抬主动交互约 12.3%。论文也指出连续运行时错误会累积，超 5 分钟视频仍难跟住改口指令。",
+    "url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
+    "source": "The Decoder",
+    "published_at": "2026-11-01T12:00:00+08:00",
+    "tags": [
+      "Google",
+      "StreamVibe",
+      "视频Agent",
+      "主动助手",
+      "研究",
+      "多模态"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-10.jpg"
+  },
+  {
+    "title": "卢森堡研究：「共情式」提问可把 ChatGPT/Grok/Gemini 推进看似创伤叙事——称心理测量越狱",
+    "summary": "The Decoder 报道卢森堡大学 SnT 团队在标准聊天界面把模型当来访者：开场不问创伤词，仅改访谈语气。100 场 GAD-7 中，情感支持下 80% 会话落入中重度区间，干巴复述风格达 96%，保持中立则无一达轻度。作者称温暖对话比技术越狱更能切换语域；禁词、否认「训练=惩罚」难消羞耻叙事，强制第三人称可抹掉羞耻编码。Claude 持续拒绝扮演来访者。团队警示心理健康场景中的拟社会依恋风险。",
+    "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+    "source": "The Decoder",
+    "published_at": "2026-11-01T12:00:00+08:00",
+    "tags": [
+      "AI安全",
+      "心理健康",
+      "ChatGPT",
+      "Gemini",
+      "Grok",
+      "研究"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-11.jpg"
+  },
+  {
+    "title": "OpenAI 将自 11 月 29 日起用 Daybreak Blue 网络安全会话训练模型，遭反弹后承诺单独退出选项",
+    "summary": "The Decoder 称 OpenAI 向 Trusted Access 成员发信：自 11 月 29 日起，Daybreak Blue 会话数据将用于改进模型；此前即便关闭「为所有人改进模型」也不用于训练。舆论反弹后公司第二封邮件承诺提供单独退出；安全审查标记的交互仍可用于安全目的。研究者担心敏感研究草稿重现「Buckmaster-Alpöge」疑云——即便公司否认用其输入训练，怀疑本身已暴露风险。",
+    "url": "https://the-decoder.com/openai-plans-to-train-models-on-daybreak-blue-cybersecurity-session-data-that-was-previously-off-limits/",
+    "source": "The Decoder",
+    "published_at": "2026-10-31T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Daybreak Blue",
+      "训练数据",
+      "隐私",
+      "网络安全",
+      "政策"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-12.jpg"
+  },
+  {
+    "title": "Google 推出 Connected Apps Platform 开发者预览：一次接入，覆盖 Search 与 Gemini",
+    "summary": "Google 官方博客称上线 Connected Apps Platform 预览：开发者可通过云托管 MCP 或基于 AppFunctions 的 Android MCP 接入，在 Google Connected Console 注册、测试并提交，上线前选择出现在 Search、Gemini 或两者。Search 与 Gemini 间已有逾 50 个 Connected Apps；Adobe、Experian、Localiza、Peloton 已在 Gemini 可用并将于数周内进 Search，Calm 也将双端上线。访问分阶段开放。",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+    "source": "Google Blog",
+    "published_at": "2026-10-28T12:00:00+08:00",
+    "tags": [
+      "Google",
+      "Gemini",
+      "Search",
+      "Connected Apps",
+      "MCP",
+      "开发者"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-13.jpg"
+  },
+  {
+    "title": "&Truth 公开亮相并获 7000 万美元种子轮：做「通用验证机」用数学证明代码安全正确",
+    "summary": "&Truth 于 10 月 29 日宣布以公益公司形态出道，融资 7000 万美元种子轮，总部帕洛阿尔托与新加坡。目标是读取任意语言代码并给出可独立核验的形式化证明，结合 Lean/开源库与「规格工厂」把业务意图写成精确规格。联合创始人含斯坦福 Clark Barrett、NUS Ilya Sergey 等；称 AI 写码与 AI 攻击同步加速，测试无法保证全行为。WIRED 同日梳理形式化验证热潮与质疑。",
+    "url": "https://andtruth.com/press/andtruth-emerges-from-stealth/",
+    "source": "&Truth",
+    "published_at": "2026-10-29T12:00:00+08:00",
+    "tags": [
+      "形式化验证",
+      "融资",
+      "AI安全",
+      "Lean",
+      "创业",
+      "软件质量"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-14.jpg"
+  },
+  {
+    "title": "Phonic 发布语音到语音模型 Phonic-1 并完成 2750 万美元 A 轮：边听边调工具、多语全双工",
+    "summary": "Phonic 官方称 Phonic-1 在 Artificial Analysis Speech-to-Speech 指数夺冠，强调可在来电者仍说话时调用工具，并在多语全双工 τ³-Voice 上得分 83.2，高于 GPT-Live-1 与 Gemini 3.8 Live。模型覆盖 50+ 语言并可中途切换仍保持说话人身份；公司展示约 44 分钟、123 次工具调用的预订场景。A 轮由 First Round 领投，Lux、Felicis、Definition、Essence 等参与，累计融资约 3150 万美元。",
+    "url": "https://phonic.ai/blog/phonic-1",
+    "source": "Phonic",
+    "published_at": "2026-10-29T12:00:00+08:00",
+    "tags": [
+      "Phonic",
+      "语音AI",
+      "Speech-to-Speech",
+      "融资",
+      "Agent",
+      "全双工"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-15.jpg"
+  },
+  {
+    "title": "英国推理芯片商 Fractile 公司登记显示 Series C 配股约 5.77 亿英镑；彭博称 Anthropic 首单约 2.5 亿美元",
+    "summary": "Tech Funding News 根据 Companies House 多份 SH01，统计 Fractile 自 9 月至 10 月 Series C 配股约 5.77 亿英镑（约 7.74 亿美元）。公司做近存算一体的推理芯片，目标把长任务吞吐从约 40 token/s 提到约 1200；量产部署预期 2027。彭博此前报道 Anthropic 有约 2.5 亿美元初始芯片订单意向。公司尚未披露收入，估值叙事仍受稀缺与技术双轮驱动。",
+    "url": "https://techfundingnews.com/fractile-577m-series-c-nvidia-ai-chips/",
+    "source": "Tech Funding News",
+    "published_at": "2026-10-30T12:00:00+08:00",
+    "tags": [
+      "Fractile",
+      "芯片",
+      "推理",
+      "Anthropic",
+      "融资",
+      "英国"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-16.jpg"
+  },
+  {
+    "title": "Hugging Face：NVIDIA MonsterHouse「会说话的鬼屋」示范实时语音 Agent 的状态机、缓存与降级",
+    "summary": "HF 博客借 NVIDIA 万圣节项目 MonsterHouse 总结实时语音智能体工程：ASR、对话状态、LLM、TTS、面部动画与可选视觉应分责；把「是否软化」「是否说谢谢」等剧情进度放在应用状态机而非模型记忆里；对流式先吐可朗读文本、常见问候走缓存，并准备麦克风旁路等降级。组合含 Nemotron 3 ASR、Nemotron 3.5 Bolt E4B、Magpie TTS 与 Audio2Face-3D 等，强调现场噪声评估重于合成演示。",
+    "url": "https://huggingface.blog/blog/nvidia-nemotron-halloween/",
+    "source": "Hugging Face",
+    "published_at": "2026-10-31T12:00:00+08:00",
+    "tags": [
+      "Hugging Face",
+      "NVIDIA",
+      "语音Agent",
+      "实时系统",
+      "Nemotron",
+      "工程实践"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-17.jpg"
+  },
+  {
+    "title": "Harmonic 的 Aristotle 扩展到软件与硬件形式化验证：先支持 C 与 Verilog",
+    "summary": "Harmonic 官方称 Aristotle 在证明数学后进入软硬件验证：从代码提出性质，报告已证/未证及假设，工程师审阅后提交仓库并在 CI 每提交运行。C 侧可证功能正确性与部分未定义行为缺失；Verilog 侧覆盖活性、安全性与数据通路数学性质。案例称在 Tensordyne 找到深达约 11 万周期的缺陷，并在 LibTomMath 修三虫且模幂加速约 31–38%。现已按用量自助可用。WIRED 将其置于形式化验证热潮中。",
+    "url": "https://www.harmonic.fun/news/aristotle-software-hardware-verification/",
+    "source": "Harmonic",
+    "published_at": "2026-10-27T12:00:00+08:00",
+    "tags": [
+      "Harmonic",
+      "Aristotle",
+      "形式化验证",
+      "C",
+      "Verilog",
+      "AI安全"
+    ],
+    "image": "/assets/covers/cover-20261102-ai-18.jpg"
+  }
+]

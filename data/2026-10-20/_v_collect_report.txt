@@ -1,0 +1,45 @@
+大V视野收集报告 — 2026-10-20（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- get_users_by_usernames → get_users_posts（exclude=replies, start_time=2026-10-18T20:00:00Z, max_results=25）
+- 长文补全：get_posts_by_ids（note_tweet / article，22 个 id，含 Max 长帖与被引用的路透社/MiniMax/LobsterAI/ChatGPT 原帖）
+- 辅助核验：search_posts_all 放宽到 2026-10-18T09:00:00Z，(from:Khazix0918 OR from:gengdaJ) -is:reply（1 条，即 10-19 已入选的 GrokBot 吐槽帖，无新增）
+- 未使用浏览器关注页；未使用 user-X；本次共 9 次 X 读取
+
+入选：17 条
+各 handle 入选计数：
+  @Khazix0918: 0
+  @MaxForAI: 5
+  @xiaohu: 1
+  @thsottiaux: 2
+  @testingcatalog: 9
+  @gengdaJ: 0
+
+原始拉取条数摘要：
+  @Khazix0918: 0（窗内无新帖；放宽窗口仅返回 10-19 已入选帖）
+  @MaxForAI: 11（含 1 条「来源：群友」自回复碎片、1 条缓存补充自回复，已并入新模型预告条）
+  @xiaohu: 6（含「文件原文」链接碎片 1 条、纯链接回复 1 条）
+  @thsottiaux: 6（Day 15 We're cooked、新域名、街头发 reset 卡片、cyber 链接回复，均未入选）
+  @testingcatalog: 22（其中 9 条为自线程补充/Source/Earlier scoop 回复，部分内容已并入主帖摘要）
+  @gengdaJ: 0（窗内及放宽窗口均无新帖）
+
+Lead：Max：一人用 Agent 攻击 1200 家网站——约 5000 美元 Token、每次成功入侵约 50 美元
+Lead URL：https://x.com/MaxForAI/status/2112198777348268271
+（DHS 禁采 DeepSeek 为 AIHOT 当日头条，大V视野头条改用 Max 的 Agent 攻击事件以避免两个页签头条同题，DHS 解读放第 1 条）
+
+筛选说明：
+- 跳过梗图/玩笑/非 AI 日常：Max「Claude：说说嘛～」「这图神了」「AI时代如何评测人的智能⬇️」（仅图无文）；小互触屏 eSIM MacBook / 苹果发布会（非 AI）；Tibo Day 15 We're cooked、新域名、街头 reset 卡片；TestingCatalog Grok Bot 南瓜头像（节日小功能）
+- 跳过碎片：Max「来源：群友」、小互「文件原文」与纯链接回复、Tibo cyber 链接回复、TestingCatalog Source/Read more/Earlier scoop/Test it out 回复
+- 同题去重：DHS 禁采 DeepSeek——Max 与小互同题，保留 Max 的《联邦公报》细读（含第三方条款分析），跳过小互 2112322272992379000；MiniMax M3.1 Flash——保留 TestingCatalog 官宣帖（2112155774898040898），跳过 TestingCatalog 预告帖 2112128538019065979 与小互「前端能力似乎国内最能打」短评 2112179032091771349；Max 引用 MiniMax 的「要考虑缓存成本」并入其新模型预告条
+- 跳过汇总：TestingCatalog DAILY AI BRIEF Oct 19（与单条及 10-19 内容重叠）
+- OpenCode：10-18/10-19 已收攻击与质疑，本次 Tibo 帖为退款与 Daybreak Blue 后续，角度不同，保留
+- 与 2026-10-12～10-19 v.json 及 ai.json 去重：跳过 TestingCatalog Claude Personal Finance（2111944960652034447，10-19 已入选）；其余无重复 URL
+- 窗口内三位优先账号中卡兹克无新帖；Max、小互有可用 AI 帖
+
+输出文件：
+  data/2026-10-20/v.json
+  data/2026-10-20/_cover_prompts_v.json
+  data/2026-10-20/_v_raw_mcp.json
+  data/2026-10-20/_v_collect_report.txt
+
+未执行：build / 生图 / 发布

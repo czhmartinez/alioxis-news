@@ -1,0 +1,232 @@
+[
+  {
+    "title": "日本把物理AI列为经济增长加速器",
+    "summary": "日本首相高市早苗称将把人工智能定位为推动经济增长的“加速器”，并发展可自主控制机器人的“物理AI”等高科技。",
+    "url": "https://x.com/zaobaosg/status/2106165072041054409",
+    "source": "联合早报 Lianhe Zaobao",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20261003-v-00.jpg",
+    "published_at": "2026-10-03T07:31:00+08:00",
+    "tags": [
+      "AI应用",
+      "机器人"
+    ]
+  },
+  {
+    "title": "AI降低生物武器研发门槛引发担忧",
+    "summary": "联合早报称，AI正在加快生物医学研究，但也可能降低制造生物武器的知识门槛，专家因此担忧生物安全风险。",
+    "url": "https://x.com/zaobaosg/status/2106158007859941678",
+    "source": "联合早报 Lianhe Zaobao",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20261003-v-01.jpg",
+    "published_at": "2026-10-03T07:12:00+08:00",
+    "tags": [
+      "AI应用",
+      "生物安全"
+    ]
+  },
+  {
+    "title": "ChatGPT账户据称迎来全球重置",
+    "summary": "Tibo转引一则英文内容，称付费ChatGPT账户将迎来“全球重置”，并提到GPT-6.1 Sol在负载激增后的运行速度已恢复。",
+    "url": "https://x.com/thsottiaux/status/2106131810921136451",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261003-v-02.jpg",
+    "published_at": "2026-10-03T06:12:00+08:00",
+    "tags": [
+      "模型",
+      "ChatGPT"
+    ]
+  },
+  {
+    "title": "Tavus Griffin视频模型声称通过图灵测试",
+    "summary": "Max For AI介绍Tavus的Griffin模型及其“人类交互模型”分类：54名参与者与其进行视频通话时，48%的人认为对方是真人。",
+    "url": "https://x.com/MaxForAI/status/2105877225237352691",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261003-v-03.jpg",
+    "published_at": "2026-10-02T13:12:00+08:00",
+    "tags": [
+      "模型",
+      "AI应用"
+    ]
+  },
+  {
+    "title": "让AI代理竞赛筛选Meme交易对",
+    "summary": "Crypto老鹰分享了一次让6个AI代理协作筛选Meme交易对的经历，称Grok Bot会先检查流动性、开发者持仓等条件。",
+    "url": "https://x.com/laoyingkhq/status/2105872198594617574",
+    "source": "Crypto老鹰",
+    "source_handle": "@laoyingkhq",
+    "image": "/assets/covers/cover-20261003-v-04.jpg",
+    "published_at": "2026-10-02T12:12:00+08:00",
+    "tags": [
+      "AI应用",
+      "智能体"
+    ]
+  },
+  {
+    "title": "Claude Code Mods支持深度定制",
+    "summary": "小互介绍Claude Code的Mods升级：可用JavaScript或TypeScript模块重写部分行为、绘制自定义UI，并拦截危险命令。",
+    "url": "https://x.com/xiaohu/status/2105871332407919028",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261003-v-05.jpg",
+    "published_at": "2026-10-02T12:12:00+08:00",
+    "tags": [
+      "AI工具",
+      "编程"
+    ]
+  },
+  {
+    "title": "三个例子看懂Claude Code Mods",
+    "summary": "小互补充介绍Claude Code Mods的实践方式，包括在输入框上方显示上下文读数、在执行危险命令前查看影响并逐步复核修改。",
+    "url": "https://x.com/xiaohu/status/2105871334589030786",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261003-v-06.jpg",
+    "published_at": "2026-10-02T12:12:00+08:00",
+    "tags": [
+      "AI工具",
+      "编程"
+    ]
+  },
+  {
+    "title": "Agent双写桌搭硬件",
+    "summary": "卡兹克称，他用 Agent 直接用 Rust 重写桌搭硬件，并绑定 Claude 与 Codex 的双 Agent 工作状态，实时监控额度重置和当日 Token 消耗。",
+    "url": "https://x.com/Khazix0918/status/2105936290973876379",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20261003-v-07.jpg",
+    "published_at": "2026-10-02T17:16:00+08:00",
+    "tags": [
+      "AI工具",
+      "智能体",
+      "编程"
+    ]
+  },
+  {
+    "title": "Verification Engineering工具链",
+    "summary": "Max For AI 转引并点评一组从 Prompt/Context、Loop/Graph 到 Verification Engineering 的工具，涉及可程序化 Verifier、Eval、Alint 和 Review SDK。",
+    "url": "https://x.com/MaxForAI/status/2105901137434177918",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261003-v-08.jpg",
+    "published_at": "2026-10-02T14:16:00+08:00",
+    "tags": [
+      "智能体",
+      "AI工具",
+      "评测"
+    ]
+  },
+  {
+    "title": "美国起诉GPU走私案老板",
+    "summary": "Max For AI 转述美国司法部消息：Earthmade Computer 老板 Greg Lui 被捕并被联邦大陪审团起诉，检方指控其在2023至2024年间购买受出口管制的高端 GPU。",
+    "url": "https://x.com/MaxForAI/status/2105885169202979286",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261003-v-09.jpg",
+    "published_at": "2026-10-02T13:16:00+08:00",
+    "tags": [
+      "算力",
+      "GPU",
+      "AI产业"
+    ]
+  },
+  {
+    "title": "Claude Code可自定义自身行为",
+    "summary": "Max For AI 介绍 Anthropic 为 Claude Code 上线的 Mods：用户可用 JavaScript/TypeScript 改写 Claude Code 的行为、界面和功能，并通过插件分发。",
+    "url": "https://x.com/MaxForAI/status/2105883387710038485",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261003-v-10.jpg",
+    "published_at": "2026-10-02T13:16:00+08:00",
+    "tags": [
+      "AI工具",
+      "编程",
+      "Claude"
+    ]
+  },
+  {
+    "title": "Anthropic为Claude讨论‘立心’",
+    "summary": "小互称 Anthropic 曾邀请不同宗教背景人士在旧金山闭门研讨，讨论如何让宗教人士接受 Claude，并将其解读为给 Claude‘立心’。",
+    "url": "https://x.com/xiaohu/status/2106033835414864042",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261003-v-11.jpg",
+    "published_at": "2026-10-02T23:16:00+08:00",
+    "tags": [
+      "模型",
+      "Claude",
+      "AI安全"
+    ]
+  },
+  {
+    "title": "开源唇语输入法",
+    "summary": "小互分享一个开源唇语输入项目：用户只需张嘴不出声，摄像头读取嘴型即可输入文字，适合不便进行语音输入的场景。",
+    "url": "https://x.com/xiaohu/status/2105914251768701110",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261003-v-12.jpg",
+    "published_at": "2026-10-02T15:16:00+08:00",
+    "tags": [
+      "AI应用",
+      "开源",
+      "语音交互"
+    ]
+  },
+  {
+    "title": "Gemini Desktop将获完全访问权限",
+    "summary": "TestingCatalog称 Gemini Desktop 新增隐藏的额外沙盒选项，并将提供用于计算机使用的“完全访问”权限，可访问桌面文件并运行应用。",
+    "url": "https://x.com/testingcatalog/status/2106041553806336167",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261003-v-13.jpg",
+    "published_at": "2026-10-03T00:16:00+08:00",
+    "tags": [
+      "AI工具",
+      "智能体",
+      "计算机使用"
+    ]
+  },
+  {
+    "title": "Muse推出开源硬件生态",
+    "summary": "TestingCatalog报道 Muse Gadgets 与 Muse Home Link 发布：前者是开源 ESP32 固件和 Linux SDK，后者让 Muse 与电视、音箱等智能设备协同。",
+    "url": "https://x.com/testingcatalog/status/2106116684280987731",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261003-v-14.jpg",
+    "published_at": "2026-10-03T05:16:00+08:00",
+    "tags": [
+      "AI硬件",
+      "开源",
+      "智能家居"
+    ]
+  },
+  {
+    "title": "Claude应用或将支持头像",
+    "summary": "TestingCatalog称 Claude 应用可能即将支持个人资料图片，并表示该功能已开发一段时间。",
+    "url": "https://x.com/testingcatalog/status/2106103574300397859",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261003-v-15.jpg",
+    "published_at": "2026-10-03T04:16:00+08:00",
+    "tags": [
+      "AI应用",
+      "Claude"
+    ]
+  },
+  {
+    "title": "DeepSeek Harness登陆三大桌面平台",
+    "summary": "TestingCatalog介绍 DeepSeek Harness v0.2：由 DeepSeek 模型驱动、可执行工作和编码任务的桌面应用，现支持 macOS、Windows 和 Linux，插件与工作区开箱即用。",
+    "url": "https://x.com/testingcatalog/status/2105984366359036069",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261003-v-16.jpg",
+    "published_at": "2026-10-02T20:16:00+08:00",
+    "tags": [
+      "AI工具",
+      "编程",
+      "DeepSeek"
+    ]
+  }
+]

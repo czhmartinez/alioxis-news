@@ -1,0 +1,171 @@
+[
+  {
+    "id": "v-00",
+    "tab": "v",
+    "title": "AI投资上天价却未见生产力",
+    "summary": "多名经济学者和金融机构警示，AI基建投入与企业估值已达高位，但广泛生产力提升尚未出现。若回报赶不上债务和支出，可能引发资本泡沫与经济风险。",
+    "tags": [
+      "AI行业",
+      "产业"
+    ],
+    "filename": "cover-20261004-v-00.jpg",
+    "raw_name": "v-00-raw.png",
+    "prompt": "News photo metaphor: rocket of cash blasting upward while factory productivity gauges stay flat; sober financial documentary 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-01",
+    "tab": "v",
+    "title": "Sam Altman：把判断权交给AI是安全问题",
+    "summary": "Max For AI转述Sam Altman对将宗教力量或人类判断权赋予AI的担忧，并称其为真正的AI安全问题。作者认为这被解读为对Anthropic相关讨论的回应。",
+    "tags": [
+      "AI安全",
+      "模型"
+    ],
+    "filename": "cover-20261004-v-01.jpg",
+    "raw_name": "v-01-raw.png",
+    "prompt": "Security documentary: human hand hesitating before handing a glowing judgment gavel to a robot; tense soft light, no gore 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-02",
+    "tab": "v",
+    "title": "Anthropic联创与教皇争论AI意识",
+    "summary": "Max For AI转述《纽约时报》报道：Anthropic联合创始人克里斯·奥拉赫曾因教皇否认机器意识而威胁退出AI通谕发布活动。报道还称，其团队曾游说教皇顾问认真对待模型意识的可能性。",
+    "tags": [
+      "AI行业",
+      "AI安全"
+    ],
+    "filename": "cover-20261004-v-02.jpg",
+    "raw_name": "v-02-raw.png",
+    "prompt": "News photography: Vatican corridor silhouette debating with a researcher holding AI consciousness papers; respectful documentary 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-03",
+    "tab": "v",
+    "title": "GPT会过测试，却未必把工程做好",
+    "summary": "小互转述一则对GPT代码能力的批评：模型可能学会了让当前任务通过，却没有真正把工程做好。可见内容认为强化学习偏重测试通过、运行成功等易量化指标，而非真实意图。",
+    "tags": [
+      "模型",
+      "AI开发"
+    ],
+    "filename": "cover-20261004-v-03.jpg",
+    "raw_name": "v-03-raw.png",
+    "prompt": "Semi-realistic engineering bench: green exam checklist passed vs messy unfinished mechanical prototype; contrast of tests vs craft 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-04",
+    "tab": "v",
+    "title": "Dario效应",
+    "summary": "帖子以“Dario效应……”为题，附带一段约2分钟的视频；当前可见文字没有进一步展开说明。",
+    "tags": [
+      "AI行业"
+    ],
+    "filename": "cover-20261004-v-04.jpg",
+    "raw_name": "v-04-raw.png",
+    "prompt": "Editorial portrait metaphor: ripple waves labeled Dario effect across Silicon Valley skyline; tasteful news illustration-photo hybrid 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-05",
+    "tab": "v",
+    "title": "Claude Code Mods可定制界面与运行行为",
+    "summary": "小互介绍Claude Code的Mods插件，可显示上下文占用、在侧栏启动项目Agent，并在录屏时隐藏邮箱。帖子将其原理比作中间件，并附带演示视频。",
+    "tags": [
+      "AI工具",
+      "AI开发",
+      "AI代理"
+    ],
+    "filename": "cover-20261004-v-05.jpg",
+    "raw_name": "v-05-raw.png",
+    "prompt": "Semi-realistic IDE scene: Claude Code window with customizable UI panels and mod toggles for behavior; distinct coding desk props 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-06",
+    "tab": "v",
+    "title": "Aleph Alpha发布78B开源MoE模型Kolibri",
+    "summary": "TestingCatalog报道Aleph Alpha发布Kolibri，一个78B参数、3.46B活跃参数的MoE开源权重模型，支持最高1M上下文。模型采用Apache 2.0许可，可在自有硬件运行。",
+    "tags": [
+      "模型",
+      "开源模型"
+    ],
+    "filename": "cover-20261004-v-06.jpg",
+    "raw_name": "v-06-raw.png",
+    "prompt": "Research/model release: open MoE model constellation of 78B expert nodes labeled Kolibri / Aleph Alpha; recognizable lab anchor 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-07",
+    "tab": "v",
+    "title": "Meta开发Agent Engine（内部代号Forge）",
+    "summary": "TestingCatalog称Meta正在Meta API平台开发Agent Engine，内部代号为“Forge”。帖子表示目前尚不清楚其具体解决方案，并提到可能会有新的harness模型。",
+    "tags": [
+      "AI代理",
+      "平台"
+    ],
+    "filename": "cover-20261004-v-07.jpg",
+    "raw_name": "v-07-raw.png",
+    "prompt": "Semi-realistic agent engine workshop: forge anvil metaphor forging Meta Agent Engine gears labeled Forge; industrial warm light 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-08",
+    "tab": "v",
+    "title": "10月3日AI简讯：Voices API、虚拟试穿与Gemini Full Access",
+    "summary": "TestingCatalog汇总10月3日AI动态：OpenAI Python SDK新增可由文本或音频创建自定义语音的Voices API，ChatGPT推出虚拟试穿，并披露一宗澳大利亚政府相关事件。Google部分提到Antigravity新增Claude模型，以及Gemini Desktop测试可访问Mac文件和应用的Full Access模式。",
+    "tags": [
+      "AI工具",
+      "模型",
+      "多模态"
+    ],
+    "filename": "cover-20261004-v-08.jpg",
+    "raw_name": "v-08-raw.png",
+    "prompt": "Montage product flatlay: Voices API mic, virtual try-on clothing AR phone, Gemini full-access laptop — three distinct gadgets 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-09",
+    "tab": "v",
+    "title": "别只把ChatGPT当问答机：六类实用任务",
+    "summary": "あいえる认为，ChatGPT不应只被当作“提问后回答的AI”。帖子列出信息整理、产生点子、比较、确定目标、写作和发现改进点等用途。",
+    "tags": [
+      "AI应用",
+      "使用技巧"
+    ],
+    "filename": "cover-20261004-v-09.jpg",
+    "raw_name": "v-09-raw.png",
+    "prompt": "Semi-realistic desk of six labeled task cards around ChatGPT (not just Q&A): write, plan, analyze, draft, translate, automate 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-10",
+    "tab": "v",
+    "title": "用Claude做手机端30分钟联盟营销流程",
+    "summary": "作者称，除了让AI写文章，还整理了把每天约30分钟的手机工作交给Claude并连接乐天联盟营销的具体方法。帖子引用其9月22日发布的相关教程文章。",
+    "tags": [
+      "AI应用",
+      "AI工作流"
+    ],
+    "filename": "cover-20261004-v-10.jpg",
+    "raw_name": "v-10-raw.png",
+    "prompt": "Semi-realistic phone-in-hand affiliate marketing flow with Claude checklist for a 30-minute mobile workflow; lifestyle 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-11",
+    "tab": "v",
+    "title": "“AI碎片工作”：作者称每天30分钟可变现",
+    "summary": "作者称目前可复现性较高的变现方式是“AI碎片工作”，每天按步骤用约30分钟完成任务，并自述9月赚到179,300日元。帖子列出的特点是无需制作商品、可用手机碎片时间完成、不必出门且启动成本不高。",
+    "tags": [
+      "AI应用",
+      "AI工作流"
+    ],
+    "filename": "cover-20261004-v-11.jpg",
+    "raw_name": "v-11-raw.png",
+    "prompt": "Semi-realistic kitchen-table freelancer: 30-minute AI micro-work timer and small earnings jar; warm evening light 16:9. NO text overlays, NO logos, NO masthead color bars, NO abstract geometry wallpaper, NO generic conference room.",
+    "style_note": ""
+  }
+]

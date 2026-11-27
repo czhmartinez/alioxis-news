@@ -1,0 +1,16 @@
+Alioxis News 大V视野收集报告 — 2026-10-11 (Asia/Taipei)
+条数: 18
+Lead: 卡兹克发长文：花 5 天对公司做了一场 AI 化改造，自建企业中台 + MCP 一键部署同事的 Vibe Coding 应用
+读取方式: 公开 X MCP（namespace x）get_users_by_usernames + get_users_posts / get_posts_by_ids；未使用 box Chrome「正在关注」页
+时间窗: start_time≈2026-10-09T16:00:00Z（约 24–36h+），过滤无实质回复/纯广告/非AI吃瓜
+各 handle 计数（入选）:
+  @Khazix0918 (卡兹克): 1
+  @MaxForAI: 6
+  @xiaohu: 6
+  @thsottiaux: 2
+  @testingcatalog: 3
+  @gengdaJ: 0
+原始拉取条数（exclude replies）: Khazix0918=2 / MaxForAI=15 / xiaohu=18 / thsottiaux=8 / testingcatalog=14 / gengdaJ=6
+跳过: Max 群梗图/华为新疆公众号/「老一辈智慧」非AI主线、Qwen「要7B」短求、Anthropic 黑料吐槽与封号数字重复（封号用小互详版）；小互中美手续费段子、Grok邮箱（已在10-10）、奖项串回复；Tibo Day5 Composer/手机建dot（已在10-10）、纯「Blinked Saturday」；TestingCatalog Decision-1/Managed Agents/Pine/Argon/Grok邮箱（已在10-10）、Daily Brief 作聚合跳过（要点已拆入专题）；gengdaJ Cloudflare教程/美国手机号/RT Composer（非新AI主线或已覆盖）；卡兹克 Personal agent 崩溃短梗图
+封面 prompts: 18 条，与 v.json 等长
+未执行: build / 封面生成 / 发布

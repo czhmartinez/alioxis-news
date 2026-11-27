@@ -1,0 +1,45 @@
+Alioxis News AI新闻 URL verify — 2026-10-03
+================================================================
+01. 200  OK  https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/
+    title: Google Project Suncatcher 首颗原型卫星发射入轨：与 Planet 合作搭载 TPU 测试太空算力
+02. 200  OK  https://allenai.org/blog/astabrief
+    title: Ai2 开源 AstaBrief 8B：基于 Qwen3-8B 的科学报告生成模型，Asta Fast 模式约 3.5× 提速
+03. 200  OK  https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/
+    title: NVIDIA：Blackwell GPU 加速 OpenAI GPT-6 Astra Ultrafast，生成速度最高约 8×
+04. 200  OK  https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/
+    title: NVIDIA DGX Spark 推出 64GB 统一内存版：10 月 23 日起售价 $4,999，可双机集群
+05. 200  OK  https://suno.com/blog/introducing-speech-beta
+    title: Suno 推出 Speech beta：首个将语音与原创背景音乐一体生成的音频模型
+06. 200  OK  https://help.openai.com/en/articles/20001222-finances-in-chatgpt
+    title: ChatGPT Finances 上线美国用户：经 Plaid/Experian 连接账户做订阅、账单与信用分析
+07. 200  OK  https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena
+    title: 加州检察长 Bonta 向 OpenAI 发出调查传票：聚焦 AI 模型网络安全事件与风险
+08. 200  OK  https://epoch.ai/publications/estimating-the-agent-population
+    title: Epoch AI：2025–27 年 HBM 出货足可支撑约 3000 万–1.7 亿并发前沿模型智能体
+09. 200  OK  https://research.meta.ai/blog/solving-open-research-problems-together
+    title: Meta：数学家用 Muse Spark 1.1/1.2 Thinking 模式协作完成六篇数学研究论文
+10. 200  OK  https://manus.im/blog/introducing-video-editor
+    title: Manus 2.0 推出 Video Editor：生成初稿后可在时间线精修画面、字幕与配乐
+11. 200  OK  https://openai.com/index/practical-guide-building-gpt-6
+    title: OpenAI 发布 GPT-6 家族实用指南：选型、提示词/技能与长任务生产化
+12. 200  OK  https://www.baseten.co/blog/agentic-inference-optimization-faster-than-sota/
+    title: Baseten：Claude Code + Fable 5 生成的推理引擎比 vLLM 解码最高快约 90%
+13. 200  OK  https://openrouter.ai/blog/insights/langchain-vs-crewai-orchestration-compared-to-openrouter-native-routing/
+    title: OpenRouter：对比 LangChain/CrewAI 编排与 OpenRouter 原生路由的三层分工
+14. 200  OK  https://www.primeintellect.ai/blog/prime-inference
+    title: Prime Intellect 发布 Prime Inference：无服务器与预留容量托管前沿开源模型，首发 GLM-5.3
+15. 200  OK  https://modal.com/blog/introducing-sandbox-sidecars-trust-boundary
+    title: Modal 推出 Sandbox Sidecars：同主机隔离容器，跨信任边界通信约 3× 更快
+16. 200  OK  https://research.google/blog/toward-provably-private-learning-from-federated-data/
+    title: Google Research：基于 TEE 的下一代联邦学习，可外部验证隐私且 Gboard 已部署
+17. 200  OK  https://www.anthropic.com/news/claude-frontier-academy
+    title: Anthropic 推出 Claude Frontier Academy：投入 1 亿美元培养 1 万名企业前沿部署工程师
+18. 200  OK  https://huggingface.co/blog/allenai/olmocore3
+    title: Ai2 发布 Olmo-core 3：面向万亿参数 MoE 的开源训练基础设施
+
+Notes / non-chosen probes
+----------------------------------------------------------------
+chatgpt.com/finances → 403 (not used; help.openai.com primary used instead)
+Reuters CA AG → 401 (paywall/auth; used oag.ca.gov primary instead)
+
+Summary: 18/18 chosen URLs HTTP 200

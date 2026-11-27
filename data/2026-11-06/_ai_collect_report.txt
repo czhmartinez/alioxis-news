@@ -1,0 +1,86 @@
+Alioxis News AI新闻收集报告 — 2026-11-06（Asia/Taipei）
+============================================================
+完成时间：2026-11-06 08:20 左右 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-06/
+产出：ai.json（20）、_cover_prompts_ai.json（20）、本报告；目录另有既有 _aihot_daily.json、_aihot_summary.txt、_prior_urls.json（2022 URL）
+
+一、条数与头条
+- 条数：20（目标 15–20）
+- Lead（#00）：OpenAI 发布 GPT-6 Cyber：ExploitGym 48.5%、Firefox 新挖出 81 个高危漏洞，仅限 Daybreak Red 审核客户
+  URL：https://openai.com/index/introducing-gpt-6-cyber/
+  理由：行业影响最大——网络安全能力升至 Preparedness Critical、真实世界 Firefox/Linux 成果、Daybreak 分发；与 AIHOT lead 一致，已落到 openai.com 原文（WebFetch），The Verge / CSO Online / TechCrunch 交叉
+  备选：#01 Inkling 2 Small、#02 Gemini Omni 1.2 Flash、#04 中期选举蓝潮/数据中心
+
+二、与 v.json 交叉情况
+- 写盘时同目录无 v.json（另一流程尚未产出）
+- 报告注明：写盘时无 v.json；未做大V硬交叉去重
+- 近几日 v.json 软相关提示（供后续大V流程参考）：卡兹克/Max DeepSeek 养鱼与 Harness 属大V频道，本频道未收；Astra 硬件设计已在 11-04 AI 报道，本日未再收 Astra 同题
+
+三、AIHOT 使用情况
+- 既有 _aihot_summary.txt / _aihot_daily.json（lead：GPT-6 Cyber）已读
+- 采用线索并落到原文：
+  · GPT-6 Cyber → #00 openai.com（系统卡 deploymentsafety 作核实参考，未单独立条以免同产品拆条）
+  · Inkling 2 Small → #01 thinkingmachines.ai
+  · Gemini Omni 1.2 Flash → #02 blog.google
+  · Cursor Build Live Apps → #05 cursor.com/changelog
+  · Claude Personal Finance → #03 claude.com
+  · Perplexity Teammates → #06 theverge.com（官方 hub 博客 WebFetch 超时，改用 Verge）
+  · 中期选举蓝潮/数据中心 → #04 theverge.com
+  · METR 评 Anthropic 风险报告 → #07 metr.org
+  · a16z exploit 瓶颈文 → #08 a16z.news
+  · Meta Muse 语音头像 → #09 about.fb.com
+  · Anthropic 科研会话研究 → #11 anthropic.com/research
+  · Conductor 加入 Meta → #10 techcrunch + conductor.build changelog 交叉
+  · Reflection Beam 安全 → #15 reflection.ai
+  · Mistral Studio → #14 mistral.ai
+  · Goodfire mechanistic shaping → #19 goodfire.com
+- 未采用：
+  · 美股单日蒸发 3.2 万亿 / Nasdaq 大跌 — 仅 X 线索，未找到可独立核实的一手财经原文（时间窗内）
+  · Cat Wu 加入 OpenAI — 仅 X 转发链，无公司新闻稿/可靠媒体专稿
+  · Higgsfield GPT Image 2.6、腾讯混元感谢 AA、Mustafa 特拉华评论 — 增量弱或纯推文
+  · OpenClaw Multiplayer — 体量较小、时间所限排在 20 外
+  · GPT-6 Cyber 系统卡单独成条 — 与 #00 同产品，合并进头条摘要
+
+四、跳过原因 / 补充采用
+- 补充（非 AIHOT 主列表）：Brockman IPO 表态（TechCrunch）、苹果内部 AI 配额下调（TechCrunch 转彭博）、Dropbox 收购 Tigris（TechCrunch）、Anthropic×AP 授权据报（Verge 转 Adweek）、百度 ERNIE 5.5 Flash Base（The Decoder）
+- Airbnb 2027 AI 旅行 Agent、Axiom Math、Aina 智能戒指等已见 RSS，按重要性/AI 核心度排在 20 外
+- 11-04 已收 ChatGPT 周活、AMD 财报、Astra 硬件、FlashProve 等，本日不重复
+
+五、每条核实手段
+00 GPT-6 Cyber — WebFetch openai.com（November 5, 2026）；The Verge / CSO / TechCrunch / The Decoder 交叉；系统卡 deploymentsafety 辅助数字
+01 Inkling 2 Small — WebFetch thinkingmachines.ai（Nov 5, 2026）
+02 Gemini Omni 1.2 Flash — WebFetch blog.google（Nov 05, 2026）；The Decoder / The Verge 交叉
+03 Claude Personal Finance — WebFetch claude.com；TechCrunch / The Verge 交叉
+04 蓝潮/数据中心 — WebFetch theverge.com（Nov 5, 2026, 5:51 PM UTC）
+05 Cursor Build Live Apps — WebFetch cursor.com/changelog（Nov 5, 2026）
+06 Perplexity Teammates — WebFetch theverge.com；官方 hub 超时，AIHOT X 线索辅助
+07 METR 评审 — WebFetch metr.org（November 5, 2026）
+08 a16z exploit — WebFetch a16z.news（Nov 05, 2026）
+09 Meta Muse — WebFetch about.fb.com（November 5, 2026）；TechCrunch 交叉
+10 Conductor×Meta — WebFetch techcrunch.com；curl/WebFetch conductor.build changelog 0.93.0
+11 Anthropic 科研会话 — WebFetch anthropic.com/research（Nov 5, 2026）
+12 Brockman IPO — WebFetch techcrunch.com（Nov 5, 2026）
+13 苹果 AI 配额 — WebFetch techcrunch.com（转述 Bloomberg，Nov 4）
+14 Mistral Studio — WebFetch mistral.ai/news/build-with-studio/
+15 Reflection Beam — WebFetch reflection.ai/blog（November 5, 2026）
+16 Dropbox×Tigris — WebFetch techcrunch.com（Nov 5, 2026）
+17 Anthropic×AP — WebFetch theverge.com 短讯（转述 Adweek；标注据报）
+18 百度 ERNIE 5.5 — WebFetch the-decoder.com（Nov 5, 2026）
+19 Goodfire — WebFetch goodfire.com/research（November 5, 2026）
+
+六、去重
+- _prior_urls.json：2022 条；本日 20 条 URL 0 命中；内部 URL/标题无重复
+- 对照近 10 天（尤其 11-04～10-28）ai.json 标题：无同题硬撞；Mistral Large 4 权重已于 10-30 作头条，本日仅收 Studio 平台扩展（不同产品面）
+- published_at 均为 +08:00 ISO（仅有日期的官方页按当日合理估计时间；美西媒体按原文 UTC/PT 换算）
+- source 均为字符串；image 为 /assets/covers/cover-20261106-ai-NN.jpg（00–19），与 _cover_prompts_ai.json 一一对应
+
+七、缺口与说明
+- 20 条全部有可打开原文链接；#13、#17 为媒体转述（彭博 / Adweek），已在摘要标明
+- 因 11-05 整日漏更，时间窗覆盖约 11-04 晚至 11-06 早（#10/#13 为 11-04 美西发布）
+- 写盘时无 v.json
+- 未生成封面、未 build、未 publish、未通知用户（按任务要求）
+
+
+八、与 v.json 交叉修订（主流程）
+- 写盘后出现 v.json（18 条）。硬同题：原 #18 百度开源 ERNIE 5.5 Flash Base 与小互条同题 → 从 AI新闻撤下并重编号，现条数 19。
+- 软相关保留：GPT-6 Cyber 官方稿 vs Tibo Daybreak 点评；METR 原文 vs TC 转述——角度不同、URL 不同。

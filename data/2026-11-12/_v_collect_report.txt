@@ -1,0 +1,29 @@
+大V视野收集报告 — 2026-11-12（Asia/Taipei）
+
+读取方式：公开 X 读取（namespace x）；未用浏览器、未用 user-X
+- 用户 id 复用：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-10T16:00:00Z（11-11 00:00 Asia/Taipei 起），max_results=25；字段 note_post（返回里仍出现 note_tweet 键，脚本两者兼容）
+- 原始条数：@Khazix0918 1 / @MaxForAI 6 / @xiaohu 10 / @thsottiaux 4 / @testingcatalog 25（仅取第 1 页，next_token 未翻，更早帖为 11-10 内容、昨天已收）/ @gengdaJ 3
+- get_posts_by_ids 补长文一批 16 个 id；引用原帖（jukan05 等）读不到，未采用其内容
+- 工具返回体偶尔中段截断，已改用落盘文件解析
+
+入选 v.json：17 条
+各 handle：{'@Khazix0918': 1, '@MaxForAI': 1, '@xiaohu': 2, '@thsottiaux': 0, '@testingcatalog': 13, '@gengdaJ': 0}
+Lead：百度发布文心 ERNIE 5.5 Flash Preview 开源模型（小互）
+URL：https://x.com/xiaohu/status/2120500117342175364
+
+跳过/说明：
+- 黄仁勋「第二段婚外情 / 董事会欲罢免」（小互 2120660617908674726、TC 2120649482874540295）：属个人私生活指控、仅来自转述，非 AI 工具/模型内容，未收录；如需可单独评估
+- gengdaJ 2120491932917141711（Windows 盒子 OCR 自动写微信 + 海外 KYC/支付闭环、称政策收紧后需求暴增）：疑似灰产/规避风控，不收；gengdaJ 其余为 RT
+- Max：腾讯混元大裁员（仅图片传闻）、Claude 5.5 家族训练花 100 亿美元（引用原帖不可读，传闻）、OpenAI 设计负责人个人主页、腾讯官方梗帖，均跳过
+- thsottiaux：两条 Codex 重置暗示，信息量低，未收
+- TC 未收：Google Tabletop（暂无可用信息）、SpaceX×SINGULUS 光伏（非 AI）、ChatGPT/Qwen/Gemini 等已合并条目；Gemini 4 Hydrogen/GPT-6.2 等为预测，仅在简报条目一句带过并标注推测
+- 合并：Antigravity Swarm + Cursor 多人模式；ERNIE 技术帖拆为模型发布与 RSI 两条；ChatGPT Finance 桌面端 + 语音模式退役；Qwen4 预告 + Max-Preview
+- 卡兹克长文仅返回标题，无正文，摘要未编造论点
+- 注意：Max Seedream 5.5 与 11-10 小互 Seedream 5.5 条同题不同角度（Max 为连续改图实测）；Antigravity/Cursor、Gemini 4 Carbon 相关在 11-10/11-11 已有，本次为新增进展
+- TC 占比偏高（13/17），因窗口内卡兹克/Max/小互/Tsottiaux/gengdaJ AI 资讯帖很少；ai.json 当前不存在，硬 URL 比对仅对历史 v.json（0 重复）
+- 观点/传闻标注：Browser Use 的「超级应用」判断、Cursor 多人模式细节、Saved logins（未发布，Duet 为猜测）、ByteDance（彭博转述）、ARC/Roma/Nod/Arca 为 TC 转述的产品方说法
+
+封面提示词：_cover_prompts_v.json（17 条，cover-20261112-v-00 ～ 16）
+未生成封面、未 build、未发布。
+完成时间：2026-11-12 08:15:50 Asia/Taipei

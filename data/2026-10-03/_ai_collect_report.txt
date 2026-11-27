@@ -1,0 +1,125 @@
+Alioxis News AI新闻 collect report — 2026-10-03 (Asia/Taipei)
+================================================================
+item_count: 18
+output: /workspace/alioxis-news/data/2026-10-03/ai.json
+covers: image fields left empty ("") for later GenerateImage
+lead: Google Project Suncatcher 首颗原型卫星发射入轨：与 Planet 合作搭载 TPU 测试太空算力
+
+AIHOT status
+------------
+- Source: /workspace/alioxis-news/data/2026-10-03/_aihot_daily.json (v1 report object; also _aihot_v1.json envelope)
+- Public API shape retained in _aihot_raw.json; tips flat rebuilt with sourceUrl + links.original
+- Endpoint: https://aihot.news/api/public/daily/2026-10-03 (mirrored) / v1 daily report for 2026-10-03
+- HTML daily: https://aihot.news/daily/2026-10-03 → _aihot_daily.html
+- tips flat: _aihot_tips_flat.json (22 tips: 12 section + 10 flashes); fields sourceUrl + links.original
+- HTTP/presence: OK (date=2026-10-03, lead PRESENT)
+- Lead: Google Project Suncatcher 首颗原型卫星发射入轨
+  (leadParagraph: Planet + SpaceX Transporter-18 + TPU in-orbit stress/radiation/thermal; LEO ~8× solar)
+- Window: 2026-10-02T00:00:00.000Z → 2026-10-03T00:00:00.000Z
+- generatedAt: 2026-10-03T00:00:37.410Z
+- Attribution: https://aihot.news/daily/2026-10-03
+- Sections: 模型发布/更新 2 · 产品发布/更新 4 · 行业动态 2 · 论文研究 2 · 技巧与观点 2; flashes=10
+- Used as PRIMARY LEAD SOURCE; tips used for candidate list then primary-URL verified
+- Lead tip was X-only (@GoogleAI); replaced with Google Blog primary:
+  https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/ (HTTP 200)
+- NOTICE (AIHOT): legacy /api/public/* sunsets 2026-10-31; migrate to https://aihot.news/api/v1
+
+Dedup / skip notes
+------------------
+SKIP (already in 2026-10-02 ai.json):
+- FLUX 3 Image / OpenRouter X tip — same Black Forest Labs FLUX.3 Image product arc (kept yesterday OpenRouter model page)
+- Modal VM Sandboxes flash (modal.com/blog/vm-sandboxes-agent-computers) — same product as yesterday’s
+  modal.com/blog/runtime-product-update-sandbox-endpoints; kept DISTINCT Modal Sidecars as new product
+
+SKIP (already in 2026-10-01 ai.json):
+- Gemini 4 Argon / AA Index / FTC / NYT warnings / OpenAI distillation / SpaceX Anthropic / White House
+- DeepSeek Ascend / SynthID Bio / ElevenLabs / Ling-3.1-flash / Anthropic robots / PromptArmor
+- Factory Automations / AA-AgentPerf-Local / Ataraxos / METR Senate / vLLM disagg / OpenRouter agent regression
+
+SKIP (already in 2026-09-30 / 2026-09-29 ai.json):
+- GPT-6.1 Sol product / cancel / dots / DevDay / GLM-5.3 cyber eval / AISI Astra rogue / Australia remediation
+- Anthropic IPO S-1 arc (09-29); Muse agent privacy incident (09-30 Meta Muse home-address) — distinct from today’s Muse Spark math papers
+- Claude Sonnet 5.5 AA ranks; Ember/FireRouter/Holo4 etc.
+
+SKIP (AIHOT tip weaker / duplicate angle / X-only / soft):
+- ChatGPT Finances X @ChatGPT tip — used help.openai.com Help Center primary (HTTP 200); chatgpt.com/finances curl 403
+- Google Suncatcher X @GoogleAI tip — used blog.google primary (HTTP 200)
+- Meta Muse Spark X @AIatMeta flash — duplicate of research.meta.ai section item (kept blog)
+- Bloomberg Anthropic ~$2T IPO investor meetings — X-only @rohanpaul_ai; weak rehash of 09-29 IPO arc; no Bloomberg/primary page verified
+- Artificial Analysis Coding Agent Index flash — X-only @ArtificialAnlys; Sonnet 5.5 / Sol / Argon already covered as product arcs
+- GPT-6.1 Sol (Max) Agent Arena #5 — X-only @arena; Sol product already covered 09-30
+- CA AG tip sourceUrl ithome (200) — prefer California OAG press release primary (200); Reuters legal URL returned 401
+
+Expansion beyond AIHOT (to reach 15–20 solid items)
+---------------------------------------------------
+- Anthropic Claude Frontier Academy — https://www.anthropic.com/news/claude-frontier-academy (Oct 2, 200)
+- Ai2 Olmo-core 3 — https://huggingface.co/blog/allenai/olmocore3 (Oct 1, 200)
+
+Source URL choices (prefer primary; curl verified HTTP 200)
+-----------------------------------------------------------
+1. Project Suncatcher — blog.google/.../project-suncatcher-prototype/ (200); facts page also 200
+2. AstaBrief — allenai.org/blog/astabrief (200)
+3. Astra Ultrafast / Blackwell — blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/ (200)
+4. DGX Spark 64GB — blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/ (200)
+5. Suno Speech — suno.com/blog/introducing-speech-beta (200)
+6. ChatGPT Finances — help.openai.com/en/articles/20001222-finances-in-chatgpt (200)
+7. CA AG OpenAI subpoena — oag.ca.gov/...investigative-subpoena (200)
+8. Epoch agent population — epoch.ai/publications/estimating-the-agent-population (200)
+9. Meta Muse Spark math — research.meta.ai/blog/solving-open-research-problems-together (200)
+10. Manus Video Editor — manus.im/blog/introducing-video-editor (200); zh-cn mirror also 200
+11. OpenAI GPT-6 guide — openai.com/index/practical-guide-building-gpt-6 (200; WebFetch 403, curl 200)
+12. Baseten MetaInfer engines — baseten.co/blog/agentic-inference-optimization-faster-than-sota/ (200)
+13. OpenRouter LangChain vs CrewAI — openrouter.ai/blog/insights/langchain-vs-crewai-... (200)
+14. Prime Inference — primeintellect.ai/blog/prime-inference (200)
+15. Modal Sidecars — modal.com/blog/introducing-sandbox-sidecars-trust-boundary (200)
+16. Google TEE FL — research.google/blog/toward-provably-private-learning-from-federated-data/ (200)
+17. Claude Frontier Academy — anthropic.com/news/claude-frontier-academy (200)
+18. Olmo-core 3 — huggingface.co/blog/allenai/olmocore3 (200)
+
+Items (title → url)
+-------------------
+1. Google Project Suncatcher 首颗原型卫星发射入轨：与 Planet 合作搭载 TPU 测试太空算力
+   → https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-prototype/
+2. Ai2 开源 AstaBrief 8B：基于 Qwen3-8B 的科学报告生成模型，Asta Fast 模式约 3.5× 提速
+   → https://allenai.org/blog/astabrief
+3. NVIDIA：Blackwell GPU 加速 OpenAI GPT-6 Astra Ultrafast，生成速度最高约 8×
+   → https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast/
+4. NVIDIA DGX Spark 推出 64GB 统一内存版：10 月 23 日起售价 $4,999，可双机集群
+   → https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/
+5. Suno 推出 Speech beta：首个将语音与原创背景音乐一体生成的音频模型
+   → https://suno.com/blog/introducing-speech-beta
+6. ChatGPT Finances 上线美国用户：经 Plaid/Experian 连接账户做订阅、账单与信用分析
+   → https://help.openai.com/en/articles/20001222-finances-in-chatgpt
+7. 加州检察长 Bonta 向 OpenAI 发出调查传票：聚焦 AI 模型网络安全事件与风险
+   → https://oag.ca.gov/news/press-releases/part-ongoing-investigation-attorney-general-bonta-serves-investigative-subpoena
+8. Epoch AI：2025–27 年 HBM 出货足可支撑约 3000 万–1.7 亿并发前沿模型智能体
+   → https://epoch.ai/publications/estimating-the-agent-population
+9. Meta：数学家用 Muse Spark 1.1/1.2 Thinking 模式协作完成六篇数学研究论文
+   → https://research.meta.ai/blog/solving-open-research-problems-together
+10. Manus 2.0 推出 Video Editor：生成初稿后可在时间线精修画面、字幕与配乐
+   → https://manus.im/blog/introducing-video-editor
+11. OpenAI 发布 GPT-6 家族实用指南：选型、提示词/技能与长任务生产化
+   → https://openai.com/index/practical-guide-building-gpt-6
+12. Baseten：Claude Code + Fable 5 生成的推理引擎比 vLLM 解码最高快约 90%
+   → https://www.baseten.co/blog/agentic-inference-optimization-faster-than-sota/
+13. OpenRouter：对比 LangChain/CrewAI 编排与 OpenRouter 原生路由的三层分工
+   → https://openrouter.ai/blog/insights/langchain-vs-crewai-orchestration-compared-to-openrouter-native-routing/
+14. Prime Intellect 发布 Prime Inference：无服务器与预留容量托管前沿开源模型，首发 GLM-5.3
+   → https://www.primeintellect.ai/blog/prime-inference
+15. Modal 推出 Sandbox Sidecars：同主机隔离容器，跨信任边界通信约 3× 更快
+   → https://modal.com/blog/introducing-sandbox-sidecars-trust-boundary
+16. Google Research：基于 TEE 的下一代联邦学习，可外部验证隐私且 Gboard 已部署
+   → https://research.google/blog/toward-provably-private-learning-from-federated-data/
+17. Anthropic 推出 Claude Frontier Academy：投入 1 亿美元培养 1 万名企业前沿部署工程师
+   → https://www.anthropic.com/news/claude-frontier-academy
+18. Ai2 发布 Olmo-core 3：面向万亿参数 MoE 的开源训练基础设施
+   → https://huggingface.co/blog/allenai/olmocore3
+
+Blockers / notes
+----------------
+- None for collect: 18/18 chosen URLs HTTP 200; AIHOT daily mirrored OK; lead enriched from Google Blog.
+- GenerateImage / covers not in scope for this collect step (images left "").
+- AIHOT legacy API sunset 2026-10-31 — pipelines should plan migration to /api/v1.
+- Deduped vs 2026-10-02 / 10-01 / 09-30 / 09-29; Modal Sidecars kept as new vs yesterday VM Sandboxes.
+- OpenAI practical-guide page: WebFetch returned 403 but curl -L -A UA returned 200 (content verified).
+- See also: /workspace/alioxis-news/data/2026-10-03/_url_verify.txt

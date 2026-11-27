@@ -1,0 +1,171 @@
+[
+  {
+    "title": "Google 内部开发 Gemini「超级项目」：将取代 Gemini Notebook 项目，文件与对话可跨谷歌产品访问",
+    "summary": "据 TestingCatalog 发现，Google 正为 Gemini 开发内部代号「超级项目」的功能，是 Projects 的下一代迭代，将取代 Gemini 中的 Gemini Notebook 项目；其中的文件和聊天会话将可通过多种谷歌产品访问。上线时间未知。",
+    "url": "https://x.com/testingcatalog/status/2107207883171537058",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261006-v-00.jpg",
+    "published_at": "2026-10-06T05:00:00+08:00",
+    "tags": [
+      "Gemini",
+      "Google",
+      "产品爆料"
+    ]
+  },
+  {
+    "title": "Tibo 转推 ChatGPT「Space」团队征求反馈：协作空间每天在快速改进",
+    "summary": "Tibo 引用 OpenAI 的 Sergio Mattei 的帖子，称其正在 ChatGPT 中用协作空间（Space）「施展魔法」、每天飞速改进。Sergio 原帖向用户征集 Space 的优缺点和改进建议，并提到团队将简化应用。",
+    "url": "https://x.com/thsottiaux/status/2107200530477101461",
+    "source": "Tibo（OpenAI Codex）",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261006-v-01.jpg",
+    "published_at": "2026-10-06T04:00:00+08:00",
+    "tags": [
+      "ChatGPT",
+      "Space",
+      "协作"
+    ]
+  },
+  {
+    "title": "Codex「28天」第1天：GPT-6 Astra / 6.1 Sol 默认速度提速约50%",
+    "summary": "Tibo 宣布 28 天每日改进计划的第 1 天：默认速度已优化为比 GPT-6 Astra 和 GPT-6.1 Sol 此前快约 50%，覆盖所有产品，以及通过 Sign in With ChatGPT 接入的合作伙伴（OpenCode、Pi、Amp、Devin 等）。用户无需任何改动，优化在两小时内生效。",
+    "url": "https://x.com/thsottiaux/status/2107158998495748264",
+    "source": "Tibo（OpenAI Codex）",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261006-v-02.jpg",
+    "published_at": "2026-10-06T02:00:00+08:00",
+    "tags": [
+      "Codex",
+      "OpenAI",
+      "模型速度"
+    ]
+  },
+  {
+    "title": "Tibo补充：提速后输出达 50 TPS（原 30 TPS），分词器与 token 效率是关键",
+    "summary": "在同一线程中 Tibo 补充，提速后模型输出可达每秒 50 个 token 而非 30 个，并称其拥有市场上最优化的分词器，且这些模型完成任务所需的 token 数量非常高效。",
+    "url": "https://x.com/thsottiaux/status/2107159119107146237",
+    "source": "Tibo（OpenAI Codex）",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261006-v-03.jpg",
+    "published_at": "2026-10-06T02:00:00+08:00",
+    "tags": [
+      "Codex",
+      "吞吐",
+      "Token效率"
+    ]
+  },
+  {
+    "title": "TestingCatalog：GPT-6 Astra 与 6.1 Sol 「半超快」——你更想要提速还是额度重置？",
+    "summary": "TestingCatalog 引用 Tibo 的第 1 天公告，称 GPT-6 Astra 和 GPT-6.1 Sol 现在预计快 50%，戏称为「半超快」，并向关注者发问：更喜欢这次提速，还是一次 banked reset（额度重置）。",
+    "url": "https://x.com/testingcatalog/status/2107166320198369645",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261006-v-04.jpg",
+    "published_at": "2026-10-06T02:00:00+08:00",
+    "tags": [
+      "GPT-6",
+      "Codex",
+      "社区讨论"
+    ]
+  },
+  {
+    "title": "OpenAI 将在欧盟为 ChatGPT 与 Codex 上线文本水印，TestingCatalog：性能无差异的说法需要实测",
+    "summary": "TestingCatalog 引用 Tibor Blaho 的整理：OpenAI 为应对欧盟 AI 法案推出文本水印，未来几周将为欧盟地区 ChatGPT 和 Codex 文本加入不可见水印，API 中默认关闭、全球客户可选开启。OpenAI 称在评估 Astra 的基准中启用与否无明显性能差异，TestingCatalog 表示这需要真正的测试。",
+    "url": "https://x.com/testingcatalog/status/2107141677060104617",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261006-v-05.jpg",
+    "published_at": "2026-10-06T00:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "水印",
+      "欧盟AI法案"
+    ]
+  },
+  {
+    "title": "Gemini Notebook 换新用量体系：每 5 小时刷新、统一额度、超限任务进后台队列",
+    "summary": "TestingCatalog 汇总 Gemini Notebook 的新使用限制：额度改为每 5 小时刷新一次（原为每 24 小时）；按功能的限制被替换为 Notebook 专用的灵活统一额度，并提供生成工件的用量估算；超出额度时可把视频、幻灯片等生成任务放入后台队列，稍后自动完成。",
+    "url": "https://x.com/testingcatalog/status/2107125198579286277",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261006-v-06.jpg",
+    "published_at": "2026-10-05T23:00:00+08:00",
+    "tags": [
+      "Gemini",
+      "Notebook",
+      "用量限制"
+    ]
+  },
+  {
+    "title": "Max：ChatGPT 广告似乎已开放给个人投放",
+    "summary": "Max 发帖惊呼 ChatGPT 可以向个人开放投放广告了（帖子仅一句话，配图细节未核实），是对 OpenAI 当天广告新功能的跟进观察。",
+    "url": "https://x.com/MaxForAI/status/2107112596147171701",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261006-v-07.jpg",
+    "published_at": "2026-10-05T23:00:00+08:00",
+    "tags": [
+      "ChatGPT",
+      "广告",
+      "个人投放"
+    ]
+  },
+  {
+    "title": "高通获华为折叠晶片相关专利授权，双方达成多年期交叉许可",
+    "summary": "联合早报报道：高通已同意获取华为逻辑折叠晶片制造技术相关专利的授权，双方达成多年期交叉许可协议。报道称，这意味着华为拓展海外人工智能市场的进程取得重要进展。",
+    "url": "https://x.com/zaobaosg/status/2107105268500689085",
+    "source": "联合早报 Lianhe Zaobao",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20261006-v-08.jpg",
+    "published_at": "2026-10-05T22:00:00+08:00",
+    "tags": [
+      "芯片",
+      "华为",
+      "高通",
+      "专利"
+    ]
+  },
+  {
+    "title": "Max：OpenAI 要把视觉广告放进 ChatGPT 生图，12亿周活开始补齐广告投放与归因",
+    "summary": "Max 解读 OpenAI 新公告：ChatGPT 生成图片时旁边可能出现带图片的广告，与生成图明确分开并标注为广告，OpenAI 强调广告不影响回答；本月晚些时候先在美国面向部分广告主测试，同时上线转化追踪、归因和品牌安全工具，接入 Hightouch、Tealium、LiveRamp、AppsFlyer、Adjust、Branch 等。官方称 ChatGPT 每周触达 12 亿人，Max 认为它越来越像新的超级流量平台。",
+    "url": "https://x.com/MaxForAI/status/2107077634912039337",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261006-v-09.jpg",
+    "published_at": "2026-10-05T20:00:00+08:00",
+    "tags": [
+      "ChatGPT",
+      "广告",
+      "商业化"
+    ]
+  },
+  {
+    "title": "Max：Meta Muse DAU 停滞在 250–300 万，个人 Agent 或仍是伪需求",
+    "summary": "Max 援引卓哥投研笔记转述的华福证券统计：Meta 个人 Agent 产品 Muse 9 月 8 日上线首日全端 DAU 近 50 万，半个月冲到 250 万，但 9 月下旬至 10 月 1 日一直徘徊在 250–300 万，且三端加总存在重叠。Muse 9 月底已向 Shopify、QuickBooks、Stripe、Canva 等商业工具扩展；Max 认为最难回答的是用户试完之后为何每天还要打开它。",
+    "url": "https://x.com/MaxForAI/status/2107073645311152382",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261006-v-10.jpg",
+    "published_at": "2026-10-05T20:00:00+08:00",
+    "tags": [
+      "Meta Muse",
+      "个人Agent",
+      "用户增长"
+    ]
+  },
+  {
+    "title": "Max 解读 Economist/YouGov 民调：美国人越来越怕 AI，唯独 30–44 岁群体担忧下降",
+    "summary": "Max 引用 Nabeel Qureshi 的帖子与 The Economist/YouGov 调查：对比 8 月底与 9 月中下旬，几乎所有年龄段的美国人对 AI 伤害风险的担忧上升，只有 30–44 岁群体反向下降。Max 认为这代人完整经历了 PC、互联网、智能手机到生成式 AI，真正让人害怕的或许是不知道 AI 在做什么。",
+    "url": "https://x.com/MaxForAI/status/2107031325001875720",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261006-v-11.jpg",
+    "published_at": "2026-10-05T17:00:00+08:00",
+    "tags": [
+      "AI民意",
+      "调查",
+      "代际"
+    ]
+  }
+]

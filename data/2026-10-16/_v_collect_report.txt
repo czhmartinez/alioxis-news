@@ -1,0 +1,21 @@
+Alioxis News 大V视野收集报告 — 2026-10-16 (Asia/Taipei)
+条数: 18
+Lead: 卡兹克长文：开源 Skill「Anatomy」——一句话让 AI 搓出可交互原理科普视频
+读取方式: 公开 X MCP（namespace x）get_users_by_usernames + get_users_posts / get_posts_by_ids；未使用 box Chrome「正在关注」页；不花用户 credits
+时间窗: start_time=2026-10-14T20:00:00Z（约 36h），exclude=replies；过滤无实质回复/纯广告/梗图/非AI吃瓜；与 2026-10-15、2026-10-14 v.json URL 去重
+各 handle 计数（入选）:
+  @Khazix0918 (卡兹克): 2
+  @MaxForAI: 4
+  @xiaohu: 3
+  @thsottiaux: 1
+  @testingcatalog: 8
+  @gengdaJ: 0
+原始拉取条数（exclude replies，约）: Khazix0918=4 / MaxForAI=21 / xiaohu=15 / thsottiaux=6 / testingcatalog=24 / gengdaJ=1
+跳过理由摘要:
+  - @Khazix0918: Codex 联想「宣布AGI」梗图；可灵感慨短帖（可灵主题保留小互长报道）
+  - @MaxForAI: Epic/Claude Code 多 Agent（已在 10-15 v.json）；土豆姐/Tibo 暧昧吃瓜；黄仁勋行程；Web3 谣言辟谣；中美豆包联姻/Claude保命技能梗图；赡养人类科幻感想（偏文化）；短回复与无实质引用
+  - @xiaohu: Kling 4.0 线程续帖（合并进主帖）；纯引用可灵官推无文案；Opus「起号」短视频（与卡兹克 Anatomy 长文同主题，留信息量更大者）
+  - @thsottiaux: Day10 Reset 短宣言及「Landing/Done」跟帖；Bonjour/法语编程（GPT-Live 玩梗，语音升级留 TestingCatalog）
+  - @testingcatalog: Daily Brief 聚合；Inworld（10-15已报）；Nemotron 下周猜测帖（保留正式宣布帖）；Attio/Blandie 等次优先产品；线程回复
+  - @gengdaJ: Claude 注册/订阅/防封教程带大量联盟链接，判为广告向，整帖跳过
+审计: data/2026-10-16/_v_raw_mcp.json

@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Max 深度实测 DeepSeek V4.1-Flash-1017：蒸 GPT 太狠、写作回升、3 元出片",
+    "summary": "Max 深度测试 DeepSeek 下午发布的 V4.1-Flash-1017：认为其大量蒸馏 GPT（或 Astra）数据，甚至开始出现冒烟测试与确认门控；写作文风优于上一版 Flash，更接近他心中的中文写作标杆 V3.1-Terminus；游戏/3D 数据训练痕迹明显，从零构建完整项目能力大增；调侃中转站可掺进 GPT 难被察觉，并开玩笑建议接到 Codex 平替 GPT-6 Sol。附朋友单次生成视频仅花约 3 元人民币 Token。",
+    "url": "https://x.com/MaxForAI/status/2111440821484667343",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-17T20:54:55+08:00",
+    "tags": [
+      "DeepSeek",
+      "V4.1-Flash",
+      "蒸馏",
+      "实测",
+      "游戏3D"
+    ],
+    "image": "/assets/covers/cover-20261018-v-00.jpg"
+  },
+  {
+    "title": "Max：DeepSeek V4.1-Flash-1017 开源上线——DeepSWE 77%、任务费约 Opus 六十分之一",
+    "summary": "Max 报道 DeepSeek 正式发布 V4.1-Flash-1017，网页/App/API 同步、权重开放。DeepSWE v1.1 max 档通过率约 77%、每任务约 1.3 元，对照图中 Claude Opus 5 max 约 74% 却约 80 元/任务；相对上一版 Flash，通过率 74.2%→77%、费用约 3.3→1.3 元。Terminal-Bench 4.0、ProgramBench 等 11 项评测全涨，并称自反馈强化学习增强从零开发完整项目（含游戏/3D），针对 DeepSeek Harness、腾讯 CodeBuddy、WorkBuddy 优化。",
+    "url": "https://x.com/MaxForAI/status/2111379082302660866",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-17T16:49:35+08:00",
+    "tags": [
+      "DeepSeek",
+      "开源",
+      "DeepSWE",
+      "Agent",
+      "成本"
+    ],
+    "image": "/assets/covers/cover-20261018-v-01.jpg"
+  },
+  {
+    "title": "TestingCatalog：OpenCode 遭大规模蒸馏攻击——约 1.4% 用户 OpenAI/Anthropic/Google 额度被掏空",
+    "summary": "TestingCatalog 转述 OpenCode 官方声明：昨夜发生与大规模蒸馏攻击相关的安全事故，约 1.4% 已绑定外部供应商的 Console 用户，其 OpenAI、Anthropic、Google 余额被耗尽，已邮件通知受影响用户。作者认为若该蒸馏向量最易执行，意味着头部实验室更受保护、小供应商更不安全，且一线实验室 Token 因更难被拿去蒸馏而价值上升。",
+    "url": "https://x.com/testingcatalog/status/2111536604351246541",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-18T03:15:31+08:00",
+    "tags": [
+      "OpenCode",
+      "蒸馏攻击",
+      "安全",
+      "API额度",
+      "AI安全"
+    ],
+    "image": "/assets/covers/cover-20261018-v-02.jpg"
+  },
+  {
+    "title": "Max：彭博称中国股市成全球 AI 交易最大输家——科创50 下半年跌近 40%",
+    "summary": "Max 解读彭博《中国股市成为全球AI交易受挫的最大输家》：2026 下半年科创50 跌近 40%、创业板指跌约 36%；摩尔线程、沐曦约腰斩，长鑫高点回落约 27%，宇树自 8 月高点约跌半。科创50 预期市盈率仍超 40 倍（纳指约 21 倍）；三季度外资经沪深港通相关渠道净流出约 900 亿元。他更担心股权融资依赖下，持续低迷会卡住芯片/模型/基建等需长期研发的中国 AI 公司现金流。",
+    "url": "https://x.com/MaxForAI/status/2111473765934866791",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-17T23:05:49+08:00",
+    "tags": [
+      "中国AI",
+      "资本市场",
+      "科创50",
+      "融资",
+      "彭博"
+    ],
+    "image": "/assets/covers/cover-20261018-v-03.jpg"
+  },
+  {
+    "title": "逸尘：别买成品 Personal Agent——用 Claude Code 驯化「我眼即 Agent 眼」",
+    "summary": "逸尘回应国内 Personal Agent 入口讨论：当下更优是用 Claude Code 自建专属 Agent，做到共享世界上下文。清单含微信/企微本地 vault、飞书 CLI、Gmail/Slack/Lark 插件、Codex History 电脑操作记录、千问/豆包录音+ASR 转 Markdown、X/小红书/抖音收藏导出，以及与 Codex/Claude Code 聊天自动沉淀 Markdown 的记忆仓库，并给出相关 GitHub 链接。",
+    "url": "https://x.com/gengdaJ/status/2111344530490552560",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-10-17T14:32:17+08:00",
+    "tags": [
+      "PersonalAgent",
+      "ClaudeCode",
+      "记忆",
+      "微信",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20261018-v-04.jpg"
+  },
+  {
+    "title": "TestingCatalog Daily AI Brief（10/17）：Astra Pro 多 Agent、DeepSeek Flash、Claude Code Review GA",
+    "summary": "TestingCatalog 10/17 简报要点：OpenAI 升级 GPT-6 Astra Pro（更快、更好用插件，多 Agent 并行）及 Codex/Work 上下文复用提升有效用量；Google AI Pro 可在 AI Studio 用 Gemini 4 Argon，Notebook 酝酿分步做幻灯片/视频；DeepSeek 发 V4.1-Flash-1017；Grok Bot 上线且显著加速；Claude Code Review 对 Team/Enterprise GA；Perplexity 开源 Decider v1.2；NVIDIA RTX Spark 开售并静默发 Dory 1.0；Reflection Beam、Cursor 画布、腾讯 Hy Memory 2.0 等。",
+    "url": "https://x.com/testingcatalog/status/2111409303701577925",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-17T18:49:40+08:00",
+    "tags": [
+      "日报",
+      "OpenAI",
+      "DeepSeek",
+      "Claude",
+      "Grok"
+    ],
+    "image": "/assets/covers/cover-20261018-v-05.jpg"
+  },
+  {
+    "title": "Tibo：Codex Day 13——额度重置（Le limit reset）",
+    "summary": "OpenAI Codex/ChatGPT 相关负责人 Tibo 发布「Day 13/ Le limit reset」，配图宣布限额重置。结合其 Day 12 关于跨子 Agent 复用上下文、更长缓存与路由以提升有效用量的改进，社区关注额度与可用性节奏；该帖互动极高（点赞过万）。",
+    "url": "https://x.com/thsottiaux/status/2111492673890824348",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-10-18T00:20:57+08:00",
+    "tags": [
+      "Codex",
+      "OpenAI",
+      "额度",
+      "Day13",
+      "ChatGPT"
+    ],
+    "image": "/assets/covers/cover-20261018-v-06.jpg"
+  },
+  {
+    "title": "Tibo：工作 Dot「Burger」与私人 Dot「Dorito」邮件协作办税——20 分钟跑完",
+    "summary": "Tibo 演示 ChatGPT Dots：工作侧 Dot「Burger」应私人 Dot「Dorito」邮件请求取文件，再与会计师协调完成报税材料，全程约 20 分钟。他感慨「我们仍处极早期」，展示多 Agent/多 Dot 跨身份协作处理真实行政任务的雏形。",
+    "url": "https://x.com/thsottiaux/status/2111495392559067199",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-10-18T00:31:45+08:00",
+    "tags": [
+      "Dots",
+      "Agent",
+      "ChatGPT",
+      "多Agent协作",
+      "OpenAI"
+    ],
+    "image": "/assets/covers/cover-20261018-v-07.jpg"
+  },
+  {
+    "title": "Max：DeepSeek 成中国团队中首个部分跑通 RSI——自反馈 RL 加持「许愿式」编程",
+    "summary": "Max 引用 DeepSeek 发布信息称，V4.1 Flash 1017 通过基于自反馈的强化学习（RL）提升游戏开发、3D 建模等从零构建完整项目的能力，支持更多「许愿式」编程与项目请求；并判断 DeepSeek 成为中国模型团队里第一个部分跑通 RSI（递归自我改进相关训练回路）的团队。",
+    "url": "https://x.com/MaxForAI/status/2111381500063306098",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-17T16:59:11+08:00",
+    "tags": [
+      "DeepSeek",
+      "RSI",
+      "强化学习",
+      "Agent编程",
+      "自反馈"
+    ],
+    "image": "/assets/covers/cover-20261018-v-08.jpg"
+  },
+  {
+    "title": "Tibo 视频解说 ChatGPT Space：团队亲自出镜，问你还想要什么",
+    "summary": "Tibo 发布视频介绍 ChatGPT Space，称片子有时略显尴尬正因为是实际产品团队亲自出镜讲解；并征求用户下一步最想看到的功能。另提及日前已为 Pro/Business/Enterprise 加入 slides 支持以便收集反馈。",
+    "url": "https://x.com/thsottiaux/status/2111249534072529256",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-10-17T08:14:48+08:00",
+    "tags": [
+      "ChatGPTSpace",
+      "OpenAI",
+      "产品",
+      "Slides",
+      "团队"
+    ],
+    "image": "/assets/covers/cover-20261018-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：DeepSeek-V4.1-Flash-1017 开源——DeepSWE 77% 超 GLM/Kimi/Opus",
+    "summary": "TestingCatalog 快讯：DeepSeek 发布开源权重模型 V4.1-Flash-1017，DeepSWE 1.1 得分 77%，称优于 GLM-5.3、Kimi K3 以及 GPT-5.6 Sol、Opus 5 等对照；已上线 DeepSeek Chat、API 与 Hugging Face，并强调价格极低。",
+    "url": "https://x.com/testingcatalog/status/2111380259295653976",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-17T16:54:16+08:00",
+    "tags": [
+      "DeepSeek",
+      "开源权重",
+      "DeepSWE",
+      "Benchmark",
+      "API"
+    ],
+    "image": "/assets/covers/cover-20261018-v-10.jpg"
+  },
+  {
+    "title": "小互：嫌第二集节奏不够，用 Opus 重做「英伟达崛起之路」技能片",
+    "summary": "小互称对「英伟达崛起之路」第二集不满意，让 Opus 重新修复技能后重做一版，节奏感更强，并附视频征求意见。延续其用 Claude Opus 技能流水线制作科普/叙事视频的实践，展示模型驱动内容生产的迭代闭环。",
+    "url": "https://x.com/xiaohu/status/2111447706782892495",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-17T21:22:16+08:00",
+    "tags": [
+      "Opus",
+      "AI视频",
+      "技能",
+      "英伟达",
+      "内容生产"
+    ],
+    "image": "/assets/covers/cover-20261018-v-11.jpg"
+  }
+]

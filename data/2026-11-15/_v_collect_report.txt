@@ -1,0 +1,34 @@
+大V视野收集报告 — 2026-11-15（Asia/Taipei）
+
+读取方式：公开 X 读取（namespace x）；未用浏览器、未用 user-X
+- 用户 id 复用：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies（未排除 retweets），主窗口 start_time=2026-11-13T16:00:00Z（11-14 00:00 Asia/Taipei 起，至抓取约 32 小时），max_results=25；字段 note_post（返回仍出现 note_tweet 键，脚本两者兼容）
+- 主窗口原始条数：@Khazix0918 1 / @MaxForAI 1 / @xiaohu 3 / @thsottiaux 0 / @testingcatalog 18（第 1 页未满 25，无需补第 2 页）/ @gengdaJ 2
+- 周末优先账号偏薄，另取 extended 窗口 start_time=2026-11-13T08:00:00Z、end_time=2026-11-13T16:00:00Z（约再往前 8 小时）：@Khazix0918 1 / @MaxForAI 1 / @xiaohu 1 / @thsottiaux 0 / @testingcatalog 8 / @gengdaJ 0；其中卡兹克 2121159503995666943、Max 2121252121203167578、TC Muse 扩展 2121260921435623813 与 11/13 简报 2121185887337820440 已在 11-14 v.json，不重收；小互 DeepSeek 同题帖 2121264341236564386 已于 11-14 并入头条，不重收
+- get_posts_by_ids 补长文一批 16 个 id（含卡兹克 CLAUDE.md 派活说明、小互周报全文、TC 11/14 简报全文、逸尘标注长文、Grok Bot 用量原帖等）；全部落盘到 _v_raw_mcp.json / _v_raw_fulltexts.json
+- 工具返回体会截断，改用 write_to_file + 完整文本文件解析；本次共 13 次 X 读取（主窗口 6 + 补长文 1 + extended 窗口 6）
+
+入选 v.json：6 条
+各 handle：{'@Khazix0918': 1, '@MaxForAI': 0, '@xiaohu': 2, '@thsottiaux': 0, '@testingcatalog': 2, '@gengdaJ': 1}
+头条：小互 AI 周报：黄仁勋辞职后英伟达一周跌 12.75%、连跌六周市值跌破 4 万亿美元，并盘点 Fable 5.2、谷歌四连发、ChatGPT 钱包等 8 件大事与 20 款上新（小互）
+URL：https://x.com/xiaohu/status/2121466849187737876
+（周报中的英伟达人事、Fable 5.2、Carbon/Hydrogen、ChatGPT Wallet、Muse Ember、奔驰产线机器人等，本周日报已分别报道；本条取小互每周盘点与排序的角度，URL 不冲突）
+
+跳过/说明：
+- Max 2121751377403941200（Denny’s 撤下黄仁勋创业卡座纪念牌，配调侃）：非 AI 实质信息，不收
+- 小互 2121428762520916154（转发 Elon Musk「请愿恢复黄仁勋职务，我也签名」）：只是转发一条跟帖，无额外事实，且黄仁勋辞职同题本周已多次报道，不收
+- 小互 / TC Claude Code 自定义主题：并入同一条，主 URL 用小互展示帖，TC 产品细节写入摘要
+- 逸尘 2121626756511940804（引用自己 11-12 的 ChatCut 云剪辑帖，作为标注长帖的跟帖）：无新正文；原帖 2120690544825250061 已在 11-13 v.json，不收
+- TC 已在 11-14 v.json、本次主窗口再次出现的：ChatGPT Wallet、Gemini Wallet、Perplexity Teammates、Reason、Sesame 付费档、Maket Custom Materials，全部 URL 去重跳过；其「Source / Documented / Plans page / 定价跟帖」亦不收
+- TC 2121273038607929694（Muse-Spark-1.4-internal 出现在 Meta GitHub PR）：11-14 已并入 Muse Chrome 扩展条，同题不单列
+- TC 2121277055513862172（Envato 11 月 19 日起 24 小时免费无限用 MiniMax H3）：与 11-14 已跳过的促销为同一活动，信息量低，不收
+- TC 11/14 简报只写前一日未收录的新点；Wallet、Gemini Wallet、Claude Code 主题（本页已单列）、Muse 扩展、Teammates、DeepSeek API、Sesame 等不重复
+- extended 窗口 TC 8 条：Muse Documented 跟帖、Muse Chrome 扩展（已收）、Nace Drex for Finance 及促销码（11-14 已因 11-03 同产品跳过）、Dots 欧盟上线后更正为 glitch、简报邮件订阅、11/13 简报（已收）、Dots 欧盟传闻原帖，全部去重或维持昨日判断
+- URL 去重：对历史全部 v.json/ai.json 及同目录 11-15 ai.json（16 条）硬比对，入选 6 条与 11-15 ai 及 _prior_urls.json（2337 个 URL）均 0 重复
+- 与 11-15 AI新闻软同题：小互周报第 4 名提到「美联航说 AI 可以查航班、不许下单」，AI新闻 #10 为美联航官方通稿（限制未经授权的第三方个人 AI 智能体订票），保留——v 取周报转述角度，ai 取官方；小互转发的 Elon 签名请愿帖因信息量不足未收，AI新闻 #00 已收 TechCrunch 请愿报道（11.5 万签名等），不在 v 重复
+- 观点/传闻标注：卡兹克工作流（个人经验与「目前最优解」判断）、小互周报中的涨跌与定价数字（其转述）、Grok Bot 用量 7%/15%（团队自述）、逸尘「Xpert 10 月有人领了 18 万」及时薪描述（个人说法，原帖含推荐链接未转发）、TC 简报中的 Omni LoRA 规格（via aitrackerbot，第三方发现）、Bot factories（via alexmichael，测试中）、Meta Takes 内部预测市场（via DegenerateNews，传闻）、Anthropic IPO 筹资 644 亿美元（简报数字）
+- 缺口：周末窗口确实偏薄。Max 仅 1 帖且不可用、thsottiaux 主窗口与 extended 均为 0、卡兹克仅 1 帖、小互可用 2 帖；extended 窗口没有可新收的优先账号帖。入选 6 条，低于 12–20 目标，不凑数、不编造
+
+封面提示词：_cover_prompts_v.json（6 条，cover-20261115-v-00 ～ 05）
+未生成封面、未 build、未发布。
+完成时间：2026-11-15 08:10 Asia/Taipei

@@ -1,0 +1,16 @@
+Alioxis News 大V视野收集报告 — 2026-10-14 (Asia/Taipei)
+条数: 18
+Lead: 卡兹克长文：AI 开始逆向一切——Adobe 被 Opus 5.5 重写开源，软件护城河正在消失
+读取方式: 公开 X MCP（namespace x）get_users_by_usernames + get_users_posts / get_posts_by_ids；未使用 box Chrome「正在关注」页
+时间窗: start_time=2026-10-11T16:00:00Z（约 48h+，因 10-12/10-13 未发布放宽），过滤无实质回复/纯广告/梗图/非AI吃瓜；与 2026-10-10、2026-10-11 v.json URL 去重
+各 handle 计数（入选）:
+  @Khazix0918 (卡兹克): 2
+  @MaxForAI: 5
+  @xiaohu: 5
+  @thsottiaux: 2
+  @testingcatalog: 3
+  @gengdaJ: 1
+原始拉取条数（exclude replies）: Khazix0918=2 / MaxForAI=24 / xiaohu=21 / thsottiaux=9 / testingcatalog=25 / gengdaJ=7
+跳过: Max《洗礼》/雅思阴谋/内娱梗/elsewhere纠纷/大西瓜/AI大学习梗图/五道口/rapper/闲鱼达里奥/中转站当Tibo/Grok翻译梗及线程回复；小互 HomeView 线程续帖、P+捡漏猜测、Claude封号商机（10-11已报）、古早P+截图、Day8 Reset 引用短吐槽；Tibo Reset配菜/土豆泥梗/投票困惑/长上下文费跟帖；TestingCatalog Daily Brief 聚合、Fable 5.5 Azure 痕迹、GCP配额预告（已用正式发布）、Kylon/Natura/NanoBanana3/Restless/ScaleDown/MCP桌面（篇幅与主题重复优先 Gemini/Liquid/Muse）；gengdaJ RT Higgsfield/Logan、X订阅详解（与小互重复）、小王子引用（保留Claude工作流主帖）、LCU MCP（与主帖同主题压缩）
+封面 prompts: 18 条，与 v.json 等长
+未执行: build / 封面生成 / 发布

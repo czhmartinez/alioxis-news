@@ -1,0 +1,13 @@
+Alioxis News AI 收集报告 — 2026-10-15 (Asia/Taipei)
+条数: 20
+Lead: Grok Voice 3.0 登顶 Speech-to-Speech Index 86.9：延迟低于一秒，Starlink 日接 2 万通话约七成无人介入
+Lead URL: https://x.ai/news/grok-voice-3
+参考 AIHOT: data/2026-10-15/_aihot_daily.json（fetch-aihot-daily.js 成功；AIHOT lead 仍为 Gemini 4 Argon 向 Pro/Ultra 开放——10-14 已收正式开放主文，本日未再单列）
+  - 纳入并逐条回原文核实：Grok Voice 3.0（xAI News + The Verge Starlink 侧写）、欧盟 AI 办公室查 OpenAI/Anthropic（Euronews + IT之家交叉）、Google Deep Review（Google Research）、Modal $1B ARR / $750M D 轮（Modal Blog）、VS/SSMS Copilot RCE（Embrace The Red）、Character.AI 40 州检察长介入破产案（The Verge）、Anthropic 新加坡办公室+MOU（Anthropic）、Fish Audio Drama 3（Fish Audio Blog）、OpenAI GPT-6 代码维护实践（OpenAI Developers）、Lovable Growth Tools（Lovable Blog）、Shopify 任意智能体结账（The Verge）、LangChain Deep Agents 上下文工程（LangChain）、vLLM Adaptive Verification 在线估计器（vLLM Blog）、MIT 次季节天气预报 ML（MIT News / Nature）、YouTube Music AI 标签（TechCrunch）、Deezer AI 过滤开关（TechCrunch）、Apate 卧底反诈智能体（TechCrunch）、Gemini macOS 内嵌 Antigravity（9to5Google）、Claude Code idleCompaction 技巧（@lydiahallie X）、Scimplify $25M（TechCrunch）
+  - 未单列：Gemini 4 Argon 全球开放（10-14 头条已收；AIHOT 本日仍作 lead）、Muse Wonder Arena 排名小幅变动（flash 且 10-14 已收主文）、Cat Jam / openJiuwen 等二手早报未找到可回原文强源
+  - 预计 build 时因标题前缀与 AIHOT 重合被隐藏 0 条（对 Grok Voice / Copilot / Deep Agents 等与 AIHOT 同题条目做了标题岔开，避免头条被藏；主题仍与 AIHOT 多条呼应）
+去重: 对照 10-11 / 10-14 ai.json URL 与主题，0 条 URL 重复。10-14「Character.AI 破产」与本日「40 州检察长介入保护用户数据」为后续监管动作；10-14「Gemini 4 Argon 全面开放」不再复述。跳过 @Khazix0918 / @MaxForAI / @xiaohu / @thsottiaux / @testingcatalog / @gengdaJ 大V帖。OpenAI 搁置 GPT-6.1 Astra 为 9 月底旧闻，未收。
+补充公开源（AIHOT 之外）: Fish Audio Drama 3、YouTube Music / Deezer AI 音乐标签与过滤、Apate、Shopify 智能体电商、Scimplify、9to5Google Antigravity-in-Gemini、Euronews 欧盟执法解读。
+published_at: 有精确时刻的用原文时间换算 +08:00（TechCrunch PDT、Verge UTC、X created_at、Euronews GMT+2）；官方博客仅给日期的按发布日估算时刻。
+封面 prompts: 20 条，与 ai.json 等长同序；image 为计划路径 /assets/covers/cover-20261015-ai-NN.jpg，未生成实图
+未执行: build / 封面生成 / 发布

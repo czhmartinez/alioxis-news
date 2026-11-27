@@ -1,0 +1,274 @@
+[
+  {
+    "title": "Gemini 4 Carbon 当日落地：先现身 GCP SKU 与 Vertex，再官宣面向 Ultra 订阅与 API，主打长程 Agent 编码与 1M 输出上限",
+    "summary": "TestingCatalog 用一整天连发追踪 Gemini 4 Carbon 发布：上午先在 GCP SKU 目录中出现，「gemini-4-carbon」模型名在 Vertex AI 上已能应答（via AiBattle_）；随后 Antigravity 最新构建加入 Carbon Low/Medium/High 三档（当时尚未公开），AI Studio 弹窗提示「需要 Google AI Ultra 方案或 Gemini API Key」；晚间 Carbon 正式在 Google Cloud 推送并上线 Agent Studio，官方描述为「面向深度工作的最强模型，在长程 Agentic 编码、企业知识工作与科学推理上达到前沿水平，输出上限 100 万 Token」，并官宣向 Gemini Ultra 订阅用户与 API 开放——TC 呼吁也给 Pro 用户。Max 全程围观，从早上吐槽「又开始炒作 Gemini 了」，到「哈基米回来了，Gemini4-Carbon 将重铸 2.5 Pro 的荣光」，再到深夜「Gemini4-Carbon 来了」。TC 简报同时预测 Gemini 4 Hydrogen（Flash）可能紧随其后（推测）。Pro 用户何时可用以官方为准。",
+    "url": "https://x.com/testingcatalog/status/2120179620431462684",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T23:39:47+08:00",
+    "tags": [
+      "Gemini 4 Carbon",
+      "Google DeepMind",
+      "Vertex AI",
+      "Antigravity",
+      "模型发布"
+    ],
+    "image": "/assets/covers/cover-20261111-v-00.jpg"
+  },
+  {
+    "title": "小互：OpenAI 个人 Agent Dot 可同时连接多台本地电脑——一个 Dot 给几台机器分别派活，笔记本照常用",
+    "summary": "小互解读 OpenAI 为个人 Agent Dot 推出的多电脑连接功能：同一个 Dot 现在可以连接你自己的多台电脑，由你指定每项任务在哪台上执行——比如把 iOS 应用改动交给第二台 Mac 在 Xcode 里测试再把截图发回；让日用电脑和保留旧版开发工具的电脑做同一项测试对照结果；把点界面、走流程的工作放到另一台电脑，腾出自己的屏幕和光标。要把某台电脑交给 Dot，需要在那台电脑的 ChatGPT App 里完成授权，连接后 Dot 才能用它的本地文件、代码和应用。小互说「这不是和我的思路一样吗」——他此前就用家里的 Mac mini 跑任务、笔记本远程对话。OpenAI 的 Tibo（@thsottiaux）补充：Dot 除了默认附带的一台小型云电脑，现在还能控制多台机器；TestingCatalog 也跟进称「One Dot to rule them all」。",
+    "url": "https://x.com/xiaohu/status/2119952645632987227",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-10T08:37:52+08:00",
+    "tags": [
+      "OpenAI",
+      "Dot",
+      "个人 Agent",
+      "多设备",
+      "远程开发"
+    ],
+    "image": "/assets/covers/cover-20261111-v-01.jpg"
+  },
+  {
+    "title": "Max：「人类大概真完蛋了」——有人刚说 PCB 布线是人类最后的工程活，一晚后改口「Fable 5.2 做到了」，AI PCB 创业群当场冷场",
+    "summary": "Max 转发硬件开发者 cmonkey 的前后两条帖子：此前对方断言「PCB 布线会是最后一项还需要人类来做的工程工作」，Fable 5.2 发布后改口「算了，Fable 5.2 做到了」，并附上相关图片与链接。Max 调侃说，前一天他所在的一个 AI PCB 群还在热火朝天地聊创业机会和技术壁垒，结果一晚上之后群就「死了」。这与 Anthropic 官方「一段提示词端到端设计三块电路板」的演示相互印证（官方演示已在 11-10 AI 新闻收录）；但单个开发者的展示属个人实测，复杂多层板、量产良率与 EDA 工具链上的表现仍待更多验证。",
+    "url": "https://x.com/MaxForAI/status/2120067699586048358",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-10T16:15:03+08:00",
+    "tags": [
+      "Claude Fable 5.2",
+      "PCB 设计",
+      "硬件",
+      "EDA",
+      "创业"
+    ],
+    "image": "/assets/covers/cover-20261111-v-02.jpg"
+  },
+  {
+    "title": "Stripe 收购 OpenRouter：「为 AI 构建经济基础设施」，OpenRouter 承诺继续保持模型中立",
+    "summary": "TestingCatalog 突发：Stripe 宣布收购模型路由与聚合平台 OpenRouter。Stripe 官方表态「Stripe 正在构建 AI 的经济基础设施，与 OpenRouter 一起帮助企业探索新模型、优化 Token 路由与用量」；OpenRouter 则强调「对中立性的承诺不变，模型与供应商继续在质量、可靠性和价格上竞争」。TC 认为这是一次重磅动作：OpenRouter 是未来 AI 经济里最大的资产之一，随着 Token 需求持续增长，掌控这层基础设施将成为关键，「AI Token 终有一天会成为一种货币」（观点）。交易金额未披露。",
+    "url": "https://x.com/testingcatalog/status/2120245174752137605",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T04:00:16+08:00",
+    "tags": [
+      "Stripe",
+      "OpenRouter",
+      "收购",
+      "模型路由",
+      "AI 基础设施"
+    ],
+    "image": "/assets/covers/cover-20261111-v-03.jpg"
+  },
+  {
+    "title": "Anthropic 启动 IPO 路演：指导价每股 70–78 美元，拟发行 8.25 亿股 A 类普通股，代码 ANT",
+    "summary": "TestingCatalog 报道，Anthropic 当天启动拟议首次公开募股的路演，在公开交易前向选定投资者推介股票。招股信息显示：预计发行价区间为每股 70 至 78 美元；本次发行共 8.25 亿股 A 类普通股，其中 801,351,354 股由 Anthropic 发行、23,648,646 股由部分现有股东出售；股票代码 $ANT。TC 前一日简报曾引述报道称其拟在纳斯达克募资最高约 690 亿美元（以最终定价为准）。上市时间与估值此前已有报道（见 11-10 AI 新闻），此条为路演正式启动与发行结构的跟进。注册声明尚未生效，最终价格与规模以官方文件为准。",
+    "url": "https://x.com/testingcatalog/status/2120121516872331568",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T19:48:54+08:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "路演",
+      "纳斯达克",
+      "融资"
+    ],
+    "image": "/assets/covers/cover-20261111-v-04.jpg"
+  },
+  {
+    "title": "Claude 新增三类工作产物：Whiteboards、Sheets、Data 对所有付费方案正式开放，交互式连接器可在对话旁直接操作 Adobe、Atlassian、Box",
+    "summary": "TestingCatalog 报道 Anthropic 的一组产品更新：Claude Whiteboards（白板）、Claude Sheets（表格）和 Claude Data（原 Dashboards）三种新 artifact 类型对所有付费方案正式可用；Claude Data 除了仪表盘，还能根据你的指标起草数据故事和带旁白的视频供审核后分享，认证查询与实时分享处于 beta。同时 Claude 网页版与桌面版升级「交互式连接器」：可以在 Claude 里打开工具的完整版本，在对话旁边直接操作 Adobe、Atlassian 和 Box，可以自己改，也可以让 Claude 一起改。官方还预告 Claude Meetings 即将推出。OpenAI 的 Tibo（@thsottiaux）转发交互式连接器的消息并点赞「Labs innovating together ftw」。",
+    "url": "https://x.com/testingcatalog/status/2120220122170159158",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T02:20:43+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "Artifacts",
+      "连接器",
+      "办公协作"
+    ],
+    "image": "/assets/covers/cover-20261111-v-05.jpg"
+  },
+  {
+    "title": "Max 转述 The Information 独家：与黄仁勋相关的「黄乐」家族公司网络被指助约 24 万颗英伟达芯片入华，涉及销售额至少 75 亿美元（待证实）",
+    "summary": "Max 转述《The Information》独家调查：报道称 Alice Huang（黄乐）与丈夫、姐姐在中国和新加坡建立了一套复杂的公司网络用于采购英伟达芯片，其中 2023 年 6 月成立的上海世纪立通仅四个月后就获得英伟达优选云合作伙伴资格、可优先获取芯片供应。据两名知情人士说法，相关网络据称协助将约 24 万颗英伟达芯片运入中国，包括受美国出口管制的 H100、H200 等型号，涉及销售额至少 75 亿美元。Max 特别强调：这些交易及其与私人关系的关联目前主要来自媒体调查和知情人士说法，尚未证实黄仁勋本人知情或参与违规交易；调查焦点已延伸到英伟达的销售渠道与出口管制合规问题。此前英伟达董事会独立调查与游说受挫已在 11-09/11-10 AI 新闻收录，本条为芯片渠道层面的新增报道。",
+    "url": "https://x.com/MaxForAI/status/2120130530461299107",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-10T20:24:43+08:00",
+    "tags": [
+      "英伟达",
+      "出口管制",
+      "AI 芯片",
+      "The Information",
+      "调查"
+    ],
+    "image": "/assets/covers/cover-20261111-v-06.jpg"
+  },
+  {
+    "title": "ChatGPT 上线「Businesses」beta：美国商家可认领店铺并搭建 Business Agent 回答客户咨询，补齐广告到客服的漏斗",
+    "summary": "TestingCatalog 报道 OpenAI 新功能：ChatGPT 推出「Businesses in ChatGPT」beta，商家可以认领自己的业务、管理信息，并查看用户与其互动的洞察；符合条件的美国商家还能搭建 Business Agent，回答客户问题、帮助用户了解所提供的产品与服务。TC 指出，OpenAI 今年早些时候已支持在 ChatGPT 广告中定向到商家自定义 AI Agent，「漏斗正在变得完整」（观点）。OpenAI 的 Tibo（@thsottiaux）转发并发问「你们有多少人有自己的小生意？」。目前仅面向美国符合条件的商家。",
+    "url": "https://x.com/testingcatalog/status/2120234819980296288",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T03:19:07+08:00",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "Business Agent",
+      "商家",
+      "广告"
+    ],
+    "image": "/assets/covers/cover-20261111-v-07.jpg"
+  },
+  {
+    "title": "小互 AI 日报：虚幻引擎 5.9 预览版把编程 Agent 放进编辑器、Epic 称首个主要靠 Agent 做出来的版本；四大云厂资本开支涨到 6–9 倍",
+    "summary": "小互 11 月 10 日 AI 日报，除了已收录的 Fable 5.2、Dot 多电脑、Codex 掌机外，有两条新信息：一是虚幻引擎 5.9 预览版把编程 Agent 直接放进了编辑器，Epic 称这是第一个主要靠 Agent 做出来的引擎版本，只用了一周（厂商自述）；二是四家云巨头的资本开支已涨到 2023 年的 6–9 倍，而苹果资本开支比 2023 年还少，却是今年「七巨头」里唯一跑赢纳指的公司。日报还提到 Fable 5.2 在第三方评测中拿到 65 分排第一（Artificial Analysis 指数），以及 Google AI Studio 接入谷歌地图、无需绑卡即可一句话生成带真实地图的网页应用；「六款上新」中包括数字人 Emma、Open-H3 IC、Chrome HTML-in-Canvas、Runway Sightline 等。部分条目已在前一日收录，此处不重复展开。",
+    "url": "https://x.com/xiaohu/status/2119979429489488322",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-10T10:24:17+08:00",
+    "tags": [
+      "小互日报",
+      "虚幻引擎 5.9",
+      "Epic",
+      "编程 Agent",
+      "资本开支"
+    ],
+    "image": "/assets/covers/cover-20261111-v-08.jpg"
+  },
+  {
+    "title": "谷歌 Antigravity 开发 Agent Swarm 模式：/swarm 命令打开蜂群面板，多个 Agent 通过共享留言板协同（开发中）",
+    "summary": "TestingCatalog 独家：谷歌正在为 Antigravity 开发新的 Agent Swarm（蜂群）模式，多个 Agent 通过一个共享留言板协同工作。界面上会新增 /swarm 命令，打开 Swarm 面板监控各 Agent 之间的协调、通信与关系；提示中也明确警告该模式配额消耗很高。TC 认为这种并行化可能进一步推高谷歌模型的表现，让其有机会追上 Fable 5.2（观点）；这并非业内首次尝试「并行化」，其他实验室已有类似产品，谷歌去年也做过内部实验。Antigravity 团队预告本周还会有更多发布。目前为开发中功能，上线时间未定。",
+    "url": "https://x.com/testingcatalog/status/2120152882380959814",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T21:53:32+08:00",
+    "tags": [
+      "Google",
+      "Antigravity",
+      "Agent Swarm",
+      "多智能体",
+      "IDE"
+    ],
+    "image": "/assets/covers/cover-20261111-v-09.jpg"
+  },
+  {
+    "title": "谷歌发布 Gemini Robotics 2.5：借助 Gemini 4 Argon 打造，在与 Apptronik、奔驰的验证中让 Apollo 2 机器人分拣汽车零件准确率 96%",
+    "summary": "TestingCatalog 报道，谷歌发布面向物理 AI 的新模型 Gemini Robotics 2.5，官方称该模型在 Gemini 4 Argon 的支持下构建。在与 Apptronik 和梅赛德斯-奔驰合作的概念验证中，Gemini Robotics 2.5 帮助 Apptronik 的 Apollo 2 人形机器人拾取并整理用于装配的汽车零件，准确率达到 96%（厂商数据）。结合前一日 Fable 5.2 在 RoboDojo 仿真中的大幅进步，通用大模型厂商正在加速进入具身领域。",
+    "url": "https://x.com/testingcatalog/status/2120173652641476658",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T23:16:04+08:00",
+    "tags": [
+      "Gemini Robotics 2.5",
+      "Google DeepMind",
+      "人形机器人",
+      "Apptronik",
+      "奔驰"
+    ],
+    "image": "/assets/covers/cover-20261111-v-10.jpg"
+  },
+  {
+    "title": "SpaceXSI：Grok 4.8 预训练完成、正处于强化学习阶段，本周起向部分 Grok Bot 用户「软发布」",
+    "summary": "TestingCatalog 转述 SpaceXSI 方面的消息：Grok 4.8 预计本周就会以「软发布」形式先推给部分 Grok Bot 用户——「Soft now, hard soon」。原帖称团队抛弃了 JAX/SGLang，用 C/C++ 从零重写了整套强化学习与推理栈，因此多花了些时间；预训练已完成，SFT 数据做了大量清理，目前 4.8 处于 RL 阶段、评测分数正在上升。原帖还称 Grok 4.8「与 4.7 毫无相似之处」，坦言「还算不上惊艳，但这次地基打对了」。TC 也据此把简报中的「Grok 4.8, not soon」更正为「本周软发布」。具体推送范围与时间以官方为准。",
+    "url": "https://x.com/testingcatalog/status/2120103753173078088",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T18:38:19+08:00",
+    "tags": [
+      "Grok 4.8",
+      "SpaceXSI",
+      "Grok Bot",
+      "强化学习",
+      "模型发布"
+    ],
+    "image": "/assets/covers/cover-20261111-v-11.jpg"
+  },
+  {
+    "title": "gengdaJ 实操：Claude Code + TikTok 数据接口 + 开源 Hypit 批量复刻竞品爆款广告，1070 条对标视频数据只花 0.07 美元",
+    "summary": "gengdaJ 分享自己在帮一家做香氛花洒的工厂打通海外 DTC 社媒时实操的 AI 广告工作流：1）竞品数据获取——用 Claude Code 调 Monid 的 TikTok 数据接口，批量拿到竞品广告数据、视频链接和竞品名称；2）挑选爆款——先用数据初筛，再人工点开 5–30 秒的视频挑出合适的竞品爆款；3）批量复刻——把爆款链接和自家产品图丢给 Claude Code，调用开源 Hypit 框架拆解原片的 hook、镜头、字幕和动效，围绕自家产品生成新广告（Agent 也可换成 Codex、DSH）。他在后续帖子里算了成本：TikTok 数据接口拉 1070 条对标视频约 0.07 美元，抖音、小红书、视频号接口也能按需调用；参考图/视频生成走 RunningHub 上的 MiniMax H3 最低约 1.12 元人民币、APIMart 的 GPT Image 2K 约 0.015 美元一张。他也提醒：复刻爆款只是验证市场、跑通闭环的初阶玩法，长线增长还需要叠加其他营销手段；「像素级复刻」竞品广告还需自行注意版权与平台规则。",
+    "url": "https://x.com/gengdaJ/status/2120033719235076142",
+    "source": "gengdaJ",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-11-10T14:00:01+08:00",
+    "tags": [
+      "Claude Code",
+      "Hypit",
+      "TikTok",
+      "AI 广告",
+      "DTC 出海"
+    ],
+    "image": "/assets/covers/cover-20261111-v-12.jpg"
+  },
+  {
+    "title": "MiniMax 开放 H3-Image 权重：支持 4K 出图的开源图像模型，上线 Hugging Face、MiniMax Code 与 API",
+    "summary": "TestingCatalog 报道，MiniMax H3-Image 已在 Hugging Face、MiniMax Code 和 MiniMax API 上线。这是一款支持 4K 图像的全新开放权重图像模型。TC 评论说，好用的开源图像模型并不多，这个品类的任何新发布都是一大进步，但效果「还需要测试」。具体许可协议与硬件需求请以 Hugging Face 模型页为准。",
+    "url": "https://x.com/testingcatalog/status/2120250776794566710",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T04:22:32+08:00",
+    "tags": [
+      "MiniMax",
+      "H3-Image",
+      "开源模型",
+      "图像生成",
+      "4K"
+    ],
+    "image": "/assets/covers/cover-20261111-v-13.jpg"
+  },
+  {
+    "title": "OpenAI 收购 AI 旅行平台 Odessia，团队将「专注于旅行的未来」",
+    "summary": "TestingCatalog 报道，OpenAI 收购了 Odessia——一个借助 AI 帮用户规划并预订行程的旅行平台。Odessia 方面表示：「我们创办 Odessia 是为了重塑旅行，这次收购是这一使命激动人心的新篇章。」团队加入后将「专注于旅行的未来」。TC 戏称这是 OpenAI 的「支线任务」。交易金额未披露；结合 ChatGPT 近期在购物、商家 Agent 上的动作，旅行规划与预订可能成为 ChatGPT 下一个重点消费场景（推测）。",
+    "url": "https://x.com/testingcatalog/status/2120239186632396996",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T03:36:28+08:00",
+    "tags": [
+      "OpenAI",
+      "Odessia",
+      "收购",
+      "AI 旅行",
+      "ChatGPT"
+    ],
+    "image": "/assets/covers/cover-20261111-v-14.jpg"
+  },
+  {
+    "title": "会打电话的 Agent 两连发：Fish Audio 推出全双工语音模型 Live 3，Mitra 上线 MCP 让 ChatGPT/Claude 用你自己的号码外呼",
+    "summary": "TestingCatalog 连续介绍两款「电话 Agent」产品。Fish Audio 发布最新全双工语音模型 Live 3，专为打电话的 AI Agent 设计：能区分念电话号码时的停顿和问题结束，用户中途说「嗯嗯」时会继续说、说「等一下，其实……」时会停下；当前反应速度低于 200 毫秒，并用另一个模型并行准备完整回答；可在 Fish Audio 的语音 Agent 搭建器里试用。另一边，Mitra 推出 MCP 支持：简单设置后，ChatGPT 或 Claude 等 Agent 就能指示 Mitra 用你本人的手机号码代打电话——Mitra 称用个人号码对方才愿意接，它会处理整通电话、按你的方式说话，必要时把你拉进来；Mitra 也有 iOS、Android 和 macOS 独立 App。响应速度等为厂商自述。",
+    "url": "https://x.com/testingcatalog/status/2120229032335651270",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-11T02:56:07+08:00",
+    "tags": [
+      "Fish Audio",
+      "Live 3",
+      "Mitra",
+      "MCP",
+      "语音 Agent"
+    ],
+    "image": "/assets/covers/cover-20261111-v-15.jpg"
+  },
+  {
+    "title": "TestingCatalog 11/10 简报：Fable 5.2 登顶 CursorBench 并进 GitHub Copilot，OpenAI Agents API 加 12 小时提示缓存，英伟达发布 GR00T 2",
+    "summary": "TestingCatalog 11 月 10 日 AI 每日简报（作者注明用 Grok 汇编并人工编辑）。未在前几日收录的要点：Claude Fable 5.2 已进入 Cursor，并以最高推理强度在 CursorBench 拿到 60% 登顶；在 GitHub Copilot 正式可用；Perplexity Computer 的 Pro/Max 与 Search 的 Max 也已接入。OpenAI Agents API 新增 12 小时提示缓存、异步函数和按会话预算控制（beta，via AzianMike）。Google Antigravity 推出不含终端与 git 干扰的「知识工作」布局；Gemini 推送「记忆摘要」，可查看并编辑它记住的关于你的信息。Meta Muse 登陆 Apple Watch 与 Wear OS，并准备在英国上线。Grok Bot 可通过 Tailscale 访问你 tailnet 上的私有 MCP 服务器。英伟达在 CoRL 发布面向灵巧机器人的开放世界动作模型 GR00T 2 及 Isaac Lab 3.0。ElevenLabs 推出 ElevenAgents Campaign Manager，可通过电话和 WhatsApp 外呼并持续跟进直到达成目标。简报中的模型预测：GPT-6.2 Sol/Astra、Qwen4 系列「本周？」，Claude Fable 5.5、DeepSeek V4.1 Pro「暂不会」（均为推测）。",
+    "url": "https://x.com/testingcatalog/status/2120094172187103521",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T18:00:14+08:00",
+    "tags": [
+      "TestingCatalog",
+      "每日简报",
+      "Cursor",
+      "OpenAI Agents API",
+      "GR00T 2"
+    ],
+    "image": "/assets/covers/cover-20261111-v-16.jpg"
+  }
+]

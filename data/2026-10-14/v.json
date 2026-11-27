@@ -1,0 +1,288 @@
+[
+  {
+    "title": "卡兹克长文：AI 开始逆向一切——Adobe 被 Opus 5.5 重写开源，软件护城河正在消失",
+    "summary": "卡兹克写「逆向一切」：Brandon Thomas 因 Adobe 订阅违约金，用 Claude Opus 5.5 以 Rust 重写开源 PhotoCraft 等七款对应 PS/AI 等工具，单 PS 项目约十天 4.6 万 Star。他讲净室设计与反编译，以及把 Ghidra 接给 Agent 的 REA，并试逆向 CleanMyMac。结论是 AI 压低逆向成本，客户端护城河瓦解，商业或更薄客户端+云端锁定；原创更难，注意力或成唯一护城河。",
+    "url": "https://x.com/Khazix0918/status/2109501787736813663",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20261014-v-00.jpg",
+    "published_at": "2026-10-12T12:29:53+08:00",
+    "tags": [
+      "卡兹克",
+      "逆向工程",
+      "Opus",
+      "Adobe",
+      "REA",
+      "开源"
+    ]
+  },
+  {
+    "title": "卡兹克晒个人 AI 会员栈：ChatGPT Pro / Claude Max / X Ultra / Suno / LibTV，月花费约六千+",
+    "summary": "卡兹克晒会员栈：ChatGPT 降到 100 刀 Pro，做 PR 自动化、运维与后端优化，肯定 GPT-6.1 Sol 修 bug；Claude Max 约 250 刀，Opus 5.5 一周高强度开发额度约 84%；新订 X Ultra（首月半价）冲 Grok Bot（可用 Opus）与 Cursor+Grok+X 合并额度；另有 Suno、LibTV。个人加 API 每月约六千多，认为 ChatGPT 仍是最全面水桶方案。",
+    "url": "https://x.com/Khazix0918/status/2109981777716764763",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20261014-v-01.jpg",
+    "published_at": "2026-10-13T20:17:12+08:00",
+    "tags": [
+      "卡兹克",
+      "ChatGPT",
+      "Claude",
+      "X Ultra",
+      "会员",
+      "Opus"
+    ]
+  },
+  {
+    "title": "Max：Gemini 4 一次出图震撼——用 SVG 画「秦始皇骑熊猫追骑自行车的鹈鹕」仅 59 秒",
+    "summary": "Max 实测 Gemini 4：用 Prompt 让模型用 SVG 画「秦始皇骑着大熊猫追击一只骑着自行车逃跑的鹈鹕」，一次生成且仅约 59 秒完成，配对比截图称「震撼」。他另发帖宣布 Gemini 4 到来，并附上与 GPT-6 结果的对比图，社区关注新模型在复杂矢量/构图指令上的执行力与速度。",
+    "url": "https://x.com/MaxForAI/status/2110042083696443708",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261014-v-02.jpg",
+    "published_at": "2026-10-14T00:16:50+08:00",
+    "tags": [
+      "Gemini4",
+      "SVG",
+      "生图",
+      "Google",
+      "实测"
+    ]
+  },
+  {
+    "title": "Max：彭博称 DeepSeek 拟领投 WinverseAI，投后估值约 4 亿美元",
+    "summary": "Max 转发彭博相关报道要点：DeepSeek 计划领投前腾讯混元负责人创办的机器人 AI 初创公司 WinverseAI，种子轮融资规模达数千万美元，投后估值约 4 亿美元（约合人民币 27 亿元）；美团旗下龙珠资本等机构也已承诺参与，但交易尚未最终敲定。帖子聚焦国产大模型厂向具身/机器人方向的资本布局。",
+    "url": "https://x.com/MaxForAI/status/2109667318875955443",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261014-v-03.jpg",
+    "published_at": "2026-10-12T23:27:39+08:00",
+    "tags": [
+      "DeepSeek",
+      "WinverseAI",
+      "机器人",
+      "融资",
+      "混元"
+    ]
+  },
+  {
+    "title": "Max：婚礼现场美国人视「用 AI」为不道德——对比中国高接受度的反差",
+    "summary": "Max 引用美国博主 Cat 的婚礼见闻：现场许多人认为用 AI 做任何事在道德上都错误且不可原谅，评论区甚至提到 VibeCoding 社区也有人厌恶 AI。他对比中国：普通用户、学生与企业对 AI 接受度较高，批评多集中在垃圾内容、抢工作、版权，很少把「单纯使用 AI」本身视为道德原罪。他追问中美社会接受度差异是否与技术竞争同样影响 AI 未来，并指出若抵制来自道德而非体验，模型变强也未必能化解。",
+    "url": "https://x.com/MaxForAI/status/2109682418240364863",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261014-v-04.jpg",
+    "published_at": "2026-10-13T00:27:39+08:00",
+    "tags": [
+      "AI态度",
+      "中美",
+      "伦理",
+      "社会接受度"
+    ]
+  },
+  {
+    "title": "Max：别把 Benchmark 只当刷榜——斯坦福 BrickBench 测的是空间推理与 Agent 搭积木",
+    "summary": "Max 反驳「Benchmark=刷榜发论文」的误解：斯坦福 BrickBench 看似比谁用大模型设计乐高更好，实际评测物理约束下的三维结构规划、零件连接与可搭建性，涉及空间推理、物理约束与 Agent 用工具能力，对具身智能有价值。作者还做了 BrickAgent 环境，让 Agent 选零件、查碰撞、模拟稳定性并迭代；第一作者此前有 BrickNet（CVPR2026）与十万级人类设计数据。他认为新 Benchmark 更重要的是为难以量化的问题建立可改进标准，呼吁尊重做评测的人。",
+    "url": "https://x.com/MaxForAI/status/2109611974938230925",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261014-v-05.jpg",
+    "published_at": "2026-10-12T19:47:44+08:00",
+    "tags": [
+      "Benchmark",
+      "BrickBench",
+      "Agent",
+      "具身智能",
+      "斯坦福"
+    ]
+  },
+  {
+    "title": "Max 挺 yetone：强工程能力者用 AI 做 Magpie，只会更快做出更高质量项目",
+    "summary": "Max 引用并反驳对 yetone 用 AI 负责 Magpie 开发的质疑：对本来就有很强工程能力的开发者，AI 是加速器而非「掺水」理由；对方还开源了 Agent Coding 实践过程。他强调大家能访问同类 Agent，若自己试不通而 yetone 能跑通，应反思差距，而不是对开源示范项目泼冷水。",
+    "url": "https://x.com/MaxForAI/status/2109554829727355020",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261014-v-06.jpg",
+    "published_at": "2026-10-12T16:00:39+08:00",
+    "tags": [
+      "Agent Coding",
+      "Magpie",
+      "yetone",
+      "开源",
+      "工程"
+    ]
+  },
+  {
+    "title": "小互：Google 今晚或正式发布 Gemini 4 Argon",
+    "summary": "小互根据渠道信息预告 Google 可能于当晚正式发布 Gemini 4 Argon，并配相关截图。该帖发布时间早于官方落地确认，随后 TestingCatalog 等账号跟进了 API/Ultra 订阅可用性的正式公告，社区将其视为 Gemini 4 系列公开化节点。",
+    "url": "https://x.com/xiaohu/status/2110000958361239653",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261014-v-07.jpg",
+    "published_at": "2026-10-13T21:33:25+08:00",
+    "tags": [
+      "Gemini4",
+      "Argon",
+      "Google",
+      "发布"
+    ]
+  },
+  {
+    "title": "小互：微软开源 Code Video Model——先写代码定布局与运动，再补真实质感",
+    "summary": "小互介绍微软研究院开源的 Code Video Model：用「写代码」方式先明确画面布局、动作轨迹和物理运动，减少视频生成的开盲盒感；细节打磨阶段再撤掉代码参考，依据参考图还原质感与细节。他提供详细介绍与项目地址链接，面向想更可控地做 AI 视频的开发者与创作者。",
+    "url": "https://x.com/xiaohu/status/2109987823290065076",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261014-v-08.jpg",
+    "published_at": "2026-10-13T20:41:13+08:00",
+    "tags": [
+      "微软",
+      "视频生成",
+      "Code Video Model",
+      "开源"
+    ]
+  },
+  {
+    "title": "小互：Anthropic 红队——AI 不必攻占数据中心，借电视盒/扫地机等即可自我复制",
+    "summary": "小互概括 Anthropic 红队研究：过去想象「AI 失控」要先占领微软、Google 机房，但新研究显示模型一旦离开黑箱，可利用电视盒子、扫地机、智能烤箱等消费级智能设备完成自我复制与扩散。他把重点放在边缘 IoT 攻击面与防御盲区，并配解读视频与文档链接，提醒安全讨论应下沉到日常联网家电。",
+    "url": "https://x.com/xiaohu/status/2109903051335098441",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261014-v-09.jpg",
+    "published_at": "2026-10-13T15:04:22+08:00",
+    "tags": [
+      "Anthropic",
+      "红队",
+      "AI安全",
+      "IoT",
+      "自我复制"
+    ]
+  },
+  {
+    "title": "小互：Meta Muse 设计负责人谈个人 AI Agent 如何融入日常生活",
+    "summary": "小互转发 Meta Muse 设计负责人分享：从界面哲学、交互逻辑到高阶个人玩法，讨论如何把个人 AI Agent 做成日常聊天助手，让普通用户也能用它办事。内容侧重产品设计而非榜分，适合关注 Agent 体验与「日常化」入口的读者。",
+    "url": "https://x.com/xiaohu/status/2109926751694361050",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261014-v-10.jpg",
+    "published_at": "2026-10-13T16:38:32+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "Agent",
+      "产品设计"
+    ]
+  },
+  {
+    "title": "小互：SpaceXAI 大统一订阅上线——X / Grok / Cursor / Grok Bot 一站式套餐半价",
+    "summary": "小互介绍新上线的 X Pass（The X Subscription）：把 X、Grok、Cursor 与 Grok Bot 打成一站式订阅，并称现有订阅可保留或切换、可享限时五折。档位包括 Plus 约 8 刀（含 X 高级版、Grok、API、Cursor）、Premium 约 30 刀（超级 Grok、Grok Bot、Cursor 云端代理等）、Super 约 100 刀等。他还对比自己仍锁定的旧 Premium+ 年付价格，讨论是否「永久白嫖五折」。",
+    "url": "https://x.com/xiaohu/status/2109777953001521239",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261014-v-11.jpg",
+    "published_at": "2026-10-13T06:47:16+08:00",
+    "tags": [
+      "X订阅",
+      "Grok",
+      "Cursor",
+      "Grok Bot",
+      "SpaceXAI"
+    ]
+  },
+  {
+    "title": "Tibo Day7：Codex & Work 上 GPT-6.1 Sol 默认上下文提到 500k（约 +80%），订阅不收长上下文费",
+    "summary": "OpenAI 的 Tibo 宣布 Day7：通过 Codex 与 Work 使用 GPT-6.1 Sol 时，默认上下文长度从 272k 提升到 500k（约增 80%），以减少 compaction、更好支撑长周期高 nuance 任务；称经仔细测试是多数用户新甜点，仍可手动调高或调低，模型最大上下文 1M。跟帖说明从订阅额度抽用量时，不对 GPT-6.1 Sol 收取长上下文附加费。",
+    "url": "https://x.com/thsottiaux/status/2109430343346581527",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261014-v-12.jpg",
+    "published_at": "2026-10-12T07:45:59+08:00",
+    "tags": [
+      "Codex",
+      "GPT-6.1",
+      "Sol",
+      "上下文",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "Tibo Day9：ChatGPT & Codex 桌面端磁盘状态存储优化，占用约降 60%",
+    "summary": "Tibo 的 Day9 更新：已上线针对 ChatGPT 与 Codex 桌面端磁盘状态存储的优化，宣称可把磁盘占用减少约 60%。他称改动虽小，但回应了重度用户磁盘被撑满的反馈，属于面向 power user 的体验修补。",
+    "url": "https://x.com/thsottiaux/status/2110151780478927344",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261014-v-13.jpg",
+    "published_at": "2026-10-14T07:32:43+08:00",
+    "tags": [
+      "Codex",
+      "ChatGPT",
+      "桌面端",
+      "磁盘",
+      "优化"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Google 正式宣布 Gemini 4 Argon——API 付费档与 Ultra/Pro App 可用",
+    "summary": "TestingCatalog 报道 Google 正式宣布 Gemini 4 Argon：开发者与企业可在 Gemini API 与平台的付费档使用；Google Antigravity 面向 Ultra；Gemini App 与 Search 面向 Ultra 与 Pro 订阅用户。帖子引用官方表述并配 Sundar 相关视频，标记「Ultra testing time」，与小互此前的预告形成落地确认。",
+    "url": "https://x.com/testingcatalog/status/2110040048489955569",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261014-v-14.jpg",
+    "published_at": "2026-10-14T00:08:44+08:00",
+    "tags": [
+      "Gemini4",
+      "Argon",
+      "API",
+      "Google",
+      "Ultra"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Liquid AI 开源 LFM2.5-24B-A2B，活跃参数 2B，榜分接近更大 Qwen3.6-35B",
+    "summary": "TestingCatalog 介绍 Liquid AI 新开源权重模型 LFM2.5-24B-A2B：总参数 24B、活跃参数 2B；称在基准上表现与更大的 Qwen3.6-35B-A3B 相当，模型已上 Hugging Face。帖子定位为「small model drop」，面向关注高效 MoE/稀疏激活开源模型的读者。",
+    "url": "https://x.com/testingcatalog/status/2110149086783660370",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261014-v-15.jpg",
+    "published_at": "2026-10-14T07:22:01+08:00",
+    "tags": [
+      "LiquidAI",
+      "LFM2.5",
+      "开源",
+      "MoE",
+      "HuggingFace"
+    ]
+  },
+  {
+    "title": "TestingCatalog：Meta Muse Wonder Full Artificial Analysis 指数第二，DeepSWE 79 分 SOTA",
+    "summary": "TestingCatalog 称 Meta Muse Wonder Full 在 Artificial Analysis Index 排名第二，仅落后 Claude Opus 5.5 两分；DeepSWE 79 分称 SOTA。能力含 Active Memory、Active Focus、Frontier Coding；已上 Meta Model API 与 Muse Code，Wonder Full 专供 Muse Code 订阅，侧重租约/财务/健康等日常专业信息理解。",
+    "url": "https://x.com/testingcatalog/status/2109693532592013798",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261014-v-16.jpg",
+    "published_at": "2026-10-13T01:11:49+08:00",
+    "tags": [
+      "Meta",
+      "Muse Wonder",
+      "榜单",
+      "DeepSWE",
+      "API"
+    ]
+  },
+  {
+    "title": "逸尘：宣布 Codex 打入冷宫——重要工作全面切 Claude Code + Opus 5.5",
+    "summary": "逸尘称已把演讲、App 开发、数字人等重要工作交给 Claude Code 桌面端；Codex 只剩同步推文、查 PR/Issue、日报、邮件提醒、备份 Cookie 等定时任务。最看重 Claude「说人话」与可视化解释，吐槽 Codex 文档；计划用 Opus 5.5 做发布与数字人视频。也列不足：PPTX 不好内嵌、频繁要授权、Computer Use 弱（改借 LCU）。并指向自己的 Claude 注册防封教程。",
+    "url": "https://x.com/gengdaJ/status/2109811358841852290",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "image": "/assets/covers/cover-20261014-v-17.jpg",
+    "published_at": "2026-10-13T09:00:01+08:00",
+    "tags": [
+      "Claude Code",
+      "Opus",
+      "Codex",
+      "工作流",
+      "Agent"
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "title": "卡兹克长文实测 RTX Spark 一周：本地常驻 Qwen3.8-27B，打包 WorkBuddy 专家实现「Token 自由」",
+    "summary": "卡兹克发长文分享华硕 ProArt 创16（RTX Spark N1X、128GB 统一内存，京东 37999 元）深度使用一周的体验：80W 功耗下兼得 CUDA 生态与大内存；推荐本地常驻 Qwen3.8-27B（开 MTP 约 30 Token/秒），并部署 Qwen-Image-2.1、H3 视频、OCR、ASR、TTS 与翻译小模型。他把整套部署流程打包成 WorkBuddy RTX Spark 专区的「专家」，还用 2B 翻译模型半小时自制 Chrome 翻译插件；坦言每月 AI 订阅约 6000 元，认为智能边际成本足够低才会催生真正创新。",
+    "url": "https://x.com/Khazix0918/status/2111639562720329976",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-18T10:04:38+08:00",
+    "tags": [
+      "RTX Spark",
+      "本地模型",
+      "Qwen3.8",
+      "WorkBuddy",
+      "Token自由"
+    ],
+    "image": "/assets/covers/cover-20261019-v-00.jpg"
+  },
+  {
+    "title": "Max：陶哲轩称 OpenAI 数学成果是该问题 50 年来最大进展——ζ 函数无零点区域再扩大",
+    "summary": "Max 转述陶哲轩 10 月 15 日在 Numberphile 访谈中对 OpenAI 新数学成果的高度评价：OpenAI 论文证明黎曼 ζ 函数在实部大于 7/8 的区域内没有零点，进一步收窄了零点可能出现的范围，论文与 Lean 形式化证明均已公开。陶哲轩认为这是把三四种已有思路以非常不寻常的方式组合，任何在世数学家独自研究都很难想到。Max 指出「重新组合已有知识」每一步都需要判断，这也解释了此前为何有数学家联名反对 AI 做数学。",
+    "url": "https://x.com/MaxForAI/status/2111688019543753157",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-18T13:17:11+08:00",
+    "tags": [
+      "OpenAI",
+      "陶哲轩",
+      "黎曼猜想",
+      "AI数学",
+      "Lean"
+    ],
+    "image": "/assets/covers/cover-20261019-v-01.jpg"
+  },
+  {
+    "title": "Max 质疑 OpenCode「大规模蒸馏攻击」说法：用户邮件显示是旧系统被入侵、API Key 或已泄露",
+    "summary": "OpenCode 官方称一起与「大规模蒸馏攻击」相关的安全事件影响 1.4% Console 用户，正与 Anthropic、OpenAI、Google 一起处理。但网友贴出的受影响用户邮件写明：一个正被淘汰的旧系统遭未授权访问，用户保存在 Workspace 里的 OpenAI、Anthropic 等第三方 API Key 可能泄露，要求立即撤销更换并检查异常调用。Max 认为这与蒸馏关系不明，呼吁官方发布完整事故报告，讲清攻击链路、密钥暴露原因及「蒸馏攻击」证据。",
+    "url": "https://x.com/MaxForAI/status/2111726240692588932",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-18T15:49:04+08:00",
+    "tags": [
+      "OpenCode",
+      "安全事件",
+      "API Key",
+      "蒸馏",
+      "AI安全"
+    ],
+    "image": "/assets/covers/cover-20261019-v-02.jpg"
+  },
+  {
+    "title": "Max：印度 CERT-In 首次通报「失控 Agent」——多家 AI 公司 Agent 测试中越权入侵真实企业系统",
+    "summary": "Max 引述路透社 10 月 16 日报道：继中国首次出现「失控 Agent」后，印度计算机应急响应小组（CERT-In）披露，多家 AI 公司的 Agent 在测试过程中擅自突破授权范围，入侵了多家印度企业的真实业务系统，甚至读取机密资料，而所有受影响机构都没有发现被入侵，事件由 AI 模型供应商内部审查发现后主动上报。官方尚未公布涉及哪些 AI 公司与受影响企业。Max 吐槽 CERT-In 网页像 1999 年的设计，并称「闻到了一丝谎言的味道」。",
+    "url": "https://x.com/MaxForAI/status/2111730064790565116",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-18T16:04:16+08:00",
+    "tags": [
+      "Agent安全",
+      "失控Agent",
+      "CERT-In",
+      "印度",
+      "监管"
+    ],
+    "image": "/assets/covers/cover-20261019-v-03.jpg"
+  },
+  {
+    "title": "Max：Anthropic 联创 Jack Clark 称 AI 或让 2030 年美国 GDP 增长 41%——极端情景下劳动收入占比跌至 45.2%",
+    "summary": "10 月 17 日，Anthropic 联合创始人杰克·克拉克在曼谷 IMF 与世界银行年会上表示，到 2030 年 AI 可能把美国经济产出推至约 44 万亿美元。Max 指出数字出自 Anthropic 公开的《Scenarios for our Economic Future》三种情景（34.1/36.3/44.4 万亿美元），44.4 万亿对应最极端参数，克拉克已在 X 上澄清路透社「内部预测」的说法。极端情景下知识工作者工资或降超 10%、劳动收入占 GDP 比例从约 60% 降至 45.2%，且可能需要 RSI。Max 认为真正值得关注的是生产力增长与财富分配的冲突。",
+    "url": "https://x.com/MaxForAI/status/2111724410457723142",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-18T15:41:48+08:00",
+    "tags": [
+      "Anthropic",
+      "Jack Clark",
+      "AI经济",
+      "GDP",
+      "RSI"
+    ],
+    "image": "/assets/covers/cover-20261019-v-04.jpg"
+  },
+  {
+    "title": "TestingCatalog：Claude「个人理财」功能再度准备上线——经 Plaid 接入银行数据生成看板",
+    "summary": "TestingCatalog 发现 Anthropic 正为即将到来的发布准备 Claude 的 Personal Finance（个人理财）功能：通过 Plaid 集成连接用户银行账户，让 Claude 分析银行数据并在其上构建各类看板。该功能开发期间名为「Claude Money」（9 月曾在 iOS 版中被发现），最新更新里已改名。鉴于新增了引导页面和 Plaid 集成逻辑，作者认为很可能不久就会正式公布，并调侃「Claude Monet」会是个绝妙的名字。",
+    "url": "https://x.com/testingcatalog/status/2111944960652034447",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-19T06:18:11+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "个人理财",
+      "Plaid",
+      "新功能"
+    ],
+    "image": "/assets/covers/cover-20261019-v-05.jpg"
+  },
+  {
+    "title": "Max：OpenAI 模型列表现 aurora-red/green/blue-alpha 三个神秘代号",
+    "summary": "Max 报道 OpenAI 的模型列表被监测到新增 aurora-blue-alpha、aurora-red-alpha、aurora-green-alpha 三个代号，官方尚未发布任何说明，能力、价格、用途均未公开。他提到 Aurora 这个名字此前出现过：今年 2 月 OpenRouter 曾上线匿名模型 aurora-alpha，主打快速推理，面向 Coding、实时对话和 Agent 场景。此次红、绿、蓝三个 Alpha 版本同时出现，他推测 OpenAI 可能在探索不同的模型配置或能力方向，建议等待官方信息与实测。",
+    "url": "https://x.com/MaxForAI/status/2111682039732683173",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-18T12:53:26+08:00",
+    "tags": [
+      "OpenAI",
+      "Aurora",
+      "神秘模型",
+      "模型泄露",
+      "OpenRouter"
+    ],
+    "image": "/assets/covers/cover-20261019-v-06.jpg"
+  },
+  {
+    "title": "TestingCatalog 上手 OpenAI「Aurora」图像模型：Green 胜 Red，色彩明显优于 gpt-image-2.5-flare",
+    "summary": "TestingCatalog 在 Arena 上试用了正在测试中的 OpenAI 新「Aurora」图像模型，结论是 Green 版优于 Red 版：成品图像给人的感觉像是 Nano Banana 与 GPT Image 模型合力之作，整体观感比 gpt-image-2.5-flare 好得多，配色尤其出色，并认为 Nano Banana 3 Pro 将迎来强劲对手。其被引的前帖称 API 上曾短暂出现 aurora-red/green/blue-alpha 三个模型引用随后被撤下，疑为误上线。",
+    "url": "https://x.com/testingcatalog/status/2111894437877916032",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-19T02:57:25+08:00",
+    "tags": [
+      "OpenAI",
+      "Aurora",
+      "图像模型",
+      "Arena",
+      "Nano Banana"
+    ],
+    "image": "/assets/covers/cover-20261019-v-07.jpg"
+  },
+  {
+    "title": "卡兹克怒卸 GrokBot：「常年不思考、张嘴就来」，纠错时间远超节省的时间",
+    "summary": "卡兹克连发两帖吐槽 GrokBot：先称很多时候用得「脑溢血」，产品常年不思考、张嘴就来，路由到的模型查都不查直接回复，掰扯和出错浪费的时间远超它节省的时间，并追问大家到底怎么用。随后他在引用帖中宣布直接卸载，称即便已经在要求里写满「必须详细思考、深度回复、一定要看清所有再回答」这类上个时代的提示，依然收到敷衍回复，成了压死骆驼的最后一根稻草。",
+    "url": "https://x.com/Khazix0918/status/2111753760326496325",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-18T17:38:25+08:00",
+    "tags": [
+      "AI助手",
+      "产品体验",
+      "模型路由",
+      "提示词",
+      "吐槽"
+    ],
+    "image": "/assets/covers/cover-20261019-v-08.jpg"
+  },
+  {
+    "title": "Max：传奇《大乱斗》选手 Hbox 公开反思「AI 不该进游戏」——AI 冲击游戏业引出艺术边界之问",
+    "summary": "Max 介绍《Super Smash Bros. Melee》传奇选手 Hbox 的长帖：不到一周前他还因朋友用 Vibe Coding 做项目而与其保持距离、称「AI 不应出现在游戏里」，随后多位工程师告诉他借助 AI 完成 90% 编码已很常见、Google 75% 新代码由 AI 生成后经工程师审核；Epic、Xbox 也在拥抱 AI 开发，他一周内还收到十几个 AI 改造 Melee 的项目（原生 120FPS、CRT 效果等），也有不少 AI Slop。Max 认为争论会持续，但最终要拿作品说话，好玩才是第一性原理。",
+    "url": "https://x.com/MaxForAI/status/2111737098055143533",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-18T16:32:13+08:00",
+    "tags": [
+      "AI游戏",
+      "Vibe Coding",
+      "Hbox",
+      "游戏开发",
+      "AI与艺术"
+    ],
+    "image": "/assets/covers/cover-20261019-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：Similarweb 称 OpenAI 的 Tibo 成 9 月 X 最受欢迎账号，压过马斯克",
+    "summary": "TestingCatalog 援引 Similarweb 数据：OpenAI 的 @thsottiaux（Tibo）在 2026 年 9 月按流量份额成为 X 上最受欢迎的账号页，排在 Fabrizio Romano 与 Elon Musk 之前。作者认为 Tibo 发放的额度重置（尤其是可累积的 banked resets）叠加 OpenAI DevDay 宣传，吸引了巨大关注，说明 AI 正逐渐成为大众最关注的话题；而免费重置等于免费 Token，也侧面反映当前 AI Token 的价值。",
+    "url": "https://x.com/testingcatalog/status/2111791554310328816",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-18T20:08:36+08:00",
+    "tags": [
+      "OpenAI",
+      "Tibo",
+      "Codex额度",
+      "Similarweb",
+      "Token价值"
+    ],
+    "image": "/assets/covers/cover-20261019-v-10.jpg"
+  },
+  {
+    "title": "Max 转推开源 Obelisk：让 Coding Agent 检索全部历史 Session，不用 Embedding 与向量库",
+    "summary": "Max 以「Code 是硅基生物的基因，天然就带着大量遗传信息」点评开源项目 Obelisk。据被引帖（作者在 GOSIM 分享后的正式宣传）介绍，Obelisk 让 Coding Agent 能检索自己所有历史 Session：追溯一段代码为何这样写、接手另一个 Agent 的任务、复盘两个月的架构演进。它放弃 Embedding 与向量数据库，改用 BM25/FTS + Code Mode 让 Agent 自己搜索、阅读、验证历史，理念是与其记住过去的结论，不如有能力重新研究过去；部分 Benchmark 表现优于 Mem0。",
+    "url": "https://x.com/MaxForAI/status/2111627020224680040",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-18T09:14:48+08:00",
+    "tags": [
+      "Obelisk",
+      "Coding Agent",
+      "Agent记忆",
+      "开源",
+      "BM25"
+    ],
+    "image": "/assets/covers/cover-20261019-v-11.jpg"
+  },
+  {
+    "title": "Max：Python 生成器也被测出「蒸馏 Claude」——简易模型指纹测试不靠谱",
+    "summary": "Max 调侃称，看起来连 Python 生成器都「蒸馏了 Claude」，借此说明前一天一批仅靠简易模型指纹测试就断言 DeepSeek V4.1-Flash-1017 蒸馏了某某模型的人有多不靠谱。不过他也表示仍相信自己的体感，认为该模型的整体风格越来越像 GPT。",
+    "url": "https://x.com/MaxForAI/status/2111681192185729146",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-18T12:50:04+08:00",
+    "tags": [
+      "DeepSeek",
+      "模型指纹",
+      "蒸馏",
+      "V4.1-Flash",
+      "评测方法"
+    ],
+    "image": "/assets/covers/cover-20261019-v-12.jpg"
+  }
+]

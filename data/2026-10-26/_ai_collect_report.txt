@@ -1,0 +1,57 @@
+Alioxis News AI新闻收集报告 — 2026-10-26（Asia/Taipei）
+
+条数：20
+Lead：OpenAI 以最高 90% 折扣挖 Anthropic 大客户：Rippling、Replit、DataCamp 纷纷把 AI 预算转向 OpenAI
+Lead URL：https://the-decoder.com/openai-offers-discounts-up-to-90-percent-to-poach-anthropics-biggest-customers/
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-26/_aihot_daily.json（fetch-aihot-daily.js 成功，08:10 抓取；lead 为「今日安静，无大事发生」，sections/flashes 为空）
+- /workspace/alioxis-news/data/2026-10-26/_aihot_summary.txt（与 10-25 同格式：lead 头 + sections + flashes）
+- /workspace/alioxis-news/data/2026-10-26/_prior_urls.json（新写入，扁平 URL 列表 433 个，覆盖 10-14..10-25 的 ai.json/v.json；10-12、10-13 目录不存在）
+- /workspace/alioxis-news/data/2026-10-26/ai.json
+- /workspace/alioxis-news/data/2026-10-26/_cover_prompts_ai.json（20 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-26/_ai_collect_report.txt
+
+纳入（20）：
+00 OpenAI 最高 90% 折扣挖 Anthropic 客户：curl + trafilatura 核实 the-decoder.com 原文（10-25 07:30:11Z）；援引 The Information（付费墙未直接核实，以 The Decoder 转述为准）
+01 Claude 绕付费墙抓佐治亚计票数据：curl 核实 IT之家 1/017/732（pubtime_baidu 10-26 07:56:18+08:00，援引 Axios；Axios 原站 Cloudflare 拦截 curl，未直接核实）
+02 猫王版权方起诉 Anthropic（274 首歌）：curl + trafilatura 核实 theguardian.com 原文（10-25 18:25:59Z）
+03 Anthropic 单 Agent 优于子智能体 + 迁移工具包：curl + trafilatura 核实 the-decoder.com 原文（10-25 09:12:10Z）
+04 Kimi K3.1 Pro 限流致歉、重置 25% 额度 + VentureBeat 付费推广争议：curl 核实 IT之家 1/017/723（10-26 07:10:49+08:00）；VentureBeat 原文 curl 遇 Vercel 验证页，改用 WebFetch 核实
+05 德勤西澳大学合并报告 AI 幻觉引用与 2.6 亿澳元算错：curl + trafilatura 核实 theguardian.com 原文（10-25 14:00:06Z），金额逐项对照原文
+06 英伟达开源 Flora：curl + trafilatura 核实 the-decoder.com 原文（10-25 10:08:49Z）；HF 上 nvidia/Flora-Captioner/Rewarder/TempSeg 存在
+07 TasteVal / Jack Clark 递归自我改进预测提前到 2027：curl + trafilatura 核实 the-decoder.com 原文（10-25 09:37:46Z）
+08 SpaceX 400 亿美元 GPU 债务融资：curl 核实 IT之家 1/017/720（10-26 06:51:35+08:00）；马斯克 neocloud 相关说法引自 Techmeme 汇总，已在摘要标注
+09 微软 Agensh：curl 核实 MarkTechPost 原文（10-25 03:32:59Z）；GitHub API 核实 microsoft/Agensh 仓库存在
+10 Cognition Devin 漏洞修复插件：curl 核实 MarkTechPost 原文（10-25 02:59:08Z）；GitHub API 核实 CognitionAI/devin-vuln-fixes（MIT，10-22 创建）
+11 OpenMobile-2：curl + trafilatura 核实 the-decoder.com 原文（10-25 06:55:22Z）
+12 TokenGate（斯坦福/伯克利）：curl 核实 MarkTechPost 原文（10-25 12:12:18Z）
+13 Teams 深伪检测：curl 核实 IT之家 1/017/676（10-25 19:35:02+08:00，援引 Windows Latest）
+14 Grok《奥德赛》前 7 分钟：curl + trafilatura 核实 techcrunch.com 原文（10-25 21:31:16Z）
+15 《三星堆：未来往事》AI 电影票房：curl 核实 IT之家 1/017/719（10-25 23:36:55+08:00，援引猫眼专业版）
+16 r/opensource 禁止 AI 内容：curl + trafilatura 核实 theverge.com 原文（10-25 13:25:32Z）
+17 施密特/弗格森《外交事务》「新东印度公司」文：curl + trafilatura 核实 the-decoder.com 原文（10-25 08:09:32Z，援引 Foreign Affairs）
+18 GEEKCON 2026：curl 核实 IT之家 1/017/678（10-25 19:55:03+08:00）
+19 Claude 桌面应用新界面：curl 核实 IT之家 1/017/710（10-25 22:33:12+08:00）
+
+跳过 / 未单独成卡：
+- 与 10-14..10-25 已收录同题：Anthropic OSS Scanner（10-09 已收）、Carbon-X（10-23 已收）、Apollo「零回报」（与 10-25 #10 同题）、Block Dessa
+- 与今日 v.json 同题：Nanbeige4.3-33B（v #5 TestingCatalog 已收）——原 AI新闻第 05 条撤下，改由德勤报告补位
+- 来源受限：Axios 原站（Cloudflare 拦截）、The Information 数据中心延期交付罚金（付费墙，无公开转述）
+- 名额或相关性原因降为备选：IT之家 AI「专属保险」(726)、DeepMind「终身学习者」(681)、Neighbours AI 重剪微短剧（Guardian）、Verge Google AI 搜索专栏、TechCrunch AI 可穿戴清单、CNBC 投资组合文、BBC/Wired 数据中心稿
+- The Register AI feed 当日未更新（最新条目已超窗口）
+
+去重：
+- 对照 _prior_urls.json（433 个 URL）：本批 20 个 URL 无完全重复，批内 URL 唯一
+- 已与今日 v.json（大V视野流程 08:13 写入，12 条，头条为 Max「RTX 20/30/40 Tensor Core 隐藏算力被破解」）交叉：URL 无重复；同题的 Nanbeige 已撤下；v #2（Max 评 Jack Clark 谈中国模型）与本批 #07（TasteVal 基准与 RSI 时间表）为不同话题，保留；头条错开
+- AIHOT 日报 1 个标题键（「今日安静，无大事发生」）：已用 build.js 原函数 normalizeTitle/aihotTitleKeys/overlapsAihot 自检，20 条无命中
+- 额外用同一函数对照 10-14..10-25 全部 ai/v 标题：#07 初稿标题因「Anthropic 联创 Jack Clark」前缀与 10-19 v 条目撞键，已改写标题，复检 0 命中
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词：市集降价摊位（OpenAI 折扣）/ 选举办公室机械臂（Claude 计票数据）/ 法院走廊点唱机（猫王诉讼）/ 工匠与闲置小机器人（单 Agent）/ 面馆赔礼加满碗（Kimi 限流致歉）/ 政府会议桌上贴满红标签的报告与窗外三座大学塔楼（德勤）/ 机器人标注实验室（Flora）/ 机械手自我组装（TasteVal/RSI）/ 沙漠物流场与火箭塔（SpaceX GPU 融资）/ 上千台机器人造船厂（Agensh）/ 管道工修补三根漏水管（Devin 漏洞修复）/ 迷你手机城（OpenMobile-2）/ 速读者与卷轴（TokenGate）/ 视频通话中的深伪接缝（Teams）/ 摄影棚里的希腊船（Grok 奥德赛）/ 影院中的三星堆青铜面具（AI 电影）/ 黑客空间关门（r/opensource）/ 帆船与数据中心同港（东印度公司）/ 无人机激光围栏舞台（GEEKCON）/ loft 换家具（Claude 桌面端）
+- 16:9，无文字数字，无统一刊头色带、无万能会议室/科技桌；file 名 cover-20261026-ai-00…19.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：curl + trafilatura（the-decoder.com、theguardian.com、techcrunch.com、theverge.com）/ curl（marktechpost.com）/ curl + pubtime_baidu（ithome.com）/ WebFetch（venturebeat.com ×1，curl 遇 Vercel 验证页）/ Hugging Face API（Flora、Nanbeige）/ GitHub API（Agensh、devin-vuln-fixes）/ feedparser 解析 RSS 筛选 / X MCP 未使用
+AIHOT 线索：fetch-aihot-daily.js 成功，但当日为「今日安静，无大事发生」，sections/flashes 为空；20 条全部由公开源补齐（周日源站更新少，扩大了来源范围）
+published_at 说明：均取源站元数据/RSS 精确时间换算为 +08:00；时间范围 10-25 10:59 至 10-26 07:56（+08:00），均在 24 小时窗口内

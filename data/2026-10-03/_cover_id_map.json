@@ -1,0 +1,317 @@
+{
+  "ai-00": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/3b92d8581c3d48a700cdb152698d7a4bbbe7c58a7624c050758a35613738c6f8.jpg",
+    "jpg": "cover-20261003-ai-00.jpg",
+    "bytes": 63460,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-01": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/e32a9921d797fef42728240661076bf8d3e444c1cf00bb9b55685eb29a41c0b6.jpg",
+    "jpg": "cover-20261003-ai-01.jpg",
+    "bytes": 55814,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-02": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/c2563a4c8a2345786cd0a4344b08bf36e31e2ad0a87cde40b9f58e7a625f2ead.jpg",
+    "jpg": "cover-20261003-ai-02.jpg",
+    "bytes": 44663,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-03": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/cfd3c4af027d8adcd42686abcd6e49b8e4e6298c80f27ef906a747c8b7325e9a.jpg",
+    "jpg": "cover-20261003-ai-03.jpg",
+    "bytes": 22893,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-04": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/da0471a9fdda58f16cd2434bf18847c48e7efcfcdc6889ed28113c8736b3c6bc.jpg",
+    "jpg": "cover-20261003-ai-04.jpg",
+    "bytes": 60226,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-05": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/8a18e32565a28e648d3fb64570c559caf18233f498e4efffb24072f78d2eca9a.jpg",
+    "jpg": "cover-20261003-ai-05.jpg",
+    "bytes": 56377,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-06": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/75c12703bd9d111d9218d7c4bc0f00c966620dbdf372651d6584a9096c2fed6d.jpg",
+    "jpg": "cover-20261003-ai-06.jpg",
+    "bytes": 49499,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-07": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/e1c38f3c024897ca58f5468d64c6890c929f2fb57ddf045d110650b85f729415.jpg",
+    "jpg": "cover-20261003-ai-07.jpg",
+    "bytes": 80743,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-08": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/41f3796996ca28912cebf1fa4c3322098c9ee959ca965ad84ff344fa810b2417.jpg",
+    "jpg": "cover-20261003-ai-08.jpg",
+    "bytes": 53567,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-09": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/a42e93adb3751c721bf22c1c53d4df66f0b64cbe29ea1dea108dce1fd6410018.jpg",
+    "jpg": "cover-20261003-ai-09.jpg",
+    "bytes": 61330,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-10": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/9e1e59fbdef352d31e7ce3f986376a45558bad4a6ecfca3acac064457334cd08.jpg",
+    "jpg": "cover-20261003-ai-10.jpg",
+    "bytes": 65324,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-11": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/673a54ba0825b6df1d4cf83bfe67dd653fbd43df1c3470620eb5df7b3ae60ccc.jpg",
+    "jpg": "cover-20261003-ai-11.jpg",
+    "bytes": 72005,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-12": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/017e881463de5a5779a0e66d7a82b547e5405f314d7874911b6f9271240136f1.jpg",
+    "jpg": "cover-20261003-ai-12.jpg",
+    "bytes": 72664,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-13": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/065c47dc0302394a1f8f5488e2b8e4883fc614dc31f32ad68b77065278ae7d96.jpg",
+    "jpg": "cover-20261003-ai-13.jpg",
+    "bytes": 54844,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-14": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/2062e25e11d69ff72f99f1d1e39465d735195404691e54b27ea7df29836c6496.jpg",
+    "jpg": "cover-20261003-ai-14.jpg",
+    "bytes": 66411,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-15": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/9421be2815c40b97047d4f8a4d6f4f2fa9fd3d7ecbe742591f177d141bf93870.jpg",
+    "jpg": "cover-20261003-ai-15.jpg",
+    "bytes": 49559,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-16": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/7ca04306149681575226dff1f9343767321b678be8155f3ed9926347c33bab95.jpg",
+    "jpg": "cover-20261003-ai-16.jpg",
+    "bytes": 58395,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "ai-17": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/cac11d0362bdfd0a80513b06926ed11a2318f8b79f030d44d8d725866baa8858.jpg",
+    "jpg": "cover-20261003-ai-17.jpg",
+    "bytes": 77534,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-00": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/ebb126335002aa5889b9e2a0b30d9430a0146da754ca7e2689647d4499cd0699.jpg",
+    "jpg": "cover-20261003-v-00.jpg",
+    "bytes": 84473,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-01": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/553dadf3c8faa712647cdd245ea265ecb2361dda3bc721ce36dc6a853c72da1e.jpg",
+    "jpg": "cover-20261003-v-01.jpg",
+    "bytes": 30253,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-02": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/9139a59ca0671e3b8e1f573e4ba90a4336f1d90f09fe039edfa7af302fc4eb68.jpg",
+    "jpg": "cover-20261003-v-02.jpg",
+    "bytes": 51476,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-03": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/3155f26521332fad93822e49da28f504d9253c9aa1b3f253fcc63db155fd58f3.jpg",
+    "jpg": "cover-20261003-v-03.jpg",
+    "bytes": 34215,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-04": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/3829fbdfe7272f48168c3596fab51ae23b8fac3dbc83b590a67b02d1a42b530d.jpg",
+    "jpg": "cover-20261003-v-04.jpg",
+    "bytes": 77368,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-05": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/19aa9f5ea9e7f3e5b7cd804e6f0954b1c8eb8e02d8cc856e23c59948c11be368.jpg",
+    "jpg": "cover-20261003-v-05.jpg",
+    "bytes": 79584,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-06": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/968b3b360db2c315c66d2104c2dd606fbdeadd7012e21c0637e30494c92bf0a4.jpg",
+    "jpg": "cover-20261003-v-06.jpg",
+    "bytes": 91586,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-07": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/8a0b233d8e4c05b5d1262099c4186eed15067a2536f22478a6c6020554f4eb28.jpg",
+    "jpg": "cover-20261003-v-07.jpg",
+    "bytes": 83047,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-08": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/213a9a32bd78cac85912d5db5845e6a1d10d6c510add6916204e23663eb800ec.jpg",
+    "jpg": "cover-20261003-v-08.jpg",
+    "bytes": 84698,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-09": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/627ad5037b3df24b2d00aec8f3551f17e421a1d1ae1fc16061885f25e2e9cce4.jpg",
+    "jpg": "cover-20261003-v-09.jpg",
+    "bytes": 71148,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-10": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/0a0333b2c7533fb460bf5fd6edd8b3199ca48f9f29bf2c3b55f2e47328ef7b96.jpg",
+    "jpg": "cover-20261003-v-10.jpg",
+    "bytes": 73839,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-11": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/69f56a8600dd4638f06e218ea0eda915f36a6178d4caa0af0491004ac2a2fad1.jpg",
+    "jpg": "cover-20261003-v-11.jpg",
+    "bytes": 46761,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-12": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/a4a9a4734118aa53ff0d13177dbcc2a217ab8f206f31c4a4247a9531c72686b2.jpg",
+    "jpg": "cover-20261003-v-12.jpg",
+    "bytes": 43944,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-13": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/123690d8d122df07bf6abb3f07ee3fc94a8bc95494d3efb1d4a10f770afc8b9c.jpg",
+    "jpg": "cover-20261003-v-13.jpg",
+    "bytes": 57552,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-14": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/d4b169086ce7a24c93b9c08fdff196b04e5beda419c8c9f48e172d6e38840708.jpg",
+    "jpg": "cover-20261003-v-14.jpg",
+    "bytes": 86490,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-15": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/7f9439559943ad846bd7e92d7cae11ebe5f413b7f8fd76eb48c388a95511b9fd.jpg",
+    "jpg": "cover-20261003-v-15.jpg",
+    "bytes": 70075,
+    "size": [
+      960,
+      540
+    ]
+  },
+  "v-16": {
+    "src": "/home/box/agent-data/agents/5ba5f569-10de-440f-ae31-382fe8dcb918/assets/eeac101149cfc0d6af1760e21c4caa0a374f6b12c63ed2bd7a3d9c99c3e72db6.jpg",
+    "jpg": "cover-20261003-v-16.jpg",
+    "bytes": 30274,
+    "size": [
+      960,
+      540
+    ]
+  }
+}

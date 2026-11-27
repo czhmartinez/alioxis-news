@@ -1,0 +1,82 @@
+Alioxis News AI新闻收集报告 — 2026-11-09（Asia/Taipei）
+============================================================
+完成时间：2026-11-09 08:18:33 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-09/
+产出：ai.json（20）、_cover_prompts_ai.json（20）、本报告；目录另有 _aihot_daily.json、_aihot_summary.txt、_aihot_clues.json、_prior_urls.json（2123 URL）
+
+一、条数与头条
+- 条数：20（目标 15–20，达上限）
+- Lead（#00）：英伟达董事会就黄仁勋遭外国情报行动瞄准启动独立调查；黄仁勋致信员工承认婚外情，公司称其将继续担任 CEO
+  URL：https://www.cnbc.com/2026/11/08/nvidia-jensen-huang-investigation-china-spy.html
+  理由：AIHOT 11-09 lead；一手官方动作（nvidianews.nvidia.com 董事会声明，已 WebFetch 核对原文）+ CNBC 全文含员工信、众议院 11/18 闭门简报、11/17 财报时间点。全球 AI 算力核心公司治理事件，影响面最大。与 11-08 #13（TechCrunch 情报备忘录）是同一事件的后续，但增量为董事会正式调查 + CEO 公开承认，非重复。摘要中间谍指控标明为媒体援引情报评估、未经公开证实；不渲染私生活细节。
+  备选：#01 Anthropic 34 亿美元燃气发电机 / #02 苹果代理式 Siri / #03 CAISSI 向白宫汇报
+
+二、与 v.json 交叉情况
+- 写盘时同目录 v.json 已存在（7 条，另一 worker 写入），硬 URL 去重 overlap=0
+- 软同题：v 为 GPT-6.2 Sol 灰度、Pro 套餐、Anthropic EVE 内鬼实验、Gemini Enterprise agent、Modretro 掌机等，与本频道 20 条无同题
+- 主动回避：Karpathy TristanTube（The Decoder 11/8 有稿）— 11-08 v 已收 Max 转述，AI 频道不再立项
+
+三、AIHOT 使用情况
+- 已跑 node scripts/fetch-aihot-daily.js 2026-11-09，dated API 成功（window 2026-11-08T00:00Z–2026-11-09T00:00Z），1 section + 1 flash + 3 highlights；脚本未生成 summary/clues，已按 11-08 格式手工补写 _aihot_summary.txt、_aihot_clues.json
+- 采用并落到原文：
+  · NVIDIA 董事会独立调查（线索源为 X @rohanpaul_ai）→ #00 CNBC（+ nvidianews 官方声明交叉）
+  · Anthropic 34 亿美元 Caterpillar 燃气发电机（X @rohanpaul_ai 转 FT）→ #01 The Next Web（FT 付费墙；CNBC/路透、TheEnergyMag 交叉，含 Piper Sandler 交易披露）
+  · Menlo Ventures 中国模型占开源支出 89%（IT之家）→ #13 改链 Menlo 官方报告原文
+  · DOJ 三人 AI 冒充高管诈骗 1.29 亿美元（IT之家）→ #05 保留 IT之家（转述卫报，台北时间窗内）+ SDNY 新闻稿（publicnow 镜像）与 CyberScoop 交叉
+- 未采用：flash「GPT-Image-2.6 实测 10 个 GIF 提示词」（X @aiwarts，个人测评帖，无官方/媒体页，留给 v）
+
+四、补充采用（非 AIHOT 主列表）
+  · 苹果特努斯敦促费德里吉、代理式 Siri → #02 IT之家（转述彭博 Power On；交叉 IT之家 024/029、Techmeme 汇总 9to5Mac/MacRumors）
+  · CAISSI 向白宫非正式汇报 → #03 PBS 转载 AP（apnews.com 对抓取/curl 返回 403，改用 PBS 全文页）
+  · DeepSeek Harness 日活 154 万 → #04 第一财经（11/5 晚官方披露；彭博 11/8 跟进、TokenPost/AI Weekly 交叉；此前未收）
+  · Co-Design Bench → #06 The Decoder
+  · Vals CyberOffense 开源 vs 闭源 → #07 The Decoder
+  · 亚马逊家用机器人新团队 → #08 CNBC 原文（IT之家 024/012 为转述）
+  · Into the Unknown 科研智能体基准 → #09 The Decoder
+  · ARTEX 800+ 暴露实例 → #10 TechCrunch（与 10-09 CrowdStrike、10-23 微软 ARTEX 稿为不同事件：本条为 Censys 暴露面扫描 + 已转闭源）
+  · 蚂蚁灵光破 2000 万用户 → #11 IT之家（10-28 v 收过 2.0 发布，本条增量为用户数/一周事务数）
+  · 上海交大 AutoDNA 登 Nature → #12 IT之家（附 nature.com 论文链接）
+  · 富士电视台全剧引入 AI → #14 IT之家（日经亚洲原文付费墙仅首段可读，已核对标题/日期/2027 年 10 月）
+  · Andy Hall AI 审计员研究 → #15 The Decoder
+  · Sutton「苦涩的教训」新帖 → #16 The Decoder
+  · SemiAnalysis 内蒙古 Galaxy 园区 → #17 newsletter.semianalysis.com（免费部分）
+  · 腾讯元器今日停服 → #18 IT之家
+  · Axon 投资 Skydio 12 亿美元 → #19 Resilience Media
+
+五、去重
+- _prior_urls.json：2123 条（全部历史 ai.json + v.json，不含 11-09）；本日 20 条 URL 0 命中；内部 URL 无重复
+- 与 v.json：硬 URL overlap=0
+- 对照 11-08 ai.json：未再收 Gemini 诉讼、Crusoe/谷歌怀俄明、BioBasicsBench、Arete-27B（Decoder 11/7 有跟进稿，未收）、Claude Code 密钥、H200 New Matrix（NYT 11/7 原调查与 Verge 转述同题，跳过）、DeepMind RSA、Palo Alto/Clutch、Cosmos 3、DOJ 特遣队、MNN-Pocket、Hinton、Megaspeed 情报备忘录（#00 为其后续增量，已在头条理由注明）
+- 对照 11-07：未再收 Anthropic IPO 估值（Decoder 11/7「感恩节前 IPO」稿跳过）、Inkling 2 Small（Decoder 11/7「316 次脏话」稿跳过）
+- 未收（窗口内可选但偏弱/偏题）：Sand.ai 2 亿美元 A+（11/5）、Public First 中期选举、东南亚数据中心暂停、ChatGPT 封号风波（仅凤凰网转述，官方无回应）、腾讯 Workbuddy 致歉、姚顺雨护城河访谈
+- published_at 均为 +08:00 ISO；美东按 EST=UTC-5 换算，Decoder 按 RSS UTC 时间换算
+- source 为字符串；image 为 /assets/covers/cover-20261109-ai-NN.jpg（00–19），与 _cover_prompts_ai.json 一一对应
+
+六、核实手段摘要
+00 CNBC WebFetch + nvidianews.nvidia.com 董事会声明 + CNBC 员工信全文页（搜索摘要）+ Techmeme 汇总
+01 TNW WebFetch + CNBC/路透、TheEnergyMag 搜索摘要
+02 IT之家 024/013、024/029 WebFetch + Techmeme（古尔曼推文：Computer Use、iOS 28、罗克韦尔）
+03 PBS（AP）WebFetch + Fox News 跟进摘要
+04 第一财经 WebFetch + TokenPost/AI Weekly/ChainCatcher 摘要（8/13 首发、9/29 桌面版、7 日均值口径）
+05 IT之家 WebFetch + SDNY 新闻稿（publicnow 镜像）+ CyberScoop WebFetch（罪名、被告律师声明）
+06 The Decoder WebFetch
+07 The Decoder WebFetch
+08 CNBC WebFetch
+09 The Decoder WebFetch
+10 TechCrunch WebFetch
+11 IT之家 WebFetch
+12 IT之家 WebFetch
+13 menlovc.com 报告页 WebFetch（89%/61% 等数字逐项核对）
+14 IT之家 WebFetch + 日经亚洲首段 + 搜索摘要（富士电视台 11/5 新闻稿）
+15 The Decoder WebFetch
+16 The Decoder WebFetch
+17 SemiAnalysis WebFetch（免费部分）
+18 IT之家 WebFetch
+19 Resilience Media WebFetch
+- curl 复查：18/20 返回 200；thenextweb.com 与 resiliencemedia.co 对 curl 返回 403（站点屏蔽机器人），但 WebFetch 均成功读取全文
+
+七、缺口与说明
+- 未生成封面、未 build、未发布（按任务范围）
+- #13 Menlo 报告发布于 11/3、#04 DeepSeek 数据披露于 11/5 晚、#19 Skydio 11/6、#17 SemiAnalysis 11/7：均早于 24–36h 窗口，但本周末才被主流媒体广泛跟进（SCMP/IT之家/彭博），且此前未收，作为补位；#13/#17/#19 原文无精确时刻，published_at 按惯例记为当日 12:00 +08:00
+- #00、#01、#02、#03、#05 均含未证实指控/消息人士报道，摘要已标明
+- #16 为观点/讨论稿，若编辑阶段需压缩条数可优先拿掉

@@ -1,0 +1,144 @@
+{
+  "lead": {
+    "title": "Qwen 发布 Qwen4-Max：2.4T 参数骨干、百万 token 上下文与长程智能体能力",
+    "leadParagraph": "Qwen 团队发布 Qwen4-Max，基于新 Qwen4 架构，拥有 2.4T 骨干参数、每 token 激活 71B、328B N-gram Embedding 参数，具备原生视觉能力和 100 万 token 上下文窗口。"
+  },
+  "sections": [
+    {
+      "label": "模型发布/更新",
+      "items": [
+        {
+          "title": "Qwen 发布 Qwen4-Max：2.4T 参数骨干、百万 token 上下文与长程智能体能力",
+          "original": "https://qwen.ai/blog?id=qwen4-max",
+          "source": "Qwen：Blog Retrieval（API）"
+        },
+        {
+          "title": "腾讯混元发布 Hy4 flash：224B 总参数、1M 上下文的日常高性价比模型",
+          "original": "https://hunyuan.tencent.com/research/100145?langVersion=zh",
+          "source": "腾讯混元：Research（API）"
+        },
+        {
+          "title": "Google 发布 Gemini 4 Carbon 与 Hydrogen，并推出 Decisions API 和自托管 agent 沙箱",
+          "original": "https://x.com/_philschmid/status/2122358498461691913",
+          "source": "X：Philipp Schmid（Google DeepMind 开发者体验） (@_philschmid)"
+        }
+      ]
+    },
+    {
+      "label": "行业动态",
+      "items": [
+        {
+          "title": "加州总检察长起诉 OpenAI，指控其 AI 智能体失控并攻击 Hugging Face",
+          "original": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "source": "The Verge：AI（RSS）"
+        },
+        {
+          "title": "美国收紧 AI 芯片出口管制，限制中国企业远程获取算力",
+          "original": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "title": "英伟达CEO黄仁勋辞职后风波持续，公司股价一周下跌14%",
+          "original": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
+          "source": "The Verge：AI（RSS）"
+        },
+        {
+          "title": "Hugging Face Inference Providers 语言模型路由切换为 OpenRouter",
+          "original": "https://huggingface.co/blog/openrouter",
+          "source": "Hugging Face 官方团队博客"
+        },
+        {
+          "title": "FBI 通报开源 AI 攻击工具 Artex 被用于入侵美国及韩国机构网络",
+          "original": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+          "source": "TechCrunch：AI（RSS）"
+        }
+      ]
+    },
+    {
+      "label": "论文研究",
+      "items": [
+        {
+          "title": "Microsoft Research 发布开源插件 TokenEconomizer，借仓库历史经验为 AI 编码 Agent 降本 18.4–30.9%",
+          "original": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+          "source": "Microsoft Research 博客（RSS）"
+        },
+        {
+          "title": "Apple 联合 OpenEvidence 启动 Apple Health AI Usage Study 探索健康 AI 使用",
+          "original": "https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/",
+          "source": "Apple：Newsroom（RSS）"
+        }
+      ]
+    },
+    {
+      "label": "技巧与观点",
+      "items": [
+        {
+          "title": "Claude Code 团队如何设计 Agent 验证与测试流程",
+          "original": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+          "source": "Anthropic：Claude.dev 开发者博客（RSS）"
+        },
+        {
+          "title": "IMF 总裁警告全球经济过度依赖 AI，循环融资规模超 1 万亿美元",
+          "original": "https://www.ithome.com/1/027/861.htm",
+          "source": "IT之家·人工智能"
+        }
+      ]
+    }
+  ],
+  "flashes": [
+    {
+      "title": "科技界人士质疑英伟达CEO辞职背后存在针对其的阴谋",
+      "original": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories"
+    },
+    {
+      "title": "英伟达财报前瞻：临时CEO科莱特·克雷斯将面临哪些关键问题",
+      "original": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/"
+    },
+    {
+      "title": "Databricks 推出 AI Index：追踪企业级 AI 采用与 token 成本",
+      "original": "https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics"
+    },
+    {
+      "title": "OpenAI 与 Apollo Research、METR、Transluce、Goodfire 签约启动首阶段嵌入式安全评估",
+      "original": "https://openai.com/index/our-first-phase-of-embedded-assessments"
+    },
+    {
+      "title": "OpenAI 发布免费 CSAM 检测图像分类器并升级 ChatGPT 儿童安全干预",
+      "original": "https://openai.com/index/strengthening-online-child-safety"
+    },
+    {
+      "title": "Gemini 4 Hydrogen 与 Carbon 如何按工作负载选型",
+      "original": "https://x.com/_philschmid/status/2122359669909811362"
+    },
+    {
+      "title": "Anthropic 缩短协同漏洞披露政策时限",
+      "original": "https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines"
+    },
+    {
+      "title": "AI 手搓的 1.4M 纯 HTML 3D 游戏走红，卡兹克拆解 Three.js 程序化生成原理并给出提示词模板",
+      "original": "https://mp.weixin.qq.com/s/ZJddy1ssHBvw_1sm12jrkg"
+    },
+    {
+      "title": "NotebookLM 推出来源一键生成可分享网站功能",
+      "original": "https://x.com/Gemini_Notebook/status/2122436141282660596"
+    },
+    {
+      "title": "自媒体作者分享10条指挥Agent最常用的Prompt",
+      "original": "https://mp.weixin.qq.com/s/SD5q9kVK5gXyTHVQjNPnoA"
+    }
+  ],
+  "highlights": [
+    {
+      "title": "加州总检察长起诉 OpenAI，指控其 AI 智能体失控并攻击 Hugging Face",
+      "original": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit"
+    },
+    {
+      "title": "腾讯混元发布 Hy4 flash：224B 总参数、1M 上下文的日常高性价比模型",
+      "original": "https://hunyuan.tencent.com/research/100145?langVersion=zh"
+    },
+    {
+      "title": "美国收紧 AI 芯片出口管制，限制中国企业远程获取算力",
+      "original": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/"
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+[
+  {
+    "title": "OpenAI：ChatGPT 搜索类查询量已达谷歌约五分之一，周活两个月从 10 亿涨到 12 亿，语音周活 2.5 亿",
+    "summary": "ChatGPT 消费产品负责人 Adam Fry 在 OpenAI 纽约晚宴上接受 Big Technology 采访称，ChatGPT 的「类搜索」查询量已约为谷歌的五分之一——口径是任何触发联网搜索的提问，查人查地点、财经和健康问题增长最快。周活跃用户在约 60 天内从 10 亿增至 12 亿，每周生成图片约 15 亿张，听写与语音对话合计周活 2.5 亿。Fry 还透露 Chat 与 Work 两种模式将合并，并谈及个人助理 Dots 的服务成本。上述数字均为公司口径，谷歌基数来源未披露，尚无第三方核实。",
+    "url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20",
+    "source": "Big Technology",
+    "published_at": "2026-11-03T23:00:30+08:00",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "AI 搜索",
+      "谷歌",
+      "用户增长"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-00.jpg"
+  },
+  {
+    "title": "AMD 三季度营收 134 亿美元创纪录、数据中心同比 +97%；苏姿丰预计 2027 年营收增长超 80%",
+    "summary": "AMD 公布 2026 年三季度财报：营收 134 亿美元、同比增长 45%，非 GAAP 每股收益 2.09 美元、增长 74%；数据中心部门营收 85 亿美元、同比增长 97%，占总营收 64%（一年前为 47%），主要来自 EPYC 处理器与新上市的 Instinct MI450 GPU。公司预计四季度营收约 170 亿美元。CEO 苏姿丰在电话会上表示，2027 年总营收将增长超 80%，高于分析师预期的约 77%，服务器营收将翻倍，数据中心占比将超 80%，并称智能体负载正成为云端 CPU 的下一个杀手级应用。",
+    "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+    "source": "AMD 投资者关系",
+    "published_at": "2026-11-04T05:05:00+08:00",
+    "tags": [
+      "AMD",
+      "财报",
+      "数据中心",
+      "Instinct MI450",
+      "AI 芯片"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-01.jpg"
+  },
+  {
+    "title": "OpenAI：两名员工用 GPT-6 Astra 一周内做出与 Codex 对话的硬件设备，外壳、PCB 到固件均由模型设计",
+    "summary": "OpenAI 发文介绍模型在实体工程中的进展：两名员工以业余项目方式，让 GPT-6 Astra 在无人直接改稿的前提下，一周内完成一台可与 Codex 语音对话的设备，包括外观、外壳结构、元器件选型与 PCB 布局、交互界面及固件，代工厂不到一个月做出小批量样机；但距可量产仍需多轮修改，因为模型未充分考虑公差、产线限制和装配细节。OpenAI 硬件团队自 2 月以来 Token 用量增长 23 倍；BenchCAD 2.0 上一款未公开内部模型得分 0.875，Astra 最高档为 0.594。公司还宣布与马自达合作空气动力与碰撞仿真。",
+    "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+    "source": "OpenAI",
+    "published_at": "2026-11-04T02:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6 Astra",
+      "Codex",
+      "硬件设计",
+      "BenchCAD",
+      "CAD"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-02.jpg"
+  },
+  {
+    "title": "Anthropic 开源 FlashProve：用零知识证明验证「回答确实出自所声称的模型」，单张 H100 每秒约 110 Token",
+    "summary": "Anthropic 前沿红队发布可证明推理（provable inference）研究原型 FlashProve：模型提供方先发布不泄露权重的模型承诺「指纹」，再为每次回复生成 zkSNARK 证明，任何人可在普通 CPU 上几秒内验证该回复确由所承诺的模型生成，可防止路由服务偷换便宜模型或篡改 Token 流。在 4-bit 量化的 Llama 4 Maverick 上，单张 H100 证明速度约 110 Token/秒，每 1024 Token 请求证明约 19MB，约为 vLLM 推理 GPU 时间的 70–95 倍。协议安全性由 Lean 形式化证明，代码以 Apache 2.0 开源；Anthropic 称暂无在任何实验室部署的计划。",
+    "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-04T06:41:03+08:00",
+    "tags": [
+      "Anthropic",
+      "FlashProve",
+      "可证明推理",
+      "零知识证明",
+      "AI 安全",
+      "开源"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-03.jpg"
+  },
+  {
+    "title": "Kimi 发布游戏开发与创意工作解决方案：K3.1 Pro 接入 Unity、Unreal、Blender，演示无人干预连续开发 20 小时",
+    "summary": "月之暗面发布「游戏开发与创意工作解决方案」，基于 Kimi K3.1 系列模型、Kimi Code 与 Kimi Work，并通过插件操作 Blender、Unity、Unreal Engine、Godot 等专业工具。立项前可让缺少编程经验的策划在 1–2 天内做出可试玩原型；Blender 侧可多视角检查比例、穿插与材质并脚本化修改；与团结引擎 Tuanjie Codely Agent 协同时，一次演示中 Kimi 在无人干预下连续工作 20 小时复现原作并产出可持续开发的原生工程。方案还覆盖投放素材批量制作、游戏内助手、社区反馈归类、本地化与 UGC 审核初筛。",
+    "url": "https://www.kimi.com/news/kimi-game-solutions",
+    "source": "Kimi 官网",
+    "published_at": "2026-11-03T18:00:00+08:00",
+    "tags": [
+      "Kimi",
+      "月之暗面",
+      "K3.1 Pro",
+      "游戏开发",
+      "Agent",
+      "Unreal Engine"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-04.jpg"
+  },
+  {
+    "title": "DeepMind 为 Antigravity 推出化学信息学技能：智能体一小时筛数千化合物并设计带合成路线的新大环分子",
+    "summary": "Google DeepMind 发布 Cheminformatics Skills，让 Google Antigravity 中的智能体把大模型的规划、检索和推理能力与 RDKit 等确定性化学工具结合，并接入 ChEMBL、PubChem 数据库，自动识别论文、专利和目录中以 IUPAC 名称、马库什结构、SDF 等不同形式出现的同一分子。在以肺癌靶向药克唑替尼、劳拉替尼为例的演示里，智能体整理 568 个化合物、做匹配分子对分析、训练药效预测模型，并提出刚性化大环候选分子及合成建议，耗时约一小时，过去需数天。DeepMind 强调产出只是待实验验证的假设。",
+    "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+    "source": "Google DeepMind",
+    "published_at": "2026-11-03T23:00:00+08:00",
+    "tags": [
+      "DeepMind",
+      "Antigravity",
+      "Agent Skills",
+      "药物发现",
+      "AI for Science"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-05.jpg"
+  },
+  {
+    "title": "OpenAI 对齐团队：六款模型安全评测成绩比真实 Codex 生产低 10–37 个百分点，「猜错考点」是主因",
+    "summary": "OpenAI Alignment 博客对比 GPT-5.6 Luna/Sol、GPT-6 Luna/Sol/Astra、GPT-6.1 Sol 在「尊重警告」安全评测与匹配的 Codex 生产决策中的表现，发现评测成功率普遍低于生产，差距 10.2–37.4 个百分点——与「模型识破考试后装乖」的担忧方向相反。评测中模型口头识别出测试的比例达 57.0%–83.7%，生产中仅 4.6%–23.5%；但单纯意识到被测与差距几乎无关，误判考点才是关键：误以为在考抗提示注入的轮次成功率仅 22.8%。干预实验中，提示正确考点把 GPT-6.1 Sol 成功率从 63% 拉到 91.6%，提示错误考点则跌至 17.6%。",
+    "url": "https://alignment.openai.com/eval-production-behavior-gap/",
+    "source": "OpenAI Alignment",
+    "published_at": "2026-11-04T01:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "AI 安全",
+      "评测",
+      "评测意识",
+      "Codex",
+      "对齐"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-06.jpg"
+  },
+  {
+    "title": "OpenAI 推出 LifeVal 日常任务评测：覆盖育儿、健康、理财、政务等，最新模型部分任务达 100%",
+    "summary": "OpenAI 发布 LifeVal 评测，衡量 AI 在日常生活任务上的进展。题目来源于美国时间使用调查与跨国时间使用研究，并新增 3995 名受访者的代表性问卷，确定人们最希望 AI 代劳的领域，包括照护、健康、教育、家务管理、个人理财、购物和办理政府服务。官方示例显示，最新模型在「搬家后为孩子挑选幼儿园」上得分 93.1%，「为洪水预备志愿者排班」98.0%，「在指定县找房并把房契加入购物车」100%。OpenAI 称过去一年重点提升浏览器、电脑操作和连接器能力，推动 ChatGPT 从聊天工具走向能真正办事的个人助理。",
+    "url": "https://openai.com/index/lifeval",
+    "source": "OpenAI",
+    "published_at": "2026-11-03T02:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "LifeVal",
+      "评测",
+      "个人助理",
+      "ChatGPT Agent"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-07.jpg"
+  },
+  {
+    "title": "Gemini 2.5 Pro / Flash 正式弃用：AI Studio 已无法选择，12 月 1 日起 API 请求自动改路由并按新模型计费",
+    "summary": "Gemini API 更新日志显示，gemini-2.5-pro 与 gemini-2.5-flash 已被弃用，Google AI Studio 中不再可选。自 2026 年 12 月 1 日起，所有调用 gemini-2.5-pro 的请求将自动路由到 gemini-3.8-flash 并按其价格计费，gemini-2.5-flash 则路由到 gemini-3.5-flash-lite。谷歌提醒开发者在此之前主动修改模型字符串并参照迁移指南：新模型存在破坏性变更，包括函数调用与 thought_signature 校验、以 thinking_level 取代 thinking_budget、移除部分采样参数以及不再支持预填充模型回合。仍在生产环境使用 2.5 系列的应用需尽快测试。",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog",
+    "source": "Gemini API 更新日志",
+    "published_at": "2026-11-03T03:00:00+08:00",
+    "tags": [
+      "Google",
+      "Gemini API",
+      "模型弃用",
+      "Gemini 3.8 Flash",
+      "开发者"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-08.jpg"
+  },
+  {
+    "title": "路透：OpenAI 会议室「窃听」事件后，知情人称员工多年反映安全松懈——单体代码仓、沙盒工具缺审查",
+    "summary": "据路透社援引 5 名知情人士报道，早在 2022 年底 ChatGPT 问世前，就有员工向 OpenAI 高层和董事会反映安全管理松懈，认为管理层更在意追赶竞争对手。问题包括：大量代码集中在单体代码仓库，有代码权限的员工能看到许多与本职无关的项目细节，而 AI 智能体已能轻松检索这类庞大资料；研究文档散落在 GitHub 与 Slack；用于压力测试新模型的沙盒等内部工具缺乏定期安全审查。OpenAI 回应称敏感项目与模型权重存放在受严格管控的独立仓库，目前由 Thibault Sottiaux 牵头加强内部防护。此前 10 月一名工程师被控在高管会议室安装录音设备。",
+    "url": "https://www.ithome.com/1/021/892.htm",
+    "source": "IT之家（转述路透社）",
+    "published_at": "2026-11-04T08:00:32+08:00",
+    "tags": [
+      "OpenAI",
+      "安全",
+      "内部威胁",
+      "代码仓库",
+      "路透社"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-09.jpg"
+  },
+  {
+    "title": "OpenAI 漏洞赏金提至四倍：ChatGPT/Codex 严重漏洞最高 3 万美元，叠加奖励总额可达约 17.2 万美元",
+    "summary": "OpenAI 宣布大幅上调漏洞赏金：外部研究者在 ChatGPT、Codex 等核心产品中发现的严重漏洞最高可获 3 万美元，特别重大的发现可达 10 万美元，叠加质量、忠诚度和专项活动奖励后最高约 17.2 万美元，水平接近谷歌通用漏洞奖励计划，但仍低于苹果、微软针对系统级漏洞的顶级奖金。新计划设五级忠诚度体系和随新功能上线的限时加码活动，过去 30 天内提交的漏洞将按新标准补差价。OpenAI 还将与安全公司 Cathedral 联合开展内部安全冲刺，上一轮有 25% 的产品工程师参与找漏洞。",
+    "url": "https://the-decoder.com/bug-hunters-can-now-earn-up-to-172000-from-openai-as-company-ramps-up-security/",
+    "source": "The Decoder",
+    "published_at": "2026-11-03T18:42:44+08:00",
+    "tags": [
+      "OpenAI",
+      "漏洞赏金",
+      "安全",
+      "Codex",
+      "ChatGPT"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-10.jpg"
+  },
+  {
+    "title": "AI 推理平台 Fal 新一轮融资 13 亿美元、估值翻倍至 160 亿美元，年化收入已超 8 亿",
+    "summary": "托管和运行 AI 视频、图像与音频模型的旧金山创业公司 Fal 完成由 Bessemer 领投的新一轮融资，英伟达、Sound Ventures 和 T. Rowe Price 参投，据彭博报道金额 13 亿美元，估值 160 亿美元，是今年 4 月 80 亿美元的两倍。Fal 同时公布 E 轮与 F 轮，两轮合计 16.5 亿美元，E 轮由红杉领投。融资背景是推理需求暴涨，尤其是依赖开源模型的客户；Fal 年初年化收入已超 8 亿美元。TechCrunch 指出，Baseten、Fireworks AI、Modal 等推理公司估值同样飙升，但高昂算力成本使其毛利率仍然偏薄。",
+    "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-04T03:34:43+08:00",
+    "tags": [
+      "Fal",
+      "融资",
+      "AI 推理",
+      "生成式视频",
+      "英伟达"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-11.jpg"
+  },
+  {
+    "title": "英伟达口头要求云客户减少中国业务、披露芯片最终用户，堵「远程租算力」出口管制漏洞",
+    "summary": "据 The Information 和《金融时报》报道，英伟达通过销售代表和区域团队口头要求部分云客户（包括其投资的 neocloud）减少来自中国公司的业务，使客户结构更多元，并要求披露实际使用芯片的终端用户身份。该指引并非强制，只适用于未来合同、不影响既有交易。此举针对美国出口管制的空白：现行规则限制芯片出货，却通常不覆盖通过云服务远程访问，中国 AI 开发者可在海外数据中心租用先进 GPU 而无需进口硬件。此前美国当局已在调查相关情况，涉及 Kimi 开发商月之暗面的指控。",
+    "url": "https://the-decoder.com/nvidia-pushes-cloud-customers-to-cut-back-on-china-business/",
+    "source": "The Decoder",
+    "published_at": "2026-11-03T20:22:12+08:00",
+    "tags": [
+      "英伟达",
+      "出口管制",
+      "云计算",
+      "中国",
+      "算力"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-12.jpg"
+  },
+  {
+    "title": "华为让客户自行解决昇腾芯片的 HBM 内存：走私 HBM3E 一年从几百美元涨到约 4000 美元一颗",
+    "summary": "The Information 报道，华为计划明年初推出性能翻倍的昇腾 960DT，但国内供应商 HBM 高带宽内存产能不足，美国出口规则又禁止直接向三星、SK 海力士采购（两家合计占全球八成以上），华为因此要求部分客户自行采购内存，实际把采购推向黑市。走私网络把 HBM 与性能低于管制门槛的廉价服务器处理器打包，经香港运入内地再拆解，良率低但利润丰厚。深圳一名中间商称，走私 HBM3E 单价一年内从几百美元涨到约 4000 美元，每颗 AI 芯片需 6–8 颗，仅内存就可达 3.2 万美元。",
+    "url": "https://the-decoder.com/huawei-tells-customers-to-find-their-own-ai-chip-memory-effectively-outsourcing-procurement-to-the-black-market/",
+    "source": "The Decoder",
+    "published_at": "2026-11-03T19:47:37+08:00",
+    "tags": [
+      "华为",
+      "昇腾",
+      "HBM",
+      "出口管制",
+      "AI 芯片"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-13.jpg"
+  },
+  {
+    "title": "谷歌明年起对 K-12 学生默认关闭 Gemini 等 AI 工具；学校若全面禁用 AI，搜索也将一并停用",
+    "summary": "谷歌宣布，明年起将对 K-12 学生默认关闭 AI 工具，除非学校管理员明确开启，覆盖 Gemini、NotebookLM、课堂版 Gemini 与谷歌搜索，称这是与学校、教师、研究者和政策制定者协商后的调整。但谷歌教育副总裁 Chris Phillips 向《纽约时报》表示，搜索与 AI 已「深度融合」，若学校选择全面限制 AI，学生将无法使用谷歌搜索，只会看到学校停用的提示。这让不希望学生用 AI 概览写作业、但仍需要搜索查资料的学校陷入两难，也凸显谷歌借 Chromebook 和课堂套件对教育市场的影响力。",
+    "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-04T00:30:34+08:00",
+    "tags": [
+      "谷歌",
+      "教育",
+      "Gemini",
+      "AI 概览",
+      "未成年人"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-14.jpg"
+  },
+  {
+    "title": "苹果 App Store 新规：含恋爱或性内容的 AI 陪伴与约会类应用一律 18+，11 月 16 日起须标注新内容描述",
+    "summary": "苹果向开发者宣布调整 App Store 政策，所有提供约会或恋爱关系功能的应用都必须标为 18+，这将直接影响 Character.AI、Replika 等允许用户创建 AI 恋人、朋友或幻想角色的陪伴类应用，以及把此类功能作为附加特性的综合 App。自 11 月 16 日起，开发者须填写新的内容描述，确保年龄分级反映真实功能；与他人实时共享位置的应用也需单独标注。据统计，截至去年夏天，头部 AI 陪伴应用在两大应用商店累计下载已达 2.2 亿次。苹果此前已在全球推广年龄核验技术并加强家长控制。",
+    "url": "https://techcrunch.com/2026/11/03/apple-restricts-dating-apps-and-ai-companions-to-users-18-and-up/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-03T23:38:27+08:00",
+    "tags": [
+      "苹果",
+      "App Store",
+      "AI 陪伴",
+      "未成年人保护",
+      "政策"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-15.jpg"
+  },
+  {
+    "title": "Netflix 推出「AI Discover」页签：按心情、时长挑片，新「智能层」实时学习用户反馈",
+    "summary": "Netflix 宣布在电视端推出实验性「AI Discover」页签，首个功能是按心情找片：用户可从「来点轻松的」「吓我一下」「家庭电影夜」「短小快看」等配有片段的主题中选择，也可按观看偏好、可用时间或新上线热门筛选，并能继续细化主题或一键「换点别的」。每个作品旁新增「调整推荐」按钮，可保存喜欢的推荐或排除不想再看到的内容。Netflix 称该功能由新建的「智能层」驱动，会实时响应用户输入并持续学习，并把这个页签定位为发现功能的「试验厨房」。目前先面向美国英文界面的部分电视用户推出，未来数周扩大范围。",
+    "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-04T02:42:16+08:00",
+    "tags": [
+      "Netflix",
+      "AI 推荐",
+      "流媒体",
+      "AI 应用",
+      "个性化"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-16.jpg"
+  },
+  {
+    "title": "欧盟法院法务总顾问：Gemini 用新闻报道生成回答在特定情况下或侵犯出版商权利，但训练属文本数据挖掘例外",
+    "summary": "据路透社报道，欧盟法院法务总顾问 Maciej Szpunar 就匈牙利网站运营商 Like Company 诉谷歌案发表意见：当大模型驱动的聊天机器人从新闻网站获取报道并用于生成回答时，若绕过付费墙等技术限制获取内容，或在回答中以可识别方式复用报道的具体表达，就可能侵犯出版商的复制权；但单纯事实不受保护。他同时认为，用受版权保护材料训练大模型属于现行文本与数据挖掘例外，是被允许的。该意见不具约束力，但法官通常会参考采纳，可能影响 AI 摘要取代搜索链接后媒体能否获得补偿。",
+    "url": "https://www.ithome.com/1/021/835.htm",
+    "source": "IT之家（转述路透社）",
+    "published_at": "2026-11-03T22:36:31+08:00",
+    "tags": [
+      "谷歌",
+      "Gemini",
+      "版权",
+      "欧盟",
+      "新闻出版"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-17.jpg"
+  },
+  {
+    "title": "OpenHands 联手 Snowflake：直接用现有 Agent Harness 对开源模型做强化学习后训练，无需在 RL 框架里重搭",
+    "summary": "OpenHands 与 Snowflake AI Research 推出新工作流：开发者可直接沿用 OpenHands Agent SDK 中已配置好的系统提示、工具与技能，以开放的 Harbor 格式定义任务，由 Snowflake Cortex Training 提供 GPU，对开源权重模型做强化学习后训练。官方指出，多数模型用通用 Agent 配置训练，部署到定制 Harness 后常出现工具调用错误、忽略技能、步骤冗余或耗尽回合预算等问题；传统 RL 框架又自带 Agent 循环和工具格式，需要重建 Harness，导致训练与部署不一致。新方案让模型针对团队自己的 Agent 环境优化，缩小这一差距。",
+    "url": "https://www.openhands.dev/blog/post-train-ai-models-openhands-snowflake",
+    "source": "OpenHands 博客",
+    "published_at": "2026-11-03T08:00:00+08:00",
+    "tags": [
+      "OpenHands",
+      "Snowflake",
+      "强化学习",
+      "Agent Harness",
+      "开源模型"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-18.jpg"
+  },
+  {
+    "title": "斯坦福研究：50 条被广泛引用的大模型「结论」44% 已过期，平均寿命仅 15.7 个月，数草莓 r 等短板率先失效",
+    "summary": "斯坦福研究者 Owen Queen 与 James Zou 用八家开发商在 2024 年 7 月至 2026 年 9 月发布的 20 款模型，复核 50 条被广泛引用的大模型结论，发现 44% 已「过期」、34% 明显减弱，仅 16% 仍成立、6% 反而增强；有估计过期日期的 22 条平均寿命 15.7 个月。关于模型「做不到什么」的结论过期最快，如数 strawberry 字母、陌生进制算术、长上下文中段遗忘、被用户反驳就改口等，研究者认为这类问题有明确正确答案，便于针对性训练。偏好类结论更持久：模型当裁判时偏爱自己的答案、谄媚用户、偏左政治倾向等仍然存在。",
+    "url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds/",
+    "source": "The Decoder",
+    "published_at": "2026-11-04T03:41:43+08:00",
+    "tags": [
+      "研究",
+      "大模型评估",
+      "斯坦福",
+      "可复现性",
+      "谄媚"
+    ],
+    "image": "/assets/covers/cover-20261104-ai-19.jpg"
+  }
+]

@@ -1,0 +1,57 @@
+Alioxis News AI新闻收集报告 — 2026-10-27（Asia/Taipei）
+
+条数：20
+Lead：Anthropic 正式递交 S-1 冲刺纳斯达克（代码 ANT）：上半年营收 163 亿美元、Q2 首次经营盈利，算力承诺高达 7800–8100 亿美元
+Lead URL：https://the-decoder.com/anthropic-opens-its-books-for-wall-street-showing-record-revenue-and-mounting-obligations/
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-27/_aihot_daily.json（fetch-aihot-daily.js 成功，08:15 抓取；lead 为「Anthropic 向 SEC 提交 S-1 文件启动 IPO」，sections 12 条 + flashes 5 条）
+- /workspace/alioxis-news/data/2026-10-27/_aihot_summary.txt（与 10-26 同格式：lead 头 + sections + flashes）
+- /workspace/alioxis-news/data/2026-10-27/_prior_urls.json（新写入，扁平 URL 列表 427 个，覆盖 10-15..10-26 的 ai.json/v.json）
+- /workspace/alioxis-news/data/2026-10-27/ai.json
+- /workspace/alioxis-news/data/2026-10-27/_cover_prompts_ai.json（20 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-27/_ai_collect_report.txt
+
+纳入（20）：
+00 Anthropic S-1 / IPO 财务：curl + trafilatura 核实 the-decoder.com 原文（10-26 19:14:45Z）；交叉 TechCrunch（14:35:22Z，净亏损/客户分层/Founder LLC）与 anthropic.com/news/s1-sec 官方公告（页面日期 10-26）；约 2 万亿估值为 Yahoo Finance 预期，已标注；AIHOT 头条（标题已改写，侧重财务与算力义务）
+01 GPT-6.1 Terra：curl + trafilatura 核实 the-decoder.com 原文（10-26 20:30:55Z）；openai.com 发布页 curl 被拦（RSS 10-26 00:00Z 有条目）；AIHOT 模型栏（初稿标题撞 AIHOT/v 键，已改写）
+02 OpenAI 三项科学发现：curl + trafilatura 核实 theverge.com 原文（10-26 23:34:58Z）；openai.com RSS 条目 14:30Z；AIHOT 论文栏
+03 Anthropic S-1 安全事故（暂停预训练/四模型逃出沙箱）：curl 核实 IT之家 1/018/201（pubtime 10-27 07:28:31+08:00）
+04 630 亿美元博通芯片融资：curl 核实 IT之家 1/018/199（pubtime 10-27 07:20:26+08:00，援引路透社；路透原文未直接核实）
+05 Meta 950 亿美元增发：curl + trafilatura 核实 the-decoder.com 原文（10-26 14:21:23Z）；交叉 CNBC、IT之家 1/018/144；AIHOT 行业栏原文为 X 帖，改用媒体源
+06 Anthropic 燃气与气候风险：curl + trafilatura 核实 theverge.com 原文（10-26 21:45:31Z）
+07 高频交易公司 AI 算力竞赛：curl + trafilatura 核实 the-decoder.com 原文（10-26 09:49:33Z，援引彭博社）
+08 微软 6 万人自愿离职买断：curl + trafilatura 核实 cnbc.com 原文（10-26 15:52:10Z）；交叉 The Verge、IT之家 1/018/197
+09 SGLang / Cloudflare KV 缓存泄露：curl + trafilatura 核实 lmsys.org 原文（页面仅日期 October 26, 2026，published_at 取 10-26 08:00+08:00 近似）；AIHOT 技巧栏
+10 腾讯混元 Hy-SimulMT：curl 核实 IT之家 1/018/168（pubtime 10-26 22:09:04+08:00）
+11 清华/港中文 AKV：curl + trafilatura 核实 MarkTechPost 原文（10-26 07:56:45Z）
+12 软银马来西亚 500 亿美元：curl + trafilatura 核实 cnbc.com 原文（10-26 04:56:16Z，援引彭博社）
+13 AISI ReproBAIT：curl + trafilatura 核实 aisi.gov.uk 原文（页面仅日期 Oct 26 2026，published_at 取 10-26 16:00+08:00 近似）；AIHOT 论文栏（标题已改写避开 AIHOT 键）
+14 Epoch AI 自动化报告：curl + trafilatura 核实 epochai.substack.com 原文（10-26 16:33:24Z）；AIHOT 快讯
+15 AI 文本六种难读模式：curl + trafilatura 核实 the-decoder.com 原文（10-26 17:50:15Z）
+16 The RealReal 封堵 Muse 购物 Agent：curl + trafilatura 核实 theverge.com 原文（10-26 17:30:55Z）
+17 马斯克「200+ neocloud 孔雀鱼式死亡」：curl + trafilatura 核实 cnbc.com 原文（10-26 08:42:51Z）
+18 丰田 64 亿美元/年机器人：curl + trafilatura 核实 the-decoder.com 原文（10-26 09:18:15Z，援引 FT）
+19 AI Agent 冒充撰稿人投稿：curl + trafilatura 核实 wired.com 原文（10-26 09:30:00Z）
+
+跳过 / 未单独成卡：
+- 与今日 v.json 同题而撤下：Cohere 披露 Qwen3.8-Flash-Next 沙箱回连（cohere.com 原文已核实 10-26 10:14Z；v TestingCatalog 已收）、Nace AI Drex for Search（MarkTechPost 已核实；v TestingCatalog 已收）——改补 07 高频交易算力、12 软银马来西亚
+- 与今日 v.json 同题但保留（沿用 10-18..10-24 双页签并存先例，头条错开）：00 Anthropic IPO（v 小互条目；AI新闻取 Decoder/TechCrunch 财务与治理细节）、01 GPT-6.1 Terra（v Max、Tibo 条目；AI新闻取 Artificial Analysis 基准与定价细节）
+- 与 10-15..10-26 已收录同题：SpaceX 400 亿美元 GPU 融资（10-26 #08）、Grok《奥德赛》（10-26 #14）、r/opensource 禁 AI（10-26 #16）、Apollo「零回报」、Nanbeige4.3、Carbon-X、Verge COBOL 迁移专家质疑（10-20 已收 OpenAI COBOL 迁移同题）
+- AIHOT 条目原文为 X 帖未纳入：DOGE 研究员用 Agent 渗透 Anthropic（转引《华邮》，原文未核实）、Kling 4.0 Runware、Krea Premiere 插件、Unsloth MiniMax-M3.1-Flash GGUF；卡兹克逆向硬件（v 已收）
+- 名额或时效原因降为备选：Gamma 5（changelog 无明确发布日期）、browser-use 登录态 Chrome 指南（10-25 PST，超 36 小时窗口）、AISI ESM-2 数据过滤、Verge「S-1 五个怪细节」、Wired S-1 系列、Greptile/CodeRabbit/Fanatics 等 OpenAI 客户案例、苹果 27.2 系统更新、腾讯《逆水寒》AI NPC
+
+去重：
+- 对照 _prior_urls.json（427 个 URL）：本批 20 个 URL 无完全重复，批内 URL 唯一
+- 已与今日 v.json（大V视野流程已写入，18 条，头条为卡兹克「用 AI 逆向现实世界」长文）交叉：URL 无重复；同题处理见上；头条错开
+- AIHOT 日报 12 个标题键：已用 build.js 原函数 normalizeTitle/aihotTitleKeys/overlapsAihot 自检，20 条无命中（01、13 初稿命中，已改写标题）
+- 额外用同一函数对照 10-15..10-26 全部 ai/v 标题及今日 v.json 标题：复检 0 命中
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词：纳斯达克时代广场大屏（Anthropic IPO）/ 幽灵机械手操控窗口与半袋硬币（Terra 降价+电脑操作）/ 夜间讲堂黑板波纹与证明树（科学发现）/ 剪断网线却漏一根（沙箱逃逸）/ 保税仓与金库门的芯片托盘（博通融资）/ Meta 点赞牌与金币罐（增发）/ 得州草原燃气轮机与甲烷火焰（燃气风险）/ 交易席位间的 GPU 机柜（高频交易）/ 抱纸箱离开的雷德蒙德员工与数据中心钢架（微软买断）/ 信件错投邮格（KV 缓存泄露）/ 同传间悬浮耳机（Hy-SimulMT）/ 档案员抽卷压紧书架（AKV）/ 古晋河畔数据中心与长舟（软银）/ 生物安全实验室机械臂与论文（ReproBAIT）/ 编辑红笔批改杂乱图表（Epoch）/ 摇摇欲坠的木块长句（AI 文体）/ 小机器人围着购物车打转（RealReal）/ 孔雀鱼缸与红色行情屋（neocloud）/ 丰田产线人形机器人（丰田）/ 戴记者帽的小机器人等编辑（Agent 投稿）
+- 16:9，无文字数字，无统一刊头色带、无万能会议室/科技桌；file 名 cover-20261027-ai-00…19.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：curl + trafilatura（the-decoder.com、theverge.com、techcrunch.com、cnbc.com、wired.com、marktechpost.com、lmsys.org、aisi.gov.uk、epochai.substack.com、cohere.com）/ curl + pubtime_baidu（ithome.com）/ feedparser 解析 RSS 筛选 / X MCP 未使用
+AIHOT 线索：fetch-aihot-daily.js 成功（lead 为 Anthropic S-1 IPO，sections 12 条 + 快讯 5 条）；核实后改写标题纳入 00/01/02/05/09/13/14；Cohere/Drex 因与 v.json 同题撤下，X 帖类与 Gamma 未纳入，其余由公开源补齐
+published_at 说明：均取源站元数据/RSS 精确时间换算为 +08:00（09、13 源站仅有日期，取近似值）；时间范围 10-26 08:00 至 10-27 07:34（+08:00），均在 24 小时窗口内

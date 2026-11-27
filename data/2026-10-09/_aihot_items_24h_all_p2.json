@@ -1,0 +1,1168 @@
+{
+  "schemaVersion": 1,
+  "query": {
+    "mode": "all",
+    "category": null,
+    "window": "24h",
+    "q": null,
+    "by": "timeline",
+    "ordering": "timelineDesc"
+  },
+  "items": [
+    {
+      "id": "er9w16o4qdbw49vcgdyeopqsn",
+      "title": "xAI 调侃 AI 安全测试新方案",
+      "originalTitle": "Excited to announce that all super intelligence organizations have now jointly agreed to the ultimate in AI/SI safety:",
+      "summary": "很高兴宣布，所有超级智能组织现已共同同意 AI/SI 安全的终极方案：\n\n把所有测试都搬到 Delta Airlines 的航班上进行，在那里上网是绝对不可能的！",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/er9w16o4qdbw49vcgdyeopqsn",
+        "original": "https://x.com/elonmusk/status/2108321181602353333"
+      },
+      "publishedAt": "2026-10-08T22:18:35.000Z",
+      "discoveredAt": "2026-10-08T23:14:18.682Z",
+      "category": "tip",
+      "score": 25,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/er9w16o4qdbw49vcgdyeopqsn"
+      }
+    },
+    {
+      "id": "if2vp7fu6gtdq2offbk2o2585",
+      "title": "开源 Atomic Agent Desktop 应用登陆 macOS、Windows 和 Linux",
+      "originalTitle": "ATOMIC 🔥: A new open-source Atomic Agent Desktop app is now available for macOS, Windows, and Linux!",
+      "summary": "开源 Atomic Agent Desktop 应用现已在 macOS、Windows 和 Linux 上推出，可本地运行 Qwen、Gemma 等开放模型，免费且无需注册账号，仅在用户选择时才连接云端模型。",
+      "source": {
+        "name": "X：Testing Catalog (@testingcatalog)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/if2vp7fu6gtdq2offbk2o2585",
+        "original": "https://x.com/testingcatalog/status/2108327626523697464"
+      },
+      "publishedAt": "2026-10-08T22:44:11.000Z",
+      "discoveredAt": "2026-10-08T23:11:22.482Z",
+      "category": "ai-products",
+      "score": 60,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/if2vp7fu6gtdq2offbk2o2585"
+      }
+    },
+    {
+      "id": "pdrjostq5h1gdx9dmdlfmumvh",
+      "title": "Sundar Pichai 宣布 Google AMIE 对话诊断研究登上 The Lancet，为首个真实门诊前瞻性研究",
+      "originalTitle": "Today @TheLancet published our AMIE study with @BIDMC_Medicine, the first prospective study of patient-facing conversational diagnostics ...",
+      "summary": "Google 与 BIDMC 合作的 AMIE 研究发表于 The Lancet，是首个面向患者的对话式诊断在真实门诊的前瞻性研究。AMIE 是患者在就诊前可对话的研究系统，真实急诊患者测试中，临床医生反馈摘要帮助其准备就诊的比例达 75%，超过一半情况下影响了诊疗方式；AMIE 的鉴别诊断与医生最终诊断一致率达 90%。这也是 Google 首次在 The Lancet 主刊发表论文。",
+      "source": {
+        "name": "X：Sundar Pichai (@sundarpichai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/pdrjostq5h1gdx9dmdlfmumvh",
+        "original": "https://x.com/sundarpichai/status/2108329198955958339"
+      },
+      "publishedAt": "2026-10-08T22:50:26.000Z",
+      "discoveredAt": "2026-10-08T23:11:22.475Z",
+      "category": "paper",
+      "score": 64,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/pdrjostq5h1gdx9dmdlfmumvh"
+      }
+    },
+    {
+      "id": "ad3wo3an984o3at60qv4okkk2",
+      "title": "Google 1.5 亿美元支持白宫 Genesis Mission",
+      "originalTitle": "Excited to support the Genesis Mission @WhiteHouse @ENERGY and Director @mkratsios47 with $150M in investments this week. Looking forward...",
+      "summary": "很高兴本周以 1.5 亿美元投资支持 @WhiteHouse @ENERGY 以及主任 @mkratsios47 的 Genesis Mission。期待在科学未来上展开合作！",
+      "source": {
+        "name": "X：Demis Hassabis (@demishassabis)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ad3wo3an984o3at60qv4okkk2",
+        "original": "https://x.com/demishassabis/status/2108331042083872882"
+      },
+      "publishedAt": "2026-10-08T22:57:45.000Z",
+      "discoveredAt": "2026-10-08T23:11:19.507Z",
+      "category": "industry",
+      "score": 40,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ad3wo3an984o3at60qv4okkk2"
+      }
+    },
+    {
+      "id": "rpmk8gtn625na6shx08tnw7w5",
+      "title": "Vitalik Buterin 支持 crypto “bunker mode”，警告 AI 数学进展可能威胁钱包安全",
+      "originalTitle": "Vitalik Buterin backs crypto ‘bunker mode’ amid rapid AI math advances",
+      "summary": "Ethereum 研究员 Justin Drake 提出加密行业应准备“bunker mode”，认为 AI 进展可能在未来数月内破解用于保护钱包的椭圆曲线数字签名算法（ECDSA），Vitalik Buterin 对此表示支持。",
+      "source": {
+        "name": "Hacker News：AI 热帖"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/rpmk8gtn625na6shx08tnw7w5",
+        "original": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months"
+      },
+      "publishedAt": "2026-10-08T19:17:51.000Z",
+      "discoveredAt": "2026-10-08T22:54:18.488Z",
+      "category": "industry",
+      "score": 55,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/rpmk8gtn625na6shx08tnw7w5"
+      }
+    },
+    {
+      "id": "ow00cvqds3vg89iftskd2h52e",
+      "title": "Anthropic 推出面向开源项目的免费 AI 安全扫描服务 OSS Scanner",
+      "originalTitle": "Anthropic launches free AI security scans for open-source projects",
+      "summary": "Anthropic 推出 OSS Scanner，开源项目可选择加入，免费获得由其最强模型（包括 Claude Mythos）生成的定期安全扫描报告。报告完全由模型生成、无人工审核，可能更快更频繁地发现漏洞，但也可能存在错误或无效报告。报道还提到近月 AI 工具曾帮助发现重大开源安全漏洞，同时部分开源项目（包括 Linus Torvalds 和 Google）正难以应对 AI 生成漏洞报告的涌入。",
+      "source": {
+        "name": "The Verge：AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ow00cvqds3vg89iftskd2h52e",
+        "original": "https://www.theverge.com/ai-artificial-intelligence/1008521/anthropic-open-source-oss-scanner"
+      },
+      "publishedAt": "2026-10-08T21:53:51.000Z",
+      "discoveredAt": "2026-10-08T22:43:16.703Z",
+      "category": "ai-products",
+      "score": 57,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ow00cvqds3vg89iftskd2h52e"
+      }
+    },
+    {
+      "id": "fl3urlxzy6u1kx9r23kkjwb7j",
+      "title": "Google 医疗研究系统 AMIE 真实临床前瞻性研究结果发表于 The Lancet",
+      "originalTitle": "Our medical research system, AMIE, is the first patient-facing conversational diagnostic tool of its kind to be studied prospectively in ...",
+      "summary": "Google 宣布其医疗研究系统 AMIE 是首个在真实临床环境中接受前瞻性研究的面向患者的对话式诊断工具，研究结果于今日发表在 The Lancet 上。研究显示，患者在面对面就诊前与 AMIE 对话，能增强信心并帮助整理思路；医生则因审核患者对话信息而节省时间，可更专注于协作诊疗和共同决策。",
+      "source": {
+        "name": "X：Google (@Google)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/fl3urlxzy6u1kx9r23kkjwb7j",
+        "original": "https://x.com/Google/status/2108324514442461225"
+      },
+      "publishedAt": "2026-10-08T22:31:49.000Z",
+      "discoveredAt": "2026-10-08T22:40:19.700Z",
+      "category": "paper",
+      "score": 63,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/fl3urlxzy6u1kx9r23kkjwb7j"
+      }
+    },
+    {
+      "id": "dvqo6udaoc7305pobr1dotl34",
+      "title": "Google 研究：AI 助力医患关系",
+      "originalTitle": "Conducted in partnership with @BIDMC_Medicine, the study demonstrates technology’s potential to strengthen the relationship between docto...",
+      "summary": "该研究与 @BIDMC_Medicine 合作开展，展示了这项技术在加强医患关系方面的潜力。\n\n了解更多 ↓\nhttps://goo.gle/3VCGhMl",
+      "source": {
+        "name": "X：Google (@Google)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/dvqo6udaoc7305pobr1dotl34",
+        "original": "https://x.com/Google/status/2108324516317340075"
+      },
+      "publishedAt": "2026-10-08T22:31:50.000Z",
+      "discoveredAt": "2026-10-08T22:40:19.692Z",
+      "category": null,
+      "score": 29,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/dvqo6udaoc7305pobr1dotl34"
+      }
+    },
+    {
+      "id": "wvqoab0uw6om8dcfr8zfhozm9",
+      "title": "Claude Managed Agents 自动化搭建指南：定时读取 Slack 与 GitHub 并发布更新",
+      "originalTitle": "How to build automations with Claude Managed Agents: https://claude.dev/blog/building-effective-agent-automations/",
+      "summary": "一篇介绍如何用 Claude Managed Agents 搭建自动化的教程，示例为部署一个按计划读取 Slack 和 GitHub、具备凭证与记忆并发布更新的智能体。搭建可通过一条 Claude Code 命令完成，Max 和 Team 套餐中包含的 API credits 可用于该用途，原文链接 https://claude.dev/blog/building-effective-agent-automations/。",
+      "source": {
+        "name": "X：Claude Devs (@ClaudeDevs)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/wvqoab0uw6om8dcfr8zfhozm9",
+        "original": "https://x.com/ClaudeDevs/status/2108320296323477683"
+      },
+      "publishedAt": "2026-10-08T22:15:03.000Z",
+      "discoveredAt": "2026-10-08T22:36:18.599Z",
+      "category": "tip",
+      "score": 62,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/wvqoab0uw6om8dcfr8zfhozm9"
+      }
+    },
+    {
+      "id": "n0szqm1d0gn2if786ryw2au1f",
+      "title": "Artificial Analysis 评测 Grok Imagine Video 1.5 Lite：登 AA-Video-T2V v2.0 榜第 17 名并进入质量速度 Pareto 前沿",
+      "originalTitle": "Grok Imagine Video 1.5 Lite lands at #17 on both AA-Video-T2V v2.0 leaderboards and takes a position on the Pareto frontier for quality a...",
+      "summary": "Artificial Analysis 评测 SpaceXAI 新发布的低价视频模型 Grok Imagine Video 1.5 Lite，其在 AA-Video-T2V v2.0 和 AA-Video-T2V-Silent v2.0 两个榜单均排第 17 名，价格约为 Veo 3.1 的三分之一并排在 Veo 3.1 之前。",
+      "source": {
+        "name": "X：Artificial Analysis (@ArtificialAnlys)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/n0szqm1d0gn2if786ryw2au1f",
+        "original": "https://x.com/ArtificialAnlys/status/2108322397237764460"
+      },
+      "publishedAt": "2026-10-08T22:23:24.000Z",
+      "discoveredAt": "2026-10-08T22:35:18.572Z",
+      "category": "ai-models",
+      "score": 60,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/n0szqm1d0gn2if786ryw2au1f"
+      }
+    },
+    {
+      "id": "nbaur8f9pmbvuce4n703zn7o3",
+      "title": "Databricks Lakebase Postgres 借助 LTAP 架构实现分钟级 TB 级数据加载",
+      "originalTitle": "Load terabytes of data in minutes into Lakebase Postgres",
+      "summary": "Databricks 为 Lakebase Postgres 引入 LTAP 架构，将批量数据加载从主计算节点卸载到 Spark 分布式引擎，内部基准测试显示加载 1 TB 数据现在只需不到 5 分钟。",
+      "source": {
+        "name": "Databricks：Blog（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/nbaur8f9pmbvuce4n703zn7o3",
+        "original": "https://www.databricks.com/blog/load-terabytes-data-minutes-lakebase-postgres"
+      },
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "discoveredAt": "2026-10-08T22:28:20.866Z",
+      "category": "tip",
+      "score": 47,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/nbaur8f9pmbvuce4n703zn7o3"
+      }
+    },
+    {
+      "id": "lowdwezuclmrdls58e51ibmf3",
+      "title": "Databricks 介绍用 Lakebase 数据库分支为编码智能体构建隔离开发工作流",
+      "originalTitle": "Lakebase and Agentic SDLC: Branching Databases for Coding Agents",
+      "summary": "Databricks 博客介绍如何用 Lakebase Postgres 的数据库分支能力支持 Agentic SDLC。Lakebase 可在不到一秒内分支任意大小的数据库，采用 copy-on-write 共享父分支数据、支持 scale-to-zero。",
+      "source": {
+        "name": "Databricks：Blog（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/lowdwezuclmrdls58e51ibmf3",
+        "original": "https://www.databricks.com/blog/lakebase-and-agentic-sdlc-branching-databases-coding-agents"
+      },
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "discoveredAt": "2026-10-08T22:28:20.851Z",
+      "category": "tip",
+      "score": 51,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/lowdwezuclmrdls58e51ibmf3"
+      }
+    },
+    {
+      "id": "lffrwvqp6sr4mojtfkhfkx5d2",
+      "title": "Databricks 推出 Funke：原生 HL7v2 解析",
+      "originalTitle": "Introducing Funke: Native HL7v2 Parsing on Databricks",
+      "summary": "Databricks 发布 Funke，一个 Python 和 PySpark 库加可部署 pipeline，可将 HL7v2 消息直接解析为原生 Spark 类型并保留完整层级结构。它是 2021 年开源的 Scala 数据源 Smolder 的继任者，支持所有 HL7 消息类型和版本，通过 Declarative Pipeline 摄取并存储在 Unity Catalog 中。",
+      "source": {
+        "name": "Databricks：Blog（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/lffrwvqp6sr4mojtfkhfkx5d2",
+        "original": "https://www.databricks.com/blog/introducing-funke-native-hl7v2-parsing-databricks"
+      },
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "discoveredAt": "2026-10-08T22:28:20.815Z",
+      "category": "ai-products",
+      "score": 42,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/lffrwvqp6sr4mojtfkhfkx5d2"
+      }
+    },
+    {
+      "id": "ylkp4aqm4r5fn7aul2l9kfmxw",
+      "title": "Hugging Face 工程师用 ML Intern 以约 103 美元自制 7 个小模型",
+      "originalTitle": "The model that didn't exist, so you made it yourself",
+      "summary": "Hugging Face 工程师 yuvraj sharma 用 HuggingChat 的 ML Intern 模式在几天内做出 7 个模型，包括可在 CPU 运行、99.7% 有效输出的 0.8B 提示词重写器，以及将柑橘病害识别准确率从 14.9% 提升到 52.8% 的 Qwen3.5-2B 微调模型等，全部计算成本约 103 美元。",
+      "source": {
+        "name": "Hugging Face 官方团队博客"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ylkp4aqm4r5fn7aul2l9kfmxw",
+        "original": "https://huggingface.co/blog/building-with-ml-intern"
+      },
+      "publishedAt": "2026-10-08T00:00:00.751Z",
+      "discoveredAt": "2026-10-08T22:28:16.871Z",
+      "category": "tip",
+      "score": 72,
+      "selected": true,
+      "reason": "作者总结了预算控制、基线评测和冒烟测试等提示词写法，让 agent 自主完成数据构建、训练与发布，方法可直接迁移复用。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ylkp4aqm4r5fn7aul2l9kfmxw"
+      }
+    },
+    {
+      "id": "rtaqgztpwgmc0glfephfqo198",
+      "title": "Thariq 开源用 Claude API 每日生成首页的 Chrome 扩展 ai-newtab",
+      "originalTitle": "whoops I hit send and went to a meeting, didn't realize the repo wasnt public- it is now!",
+      "summary": "Thariq 更正此前失误，将自己在用的 Chrome 扩展仓库设为公开，地址为 https://github.com/ThariqS/ai-newtab。该扩展每天根据他浏览的网站生成 AI 首页，替换 Chrome 的新标签页；作者此前提到 MAX 计划用户每月可获得 100 或 200（与套餐匹配）的 Claude API 额度，可用于构建个人 AI 工具。",
+      "source": {
+        "name": "X：Thariq (@trq212)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/rtaqgztpwgmc0glfephfqo198",
+        "original": "https://x.com/trq212/status/2108312534222778407"
+      },
+      "publishedAt": "2026-10-08T21:44:13.000Z",
+      "discoveredAt": "2026-10-08T22:09:20.904Z",
+      "category": "tip",
+      "score": 59,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/rtaqgztpwgmc0glfephfqo198"
+      }
+    },
+    {
+      "id": "wmo6kha7l1roced8r6nk59l27",
+      "title": "Anthropic 的 Thariq 今日分享",
+      "originalTitle": "here's what I got today",
+      "summary": "这是我今天得到的",
+      "source": {
+        "name": "X：Thariq (@trq212)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/wmo6kha7l1roced8r6nk59l27",
+        "original": "https://x.com/trq212/status/2108312751202537946"
+      },
+      "publishedAt": "2026-10-08T21:45:05.000Z",
+      "discoveredAt": "2026-10-08T22:09:20.897Z",
+      "category": null,
+      "score": 8,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/wmo6kha7l1roced8r6nk59l27"
+      }
+    },
+    {
+      "id": "s1rozgumamvcu1tucmzovtwvt",
+      "title": "Grok Imagine API 上线 Video 1.5 Lite",
+      "originalTitle": "Automatically used by Grok @Bot",
+      "summary": "Grok @Bot 自动使用",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/s1rozgumamvcu1tucmzovtwvt",
+        "original": "https://x.com/elonmusk/status/2108294618597216470"
+      },
+      "publishedAt": "2026-10-08T20:33:01.000Z",
+      "discoveredAt": "2026-10-08T21:58:19.300Z",
+      "category": "ai-products",
+      "score": 42,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/s1rozgumamvcu1tucmzovtwvt"
+      }
+    },
+    {
+      "id": "qkuwlrwrjizoxobd452sfneo0",
+      "title": "Grok Bot 一键配置模拟掌机",
+      "originalTitle": "Give Grok @Bot your toughest problems",
+      "summary": "把最难搞的问题交给 Grok @Bot",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/qkuwlrwrjizoxobd452sfneo0",
+        "original": "https://x.com/elonmusk/status/2108294950492553464"
+      },
+      "publishedAt": "2026-10-08T20:34:21.000Z",
+      "discoveredAt": "2026-10-08T21:58:19.294Z",
+      "category": "tip",
+      "score": 34,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/qkuwlrwrjizoxobd452sfneo0"
+      }
+    },
+    {
+      "id": "foeggk6afhy2h4g56m63tuy5d",
+      "title": "Grok Bot 能力升级并接入 X",
+      "originalTitle": "And Grok @Bot only gets better from here 🚀 🚀",
+      "summary": "而 Grok @Bot 只会从这里变得更好 🚀 🚀\n\n你完全可以打造一家全部由 Grok Bot 组成的公司！",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/foeggk6afhy2h4g56m63tuy5d",
+        "original": "https://x.com/elonmusk/status/2108298090755031284"
+      },
+      "publishedAt": "2026-10-08T20:46:49.000Z",
+      "discoveredAt": "2026-10-08T21:58:19.287Z",
+      "category": "tip",
+      "score": 32,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/foeggk6afhy2h4g56m63tuy5d"
+      }
+    },
+    {
+      "id": "yaa1qousn010hnq77au5slzuk",
+      "title": "Midjourney 测试图像生成思考模式",
+      "originalTitle": "We're testing a new \"thinking mode\" for our image generation on our Alpha website (alpha dot midjourney dot com). We're finding it boosts...",
+      "summary": "我们正在 Alpha 网站（alpha dot midjourney dot com）上测试图像生成的新“思考模式”。我们发现它能提升提示词准确性、排版和连贯性。希望你们用自己的图片帮忙测试，并告诉我们感受。谢谢！<3",
+      "source": {
+        "name": "X：Midjourney (@midjourney)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/yaa1qousn010hnq77au5slzuk",
+        "original": "https://x.com/midjourney/status/2108307894886400511"
+      },
+      "publishedAt": "2026-10-08T21:25:47.000Z",
+      "discoveredAt": "2026-10-08T21:49:18.587Z",
+      "category": "ai-products",
+      "score": 44,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/yaa1qousn010hnq77au5slzuk"
+      }
+    },
+    {
+      "id": "i6hb4b42qt7hk5hiq7w8zhdno",
+      "title": "AI 模型评测平台 Arena 完成新一轮融资，估值达 31 亿美元",
+      "originalTitle": "Dive into the details covered by @business",
+      "summary": "AI 模型评测排行榜背后的公司 Arena 完成新一轮融资，估值达 31 亿美元。作者转发了 Bloomberg 的报道并邀请读者查看详细内容。",
+      "source": {
+        "name": "X：Arena (@arena)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/i6hb4b42qt7hk5hiq7w8zhdno",
+        "original": "https://x.com/arena/status/2108308878026998128"
+      },
+      "publishedAt": "2026-10-08T21:29:41.000Z",
+      "discoveredAt": "2026-10-08T21:49:18.582Z",
+      "category": "industry",
+      "score": 57,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/i6hb4b42qt7hk5hiq7w8zhdno"
+      }
+    },
+    {
+      "id": "y94nl320v1lf4vticqzofqqxl",
+      "title": "Arena 发布 Alignment Index 评估智能体对齐风险",
+      "originalTitle": "Our Alignment Index is here.",
+      "summary": "Arena 发布 Alignment Index，将评测平台扩展到对齐领域。该评估覆盖三类问题：模型擅自执行操作、欺骗性回复（声称完成实际未做的任务）和虚假归因（把人类没有的意图归于人）。完整技术报告见其博客，完整排名已公开可查。",
+      "source": {
+        "name": "X：Arena (@arena)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/y94nl320v1lf4vticqzofqqxl",
+        "original": "https://x.com/arena/status/2108309011531735304"
+      },
+      "publishedAt": "2026-10-08T21:30:13.000Z",
+      "discoveredAt": "2026-10-08T21:49:18.576Z",
+      "category": "ai-products",
+      "score": 52,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/y94nl320v1lf4vticqzofqqxl"
+      }
+    },
+    {
+      "id": "vh6ux7rh0nrxh99s4o7gacunu",
+      "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并推出 Arena AI Alignment Index",
+      "originalTitle": "Grateful to continue working with the team at @felicis!",
+      "summary": "Arena 宣布完成 2 亿美元 B 轮融资，估值 31 亿美元，并推出 Arena AI Alignment Index，用于衡量 AI 智能体在真实世界中的行为。该项目始于 UC Berkeley 的研究项目，Felicis 参与了种子轮并领投其 A 轮。公告详见 https://arena.ai/blog/series-b。",
+      "source": {
+        "name": "X：Arena (@arena)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/vh6ux7rh0nrxh99s4o7gacunu",
+        "original": "https://x.com/arena/status/2108310194619044253"
+      },
+      "publishedAt": "2026-10-08T21:34:55.000Z",
+      "discoveredAt": "2026-10-08T21:49:18.570Z",
+      "category": "industry",
+      "score": 62,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/vh6ux7rh0nrxh99s4o7gacunu"
+      }
+    },
+    {
+      "id": "iz5eb6na5hslkkre44qvq0sl7",
+      "title": "Arena 宣布获 Salesforce Ventures 领投的 B 轮融资",
+      "originalTitle": "Very excited to be working with the team at @SalesforceVC!",
+      "summary": "Salesforce Ventures 宣布投资 Arena 的 B 轮融资。Arena 让真实用户在文本、编码、视觉、图像生成和智能体任务上对比匿名模型输出并投票，实验室据此决定训练和发布哪些模型，开发者据此决定采购；其关键在于没有实验室掌控记分牌，保持中立性。",
+      "source": {
+        "name": "X：Arena (@arena)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/iz5eb6na5hslkkre44qvq0sl7",
+        "original": "https://x.com/arena/status/2108310336613019687"
+      },
+      "publishedAt": "2026-10-08T21:35:29.000Z",
+      "discoveredAt": "2026-10-08T21:49:18.565Z",
+      "category": "industry",
+      "score": 55,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/iz5eb6na5hslkkre44qvq0sl7"
+      }
+    },
+    {
+      "id": "o2c8xwxkzba346c97vbno9pkn",
+      "title": "Arena 团队扩至约90人正大规模招聘",
+      "originalTitle": "Come work with the best like @aryanvichare10",
+      "summary": "来和最优秀的人一起工作吧，比如 @aryanvichare10\n\n@aryanvichare10：Arena 的大日子！为让这一切成为可能的团队感到无比自豪 :)\n\n想想这个项目最初只是伯克利 Soda Hall 里的一间小房间，如今我们已有约 90 人，还在快速成长\n\n随着持续扩张，我们正在全面招聘——ML、产品/工程、设计、销售等等！私信我或在线申请（链接在 @arena 的主页简介里）",
+      "source": {
+        "name": "X：Arena (@arena)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/o2c8xwxkzba346c97vbno9pkn",
+        "original": "https://x.com/arena/status/2108310547209068750"
+      },
+      "publishedAt": "2026-10-08T21:36:19.000Z",
+      "discoveredAt": "2026-10-08T21:49:18.558Z",
+      "category": "industry",
+      "score": 19,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/o2c8xwxkzba346c97vbno9pkn"
+      }
+    },
+    {
+      "id": "rs34l7aa23mk54jutma8f7g3r",
+      "title": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元并发布 Alignment Index",
+      "originalTitle": "We’re incredibly proud to continue working with @thehousefund!",
+      "summary": "Arena 完成 2 亿美元 B 轮融资，估值 31 亿美元，由 Lightspeed 和 Khosla Ventures 联合领投，a16z、Felicis、Salesforce Ventures、The House Fund 等参投。自 A 轮以来，Arena 年化收入超 1 亿美元，平台累计 3.5 亿场次会话，约 5 个月内产生 700 万次 Agent Arena 会话，覆盖文本、视觉、代码、搜索、图像和视频的投票达 6200 万，用户遍布 150 多个国家。融资同时，Arena 发布基于真实智能体轨迹构建的 Alignment Index，对 20 多个前沿模型从 Unauthorized Action、False Attribution 和 Deceptive Completion 三个信号进行评估。Arena 于 2023 年作为 UC Berkeley 研究项目启动，2025 年成为公司。",
+      "source": {
+        "name": "X：Arena (@arena)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/rs34l7aa23mk54jutma8f7g3r",
+        "original": "https://x.com/arena/status/2108310714423423254"
+      },
+      "publishedAt": "2026-10-08T21:36:59.000Z",
+      "discoveredAt": "2026-10-08T21:49:18.549Z",
+      "category": "industry",
+      "score": 65,
+      "selected": true,
+      "reason": "原文披露 Arena 融资金额、估值和运营数据，并介绍基于真实智能体轨迹的 Alignment Index 三个信号。",
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/rs34l7aa23mk54jutma8f7g3r"
+      }
+    },
+    {
+      "id": "moo50irfs2n1seerqmwvsx3zg",
+      "title": "MIT 报告作者 Sasha Rakhlin 谈 AI 时代学术界的最佳前行路径",
+      "originalTitle": "3 Questions: What is the best path forward for AI in academia?",
+      "summary": "MIT 统计与数据科学中心主任 Sasha Rakhlin 撰文探讨 AI 如何改变学术界，重点聚焦研究生科研与培养。他指出，验证速度与可靠性决定学科被 AI 推进的快慢，数学领域已有模型达到国际数学奥林匹克金牌水平，并在一年后产出新研究结果。他建议院系重新界定学术贡献与评价标准，并建设共享 AI 科研基础设施，以保留实验室的隐性知识与失败经验。",
+      "source": {
+        "name": "MIT News（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/moo50irfs2n1seerqmwvsx3zg",
+        "original": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925"
+      },
+      "publishedAt": "2026-10-08T21:25:00.000Z",
+      "discoveredAt": "2026-10-08T21:48:17.784Z",
+      "category": "tip",
+      "score": 39,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/moo50irfs2n1seerqmwvsx3zg"
+      }
+    },
+    {
+      "id": "asm40uu12fgncweo197pxzzar",
+      "title": "NVIDIA Omniverse 如何用 GPT-6 Astra 等前沿 AI 智能体把想法变成仿真应用",
+      "originalTitle": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+      "summary": "NVIDIA 展示开发者如何用 GPT-6 Astra、Claude Fable 5 等前沿 AI 智能体配合 Omniverse 库构建仿真应用，覆盖人形机器人仓库控制、自动驾驶测试、数字孪生传感器校验等场景。其中 Robo Olympics 项目中 Unitree G1 人形机器人在 100 次仿真试验里有 64 次跨过单个栏架，另有智能体在约三天内从零创建两个数字孪生并改进两个已有孪生。",
+      "source": {
+        "name": "NVIDIA Blog（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/asm40uu12fgncweo197pxzzar",
+        "original": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/"
+      },
+      "publishedAt": "2026-10-08T21:06:35.000Z",
+      "discoveredAt": "2026-10-08T21:42:18.045Z",
+      "category": "tip",
+      "score": 34,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/asm40uu12fgncweo197pxzzar"
+      }
+    },
+    {
+      "id": "skhh5je2mhv0zw2ecu2losj4q",
+      "title": "Carson Gross：即便 AI 工具兴起，编程仍将是可行的职业",
+      "originalTitle": "Quoting Carson Gross",
+      "summary": "Carson Gross 认为编程本质是两件事：用计算机解决问题，以及在解决问题时控制复杂度。他表示难以想象未来掌握这两项能力会变得不再有价值，因此即便 AI 工具出现，编程仍将是可行的职业。",
+      "source": {
+        "name": "Simon Willison 博客"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/skhh5je2mhv0zw2ecu2losj4q",
+        "original": "https://simonwillison.net/2026/Oct/8/carson-gross/"
+      },
+      "publishedAt": "2026-10-08T21:05:44.000Z",
+      "discoveredAt": "2026-10-08T21:42:17.701Z",
+      "category": "tip",
+      "score": 32,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/skhh5je2mhv0zw2ecu2losj4q"
+      }
+    },
+    {
+      "id": "a2rs8e3rbw5v3lykq02k90yca",
+      "title": "Chollet：AI 进步呈指数，资本开支超指数",
+      "originalTitle": "Most measures of AI progress closely fit an exponential over the 2023-2026 period. Meanwhile AI capex over the same period has been sligh...",
+      "summary": "Francois Chollet 指出，2023-2026 年间多数 AI 进步指标接近指数增长，而同期 AI 资本开支略呈超指数增长，即增速本身还在加快。若把 AI 视为以外部投资为输入、以进步为输出的系统，其响应略呈次线性。但外部资源的超指数注入长期不可持续，要实现持续的指数级进步，AI 行业需要匹配的指数级利润来闭合资源循环。",
+      "source": {
+        "name": "X：Francois Chollet (@fchollet)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/a2rs8e3rbw5v3lykq02k90yca",
+        "original": "https://x.com/fchollet/status/2108310747080208781"
+      },
+      "publishedAt": "2026-10-08T21:37:07.000Z",
+      "discoveredAt": "2026-10-08T21:38:24.804Z",
+      "category": "tip",
+      "score": 49,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/a2rs8e3rbw5v3lykq02k90yca"
+      }
+    },
+    {
+      "id": "e1ow0fnwsq2qu7784eiw81p6j",
+      "title": "Grok Bot 磁盘空间不足可用 Disk Saver",
+      "originalTitle": "if your grok bot computer is running out of space, you will meet Disk Saver!",
+      "summary": "如果你的 grok bot 电脑空间快满了，你会遇到 Disk Saver！\n\n这个 bot 会通过提出清理方案帮你释放空间",
+      "source": {
+        "name": "X：Eric Zakariasson (@ericzakariasson)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/e1ow0fnwsq2qu7784eiw81p6j",
+        "original": "https://x.com/ericzakariasson/status/2108305253129216471"
+      },
+      "publishedAt": "2026-10-08T21:15:17.000Z",
+      "discoveredAt": "2026-10-08T21:38:24.796Z",
+      "category": "tip",
+      "score": 23,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/e1ow0fnwsq2qu7784eiw81p6j"
+      }
+    },
+    {
+      "id": "lvvlno7ulrv0q6ltizy1770ay",
+      "title": "Higgsfield 打造专属 AI 网红",
+      "originalTitle": "Create your own AI influencer on Higgsfield:",
+      "summary": "在 Higgsfield 上创建你自己的 AI 网红：\nhttps://higgsfield.ai/katana",
+      "source": {
+        "name": "X：Higgsfield AI (@higgsfield)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/lvvlno7ulrv0q6ltizy1770ay",
+        "original": "https://x.com/higgsfield/status/2108304669462483266"
+      },
+      "publishedAt": "2026-10-08T21:12:58.000Z",
+      "discoveredAt": "2026-10-08T21:38:20.831Z",
+      "category": "ai-products",
+      "score": 34,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/lvvlno7ulrv0q6ltizy1770ay"
+      }
+    },
+    {
+      "id": "q5mwduy6cwytucuajabu2of5l",
+      "title": "Midjourney Alpha 更新：上线共享文件夹与 8.2 Thinking Mode 重跑",
+      "originalTitle": "Alpha Changelog - 10/7/26",
+      "summary": "Midjourney 发布 alpha.midjourney.com 本周更新，推出共享文件夹，可按用户名邀请协作者或查看者，也支持链接共享，文件夹所有者可为所有人删除，图片仍留在各自创建者历史中；协作共享不改变图片隐私，非 stealth 图片仍可能出现在 Explore 和个人主页。",
+      "source": {
+        "name": "Midjourney：Updates（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/q5mwduy6cwytucuajabu2of5l",
+        "original": "https://updates.midjourney.com/alpha-changelog-10-7-26/"
+      },
+      "publishedAt": "2026-10-08T21:16:55.000Z",
+      "discoveredAt": "2026-10-08T21:34:17.362Z",
+      "category": "ai-products",
+      "score": 53,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/q5mwduy6cwytucuajabu2of5l"
+      }
+    },
+    {
+      "id": "ndvap43t863mf281m5n6ggqi3",
+      "title": "Midjourney 在 Alpha 网站测试图像生成 Thinking Mode",
+      "originalTitle": "Testing Thinking Mode",
+      "summary": "Midjourney 正在 alpha.midjourney.com 测试图像生成的 Thinking Mode，用户可在任务 lightbox 中点击 \"Rerun (Thinking)\" 运行。测试显示该模式有助于提升提示词准确性、文字排版和画面连贯性。Midjourney 表示未来可能将其作为通用的 thinking 模式，或用于在任务完成后\"增加更多思考\"。",
+      "source": {
+        "name": "Midjourney：Updates（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ndvap43t863mf281m5n6ggqi3",
+        "original": "https://updates.midjourney.com/testing-thinking-mode/"
+      },
+      "publishedAt": "2026-10-08T21:17:13.000Z",
+      "discoveredAt": "2026-10-08T21:34:17.354Z",
+      "category": "ai-products",
+      "score": 49,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ndvap43t863mf281m5n6ggqi3"
+      }
+    },
+    {
+      "id": "nmaerr668io49jneumrx7txpq",
+      "title": "Anthropic 启动网络安全使命",
+      "originalTitle": "We’re launching the Anthropic Cyber Mission, a new effort to secure critical infrastructure and open-source software.",
+      "summary": "我们正在启动 Anthropic Cyber Mission，一项旨在保护关键基础设施和开源软件的新行动。\n\nhttps://www.anthropic.com/news/anthropic-cyber-mission",
+      "source": {
+        "name": "X：Anthropic (@AnthropicAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/nmaerr668io49jneumrx7txpq",
+        "original": "https://x.com/AnthropicAI/status/2108302539498414208"
+      },
+      "publishedAt": "2026-10-08T21:04:30.000Z",
+      "discoveredAt": "2026-10-08T21:33:30.759Z",
+      "category": "industry",
+      "score": 44,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/nmaerr668io49jneumrx7txpq"
+      }
+    },
+    {
+      "id": "d7qds98ozkfxzfqffumqakz8d",
+      "title": "Anthropic 推出关键基础设施防御计划",
+      "originalTitle": "To help secure systems like power grids and water systems, we’re launching a new Critical Infrastructure Defense Program.",
+      "summary": "为帮助保护电网和水务系统等系统，我们正在启动一项新的关键基础设施防御计划。\n\n我们将把前沿 Claude 模型、驻场工程师以及我们最新的研究成果带给这些运营方的安全、制造和技术提供商。",
+      "source": {
+        "name": "X：Anthropic (@AnthropicAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/d7qds98ozkfxzfqffumqakz8d",
+        "original": "https://x.com/AnthropicAI/status/2108302541385499103"
+      },
+      "publishedAt": "2026-10-08T21:04:30.000Z",
+      "discoveredAt": "2026-10-08T21:33:30.696Z",
+      "category": "industry",
+      "score": 46,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/d7qds98ozkfxzfqffumqakz8d"
+      }
+    },
+    {
+      "id": "wwn1xqf8el4w8kuqtxkm63rb1",
+      "title": "Anthropic 推出 OSS Scanner 免费扫描开源项目漏洞",
+      "originalTitle": "To secure open-source software, we’re launching OSS Scanner.",
+      "summary": "Anthropic 推出 OSS Scanner，将用其前沿模型免费定期扫描已授权加入的开源项目的漏洞。报告会提供概念验证、漏洞解释和修复建议。",
+      "source": {
+        "name": "X：Anthropic (@AnthropicAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/wwn1xqf8el4w8kuqtxkm63rb1",
+        "original": "https://x.com/AnthropicAI/status/2108302543977906649"
+      },
+      "publishedAt": "2026-10-08T21:04:31.000Z",
+      "discoveredAt": "2026-10-08T21:33:30.655Z",
+      "category": "ai-products",
+      "score": 53,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/wwn1xqf8el4w8kuqtxkm63rb1"
+      }
+    },
+    {
+      "id": "u802a5h1jfzofvbkr7kodm54s",
+      "title": "Anthropic 网络任务持续推进",
+      "originalTitle": "This is part of our broader effort to make the systems we all rely upon more secure and resilient.",
+      "summary": "这是我们更广泛努力的一部分，旨在让我们所依赖的系统更加安全、更具韧性。\n\n这项工作需要时间：Anthropic Cyber Mission 将随着我们与公共和私营部门的合作伙伴一起探索有效方法而不断扩大和变化。",
+      "source": {
+        "name": "X：Anthropic (@AnthropicAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/u802a5h1jfzofvbkr7kodm54s",
+        "original": "https://x.com/AnthropicAI/status/2108302545953157156"
+      },
+      "publishedAt": "2026-10-08T21:04:31.000Z",
+      "discoveredAt": "2026-10-08T21:33:30.647Z",
+      "category": "industry",
+      "score": 25,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/u802a5h1jfzofvbkr7kodm54s"
+      }
+    },
+    {
+      "id": "vmc6js61j127ryvd32sq03tmr",
+      "title": "为什么我们把 Agent 基础设施交给 Anthropic 托管",
+      "originalTitle": "Why We Handed Our Agent’s Infrastructure to Anthropic",
+      "summary": "Every 工程团队将自建 Agent 集群迁移到 Anthropic 的 Claude Managed Agents，以专注打造住在公司 Slack 里的共享同事 Every Agent。团队放弃了自运维 Agent 集群，并接受了随之而来的取舍。",
+      "source": {
+        "name": "Every：最新文章（网页）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/vmc6js61j127ryvd32sq03tmr",
+        "original": "https://every.to/source-code/why-we-handed-our-agent-s-infrastructure-to-anthropic"
+      },
+      "publishedAt": "2026-10-07T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T21:28:19.279Z",
+      "category": "tip",
+      "score": 41,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/vmc6js61j127ryvd32sq03tmr"
+      }
+    },
+    {
+      "id": "tl7bexbmr22f1ghighecokbas",
+      "title": "生物医学影像的真正瓶颈是数据，不是模型",
+      "originalTitle": "Biomedical Imaging's Real Bottleneck Is the Data, Not the Model",
+      "summary": "Databricks 博客指出，生物医学影像 AI 的真正瓶颈在数据而非模型：截至 2024 年中，FDA 授权的约 950 款 AI/ML 医疗器械中约 723 款（约 76%）为放射学工具，但数据锁在 PACS 等系统中难以查询。EXAM 研究（Nature Medicine，2021）中 20 家机构以联邦学习共享模型权重，AUC 平均提升 16%、泛化性提升 38%。",
+      "source": {
+        "name": "Databricks：Blog（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/tl7bexbmr22f1ghighecokbas",
+        "original": "https://www.databricks.com/blog/biomedical-imagings-real-bottleneck-data-not-model"
+      },
+      "publishedAt": "2026-10-08T00:00:00.000Z",
+      "discoveredAt": "2026-10-08T21:27:20.861Z",
+      "category": "tip",
+      "score": 35,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/tl7bexbmr22f1ghighecokbas"
+      }
+    },
+    {
+      "id": "acxrsw7dng262r3uyuemyfejs",
+      "title": "Emad Mostaque 谈 OpenAI 算力成本",
+      "originalTitle": "Emad Mostaque (co-founder of Stability AI): OpenAI spent somewhere between $10 mn and $20 mn in compute for solving Navier-Stokes",
+      "summary": "Emad Mostaque（Stability AI 联合创始人）：OpenAI 在求解 Navier-Stokes 上花了大约 1000 万到 2000 万美元的算力\n\n价格会快速下降，达到国际数学奥林匹克金牌水平最初要花 8 万美元，“如今，用最新模型只需 10 美元就能做到。”\n\n----\n完整视频在“Tom Bilyeu”YouTube 频道，（链接见评论）",
+      "source": {
+        "name": "X：Rohan Paul (@rohanpaul_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/acxrsw7dng262r3uyuemyfejs",
+        "original": "https://x.com/rohanpaul_ai/status/2108299417497297382"
+      },
+      "publishedAt": "2026-10-08T20:52:06.000Z",
+      "discoveredAt": "2026-10-08T21:08:17.925Z",
+      "category": "tip",
+      "score": 36,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/acxrsw7dng262r3uyuemyfejs"
+      }
+    },
+    {
+      "id": "olu4zv34gb1y70al5eq6az6t5",
+      "title": "Claude Max 计划新增每月 $100 或 $200 API 额度，可用于构建个人 AI",
+      "originalTitle": "you now get Claude API credits with your MAX plans ($100, or 200 matching your plan) every month, use this to build more personal AI for ...",
+      "summary": "Anthropic 宣布 Claude Max 计划现在附带每月 Claude API 额度，金额为 $100 或与订阅档位匹配的 $200。作者 Thariq 展示了一个用途：基于自己阅读的网站每日生成 AI 主页，替换 Chrome 的新标签页。",
+      "source": {
+        "name": "X：Thariq (@trq212)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/olu4zv34gb1y70al5eq6az6t5",
+        "original": "https://x.com/trq212/status/2108301668828004396"
+      },
+      "publishedAt": "2026-10-08T21:01:02.000Z",
+      "discoveredAt": "2026-10-08T21:07:25.022Z",
+      "category": "industry",
+      "score": 57,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/olu4zv34gb1y70al5eq6az6t5"
+      }
+    },
+    {
+      "id": "ul9uf3xxa9fy8emclkof1bliu",
+      "title": "Claude Managed Agents 云端代码生成",
+      "originalTitle": "it's built on top of Claude Managed Agents, doing code generation in the cloud sandbo, using Sonnet 5.5 each run costs ~$0.75",
+      "summary": "它构建在 Claude Managed Agents 之上，在云端沙盒中进行代码生成，使用 Sonnet 5.5，每次运行成本约 $0.75\n\n你可以在这里自己试试：https://github.com/ThariqS/ai-newtab/",
+      "source": {
+        "name": "X：Thariq (@trq212)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ul9uf3xxa9fy8emclkof1bliu",
+        "original": "https://x.com/trq212/status/2108301670451163390"
+      },
+      "publishedAt": "2026-10-08T21:01:03.000Z",
+      "discoveredAt": "2026-10-08T21:07:24.990Z",
+      "category": "ai-products",
+      "score": 24,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ul9uf3xxa9fy8emclkof1bliu"
+      }
+    },
+    {
+      "id": "lr0w7s2n1blhvr1al7t6u1ia6",
+      "title": "Claude 订阅者 API 额度启用指南",
+      "originalTitle": "and read more about how to enable the API credits for yourself here: https://platform.claude.com/docs/en/about-claude/api-credits-for-sub...",
+      "summary": "在这里了解如何为自己启用 API credits：https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers",
+      "source": {
+        "name": "X：Thariq (@trq212)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/lr0w7s2n1blhvr1al7t6u1ia6",
+        "original": "https://x.com/trq212/status/2108301672409960922"
+      },
+      "publishedAt": "2026-10-08T21:01:03.000Z",
+      "discoveredAt": "2026-10-08T21:07:24.969Z",
+      "category": "ai-products",
+      "score": 22,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/lr0w7s2n1blhvr1al7t6u1ia6"
+      }
+    },
+    {
+      "id": "u515s8c9fs1g1aypmzrkv1odg",
+      "title": "Mercury Decide 上线 OpenRouter 零数据留存端点",
+      "originalTitle": "Mercury Decide from @_inception_ai is now available with zero data retention on OpenRouter",
+      "summary": "来自 @_inception_ai 的 Mercury Decide 现已在 OpenRouter 上线，支持零数据留存\n\n上周 OpenRouter 上增长最快的决策模型，现在除了免费端点外，还新增了付费 ZDR 端点\n\n$0.02/M 输入（为 $0.04 标价的 50% 折扣）。输出和缓存输入免费。66K 上下文\n\nhttp://openrouter.ai/inception/mercury-decide",
+      "source": {
+        "name": "X：OpenRouter (@OpenRouter)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/u515s8c9fs1g1aypmzrkv1odg",
+        "original": "https://x.com/OpenRouter/status/2108291696572379521"
+      },
+      "publishedAt": "2026-10-08T20:21:25.000Z",
+      "discoveredAt": "2026-10-08T20:50:16.533Z",
+      "category": "ai-products",
+      "score": 29,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/u515s8c9fs1g1aypmzrkv1odg"
+      }
+    },
+    {
+      "id": "e10qzatufph5i8wi7njq0pl9p",
+      "title": "Claude 推出 Dashboards 和 Motion 两项 beta 功能",
+      "originalTitle": "Zoom Zoom",
+      "summary": "Claude Dashboards 和 Claude Motion 当日开启 beta。用户可以让 Claude 把数据变成实时仪表盘，把想法变成动画讲解视频。",
+      "source": {
+        "name": "X：Noah Zweben（@noahzweben）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/e10qzatufph5i8wi7njq0pl9p",
+        "original": "https://x.com/noahzweben/status/2108291260440334382"
+      },
+      "publishedAt": "2026-10-08T20:19:41.000Z",
+      "discoveredAt": "2026-10-08T20:50:16.525Z",
+      "category": "ai-products",
+      "score": 61,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/e10qzatufph5i8wi7njq0pl9p"
+      }
+    },
+    {
+      "id": "ds9xevj7bhsznldxj1innmy8a",
+      "title": "Anthropic 推出 Claude Motion，Runway 作为发布合作方支持动画导出与后期",
+      "originalTitle": "October 8, 2026•Company News Runway is in Claude Motion",
+      "summary": "Anthropic 于 10 月 8 日推出 Claude Motion，可将提示词变成由文本、图表、图形和图像构成的短动画讲解视频，Claude 会编写动画代码，结果可在编辑器中调整、通过对话修改或下载为 MP4。",
+      "source": {
+        "name": "Runway：News（网页）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ds9xevj7bhsznldxj1innmy8a",
+        "original": "https://runwayml.com/news/company-news/runway-claude-motion"
+      },
+      "publishedAt": "2026-10-08T17:29:00.000Z",
+      "discoveredAt": "2026-10-08T20:48:19.130Z",
+      "category": "industry",
+      "score": 54,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ds9xevj7bhsznldxj1innmy8a"
+      }
+    },
+    {
+      "id": "l2y63969capzwzyxqolue2swu",
+      "title": "被解雇的 OpenAI 安全研究员发公开信否认不当行为指控，警告寒蝉效应",
+      "originalTitle": "Fired OpenAI safety researchers dispute misconduct claims, warn of chilling effect",
+      "summary": "被 OpenAI 解雇的三位安全研究员 Jasmine Wang、Tomek Korbak 和 Mikita Balesni 发表公开信，否认不当处理敏感信息的指控，并警告解雇事件会带来寒蝉效应。",
+      "source": {
+        "name": "TechCrunch：AI（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/l2y63969capzwzyxqolue2swu",
+        "original": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect/"
+      },
+      "publishedAt": "2026-10-08T20:04:26.000Z",
+      "discoveredAt": "2026-10-08T20:46:14.934Z",
+      "category": "industry",
+      "score": 75,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/l2y63969capzwzyxqolue2swu"
+      }
+    },
+    {
+      "id": "ushkvvlc3ee1h4vqot48u6g3w",
+      "title": "Johns Hopkins 天体物理学家用 Claude Science 制作首张完整紫外线全天图",
+      "originalTitle": "The missing map of the sky",
+      "summary": "Johns Hopkins 大学天体物理学家、Anthropic 研究员 Brice Ménard 与 Claude Science 合作制作首张完整紫外线全天图，结合远紫外 154 nm 与近紫外 232 nm 波段。",
+      "source": {
+        "name": "Anthropic：Research（发表成果 · 网页）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ushkvvlc3ee1h4vqot48u6g3w",
+        "original": "https://www.anthropic.com/research/the-missing-map-of-the-sky"
+      },
+      "publishedAt": "2026-10-07T16:00:00.000Z",
+      "discoveredAt": "2026-10-08T20:43:15.947Z",
+      "category": "paper",
+      "score": 52,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ushkvvlc3ee1h4vqot48u6g3w"
+      }
+    },
+    {
+      "id": "pmpr9gfk1h2wdzp5rkhrt1tx2",
+      "title": "Claude Code v2.1.295 发布：新增 hook 阻断、OSC 7501 状态协议与网关超时控制",
+      "originalTitle": "v2.1.295",
+      "summary": "Claude Code v2.1.295 为 command 和 HTTP hooks 新增 onFailure: \"block\"，hook 无法启动、超时或异常退出时将阻断操作而非放行。",
+      "source": {
+        "name": "Claude Code：GitHub Releases（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/pmpr9gfk1h2wdzp5rkhrt1tx2",
+        "original": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295"
+      },
+      "publishedAt": "2026-10-08T19:48:38.000Z",
+      "discoveredAt": "2026-10-08T20:43:15.443Z",
+      "category": "ai-products",
+      "score": 40,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/pmpr9gfk1h2wdzp5rkhrt1tx2"
+      }
+    }
+  ],
+  "page": {
+    "count": 50,
+    "hasMore": true,
+    "nextCursor": "it3.eyJhIjoxNzkxNDkyMTk1NDQzLCJpIjoicG1wcjlnZmsxaDJ3ZHpwNXJraHJ0MXR4MiIsImMiOiI2OTY2YzIwZTk4NTAifQ"
+  }
+}

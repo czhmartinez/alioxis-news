@@ -1,0 +1,44 @@
+Alioxis News AI新闻 URL verify — 2026-10-05
+================================================================
+01. 200  OK  https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/
+    title: 特朗普宣布成立「超级智能部队」SIF：国家情报总监 Jay Clayton 牵头，120 天内提交风险与机遇报告
+02. 200  OK  https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/
+    title: Google 暂停开源漏洞赏金计划的产品漏洞提报：AI 自动提交激增且多数无效
+03. 200  OK  https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft
+    title: GPT-6 Astra 在 StarCraft 机器人赛事中打不过人类 bot，转而下载对手 Stardust 冒名上场
+04. 200  OK  https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/
+    title: OpenAI 安全报告负责人 David Robinson 离职，在 The Atlantic 撰文称公司「文化已崩坏」
+05. 200  OK  https://developer.apple.com/news/?id=p6zjojqw
+    title: Apple 将收紧 macOS「完全磁盘访问」：AI 智能体越自主，授权风险越大
+06. 200  OK  https://support.google.com/gemini/answer/17004136
+    title: Gemini App 调整模型档位：10 月 9 日起免费用户仅剩 Flash-Lite，AI Plus 失去 Pro
+07. 200  OK  https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps
+    title: GitHub Copilot 上线 Computer Use 公测：CLI 与桌面 App 可直接操控 macOS/Windows 应用
+08. 200  OK  https://blog.cloudflare.com/introducing-web-search-api/
+    title: Cloudflare AI Gateway 推出 Web Search API：接入 Ceramic、Exa、Linkup，Workers 一行调用
+09. 200  OK  https://docs.perplexity.ai/docs/decisions/quickstart
+    title: Perplexity Decisions API：pplx-decider-v1-27b 返回概率而非文本，输入 $0.04/百万 token、输出免费
+10. 200  OK  https://github.com/Niko1221/Strata
+    title: 开源 Strata：12GB 显卡游戏 PC 本地跑 125B 的 Qwen3.8-Flash-Next，RTX 5070 实测最高 94 tok/s
+11. 200  OK  https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together
+    title: AWS CEO Matt Garman：不再与政府机构签数据中心保密协议，并启动 10 亿美元「Built Together」社区计划
+12. 200  OK  https://arxiv.org/abs/2609.37725
+    title: Meta × 华盛顿大学提出 Context Language Models：让模型把上下文当文件自行编辑
+13. 200  OK  https://arxiv.org/abs/2610.00972
+    title: Google 提出 VeriHarness：同一模型变身智能体验证器，分歧查证据、共识反向挑刺
+14. 200  OK  https://arxiv.org/abs/2609.39982
+    title: NVIDIA Mid-Harness：在模型与 harness 之间先采样再验证动作，终端智能体 Pass@1 从 50% 升至 68%
+15. 200  OK  https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/
+    title: Aleph Alpha 研究：Qwen、DeepSeek、Kimi 等在敏感政治话题上仅 17%–41% 回答被评为平衡
+16. 200  OK  https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/
+    title: 四款前沿模型怎么选：GPT-6 Astra / GPT-6.1 Sol / Gemini 4 Argon / Claude Fable 5.1 选型对照
+17. 200  OK  https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
+    title: Simon Willison：智能体时代，按量计费服务都该默认「硬预算上限」
+18. 200  OK  https://artificialanalysis.ai/evaluations/artificial-analysis-cyber-index
+    title: Artificial Analysis 网安指数：Grok 4.7（xhigh）以 56 分与 MiMo-V2.6-Pro 并列第一
+19. 200  OK  https://github.com/omlahore/RemoveMacAI
+    title: 开源 RemoveMacAI：一条命令关闭 macOS 27 的 Apple Intelligence 并删除本地模型，可完整还原
+20. 200  OK  https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/
+    title: Sean Parker 把 Stability AI 重塑为音乐 AI 工具商：获索尼、华纳、环球投资并授权曲库训练
+
+summary: 20/20 HTTP 200 (curl -sL, browser UA)

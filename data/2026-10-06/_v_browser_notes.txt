@@ -1,0 +1,7 @@
+Alioxis News 大V视野 browser scrape notes — 2026-10-06 Asia/Taipei
+Login fine (no wall). Home 正在关注 sweep timed out in automated view; collection via direct profile visits (browser only).
+Profiles: @Khazix0918 (no posts in 24h; latest 10/4 already used), @MaxForAI 5 seen / 4 kept (skipped "Seed水货" vague meme, "难绷，遍地酥神" meme),
+@xiaohu 1 seen / 0 kept (TikTok wall-ad quote, not AI), @thsottiaux 3 kept, @testingcatalog 4 kept (skipped paid ContextQA posts, subscriber-only Concierge),
+@zaobaosg 1 kept (Qualcomm×Huawei patents), @nanyuan0412 / @gengdaJ nothing in window, @Fukugyo_clinic promo skipped.
+testingcatalog/thsottiaux texts read via X auto-translation (originals English). published_at = relative time from ~08:15, hour-level estimate.
+Unique kept: 12. Breakdown: @MaxForAI 4 / @testingcatalog 4 / @thsottiaux 3 / @zaobaosg 1.

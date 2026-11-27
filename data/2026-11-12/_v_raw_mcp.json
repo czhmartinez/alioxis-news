@@ -1,0 +1,2012 @@
+{
+ "fetched_at_taipei": "2026-11-12 08:25 Asia/Taipei",
+ "start_time": "2026-11-10T16:00:00Z",
+ "method": "public X MCP (namespace x) get_users_posts exclude=replies; note: tool output truncates long payloads, TC re-fetched with fields created_at,text",
+ "accounts": {
+  "Khazix0918": {
+   "data": [
+    {
+     "article": {
+      "title": "Claude Fable 5.2证明了，AI可以靠代码吞噬一切。"
+     },
+     "created_at": "2026-11-11T04:03:33.000Z",
+     "edit_history_tweet_ids": [
+      "2120366797459476668"
+     ],
+     "id": "2120366797459476668",
+     "public_metrics": {
+      "bookmark_count": 262,
+      "impression_count": 67248,
+      "like_count": 476,
+      "quote_count": 25,
+      "reply_count": 84,
+      "retweet_count": 50
+     },
+     "text": "https://t.co/rbyD3Ijt4N",
+     "url": "https://x.com/i/status/2120366797459476668"
+    }
+   ],
+   "meta": {
+    "newest_id": "2120366797459476668",
+    "oldest_id": "2120366797459476668",
+    "result_count": 1
+   }
+  },
+  "MaxForAI": {
+   "data": [
+    {
+     "conversation_id": "2120589456529125614",
+     "created_at": "2026-11-11T18:48:19.000Z",
+     "edit_history_tweet_ids": [
+      "2120589456529125614"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/jukan05/status…",
+        "end": 55,
+        "expanded_url": "https://twitter.com/jukan05/status/2120483370488750336",
+        "start": 32,
+        "url": "https://t.co/RJhYlaZgBS"
+       }
+      ]
+     },
+     "id": "2120589456529125614",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 3223,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120483370488750336",
+       "type": "quoted"
+      }
+     ],
+     "text": "什么？？为了训练整个Claude5.5家族花了100亿美元？？ https://t.co/RJhYlaZgBS",
+     "url": "https://x.com/i/status/2120589456529125614"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120589106732539904"
+      ]
+     },
+     "conversation_id": "2120589201469272349",
+     "created_at": "2026-11-11T18:47:18.000Z",
+     "edit_history_tweet_ids": [
+      "2120589201469272349"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/xsAZtE6XxM",
+        "end": 53,
+        "expanded_url": "https://x.com/MaxForAI/status/2120589201469272349/video/1",
+        "media_key": "13_2120589106732539904",
+        "start": 30,
+        "url": "https://t.co/xsAZtE6XxM"
+       },
+       {
+        "display_url": "x.com/cmchelsimehta/…",
+        "end": 77,
+        "expanded_url": "https://twitter.com/cmchelsimehta/status/2120479069271884172",
+        "start": 54,
+        "url": "https://t.co/DPS79s4NTr"
+       }
+      ]
+     },
+     "id": "2120589201469272349",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1198,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120479069271884172",
+       "type": "quoted"
+      }
+     ],
+     "text": "神了，这居然是OpenAI设计负责人的个人主页，太好玩了🤣 https://t.co/xsAZtE6XxM https://t.co/DPS79s4NTr",
+     "url": "https://x.com/i/status/2120589201469272349"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120543333869301760"
+      ]
+     },
+     "conversation_id": "2120543479550083273",
+     "created_at": "2026-11-11T15:45:37.000Z",
+     "edit_history_tweet_ids": [
+      "2120543479550083273"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/zKh1oKPFcP",
+        "end": 73,
+        "expanded_url": "https://x.com/MaxForAI/status/2120543479550083273/photo/1",
+        "media_key": "3_2120543333869301760",
+        "start": 50,
+        "url": "https://t.co/zKh1oKPFcP"
+       }
+      ]
+     },
+     "id": "2120543479550083273",
+     "public_metrics": {
+      "bookmark_count": 11,
+      "impression_count": 17920,
+      "like_count": 79,
+      "quote_count": 2,
+      "reply_count": 10,
+      "retweet_count": 0
+     },
+     "text": "真服了，一回家就看到腾讯混元的哥们在群里聊大裁员😭\n\n腾讯只是第一个，接下来向我们走来的是.... https://t.co/zKh1oKPFcP",
+     "url": "https://x.com/i/status/2120543479550083273"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2120474060371136512"
+      ]
+     },
+     "conversation_id": "2120474100737130803",
+     "created_at": "2026-11-11T11:09:56.000Z",
+     "edit_history_tweet_ids": [
+      "2120474100737130803"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/64DJhMR2x6",
+        "end": 152,
+        "expanded_url": "https://x.com/MaxForAI/status/2120474100737130803/video/1",
+        "media_key": "13_2120474060371136512",
+        "start": 129,
+        "url": "https://t.co/64DJhMR2x6"
+       }
+      ]
+     },
+     "id": "2120474100737130803",
+     "note_tweet": {
+      "text": "woc，这个Seedream 5.5真的有点东西啊🤯\n\n字节昨天发的Seedream 5.5，可能是我用过的第一个能够比较稳定地连续改图的国产图片模型。\n\n因为昨天看到Seedream 5.5发布之后，到处都在说它的多轮编辑能力有多强。\n\n我其实还不太信。\n毕竟之前很多图片模型都说自己能改，结果改着改着，人脸变了😅背景也变了。\n最后连原图是什么样都认不出来了。\n\n然后我就寻思拿老黄这两天最火的这张照片试试。\n第一轮，先把老黄旁边女生的粉色裙子换成牛仔套装\n第二轮，把前面那个挡住镜头的女生直接移掉\n第三轮，把Sam请到左边，让他鼓掌欢迎老黄\n第四轮，再把Dario到请右边，让两个人一起夹道鼓掌\n第五轮，觉得都穿黑衣服气氛不对，那都换点喜庆的衣服吧（Prompt原话\n第六轮，那都穿这么喜庆了，背景也换个地方吧🤣\n\n结果你猜怎么着？\n连续改了六轮，老黄和其他人的脸、人物站位、整个餐厅的背景居然基本都保持住了（除了比例\n\n尤其是移除人物和往照片里加人。\n这两步以前特别容易把整张图改崩，这次居然都接住了😮\n当然仔细看还是有一些瑕疵，但这个稳定性确实超出我的预期。\n\n而且这个模型还有个很夸张的地方，就是价格💰\nSeedream5.5这次API定价降了不少⬇️\n按照官方公布的信息，编辑一张2K方图只要0.28元左右。\n比上一代Seedream 5.0 Pro便宜了大约 60%（文本Token还不收费）\n\n我一直觉得生图发展这么久到现在生成一张好看的图片其实已经不稀奇了。\n\n真正麻烦的是改图🙄\n特别是你想改一个地方，它偏偏把其他地方也改了…..\n\n尤其是电商、广告、设计这些需要不断调整细节的场景\n能不能稳定地修改同一张图\n其实比单次生成效果更重要\n\n现在Seedream 5.5至少让我看到了国产模型在这件事上的明显进步！\n\n能连续修改，还能尽量保持原图不变，这个能力对实际使用来说真的太重要了！！！\n\n而这个价格确实很有竞争力"
+     },
+     "public_metrics": {
+      "bookmark_count": 11,
+      "impression_count": 6590,
+      "like_count": 41,
+      "quote_count": 0,
+      "reply_count": 15,
+      "retweet_count": 0
+     },
+     "text": "woc，这个Seedream 5.5真的有点东西啊🤯\n\n字节昨天发的Seedream 5.5，可能是我用过的第一个能够比较稳定地连续改图的国产图片模型。\n\n因为昨天看到Seedream 5.5发布之后，到处都在说它的多轮编辑能力有多强。\n\n我其实还不太信。 https://t.co/64DJhMR2x6",
+     "url": "https://x.com/i/status/2120474100737130803"
+    },
+    {
+     "conversation_id": "2120409253794230640",
+     "created_at": "2026-11-11T06:57:59.000Z",
+     "edit_history_tweet_ids": [
+      "2120410695296840131"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 14,
+        "id": "938254316648800256",
+        "start": 0,
+        "username": "TencentGlobal"
+       }
+      ]
+     },
+     "id": "2120410695296840131",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1350,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120409253794230640",
+       "type": "replied_to"
+      }
+     ],
+     "text": "@TencentGlobal 虽然但是，可以举报这篇公众号诱导分享么🤣",
+     "url": "https://x.com/i/status/2120410695296840131"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120409163243368449"
+      ]
+     },
+     "conversation_id": "2120409253794230640",
+     "created_at": "2026-11-11T06:52:16.000Z",
+     "edit_history_tweet_ids": [
+      "2120409253794230640"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 25,
+        "id": "938254316648800256",
+        "start": 11,
+        "username": "TencentGlobal"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "pic.x.com/2gVzbz4cQp",
+        "end": 57,
+        "expanded_url": "https://x.com/MaxForAI/status/2120409253794230640/photo/1",
+        "media_key": "3_2120409163243368449",
+        "start": 34,
+        "url": "https://t.co/2gVzbz4cQp"
+       }
+      ]
+     },
+     "id": "2120409253794230640",
+     "public_metrics": {
+      "bookmark_count": 4,
+      "impression_count": 8033,
+      "like_count": 42,
+      "quote_count": 0,
+      "reply_count": 10,
+      "retweet_count": 0
+     },
+     "text": "草，我服了，怎么腾讯 @TencentGlobal 官方会玩这个梗 https://t.co/2gVzbz4cQp",
+     "url": "https://x.com/i/status/2120409253794230640"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "conversation_id": "2120483370488750336",
+      "created_at": "2026-11-11T11:46:46.000Z",
+      "edit_history_tweet_ids": [
+       "2120483370488750336"
+      ],
+      "id": "2120483370488750336",
+      "note_tweet": {
+       "text": "Interesting remarks Anthropic made in a meeting with the sell side:\n\n- Anthropic has the stability and the better talent that open source lacks.\n\n- The AI market is winner take all. As long as we execute properly, we will take all of it.\n\n- The contract with SpaceX will not be extended beyond the middle of next year.\n\n- Developing Opus 5.5 cost more than $10 billion."
+      },
+      "public_metrics": {
+       "bookmark_count": 784,
+       "impression_count": 745358,
+       "like_count": 2686,
+       "quote_count": 141,
+       "reply_count": 213,
+       "retweet_count": 174
+      },
+      "text": "Interesting remarks Anthropic made in a meeting with the sell side:\n\n- Anthropic has the stability and the better talent that open source lacks.\n\n- The AI market is winner take all. As long as we execute properly, we will take all of it.\n\n- The contract with SpaceX will not be"
+     },
+     {
+      "conversation_id": "2120479069271884172",
+      "created_at": "2026-11-11T11:29:41.000Z",
+      "edit_history_tweet_ids": [
+       "2120479069271884172"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "description": "Ian Silber currently leads design at OpenAI.",
+         "display_url": "iansilber.com",
+         "end": 61,
+         "expanded_url": "https://iansilber.com/",
+         "images": [
+          {
+           "height": 630,
+           "url": "https://pbs.twimg.com/news_img/2120479073956986880/KAaR7hH0?format=png&name=orig",
+           "width": 1200
+          },
+          {
+           "height": 150,
+           "url": "https://pbs.twimg.com/news_img/2120479073956986880/KAaR7hH0?format=png&name=150x150",
+           "width": 150
+          }
+         ],
+         "start": 38,
+         "status": 200,
+         "title": "Ian Silber",
+         "unwound_url": "https://iansilber.com/",
+         "url": "https://t.co/buazPLSMRa"
+        }
+       ]
+      },
+      "id": "2120479069271884172",
+      "public_metrics": {
+       "bookmark_count": 7052,
+       "impression_count": 3391380,
+       "like_count": 8590,
+       "quote_count": 295,
+       "reply_count": 385,
+       "retweet_count": 393
+      },
+      "text": "openai's head of design's website omg https://t.co/buazPLSMRa 😭"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2120409163243368449"
+       ]
+      },
+      "conversation_id": "2120409253794230640",
+      "created_at": "2026-11-11T06:52:16.000Z",
+      "edit_history_tweet_ids": [
+       "2120409253794230640"
+      ],
+      "entities": {
+       "mentions": [
+        {
+         "end": 25,
+         "id": "938254316648800256",
+         "start": 11,
+         "username": "TencentGlobal"
+        }
+       ],
+       "urls": [
+        {
+         "display_url": "pic.x.com/2gVzbz4cQp",
+         "end": 57,
+         "expanded_url": "https://x.com/MaxForAI/status/2120409253794230640/photo/1",
+         "media_key": "3_2120409163243368449",
+         "start": 34,
+         "url": "https://t.co/2gVzbz4cQp"
+        }
+       ]
+      },
+      "id": "2120409253794230640",
+      "public_metrics": {
+       "bookmark_count": 4,
+       "impression_count": 8033,
+       "like_count": 42,
+       "quote_count": 0,
+       "reply_count": 10,
+       "retweet_count": 0
+      },
+      "text": "草，我服了，怎么腾讯 @TencentGlobal 官方会玩这个梗 https://t.co/2gVzbz4cQp"
+     }
+    ]
+   },
+   "meta": {
+    "newest_id": "2120589456529125614",
+    "oldest_id": "2120409253794230640",
+    "result_count": 6
+   }
+  },
+  "xiaohu": {
+   "data": [
+    {
+     "created_at": "2026-11-11T23:32:04.000Z",
+     "edit_history_tweet_ids": [
+      "2120660864118534639"
+     ],
+     "id": "2120660864118534639",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1142,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120660617908674726",
+       "type": "replied_to"
+      }
+     ],
+     "text": "鲍威尔于 2008 年加入英伟达。负责监督将英伟达芯片技术应用于高等教育和医疗保健，特别是医学成像设备的项目。 https://t.co/Sm0ufWb0yt",
+     "url": "https://x.com/i/status/2120660864118534639"
+    },
+    {
+     "created_at": "2026-11-11T23:31:05.000Z",
+     "edit_history_tweet_ids": [
+      "2120659519231672500",
+      "2120660617908674726"
+     ],
+     "id": "2120660617908674726",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 3275,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 0
+     },
+     "text": "消息称：英伟达董事会准备罢免CEO黄仁勋\n\n英伟达股价急速跳水\n\n暴跌8%😬\n\n起因是：黄仁勋第二段婚外情被曝光\n\n据纽约时报，除黄乐之外，黄仁勋还与一名向他汇报工作的高管、英伟达医疗保健副总裁（Kimberly Powell）维持婚外情关系… https://t.co/Wbqym8qGkR",
+     "url": "https://x.com/i/status/2120660617908674726"
+    },
+    {
+     "created_at": "2026-11-11T12:53:24.000Z",
+     "edit_history_tweet_ids": [
+      "2120500137483211162"
+     ],
+     "id": "2120500137483211162",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1237,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120500133884555362",
+       "type": "replied_to"
+      }
+     ],
+     "text": "在今天的百度世界2026大会上公布了技术报告和模型下载\n\nRSI相关blog：https://t.co/KplMp3LABp\n\n技术Blog：https://t.co/XNNWxvcweM\n\n模型下载：https://t.co/7dGwKabVpD https://t.co/iOFGxkq5kn",
+     "url": "https://x.com/i/status/2120500137483211162"
+    },
+    {
+     "created_at": "2026-11-11T12:53:23.000Z",
+     "edit_history_tweet_ids": [
+      "2120500133884555362"
+     ],
+     "id": "2120500133884555362",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1333,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120500131049205885",
+       "type": "replied_to"
+      }
+     ],
+     "text": "百度称，这是第一次用RSI技术给参与文心推理优化，工程师划好能改的范围，AI 自己找哪里慢、改代码、跑测试\n\n改完跑得更快，结果也对得上，才留下改动\n\n 看来RSI（递归自我改进）确实是下一个热门前沿方向...\n\n在昆仑芯 P800 的一项低延迟测试里，出字速度达到改之前的 6.24 倍\n\n另一项 GPU https://t.co/cc37Fskclz",
+     "url": "https://x.com/i/status/2120500133884555362"
+    },
+    {
+     "created_at": "2026-11-11T12:53:22.000Z",
+     "edit_history_tweet_ids": [
+      "2120500131049205885"
+     ],
+     "id": "2120500131049205885",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 214,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120500127718883706",
+       "type": "replied_to"
+      }
+     ],
+     "text": "ECHO 是百度设计的一种多 token 预测方法\n\n复用模型最后一层预测后续 token，一次验证通过就能输出多个\n\n什么意思，训练时，百度让模型用自己的最后一层练习预测接下来的几个字词，生成答案时，这一层就能先打个草稿，再由完整模型一次核对\n\n连续猜对几个，就能一轮输出几个，出字也就更快了 https://t.co/uoUcu34rFD",
+     "url": "https://x.com/i/status/2120500131049205885"
+    },
+    {
+     "created_at": "2026-11-11T12:53:22.000Z",
+     "edit_history_tweet_ids": [
+      "2120500127718883706"
+     ],
+     "id": "2120500127718883706",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 233,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120500125244293566",
+       "type": "replied_to"
+      }
+     ],
+     "text": "技术创新： ERNIE 5.5 Flash Preview 是一个多路由 MoE模型。\n\n2800 亿参数，每个 token 只激活 140 亿，多个路由器一起选专家，同样的激活数量，选得更准\n\n采用混合稀疏注意力，多数层读压缩后的历史，少数层查细节，长上下文更省显存 https://t.co/mT09vTHE17",
+     "url": "https://x.com/i/status/2120500127718883706"
+    },
+    {
+     "created_at": "2026-11-11T12:53:21.000Z",
+     "edit_history_tweet_ids": [
+      "2120500125244293566"
+     ],
+     "id": "2120500125244293566",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 277,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120500122660594070",
+       "type": "replied_to"
+      }
+     ],
+     "text": "使用 Blender 制作机场与飞机模型\n\n两个基于 ERNIE 5.5 Flash Preview 的智能体使用 Blender Python API，分别负责机场和飞机建模\n\n一个查地图，在 Blender 里搭航站楼和跑道。另一个做机身和机翼，再装上现成的驾驶舱、客舱素材\n\n随后，模型统一两个工程的尺度、位置与镜头，编排动画展示，并使用 https://t.co/XNCHUNxcfW",
+     "url": "https://x.com/i/status/2120500125244293566"
+    },
+    {
+     "created_at": "2026-11-11T12:53:20.000Z",
+     "edit_history_tweet_ids": [
+      "2120500122660594070"
+     ],
+     "id": "2120500122660594070",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 698,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120500119812608198",
+       "type": "replied_to"
+      }
+     ],
+     "text": "《鹈鹕测试》用 Python 做的 117 秒短片，复刻之前网友制作的动画\n\n纯靠 Python 敲出上万行矢量绘图代码，逐帧绘制出一只鹈鹕从史前岩画一路穿越到现代科技的动画短片\n\n甚至能根据背景音乐的鼓点节拍，自主写剪辑脚本让画面精确“卡点”... https://t.co/gnjjoj8QPn",
+     "url": "https://x.com/i/status/2120500122660594070"
+    },
+    {
+     "created_at": "2026-11-11T12:53:20.000Z",
+     "edit_history_tweet_ids": [
+      "2120500119812608198"
+     ],
+     "id": "2120500119812608198",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1030,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120500117342175364",
+       "type": "replied_to"
+      }
+     ],
+     "text": "百度称光编程训练就用了 1400 多万个可执行代码任务\n\n评测结果：终端任务的 Terminal-Bench 4.0 是 46.5，测代码修复的 DeepSWE v1.1 评分是 71.2，纯文本版BlenderWorld 是 79.0... https://t.co/417O2RjUNY",
+     "url": "https://x.com/i/status/2120500119812608198"
+    },
+    {
+     "created_at": "2026-11-11T12:53:19.000Z",
+     "edit_history_tweet_ids": [
+      "2120500117342175364"
+     ],
+     "id": "2120500117342175364",
+     "public_metrics": {
+      "bookmark_count": 10,
+      "impression_count": 7769,
+      "like_count": 16,
+      "quote_count": 1,
+      "reply_count": 20,
+      "retweet_count": 0
+     },
+     "text": "百度今天发布了全新的文心5.5 Flash Preview 开源模型\n\n重点升级了编程和 Agent能力\n在编程、3D 建模上大幅提升\n\n可以用代码排镜头、卡音乐，调用渲染工具输出成片，也能用 Blender 做可编辑的3D 建模\n\nERNIE 5.5 Flash Preview 基于虚幻引擎 5.8 制作一款第三人称武侠游戏《云岫行》\n\n它连续狂写 11 https://t.co/plB5jQc7R1",
+     "url": "https://x.com/i/status/2120500117342175364"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "created_at": "2026-11-11T23:31:05.000Z",
+      "edit_history_tweet_ids": [
+       "2120659519231672500",
+       "2120660617908674726"
+      ],
+      "id": "2120660617908674726",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 3275,
+       "like_count": 2,
+       "quote_count": 0,
+       "reply_count": 5,
+       "retweet_count": 0
+      },
+      "text": "消息称：英伟达董事会准备罢免CEO黄仁勋\n\n英伟达股价急速跳水\n\n暴跌8%😬\n\n起因是：黄仁勋第二段婚外情被曝光\n\n据纽约时报，除黄乐之外，黄仁勋还与一名向他汇报工作的高管、英伟达医疗保健副总裁（Kimberly Powell）维持婚外情关系… https://t.co/Wbqym8qGkR"
+     },
+     {
+      "created_at": "2026-11-11T12:53:23.000Z",
+      "edit_history_tweet_ids": [
+       "2120500133884555362"
+      ],
+      "id": "2120500133884555362",
+      "in_reply_to_user_id": "1764818331822182400",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 1333,
+       "like_count": 0,
+       "quote_count": 0,
+       "reply_count": 2,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120500131049205885",
+        "type": "replied_to"
+       }
+      ],
+      "text": "百度称，这是第一次用RSI技术给参与文心推理优化，工程师划好能改的范围，AI 自己找哪里慢、改代码、跑测试\n\n改完跑得更快，结果也对得上，才留下改动\n\n 看来RSI（递归自我改进）确实是下一个热门前沿方向...\n\n在昆仑芯 P800 的一项低延迟测试里，出字速度达到改之前的 6.24 倍\n\n另一项 GPU https://t.co/cc37Fskclz"
+     },
+     {
+      "created_at": "2026-11-11T12:53:22.000Z",
+      "edit_history_tweet_ids": [
+       "2120500131049205885"
+      ],
+      "id": "2120500131049205885",
+      "in_reply_to_user_id": "1764818331822182400",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 214,
+       "like_count": 0,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120500127718883706",
+        "type": "replied_to"
+       }
+      ],
+      "text": "ECHO 是百度设计的一种多 token 预测方法\n\n复用模型最后一层预测后续 token，一次验证通过就能输出多个\n\n什么意思，训练时，百度让模型用自己的最后一层练习预测接下来的几个字词，生成答案时，这一层就能先打个草稿，再由完整模型一次核对\n\n连续猜对几个，就能一轮输出几个，出字也就更快了 https://t.co/uoUcu34rFD"
+     },
+     {
+      "created_at": "2026-11-11T12:53:22.000Z",
+      "edit_history_tweet_ids": [
+       "2120500127718883706"
+      ],
+      "id": "2120500127718883706",
+      "in_reply_to_user_id": "1764818331822182400",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 233,
+       "like_count": 0,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120500125244293566",
+        "type": "replied_to"
+       }
+      ],
+      "text": "技术创新： ERNIE 5.5 Flash Preview 是一个多路由 MoE模型。\n\n2800 亿参数，每个 token 只激活 140 亿，多个路由器一起选专家，同样的激活数量，选得更准\n\n采用混合稀疏注意力，多数层读压缩后的历史，少数层查细节，长上下文更省显存 https://t.co/mT09vTHE17"
+     },
+     {
+      "created_at": "2026-11-11T12:53:21.000Z",
+      "edit_history_tweet_ids": [
+       "2120500125244293566"
+      ],
+      "id": "2120500125244293566",
+      "in_reply_to_user_id": "1764818331822182400",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 277,
+       "like_count": 0,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120500122660594070",
+        "type": "replied_to"
+       }
+      ],
+      "text": "使用 Blender 制作机场与飞机模型\n\n两个基于 ERNIE 5.5 Flash Preview 的智能体使用 Blender Python API，分别负责机场和飞机建模\n\n一个查地图，在 Blender 里搭航站楼和跑道。另一个做机身和机翼，再装上现成的驾驶舱、客舱素材\n\n随后，模型统一两个工程的尺度、位置与镜头，编排动画展示，并使用 https://t.co/XNCHUNxcfW"
+     },
+     {
+      "created_at": "2026-11-11T12:53:20.000Z",
+      "edit_history_tweet_ids": [
+       "2120500122660594070"
+      ],
+      "id": "2120500122660594070",
+      "in_reply_to_user_id": "1764818331822182400",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 698,
+       "like_count": 2,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120500119812608198",
+        "type": "replied_to"
+       }
+      ],
+      "text": "《鹈鹕测试》用 Python 做的 117 秒短片，复刻之前网友制作的动画\n\n纯靠 Python 敲出上万行矢量绘图代码，逐帧绘制出一只鹈鹕从史前岩画一路穿越到现代科技的动画短片\n\n甚至能根据背景音乐的鼓点节拍，自主写剪辑脚本让画面精确“卡点”... https://t.co/gnjjoj8QPn"
+     },
+     {
+      "created_at": "2026-11-11T12:53:20.000Z",
+      "edit_history_tweet_ids": [
+       "2120500119812608198"
+      ],
+      "id": "2120500119812608198",
+      "in_reply_to_user_id": "1764818331822182400",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 1030,
+       "like_count": 0,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120500117342175364",
+        "type": "replied_to"
+       }
+      ],
+      "text": "百度称光编程训练就用了 1400 多万个可执行代码任务\n\n评测结果：终端任务的 Terminal-Bench 4.0 是 46.5，测代码修复的 DeepSWE v1.1 评分是 71.2，纯文本版BlenderWorld 是 79.0... https://t.co/417O2RjUNY"
+     },
+     {
+      "created_at": "2026-11-11T12:53:19.000Z",
+      "edit_history_tweet_ids": [
+       "2120500117342175364"
+      ],
+      "id": "2120500117342175364",
+      "public_metrics": {
+       "bookmark_count": 10,
+       "impression_count": 7769,
+       "like_count": 16,
+       "quote_count": 1,
+       "reply_count": 20,
+       "retweet_count": 0
+      },
+      "text": "百度今天发布了全新的文心5.5 Flash Preview 开源模型\n\n重点升级了编程和 Agent能力\n在编程、3D 建模上大幅提升\n\n可以用代码排镜头、卡音乐，调用渲染工具输出成片，也能用 Blender 做可编辑的3D 建模\n\nERNIE 5.5 Flash Preview 基于虚幻引擎 5.8 制作一款第三人称武侠游戏《云岫行》\n\n它连续狂写 11 https://t.co/plB5jQc7R1"
+     }
+    ]
+   },
+   "meta": {
+    "newest_id": "2120660864118534639",
+    "oldest_id": "2120500117342175364",
+    "result_count": 10
+   }
+  },
+  "thsottiaux": {
+   "data": [
+    {
+     "conversation_id": "2120410006273380750",
+     "created_at": "2026-11-11T06:57:08.000Z",
+     "edit_history_tweet_ids": [
+      "2120410480204525936"
+     ],
+     "id": "2120410480204525936",
+     "public_metrics": {
+      "bookmark_count": 224,
+      "impression_count": 886841,
+      "like_count": 10000,
+      "quote_count": 393,
+      "reply_count": 1007,
+      "retweet_count": 274
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120410006273380750",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Thursday is feeling codexy to me. Perhaps also a good time for a banked reset.",
+     "url": "https://x.com/i/status/2120410480204525936"
+    },
+    {
+     "conversation_id": "2120410006273380750",
+     "created_at": "2026-11-11T06:55:15.000Z",
+     "edit_history_tweet_ids": [
+      "2120410006273380750"
+     ],
+     "id": "2120410006273380750",
+     "public_metrics": {
+      "bookmark_count": 392,
+      "impression_count": 1400292,
+      "like_count": 15847,
+      "quote_count": 549,
+      "reply_count": 2427,
+      "retweet_count": 360
+     },
+     "text": "It’s been a while without resets. Maybe I should come back out of the basement",
+     "url": "https://x.com/i/status/2120410006273380750"
+    },
+    {
+     "conversation_id": "2120267268517249036",
+     "created_at": "2026-11-10T21:28:04.000Z",
+     "edit_history_tweet_ids": [
+      "2120267268517249036"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/OpenAI/status/…",
+        "end": 62,
+        "expanded_url": "https://twitter.com/OpenAI/status/2120216592395174382",
+        "start": 39,
+        "url": "https://t.co/PduzGjgtLd"
+       }
+      ]
+     },
+     "id": "2120267268517249036",
+     "public_metrics": {
+      "bookmark_count": 948,
+      "impression_count": 689948,
+      "like_count": 4125,
+      "quote_count": 31,
+      "reply_count": 984,
+      "retweet_count": 92
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120216592395174382",
+       "type": "quoted"
+      }
+     ],
+     "text": "How many of you have a small business? https://t.co/PduzGjgtLd",
+     "url": "https://x.com/i/status/2120267268517249036"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120266869978607616"
+      ]
+     },
+     "conversation_id": "2120266880963473789",
+     "created_at": "2026-11-10T21:26:31.000Z",
+     "edit_history_tweet_ids": [
+      "2120266880963473789"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/WnRpl5WpUw",
+        "end": 52,
+        "expanded_url": "https://x.com/thsottiaux/status/2120266880963473789/photo/1",
+        "media_key": "3_2120266869978607616",
+        "start": 29,
+        "url": "https://t.co/WnRpl5WpUw"
+       },
+       {
+        "display_url": "x.com/claudeai/statu…",
+        "end": 76,
+        "expanded_url": "https://twitter.com/claudeai/status/2120206375137484875",
+        "start": 53,
+        "url": "https://t.co/vJ5ETVAcHr"
+       }
+      ]
+     },
+     "id": "2120266880963473789",
+     "public_metrics": {
+      "bookmark_count": 1014,
+      "impression_count": 966038,
+      "like_count": 5366,
+      "quote_count": 99,
+      "reply_count": 473,
+      "retweet_count": 147
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120206375137484875",
+       "type": "quoted"
+      }
+     ],
+     "text": "Labs innovating together ftw https://t.co/WnRpl5WpUw https://t.co/vJ5ETVAcHr",
+     "url": "https://x.com/i/status/2120266880963473789"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "conversation_id": "2120410006273380750",
+      "created_at": "2026-11-11T06:55:15.000Z",
+      "edit_history_tweet_ids": [
+       "2120410006273380750"
+      ],
+      "id": "2120410006273380750",
+      "public_metrics": {
+       "bookmark_count": 392,
+       "impression_count": 1400292,
+       "like_count": 15847,
+       "quote_count": 549,
+       "reply_count": 2427,
+       "retweet_count": 360
+      },
+      "text": "It’s been a while without resets. Maybe I should come back out of the basement"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2120214011451170817"
+       ]
+      },
+      "conversation_id": "2120216592395174382",
+      "created_at": "2026-11-10T18:06:42.000Z",
+      "edit_history_tweet_ids": [
+       "2120216592395174382"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "description": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+         "display_url": "openai.com/index/introduc…",
+         "end": 277,
+         "expanded_url": "https://openai.com/index/introducing-businesses-chatgpt/",
+         "start": 254,
+         "status": 200,
+         "title": "Introducing Businesses in ChatGPT",
+         "unwound_url": "https://openai.com/index/introducing-businesses-chatgpt/",
+         "url": "https://t.co/N2GEZX0mFT"
+        },
+        {
+         "display_url": "pic.x.com/lYj2Z48fhQ",
+         "end": 301,
+         "expanded_url": "https://x.com/OpenAI/status/2120216592395174382/video/1",
+         "media_key": "13_2120214011451170817",
+         "start": 278,
+         "url": "https://t.co/lYj2Z48fhQ"
+        }
+       ]
+      },
+      "id": "2120216592395174382",
+      "public_metrics": {
+       "bookmark_count": 18971,
+       "impression_count": 5303010,
+       "like_count": 17134,
+       "quote_count": 1427,
+       "reply_count": 1264,
+       "retweet_count": 1363
+      },
+      "text": "Now in beta: Businesses in ChatGPT.\n\nClaim your business, manage your information, and get insights on how people engage with you.\n\nEligible businesses can also build a Business Agent to answer customers’ questions and help them explore what you offer.\n\nhttps://t.co/N2GEZX0mFT https://t.co/lYj2Z48fhQ"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2120203153496813569"
+       ]
+      },
+      "conversation_id": "2120206365759094857",
+      "created_at": "2026-11-10T17:26:06.000Z",
+      "edit_history_tweet_ids": [
+       "2120206375137484875"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/m2x0tcHlLn",
+         "end": 274,
+         "expanded_url": "https://x.com/claudeai/status/2120206375137484875/video/1",
+         "media_key": "13_2120203153496813569",
+         "start": 251,
+         "url": "https://t.co/m2x0tcHlLn"
+        }
+       ]
+      },
+      "id": "2120206375137484875",
+      "public_metrics": {
+       "bookmark_count": 1977,
+       "impression_count": 3518069,
+       "like_count": 3794,
+       "quote_count": 131,
+       "reply_count": 76,
+       "retweet_count": 177
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120206372478566799",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Also new: with interactive connectors, you can now open the full version of a tool inside Claude. Work in Adobe, Atlassian, and Box beside your conversation. Make changes yourself, or ask Claude to make them with you.\n\nRolling out on web and desktop. https://t.co/m2x0tcHlLn"
+     }
+    ]
+   },
+   "meta": {
+    "newest_id": "2120410480204525936",
+    "oldest_id": "2120266880963473789",
+    "result_count": 4
+   }
+  },
+  "testingcatalog": {
+   "data": [
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-12T00:08:48.000Z",
+     "edit_history_tweet_ids": [
+      "2120670108481647089"
+     ],
+     "id": "2120670108481647089",
+     "text": "Claude app for iOS is getting “Saved logins” section where users can see credentials that Claude can use to sign in on other websites. \n\nDuet merge prep? 👀 https://t.co/R9Qa7xdEAr",
+     "url": "https://x.com/testingcatalog/status/2120670108481647089"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T22:46:51.000Z",
+     "edit_history_tweet_ids": [
+      "2120649482874540295"
+     ],
+     "id": "2120649482874540295",
+     "referenced_tweets": [
+      {
+       "id": "2120647684004442289",
+       "type": "quoted"
+      }
+     ],
+     "text": "NVIDIA 🔥: $NVDA is sliding sharply in after-hours trading after a New York Times report alleged that CEO Jensen Huang had a second relationship. \n\nThere's a strong chance NVIDIA will never be the same, as the NVIDIA board prepares to oust Jensen. https://t.co/kLz6OoQ7Ij https://t.co/EGIfBdtEkQ",
+     "url": "https://x.com/testingcatalog/status/2120649482874540295"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T22:36:27.000Z",
+     "edit_history_tweet_ids": [
+      "2120646869013696889"
+     ],
+     "id": "2120646869013696889",
+     "text": "OpenAI expanded its ChatGPT Finance feature to be available on ChatGPT desktop. \n\nWith ChatGPT Finance, users can also generate interactive widgets based on their financial data. \n\n* Finances is available to Free, Go, Plus, and Pro users in the U.S. https://t.co/vBOPPRbmhO",
+     "url": "https://x.com/testingcatalog/status/2120646869013696889"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T21:38:23.000Z",
+     "edit_history_tweet_ids": [
+      "2120632256213430716"
+     ],
+     "id": "2120632256213430716",
+     "referenced_tweets": [
+      {
+       "id": "2120549258692882702",
+       "type": "quoted"
+      }
+     ],
+     "text": "Google announced Tabletop, a new experimental shared \"space\" for groups to collaborate, with AI support.\n\nA waitlist for ultra trusted testers in the US. \n\nNothing here yet 👀 https://t.co/nnINYZMAZz https://t.co/7etFhLe3m6",
+     "url": "https://x.com/testingcatalog/status/2120632256213430716"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T20:43:35.000Z",
+     "edit_history_tweet_ids": [
+      "2120618461646758191"
+     ],
+     "id": "2120618461646758191",
+     "text": "Google is rolling out Browser Use to all users in Antigravity. \n\nIt seems like Antigravity is now a consolidated \"Super app\" for Google. And this puts into question whether the Gemini desktop app will have any future. \n\nImo, I feel that Google should move all Gemini features",
+     "url": "https://x.com/testingcatalog/status/2120618461646758191"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T20:28:55.000Z",
+     "edit_history_tweet_ids": [
+      "2120614772949565669"
+     ],
+     "id": "2120614772949565669",
+     "in_reply_to_user_id": "3980735590",
+     "referenced_tweets": [
+      {
+       "id": "2120614769631650146",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Users can either have ARC run the chosen model and send back the answer, or pick the best model for the task and run it on their own setup.\n\nTest it out 👀\nhttps://t.co/BCa6ZTLhuY",
+     "url": "https://x.com/testingcatalog/status/2120614772949565669"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T20:28:54.000Z",
+     "edit_history_tweet_ids": [
+      "2120614769631650146"
+     ],
+     "id": "2120614769631650146",
+     "referenced_tweets": [
+      {
+       "id": "2120583960447029699",
+       "type": "quoted"
+      }
+     ],
+     "text": "Rayline has launched ARC, a tiny AI model designed to pick which model should handle each step of a task and how much it should think.\n\nUsers can send a task to ARC and have it automatically assign easy steps to a lighter model and hard ones to a stronger model, for a faster, https://t.co/YWtyScXV2h https://t.co/BlVemOChTd",
+     "url": "https://x.com/testingcatalog/status/2120614769631650146"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T19:19:27.000Z",
+     "edit_history_tweet_ids": [
+      "2120597292159762821"
+     ],
+     "id": "2120597292159762821",
+     "referenced_tweets": [
+      {
+       "id": "2120584928983441826",
+       "type": "quoted"
+      }
+     ],
+     "text": "SPACEXSI 🔥: The first stable version 1.0 of Grok Bot has been announced. \n\nIn addition to many improvements, Grok Bots can now join Slack and participate in video calls! \n\nLooks like I will have a daily stand-up tomorrow 👀 https://t.co/I9MCjM7dvm https://t.co/CD44TY119G",
+     "url": "https://x.com/testingcatalog/status/2120597292159762821"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T18:28:20.000Z",
+     "edit_history_tweet_ids": [
+      "2120584426211979756"
+     ],
+     "id": "2120584426211979756",
+     "referenced_tweets": [
+      {
+       "id": "2120581155078729728",
+       "type": "quoted"
+      }
+     ],
+     "text": "GOOGLE 🔥: Gemini decision API, powered by a new Gemini-decision-1 model is now available!\n\n&gt; “Get fast, calibrated decisions on up to 1000 questions at once across text, images, audio, video, and PDFs.”\n\nGemini Decision 1 is available on Google AI Studio and APIs. \n\nDecision https://t.co/3S2Prsp6GX https://t.co/uANO4zafF8",
+     "url": "https://x.com/testingcatalog/status/2120584426211979756"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T17:37:59.000Z",
+     "edit_history_tweet_ids": [
+      "2120571754733326507"
+     ],
+     "id": "2120571754733326507",
+     "in_reply_to_user_id": "3980735590",
+     "referenced_tweets": [
+      {
+       "id": "2120571751159525788",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Roma can connect to Gmail, Notion, and Google Drive to draft replies or find the files you need for a task. Drafted emails always wait for approval before being sent.\n\nSet up recurring work can be done with a single message.\n\nTest it out 👀\nhttps://t.co/uaW0rDW6xH",
+     "url": "https://x.com/testingcatalog/status/2120571754733326507"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T17:37:58.000Z",
+     "edit_history_tweet_ids": [
+      "2120571751159525788"
+     ],
+     "id": "2120571751159525788",
+     "referenced_tweets": [
+      {
+       "id": "2120546950496043111",
+       "type": "quoted"
+      }
+     ],
+     "text": "Roma has launched Roma 2.0, a to-do app for Mac and iPhone that starts working on each task autonomously as soon as it is added.\n\nUsers can say a messy thought out loud, have Roma turn it into a task, and receive the finished output ready for a later review. \n\nRoma 2.0 also lets https://t.co/HOokPbKSza https://t.co/pHB00I1enO",
+     "url": "https://x.com/testingcatalog/status/2120571751159525788"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T17:02:05.000Z",
+     "edit_history_tweet_ids": [
+      "2120562722353848472"
+     ],
+     "id": "2120562722353848472",
+     "referenced_tweets": [
+      {
+       "id": "2120412468757287371",
+       "type": "quoted"
+      }
+     ],
+     "text": "GOOGLE 🔥: Gemini Decision 1 model has been spotted on Google APIs. No Flash, but Decision today. \n\nIs this true? 👀 https://t.co/wuQ2xxchpl https://t.co/p9XPWLDgtT",
+     "url": "https://x.com/testingcatalog/status/2120562722353848472"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T15:25:18.000Z",
+     "edit_history_tweet_ids": [
+      "2120538363325243750"
+     ],
+     "id": "2120538363325243750",
+     "in_reply_to_user_id": "3980735590",
+     "referenced_tweets": [
+      {
+       "id": "2120538359122800736",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Source https://t.co/eHpSu0vHw2",
+     "url": "https://x.com/testingcatalog/status/2120538363325243750"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T15:25:17.000Z",
+     "edit_history_tweet_ids": [
+      "2120538359122800736"
+     ],
+     "id": "2120538359122800736",
+     "text": "BYTEDANCE 🔥: According to Bloomberg, ByteDance is planning to release its own proactive AI agent in the coming weeks! \n\nBloomberg also reported that the company has plans to become a frontier lab by 2029. \n\nSeeBot? 👀👀👀 https://t.co/T8woX0hHeG",
+     "url": "https://x.com/testingcatalog/status/2120538359122800736"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T15:16:10.000Z",
+     "edit_history_tweet_ids": [
+      "2120536065702596666"
+     ],
+     "id": "2120536065702596666",
+     "in_reply_to_user_id": "3980735590",
+     "referenced_tweets": [
+      {
+       "id": "2120536060258099456",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Nod runs on a Mac or on the user's own server, with Windows 11 in preview, and allows users can set a monthly spending limit.\n\nThe app is free, and billing is handled by the AI provider each user connects Nod to.\n\nCheck it out 👀\nhttps://t.co/ROC0FQJJAZ",
+     "url": "https://x.com/testingcatalog/status/2120536065702596666"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T15:16:09.000Z",
+     "edit_history_tweet_ids": [
+      "2120536060258099456"
+     ],
+     "id": "2120536060258099456",
+     "referenced_tweets": [
+      {
+       "id": "2120431328458076315",
+       "type": "quoted"
+      }
+     ],
+     "text": "n8n Labs has released a research preview of Nod, its new open-source AI agent designed for tiny tasks such as chasing an unpaid invoice or canceling a trial subscription.\n\nUsers can give it a task on Telegram or WhatsApp, and have Nod agent working on it via its own computer and https://t.co/Sm460xthYE https://t.co/o5fa5C7Iyr",
+     "url": "https://x.com/testingcatalog/status/2120536060258099456"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T12:49:52.000Z",
+     "edit_history_tweet_ids": [
+      "2120499247590043722"
+     ],
+     "id": "2120499247590043722",
+     "referenced_tweets": [
+      {
+       "id": "2120302471210033426",
+       "type": "quoted"
+      }
+     ],
+     "text": "SpaceX ❤️ SINGULUS\n\nSpaceX and SINGULUS signed a contract to supply 100 GW/year of HJT solar manufacturing equipment for Starmind. \n\nGermany mentioned 👀 https://t.co/wZtF5RKH1O https://t.co/92MltHdO4x",
+     "url": "https://x.com/testingcatalog/status/2120499247590043722"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T12:11:02.000Z",
+     "edit_history_tweet_ids": [
+      "2120489477819011346"
+     ],
+     "id": "2120489477819011346",
+     "in_reply_to_user_id": "3980735590",
+     "referenced_tweets": [
+      {
+       "id": "2120489472659689611",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Approved uploads are paid weekly in USDC to a crypto wallet.\n\nCheck it out 👀\nhttps://t.co/dx7bmXVeTB",
+     "url": "https://x.com/testingcatalog/status/2120489477819011346"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T12:11:01.000Z",
+     "edit_history_tweet_ids": [
+      "2120489472659689611"
+     ],
+     "id": "2120489472659689611",
+     "referenced_tweets": [
+      {
+       "id": "2120486704255807840",
+       "type": "quoted"
+      }
+     ],
+     "text": "Brevis has launched Arca, a free app that allows users to sell AI chats and coding sessions they have on their computer.\n\nUsers can pick which sessions they wish to sell and get a price range. Before the chats are uploaded, Arca removes all identifiable information, such as names https://t.co/ico12LVczD https://t.co/nxvOjDTy3G",
+     "url": "https://x.com/testingcatalog/status/2120489472659689611"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T09:03:45.000Z",
+     "edit_history_tweet_ids": [
+      "2120442345044787636"
+     ],
+     "id": "2120442345044787636",
+     "referenced_tweets": [
+      {
+       "id": "2120094172187103521",
+       "type": "quoted"
+      }
+     ],
+     "text": "DAILY AI BRIEF 🗞 — Nov 11\n\nMODEL FORECAST 👀:\n- Gemini 4 Hydrogen (Flash), today!!!\n- GPT-6.2 Sol, this week? codexy\n- GPT-6.2 Astra, this week? codexy\n- Qwen4 Flash/Plus/27B, soon?\n- Grok 4.8, \"soft\" this week\n- Tencent Hy4 open weights and Flash, soon\n- Claude Fable 5.5 and https://t.co/cavCFOTxlP",
+     "url": "https://x.com/testingcatalog/status/2120442345044787636"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T08:03:01.000Z",
+     "edit_history_tweet_ids": [
+      "2120427059302297633"
+     ],
+     "id": "2120427059302297633",
+     "referenced_tweets": [
+      {
+       "id": "2120335993643684315",
+       "type": "quoted"
+      }
+     ],
+     "text": "ALIBABA 🔥: Qwen4-Max-Preview is now available on Qwen Chat, Agent Mode, and on Alibaba’s Token Plan.\n\n&gt; \"Get an early look at Qwen4’s deeper knowledge, richer world understanding, and stronger coding and agentic capabilities. Built for complex coding, office work, front-end https://t.co/1zkKaZcUio https://t.co/AIWuyb0kWb",
+     "url": "https://x.com/testingcatalog/status/2120427059302297633"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T07:05:02.000Z",
+     "edit_history_tweet_ids": [
+      "2120412468757287371"
+     ],
+     "id": "2120412468757287371",
+     "referenced_tweets": [
+      {
+       "id": "2120372550354280848",
+       "type": "quoted"
+      }
+     ],
+     "text": "GOOGLE 🔥: A second day of Gemini model releases is on its way! A big chance that Google may drop Gemini 4 Hydrogen (Flash). \n\nSoon 👀 https://t.co/KDeTxMisoJ https://t.co/srcxAsUWpA",
+     "url": "https://x.com/testingcatalog/status/2120412468757287371"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T00:53:15.000Z",
+     "edit_history_tweet_ids": [
+      "2120318908188295399"
+     ],
+     "id": "2120318908188295399",
+     "referenced_tweets": [
+      {
+       "id": "2120277245713654201",
+       "type": "quoted"
+      }
+     ],
+     "text": "OPENAI 🔥: Advanced and Standard voice modes on ChatGPT will be retired on December 11!\n\nDoes it mean that we are expecting another realtime voice model upgrade to happen before that? \n\nWe need another 12 days of OpenAI 👀 https://t.co/wR0Iyeti4r https://t.co/WHgR7SsfdK",
+     "url": "https://x.com/testingcatalog/status/2120318908188295399"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T00:36:24.000Z",
+     "edit_history_tweet_ids": [
+      "2120314667369115933"
+     ],
+     "id": "2120314667369115933",
+     "text": "SPACEXAI 🔥: Cursor is getting a multiplayer mode where team members and their agents can work on a unified workspace. \n\nThe feature is built on top of the existing Projects.\n\nSeems like a day-one answer to the Antigravity/swarm feature, with a huge addition on top. \n\nBesides",
+     "url": "https://x.com/testingcatalog/status/2120314667369115933"
+    },
+    {
+     "author_id": "3980735590",
+     "created_at": "2026-11-11T00:24:58.000Z",
+     "edit_history_tweet_ids": [
+      "2120311786675019824"
+     ],
+     "id": "2120311786675019824",
+     "text": "GOOGLE 🔥: A new Swarm Mode is now available on Antigravity! \n\n/swarm is a new agent orchestrator command that runs multiple agents in parallel to complete a task. \n\nSpawned agents will use a shared message board to communicate with each other. \n\nSwarming 🐝",
+     "url": "https://x.com/testingcatalog/status/2120311786675019824"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "author_id": "1573399256836309009",
+      "created_at": "2026-11-11T22:39:42.000Z",
+      "edit_history_tweet_ids": [
+       "2120647684004442289"
+      ],
+      "id": "2120647684004442289",
+      "referenced_tweets": [
+       {
+        "id": "2120646832850354419",
+        "type": "quoted"
+       }
+      ],
+      "text": "NVIDIA fires Jensen Huang as CEO.\n\n\"NVIDIA board is preparing to oust CEO Jensen Huang, its founder and chief executive after he had two extramarital affairs, including one with a suspected Chinese spy.\" https://t.co/FEluCKdq22 https://t.co/aZl9K7A1aA"
+     },
+     {
+      "author_id": "163975783",
+      "created_at": "2026-11-11T16:08:35.000Z",
+      "edit_history_tweet_ids": [
+       "2120547738609975788",
+       "2120549258692882702"
+      ],
+      "id": "2120549258692882702",
+      "text": "🚨 NEW LABS EXPERIMENT 🚨\n\nIntroducing Tabletop 🎲— our newest experiment built to get your crew from \"we should totally do that\" to \"we’re actually doing this.\"\n\nDrop links and files into one shared space, add your crew, and ask Tabletop for whatever you need to create custom https://t.co/EHFLWOCwdk"
+     },
+     {
+      "author_id": "3980735590",
+      "created_at": "2026-11-11T20:28:54.000Z",
+      "edit_history_tweet_ids": [
+       "2120614769631650146"
+      ],
+      "id": "2120614769631650146",
+      "referenced_tweets": [
+       {
+        "id": "2120583960447029699",
+        "type": "quoted"
+       }
+      ],
+      "text": "Rayline has launched ARC, a tiny AI model designed to pick which model should handle each step of a task and how much it should think.\n\nUsers can send a task to ARC and have it automatically assign easy steps to a lighter model and hard ones to a stronger model, for a faster, https://t.co/YWtyScXV2h https://t.co/BlVemOChTd"
+     },
+     {
+      "author_id": "1404968359",
+      "created_at": "2026-11-11T18:26:29.000Z",
+      "edit_history_tweet_ids": [
+       "2120583960447029699"
+      ],
+      "id": "2120583960447029699",
+      "text": "In 2015, I built an AI that detects early cancer.\n\nToday, we’re introducing ARC by Rayline: the world’s first unified model for routing AI.\n\n&gt; 97.5% of Opus 5.5 quality\n&gt; Up to 1/10th of the cost\n&gt; Fully open-source\n\nIt picks the right model and the right amount of thinking for https://t.co/i2YOPD5NMy"
+     },
+     {
+      "author_id": "1661523610111193088",
+      "created_at": "2026-11-11T18:30:20.000Z",
+      "edit_history_tweet_ids": [
+       "2120584928983441826"
+      ],
+      "id": "2120584928983441826",
+      "text": "Introducing Grok Bot 1.0.\n\nBots can be shared and are more collaborative and capable than ever. https://t.co/gmxan7jupQ"
+     },
+     {
+      "author_id": "14130366",
+      "created_at": "2026-11-11T18:15:20.000Z",
+      "edit_history_tweet_ids": [
+       "2120581155078729728"
+      ],
+      "id": "2120581155078729728",
+      "text": "Today we’re launching the Gemini Decisions API, powered by our new Gemini Decision 1 model in @GoogleAIStudio.\n\nInstead of generating text token by token, it’s built for closed-set choices scoring up to 1,000 questions across text, images, audio, video + PDFs in a single pass. A https://t.co/7itBuv7Eu2"
+     },
+     {
+      "author_id": "3980735590",
+      "created_at": "2026-11-11T17:37:58.000Z",
+      "edit_history_tweet_ids": [
+       "2120571751159525788"
+      ],
+      "id": "2120571751159525788",
+      "referenced_tweets": [
+       {
+        "id": "2120546950496043111",
+        "type": "quoted"
+       }
+      ],
+      "text": "Roma has launched Roma 2.0, a to-do app for Mac and iPhone that starts working on each task autonomously as soon as it is added.\n\nUsers can say a messy thought out loud, have Roma turn it into a task, and receive the finished output ready for a later review. \n\nRoma 2.0 also lets https://t.co/HOokPbKSza https://t.co/pHB00I1enO"
+     },
+     {
+      "author_id": "9982592",
+      "created_at": "2026-11-11T15:59:25.000Z",
+      "edit_history_tweet_ids": [
+       "2120546950496043111"
+      ],
+      "id": "2120546950496043111",
+      "text": "In 2014, I sold my first company Loom to Dropbox.\n\nToday, I’m proud to announce Roma 2.0 (YC F26): the first to-do list for AI agents.\n\nEveryone uses a different agent: Claude, Grok Bot, Muse…\n\nUntil now, none of them could work together.\n\nRoma automatically creates tasks and https://t.co/9vOvZycHvA"
+     },
+     {
+      "author_id": "3980735590",
+      "created_at": "2026-11-11T07:05:02.000Z",
+      "edit_history_tweet_ids": [
+       "2120412468757287371"
+      ],
+      "id": "2120412468757287371",
+      "referenced_tweets": [
+       {
+        "id": "2120372550354280848",
+        "type": "quoted"
+       }
+      ],
+      "text": "GOOGLE 🔥: A second day of Gemini model releases is on its way! A big chance that Google may drop Gemini 4 Hydrogen (Flash). \n\nSoon 👀 https://t.co/KDeTxMisoJ https://t.co/srcxAsUWpA"
+     },
+     {
+      "author_id": "3980735590",
+      "created_at": "2026-11-11T15:25:17.000Z",
+      "edit_history_tweet_ids": [
+       "2120538359122800736"
+      ],
+      "id": "2120538359122800736",
+      "text": "BYTEDANCE 🔥: According to Bloomberg, ByteDance is planning to release its own proactive AI agent in the coming weeks! \n\nBloomberg also reported that the company has plans to become a frontier lab by 2029. \n\nSeeBot? 👀👀👀 https://t.co/T8woX0hHeG"
+     },
+     {
+      "author_id": "3980735590",
+      "created_at": "2026-11-11T15:16:09.000Z",
+      "edit_history_tweet_ids": [
+       "2120536060258099456"
+      ],
+      "id": "2120536060258099456",
+      "referenced_tweets": [
+       {
+        "id": "2120431328458076315",
+        "type": "quoted"
+       }
+      ],
+      "text": "n8n Labs has released a research preview of Nod, its new open-source AI agent designed for tiny tasks such as chasing an unpaid invoice or canceling a trial subscription.\n\nUsers can give it a task on Telegram or WhatsApp, and have Nod agent working on it via its own computer and https://t.co/Sm460xthYE https://t.co/o5fa5C7Iyr"
+     },
+     {
+      "author_id": "1068479892537384960",
+      "created_at": "2026-11-11T08:19:59.000Z",
+      "edit_history_tweet_ids": [
+       "2120431328458076315"
+      ],
+      "id": "2120431328458076315",
+      "text": "Meet Nod, your own open-source personal agent from n8n Labs\n\nAsk it to prep your calls, collect invoices or cancel a subscription\n\nIt runs on your computer with its own browser to get the job done across apps and websites, using the AI provider you choose👇 https://t.co/muB2JGFywG"
+     },
+     {
+      "author_id": "44196397",
+      "created_at": "2026-11-10T23:47:57.000Z",
+      "edit_history_tweet_ids": [
+       "2120302471210033426"
+      ],
+      "id": "2120302471210033426",
+      "referenced_tweets": [
+       {
+        "id": "2120231065394590007",
+        "type": "quoted"
+       }
+      ],
+      "text": "SpaceX has ordered 100 GW/year of HJT solar manufacturing equipment from Singulus in Germany. \n\nThis is for Starmind to create a sentient sun. https://t.co/umtNyF9M7g"
+     },
+     {
+      "author_id": "3980735590",
+      "created_at": "2026-11-11T12:11:01.000Z",
+      "edit_history_tweet_ids": [
+       "2120489472659689611"
+      ],
+      "id": "2120489472659689611",
+      "referenced_tweets": [
+       {
+        "id": "2120486704255807840",
+        "type": "quoted"
+       }
+      ],
+      "text": "Brevis has launched Arca, a free app that allows users to sell AI chats and coding sessions they have on their computer.\n\nUsers can pick which sessions they wish to sell and get a price range. Before the chats are uploaded, Arca removes all identifiable information, such as names https://t.co/ico12LVczD https://t.co/nxvOjDTy3G"
+     },
+     {
+      "author_id": "1638098353652404225",
+      "created_at": "2026-11-11T12:00:01.000Z",
+      "edit_history_tweet_ids": [
+       "2120486704255807840"
+      ],
+      "id": "2120486704255807840",
+      "text": "📢Arca is now open to everyone. No invite, no waitlist.\n\nSign up with your email or Google, install the app, and get paid for the AI sessions you'd otherwise throw away.\n\nhttps://t.co/SZq1K0ilHC 🧵 https://t.co/MOAE2M6Fnr"
+     },
+     {
+      "author_id": "3980735590",
+      "created_at": "2026-11-10T10:00:14.000Z",
+      "edit_history_tweet_ids": [
+       "2120094172187103521"
+      ],
+      "id": "2120094172187103521",
+      "referenced_tweets": [
+       {
+        "id": "2118999078717575288",
+        "type": "quoted"
+       }
+      ],
+      "text": "DAILY AI BRIEF 🗞 — Nov 10\n\nMODEL FORECAST 👀:\n- Gemini 4 Carbon, today!!!\n- Gemini 4 Hydrogen (Flash), today?\n- GPT-6.2 Sol, this week?\n- GPT-6.2 Astra, this week?\n- Inkling 2 Small open weights, soon\n- Qwen4 Max/Flash/Plus/27B, this week?\n- Tencent Hy4 open weights and Flash, https://t.co/5Vibi43OUc"
+     },
+     {
+      "author_id": "1753339277386342400",
+      "created_at": "2026-11-11T02:01:09.000Z",
+      "edit_history_tweet_ids": [
+       "2120335993643684315"
+      ],
+      "id": "2120335993643684315",
+      "text": "Qwen4 is coming.\n\nDeeper knowledge. Richer world understanding. Stronger coding and agentic capabilities.\n\nBuilt for real-world tasks — from complex coding and knowledge work to front-end builds and professional software workflows.\n\nQwen4-Max is now in preview on Alibaba’s Token https://t.co/3itCIgVAeE"
+     },
+     {
+      "author_id": "284333988",
+      "created_at": "2026-11-11T04:26:25.000Z",
+      "edit_history_tweet_ids": [
+       "2120372550354280848"
+      ],
+      "id": "2120372550354280848",
+      "text": "Gemini"
+     },
+     {
+      "author_id": "1803847768781524992",
+      "created_at": "2026-11-10T22:07:42.000Z",
+      "edit_history_tweet_ids": [
+       "2120277245713654201"
+      ],
+      "id": "2120277245713654201",
+      "text": "We’re retiring Advanced and Standard voice from ChatGPT Voice on December 11, 2026.\n\nIn July, we introduced GPT-Live, our latest voice model that combines natural conversation with frontier intelligence. Since then, voice usage has nearly doubled, and virtually all people using"
+     }
+    ],
+    "users": [
+     {
+      "id": "3980735590",
+      "name": "🚨 AI News | TestingCatalog",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1899962463115751424/i-6MBWau_normal.jpg",
+      "username": "testingcatalog",
+      "verified": true
+     },
+     {
+      "id": "1573399256836309009",
+      "name": "Chubby♨️",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1728327996375719936/RW7VBJfD_normal.jpg",
+      "username": "kimmonismus",
+      "verified": false
+     },
+     {
+      "id": "163975783",
+      "name": "Google Labs",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1792661411102863360/fzzB7K-f_normal.png",
+      "username": "GoogleLabs",
+      "verified": true
+     },
+     {
+      "id": "1404968359",
+      "name": "David Valerio Gilmore",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1546251965910241286/w90X3ctS_normal.jpg",
+      "username": "davidvgilmore",
+      "verified": false
+     },
+     {
+      "id": "1661523610111193088",
+      "name": "SpaceX Super Intelligence",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2108973816865067008/eES3dbLy_normal.jpg",
+      "username": "SpaceXSI",
+      "verified": true
+     },
+     {
+      "id": "14130366",
+      "name": "Sundar Pichai",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2051799620062429184/AL8CoAUG_normal.jpg",
+      "username": "sundarpichai",
+      "verified": false
+     },
+     {
+      "id": "9982592",
+      "name": "Jan Senderek",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1483155637030817799/7veEHq6W_normal.jpg",
+      "username": "jans",
+      "verified": false
+     },
+     {
+      "id": "1068479892537384960",
+      "name": "n8n.io",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2112499582831652864/ecZ7Ro2O_normal.jpg",
+      "username": "n8n_io",
+      "verified": true
+     },
+     {
+      "id": "44196397",
+      "name": "Elon Musk",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2103567689515954176/aR-Kjpp4_normal.jpg",
+      "username": "elonmusk",
+      "verified": false
+     },
+     {
+      "id": "1638098353652404225",
+      "name": "Brevis",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2036048737685090304/AqGM9b_Q_normal.jpg",
+      "username": "brevis_zk",
+      "verified": true
+     },
+     {
+      "id": "1753339277386342400",
+      "name": "Qwen",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2064231947149377536/Ab70PxT5_normal.jpg",
+      "username": "Alibaba_Qwen",
+      "verified": true
+     },
+     {
+      "id": "284333988",
+      "name": "Logan Kilpatrick",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1943787288955084800/QOl7OJMc_normal.jpg",
+      "username": "OfficialLoganK",
+      "verified": false
+     },
+     {
+      "id": "1803847768781524992",
+      "name": "OpenAI Newsroom",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1885410297101381632/3Gs7_1gs_normal.jpg",
+      "username": "OpenAINewsroom",
+      "verified": true
+     }
+    ]
+   },
+   "meta": {
+    "newest_id": "2120670108481647089",
+    "next_token": "7140dibdnow9c7btwp0gm3299usik7k89bwjlppdchkj8",
+    "oldest_id": "2120311786675019824",
+    "result_count": 25
+   }
+  },
+  "gengdaJ": {
+   "data": [
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2120487106250428417"
+      ]
+     },
+     "conversation_id": "2120491932917141711",
+     "created_at": "2026-11-11T12:20:48.000Z",
+     "edit_history_tweet_ids": [
+      "2120487119672262867",
+      "2120487622091162033",
+      "2120491932917141711"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/SMAr7arK6Z",
+        "end": 136,
+        "expanded_url": "https://x.com/gengdaJ/status/2120491932917141711/photo/1",
+        "media_key": "3_2120487106250428417",
+        "start": 113,
+        "url": "https://t.co/SMAr7arK6Z"
+       }
+      ]
+     },
+     "id": "2120491932917141711",
+     "note_tweet": {
+      "text": "硬件大佬思路就是牛逼，微信自动化写入都能突破，给我吓坏了…\n\n采用了独立盒子单独装 Windows 系统，然后单独在里面放一个微信。实控主机用 OCR 技术识别，结合知识库生成回复，然后写入任何 App（微信只是举个例子）。\n\n现在是初步测试阶段（因为他之前没意识到可以操作微信），现在我也新注册了一个微信放到他那里搞。如果能成的话，私域的天就变了。微信是，WhatsApp 也是。\n\n我个人感觉技术上是能做到微信识别不了的，不知道有没有技术大佬斧正🤔\n\n而且大佬还有海外资源，claude code 也能跑啊！能把这台电脑放到迪拜，远程控制就行，然后把 KYC、支付全打通，只是他之前不了解 claude code 还能这么赚钱。。。\n\n我赶紧让他跑这个闭环，感觉 11 月 12 号政策收紧之后，这个需求会暴增。兄弟们觉得呢？我反正看到了一大堆钱。\n\n哦哦对了，如果有想要测试私域这个的，有资源的朋友可以私我，我可以让大佬给点主机名额给大家免费测试一下。"
+     },
+     "public_metrics": {
+      "bookmark_count": 74,
+      "impression_count": 12060,
+      "like_count": 55,
+      "quote_count": 0,
+      "reply_count": 21,
+      "retweet_count": 3
+     },
+     "text": "硬件大佬思路就是牛逼，微信自动化写入都能突破，给我吓坏了…\n\n采用了独立盒子单独装 Windows 系统，然后单独在里面放一个微信。实控主机用 OCR 技术识别，结合知识库生成回复，然后写入任何 App（微信只是举个例子）。 https://t.co/SMAr7arK6Z",
+     "url": "https://x.com/i/status/2120491932917141711"
+    },
+    {
+     "conversation_id": "2120320834590138424",
+     "created_at": "2026-11-11T01:00:55.000Z",
+     "edit_history_tweet_ids": [
+      "2120320834590138424"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 11,
+        "id": "1897545708770840576",
+        "start": 3,
+        "username": "gengdaJ"
+       }
+      ]
+     },
+     "id": "2120320834590138424",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 0,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 16
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120172421789716790",
+       "type": "retweeted"
+      }
+     ],
+     "text": "RT @gengdaJ: 你可能再也找不到这么省、还这么高质量的视频工作流了。。。不管是跨境还是国内短视频平台，不管是复刻爆款还是生成新视频，都可以通过这套AI工作流来大幅降低成本。真的是各渠道对比下来最省的了。。。\n\nTikTok数据接口：1070条对标视频，0.07美元。……",
+     "url": "https://x.com/i/status/2120320834590138424"
+    },
+    {
+     "conversation_id": "2120320483648532481",
+     "created_at": "2026-11-11T00:59:31.000Z",
+     "edit_history_tweet_ids": [
+      "2120320483648532481"
+     ],
+     "entities": {
+      "mentions": [
+       {
+        "end": 11,
+        "id": "4215921",
+        "start": 3,
+        "username": "jasonlk"
+       },
+       {
+        "end": 35,
+        "id": "1570599115",
+        "start": 21,
+        "username": "alexmashrabov"
+       },
+       {
+        "end": 54,
+        "id": "1712267009483022336",
+        "start": 40,
+        "username": "higgsfield_ai"
+       }
+      ]
+     },
+     "id": "2120320483648532481",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 130,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 231
+     },
+     "referenced_tweets": [
+      {
+       "id": "2120285005939409019",
+       "type": "retweeted"
+      }
+     ],
+     "text": "RT @jasonlk: In May, @alexmashrabov CEO @higgsfield_ai and I did a deep dive at SaaStr AI on how Higgsfield rocketed to $600m ARR in record…",
+     "url": "https://x.com/i/status/2120320483648532481"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2120163023461703680",
+        "3_2120167413664890881",
+        "3_2120168255700758528",
+        "3_2120168356548681728"
+       ]
+      },
+      "conversation_id": "2120172421789716790",
+      "created_at": "2026-11-10T15:11:10.000Z",
+      "edit_history_tweet_ids": [
+       "2120172421789716790"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/1vSzaNf38U",
+         "end": 149,
+         "expanded_url": "https://x.com/gengdaJ/status/2120172421789716790/photo/1",
+         "media_key": "3_2120163023461703680",
+         "start": 126,
+         "url": "https://t.co/1vSzaNf38U"
+        },
+        {
+         "display_url": "pic.x.com/1vSzaNf38U",
+         "end": 149,
+         "expanded_url": "https://x.com/gengdaJ/status/2120172421789716790/photo/1",
+         "media_key": "3_2120167413664890881",
+         "start": 126,
+         "url": "https://t.co/1vSzaNf38U"
+        },
+        {
+         "display_url": "pic.x.com/1vSzaNf38U",
+         "end": 149,
+         "expanded_url": "https://x.com/gengdaJ/status/2120172421789716790/photo/1",
+         "media_key": "3_2120168255700758528",
+         "start": 126,
+         "url": "https://t.co/1vSzaNf38U"
+        },
+        {
+         "display_url": "pic.x.com/1vSzaNf38U",
+         "end": 149,
+         "expanded_url": "https://x.com/gengdaJ/status/2120172421789716790/photo/1",
+         "media_key": "3_2120168356548681728",
+         "start": 126,
+         "url": "https://t.co/1vSzaNf38U"
+        },
+        {
+         "display_url": "x.com/gengdaJ/status…",
+         "end": 173,
+         "expanded_url": "https://twitter.com/gengdaJ/status/2120033719235076142",
+         "start": 150,
+         "url": "https://t.co/bqUTytkfGQ"
+        }
+       ]
+      },
+      "id": "2120172421789716790",
+      "note_tweet": {
+       "text": "你可能再也找不到这么省、还这么高质量的视频工作流了。。。不管是跨境还是国内短视频平台，不管是复刻爆款还是生成新视频，都可以通过这套AI工作流来大幅降低成本。真的是各渠道对比下来最省的了。。。\n\nTikTok数据接口：1070条对标视频，0.07美元。\n抖音、小红书、视频号接口Monid也全部都覆盖了，按需调用。\n\nHypit开源框架+参考图片和视频接口：\nMinimax H3在RunningHub：最低1.12人民币。\nGPT Image 2K在APIMart：0.015美元。"
+      },
+      "public_metrics": {
+       "bookmark_count": 236,
+       "impression_count": 11482,
+       "like_count": 171,
+       "quote_count": 2,
+       "reply_count": 5,
+       "retweet_count": 16
+      },
+      "referenced_tweets": [
+       {
+        "id": "2120033719235076142",
+        "type": "quoted"
+       }
+      ],
+      "text": "你可能再也找不到这么省、还这么高质量的视频工作流了。。。不管是跨境还是国内短视频平台，不管是复刻爆款还是生成新视频，都可以通过这套AI工作流来大幅降低成本。真的是各渠道对比下来最省的了。。。\n\nTikTok数据接口：1070条对标视频，0.07美元。 https://t.co/1vSzaNf38U https://t.co/bqUTytkfGQ"
+     },
+     {
+      "conversation_id": "2120285005939409019",
+      "created_at": "2026-11-10T22:38:33.000Z",
+      "edit_history_tweet_ids": [
+       "2120285005939409019"
+      ],
+      "entities": {
+       "mentions": [
+        {
+         "end": 22,
+         "id": "1570599115",
+         "start": 8,
+         "username": "alexmashrabov"
+        },
+        {
+         "end": 41,
+         "id": "1712267009483022336",
+         "start": 27,
+         "username": "higgsfield_ai"
+        }
+       ]
+      },
+      "id": "2120285005939409019",
+      "note_tweet": {
+       "entities": {
+        "mentions": [
+         {
+          "end": 22,
+          "id": "1570599115",
+          "start": 8,
+          "username": "alexmashrabov"
+         },
+         {
+          "end": 41,
+          "id": "1712267009483022336",
+          "start": 27,
+          "username": "higgsfield_ai"
+         },
+         {
+          "end": 306,
+          "id": "706639614258208769",
+          "start": 295,
+          "username": "saastrfund"
+         }
+        ],
+        "urls": [
+         {
+          "display_url": "youtube.com/watch?v=xlu4mK…",
+          "end": 332,
+          "expanded_url": "https://www.youtube.com/watch?v=xlu4mKwDElY",
+          "start": 309,
+          "url": "https://t.co/UqcyqyFTCt"
+         }
+        ]
+       },
+       "text": "In May, @alexmashrabov CEO @higgsfield_ai and I did a deep dive at SaaStr AI on how Higgsfield rocketed to $600m ARR in record time.  \n\nJust a few months later, I had to update the thumbnail to $1B ARR\n\nNow, they're on track for $2B by December\n\nProud to be one very first customers & investors @saastrfund \n\nhttps://t.co/UqcyqyFTCt"
+      },
+      "public_metrics": {
+       "bookmark_count": 49,
+       "impression_count": 100572,
+       "like_count": 307,
+       "quote_count": 11,
+       "reply_count": 22,
+       "retweet_count": 231
+      },
+      "text": "In May, @alexmashrabov CEO @higgsfield_ai and I did a deep dive at SaaStr AI on how Higgsfield rocketed to $600m ARR in record time.  \n\nJust a few months later, I had to update the thumbnail to $1B ARR\n\nNow, they're on track for $2B by December\n\nProud to be one very first"
+     }
+    ]
+   },
+   "meta": {
+    "newest_id": "2120491932917141711",
+    "oldest_id": "2120320483648532481",
+    "result_count": 3
+   }
+  }
+ }
+}

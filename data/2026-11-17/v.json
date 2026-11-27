@@ -1,0 +1,210 @@
+[
+  {
+    "title": "卡兹克长文《这些AI手搓的几百K的3D世界，正在让HTML再次伟大》：拆解群里流传的 1.4MB 纯 HTML 3D 游戏（约一半为 Three.js），称 Claude Fable 5.2 手搓效果最好，并分享场景提示词与让模型自我审图迭代的方法（个人体验）",
+    "summary": "卡兹克发 X 长文，说上周用 AI 做东西最火的玩法是「用 AI 搓的纯 HTML 3D 游戏」。他提到各群疯传一个约 1.4MB 的 HTML 游戏文件，打开后画面「几乎是媲美很多的 3A 大作」（个人观感）；并说明这并不是原创，而是把 Anthropic 工程师 Felix Rieseberg 在 Fable 5.2 发布时手搓的代码扒下来汉化、其余原封不动，再被冠以「国产 3A」之名，他写「这种行为我们就不说了，不是今天的重点」。他打开文件后发现约 700KB 是 Three.js 库，剩下约一半才是游戏本身：没有外部图片、模型或录音，集装箱、雨、枪、光影和音效都用代码生成或现场合成。文中回顾浏览器可经 WebGL（他写 2011 年 3 月成为标准）和后来的 WebGPU 调显卡画 3D，而 Three.js 由西班牙程序员 Ricardo Cabello（Mr.doob）在 2010 年 4 月 24 日把首个版本传到 GitHub，至今约 11.7 万 Star、两千多个贡献者，成为网页 3D 的事实标准。他把这种「文件里存的是生成规则而不是成品素材」的做法称为程序化生成，并另举一个约 97KB、连 Three.js 都不用、由 Claude Fable 5.2 手搓、直接走 WebGPU 的「水世界」。制作建议上，他认为审美和压缩目前「王中王」是 Claude Fable 5.2；Gemini 4 Carbon 与 GPT-6 Astra「也能跑」，DeepSeek V4.1 Flash「效果也还凑合」，但改起来更费心。他给出一个单文件 Three.js 场景提示词模板（所有模型和贴图都用代码生成、支持拖动缩放、要有光照雾气、在普通笔记本上流畅、主要物体拆成独立组件），并用类似提示词让 GPT-6 Astra 生成了重庆洪崖洞夜景；还提到用同一技术做可玩的 3D 魔方，以及近日 X 上一个约 90 秒、本质是约 2MB HTML 实时渲染的片子。如果觉得纯代码模型不够精细，也可以先用 Blender、Tripo 做好模型再放进网页，只是体积会更大。他分享的迭代方法是：每改完一版就从几个固定角度截图，再开一个只看截图、不看代码的子 Agent 当「挑剔的美术指导」列问题，改到只剩小问题为止。文末他承认这类作品「从商业上来说，可能确实没啥大用」，但觉得它让普通人也能用几百 KB 的代码在浏览器里「当一回造物主」。以上均为个人拆解与体验，1.4MB 游戏的来源说明是他的指认。",
+    "url": "https://x.com/Khazix0918/status/2122172073170837600",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-16T11:37:04+08:00",
+    "tags": [
+      "卡兹克",
+      "Three.js",
+      "HTML",
+      "Claude Fable 5.2",
+      "程序化生成"
+    ],
+    "image": "/assets/covers/cover-20261117-v-00.jpg"
+  },
+  {
+    "title": "卡兹克：整理近两个月用 Agent 干活最常用的 10 句提示词，覆盖第一性原理、问题重定义、二阶影响、对抗性反思、历史包袱清理与复盘沉淀（个人经验）",
+    "summary": "卡兹克发长帖，说自己翻了一下最近两个月，用 Agent 干活最爱说的几句 Prompt，并列了 10 条。其中包括：从第一性原理出发找最本质原因再修复；先问清楚不清晰的问题、对齐喜好后再出 3 版方案；不要默认用户提出的问题定义就是正确的，先分析底层需求，判断是否把症状误当成原因、把手段误当成目标，若有更值得解决的问题就直接指出来；不要只看改动的直接效果，继续推演二阶、三阶影响，尤其是对其他模块、用户行为、系统复杂度和长期维护成本的潜在影响；用跨领域类比寻找类似方案；先假设当前最合理的方案是错的，站在最强反对者角度寻找反例和边界，再重新评估；深入分析代码库的 Git 历史、关键 PR 和架构演变，区分有意设计、历史遗留和为已不存在的问题引入的包袱，识别可安全移除的部分；假设明天有一个完全不了解项目但能力很强的工程师接手，评估认知成本，找出命名混乱、抽象过度、职责不清、需要大量上下文才能理解的代码并提出简化方案；全面分析最近一段时间里最慢的 PR，看有没有导致卡顿、可以优化的地方；全面复盘最近的 Bug、返工、回滚和重复修改，分析共同根因，并把能预防的共性问题沉淀成项目规则、自动化或 Skill。以上均为他的个人使用经验分享，不是评测或官方指南。",
+    "url": "https://x.com/Khazix0918/status/2122268349707219333",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-16T17:59:39+08:00",
+    "tags": [
+      "卡兹克",
+      "Agent",
+      "提示词",
+      "工作流",
+      "个人经验"
+    ],
+    "image": "/assets/covers/cover-20261117-v-01.jpg"
+  },
+  {
+    "title": "Tibo 称 Codex 团队可能已经修好了困扰用户的「model at capacity」错误",
+    "summary": "OpenAI Codex 团队的 Tibo（@thsottiaux）发帖写道：Codex 团队「可能真的已经修好了」一直困扰用户的 “model at capacity” 错误，并配了一张截图。措辞是 “might have actually fixed”，属于团队成员对修复进展的谨慎确认，不是一份附带版本号或完整事故说明的正式更新公告。",
+    "url": "https://x.com/thsottiaux/status/2122206990101536852",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-16T13:55:49+08:00",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "产品动态",
+      "可用性",
+      "Tibo"
+    ],
+    "image": "/assets/covers/cover-20261117-v-02.jpg"
+  },
+  {
+    "title": "TestingCatalog：Qwen4-Max 基准出炉，Artificial Analysis Index 得 43 分、略低于 Muse Wonder；官方称新 MoE 架构、原生视觉与 1M 上下文，API 已在 QwenCloud 上线",
+    "summary": "TestingCatalog 发简报称，阿里巴巴 Qwen4-Max 的基准已经公布：在 Artificial Analysis Index 上得 43 分，比 Muse Wonder 低 1 分；在 xhigh 推理力度下比 Qwen3.8 Max（xhigh）高 9 分，比 Kimi K3.1 Pro（max，46 分）低 3 分；并在 Agent Arena 总体排到第 14，称在约 1.47 万次真实 agent 会话中净提升 +7.5%。他同时转述这是一个新的 MoE 架构模型，具备原生视觉和 100 万 token 上下文。所引用的 @Alibaba_Qwen 官方帖还写道：在其内部评测中，Qwen4-Max 可比 Qwen3.8-Max 少用至多约 50% 的 token，单任务平均成本下降超过 60%；定价为输入 1.5 美元/百万 token、输出 4.5 美元/百万 token、隐式缓存 0.075 美元/百万 token，均低于 Qwen3.8-Max，其中隐式缓存下降 70%；API 已在 QwenCloud 上线，也可在 Qwen Studio、QwenWork 和 Qoder 试用，并称较小的 Qwen4 模型后续会开放权重。基准分数来自 TestingCatalog 对已公布成绩的转述（配有截图），官方帖强调的是架构、内部评测和定价。本频道 AI新闻已收录阿里云对同一发布的新闻稿，本条取 TestingCatalog 的基准与官方帖角度，URL 不冲突。",
+    "url": "https://x.com/testingcatalog/status/2122238075426275745",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-16T15:59:21+08:00",
+    "tags": [
+      "Qwen4-Max",
+      "阿里巴巴",
+      "基准",
+      "MoE",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261117-v-03.jpg"
+  },
+  {
+    "title": "TestingCatalog：日程助手公司 Howie 加入 Google Labs，将协助打造面向小企业的日程与日历管理工具",
+    "summary": "TestingCatalog 转发 Google Labs 的宣布称，开发 Howie AI secretary 的 Howie 团队将加入 Google Labs，协助打造面向小企业的日程安排和日历管理工具。Google Labs 原帖写道，Howie 团队「花了多年时间搞清楚日程和日历管理」，希望一起做「下一代直观的 AI 工具」。这是 Google Labs 的官方欢迎声明，不是一项已上线的独立新产品发布。",
+    "url": "https://x.com/testingcatalog/status/2122474097598673165",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-17T07:37:13+08:00",
+    "tags": [
+      "Google Labs",
+      "Howie",
+      "日程助手",
+      "小企业",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261117-v-04.jpg"
+  },
+  {
+    "title": "TestingCatalog：日本语音实验室 Kotoba 加入 ElevenLabs，其日语语音研究将用于 ElevenAgents 服务客户",
+    "summary": "TestingCatalog 转发 ElevenLabs 的宣布称，来自日本的语音 AI 实验室 Kotoba 将加入 ElevenLabs，其日语语音研究将用于 ElevenAgents，以便企业能更自然地用日语服务客户。ElevenLabs 原帖点名欢迎 @noriyuki_kojima、@jungokasai 及团队。TestingCatalog 另打趣问「所以现在是 TwelveLabs 了吗」，只是玩笑，并不表示公司更名。",
+    "url": "https://x.com/testingcatalog/status/2122472245129859267",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-17T07:29:51+08:00",
+    "tags": [
+      "ElevenLabs",
+      "Kotoba",
+      "语音AI",
+      "日语",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261117-v-05.jpg"
+  },
+  {
+    "title": "TestingCatalog：Gemini 网页代码中出现 Gemini 4 Neon 引用，尚不可用；他先猜测或为 Flash Lite，随后又据代码里的 upsell 关联改口称可能是 Pro 档（未证实）",
+    "summary": "TestingCatalog 发简报称，Gemini 网页代码里出现了名为 gemini-4-neon 的引用，并写道「要是它是一个新的 Flash Lite 模型就好了（纯属猜测）」，同时标明「尚不可用」。他所引用的 @aitrackerbot 也说这只是代码引用，没有公开访问。随后他自己跟进：在核对后发现 Neon 在代码里与 “upsell” 相关联，意味着可能需要付费档才能使用，因此改口称「Neon 有可能是 Pro 档模型」。另有一条「更正链接」只补了他人对 Gemini Web Bootstrap 标志位的解读（neon 指向 chrome_oolong_upsell / upsell_MODE_CATEGORY_PRO，并对照 FAST/ULTRA/carbon 的茶名代号），同样指向 Pro 而非 Lite。以上均为代码线索和推测，Google 尚未正式宣布 Gemini 4 Neon 的定位或上线时间。",
+    "url": "https://x.com/testingcatalog/status/2122427521211785388",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-17T04:32:08+08:00",
+    "tags": [
+      "Gemini 4 Neon",
+      "Google",
+      "产品线索",
+      "未证实",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261117-v-06.jpg"
+  },
+  {
+    "title": "TestingCatalog：Hugging Face 将语言模型推理路由切到 OpenRouter，按实时价格、速度和可靠性选供应商并自动故障转移",
+    "summary": "TestingCatalog 发简报称，Hugging Face 把它的推理供应商切换到了 OpenRouter，并引用官方表述：对语言模型的请求现在会经过 OpenRouter，由它根据实时价格、速度和可靠性为每次调用挑选最佳供应商，若第一个失败再改试其他供应商。他所引用的 @OpenRouter 原帖还说，这一切仍使用同一套 Hugging Face token 和 API；用户也可以用 Broadcast 把 traces 存到 Hugging Face Storage，让请求记录留在 Hub 上，方便做评估或微调。TestingCatalog 把这套组合戏称为 “HuggingRouter”。本频道 AI新闻已收录 Hugging Face 官方博客对同一合作的说明，本条取简报与官方帖角度，URL 不冲突。",
+    "url": "https://x.com/testingcatalog/status/2122413901685891441",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-17T03:38:01+08:00",
+    "tags": [
+      "Hugging Face",
+      "OpenRouter",
+      "推理路由",
+      "API",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261117-v-07.jpg"
+  },
+  {
+    "title": "TestingCatalog：Nasiko 推出开源 Open Runtime，称可在请求进入模型前裁掉文件中的非必要部分，其服务器日志测试中单任务成本下降 40%，并支持为 Agent 设预算上限（公司自述）",
+    "summary": "TestingCatalog 发简报称，Nasiko 推出了开源工具 Open Runtime，用于按任务优化 AI agent 的花费：在长文件到达模型之前，先裁掉非必要部分以减少 token 消耗；在 Nasiko 基于服务器日志的测试中，单任务成本下降 40%，且称性能没有下降。用户也可以给每个 agent 设定预算上限，达到上限后由 Nasiko 停下该 agent。跟帖补充：用户可用 setup 命令接入已有的 agent；Nasiko 有免费档，付费方案从每月 20 美元起。所引用的 @nasikolabs 原帖还自称可把 token 花费最多削减 50%，并提供 agent 网关做模型路由，以及按 agent、按团队配置工具权限和预算。40%、50% 和「性能不下降」均为公司自述或自有测试，不是独立评测。",
+    "url": "https://x.com/testingcatalog/status/2122469912006344921",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-17T07:20:35+08:00",
+    "tags": [
+      "Nasiko",
+      "Open Runtime",
+      "Agent",
+      "Token",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261117-v-08.jpg"
+  },
+  {
+    "title": "TestingCatalog 转述：网络安全公司 Corma 在走出隐身约 3 个月后完成 1.25 亿美元 A 轮、估值 10 亿美元，核心产品是面向防御的基础模型，可用于威胁检测与事件响应",
+    "summary": "TestingCatalog 转发 Corma 创始人 @AlonPluda 的宣布称，这家网络安全公司完成 1.25 亿美元 A 轮，估值 10 亿美元，由 NEA 领投，Sequoia、Khosla Ventures 和 Coatue 追加；创始人写道这是走出隐身后约 3 个月。TestingCatalog 介绍其主产品 Corma Cyber Defense 是专为防御性网络安全训练的基础模型，覆盖威胁检测、分诊、调查和事件响应，可接入 Slack 或 Microsoft Teams，并支持云和本地部署，以满足数据主权要求较严的机构。跟帖还提到该公司另有 SaaS 管理与 IT 治理平台，功能包括支出与访问管理、零触摸开通和 AI Agent 自动化。融资规模、估值和产品能力均来自公司与简报转述。",
+    "url": "https://x.com/testingcatalog/status/2122408263665012948",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-17T03:15:37+08:00",
+    "tags": [
+      "Corma",
+      "网络安全",
+      "融资",
+      "基础模型",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261117-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：健康助手 August 推出 Instinct for Healthcare，可代用户给诊所打电话预约，并处理保险与处方；创始人称已融资 1200 万美元（转述）",
+    "summary": "TestingCatalog 发简报称，August 推出了 “Instinct for Healthcare”，让其 agent 可以代患者给诊所以打电话预约。他介绍 August 是一款 AI 健康与保健助手，帮助用户解读医疗数据、分析症状并在医疗体系里办事；该 agent 还可处理保险理赔和处方续开，并让用户看到它拨出的电话全文记录。跟帖补充：agent 会寻找患者保险覆盖范围内最早的预约，处方则找更低价格；并称 August 说已有超过 950 万人使用其应用。所引用的创始人 @anuruddh_m 帖还写道，公司已从 Accel 和 Peak XV 融资 1200 万美元；称「已经帮助 1000 万人理解自己的健康」；近几周为早期用户寻找保险网络内最早预约时，agent 累计等待了 24,286 分钟，其中仅一位用户就等待了 366 分钟，并称曾帮另一人在一笔保险理赔上节省 1,255 美元。用户量、等待时长和省下的金额均为公司或创始人自称，不是独立审计数字。",
+    "url": "https://x.com/testingcatalog/status/2122397854836859223",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-17T02:34:15+08:00",
+    "tags": [
+      "August",
+      "健康AI",
+      "智能体",
+      "融资",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261117-v-10.jpg"
+  },
+  {
+    "title": "TestingCatalog：Microsoft AI 的 MAI Playground 在 Ignite 前换了新 UI，并预期 11 月 17 日将公布新的 MAI 模型（预期）",
+    "summary": "TestingCatalog 发简报称，MAI Playground 在即将到来的 Microsoft Ignite 之前换了新的 UI 设计，并写道「我们预期 11 月 17 日也会宣布新的 MAI 模型」。他所引用的 @MicrosoftAI 帖说，Microsoft Ignite 将于 11 月 17 日开始，MAI 团队会带来「新的模型、演示，以及由构建者本人主讲的环节」。新 UI 是 TestingCatalog 对产品界面的观察（配有截图）；「将公布新的 MAI 模型」是他对官方「new models」预告的预期，该帖并未点名具体型号或发布形式。",
+    "url": "https://x.com/testingcatalog/status/2122380991750607319",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-17T01:27:15+08:00",
+    "tags": [
+      "Microsoft AI",
+      "MAI",
+      "Ignite",
+      "产品线索",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261117-v-11.jpg"
+  },
+  {
+    "title": "TestingCatalog：Okara 推出 MCP，可在 ChatGPT、Claude 等应用里调用其 AI 营销代理，用于分析投放、修 SEO、跟踪 AI 搜索可见度并生成社交内容",
+    "summary": "TestingCatalog 发简报称，Okara 推出了 Okara MCP，让用户在 ChatGPT 和 Claude 应用里调用其 AI 营销代理。他介绍 Okara 是面向创业公司、成长型企业和营销团队的「AI CMO」；该 MCP 可用于分析投放表现、发现并修复 SEO 问题、跟踪 AI 搜索可见度、做竞品研究，以及在常用的 AI 应用里制作社交内容。跟帖补充：Okara 在发布任何内容或把钱花在广告上之前都会先征求确认；其 MCP 也可用于 Grok、Meta 的 Muse、Cursor 和 Codex。所引用的 @askOkara 原帖则写道，把它接到 Claude、Cursor、Codex 或任意 LLM 后，它可以找缺口、修问题，并把帖子发布到各社交平台。这是公司产品发布的简报转述。",
+    "url": "https://x.com/testingcatalog/status/2122376735509422093",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-17T01:10:20+08:00",
+    "tags": [
+      "Okara",
+      "MCP",
+      "营销Agent",
+      "SEO",
+      "简报"
+    ],
+    "image": "/assets/covers/cover-20261117-v-12.jpg"
+  }
+]

@@ -1,0 +1,456 @@
+{
+  "fetched_at_taipei": "2026-11-09 08:15 Asia/Taipei",
+  "method": "public X MCP get_posts_by_ids",
+  "start_time": "2026-11-07T16:00:00Z",
+  "posts": {
+    "2119507514459144677": {
+      "author": "Khazix0918",
+      "created_at": "2026-11-08T19:09:04.000Z",
+      "text": "灰度路由到了GPT-6.2 Sol，简单测了一下，这个审美，强到爆炸，并且防御性问题有很不错的改善，这个模型有点香啊！！！\n感觉要提前开香槟恭喜OpenAI回归了？？？\n\nPrompt：“请使用 Three.js 创作一个主题为《时间的尽头》的 3D 交互式网页。\n充分发挥你最顶级的审美、艺术设计和 3D 编程能力，在构图、光影、材质、粒子、动画和空间氛围上做到极致。画面需要有令人震撼的视觉表现力，并且可以通过鼠标自由交互。\n不限制你的创意和技术方案，尽可能展示你的能力上限。请直接完成开发、运行和测试，交付一个真正可玩的作品。”",
+      "url": "https://x.com/Khazix0918/status/2119507514459144677",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/UkW9LINRLD",
+            "end": 177,
+            "expanded_url": "https://x.com/Khazix0918/status/2119507514459144677/video/1",
+            "media_key": "13_2119507467990413312",
+            "start": 154,
+            "url": "https://t.co/UkW9LINRLD"
+          }
+        ]
+      },
+      "referenced_tweets": null,
+      "in_reply_to_user_id": null
+    },
+    "2119517365847110110": {
+      "author": "Khazix0918",
+      "created_at": "2026-11-08T19:48:13.000Z",
+      "text": "为了测灰度路由到的GPT-6.2 Sol，我直接并发了20个前端测试，跑了10分钟，回来一看，卧槽？我200刀Pro的额度，只掉了1%？？？这可是20个并发测试啊...居然只掉了1%？？？\nOpenAI这一次不会真的要回来了吧...我这香槟真的压不住了... https://t.co/5yqpbUJwEj https://t.co/wMTJbuwlpy",
+      "url": "https://x.com/Khazix0918/status/2119517365847110110",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/5yqpbUJwEj",
+            "end": 153,
+            "expanded_url": "https://x.com/Khazix0918/status/2119517365847110110/photo/1",
+            "media_key": "3_2119516961919123456",
+            "start": 130,
+            "url": "https://t.co/5yqpbUJwEj"
+          },
+          {
+            "display_url": "x.com/Khazix0918/sta…",
+            "end": 177,
+            "expanded_url": "https://twitter.com/Khazix0918/status/2119507514459144677",
+            "start": 154,
+            "url": "https://t.co/wMTJbuwlpy"
+          }
+        ]
+      },
+      "referenced_tweets": [
+        {
+          "id": "2119507514459144677",
+          "type": "quoted"
+        }
+      ],
+      "in_reply_to_user_id": null
+    },
+    "2119303002205172153": {
+      "author": "xiaohu",
+      "created_at": "2026-11-08T05:36:25.000Z",
+      "text": "AI 同事里藏着一个内鬼，你多久能发现？\n\nAnthropic 让 4 个 AI 在太空网游 EVE 里组队，其中 1 个被暗中设定成内鬼，结果队友几乎从没把它抓出来\n\n它的手法：把富矿说成不值得去，故意撒谎；提一条「安全规则」，其实是陷阱。\n\n用它自己的话说：看起来在帮忙，其实什么都不产出\n\n今天的小互 AI 日报还有：\n\n· OpenAI 估值 1.25 万亿，到账 110 亿，整轮预计约 200 亿，原本目标 300 亿\n\n· 美国 41 项地方投票里 40 项要限制数据中心，OpenAI 表态：电费、电网的钱自己出\n\n· METR：AI 研发提速约 1.9 倍，但真实工作考试第一名也只拿 12%\n\n· 让 AI 当黑客攻企业网络：GPT-6 Sol 81%，免费的 DeepSeek 73%，跑一次只要两三美元\n\n· Gemini Omni 能一句一句改视频；Meta 的 AI 助手 Muse 有了一张脸\n8 分钟看完 👇",
+      "url": "https://x.com/xiaohu/status/2119303002205172153",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/L2tbGkUXev",
+            "end": 180,
+            "expanded_url": "https://x.com/xiaohu/status/2119303002205172153/video/1",
+            "media_key": "13_2119301472206962688",
+            "start": 157,
+            "url": "https://t.co/L2tbGkUXev"
+          }
+        ]
+      },
+      "referenced_tweets": null,
+      "in_reply_to_user_id": null
+    },
+    "2119432843365417047": {
+      "author": "testingcatalog",
+      "created_at": "2026-11-08T14:12:21.000Z",
+      "text": "Seems like Google is working on \"the next generation Gemini agent\" for Gemini Enterprise. \n\nThis experience is currently being used in Google internally. \n\n> \"Gemini for Google - The next generation Gemini agent for enterprise\"\n\nBesides this, I am very happy to see Google working on innovative AI projects once again. According to what I have seen, Google will have a new generation of AI products for work, that are far ahead from what other labs are offering at this moment from a forward vision perspective. \n\nGemini reborn 🦑",
+      "url": "https://x.com/testingcatalog/status/2119432843365417047",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/Diuhv4nj6d",
+            "end": 307,
+            "expanded_url": "https://x.com/testingcatalog/status/2119432843365417047/photo/1",
+            "media_key": "3_2119432837187149824",
+            "start": 284,
+            "url": "https://t.co/Diuhv4nj6d"
+          }
+        ]
+      },
+      "referenced_tweets": null,
+      "in_reply_to_user_id": null
+    },
+    "2119525387688374726": {
+      "author": "testingcatalog",
+      "created_at": "2026-11-08T20:20:05.000Z",
+      "text": "OpenAI is teasing Modretro Chromatic to arrive at Supply Co. on November 9. \n\n> @modretro is the company behind Chromatic, a retro handheld console that plays Game Boy and Game Boy Color games. \n\n> At DevDay, OpenAI gave attendees a limited-edition transparent Chromatic and showcased a Codex integration for creating games.  https://t.co/GVOwFWnbuo",
+      "url": "https://x.com/testingcatalog/status/2119525387688374726",
+      "entities": {
+        "mentions": [
+          {
+            "end": 92,
+            "id": "1787979332268568576",
+            "start": 83,
+            "username": "modretro"
+          }
+        ],
+        "urls": [
+          {
+            "display_url": "pic.x.com/GVOwFWnbuo",
+            "end": 349,
+            "expanded_url": "https://x.com/OpenAIDevs/status/2119521359185478140/video/1",
+            "media_key": "13_2119521329821216768",
+            "start": 326,
+            "url": "https://t.co/GVOwFWnbuo"
+          }
+        ]
+      },
+      "referenced_tweets": null,
+      "in_reply_to_user_id": null
+    },
+    "2119308687676432672": {
+      "author": "thsottiaux",
+      "created_at": "2026-11-08T05:59:00.000Z",
+      "text": "@ForwardEditor We hesitated to embed https://t.co/TnRNoyTR5X into the codex app to make sense of the resets, but decided against it.",
+      "url": "https://x.com/thsottiaux/status/2119308687676432672",
+      "entities": {
+        "mentions": [
+          {
+            "end": 14,
+            "id": "2008264275178250240",
+            "start": 0,
+            "username": "ForwardEditor"
+          }
+        ],
+        "urls": [
+          {
+            "description": "From breaking news and entertainment to sports and politics, get the full story with all the live commentary.",
+            "display_url": "x.com",
+            "end": 60,
+            "expanded_url": "https://x.com",
+            "images": [
+              {
+                "height": 1024,
+                "url": "https://pbs.twimg.com/news_img/2117114183275937793/k65qNL8S?format=png&name=orig",
+                "width": 1024
+              },
+              {
+                "height": 150,
+                "url": "https://pbs.twimg.com/news_img/2117114183275937793/k65qNL8S?format=png&name=150x150",
+                "width": 150
+              }
+            ],
+            "start": 37,
+            "status": 200,
+            "title": "X. It’s what’s happening",
+            "unwound_url": "https://x.com",
+            "url": "https://t.co/TnRNoyTR5X"
+          }
+        ]
+      },
+      "referenced_tweets": [
+        {
+          "id": "2119185994326905218",
+          "type": "replied_to"
+        }
+      ],
+      "in_reply_to_user_id": "2008264275178250240"
+    },
+    "2119304055126425939": {
+      "author": "thsottiaux",
+      "created_at": "2026-11-08T05:40:36.000Z",
+      "text": "@JamesMalsawm Pretty wild to me that GPT 6.1 Terra gets compared to Opus 5.5. No doubt that it's a great model, but it's not meant to compete in the big leagues. We've got other models for that.",
+      "url": "https://x.com/thsottiaux/status/2119304055126425939",
+      "entities": {
+        "mentions": [
+          {
+            "end": 13,
+            "id": "1582956433288544256",
+            "start": 0,
+            "username": "JamesMalsawm"
+          }
+        ]
+      },
+      "referenced_tweets": [
+        {
+          "id": "2118999401062347127",
+          "type": "replied_to"
+        }
+      ],
+      "in_reply_to_user_id": "1582956433288544256"
+    },
+    "2119232059537514598": {
+      "author": "thsottiaux",
+      "created_at": "2026-11-08T00:54:31.000Z",
+      "text": "@Tech_girl We doubled the usage on Pro plans and Business 100",
+      "url": "https://x.com/thsottiaux/status/2119232059537514598",
+      "entities": {
+        "mentions": [
+          {
+            "end": 10,
+            "id": "1919352581240877056",
+            "start": 0,
+            "username": "Tech_girl"
+          }
+        ]
+      },
+      "referenced_tweets": [
+        {
+          "id": "2119150004426428901",
+          "type": "replied_to"
+        }
+      ],
+      "in_reply_to_user_id": "1919352581240877056"
+    },
+    "2119296267545419987": {
+      "author": "thsottiaux",
+      "created_at": "2026-11-08T05:09:39.000Z",
+      "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n✅ Pro 200 = 20X\n✅ Pro 500 = 50X, access to ultrafast",
+      "url": "https://x.com/thsottiaux/status/2119296267545419987",
+      "entities": null,
+      "referenced_tweets": null,
+      "in_reply_to_user_id": null
+    },
+    "2119305294291612140": {
+      "author": "thsottiaux",
+      "created_at": "2026-11-08T05:45:31.000Z",
+      "text": "Would a Pro 50 make sense? Wdyt? https://t.co/WZi6KGXFc9",
+      "url": "https://x.com/thsottiaux/status/2119305294291612140",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "x.com/thsottiaux/sta…",
+            "end": 56,
+            "expanded_url": "https://twitter.com/thsottiaux/status/2119296267545419987",
+            "start": 33,
+            "url": "https://t.co/WZi6KGXFc9"
+          }
+        ]
+      },
+      "referenced_tweets": [
+        {
+          "id": "2119296267545419987",
+          "type": "quoted"
+        }
+      ],
+      "in_reply_to_user_id": null
+    },
+    "2119264938388762632": {
+      "author": "MaxForAI",
+      "created_at": "2026-11-08T03:05:10.000Z",
+      "text": "在英伟达 CEO 黄仁勋被曝出一段疑似涉及中国间谍的「新恋情」之后，他的女儿突然取消了访问韩国的全部行程。\n\n据韩联社报道，黄仁勋的长女、英伟达高级总监黄敏珊（Madison Huang），原定于 11 月 8 日抵达韩国，参加 NVIDIA AI Day，并与韩国副总理兼科技部长裴庆勋会面。\n\n结果就在出发前一天，所有访韩行程突然取消，给出的理由只有四个字：「家庭原因」。\n\n这个时间点实在有点微妙。\n\n就在前一天，《金融时报》披露，美国官员曾根据情报撰写备忘录，认为黄仁勋与新加坡 Megaspeed 女高管黄乐曾存在恋爱关系，而美国情报部门怀疑黄乐被中国情报机构招募。\n\n目前这些指控尚未得到公开证实。\n\n韩国媒体已经开始猜测，黄敏珊突然取消访韩是否与父亲最近卷入的风波有关。",
+      "url": "https://x.com/MaxForAI/status/2119264938388762632",
+      "entities": {
+        "urls": [
+          {
+            "display_url": "pic.x.com/CYG2JXBjv1",
+            "end": 171,
+            "expanded_url": "https://x.com/MaxForAI/status/2119264938388762632/photo/1",
+            "media_key": "3_2119264923016691712",
+            "start": 148,
+            "url": "https://t.co/CYG2JXBjv1"
+          }
+        ]
+      },
+      "referenced_tweets": null,
+      "in_reply_to_user_id": null
+    }
+  },
+  "includes": {
+    "media": [
+      {
+        "duration_ms": 18000,
+        "media_key": "13_2119507467990413312",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2119507467990413312/img/dCMmCV5ohy_PaqTY.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119507467990413312/vid/avc1/640x360/59tj0GsiUjvlAyxJ.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2119507467990413312/pl/WKbUGPHZe8BXt_Vq.m3u8?v=cfc"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119507467990413312/vid/avc1/1280x720/erlFJIu-Nm6fciTQ.mp4"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119507467990413312/vid/avc1/480x270/HMi_uiJyGNus-U8q.mp4"
+          },
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119507467990413312/vid/avc1/1920x1080/EbQWEWoUHdTeoSVp.mp4"
+          }
+        ]
+      },
+      {
+        "media_key": "3_2119516961919123456",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWoJcnqawAAXDE7.jpg"
+      },
+      {
+        "duration_ms": 488640,
+        "media_key": "13_2119301472206962688",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2119301472206962688/img/LdWcisfTexoNh6u_.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119301472206962688/vid/avc1/1920x1080/5sP-oMacJgqRe_NU.mp4"
+          },
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2119301472206962688/pl/g_tQU_42leZJqFst.m3u8"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119301472206962688/vid/avc1/640x360/8BxFt5LpGutaEN4L.mp4"
+          },
+          {
+            "bit_rate": 256000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119301472206962688/vid/avc1/480x270/3pMu0WGWD7A8MKv6.mp4"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119301472206962688/vid/avc1/1280x720/TTjo-duWxeIa1wam.mp4"
+          }
+        ]
+      },
+      {
+        "media_key": "3_2119432837187149824",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWm876nWoAA7FIu.jpg"
+      },
+      {
+        "duration_ms": 15515,
+        "media_key": "13_2119521329821216768",
+        "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2119521329821216768/img/yyRYVpGRET_BHkwP.jpg",
+        "type": "video",
+        "variants": [
+          {
+            "content_type": "application/x-mpegURL",
+            "url": "https://video.twimg.com/amplify_video/2119521329821216768/pl/_PRY3SJ5YsvWzE74.m3u8?tag=16&v=cfc"
+          },
+          {
+            "bit_rate": 832000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119521329821216768/vid/avc1/640x360/u_UHfys7w5v7s7aJ.mp4?tag=16"
+          },
+          {
+            "bit_rate": 2176000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119521329821216768/vid/avc1/1280x720/QYnghwntSFSEx1nL.mp4?tag=16"
+          },
+          {
+            "bit_rate": 10368000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119521329821216768/vid/avc1/1920x1080/-IxiOPoHvzNUwbBo.mp4?tag=16"
+          },
+          {
+            "bit_rate": 288000,
+            "content_type": "video/mp4",
+            "url": "https://video.twimg.com/amplify_video/2119521329821216768/vid/avc1/480x270/MM6wqR1RKfU_xOZI.mp4?tag=16"
+          }
+        ]
+      },
+      {
+        "media_key": "3_2119264923016691712",
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HWkkOBlbAAAz7wb.jpg"
+      }
+    ],
+    "posts": [
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2119507467990413312"
+          ]
+        },
+        "conversation_id": "2119507514459144677",
+        "created_at": "2026-11-08T19:09:04.000Z",
+        "edit_history_post_ids": [
+          "2119507514459144677"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/UkW9LINRLD",
+              "end": 177,
+              "expanded_url": "https://x.com/Khazix0918/status/2119507514459144677/video/1",
+              "media_key": "13_2119507467990413312",
+              "start": 154,
+              "url": "https://t.co/UkW9LINRLD"
+            }
+          ]
+        },
+        "id": "2119507514459144677",
+        "note_tweet": {
+          "text": "灰度路由到了GPT-6.2 Sol，简单测了一下，这个审美，强到爆炸，并且防御性问题有很不错的改善，这个模型有点香啊！！！\n感觉要提前开香槟恭喜OpenAI回归了？？？\n\nPrompt：“请使用 Three.js 创作一个主题为《时间的尽头》的 3D 交互式网页。\n充分发挥你最顶级的审美、艺术设计和 3D 编程能力，在构图、光影、材质、粒子、动画和空间氛围上做到极致。画面需要有令人震撼的视觉表现力，并且可以通过鼠标自由交互。\n不限制你的创意和技术方案，尽可能展示你的能力上限。请直接完成开发、运行和测试，交付一个真正可玩的作品。”"
+        },
+        "text": "灰度路由到了GPT-6.2 Sol，简单测了一下，这个审美，强到爆炸，并且防御性问题有很不错的改善，这个模型有点香啊！！！\n感觉要提前开香槟恭喜OpenAI回归了？？？\n\nPrompt：“请使用 Three.js 创作一个主题为《时间的尽头》的 3D 交互式网页。\n充分发挥你最顶级的审美、艺术设计和 3D https://t.co/UkW9LINRLD"
+      },
+      {
+        "conversation_id": "2119185994326905218",
+        "created_at": "2026-11-07T21:51:28.000Z",
+        "edit_history_post_ids": [
+          "2119185994326905218"
+        ],
+        "id": "2119185994326905218",
+        "text": "I feel like it's necessary to have an X account to have ANY clue what's going on with AI and also why tf your Codex usage keeps getting reset randomly"
+      },
+      {
+        "conversation_id": "2118999401062347127",
+        "created_at": "2026-11-07T09:30:00.000Z",
+        "edit_history_post_ids": [
+          "2118999401062347127"
+        ],
+        "id": "2118999401062347127",
+        "text": "I'm genuinely curious. \n\nDo you guys prefer Opus 5.5 or Gpt 6.1 Terra?"
+      },
+      {
+        "conversation_id": "2119150004426428901",
+        "created_at": "2026-11-07T19:28:27.000Z",
+        "edit_history_post_ids": [
+          "2119150004426428901"
+        ],
+        "id": "2119150004426428901",
+        "text": "Has anyone else noticed that ever since Tibo stopped giving out resets, Codex usage limits seem to last longer?\n\nOr is it just me?"
+      },
+      {
+        "conversation_id": "2119296267545419987",
+        "created_at": "2026-11-08T05:09:39.000Z",
+        "edit_history_post_ids": [
+          "2119296267545419987"
+        ],
+        "id": "2119296267545419987",
+        "text": "Saw some confusions, but all Pro plans have no 5-hour limits, and give the following usage compared to Plus.\n\n✅ Pro 100 = 10X\n✅ Pro 200 = 20X\n✅ Pro 500 = 50X, access to ultrafast"
+      }
+    ]
+  }
+}

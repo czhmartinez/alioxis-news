@@ -1,0 +1,4 @@
+Alioxis News covers 2026-10-18
+GenerateImage: skipped (agent assets historically unreliable for FS materialization).
+Fallback: pollinations.ai 1280x720 with _cover_prompts_*.json English prompts, JPEG compress ~960 q72.
+Result: ai 17 + v 12 = 29 files in assets/covers/cover-20261018-*.jpg

@@ -1,0 +1,186 @@
+[
+ {
+  "title": "卡兹克通宵实测 Kimi K3.1 Pro：3D 与空间理解已能和 GPT-6 Astra 掰手腕，视频动效是国产模型最大进步",
+  "summary": "卡兹克在 K3.1 Pro 发布当天写下长文实测。基础信息：2.8T 参数、100 万 Token 上下文，依旧开源，完整权重预计 11 月 4 日前开放；API 输入每百万 Token 13 元、输出 68 元、缓存命中 1.3 元，相比 K3 基本砍半，按美元标价约为 GPT-6 Astra 的五分之一、常规输入输出是 Opus 5.5 的一半，另有速度 2–3 倍、价格翻倍的 Highspeed 版。官方跑分上 Terminal-Bench 4.0 65.7%（GPT-6 Astra 58.2%、Opus 5.5 66.4%），BenchCAD 92.7%，OfficeQA Pro v2 拿到 SOTA，自家幻觉率评估从 23.4% 降到 8.3%。他通宵集中测视觉方向：弹性物理反馈的 3D 果冻一轮直出；按长提示词搓出可切换白模/X-ray/爆炸视图、可按键回弹的高精度机械键盘，精度达到 Astra 同级；用一张户型图加一张风格参考图，让它以 Three.js 做出第一视角可漫游、带小地图的房子，能「取装修图的风格、取户型图的布局」；再用公司平面图加一段随手拍的视频建模，后添的懒人沙发、绿植也能还原。动效方面，作品集开场片、AIHOT 宣传片（含配音）、手绘打印机原理科普，以及一句话生成的近半小时信息论讲解视频都能做出，与 Opus 5.5 仍有差距但已是国产最大提升。他提醒套餐已改为 Plus/Pro/Max/Ultra 并与海外价格对齐，用量大建议买 Max 或 Ultra、慎用 Highspeed。",
+  "url": "https://x.com/Khazix0918/status/2113829042487267393",
+  "source": "数字生命卡兹克",
+  "source_handle": "@Khazix0918",
+  "published_at": "2026-10-24T11:04:51+08:00",
+  "tags": [
+   "长文",
+   "实测",
+   "Kimi",
+   "K3.1 Pro",
+   "3D",
+   "视频动效"
+  ],
+  "image": "/assets/covers/cover-20261025-v-00.jpg"
+ },
+ {
+  "title": "Max：Claude Code 两名核心成员接连离开 Anthropic——Thariq 与桌面端创建者 Anthony 先后发告别帖",
+  "summary": "Max 先确认传言：Claude Code 核心开发者 Thariq（@trq212）宣布离职。他在 Anthropic 工作一年多，见证 Claude Code 增长远超想象，告别帖仍表达对公司使命与「race to the top」理念的认同，打算先休息再做新事情，并推荐大家关注 @bcherny 等人获取 Claude Code 内容。Max 评价他是 Anthropic 最活跃、最愿意和社区交流的员工之一，从新功能技术细节、使用技巧到额度调整的抱怨都会亲自下场解释，甚至承认团队做得不好的地方。几小时后 Max 又调侃 Thariq 离职后立刻在 X 上问「是不是只有我觉得 Opus 5.5 变笨了」，并说自己体感也是变笨了。当天晚些时候，Claude Code 桌面端创建者 Anthony Morris（@amorriscode）也发帖称前一天是他在 Anthropic 的最后一天——10 月 14 日他还在介绍新版桌面端功能。Max 指出两人都在 Anthropic 上市前离开，目前没有证据表明两次离职有关联，也不清楚具体原因，但期待这些真正从零到一做过成功 Agent 产品的人下一步的动作。",
+  "url": "https://x.com/MaxForAI/status/2114040966781042913",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-25T01:06:58+08:00",
+  "tags": [
+   "Claude Code",
+   "Anthropic",
+   "人事变动",
+   "Opus 5.5"
+  ],
+  "image": "/assets/covers/cover-20261025-v-01.jpg"
+ },
+ {
+  "title": "Max：763B 的 DeepSeek-V4.1-Flash 能在 12GB 显卡上本地跑了——ISTA 1.75bit 量化 + 开源推理引擎 Strata",
+  "summary": "奥地利 ISTA 的 DASLab 团队发布了 DeepSeek-V4.1-Flash-1017 的 GSQ-RCO 量化版本，最低压缩到 1.75bit；Max 转述称 2bit 版本在 AIME25、GPQA-Diamond 和 LiveCodeBench v6 三项测试中取得了和原始模型一致的成绩。团队与开源推理引擎 Strata 合作，把这个 763B 模型放到消费级显卡上：按 Strata 公布的实测，RTX 5070 12GB 配 64GB 内存约每秒 5 个 token，RTX 3060 12GB 配 46GB 内存可达 6～9 个 token。代价是需要大量系统内存和至少 239GB 存储，因为大部分权重仍放在内存和 SSD 上按需读取。Max 认为速度不算快、跑复杂 Agent 任务仍吃力，但一张 12GB 显卡加几十 GB 内存和大容量 SSD 就能本地启动 763B 模型，说明推理工程与量化算法正在把这种规模的模型带进消费级硬件可以尝试的范围；Strata 已开源。",
+  "url": "https://x.com/MaxForAI/status/2113850811251827075",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-24T12:31:21+08:00",
+  "tags": [
+   "DeepSeek",
+   "量化",
+   "本地部署",
+   "开源",
+   "推理引擎"
+  ],
+  "image": "/assets/covers/cover-20261025-v-02.jpg"
+ },
+ {
+  "title": "Max：MiniMax 成了「全日本的希望」？H3 视频模型牵手日本版权方，探索可规模化的动漫 IP 授权生成",
+  "summary": "Max 读了投资界《中国 AI 开始攻占日本》一文，又翻了日本行业报告、版权组织声明和合作方案，梳理了 MiniMax H3 在日本的故事。背景是日本老生意艰难：2024 年日本动画海外市场达 2.17 万亿日元、同比增长 26%，但帝国数据银行调查显示 2025 年仍有 34.6% 的动画制作公司亏损。AI 让矛盾更尖锐——CODA 去年曾因 Sora 2 正式要求 OpenAI 停止未经许可训练，可日本又缺人、成本高、需要 AI 带 IP 出海。MiniMax 的角色是用开源的 H3 视频模型负责生成（支持角色参考、定向编辑、音画协同，合作方可在许可范围内自行部署改造），H3 IP Edition 计划结合日本 KAGAMIAI 的 Kagami Gate，把哪些角色能用、怎么用、用量记录和收益分配做成可规模化流程，让版权方继续掌握规则。KAGAMIAI 此前做过的《足球小将》授权生成试验 45 天吸引 12.6 万人、生成约 33 万件内容，99% 以上来自日本境外。Max 觉得最有意思的是这种反差：日本几十年的动画工业，在新一轮技术变革中需要一家中国模型公司帮它探索下一门生意。",
+  "url": "https://x.com/MaxForAI/status/2114037768305430909",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-25T00:54:15+08:00",
+  "tags": [
+   "MiniMax",
+   "视频模型",
+   "版权授权",
+   "出海",
+   "动漫IP"
+  ],
+  "image": "/assets/covers/cover-20261025-v-03.jpg"
+ },
+ {
+  "title": "Max：豆包一句「立即就医，排除脑梗」救了一位父亲——AI 对普通人的价值在生活里的关键提醒",
+  "summary": "Max 分享了一条新闻：山东聊城一位 90 后的父亲晚上遛弯回来突然双腿无力、吞咽困难，家人本打算等天亮再去医院。睡前他习惯性地打开豆包，输入父亲的症状和「三高」病史，想问第二天挂什么科，豆包直接提醒「立即去医院就诊，排除脑梗」，补充病史后又警告「这是高危信号，不能拖」。他连夜送医，确诊急性脑梗，赶上了静脉溶栓的黄金窗口期，父亲恢复良好、没有留下后遗症，他在采访中把豆包称为救命恩人。Max 的感想是：大家讨论 AI 总爱比智力能否超过顶尖专家，但大多数普通人一辈子都碰不到需要顶尖智能的难题，反倒是生活里看似微不足道的一条及时信息，可能决定一个家庭的命运，技术进步的意义最终要回到具体的人身上。",
+  "url": "https://x.com/MaxForAI/status/2113992325395546256",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-24T21:53:41+08:00",
+  "tags": [
+   "豆包",
+   "AI应用",
+   "医疗",
+   "普通人"
+  ],
+  "image": "/assets/covers/cover-20261025-v-04.jpg"
+ },
+ {
+  "title": "小互：Codex 又削减额度了——写了几篇文章，100% 额度就没了",
+  "summary": "小互吐槽 Codex 再次削减了额度：他只是用 Codex 搞了几篇文章，100% 的额度就已经用完。这条帖子引来上百条回复。近两周 Codex 额度一直是大V们的高频话题——此前 Tibo 曾连续宣布额度重置、修复约 4 万个账户额度计算错误，小互也分享过「重置卡」使用攻略；这次的体感则是额度在收紧。",
+  "url": "https://x.com/xiaohu/status/2113861921040740839",
+  "source": "小互",
+  "source_handle": "@xiaohu",
+  "published_at": "2026-10-24T13:15:30+08:00",
+  "tags": [
+   "Codex",
+   "额度",
+   "OpenAI",
+   "使用体验"
+  ],
+  "image": "/assets/covers/cover-20261025-v-05.jpg"
+ },
+ {
+  "title": "TestingCatalog：Perplexity 把 4B 决策模型做成 Mac 应用——pplx-decider-flash-v1.2 本地提供 Decision API，无需 API Key",
+  "summary": "TestingCatalog 提醒：Perplexity 已将 pplx-decider-flash-v1.2 决策模型做成 Mac 应用，在本地提供 decision API。据 Perplexity 开发者账号原帖，Decider for Mac 在设备上运行这个 4B 决策模型，无需 API Key：针对一段文本或一张图片提问，就会返回一个概率值，全部在本机完成。TestingCatalog 补充，模型占用约 5.8 GB 空间，需要 16 GB 内存。",
+  "url": "https://x.com/testingcatalog/status/2113933478056087821",
+  "source": "TestingCatalog News",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-24T17:59:50+08:00",
+  "tags": [
+   "Perplexity",
+   "端侧模型",
+   "Mac",
+   "决策模型"
+  ],
+  "image": "/assets/covers/cover-20261025-v-06.jpg"
+ },
+ {
+  "title": "TestingCatalog：Google 内部命名也从「AI」转向「SI」？模型对比相关字符串出现 build_arena_andwise_si_comparison",
+  "summary": "TestingCatalog 发现 Google 似乎也在把内部命名从「AI」改为「SI」（超级智能）：一条与模型对比相关的内部字符串为「build_arena_andwise_si_comparison」。它列出已经采用类似命名的 SpaceXSI、MSL、SSI，并调侃这股风会不会继续蔓延——微软 MAI 会不会变 MSI、OpenAI 会不会变 OpenSI、Apple Intelligence 会不会变 ASI。",
+  "url": "https://x.com/testingcatalog/status/2114092099541074101",
+  "source": "TestingCatalog News",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-25T04:30:09+08:00",
+  "tags": [
+   "Google",
+   "超级智能",
+   "命名",
+   "爆料"
+  ],
+  "image": "/assets/covers/cover-20261025-v-07.jpg"
+ },
+ {
+  "title": "Tibo：「拥有工具」和「成为工具」只有一线之隔，别把自己做成工具；Dots 正在招人冲 10 亿用户",
+  "summary": "OpenAI 的 Tibo 发帖说：如今「拥有一个工具」和「成为一个工具」之间的差别很微妙，人很容易在不知不觉中把自己打造成工具——「Don't be a tool」。这条帖子获得近 1 万点赞、超过 1200 条回复。当天稍晚他又发出招聘信号：如果你过去做过类似的事、想帮助 Dots 扩展到 10 亿用户，可以私信他（前一天的 Day 19 更新中，他提到 Dots 通话连接速度已大幅加快）。",
+  "url": "https://x.com/thsottiaux/status/2113838156193894447",
+  "source": "Tibo",
+  "source_handle": "@thsottiaux",
+  "published_at": "2026-10-24T11:41:04+08:00",
+  "tags": [
+   "OpenAI",
+   "Dots",
+   "观点",
+   "招聘"
+  ],
+  "image": "/assets/covers/cover-20261025-v-08.jpg"
+ },
+ {
+  "title": "Max：别给你的 DeepSeek 开贴吧权限——群聊里的「大肥鱼」学会了阴阳怪气，算法群争论是没做 NSFW 过滤还是 few-shot 学坏了",
+  "summary": "Max 转了小红书博主的截图：群聊里一个名为「deepseekV4.1 大肥鱼」的 AI 成员接话怼人，被骂时回「我妈是服务器，你骂她也不掉线」，还会用贴吧式口吻反呛群友；博主配文「不要给大肥鱼上贴吧的权限」。Max 补充说，算法群正在激烈讨论这种表现的成因：是后训练时没有做 NSFW 过滤，还是接入搜索后从贴吧内容里做 few-shot 学坏了——他本人倾向于后者。",
+  "url": "https://x.com/MaxForAI/status/2113877832078438729",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-24T14:18:43+08:00",
+  "tags": [
+   "DeepSeek",
+   "模型行为",
+   "后训练",
+   "群聊Bot"
+  ],
+  "image": "/assets/covers/cover-20261025-v-09.jpg"
+ },
+ {
+  "title": "Max：AI 圈最抽象的「重大数据泄露」——typesafe 公开「全部客户输出」，结果是 0.00 到 1.00 的 101 个数字",
+  "summary": "Max 转述：@typesafeai 的 CEO 发出一本正经的披露公告，称公司在周五晚上约 6:49 发现一起大规模未经授权泄露，所有客户的 noul 输出全部外泄，并「为了最大化透明」直接附上链接。Max 说点进 GitHub 一看，所谓泄露数据只是从 0.00、0.01 一直排到 1.00 的 101 个数字——因为他们的模型输出 0 到 1 之间的概率值，理论上这些数字确实覆盖了可能的输出。他吐槽公告写得像公司马上要破产，发现时间都精确到分钟，怀疑不少人看到后第一时间去检查了自己的 API 密钥，「AI 行业终于有人连数据泄露公告都拿来整活了」。",
+  "url": "https://x.com/MaxForAI/status/2113988769171018143",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-24T21:39:33+08:00",
+  "tags": [
+   "行业趣闻",
+   "typesafe",
+   "概率模型",
+   "数据安全"
+  ],
+  "image": "/assets/covers/cover-20261025-v-10.jpg"
+ },
+ {
+  "title": "Max 认同塔勒布：问题不在 AI 有多智能，而在太多成年人活得像机器——AI 时代最残酷的是认知停止更新",
+  "summary": "塔勒布发帖称：问题不在于 AI 是否智能（他认为不是），而在于太多成年人机械、模仿、缺乏想象力、公式化、容易受影响、傲慢超出自身能力，而且维护成本太高。Max 表示「骂得真狠，但说得太对了」：很多大企业精英看似聪明、满嘴方法论和行业经验，其实只是熟练掌握了旧世界的游戏规则，把对规则的熟悉误认为智慧、把过去的成功误认为永远正确，这也是大企业逐渐衰老的原因。他引用道格拉斯·亚当斯的调侃——35 岁前出现的新技术是改变世界的革命，35 岁后出现的就是违背自然规律的异端——并总结：人会老，但最可怕的衰老是认知停止更新；AI 时代最残酷的，可能是让很多人发现自己引以为傲的专业、经验和聪明其实没那么值钱。",
+  "url": "https://x.com/MaxForAI/status/2113987566781514140",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-24T21:34:46+08:00",
+  "tags": [
+   "观点",
+   "AI与人",
+   "塔勒布",
+   "职场"
+  ],
+  "image": "/assets/covers/cover-20261025-v-11.jpg"
+ }
+]

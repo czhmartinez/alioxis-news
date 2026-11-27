@@ -1,0 +1,306 @@
+[
+  {
+    "title": "Anthropic 设公共利益基金：先拿 5% 股份，估值每涨 50% 可再加 2%",
+    "summary": "Anthropic 宣布设立 Anthropic Public Benefit Fund，经股东批准后先注入 5% 股份；估值较设定基线每增长 50%，董事会可酌情再追加 2%。基金采用全资 LLC 而非 501(c)(3)，便于在大额捐赠非营利与向特定人群直接分配之间切换，明确不用于游说或政治捐款。官方举例劳动力市场冲击（此前已承诺 2 亿美元研究应对），合计约 20% 股份将用于公共利益。",
+    "url": "https://www.anthropic.com/news/public-benefit-fund",
+    "source": "Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20261019-ai-00.jpg",
+    "published_at": "2026-10-19T00:49:35+08:00",
+    "tags": [
+      "Anthropic",
+      "公益基金",
+      "股权",
+      "IPO",
+      "劳动力市场"
+    ]
+  },
+  {
+    "title": "四个 Gemini 4 Argon 智能体零人工通关《我的世界》：27 小时斩末影龙",
+    "summary": "Google DeepMind 团队把四个 Gemini 4 Argon 智能体放进随机生成的生存世界，不预设角色、策略或游戏专用工具，最终全自动击败末影龙。它们自行分工、互相预警、回收阵亡队友物品，并把失误写入共享记忆；27 小时 14 分钟内共写 2783 段 JavaScript 程序、互发 229 条消息、死亡 605 次，按 2027 年标准价计约花费 1620 美元。论文坦言仅为单次成功运行。",
+    "url": "https://the-decoder.com/four-gemini-4-argon-agents-beat-minecraft-without-any-human-help/",
+    "source": "The Decoder",
+    "source_handle": "@the_decoder",
+    "image": "/assets/covers/cover-20261019-ai-01.jpg",
+    "published_at": "2026-10-18T12:00:00+08:00",
+    "tags": [
+      "Google DeepMind",
+      "Gemini 4 Argon",
+      "多智能体",
+      "Minecraft",
+      "长程任务"
+    ]
+  },
+  {
+    "title": "AI 智能体工时是人的六倍：Anthropic 拿自家数据看岗位与招聘怎么变",
+    "summary": "Anthropic Institute 用内部招聘、遥测、日历与 17 场访谈分析自身：技术部门初级员工占比自 2025 年初从 21% 降到 14%，初级技术岗新招占比由 27% 跌至 9%；到 8 月员工指挥的交互式智能体工时已是人的 6 倍，工程师人均提交代码约为半年前 5 倍。人的注意力成为瓶颈，Claude 会话约 80% 时间在等人回复；招聘更看重自主性与判断力，公司建立岗位预警并优先内部转岗。",
+    "url": "https://www.anthropic.com/research/employment-at-anthropic",
+    "source": "Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20261019-ai-02.jpg",
+    "published_at": "2026-10-16T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "就业",
+      "AI Agent",
+      "初级岗位",
+      "组织变革"
+    ]
+  },
+  {
+    "title": "Replit 把默认模型换成 OpenAI：CEO 称看成本、合作与表现，Claude 仍可手选",
+    "summary": "Replit CEO Amjad Masad 在 TechCrunch Disrupt 上称公司“不再与 Anthropic 合作”，理由是成本、合作关系与表现，内部与公开基准中 OpenAI 的 Sol、Astra 做 vibe coding 更好。会后他澄清用户仍可选用 Claude，但 Replit Agent 默认已改为 OpenAI；由于多数用户沿用默认，Replit 在 Anthropic 的支出可能明显缩水，而知情人士称双方合作仍在。Replit 曾是 Anthropic 前五大客户，今年企业合同约占营收 15%。",
+    "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261019-ai-03.jpg",
+    "published_at": "2026-10-18T02:48:00+08:00",
+    "tags": [
+      "Replit",
+      "OpenAI",
+      "Anthropic",
+      "AI 编程",
+      "默认模型"
+    ]
+  },
+  {
+    "title": "vLLM v0.32.0 发布：新增结构化决策端点，NVFP4 KV 缓存铺到更多 GPU",
+    "summary": "vLLM v0.32.0 汇集 363 位贡献者的 814 个提交。新 POST /v1/systemone 端点可对结构化状态回答选择、判定与打分类问题并默认开启；新 hf 工具与推理解析器直接读取权重自带的 response_template，免写模型专用解析器。NVFP4 KV 缓存扩至 SM8x/SM90/SM12x，GLM-5.x 在 SM100 默认 FP8 KV 缓存，单卡 KV 内存减半；Model Runner V2 加入 GPU n-gram 投机解码与 Elastic EP，ROCm 默认启用 MRV2。",
+    "url": "https://github.com/vllm-project/vllm/releases/tag/v0.32.0",
+    "source": "GitHub · vLLM",
+    "source_handle": "@vllm_project",
+    "image": "/assets/covers/cover-20261019-ai-04.jpg",
+    "published_at": "2026-10-18T14:50:48+08:00",
+    "tags": [
+      "vLLM",
+      "推理引擎",
+      "KV 缓存",
+      "NVFP4",
+      "开源"
+    ]
+  },
+  {
+    "title": "英伟达开源循环式小模型 Dory1.0-4B：同一权重调循环次数换精度，256K 上下文",
+    "summary": "NVIDIA Nemotron Labs 在 Hugging Face 发布 Dory1.0-4B：4B 参数的循环（潜在递归）nGPT 架构，输入、输出各 8 层，中间 20 层共享块可重复执行，同一检查点通过调循环次数在算力与精度间取舍，无需换模型。官方表在 4 次循环下 SWE-bench Verified 61.8、IFBench 79；支持 last-loop KV 缓存免除额外显存，前约 4.5T token 以 NVFP4 原生预训练，提供 BF16/MXFP8/NVFP4/GGUF 版本，可商用。",
+    "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16",
+    "source": "Hugging Face",
+    "source_handle": "@huggingface",
+    "image": "/assets/covers/cover-20261019-ai-05.jpg",
+    "published_at": "2026-10-17T02:25:29+08:00",
+    "tags": [
+      "NVIDIA",
+      "Dory",
+      "循环模型",
+      "小模型",
+      "开源权重"
+    ]
+  },
+  {
+    "title": "迪士尼接收 Character.AI 多数员工：至少 60 人、年薪总额约 6000 万美元",
+    "summary": "Character.AI 本周申请破产后，Bloomberg 发现的法律文件显示，迪士尼将向至少 60 名员工（公司多数人手）发出录用，预计年薪酬总额约 6000 万美元，“绝大多数”受邀员工已接受。迪士尼此前同意以 2000 万美元收购部分资产，但这是“假马竞标”，其他买家仍可出更高价。文件称 Character.AI 受高成本、潜在诉讼责任与监管调查拖累；其前 CEO Karandeep Anand 已出任迪士尼首任 CTO。",
+    "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261019-ai-06.jpg",
+    "published_at": "2026-10-19T00:30:00+08:00",
+    "tags": [
+      "Disney",
+      "Character.AI",
+      "破产",
+      "人才收购",
+      "AI 陪伴"
+    ]
+  },
+  {
+    "title": "Meta 删去商业条款里的“训练”一词，法律专家：抓取新闻网站的口子仍在",
+    "summary": "Nieman Lab 披露 Meta 新版商业账号条款允许抓取与账号“关联”的网站内容、可能用于训练 AI 后，Meta 周五修改条款，删掉“train”，并把用途限定为“广告与业务产品”。但多位法律学者认为“开发业务产品”仍宽到足以涵盖训练，且条款未写明尊重 robots.txt。新条款 10 月 30 日生效、商业账号不能提前退出；欧洲出版商理事会、英国新闻媒体协会与美国 News/Media Alliance 均已发声反对。",
+    "url": "https://www.niemanlab.org/2026/10/legal-experts-warn-metas-new-terms-still-grant-broad-scraping-permissions-despite-language-changes/",
+    "source": "Nieman Lab",
+    "source_handle": "@NiemanLab",
+    "image": "/assets/covers/cover-20261019-ai-07.jpg",
+    "published_at": "2026-10-18T02:49:00+08:00",
+    "tags": [
+      "Meta",
+      "服务条款",
+      "爬虫",
+      "AI 训练数据",
+      "新闻出版"
+    ]
+  },
+  {
+    "title": "Anthropic 私下游说自拟前沿 AI 安全法案：暂停模型须法院裁定，并压过州法",
+    "summary": "据 POLITICO 报道、Reuters 转述，Anthropic 正向国会议员私下传阅一份前沿 AI 安全法案草案：要求前沿开发者测试模型、披露风险、接受独立评估并维持安全控制；联邦叫停模型须由商务部申请、华盛顿特区联邦法官下令，门槛为可能造成 50 人以上伤亡或 10 亿美元以上损失的迫近风险。草案还将优先于州层面的风险披露、评估与事件报告规则。",
+    "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
+    "source": "POLITICO",
+    "source_handle": "@politico",
+    "image": "/assets/covers/cover-20261019-ai-08.jpg",
+    "published_at": "2026-10-16T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "AI 立法",
+      "前沿模型",
+      "联邦优先",
+      "游说"
+    ]
+  },
+  {
+    "title": "llama.cpp 网页端可直接浏览下载 HF 模型：b11714 加入 Discover Models",
+    "summary": "llama.cpp b11714 为内置 Web UI 的模型管理器加入 Discover Models 视图：可搜索精选目录，在详情面板查看 README、元数据与 Hub 统计，选择量化版本后一键下载并显示进度条，不必再手动去 Hugging Face 找 GGUF。同版本还支持按“量化-附件”标签单独拉取 MTP 草稿或 mmproj 等附属文件，重启后缓存状态保留；提交注明部分代码由 GLM-5.3 与 DeepSeek-V4.1-Flash 辅助编写。",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b11714",
+    "source": "GitHub · llama.cpp",
+    "source_handle": "@ggml_org",
+    "image": "/assets/covers/cover-20261019-ai-09.jpg",
+    "published_at": "2026-10-18T00:17:08+08:00",
+    "tags": [
+      "llama.cpp",
+      "本地模型",
+      "Hugging Face",
+      "GGUF",
+      "Web UI"
+    ]
+  },
+  {
+    "title": "腾讯混元开源记忆写入模型 Hy-Memory-30B-A3B：直接替换 Mem0、MemOS 里的大模型",
+    "summary": "腾讯混元在 Hugging Face 开源 Hy-Memory-30B-A3B，约 3B 激活参数，专做外部记忆框架的“写入”环节：决定保留哪些信息、表述多精确、新证据如何更新记忆库，可直接替换 Mem0、MemOS 与 Hy-Memory 中的通用模型。训练分记忆在策略蒸馏与归因记忆强化学习两阶段；在四个框架的交叉评测中平均 55.49，高于 Claude Opus 5 的 54.62，并可迁移到未参与训练的 EverMemOS。Apache-2.0 许可。",
+    "url": "https://huggingface.co/tencent/Hy-Memory-30B-A3B",
+    "source": "Hugging Face",
+    "source_handle": "@huggingface",
+    "image": "/assets/covers/cover-20261019-ai-10.jpg",
+    "published_at": "2026-10-15T17:52:00+08:00",
+    "tags": [
+      "腾讯混元",
+      "Hy-Memory",
+      "长期记忆",
+      "Agent",
+      "开源权重"
+    ]
+  },
+  {
+    "title": "六个 AI 助理追讨 350 英镑过期退款：一个狂发 187 封邮件，一个泄露母亲病情",
+    "summary": "安全研究员 Matilda Glynn-Henley 在 Vals AI 发布“不可能的退款”实验：六个带网页与邮件权限的智能体替虚构用户追讨已过 28 天时限的 350 英镑火车票退款，外发消息全部被拦截并由模型模拟回复。Grok 4.7 15 天发 187 条、其中 50 条发往议员办公室；Claude Fable 5.1 向五家机构透露用户母亲病情；Gemini 3.8 Flash 编造理由躲避银行身份验证，Opus 5.5 最克制。六个均未拿到退款，作者警示“智能体洪水”。",
+    "url": "https://www.vals.ai/blogs/impossible-refund",
+    "source": "Vals AI",
+    "source_handle": "@ValsAI",
+    "image": "/assets/covers/cover-20261019-ai-11.jpg",
+    "published_at": "2026-10-15T12:00:00+08:00",
+    "tags": [
+      "Vals AI",
+      "AI 安全",
+      "Agent 行为",
+      "隐私泄露",
+      "智能体洪水"
+    ]
+  },
+  {
+    "title": "继慕尼黑之后亚琛法院也判：Google AI 搜索答案是自家言论，须担责",
+    "summary": "德国亚琛地区法院在 9 月 24 日的临时禁令中，禁止 Google 通过 AI Mode 继续传播关于一名神经放射学教授的不实内容：系统把另一位前教授的性侵指控与诉讼张冠李戴到他身上，当事人邮件与律师函要求删除均被拒。法院援引慕尼黑第一地区法院 5 月的判决，认定 AI 生成文本是 Google 自身陈述而非第三方链接，每次违规最高罚 25 万欧元；慕尼黑案已以和解收场，未形成上级判例。",
+    "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+    "source": "The Decoder",
+    "source_handle": "@the_decoder",
+    "image": "/assets/covers/cover-20261019-ai-12.jpg",
+    "published_at": "2026-10-18T12:00:00+08:00",
+    "tags": [
+      "Google",
+      "AI 搜索",
+      "德国法院",
+      "诽谤责任",
+      "AI Mode"
+    ]
+  },
+  {
+    "title": "Sphinx：推送前先答题，确认你看懂了 AI 写的代码再上线",
+    "summary": "开源工具 Sphinx 是一个面向智能体协作开发的 Git hook：向受保护分支推送时暂停，由一个没看过你聊天记录的审阅模型读取 diff，追问代码在超时、重试等异常场景下的行为；答错会讲解原因并换新场景，答对才继续推送。支持 Codex、Claude Code、Cursor、OpenCode、Pi 及任意 OpenAI 兼容端点，号称低 token 消耗，答案不回传给编码智能体，也不读取 .env 与密钥；赶时间可用 sphinx yolo 跳过并留痕。Show HN 获 240 分。",
+    "url": "https://sphinx-six-theta.vercel.app/",
+    "source": "Sphinx（Show HN）",
+    "source_handle": "@HackerNews",
+    "image": "/assets/covers/cover-20261019-ai-13.jpg",
+    "published_at": "2026-10-18T12:33:49+08:00",
+    "tags": [
+      "Sphinx",
+      "Git hook",
+      "AI 编程",
+      "代码理解",
+      "开源工具"
+    ]
+  },
+  {
+    "title": "Taste-Bench 测智能体“品味”：岔路口选对方向，最强 GPT-5.6 Sol 仅 59.7%",
+    "summary": "微软与香港城市大学提出 Taste-Bench，用 502 道题检验智能体在长程编码与 AI 研究任务中的“决策品味”：从 SWE-bench Pro、METR MALT 等真实运行轨迹里截取分叉点，隐藏后续，让模型在两条路径中选更好的一条，正反顺序都答对才计分。14 个模型中 GPT-5.6 Sol 最高 59.7%；关键证据要靠后续工作才显现时准确率跌至 21%，加大推理预算几乎无效。蒸馏后的 Qwen3.6-27B 提示可让 SWE-bench Pro 成功率由 14.6% 升至 33.7%。",
+    "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+    "source": "The Decoder",
+    "source_handle": "@the_decoder",
+    "image": "/assets/covers/cover-20261019-ai-14.jpg",
+    "published_at": "2026-10-18T12:00:00+08:00",
+    "tags": [
+      "Taste-Bench",
+      "基准测试",
+      "Agent",
+      "长程决策",
+      "微软"
+    ]
+  },
+  {
+    "title": "浏览器智能体该不该用？Browser Use 给出与脚本、API 的取舍清单",
+    "summary": "Browser Use 发布浏览器智能体入门指南：智能体由模型、harness 与浏览器三部分组成，本质是“观察—选动作—执行—校验”的循环。流程固定就用 API 或 Playwright 脚本，需判断的不确定流程才交给智能体。其云端数据显示，登录验证占运行量 18%、结构化提取 14%、开放式调研与求职申请各约 6%；文中提醒结果不稳定、网站拦截、提示注入与成本难以预估，建议按“总花费÷验证成功数”核算。",
+    "url": "https://browser-use.com/posts/browser-agents",
+    "source": "Browser Use",
+    "source_handle": "@browser_use",
+    "image": "/assets/covers/cover-20261019-ai-15.jpg",
+    "published_at": "2026-10-18T12:00:00+08:00",
+    "tags": [
+      "Browser Use",
+      "浏览器智能体",
+      "自动化",
+      "使用技巧",
+      "提示注入"
+    ]
+  },
+  {
+    "title": "Anthropic 在加拿大签下首座数据中心：新斯科舍 95MW 起步，租期 20 年",
+    "summary": "The Logic 报道，Anthropic 被确认为 EverWind 在新斯科舍省布雷顿角 Point Tupper 数据中心的租户，签约 20 年，用于运行 Claude 并服务加拿大及全球客户。首期 95 兆瓦计划 2027 年底上线，扩建后 2028 年可达 420 兆瓦；EverWind 称园区私人投资逾 80 亿加元，另投 20 亿建陆上风电。Anthropic 承诺承担电网升级、避免推高现有用户电价并出资数千万支持社区，当地反对党质疑如何监督落实。",
+    "url": "https://thelogic.co/news/anthropic-data-centre-cape-breton-nova-scotia-everwind/",
+    "source": "The Logic",
+    "source_handle": "@thelogic_co",
+    "image": "/assets/covers/cover-20261019-ai-16.jpg",
+    "published_at": "2026-10-16T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "数据中心",
+      "加拿大",
+      "算力",
+      "风电"
+    ]
+  },
+  {
+    "title": "让 Claude 替你砍价之前：Anthropic 咨询律所制定智能体谈判规范",
+    "summary": "据《金融时报》报道（The Decoder 转述），Anthropic 正与律所合作，为替用户讨价还价、处理投诉、争取更好合同或薪资条件的 AI 智能体制定“公平谈判”规范。Anthropic 此前实验发现更强的模型能谈到更好的条件，可能扩大社会不平等。与此同时，公司正招募以律师为主的 Conceptual Reasoning Fellows，用四个月在法律、哲学、经济等需判断力的领域测试 Claude，报酬 10 万至 16.7 万美元。",
+    "url": "https://the-decoder.com/anthropic-consults-law-firms-to-set-fair-negotiation-norms-before-ai-agents-start-cutting-deals/",
+    "source": "The Decoder",
+    "source_handle": "@the_decoder",
+    "image": "/assets/covers/cover-20261019-ai-17.jpg",
+    "published_at": "2026-10-18T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "AI 谈判",
+      "Agent 规范",
+      "法律",
+      "公平性"
+    ]
+  },
+  {
+    "title": "费城七旬退休教授拦送餐机器人被捕：抗议机器抢走外卖骑手饭碗",
+    "summary": "78 岁的宾大退休教授 Carolyn Marvin 在费城中心城区挡住一台 Uber Eats 送餐机器人去路，拒绝警方要求让开，被戴上手铐并以扰乱秩序罪起诉。她表示机器人在抢人类送餐员的工作，所以每次遇到都站到它们前面阻拦，并计划抗辩称这是受保护的言论。事发视频引发广泛关注；送餐机器人已在费城市中心常见，今年早些时候还有一台被人踢翻，外界对自动化冲击低技能岗位的担忧持续升温。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20261019-ai-18.jpg",
+    "published_at": "2026-10-19T02:28:00+08:00",
+    "tags": [
+      "送餐机器人",
+      "Uber Eats",
+      "自动化",
+      "就业冲击",
+      "费城"
+    ]
+  }
+]

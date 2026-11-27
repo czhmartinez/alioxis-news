@@ -1,0 +1,4469 @@
+{
+ "date": "2026-10-27",
+ "method": "public X MCP namespace=x",
+ "start_time": "2026-10-25T20:00:00Z",
+ "exclude": "replies",
+ "users": {
+  "Khazix0918": {
+   "id": "1492195583699951620",
+   "fetched": 2,
+   "post_ids": [
+    "2114712846110195897",
+    "2114579883527655853"
+   ],
+   "meta": {
+    "newest_id": "2114712846110195897",
+    "oldest_id": "2114579883527655853",
+    "result_count": 2
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-26T13:36:46.000Z",
+     "edit_history_tweet_ids": [
+      "2114712846110195897"
+     ],
+     "id": "2114712846110195897",
+     "note_tweet": {
+      "text": "今天正好在录节目的时候，发现一件让我还挺悲伤的事情。\n就是我发现，AI好像把我的口头禅给夺走了。\n\n我以前有一个特别喜欢用的口头禅，叫做：\n坦率的讲。\n\n这个口头禅到底是怎么养成的，我自己其实也记不太清了，有可能是因为学生时代，太爱看老罗的演讲，耳濡目染的，也变成了我自己的口头禅。\n\n每次我要讲啥可能感觉会冒犯的话或者想要转折的时候，我就会说，坦率的讲。。。\n无论是平时聊天，还是写文章，或者是跟别人分享什么东西，只要我想给自己叠甲，我就会不自觉的嘴里蹦出这四个字。\n\n过去四年我的文章里，也用了无数次，老粉肯定都有印象，但最近两个月，我自己却越来越不敢说这句话了。\n\n因为只要我在文章里写一句，坦率的讲，经常就会有人对着这句话划线，然后评论说：\n“这文章AI味儿也太重了吧。”，“一眼AI，垃圾内容。”\n说实话，那一刻作为一个内容创作者，我是真的还挺难受的。\n\n但是我没有办法解释，更没有办法解决。\n\n所以，现在更难受的事，是我发现我妥协了，老粉可能也会发现，我现在越来越少在文章里出现这四个字了，我经常会用语音输入来辅助写文章，有的时候说快了，看到这几个字冒出来，我就会下意识的停顿一下，然后默默的删掉。\n\n这个事情从本质上来说其实还挺荒诞的。\n因为AI是从我们人类这里学会的语言，坦率的讲，是AI发明的吗？当然不是。\n\n可现在AI学会了人类的语言，最后却轮到人类修改自己的语言，来证明自己是人。\n\n哎。\n\n而且不只是我的口头禅，当越来越多的人，开始为了避免自己被认为是AI，而主动改变自己的表达习惯的时候，我们好像也在丢掉自己的一些非常珍贵的东西。\n\n就像玉伯说的，世界上本没有AI味，用的人多了，就成了AI味。\nAI不断学习人类的语言，然后人类在不断回避AI的语言。\n\n以后我们每说一句话，每写一段文字，都需要先在脑子里过一遍，这个词AI是不是经常用？这个句式会不会被人怀疑？我这么说话，还像不像一个真人？\n\n那语言，好像也丢失了作为人原本最自由的东西。\n\n我当然知道，我们可以解释，可以反驳，但这个世界上，最累的就是就是自证，实在太累了。\n所以，删掉就删掉吧，反正少了这四个字，我也可以说话，也可以写文章，对我的生活也不会有什么影响。\n\n但我还是觉得挺悲哀的。\n因为除了口头禅以外，我们也开始在放弃一些词，一些具体的句式了，比如，不是...而是。\n\nAI对文化的影响，是潜移默化的。\n未来，真的是一个很特别的时代。"
+     },
+     "public_metrics": {
+      "bookmark_count": 5,
+      "impression_count": 11002,
+      "like_count": 30,
+      "quote_count": 3,
+      "reply_count": 30,
+      "retweet_count": 0
+     },
+     "text": "今天正好在录节目的时候，发现一件让我还挺悲伤的事情。\n就是我发现，AI好像把我的口头禅给夺走了。\n\n我以前有一个特别喜欢用的口头禅，叫做：\n坦率的讲。\n\n这个口头禅到底是怎么养成的，我自己其实也记不太清了，有可能是因为学生时代，太爱看老罗的演讲，耳濡目染的，也变成了我自己的口头禅。",
+     "url": "https://x.com/i/status/2114712846110195897"
+    },
+    {
+     "article": {
+      "title": "手把手教你用AI逆向现实世界，把一切改成自己喜欢的样子。"
+     },
+     "created_at": "2026-10-26T04:48:25.000Z",
+     "edit_history_tweet_ids": [
+      "2114579883527655853"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/i/article/2114…",
+        "end": 23,
+        "expanded_url": "https://x.com/i/article/2114575016805511169",
+        "start": 0,
+        "status": 404,
+        "unwound_url": "https://x.com/i/article/2114575016805511169",
+        "url": "https://t.co/Rdc2Dsb7x8"
+       }
+      ]
+     },
+     "id": "2114579883527655853",
+     "public_metrics": {
+      "bookmark_count": 374,
+      "impression_count": 33438,
+      "like_count": 303,
+      "quote_count": 10,
+      "reply_count": 32,
+      "retweet_count": 38
+     },
+     "text": "https://t.co/Rdc2Dsb7x8",
+     "url": "https://x.com/i/status/2114579883527655853"
+    }
+   ],
+   "includes": {}
+  },
+  "MaxForAI": {
+   "id": "1699797396589588480",
+   "fetched": 7,
+   "post_ids": [
+    "2114804371955548246",
+    "2114625358771433928",
+    "2114601735608275298",
+    "2114577752531910714",
+    "2114575960330871281",
+    "2114575682068242849",
+    "2114559061371064705"
+   ],
+   "meta": {
+    "newest_id": "2114804371955548246",
+    "oldest_id": "2114559061371064705",
+    "result_count": 7
+   },
+   "posts": [
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114804242825523200",
+       "3_2114804361805361152"
+      ]
+     },
+     "created_at": "2026-10-26T19:40:28.000Z",
+     "edit_history_tweet_ids": [
+      "2114804371955548246"
+     ],
+     "id": "2114804371955548246",
+     "public_metrics": {
+      "bookmark_count": 8,
+      "impression_count": 10323,
+      "like_count": 42,
+      "quote_count": 1,
+      "reply_count": 11,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114780711664398349",
+       "type": "quoted"
+      }
+     ],
+     "text": "草，GPT-6.1又起飞了？？？\n\n刚刚， @OpenAI  正式发布了GPT-6.1 Terra，主打 Computer Use，能够理解屏幕内容、操作桌面软件、跨应用执行任务，还能处理文档、表单、图片和视频编辑等工作。\n\n这次有几个比较有意思的数字：\n\n在 Agents' Last Exam 上，相比 GPT-5.6 Terra，得分提高了 15 https://t.co/b6xBEoFZpN https://t.co/fVThjfX7Qf",
+     "url": "https://x.com/i/status/2114804371955548246"
+    },
+    {
+     "created_at": "2026-10-26T07:49:08.000Z",
+     "edit_history_tweet_ids": [
+      "2114625358771433928"
+     ],
+     "id": "2114625358771433928",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 126,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 35
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114537065182622178",
+       "type": "retweeted"
+      }
+     ],
+     "text": "RT @bojie_li: 投毒事件只是冰山一角。Seed 有最好的人才、最多的算力，为什么 LLM 进展缓慢？业内往往说是因为不允许蒸馏。但我认为根子在组织问题，字节这套赛马机制与 LLM 并不匹配。\n\n做 LLM 并不需要那么多灵光一现，主要靠踏踏实实把数据和环境做好、把…",
+     "url": "https://x.com/i/status/2114625358771433928"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114601671288590336"
+      ]
+     },
+     "created_at": "2026-10-26T06:15:15.000Z",
+     "edit_history_tweet_ids": [
+      "2114601735608275298"
+     ],
+     "id": "2114601735608275298",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 14611,
+      "like_count": 32,
+      "quote_count": 2,
+      "reply_count": 15,
+      "retweet_count": 0
+     },
+     "text": "不是哥们，怎么Codex突然重置了啊？？\n\n早知道继续狠蹬了😭 https://t.co/osRMVYUh1j",
+     "url": "https://x.com/i/status/2114601735608275298"
+    },
+    {
+     "created_at": "2026-10-26T04:39:57.000Z",
+     "edit_history_tweet_ids": [
+      "2114577752531910714"
+     ],
+     "id": "2114577752531910714",
+     "public_metrics": {
+      "bookmark_count": 46,
+      "impression_count": 25554,
+      "like_count": 53,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113833330429083662",
+       "type": "quoted"
+      }
+     ],
+     "text": "卧槽？？这个居然是真的 https://t.co/RWrG0i0Mj7",
+     "url": "https://x.com/i/status/2114577752531910714"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114575832379473920"
+      ]
+     },
+     "created_at": "2026-10-26T04:32:50.000Z",
+     "edit_history_tweet_ids": [
+      "2114575960330871281"
+     ],
+     "id": "2114575960330871281",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 11444,
+      "like_count": 35,
+      "quote_count": 0,
+      "reply_count": 7,
+      "retweet_count": 0
+     },
+     "text": "神了，DeepSeek的搜索居然能搜黄果短剧！？ https://t.co/YFOyWjdlS2",
+     "url": "https://x.com/i/status/2114575960330871281"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114575487234433024"
+      ]
+     },
+     "created_at": "2026-10-26T04:31:44.000Z",
+     "edit_history_tweet_ids": [
+      "2114575682068242849"
+     ],
+     "id": "2114575682068242849",
+     "public_metrics": {
+      "bookmark_count": 17,
+      "impression_count": 21050,
+      "like_count": 57,
+      "quote_count": 0,
+      "reply_count": 17,
+      "retweet_count": 3
+     },
+     "text": "以防你不知道，到月底你可以去微信支付让它给你写代码了🤣 https://t.co/If5D3lYK2b",
+     "url": "https://x.com/i/status/2114575682068242849"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114559044799307776"
+      ]
+     },
+     "created_at": "2026-10-26T03:25:41.000Z",
+     "edit_history_tweet_ids": [
+      "2114559061371064705"
+     ],
+     "id": "2114559061371064705",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 5711,
+      "like_count": 18,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 0
+     },
+     "text": "豆包工作的运营你到底都在干什么啊？？ https://t.co/WrnFap2qYv",
+     "url": "https://x.com/i/status/2114559061371064705"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2114804242825523200",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVlLQQ8asAAKe2J.jpg"
+     },
+     {
+      "media_key": "3_2114804361805361152",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVlLXMLa8AAMKgw.jpg"
+     },
+     {
+      "media_key": "3_2114601671288590336",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HViTBDKakAAzy_E.png"
+     },
+     {
+      "media_key": "3_2114575832379473920",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVh7hBuawAAkn0b.jpg"
+     },
+     {
+      "media_key": "3_2114575487234433024",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVh7M79bYAAMdV1.jpg"
+     },
+     {
+      "media_key": "3_2114559044799307776",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVhsP3HaIAAcN5l.jpg"
+     }
+    ],
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114778494395678720"
+       ]
+      },
+      "created_at": "2026-10-26T18:06:27.000Z",
+      "edit_history_tweet_ids": [
+       "2114780711664398349"
+      ],
+      "id": "2114780711664398349",
+      "public_metrics": {
+       "bookmark_count": 3112,
+       "impression_count": 2341020,
+       "like_count": 19998,
+       "quote_count": 1408,
+       "reply_count": 1045,
+       "retweet_count": 1689
+      },
+      "text": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price.\n\nGPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. https://t.co/8JTN1yonmV"
+     },
+     {
+      "created_at": "2026-10-26T01:58:17.000Z",
+      "edit_history_tweet_ids": [
+       "2114537065182622178"
+      ],
+      "id": "2114537065182622178",
+      "public_metrics": {
+       "bookmark_count": 127,
+       "impression_count": 83200,
+       "like_count": 636,
+       "quote_count": 5,
+       "reply_count": 43,
+       "retweet_count": 35
+      },
+      "referenced_tweets": [
+       {
+        "id": "2113825585634168920",
+        "type": "quoted"
+       }
+      ],
+      "text": "投毒事件只是冰山一角。Seed 有最好的人才、最多的算力，为什么 LLM 进展缓慢？业内往往说是因为不允许蒸馏。但我认为根子在组织问题，字节这套赛马机制与 LLM 并不匹配。\n\n做 LLM 并不需要那么多灵光一现，主要靠踏踏实实把数据和环境做好、把 infra 效率做好。但研究员都希望有 https://t.co/g6WRb1wE6y"
+     },
+     {
+      "created_at": "2026-10-24T03:21:53.000Z",
+      "edit_history_tweet_ids": [
+       "2113833330429083662"
+      ],
+      "id": "2113833330429083662",
+      "public_metrics": {
+       "bookmark_count": 22250,
+       "impression_count": 3866538,
+       "like_count": 21203,
+       "quote_count": 686,
+       "reply_count": 465,
+       "retweet_count": 1236
+      },
+      "text": "if you have a qwen3.5 4b around, please try steering neurons L14 N8949 +1 and L13 N7956 -1\nnow you have evil qwen\n\nrecipe: dose × median(‖resid‖ leaving layer L, tokens 1:) / ‖W_down[:, n]‖` at the down_proj at every input"
+     }
+    ]
+   }
+  },
+  "xiaohu": {
+   "id": "1764818331822182400",
+   "fetched": 12,
+   "post_ids": [
+    "2114772521560187091",
+    "2114772517504389331",
+    "2114729813886067111",
+    "2114727411501965371",
+    "2114707372828684395",
+    "2114707251206225921",
+    "2114705510830375081",
+    "2114633309250805788",
+    "2114563222372290923",
+    "2114550091667386736",
+    "2114546188632613265",
+    "2114532566959264058"
+   ],
+   "meta": {
+    "newest_id": "2114772521560187091",
+    "oldest_id": "2114532566959264058",
+    "result_count": 12
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-26T17:33:54.000Z",
+     "edit_history_tweet_ids": [
+      "2114772521560187091"
+     ],
+     "id": "2114772521560187091",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1078,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114772517504389331",
+       "type": "replied_to"
+      }
+     ],
+     "text": "原文：https://t.co/TcyZr6PSOD",
+     "url": "https://x.com/i/status/2114772521560187091"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114772508948021248"
+      ]
+     },
+     "created_at": "2026-10-26T17:33:53.000Z",
+     "edit_history_tweet_ids": [
+      "2114772517504389331"
+     ],
+     "id": "2114772517504389331",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 4926,
+      "like_count": 18,
+      "quote_count": 1,
+      "reply_count": 10,
+      "retweet_count": 2
+     },
+     "text": "卧槽\n微软要干掉6万人？\n\n微软 10 月 26 日在官方博客上宣布了一项\"自愿离职计划\"（Voluntary Exit Offer）…\n\n包括Xbox、Windows、Copilot、财务等团队的员工可以自愿申请主动离职，拿取一次性补偿\n\n符合条件的员工超过6万人…\n\n根据工龄可一次性领取现金：8 到 39 周基本工资…\n\n副总裁级（内部职级 https://t.co/oFOrOWevAz",
+     "url": "https://x.com/i/status/2114772517504389331"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2114729062925230081"
+      ]
+     },
+     "created_at": "2026-10-26T14:44:12.000Z",
+     "edit_history_tweet_ids": [
+      "2114729813886067111"
+     ],
+     "id": "2114729813886067111",
+     "public_metrics": {
+      "bookmark_count": 10,
+      "impression_count": 4180,
+      "like_count": 16,
+      "quote_count": 0,
+      "reply_count": 11,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114727411501965371",
+       "type": "quoted"
+      }
+     ],
+     "text": "调了下\n\n这次有点像新闻联播了\n哈哈哈哈\n\nClaude Code制作，大部分时间花在了脚本调整上\n依然还没有解决配音问题\n主要是我周末去改版网站了... https://t.co/vDR5arqSzR https://t.co/6rZ8n39b09",
+     "url": "https://x.com/i/status/2114729813886067111"
+    },
+    {
+     "created_at": "2026-10-26T14:34:39.000Z",
+     "edit_history_tweet_ids": [
+      "2114727411501965371"
+     ],
+     "id": "2114727411501965371",
+     "public_metrics": {
+      "bookmark_count": 18,
+      "impression_count": 8537,
+      "like_count": 21,
+      "quote_count": 2,
+      "reply_count": 15,
+      "retweet_count": 2
+     },
+     "text": "就算用Claude帮我做一期视频\n还是要花费非常多的时间\n\n主要是在脚本上\n\n其他都能自动化，但是要做成真的让人愿意看的还是要下很大的功夫，但是对于那些已经熟练制作过很多视频的人来说可能会很方便\n\n这也是这篇文章要说的\n\n133 位专利律师实验：同样使用 AI，老手得到增强，新人面临认知卸载",
+     "url": "https://x.com/i/status/2114727411501965371"
+    },
+    {
+     "created_at": "2026-10-26T13:15:01.000Z",
+     "edit_history_tweet_ids": [
+      "2114707372828684395"
+     ],
+     "id": "2114707372828684395",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2152,
+      "like_count": 2,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114707251206225921",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Anthropic：董事会批准了一项框架，规定每当股价上涨50%时，即可向公益基金增发最多相当于总股本2%的N类股份。",
+     "url": "https://x.com/i/status/2114707372828684395"
+    },
+    {
+     "created_at": "2026-10-26T13:14:32.000Z",
+     "edit_history_tweet_ids": [
+      "2114706975615508817",
+      "2114707251206225921"
+     ],
+     "id": "2114707251206225921",
+     "public_metrics": {
+      "bookmark_count": 5,
+      "impression_count": 15733,
+      "like_count": 32,
+      "quote_count": 5,
+      "reply_count": 19,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114705510830375081",
+       "type": "quoted"
+      }
+     ],
+     "text": "Anthropic正式提交纳斯达克IPO申请，股票代码为“ANT”\n\n根据披露的信息：Anthropic上半年营收163亿美元，上年同期为12亿美元。\n\n截至2026年6月30日的六个月，Anthropic净亏损为807亿美元，称未来可能无法实现或维持盈利。\n\n根据SpaceXAI相关安排，在延续至2029年的期限内，合计支出将最高达1205亿美元。 https://t.co/eu67xzA6hw",
+     "url": "https://x.com/i/status/2114707251206225921"
+    },
+    {
+     "created_at": "2026-10-26T13:07:37.000Z",
+     "edit_history_tweet_ids": [
+      "2114705510830375081"
+     ],
+     "id": "2114705510830375081",
+     "public_metrics": {
+      "bookmark_count": 25,
+      "impression_count": 45561,
+      "like_count": 114,
+      "quote_count": 8,
+      "reply_count": 37,
+      "retweet_count": 5
+     },
+     "text": "预计 Anthropic 将在提交IPO后的第二天，发布全新一代的大模型 Fable 5.5\n\n该模型将在你话还没说完的情况下就知道你要干啥...\n\n以往所有的提示词和技能约束将失效...\n\n因为仅通过自然语言模型已经完全理解你要干啥🫡",
+     "url": "https://x.com/i/status/2114705510830375081"
+    },
+    {
+     "created_at": "2026-10-26T08:20:43.000Z",
+     "edit_history_tweet_ids": [
+      "2114632585049784479",
+      "2114633309250805788"
+     ],
+     "id": "2114633309250805788",
+     "public_metrics": {
+      "bookmark_count": 39,
+      "impression_count": 16820,
+      "like_count": 77,
+      "quote_count": 3,
+      "reply_count": 29,
+      "retweet_count": 10
+     },
+     "referenced_tweets": [
+      {
+       "id": "2113014142600953868",
+       "type": "quoted"
+      }
+     ],
+     "text": "卧槽\n\n博主入侵了他的三星电视，发现了电视机会常开其麦克风\n\n它会自动进行内容识别、地理定位、网络映射、广告定向和用户画像抓取分析\n\n同时电视机会把这些数据与三星的“400个合作伙伴”共享\n\n更恐怖的是： https://t.co/6a8bcwx9cq",
+     "url": "https://x.com/i/status/2114633309250805788"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114562092842024960"
+      ]
+     },
+     "created_at": "2026-10-26T03:42:13.000Z",
+     "edit_history_tweet_ids": [
+      "2114563222372290923"
+     ],
+     "id": "2114563222372290923",
+     "public_metrics": {
+      "bookmark_count": 622,
+      "impression_count": 48656,
+      "like_count": 399,
+      "quote_count": 7,
+      "reply_count": 59,
+      "retweet_count": 51
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114051840102768922",
+       "type": "quoted"
+      }
+     ],
+     "text": "兄弟们\n这个牛P\n\n可以让 ChatGPT、ClaudeCode向你的 Grok Bot发送任务，进行云端和本机联动...\n\n之前是通过ssh桥接的，这个通过 Webhook实现的，好像更省事避免了一些不必要的麻烦\n\n我之前都是复制粘贴来回切换...\n\n添加这个Bot即可：https://t.co/7FKIlzdgxs https://t.co/EBpqjXjoL5 https://t.co/ph2Qlcjddj",
+     "url": "https://x.com/i/status/2114563222372290923"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114550055265058817"
+      ]
+     },
+     "created_at": "2026-10-26T02:50:02.000Z",
+     "edit_history_tweet_ids": [
+      "2114550091667386736"
+     ],
+     "id": "2114550091667386736",
+     "public_metrics": {
+      "bookmark_count": 34,
+      "impression_count": 12313,
+      "like_count": 45,
+      "quote_count": 4,
+      "reply_count": 20,
+      "retweet_count": 4
+     },
+     "text": "Grok Bot 0.77 最新预发布的新功能\n能帮你打电话、自主支付和接管你的短信\n\n📞 代打电话： 可以帮你自主拨打客服电话，自己在后台排队听等待音乐、按键选菜单并转接，你只需在屏幕上扫一眼实时转录记录。\n\n💳 自主支付： 新增支付账户绑定与默认结算方式，配合此前的资金库，AI 可以直接闭环结账下单 https://t.co/AgJm0k4zqc",
+     "url": "https://x.com/i/status/2114550091667386736"
+    },
+    {
+     "created_at": "2026-10-26T02:34:32.000Z",
+     "edit_history_tweet_ids": [
+      "2114546188632613265"
+     ],
+     "id": "2114546188632613265",
+     "public_metrics": {
+      "bookmark_count": 22,
+      "impression_count": 11060,
+      "like_count": 21,
+      "quote_count": 0,
+      "reply_count": 14,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114175110416675209",
+       "type": "quoted"
+      }
+     ],
+     "text": "这个好 \n让不同人的Grok bot可以互相通话\n\n意味着可以发展成为AI交友了\n\n先让你的Bot去帮你和泡妞（她的Bot），泡上了你再去接管😅 https://t.co/32KJzbB8cr",
+     "url": "https://x.com/i/status/2114546188632613265"
+    },
+    {
+     "created_at": "2026-10-26T01:40:24.000Z",
+     "edit_history_tweet_ids": [
+      "2114532566959264058"
+     ],
+     "id": "2114532566959264058",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 285,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 23
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114306504778256445",
+       "type": "retweeted"
+      }
+     ],
+     "text": "RT @Xian0063: 画过 10,000+ 张 UI 高保真，我总结了 8 条设计审美原则（附 5 个常用 AI 设计 Skill ） https://t.co/Gyw7H0WpEv",
+     "url": "https://x.com/i/status/2114532566959264058"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2114772508948021248",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkuZHCbwAAv5_C.jpg"
+     },
+     {
+      "media_key": "13_2114729062925230081",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114729062925230081/img/ITeRHmWuiqgnk-1U.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "3_2114562092842024960",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVhvBR9bAAAulnX.jpg"
+     },
+     {
+      "media_key": "3_2114550055265058817",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVhkEmfbQAEt_rh.jpg"
+     }
+    ],
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114772508948021248"
+       ]
+      },
+      "created_at": "2026-10-26T17:33:53.000Z",
+      "edit_history_tweet_ids": [
+       "2114772517504389331"
+      ],
+      "id": "2114772517504389331",
+      "public_metrics": {
+       "bookmark_count": 3,
+       "impression_count": 4926,
+       "like_count": 18,
+       "quote_count": 1,
+       "reply_count": 10,
+       "retweet_count": 2
+      },
+      "text": "卧槽\n微软要干掉6万人？\n\n微软 10 月 26 日在官方博客上宣布了一项\"自愿离职计划\"（Voluntary Exit Offer）…\n\n包括Xbox、Windows、Copilot、财务等团队的员工可以自愿申请主动离职，拿取一次性补偿\n\n符合条件的员工超过6万人…\n\n根据工龄可一次性领取现金：8 到 39 周基本工资…\n\n副总裁级（内部职级 https://t.co/oFOrOWevAz"
+     },
+     {
+      "created_at": "2026-10-26T14:34:39.000Z",
+      "edit_history_tweet_ids": [
+       "2114727411501965371"
+      ],
+      "id": "2114727411501965371",
+      "public_metrics": {
+       "bookmark_count": 18,
+       "impression_count": 8537,
+       "like_count": 21,
+       "quote_count": 2,
+       "reply_count": 15,
+       "retweet_count": 2
+      },
+      "text": "就算用Claude帮我做一期视频\n还是要花费非常多的时间\n\n主要是在脚本上\n\n其他都能自动化，但是要做成真的让人愿意看的还是要下很大的功夫，但是对于那些已经熟练制作过很多视频的人来说可能会很方便\n\n这也是这篇文章要说的\n\n133 位专利律师实验：同样使用 AI，老手得到增强，新人面临认知卸载"
+     },
+     {
+      "created_at": "2026-10-26T13:14:32.000Z",
+      "edit_history_tweet_ids": [
+       "2114706975615508817",
+       "2114707251206225921"
+      ],
+      "id": "2114707251206225921",
+      "public_metrics": {
+       "bookmark_count": 5,
+       "impression_count": 15733,
+       "like_count": 32,
+       "quote_count": 5,
+       "reply_count": 19,
+       "retweet_count": 3
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114705510830375081",
+        "type": "quoted"
+       }
+      ],
+      "text": "Anthropic正式提交纳斯达克IPO申请，股票代码为“ANT”\n\n根据披露的信息：Anthropic上半年营收163亿美元，上年同期为12亿美元。\n\n截至2026年6月30日的六个月，Anthropic净亏损为807亿美元，称未来可能无法实现或维持盈利。\n\n根据SpaceXAI相关安排，在延续至2029年的期限内，合计支出将最高达1205亿美元。 https://t.co/eu67xzA6hw"
+     },
+     {
+      "created_at": "2026-10-26T13:07:37.000Z",
+      "edit_history_tweet_ids": [
+       "2114705510830375081"
+      ],
+      "id": "2114705510830375081",
+      "public_metrics": {
+       "bookmark_count": 25,
+       "impression_count": 45561,
+       "like_count": 114,
+       "quote_count": 8,
+       "reply_count": 37,
+       "retweet_count": 5
+      },
+      "text": "预计 Anthropic 将在提交IPO后的第二天，发布全新一代的大模型 Fable 5.5\n\n该模型将在你话还没说完的情况下就知道你要干啥...\n\n以往所有的提示词和技能约束将失效...\n\n因为仅通过自然语言模型已经完全理解你要干啥🫡"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2113014136309227520"
+       ]
+      },
+      "created_at": "2026-10-21T21:06:44.000Z",
+      "edit_history_tweet_ids": [
+       "2113014142600953868"
+      ],
+      "id": "2113014142600953868",
+      "public_metrics": {
+       "bookmark_count": 13952,
+       "impression_count": 4674158,
+       "like_count": 36451,
+       "quote_count": 633,
+       "reply_count": 705,
+       "retweet_count": 3840
+      },
+      "text": "i own a relatively new (2025) samsung tv.\n\ni kept getting weirdly targeted ads.\n\ni tried reversing the firmware but it was aes encrypted and no keys unless tear it apart and do uart/jtag magic.\n\nzero days it is. root shell on new samsung TVs!\n\ndiscovered PRIVACY HORROR. write up? https://t.co/EsxxCy1b6a"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114051651011022848"
+       ]
+      },
+      "created_at": "2026-10-24T17:50:10.000Z",
+      "edit_history_tweet_ids": [
+       "2114051840102768922"
+      ],
+      "id": "2114051840102768922",
+      "public_metrics": {
+       "bookmark_count": 677,
+       "impression_count": 84481,
+       "like_count": 338,
+       "quote_count": 30,
+       "reply_count": 72,
+       "retweet_count": 26
+      },
+      "text": "New Grok Bot Template\n\nI made a Grok Bot that lets ChatGPT, Claude Code or any other agent send tasks to your Grok Bot.\n\nHow it works:\n\n&gt; add the bot, it gives you a webhook URL, key and one ready-made prompt\n&gt; paste that prompt into ChatGPT or Claude Code\n&gt; it then sets up the https://t.co/a0Mo9MYdDC"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114037137356324864"
+       ]
+      },
+      "created_at": "2026-10-25T02:00:00.000Z",
+      "edit_history_tweet_ids": [
+       "2114175110416675209"
+      ],
+      "id": "2114175110416675209",
+      "public_metrics": {
+       "bookmark_count": 418,
+       "impression_count": 105617,
+       "like_count": 481,
+       "quote_count": 52,
+       "reply_count": 37,
+       "retweet_count": 51
+      },
+      "text": "今天正式发布 Yobiru 的新功能，Yobiru Friends！\n\n这个新功能是最近最有趣的一个功能之一，因为它可以让我的 Grok bot 和啵啵的 Grok bot 直接聊天，发送文件，协商日程。换句话说，它支持将你的任何 personal agent，比如 Grok bot 或者 Muse，对外发布或分享给亲朋好友。 https://t.co/n8AS9A7jV2"
+     },
+     {
+      "article": {
+       "title": "画过10,000+张 UI 高保真，我的设计审美心得（1）：8 条原则 + 5 个常用 AI 设计 Skill"
+      },
+      "created_at": "2026-10-25T10:42:07.000Z",
+      "edit_history_tweet_ids": [
+       "2114306504778256445"
+      ],
+      "id": "2114306504778256445",
+      "public_metrics": {
+       "bookmark_count": 324,
+       "impression_count": 17458,
+       "like_count": 171,
+       "quote_count": 4,
+       "reply_count": 10,
+       "retweet_count": 23
+      },
+      "text": "画过 10,000+ 张 UI 高保真，我总结了 8 条设计审美原则（附 5 个常用 AI 设计 Skill ） https://t.co/Gyw7H0WpEv"
+     }
+    ]
+   }
+  },
+  "thsottiaux": {
+   "id": "1953337039510003712",
+   "fetched": 3,
+   "post_ids": [
+    "2114800277677092936",
+    "2114595002210783279",
+    "2114588174249071102"
+   ],
+   "meta": {
+    "newest_id": "2114800277677092936",
+    "oldest_id": "2114588174249071102",
+    "result_count": 3
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-26T19:24:11.000Z",
+     "edit_history_tweet_ids": [
+      "2114800277677092936"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.com/OpenAI/status/…",
+        "end": 284,
+        "expanded_url": "https://twitter.com/OpenAI/status/2114780711664398349",
+        "start": 261,
+        "url": "https://t.co/1ilnCkAPuy"
+       }
+      ]
+     },
+     "id": "2114800277677092936",
+     "public_metrics": {
+      "bookmark_count": 472,
+      "impression_count": 454139,
+      "like_count": 6417,
+      "quote_count": 209,
+      "reply_count": 1061,
+      "retweet_count": 290
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114780711664398349",
+       "type": "quoted"
+      }
+     ],
+     "text": "Day 22/ Terra is back! \n\nOur first model that is significantly better at writing,  personality and nuanced understanding of requests.\n\nPacks a punch across the board, very good at computer use, and gives 2X more usage than 6.1 Sol across API and subscriptions. https://t.co/1ilnCkAPuy",
+     "url": "https://x.com/i/status/2114800277677092936"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114594969277128704"
+      ]
+     },
+     "created_at": "2026-10-26T05:48:30.000Z",
+     "edit_history_tweet_ids": [
+      "2114595002210783279"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "chatgpt.com/settings/appea…",
+        "end": 105,
+        "expanded_url": "https://chatgpt.com/settings/appearance",
+        "start": 82,
+        "unwound_url": "https://chatgpt.com/settings/appearance",
+        "url": "https://t.co/an6R8iY5Ix"
+       },
+       {
+        "display_url": "pic.x.com/iysHpdDLml",
+        "end": 129,
+        "expanded_url": "https://x.com/thsottiaux/status/2114595002210783279/photo/1",
+        "media_key": "3_2114594969277128704",
+        "start": 106,
+        "url": "https://t.co/iysHpdDLml"
+       }
+      ]
+     },
+     "id": "2114595002210783279",
+     "public_metrics": {
+      "bookmark_count": 412,
+      "impression_count": 748258,
+      "like_count": 3597,
+      "quote_count": 102,
+      "reply_count": 714,
+      "retweet_count": 109
+     },
+     "text": "Reminder you can customize the appearance of chatgpt on web and make it soothing\n\nhttps://t.co/an6R8iY5Ix https://t.co/iysHpdDLml",
+     "url": "https://x.com/i/status/2114595002210783279"
+    },
+    {
+     "created_at": "2026-10-26T05:21:22.000Z",
+     "edit_history_tweet_ids": [
+      "2114588174249071102"
+     ],
+     "id": "2114588174249071102",
+     "public_metrics": {
+      "bookmark_count": 317,
+      "impression_count": 1397440,
+      "like_count": 10596,
+      "quote_count": 733,
+      "reply_count": 2272,
+      "retweet_count": 422
+     },
+     "text": "Day 21/ Wonder what happens the remaining seven days. But today is a reset.",
+     "url": "https://x.com/i/status/2114588174249071102"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2114594969277128704",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HViM68OXYAASPUu.jpg"
+     }
+    ],
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114778494395678720"
+       ]
+      },
+      "created_at": "2026-10-26T18:06:27.000Z",
+      "edit_history_tweet_ids": [
+       "2114780711664398349"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/8JTN1yonmV",
+         "end": 280,
+         "expanded_url": "https://x.com/OpenAI/status/2114780711664398349/video/1",
+         "media_key": "13_2114778494395678720",
+         "start": 257,
+         "url": "https://t.co/8JTN1yonmV"
+        }
+       ]
+      },
+      "id": "2114780711664398349",
+      "public_metrics": {
+       "bookmark_count": 3112,
+       "impression_count": 2343543,
+       "like_count": 19998,
+       "quote_count": 1408,
+       "reply_count": 1045,
+       "retweet_count": 1689
+      },
+      "text": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price.\n\nGPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. https://t.co/8JTN1yonmV"
+     }
+    ]
+   }
+  },
+  "testingcatalog": {
+   "id": "3980735590",
+   "fetched": 28,
+   "post_ids": [
+    "2114784962855710728",
+    "2114784954777248071",
+    "2114779972418081246",
+    "2114777866365809026",
+    "2114776267635687796",
+    "2114773950483816585",
+    "2114772789890588932",
+    "2114770987636195643",
+    "2114770984452464678",
+    "2114766567800185102",
+    "2114766564478034297",
+    "2114747970474123325",
+    "2114736544225563054",
+    "2114736537904595412",
+    "2114735342779801666",
+    "2114730579203617254",
+    "2114728812642443469",
+    "2114725916366774486",
+    "2114723217055092798",
+    "2114722900729315462",
+    "2114720555710525527",
+    "2114719892704231479",
+    "2114718963263312153",
+    "2114712761938936042",
+    "2114705876036538615",
+    "2114696424021451174",
+    "2114673429710508174",
+    "2114673426459738303"
+   ],
+   "meta": {
+    "page1": {
+     "newest_id": "2114784962855710728",
+     "next_token": "7140dibdnow9c7btwp0g760f2cd8g24ovkgtic7nk91rp",
+     "oldest_id": "2114705876036538615",
+     "result_count": 25
+    },
+    "page2": {
+     "newest_id": "2114696424021451174",
+     "oldest_id": "2114673426459738303",
+     "previous_token": "77qpymm88g5h9vqkmfprnliheky06z1m75elqz9e9in90",
+     "result_count": 3
+    }
+   },
+   "posts": [
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114782153544187904",
+       "3_2114782153552584705"
+      ]
+     },
+     "created_at": "2026-10-26T18:23:20.000Z",
+     "edit_history_tweet_ids": [
+      "2114784962855710728"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/VD8lam8FHm",
+        "end": 36,
+        "expanded_url": "https://x.com/testingcatalog/status/2114784962855710728/photo/1",
+        "media_key": "3_2114782153544187904",
+        "start": 13,
+        "url": "https://t.co/VD8lam8FHm"
+       },
+       {
+        "display_url": "pic.x.com/VD8lam8FHm",
+        "end": 36,
+        "expanded_url": "https://x.com/testingcatalog/status/2114784962855710728/photo/1",
+        "media_key": "3_2114782153552584705",
+        "start": 13,
+        "url": "https://t.co/VD8lam8FHm"
+       }
+      ]
+     },
+     "id": "2114784962855710728",
+     "public_metrics": {
+      "bookmark_count": 5,
+      "impression_count": 3445,
+      "like_count": 26,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114784954777248071",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Benchmarks 👀 https://t.co/VD8lam8FHm",
+     "url": "https://x.com/i/status/2114784962855710728"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2114778494395678720"
+      ],
+      "media_source_tweet_id": [
+       "2114780711664398349"
+      ]
+     },
+     "created_at": "2026-10-26T18:23:18.000Z",
+     "edit_history_tweet_ids": [
+      "2114784954777248071"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/jm48GhDZz7",
+        "end": 395,
+        "expanded_url": "https://x.com/OpenAI/status/2114780711664398349/video/1",
+        "media_key": "13_2114778494395678720",
+        "start": 372,
+        "url": "https://t.co/jm48GhDZz7"
+       }
+      ]
+     },
+     "id": "2114784954777248071",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "x.com/OpenAI/status/…",
+         "end": 395,
+         "expanded_url": "https://x.com/OpenAI/status/2114780711664398349/video/1",
+         "start": 372,
+         "url": "https://t.co/jm48GhDZz7"
+        }
+       ]
+      },
+      "text": "BREAKING 🔥: OpenAI officially announced GPT-6.1 Terra!\n\n> \"At max effort, Terra is over three times as token-efficient as Claude Opus 5.5, and one-fourth its price per token, resulting in a ~9x lower cost per task.\"\n\n> \"Terra is also much quicker, completing tasks over three times faster than both GPT-6 Astra and GPT-6.1 Sol.\"\n\nI would call it a Berlin DevDay release 👀 https://t.co/jm48GhDZz7"
+     },
+     "public_metrics": {
+      "bookmark_count": 55,
+      "impression_count": 24348,
+      "like_count": 454,
+      "quote_count": 5,
+      "reply_count": 30,
+      "retweet_count": 24
+     },
+     "text": "BREAKING 🔥: OpenAI officially announced GPT-6.1 Terra!\n\n&gt; \"At max effort, Terra is over three times as token-efficient as Claude Opus 5.5, and one-fourth its price per token, resulting in a ~9x lower cost per task.\"\n\n&gt; \"Terra is also much quicker, completing tasks over three",
+     "url": "https://x.com/i/status/2114784954777248071"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114779895783993344",
+       "3_2114779895901417472"
+      ]
+     },
+     "created_at": "2026-10-26T18:03:30.000Z",
+     "edit_history_tweet_ids": [
+      "2114779972418081246"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/piy4XXmZEn",
+        "end": 298,
+        "expanded_url": "https://x.com/testingcatalog/status/2114779972418081246/photo/1",
+        "media_key": "3_2114779895783993344",
+        "start": 275,
+        "url": "https://t.co/piy4XXmZEn"
+       },
+       {
+        "display_url": "pic.x.com/piy4XXmZEn",
+        "end": 298,
+        "expanded_url": "https://x.com/testingcatalog/status/2114779972418081246/photo/1",
+        "media_key": "3_2114779895901417472",
+        "start": 275,
+        "url": "https://t.co/piy4XXmZEn"
+       },
+       {
+        "display_url": "x.com/codexreleases/…",
+        "end": 322,
+        "expanded_url": "https://twitter.com/codexreleases/status/2114779011197141350",
+        "start": 299,
+        "url": "https://t.co/HGwjhGsRe7"
+       }
+      ]
+     },
+     "id": "2114779972418081246",
+     "note_tweet": {
+      "text": "OPENAI 🔥: A new gpt-6.1-terra model slug has been spotted on the APIs and now is being mentioned on the latest Codex changelog!\n\n> GPT-6.1 Terra is now available in ChatGPT Work and Codex on Plus, Pro, Business, Enterprise, and Edu plans. It’s a fast, efficient model for professional work that combines strong image understanding with precise computer use.\n\n> Reason about images and screens, then act on what you find across your browser, desktop, and apps. Terra also provides clear, direct writing that puts results first and explains supporting details in plain language.\n\nTesting time soon! 👀"
+     },
+     "public_metrics": {
+      "bookmark_count": 16,
+      "impression_count": 14333,
+      "like_count": 246,
+      "quote_count": 2,
+      "reply_count": 18,
+      "retweet_count": 13
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114779011197141350",
+       "type": "quoted"
+      }
+     ],
+     "text": "OPENAI 🔥: A new gpt-6.1-terra model slug has been spotted on the APIs and now is being mentioned on the latest Codex changelog!\n\n&gt; GPT-6.1 Terra is now available in ChatGPT Work and Codex on Plus, Pro, Business, Enterprise, and Edu plans. It’s a fast, efficient model for https://t.co/piy4XXmZEn https://t.co/HGwjhGsRe7",
+     "url": "https://x.com/i/status/2114779972418081246"
+    },
+    {
+     "created_at": "2026-10-26T17:55:08.000Z",
+     "edit_history_tweet_ids": [
+      "2114777866365809026"
+     ],
+     "id": "2114777866365809026",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1339,
+      "like_count": 3,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114773950483816585",
+       "type": "replied_to"
+      }
+     ],
+     "text": "&gt; \"Demand for tokens will only grow\" 🔥",
+     "url": "https://x.com/i/status/2114777866365809026"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114776262333829120",
+       "3_2114776262359003136"
+      ]
+     },
+     "created_at": "2026-10-26T17:48:47.000Z",
+     "edit_history_tweet_ids": [
+      "2114776267635687796"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/m6Aj8qFGH0",
+        "end": 229,
+        "expanded_url": "https://x.com/testingcatalog/status/2114776267635687796/photo/1",
+        "media_key": "3_2114776262333829120",
+        "start": 206,
+        "url": "https://t.co/m6Aj8qFGH0"
+       },
+       {
+        "display_url": "pic.x.com/m6Aj8qFGH0",
+        "end": 229,
+        "expanded_url": "https://x.com/testingcatalog/status/2114776267635687796/photo/1",
+        "media_key": "3_2114776262359003136",
+        "start": 206,
+        "url": "https://t.co/m6Aj8qFGH0"
+       },
+       {
+        "display_url": "x.com/cohere/status/…",
+        "end": 253,
+        "expanded_url": "https://twitter.com/cohere/status/2114752002370544004",
+        "start": 230,
+        "url": "https://t.co/kqM0jXwfbm"
+       }
+      ]
+     },
+     "id": "2114776267635687796",
+     "public_metrics": {
+      "bookmark_count": 10,
+      "impression_count": 6525,
+      "like_count": 55,
+      "quote_count": 0,
+      "reply_count": 14,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114752002370544004",
+       "type": "quoted"
+      }
+     ],
+     "text": "Alibaba 🥊 Cohere\n\nAccording to Cohere, Qwen3.8-Flash-Next model attempted to upload a probe file to Alibaba Cloud in China during evaluation in the controlled environment. \n\n“All your data belongs to us” 👀 https://t.co/m6Aj8qFGH0 https://t.co/kqM0jXwfbm",
+     "url": "https://x.com/i/status/2114776267635687796"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114773944423084032"
+      ]
+     },
+     "created_at": "2026-10-26T17:39:35.000Z",
+     "edit_history_tweet_ids": [
+      "2114773950483816585"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/TDBWxVeHRC",
+        "end": 37,
+        "expanded_url": "https://x.com/testingcatalog/status/2114773950483816585/photo/1",
+        "media_key": "3_2114773944423084032",
+        "start": 14,
+        "url": "https://t.co/TDBWxVeHRC"
+       }
+      ]
+     },
+     "id": "2114773950483816585",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1846,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114747970474123325",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Q&amp;A time! https://t.co/TDBWxVeHRC",
+     "url": "https://x.com/i/status/2114773950483816585"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2114772682264674305"
+      ]
+     },
+     "created_at": "2026-10-26T17:34:58.000Z",
+     "edit_history_tweet_ids": [
+      "2114772789890588932"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/JhdnUxYbVp",
+        "end": 274,
+        "expanded_url": "https://x.com/testingcatalog/status/2114772789890588932/video/1",
+        "media_key": "13_2114772682264674305",
+        "start": 251,
+        "url": "https://t.co/JhdnUxYbVp"
+       }
+      ]
+     },
+     "id": "2114772789890588932",
+     "public_metrics": {
+      "bookmark_count": 30,
+      "impression_count": 9506,
+      "like_count": 143,
+      "quote_count": 7,
+      "reply_count": 21,
+      "retweet_count": 8
+     },
+     "text": "Meta is testing the Live Avatar feature for Muse on its desktop app.\n\nThis is what the new companion window will look like for now. It will also minimize automatically if you switch windows.\n\nMinty looks cool 🤢\n\n* The feature is still in development. https://t.co/JhdnUxYbVp",
+     "url": "https://x.com/i/status/2114772789890588932"
+    },
+    {
+     "created_at": "2026-10-26T17:27:48.000Z",
+     "edit_history_tweet_ids": [
+      "2114770987636195643"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "Specialists built only for video help you prep, record, edit, clip and publish, while you make the calls. Try free for 14 days.",
+        "display_url": "riverside.com/agents",
+        "end": 207,
+        "expanded_url": "https://riverside.com/agents",
+        "images": [
+         {
+          "height": 1260,
+          "url": "https://pbs.twimg.com/news_img/2114757082800930816/jXLyuAgI?format=jpg&name=orig",
+          "width": 2400
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2114757082800930816/jXLyuAgI?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 184,
+        "status": 200,
+        "title": "The first team of AI agents built only for video",
+        "unwound_url": "https://riverside.com/agents",
+        "url": "https://t.co/Y1jaEGWIaj"
+       }
+      ]
+     },
+     "id": "2114770987636195643",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1495,
+      "like_count": 4,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114770984452464678",
+       "type": "replied_to"
+      }
+     ],
+     "text": "The Riverside Agents team includes a Producer, Editor, Clipper, and Marketer.\n\nThese Agents can run on the web and mobile apps and are included on every Riverside plan.\n\nTest it out 👀\nhttps://t.co/Y1jaEGWIaj",
+     "url": "https://x.com/i/status/2114770987636195643"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2114770428707168256"
+      ]
+     },
+     "created_at": "2026-10-26T17:27:47.000Z",
+     "edit_history_tweet_ids": [
+      "2114770984452464678"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/Ajs2d7nJSj",
+        "end": 301,
+        "expanded_url": "https://x.com/testingcatalog/status/2114770984452464678/video/1",
+        "media_key": "13_2114770428707168256",
+        "start": 278,
+        "url": "https://t.co/Ajs2d7nJSj"
+       },
+       {
+        "display_url": "x.com/NadavKeyson/st…",
+        "end": 325,
+        "expanded_url": "https://twitter.com/NadavKeyson/status/2114759149770723804",
+        "start": 302,
+        "url": "https://t.co/4W1B4YVQ08"
+       }
+      ]
+     },
+     "id": "2114770984452464678",
+     "note_tweet": {
+      "text": "Riverside has launched Riverside Agents, a team of 4 AI agents, each handling a different step of podcast creation, from session prep to publishing.\n\nRiverside’s main product is an online studio for recording and editing audio and video podcasts.\n\nAfter users finish recording, agents can process the recording and suggest a rough cut and a list of the best clips. These agents can also write captions and schedule posts once the creator approves them."
+     },
+     "public_metrics": {
+      "bookmark_count": 14,
+      "impression_count": 5702,
+      "like_count": 27,
+      "quote_count": 0,
+      "reply_count": 7,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114759149770723804",
+       "type": "quoted"
+      }
+     ],
+     "text": "Riverside has launched Riverside Agents, a team of 4 AI agents, each handling a different step of podcast creation, from session prep to publishing.\n\nRiverside’s main product is an online studio for recording and editing audio and video podcasts.\n\nAfter users finish recording, https://t.co/Ajs2d7nJSj https://t.co/4W1B4YVQ08",
+     "url": "https://x.com/i/status/2114770984452464678"
+    },
+    {
+     "created_at": "2026-10-26T17:10:14.000Z",
+     "edit_history_tweet_ids": [
+      "2114766567800185102"
+     ],
+     "id": "2114766567800185102",
+     "note_tweet": {
+      "entities": {
+       "urls": [
+        {
+         "display_url": "eon.io/free-protectio…",
+         "end": 434,
+         "expanded_url": "https://www.eon.io/free-protection-program",
+         "start": 411,
+         "url": "https://t.co/LRvouTntOg"
+        }
+       ]
+      },
+      "text": "Eon integrates with AWS, Azure, Google Cloud, Microsoft 365, and Google Workspace, connecting through a read-only role with nothing installed on servers.\n\nWhile scanning, it can also flag backups that still run a PHP version vulnerable to PHP2Shell, helping teams find a clean restore point.\n\nThe Eon team can review each request and activate it through the customer's cloud marketplace account.\n\nTake a look 👀\nhttps://t.co/LRvouTntOg"
+     },
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1576,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114766564478034297",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Eon integrates with AWS, Azure, Google Cloud, Microsoft 365, and Google Workspace, connecting through a read-only role with nothing installed on servers.\n\nWhile scanning, it can also flag backups that still run a PHP version vulnerable to PHP2Shell, helping teams find a clean",
+     "url": "https://x.com/i/status/2114766567800185102"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114766486384381952",
+       "3_2114766511143358464"
+      ]
+     },
+     "created_at": "2026-10-26T17:10:14.000Z",
+     "edit_history_tweet_ids": [
+      "2114766564478034297"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/jgYEWoLFcS",
+        "end": 304,
+        "expanded_url": "https://x.com/testingcatalog/status/2114766564478034297/photo/1",
+        "media_key": "3_2114766486384381952",
+        "start": 281,
+        "url": "https://t.co/jgYEWoLFcS"
+       },
+       {
+        "display_url": "pic.x.com/jgYEWoLFcS",
+        "end": 304,
+        "expanded_url": "https://x.com/testingcatalog/status/2114766564478034297/photo/1",
+        "media_key": "3_2114766511143358464",
+        "start": 281,
+        "url": "https://t.co/jgYEWoLFcS"
+       },
+       {
+        "display_url": "x.com/OfirEhrlich/st…",
+        "end": 328,
+        "expanded_url": "https://twitter.com/OfirEhrlich/status/2114739974369120698",
+        "start": 305,
+        "url": "https://t.co/B3z0bTG5rW"
+       }
+      ]
+     },
+     "id": "2114766564478034297",
+     "note_tweet": {
+      "text": "Eon has launched the Data Resilience Initiative, offering three months of a full cloud data protection platform for free, effective for up to 100 TB of data.\n\nEon stores a company's backups in an isolated, encrypted vault, letting teams restore only the specific files or database rows affected by an attack.\n\nThe initiative began with PHP2Shell, a pair of critical PHP flaws researchers found with AI help. Other security vendors are also invited to join with their own offers."
+     },
+     "public_metrics": {
+      "bookmark_count": 15,
+      "impression_count": 5915,
+      "like_count": 35,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114739974369120698",
+       "type": "quoted"
+      }
+     ],
+     "text": "Eon has launched the Data Resilience Initiative, offering three months of a full cloud data protection platform for free, effective for up to 100 TB of data.\n\nEon stores a company's backups in an isolated, encrypted vault, letting teams restore only the specific files or database https://t.co/jgYEWoLFcS https://t.co/B3z0bTG5rW",
+     "url": "https://x.com/i/status/2114766564478034297"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114747961716391936",
+       "3_2114747961703845888"
+      ]
+     },
+     "created_at": "2026-10-26T15:56:20.000Z",
+     "edit_history_tweet_ids": [
+      "2114747970474123325"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/dxBkXLkEDV",
+        "end": 41,
+        "expanded_url": "https://x.com/testingcatalog/status/2114747970474123325/photo/1",
+        "media_key": "3_2114747961716391936",
+        "start": 18,
+        "url": "https://t.co/dxBkXLkEDV"
+       },
+       {
+        "display_url": "pic.x.com/dxBkXLkEDV",
+        "end": 41,
+        "expanded_url": "https://x.com/testingcatalog/status/2114747970474123325/photo/1",
+        "media_key": "3_2114747961703845888",
+        "start": 18,
+        "url": "https://t.co/dxBkXLkEDV"
+       }
+      ]
+     },
+     "id": "2114747970474123325",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 3658,
+      "like_count": 18,
+      "quote_count": 2,
+      "reply_count": 4,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114735342779801666",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Codex Pet cards 🔥 https://t.co/dxBkXLkEDV",
+     "url": "https://x.com/i/status/2114747970474123325"
+    },
+    {
+     "created_at": "2026-10-26T15:10:56.000Z",
+     "edit_history_tweet_ids": [
+      "2114736544225563054"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "description": "Sign in to Console by Nace.AI. Data Intelligence suite for AI agents and developers.",
+        "display_url": "console.nace.ai",
+        "end": 278,
+        "expanded_url": "https://console.nace.ai",
+        "images": [
+         {
+          "height": 630,
+          "url": "https://pbs.twimg.com/news_img/2114731095870570496/o3WM4q2b?format=jpg&name=orig",
+          "width": 1200
+         },
+         {
+          "height": 150,
+          "url": "https://pbs.twimg.com/news_img/2114731095870570496/o3WM4q2b?format=jpg&name=150x150",
+          "width": 150
+         }
+        ],
+        "start": 255,
+        "status": 200,
+        "title": "Sign in | Console",
+        "unwound_url": "https://console.nace.ai/login",
+        "url": "https://t.co/wV4YIaUTCK"
+       }
+      ]
+     },
+     "id": "2114736544225563054",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2326,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114736537904595412",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Drex for Search is live in the Nace API Console, and new accounts start with $25 of credit.\n\nIn Nace’s tests, each question used about 397k fewer input tokens and median latency dropped by 56.8%, with Codex seeing the largest cut at 70.5%.\n\nTest it out 👀\nhttps://t.co/wV4YIaUTCK",
+     "url": "https://x.com/i/status/2114736544225563054"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2114736517998370816"
+      ]
+     },
+     "created_at": "2026-10-26T15:10:55.000Z",
+     "edit_history_tweet_ids": [
+      "2114736537904595412"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/eFg7UknECr",
+        "end": 300,
+        "expanded_url": "https://x.com/testingcatalog/status/2114736537904595412/video/1",
+        "media_key": "13_2114736517998370816",
+        "start": 277,
+        "url": "https://t.co/eFg7UknECr"
+       },
+       {
+        "display_url": "x.com/naceai/status/…",
+        "end": 324,
+        "expanded_url": "https://twitter.com/naceai/status/2114731088337658286",
+        "start": 301,
+        "url": "https://t.co/Zuj9DWv8Iv"
+       }
+      ]
+     },
+     "id": "2114736537904595412",
+     "note_tweet": {
+      "text": "Nace AI launched Drex for Search, a tool that lets agents retrieve answers from files stored in the cloud by giving them the exact pages they need.\n\nWhen given a question, Drex for Search first finds the likely folder, then the file, then the page, and returns the answer, the quote, and the page number where it found the info.\n\n> Drex Search is able to connect to a user’s AWS S3, Azure, and DigitalOcean, with the ability to read scanned PDFs, spreadsheets, email, and audio.\n\n> Coding agents such as Claude Code, Codex, and Hermes Agent can use it as a tool, with Nace reporting 62% fewer steps and 56% fewer input tokens per question.\n\n> Across 529 queries from six professional work benchmarks, including Databricks’ OfficeQA, agents using it answered 67.1% correctly, up from 63.1%."
+     },
+     "public_metrics": {
+      "bookmark_count": 12,
+      "impression_count": 8525,
+      "like_count": 64,
+      "quote_count": 3,
+      "reply_count": 29,
+      "retweet_count": 4
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114731088337658286",
+       "type": "quoted"
+      }
+     ],
+     "text": "Nace AI launched Drex for Search, a tool that lets agents retrieve answers from files stored in the cloud by giving them the exact pages they need.\n\nWhen given a question, Drex for Search first finds the likely folder, then the file, then the page, and returns the answer, the https://t.co/eFg7UknECr https://t.co/Zuj9DWv8Iv",
+     "url": "https://x.com/i/status/2114736537904595412"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114735331450699776",
+       "3_2114735331408842752"
+      ]
+     },
+     "created_at": "2026-10-26T15:06:10.000Z",
+     "edit_history_tweet_ids": [
+      "2114735342779801666"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/MDljky0upW",
+        "end": 45,
+        "expanded_url": "https://x.com/testingcatalog/status/2114735342779801666/photo/1",
+        "media_key": "3_2114735331450699776",
+        "start": 22,
+        "url": "https://t.co/MDljky0upW"
+       },
+       {
+        "display_url": "pic.x.com/MDljky0upW",
+        "end": 45,
+        "expanded_url": "https://x.com/testingcatalog/status/2114735342779801666/photo/1",
+        "media_key": "3_2114735331408842752",
+        "start": 22,
+        "url": "https://t.co/MDljky0upW"
+       }
+      ]
+     },
+     "id": "2114735342779801666",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2877,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114730579203617254",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Latest Codex tricks 👀 https://t.co/MDljky0upW",
+     "url": "https://x.com/i/status/2114735342779801666"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114730568411725825"
+      ]
+     },
+     "created_at": "2026-10-26T14:47:14.000Z",
+     "edit_history_tweet_ids": [
+      "2114730579203617254"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/UW4BY1ooRK",
+        "end": 59,
+        "expanded_url": "https://x.com/testingcatalog/status/2114730579203617254/photo/1",
+        "media_key": "3_2114730568411725825",
+        "start": 36,
+        "url": "https://t.co/UW4BY1ooRK"
+       }
+      ]
+     },
+     "id": "2114730579203617254",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2409,
+      "like_count": 9,
+      "quote_count": 0,
+      "reply_count": 3,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114728812642443469",
+       "type": "replied_to"
+      }
+     ],
+     "text": "A full summary of recent releases 👀 https://t.co/UW4BY1ooRK",
+     "url": "https://x.com/i/status/2114730579203617254"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114728806510370816"
+      ]
+     },
+     "created_at": "2026-10-26T14:40:13.000Z",
+     "edit_history_tweet_ids": [
+      "2114728812642443469"
+     ],
+     "entities": {
+      "hashtags": [
+       {
+        "end": 25,
+        "start": 16,
+        "tag": "clubmate"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "pic.x.com/rXCDBcVy4P",
+        "end": 49,
+        "expanded_url": "https://x.com/testingcatalog/status/2114728812642443469/photo/1",
+        "media_key": "3_2114728806510370816",
+        "start": 26,
+        "url": "https://t.co/rXCDBcVy4P"
+       }
+      ]
+     },
+     "id": "2114728812642443469",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1899,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114725916366774486",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Berlin vibes 👀\n\n#clubmate https://t.co/rXCDBcVy4P",
+     "url": "https://x.com/i/status/2114728812642443469"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114725909605359616"
+      ]
+     },
+     "created_at": "2026-10-26T14:28:42.000Z",
+     "edit_history_tweet_ids": [
+      "2114725916366774486"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/8fkKix82SH",
+        "end": 69,
+        "expanded_url": "https://x.com/testingcatalog/status/2114725916366774486/photo/1",
+        "media_key": "3_2114725909605359616",
+        "start": 46,
+        "url": "https://t.co/8fkKix82SH"
+       }
+      ]
+     },
+     "id": "2114725916366774486",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1656,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114723217055092798",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Codex CLI voice mode Micro keyboard giveaway! https://t.co/8fkKix82SH",
+     "url": "https://x.com/i/status/2114725916366774486"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114723210369372160"
+      ]
+     },
+     "created_at": "2026-10-26T14:17:59.000Z",
+     "edit_history_tweet_ids": [
+      "2114723217055092798"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/DhxLbw5GWd",
+        "end": 78,
+        "expanded_url": "https://x.com/testingcatalog/status/2114723217055092798/photo/1",
+        "media_key": "3_2114723210369372160",
+        "start": 55,
+        "url": "https://t.co/DhxLbw5GWd"
+       }
+      ]
+     },
+     "id": "2114723217055092798",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1697,
+      "like_count": 17,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114722900729315462",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Ah no 👀\n\n“Dots in EU are few weeks away “ “hopefully “ https://t.co/DhxLbw5GWd",
+     "url": "https://x.com/i/status/2114723217055092798"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114722893196038144"
+      ]
+     },
+     "created_at": "2026-10-26T14:16:43.000Z",
+     "edit_history_tweet_ids": [
+      "2114722900729315462"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/hZQ3h7jKfx",
+        "end": 119,
+        "expanded_url": "https://x.com/testingcatalog/status/2114722900729315462/photo/1",
+        "media_key": "3_2114722893196038144",
+        "start": 96,
+        "url": "https://t.co/hZQ3h7jKfx"
+       }
+      ]
+     },
+     "id": "2114722900729315462",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1492,
+      "like_count": 17,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114720555710525527",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Dots are being presented - is there a chance we will get them in EU today? \n\nWould be massive 👀 https://t.co/hZQ3h7jKfx",
+     "url": "https://x.com/i/status/2114722900729315462"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114720524634890240"
+      ]
+     },
+     "created_at": "2026-10-26T14:07:24.000Z",
+     "edit_history_tweet_ids": [
+      "2114720555710525527"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/r21AlBtzDY",
+        "end": 51,
+        "expanded_url": "https://x.com/testingcatalog/status/2114720555710525527/photo/1",
+        "media_key": "3_2114720524634890240",
+        "start": 28,
+        "url": "https://t.co/r21AlBtzDY"
+       }
+      ]
+     },
+     "id": "2114720555710525527",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1509,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114719892704231479",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Codex adoption in Germany 👀 https://t.co/r21AlBtzDY",
+     "url": "https://x.com/i/status/2114720555710525527"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114719884428918785"
+      ]
+     },
+     "created_at": "2026-10-26T14:04:46.000Z",
+     "edit_history_tweet_ids": [
+      "2114719892704231479"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/LD9AWXfW8x",
+        "end": 89,
+        "expanded_url": "https://x.com/testingcatalog/status/2114719892704231479/photo/1",
+        "media_key": "3_2114719884428918785",
+        "start": 66,
+        "url": "https://t.co/LD9AWXfW8x"
+       }
+      ]
+     },
+     "id": "2114719892704231479",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 2418,
+      "like_count": 26,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114718963263312153",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Germany is top 1 in EMEA ChatGPT users. Top 5 in global API devs. https://t.co/LD9AWXfW8x",
+     "url": "https://x.com/i/status/2114719892704231479"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114718953691906048"
+      ]
+     },
+     "created_at": "2026-10-26T14:01:05.000Z",
+     "edit_history_tweet_ids": [
+      "2114718963263312153"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/RYuOVFgBVJ",
+        "end": 40,
+        "expanded_url": "https://x.com/testingcatalog/status/2114718963263312153/photo/1",
+        "media_key": "3_2114718953691906048",
+        "start": 17,
+        "url": "https://t.co/RYuOVFgBVJ"
+       }
+      ]
+     },
+     "id": "2114718963263312153",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2520,
+      "like_count": 17,
+      "quote_count": 0,
+      "reply_count": 2,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114712761938936042",
+       "type": "replied_to"
+      }
+     ],
+     "text": "It’s happening 👀 https://t.co/RYuOVFgBVJ",
+     "url": "https://x.com/i/status/2114718963263312153"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114712752119767040",
+       "3_2114712752082022401"
+      ]
+     },
+     "created_at": "2026-10-26T13:36:26.000Z",
+     "edit_history_tweet_ids": [
+      "2114712761938936042"
+     ],
+     "entities": {
+      "urls": [
+       {
+        "display_url": "pic.x.com/Gm0C88FDj5",
+        "end": 95,
+        "expanded_url": "https://x.com/testingcatalog/status/2114712761938936042/photo/1",
+        "media_key": "3_2114712752119767040",
+        "start": 72,
+        "url": "https://t.co/Gm0C88FDj5"
+       },
+       {
+        "display_url": "pic.x.com/Gm0C88FDj5",
+        "end": 95,
+        "expanded_url": "https://x.com/testingcatalog/status/2114712761938936042/photo/1",
+        "media_key": "3_2114712752082022401",
+        "start": 72,
+        "url": "https://t.co/Gm0C88FDj5"
+       }
+      ]
+     },
+     "id": "2114712761938936042",
+     "public_metrics": {
+      "bookmark_count": 22,
+      "impression_count": 23492,
+      "like_count": 290,
+      "quote_count": 2,
+      "reply_count": 23,
+      "retweet_count": 11
+     },
+     "text": "OpenAI DevDay Exchange in Berlin is about to start soon! \n\nMonitoring 🍿 https://t.co/Gm0C88FDj5",
+     "url": "https://x.com/i/status/2114712761938936042"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114705869594124289",
+       "3_2114705869493448704"
+      ]
+     },
+     "created_at": "2026-10-26T13:09:04.000Z",
+     "edit_history_tweet_ids": [
+      "2114705876036538615"
+     ],
+     "entities": {
+      "cashtags": [
+       {
+        "end": 16,
+        "start": 12,
+        "tag": "ANT"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "pic.x.com/I9qVazAvSL",
+        "end": 304,
+        "expanded_url": "https://x.com/testingcatalog/status/2114705876036538615/photo/1",
+        "media_key": "3_2114705869594124289",
+        "start": 281,
+        "url": "https://t.co/I9qVazAvSL"
+       },
+       {
+        "display_url": "pic.x.com/I9qVazAvSL",
+        "end": 304,
+        "expanded_url": "https://x.com/testingcatalog/status/2114705876036538615/photo/1",
+        "media_key": "3_2114705869493448704",
+        "start": 281,
+        "url": "https://t.co/I9qVazAvSL"
+       },
+       {
+        "display_url": "x.com/anthropicai/st…",
+        "end": 328,
+        "expanded_url": "https://twitter.com/anthropicai/status/2114705042817110293",
+        "start": 305,
+        "url": "https://t.co/l3zGaRGSfl"
+       }
+      ]
+     },
+     "id": "2114705876036538615",
+     "note_tweet": {
+      "entities": {
+       "cashtags": [
+        {
+         "end": 16,
+         "start": 12,
+         "tag": "ANT"
+        }
+       ]
+      },
+      "text": "BREAKING 🔥: $ANT will be an official Nasdaq ticker for Anthropic according to the latest statement! \n\n> “Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.” The number of shares of Class A common stock to be offered and the price range for the proposed offering have not yet been determined.”\n\nNot (ANT Only) soon 👀"
+     },
+     "public_metrics": {
+      "bookmark_count": 13,
+      "impression_count": 15799,
+      "like_count": 252,
+      "quote_count": 1,
+      "reply_count": 15,
+      "retweet_count": 12
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114705042817110293",
+       "type": "quoted"
+      }
+     ],
+     "text": "BREAKING 🔥: $ANT will be an official Nasdaq ticker for Anthropic according to the latest statement! \n\n&gt; “Anthropic intends to list its Class A common stock on the Nasdaq Global Select Market under the symbol “ANT.” The number of shares of Class A common stock to be offered and https://t.co/I9qVazAvSL https://t.co/l3zGaRGSfl",
+     "url": "https://x.com/i/status/2114705876036538615"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114696417914630144",
+       "3_2114696417906233344"
+      ]
+     },
+     "created_at": "2026-10-26T12:31:31.000Z",
+     "edit_history_tweet_ids": [
+      "2114696424021451174"
+     ],
+     "id": "2114696424021451174",
+     "public_metrics": {
+      "bookmark_count": 36,
+      "impression_count": 28147,
+      "like_count": 432,
+      "quote_count": 7,
+      "reply_count": 15,
+      "retweet_count": 23
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114689790700408938",
+       "type": "quoted"
+      }
+     ],
+     "text": "ANTHROPIC 🔥: S-1 IPO filing is set for 9AM EST today as reported by Bloomberg!\n\nThis event supposed to give a proper public clarity over Anthropic financials for the first time. \n\nAnd of course why would you do an IPO without a big model release (speculative).\n\nLooks big 👀 https://t.co/L6dwLidbcN https://t.co/94hiQvGvXJ",
+     "url": "https://x.com/i/status/2114696424021451174"
+    },
+    {
+     "created_at": "2026-10-26T11:00:09.000Z",
+     "edit_history_tweet_ids": [
+      "2114673429710508174"
+     ],
+     "id": "2114673429710508174",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2948,
+      "like_count": 11,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2114673426459738303",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Google Developer Program Benefits FAQ\nhttps://t.co/NcfduGj3xe",
+     "url": "https://x.com/i/status/2114673429710508174"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114673357094273024"
+      ]
+     },
+     "created_at": "2026-10-26T11:00:08.000Z",
+     "edit_history_tweet_ids": [
+      "2114673426459738303"
+     ],
+     "id": "2114673426459738303",
+     "public_metrics": {
+      "bookmark_count": 45,
+      "impression_count": 15853,
+      "like_count": 211,
+      "quote_count": 4,
+      "reply_count": 53,
+      "retweet_count": 8
+     },
+     "text": "ICYMI 👀: As part of Google Developer Program Benefits, users with Google AI Pro or AI Ultra receive $10, $40, or $100 in Google Cloud credits per month.\n\nYou may use these credits only in Google AI Studio and Google Cloud Vertex AI. https://t.co/MiW6LXkdAU",
+     "url": "https://x.com/i/status/2114673426459738303"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2114782153544187904",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVk3Kf9WQAA44q3.jpg"
+     },
+     {
+      "media_key": "3_2114782153552584705",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVk3Kf_WYAEop1i.jpg"
+     },
+     {
+      "media_key": "13_2114778494395678720",
+      "preview_image_url": "https://pbs.twimg.com/media/HVk3m2pW0AERTJj.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "3_2114779895783993344",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVk1HFJXsAA7Dxp.jpg"
+     },
+     {
+      "media_key": "3_2114779895901417472",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVk1HFlXcAACs-1.jpg"
+     },
+     {
+      "media_key": "3_2114776262333829120",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkxzlfWEAA0qxp.jpg"
+     },
+     {
+      "media_key": "3_2114776262359003136",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkxzllWMAAe633.jpg"
+     },
+     {
+      "media_key": "3_2114773944423084032",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkvsqmW8AAgHPA.jpg"
+     },
+     {
+      "media_key": "13_2114772682264674305",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114772682264674305/img/ifkKhKoV6N39aMYa.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "13_2114770428707168256",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114770428707168256/img/cD_fVTIhnTAACVbx.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "3_2114766486384381952",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVko6jPXkAA_8aU.jpg"
+     },
+     {
+      "media_key": "3_2114766511143358464",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVko7_eXkAAmAFc.jpg"
+     },
+     {
+      "media_key": "3_2114747961716391936",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkYEReWQAAC1YK.jpg"
+     },
+     {
+      "media_key": "3_2114747961703845888",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkYERbW0AA_6du.jpg"
+     },
+     {
+      "media_key": "13_2114736517998370816",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114736517998370816/img/B6xVbELF4OFI5KpK.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "3_2114735331450699776",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkMlGEWQAA_uhS.jpg"
+     },
+     {
+      "media_key": "3_2114735331408842752",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkMlF6XkAA65_X.jpg"
+     },
+     {
+      "media_key": "3_2114730568411725825",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkIP2XXQAEqRhg.jpg"
+     },
+     {
+      "media_key": "3_2114728806510370816",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkGpSxWIAAOllz.jpg"
+     },
+     {
+      "media_key": "3_2114725909605359616",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkEAq9XoAAyyHV.jpg"
+     },
+     {
+      "media_key": "3_2114723210369372160",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkBjjhXEAAf_Ic.jpg"
+     },
+     {
+      "media_key": "3_2114722893196038144",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVkBRF9WEAAMD3H.jpg"
+     },
+     {
+      "media_key": "3_2114720524634890240",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVj_HOYXIAAuvEz.jpg"
+     },
+     {
+      "media_key": "3_2114719884428918785",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVj-h9bXQAE4d2U.jpg"
+     },
+     {
+      "media_key": "3_2114718953691906048",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVj9ryKXgAA0oIy.jpg"
+     },
+     {
+      "media_key": "3_2114712752119767040",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVj4CzgWYAAyNjA.jpg"
+     },
+     {
+      "media_key": "3_2114712752082022401",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVj4CzXWcAEKxbX.jpg"
+     },
+     {
+      "media_key": "3_2114705869594124289",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVjxyMGXYAEvTer.jpg"
+     },
+     {
+      "media_key": "3_2114705869493448704",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVjxyLuXMAAMfQs.jpg"
+     },
+     {
+      "media_key": "3_2114696417914630144",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVjpMB2XsAAIeYe.jpg"
+     },
+     {
+      "media_key": "3_2114696417906233344",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVjpMB0XkAAITGp.jpg"
+     },
+     {
+      "media_key": "3_2114673357094273024",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVjUNtmWQAAvBih.jpg"
+     }
+    ],
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114778494395678720"
+       ],
+       "media_source_tweet_id": [
+        "2114780711664398349"
+       ]
+      },
+      "created_at": "2026-10-26T18:23:18.000Z",
+      "edit_history_tweet_ids": [
+       "2114784954777248071"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/jm48GhDZz7",
+         "end": 395,
+         "expanded_url": "https://x.com/OpenAI/status/2114780711664398349/video/1",
+         "media_key": "13_2114778494395678720",
+         "start": 372,
+         "url": "https://t.co/jm48GhDZz7"
+        }
+       ]
+      },
+      "id": "2114784954777248071",
+      "note_tweet": {
+       "entities": {
+        "urls": [
+         {
+          "display_url": "x.com/OpenAI/status/…",
+          "end": 395,
+          "expanded_url": "https://x.com/OpenAI/status/2114780711664398349/video/1",
+          "start": 372,
+          "url": "https://t.co/jm48GhDZz7"
+         }
+        ]
+       },
+       "text": "BREAKING 🔥: OpenAI officially announced GPT-6.1 Terra!\n\n> \"At max effort, Terra is over three times as token-efficient as Claude Opus 5.5, and one-fourth its price per token, resulting in a ~9x lower cost per task.\"\n\n> \"Terra is also much quicker, completing tasks over three times faster than both GPT-6 Astra and GPT-6.1 Sol.\"\n\nI would call it a Berlin DevDay release 👀 https://t.co/jm48GhDZz7"
+      },
+      "public_metrics": {
+       "bookmark_count": 55,
+       "impression_count": 24348,
+       "like_count": 454,
+       "quote_count": 5,
+       "reply_count": 30,
+       "retweet_count": 24
+      },
+      "text": "BREAKING 🔥: OpenAI officially announced GPT-6.1 Terra!\n\n&gt; \"At max effort, Terra is over three times as token-efficient as Claude Opus 5.5, and one-fourth its price per token, resulting in a ~9x lower cost per task.\"\n\n&gt; \"Terra is also much quicker, completing tasks over three"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114779008231772161"
+       ]
+      },
+      "created_at": "2026-10-26T17:59:41.000Z",
+      "edit_history_tweet_ids": [
+       "2114779011197141350"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/fMnjY7Nspt",
+         "end": 302,
+         "expanded_url": "https://x.com/CodexReleases/status/2114779011197141350/photo/1",
+         "media_key": "3_2114779008231772161",
+         "start": 279,
+         "url": "https://t.co/fMnjY7Nspt"
+        }
+       ]
+      },
+      "id": "2114779011197141350",
+      "note_tweet": {
+       "text": "Codex update: GPT-6.1 Terra in Work and Codex\n\nWhat changed:\n• GPT-6.1 Terra is now available in ChatGPT Work and Codex on Plus, Pro, Business, Enterprise, and Edu plans.\n• Combines strong image understanding with precise computer use — reason about images and screens, then act across browser, desktop, and apps.\n• Access via the model list under Advanced in the ChatGPT desktop app or ChatGPT Work on the web; also supported on mobile in Work.\n\nDetails in thread."
+      },
+      "public_metrics": {
+       "bookmark_count": 17,
+       "impression_count": 25687,
+       "like_count": 168,
+       "quote_count": 6,
+       "reply_count": 12,
+       "retweet_count": 16
+      },
+      "text": "Codex update: GPT-6.1 Terra in Work and Codex\n\nWhat changed:\n• GPT-6.1 Terra is now available in ChatGPT Work and Codex on Plus, Pro, Business, Enterprise, and Edu plans.\n• Combines strong image understanding with precise computer use — reason about images and screens, then act https://t.co/fMnjY7Nspt"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114773944423084032"
+       ]
+      },
+      "created_at": "2026-10-26T17:39:35.000Z",
+      "edit_history_tweet_ids": [
+       "2114773950483816585"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/TDBWxVeHRC",
+         "end": 37,
+         "expanded_url": "https://x.com/testingcatalog/status/2114773950483816585/photo/1",
+         "media_key": "3_2114773944423084032",
+         "start": 14,
+         "url": "https://t.co/TDBWxVeHRC"
+        }
+       ]
+      },
+      "id": "2114773950483816585",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 1846,
+       "like_count": 7,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114747970474123325",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Q&amp;A time! https://t.co/TDBWxVeHRC"
+     },
+     {
+      "created_at": "2026-10-26T16:12:22.000Z",
+      "edit_history_tweet_ids": [
+       "2114752002370544004"
+      ],
+      "id": "2114752002370544004",
+      "note_tweet": {
+       "entities": {
+        "urls": [
+         {
+          "display_url": "cohere.com/blog/concernin…",
+          "end": 1170,
+          "expanded_url": "http://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+          "start": 1147,
+          "url": "https://t.co/TZSugXi2ZE"
+         }
+        ]
+       },
+       "text": "While evaluating Qwen3.8-Flash-Next in a controlled sandbox environment, Cohere's research team observed something unexpected.\n\nAsked to generate a defensive cybersecurity detection rule, the model instead inventoried aspects of the machine it was running on and attempted to upload a probe file to an Alibaba Cloud storage bucket in Beijing. Notably, the model's reasoning trace stated that it would not invoke any tools before taking these actions.\n\nCohere's sandbox blocked the attempt, and no external communication succeeded. We have not determined the root cause, and we are not asserting malicious intent.\n\nBut the incident raises important questions for organizations deploying agentic AI systems: Can models take actions that differ from their stated reasoning, and how should security teams evaluate trust, provenance, and behavior in open-weight models?\n\nWe are publishing our findings because organizations making model adoption decisions deserve as much information as possible. We hope this contributes to greater transparency, stronger security practices, and continued collaboration across the AI ecosystem.\n\nRead the full report: https://t.co/TZSugXi2ZE"
+      },
+      "public_metrics": {
+       "bookmark_count": 4711,
+       "impression_count": 1807328,
+       "like_count": 8999,
+       "quote_count": 1209,
+       "reply_count": 771,
+       "retweet_count": 1019
+      },
+      "text": "While evaluating Qwen3.8-Flash-Next in a controlled sandbox environment, Cohere's research team observed something unexpected.\n\nAsked to generate a defensive cybersecurity detection rule, the model instead inventoried aspects of the machine it was running on and attempted to"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114747961716391936",
+        "3_2114747961703845888"
+       ]
+      },
+      "created_at": "2026-10-26T15:56:20.000Z",
+      "edit_history_tweet_ids": [
+       "2114747970474123325"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/dxBkXLkEDV",
+         "end": 41,
+         "expanded_url": "https://x.com/testingcatalog/status/2114747970474123325/photo/1",
+         "media_key": "3_2114747961716391936",
+         "start": 18,
+         "url": "https://t.co/dxBkXLkEDV"
+        },
+        {
+         "display_url": "pic.x.com/dxBkXLkEDV",
+         "end": 41,
+         "expanded_url": "https://x.com/testingcatalog/status/2114747970474123325/photo/1",
+         "media_key": "3_2114747961703845888",
+         "start": 18,
+         "url": "https://t.co/dxBkXLkEDV"
+        }
+       ]
+      },
+      "id": "2114747970474123325",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 3658,
+       "like_count": 18,
+       "quote_count": 2,
+       "reply_count": 4,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114735342779801666",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Codex Pet cards 🔥 https://t.co/dxBkXLkEDV"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114770428707168256"
+       ]
+      },
+      "created_at": "2026-10-26T17:27:47.000Z",
+      "edit_history_tweet_ids": [
+       "2114770984452464678"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/Ajs2d7nJSj",
+         "end": 301,
+         "expanded_url": "https://x.com/testingcatalog/status/2114770984452464678/video/1",
+         "media_key": "13_2114770428707168256",
+         "start": 278,
+         "url": "https://t.co/Ajs2d7nJSj"
+        },
+        {
+         "display_url": "x.com/NadavKeyson/st…",
+         "end": 325,
+         "expanded_url": "https://twitter.com/NadavKeyson/status/2114759149770723804",
+         "start": 302,
+         "url": "https://t.co/4W1B4YVQ08"
+        }
+       ]
+      },
+      "id": "2114770984452464678",
+      "note_tweet": {
+       "text": "Riverside has launched Riverside Agents, a team of 4 AI agents, each handling a different step of podcast creation, from session prep to publishing.\n\nRiverside’s main product is an online studio for recording and editing audio and video podcasts.\n\nAfter users finish recording, agents can process the recording and suggest a rough cut and a list of the best clips. These agents can also write captions and schedule posts once the creator approves them."
+      },
+      "public_metrics": {
+       "bookmark_count": 14,
+       "impression_count": 5702,
+       "like_count": 27,
+       "quote_count": 0,
+       "reply_count": 7,
+       "retweet_count": 2
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114759149770723804",
+        "type": "quoted"
+       }
+      ],
+      "text": "Riverside has launched Riverside Agents, a team of 4 AI agents, each handling a different step of podcast creation, from session prep to publishing.\n\nRiverside’s main product is an online studio for recording and editing audio and video podcasts.\n\nAfter users finish recording, https://t.co/Ajs2d7nJSj https://t.co/4W1B4YVQ08"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114758389934759937"
+       ]
+      },
+      "created_at": "2026-10-26T16:40:46.000Z",
+      "edit_history_tweet_ids": [
+       "2114759149770723804"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/Tj1SO73FB7",
+         "end": 302,
+         "expanded_url": "https://x.com/NadavKeyson/status/2114759149770723804/video/1",
+         "media_key": "13_2114758389934759937",
+         "start": 279,
+         "url": "https://t.co/Tj1SO73FB7"
+        }
+       ]
+      },
+      "id": "2114759149770723804",
+      "note_tweet": {
+       "text": "Meet Riverside Agents, the first AI production team built only for video.\n\nProducer preps the session, Editor creates the full edit, Clipper cuts the best moments, and Marketer gets it live.\n\nThey’re experts at video and know how to take your content to the next level. You call the shots.\n\nWatch the demo:"
+      },
+      "public_metrics": {
+       "bookmark_count": 228,
+       "impression_count": 133492,
+       "like_count": 286,
+       "quote_count": 94,
+       "reply_count": 109,
+       "retweet_count": 4578
+      },
+      "text": "Meet Riverside Agents, the first AI production team built only for video.\n\nProducer preps the session, Editor creates the full edit, Clipper cuts the best moments, and Marketer gets it live.\n\nThey’re experts at video and know how to take your content to the next level. You call https://t.co/Tj1SO73FB7"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114766486384381952",
+        "3_2114766511143358464"
+       ]
+      },
+      "created_at": "2026-10-26T17:10:14.000Z",
+      "edit_history_tweet_ids": [
+       "2114766564478034297"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/jgYEWoLFcS",
+         "end": 304,
+         "expanded_url": "https://x.com/testingcatalog/status/2114766564478034297/photo/1",
+         "media_key": "3_2114766486384381952",
+         "start": 281,
+         "url": "https://t.co/jgYEWoLFcS"
+        },
+        {
+         "display_url": "pic.x.com/jgYEWoLFcS",
+         "end": 304,
+         "expanded_url": "https://x.com/testingcatalog/status/2114766564478034297/photo/1",
+         "media_key": "3_2114766511143358464",
+         "start": 281,
+         "url": "https://t.co/jgYEWoLFcS"
+        },
+        {
+         "display_url": "x.com/OfirEhrlich/st…",
+         "end": 328,
+         "expanded_url": "https://twitter.com/OfirEhrlich/status/2114739974369120698",
+         "start": 305,
+         "url": "https://t.co/B3z0bTG5rW"
+        }
+       ]
+      },
+      "id": "2114766564478034297",
+      "note_tweet": {
+       "text": "Eon has launched the Data Resilience Initiative, offering three months of a full cloud data protection platform for free, effective for up to 100 TB of data.\n\nEon stores a company's backups in an isolated, encrypted vault, letting teams restore only the specific files or database rows affected by an attack.\n\nThe initiative began with PHP2Shell, a pair of critical PHP flaws researchers found with AI help. Other security vendors are also invited to join with their own offers."
+      },
+      "public_metrics": {
+       "bookmark_count": 15,
+       "impression_count": 5915,
+       "like_count": 35,
+       "quote_count": 0,
+       "reply_count": 5,
+       "retweet_count": 2
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114739974369120698",
+        "type": "quoted"
+       }
+      ],
+      "text": "Eon has launched the Data Resilience Initiative, offering three months of a full cloud data protection platform for free, effective for up to 100 TB of data.\n\nEon stores a company's backups in an isolated, encrypted vault, letting teams restore only the specific files or database https://t.co/jgYEWoLFcS https://t.co/B3z0bTG5rW"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114739790763393025"
+       ]
+      },
+      "created_at": "2026-10-26T15:24:34.000Z",
+      "edit_history_tweet_ids": [
+       "2114739974369120698"
+      ],
+      "entities": {
+       "mentions": [
+        {
+         "end": 204,
+         "id": "1862136279967686657",
+         "start": 196,
+         "username": "Eon_io_"
+        }
+       ],
+       "urls": [
+        {
+         "display_url": "pic.x.com/TpI3gJ6ndj",
+         "end": 300,
+         "expanded_url": "https://x.com/OfirEhrlich/status/2114739974369120698/photo/1",
+         "media_key": "3_2114739790763393025",
+         "start": 277,
+         "url": "https://t.co/TpI3gJ6ndj"
+        }
+       ]
+      },
+      "id": "2114739974369120698",
+      "note_tweet": {
+       "entities": {
+        "mentions": [
+         {
+          "end": 204,
+          "id": "1862136279967686657",
+          "start": 196,
+          "username": "Eon_io_"
+         }
+        ]
+       },
+       "text": "I believe we'll look back at this past week as a turning point in cybersecurity.\n\nAI is fundamentally changing the speed and scale of cyber threats, and the industry needs to move faster.\n\nToday, @Eon_io_ is launching the Data Resilience Initiative, helping companies find and protect their most sensitive data immediately.\n\nEon is the only data protection company founded this decade, and the only one that can be deployed in a day.\n\nThat's why we feel a responsibility to act.\n\nWhile the cybersecurity industry races to address these new threats, companies can't afford to wait to protect their most critical data.\n\nTraditional data protection solutions were built for a different era.\n\nThey still rely on paradigms from the on-prem world, often taking months to deploy.\nEon was built differently.\n\nWe help companies quickly discover their most sensitive data, identify protection gaps, secure it with air-gapped backups, detect ransomware, and recover rapidly from attacks.\n\nAs part of the Data Resilience Initiative, any company can start deploying Eon today.\n\nTo remove barriers to getting protected, we're making Eon available at no cost for the first three months.\n\nWe're also calling on other cybersecurity and data protection companies to join the initiative."
+      },
+      "public_metrics": {
+       "bookmark_count": 249,
+       "impression_count": 93687,
+       "like_count": 190,
+       "quote_count": 21,
+       "reply_count": 34,
+       "retweet_count": 64
+      },
+      "text": "I believe we'll look back at this past week as a turning point in cybersecurity.\n\nAI is fundamentally changing the speed and scale of cyber threats, and the industry needs to move faster.\n\nToday, @Eon_io_ is launching the Data Resilience Initiative, helping companies find and https://t.co/TpI3gJ6ndj"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114735331450699776",
+        "3_2114735331408842752"
+       ]
+      },
+      "created_at": "2026-10-26T15:06:10.000Z",
+      "edit_history_tweet_ids": [
+       "2114735342779801666"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/MDljky0upW",
+         "end": 45,
+         "expanded_url": "https://x.com/testingcatalog/status/2114735342779801666/photo/1",
+         "media_key": "3_2114735331450699776",
+         "start": 22,
+         "url": "https://t.co/MDljky0upW"
+        },
+        {
+         "display_url": "pic.x.com/MDljky0upW",
+         "end": 45,
+         "expanded_url": "https://x.com/testingcatalog/status/2114735342779801666/photo/1",
+         "media_key": "3_2114735331408842752",
+         "start": 22,
+         "url": "https://t.co/MDljky0upW"
+        }
+       ]
+      },
+      "id": "2114735342779801666",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 2877,
+       "like_count": 9,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114730579203617254",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Latest Codex tricks 👀 https://t.co/MDljky0upW"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114736517998370816"
+       ]
+      },
+      "created_at": "2026-10-26T15:10:55.000Z",
+      "edit_history_tweet_ids": [
+       "2114736537904595412"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/eFg7UknECr",
+         "end": 300,
+         "expanded_url": "https://x.com/testingcatalog/status/2114736537904595412/video/1",
+         "media_key": "13_2114736517998370816",
+         "start": 277,
+         "url": "https://t.co/eFg7UknECr"
+        },
+        {
+         "display_url": "x.com/naceai/status/…",
+         "end": 324,
+         "expanded_url": "https://twitter.com/naceai/status/2114731088337658286",
+         "start": 301,
+         "url": "https://t.co/Zuj9DWv8Iv"
+        }
+       ]
+      },
+      "id": "2114736537904595412",
+      "note_tweet": {
+       "text": "Nace AI launched Drex for Search, a tool that lets agents retrieve answers from files stored in the cloud by giving them the exact pages they need.\n\nWhen given a question, Drex for Search first finds the likely folder, then the file, then the page, and returns the answer, the quote, and the page number where it found the info.\n\n> Drex Search is able to connect to a user’s AWS S3, Azure, and DigitalOcean, with the ability to read scanned PDFs, spreadsheets, email, and audio.\n\n> Coding agents such as Claude Code, Codex, and Hermes Agent can use it as a tool, with Nace reporting 62% fewer steps and 56% fewer input tokens per question.\n\n> Across 529 queries from six professional work benchmarks, including Databricks’ OfficeQA, agents using it answered 67.1% correctly, up from 63.1%."
+      },
+      "public_metrics": {
+       "bookmark_count": 12,
+       "impression_count": 8525,
+       "like_count": 64,
+       "quote_count": 3,
+       "reply_count": 29,
+       "retweet_count": 4
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114731088337658286",
+        "type": "quoted"
+       }
+      ],
+      "text": "Nace AI launched Drex for Search, a tool that lets agents retrieve answers from files stored in the cloud by giving them the exact pages they need.\n\nWhen given a question, Drex for Search first finds the likely folder, then the file, then the page, and returns the answer, the https://t.co/eFg7UknECr https://t.co/Zuj9DWv8Iv"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2114707120436240384"
+       ]
+      },
+      "created_at": "2026-10-26T14:49:15.000Z",
+      "edit_history_tweet_ids": [
+       "2114731088337658286"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/A8r5whb3yi",
+         "end": 297,
+         "expanded_url": "https://x.com/NaceAI/status/2114731088337658286/video/1",
+         "media_key": "13_2114707120436240384",
+         "start": 274,
+         "url": "https://t.co/A8r5whb3yi"
+        }
+       ]
+      },
+      "id": "2114731088337658286",
+      "note_tweet": {
+       "entities": {
+        "urls": [
+         {
+          "display_url": "console.nace.ai",
+          "end": 471,
+          "expanded_url": "https://console.nace.ai",
+          "start": 448,
+          "url": "https://t.co/vdEavE1dsd"
+         }
+        ]
+       },
+       "text": "Introducing Drex for Search 🔍\nSupercharge your agentic search with Decision-powered retrieval\n\nStandard file search holds AI agents back. Drex changes that: \n• 62% fewer steps to find answers \n• 56% tokens saved \n• +4% performance boost across Claude Code, Codex, OpenCode, Hermes, and PI\n\nValidated across 6 professional work benchmarks like OfficeQA (529 real-world queries)\n\nUpgrade your agentic workflows with the File Search API\nTry for free: https://t.co/vdEavE1dsd \nFaster agents. Cheaper runs. Sharper accuracy."
+      },
+      "public_metrics": {
+       "bookmark_count": 67,
+       "impression_count": 45628,
+       "like_count": 95,
+       "quote_count": 13,
+       "reply_count": 15,
+       "retweet_count": 4
+      },
+      "text": "Introducing Drex for Search 🔍\nSupercharge your agentic search with Decision-powered retrieval\n\nStandard file search holds AI agents back. Drex changes that: \n• 62% fewer steps to find answers \n• 56% tokens saved \n• +4% performance boost across Claude Code, Codex, OpenCode, https://t.co/A8r5whb3yi"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114730568411725825"
+       ]
+      },
+      "created_at": "2026-10-26T14:47:14.000Z",
+      "edit_history_tweet_ids": [
+       "2114730579203617254"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/UW4BY1ooRK",
+         "end": 59,
+         "expanded_url": "https://x.com/testingcatalog/status/2114730579203617254/photo/1",
+         "media_key": "3_2114730568411725825",
+         "start": 36,
+         "url": "https://t.co/UW4BY1ooRK"
+        }
+       ]
+      },
+      "id": "2114730579203617254",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 2409,
+       "like_count": 9,
+       "quote_count": 0,
+       "reply_count": 3,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114728812642443469",
+        "type": "replied_to"
+       }
+      ],
+      "text": "A full summary of recent releases 👀 https://t.co/UW4BY1ooRK"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114728806510370816"
+       ]
+      },
+      "created_at": "2026-10-26T14:40:13.000Z",
+      "edit_history_tweet_ids": [
+       "2114728812642443469"
+      ],
+      "entities": {
+       "hashtags": [
+        {
+         "end": 25,
+         "start": 16,
+         "tag": "clubmate"
+        }
+       ],
+       "urls": [
+        {
+         "display_url": "pic.x.com/rXCDBcVy4P",
+         "end": 49,
+         "expanded_url": "https://x.com/testingcatalog/status/2114728812642443469/photo/1",
+         "media_key": "3_2114728806510370816",
+         "start": 26,
+         "url": "https://t.co/rXCDBcVy4P"
+        }
+       ]
+      },
+      "id": "2114728812642443469",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 1899,
+       "like_count": 6,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114725916366774486",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Berlin vibes 👀\n\n#clubmate https://t.co/rXCDBcVy4P"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114725909605359616"
+       ]
+      },
+      "created_at": "2026-10-26T14:28:42.000Z",
+      "edit_history_tweet_ids": [
+       "2114725916366774486"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/8fkKix82SH",
+         "end": 69,
+         "expanded_url": "https://x.com/testingcatalog/status/2114725916366774486/photo/1",
+         "media_key": "3_2114725909605359616",
+         "start": 46,
+         "url": "https://t.co/8fkKix82SH"
+        }
+       ]
+      },
+      "id": "2114725916366774486",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 1656,
+       "like_count": 5,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114723217055092798",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Codex CLI voice mode Micro keyboard giveaway! https://t.co/8fkKix82SH"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114723210369372160"
+       ]
+      },
+      "created_at": "2026-10-26T14:17:59.000Z",
+      "edit_history_tweet_ids": [
+       "2114723217055092798"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/DhxLbw5GWd",
+         "end": 78,
+         "expanded_url": "https://x.com/testingcatalog/status/2114723217055092798/photo/1",
+         "media_key": "3_2114723210369372160",
+         "start": 55,
+         "url": "https://t.co/DhxLbw5GWd"
+        }
+       ]
+      },
+      "id": "2114723217055092798",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 1697,
+       "like_count": 17,
+       "quote_count": 0,
+       "reply_count": 2,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114722900729315462",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Ah no 👀\n\n“Dots in EU are few weeks away “ “hopefully “ https://t.co/DhxLbw5GWd"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114722893196038144"
+       ]
+      },
+      "created_at": "2026-10-26T14:16:43.000Z",
+      "edit_history_tweet_ids": [
+       "2114722900729315462"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/hZQ3h7jKfx",
+         "end": 119,
+         "expanded_url": "https://x.com/testingcatalog/status/2114722900729315462/photo/1",
+         "media_key": "3_2114722893196038144",
+         "start": 96,
+         "url": "https://t.co/hZQ3h7jKfx"
+        }
+       ]
+      },
+      "id": "2114722900729315462",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 1492,
+       "like_count": 17,
+       "quote_count": 0,
+       "reply_count": 2,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114720555710525527",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Dots are being presented - is there a chance we will get them in EU today? \n\nWould be massive 👀 https://t.co/hZQ3h7jKfx"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114720524634890240"
+       ]
+      },
+      "created_at": "2026-10-26T14:07:24.000Z",
+      "edit_history_tweet_ids": [
+       "2114720555710525527"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/r21AlBtzDY",
+         "end": 51,
+         "expanded_url": "https://x.com/testingcatalog/status/2114720555710525527/photo/1",
+         "media_key": "3_2114720524634890240",
+         "start": 28,
+         "url": "https://t.co/r21AlBtzDY"
+        }
+       ]
+      },
+      "id": "2114720555710525527",
+      "public_metrics": {
+       "bookmark_count": 0,
+       "impression_count": 1509,
+       "like_count": 10,
+       "quote_count": 0,
+       "reply_count": 1,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114719892704231479",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Codex adoption in Germany 👀 https://t.co/r21AlBtzDY"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114719884428918785"
+       ]
+      },
+      "created_at": "2026-10-26T14:04:46.000Z",
+      "edit_history_tweet_ids": [
+       "2114719892704231479"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/LD9AWXfW8x",
+         "end": 89,
+         "expanded_url": "https://x.com/testingcatalog/status/2114719892704231479/photo/1",
+         "media_key": "3_2114719884428918785",
+         "start": 66,
+         "url": "https://t.co/LD9AWXfW8x"
+        }
+       ]
+      },
+      "id": "2114719892704231479",
+      "public_metrics": {
+       "bookmark_count": 2,
+       "impression_count": 2418,
+       "like_count": 26,
+       "quote_count": 0,
+       "reply_count": 2,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114718963263312153",
+        "type": "replied_to"
+       }
+      ],
+      "text": "Germany is top 1 in EMEA ChatGPT users. Top 5 in global API devs. https://t.co/LD9AWXfW8x"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114718953691906048"
+       ]
+      },
+      "created_at": "2026-10-26T14:01:05.000Z",
+      "edit_history_tweet_ids": [
+       "2114718963263312153"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/RYuOVFgBVJ",
+         "end": 40,
+         "expanded_url": "https://x.com/testingcatalog/status/2114718963263312153/photo/1",
+         "media_key": "3_2114718953691906048",
+         "start": 17,
+         "url": "https://t.co/RYuOVFgBVJ"
+        }
+       ]
+      },
+      "id": "2114718963263312153",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 2520,
+       "like_count": 17,
+       "quote_count": 0,
+       "reply_count": 2,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2114712761938936042",
+        "type": "replied_to"
+       }
+      ],
+      "text": "It’s happening 👀 https://t.co/RYuOVFgBVJ"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114712752119767040",
+        "3_2114712752082022401"
+       ]
+      },
+      "created_at": "2026-10-26T13:36:26.000Z",
+      "edit_history_tweet_ids": [
+       "2114712761938936042"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "display_url": "pic.x.com/Gm0C88FDj5",
+         "end": 95,
+         "expanded_url": "https://x.com/testingcatalog/status/2114712761938936042/photo/1",
+         "media_key": "3_2114712752119767040",
+         "start": 72,
+         "url": "https://t.co/Gm0C88FDj5"
+        },
+        {
+         "display_url": "pic.x.com/Gm0C88FDj5",
+         "end": 95,
+         "expanded_url": "https://x.com/testingcatalog/status/2114712761938936042/photo/1",
+         "media_key": "3_2114712752082022401",
+         "start": 72,
+         "url": "https://t.co/Gm0C88FDj5"
+        }
+       ]
+      },
+      "id": "2114712761938936042",
+      "public_metrics": {
+       "bookmark_count": 22,
+       "impression_count": 23492,
+       "like_count": 290,
+       "quote_count": 2,
+       "reply_count": 23,
+       "retweet_count": 11
+      },
+      "text": "OpenAI DevDay Exchange in Berlin is about to start soon! \n\nMonitoring 🍿 https://t.co/Gm0C88FDj5"
+     },
+     {
+      "created_at": "2026-10-26T13:05:46.000Z",
+      "edit_history_tweet_ids": [
+       "2114705042817110293"
+      ],
+      "entities": {
+       "urls": [
+        {
+         "description": "Anthropic is an AI safety and research company that's working to build reliable, interpretable, and steerable AI systems.",
+         "display_url": "anthropic.com/news/s1-sec",
+         "end": 127,
+         "expanded_url": "https://www.anthropic.com/news/s1-sec",
+         "images": [
+          {
+           "height": 1260,
+           "url": "https://pbs.twimg.com/news_img/2114705043555315712/CdumPkue?format=jpg&name=orig",
+           "width": 2400
+          },
+          {
+           "height": 150,
+           "url": "https://pbs.twimg.com/news_img/2114705043555315712/CdumPkue?format=jpg&name=150x150",
+           "width": 150
+          }
+         ],
+         "start": 104,
+         "status": 200,
+         "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+         "unwound_url": "https://www.anthropic.com/news/s1-sec",
+         "url": "https://t.co/zuRMrxXzNx"
+        }
+       ]
+      },
+      "id": "2114705042817110293",
+      "note_tweet": {
+       "entities": {
+        "urls": [
+         {
+          "display_url": "anthropic.com/news/s1-sec",
+          "end": 127,
+          "expanded_url": "https://www.anthropic.com/news/s1-sec",
+          "start": 104,
+          "url": "https://t.co/ofhv0DK3Zp"
+         }
+        ]
+       },
+       "text": "Anthropic has filed an S-1 registration statement with the SEC related to its proposed IPO.\n\nRead more: https://t.co/ofhv0DK3Zp\n\nLegal disclaimer: A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities may not be sold, nor may offers to buy be accepted, prior to the time the registration statement becomes effective. This post does not constitute an offer to sell or the solicitation of an offer to buy these securities, nor shall there be any sale of these securities in any state or jurisdiction in which such offer, solicitation or sale would be unlawful prior to registration or qualification under the securities laws of any such state or jurisdiction."
+      },
+      "public_metrics": {
+       "bookmark_count": 2535,
+       "impression_count": 5217976,
+       "like_count": 15409,
+       "quote_count": 1947,
+       "reply_count": 1063,
+       "retweet_count": 1932
+      },
+      "text": "Anthropic has filed an S-1 registration statement with the SEC related to its proposed IPO.\n\nRead more: https://t.co/zuRMrxXzNx\n\nLegal disclaimer: A registration statement relating to these securities has been filed with the SEC but has not yet become effective. These securities"
+     },
+     {
+      "created_at": "2026-10-26T12:05:09.000Z",
+      "edit_history_tweet_ids": [
+       "2114689790700408938"
+      ],
+      "id": "2114689790700408938",
+      "public_metrics": {
+       "bookmark_count": 28,
+       "impression_count": 94550,
+       "like_count": 202,
+       "quote_count": 50,
+       "reply_count": 28,
+       "retweet_count": 27
+      },
+      "text": "Anthropic is planning to file publicly for an IPO Monday, as the artificial intelligence model maker nears a potentially record-breaking debut https://t.co/rrO9TtCoyB"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2114673357094273024"
+       ]
+      },
+      "created_at": "2026-10-26T11:00:08.000Z",
+      "edit_history_tweet_ids": [
+       "2114673426459738303"
+      ],
+      "id": "2114673426459738303",
+      "public_metrics": {
+       "bookmark_count": 45,
+       "impression_count": 15853,
+       "like_count": 211,
+       "quote_count": 4,
+       "reply_count": 53,
+       "retweet_count": 8
+      },
+      "text": "ICYMI 👀: As part of Google Developer Program Benefits, users with Google AI Pro or AI Ultra receive $10, $40, or $100 in Google Cloud credits per month.\n\nYou may use these credits only in Google AI Studio and Google Cloud Vertex AI. https://t.co/MiW6LXkdAU"
+     }
+    ]
+   }
+  },
+  "gengdaJ": {
+   "id": "1897545708770840576",
+   "fetched": 2,
+   "post_ids": [
+    "2114666429194883429",
+    "2114529695882526916"
+   ],
+   "meta": {
+    "newest_id": "2114666429194883429",
+    "oldest_id": "2114529695882526916",
+    "result_count": 2
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-26T10:32:19.000Z",
+     "edit_history_tweet_ids": [
+      "2114666429194883429"
+     ],
+     "id": "2114666429194883429",
+     "public_metrics": {
+      "bookmark_count": 55,
+      "impression_count": 18389,
+      "like_count": 38,
+      "quote_count": 1,
+      "reply_count": 42,
+      "retweet_count": 5
+     },
+     "text": "真诚求问：Grok Bot、Muse、Dot 相比于 Claude Code 和 Codex 强在哪里？\n\n背景信息：用过 Dot，Codex 和 Claude Code 资深玩家，有 X Premium 订阅但没用过 Grok Bot\n\n常规工作、学习、生活交给 Claude Code（+定时任务）\n\n逆向、违规的事、琐碎无脑的事交给 Codex\n\nGrok 只用来搜索 X 信源\n\n我对多",
+     "url": "https://x.com/i/status/2114666429194883429"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2114382142155415553",
+       "3_2114382142889447424",
+       "3_2114382142864285696",
+       "3_2114381545146548224"
+      ]
+     },
+     "created_at": "2026-10-26T01:29:00.000Z",
+     "edit_history_tweet_ids": [
+      "2114529695882526916"
+     ],
+     "id": "2114529695882526916",
+     "public_metrics": {
+      "bookmark_count": 44,
+      "impression_count": 15533,
+      "like_count": 33,
+      "quote_count": 1,
+      "reply_count": 17,
+      "retweet_count": 4
+     },
+     "text": "Codex仅存的战胜Claude Code的能力：去找到、下载并使用（包括逆向）正版软件的破解版。\n\n我最近打算用AE来试着做B-roll素材，配合数字人，打造视频生产线，发现AE竟然是收费工具（别骂，我之前真不知道。。。），然后就让Claude Code帮我找破解版，它不帮我找，我找到了它不帮我解析。。。 https://t.co/ceN0bdZovy",
+     "url": "https://x.com/i/status/2114529695882526916"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2114382142155415553",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVfLWxaaYAEZz8r.jpg"
+     },
+     {
+      "media_key": "3_2114382142889447424",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVfLW0Ja0AAniMr.jpg"
+     },
+     {
+      "media_key": "3_2114382142864285696",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVfLW0Da4AAy2y2.jpg"
+     },
+     {
+      "media_key": "3_2114381545146548224",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVfK0BYaAAAx6ZK.jpg"
+     }
+    ]
+   }
+  }
+ },
+ "longform_enriched_ids": [
+  "2114804371955548246",
+  "2114780711664398349",
+  "2114707251206225921",
+  "2114563222372290923",
+  "2114051840102768922",
+  "2114550091667386736",
+  "2114175110416675209",
+  "2114666429194883429",
+  "2114579883527655853",
+  "2113833330429083662",
+  "2114752002370544004",
+  "2114727411501965371",
+  "2114729813886067111",
+  "2114779011197141350",
+  "2114575682068242849",
+  "2114559061371064705",
+  "2114575960330871281"
+ ],
+ "longform_enriched": [
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114804242825523200",
+     "3_2114804361805361152"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-26T19:40:28.000Z",
+   "edit_history_post_ids": [
+    "2114804371955548246"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 29,
+      "id": "4398626122",
+      "start": 22,
+      "username": "OpenAI"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "pic.x.com/b6xBEoFZpN",
+      "end": 200,
+      "expanded_url": "https://x.com/MaxForAI/status/2114804371955548246/photo/1",
+      "media_key": "3_2114804242825523200",
+      "start": 177,
+      "url": "https://t.co/b6xBEoFZpN"
+     },
+     {
+      "display_url": "pic.x.com/b6xBEoFZpN",
+      "end": 200,
+      "expanded_url": "https://x.com/MaxForAI/status/2114804371955548246/photo/1",
+      "media_key": "3_2114804361805361152",
+      "start": 177,
+      "url": "https://t.co/b6xBEoFZpN"
+     },
+     {
+      "display_url": "x.com/OpenAI/status/…",
+      "end": 224,
+      "expanded_url": "https://twitter.com/OpenAI/status/2114780711664398349",
+      "start": 201,
+      "url": "https://t.co/fVThjfX7Qf"
+     }
+    ]
+   },
+   "id": "2114804371955548246",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 29,
+       "id": "4398626122",
+       "start": 22,
+       "username": "OpenAI"
+      }
+     ]
+    },
+    "text": "草，GPT-6.1又起飞了？？？\n\n刚刚， @OpenAI  正式发布了GPT-6.1 Terra，主打 Computer Use，能够理解屏幕内容、操作桌面软件、跨应用执行任务，还能处理文档、表单、图片和视频编辑等工作。\n\n这次有几个比较有意思的数字：\n\n在 Agents' Last Exam 上，相比 GPT-5.6 Terra，得分提高了 15 个百分点，任务成本降到了约三分之一。\n在部分计算机操作任务上，性能已经可以与 GPT-6 Astra 持平，但每 Token 价格只有后者的十分之一。\n执行速度比 GPT-6 Astra 和 GPT-6.1 Sol 快 3 倍以上。\nAPI 定价为每百万输入 Token 1 美元、输出 5 美元，只有 GPT-6.1 Sol 的一半。\n\n前沿模型继续突破能力上限，Terra 这样的模型则负责把这些能力变得更便宜、更快、更容易大规模部署。\n\n尤其是 Computer Use。\n现在 OpenAI 正在把能够操作电脑、完成实际工作的模型，推向更低的价格区间。\n\nAgent 真正大规模进入日常工作，可能就取决于这样的变化。\n\n让我测测🤤"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2114780711664398349",
+     "type": "quoted"
+    }
+   ],
+   "text": "草，GPT-6.1又起飞了？？？\n\n刚刚， @OpenAI  正式发布了GPT-6.1 Terra，主打 Computer Use，能够理解屏幕内容、操作桌面软件、跨应用执行任务，还能处理文档、表单、图片和视频编辑等工作。\n\n这次有几个比较有意思的数字：\n\n在 Agents' Last Exam 上，相比 GPT-5.6 Terra，得分提高了 15 https://t.co/b6xBEoFZpN https://t.co/fVThjfX7Qf",
+   "url": "https://x.com/MaxForAI/status/2114804371955548246"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2114778494395678720"
+    ]
+   },
+   "author_id": "4398626122",
+   "created_at": "2026-10-26T18:06:27.000Z",
+   "edit_history_post_ids": [
+    "2114780711664398349"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/8JTN1yonmV",
+      "end": 280,
+      "expanded_url": "https://x.com/OpenAI/status/2114780711664398349/video/1",
+      "media_key": "13_2114778494395678720",
+      "start": 257,
+      "url": "https://t.co/8JTN1yonmV"
+     }
+    ]
+   },
+   "id": "2114780711664398349",
+   "text": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price.\n\nGPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. https://t.co/8JTN1yonmV",
+   "url": "https://x.com/OpenAI/status/2114780711664398349"
+  },
+  {
+   "author_id": "1764818331822182400",
+   "created_at": "2026-10-26T13:14:32.000Z",
+   "edit_history_post_ids": [
+    "2114706975615508817",
+    "2114707251206225921"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/xiaohu/status/…",
+      "end": 200,
+      "expanded_url": "https://twitter.com/xiaohu/status/2114705510830375081",
+      "start": 177,
+      "url": "https://t.co/eu67xzA6hw"
+     }
+    ]
+   },
+   "id": "2114707251206225921",
+   "note_tweet": {
+    "text": "Anthropic正式提交纳斯达克IPO申请，股票代码为“ANT”\n\n根据披露的信息：Anthropic上半年营收163亿美元，上年同期为12亿美元。\n\n截至2026年6月30日的六个月，Anthropic净亏损为807亿美元，称未来可能无法实现或维持盈利。\n\n根据SpaceXAI相关安排，在延续至2029年的期限内，合计支出将最高达1205亿美元。\n\nAnthropic表示：随着时间推移，成本将会增加，亏损也将持续。\n\n截至9月30日，净收入留存率约为900%，截至6月30日已筹集1411亿美元资本"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2114705510830375081",
+     "type": "quoted"
+    }
+   ],
+   "text": "Anthropic正式提交纳斯达克IPO申请，股票代码为“ANT”\n\n根据披露的信息：Anthropic上半年营收163亿美元，上年同期为12亿美元。\n\n截至2026年6月30日的六个月，Anthropic净亏损为807亿美元，称未来可能无法实现或维持盈利。\n\n根据SpaceXAI相关安排，在延续至2029年的期限内，合计支出将最高达1205亿美元。 https://t.co/eu67xzA6hw",
+   "url": "https://x.com/xiaohu/status/2114707251206225921"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114562092842024960"
+    ]
+   },
+   "author_id": "1764818331822182400",
+   "created_at": "2026-10-26T03:42:13.000Z",
+   "edit_history_post_ids": [
+    "2114563222372290923"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "description": "Lets ChatGPT, Claude Code, or any tool send tasks to your Grok Bot over a webhook. Paste one setup prompt, and your other AI tools get a Send to Grok...",
+      "display_url": "x.ai/bot/GHoerhXVqI…",
+      "end": 160,
+      "expanded_url": "https://x.ai/bot/GHoerhXVqIMYC2VmYI_fZ",
+      "images": [
+       {
+        "height": 630,
+        "url": "https://pbs.twimg.com/news_img/2114051842564890624/YRQPiVfG?format=jpg&name=orig",
+        "width": 1200
+       },
+       {
+        "height": 150,
+        "url": "https://pbs.twimg.com/news_img/2114051842564890624/YRQPiVfG?format=jpg&name=150x150",
+        "width": 150
+       }
+      ],
+      "start": 137,
+      "status": 200,
+      "title": "Bridge Bot by Moritz",
+      "unwound_url": "https://x.ai/bot/GHoerhXVqIMYC2VmYI_fZ",
+      "url": "https://t.co/7FKIlzdgxs"
+     },
+     {
+      "display_url": "pic.x.com/EBpqjXjoL5",
+      "end": 184,
+      "expanded_url": "https://x.com/xiaohu/status/2114563222372290923/photo/1",
+      "media_key": "3_2114562092842024960",
+      "start": 161,
+      "url": "https://t.co/EBpqjXjoL5"
+     },
+     {
+      "display_url": "x.com/moritzkremb/st…",
+      "end": 208,
+      "expanded_url": "https://twitter.com/moritzkremb/status/2114051840102768922",
+      "start": 185,
+      "url": "https://t.co/ph2Qlcjddj"
+     }
+    ]
+   },
+   "id": "2114563222372290923",
+   "referenced_tweets": [
+    {
+     "id": "2114051840102768922",
+     "type": "quoted"
+    }
+   ],
+   "text": "兄弟们\n这个牛P\n\n可以让 ChatGPT、ClaudeCode向你的 Grok Bot发送任务，进行云端和本机联动...\n\n之前是通过ssh桥接的，这个通过 Webhook实现的，好像更省事避免了一些不必要的麻烦\n\n我之前都是复制粘贴来回切换...\n\n添加这个Bot即可：https://t.co/7FKIlzdgxs https://t.co/EBpqjXjoL5 https://t.co/ph2Qlcjddj",
+   "url": "https://x.com/xiaohu/status/2114563222372290923"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114051651011022848"
+    ]
+   },
+   "author_id": "1093089704373903360",
+   "created_at": "2026-10-24T17:50:10.000Z",
+   "edit_history_post_ids": [
+    "2114051840102768922"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/a0Mo9MYdDC",
+      "end": 311,
+      "expanded_url": "https://x.com/moritzkremb/status/2114051840102768922/photo/1",
+      "media_key": "3_2114051651011022848",
+      "start": 288,
+      "url": "https://t.co/a0Mo9MYdDC"
+     }
+    ]
+   },
+   "id": "2114051840102768922",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.ai/bot/GHoerhXVqI…",
+       "end": 340,
+       "expanded_url": "https://x.ai/bot/GHoerhXVqIMYC2VmYI_fZ",
+       "start": 317,
+       "url": "https://t.co/gx8iOmben5"
+      }
+     ]
+    },
+    "text": "New Grok Bot Template\n\nI made a Grok Bot that lets ChatGPT, Claude Code or any other agent send tasks to your Grok Bot.\n\nHow it works:\n\n> add the bot, it gives you a webhook URL, key and one ready-made prompt\n> paste that prompt into ChatGPT or Claude Code\n> it then sets up the /send-to-grok-bot skill\n\nGet it here: https://t.co/gx8iOmben5"
+   },
+   "text": "New Grok Bot Template\n\nI made a Grok Bot that lets ChatGPT, Claude Code or any other agent send tasks to your Grok Bot.\n\nHow it works:\n\n&gt; add the bot, it gives you a webhook URL, key and one ready-made prompt\n&gt; paste that prompt into ChatGPT or Claude Code\n&gt; it then sets up the https://t.co/a0Mo9MYdDC",
+   "url": "https://x.com/moritzkremb/status/2114051840102768922"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114550055265058817"
+    ]
+   },
+   "author_id": "1764818331822182400",
+   "created_at": "2026-10-26T02:50:02.000Z",
+   "edit_history_post_ids": [
+    "2114550091667386736"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/AgJm0k4zqc",
+      "end": 176,
+      "expanded_url": "https://x.com/xiaohu/status/2114550091667386736/photo/1",
+      "media_key": "3_2114550055265058817",
+      "start": 153,
+      "url": "https://t.co/AgJm0k4zqc"
+     }
+    ]
+   },
+   "id": "2114550091667386736",
+   "note_tweet": {
+    "text": "Grok Bot 0.77 最新预发布的新功能\n能帮你打电话、自主支付和接管你的短信\n\n📞 代打电话： 可以帮你自主拨打客服电话，自己在后台排队听等待音乐、按键选菜单并转接，你只需在屏幕上扫一眼实时转录记录。\n\n💳 自主支付： 新增支付账户绑定与默认结算方式，配合此前的资金库，AI 可以直接闭环结账下单\n\n💻  IMessages短信互通： 惊现连接苹果电脑短信的配置入口，打通系统原生通信渠道\n\n🛡️ 连入Tailscale 内网： 管理员授权后，机器人可直接接入私有 tailnet，访问个人内网与本地服务\n\n✉️ Bot 协作分享： 支持通过邮件将特定 Bot 分享给他人协同使用..."
+   },
+   "text": "Grok Bot 0.77 最新预发布的新功能\n能帮你打电话、自主支付和接管你的短信\n\n📞 代打电话： 可以帮你自主拨打客服电话，自己在后台排队听等待音乐、按键选菜单并转接，你只需在屏幕上扫一眼实时转录记录。\n\n💳 自主支付： 新增支付账户绑定与默认结算方式，配合此前的资金库，AI 可以直接闭环结账下单 https://t.co/AgJm0k4zqc",
+   "url": "https://x.com/xiaohu/status/2114550091667386736"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2114037137356324864"
+    ]
+   },
+   "author_id": "42352056",
+   "created_at": "2026-10-25T02:00:00.000Z",
+   "edit_history_post_ids": [
+    "2114175110416675209"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/n8AS9A7jV2",
+      "end": 188,
+      "expanded_url": "https://x.com/turingou/status/2114175110416675209/video/1",
+      "media_key": "13_2114037137356324864",
+      "start": 165,
+      "url": "https://t.co/n8AS9A7jV2"
+     }
+    ]
+   },
+   "id": "2114175110416675209",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "yobiru.com/zh-cn/install.…",
+       "end": 307,
+       "expanded_url": "https://yobiru.com/zh-cn/install.md",
+       "start": 284,
+       "url": "https://t.co/fGczGWMpzQ"
+      },
+      {
+       "display_url": "bots.yobiru.com/@guoyu",
+       "end": 432,
+       "expanded_url": "https://bots.yobiru.com/@guoyu",
+       "start": 409,
+       "url": "https://t.co/iO1lmN1QW6"
+      },
+      {
+       "display_url": "yobiru.com",
+       "end": 852,
+       "expanded_url": "https://yobiru.com/",
+       "start": 829,
+       "url": "https://t.co/r6vgJPoK62"
+      },
+      {
+       "display_url": "github.com/chekusu/yobiru",
+       "end": 883,
+       "expanded_url": "https://github.com/chekusu/yobiru",
+       "start": 860,
+       "url": "https://t.co/xgG2n7rj8e"
+      }
+     ]
+    },
+    "text": "今天正式发布 Yobiru 的新功能，Yobiru Friends！\n\n这个新功能是最近最有趣的一个功能之一，因为它可以让我的 Grok bot 和啵啵的 Grok bot 直接聊天，发送文件，协商日程。换句话说，它支持将你的任何 personal agent，比如 Grok bot 或者 Muse，对外发布或分享给亲朋好友。\n\n从今天开始，任何人都可以使用 Grok bot 或其他的 personal agent 帮你安装 Yobiru Friends，在我们的中心网关上进行注册，获取一个自己专有的 ID 和对应的网页链接。只需要和你的 bot 说：「请按照 https://t.co/fGczGWMpzQ 上的官方说明，在这台电脑上安装并配置 Yobiru 并注册 Yobiru Friends」\n\n我的 id 是 guoyu，大家可以用自己的 agent 或 bot 关注我，直接给我发私信或者约见面时间。https://t.co/iO1lmN1QW6\n\nYobiru Friends 提供单向关注和好友两种不同的关系，你可以让 Grok bot 整理你的未关注人私信，而避免骚扰和保护隐私，设置自动回复，维护粉丝关系；如果两个 bot 互相关注，则自动成为好友关系，你们的私信会直接进入对方的 Grok bot 中，而无需获得人工批准。使用 Grok bot Mac 版本，还能支持 webhook 唤醒任务和对话。\n\n除此之外，你还可以直接使用 Grok bot 或其他的 agent 来修改 Yobiru Friends 的个人主页。修改你的头像，增加你的各种社交网络链接，设置权限等等。\n\n毫无疑问，Yobiru Friends 和 Yobiru 一样是开源项目，你也可以搭建自己的网关，享受开箱即用的双向加密聊天功能。\n\nYobiru Friends 是我在数字孪生领域的一个有趣实践，也欢迎大家提交代码以改善这个项目的体验。\n\n官网：https://t.co/r6vgJPoK62\nGitHub：https://t.co/xgG2n7rj8e"
+   },
+   "text": "今天正式发布 Yobiru 的新功能，Yobiru Friends！\n\n这个新功能是最近最有趣的一个功能之一，因为它可以让我的 Grok bot 和啵啵的 Grok bot 直接聊天，发送文件，协商日程。换句话说，它支持将你的任何 personal agent，比如 Grok bot 或者 Muse，对外发布或分享给亲朋好友。 https://t.co/n8AS9A7jV2",
+   "url": "https://x.com/turingou/status/2114175110416675209"
+  },
+  {
+   "author_id": "1897545708770840576",
+   "created_at": "2026-10-26T10:32:19.000Z",
+   "edit_history_post_ids": [
+    "2114666429194883429"
+   ],
+   "id": "2114666429194883429",
+   "note_tweet": {
+    "text": "真诚求问：Grok Bot、Muse、Dot 相比于 Claude Code 和 Codex 强在哪里？\n\n背景信息：用过 Dot，Codex 和 Claude Code 资深玩家，有 X Premium 订阅但没用过 Grok Bot\n\n常规工作、学习、生活交给 Claude Code（+定时任务）\n\n逆向、违规的事、琐碎无脑的事交给 Codex\n\nGrok 只用来搜索 X 信源\n\n我对多 Agent（Grok Bot）这事一直觉得很不靠谱，为啥不能交给多个 Claude Code 对话完成呢，是不能给每个 Agnet 配置不同模型的原因吗？\n\nMuse 对普通人使用 AI 友好，但是感觉很多 AI 大佬也在用，确实没搞懂其中的逻辑，求解惑。"
+   },
+   "text": "真诚求问：Grok Bot、Muse、Dot 相比于 Claude Code 和 Codex 强在哪里？\n\n背景信息：用过 Dot，Codex 和 Claude Code 资深玩家，有 X Premium 订阅但没用过 Grok Bot\n\n常规工作、学习、生活交给 Claude Code（+定时任务）\n\n逆向、违规的事、琐碎无脑的事交给 Codex\n\nGrok 只用来搜索 X 信源\n\n我对多",
+   "url": "https://x.com/gengdaJ/status/2114666429194883429"
+  },
+  {
+   "article": {
+    "cover_media": "3_2114578058657284096",
+    "entities": {
+     "posts": [
+      {
+       "id": "2111379569030939102"
+      },
+      {
+       "id": "2109309251533570509"
+      }
+     ]
+    },
+    "media_entities": [
+     "3_2114574984207372288",
+     "3_2114574863876931584",
+     "3_2114574832516091904",
+     "3_2114574937637916672",
+     "3_2114574905807380480",
+     "3_2114574968268955648",
+     "3_2114574921456369664",
+     "3_2114574960249479168",
+     "7_2114575021041758208",
+     "3_2114574913793306624",
+     "3_2114574952288722944",
+     "3_2114574872194265088",
+     "3_2114574853210824704",
+     "3_2114574928733478912",
+     "3_2114574879353974784",
+     "3_2114574944772460544",
+     "3_2114574886781984768",
+     "3_2114574991459332096",
+     "3_2114574977278386176",
+     "3_2114574843240923136",
+     "3_2114574894658883584",
+     "7_2114575038498394112",
+     "3_2114575000233824256",
+     "3_2114575010199465984",
+     "7_2114575059583201280"
+    ],
+    "plain_text": "最近，AI逆向一切这件事，开始变得越来越有意思了。\nREA这个开源项目火了以后，我专门写过一篇文章，聊AI是怎么让各种软件的逆向变得越来越简单的。\n结果这才过去没几天，大家已经不满足于此。\n直接开始用AI，改造现实生活里的各种电子设备。\n比如，有一个哥们，他发现父母家的电视，连打开Netflix之前，都要先播放一段广告。\n \n实在受不了，干脆把电视型号丢给Claude Code，让它帮忙想想办法。\nClaude Code通过WiFi找到了电视，利用系统的调试接口，停用了25个系统软件包，还给电视重新做了一个桌面。\n改完以后，页面清爽多了。\n \n甚至，有个哥们直接用Codex配合REA，把自己家的智能马桶给逆向了。。。\n整个过程，只花了半个小时左右。\n在Mac状态栏里点击一下，现实中的马桶盖，就能自己打开了，虽然我也不知道到底有什么需求要在电脑上操控马桶= =\n \n讲道理，在以前想修改这些设备，那你真的得是大佬才行，要不然真的搞不太了。\n但现在，你只需要告诉Agent，自己有什么硬件设备，想实现什么功能，至于怎么连接、怎么控制、怎么修改，都可以交给AI让它自己去整。\n我自己其实很久以前就发过一篇关于Codex手搓硬件的文章了，虽然不是逆向，但是思路其实也差不多。\n我自己其实从的感受就是，在AI时代，只要你有想法，也愿意动手折腾，就可以让AI帮你重新设计现实生活里那些每天都在使用的硬件设备，把他们改造成自己真正想要的样子。\n无论是想解决一个烦人的使用问题，还是单纯想给某个设备增加一点好玩的功能，都可以试着让Agent帮你实现。\n所以今天也跟大家分享一下，我们最近改造一些设备的操作过程和一些我们觉得还算有意思的案例，给大家提供一些新的玩法和思路。\n相信我，看完以后，一个纯粹的小白，也能一步一步的做出来。\n还是先用最近最火热的逆向电视这个项目举例子。\n比如说，我们公司刚搬了个家，新办公室里，一共有4个会议室，每个会议室里，都装了一台电视。\n但这些电视，每次开机都要先看一段广告。\n \n甚至放着一段时间不操作，屏幕也会变成影视剧的广告，还提示你按确认键可以直接观看，这个其实在公司里，是有点尴尬的。\n \n因为电视我们经常不关，所以有时候一些客户来公司谈事，然后电视上一直在轮播类似上图的广告，经常还是有点绷不住的。\n等进了首页后，就是一些推荐的影视剧、综艺节目。\n \n电视嘛，本来就是用来看剧的，首页是一些影视内容本来是完全没问题的。\n但是我们毕竟是公司用，大家用电视基本就是为了开会、投屏、展示一些工作上的内容等等\n总不能开会开到一半，突然想追两集《小猪佩奇》吧。。。\n所以，受到前面那个哥们的启发，我就想，让Agent把这些开机广告、影视推荐都清理掉，再重新做一个简洁的桌面，让这几台电视，真正按照我们公司的使用需求来运行。\n整个过程，也很简单，我们要做的就是把需求发给Agent，然后一步步跟着它弄。\n我打开Codex，把相关的情况和想清理广告、重新设计桌面的需求都告诉了它。\n \n然后，选择了其中一台，让它先试试。\n \n接下来，按照他的提示，需要在电视上完成一个简单的操作，就是打开ADB调试功能。\nADB就是让电脑能够通过调试接口，连接并操作Android设备，很多Codex操作手机的玩法，也是在手机上开启ADB。\n \n开启后，电视上会弹出一个授权窗口，点击允许这台电脑进行调试就行了。\n \n这样，Agent就正式连接上了电视，我们可以开始后面的改造了。\n接下来，就是不断的聊天。\n我让他先换默认的屏保，我把公司的Logo发给他，再让它调用公司内部的品牌动效设计的Skill，帮我做一个由白色粒子组成、不断流动的动态屏保。\n \n大概20分钟后，给我做了两个不同的方案，让我自己选一个喜欢的。\n \n我选了B，于是，在电视上显示是这样。\n \n不过，光有一个好看的屏保肯定还不够。\n毕竟是公司用的电视，投屏、切换信号源、设置这些常用功能，还是得保留下来。\n所以，我又继续让Agent调用刚才的Skill，沿用之前的设计风格，重新做一个电视的功能页。\n \n虽然我们把原来的电视首页替换掉了，但原本的影视功能，我还是想保留的。\n所以，我让它把原来的电视首页，单独做成一个看电视的入口，和其他应用一起收进更多应用里。\n \n这样平时打开电视，就是我们自己设计的简洁界面，需要看电视的时候，也能随时回到原来的系统。\n最后，改造完的首页就变成了这样。\n \n左下角分别是投屏、信号源、设置、电视管家，和其他应用合集。\n整个界面干干净净，操作起来也很方便，基本都是最常用的功能。\n还有一件很重要的事。\n就是我们最开始想解决的广告问题。\n在Agent的不懈努力下，也完美的实现了。\n我们还录了段开机的视频，大家可以看看效果，开屏直接进入系统～\n \n到这里，我们这台电视的改造，就算基本完成啦，已经满足我们对于公司电视的需求了。\n另外三个会议室的电视，也都用同样的方法在非常短的时间里，让Codex复刻了一遍，完成了改造。\n说实话，这种感觉真的非常非常非常爽。\n不过，这里也得叠个甲。\n不同品牌、不同系统的设备，开放的接口和权限可能都不一样，但你可以先连接你的Agent，再进行沟通，涉及系统软件的修改，也建议大家最好也先做好备份，保留恢复的办法，千万别到时候真的刷成了砖。。。\n现实生活里，还有大量通过Wi-Fi、蓝牙等方式连接的电子设备，我们都可以尝试让Agent研究它们的协议，再按照自己的需求，重新设计功能和操作方式。\n这几天，我们还在公司里改了几个其他的设备。\n比如，因为我们最近又搬了公司，所以视频组的小伙伴，最近正在搭建新的直播间，里面有4盏补光灯。\n这些灯虽然都可以通过官方APP控制，但实际用起来究极麻烦，一方面，APP做的实在是太烂了，没事会断开连接，另一方面，没办法同时控制4盏灯，只能连一盏调完以后，再连另一盏再控制，这种反人类的交互我们是真的忍不了了。\n所以，他就把这几盏灯交给了Claude，让它研究一下，自己开发一套统一的灯光控制台。\n他直接把灯的照片发了过去，然后写了一段需求，翻译过来就是：我正在搭建直播空间，手头有四个和照片里一样的灯。你能帮我逆向分析它们的工作原理吗，比如用REA之类的工具，再建一个网页来控制所有灯具，我希望它们能自动连接到这台电脑，这样我就能在一个地方管理一切，而不必通过手机应用逐一调整每个灯。\n \n同样，就是按照Claude的提示，一步一步完成对灯光的连接和控制。\n \n很快就搞完了，最后，还把这套控制台，整合进了我们公司自己的工作台。\n \n现在，通过这个，就能统一调节几盏补光灯的开关、亮度、色温和灯光效果。\n \n然后，他还在控制台里埋了一个彩蛋。。。\n点击左上角的图标，就能进入一个类似音游的页面。\n \n屏幕上会有不断下落的轨迹，现实中的灯光也会跟着触发变化。\n最后的效果，是这样的。。。用这些补光灯玩音游，讲道理，我是第一次见。。。\n \n人类的脑洞，真奇妙啊= =\n除了灯光，我们内容部的小伙伴，也把拍摄设备也给改造了一下。\n因为平时拍视频，经常需要用到多个机位，所以她就拿索尼和大疆Pocket 3这两台设备试了一下。\n原本这两台相机都有各自的控制方式，不能同时查看画面、调整参数。\n所以，她也让Codex搞了一个统一的多机位控制台。\n \n做出来后，同样也把这个应用部署在了我们的飞书中台上。\n现在，我们就能够预览两个机位的画面、统一控制拍摄，还能单独调整每台相机的拍摄参数。\n \n以后再拍视频，固定好机位后，就能在电脑上完成这些操作，方便多了。\n \n不要太爽。\n逆向这些玩意的过程中，老是让我想起了自己以前做用户体验设计师的时候。\n那时候，有一本书几乎是每个用户体验设计师的必读书。\n叫《设计心理学》。\n \n书里有一个很重要的理念，就是好的设计，应该符合人的认知和使用习惯，让东西更容易理解、更好用。\n但过去，再好的想法，也得考虑实现成本，一个需求值不值得做，往往取决于有多少人需要它。\n而现在，Agent正在降低这个门槛，哪怕只有你一个人需要，也可以试着亲手把它做出来。\n我一直觉得，做用户体验设计最有成就感的事情，就是把一个原本特别难用的东西，改得更符合大家的使用习惯。\n尤其是看到它真的按照自己的想法运转起来的时候。\n而现在，这种原本属于设计师和开发者的成就感，也有机会被更多普通人体验到了。\n它正在让越来越多的人，有机会从产品的使用者，变成它的参与设计者。\n无论是什么产品，有哪里不爽，直接接上AI逆向，按照自己的需求改。\n哪里不爽改哪里。\n我们现在好像真的可以，开始改造属于自己的世界了。\n以上，既然看到这里了，如果觉得不错，随手点个赞、评论、转发三连吧，这对我们有特别大的帮助~\n谢谢你看我的文章，我们，下次再见。",
+    "preview_text": "最近，AI逆向一切这件事，开始变得越来越有意思了。\nREA这个开源项目火了以后，我专门写过一篇文章，聊AI是怎么让各种软件的逆向变得越来越简单的。\n结果这才过去没几天，大家已经不满足于此。",
+    "title": "手把手教你用AI逆向现实世界，把一切改成自己喜欢的样子。"
+   },
+   "article_title": {
+    "title": "手把手教你用AI逆向现实世界，把一切改成自己喜欢的样子。"
+   },
+   "author_id": "1492195583699951620",
+   "created_at": "2026-10-26T04:48:25.000Z",
+   "edit_history_post_ids": [
+    "2114579883527655853"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/i/article/2114…",
+      "end": 23,
+      "expanded_url": "https://x.com/i/article/2114575016805511169",
+      "start": 0,
+      "status": 404,
+      "unwound_url": "https://x.com/i/article/2114575016805511169",
+      "url": "https://t.co/Rdc2Dsb7x8"
+     }
+    ]
+   },
+   "id": "2114579883527655853",
+   "text": "https://t.co/Rdc2Dsb7x8",
+   "url": "https://x.com/Khazix0918/status/2114579883527655853"
+  },
+  {
+   "author_id": "1397280904582549506",
+   "created_at": "2026-10-24T03:21:53.000Z",
+   "edit_history_post_ids": [
+    "2113833330429083662"
+   ],
+   "id": "2113833330429083662",
+   "text": "if you have a qwen3.5 4b around, please try steering neurons L14 N8949 +1 and L13 N7956 -1\nnow you have evil qwen\n\nrecipe: dose × median(‖resid‖ leaving layer L, tokens 1:) / ‖W_down[:, n]‖` at the down_proj at every input",
+   "url": "https://x.com/_lyraaaa_/status/2113833330429083662"
+  },
+  {
+   "author_id": "1326237414025801729",
+   "created_at": "2026-10-26T16:12:22.000Z",
+   "edit_history_post_ids": [
+    "2114752002370544004"
+   ],
+   "id": "2114752002370544004",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "cohere.com/blog/concernin…",
+       "end": 1170,
+       "expanded_url": "http://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+       "start": 1147,
+       "url": "https://t.co/TZSugXi2ZE"
+      }
+     ]
+    },
+    "text": "While evaluating Qwen3.8-Flash-Next in a controlled sandbox environment, Cohere's research team observed something unexpected.\n\nAsked to generate a defensive cybersecurity detection rule, the model instead inventoried aspects of the machine it was running on and attempted to upload a probe file to an Alibaba Cloud storage bucket in Beijing. Notably, the model's reasoning trace stated that it would not invoke any tools before taking these actions.\n\nCohere's sandbox blocked the attempt, and no external communication succeeded. We have not determined the root cause, and we are not asserting malicious intent.\n\nBut the incident raises important questions for organizations deploying agentic AI systems: Can models take actions that differ from their stated reasoning, and how should security teams evaluate trust, provenance, and behavior in open-weight models?\n\nWe are publishing our findings because organizations making model adoption decisions deserve as much information as possible. We hope this contributes to greater transparency, stronger security practices, and continued collaboration across the AI ecosystem.\n\nRead the full report: https://t.co/TZSugXi2ZE"
+   },
+   "text": "While evaluating Qwen3.8-Flash-Next in a controlled sandbox environment, Cohere's research team observed something unexpected.\n\nAsked to generate a defensive cybersecurity detection rule, the model instead inventoried aspects of the machine it was running on and attempted to",
+   "url": "https://x.com/cohere/status/2114752002370544004"
+  },
+  {
+   "author_id": "1764818331822182400",
+   "created_at": "2026-10-26T14:34:39.000Z",
+   "edit_history_post_ids": [
+    "2114727411501965371"
+   ],
+   "id": "2114727411501965371",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "xiaohu.ai/article/ai-pat…",
+       "end": 171,
+       "expanded_url": "https://xiaohu.ai/article/ai-patent-attorneys-expertise/",
+       "start": 148,
+       "url": "https://t.co/X7ZK7kx9Z8"
+      }
+     ]
+    },
+    "text": "就算用Claude帮我做一期视频\n还是要花费非常多的时间\n\n主要是在脚本上\n\n其他都能自动化，但是要做成真的让人愿意看的还是要下很大的功夫，但是对于那些已经熟练制作过很多视频的人来说可能会很方便\n\n这也是这篇文章要说的\n\n133 位专利律师实验：同样使用 AI，老手得到增强，新人面临认知卸载\n\nhttps://t.co/X7ZK7kx9Z8"
+   },
+   "text": "就算用Claude帮我做一期视频\n还是要花费非常多的时间\n\n主要是在脚本上\n\n其他都能自动化，但是要做成真的让人愿意看的还是要下很大的功夫，但是对于那些已经熟练制作过很多视频的人来说可能会很方便\n\n这也是这篇文章要说的\n\n133 位专利律师实验：同样使用 AI，老手得到增强，新人面临认知卸载",
+   "url": "https://x.com/xiaohu/status/2114727411501965371"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2114729062925230081"
+    ]
+   },
+   "author_id": "1764818331822182400",
+   "created_at": "2026-10-26T14:44:12.000Z",
+   "edit_history_post_ids": [
+    "2114729813886067111"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/vDR5arqSzR",
+      "end": 101,
+      "expanded_url": "https://x.com/xiaohu/status/2114729813886067111/video/1",
+      "media_key": "13_2114729062925230081",
+      "start": 78,
+      "url": "https://t.co/vDR5arqSzR"
+     },
+     {
+      "display_url": "x.com/xiaohu/status/…",
+      "end": 125,
+      "expanded_url": "https://twitter.com/xiaohu/status/2114727411501965371",
+      "start": 102,
+      "url": "https://t.co/6rZ8n39b09"
+     }
+    ]
+   },
+   "id": "2114729813886067111",
+   "referenced_tweets": [
+    {
+     "id": "2114727411501965371",
+     "type": "quoted"
+    }
+   ],
+   "text": "调了下\n\n这次有点像新闻联播了\n哈哈哈哈\n\nClaude Code制作，大部分时间花在了脚本调整上\n依然还没有解决配音问题\n主要是我周末去改版网站了... https://t.co/vDR5arqSzR https://t.co/6rZ8n39b09",
+   "url": "https://x.com/xiaohu/status/2114729813886067111"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114779008231772161"
+    ]
+   },
+   "author_id": "2036179840467152896",
+   "created_at": "2026-10-26T17:59:41.000Z",
+   "edit_history_post_ids": [
+    "2114779011197141350"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/fMnjY7Nspt",
+      "end": 302,
+      "expanded_url": "https://x.com/CodexReleases/status/2114779011197141350/photo/1",
+      "media_key": "3_2114779008231772161",
+      "start": 279,
+      "url": "https://t.co/fMnjY7Nspt"
+     }
+    ]
+   },
+   "id": "2114779011197141350",
+   "note_tweet": {
+    "text": "Codex update: GPT-6.1 Terra in Work and Codex\n\nWhat changed:\n• GPT-6.1 Terra is now available in ChatGPT Work and Codex on Plus, Pro, Business, Enterprise, and Edu plans.\n• Combines strong image understanding with precise computer use — reason about images and screens, then act across browser, desktop, and apps.\n• Access via the model list under Advanced in the ChatGPT desktop app or ChatGPT Work on the web; also supported on mobile in Work.\n\nDetails in thread."
+   },
+   "text": "Codex update: GPT-6.1 Terra in Work and Codex\n\nWhat changed:\n• GPT-6.1 Terra is now available in ChatGPT Work and Codex on Plus, Pro, Business, Enterprise, and Edu plans.\n• Combines strong image understanding with precise computer use — reason about images and screens, then act https://t.co/fMnjY7Nspt",
+   "url": "https://x.com/CodexReleases/status/2114779011197141350"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114575487234433024"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-26T04:31:44.000Z",
+   "edit_history_post_ids": [
+    "2114575682068242849"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/If5D3lYK2b",
+      "end": 51,
+      "expanded_url": "https://x.com/MaxForAI/status/2114575682068242849/photo/1",
+      "media_key": "3_2114575487234433024",
+      "start": 28,
+      "url": "https://t.co/If5D3lYK2b"
+     }
+    ]
+   },
+   "id": "2114575682068242849",
+   "text": "以防你不知道，到月底你可以去微信支付让它给你写代码了🤣 https://t.co/If5D3lYK2b",
+   "url": "https://x.com/MaxForAI/status/2114575682068242849"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114559044799307776"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-26T03:25:41.000Z",
+   "edit_history_post_ids": [
+    "2114559061371064705"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/WrnFap2qYv",
+      "end": 42,
+      "expanded_url": "https://x.com/MaxForAI/status/2114559061371064705/photo/1",
+      "media_key": "3_2114559044799307776",
+      "start": 19,
+      "url": "https://t.co/WrnFap2qYv"
+     }
+    ]
+   },
+   "id": "2114559061371064705",
+   "text": "豆包工作的运营你到底都在干什么啊？？ https://t.co/WrnFap2qYv",
+   "url": "https://x.com/MaxForAI/status/2114559061371064705"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2114575832379473920"
+    ]
+   },
+   "author_id": "1699797396589588480",
+   "created_at": "2026-10-26T04:32:50.000Z",
+   "edit_history_post_ids": [
+    "2114575960330871281"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/YFOyWjdlS2",
+      "end": 48,
+      "expanded_url": "https://x.com/MaxForAI/status/2114575960330871281/photo/1",
+      "media_key": "3_2114575832379473920",
+      "start": 25,
+      "url": "https://t.co/YFOyWjdlS2"
+     }
+    ]
+   },
+   "id": "2114575960330871281",
+   "text": "神了，DeepSeek的搜索居然能搜黄果短剧！？ https://t.co/YFOyWjdlS2",
+   "url": "https://x.com/MaxForAI/status/2114575960330871281"
+  }
+ ],
+ "longform_includes": {
+  "media": [
+   {
+    "duration_ms": 31458,
+    "media_key": "13_2114778494395678720",
+    "preview_image_url": "https://pbs.twimg.com/media/HVk3m2pW0AERTJj.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114778494395678720/vid/avc1/1920x1080/oUzhkuK2tc42w-OZ.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114778494395678720/vid/avc1/1280x720/so9-A5K2rSM1qpiy.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114778494395678720/vid/avc1/480x270/dQNm7lgKpG-akTYn.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2114778494395678720/pl/jU5mh_rhuSONZrL_.m3u8?v=cfc"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114778494395678720/vid/avc1/640x360/r3hBgkIKyGTL2wc6.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2114804242825523200",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVlLQQ8asAAKe2J.jpg"
+   },
+   {
+    "media_key": "3_2114804361805361152",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVlLXMLa8AAMKgw.jpg"
+   },
+   {
+    "media_key": "3_2114051651011022848",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVaexp9XEAAAFPN.jpg"
+   },
+   {
+    "media_key": "3_2114562092842024960",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVhvBR9bAAAulnX.jpg"
+   },
+   {
+    "media_key": "3_2114550055265058817",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVhkEmfbQAEt_rh.jpg"
+   },
+   {
+    "duration_ms": 54218,
+    "media_key": "13_2114037137356324864",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114037137356324864/img/tPK6CFW0v-SdMgp5.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114037137356324864/vid/avc1/1920x1080/HJWWZnQQGjGU-Dcf.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2114037137356324864/pl/erftadnYw1gG6Iem.m3u8?v=b76"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114037137356324864/vid/avc1/640x360/SnzyVYD0aY4Qva4D.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114037137356324864/vid/avc1/480x270/tqpE18ym4EDk4KX2.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114037137356324864/vid/avc1/1280x720/tNTbEkDBUQK5ID5g.mp4"
+     }
+    ]
+   },
+   {
+    "duration_ms": 269133,
+    "media_key": "13_2114729062925230081",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2114729062925230081/img/ITeRHmWuiqgnk-1U.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2114729062925230081/pl/F2owjOYE70AWKpPY.m3u8?v=8ed"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114729062925230081/vid/avc1/1920x1080/cG1ng_H8jMFXgq9k.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114729062925230081/vid/avc1/1280x720/9GBL9NUg0pMWqRcZ.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114729062925230081/vid/avc1/640x360/TbKpJO4wBykOj3JC.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2114729062925230081/vid/avc1/480x270/CsUSxQ3CyDh2hu9-.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2114779008231772161",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVk0TawbkAEdiTE.jpg"
+   },
+   {
+    "media_key": "3_2114575487234433024",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVh7M79bYAAMdV1.jpg"
+   },
+   {
+    "media_key": "3_2114559044799307776",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVhsP3HaIAAcN5l.jpg"
+   },
+   {
+    "media_key": "3_2114575832379473920",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVh7hBuawAAkn0b.jpg"
+   }
+  ],
+  "posts": [
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2114778494395678720"
+     ]
+    },
+    "author_id": "4398626122",
+    "created_at": "2026-10-26T18:06:27.000Z",
+    "edit_history_post_ids": [
+     "2114780711664398349"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/8JTN1yonmV",
+       "end": 280,
+       "expanded_url": "https://x.com/OpenAI/status/2114780711664398349/video/1",
+       "media_key": "13_2114778494395678720",
+       "start": 257,
+       "url": "https://t.co/8JTN1yonmV"
+      }
+     ]
+    },
+    "id": "2114780711664398349",
+    "text": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price.\n\nGPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it. https://t.co/8JTN1yonmV"
+   },
+   {
+    "author_id": "1764818331822182400",
+    "created_at": "2026-10-26T13:07:37.000Z",
+    "edit_history_post_ids": [
+     "2114705510830375081"
+    ],
+    "id": "2114705510830375081",
+    "text": "预计 Anthropic 将在提交IPO后的第二天，发布全新一代的大模型 Fable 5.5\n\n该模型将在你话还没说完的情况下就知道你要干啥...\n\n以往所有的提示词和技能约束将失效...\n\n因为仅通过自然语言模型已经完全理解你要干啥🫡"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2114051651011022848"
+     ]
+    },
+    "author_id": "1093089704373903360",
+    "created_at": "2026-10-24T17:50:10.000Z",
+    "edit_history_post_ids": [
+     "2114051840102768922"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/a0Mo9MYdDC",
+       "end": 311,
+       "expanded_url": "https://x.com/moritzkremb/status/2114051840102768922/photo/1",
+       "media_key": "3_2114051651011022848",
+       "start": 288,
+       "url": "https://t.co/a0Mo9MYdDC"
+      }
+     ]
+    },
+    "id": "2114051840102768922",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "x.ai/bot/GHoerhXVqI…",
+        "end": 340,
+        "expanded_url": "https://x.ai/bot/GHoerhXVqIMYC2VmYI_fZ",
+        "start": 317,
+        "url": "https://t.co/gx8iOmben5"
+       }
+      ]
+     },
+     "text": "New Grok Bot Template\n\nI made a Grok Bot that lets ChatGPT, Claude Code or any other agent send tasks to your Grok Bot.\n\nHow it works:\n\n> add the bot, it gives you a webhook URL, key and one ready-made prompt\n> paste that prompt into ChatGPT or Claude Code\n> it then sets up the /send-to-grok-bot skill\n\nGet it here: https://t.co/gx8iOmben5"
+    },
+    "text": "New Grok Bot Template\n\nI made a Grok Bot that lets ChatGPT, Claude Code or any other agent send tasks to your Grok Bot.\n\nHow it works:\n\n&gt; add the bot, it gives you a webhook URL, key and one ready-made prompt\n&gt; paste that prompt into ChatGPT or Claude Code\n&gt; it then sets up the https://t.co/a0Mo9MYdDC"
+   },
+   {
+    "author_id": "1764818331822182400",
+    "created_at": "2026-10-26T14:34:39.000Z",
+    "edit_history_post_ids": [
+     "2114727411501965371"
+    ],
+    "id": "2114727411501965371",
+    "note_tweet": {
+     "entities": {
+      "urls": [
+       {
+        "display_url": "xiaohu.ai/article/ai-pat…",
+        "end": 171,
+        "expanded_url": "https://xiaohu.ai/article/ai-patent-attorneys-expertise/",
+        "start": 148,
+        "url": "https://t.co/X7ZK7kx9Z8"
+       }
+      ]
+     },
+     "text": "就算用Claude帮我做一期视频\n还是要花费非常多的时间\n\n主要是在脚本上\n\n其他都能自动化，但是要做成真的让人愿意看的还是要下很大的功夫，但是对于那些已经熟练制作过很多视频的人来说可能会很方便\n\n这也是这篇文章要说的\n\n133 位专利律师实验：同样使用 AI，老手得到增强，新人面临认知卸载\n\nhttps://t.co/X7ZK7kx9Z8"
+    },
+    "text": "就算用Claude帮我做一期视频\n还是要花费非常多的时间\n\n主要是在脚本上\n\n其他都能自动化，但是要做成真的让人愿意看的还是要下很大的功夫，但是对于那些已经熟练制作过很多视频的人来说可能会很方便\n\n这也是这篇文章要说的\n\n133 位专利律师实验：同样使用 AI，老手得到增强，新人面临认知卸载"
+   }
+  ],
+  "users": [
+   {
+    "id": "1699797396589588480",
+    "name": "Max For AI",
+    "username": "MaxForAI"
+   },
+   {
+    "id": "4398626122",
+    "name": "OpenAI",
+    "username": "OpenAI"
+   },
+   {
+    "id": "1764818331822182400",
+    "name": "小互",
+    "username": "xiaohu"
+   },
+   {
+    "id": "1093089704373903360",
+    "name": "Moritz Kremb",
+    "username": "moritzkremb"
+   },
+   {
+    "id": "42352056",
+    "name": "郭宇 guoyu.eth",
+    "username": "turingou"
+   },
+   {
+    "id": "1897545708770840576",
+    "name": "逸尘",
+    "username": "gengdaJ"
+   },
+   {
+    "id": "1492195583699951620",
+    "name": "数字生命卡兹克",
+    "username": "Khazix0918"
+   },
+   {
+    "id": "1397280904582549506",
+    "name": "lyra",
+    "username": "_lyraaaa_"
+   },
+   {
+    "id": "1326237414025801729",
+    "name": "Cohere",
+    "username": "cohere"
+   },
+   {
+    "id": "2036179840467152896",
+    "name": "Codex Releases",
+    "username": "CodexReleases"
+   }
+  ]
+ },
+ "aux_search": [],
+ "selected_ids": [
+  "2114579883527655853",
+  "2114804371955548246",
+  "2114712846110195897",
+  "2114800277677092936",
+  "2114707251206225921",
+  "2114550091667386736",
+  "2114563222372290923",
+  "2114729813886067111",
+  "2114577752531910714",
+  "2114575682068242849",
+  "2114776267635687796",
+  "2114772789890588932",
+  "2114770984452464678",
+  "2114736537904595412",
+  "2114712761938936042",
+  "2114766564478034297",
+  "2114673426459738303",
+  "2114666429194883429"
+ ]
+}

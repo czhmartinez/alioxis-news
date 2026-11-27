@@ -1,0 +1,79 @@
+Alioxis News AI新闻收集报告 — 2026-11-01（Asia/Taipei）
+============================================================
+完成时间：2026-11-01 约 02:40 Europe/Kiev（UTC+2）
+输出目录：/workspace/alioxis-news/data/2026-11-01/
+产出：ai.json（17）、_cover_prompts_ai.json（17）、本报告
+
+一、条数与头条
+- 条数：17（目标 15–20）
+- Lead（#00）：Wiz「黑色十月」：至少九个 AI 开发者平台接连失陷，凭据被转卖成 Bedrock LLMJacking
+  URL：https://www.wiz.io/blog/black-october-for-ai-developer-platforms
+  辅证：AIHOT lead + Wiz Blog 全文（九平台名单、LLMJacking Bedrock 案例、转售 IOC）
+
+二、与 v.json 交叉情况
+- 写盘前检查：v.json 已存在，共 13 条（全为 X 帖子 URL）
+- URL 交叉：0 冲突（v 用 x.com 状态页，ai 用原文官网/媒体）
+- 同题不同源：
+  · 法国每 GB 流量税：ai #13（PPC Land 议会纪录）↔ v #01（Max 解读修正案对 ChatGPT/Claude/Agent 的影响）
+  · Claude Fable 暗网权重疑云：仅在 v #00（Max），公开媒体无独立核实稿，ai 未单列以免放大未证实指控；相关产业背景由 ai #00 Wiz LLMJacking / #01 Chainalysis agentic 承接
+- 报告说明：保留同题不同源，便于 AI新闻给可核实原文、大V视野保留评论视角。
+
+三、AIHOT 使用情况
+- 已读：_aihot_daily.json / _aihot_summary.txt
+- 采用线索并落到原文：
+  · Wiz「黑色十月」→ #00（wiz.io/blog/black-october-for-ai-developer-platforms）
+  · Figma Weave → #02（figma.com/blog/the-tldr-on-figma-weave）
+  · Nvidia×Nscale 债务担保 → #03（TechCrunch）
+  · 五大厂超 3 万亿美元承诺 → #04（IT之家 1/020/632）
+  · OpenRouter always-on Agent 教程 → #09（openrouter.ai/blog/tutorials/build-always-on-ai-agent）
+  · Anthropic 近 9000 亿美元表外义务 flash → #06（IT之家 1/020/444；与既有 S-1 主新闻错开，收彭博表外义务角度）
+- 补充（WebSearch / WebFetch，近 36h）：
+  · Chainalysis agentic 入侵 → #01
+  · OpenAI 融资目标下调至约 200 亿 → #05（CNBC）
+  · 四家共用 robots.txt AI 训练偏好 → #07（Engadget；OpenAI 官方博文已在 10-31 ai #11，本条收四家时间表）
+  · DeepSeek Search/Fetch 11/1 起按次计费 → #08（api-docs.deepseek.com）
+  · EdgeRock-4B → #10（rockmatrix.ai/models；arxiv 2610.10118 辅证）
+  · PokeBot RoboAPI → #11
+  · 英国 CMA 查 Meta 媒体条款 → #12（Euronews）
+  · 法国流量税修正案 → #13（PPC Land）
+  · Subvocal 智能眼镜融资 → #14
+  · DeepMind PlanAssist 扩面 → #15
+  · HF plug-and-play robots → #16
+
+四、跳过原因
+- OpenAI robots.txt 官方博文：2026-10-31 ai.json #11 已收，改收 Engadget 四家对齐角度（#07）
+- Gemini Computer Use GA / Claude Ultra / Project Suncatcher：昨日已收，跳过
+- GPT-6 Astra 产品页：官方页顶部已指向 2026-09 的 GPT-6.1 Sol 更新，属旧发，跳过
+- Hermes Mobile Beta：公开页缺少可核实的 10-30/31 时点发布稿，跳过
+- Google Antigravity/Jules 折叠等二手 digest：缺官方一手源，跳过
+- aihot.news item 页：仅作线索，全部主链接改为原文
+- Wiz 错误猜测 slug（black-october-nine-...）：已纠正为 black-october-for-ai-developer-platforms
+
+五、每条核实手段（摘要）
+00 Wiz Black October — WebFetch Wiz Blog
+01 Chainalysis — WebFetch 官方 incident 页
+02 Figma Weave — WebFetch Figma Blog
+03 Nvidia/Nscale — WebFetch TechCrunch
+04 $3T — WebFetch IT之家（含 pubtime 23:56）
+05 OpenAI 融资下调 — WebFetch CNBC
+06 Anthropic 表外义务 — WebFetch IT之家（含 pubtime 11:25）
+07 robots.txt 四家 — WebFetch Engadget
+08 DeepSeek 定价 — WebFetch api-docs.deepseek.com/quick_start/pricing
+09 OpenRouter always-on — WebFetch OpenRouter Blog
+10 EdgeRock — WebFetch rockmatrix.ai/models + arxiv abs
+11 PokeBot — WebFetch GlobeNewswire
+12 Meta CMA — WebFetch Euronews（gov.uk 列表页辅证日期）
+13 法国流量税 — WebFetch PPC Land
+14 Subvocal — WebFetch India Today
+15 PlanAssist — WebFetch DeepMind Blog
+16 HF robots — WebFetch Hugging Face Blog（2026-10-30）
+
+六、去重
+- 对照 _prior_urls.json（467 URL）：0 命中
+- 对照当日 v.json：URL 0 冲突
+- published_at 均为 +08:00 ISO；source 均为字符串站点名；image 为 /assets/covers/cover-20261101-ai-NN.jpg（00–16）
+
+七、缺口与说明
+- AIHOT 当日仅约 5 条正文 + 1 flash，故大量依赖 WebSearch/WebFetch 补充至 17 条
+- 卡兹克窗口内无帖（见 _v_collect_report），AI新闻未强行凑「卡兹克同题」
+- 未生成封面、未 build、未 publish（按任务要求）

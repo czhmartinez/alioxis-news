@@ -1,0 +1,13 @@
+登录状态：已登录（页面显示账号 zihan chen / @zihanch71347739）。
+Following确认：此前已确认“正在关注”标签处于选中状态，URL为 https://x.com/home。
+原始Following抓取：从顶部新鲜内容向下检查到约20小时以前，得到旧7条；已排除广告、非AI内容、纯图片/无实质内容和重复status URL。
+
+2026-10-03扩展抓取：按任务依次访问了以下公开个人资料时间线（均未遇到登录墙、验证码或登录异常）：
+- https://x.com/Khazix0918：新增1条合格AI帖子（15小时前，Agent+Rust重写桌搭硬件，并绑定Claude/Codex双Agent状态）。其余可见内容为更早日期，未纳入。
+- https://x.com/MaxForAI：新增3条（18–19小时前：Verification Engineering工具链、GPU走私案、Claude Code Mods）。另有一条仅“获得一个k”的引用和一条仅司法部链接的跟帖，未纳入。
+- https://x.com/xiaohu：新增2条（9小时前Anthropic宗教研讨/Claude，17小时前开源唇语输入法）。其余为无实质图片评论或纯GitHub链接，未纳入。
+- https://x.com/testingcatalog：新增4条（3–12小时前：Gemini Desktop完全访问权限、Muse Gadgets/Home Link、Claude头像、DeepSeek Harness）。Maket 2.0内容带“付费合作”标识，按要求跳过；纯图片测试评论也跳过。
+- https://x.com/gengdaJ：可见合格AI帖为10月1日且带“付费合作”，不在最近约36小时内，未纳入。
+- https://x.com/nanyuan0412：可见内容为10月1日及更早的视频运镜教程，不在最近约36小时内，未纳入。
+
+本次扩展共新增10条，均按status URL去重；没有为达到目标数量而编造内容。相对时间按用户提供的2026-10-03 08:16（UTC+8）近似换算published_at，非X显示的精确发布时间。TestingCatalog的Gemini卡片在时间线辅助树中于引文末尾截断，v.json仅保留可见事实并做忠实概述，没有补写不可见内容。

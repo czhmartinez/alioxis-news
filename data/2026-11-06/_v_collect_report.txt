@@ -1,0 +1,50 @@
+大V视野收集报告 — 2026-11-06（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-04T16:00:00Z（约覆盖 11-05 全日+11-06 早，因 11-05 漏更），max_results=25
+- 分页：@testingcatalog 有 next_token，翻第 2 页（再 12 条）；其余账号 meta 无 next_token
+- 长文/截断补全：Max Helios / GPT 泄密、小互 Images 2.6 / ERNIE / Perceptron、耿达 AI 安全 note_tweet 多已随 get_users_posts 返回；另用 get_posts_by_ids 两批补全/核对（Max 泄密+小互三条；TC Antigravity/Living Brain/Bayworks/Kimi/Nace）
+- 未使用浏览器；未使用 user-X（关注时间线）；用公开读取代替关注时间线
+- 调用约计：6×get_users_posts 首拉 + TC 翻页 1 次 + 存档重拉若干 + 2×get_posts_by_ids；中途遇共享 X 429，约 08:10:59（台北）后恢复
+- 注：任务提及的 Skill 工具（x-api-mcp-guide）在本环境按 GetDynamicTools schema 直接调用
+
+入选：18 条
+各 handle 入选计数：
+  @Khazix0918: 0（窗口内 0 帖，无长文可作头条）
+  @MaxForAI: 2（赫励资本 Helios；OpenAI API rc-ada 泄密）
+  @xiaohu: 3（Images 2.6 主帖+GIF/参考图/complexity 自回复合并；ERNIE 5.5 Flash Base 主帖+评测+开源链接自回复合并；Perceptron 1.0）
+  @thsottiaux: 3（每周 40 亿生图+日均估算自回复；GPT-6 Cyber+安全团队；欢迎 Pierre）
+  @testingcatalog: 9（11/5 Daily Brief 作头条；METR Anthropic 1.9×；GPT-6.2 Astra/Sol GCP；Antigravity v2.29；Kimi K3.1 Pro；Eon Yukon；Oumi FAiE；Living Brain；Serval Catalyst）
+  @gengdaJ: 1（AI 安全 / GCSA SecVibe）
+
+原始拉取条数摘要：
+  @Khazix0918: 0
+  @MaxForAI: 4
+  @xiaohu: 17
+  @thsottiaux: 12
+  @testingcatalog: 23（页1）+12（页2）
+  @gengdaJ: 1
+
+Lead：TestingCatalog 11/5 简报：Images 2.6 上线、GPT-6.2 Astra/Sol 现身 GCP、OpenAI 收购 Pierre、Antigravity 语音模式等
+Lead URL：https://x.com/testingcatalog/status/2118268779901628880
+（卡兹克窗口内无帖；11-05 漏更，以 TC 11/5 简报作头条便于补窗）
+
+筛选说明：
+- 合并：小互 Images 2.6 主帖+速度/GIF/参考图/complexity 自回复（2118158882870890816）；小互 ERNIE 主帖+评测+开源链接（2118329558860734558）；Tibo 40 亿生图主帖+「500M+/day」「Generating*」自回复（2118469621011677521）；Tibo GPT-6 Cyber 与安全团队帖主题相邻但 URL 分列——Cyber 主收 2118402103907655903，团队帖作摘要补充未另占条；TC Serval 主帖+招聘福利跟帖；TC Eon Yukon 主帖+基准跟帖；TC Oumi/Living Brain/Antigravity 各自主+补充跟帖并入摘要
+- 跳过非 AI：Max「没想到股灾这么快就来了」图帖；小互币安 63 亿被盗还原视频；小互「神兽厨房」抖音账号安利（未明示 AI 制作，信息在视频中）
+- 跳过梗图/玩笑/无信息短帖：Max「评论区有活人吗」；小互「今晚 OpenAI 应发新模型/变聪明了」体感短帖；小互 RT @dotey；Tibo「CatGPT」「Come push fluffiness」「Follow Samir for dot updates」「Privilege to work…」等招聘/气氛短帖；TC「Testing👀」「Benchmarks👀」「Documented」「AI news every day GIF 测试」「Daily Brief 邮件订阅」等
+- 跳过同题低增量 / 与 ai.json 硬同题：TC Images 2.6 英文快讯（保留小互中文详解）；TC GPT-6 Cyber 快讯（保留 Tibo 内部人评价）；TC Claude Personal Finance、Muse Voice、Perplexity Teammates、Conductor→Meta、Omni 1.2 Flash 上线/GCP 现身——ai.json 已有对应硬新闻且 TC 增量有限，跳过；TC The Information「周五发 Sol/Astra」与 GCP 现身并题，只保留 GCP 条；TC Grok Bot 打电话（简报已提，小互亦有，跳过独立条）；TC Nace Drex 返现促销、Bayworks 汽修语音报告——信息量一般且偏营销/垂类，名额让给优先账号与更高信号
+- 去重：对照 data/2026-11-06/_prior_urls.json（约 2022 URL），入选 URL 均不在先验集；无 11-05 v.json；与同目录 ai.json URL 不重复（ai 多为官网/媒体链），硬同题已按上款处理；小互 ERNIE / Tibo Cyber / TC METR 等保留大V独特拆解或内部视角
+- 存疑标注：Max 将 rc-ada-* 与 GPT-6.2 Astra/「vm」Agent 环境关联为推测；GCP 配额与 The Information 发版时间为传闻；METR 1.9× 与 Model 3/4 为报告图表转述；Perceptron 价格与精度为厂商/小互转述；Eon/Living Brain 基准为厂商数字；耿达律师函与逆向经历为个人陈述未独立核实——摘要均已注明
+- 三位优先账号：卡兹克 0、Max 2、小互 3（卡兹克空窗已说明）
+
+输出文件：
+  data/2026-11-06/v.json
+  data/2026-11-06/_cover_prompts_v.json
+  data/2026-11-06/_v_raw_mcp.json
+  data/2026-11-06/_v_raw_tc_page1.json（TC 页1 完整响应，便于核对）
+  data/2026-11-06/_v_collect_report.txt
+
+未执行：build / 生图 / 发布 / 通知用户
+注明：使用公开 X 读取代替关注时间线；未登录 x.com 浏览器；未使用 user-X

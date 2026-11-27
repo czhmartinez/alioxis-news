@@ -1,0 +1,61 @@
+Alioxis News AI新闻收集报告 — 2026-11-13（Asia/Taipei）
+============================================================
+完成时间：2026-11-13 约 08:15 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-13/
+产出：ai.json（20）、_cover_prompts_ai.json（20）、本报告、_aihot_daily.json、_aihot_summary.txt、_aihot_clues.json、_prior_urls.json（2263 URL）
+
+一、条数与头条
+- 条数：20（目标 15–20，达上限）
+- Lead（#00）：英伟达宣布 CEO 交接：黄仁勋即刻辞去总裁、CEO 及董事职务，CFO Colette Kress 出任临时 CEO，Harvey Jones 成为公司史上首位董事会主席
+  URL：https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition
+  理由：AIHOT 11-13 lead；英伟达官方 Newsroom WebFetch 全文核对（新闻稿未写辞任原因，原因背景见 #03 TechCrunch）。
+  备选：#01 Anthropic IPO 官网 / #02 Gemini 4 Hydrogen / #04 OpenAI Daybreak
+
+二、与 v.json 交叉
+- 收尾时 v.json 已存在（18 条），已做硬 URL 去重：overlap=0。
+- 软同题（保留，本频道取官方原文全貌，v 为推文角度）：英伟达 CEO 交接（v 小互 / #00 官方新闻稿）、Gemini 4 Hydrogen（v TC / #02 DeepMind 博客）、Anthropic IPO（v TC 含德银 70–120 美元区间 / #01 IPO 官网财务数据）、豆包工作接入第三方模型（v 小互 / #16 极客公园）、谷歌智能眼镜预购（v TC / #10 Google 博客）。若需让给 v，建议优先撤 #16、#10。
+- Claude Meetings：v 已收（TC），且 11-10 ai 已收 TechCrunch 同题，本频道主动未收。
+
+三、AIHOT 使用
+- 已跑 node scripts/fetch-aihot-daily.js 2026-11-13（成功）；按 11-12 格式手工补写 _aihot_summary.txt、_aihot_clues.json。
+- 采用：NVIDIA CEO 交接（#00）、Gemini 4 Hydrogen（#02）、Anthropic IPO（#01，原链为 X 推文，改链 ipo.anthropic.com 官网）、民主党调查英伟达（#03）、Opus 5.5 默认模型（#07）、Google 眼镜（#10，原链为 X 推文，改链 Google 官方博客）、Replit Agent（#09）、Inkling 2 Small（#05，flash，原链 X，改链官方模型卡；thinkingmachines.ai/news/inkling-2-small/ 已在历史中）、World Labs Atlas（#06，flash，原链 X，改链 worldlabs.ai/atlas）、OpenAI fuzzy robustness（#12）、Epoch 华为和林格尔（#13）、OpenRouter 本地化（#14）、OpenRouter 死循环（#15）。
+- 未采用：Claude Meetings（已重复）、Tunguz 五点分析与 Rohan Paul/Lex Fridman 评论（观点帖）、Claude Tag 创业指南、Figma 3D transforms、Grok Bot 1.0（本机器人自身产品，回避）。
+
+四、补充采用（非 AIHOT）
+- OpenAI Daybreak Red Team/Defense Factory（#04，openai.com 产品页 + The Register）；非营利组织诉讼（#08，Public Citizen 声明，AP/Politico/半岛电视台均有报道）；Edge0-145B（#11，官方博客）；豆包工作（#16，极客公园）；百度世界 2026（#17，第一财经/证券时报 + 新华网）；Google Flow 五工具（#18，Google 博客）；OpenAI 印度本地推理（#19，The Hindu）。
+
+五、去重
+- _prior_urls.json：全部历史 ai.json + v.json（不含 11-13），共 2263 个 URL；本日 20 条 URL 0 命中，内部无重复；与 v.json 硬重叠 0。
+
+六、来源核实方式
+- 全部 20 条均经 WebFetch 或 curl 读取原文页面核对关键数字与日期（#05 Inkling 依据官方模型卡 + 官方新闻页更新说明的搜索摘录；Together 价格来自第三方转述）。
+- published_at：有精确时间的按原文换算为 +08:00（TechCrunch 2:42 PM PST → 11-13 06:42；The Register 20:48 UTC → 11-13 04:48；The Hindu 02:59 PM IST → 11-12 17:29；第一财经 11:27）；其余仅有日期的美国源按惯例写作 T12:00+08:00 或估计值（#00 美东发布约写 11-13 06:00，#08 约写 11-13 02:00）。
+
+七、缺口与风险
+- #17 百度两款文心应用模型无参数/价格公开信息，摘要较薄；文心 5.5 Flash Preview 已在 11-12 收录，未重复。
+- #11 Edge0 与 #06 Atlas 的性能数据均为官方自报；Atlas 未公布计价。
+- #01 IPO 价格区间（德银页面 70–120 美元）仅见 v 推文转述，未核原文，本条未写。
+- NVIDIA 相关 2 条（#00、#03）+ Anthropic 2 条（#01、#07）+ OpenAI 3 条（#04、#12、#19）+ OpenRouter 2 条（#14、#15）+ Google 3 条（#02、#10、#18），如嫌扎堆可压缩 #15 或 #18。
+- 未生成封面、未 build、未发布。
+
+八、条目清单
+#00 英伟达宣布 CEO 交接：黄仁勋即刻辞去总裁、CEO 及董事职务，CFO Colette Kress 出任临时 … | https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition
+#01 Anthropic 上线 IPO 官网：三季度营收 170 亿美元、同比超 12 倍，拟以代码“ANT”登陆纳斯… | https://ipo.anthropic.com
+#02 Google DeepMind 发布 Gemini 4 Hydrogen：主打快速编码与 Agent 执行，Ar… | https://deepmind.google/blog/introducing-gemini-4-hydrogen/
+#03 美国民主党启动英伟达对华芯片销售调查：致函商务部长卢特尼克要求保存记录，质疑 H200 “先运美国再征关税”安排… | https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/
+#04 OpenAI 推出 Daybreak Red Team 与 Defense Factory：多智能体自动渗透测试… | https://openai.com/daybreak/red-team/
+#05 Thinking Machines 开放 Inkling 2 Small 权重（Apache 2.0）：594B… | https://thinkingmachines.ai/model-card/inkling-2-small/
+#06 World Labs 向所有人开放世界模型 Atlas：Viewfinder 照片重建可漫游场景、Chisel … | https://worldlabs.ai/atlas
+#07 Anthropic 推荐把 Claude Opus 5.5 作为知识工作主力：已成 Pro/Max/Ultra/… | https://claude.com/blog/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work
+#08 四家非营利组织起诉 OpenAI、Anthropic、谷歌、Meta 与 SpaceXSI，援引加州《不正当竞争… | https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/
+#09 Replit Agent 新增“代购”与“投广告”：借 Stripe Link 与 Visa 为企业采购物资、结… | https://replit.com/blog/replit-agent-ads-commerce
+#10 谷歌 Gemini 智能眼镜开启预购：Warby Parker 款 395 美元起、Gentle Monster… | https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/
+#11 Edge0 开源 145B 端侧模型 Edge0-145B 与 120B：笔记本峰值内存 29GB、解码 80+… | https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer
+#12 OpenAI 对齐博客：用扩展测试时算力的自动红队 + “worst@n” 准则生成越狱训练数据，GPT-6 A… | https://alignment.openai.com/fuzzy-robustness/
+#13 Epoch AI 卫星图分析华为和林格尔数据中心：约 8.1 万 H100 当量、IT 功率约 286MW，仅为… | https://epochai.substack.com/p/what-huaweis-horinger-data-center
+#14 OpenRouter 上线 7 种语言本地化并公开自纠错翻译流水线：GPT-6.1 Sol 翻译+校验 16,9… | https://openrouter.ai/blog/announcements/openrouter-in-8-languages/
+#15 OpenRouter 实测 Agent 死循环四层防护：开启 doom-loop 检测后六款模型均在第三次相同工… | https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop/
+#16 豆包工作接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等第三方模型，… | https://www.geekpark.net/news/373881
+#17 百度世界 2026：李彦宏称 AI 下一幕是“智能组织”，发布文心闪电深度思考模型与文心一镜微表情大模型，千帆平… | https://www.yicai.com/news/103437760.html
+#18 Google Flow 上线五款由创作者打造的新工具：Character Arc 跨年龄保持角色一致，Pocke… | https://blog.google/innovation-and-ai/models-and-research/google-labs/new-google-flow-tools/
+#19 OpenAI 在印度推出 API 本地处理与推理：首批支持 GPT-6 Luna，请求处理与模型计算均留在境内，… | https://www.thehindu.com/business/openai-now-allows-enterprises-to-process-ai-requests-within-india/article71692799.ece

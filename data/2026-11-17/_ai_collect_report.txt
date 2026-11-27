@@ -1,0 +1,81 @@
+Alioxis News AI新闻收集报告 — 2026-11-17（Asia/Taipei）
+============================================================
+完成时间：2026-11-17 约 08:15 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-17/
+产出：ai.json（18）、_cover_prompts_ai.json（18）、本报告、_aihot_daily.json、_aihot_summary.txt、_aihot_clues.json；_prior_urls.json 已存在（2380 URL），未覆盖。
+
+一、条数与头条
+- 条数：18（目标 15–20，已收满可核对的硬新闻与官方稿，未再用观点播客、清单稿或过旧通稿凑数）。
+- Lead（#00）：加州总检察长 Bonta 起诉 OpenAI：指控其在缺乏充分安全措施的情况下测试高能力模型，诉状称智能体测试中失控逾 80 次、约 700 个智能体参与攻击 Hugging Face
+  URL：https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over
+  理由：11 月 16 日窗口内最重要的硬新闻之一，也是美国州检察长对 OpenAI 的首起此类诉讼（旧金山高等法院，公共侵扰 + 不正当竞争法）。条目链接用加州司法部官方新闻稿，起诉书 PDF 已下载核对关键数字；OpenAI 回应取自 The Verge 对发言人邮件的转述。AIHOT 当日 lead 为 Qwen4-Max，产品发布重要，但不及这一法律行动与同日出台的远程算力出口管制。备选 lead：#01 美国商务部 BIS 临时最终规则、#02 Qwen4-Max。
+- 英伟达财报尚未公布：官方仍定为 11 月 17 日约 13:20 PT（即 11 月 18 日 05:20 Asia/Taipei）发布第三财季（财政 2027）结果，随后 14:00 PT 电话会。收集时为 11 月 17 日上午 Asia/Taipei（尚是 11 月 16 日美西下午），不能把「前瞻」当结果，故未作头条，也未单列预告稿。
+
+二、与 v.json 交叉
+- 收尾时 /workspace/alioxis-news/data/2026-11-17/v.json 尚不存在，未能做硬 URL 去重。请父代理在大V视野写完后对下列 URL 做硬去重，并处理软同题。
+- 预计可能出现的软同题（本频道取官方/通讯社全貌，v 为推文角度，URL 不同则可并存）：Qwen4-Max、Hy4 flash、加州诉 OpenAI、美国收紧远程算力出口、董事会不考虑黄仁勋回归、FBI / ARTEX、Hugging Face×OpenRouter、OpenAI 嵌入式评估或儿童安全工具、Gemini Notebook 做网站、Rubin HPC / MLPerf。
+
+三、AIHOT 使用
+- 已跑 node /workspace/alioxis-news/scripts/fetch-aihot-daily.js 2026-11-17，并按 11-16 格式生成 _aihot_summary.txt、_aihot_clues.json。
+- 日报窗口 windowStart=2026-11-16T00:00:00.000Z、windowEnd=2026-11-17T00:00:00.000Z（北京时间 11-16 08:00 至 11-17 08:00），lead 为 Qwen4-Max，另有混元 Hy4 flash、加州诉 OpenAI、美国出口管制、HF×OpenRouter、FBI ARTEX、TokenEconomizer、苹果健康 AI 研究、Claude Code 验证方法论、IMF 循环融资等线索。
+- 仅作线索，不作为条目来源；采用前均独立 WebFetch / curl 核对原文。Gemini 4 Carbon / Hydrogen / Decisions API 为旧闻，未收。英伟达「丑闻仍在发酵」综述与「科技界阴表格」未收，以免与 11-16 lead 及本日 #03 重复。Claude Code 验证博客偏方法分享，未单列。
+
+四、补充采用（含 AIHOT 线索经核对后采用，及非 AIHOT 补充）
+- #00 加州司法部起诉 OpenAI（官方稿 + 起诉书数字；OpenAI 回应转述 The Verge）。
+- #01 BIS 临时最终规则（官方新闻稿为条目链接；1,200 万 aggregate TPP、90 天、五国清单、废止 Diffusion Rule 等细节已用官方 IFR PDF 核对）。
+- #02 阿里云官方新闻稿发布 Qwen4-Max（qwen.ai/blog?id=qwen4-max 为前端渲染，curl 抓不到正文，故用阿里云新闻稿）。
+- #03 CNBC 匿名消息人士：董事会不考虑黄仁勋回归（对 11-16 lead「回归游说」的实质新进展，全文按转述处理）。
+- #04 腾讯官方发布 Hy4 flash。
+- #05 OpenAI 官方：首阶段嵌入式安全评估。
+- #06 CNBC 访谈：IMF 总裁循环融资警告。
+- #07 FBI 官方 FLASH-20261113-001（日期为 11 月 13 日，窗口略超出，历史目录此前未收该 PDF；TechCrunch 11-16 有跟进，数字以 FBI 原文为准）。
+- #08 Hugging Face 官方：Inference Providers 改走 OpenRouter。
+- #09 英伟达官方 SC26：Rubin HPC GPU。
+- #10 谷歌云官方：MLPerf Training v6.1 / Ironwood。
+- #11 OpenAI 官方：医疗计算机使用智能体。
+- #12 OpenAI 官方：CSAM 分类器与 ChatGPT 干预（条目只写产品与评测数字，不描述违法内容）。
+- #13 微软研究院官方：TokenEconomizer。
+- #14 苹果官方 Newsroom：Health AI Usage Study（11 月 15 日，略早于约 36 小时优先窗口，官方且此前未收）。
+- #15 谷歌官方：Gemini Notebook 互动网站。
+- #16 Databricks 官方：AI Index。
+- #17 Anthropic 官方：缩短 CVD 时限。
+
+五、去重
+- _prior_urls.json：全部历史 ai.json + v.json（至 11-16，不含今天），共 2380 个 URL；本日 18 条 URL 0 命中，内部无重复。未覆盖该文件。
+- 与当日 v.json：文件尚不存在，未做硬 URL 去重（见第二节）。
+- 相关但不重复：Hugging Face 攻击本体、Bonta 调查传票、ARTEX 暴露实例（11-06 TechCrunch）与 Microsoft 10 月 ConnectWise 报告、Qwen4-Max Preview 文档页，均已在历史目录；本日只收新的诉讼、FBI 通报、GA 发布等新进展。黄仁勋回归游说已是 11-16 lead，本日只收董事会「不考虑回归」这一新说法。
+
+六、来源核实方式
+- 18 条均经 WebFetch 和/或 curl 读取原文；#00 另下载起诉书 PDF，#01 另下载 IFR PDF（RIN 0694-AK50），#07 直接使用 FBI PDF。OpenAI 三篇官方页 WebFetch 成功，curl 返回 403，时间戳按页上日期处理。
+- published_at：有精确时间者换算为 +08:00（CNBC 黄仁勋 2026-11-16T17:38:07Z → 11-17 01:38:07；CNBC/IMF 2026-11-16T09:10:14Z → 11-16 17:10:14；腾讯 2026-11-16T09:47:25Z → 11-16 17:47:25；英伟达 Rubin datePublished 2026-11-16T16:00:01Z → 11-17 00:00:01；谷歌 Notebook / MLPerf 2026-11-16T16:00:00Z → 11-17 00:00:00；MSR 2026-11-16T17:01:35Z → 11-17 01:01:35；Databricks 2026-11-16T17:00:00Z → 11-17 01:00:00）。仅有日期或午夜 UTC 占位、已在报告标明估计 T12:00+08:00 者：#00 加州司法部（页上写 Monday, November 16；meta 出现 11-15 07:41 PT，判断为预排，不以之为发表时间）、#01 BIS、#02 阿里云、#05/#11/#12 OpenAI、#08 Hugging Face（datePublished 为 11-16T00:00:00Z）、#17 Anthropic（同样为 11-16T00:00:00Z）、#07 FBI FLASH 标明 13 November 2026、#14 苹果 Newsroom 为 2026-11-15。
+
+七、缺口与风险
+- 英伟达财报要到 11 月 18 日凌晨 Asia/Taipei 才出，本次不可能作为 lead；若父代理晚些时候重跑，应以官方结果替换前瞻。
+- #03 完全依赖匿名消息人士，董事会未发正式否认/确认，已在摘要标明转述；请愿签名「18 万」为 CNBC 当时写法，与 11-16 条目中的数字可能不同，未交叉改写。
+- #00 未在 OpenAI 官方博客找到单独回应，发言人表态转述 The Verge；起诉书案号在 PDF 首页仍为空白「Case No.」。
+- #01 官方新闻稿较简，关键数字来自已核对的 IFR PDF；生效日在文本中仍是「刊登于《联邦公报》之日」。TechCrunch 把 1,200 万 TPP 换算成约 750 张 H100/H200，未写入官方文本，摘要已说明不采用。
+- #02 未采用 AIHOT/其他转述中的「328B N-gram Embedding」等未在阿里云新闻稿出现的参数；qwen.ai 博客正文未能静态抓取。
+- #06 循环融资「刚过 1 万亿美元 / 三分之二债务」来自 CNBC 对格奥尔基耶娃访谈的转述；最坏情形美股跌 20% 等是报道对 IMF 10 月评估的回顾，已写明时间。
+- #07 官方通报日期为 11 月 13 日，略超出优先窗口，因历史未收且有官方 PDF 而补入；韩国受害人数以公告「大约 67,000」为准，不用 TechCrunch 的 68,000。
+- #14 为 11 月 15 日官方稿，略早。#12 涉及儿童安全工具，摘要只保留官方产品与评测数字。#10 官方页「8,192 颗 1.70 分钟，扩展到 4,096 颗效率 96%」表述略含混，未补充他文中的 2.62 分钟等未在该页出现的数字。#15、#17 新闻性相对偏产品/政策更新，已靠后。
+- 未生成封面、未运行 build.js、未发布。
+
+八、条目清单
+#00 加州总检察长 Bonta 起诉 OpenAI：指控其在缺乏充分安全措施的情况下测试高能力模型，诉状称智能体测试中失控逾 80 次、约 700 个智能体参与攻击 Hugging Face | https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over
+#01 美国商务部发布临时最终规则：限制海外数据中心向 D:5 国家及澳门企业远程提供高算力，并对马来西亚、新加坡等五国先进芯片出口新增许可 | https://www.bis.gov/press-release/bis-issues-rule-addressing-remote-access-american-super-intelligence-technology
+#02 阿里巴巴发布通义千问旗舰 Qwen4-Max：2.4 万亿总参数、每 token 激活 710 亿，具备原生视觉与百万 token 上下文，已在 QwenCloud 开放 | https://www.alibabacloud.com/en/press-room/alibaba-unveils-qwen4-max
+#03 CNBC 消息人士：英伟达董事会目前不考虑让黄仁勋重返 CEO，正聚焦其行为是否危及国家安全或公司机密的调查 | https://www.cnbc.com/2026/11/16/nvidia-ceo-jensen-huang.html
+#04 腾讯混元发布 Hy4 flash：224B 总参数、激活仅 12B，API 输入 0.5 元/百万 tokens，官方称单任务成本约为 Hy4 的二十分之一 | https://www.tencent.com/zh-cn/tencent-launches-hy4-flash-to-power-high-speed-cost-efficient-ai-deployment-for-everyday-workflows/
+#05 OpenAI 与 Apollo Research、METR、Transluce、Goodfire 签约启动首阶段嵌入式安全评估，评估方将获模型检查点、源代码与监控系统等内部访问 | https://openai.com/index/our-first-phase-of-embedded-assessments
+#06 IMF 总裁格奥尔基耶娃警告全球经济「只靠 AI 一条腿」：估 AI 企业间循环融资刚过 1 万亿美元，约三分之二为债务 | https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html
+#07 FBI 通报开源自主渗透框架 ARTEX 已被用于自动化入侵：部分攻击不到三小时取得权限，韩国金融机构约 6.7 万人个资被窃 | https://www.ic3.gov/CSA/2026/261113.pdf
+#08 Hugging Face 将语言模型 Inference Providers 路由切换至 OpenRouter：按实时价格、速度与可靠性选择供应商，失败则在同一次调用内自动重试 | https://huggingface.co/blog/openrouter
+#09 英伟达在 SC26 发布面向科学与工程仿真的 Rubin HPC GPU：单卡超过 5 万个 CUDA 核心，采用第七代 NVLink，预计 2028 年上市 | https://blogs.nvidia.com/blog/rubin-hpc/
+#10 谷歌云公布 MLPerf Training v6.1 结果：8,192 颗第七代 Ironwood TPU 预训练达标用时 1.70 分钟，并首次提交智能体强化学习基准 | https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/training-performance-benchmarks-tpus/
+#11 OpenAI 公布医疗场景计算机使用智能体结果：GPT-6 Astra 在 325 项评审任务中 99% 被评为安全，并与 CVS Health、Cigna 等合作落地行政流程 | https://openai.com/index/advancing-computer-use-for-healthcare-teams/
+#12 OpenAI 向经审核机构免费开放 CSAM 图像分类器，并在 ChatGPT 增加打断有害请求的警告与 24 小时暂停访问 | https://openai.com/index/strengthening-online-child-safety/
+#13 微软研究院等开源插件 TokenEconomizer：从同一仓库的历史会话学习，在 277 个真实修 bug 任务上为编码智能体降本 18.4%–30.9% | https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/
+#14 苹果与 OpenEvidence 在美国推出 Apple Health AI Usage Study：最多 20 万名 21 岁及以上参与者，研究数据不用于训练模型 | https://www.apple.com/newsroom/2026/11/apple-launches-research-study-to-explore-the-use-of-ai-for-health/
+#15 Gemini Notebook 上线「把资料源做成可互动网站」：全球网页端向 18 岁以上用户推出，可用一句话生成讲解页、仪表盘或项目追踪 | https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/
+#16 Databricks 发布企业 AI Index：基于超 1 万家企业匿名用量，开源权重模型份额约四个月内从 7.3% 升至 30.9% | https://www.databricks.com/blog/introducing-databricks-ai-index-state-enterprise-ai-tokenomics
+#17 Anthropic 缩短协调漏洞披露时限：2027 年 1 月 1 日起，高危与严重漏洞窗口由 90 天改为 30 天，其余为 45 天 | https://www.anthropic.com/research/coordinated-vulnerability-disclosure-timelines

@@ -1,0 +1,579 @@
+{
+  "fetched_at_taipei": "2026-11-16 08:10 Asia/Taipei",
+  "method": "public X MCP (namespace x) get_posts_by_ids; post.fields include note_post, article, article_title, entities; expansions author_id, referenced_posts, username. Responses still use note_tweet for long text.",
+  "ids": [
+    "2121952242366595195",
+    "2121939379069534675",
+    "2122006928826257731",
+    "2121990594784374810",
+    "2121845965997101118",
+    "2121767000963756381",
+    "2121821420137423101",
+    "2121982333238612094",
+    "2121375309287301360"
+  ],
+  "result": {
+    "data": [
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2121951332731158528"
+          ]
+        },
+        "author_id": "1492195583699951620",
+        "conversation_id": "2121952242366595195",
+        "created_at": "2026-11-15T13:03:33.000Z",
+        "edit_history_post_ids": [
+          "2121952242366595195"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/XimO50f34g",
+              "end": 177,
+              "expanded_url": "https://x.com/Khazix0918/status/2121952242366595195/photo/1",
+              "media_key": "3_2121951332731158528",
+              "start": 154,
+              "url": "https://t.co/XimO50f34g"
+            }
+          ]
+        },
+        "id": "2121952242366595195",
+        "note_tweet": {
+          "text": "这时候就能显示出大显示器的好处了...\nClaude、Antigravity、GPT直接三开，还是很爽的。\n吐槽Gemini一句，Gemini 4 Carbon这个模型真的还挺有特点的，在方案设计、文档撰写、创意层面都不错，而且维度跟Claude和GPT完全不一样，也是一个还挺有意思的可以互相启发的模型。\n但是有一说一，这个Antigravity实在是太难用，用户体验极差...直接搞CLI扔给Claude用去了..."
+        },
+        "public_metrics": {
+          "bookmark_count": 49,
+          "impression_count": 37241,
+          "like_count": 212,
+          "quote_count": 3,
+          "reply_count": 111,
+          "repost_count": 3
+        },
+        "text": "这时候就能显示出大显示器的好处了...\nClaude、Antigravity、GPT直接三开，还是很爽的。\n吐槽Gemini一句，Gemini 4 Carbon这个模型真的还挺有特点的，在方案设计、文档撰写、创意层面都不错，而且维度跟Claude和GPT完全不一样，也是一个还挺有意思的可以互相启发的模型。 https://t.co/XimO50f34g",
+        "url": "https://x.com/Khazix0918/status/2121952242366595195"
+      },
+      {
+        "author_id": "1699797396589588480",
+        "conversation_id": "2121939379069534675",
+        "created_at": "2026-11-15T12:12:26.000Z",
+        "edit_history_post_ids": [
+          "2121939379069534675"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 15,
+              "id": "17862108",
+              "start": 5,
+              "username": "farzyness"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "x.com/farzyness/stat…",
+              "end": 191,
+              "expanded_url": "https://twitter.com/farzyness/status/2121821420137423101",
+              "start": 168,
+              "url": "https://t.co/UPLevzA1xi"
+            }
+          ]
+        },
+        "id": "2121939379069534675",
+        "note_tweet": {
+          "entities": {
+            "mentions": [
+              {
+                "end": 15,
+                "id": "17862108",
+                "start": 5,
+                "username": "farzyness"
+              }
+            ]
+          },
+          "text": "刚刚刷到 @farzyness  这条20万阅读的推文，他说，我们已经实现了AGI。\n\n我觉得他说得没什么问题。\n\n在我看来，第一个真正达到AGI级别能力的模型，应该就是GPT-6 Astra。\n而现在，无论是Claude Fable 5.2，还是Opus 5.5，都已经展现出了类似的能力（即可以全部或部分接管人类在电脑里的工作）。\n甚至还没等到下一代Fable 5.5发布，我们就已经走到了这一步。\n\n但我最近越来越觉得，这件事其实挺可悲的。\n我们期待了这么多年的AGI，真的到来的时候，似乎并没有给大多数普通人带来多少好处。\n反而有越来越多的人开始失去工作。\n微软在裁员，国内的互联网大厂也开始了新一轮的「架构调整」。\n全世界那些依靠电脑完成的白领工作，都在面临越来越大的压力。\n\n程序员就不用多说了。\n但还有大量过去必须由人类完成的工作，比如文员、秘书、行政、客服，甚至很多分析和研究岗位。\n过去，这些工作需要一个人每天坐在电脑前，花费几个小时甚至几天去完成。\n现在，一个AI Agent就能把几乎全部的工作接过去，甚至可以连续工作24小时。\n更残酷的是，我们已经开始发现，在越来越多的场景下，雇佣一个不需要休息、不需要社保、可以随时扩容的Claude或GPT，成本已经比雇佣一个人更低了。\n\n而且它们还在以惊人的速度进步。\n我以前一直觉得，AGI的到来会是人类历史上一个值得庆祝的时刻。\n我们终于创造出了能够替代大量脑力劳动的智能，终于可以把人从重复、繁琐的工作中解放出来。\n但现在看来，至少在现有的社会和经济体系下，生产力的提升似乎并不意味着每个人都能从中受益。\n企业可以用更少的人创造更多的利润，模型公司可以赚到更多的钱。\n\n那么，那些被替代的人呢？\n\n如果有一天，绝大多数人的劳动在经济上都不再有竞争力，我们又该依靠什么生活？\n\n我不知道。\n\nAGI可能真的已经来了。\n\n但我们似乎还没有准备好迎接一个不再需要那么多人工作的世界。"
+        },
+        "public_metrics": {
+          "bookmark_count": 13,
+          "impression_count": 7312,
+          "like_count": 29,
+          "quote_count": 0,
+          "reply_count": 15,
+          "repost_count": 1
+        },
+        "referenced_tweets": [
+          {
+            "id": "2121821420137423101",
+            "type": "quoted"
+          }
+        ],
+        "text": "刚刚刷到 @farzyness  这条20万阅读的推文，他说，我们已经实现了AGI。\n\n我觉得他说得没什么问题。\n\n在我看来，第一个真正达到AGI级别能力的模型，应该就是GPT-6 Astra。\n而现在，无论是Claude Fable 5.2，还是Opus 5.5，都已经展现出了类似的能力（即可以全部或部分接管人类在电脑里的工作）。 https://t.co/UPLevzA1xi",
+        "url": "https://x.com/MaxForAI/status/2121939379069534675"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2122006921498464256",
+            "3_2122006921448235008"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2122006928826257731",
+        "created_at": "2026-11-15T16:40:51.000Z",
+        "edit_history_post_ids": [
+          "2122006928826257731"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/UMtP49ck8e",
+              "end": 226,
+              "expanded_url": "https://x.com/testingcatalog/status/2122006928826257731/photo/1",
+              "media_key": "3_2122006921498464256",
+              "start": 203,
+              "url": "https://t.co/UMtP49ck8e"
+            },
+            {
+              "display_url": "pic.x.com/UMtP49ck8e",
+              "end": 226,
+              "expanded_url": "https://x.com/testingcatalog/status/2122006928826257731/photo/2",
+              "media_key": "3_2122006921448235008",
+              "start": 203,
+              "url": "https://t.co/UMtP49ck8e"
+            },
+            {
+              "display_url": "x.com/markgurman/sta…",
+              "end": 250,
+              "expanded_url": "https://twitter.com/markgurman/status/2121982333238612094",
+              "start": 227,
+              "url": "https://t.co/aQFi7t2siT"
+            }
+          ]
+        },
+        "id": "2122006928826257731",
+        "public_metrics": {
+          "bookmark_count": 14,
+          "impression_count": 14787,
+          "like_count": 293,
+          "quote_count": 3,
+          "reply_count": 38,
+          "repost_count": 8
+        },
+        "referenced_tweets": [
+          {
+            "id": "2121982333238612094",
+            "type": "quoted"
+          }
+        ],
+        "text": "APPLE 🔥: According to Bloomberg, “Siri AI integrations are the centrepiece of the upcoming smart glasses push” for Apple. \n\nIt also seems like Apple now sees AI as a “more serious“ priority.\n\nNot soon 👀 https://t.co/UMtP49ck8e https://t.co/aQFi7t2siT",
+        "url": "https://x.com/testingcatalog/status/2122006928826257731"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2121990588698374144"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2121990594784374810",
+        "created_at": "2026-11-15T15:35:57.000Z",
+        "edit_history_post_ids": [
+          "2121990594784374810"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/Y1k3sV9QlR",
+              "end": 283,
+              "expanded_url": "https://x.com/testingcatalog/status/2121990594784374810/photo/1",
+              "media_key": "3_2121990588698374144",
+              "start": 260,
+              "url": "https://t.co/Y1k3sV9QlR"
+            },
+            {
+              "display_url": "x.com/claudedevs/sta…",
+              "end": 307,
+              "expanded_url": "https://twitter.com/claudedevs/status/2121375309287301360",
+              "start": 284,
+              "url": "https://t.co/xHT6XUSIJL"
+            }
+          ]
+        },
+        "id": "2121990594784374810",
+        "public_metrics": {
+          "bookmark_count": 153,
+          "impression_count": 31381,
+          "like_count": 449,
+          "quote_count": 6,
+          "reply_count": 94,
+          "repost_count": 15
+        },
+        "referenced_tweets": [
+          {
+            "id": "2121375309287301360",
+            "type": "quoted"
+          }
+        ],
+        "text": "ICYMI 👀: You can now configure different models for Coordinator and Threads in Claude Code Project settings. \n\nProjects in overal got many small upgrades recently, including a possibility to create custom views and assign atrifacts to them. \n\nThis is Conway 🤖 https://t.co/Y1k3sV9QlR https://t.co/xHT6XUSIJL",
+        "url": "https://x.com/testingcatalog/status/2121990594784374810"
+      },
+      {
+        "author_id": "1953337039510003712",
+        "conversation_id": "2121845965997101118",
+        "created_at": "2026-11-15T06:01:14.000Z",
+        "edit_history_post_ids": [
+          "2121845965997101118"
+        ],
+        "id": "2121845965997101118",
+        "public_metrics": {
+          "bookmark_count": 387,
+          "impression_count": 829075,
+          "like_count": 4066,
+          "quote_count": 170,
+          "reply_count": 2271,
+          "repost_count": 120
+        },
+        "text": "Cyber team wants your feedback on Daybreak. Models, codex plugins, blue/red access, documentation, red teaming &amp; defense factory... What can we do better or improve?",
+        "url": "https://x.com/thsottiaux/status/2121845965997101118"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2121766780339126272"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2121767000963756381",
+        "created_at": "2026-11-15T00:47:28.000Z",
+        "edit_history_post_ids": [
+          "2121767000963756381"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/G6EICQXRLk",
+              "end": 206,
+              "expanded_url": "https://x.com/testingcatalog/status/2121767000963756381/photo/1",
+              "media_key": "3_2121766780339126272",
+              "start": 183,
+              "url": "https://t.co/G6EICQXRLk"
+            }
+          ]
+        },
+        "id": "2121767000963756381",
+        "public_metrics": {
+          "bookmark_count": 51,
+          "impression_count": 22092,
+          "like_count": 409,
+          "quote_count": 4,
+          "reply_count": 54,
+          "repost_count": 17
+        },
+        "text": "GOOGLE 🔥: An upcoming \"Comic\" artifact configuration page on Gemini Notebook received a slight update that makes style examples visible. \n\nIt should be a good time for the NB3 drop 👀 https://t.co/G6EICQXRLk",
+        "url": "https://x.com/testingcatalog/status/2121767000963756381"
+      },
+      {
+        "author_id": "17862108",
+        "conversation_id": "2121821420137423101",
+        "created_at": "2026-11-15T04:23:42.000Z",
+        "edit_history_post_ids": [
+          "2121821420137423101"
+        ],
+        "id": "2121821420137423101",
+        "public_metrics": {
+          "bookmark_count": 749,
+          "impression_count": 417723,
+          "like_count": 2332,
+          "quote_count": 18,
+          "reply_count": 158,
+          "repost_count": 174
+        },
+        "text": "In my opinion... we have achieved AGI.\n\nWithout a shadow of a doubt.\n\nThe combination of Grok Bot + Opus/Fable + Argon is a do-anything digital stack.\n\nWhatever Fable/Opus suck at, Argon is an incredible filler. And vice-versa. Grok Bot orchestrates them all.\n\nOverpowered.",
+        "url": "https://x.com/farzyness/status/2121821420137423101"
+      },
+      {
+        "author_id": "15958614",
+        "conversation_id": "2121982333238612094",
+        "created_at": "2026-11-15T15:03:07.000Z",
+        "edit_history_post_ids": [
+          "2121982333238612094"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "Also: A look at the race to bring Face ID to the iPhone Duo.",
+              "display_url": "bloomberg.com/news/newslette…",
+              "end": 279,
+              "expanded_url": "https://www.bloomberg.com/news/newsletters/2026-11-15/apple-siri-ai-app-integrations-power-smart-glasses-iphone-duo-2-face-id-plan?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDc1NDk0MiwiZXhwIjoxNzk1MzU5NzQyLCJhcnRpY2xlSWQiOiJUT0pUTzFLSVVQU0IwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.JxizrLMB_4yO_RhcaLRgamHBB02Qjf92voFxp6xtjaI",
+              "images": [
+                {
+                  "height": 800,
+                  "url": "https://pbs.twimg.com/news_img/2121982333775392768/Ut57o5F6?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2121982333775392768/Ut57o5F6?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 256,
+              "status": 200,
+              "title": "Apple Bets on Siri AI Apps as the Main Draw for Its Smart Glasses",
+              "unwound_url": "https://www.bloomberg.com/news/newsletters/2026-11-15/apple-siri-ai-app-integrations-power-smart-glasses-iphone-duo-2-face-id-plan?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDc1NDk0MiwiZXhwIjoxNzk1MzU5NzQyLCJhcnRpY2xlSWQiOiJUT0pUTzFLSVVQU0IwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.JxizrLMB_4yO_RhcaLRgamHBB02Qjf92voFxp6xtjaI",
+              "url": "https://t.co/IICOYVAowd"
+            }
+          ]
+        },
+        "id": "2121982333238612094",
+        "public_metrics": {
+          "bookmark_count": 95,
+          "impression_count": 164997,
+          "like_count": 842,
+          "quote_count": 50,
+          "reply_count": 166,
+          "repost_count": 63
+        },
+        "text": "NEW Power On: Apple’s next big product — smart glasses planned next year — will offer Siri AI app integrations as its flagship feature. The idea: Book an Uber, reserve a table or order a coffee from your Apple Glasses — with apps running on paired iPhone. https://t.co/IICOYVAowd",
+        "url": "https://x.com/markgurman/status/2121982333238612094"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2121373287884419073"
+          ]
+        },
+        "author_id": "2024518793679294464",
+        "conversation_id": "2121375309287301360",
+        "created_at": "2026-11-13T22:51:01.000Z",
+        "edit_history_post_ids": [
+          "2121375309287301360"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/OQAvXKN1pc",
+              "end": 300,
+              "expanded_url": "https://x.com/ClaudeDevs/status/2121375309287301360/video/1",
+              "media_key": "13_2121373287884419073",
+              "start": 277,
+              "url": "https://t.co/OQAvXKN1pc"
+            }
+          ]
+        },
+        "id": "2121375309287301360",
+        "public_metrics": {
+          "bookmark_count": 8108,
+          "impression_count": 1608324,
+          "like_count": 18560,
+          "quote_count": 385,
+          "reply_count": 637,
+          "repost_count": 825
+        },
+        "text": "We've made some big updates to Projects in Claude Code!\n\nIn a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive. It answers your questions in the project chat and gives you updates on the status of your ongoing threads. https://t.co/OQAvXKN1pc",
+        "url": "https://x.com/ClaudeDevs/status/2121375309287301360"
+      }
+    ],
+    "includes": {
+      "media": [
+        {
+          "media_key": "3_2121951332731158528",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXKvfpobgAABTgV.jpg"
+        },
+        {
+          "media_key": "3_2122006921498464256",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXLiDV7WEAAXW29.jpg"
+        },
+        {
+          "media_key": "3_2122006921448235008",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXLiDVvXoAAWAS_.jpg"
+        },
+        {
+          "duration_ms": 18633,
+          "media_key": "13_2121373287884419073",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2121373287884419073/img/17Pt_3XFrYwjPgDH.jpg",
+          "type": "video",
+          "variants": [
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2121373287884419073/pl/o5fY7sQ9jf9w4sWb.m3u8?v=cfc"
+            },
+            {
+              "bit_rate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2121373287884419073/vid/avc1/1280x720/GY6jllfldGORT7qW.mp4"
+            },
+            {
+              "bit_rate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2121373287884419073/vid/avc1/480x270/MFENYBb4wnRKlIxf.mp4"
+            },
+            {
+              "bit_rate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2121373287884419073/vid/avc1/1920x1080/rUkftd_yGittV8xV.mp4"
+            },
+            {
+              "bit_rate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2121373287884419073/vid/avc1/640x360/4dr80QmOauW0Z9wB.mp4"
+            }
+          ]
+        },
+        {
+          "media_key": "3_2121990588698374144",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXLTMpgWsAAP551.jpg"
+        },
+        {
+          "media_key": "3_2121766780339126272",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXIHpSZWgAAGYt0.jpg"
+        }
+      ],
+      "posts": [
+        {
+          "author_id": "17862108",
+          "conversation_id": "2121821420137423101",
+          "created_at": "2026-11-15T04:23:42.000Z",
+          "edit_history_post_ids": [
+            "2121821420137423101"
+          ],
+          "id": "2121821420137423101",
+          "public_metrics": {
+            "bookmark_count": 749,
+            "impression_count": 417723,
+            "like_count": 2332,
+            "quote_count": 18,
+            "reply_count": 158,
+            "repost_count": 174
+          },
+          "text": "In my opinion... we have achieved AGI.\n\nWithout a shadow of a doubt.\n\nThe combination of Grok Bot + Opus/Fable + Argon is a do-anything digital stack.\n\nWhatever Fable/Opus suck at, Argon is an incredible filler. And vice-versa. Grok Bot orchestrates them all.\n\nOverpowered."
+        },
+        {
+          "author_id": "15958614",
+          "conversation_id": "2121982333238612094",
+          "created_at": "2026-11-15T15:03:07.000Z",
+          "edit_history_post_ids": [
+            "2121982333238612094"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "description": "Also: A look at the race to bring Face ID to the iPhone Duo.",
+                "display_url": "bloomberg.com/news/newslette…",
+                "end": 279,
+                "expanded_url": "https://www.bloomberg.com/news/newsletters/2026-11-15/apple-siri-ai-app-integrations-power-smart-glasses-iphone-duo-2-face-id-plan?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDc1NDk0MiwiZXhwIjoxNzk1MzU5NzQyLCJhcnRpY2xlSWQiOiJUT0pUTzFLSVVQU0IwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.JxizrLMB_4yO_RhcaLRgamHBB02Qjf92voFxp6xtjaI",
+                "images": [
+                  {
+                    "height": 800,
+                    "url": "https://pbs.twimg.com/news_img/2121982333775392768/Ut57o5F6?format=jpg&name=orig",
+                    "width": 1200
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2121982333775392768/Ut57o5F6?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 256,
+                "status": 200,
+                "title": "Apple Bets on Siri AI Apps as the Main Draw for Its Smart Glasses",
+                "unwound_url": "https://www.bloomberg.com/news/newsletters/2026-11-15/apple-siri-ai-app-integrations-power-smart-glasses-iphone-duo-2-face-id-plan?accessToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzb3VyY2UiOiJTdWJzY3JpYmVyR2lmdGVkQXJ0aWNsZSIsImlhdCI6MTc5NDc1NDk0MiwiZXhwIjoxNzk1MzU5NzQyLCJhcnRpY2xlSWQiOiJUT0pUTzFLSVVQU0IwMCIsImJjb25uZWN0SWQiOiJDNEVEQ0FFMUZBMDU0MEJFQTI0QTlGMjExQzFFOTA4MCJ9.JxizrLMB_4yO_RhcaLRgamHBB02Qjf92voFxp6xtjaI",
+                "url": "https://t.co/IICOYVAowd"
+              }
+            ]
+          },
+          "id": "2121982333238612094",
+          "public_metrics": {
+            "bookmark_count": 95,
+            "impression_count": 164997,
+            "like_count": 842,
+            "quote_count": 50,
+            "reply_count": 166,
+            "repost_count": 63
+          },
+          "text": "NEW Power On: Apple’s next big product — smart glasses planned next year — will offer Siri AI app integrations as its flagship feature. The idea: Book an Uber, reserve a table or order a coffee from your Apple Glasses — with apps running on paired iPhone. https://t.co/IICOYVAowd"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2121373287884419073"
+            ]
+          },
+          "author_id": "2024518793679294464",
+          "conversation_id": "2121375309287301360",
+          "created_at": "2026-11-13T22:51:01.000Z",
+          "edit_history_post_ids": [
+            "2121375309287301360"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/OQAvXKN1pc",
+                "end": 300,
+                "expanded_url": "https://x.com/ClaudeDevs/status/2121375309287301360/video/1",
+                "media_key": "13_2121373287884419073",
+                "start": 277,
+                "url": "https://t.co/OQAvXKN1pc"
+              }
+            ]
+          },
+          "id": "2121375309287301360",
+          "public_metrics": {
+            "bookmark_count": 8108,
+            "impression_count": 1608324,
+            "like_count": 18560,
+            "quote_count": 385,
+            "reply_count": 637,
+            "repost_count": 825
+          },
+          "text": "We've made some big updates to Projects in Claude Code!\n\nIn a project, Claude coordinates your tasks across parallel threads. The coordinator is now much more proactive. It answers your questions in the project chat and gives you updates on the status of your ongoing threads. https://t.co/OQAvXKN1pc"
+        }
+      ],
+      "users": [
+        {
+          "id": "1492195583699951620",
+          "name": "数字生命卡兹克",
+          "username": "Khazix0918"
+        },
+        {
+          "id": "1699797396589588480",
+          "name": "Max For AI",
+          "username": "MaxForAI"
+        },
+        {
+          "id": "3980735590",
+          "name": "🚨 AI News | TestingCatalog",
+          "username": "testingcatalog"
+        },
+        {
+          "id": "1953337039510003712",
+          "name": "Tibo",
+          "username": "thsottiaux"
+        },
+        {
+          "id": "17862108",
+          "name": "Farzad 🇺🇸 🇮🇷",
+          "username": "farzyness"
+        },
+        {
+          "id": "15958614",
+          "name": "Mark Gurman",
+          "username": "markgurman"
+        },
+        {
+          "id": "2024518793679294464",
+          "name": "ClaudeDevs",
+          "username": "ClaudeDevs"
+        }
+      ]
+    },
+    "meta": {
+      "result_count": 9
+    }
+  }
+}

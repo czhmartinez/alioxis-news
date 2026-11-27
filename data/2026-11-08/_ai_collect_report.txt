@@ -1,0 +1,81 @@
+Alioxis News AI新闻收集报告 — 2026-11-08（Asia/Taipei）
+============================================================
+完成时间：2026-11-08 08:17:45 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-08/
+产出：ai.json（15）、_cover_prompts_ai.json（15）、本报告；目录另有 _aihot_daily.json、_aihot_summary.txt、_aihot_clues.json、_prior_urls.json（2095 URL）
+
+一、条数与头条
+- 条数：15（目标 15–20，优先 18–20；周末稿源偏少，且 Mistral Studio 官网与 Grok 水印文档 URL 已在 prior，未重复收录，故落在下限）
+- Lead（#00）：美国家长起诉谷歌：诉状称女儿在学校 Chromebook 上与 Gemini 进行涉及轻生的长时间对话
+  URL：https://gizmodo.com/lawsuit-claims-students-google-ai-use-turned-into-life-threatening-obsession-2000835894
+  理由：AIHOT 11-08 lead；一手诉讼报道且与校园 AI 默认策略同周共振。Gizmodo 提供可公开全文，路透（Investing.com 转载）交叉发言人表态与移案时间。影响面大于同日基建/评测稿，作头条。摘要只写诉状指控与公司回应，不写具体方式。
+  备选：#01 Crusoe 出售怀俄明项目 / #02 BioBasicsBench / #04 Claude Code 密钥泄露
+
+二、与 v.json 交叉情况
+- 写盘后复查：同目录 v.json（13 条），硬 URL 去重 overlap=0
+- 软同题保留说明（本频道收硬新闻/一手源，大V拆解留给 v）：
+  · Hinton《卫报》访谈 — AI #12 theguardian.com；v 有 Max 转述与评论
+  · Arete-27B — AI #03 nousresearch.com 官方；v 的 TestingCatalog 11/7 简报亦提及
+  · Mistral Studio — 官方 URL 已在 prior，AI 频道未收；v 收 TestingCatalog 拆解
+  · Grok API 文本水印 — 官方文档 URL 已在 prior，AI 频道未收；v 简报提及「今日默认开启」
+  · DeepSeek V4 Pro 疑似灰度、淘宝端侧导购模型、Dots 代填 2FA、Claude Code 协作模式 — 无足够官方/主流媒体页，仅入 v
+
+三、AIHOT 使用情况
+- 已跑 node scripts/fetch-aihot-daily.js 2026-11-08，dated API 成功（date=2026-11-08，window 2026-11-07T00:00:00Z–2026-11-08T00:00:00Z），周末版极薄（1 条 section + 1 条 flash）
+- 采用并落到原文：
+  · 美国家长起诉谷歌 Gemini lead → #00 Gizmodo（+ 路透/Investing.com 交叉）
+- flashes 未采用：
+  · Anthropic 拟感恩节前 IPO、接受较低估值、募资 800–1000 亿美元（the-decoder.com）— 与 11-07 ai.json「Anthropic IPO 估值承压」软同题，跳过；Decoder 文有募资额与感恩节时间表等增量，但不重复立项
+- 未采用：无其他 AIHOT section 条目
+
+四、补充采用（非 AIHOT 主列表）
+  · Crusoe 出售怀俄明未完工项目 → #01 TechCrunch（+ Crusoe 官网确认 + 谷歌 11/5 博客交叉）
+  · OpenAI BioBasicsBench → #02 openai.com
+  · Nous Arete-27B → #03 nousresearch.com
+  · Apiiro / Claude Code settings.local.json 密钥 → #04 The Hacker News
+  · 获准采购 H200 的 New Matrix 空置办公点 → #05 The Verge（转述纽约时报；与昨日 H200 香港滞仓不是同一件事）
+  · DeepMind RSA-1024 密码分析 → #06 Interesting Engineering（转述 Kohli 社交披露；采集时未找到 DeepMind 官网长文）
+  · Palo Alto Networks 洽谈收购 Clutch → #07 TechCrunch（谈判未证实）
+  · 谷歌校园 Guided Learning + K-12 默认关闭 → #08 blog.google（11/3，昨日未收）
+  · Cosmos 3 四个新 16B 检查点 → #09 Hugging Face / NVIDIA 博客（11/5；区别于 5 月 Cosmos 3 基础模型发布）
+  · 司法部 Super Intelligence 特遣队 → #10 justice.gov
+  · MNN-Pocket-0.3B → #11 IT之家
+  · Hinton《卫报》访谈 → #12 The Guardian（11/3，昨日未收）
+  · 美情报备忘录称高管被招募监视黄仁勋 → #13 TechCrunch（11/7）
+  · 谷歌怀俄明 170 亿美元官方宣布（702MW 燃料电池等）→ #14 blog.google
+    说明：#01 与 #14 为同一园区的两个时间点/信息源（周五 Crusoe 确认退出 vs 周四谷歌投资细节），硬 URL 不同、侧重点不同；报告中标明以免被看成重复灌水
+
+五、去重
+- _prior_urls.json：2095 条；本日 15 条 URL 0 命中；内部 URL 无重复
+- 与 v.json：硬 URL overlap=0
+- 对照 11-07 ai.json：未再收 OpenAI 融资/估值、ERNIE-5.5-Flash-Base、Ling-3.2-flash、OpenRouter Auto/Auto Code、Muse spaces、Cursor Voice、Amp spaces、H200 香港滞仓、Anthropic IPO 估值承压、TeraWulf 租赁、Friar 数据中心、沙箱绕网、agent memory、welfare regard、Enterprise 安全中心、OpenClaw、Community Compact、文件名提示词注入、Planet AI App
+- 对照 11-06：未再收 GPT-6 Cyber / Inkling 2 Small / Gemini Omni 1.2 / Personal Finance / Muse 语音头像
+- 主动放弃（URL 已在 prior）：mistral.ai/news/build-with-studio/ 、 docs.x.ai/.../watermarking
+- published_at 均为 +08:00 ISO；美西/美东媒体按原文时间换算台北（PST=UTC-8，EST=UTC-5，已过夏令时）
+- source 为字符串；image 为 /assets/covers/cover-20261108-ai-NN.jpg（00–14），与 _cover_prompts_ai.json 一一对应
+
+六、核实手段摘要
+00 Gizmodo WebFetch + 路透/Investing.com WebFetch 交叉；诉状 PDF 检索辅助（未把 PDF 当条目 URL）
+01 TechCrunch WebFetch + Crusoe 官网 WebFetch + 谷歌怀俄明博客 WebFetch
+02 openai.com WebFetch
+03 nousresearch.com WebFetch（官方仅标注 November 2026，published_at 取 11-07 中午作为月内可见日）
+04 The Hacker News WebFetch
+05 The Verge WebFetch（稿件偏短，主要转述时报）
+06 Interesting Engineering WebFetch；DeepMind 官网检索未找到对应长文
+07 TechCrunch WebFetch
+08 blog.google 教育博文 WebFetch
+09 huggingface.co/blog/nvidia/... WebFetch；NVIDIA 5 月 developer blog 已核对、未误用旧发布日
+10 justice.gov 新闻稿 WebFetch
+11 IT之家 WebFetch
+12 The Guardian WebFetch
+13 TechCrunch WebFetch
+14 blog.google 怀俄明投资博文 WebFetch
+
+七、缺口与说明
+- 未生成封面、未 build、未发布（按任务范围）
+- 周末 AIHOT 仅 2 条线索；为凑满 15 条补充了 11/3–11/7 且昨日未收的一手稿
+- #06 无 DeepMind 官网原文，数字均为 Interesting Engineering 对 Kohli 社交披露的转述
+- #07、#13 含未证实谈判/情报备忘录，摘要已标明
+- #01 与 #14 同园区、不同源，若后续觉得过近可在编辑阶段合并
+- Remix 未见 OpenAI 帮助中心/发布说明点名，未单独立条（仅出现在 v 简报）
+- 写盘时完成硬/软去重检查

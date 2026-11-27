@@ -1,0 +1,82 @@
+[
+  {
+    "file": "cover-20261021-ai-00.jpg",
+    "prompt": "Cinematic semi-realistic scene inside a dim inference data hall: a stylized blue whale silhouette made of flowing fiber-optic light swims between two server racks, one rack with sleek dark GPU blades and the other with red-accented NPU modules, an engineer's hand lifting the open glass front door of a rack as if releasing the whale, glowing token-like light droplets trailing behind it, cool cyan and deep navy palette with warm amber status LEDs, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-01.jpg",
+    "prompt": "Photojournalistic close-up of a thick bound IPO prospectus lying on a mahogany boardroom table beside a nearly empty glass of water, a window behind showing three distant hyperscale data center campuses at dusk with cooling towers venting steam, warm terracotta and cream Anthropic-like tones in the room contrasted with cold blue light outside, tense quiet late-evening mood, shallow depth of field, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-02.jpg",
+    "prompt": "News photography style shot of a Manhattan investment bank trading floor at early morning, analysts leaning toward a large screen showing an abstract steeply rising curve glowing green, a sealed courier envelope with a wax seal on a desk in the foreground, a second desk across the aisle conspicuously empty with a reserved card, sense of a race against the clock, crisp natural window light, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-03.jpg",
+    "prompt": "Realistic product photography of a Google TPU liquid-cooled accelerator board resting on an anti-static mat, a small flame-orange PyTorch-style torch sculpture placed on top of the chip heatsink emitting a soft glow, a disconnected graphics card lying slightly out of focus in the background, studio lighting with clean white and Google blue accents, macro detail on copper cooling pipes, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-04.jpg",
+    "prompt": "Semi-realistic scene of a busy European call center headset resting on a desk in a Paris office at golden hour, translucent sound waves rising from the microphone and morphing into speech bubbles of many different colors and flag-like patterns (no words), a smartphone beside it showing an incoming call animation, small orange Mistral-style pixel accents, warm cinematic lighting, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-05.jpg",
+    "prompt": "Documentary photograph of a crowded electronics distribution warehouse in Shenzhen, towering stacks of identical black workstation graphics card boxes wrapped in plastic on pallets, a forklift driver pausing in the aisle, a single open box revealing a professional GPU card with a green accent stripe, humid fluorescent light, sense of scarcity and overwhelming demand, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-06.jpg",
+    "prompt": "Photojournalistic scene on the steps of the US Capitol on an overcast morning, a lobbyist in a dark coat carrying a slim leather folder of draft legislation, in the foreground a judge's wooden gavel resting on a closed AI server panel as a symbolic still-life on a stone ledge, muted grey and marble tones, serious policy mood, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-07.jpg",
+    "prompt": "Moody cybersecurity documentary scene: a researcher's dark home office with a wide monitor showing an abstract network graph of thousands of glowing nodes being pulled out of a DNS directory tree, sticky notes on the bezel, a cold cup of coffee, a smartphone face down showing a pastel gradient AI companion app glow leaking from under it, purple and teal light, sense of exposed private chats, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-08.jpg",
+    "prompt": "Wide cinematic photograph of a Starbase launch site at blue hour, a tall rocket on the pad in the background while in the foreground a newly built modular data center with glowing server windows and rows of power transformers sits beside the launch complex, a lone engineer walking between them, dramatic contrast between rocket steel and data center glow, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-09.jpg",
+    "prompt": "Realistic close-up robotics photography: a sleek white robotic arm with a soft multi-sensor gripper gently holding a single ripe red raspberry without crushing it, a blurred human hand reaching toward it in the background, faint translucent force-vector lines visualized around the fingertips, clean lab bench with bins of assorted small objects, soft diffused daylight, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-10.jpg",
+    "prompt": "Semi-realistic scene of a customer support agent workstation at night replaced by a minimalist elegant black studio microphone and two floating translucent waveform ribbons talking to each other in real time, one large and luminous, one smaller and quick, a vintage stopwatch on the desk frozen just past the half-second mark, deep black and warm white ElevenLabs-like monochrome aesthetic, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-11.jpg",
+    "prompt": "Scientific editorial illustration in realistic 3D: a translucent amber desert scorpion on sandstone, its tail toxin rendered as small glowing red protein ribbons, while tiny blue designed mini-protein ribbons latch onto them like puzzle pieces, a lab 96-well plate and pipette tips softly blurred in the background, warm desert light meets cool lab light, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-12.jpg",
+    "prompt": "Tense documentary-style scene in a windowless military cyber operations room, soldiers silhouetted in front of a wall display showing an abstract glowing worm-like chain of agent icons jumping between laptop, tablet and desktop silhouettes, one icon dissolving into sparks as it self-destructs, red alert lighting with deep olive drab tones, no faces visible, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-13.jpg",
+    "prompt": "Investigative still-life photograph: a smartphone showing a green messaging app help center page held under a UV blacklight, revealing hidden faint ghostly instruction lines between the paragraphs (illegible), a magnifying glass and a European data protection complaint form folded on the desk, dark investigative mood with violet glow, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-14.jpg",
+    "prompt": "Semi-realistic developer scene: a rusted orange iron crab (Rust mascot-like) carrying a glowing blue TypeScript-style brick across a bridge made of compiler gears, a stopwatch and a shrinking memory stick floating nearby, background of a cloud-shaped orange sky like Cloudflare, playful but polished 3D illustration with crisp lighting, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-15.jpg",
+    "prompt": "Realistic interior car photography at dusk: a driver's hand on the steering wheel, the dashboard infotainment screen showing a glowing Gemini-style four-point star icon above an abstract map route, a boarding pass and a printed photo of a car wash clipped to the sun visor, airport runway lights visible through the windshield, warm and personal mood, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-16.jpg",
+    "prompt": "Allegorical cinematic scene: three doorways in a long dark corridor, the first opening onto an international inspection hall with flags and inspectors in white coats, the second onto a single giant merged laboratory dome, the third glowing ominously red with melting GPU cards dripping like wax, a lone figure in a grey hoodie standing at the junction choosing, dramatic chiaroscuro lighting, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-17.jpg",
+    "prompt": "Warm semi-realistic scene outside a busy neighborhood ramen restaurant at evening, a smartphone held in a hand showing an AI voice call in progress animation, through the window a host at the counter answering a landline phone, a line of people waiting under paper lanterns, red Yelp-like accent color, cozy bokeh street lights, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-18.jpg",
+    "prompt": "Editorial photograph of a music streaming moderation scene: a giant conveyor belt of glossy vinyl records and cassette tapes, many of them glitchy and melting with generic AI-looking cover art being diverted into a recycling bin, while a few hand-painted records with human fingerprints continue toward a pair of headphones, green accent lighting, clean studio backdrop, 16:9, no readable text or numbers"
+  },
+  {
+    "file": "cover-20261021-ai-19.jpg",
+    "prompt": "Semi-realistic corporate scene of back-to-back meetings: a glass-walled meeting room with a laptop on the table where a blue soundwave rises from the speaker and transforms into a tidy floating checklist ribbon and a roadmap path, empty chairs still slightly turned as if people just left, a stack of cash-like coins on a growth fund ledger nearby, soft daylight blue tones, 16:9, no readable text or numbers"
+  }
+]

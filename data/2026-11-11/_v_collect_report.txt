@@ -1,0 +1,54 @@
+大V视野收集报告 — 2026-11-11（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-09T16:00:00Z（覆盖 11-10 全日 + 11-11 凌晨，Asia/Taipei），max_results=25，post.fields 含 note_post（schema 中 note_tweet 已改名为 note_post）、article
+- 分页：仅 TC 返回 next_token，翻第 2 页 result_count=22（11-10 00:00–18:00 帖，多数已在 11-10 收录）；其余账号无 next_token
+- 长文/截断补全：get_posts_by_ids 一批 43 个 id（含引用原帖展开）；小互 2119996014019187054（Dan Koe 解读主帖）返回 Not Found，跳过
+- 未使用浏览器；未使用 user-X（关注时间线）；用公开读取代替关注时间线
+
+原始拉取条数（exclude replies 后 API 返回，含自回复线程）：
+- @Khazix0918：3
+- @MaxForAI：16
+- @xiaohu：10
+- @thsottiaux：3
+- @testingcatalog：46（第 1 页 24 + 第 2 页 22）
+- @gengdaJ：7
+
+入选 v.json：17 条
+各 handle 入选计数：{'@Khazix0918': 0, '@MaxForAI': 2, '@xiaohu': 2, '@thsottiaux': 0, '@testingcatalog': 12, '@gengdaJ': 1}
+- @Khazix0918：0（窗口内 3 帖：Fable 5.2 长文与庆生视频短帖已在 11-10 收录/合并；另 1 条为其公司虚实传媒招聘帖，非 AI 资讯，跳过）
+- @MaxForAI：2
+- @xiaohu：2
+- @thsottiaux：0（3 帖均为转发评论，内容并入 Dot 多电脑、Claude 交互式连接器、ChatGPT Businesses 三条）
+- @testingcatalog：12
+- @gengdaJ：1
+
+Lead：Gemini 4 Carbon 当日落地：先现身 GCP SKU 与 Vertex，再官宣面向 Ultra 订阅与 API，主打长程 Agent 编码与 1M 输出上限
+URL：https://x.com/testingcatalog/status/2120179620431462684
+（理由：当日最大模型发布，AIHOT 11-11 头条同题；卡兹克窗口内无新 AI 帖，Max 对 Carbon 的 3 条反应帖信息量低，故以 TC 为 URL、Max 观点并入）
+
+合并/跳过说明：
+- 合并：Gemini 4 Carbon —— TC 2120179620431462684（GCP/Agent Studio 上线）+ 2120186956642468232（官宣 Ultra/API）+ 2120164654999601381（Antigravity 三档）+ 2120158039051252077 / 2120159755834458153（AI Studio 需 Ultra）+ 2120070242856575060（GCP SKU）+ 2120050757647139146（今日发布预告）+ Max 2120054070941716622 / 2120078292489568754 / 2120179025524256792 → 一条
+- 合并：小互 Dot 多电脑（2119952645632987227 + 自回复 2119952648267010324）+ thsottiaux 2120021043876106429 + TC 2120078538036613553 → 一条（URL 用小互）
+- 合并：TC Claude Whiteboards/Sheets/Data（2120220122170159158）+ thsottiaux「Labs innovating together」（2120266880963473789，引用 @claudeai 交互式连接器）→ 一条
+- 合并：TC ChatGPT Businesses（2120234819980296288）+ thsottiaux「How many of you have a small business?」（2120267268517249036，引用 @OpenAI）→ 一条
+- 合并：TC Fish Audio Live 3（2120229032335651270 + 自回复）+ Mitra MCP（2120215466815684887 + 自回复）→「电话 Agent」一条
+- 合并：gengdaJ TikTok/Hypit 复刻广告（2120033719235076142）+ 成本清单（2120172421789716790 + 开源地址自回复 2120172426432798723）→ 一条
+- 合并：TC Grok 4.8 软发布（2120103753173078088）+ 简报更正自回复（2120104412219687352）
+- 跳过已收录/已合并 URL（11-10 v.json）：卡兹克 Fable 5.2 长文（2119941585538572390）与庆生视频短帖（2119902325460590834，已并入）；Max Fable 5.2 发布（2119870115508531336）、RoboDojo（2119914321455296598）、前 Optimus 研究员（2119915277009977814，已并入）、Chromatic 掌机（2119869507972092204）、姚顺宇 Gemini 代号（2119832597857706313）；小互 Fable 重置（2119924261058216397，已并入）；TC 第 2 页 11-10 早间帖（Fable/Mythos 官宣、Bedrock、订阅 50%、Muse Ember/GCP、Emma、Archgen、ClickUp、Maps Studio、Grok Bot 重置等）
+- 跳过内容重复：小互 Fable 5.2 发布（2119955718887579701）、Fable 5.2 音乐视频（2119970351044264076）、Codex 掌机（2119947064356503658）；gengdaJ Fable 5.2 + Claude Code 国内上手教程更新（2120160906470662304，Fable 已多次收录、帖内仅为教程链接）
+- 跳过非 AI / 低信息量：卡兹克招聘帖（2120115253304586652）；小互 X 视频切片（2120143754384625860）；Max「Muse 两个…」梗图、「Claude：666」截图梗、X 社区批注、黄仁勋女儿拍照八卦（2119829441149055319）；小互 Dan Koe 解读自回复（主帖 Not Found）；gengdaJ 纯链接/转推（2120174561811743227、2120056120568127914、RT 2119952730513183008）
+- 控制 TC 占比未收：TC Hedra Model Factory（2120243411898761656）、Memories Upload 机器人第一视角数据（2120183476766781585）、Kylon 多 Agent 协作（2120066614469013801）、Daily AI Brief 邮件订阅
+- 传闻/观察标注：Antigravity Agent Swarm（开发中）、Gemini 4 Hydrogen 与简报模型预测（推测）、Stripe×OpenRouter「Token 将成货币」与 OpenAI×Odessia 消费场景（观点/推测）；The Information 英伟达芯片渠道报道明确标注「待证实」，未证实黄仁勋本人知情；Fish Audio <200ms、Gemini Robotics 2.5 96%、Epic「一周 Agent 做出 UE 5.9」为厂商自述；Max PCB 帖为个人实测展示
+
+与 ai.json 软同题（硬 URL 不同）：
+- 收尾时 data/2026-11-11/ai.json 已由主流程生成（20 条），硬 URL 比对 0 重复
+- 软同题（不同 URL，大V视野侧为 X 帖观点/追踪视角）：Gemini 4 Carbon（ai: deepmind.google 博客）、Anthropic IPO 路演（ai: anthropic.com/news/roadshow-launch）、Claude Sheets/Whiteboards/Data（ai: claude.com 博客）、MiniMax H3-Image（ai: minimax.io）、Stripe 收购 OpenRouter（ai: x.com/OpenRouter 帖）、ChatGPT Businesses（ai: TechCrunch Business Hub）、TC 简报中 GR00T 2（ai: NVIDIA 博客）；建议 build 前由主流程决定是否在大V视野中下沉/删减这几条
+- 与 11-10 ai.json 软关联：Anthropic IPO（WSJ 纳斯达克 ANT）→ 本条为路演启动与发行结构跟进；黄仁勋风波/游说受挫 → 本条为 The Information 芯片渠道新增报道；Anthropic 端到端设计电路板 → Max PCB 条为社区反应
+
+备份：_v_raw_mcp.json（元信息 + 6 账号原始帖子 + TC 第 2 页）、_v_raw_fulltexts.json（42 条全文 + 25 条引用原帖）
+封面提示词：_cover_prompts_v.json（17 条，cover-20261111-v-00 ～ 16）
+未生成封面、未 build、未发布。
+
+完成时间：2026-11-11 08:12:56 Asia/Taipei

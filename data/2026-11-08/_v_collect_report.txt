@@ -1,0 +1,45 @@
+大V视野收集报告 — 2026-11-08（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-06T16:00:00Z（约覆盖 11-07 全日 + 11-08 早，Asia/Taipei），max_results=25
+- 分页：各账号 meta 均无 next_token，未翻页；@testingcatalog 本窗 15 条
+- 长文/截断补全：get_posts_by_ids 一批 12 个 id（卡兹克、TC Daily Brief / Mistral / Slack / Dots、Tibo poteto、gengdaJ、小互、Max 淘宝等）
+- 未使用浏览器；未使用 user-X（关注时间线）；用公开读取代替关注时间线
+
+原始拉取条数（exclude replies 后 API 返回）：
+- @Khazix0918：1
+- @MaxForAI：10
+- @xiaohu：3
+- @thsottiaux：5（含自回复/引用节点）
+- @testingcatalog：15
+- @gengdaJ：1
+
+入选 v.json：13 条
+各 handle 入选计数：{'@Khazix0918': 1, '@MaxForAI': 5, '@xiaohu': 1, '@testingcatalog': 5, '@gengdaJ': 1, '@thsottiaux': 0}
+- @Khazix0918：1
+- @MaxForAI：5
+- @xiaohu：1
+- @thsottiaux：0
+- @testingcatalog：5
+- @gengdaJ：1
+
+Lead：卡兹克：AIHOT 重置监控升级——兼盯 Codex 代言人 Andrew，并接入 Antigravity 与 Claude
+URL：https://x.com/Khazix0918/status/2119083614382219734
+
+合并/跳过说明：
+- 合并：小互 Grok Bot 指南主帖 + 局限补充回复 → 一条（URL 用主帖）；Max 辛顿主帖 + 原链接回复 → 一条（URL 用主帖）；TC Claude Code Projects 协作主帖 + 项目概览回复 + Duet 邀请/组织合并回复 → 一条（URL 用主帖）
+- 跳过梗图/气氛短帖：Max「海外扫身份证做 KYC」、引用 Nikita Bier「谢谢您，国会女议员」；Tibo「It's Friday」「Get me out of the basement」（链接 poteto.com 为地下室/屋顶重置梗站）、「Quite cool what you can do with a single prompt」、引用 Cyber 短帖
+- 跳过非 AI / 弱增量：Max「B站居然开始搞 Polymarket」；Max DeepSeek 服务中断短帖（并入 V4 Pro 灰度条作背景）；小互「绝对疯狂」仅引用 Vork 引擎、无实质评述
+- 跳过昨日已收录 URL：TC Claude 云端自摸依赖（2118844509346005399）、Muse Spaces、Muse Wonder、Nace/Drex，以及 Tibo Cyber at the Frontier 直播（2118802895604994463，已在 11-07 v.json）
+- 跳过昨日窗口内但昨日未选、增量仍弱的条目：TC Claude iOS 侧栏改版、Maket Text to Furniture
+- 传闻/观察标注：Max DeepSeek「疑似灰度」与 LobeBench 私有分；淘宝本地模型来自网友排查+论文对照、非官方确认；TC Dots/Slack/协作模式均为产品观察；简报自注用 Grok 起草
+
+与 ai.json 软同题（硬 URL 不同）：
+- Hinton《卫报》— v 收 Max 评论；AI 收 Guardian 原文
+- Arete-27B / Remix / Grok 水印 — 出现在 TC 11/7 简报；Arete 另有 AI 官方条；Remix 无官方页未进 AI；水印官方文档 URL 已在 prior
+
+备份：_v_raw_mcp.json（元信息）、_v_raw_testingcatalog_p1.txt、_v_raw_fulltexts.json
+未生成封面、未 build、未发布。
+
+完成时间：2026-11-08 08:17:45 Asia/Taipei

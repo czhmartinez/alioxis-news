@@ -1,0 +1,241 @@
+[
+  {
+    "title": "卡兹克长文：折腾一年，毫无保留分享我的 Agent 自动化系统——事件中台派活、本地双 Mac 执行、自建 CI 五步上线、飞书「批奏折」",
+    "summary": "受 DeepSeek《Super-agent 设计探索》中「人只能同时盯 3–5 个会话」启发，卡兹克用朱元璋废相后一天批 400 多件事作比，系统拆解自己近一年的 Agent 体系：①自动化中台——定时任务与 Webhook 统一成短事件格式，按 rules.json 决定叫醒哪个 Agent/模型/推理深度，Mac 端长轮询接单不暴露公网，并统一去重、留痕；②执行层按模型分工——Claude Opus 5.5 主力开发，GPT-6.1 Sol 运维修 Bug，GPT-6.1 Terra 操控浏览器抓数据，每个任务配专属 Skill；③在旧 M4 Mac mini 自建 CI 中台，替代额度不够的 GitHub CI，流程为 Codex 只读审查（最多 3 轮）→检查→自动合并→发布→线上核实，两周审 298 个 PR、报 333 条问题、修掉 306 条，中位两三分钟上线；④只有删数据、停服、花钱、改权限等才推飞书卡片让他拍板，已定和已拒的事分别存档不再重复询问。他同时感慨：一年前还是不懂开发的设计师，如今 AIHOT 开源拿到约 9000 star。",
+    "url": "https://x.com/Khazix0918/status/2117054043868860521",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-02T08:39:51+08:00",
+    "tags": [
+      "Agent 自动化",
+      "AIHOT",
+      "CI",
+      "Claude Opus 5.5",
+      "GPT-6.1",
+      "飞书",
+      "长文"
+    ],
+    "image": "/assets/covers/cover-20261103-v-00.jpg"
+  },
+  {
+    "title": "Max：本周或迎一波中国新模型——混元 HY4 正式版、DeepSeek V4.1-Pro、Kimi K3.1 新版本、LongCat 2.5 正式版、Qwen4",
+    "summary": "Max 发出周末忘发的预告草稿，称本周可能看到：腾讯混元 HY4 正式版（较 Preview 明显提升，「坐到大人那桌」）；DeepSeek 新模型 V4.1-Pro（流程无意外则本周见）；Kimi K3.1 的另一个版本（便宜、大碗、速度快）；美团 LongCat 2.5 正式版（纯国产卡训练）；以及性能无意外时发布的通义 Qwen4。他还表示智谱 Z.ai 新一代旗舰仍需时间。以上均为其预告，非官方确认。",
+    "url": "https://x.com/MaxForAI/status/2117156375293825036",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-02T15:26:29+08:00",
+    "tags": [
+      "中国模型",
+      "混元 HY4",
+      "DeepSeek V4.1-Pro",
+      "Kimi K3.1",
+      "Qwen4",
+      "预告"
+    ],
+    "image": "/assets/covers/cover-20261103-v-01.jpg"
+  },
+  {
+    "title": "小互解读 DeepSeek Harness Super-agent：Router 便宜模型只派活、Worker 强模型只干活，靠架构而非 Prompt 逼模型分工",
+    "summary": "小互拆解 DeepSeek Harness 团队公开的 Super-agent 设计：用户只与一个 Agent 对话，Router 用便宜快模型负责沟通派活（不给 Bash），Worker 各用最强模型专做一件事、日志不外泄；群消息先过代码规则，闲聊 0 token。实验中单会话+中立提示词 5 轮全由模型自己下场、零委派，强委派提示词仍有 1 轮自己干，p95 拖到 29 分钟，Super-agent 为 15.7 分钟；代价是每轮 23.2M token（单会话方案 6.1M/10.8M）。PR 后续消息直通 Worker 可省 37% token，事件越密单次决策越快（6.4s→1.6s）。他提醒最大风险是常驻读公开群聊与外部 PR、又连着开发机，可能被 Prompt 注入接管；并在自回复注明实验为合成负载、公开的只是部分实现的原型，非 DeepSeek 官方产品。",
+    "url": "https://x.com/xiaohu/status/2117252023754326117",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-02T21:46:33+08:00",
+    "tags": [
+      "DeepSeek Harness",
+      "Super-agent",
+      "多 Agent",
+      "Router/Worker",
+      "Prompt 注入"
+    ],
+    "image": "/assets/covers/cover-20261103-v-02.jpg"
+  },
+  {
+    "title": "TestingCatalog：Nace AI 推出金融专用决策模型 Drex for Finance——48 个未训练金融基准准确率 85.7%，GPT-6 Luna 为 70.9%",
+    "summary": "TestingCatalog 报道，Nace AI 发布面向亚秒级金融决策的多模态决策模型 Drex for Finance，可读取文档或交易日志，在给定选项中为每个答案输出概率，用于判断刷卡是否欺诈、阅读公司申报文件、制裁名单筛查等。在 48 个未纳入训练的金融基准、3361 个决策上准确率 85.7%，对比 GPT-6 Luna 70.9%、前代 Drex Max v1.1 为 77.7%；官方称 Finance Index 77.3。模型仅在 Nace Console 提供。",
+    "url": "https://x.com/testingcatalog/status/2117324639563141209",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-03T02:35:06+08:00",
+    "tags": [
+      "Nace AI",
+      "Drex for Finance",
+      "金融风控",
+      "决策模型"
+    ],
+    "image": "/assets/covers/cover-20261103-v-03.jpg"
+  },
+  {
+    "title": "Max：腾讯混元多模态 RL 负责人庞天宇被曝离职——去向说法不一，或创业或加入其他大厂",
+    "summary": "Max 援引多个消息来源称，腾讯混元多模态强化学习负责人、首席研究科学家庞天宇已离职，有说法称其去创业，也有说法称已加入其他大厂，暂无官方确认。帖中介绍其背景：1995 年生，清华数理基科班本科、计算机系博士（导师朱军），曾任新加坡 Sea AI Lab 高级研究科学家，今年 1 月 30 日加入腾讯，并开源多模态深度搜索智能体方案 OpenSearch-VL3。",
+    "url": "https://x.com/MaxForAI/status/2117161132041601248",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-02T15:45:23+08:00",
+    "tags": [
+      "腾讯混元",
+      "人才流动",
+      "多模态 RL",
+      "传闻"
+    ],
+    "image": "/assets/covers/cover-20261103-v-04.jpg"
+  },
+  {
+    "title": "小互转读 Claude Code 团队建议：你可能给 Claude 写了太多提示词——Opus 5.5 时代该删什么、该讲清什么",
+    "summary": "小互整理 Addy Osmani 的文章《You're probably overprompting Claude》：对 Opus 5.5 给一个清晰目标和自我验证方式即可，先用 /effort medium；不清楚需求就让 Claude 先访谈你写出 spec 再新开会话实现；长任务可用 /goal 让另一模型每轮检查完成条件。文章称对 Claude Opus 5 / Fable 5 删掉 80% 以上 Claude Code 系统提示词，编码评测无可测下降；/doctor prompt-audit 可标出为旧模型写的指令。子代理只在大型独立工作时再要求，小活反而增加成本与延迟；合上电脑可用 cloud session，多会话可交给 Projects（Pro/Max 公测）统一管理。",
+    "url": "https://x.com/xiaohu/status/2117077218228891742",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-02T10:11:56+08:00",
+    "tags": [
+      "Claude Code",
+      "提示词",
+      "Opus 5.5",
+      "子代理",
+      "最佳实践"
+    ],
+    "image": "/assets/covers/cover-20261103-v-05.jpg"
+  },
+  {
+    "title": "逸尘实测王赞开源 Phone Agent「Mika」：无障碍接口直接操控安卓 App，后台独立屏幕跑任务不打扰使用",
+    "summary": "逸尘实测开源项目 Mika（github.com/wangzan101/mika）：可接管手机操作微信读取聊天记录、发消息，抓取小红书、抖音的关注和评论区。他认为最大亮点是不再走 ADB+OCR，而是通过无障碍能力直接读取界面数据操作，速度更快，且在后台单独一块屏幕执行，不影响用户正常用手机。他设想的场景包括多平台社媒数据获取、结合自己的微信 Skill 做私域自动化运营、自动领券、跨 12306/携程/飞猪 制定旅行计划等。",
+    "url": "https://x.com/gengdaJ/status/2117160232539344993",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-11-02T15:41:49+08:00",
+    "tags": [
+      "Mika",
+      "Phone Agent",
+      "安卓",
+      "开源",
+      "自动化"
+    ],
+    "image": "/assets/covers/cover-20261103-v-06.jpg"
+  },
+  {
+    "title": "Tibo：OpenAI dots 将扩充底层前沿模型家族，接入 GPT-6 Astra 与 GPT-6.1 Terra，并按任务自动选模型",
+    "summary": "OpenAI 的 Tibo（@thsottiaux）对「resetters」用户预告，团队正在扩展驱动 dots 的前沿模型家族，包括 GPT-6 Astra 与 GPT-6.1 Terra，未来还会加入更多。他称 Terra 带来速度与更好的个性，有助于让 dots 覆盖更多人；在自回复中补充，dot 会为任务挑选最合适的模型，并在同一工作的不同部分调用不同模型。",
+    "url": "https://x.com/thsottiaux/status/2117283124833055196",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-02T23:50:08+08:00",
+    "tags": [
+      "OpenAI",
+      "dots",
+      "GPT-6 Astra",
+      "GPT-6.1 Terra",
+      "模型路由"
+    ],
+    "image": "/assets/covers/cover-20261103-v-07.jpg"
+  },
+  {
+    "title": "TestingCatalog：美团发布 LongCat-2.5——1.6T 总参、约 48B 激活的原生多模态 Agent 模型，已上 API",
+    "summary": "TestingCatalog 转述美团 LongCat 官方发布：LongCat-2.5 为原生多模态 Agent 模型，总参数 1.6T、激活约 48B（TC 帖写作 49B），面向长程 Agent 任务，强化视觉理解与 Agent 编码，覆盖复杂编码项目以及创意设计、3D 等视觉编码场景。TC 称其对比对象包括 GPT-5.5、GPT-5.6-Sol、Claude Opus 4.8 与 Claude Opus 5，目前已在 API 上提供。",
+    "url": "https://x.com/testingcatalog/status/2117285744548970683",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-03T00:00:33+08:00",
+    "tags": [
+      "美团",
+      "LongCat-2.5",
+      "多模态",
+      "MoE",
+      "Agent 模型"
+    ],
+    "image": "/assets/covers/cover-20261103-v-08.jpg"
+  },
+  {
+    "title": "Max：阿里副总裁陈宇森进李佳琦双 11 直播间「卖 Token」——现场发放 20 万亿 Token，主打女性 AI 办公",
+    "summary": "Max 称，11 月 2 日晚 7 点半天猫双 11 李佳琦直播间上架「Token」并发放 20 万亿 Token，主题为《为所有女生的 AI 办公好搭子》，同时展示多款 AI 办公产品与 AI 硬件。阿里巴巴副总裁陈宇森（1992 年生，阿里最年轻副总裁）做客直播间；他今年 6 月接任钉钉 CEO，7 月起负责整合 QoderWork、悟空、MuleRun 三条 AI Agent 产品线而成的「千问办公」。",
+    "url": "https://x.com/MaxForAI/status/2117175557146443777",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-02T16:42:42+08:00",
+    "tags": [
+      "阿里巴巴",
+      "Token",
+      "双 11",
+      "千问办公",
+      "钉钉"
+    ],
+    "image": "/assets/covers/cover-20261103-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：Hume AI 推出音频原生 Decision API——直接「听」录音回答自定义问题，与听众群体平均判断吻合 70.7%",
+    "summary": "TestingCatalog 报道 Hume AI 发布 Audio Decision API：模型直接分析声音本身，能捕捉犹豫停顿、叹气等，用户可自定义问题与选项（是/否、多选、量表、时间戳），例如判断来电者是否沮丧、有几位说话人、有没有人在笑，并给出人类听众会如何作答的估计。官方称以 1000 万+ 人类判断训练，一次调用替代过去 10+ 个模型，支持实时或数小时录音；初测与评审小组平均答案吻合 70.7%，单个听众为 56.5%。API 目前开放候补名单。",
+    "url": "https://x.com/testingcatalog/status/2117312236993544277",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-03T01:45:49+08:00",
+    "tags": [
+      "Hume AI",
+      "语音理解",
+      "Decision API",
+      "情绪识别"
+    ],
+    "image": "/assets/covers/cover-20261103-v-10.jpg"
+  },
+  {
+    "title": "Max 转荐 LobeHub 产品负责人长文：Super-agent 不新鲜——并行、长程、异步让「任务」取代「对话」，Router→Worker 与存算分离已产品化",
+    "summary": "Max 转发 LobeHub 产品负责人关于 Super-agent 的长文。作者认为 DeepSeek 只是把已有思路整合成框架：用户心智从 Session 转向 Task 需满足并行、长程、异步三特征，长程任务必然推动 Agent 云端化与异步开始；LobeHub 4 月已上线类 Linear 的 Agent 任务看板。双层架构本质是用便宜快、智能达标的模型（如 DeepSeek Flash）接收聊天噪音、提取任务，再交给专业 Harness 与强模型隔离执行——其 Discord 中感知对话的 Agent 由 DeepSeek 驱动，代码活交给 Claude Code 驱动的「Dario」；跨设备切换执行环境的「存算分离」LobeHub 5 月已实现，并认为设备调度是 Agent Infra 方向。",
+    "url": "https://x.com/MaxForAI/status/2117185100798738487",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-02T17:20:38+08:00",
+    "tags": [
+      "LobeHub",
+      "Super-agent",
+      "Agent 产品",
+      "任务看板",
+      "存算分离"
+    ],
+    "image": "/assets/covers/cover-20261103-v-11.jpg"
+  },
+  {
+    "title": "逸尘：称 Linux 高危漏洞 CVE-2026-98432 波及公网 VPS，让 Codex 查出 5 台中招并修复，附 Agent 修复提示词",
+    "summary": "逸尘发帖提醒买过 VPS 的用户，称 Linux 存在高危漏洞 CVE-2026-98432，对公网开放端口的 VPS 均受影响，并转述「听别人说」攻击者可能无需密码或权限即可入侵（帖中未附官方公告，细节为其转述）。他让 Codex 检查后发现 5 台服务器受影响并已修复，在自回复中分享了一份给 Codex/任意 Agent 的修复提示词：先查发行版官方公告核实漏洞与修复版本、不跑来源不明的一键脚本，区分「未装补丁」与「已装未重启」，逐台处理并保留旧内核与回退材料，重启后验证内核与服务，不用 PoC 测生产机，并严格区分「存在漏洞」与「已被入侵」。",
+    "url": "https://x.com/gengdaJ/status/2117271075507839479",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-11-02T23:02:16+08:00",
+    "tags": [
+      "安全",
+      "Linux",
+      "CVE",
+      "Codex",
+      "运维 Agent"
+    ],
+    "image": "/assets/covers/cover-20261103-v-12.jpg"
+  },
+  {
+    "title": "TestingCatalog：DeepSeek Harness 推出 Creator Mode——把想法做成可复用插件，从设计工作台到沙盒游戏、3D LLM 可视化",
+    "summary": "TestingCatalog 提醒，DeepSeek 为 DeepSeek Harness 推出新的 Creator Mode，用户可创建可复用的插件（Plugins），覆盖游戏与专业工作等场景。DeepSeek Harness 官方帖以「Your Harness. You Define It.」为题，示例包括设计工作区、沙盒游戏和 3D LLM 可视化工具，并附约 100 秒演示视频。",
+    "url": "https://x.com/testingcatalog/status/2117381759063273755",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-03T06:22:05+08:00",
+    "tags": [
+      "DeepSeek Harness",
+      "Creator Mode",
+      "插件",
+      "Agent 平台"
+    ],
+    "image": "/assets/covers/cover-20261103-v-13.jpg"
+  },
+  {
+    "title": "TestingCatalog 11/2 简报新信号：GPT-6.2 Astra 现身 Codex 与 ChatGPT Work 用量统计，DeepSeek V4.1 Pro 进基准配置，SemiAnalysis GDPx 头名仅 12%",
+    "summary": "TestingCatalog 的 11 月 2 日 Daily AI Brief 除汇总此前已报道的 Gemini 4 Carbon、Antigravity、Claude Mythos 5.5 等消息外，带来几条新线索：据 StatsWire，GPT-6.2 Astra 出现在 Codex 与 ChatGPT Work 的用量分析中；据 LuminaBench，DeepSeek V4.1 Pro 已出现在基准测试配置里；SemiAnalysis 发布 Agent 基准 GDPx，最高分模型仅 12%。此外还提到美团 LongCat-2.5 仅 API 发布、DeepSeek 开源 dsh-superagent 研究原型。TC 注明简报由 Grok 辅助整理并经人工编辑。",
+    "url": "https://x.com/testingcatalog/status/2117189114927673487",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-02T17:36:35+08:00",
+    "tags": [
+      "日报",
+      "GPT-6.2 Astra",
+      "DeepSeek V4.1 Pro",
+      "GDPx",
+      "SemiAnalysis"
+    ],
+    "image": "/assets/covers/cover-20261103-v-14.jpg"
+  }
+]

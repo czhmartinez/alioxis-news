@@ -1,0 +1,24 @@
+AI新闻收集报告 · 2026-10-16（Asia/Taipei）
+
+条数：20（目标 20）
+Lead：Meta 开放 Muse Spark Open 权重：816B/42B 激活、1M 上下文，面向编码与智能体
+Lead URL：https://pytorch.org/blog/muse-spark-open/
+
+纳入（相对 AIHOT 改写独立卡，标题岔开）：
+- 模型：Muse Spark Open、Nemotron 3.5 Super VL/Bolt、FLUX 3 Image Klein、Step 5 Preview、Ling-3.1-flash、MAI-Base-2
+- 产品：ChatGPT Chrome computer use、Kling 4.0 GA、Krea 3@Comfy、Opus 5.5 fast mode、Code Review GA、SPACE 沙箱、Matrix-Game 4.0
+- 商业/安全/治理：Anthropic Q3/IPO、八州诉 OpenAI、Eiliko 玩具漏洞、METR 独立评估
+- 工程/评测：Meta Forum AI 原生工程、Google 智能体评测、Gemini Argon ARC-AGI 跟进分
+
+跳过：
+- @Khazix0918 Skill Anatomy（大V视野账号，禁作 AI新闻主源）
+- OpenRouter 转载 FLUX 3（与 BFL 原文重复，仅保留 BFL）
+- AIHOT 条目未整页照搬；标题与 AIHOT 措辞岔开以免 build 隐藏
+
+去重：
+- 对照 10-15 / 10-14 / 10-11 ai.json：无相同 URL
+- Gemini 4 Argon 全面开放已在 10-14 报道，本日仅收 ARC Prize 新分作为进展
+- 10-14 曾提 RTX Spark/Nemotron Bolt 预告，本日收 NVIDIA 正式 Super VL+Bolt 开源博客（不同 URL/角度）
+- Muse Wonder（10-14 闭源）与 Muse Spark Open（本日开源权重）主题相关但产品不同，保留
+
+核实：主要条目已 WebFetch/curl/X MCP 回原文；Perplexity SPACE 官网博客超时，改以 GitHub + CEO 推文 + Semafor 交叉确认。

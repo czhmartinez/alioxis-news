@@ -1,0 +1,55 @@
+大V视野收集报告 — 2026-11-10（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-08T16:00:00Z（约覆盖 11-09 全日 + 11-10 早，Asia/Taipei），max_results=25，post.fields 含 note_tweet
+- 分页：仅 TC 返回 next_token，翻第 2 页 result_count=0；其余账号无 next_token
+- 长文/截断补全：get_posts_by_ids 一批 29 个 id（post.fields note_tweet,article），含卡兹克两篇 X Article 全文（Fable 5.2 实测、Token 羊毛）
+- 未使用浏览器；未使用 user-X（关注时间线）；用公开读取代替关注时间线
+
+原始拉取条数（exclude replies 后 API 返回，含自回复线程）：
+- @Khazix0918：4
+- @MaxForAI：23
+- @xiaohu：17（其中 Seedream 5.5 测试线程自回复 9 条、Meta 自回复 1 条）
+- @thsottiaux：0
+- @testingcatalog：23
+- @gengdaJ：0
+
+入选 v.json：19 条
+各 handle 入选计数：{'@Khazix0918': 2, '@MaxForAI': 5, '@xiaohu': 2, '@thsottiaux': 0, '@testingcatalog': 10, '@gengdaJ': 0}
+- @Khazix0918：2
+- @MaxForAI：5
+- @xiaohu：2
+- @thsottiaux：0（窗口内无帖）
+- @testingcatalog：10
+- @gengdaJ：0（窗口内无帖）
+
+Lead：卡兹克长文实测 Claude Fable 5.2：一小时直出 ChatGPT 四周年致敬片、两个半小时建模苹果静安店，4 小时 10 个任务烧掉 24% Ultra 额度
+URL：https://x.com/Khazix0918/status/2119941585538572390
+
+合并/跳过说明：
+- 合并：卡兹克「Fable 5.2 给 ChatGPT 四周年做庆生视频」短帖（2119902325460590834）并入其长文头条
+- 合并：TC Fable/Mythos 5.2 官宣（2119868820466680062）+ AWS Bedrock 定价页曝光（2119864118945382448）→ 一条
+- 合并：TC 订阅 50% 额度至 11/16（2119930288130376050）+ Ultra 更新自回复（2119932901064400994）+ 小互重置次数截图（2119924261058216397）→ 一条（URL 用 TC）
+- 合并：Max RoboDojo 机器人能力（2119914321455296598）+ 前 Optimus 研究员加盟 Anthropic（2119915277009977814）→ 一条
+- 合并：小互 Seedream 5.5 测试线程（主帖 2119774478788141417 + 9 条自回复）+ TC Seedream 推送（2119759816092442956）→ 一条（URL 用小互）
+- 合并：TC Muse Ember（2119852955885297719）+ Muse 全系登陆 GCP（2119914321245577334）→ 一条
+- 合并：TC Grok Bot 周用量重置（2119894220748280190）+ 小互同题（2119690534432493778）→ 一条（URL 用 TC）
+- 合并：Max 文心公众号复更（2119717275247022506）+ 自回复 ERNIE Evolve 介绍（2119722031268978950）
+- 后续跟进：Max Chromatic 正式上架（2119869507972092204）为 11-09 已收录 TC 预告（2119525387688374726）的后续，内容新增 Codex 游戏开发工具链细节，单独收录
+- 跳过已收录 URL：卡兹克 GPT-6.2 Sol 审美测试（2119507514459144677）、TC Modretro 预告（2119525387688374726）
+- 跳过内容重复：小互一周大盘点（2119597464185671878，OpenAI 110 亿 / 数据中心投票 / DeepMind RSA 等均已在 11-07～11-09 收录）
+- 跳过非 AI / 八卦：Max 黄仁勋婚外情相关梗图与吐槽（约 8 条）、新华社 × 马斯克、社区批注、「顶级销售」「补仓」等梗；小互黄仁勋短剧段子
+- 跳过低信息量/偏题：小互 Mac mini + 笔记本远程开发（非 AI 主题）、TC X 新增 clipping 功能（非 AI）、TC Nace Drex Max 1.1（信息单薄，控制 TC 占比）、TC/小互各「Documented」「详细评测看这里」链接回复
+- 传闻/观察标注：Gemini 4 Hyperion/Krypton 代号（传闻）、OpenAI 隐身模型 Wyvern（传闻）、卡兹克「Anthropic 藏有 Fable 5.5」与 TC「升级小于预期」（推测）；卡兹克实测与额度消耗为个人体验；Emma 响应速度、Archgen 5000 倍等为厂商自述
+- 订阅细节：TC / 小互 / 卡兹克对 Fable 5.2 试用与重置的描述略有差异（50% 额度至 11/16；按订阅时长送 1–3 次重置；Pro 本周临时权限、重置有效期至 3/8），摘要已注明以官方为准；小互原帖误写「Claude Fable 2」
+
+与 ai.json 软同题（硬 URL 不同）：
+- 写本文件时 data/2026-11-10/ai.json 尚未生成，未做当日 AI 交叉比对；Fable 5.2 发布、Seedream 5.5、Muse Ember、TPU 8tx/8i Max 很可能同时出现在 AI 新闻，建议 build 前由主流程复核去重
+- TC 11/9 简报中 Dots 验证码、FT 燃气发电机、Gemini Enterprise agent、苹果加速 AI 已在 11-08/11-09 收录，摘要中说明不重复展开
+
+备份：_v_raw_mcp.json（元信息 + 原始帖子 + TC 第 2 页空结果）、_v_raw_fulltexts.json（29 条全文 + Article plain_text）
+封面提示词：_cover_prompts_v.json（19 条，cover-20261110-v-00 ～ 18）
+未生成封面、未 build、未发布。
+
+完成时间：2026-11-10 08:19:15 Asia/Taipei

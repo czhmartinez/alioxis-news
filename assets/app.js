@@ -1,353 +1,237 @@
 /**
- * Alioxis News — tabs, search, chips, mobile nav, mirror reveal
+ * Alioxis News — channels (streams + indexes), search/tag/author filters, digest view, theme, image fallback
  */
 (function () {
-  var VALID = {
-    ai: true,
-    v: true,
-    aihot: true,
-    weekly: true,
-    creators: true,
-    topics: true,
-    flash: true,
-  };
+  var VALID = { ai: 1, flash: 1, v: 1, digest: 1, topics: 1, creators: 1 };
+  var ALIAS = { aihot: ["digest", "daily"], weekly: ["digest", "weekly"] }; // legacy ?tab= values
+  var ITEM_SEL = ".story, .post, .letter-item, .wk-row, .topic-item, .person, .wire-row";
+  var $ = function (s, r) { return (r || document).querySelector(s); };
+  var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
 
-  var GROUPS = {
-    today: ["ai", "v", "aihot"],
-    review: ["weekly", "flash"],
-    explore: ["creators", "topics"],
-  };
-  var lastTab = {};
-
-  function groupOf(tab) {
-    for (var g in GROUPS) {
-      if (GROUPS[g].indexOf(tab) >= 0) return g;
-    }
-    return "today";
+  function currentTheme() {
+    var t = document.documentElement.getAttribute("data-theme");
+    if (t) return t;
+    return window.matchMedia && matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  }
+  function bindTheme() {
+    var btn = document.getElementById("theme-toggle");
+    if (!btn) return;
+    btn.addEventListener("click", function () {
+      var next = currentTheme() === "dark" ? "light" : "dark";
+      document.documentElement.setAttribute("data-theme", next);
+      try { localStorage.setItem("ainews-theme", next); } catch (e) {}
+    });
   }
 
-  var NO_TOOLBAR = { aihot: true, weekly: true, creators: true, topics: true, flash: true };
+  /* broken cover images collapse to a text-only layout */
+  function dropImage(im) {
+    var holder = im.closest(".story-media, .post-media, .letter-media");
+    var item = im.closest(".story");
+    if (holder) holder.remove();
+    if (item) item.classList.add("no-media");
+  }
+  function bindImages() {
+    document.addEventListener("error", function (ev) {
+      if (ev.target && ev.target.tagName === "IMG") dropImage(ev.target);
+    }, true);
+    $$("img").forEach(function (im) { if (im.complete && im.naturalWidth === 0) dropImage(im); });
+  }
 
-  function readTab() {
+  function setChanHeight() {
+    var c = $(".channels");
+    if (c) document.documentElement.style.setProperty("--chan-h", c.offsetHeight + "px");
+  }
+
+  /* routing: ?tab=…&view=daily|weekly */
+  function readRoute() {
+    var tab = "ai", view = "";
     try {
-      var q = new URLSearchParams(window.location.search).get("tab");
-      if (q && VALID[q]) return q;
+      var p = new URLSearchParams(location.search);
+      var q = p.get("tab");
+      view = p.get("view") || "";
+      if (q && ALIAS[q]) { tab = ALIAS[q][0]; view = view || ALIAS[q][1]; }
+      else if (q && VALID[q]) tab = q;
     } catch (e) {}
-    var h = (window.location.hash || "").replace(/^#/, "");
-    if (h && VALID[h]) return h;
-    return "ai";
+    if (tab === "ai") {
+      var h = (location.hash || "").replace(/^#/, "");
+      if (ALIAS[h]) { tab = ALIAS[h][0]; view = ALIAS[h][1]; } else if (VALID[h]) tab = h;
+    }
+    return { tab: tab, view: view === "weekly" ? "weekly" : view === "daily" ? "daily" : "" };
   }
-
-  function writeTab(tab, push) {
+  function writeRoute(tab, view, push) {
     try {
-      var url = new URL(window.location.href);
+      var url = new URL(location.href);
       url.searchParams.set("tab", tab);
+      if (tab === "digest" && view) url.searchParams.set("view", view); else url.searchParams.delete("view");
       url.hash = "";
-      if (push) history.pushState({ tab: tab }, "", url);
-      else history.replaceState({ tab: tab }, "", url);
-    } catch (e) {
-      try {
-        var base =
-          window.location.pathname +
-          window.location.search
-            .replace(/([?&])tab=[^&]*/g, "$1")
-            .replace(/[?&]$/, "");
-        var sep = base.indexOf("?") >= 0 ? "&" : "?";
-        var next = base + sep + "tab=" + tab;
-        if (push) history.pushState({ tab: tab }, "", next);
-        else history.replaceState({ tab: tab }, "", next);
-      } catch (e2) {}
-    }
+      history[push ? "pushState" : "replaceState"]({}, "", url);
+    } catch (e) {}
   }
 
-  function activePanel() {
-    return document.querySelector(".tab-panel.active");
-  }
-
-  function applyFilters() {
-    var panel = activePanel();
-    if (!panel) return;
-    var tab = panel.getAttribute("data-tab") || "";
-    if (NO_TOOLBAR[tab] && tab !== "flash" && tab !== "creators" && tab !== "weekly" && tab !== "topics") {
-      var countEl0 = document.getElementById("filter-count");
-      if (countEl0) countEl0.textContent = "";
-      return;
+  function heroCopy(tab, view, m) {
+    var d = m.dataset, idx = d.isIndex === "1", lbl = d.dateLabel || "";
+    if (tab === "digest") {
+      return view === "weekly"
+        ? ["简报 · 周报", "近七日回顾", "逐日回顾要闻与大V · " + (d.weeklyCount || 0) + " 天"]
+        : ["简报 · 日报", idx ? "卡兹克日报" : d.date + " 日报", lbl + (d.hasDaily === "1" ? " · AIHOT 结构化日报" : " · 本日无日报")];
     }
-    var qEl = document.getElementById("search-input");
-    var q = (qEl && qEl.value ? qEl.value : "").trim().toLowerCase();
-    var chip = document.querySelector(".filter-chip.active");
-    var tag = chip ? chip.getAttribute("data-tag") || "" : "";
-    var cards = panel.querySelectorAll(
-      ".card, .v-card, .aihot-card, .creator-card, .wk-lead, .wk-sublead, .wk-day, .topic-item, .wire-row"
-    );
-    var shown = 0;
-    cards.forEach(function (card) {
-      var hay = (card.getAttribute("data-search") || card.textContent || "").toLowerCase();
-      var tags = (card.getAttribute("data-tags") || "").toLowerCase();
-      var okQ = !q || hay.indexOf(q) >= 0;
-      var okT =
-        !tag ||
-        tag === "*" ||
-        ("|" + tags + "|").indexOf("|" + tag.toLowerCase() + "|") >= 0;
-      // tag chips only apply to ai/v magazine cards
-      if (tab !== "ai" && tab !== "v") okT = true;
-      var show = okQ && okT;
-      card.hidden = !show;
-      card.style.display = show ? "" : "none";
-      if (show) shown++;
-    });
-    panel.querySelectorAll(".wire-day").forEach(function (day) {
-      var any = day.querySelector(".wire-row:not([hidden])");
-      day.hidden = !any;
-    });
-    var topicsPanel = panel.querySelector(".topics-panel");
-    if (topicsPanel) topicsPanel.classList.toggle("is-searching", !!q);
-    var empty = document.querySelector(".filter-empty");
-    if (empty) empty.hidden = shown > 0 || cards.length === 0 || NO_TOOLBAR[tab];
-    var countEl = document.getElementById("filter-count");
-    if (countEl) {
-      countEl.textContent = cards.length ? "显示 " + shown + " / " + cards.length : "";
-    }
-  }
-
-  function heroCopy(tab, meta) {
-    var isIndex = meta.dataset.isIndex === "1";
-    var dateLabel = meta.dataset.dateLabel || "";
     var map = {
-      ai: {
-        eyebrow: isIndex ? "今日热点" : "历史归档",
-        title: isIndex ? "今日杂志" : meta.dataset.date + " 杂志",
-        sub: dateLabel + " · 共 " + (meta.dataset.aiCount || 0) + " 条",
-      },
-      v: {
-        eyebrow: "大V视野",
-        title: isIndex ? "关注流精选" : meta.dataset.date + " 关注流",
-        sub: dateLabel + " · 共 " + (meta.dataset.vCount || 0) + " 条",
-      },
-      aihot: {
-        eyebrow: "AIHOT 日报",
-        title: isIndex ? "卡兹克日报" : meta.dataset.date + " 日报",
-        sub:
-          dateLabel +
-          (Number(meta.dataset.aihotCount || 0)
-            ? " · AIHOT 结构化日报"
-            : " · 本日无 AIHOT 日报"),
-      },
-      weekly: {
-        eyebrow: "回顾 · 本周",
-        title: "本周长文",
-        sub: "头条加按日回顾 · " + (meta.dataset.weeklyCount || 0) + " 天",
-      },
-      flash: {
-        eyebrow: "回顾 · 快讯",
-        title: "快讯流",
-        sub: "近七日去重，按时间倒序 · " + (meta.dataset.flashCount || 0) + " 条",
-      },
-      creators: {
-        eyebrow: "发现 · 按人",
-        title: "创作者名片墙",
-        sub: "关注流作者与发帖节奏 · " + (meta.dataset.creatorsCount || 0) + " 位",
-      },
-      topics: {
-        eyebrow: "发现 · 按话题",
-        title: "话题地图",
-        sub: "近两周热度分布 · " + (meta.dataset.topicsCount || 0) + " 个话题",
-      },
+      ai: [idx ? "今日" : "历史归档", idx ? "今日 AI 要闻" : d.date + " 要闻", lbl + " · 共 " + (d.aiCount || 0) + " 条"],
+      flash: ["快讯", "快讯流", "近七日标题速览 · 按时间倒序 · " + (d.flashCount || 0) + " 条"],
+      v: ["大V视野", idx ? "今日发声" : d.date + " 发声", lbl + " · " + (d.vCount || 0) + " 条观点"],
+      topics: ["索引 · 专题", "按专题浏览", "近期标签聚合 · " + (d.topicsCount || 0) + " 个专题"],
+      creators: ["索引 · 人物", "作者名册", "关注流作者 · " + (d.creatorsCount || 0) + " 位"]
     };
     return map[tab] || map.ai;
   }
 
-  function applyTab(tab, opts) {
-    tab = VALID[tab] ? tab : "ai";
-    opts = opts || {};
-    var group = groupOf(tab);
-    lastTab[group] = tab;
-    document.body.setAttribute("data-channel", tab);
-    document.body.setAttribute("data-group", group);
-    document.querySelectorAll(".group-btn").forEach(function (btn) {
-      var on = btn.getAttribute("data-group") === group;
-      btn.classList.toggle("active", on);
-      btn.setAttribute("aria-selected", on ? "true" : "false");
+  function applyFilters() {
+    var panel = $(".tab-panel.active");
+    if (!panel) return;
+    var tab = panel.getAttribute("data-tab");
+    var q = (($("#search-input") || {}).value || "").trim().toLowerCase();
+    var chip = $(".filter-chip.active");
+    var tag = chip ? (chip.getAttribute("data-tag") || "*") : "*";
+    var tagged = tab === "ai" || tab === "v";
+    var au = tab === "v" ? $(".voice-author.active", panel) : null;
+    var author = au ? au.getAttribute("data-author") : "";
+    var items = $$(ITEM_SEL, panel), shown = 0;
+    items.forEach(function (el) {
+      var hay = (el.getAttribute("data-search") || el.textContent || "").toLowerCase();
+      var tags = "|" + (el.getAttribute("data-tags") || "").toLowerCase() + "|";
+      var ok = (!q || hay.indexOf(q) >= 0) &&
+        (!tagged || tag === "*" || tags.indexOf("|" + tag.toLowerCase() + "|") >= 0) &&
+        (!author || el.getAttribute("data-author") === author);
+      el.hidden = !ok;
+      if (ok) shown++;
     });
-    document.querySelectorAll(".tab-btn").forEach(function (btn) {
-      var on = btn.getAttribute("data-tab") === tab;
-      btn.classList.toggle("active", on);
-      btn.setAttribute("aria-selected", on ? "true" : "false");
-      btn.hidden = btn.getAttribute("data-group") !== group;
-    });
-    document.querySelectorAll(".tab-panel").forEach(function (panel) {
-      var on = panel.getAttribute("data-tab") === tab;
-      panel.hidden = !on;
-      panel.classList.toggle("active", on);
-    });
-    var heroTitle = document.getElementById("hero-title");
-    var heroSub = document.getElementById("hero-sub");
-    var heroEyebrow = document.getElementById("hero-eyebrow");
-    var meta = document.getElementById("day-meta");
-    if (meta) {
-      var copy = heroCopy(tab, meta);
-      if (heroEyebrow) heroEyebrow.textContent = copy.eyebrow;
-      if (heroTitle) heroTitle.textContent = copy.title;
-      if (heroSub) heroSub.textContent = copy.sub;
-    }
-    var toolbar = document.getElementById("reader-toolbar");
-    if (toolbar) {
-      var hideToolbar = !!NO_TOOLBAR[tab];
-      // keep a light search for flash/creators/topics/weekly
-      var searchOnly = tab === "flash" || tab === "creators" || tab === "weekly" || tab === "topics";
-      toolbar.hidden = hideToolbar && !searchOnly;
-      toolbar.classList.toggle("toolbar-search-only", searchOnly);
-      var chips = toolbar.querySelector(".filter-chips");
-      if (chips) chips.hidden = hideToolbar;
-      if (chips && (tab === "ai" || tab === "v")) {
-        chips.hidden = false;
-        var src =
-          tab === "v"
-            ? toolbar.getAttribute("data-v-tags") || ""
-            : toolbar.getAttribute("data-ai-tags") || "";
-        var cur = "";
-        var active = chips.querySelector(".filter-chip.active");
-        if (active) cur = active.getAttribute("data-tag") || "";
-        chips.innerHTML =
-          '<button type="button" class="filter-chip' +
-          (!cur || cur === "*" ? " active" : "") +
-          '" data-tag="*">全部</button>' +
-          src
-            .split("|")
-            .filter(Boolean)
-            .map(function (t) {
-              var on = cur === t ? " active" : "";
-              return (
-                '<button type="button" class="filter-chip' +
-                on +
-                '" data-tag="' +
-                t.replace(/"/g, "&quot;") +
-                '">' +
-                t +
-                "</button>"
-              );
-            })
-            .join("");
-      }
-    }
-    if (!opts.skipUrl) writeTab(tab, !!opts.push);
-    applyFilters();
-    revealMirrors();
+    var active = !!q || (tagged && tag !== "*") || !!author;
+    var front = $(".front", panel); if (front) front.classList.toggle("is-filtering", active);
+    var boards = $(".boards", panel); if (boards) boards.classList.toggle("is-filtering", !!q);
+    $$(".wire-day", panel).forEach(function (d) { d.hidden = !$$(".wire-row", d).some(function (r) { return !r.hidden; }); });
+    var empty = $(".filter-empty"); if (empty) empty.hidden = shown > 0 || items.length === 0;
+    var count = $("#filter-count"); if (count) count.textContent = items.length && active ? shown + " / " + items.length : "";
   }
 
-  function revealMirrors() {
-    var panel = activePanel();
-    if (!panel) return;
-    var nodes = panel.querySelectorAll(".mirror-card, .card, .v-card");
-    if (!nodes.length) return;
-    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      nodes.forEach(function (n) {
-        n.classList.add("is-inview");
-      });
-      return;
-    }
-    if (!("IntersectionObserver" in window)) {
-      nodes.forEach(function (n) {
-        n.classList.add("is-inview");
-      });
-      return;
-    }
-    var io = new IntersectionObserver(
-      function (entries) {
-        entries.forEach(function (en) {
-          if (en.isIntersecting) {
-            en.target.classList.add("is-inview");
-            io.unobserve(en.target);
-          }
-        });
-      },
-      { rootMargin: "0px 0px -8% 0px", threshold: 0.12 }
-    );
-    nodes.forEach(function (n) {
-      n.classList.remove("is-inview");
-      io.observe(n);
+  function renderChips(tab) {
+    var tb = $("#reader-toolbar"), chips = tb && $(".filter-chips", tb);
+    if (!chips) return;
+    var tagged = tab === "ai" || tab === "v";
+    chips.hidden = !tagged;
+    if (!tagged) return;
+    var src = tb.getAttribute(tab === "v" ? "data-v-tags" : "data-ai-tags") || "";
+    var html = '<button type="button" class="chip filter-chip active" data-tag="*">全部</button>';
+    src.split("|").filter(Boolean).forEach(function (t) {
+      var esc = t.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/"/g, "&quot;");
+      html += '<button type="button" class="chip filter-chip" data-tag="' + esc + '">' + esc + "</button>";
     });
+    chips.innerHTML = html;
+  }
+
+  var curView = "daily";
+  function applyView(view) {
+    curView = view === "weekly" ? "weekly" : "daily";
+    $$(".seg-btn").forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-view") === curView); });
+    $$(".digest-view").forEach(function (v) { v.hidden = v.getAttribute("data-view") !== curView; });
+  }
+
+  var lastTab = null, curTab = "ai";
+  function applyTab(tab, view, opts) {
+    tab = VALID[tab] ? tab : "ai";
+    opts = opts || {};
+    curTab = tab;
+    var meta = $("#day-meta");
+    if (tab === "digest") applyView(view || (meta && meta.dataset.hasDaily === "1" ? "daily" : "weekly"));
+    document.body.setAttribute("data-channel", tab);
+    $$(".tab-btn").forEach(function (b) {
+      var on = b.getAttribute("data-tab") === tab;
+      b.classList.toggle("active", on);
+      b.setAttribute("aria-selected", on ? "true" : "false");
+      if (on && opts.scrollNav !== false && b.scrollIntoView) { try { b.scrollIntoView({ block: "nearest", inline: "center" }); } catch (e) {} }
+    });
+    $$(".tab-panel").forEach(function (p) {
+      var on = p.getAttribute("data-tab") === tab;
+      p.hidden = !on;
+      p.classList.toggle("active", on);
+    });
+    if (meta) {
+      var c = heroCopy(tab, curView, meta);
+      $("#hero-eyebrow").textContent = c[0];
+      $("#hero-title").textContent = c[1];
+      $("#hero-sub").textContent = c[2];
+    }
+    var dn = $(".dedupe-note"); if (dn) dn.hidden = tab !== "ai";
+    var tb = $("#reader-toolbar"); if (tb) tb.hidden = tab === "digest";
+    if (lastTab !== tab) {
+      var s = $("#search-input"); if (s) s.value = "";
+      $$(".voice-author.active").forEach(function (b) { b.classList.remove("active"); });
+      renderChips(tab);
+    }
+    lastTab = tab;
+    if (!opts.skipUrl) writeRoute(tab, curView, !!opts.push);
+    applyFilters();
   }
 
   function bind() {
-    document.querySelectorAll(".group-btn").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        var g = btn.getAttribute("data-group");
-        applyTab(lastTab[g] || GROUPS[g][0], { push: true });
-      });
+    bindTheme();
+    bindImages();
+    setChanHeight();
+    window.addEventListener("resize", setChanHeight);
+    if (!$(".tab-panel")) return; // archive page
+
+    $$(".tab-btn").forEach(function (b) {
+      b.addEventListener("click", function () { applyTab(b.getAttribute("data-tab"), "", { push: true }); });
     });
-    document.querySelectorAll(".topic-tile").forEach(function (tile) {
-      tile.addEventListener("click", function () {
-        var id = tile.getAttribute("data-topic");
-        var root = tile.closest(".topics-panel");
-        if (!root) return;
-        root.querySelectorAll(".topic-tile").forEach(function (t) {
-          t.classList.toggle("is-active", t === tile);
-        });
-        root.querySelectorAll(".topic-board").forEach(function (b) {
-          b.classList.toggle("is-active", b.getAttribute("data-topic") === id);
-        });
-      });
-    });
-    document.querySelectorAll(".topics-panel").forEach(function (p) {
-      p.classList.add("is-enhanced");
-    });
-    document.querySelectorAll(".tab-btn").forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        applyTab(btn.getAttribute("data-tab"), { push: true });
-      });
-    });
-    document.querySelectorAll(".date-link").forEach(function (a) {
+    // switching days keeps the current module
+    $$(".date-link").forEach(function (a) {
       a.addEventListener("click", function (ev) {
-        var tab = readTab();
-        if (tab === "ai") return;
+        if (curTab === "ai") return;
         ev.preventDefault();
-        var href = a.getAttribute("href") || "";
-        try {
-          var url = new URL(href, window.location.href);
-          url.searchParams.set("tab", tab);
-          url.hash = "";
-          window.location.href = url.pathname + url.search;
-        } catch (e) {
-          var sep = href.indexOf("?") >= 0 ? "&" : "?";
-          window.location.href = href + sep + "tab=" + tab;
-        }
+        var url = new URL(a.getAttribute("href"), location.href);
+        url.searchParams.set("tab", curTab);
+        if (curTab === "digest") url.searchParams.set("view", curView);
+        location.href = url.pathname + url.search;
       });
     });
-    var search = document.getElementById("search-input");
-    if (search) {
-      search.addEventListener("input", applyFilters);
-      search.addEventListener("search", applyFilters);
-    }
-    var toolbar = document.getElementById("reader-toolbar");
-    if (toolbar) {
-      toolbar.addEventListener("click", function (ev) {
+    var search = $("#search-input");
+    if (search) { search.addEventListener("input", applyFilters); search.addEventListener("search", applyFilters); }
+    var tb = $("#reader-toolbar");
+    if (tb) {
+      tb.addEventListener("click", function (ev) {
         var btn = ev.target.closest(".filter-chip");
         if (!btn) return;
-        toolbar.querySelectorAll(".filter-chip").forEach(function (c) {
-          c.classList.toggle("active", c === btn);
-        });
+        $$(".filter-chip", tb).forEach(function (c) { c.classList.toggle("active", c === btn); });
         applyFilters();
       });
     }
-    var toggle = document.getElementById("timeline-toggle");
-    var timeline = document.querySelector(".timeline");
-    if (toggle && timeline) {
-      toggle.addEventListener("click", function () {
-        var open = timeline.classList.toggle("is-open");
-        toggle.setAttribute("aria-expanded", open ? "true" : "false");
-        toggle.textContent = open ? "收起日期" : "浏览日期";
-      });
-    }
-    window.addEventListener("popstate", function () {
-      applyTab(readTab(), { skipUrl: true });
+    // delegated: author rail, "all authors", digest segmented control, board expand
+    document.addEventListener("click", function (ev) {
+      var t = ev.target;
+      var au = t.closest && t.closest(".voice-author");
+      if (au) {
+        var on = !au.classList.contains("active");
+        $$(".voice-author").forEach(function (b) { b.classList.remove("active"); });
+        if (on) au.classList.add("active");
+        applyFilters();
+        return;
+      }
+      var go = t.closest && t.closest("[data-goto]");
+      if (go) { applyTab(go.getAttribute("data-goto"), "", { push: true }); return; }
+      var seg = t.closest && t.closest(".seg-btn");
+      if (seg) { applyTab("digest", seg.getAttribute("data-view"), { push: true, scrollNav: false }); return; }
+      var more = t.closest && t.closest(".board-more");
+      if (more) {
+        var open = more.closest(".board").classList.toggle("is-open");
+        more.textContent = open ? "收起" : "展开全部 " + more.getAttribute("data-more") + " 条";
+      }
     });
-    applyTab(readTab(), { skipUrl: false });
+    window.addEventListener("popstate", function () { var r = readRoute(); applyTab(r.tab, r.view, { skipUrl: true }); });
+    var r0 = readRoute();
+    applyTab(r0.tab, r0.view, { skipUrl: false, scrollNav: false });
+    var active = $(".day-chip.active");
+    if (active && active.scrollIntoView) { try { active.scrollIntoView({ block: "nearest", inline: "center" }); } catch (e) {} }
   }
 
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", bind);
-  } else {
-    bind();
-  }
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", bind);
+  else bind();
 })();

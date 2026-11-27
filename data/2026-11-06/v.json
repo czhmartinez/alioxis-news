@@ -1,0 +1,293 @@
+[
+  {
+    "title": "TestingCatalog 11/5 简报：Images 2.6 上线、GPT-6.2 Astra/Sol 现身 GCP、OpenAI 收购 Pierre、Antigravity 语音模式等",
+    "summary": "TestingCatalog 每日 AI 简报（11/5，Grok 辅助撰写）新线索：OpenAI——ChatGPT/Codex 上线 Images 2.6（GIF+参考图）及 API 侧 Flare/Sunburst；Google Cloud 配额页出现 GPT-6.2 Astra 与 Sol，The Information 称或最快周五发布（经 AiBattle_ 转述）；收购 Pierre Computer Company 做 Codex 的 Git 工作流；安全流水线用即将推出的 cyber 模型一次跑通并修补 948 个 Linux 内核本地提权漏洞。Moonshot——Kimi K3.1 Pro 开源权重上架 Hugging Face。Google——Antigravity v2.29 为 AI Pro/Ultra 带来 Voice Mode 与 Remote Agents，可原生打开 Jupyter；Gemini API computer use 正式可用；Omni 1.2 Flash 现身 GCP。Anthropic——Claude 桌面新增 /storage；Claude Code 后台子代理状态更新用量约降 99%。另有：Conductor 加入 Meta；Grok Bot 美国可打电话、测试推荐好友换额度重置与 Re-run；GitHub Copilot 进 Xcode 公测；Perplexity Decisions API 加 web grounding；Cognition SWE-2 Flash；Factory 收购 HumanLayer；Hermes Agent 市场与移动端候补；Midjourney v9 传年底前；Ricursive Ripple-65B Preview；Notion 让多 Agent 共享记忆与技能。（简报部分为爆料转述。）",
+    "url": "https://x.com/testingcatalog/status/2118268779901628880",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-05T17:06:47+08:00",
+    "tags": [
+      "每日简报",
+      "OpenAI",
+      "Images 2.6",
+      "GPT-6.2",
+      "Antigravity",
+      "Kimi"
+    ],
+    "image": "/assets/covers/cover-20261106-v-00.jpg"
+  },
+  {
+    "title": "Max：杨天真×蒋珊珊创办赫励资本 Helios——投 AI/具身/脑机/核聚变，内容成基金核心竞争力",
+    "summary": "Max 详解新机构赫励资本（Helios Venture）：壹心娱乐创始人、知名经纪人杨天真，与前阿里战投科技投资总监、曾投月之暗面 Kimi 的蒋珊珊合伙创办，方向覆盖 AI、具身智能、脑机接口、核聚变等。蒋珊珊过去三年在阿里主导十余个前沿科技项目、累计超百亿（含月之暗面、Sharpa、逐际动力、星动纪元等）；分工上蒋负责研究与投资，杨负责 LP 关系、内容与品牌。Max 强调她们把内容当作基金核心竞争力——蒋珊珊称离开阿里后要用内容与影响力继续抢到好项目，因此直接请杨天真做合伙人；他还转述「投资能力是 1，内容是后面的 0」，并戏称科技圈与娱乐圈边界越来越模糊。（人物轶事与动机为 Max 转述/推测。）",
+    "url": "https://x.com/MaxForAI/status/2118189502615470303",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-05T11:51:46+08:00",
+    "tags": [
+      "赫励资本",
+      "Helios Venture",
+      "杨天真",
+      "蒋珊珊",
+      "VC",
+      "AI 投资"
+    ],
+    "image": "/assets/covers/cover-20261106-v-01.jpg"
+  },
+  {
+    "title": "Max：OpenAI API 短暂露出 rc-ada-or-vm / rc-ada-sh-vm——社区联想到 GPT-6.2 Astra 与「vm」Agent 环境",
+    "summary": "Max 称 11 月 4 日凌晨模型追踪机器人发现 OpenAI API 列表短暂出现两个神秘模型 ID：rc-ada-or-vm 与 rc-ada-sh-vm，几分钟后消失。他指出海外社区近期猜测 GPT-6.2 Astra 即将发布，此前 Codex 使用记录截图中也出现过 GPT-6.2 Astra 名称；两代号均带「vm」后缀，令人联想到虚拟机或 Agent 执行环境。目前 OpenAI 未公布，Max 亦无法确认是否与 GPT-6.2 有关，只判断公司近期在测新东西。（泄密关联与「vm」含义均为社区/Max 推测。）",
+    "url": "https://x.com/MaxForAI/status/2118077014636921044",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-05T04:24:46+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6.2",
+      "Astra",
+      "模型泄密",
+      "API"
+    ],
+    "image": "/assets/covers/cover-20261106-v-02.jpg"
+  },
+  {
+    "title": "小互：OpenAI 发布 Images 2.6——原生 GIF、固定参考图、手绘标注重绘；API 上线 Flare/Sunburst 提速约 50%",
+    "summary": "小互梳理 ChatGPT Images 2.6 与 API 侧 GPT-Image-2.6 Flare、Sunburst：①生成速度约提升 50%，低画质档 Flare 最快约 6 秒出图（跟帖称低画质从 7.08 秒降至 4.84 秒）；②原生循环 GIF，可调速度、单帧微调；③固定参考图（Reference images）把本人/宠物/IP 角色/场景存成命名卡片反复调用，多角色同框；④手绘圈叉箭头或色块做局部重绘，样例标记可被去除；⑤API 新增 complexity 与画质解耦，支持 SVG 矢量导出与 Codex 画布悬浮编辑。全球各订阅档桌面/移动/网页可用。（功能细节为小互对官方能力的转述整理。）",
+    "url": "https://x.com/xiaohu/status/2118158882870890816",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-05T09:50:05+08:00",
+    "tags": [
+      "OpenAI",
+      "Images 2.6",
+      "GIF",
+      "参考图",
+      "Flare",
+      "Sunburst"
+    ],
+    "image": "/assets/covers/cover-20261106-v-03.jpg"
+  },
+  {
+    "title": "小互：百度开源文心 ERNIE 5.5 Flash Base——2800 亿总参/140 亿激活 MoE、百万上下文，详解混合注意力与多智能体选专家",
+    "summary": "小互解读百度世界发布的开源底座 ERNIE 5.5 Flash Base：从零预训练、约 2800 亿参数、运行仅激活约 140 亿（5%）、支持 100 万 token 上下文，面向继续训练做行业专属模型；评测称同尺寸 SOTA，超越 DeepSeek-V4-Flash-Base、Hy3-preview-Base、MiMo-V2.5-Base 等。他提炼三点创新：①KV 缓存 43 层分两组——37 层看压缩全局、6 层回原文抠细节；②从 512 专家挑 10 个改为多个「派单员」共同打分；③复用最后一层做多步预测与候选验证。权重已开放，并联合 vLLM、SGLang 等；GitHub/HF/官网链接已给出。同目录 AI 新闻有硬新闻条目，本条保留小互架构拆解视角。（基准对比为官方/转述口径。）",
+    "url": "https://x.com/xiaohu/status/2118329558860734558",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-05T21:08:18+08:00",
+    "tags": [
+      "百度",
+      "ERNIE 5.5",
+      "开源",
+      "MoE",
+      "长上下文"
+    ],
+    "image": "/assets/covers/cover-20261106-v-04.jpg"
+  },
+  {
+    "title": "小互：Perceptron 1.0 把机器人第一人称标注成本砍到约 1/8——亚秒级动作切分、双手独立时间轴、免校准 3D 手势",
+    "summary": "小互指出训练机器人最大痛点是标注：戴运动相机拍第一人称视频容易，但分清哪只手抓什么、指关节弯曲、亚秒级动作起止极难，顶尖大模型标一小时常烧 70 多美元。Perceptron Egocentric 1.0 自称精度对齐顶尖大模型：可切 0.5 秒内抓放拧转；左右手独立时间轴；免校准 3D 手势，手机视频无需填镜头参数即可还原双手网格；全套「动作线+双手标签+3D 重建」约 29 刀/小时，基础切分低至 9 刀/小时（约八分之一），自助 API 一次可塞 1000 个视频。官方亦称匹配 Astra 质量、约 1/8 成本。（价格与精度对比为 Perceptron/小互转述。）",
+    "url": "https://x.com/xiaohu/status/2118226408699043881",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-05T14:18:25+08:00",
+    "tags": [
+      "Perceptron",
+      "机器人",
+      "标注",
+      "具身智能",
+      "3D 手势"
+    ],
+    "image": "/assets/covers/cover-20261106-v-05.jpg"
+  },
+  {
+    "title": "Tibo：ChatGPT+API 每周生图已超 40 亿张——八周前约 30 亿，折算日均逾 5 亿",
+    "summary": "OpenAI 产品负责人 Tibo（@thsottiaux）援引 Images 2.6 发布背景称：ChatGPT 与 API 合计每周生成图像已超过 40 亿张，八周前还是「超过 30 亿」；他在自回复中估算日均超过 5 亿张，并纠正用词为 Generating。该统计为 OpenAI 内部口径经其本人公开，反映图像产品用量仍在快速爬升。（具体计量边界以官方为准。）",
+    "url": "https://x.com/thsottiaux/status/2118469621011677521",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-06T06:24:51+08:00",
+    "tags": [
+      "OpenAI",
+      "Images",
+      "用量",
+      "ChatGPT",
+      "API"
+    ],
+    "image": "/assets/covers/cover-20261106-v-06.jpg"
+  },
+  {
+    "title": "Tibo：最新 cyber 专用模型已上线 Daybreak Red——「在许多安全场景自成一档」；安全团队将持续公开进展",
+    "summary": "Tibo 转发 OpenAI 官方 GPT-6 Cyber 发布并评论：最新面向安全研究的 cyber 专用模型已出，在许多 cyber 特定用例上「自成一档」（in its own league），经 Daybreak Red 访问。同日他另发：公司已组建世界级 cyber 团队，未来数周到数月会分享更多工作，并指路 @clintgibler。官方称该模型参与此前 Linux 内核漏洞流水线，并计划 11 月 12 日做 cyber 直播。同目录 AI 新闻已有官方稿，本条保留 OpenAI 内部人评价与团队动向。（「自成一档」为 Tibo 主观评价。）",
+    "url": "https://x.com/thsottiaux/status/2118402103907655903",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-06T01:56:34+08:00",
+    "tags": [
+      "GPT-6 Cyber",
+      "OpenAI",
+      "安全",
+      "Daybreak",
+      "Tibo"
+    ],
+    "image": "/assets/covers/cover-20261106-v-07.jpg"
+  },
+  {
+    "title": "Tibo：「电脑不是有内存吗？」——欢迎 Pierre 加入，一起重做一切",
+    "summary": "Tibo 引用 Pierre Computer Company 的宣布并写到：Computers have RAM, right? Welcome Pierre. Let’s reinvent everything。结合当日简报与社区信息，OpenAI 收购 Pierre 意在为 Codex 打造 Git 工作流相关能力；Tibo 以产品负责人口吻公开欢迎，语气偏内部动员。（收购细节与产品路线以官方后续披露为准，此处为公开欢迎帖转述。）",
+    "url": "https://x.com/thsottiaux/status/2118024169762029594",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-05T00:54:47+08:00",
+    "tags": [
+      "Pierre",
+      "OpenAI",
+      "Codex",
+      "Git",
+      "收购"
+    ],
+    "image": "/assets/covers/cover-20261106-v-08.jpg"
+  },
+  {
+    "title": "TestingCatalog：METR 报告称 Anthropic 自 2025 年 10 月起研发加速约 1.9×——内部 Model 3/4 进步显著，Opus 5.5 被标为非前沿",
+    "summary": "TestingCatalog 转述 METR 最新评估：Anthropic 因大量用 AI 做研发，自 2025 年 10 月以来内部模型开发加速约 1.9 倍；图表将 Opus 5.5 归为「非前沿」，并标出内部 Model 3、Model 4 在短时间内大幅提升。TC 调侃「RSI bench?」。同目录 AI 新闻有 METR 评审 Anthropic 风险报告的硬新闻，本条保留加速倍率与内部模型命名等图表细节。（加速倍数与分类为 METR/TC 转述。）",
+    "url": "https://x.com/testingcatalog/status/2118455315914187151",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-06T05:28:00+08:00",
+    "tags": [
+      "METR",
+      "Anthropic",
+      "RSI",
+      "研发加速",
+      "Model 4"
+    ],
+    "image": "/assets/covers/cover-20261106-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：Google Cloud 配额页惊现 GPT-6.2 Astra 与 Sol——「它们真的快来了」",
+    "summary": "TestingCatalog 援引 @AiBattle_ 截图称 GPT-6.2 Astra 与 GPT-6.2 Sol 出现在 Google Cloud Console 配额页，并配文 They are indeed coming soon。同日另有 The Information 消息称 Sol/Astra 或最快本周五发布、也可能延期。与 Max 的 API 瞬时泄密相互印证但证据链不同，故单独收录。（发布时间与是否正式上线仍属传闻。）",
+    "url": "https://x.com/testingcatalog/status/2118125584320721402",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-05T07:37:46+08:00",
+    "tags": [
+      "GPT-6.2",
+      "Astra",
+      "Sol",
+      "Google Cloud",
+      "泄密"
+    ],
+    "image": "/assets/covers/cover-20261106-v-10.jpg"
+  },
+  {
+    "title": "TestingCatalog：Antigravity v2.29——Gemini Live 语音模式 + 云端 Remote Agents，向 AI Pro/Ultra 逐步推送",
+    "summary": "TestingCatalog 据更新日志：Antigravity v2.29.0 带来 Voice Mode（Gemini Live，可在空消息框按钮语音把任务交给 Agent，逐步放量）、Remote Agents（Google AI Ultra/Pro 订阅者，云项目对话在云端而非本机跑），以及浏览器相关更新。新版本分批到达，可能需数天。此前 11-04 大V视野已提早期 Gemini Live 演示，本条为正式 changelog 级能力。（功能表述摘自 changelog/TC。）",
+    "url": "https://x.com/testingcatalog/status/2118089695443714458",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-05T05:15:10+08:00",
+    "tags": [
+      "Antigravity",
+      "Google",
+      "Voice Mode",
+      "Remote Agents",
+      "Gemini Live"
+    ],
+    "image": "/assets/covers/cover-20261106-v-11.jpg"
+  },
+  {
+    "title": "TestingCatalog：Kimi K3.1 Pro 权重上架 Hugging Face——原生多模态 Agent、自称迄今最强 3T 级开源",
+    "summary": "TestingCatalog 转发月之暗面：Kimi K3.1 Pro 权重已在 Hugging Face 以「Kimi K3.1 Pro」许可开放；官方描述为开源权重、原生多模态 Agent 模型，且为迄今最强 3T 级模型。简报亦列入该条。11-03 Max 曾预告本周中国新模型波次，本条为权重真正落地。（能力表述为官方自称。）",
+    "url": "https://x.com/testingcatalog/status/2118078703129518117",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-05T04:31:29+08:00",
+    "tags": [
+      "Kimi",
+      "K3.1 Pro",
+      "开源",
+      "Moonshot",
+      "Hugging Face"
+    ],
+    "image": "/assets/covers/cover-20261106-v-12.jpg"
+  },
+  {
+    "title": "TestingCatalog：Eon 发布 Yukon——实时把事件流洗成 Iceberg 表，算力约 Spark 1/4、Flink 1/7，专供 Agent 读数",
+    "summary": "TestingCatalog 介绍 Eon Yukon：把涌入的上下文即时整理成可用数据表，让 AI Agent 在约一分钟内用上干净表；相对同类 Spark/Flink 管线，基准称约用 Spark 算力的 1/4、Flink 的 1/7。跟帖补充：百万事件/秒跑一小时仍要求表延迟小于两分钟；表以开放格式落在用户 AWS/GCP 账号，停用 Yukon 后其他工具仍可读；还可记表含义与变更，方便 Agent 查上周变化而不扫全表。（性能数字来自 Eon 公开基准/TC 转述。）",
+    "url": "https://x.com/testingcatalog/status/2118402053563117740",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-06T01:56:22+08:00",
+    "tags": [
+      "Eon",
+      "Yukon",
+      "数据基建",
+      "Agent",
+      "Iceberg"
+    ],
+    "image": "/assets/covers/cover-20261106-v-13.jpg"
+  },
+  {
+    "title": "TestingCatalog：Oumi 上线 FAiE——用 Agent 训练/校验 Agent，可接 Claude/GPT 后换自有权重",
+    "summary": "TestingCatalog：Oumi 发布 Agent 构建平台与「前沿 AI 工程师」FAiE，可覆盖训练到结果验证；用户在聊天里纠正错误后，FAiE 可更新训练样本、重训并度量改进。跟帖称已有 Claude/GPT 等 Agent 的用户可接到 Oumi 上训练替代模型以保留完整所有权；基于任务完成的强化学习选项处于私有预览。（产品能力为官方/TC 转述。）",
+    "url": "https://x.com/testingcatalog/status/2118124334115930610",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-05T07:32:48+08:00",
+    "tags": [
+      "Oumi",
+      "FAiE",
+      "Agent 训练",
+      "SFT",
+      "RL"
+    ],
+    "image": "/assets/covers/cover-20261106-v-14.jpg"
+  },
+  {
+    "title": "TestingCatalog：ChatAndBuild Living Brain——ChatGPT/Claude/Cursor 共享可读写记忆，跨工具免重述上下文",
+    "summary": "TestingCatalog：ChatAndBuild 推出 Living Brain，作为 ChatGPT、Claude、Cursor 等可共同访问与编辑的共享记忆；在一个工具写入的记忆可在另一个召回，切换工具无需重新交代背景。记忆与对话存成页面，有变更时更新，使各连接工具读到最新版。跟帖称可经 API/SDK/MCP 接入，内部 LongMemEval-S 测试称每问最多可少用约 22.6× token。（基准为厂商内部测试。）",
+    "url": "https://x.com/testingcatalog/status/2118062126895857903",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-05T03:25:37+08:00",
+    "tags": [
+      "Living Brain",
+      "记忆",
+      "ChatAndBuild",
+      "MCP",
+      "跨工具"
+    ],
+    "image": "/assets/covers/cover-20261106-v-15.jpg"
+  },
+  {
+    "title": "TestingCatalog：Serval 招工程师做 Catalyst——用自然语言为 IT 写可审批的自动化，融资后估值约 30 亿美元",
+    "summary": "TestingCatalog：Serval 为 Catalyst（帮助 IT 技术员用描述生成可运行自动化的 AI Agent）招工程师；用户可说「自动给新员工开通某 App」，由 Catalyst 写代码，团队测试批准后再按日程跑。跟帖：CTO 宣布旧金山为主的多个岗位，入职先享最高约 1 万美元带薪休假；公司 10 月末由红杉领投约 1.5 亿美元、估值约 30 亿美元。（招聘福利与估值经 TC/官方转述。）",
+    "url": "https://x.com/testingcatalog/status/2118446954958975289",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-06T04:54:47+08:00",
+    "tags": [
+      "Serval",
+      "Catalyst",
+      "IT 自动化",
+      "Agent",
+      "招聘"
+    ],
+    "image": "/assets/covers/cover-20261106-v-16.jpg"
+  },
+  {
+    "title": "耿达：AI 安全迫在眉睫——从 REA/Mika 控手机到大厂关口子；推荐 GCSA SecVibe 与 Codex Security 插件",
+    "summary": "耿达结合近期 REA 仓库爆火、Mika 控手机操作微信、以及自己逆向剪映/飞书录音豆等经历，称大厂 App（含微信）连忙关口子、本人也收到律师函，痛感「AI 安全」已迫在眉睫：Codex/Claude Code 让普通人也能做出数千 star 项目或 Vibe Coding「产品」，但只会堆功能不懂防守，赚钱可能不够黑客打劫。他转发 GCSA（全球网络安全联盟）与华润隆地成立 AI 与网络安全研究中心（侧重 AI 反诈、威胁检测、安全自动化），并推荐把 GitHub 仓丢进 SecVibe（secvibe.gcsa.com）做审查，以及给 Codex 装 Codex Security 插件。（个人经历与产品推荐为其观点；律师函等细节未独立核实。）",
+    "url": "https://x.com/gengdaJ/status/2118286550819856581",
+    "source": "耿达",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-11-05T18:17:24+08:00",
+    "tags": [
+      "AI 安全",
+      "GCSA",
+      "SecVibe",
+      "Codex Security",
+      "Vibe Coding"
+    ],
+    "image": "/assets/covers/cover-20261106-v-17.jpg"
+  }
+]

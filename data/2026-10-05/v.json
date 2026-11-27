@@ -1,0 +1,239 @@
+[
+  {
+    "title": "朝鲜称试射导弹采用AI技术",
+    "summary": "联合早报援引朝鲜官媒报道：金正恩周六监督试射一枚导弹，称其采用人工智能技术，可在低空改变飞行轨迹。帖子标题同时提到韩国国防部称导弹仍在可拦截范围。",
+    "url": "https://x.com/zaobaosg/status/2106882404950352151",
+    "source": "联合早报 Lianhe Zaobao",
+    "source_handle": "@zaobaosg",
+    "image": "/assets/covers/cover-20261005-v-00.jpg",
+    "published_at": "2026-10-05T07:15:00+08:00",
+    "tags": [
+      "AI军事",
+      "AI行业"
+    ]
+  },
+  {
+    "title": "Codex团队承诺28天内每天一次明显改进或重置",
+    "summary": "Tibo称，未来28天里，团队每天要么发布一项对大多数Codex/Work用户明显改进且相关的内容，要么进行一次全面重置。他以此回应用户对简化和提效的反馈。",
+    "url": "https://x.com/thsottiaux/status/2106845241357824205",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261005-v-01.jpg",
+    "published_at": "2026-10-05T05:15:00+08:00",
+    "tags": [
+      "AI工具",
+      "Codex",
+      "OpenAI"
+    ]
+  },
+  {
+    "title": "Tibo：当前重点是简化与提效",
+    "summary": "Tibo表示，目前努力的方向只有简化、提高效率以支持更多使用、开创性功能或新模型。他承认有时必须超前投资，但用户反馈很清楚，大家都希望事情更简单，团队正在处理。",
+    "url": "https://x.com/thsottiaux/status/2106610099720720811",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261005-v-02.jpg",
+    "published_at": "2026-10-04T13:15:00+08:00",
+    "tags": [
+      "AI工具",
+      "Codex",
+      "产品"
+    ]
+  },
+  {
+    "title": "用AI助手“Dot”冲刺收件箱清零",
+    "summary": "Tibo称自己从未实现过收件箱清零，直到刚把它设为Dot的积极目标来协助完成，感觉很棒。帖子引用10月2日的进展：未读邮件从9000多封降到6110封，并计划在48小时内通过清理过滤器清零。",
+    "url": "https://x.com/thsottiaux/status/2106602729875685780",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261005-v-03.jpg",
+    "published_at": "2026-10-04T13:15:00+08:00",
+    "tags": [
+      "AI应用",
+      "智能体",
+      "使用技巧"
+    ]
+  },
+  {
+    "title": "AI邮件助手具体做了什么",
+    "summary": "Tibo列出该助手的做法：批量验证并删除不必要保留的邮件类别；识别其工作类型标签并为邮件打标签；引导处理需要回复的邮件，并在后台搜索相关上下文。",
+    "url": "https://x.com/thsottiaux/status/2106603980386394123",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "image": "/assets/covers/cover-20261005-v-04.jpg",
+    "published_at": "2026-10-04T13:15:00+08:00",
+    "tags": [
+      "AI应用",
+      "智能体",
+      "工作流"
+    ]
+  },
+  {
+    "title": "Anthropic通过Interviewer邀请用户做15分钟语音访谈",
+    "summary": "TestingCatalog称，Anthropic开始通过Anthropic Interviewer工具提示更多用户参与15分钟的语音访谈，访谈后用户可决定是否公开。帖子认为这是让人们表达对AI看法的有趣方式。",
+    "url": "https://x.com/testingcatalog/status/2106794063936561506",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261005-v-05.jpg",
+    "published_at": "2026-10-05T01:15:00+08:00",
+    "tags": [
+      "Anthropic",
+      "AI产品",
+      "用户研究"
+    ]
+  },
+  {
+    "title": "Anthropic开始征询语音数据用于训练",
+    "summary": "TestingCatalog称，Anthropic开始提示用户自愿分享语音对话用于训练，提示语为“允许我们使用您的语音数据来改进我们的AI模型”，并可随时在设置中关闭或删除。作者推测这可能与实时语音功能有关；后续帖子补充称目前没有迹象表明实时语音正在开发。",
+    "url": "https://x.com/testingcatalog/status/2106678816919691508",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261005-v-06.jpg",
+    "published_at": "2026-10-04T18:15:00+08:00",
+    "tags": [
+      "Anthropic",
+      "语音",
+      "隐私"
+    ]
+  },
+  {
+    "title": "OpenAI即将推出GPT 6.1 Sol Ultrafast",
+    "summary": "TestingCatalog称OpenAI即将推出GPT 6.1 Sol Ultrafast，并希望之后能听到更多关于Astra的消息。作者认为Ultrafast本身未必能让足够多的人兴奋到把注意力从Opus 5.5移开，并配有相关截图。",
+    "url": "https://x.com/testingcatalog/status/2106654630503731350",
+    "source": "🚨 AI News | TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "image": "/assets/covers/cover-20261005-v-07.jpg",
+    "published_at": "2026-10-04T16:15:00+08:00",
+    "tags": [
+      "OpenAI",
+      "模型",
+      "GPT"
+    ]
+  },
+  {
+    "title": "美国宣布成立“超级智能部队”SIF",
+    "summary": "小互转述白宫帖子：美国宣布成立超级智能部队（SIF），任务是协调联邦政府的努力，确保美国继续在超级智能领域引领世界。白宫引用特朗普的话，称其影响可能超过工业革命和互联网。",
+    "url": "https://x.com/xiaohu/status/2106748421273243686",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261005-v-08.jpg",
+    "published_at": "2026-10-04T22:15:00+08:00",
+    "tags": [
+      "AI政策",
+      "AI行业"
+    ]
+  },
+  {
+    "title": "“AI的能力不是你的能力”",
+    "summary": "小互认为，用AI生成的视频充其量只是“能看”，需要编排、策划和反复打磨才可能有效果，妄想靠AI做个小科普视频就火起来是不现实的。他引用9月28日的观点称，缺乏品味和专业经验做出的内容容易让人不适，还是要在自己擅长的领域结合AI。",
+    "url": "https://x.com/xiaohu/status/2106725767787004358",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261005-v-09.jpg",
+    "published_at": "2026-10-04T21:15:00+08:00",
+    "tags": [
+      "AI视频",
+      "创作",
+      "观点"
+    ]
+  },
+  {
+    "title": "Gemini调整订阅策略：10月9日起免费用户仅限Flash-Lite",
+    "summary": "小互转述称，Gemini将于10月9日起调整订阅策略：免费用户只能用Flash-Lite；AI Plus可用Flash-Lite和Flash，额度为标准的2倍；AI Pro可用全系列含Pro，额度为4倍。配图为Google权限对照表。",
+    "url": "https://x.com/xiaohu/status/2106670118881386580",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261005-v-10.jpg",
+    "published_at": "2026-10-04T17:15:00+08:00",
+    "tags": [
+      "Gemini",
+      "订阅",
+      "模型"
+    ]
+  },
+  {
+    "title": "苹果拟限制AI随意访问Mac磁盘",
+    "summary": "小互称，苹果在10月2日宣布收紧Mac的“完全磁盘访问权限”，应用要获得该权限必须经过“非常明确的用户操作”。苹果表示，随着AI Agent越来越强大、越来越自主，这类访问带来的风险将大幅增长。",
+    "url": "https://x.com/xiaohu/status/2106560753402802333",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "image": "/assets/covers/cover-20261005-v-11.jpg",
+    "published_at": "2026-10-04T10:15:00+08:00",
+    "tags": [
+      "AI安全",
+      "智能体",
+      "苹果"
+    ]
+  },
+  {
+    "title": "AI编程该用来做真正的工程，而不是堆Slop",
+    "summary": "Max For AI评论称，人类花几千万训练模型让AI去Coding，意义应是做有价值的东西，而不是堆一堆低质内容再到处发社交媒体。帖子配有网友称用AI花三个月、260亿token重写项目，以及Rust重写红警风格RTS引擎的截图。",
+    "url": "https://x.com/MaxForAI/status/2106787706537955827",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261005-v-12.jpg",
+    "published_at": "2026-10-05T01:15:00+08:00",
+    "tags": [
+      "AI编程",
+      "观点",
+      "Token"
+    ]
+  },
+  {
+    "title": "OpenAI安全核心员工辞职并公开批评公司文化",
+    "summary": "Max For AI介绍：David Robinson本周从OpenAI辞职，并在《大西洋月刊》撰文称公司文化已经坏掉。引用的Adrienne LaFrance帖子称，他是OpenAI任职时间最长的员工之一，负责监督12次前沿发布的安保报告，并担忧“试错的时代已经结束”。",
+    "url": "https://x.com/MaxForAI/status/2106572331808387453",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261005-v-13.jpg",
+    "published_at": "2026-10-04T11:15:00+08:00",
+    "tags": [
+      "OpenAI",
+      "AI安全",
+      "AI行业"
+    ]
+  },
+  {
+    "title": "AI做视频的质量已超过大部分人类",
+    "summary": "Max For AI感叹，AI做的视频质量已经超过大部分人类，从年初剪气口，到GPT-6能做很好的剪辑，再到Opus 5.5连特效都能完成，进展太快。帖子引用anabology让Claude连续工作18小时做出“Macrohard：Windows XP”的3分钟演示视频。",
+    "url": "https://x.com/MaxForAI/status/2106570081757216782",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "image": "/assets/covers/cover-20261005-v-14.jpg",
+    "published_at": "2026-10-04T11:15:00+08:00",
+    "tags": [
+      "AI视频",
+      "Claude",
+      "GPT-6"
+    ]
+  },
+  {
+    "title": "200刀GPT与Claude会员额度对比",
+    "summary": "卡兹克称，他三天内用完了一个200刀GPT账号的100%周额度、1次重置卡和赠送的65000额度，而Claude的200刀账号狂用三天Opus 5.5后周额度还剩50%。因此他借助Token监控来比较两家会员的实际额度，Codex一侧使用的是GPT-6。",
+    "url": "https://x.com/Khazix0918/status/2106762127159734314",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20261005-v-15.jpg",
+    "published_at": "2026-10-04T23:15:00+08:00",
+    "tags": [
+      "AI工具",
+      "Claude",
+      "Codex",
+      "额度"
+    ]
+  },
+  {
+    "title": "用Claude半小时调出公司logo动画",
+    "summary": "卡兹克说，他用Claude调了半个多小时公司logo动画，效果基本可用。他感慨一年前没人想到动效和视频会被AI用代码“暴力吞噬”，时代变化太快。帖子附有动画演示视频。",
+    "url": "https://x.com/Khazix0918/status/2106729517201158240",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "image": "/assets/covers/cover-20261005-v-16.jpg",
+    "published_at": "2026-10-04T21:15:00+08:00",
+    "tags": [
+      "AI编程",
+      "Claude",
+      "动效"
+    ]
+  }
+]

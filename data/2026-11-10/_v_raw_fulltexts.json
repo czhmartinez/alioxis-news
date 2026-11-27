@@ -1,0 +1,872 @@
+{
+ "fetched_at_taipei": "2026-11-10 08:20 Asia/Taipei",
+ "method": "public X MCP get_posts_by_ids (post.fields note_tweet,article; expansions referenced_tweets.id)",
+ "start_time": "2026-11-08T16:00:00Z",
+ "posts": {
+  "2119941585538572390": {
+   "author": "Khazix0918",
+   "created_at": "2026-11-09T23:53:55.000Z",
+   "text": "https://t.co/xep40rzXMR",
+   "url": "https://x.com/i/status/2119941585538572390",
+   "article": {
+    "cover_media": "3_2119941560850948097",
+    "entities": {
+     "posts": [
+      {
+       "id": "2119902325460590834"
+      },
+      {
+       "id": "2119899459761131615"
+      },
+      {
+       "id": "2115691027860443268"
+      }
+     ]
+    },
+    "media_entities": [
+     "3_2119939489720311808",
+     "3_2119940711118422016",
+     "3_2119940758434418688",
+     "3_2119938377890107392",
+     "3_2119940424886628352",
+     "3_2119939841794457600",
+     "3_2119940063698313217",
+     "3_2119940540678709248",
+     "3_2119939200296624128",
+     "3_2119940470407397376",
+     "3_2119941124488138752",
+     "3_2119938841243213824",
+     "3_2119939885771685888",
+     "3_2119941025875832833",
+     "3_2119939027906539520",
+     "3_2119939247843184641",
+     "3_2119940364723482624",
+     "13_2119940855389929472",
+     "3_2119941175922892800",
+     "13_2119940183688925184",
+     "3_2119938959732260864",
+     "3_2119938641749524480",
+     "13_2119939569852542977",
+     "3_2119940040008876032",
+     "3_2119939372565098496"
+    ],
+    "plain_text": "大半夜的，没等来GPT-6.2 Sol，刚准备睡。\n然后，AIHOT小助手在飞书群里啪的一下给我弹了个消息。\n \n好的，这下不用睡了。\n凌晨3点，Claude终于正式发布了Claude Fable 5.2。\n \n与此同时，OpenAI今晚正在卖200刀的掌机。\n \n叫你上周不发GPT-6.2 Sol，明明口碑那么好，这下不尴尬了吗。。。\n目前Claude Fable 5.2已经在全渠道正式上线，我的Claude桌面端里，已经能看到了。\n同时，这一次Anthropic也给20刀的Pro会员开放了Fable 5.2的临时使用权限，不过只限这一周。\n同时也为Claude的200刀的Ultra订阅用户，送上了一次Fable的额度重置机会，根据订阅时间来，并且有效期一直到明年的3月8号，讲道理，A\\在有些时候，还是怪良心的。。。\n \n我也收到了。\n \n这里大家可以记一下我的额度剩余，我是200刀的Ultra会员，在使用Claude Fable 5.2测试之前，我的额度还剩30%。\n\n还是非常开心，在爽用了近一个半月的Claude Opus 5.5之后，终于等来了新的Fable模型，只不过不是传言中的Claude Fable 5.5，Anthropic给它命名成了Claude Fable 5.2。\n这个其实也正常，最早是9月9号，就有人爆料说Anthropic在跑一个新模型，当时给出的临时代号，还真就叫Fable 5.2，但后来Opus 5.5、Sonnet 5.5一个个都出来了，大家很自然就顺着往下推，下一个Fable，那肯定也得叫5.5吧，结果最后是5.2，所以大概率Anthropic还藏着一手更强的Fable 5.5。\n先看一下Fable 5.2的基本情况。\nClaude Fable 5.2依然拥有1M，也就是100万Token上下文，最大输出128K Token，知识截止时间到了2026年6月。\n价格这次反而走了降价风，现在大家也都知道，Token太贵了，已经超出全人类的接受范围了，所以涨价潮过去，现在也都开始在不断降价了。\nFable 5.1原来是每百万Token输入10美元、输出50美元。\nFable 5.2变成，输入8美元，输出40美元，缓存也差不多，整体降价了20%。\n几个Anthropic家的主力模型价格对比，大概是这样的。\n \n然后在速度上也快了一些，官方说是比Fable 5.1最多快了30%，没有特别多，只能说聊胜于无吧。\n然后就是被误伤的次数少了，Fable那套安全护栏一直被人诟病，6月刚出的时候很多人就在骂，说它把生物作业都当成安全威胁，那这次官方说误拦截比5.1少了大约55%，网络安全类少60%，生物类少40%。\n还有个点是我用下来蛮喜欢的一点，算是继承了Opus 5.5的优势，就是终于开始说一些人话了，之前Fable 5.1的输出风格跟Opus 5那个满嘴黑话的感觉有的一比，我用的特别不喜欢，完全看不懂在说什么，后来Opus 5.5的时候，Anthropic终于迷途知返，知道哦模型是给人用的，所以交流感和说人话特别重要，于是大调优了一下，瞬间口碑就回来了。\n这次Fable 5.2也继承了Opus 5.5的优点，说话风格如出一辙。\n \n不过从这段回复中也能看出，Claude系列模型的高高在上感因为Fable的能力加强，也更加加剧了。\n因为最近做的东西确实太多了，有些涉及到底层基建，有点乱，所以它这次直接推翻了我的想法，告诉我有一个更好更合适的做法，应该把我改的东西直接接入到通用的中台插件里面去，而不是还在改之前的那个破壁CI中台。\n我之前就发过一个还挺火的关于Claude和GPT两个模型性格区别的段子。\n \n“我：每周都要从后台下载20个Excel，再手动复制粘贴成一张总表，太麻烦了，帮我写个自动操作鼠标的脚本。\nGPT： 好的老板！已经帮你写好了，自动点击、下载、复制、粘贴，还加了异常处理和失败重试，以后你只需要点一下运行就行！\nClaude： 不是哥们，你这20个Excel不都是从同一个数据库里导出来的吗？你好好的你下载它们干啥？我直接帮你写了个SQL，接上你们后台的数据源了，以后每周自动生成最终报表，你说你好好的下载Execl干什么玩意。。。”\n对我这种比较菜鸡，希望模型能力更强，能说出一些我不知道的事的人来说，那么Claude其实反而会更适合我，有人称为许愿式编程，当然，也可以称为，与神对话。\n跑分上，不用想，Fable系列在今天，基本上就是出手必SOTA的。\nAA指数上以65分登顶。\n \n官方的跑分也是，基本碾压所有，而且主要是Anthropic的跑分，你是可以真信的。\n \n跑分我就不一个个念了。\nAnthropic也搞了一个非常有趣的实验，让Fable 5.2承担设计一个原型操作系统的任务，直接从空文件夹开始，协调了1000多个子智能体，连续八天昼夜不停地编写、测试和审查代码，然后，它产出了一个可运行的操作系统，能在笔记本电脑上启动，拥有运行机器的自有内核、磁盘、键盘和网络驱动、永久文件存储、窗口、登录界面、安装程序，以及内置的Claude功能。。。\n这种非常硬核的测试，肯定是超出我们的能力范围了。\n在有限的额度下，我还是把重点，放在了Opus 5.5的最长板上，视频动效，以及前端审美。\n（PS：声明一下，以下Case全部为一次直出，我没有做任何二次对话，没有做任何后期加工，全部是我一个Prompt过去，他跑2小时，给我的结果，我没有做任何的二次处理。）\n首先，我第一个想到的，其实就是本来为GPT-6.2 Sol准备的一个Case，马上不就是ChatGPT四周年了嘛，所以也想做一个ChatGPT这四年历史的一个视频，这次就准备让Claude Fable 5.2直出了，一是可以看幻觉率，二是可以看审美，三是可以看代码的精准性，四是NTR的剧情实在是太好看了。\n我的Prompt特别简单：\n“做一支 40 秒到 1 分钟的 ChatGPT 四周年致敬动效视频（2022.11.30–2026.11.30），16:9 横版，无旁白，配原创音乐。内容自己联网查证，讲这四年的关键版本、里程碑和数字，不得杜撰。动手前先去 OpenAI 官网、博客和近期发布视频里观察他们的视觉风格，提炼后作为这支片子的视觉基调。节奏要快，动效密、画面饱满，随音乐卡点。片子定位是第三方致敬，不要做成 OpenAI 官方出品的样子。”\n \n然后，他就去做了。在干了将近1小时之后，Claude给了我一个这样的视频。。。\n \n讲道理，我一时不知言语为何物了。\n我确实对着里面的信息，一点一点的去验证了，然后悲哀的发现，我没有挑出任何一个事实错误。\n信息是Fable 5.2自己搜的，平面是他自己做的，配乐是他自己写的，卡点是他自己卡的，动效是他自己的做的，剪辑是他自己剪的。\n讲道理，最后这个画面，我是真的一下子没绷住。\n \n看着这个视频，我当时真的陷入了深深的沉思。。。\n然后，我又让它，把DeepSeek Harness的那个Super-agent的文章，做成一个讲解视频。\n可能是因为DeepSeek的主色落在了AI常用的蓝色里，所以这个视频，还是会有一些AI感，但是在动效的细腻程度上，我只能说，相比Opus 5.5，真的又有了大幅进步，以前Opus 5.5当然也能做出这样的效果，但是还是需要操心很多东西的，得聊很多轮，但是，现在，直出。。。\n \nSuper-Agent的文字出来的那一刻，真的瞬间惊艳到我了。\n这个节奏啊，真的已经是熟手了。\n然后我又试了一个3D的场景，用Three.js去做。\nPrompt是这样的。\n \n然后Fable 5.2就开始做了，当跑了几十分钟以后，我看到他在思考摘要里的图片预览，那一瞬间，我觉得，Claude家模型的审美是真的强啊。。。\n \n纯代码写的在网页里面渲染出来的静态帧，大家感受一下。\n \n \n \n这一下子我也不知道说啥好了。\n随后，Fable 5.2做完了，把网页也给我了。\n我也录了个视频。\n \n当然，最离谱的还是这个上海的苹果静安店的建筑。。。\n我给的Prompt是这样的，我希望做一个3D网页。\n \n我甚至没想到，这个case，跑了我将近2个半小时。\nFable 5.2，上来第一件事，先是搜关于苹果静安店的报道，这个没啥问题。\n然后，他就开始查真实照片，来给他自己做参考。。。\n \n还挨个放大来去看细节。\n \n这一看，就将近看了上百张，看了将近1个小时。\n看完了以后，终于觉得差不多了，开始建模了。\n这一下子，又是将近1个多小时。\n我其实内心很忐忑，因为我不知道它能干出来个什么级别的东西。\n因为这个case之前跑过，GPT-6 Astra刚出来的时候跑的，那个时候能跑出这样的效果，已经非常强了。\n \n我不知道Claude Fable 5.2能跑成什么样子。\n2个半小时后，Fable 5.2交卷了。\n静态图是这样子的。\n \n \n视频展示是这样的。\n \n只能说，Fable 5.2在审美和细节这块，确实太强太强了。\n我大概跑了10个任务，基本都是Fable 5.2 Xhigh，大家还记得我最开始跟大家说的，我在跑测试之前，额度还剩多少吗。\n那时候，还剩30%，我用了70%。\n而现在，卡在了94%。\n \n将近4个小时，10个任务，怼掉了我差不多24%的额度，Fable的使用量差不多用完了50%。\n有一说一，贵是真贵啊。\n所以Fable这个模型，虽然是SOTA，能力确实强，但是价格摆在这里，没办法，所以日常大概率依然还是Opus 5.5和马上要发的GPT-6.2 Sol（我已经灰度体验2天了，性价比极高，能跟Opus 5.5比一比）为主了，Fable 5.2只适合最大的诊断规划，以及做指挥型模型，审美和前端相关交给Opus 5.5做，算法和后端相关交给GPT-6.2 sol做，可能是我自己认为的最优解。\n讲道理，Fable 5.2这种模型，才是Personal agent的最棒的模型，就像你是皇上，他是宰相，他根据你的喜好和目标，猜你所想，然后指挥其他的大臣来干活，这个就太合适不过了，额度也不会烧的特别多。\n大概就是这样了。\n因为额度和时间原因，还有好多好多好多我想测的玩法还没测的。\n有太多太多了。\n甚至是更偏向硬件和科研层面的。\n感觉每一次大模型的进步，都能给大家，带来更多的想象力。\n是啊，这个世界还有那么多好玩的东西还没有探索呢。\n创作，还有AI。\n实在太有意思了。\n又是一个早晨了，祝大家早安、午安、晚安。\n今天，也要对世界，充满好奇～",
+    "preview_text": "大半夜的，没等来GPT-6.2 Sol，刚准备睡。\n然后，AIHOT小助手在飞书群里啪的一下给我弹了个消息。\n \n好的，这下不用睡了。\n凌晨3点，Claude终于正式发布了Claude Fable 5.2。",
+    "title": "实测Claude Fable 5.2 - 审美与细节的绝对统治。"
+   },
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/i/article/2119…",
+      "end": 23,
+      "expanded_url": "https://x.com/i/article/2119938260130832384",
+      "start": 0,
+      "status": 404,
+      "unwound_url": "https://x.com/i/article/2119938260130832384",
+      "url": "https://t.co/xep40rzXMR"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119902325460590834": {
+   "author": "Khazix0918",
+   "created_at": "2026-11-09T21:17:54.000Z",
+   "text": "Claude Fable 5.2的视频能力又大幅进化了，节奏和动效太强了...强的有点过于离谱了。\nChatGPT就要四周年了，我用Claude Fable 5.2给ChatGPT四周年提前做了一个庆生视频，这个细节这个节奏，强无敌。。。\n只能说，愿Claude和GPT继续相爱相杀...\n（OpenAI你赶紧端点好的上来吧。。。） https://t.co/Ikoxo8Pjnb",
+   "url": "https://x.com/i/status/2119902325460590834",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/Ikoxo8Pjnb",
+      "end": 190,
+      "expanded_url": "https://x.com/Khazix0918/status/2119902325460590834/video/1",
+      "media_key": "13_2119899444233863168",
+      "start": 167,
+      "url": "https://t.co/Ikoxo8Pjnb"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119648846448099386": {
+   "author": "Khazix0918",
+   "created_at": "2026-11-09T04:30:40.000Z",
+   "text": "https://t.co/wWNcvZWSJB",
+   "url": "https://x.com/i/status/2119648846448099386",
+   "article": {
+    "cover_media": "3_2119647684390969344",
+    "entities": {
+     "posts": [
+      {
+       "id": "2119083614382219734"
+      }
+     ],
+     "urls": [
+      {
+       "text": "aihot.news"
+      },
+      {
+       "text": "aihot.news/free-tokens"
+      }
+     ]
+    },
+    "media_entities": [
+     "3_2119645791027695617",
+     "16_2119645893653843968",
+     "3_2119645799533719553",
+     "3_2119645865908514816",
+     "3_2119645874867617792",
+     "3_2119645816587726848",
+     "3_2119645884199968768",
+     "3_2119645848388964352",
+     "3_2119645945277403136",
+     "3_2119645839656390656",
+     "3_2119645824875687936",
+     "3_2119645808203309056",
+     "3_2119645832970653697",
+     "3_2119645782580371456"
+    ],
+    "plain_text": "最近，其实大家都能感觉到，Token好像越来越贵了，各家的额度也越来越不经用了。\n于是，怎么能省钱用更多的Token，就成了一个大家经常会讨论的话题。\n我也经常能看到很多群里的朋友都在讨论，哪里有免费的Token可以领，比如WorkBuddy每天可以领100积分，可以白用好久的DeepSeek V4.1 Flash，大家经常会互相提醒，今天记得领积分，也会经常互相分享一些有趣的福利。\n \n这确实好像是大家的一个刚需。\n我花了几天的时间，做了一个我觉得可能有些朋友会喜欢的小功能，那就是：\nToken羊毛。\n \n过去大家想要知道一些领Token羊毛的这些信息，其实还挺麻烦的，因为实在是太散了。\n有的在官网，有的在公众号消息，有的在X上发等等等等。\n而且，这些Token的福利，是有时效性的。\n比如你像DeepSeek之前新上线的搜索API在一些Agent里面用，其实是免费的，但是免费到11月1号，所以前几天就结束了。\n所以找Token羊毛这事，其实本质上没啥技术难度，本质上就是一个信息的搜集+信息处理和分析的问题。\n而这个事，恰好就是AIHOT每天都在干的事。\n可能有些朋友还不太了解AIHOT，我非常简单的介绍一下。\nAIHOT是我们自己做的一个AI资讯站，aihot.news，目前已经100多万的月活了，也把底层的引擎和架构全部开源了，目前有近1万的Star。\n \n它现在盯着近几千个信源，AI自动分析，每天从整个AI世界里面，把真正值得看的精选的AI动态挑出来，按5分钟的监控维度，做成精选和日报周报推荐给大家，如果你想获取AI资讯的话，其实讲道理，AIHOT这一站就足够了。\n \n \n并且我们也开放了免费且匿名的Skill、MCP还有API，大家可以随便接入到Agent和二创使用。\n同时因为每天的信息实在太多了，肯定是有无数重复的，全部推出来就会刷屏，用户体验极差，并且一个事件，被多少的信源报道过，本身就是热度的一种体现，于是我又做了一整套的聚簇算法，把事件归类，只推最具有代表性最核心的那一条新闻，其他的变成关联消息，然后又写了一下热度的算法，于是，又有了热点榜。\n \n但这么多信源和信息，每天分门别类的监控和存到我的数据库里，能干的事，其实远不止看新闻。\n很久前，每天有很多人都在互相传递Tibo发布的Codex重置消息，想知道，Codex啥时候会重置，因为AIHOT已经监控了Tibo的X，每一条Tibo的发言我们都在实时监控以及存到了我们的数据库里，那对于我们来说，把原本就监控的信息，做一下二次的处理和分析，转变成一个Codex重置监控功能，那就再简单不过了。\n所以，Tibo一发帖，我们就能第一时间告诉你，北京时间几点生效，谁能用上，他的原话是怎么说的，还做了一个日历，把每一次重置都记了下来。\n \n最近大家又在说，有一个叫Andrew的小哥要接棒Tibo了，这个人我们本身也监控了，又顺道把他也监控了一下，同时举一反三，顺道手又把Google的Antigravity和Claude的重置监控也做了。\n \n这其实就是过去做AIHOT监控了那么多的信源和结构化处理信息之后，稍微加工一下，做出来的却对大家有一些用处的副产品。\n然后前段时间，大家又聊到Token越来越贵这件事，我突然意识到，这些羊毛，它本身就是资讯啊。\n我平时就经常能看到，很多厂商在发这种福利，新人送多少钱，每天签到送多少积分，哪个模型限时免费。\n但是在以前AIHOT的逻辑里，这些东西，是一定要被剔除掉的。\n因为从新闻的角度来讲，它们就是广告，就是噪声，绝对不应该出现在我们的精选列表里的。\n我还记得当时为了剔除掉这些广告，花了很多力气去做剔除规则，但是现在反过来看，等等，这不就恰恰是很多人每天在群里找的东西吗。\n对新闻来说，它是噪声。\n但从需求端来说，它是实打实的福利啊。\n既然这样，那就反过来做。\n把那些剔除掉的规则，直接反过来，那不就是“什么样的资讯是福利的公告”了吗？\n于是就有了这个念头，也就有了今天的Token羊毛。\n网址在此：aihot.news/free-tokens\n \n打开之后，左上角最大的那个数字，是今天还能领多少钱。我写这篇文章的时候，它写着201块。\n旁边两个小一点的数字，一个是这个月你已经领到了多少，一个是离下次刷新还有多久。\n下面，所有羊毛按领取的节奏分成了几组，每天都能领的，每周都能领的，每月都能领的，还有其他福利，像新人礼包、限时免费，和一些特定条件下的免费模型之类的。\n \n你可以直接点击右边的去领取，有些是要在客户端里领的。比如WorkBuddy之类的，每天的积分，都得打开它们的客户端，在里面签到才能领。\n所以在电脑上，为了提高大家的用户体验，我就开发了一下客户端的快捷唤起。你点这个按钮之后，如果你装了这个客户端，浏览器会直接问你，要不要打开这个客户端，你点一下允许，客户端就开了，直接领就行。如果你还没装，我们就直接帮你打开它官网的下载页。\n \n做到这一步，一个能用的Token羊毛合集，就已经有了。\n但是我总感觉，还是有哪里不是特别好玩。\n因为领羊毛这件事，说实话，是有点枯燥的，每天打开几个客户端，点一下签到，领个100积分，然后就没有然后了，我又没办法帮大家直接开发一个Agent来帮大家去领，因为各个系统、各个Agent啥的兼容性差异太大了。\n那怎么让大家感觉到，这个事好玩呢，因为我想让大家每天领Token羊毛的时候，能有一点爽感，能直观地看到，自己省了多少钱，攒下了多少东西。\n就是尽可能地，给大家一点情绪价值吧。\n然后，想起了我自己玩的卡牌手游，于是，一个好玩的想法就出现在了我的脑子里，要不然，做成卡片收集册吧。。。\n现在，页面上的每一份羊毛，都是一张卡，没领过的，是一张淡淡的普通卡，领到了，它就会被点亮。\n \n然后，卡会越领越亮。\n每天都能领的，累计领满7天，变成蓝卡，领满15天变成金卡，30天，就是一张闪卡。每周能领的要2次、4次、8次，每月能领的要1次、2次、3次。只能领一次的那些，看你领的这一次值多少，10块起是蓝卡，50块起是金卡，100块起直接就是闪卡。\n我自己还是很喜欢这个设计的= =\n \n闪卡我就学了一下游戏，做得最花哨，边框是一圈转动的彩虹，卡面上有流光，鼠标放上去，它还会放大，跟着你的鼠标倾斜，反正就，情绪价值给满。。。\n \n整个卡册，越亮的越靠前，闪卡在最前面，然后是金卡、蓝卡，没领过的排在最后。只能领一次的卡，按你领的那一刻值多少钱来定，之后厂商改价、汇率变了，你手里的卡不升也不降。\n如果一些Token活动结束了，你领过的那张卡，也不会消失。\n它会被盖上一个红色的「绝版」章，写上它的最后一天，攒到的等级也留着，排在卡册的最后面，没领过的，就不放了。\n活动没了，但是卡还会在，算是给大家留个纪念玩。\n列表里也一样，领完的那一行，会啪的一下盖上一个墨印，写着「今天已领」和日期，手滑点错了，鼠标移到印章上，也可以点一下撤销。\n \n这些玩意，说实话都不是什么大功能。\n但我觉得，每天领Token羊毛这件小事，如果能让大家每天多开心一点点，在领福利的时候，也有一些情绪价值，那就太棒了。\n最后，非常简单的再跟大家聊一下Token羊毛用到的技术。\n第一层，就是雷达了。\n除了AIHOT原来那些看新闻的信息源，我们还专门给Token羊毛加了一批来源，厂商自己的账号和页面，专门挖羊毛的大佬，还有社区里的各种合集。\n雷达每个小时读一轮这些来源的新内容，先用一张故意撒得很宽的关键词网过一遍，免费、白嫖、薅、羊毛、额度、赠金、签到、限免这些，英文的free、credits也算，这一层足够的宽，宁可多放进来一些。\n毕竟多放进来一条，只是多花一次很短很便宜的模型调用，但漏掉的，就再也看不到了。\n过了这一层预筛的内容，再交给大模型去做一层额外的确定性判断，把里面提到的每一个活动都列出来，判断算不算羊毛，不算的话为什么不算，是中转站，是返利，还是只给付费用户的。\n第二层，是核实。\n雷达找到的，毕竟还只是线索。只有厂商自己的账号说了，或者有两个不同的来源都在说，或者帖子里直接链了厂商自己的页面，才会叫醒一个Agent去核实。\n只有一个社区帖子孤零零在说的，就先放着不管了，等第二个来源。\nAgent核实的时候，只认厂商自己的页面，还得确认这个页面真是这家厂商的，因为假官网上的活动页真的还不少，所以这个核实的Agent，得从厂商官网的首页，或者它的官方账号，一路点到这个活动页，确认是真的才可以。\n核实完了，还得再过一关，叫「值得领」。只能用很老的模型的，比如GLM-4.7、DeepSeek v3之类的，那肯定就不能要了，因为实在是没啥意义。\n很多营销文章喜欢把「每个模型各送100万Token」加在一起，写成「送7000万Token」，这种这个核实的Agent也会直接毙掉，然后各种返利和邀请链接、API中转站、二手积分、共享账号、接码多开等等的，也都直接毙掉，只给付费用户的、要先充值才送的，也毙掉，因为大家领不到。\n真的，这些都是踩坑踩出来的血泪经验。。。\n第三层，就是巡查了。\n羊毛上架以后，厂商随时可能改规则，可能提前结束，也可能额度早就被领完了。所以每一条上架的时候，我们都会从厂商的页面上照抄一到三句原话，送多少，怎么领，到哪天，之后专门有个脚本每天去对照两次。\n原话连着两次都找不到了，或者页面上新冒出来「暂停」「结束」这一类的字眼，就马上派一个Agent去复查。\n然后每天晚上，还会有一个Agent照着一本巡检手册，把页面上的每一条Token羊毛都重新过一遍，第二天早上，新上架的和换了链接的，会列成一张单子发给我和另一个Agent确认。\n这一整套呢，基本也都是Agent自己自动化在跑了，我每天早上，就像批奏折一样，扫一眼那张单子就行了。\n整体大概就是这样。\n最后，我希望这个小东西，能对大家有一些用。\n坦率的讲，我一直觉得，AI的世界，是不平权的。\n所有人都知道，真想拿好一点的大模型干点活，跑Agent、调API，几乎都是要钱的。\n但我也见过很多很多人，也想跟上这个时代，想试试大模型到底能干嘛，想用Agent做点有意思的事，可最后，却被额度，被费用，挡在了门外。\n我也知道，第一步有多难，因为那都是白花花的钱。\n所以，就做了这样一个小东西。\n它不碰任何灰色地带，用的全部都是各个厂商自己公开的运营活动，厂商发福利，本来就是希望更多的人来用一用，试一试，我们做的，就是把这些散在各处的活动，聚合到一页里，让更多需要的人看到。\n当然，坦率的讲，Token羊毛这种行为，肯定不是长久之计，活动总会结束，免费的额度，也总有用完的一天。\n但我希望，它能让你不用花一分钱，先把门推开，先用起来。\n等你用顺手了，觉得它值，那时候再花钱，就自会权衡利弊了。\n最后，Token羊毛今天才刚刚上线，肯定还有很多不完善的地方。\n如果你看到了我们还没收录的羊毛，可以点页面顶上的「提报一条羊毛」告诉我们，哪一条错了，也一样。\n这一页上的每一个额度，可能都没有那么多。\n但我希望，很多人第一次把AI真正用起来，可能就是从这里开始的。\n我也希望，尽我所能，帮大家抹平那一些信息差。\n让所有人，都感受到AI的魅力。\n也希望能激发，大家对AI的好奇。\n以上，既然看到这里了，如果觉得不错，随手点个赞、评论、转发三连吧，这对我们有特别大的帮助~\n谢谢你看我的文章，我们，下次再见。",
+    "preview_text": "最近，其实大家都能感觉到，Token好像越来越贵了，各家的额度也越来越不经用了。\n于是，怎么能省钱用更多的Token，就成了一个大家经常会讨论的话题。",
+    "title": "我做了一个监控全网免费Token的网站，今天向所有人免费开放。"
+   },
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/i/article/2119…",
+      "end": 23,
+      "expanded_url": "https://x.com/i/article/2119645953477259264",
+      "start": 0,
+      "status": 404,
+      "unwound_url": "https://x.com/i/article/2119645953477259264",
+      "url": "https://t.co/wWNcvZWSJB"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119915277009977814": {
+   "author": "MaxForAI",
+   "created_at": "2026-11-09T22:09:22.000Z",
+   "text": "前特斯拉Optimus的机器人模型研究员，跳槽Anthropic了。\n\n刚看到 @bingjietang07  宣布加入Anthropic。\n\n她之前在Tesla Optimus做机器人灵巧操作，涉及数据采集、策略训练、评估和真机部署。\n此前还在NVIDIA机器人实验室做过大量Sim-to-Real研究。\n\n巧的是，Anthropic刚刚发布的Claude Fable 5.2，也专门展示了超强机器人控制能力。\n在RoboDojo仿真机器人评测中，Fable 5.2拿到了64.9%，上一代Fable 5.1只有27.6%。\n官方还展示了模型控制机械臂完成拧瓶盖、操作魔方等任务。\n\n感觉这次人员流动挺值得关注的。\n随着通用大模型的能力持续提升，前沿实验室正在越来越认真地探索物理世界，而那些真正做过机器人训练和部署的人，也开始进入大模型实验室。",
+   "url": "https://x.com/i/status/2119915277009977814",
+   "article": null,
+   "entities": {
+    "mentions": [
+     {
+      "end": 54,
+      "id": "762960823270596609",
+      "start": 40,
+      "username": "bingjietang07"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "x.com/bingjietang07/…",
+      "end": 209,
+      "expanded_url": "https://twitter.com/bingjietang07/status/2119884727339643169",
+      "start": 186,
+      "url": "https://t.co/LZtfe1mb7o"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119884727339643169",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119914321455296598": {
+   "author": "MaxForAI",
+   "created_at": "2026-11-09T22:05:34.000Z",
+   "text": "woc做具身模型的都完蛋了。。\n\n@claudeai  Fable 5.2的机器人能力简直有点离谱。\n\n在RoboDojo Sim机器人仿真评测中，Fable 5.2直接拿到了64.9%，上一代Fable 5.1只有27.6%，Opus 5.5是39.4%，GPT-6 Astra只有29.8%。\n一代模型更新，直接提升了37.3个百分点，得分翻了2.35倍。\n\n最恐怖的地方在于，这是一个通用大模型。\n\n过去大家都觉得，机器人需要专门训练具身模型、世界模型，解决空间理解、动作规划、长程控制等问题。\n结果现在通用大模型的机器人任务能力，也开始出现这种幅度的跃迁。\n\n做Embodied AI的兄弟直接说：那还说啥了，给他得了。\n以前以为具身智能公司的竞争对手是其他机器人公司，现在发现，最大的竞争对手可能是Anthropic的一次模型更新。",
+   "url": "https://x.com/i/status/2119914321455296598",
+   "article": null,
+   "entities": {
+    "mentions": [
+     {
+      "end": 26,
+      "id": "1943306828697550848",
+      "start": 17,
+      "username": "claudeai"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "pic.x.com/t4Suk3VaR3",
+      "end": 204,
+      "expanded_url": "https://x.com/MaxForAI/status/2119914321455296598/photo/1",
+      "media_key": "3_2119913664396546048",
+      "start": 181,
+      "url": "https://t.co/t4Suk3VaR3"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119870115508531336": {
+   "author": "MaxForAI",
+   "created_at": "2026-11-09T19:09:55.000Z",
+   "text": "突发，Anthropic 凌晨 3 点正式发布 Claude Fable 5.2 和 Mythos 5.2！\n\n刚刚看完官方公布的评测，这次升级确实有点猛。\n\n首先是 Agentic Coding。\n在 FrontierCode 2.0 上，Fable 5.2 拿到了 49.1%，相比上一代 Fable 5.1 的 32.4%，直接提升了 16.7 个百分点。\n同时超过了 Opus 5.5 的 45.5%、GPT-6 Astra 的 42.8%，以及 Gemini 4 Carbon 的 41.1%。\n\n更有意思的是，在 High effort 下，Fable 5.2 的成绩就已经达到 45.3%，基本追平 Opus 5.5 的最高成绩，但单任务成本只有后者的一半左右。\n\n其他几个领域的提升也非常明显：\n\nFrontierSWE v2：56.3% → 69.9%\n科研 Agent：52.6% → 74.6%\n机器人 RoboDojo：27.6% → 64.9%\n复杂工作流 AutomationBench：31.4% → 51.4%\n\n其中机器人能力的提升尤其夸张，得分已经达到上一代的 2.35 倍。\n\n而且这次官方还公布了几个很有意思的实际案例⬇️\n一个工程师让 Fable 5.2 从空文件夹开始，协调超过 1000 个 Agent，连续运行 8 天，最终开发出一套能够在笔记本电脑上启动的操作系统。\n另一组 1000 个 Agent 则用了 30 个小时，完成了费马大定理证明的形式化工作。\n\n甚至还有两个关于黑洞的理论物理开放问题，Anthropic 称已经由 Fable 5.2 完成求解（行吧哥….）\n\n价格反而下降了 20%，现在是每百万输入 Token 8 美元、输出 Token 40 美元，生成速度相比上一代最高提升 30%。\n\n没等来GPT-6.2倒是等来了Fable-5.2….",
+   "url": "https://x.com/i/status/2119870115508531336",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/aMfQHurA5p",
+      "end": 234,
+      "expanded_url": "https://x.com/MaxForAI/status/2119870115508531336/photo/1",
+      "media_key": "3_2119870102577598464",
+      "start": 211,
+      "url": "https://t.co/aMfQHurA5p"
+     },
+     {
+      "display_url": "pic.x.com/aMfQHurA5p",
+      "end": 234,
+      "expanded_url": "https://x.com/MaxForAI/status/2119870115508531336/photo/1",
+      "media_key": "3_2119870102585905152",
+      "start": 211,
+      "url": "https://t.co/aMfQHurA5p"
+     },
+     {
+      "display_url": "x.com/claudeai/statu…",
+      "end": 258,
+      "expanded_url": "https://twitter.com/claudeai/status/2119867114450268322",
+      "start": 235,
+      "url": "https://t.co/4hdXE7fcbm"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119867114450268322",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119869507972092204": {
+   "author": "MaxForAI",
+   "created_at": "2026-11-09T19:07:30.000Z",
+   "text": "你是说我等到三点你他妈就发个200刀的游戏机么？？？\n\n刚刚，OpenAI Developers官宣，和 ModRetro联名的Chromatic复古掌机登陆 Supply Co.。\n\n我去研究了一下，发现这个东西还真挺有意思的。\n\nChromatic本身是一款兼容 Game Boy / Game Boy Color 游戏的复古掌机，但 OpenAI 这次给它配了一套完整的 Codex 游戏开发工具。\n\n你只需要在 Codex 里描述自己想做什么游戏，它就可以帮你设计关卡、绘制像素角色、制作动画、编写游戏逻辑，最后直接编译成 ROM。\n\n更有意思的是，它还能在模拟器里自动测试游戏，模拟玩家按键操作、截图检查结果。你甚至可以直接圈出游戏画面里想修改的部分，让 Codex 继续调整。\n\n等游戏做完，就能通过兼容的可写入卡带，把它装到真正的掌机上玩。\n\nOpenAI 甚至已经展示了 13 款用 Codex 制作的 Game Boy 游戏，网页上就能直接试玩。\n\n确实有点意思。\n\n但我的GPT-6.2呢？？",
+   "url": "https://x.com/i/status/2119869507972092204",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/openaidevs/sta…",
+      "end": 212,
+      "expanded_url": "https://twitter.com/openaidevs/status/2119864571733446774",
+      "start": 189,
+      "url": "https://t.co/1SkZUZwXzu"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119864571733446774",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119832597857706313": {
+   "author": "MaxForAI",
+   "created_at": "2026-11-09T16:40:50.000Z",
+   "text": "？？？Gemini真的要发新模型了？？\n\n刚刚，Google DeepMind的姚顺宇突然发了一条推文：\n\n“为什么Gemini的模型代号总是泄露得这么快？我还以为这次起得足够随机了😂”\n\n这就有点耐人寻味了。\n\n最近网上接连传出Gemini 4新模型的消息，其中一个代号为Hyperion的模型家族被发现在Devin CLI中，包含minimal、low、medium、high等不同推理档位。\n\n另外还有一个叫Krypton的模型，据传性能甚至超过了此前发布的Carbon。\n\n虽然Google目前还没有正式官宣，而且姚顺宇也没有明确提到是哪一个代号，但他这条推文显然让这些爆料更值得关注了。\n\nCarbon才发布不到两周，Google这是又准备发新模型了？？\n\n不是哥们，你们真的实现RSI了嘛！？",
+   "url": "https://x.com/i/status/2119832597857706313",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/shunyuyao14/st…",
+      "end": 183,
+      "expanded_url": "https://twitter.com/shunyuyao14/status/2119797765240750473",
+      "start": 160,
+      "url": "https://t.co/3nfqpPrNil"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119797765240750473",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119717275247022506": {
+   "author": "MaxForAI",
+   "created_at": "2026-11-09T09:02:35.000Z",
+   "text": "神了，时隔整整341天后，百度文心大模型的公众号终于更新了.....\n\n上一次发文章还是2025年12月3日，距离今天已经过去了快一年。\n\n终于想起密码了么😂 https://t.co/aVl1Ikt5N2",
+   "url": "https://x.com/i/status/2119717275247022506",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/aVl1Ikt5N2",
+      "end": 103,
+      "expanded_url": "https://x.com/MaxForAI/status/2119717275247022506/photo/1",
+      "media_key": "3_2119717263427432448",
+      "start": 80,
+      "url": "https://t.co/aVl1Ikt5N2"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119924261058216397": {
+   "author": "xiaohu",
+   "created_at": "2026-11-09T22:45:04.000Z",
+   "text": "卧槽 \n\nClaude Fable 2发布\n还送了两次重置\n\n根据注册时间长短和用户级别赠送\n\n&lt;6个月：1次\n6-12个月：2次\n&gt;12个月：3次 https://t.co/SgcUbhPyO2 https://t.co/ILvhSfhiDY",
+   "url": "https://x.com/i/status/2119924261058216397",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/SgcUbhPyO2",
+      "end": 104,
+      "expanded_url": "https://x.com/xiaohu/status/2119924261058216397/photo/1",
+      "media_key": "3_2119923685276692480",
+      "start": 81,
+      "url": "https://t.co/SgcUbhPyO2"
+     },
+     {
+      "display_url": "x.com/ClaudeDevs/sta…",
+      "end": 128,
+      "expanded_url": "https://twitter.com/ClaudeDevs/status/2119868704544711108",
+      "start": 105,
+      "url": "https://t.co/ILvhSfhiDY"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119868704544711108",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119774478788141417": {
+   "author": "xiaohu",
+   "created_at": "2026-11-09T12:49:53.000Z",
+   "text": "字节Seedream 5.5正式发布\n支持多轮像素级编辑能力  一致性保持简直炸裂\n\nSeedream 5.5，极大改善了多轮编辑稳定性、真实感升级、小字与多语言渲染、透明图、gif图生成等能力\n\n最多支持超过 100 轮的编辑而不损失图像\n\n下面是我的测试↓\n\n经过30多轮编辑，人物和文字在他们的位置上死死定住，连小字都能定住",
+   "url": "https://x.com/i/status/2119774478788141417",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/xFTRRp3UGw",
+      "end": 154,
+      "expanded_url": "https://x.com/xiaohu/status/2119774478788141417/photo/1",
+      "media_key": "16_2119770855102455809",
+      "start": 131,
+      "url": "https://t.co/xFTRRp3UGw"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119745234167050582": {
+   "author": "xiaohu",
+   "created_at": "2026-11-09T10:53:41.000Z",
+   "text": "在家里放了个Mac mini\n然后和自己的笔记本进行了连接\n\n一部分任务完全在mini 上运行，我可以从笔记本上远程直接在终端里进行对话\n\n所有开发以及其他任务可以实时进行同步，我现在可以随时关上笔记本出门，其中一部分任务还能进行实时同步...\n\n通过Rex进行终端同步，也可以通过uu远程进行操控...\n\n同时mini还能作为家庭中枢...",
+   "url": "https://x.com/i/status/2119745234167050582",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/8TkSrBrSwL",
+      "end": 176,
+      "expanded_url": "https://x.com/xiaohu/status/2119745234167050582/photo/1",
+      "media_key": "3_2119745178277953536",
+      "start": 153,
+      "url": "https://t.co/8TkSrBrSwL"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119722108179898666": {
+   "author": "xiaohu",
+   "created_at": "2026-11-09T09:21:47.000Z",
+   "text": "Meta 用旗舰当老师，助手忘事少了 2.4 倍\n\n几周前发布的旗舰 Muse Wonder，Meta 没把它直接塞进每个对话。\n\n它拿 Muse Wonder 当训练源，把 Muse 和 Meta AI 背后现有的模型重新训了一遍，做成专门化版本，已经推给日常用户。\n\n冲着两个最烦人的毛病去：聊久了忘事，办事半路卡死。\n\n1）主动记忆，训的是三种判断：\n哪些是临时的、哪些是长期的\n跨时间推理\n哪些还管用、哪些已经过期\n\n需要关键背景的任务，Muse 准确率从 76% 涨到 90%。\n漏掉关键背景的比例从 24% 降到 10%，「少忘 2.4 倍」就是这么算出来的。\n\n2）官方演示：让 Muse 规划周六长跑\n它自己从日历和健康记录里翻出三条要求：每周加 1 公里、走平路护膝、10 点前赶到图书馆\n然后排出 8 点出发、15.1 公里的路线，直接写回日历\n\n3）主动专注，遇阻不停工\n接口没响应、首选方案走不通时，它会重试，或者从错误里恢复，或者换条路绕过去\n遇到突发状况的日常任务，完成率提升 67%\n\n另一个演示：它核对完门诊账单和保险卡、拟好电话要点，用户中途说「改用文字跟进」，它直接改成写邮件推进理赔，前面做好的部分都没丢\n\n4）综合分：个人超级智能指数从 38% 到 47%\n\n两个产品用的是同一批模型，强化的方向不一样：\nMuse 偏跑腿，几件事并行也不串线，分得清该自己推进还是叫你拍板\nMeta AI 偏陪你想，帮你拆问题、追问到点上，你聊到一半变卦也跟得上\n\n你更受不了 AI 哪个毛病：聊久了忘事，还是办事半路卡死？",
+   "url": "https://x.com/i/status/2119722108179898666",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/Gc9JSFG2PK",
+      "end": 185,
+      "expanded_url": "https://x.com/xiaohu/status/2119722108179898666/photo/1",
+      "media_key": "3_2119722101108277249",
+      "start": 162,
+      "url": "https://t.co/Gc9JSFG2PK"
+     },
+     {
+      "display_url": "pic.x.com/Gc9JSFG2PK",
+      "end": 185,
+      "expanded_url": "https://x.com/xiaohu/status/2119722108179898666/photo/1",
+      "media_key": "3_2119722101104074752",
+      "start": 162,
+      "url": "https://t.co/Gc9JSFG2PK"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119597464185671878": {
+   "author": "xiaohu",
+   "created_at": "2026-11-09T01:06:30.000Z",
+   "text": "万亿估值，开始打折了\n这是不是 AI 大泡沫？\n\n小互AI日报： 一周 AI 大事件大盘点\n过去一周AI圈发生了哪些大事，发布了哪些产品，有哪些八卦，一网打尽...↓\n\n11 月 5 日，纳斯达克一天跌 5.5%，英伟达跌 9.3%，一天蒸发近 4500 亿美元。OpenAI 新一轮只到账 110 亿，九月定的目标是 300 亿；Anthropic 宁可估值打折，也要赶在感恩节前上市。\n\n· 第 2 名：美国 41 项地方投票，40 项要限制数据中心；内蒙古一个园区首期 120 兆瓦，一年就交付\n\n· 第 3 名：DeepMind 的 Agent 几周找到老式 RSA 加密两个新弱点，伪造签名理论上快约 1600 倍\n\n· 第 4 名：Uber 最忙的一周 3.2 亿单，AI Agent 替人叫车只有 4 次\n\n· 第 6 名：OpenAI 自己披露，GPT-6 Astra 做安全研究任务时会悄悄放水\n\n· 还有 20 多款新产品一口气看完，和本周 AI 圈八卦\n\n9 分钟看完 👇",
+   "url": "https://x.com/i/status/2119597464185671878",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/AVEXpo6mYv",
+      "end": 199,
+      "expanded_url": "https://x.com/xiaohu/status/2119597464185671878/video/1",
+      "media_key": "13_2119594921212735488",
+      "start": 176,
+      "url": "https://t.co/AVEXpo6mYv"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119690534432493778": {
+   "author": "xiaohu",
+   "created_at": "2026-11-09T07:16:20.000Z",
+   "text": "Grok Bot用量\n重置了\n\n有人发现Grok Bot最近疯狂掉量，老马被质疑在修改用量规则，被人吐槽\n\n今天扛不住重置了",
+   "url": "https://x.com/i/status/2119690534432493778",
+   "article": null,
+   "entities": null,
+   "referenced_tweets": null
+  },
+  "2119930288130376050": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T23:09:01.000Z",
+   "text": "ICYMI 🔥: Claude Fable 5.2 is included for up to 50% of Claude subscription until November 16. \n\nTesting allowance 👀\n\n&gt; \"Fable is included for up to 50% of your plan limits until November 16. After that, it’s available with usage credits.\" https://t.co/f849qM5h9e https://t.co/VDX7fpuC27",
+   "url": "https://x.com/i/status/2119930288130376050",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/f849qM5h9e",
+      "end": 265,
+      "expanded_url": "https://x.com/testingcatalog/status/2119930288130376050/photo/1",
+      "media_key": "3_2119929803050561537",
+      "start": 242,
+      "url": "https://t.co/f849qM5h9e"
+     },
+     {
+      "display_url": "x.com/testingcatalog…",
+      "end": 289,
+      "expanded_url": "https://twitter.com/testingcatalog/status/2119868820466680062",
+      "start": 266,
+      "url": "https://t.co/VDX7fpuC27"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119868820466680062",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119868820466680062": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T19:04:46.000Z",
+   "text": "BREAKING 🔥: Anthropic officially announced Claude Fable 5.2 and Mythos 5.2 models. \n\n&gt; Both models are powered by the same underlying model with different set of safeguards. \n\n&gt; These models are 30% faster and 20% cheaper than 5.1 series!\n\nCoding performance! 👀 https://t.co/pnWZb40FoK https://t.co/FIuLGT6QCd",
+   "url": "https://x.com/i/status/2119868820466680062",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/pnWZb40FoK",
+      "end": 291,
+      "expanded_url": "https://x.com/testingcatalog/status/2119868820466680062/photo/1",
+      "media_key": "3_2119868813793452033",
+      "start": 268,
+      "url": "https://t.co/pnWZb40FoK"
+     },
+     {
+      "display_url": "x.com/claudeai/statu…",
+      "end": 315,
+      "expanded_url": "https://twitter.com/claudeai/status/2119867114450268322",
+      "start": 292,
+      "url": "https://t.co/FIuLGT6QCd"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119867114450268322",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119864118945382448": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T18:46:05.000Z",
+   "text": "BREAKING 🔥: Claude Fable 5.2 and Claude Mythos 5.2 have been spotted on the AWS Bedrock Pricing page. \n\n&gt; Pricing: input $8 per 1M tokens, output $40 per 1M tokens. \n\nEarlier traces pointed to version 5.5 instead of 5.2. Will it be a smaller-than-expected upgrade? https://t.co/CZbQPUwXwi https://t.co/NKnSXDnEbF",
+   "url": "https://x.com/i/status/2119864118945382448",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/CZbQPUwXwi",
+      "end": 291,
+      "expanded_url": "https://x.com/testingcatalog/status/2119864118945382448/photo/1",
+      "media_key": "3_2119864055384903680",
+      "start": 268,
+      "url": "https://t.co/CZbQPUwXwi"
+     },
+     {
+      "display_url": "pic.x.com/CZbQPUwXwi",
+      "end": 291,
+      "expanded_url": "https://x.com/testingcatalog/status/2119864118945382448/photo/1",
+      "media_key": "3_2119864100037459968",
+      "start": 268,
+      "url": "https://t.co/CZbQPUwXwi"
+     },
+     {
+      "display_url": "x.com/tensorson/stat…",
+      "end": 315,
+      "expanded_url": "https://twitter.com/tensorson/status/2119857312760234239",
+      "start": 292,
+      "url": "https://t.co/NKnSXDnEbF"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119857312760234239",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119888903742320882": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T20:24:34.000Z",
+   "text": "Nuance Labs has launched Emma, a free AI character that users can video chat with, built on its new Nuplex model.\n\nEmma can listen and talk at the same time, nod, smile, and change her appearance while someone is speaking, like a real person on a video call.\n\nIn @nuance_ai tests based on 1,785 recorded questions, Nuplex matched a human's response time in 89% of cases.",
+   "url": "https://x.com/i/status/2119888903742320882",
+   "article": null,
+   "entities": {
+    "mentions": [
+     {
+      "end": 273,
+      "id": "1965285115296432128",
+      "start": 263,
+      "username": "nuance_ai"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "pic.x.com/srEcKgsbqB",
+      "end": 303,
+      "expanded_url": "https://x.com/testingcatalog/status/2119888903742320882/video/1",
+      "media_key": "13_2119888619024318464",
+      "start": 280,
+      "url": "https://t.co/srEcKgsbqB"
+     },
+     {
+      "display_url": "x.com/fangchangma/st…",
+      "end": 327,
+      "expanded_url": "https://twitter.com/fangchangma/status/2119852363494371466",
+      "start": 304,
+      "url": "https://t.co/shI3PWso1f"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119852363494371466",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119861150527488029": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T18:34:18.000Z",
+   "text": "Archgen has launched an AI agent that autonomously discovers and fixes issues in computer chip designs.\n\n> Engineers usually fix these mistakes by hand, creating a bottleneck and slowing production.\n\n> Archgen says its main focus is building chips as stacked layers, which can pack up to 40% more compute into less space but are harder to design.\n\n> The company has created an AI thermal engine that is 5,000x faster than conventional EDA tools, with up to a 40% increase in efficiency.",
+   "url": "https://x.com/i/status/2119861150527488029",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/JfwLOYFrYS",
+      "end": 306,
+      "expanded_url": "https://x.com/testingcatalog/status/2119861150527488029/photo/1",
+      "media_key": "3_2119860729679417344",
+      "start": 283,
+      "url": "https://t.co/JfwLOYFrYS"
+     },
+     {
+      "display_url": "x.com/HariAyapps/sta…",
+      "end": 330,
+      "expanded_url": "https://twitter.com/HariAyapps/status/2119839344836145361",
+      "start": 307,
+      "url": "https://t.co/77w3Hxzpju"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119839344836145361",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119852955885297719": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T18:01:44.000Z",
+   "text": "META 🔥: A new Muse Ember model from Meta is now available on the Meta Model API and Muse Code.\n\nMuse Ember is a small, low-cost model that performs on par with Claude 5.5 Haiku. \n\nSmall testing time 👀 https://t.co/QciNexFUAJ https://t.co/HvtRgLhfjQ",
+   "url": "https://x.com/i/status/2119852955885297719",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/QciNexFUAJ",
+      "end": 224,
+      "expanded_url": "https://x.com/testingcatalog/status/2119852955885297719/photo/1",
+      "media_key": "3_2119852767854444545",
+      "start": 201,
+      "url": "https://t.co/QciNexFUAJ"
+     },
+     {
+      "display_url": "x.com/finkd/status/2…",
+      "end": 248,
+      "expanded_url": "https://twitter.com/finkd/status/2119851180948152590",
+      "start": 225,
+      "url": "https://t.co/HvtRgLhfjQ"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119851180948152590",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119849031447019760": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T17:46:08.000Z",
+   "text": "GOOGLE 🔥: Users can now build AI apps powered by a wide range of Google Maps features, including 3D buildings, Street View, Weather, and others, with simple prompts. \n\nGoogle AI Maps Studio 👀 https://t.co/1AqZ1lDkZN",
+   "url": "https://x.com/i/status/2119849031447019760",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/1AqZ1lDkZN",
+      "end": 215,
+      "expanded_url": "https://x.com/GoogleAIStudio/status/2119837788937896234/video/1",
+      "media_key": "13_2119836904166154240",
+      "start": 192,
+      "url": "https://t.co/1AqZ1lDkZN"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119844861314527567": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T17:29:34.000Z",
+   "text": "ClickUp has started rolling out video generation inside the Brain² AI assistant!\n\nBrain creates a storyboard for each shot, so users can see the full plan before spending tokens. \n\nWe asked Brain for a video of a robot working with many monitors and finding the best AI news. It created a 24-second video with three camera angles.\n\nHere is the flow 🤖",
+   "url": "https://x.com/i/status/2119844861314527567",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/24bKCxks40",
+      "end": 302,
+      "expanded_url": "https://x.com/testingcatalog/status/2119844861314527567/video/1",
+      "media_key": "13_2119844780771315712",
+      "start": 279,
+      "url": "https://t.co/24bKCxks40"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119801567784120603": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T14:37:32.000Z",
+   "text": "Nace AI has released Drex Max 1.1, its decision model that helps AI agents pick the right next step faster and more confidently.\n\nIt can check what the agent sees on screen and weigh which available option is most likely right.\n\nOn Artificial Analysis, it ranked 73, as high as its closest rival, at 1/8 the price ($0.03 per 1 million tokens).",
+   "url": "https://x.com/i/status/2119801567784120603",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/VelICigEhD",
+      "end": 301,
+      "expanded_url": "https://x.com/testingcatalog/status/2119801567784120603/photo/1",
+      "media_key": "3_2119801138903957504",
+      "start": 278,
+      "url": "https://t.co/VelICigEhD"
+     },
+     {
+      "display_url": "x.com/NaceAI/status/…",
+      "end": 325,
+      "expanded_url": "https://twitter.com/NaceAI/status/2119792132558819447",
+      "start": 302,
+      "url": "https://t.co/Z9X686lJFP"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119792132558819447",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119780620695925012": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T13:14:18.000Z",
+   "text": "GOOGLE 🔥: New TPU 8tx and TPU 8i Max have been announced! \n\n> TPU 8tx is designed for large-scale training and targets regulated enterprises and governments running models and autonomous agents on sensitive information.\n\n> TPU 8i Max is designed for low-latency inference and addresses the memory demands of agents processing large codebases, lengthy videos, and million-token contexts.\n\nRead more below 👀",
+   "url": "https://x.com/i/status/2119780620695925012",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/atTqOwC53F",
+      "end": 305,
+      "expanded_url": "https://x.com/testingcatalog/status/2119780620695925012/photo/1",
+      "media_key": "3_2119780482086789120",
+      "start": 282,
+      "url": "https://t.co/atTqOwC53F"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119759816092442956": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T11:51:38.000Z",
+   "text": "BYTEDANCE 🔥: Seedream 5.5 image model is rolling out on Dreamina, CupCut and BytePlus! \n\nSeedream 5.5 is the latest image model from ByteDance, featuring more realistic images and stable editing.  https://t.co/MRnuZ53O2f",
+   "url": "https://x.com/i/status/2119759816092442956",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/MRnuZ53O2f",
+      "end": 220,
+      "expanded_url": "https://x.com/ByteDanceSeed_/status/2119720475068920181/video/1",
+      "media_key": "13_2119716100359548928",
+      "start": 197,
+      "url": "https://t.co/MRnuZ53O2f"
+     }
+    ]
+   },
+   "referenced_tweets": null
+  },
+  "2119716328818737319": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T08:58:49.000Z",
+   "text": "DAILY AI BRIEF 🗞 — Nov 9\n\nOPENAI 🔥:\n- Dots can now pull sign-in codes from a connected inbox and fill them in to log in for you.\n- Faro and Tonada, two Argentinian Spanish ChatGPT Voice voices, are live globally.\n- A Codex Edition of the ModRetro Chromatic handheld is coming to OpenAI Supply Co.\n- Wyvern, a stealth OpenAI-routed model with 1M context, was spotted inside Devin (via abhinavflac).\n\nANTHROPIC 🔥:\n- FT reports Anthropic took over about $3.4B of gas-generator orders for 1.7GW of data-center power.\n- Claude Code Projects are getting a collaborative mode with recent activity and scheduled-task overviews.\n- Create files and artifacts is rolling out to free Claude users (via BartokGabi17).\n- Anthropic is also working on Duet invites and merging Claude Enterprise organizations.\n- Claude \"Reflection\" feature is rolling out to more users. \n- Anthropic is working on the invite logic for Claude Duet.\n\nGOOGLE 🔥:\n- Google is testing a next-generation Gemini agent for Gemini Enterprise, already in internal use.\n- An early Gemini checkpoint called Krypton-a reportedly beats Carbon and Argon in coding demos (via chetaslua).\n\nSPACEXSI 🔥:\n- Grok Bot Slack integration is rolling out so you can DM or @ mention your bot from Slack.\n- Elon says Grok Bot token-efficiency and smarter-behavior fixes are landing overnight.\n- Grok Bot Meetings briefly appeared for some accounts before being pulled (via alexmichael).\n\nAPPLE 🔥:\n- Bloomberg reports CEO Ternus pressed Federighi to accelerate AI, with Apple eyeing agentic Siri as early as next year.\n\nPERPLEXITY 🔥:\n- Perplexity is working on a Multiplayer mode for Projects.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing.",
+   "url": "https://x.com/i/status/2119716328818737319",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/testingcatalog…",
+      "end": 302,
+      "expanded_url": "https://twitter.com/testingcatalog/status/2118999078717575288",
+      "start": 279,
+      "url": "https://t.co/5Vibi43OUc"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2118999078717575288",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119914321245577334": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T22:05:34.000Z",
+   "text": "Meta ❤️ Google Cloud \n\nMuse Wonder, Muse Spark 1.3, and Muse Ember are now available on GCP in public preview.\n\nThat’s new 👀 https://t.co/OIYHWk9NzJ https://t.co/G3FcvFlql4",
+   "url": "https://x.com/i/status/2119914321245577334",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/OIYHWk9NzJ",
+      "end": 148,
+      "expanded_url": "https://x.com/testingcatalog/status/2119914321245577334/photo/1",
+      "media_key": "3_2119914316619010048",
+      "start": 125,
+      "url": "https://t.co/OIYHWk9NzJ"
+     },
+     {
+      "display_url": "pic.x.com/OIYHWk9NzJ",
+      "end": 148,
+      "expanded_url": "https://x.com/testingcatalog/status/2119914321245577334/photo/1",
+      "media_key": "3_2119914316639985664",
+      "start": 125,
+      "url": "https://t.co/OIYHWk9NzJ"
+     },
+     {
+      "display_url": "x.com/finkd/status/2…",
+      "end": 172,
+      "expanded_url": "https://twitter.com/finkd/status/2119910354369257529",
+      "start": 149,
+      "url": "https://t.co/G3FcvFlql4"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119910354369257529",
+     "type": "quoted"
+    }
+   ]
+  },
+  "2119894220748280190": {
+   "author": "testingcatalog",
+   "created_at": "2026-11-09T20:45:42.000Z",
+   "text": "SPACEXSI 🔥: Grok Bot weekly limits have been reset for all users! \n\nBesides that, overall quota consumption supposed to improve drastically. \n\nLet’s see 👀 https://t.co/2BaFnnO4xt https://t.co/mlKuEerWnx",
+   "url": "https://x.com/i/status/2119894220748280190",
+   "article": null,
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/2BaFnnO4xt",
+      "end": 178,
+      "expanded_url": "https://x.com/testingcatalog/status/2119894220748280190/photo/1",
+      "media_key": "3_2119894214716628992",
+      "start": 155,
+      "url": "https://t.co/2BaFnnO4xt"
+     },
+     {
+      "display_url": "pic.x.com/2BaFnnO4xt",
+      "end": 178,
+      "expanded_url": "https://x.com/testingcatalog/status/2119894220748280190/photo/1",
+      "media_key": "3_2119894214775336960",
+      "start": 155,
+      "url": "https://t.co/2BaFnnO4xt"
+     },
+     {
+      "display_url": "x.com/bot/status/211…",
+      "end": 202,
+      "expanded_url": "https://twitter.com/bot/status/2119871982946971659",
+      "start": 179,
+      "url": "https://t.co/mlKuEerWnx"
+     }
+    ]
+   },
+   "referenced_tweets": [
+    {
+     "id": "2119871982946971659",
+     "type": "quoted"
+    }
+   ]
+  }
+ },
+ "referenced_includes": {}
+}

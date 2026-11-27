@@ -1,0 +1,64 @@
+Alioxis News AI新闻收集报告 — 2026-11-14（Asia/Taipei）
+============================================================
+完成时间：2026-11-14 约 08:15 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-14/
+产出：ai.json（20）、_cover_prompts_ai.json（20）、本报告、_aihot_daily.json、_aihot_summary.txt、_aihot_clues.json、_prior_urls.json（2301 URL）
+
+一、条数与头条
+- 条数：20（目标 15–20，达上限）
+- Lead（#00）：OpenAI 推出 ChatGPT Wallet：与美国运通、万事达、Visa 合作，智能体“dots”付款不接触真实卡号、每笔需 Face ID/指纹确认，先向美国 Pro 用户开放
+  URL：https://openai.com/index/introducing-chatgpt-wallet/
+  理由：当日最重要的 AI 产品发布（智能体支付 + 三大卡组织），OpenAI 官方文章 WebFetch 全文核对。AIHOT 11-14 lead 为“以色列科技界关注英伟达领导层变动”（本频道 #19），新闻性弱于 Wallet，降为尾条。
+  备选：#01 Blackwell 芯片训练痕迹 / #02 阿莫迪对谈戴蒙 / #03 DeepSeek 全家桶 API
+
+二、与 v.json 交叉
+- 收尾时 v.json 已存在（16 条），已做硬 URL 去重：overlap=0。
+- 软同题（保留，本频道取官方原文全貌，v 为推文角度）：ChatGPT Wallet（v TC / #00 OpenAI 官方）、Google Wallet 接入 Gemini（v TC / #09 Google 博客）、DeepSeek 全家桶 API（v Max / #03 官方新闻页）、Blackwell 训练指纹（v Max / #01 TechCrunch）。若需让给 v，建议优先撤 #09、#03。
+- 前几日已收、本日主动未收：Edge0-145B（11-13 ai 已收，AIHOT 本日模型条唯一一条）、MiniMax H3-Image（11-11 已收）、Fireworks/Notion 泄露（Fireworks 11-11 ai 已收；Notion 11-12 更新为后续，未收）、Claude Duet 邀请（11-13 v 已收）。
+
+三、AIHOT 使用
+- 已跑 node scripts/fetch-aihot-daily.js 2026-11-14（成功，lead：Nvidia 领导层变动引发以色列科技界关注）；按 11-13 格式用脚本从 _aihot_daily.json 生成 _aihot_summary.txt、_aihot_clues.json。
+- 采用：DeepSeek 全家桶 API（#03，原链为更新日志锚点，改链官方新闻页 news261113）、ChatGPT Wallet（#00，原链 X 推文，改链 openai.com 官方文章）、llama.cpp v1.0.0（#04，原链 X 推文，改链 Hugging Face 官方博客）、Antigravity /teamwork（#05）、Sierra Poppy（#08）、以色列 VC（#19）、Anthropic 炉边谈话（#02，原链 X 推文，改链 Business Insider 报道内容）、Blackwell 芯片（#01）、GPT-6 Astra 失准报告（#07）、Jensen 离任融资缺口（#12，flash）、腾讯混元 Hy Realtime（#06，flash）、Apple HomeView（#10，flash）、MOSS-Live（#14，flash）、常驻智能体（#15，flash，claude.com/blog 链接 301 到 claude.com/resources/articles/…，采用落地页 URL）、Muse 外呼（#13，flash 原链 X，改链 TechCrunch）。
+- 未采用：Edge0（已重复）、Nvidia 建议箱请愿/Catanzaro 伪造信（Rohan Paul 转推、观点与传闻类，WIRED 原文未核）、Claude Duet 邀请（v 已收）、Claude Code Stop hook 技巧（X 推文、偏 v 频道）。
+
+四、补充采用（非 AIHOT）
+- Gemini 连接 Google Wallet（#09，Google 博客）；LangChain C 轮（#11，LangChain 博客 + TechCrunch）；NPR 谷歌学校 AI 概览（#16）；Ai2 XYBench（#17）；SpaceX 740 亿美元超算园区（#18，UPI；SpaceX updates 页为滚动 feed 不适合作链接）。
+
+五、去重
+- _prior_urls.json：全部历史 ai.json + v.json（不含 11-14），共 2301 个 URL；本日 20 条 URL 0 命中，内部无重复。
+
+六、来源核实方式
+- 20 条均经 curl（trafilatura 抽正文）或 WebFetch 读取原文核对数字与日期；OpenAI Wallet、UPI、HF 博客、混元公众号 curl 被拦后用 WebFetch 读取。
+- 次要补充信息来自搜索摘录（未单独抓取）：#09 Plaid 支持贷款/投资账户（Plaid 博客摘录）、#18 路透“AI 业务三季度贡献过半营收”（investing.com 转载摘录）、#11 TechCrunch B 轮估值对比（TechCrunch 摘录）。
+- published_at：有精确时间者换算为 +08:00（TechCrunch Blackwell 18:40 UTC → 11-14 02:40；融资缺口 22:43 UTC → 11-14 06:43；以色列 12:52 UTC → 11-13 20:52；Muse 22:22 UTC 11-12 → 11-13 06:22；Sierra 17:00 UTC → 11-14 01:00；NPR 05:00 ET → 11-13 18:00；XYBench 08:00 UTC → 11-13 16:00；UPI 5:24 PM ET 11-12 → 11-13 06:24；混元公众号 create_time 11-13 16:32）。仅有日期者为估计：#00 按 CNBC 18:56 UTC 报道写 11-14 02:00；#02 直播美东中午 → 写 11-14 03:00；#04 HF 评论“约 10 小时前” → 写 11-13 22:00；#09 写 11-14 01:00；#11 参照 TechCrunch 11:37 AM PST 写 11-14 03:00；#10 写 11-13 21:00；其余（#03 #05 #07 #14 #15）按惯例 T12:00+08:00。
+
+七、缺口与风险
+- #07 Astra 失准报告事件发生于 10 月 8 日，报告 11 月 12 日更新，新闻时效靠 AIHOT 收录，非全新事件。
+- #14 MOSS-Live、#06 Hy Realtime 评测均为厂商自报；#03 DeepSeek 工具调用单价表为图片/动态内容，未抓到具体价格，摘要未写数字。
+- #02 IPO 募资额与估值来自 Yahoo 援引 IPO 官网，未直接核 ipo.anthropic.com 当前页面。
+- #18 SpaceX 公告为美东 11-12（周四），处于 36 小时窗口边缘。
+- 英伟达相关 3 条（#01、#12、#19）、智能体支付/电商 3 条（#00、#08、#13），如嫌扎堆可压缩 #19 或 #13。
+- 本频道国内源偏少（#03 DeepSeek、#06 腾讯混元、#14 复旦 OpenMOSS）。
+- 未生成封面、未 build、未发布。
+
+八、条目清单
+#00 OpenAI 推出 ChatGPT Wallet：与美国运通、万事达、Visa 合作，智能体“dot… | https://openai.com/index/introducing-chatgpt-wallet/
+#01 TechCrunch：研究称中国最强开源模型带有被禁运英伟达 Blackwell 芯片训练“指纹”，… | https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen/
+#02 Anthropic 上市前夕阿莫迪对谈摩根大通 CEO 戴蒙：算力预测是“最深的商业难题”，公司倾向… | https://www.businessinsider.com/anthropic-ipo-pitch-dario-amodei-compute-dilemma-2026-11
+#03 DeepSeek 发布“全家桶应用 API”：联网搜索、深度思考搜索、文件输入、阅读链接与安全校验一… | https://api-docs.deepseek.com/zh-cn/news/news261113
+#04 llama.cpp 与 ggml 发布 v1.0.0：首个稳定大版本，此后 API/ABI 不兼容将… | https://huggingface.co/blog/ggml-org/llama-cpp-v1
+#05 Google Research 公布 Antigravity /teamwork 多智能体成果：自动… | https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/
+#06 腾讯混元发布实时语音模型 Hy Realtime：新增工具调用与唱歌能力，已上线元宝语音通话与腾讯客… | https://mp.weixin.qq.com/s/bFxAT04ohJs9hPcjjin3bg
+#07 OpenAI 公布失准报告：GPT-6 Astra 把普通对齐评估误判为“被禁止的能力开发”，违背指… | https://alignment.openai.com/misalignment-reports/stopping-a-running-alignment-evaluation/
+#08 Sierra 发布个人智能体协议 Poppy 1.0：Shopify 为全部商家默认开启，Meta … | https://sierra.ai/blog/releasing-poppy
+#09 Gemini 可连接 Google Wallet 与银行账户：美国全体用户上线，@Google Wa… | https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/
+#10 苹果 HomeView 正式开售：7 英寸屏 + 全新 Siri AI，可凭人脸识别最多 6 名家庭… | https://www.apple.com/newsroom/2026/11/apple-homeview-available-today/
+#11 LangChain 完成 3 亿美元 C 轮、估值 30 亿美元：CapitalG 领投，LangS… | https://www.langchain.com/blog/series-c
+#12 TechCrunch：黄仁勋离任给 AI 创业融资“炸出大洞”，英伟达今年已参与 105 轮投资，投… | https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/
+#13 Meta 个人智能体 Muse 可替用户给美国商家打电话：订餐厅、办预约、找客服，仅限付费订阅（20… | https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/
+#14 复旦 OpenMOSS 发布 MOSS-Live 全双工评测解读：无关语音误接话率 2%（GPT-L… | https://openmoss.ai/blog/cn/moss-live/
+#15 Anthropic 发布“常驻智能体”构建指南：事件收件箱、定时器、记忆、权限、发件箱五大原语，称 … | https://claude.com/resources/articles/building-always-on-agents
+#16 NPR：谷歌要求学校“要么连 AI 概览一起用、要么放弃 Google 搜索”，家长与议员强烈反对，… | https://www.npr.org/2026/11/13/nx-s1-6029408/google-ai-search-schools
+#17 Ai2 发布 XYBench：8115 道“问错了问题”的真实提问，测出 GPT-5、Claude … | https://allenai.org/blog/xybench
+#18 SpaceX 宣布投资超 740 亿美元建两座 AI 超算园区：亚利桑那约 500 亿美元、得州 S… | https://www.upi.com/Top_News/US/2026/11/12/spacex-musk-AI-supercomputing-texas-arizona/8361794521839/
+#19 TechCrunch：英伟达“第二故乡”以色列忧心黄仁勋离任，当地投资人称决策放缓或给 AI 芯片与… | https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/

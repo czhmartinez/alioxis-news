@@ -1,0 +1,290 @@
+[
+  {
+    "title": "英伟达宣布黄仁勋即日辞去总裁、CEO 及董事职务：CFO 科莱特·克雷斯任临时 CEO，哈维·C·琼斯出任首任董事会主席，盘前跌 11%",
+    "summary": "小互快讯：英伟达宣布黄仁勋即日起辞去总裁、首席执行官及董事会成员职务；执行副总裁兼首席财务官科莱特·克雷斯（Colette Kress）出任临时首席执行官并继续兼任 CFO，哈维·C·琼斯（Harvey C. Jones）被任命为公司首任董事会主席。董事会已启动永久 CEO 遴选，内部与外部候选人都会考虑。小互称消息公布后英伟达盘前下跌 11%。TestingCatalog 引用英伟达官方「CEO transition」声明确认了临时 CEO 安排；卡兹克则说自家 AIHOT 上线半年几乎没出现过 95 分以上的新闻，这条第一次打出 98 分。当天时间线上还有大量继任人选、收购之类的段子和恶搞截图，均非事实，本条不采用。",
+    "url": "https://x.com/xiaohu/status/2120879926861791372",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-12T22:02:33+08:00",
+    "tags": [
+      "英伟达",
+      "黄仁勋",
+      "CEO 变动",
+      "AI 芯片",
+      "AIHOT"
+    ],
+    "image": "/assets/covers/cover-20261113-v-00.jpg"
+  },
+  {
+    "title": "谷歌正式发布 Gemini 4 Hydrogen：比 3.8 Flash 完成任务快 2.5 倍，4 档思考深度含新「Extra」档，Antigravity、Gemini App 与 API 同日推送",
+    "summary": "TestingCatalog 追了一整晚：先是 Gemini 4 Hydrogen（Flash 定位）出现在 Antigravity（需更新到最新版），随后在 Gemini App 向所有用户逐步推送，最后谷歌官方宣布。官方帖称，Hydrogen 接在 Carbon、Argon 之后，主打速度和效率，面向日常任务、编程与 Agent 工作流；与 3.8 Flash 相比完成任务快 2.5 倍，并提供 4 档思考深度，「只为任务需要的推理深度等待和付费」。覆盖 Google AI Studio、Gemini API、Gemini App、搜索全层级，以及 Antigravity 中的付费 Pro/Ultra 订阅。TC 另称其在多数基准上超过 Claude Sonnet 5.5 与 GPT 6.1 Terra，新增「Extra」思考档（基准对比为 TC 转述的厂商数据）。",
+    "url": "https://x.com/testingcatalog/status/2120944524620865864",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-13T02:19:14+08:00",
+    "tags": [
+      "Gemini 4 Hydrogen",
+      "谷歌",
+      "模型发布",
+      "Antigravity",
+      "Flash"
+    ],
+    "image": "/assets/covers/cover-20261113-v-01.jpg"
+  },
+  {
+    "title": "Google AI Studio 一句话做带真地图的小工具：自动生成免绑卡演示密钥，每个地图 API 每天免费 100 次，绑卡后密钥原地转正、零改代码",
+    "summary": "小互拆解 Google AI Studio 的地图能力：以前在网页里接 Google 地图，要先去云后台建项目、绑卡、开权限；现在在 AI Studio 里用大白话描述需求、点一下启用，它会生成免绑卡的演示密钥并放进后台配置，右侧直接跑起可拖拽缩放的 2D/3D 真地图。可调实时全球地理数据，做写实 3D 城市航拍、附近门店筛选、多车多站点排线，还能取空气质量和花粉浓度，并内置核实机制防止 AI 编造地址或已关门店铺。每个地图 API 每天免费 100 次、24 小时重置，刷爆只会暂停报错不扣费（仅限个人 Gmail 账号，拿不到用户上传的门店照片和评论）。从没建过云项目的新号免绑卡权限更大，老号只开放地图渲染、地点检索、路线、天气等 6 类基础功能。原型跑通后给项目绑定结算账号，演示密钥原地变成生产密钥。小互提醒：算多站点路线时让 AI 调基础 Routes API，别调企业级车队排班接口，否则超出免费范围会报错。",
+    "url": "https://x.com/xiaohu/status/2120856688899321922",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-12T20:30:12+08:00",
+    "tags": [
+      "Google AI Studio",
+      "Google 地图",
+      "Vibe Coding",
+      "使用技巧",
+      "API"
+    ],
+    "image": "/assets/covers/cover-20261113-v-02.jpg"
+  },
+  {
+    "title": "小互实测 EnConvo「活人感」Personal Agent：Live Talk 常驻灵动岛实时对话加看屏幕，后台 Computer/Browser Use，任务完成主动打电话",
+    "summary": "小互推荐 EnConvo，称「虽然还不够完美，但应该是正确方向」，用起来像站在员工身后边说边指。他列出的功能：开启 Live Talk 后 Agent 常驻灵动岛，可随时打断地实时对话，再开实时屏幕，你说的话和屏幕上的内容都进入上下文；语音转写与朗读可用本地模型（他用 Qwen 3 ASR 0.6B）。Computer Use 能操作任意原生 App、Browser Use 操作浏览器，和 Codex 一样不占用桌面前台和鼠标；他接的是自己 ChatGPT 套餐里的 GPT-6.1 Terra。手机 App 扫码连接电脑后可远程下命令，任务完成而你没开 App 时 Agent 会打电话给你；还能连 Telegram，他设了每 5 分钟检查服务器、连不上就打电话的定时任务。双方都装了 EnConvo 时可直接开视频会议、共享屏幕，它记录发言和屏幕内容，会后直接开工。支持官方模型、自定义模型和本地模型，免费版也能用全部功能。以上为个人体验，小互认为目前唯一有类似拟人感的是 Muse。",
+    "url": "https://x.com/xiaohu/status/2120791327902445893",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-12T16:10:29+08:00",
+    "tags": [
+      "EnConvo",
+      "Personal Agent",
+      "Computer Use",
+      "语音交互",
+      "桌面 Agent"
+    ],
+    "image": "/assets/covers/cover-20261113-v-03.jpg"
+  },
+  {
+    "title": "豆包工作开放第三方模型：新增 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等，按模型标注消耗倍率，豆包 2.1 Lite 与 DeepSeek V4.1 Flash 限时降倍率",
+    "summary": "小互发现豆包工作开放了第三方模型接入，可以为不同级别的任务换用其他开源模型，新增 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款。每个模型都标注了相对基准消耗的费用倍率，小互称看标注和实测「比官方便宜很多」。豆包工作还对豆包 2.1 Lite 和 DeepSeek V4.1 Flash 推出限时优惠，下调额度消耗倍率。他的看法是：进入 Agent 时代，任务类型更多、链路更长，不同模型擅长的复杂任务不一样，Codex 也支持搭配任意开源模型，可选自由度高是好事。他还注意到豆包工作的 logo 似乎也换了。",
+    "url": "https://x.com/xiaohu/status/2120758199339073727",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-12T13:58:51+08:00",
+    "tags": [
+      "豆包工作",
+      "字节跳动",
+      "第三方模型",
+      "Kimi",
+      "DeepSeek"
+    ],
+    "image": "/assets/covers/cover-20261113-v-04.jpg"
+  },
+  {
+    "title": "据称张一鸣在字节 AI 团队全员会上表示：最早 2029–2030 年才能真正追平 OpenAI、Anthropic，Seed 预训练数据规模仍不足",
+    "summary": "Max 转述（未给出出处，属内部讲话传闻）：张一鸣在近期面向 AI 团队的全员会上称，字节有能力与 OpenAI、Anthropic 竞争，但真正追平前沿「最早也要到 2029 或 2030 年」；他坦言与海外顶尖公司相比，Seed 系列的预训练数据集规模偏少，是当下最需要关注的问题。帖中还引外媒称 Seed 团队正在预训练参数最高可达 10 万亿的模型，据称已完成 3–5T 级别模型训练；并重提张一鸣此前说过 Seed 绝不蒸馏海外模型、要坚持长期主义。Max 调侃：2029 年追平的是 2029 年还是 2026 年的 Anthropic 和 OpenAI？前一天的彭博报道已提到字节 2029 年前成为前沿实验室的目标，本条为内部讲话角度的补充。",
+    "url": "https://x.com/MaxForAI/status/2120799877474975855",
+    "source": "Max",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-12T16:44:28+08:00",
+    "tags": [
+      "字节跳动",
+      "张一鸣",
+      "Seed",
+      "预训练",
+      "传闻"
+    ],
+    "image": "/assets/covers/cover-20261113-v-05.jpg"
+  },
+  {
+    "title": "小互引用 Da7_Tech 的说法感叹「国内模型脚步确实放缓了」：对方称某中国大厂找他帮忙把 Fable 蒸馏进自家模型，他拒绝了（个人说法，未证实）",
+    "summary": "小互引用 @Da7_Tech 的长帖，只评论了一句「国内模型脚步确实放缓了」。被引帖内容均为该作者的个人说法：他称一家中国大实验室请他帮忙把 Claude Fable 蒸馏进自家模型，被他拒绝，他建议对方改用无版权书籍训练；他认为蒸馏真实存在，并举例 Kimi K3.1 Pro 距 K3 约 100 天提升不大、DeepSeek 仍没有像样的 Pro 模型、Zai 三个月没发新旗舰、Qwen 4 Max 口碑不佳，称 Kimi K3.1 Pro 与 DeepSeek Flash 有「Astra 蒸馏痕迹」，并把放缓归因于 Anthropic 封堵蒸馏。他同时表示自己支持开源，希望中国模型不只做「更便宜的替代品」。以上指控没有给出可核实证据，仅作观点收录；Max 也转发了这条帖子。",
+    "url": "https://x.com/xiaohu/status/2120741262710149129",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-12T12:51:33+08:00",
+    "tags": [
+      "蒸馏",
+      "国产模型",
+      "Claude Fable",
+      "观点",
+      "开源"
+    ],
+    "image": "/assets/covers/cover-20261113-v-06.jpg"
+  },
+  {
+    "title": "逸尘分享手机云剪辑工作流：Grok Bot 连 ChatCut，用上传链接绕开 196MB 视频限制，口播剪辑、MG 动画、字幕、调色等基础功能免费",
+    "summary": "逸尘录了几段很长的 iPhone 口播素材，不想传到 Mac 再剪，于是试了手机版 Grok Bot。Grok Bot 只支持 196MB 以下视频，他的解法是让 ChatCut 生成上传链接，把视频传到 ChatCut 云端，再由 Grok Bot 操控剪辑。ChatCut 有素材库（MG 动画、音效、转场、特效、缩放、LUT、音频效果），可一键套模板；口播剪辑、MG 动画、加字幕、调色等基础功能免费，进阶还有图片、视频、音乐、音效生成与数字人克隆。他的步骤：新建「视频剪辑」Bot → 发指令让 Bot 读取 ChatCut 接入指南 → 在对话里授权连接器并装好 skill → 生成上传链接上传视频 → 用语音和 Bot 对话剪辑。他觉得 Grok Bot 会先给几个模板让人挑，适合打车等碎片时间。同日他还分享了让 Grok Bot 配合开源 skill 读取电脑端微信、在手机上推送重要信息和待办的用法（需授予「完全磁盘访问」权限，有隐私风险，请自行评估）。",
+    "url": "https://x.com/gengdaJ/status/2120690544825250061",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-11-12T09:30:01+08:00",
+    "tags": [
+      "Grok Bot",
+      "ChatCut",
+      "视频剪辑",
+      "Personal Agent",
+      "使用技巧"
+    ],
+    "image": "/assets/covers/cover-20261113-v-07.jpg"
+  },
+  {
+    "title": "Anthropic IPO 定于 11 月 19 日挂牌交易：散户可在定价前经参与券商申购，德意志银行页面显示每股 70–120 美元，X 已支持 $ANT 代码",
+    "summary": "TestingCatalog 称 Anthropic 计划于 11 月 19 日开始公开交易，散户可在定价前通过参与发行的券商申请 IPO 份额，并举例德意志银行给出的区间为每股 70–120 美元；X 已经支持 $ANT 股票代码。被引用的是 Anthropic 官方「Our initial public offering」帖，附带法律声明：公司已向美国 SEC 提交含招股说明书的注册声明，注册生效前不得出售证券或接受买入要约，初步招股书可从高盛、摩根士丹利获取。价格区间为 TC 转述的券商信息，最终以正式定价为准。",
+    "url": "https://x.com/testingcatalog/status/2120857786078593262",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-12T20:34:34+08:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "$ANT",
+      "上市",
+      "资本市场"
+    ],
+    "image": "/assets/covers/cover-20261113-v-08.jpg"
+  },
+  {
+    "title": "Claude Meetings 面向 Team 与 Enterprise 开放 Beta：开会时 Claude 可同步处理文档、白板等产物，TC 推测 Anthropic 意在整套办公生态",
+    "summary": "TestingCatalog 称 Anthropic 的 Claude Meetings 已在 Team 与 Enterprise 套餐开放 Beta，会议进行中 Claude 可以处理文档、白板或其他产物（前一日简报中它还只是「将作为参会者加入 Google Meet」的预告）。TC 调侃终于可以开「10 个经理加 1 个不抱怨的工程师（Claude）」的会，还想看 Claude 和 Grok Bot 同场会怎么互动。他的判断是 Anthropic 在激进地押注企业市场，几年内可能由 Claude 提供一整套办公套件（TC 自己标注为推测）。",
+    "url": "https://x.com/testingcatalog/status/2120980274037104672",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-13T04:41:17+08:00",
+    "tags": [
+      "Claude Meetings",
+      "Anthropic",
+      "企业协作",
+      "Beta",
+      "会议 Agent"
+    ],
+    "image": "/assets/covers/cover-20261113-v-09.jpg"
+  },
+  {
+    "title": "Anthropic 开始发放 Claude Duet 邀请：每位 Duet 用户 3 个名额，符合条件者送一个月 Claude Pro，暂限美国；输入框「Brush」功能开发中",
+    "summary": "TestingCatalog 称 Anthropic 开始发放 Claude Duet 邀请，已有 Duet 用户每人可获 3 个邀请名额，符合条件的用户还附赠一个月 Claude Pro，目前仍只限美国；被引用的另一位用户也晒出了账号里刚出现的邀请。同日 TC 还发现 Claude 输入框正在开发名为「Brush」的新功能，标注为 Beta、仍在开发中，TC 猜测可能是此前「Sketch」功能的重做（未发布，属推测）。",
+    "url": "https://x.com/testingcatalog/status/2121018480757797299",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-13T07:13:07+08:00",
+    "tags": [
+      "Claude Duet",
+      "Anthropic",
+      "邀请",
+      "Brush",
+      "未发布功能"
+    ],
+    "image": "/assets/covers/cover-20261113-v-10.jpg"
+  },
+  {
+    "title": "ChatGPT dots 更新：回复更快、少术语、跟进更到位，并支持自定义指令（如「发邮件前先给我看草稿」）；Tibo 称「银行式重置」已激活",
+    "summary": "OpenAI 的 Tibo（@thsottiaux）说今天给 dots 推了几项不错的更新，「banked reset」也已激活，很快会到所有人账户（具体含义帖内未说明）。他引用的 ChatGPT 官方帖列出：dot 回复更快、术语更少、执行跟进更好，并且能遵循自定义指令，可以在对话里告诉 dot 怎么表现、哪些操作要先经你同意，例如「一律用小写」「发任何邮件前先给我看草稿」；也可以在移动端的 Customize > Behavior、网页与桌面端的 dot 菜单里设置规则。TestingCatalog 评论说，对个性化 Agent 来说自定义指令非常重要，最烦的就是每次会话都要重复同样的话。",
+    "url": "https://x.com/thsottiaux/status/2120999993079451919",
+    "source": "Tibo (thsottiaux)",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-13T05:59:39+08:00",
+    "tags": [
+      "ChatGPT",
+      "dots",
+      "自定义指令",
+      "OpenAI",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261113-v-11.jpg"
+  },
+  {
+    "title": "Simular 推出 Box：给 ChatGPT、Claude 等 AI 助手用的云电脑，跨会话保存登录与文件，Claude 开头的任务可交给 Codex 接着做",
+    "summary": "TestingCatalog 介绍 Simular 新推出的 Box：一台专门给 ChatGPT、Claude 等 AI 助手操作的云电脑，多个 Agent 可以连上去操作各自的 App 和网站，用户不需要开着自己的电脑。Box 能跨会话、跨 Agent 保存登录状态和文件，例如 Claude 开头的任务可以交给 Codex 接着做。用户可以实时观看 Box 桌面，随时接管去登录或确认付款。Beta 期间免费试用。",
+    "url": "https://x.com/testingcatalog/status/2120967333502161164",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-13T03:49:52+08:00",
+    "tags": [
+      "Simular",
+      "Box",
+      "云电脑",
+      "Agent 基础设施",
+      "Computer Use"
+    ],
+    "image": "/assets/covers/cover-20261113-v-12.jpg"
+  },
+  {
+    "title": "Retell 年化收入破 1 亿美元并发布首个自研模型 Tell 1：用超 100 万小时客服通话训练，登顶 vCX 联络中心语音 Agent 基准",
+    "summary": "TestingCatalog 称语音 Agent 公司 Retell 年化收入突破 1 亿美元，并推出首个自研 AI 模型 Tell 1，用来驱动企业联络中心的语音 Agent。据 Retell 介绍，Tell 1 用超过 100 万小时的客服通话训练，能处理复杂请求而不让来电者久等，在 Retell 自己的 vCX 基准（测试 AI Agent 处理联络中心来电的能力）上排名第一。配套工具 Conductor 会分析失败通话、生成测试用例并提出修复方案供审批。Retell 官方帖称从 1000 万到 1 亿美元年化收入用了 17 个月，已经盈利，累计只融了 460 万美元（均为公司自述，基准为自家发布）。",
+    "url": "https://x.com/testingcatalog/status/2120976195441274887",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-13T04:25:05+08:00",
+    "tags": [
+      "Retell",
+      "Tell 1",
+      "语音 Agent",
+      "联络中心",
+      "创业公司"
+    ],
+    "image": "/assets/covers/cover-20261113-v-13.jpg"
+  },
+  {
+    "title": "Amplitude 推出 Wave：研究用户行为的产品 Agent，读点击、会话回放和反馈，提出有依据的改动，批准上线后自己衡量效果",
+    "summary": "TestingCatalog 介绍 Amplitude 新推出的 AI Agent「Wave」，专门研究用户如何与产品交互：读取点击、会话回放等信号，处理客户反馈，提出有证据支撑的产品改动建议；用户批准后上线，Wave 再衡量修复效果。它还能自己设计实验、学习哪些改动有效，并逐步改进建议。Amplitude 称已在自家产品上用 Wave 跑了几个月，用于 bug 分诊和落地页测试。TC 评价它是「全栈产品经理」。",
+    "url": "https://x.com/testingcatalog/status/2120941648687313306",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-13T02:07:48+08:00",
+    "tags": [
+      "Amplitude",
+      "Wave",
+      "产品分析",
+      "AI Agent",
+      "A/B 测试"
+    ],
+    "image": "/assets/covers/cover-20261113-v-14.jpg"
+  },
+  {
+    "title": "Nace AI 推出 Drex 文档处理：用决策模型分析并修正扫描件与文档照片，比从头重生成快 38%，每千页 7 美元、支持 30 种文件",
+    "summary": "TestingCatalog 称 Nace AI 推出 Drex for Document Processing，用它的决策模型分析并修正扫描页面和文档照片：Drex 会把识别结果和页面本身对照，修正看起来不对的部分，比如被 OCR 认错的词。据 Nace 自测，修正一页比从头重新生成快 38%。定价每 1000 页 7 美元，支持 PDF、表格、邮件等 30 种文件类型，可在 Nace Console 免费试用。",
+    "url": "https://x.com/testingcatalog/status/2120821094114329045",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-12T18:08:46+08:00",
+    "tags": [
+      "Nace AI",
+      "Drex",
+      "文档处理",
+      "OCR",
+      "决策模型"
+    ],
+    "image": "/assets/covers/cover-20261113-v-15.jpg"
+  },
+  {
+    "title": "谷歌开启与三星合作的智能眼镜预订：Warby Parker 款 395 美元，续航最长 9 小时，可实时拍摄、导航与翻译眼前场景",
+    "summary": "TestingCatalog 称谷歌宣布开启 Gentle Monster 与 Warby Parker 两款智能眼镜的预订，均与三星合作打造。Warby Parker 款售价 395 美元，Gentle Monster 款目前显示「not available」。续航最长 9 小时，官方描述是让用户实时「拍摄、导航和翻译身边的物理环境」。",
+    "url": "https://x.com/testingcatalog/status/2120918997520560254",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-13T00:37:48+08:00",
+    "tags": [
+      "智能眼镜",
+      "谷歌",
+      "三星",
+      "Warby Parker",
+      "AI 硬件"
+    ],
+    "image": "/assets/covers/cover-20261113-v-16.jpg"
+  },
+  {
+    "title": "TestingCatalog 11/12 简报补遗：Gemini 上 Apple CarPlay、Gemini API 托管 Agent 支持自托管沙箱、DeepMind 用 AlphaProof Code 形式化验证 Signal 协议、Fable 5.2 上谷歌云",
+    "summary": "TestingCatalog 11 月 12 日 AI 简报中多数条目（Gemini Decision 1、Antigravity Browser Use、Tabletop、Claude 已保存登录、ChatGPT Finances 桌面端、Grok Bot 1.0、Copilot 上线 Fable 5.2 等）前一天已收录，这里只补新的：Gemini 已登陆 Apple CarPlay 并支持 Gemini Live；Gemini API 的 Managed Agents 现在支持自托管沙箱环境；DeepMind 用 AlphaProof Code 把 Signal 协议形式化验证到代码层；DeepMind 发布 AlphaGenome 2，按特定细胞类型建模 DNA 变异的作用；Claude Fable 5.2 已上谷歌云；OpenAI 宣布为退伍军人和现役军人提供 ChatGPT Plus。另外，Grok Bot 1.0 还新增可分享的 Bot、Teams 协作，并内置 Gopuff 生鲜配送。",
+    "url": "https://x.com/testingcatalog/status/2120809757107737072",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-12T17:23:43+08:00",
+    "tags": [
+      "简报",
+      "Gemini",
+      "DeepMind",
+      "Claude Fable 5.2",
+      "CarPlay"
+    ],
+    "image": "/assets/covers/cover-20261113-v-17.jpg"
+  }
+]

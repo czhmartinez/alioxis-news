@@ -1,0 +1,54 @@
+covers 2026-10-04 AI新闻: 0/17 FAILED
+time: 2026-10-04 08:20:33 Asia/Taipei
+
+BLOCKER: GenerateImage unavailable in this executor subagent.
+- GetDynamicTools / CallDynamicTool: not in tool catalog (cannot invoke)
+- CallMcpTool server=cursor GenerateImage: MCP server "cursor" not available here
+- GetMcpTools pattern GenerateImage: no matches across ready servers
+- Native generate_image / GenerateImage: not provided to this executor
+- Did NOT invent Pillow/abstract/masthead placeholder covers (per rules)
+
+Prompts ready: data/2026-10-04/_cover_prompts_ai.json (17 items)
+Target JSON: data/2026-10-04/ai.json (17 items, image fields still empty)
+Dirs ready: assets/covers/ and data/2026-10-04/_cover_raw/
+Pillow 12.3.0 available for post-compress
+
+Parent should run GenerateImage (or CallDynamicTool namespace=cursor toolName=GenerateImage)
+for each entry with aspect_ratio=16:9, description=prompt, filename=cover-20261004-ai-XX-raw.png
+then Pillow resize width=960 JPEG q=72 -> assets/covers/<filename>, set ai.json image paths.
+
+Pending ids:
+  ai-00 -> cover-20261004-ai-00.jpg  (prompt len=302)
+    FAIL  missing  /assets/covers/cover-20261004-ai-00.jpg
+  ai-01 -> cover-20261004-ai-01.jpg  (prompt len=279)
+    FAIL  missing  /assets/covers/cover-20261004-ai-01.jpg
+  ai-02 -> cover-20261004-ai-02.jpg  (prompt len=295)
+    FAIL  missing  /assets/covers/cover-20261004-ai-02.jpg
+  ai-03 -> cover-20261004-ai-03.jpg  (prompt len=287)
+    FAIL  missing  /assets/covers/cover-20261004-ai-03.jpg
+  ai-04 -> cover-20261004-ai-04.jpg  (prompt len=298)
+    FAIL  missing  /assets/covers/cover-20261004-ai-04.jpg
+  ai-05 -> cover-20261004-ai-05.jpg  (prompt len=288)
+    FAIL  missing  /assets/covers/cover-20261004-ai-05.jpg
+  ai-06 -> cover-20261004-ai-06.jpg  (prompt len=278)
+    FAIL  missing  /assets/covers/cover-20261004-ai-06.jpg
+  ai-07 -> cover-20261004-ai-07.jpg  (prompt len=274)
+    FAIL  missing  /assets/covers/cover-20261004-ai-07.jpg
+  ai-08 -> cover-20261004-ai-08.jpg  (prompt len=247)
+    FAIL  missing  /assets/covers/cover-20261004-ai-08.jpg
+  ai-09 -> cover-20261004-ai-09.jpg  (prompt len=278)
+    FAIL  missing  /assets/covers/cover-20261004-ai-09.jpg
+  ai-10 -> cover-20261004-ai-10.jpg  (prompt len=259)
+    FAIL  missing  /assets/covers/cover-20261004-ai-10.jpg
+  ai-11 -> cover-20261004-ai-11.jpg  (prompt len=266)
+    FAIL  missing  /assets/covers/cover-20261004-ai-11.jpg
+  ai-12 -> cover-20261004-ai-12.jpg  (prompt len=260)
+    FAIL  missing  /assets/covers/cover-20261004-ai-12.jpg
+  ai-13 -> cover-20261004-ai-13.jpg  (prompt len=233)
+    FAIL  missing  /assets/covers/cover-20261004-ai-13.jpg
+  ai-14 -> cover-20261004-ai-14.jpg  (prompt len=248)
+    FAIL  missing  /assets/covers/cover-20261004-ai-14.jpg
+  ai-15 -> cover-20261004-ai-15.jpg  (prompt len=259)
+    FAIL  missing  /assets/covers/cover-20261004-ai-15.jpg
+  ai-16 -> cover-20261004-ai-16.jpg  (prompt len=243)
+    FAIL  missing  /assets/covers/cover-20261004-ai-16.jpg

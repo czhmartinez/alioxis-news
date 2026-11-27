@@ -1,0 +1,258 @@
+[
+  {
+    "title": "TestingCatalog：Perplexity Computer macOS 版上线完全本地模式——基于 Qwen 3.8 后训练的 PPLX Pro，断网免积分",
+    "summary": "TestingCatalog 报道 Perplexity Computer 的 macOS 桌面端为 Pro、Max 与企业订阅用户开放完全本地选项：不再需要联网，也不消耗付费积分。本地模式由 PPLX Pro 驱动，这是 Qwen 3.8 的后训练版本；遇到复杂任务可切换 Hybrid 模式调用云端模型。官方建议设备具备 36GB 统一内存，TestingCatalog 评价其 Agent 框架（harness）做得很好，值得深入测试。",
+    "url": "https://x.com/testingcatalog/status/2112619795585855738",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-21T02:59:44+08:00",
+    "tags": [
+      "Perplexity",
+      "本地模型",
+      "Qwen",
+      "Agent",
+      "macOS"
+    ],
+    "image": "/assets/covers/cover-20261021-v-00.jpg"
+  },
+  {
+    "title": "Max：DeepSeek 突然开源推理系统 DeepInfer——分布式推理、推测解码、调度器与高性能算子全放出",
+    "summary": "Max 借一位做推理优化的 Infra 工程师视角讲述：DeepSeek 把线上推理系统 DeepInfer 开源了，分布式推理、推测解码、SWA Bounded Replay、调度器和高性能算子一并放出，还附带生产级 Token 编解码组件。系统同时支持英伟达与华为昇腾。过去只能对着论文、博客和 Benchmark 猜 DeepSeek 线上怎么跑，现在可直接在 GitHub 读源码，Infra 群里有人看 Kernel、有人研究调度器，也有人开始讨论替换公司祖传推理框架。",
+    "url": "https://x.com/MaxForAI/status/2112501497674235913",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-20T19:09:40+08:00",
+    "tags": [
+      "DeepSeek",
+      "DeepInfer",
+      "开源",
+      "推理优化",
+      "昇腾"
+    ],
+    "image": "/assets/covers/cover-20261021-v-01.jpg"
+  },
+  {
+    "title": "Tibo：约 4 万个账户额度计算与所选套餐不符，已修复并将补发额度",
+    "summary": "Tibo 回应周末有用户反映额度消耗比预期快：团队确认约 40,000 个账户存在不一致，实际按用的额度上限与用户所选套餐不对应。问题已修正，团队正逐一联系受影响用户，并承诺为其账户补发额度，同时公开致歉「Sorry we got this wrong」。此前他已在「Day 15」帖中宣布再次重置额度（Nevermind, we're still cooking... and reset），这条说明是对额度异常的正式交代。",
+    "url": "https://x.com/thsottiaux/status/2112592264686149749",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-10-21T01:10:20+08:00",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "用量额度",
+      "事故说明",
+      "补偿"
+    ],
+    "image": "/assets/covers/cover-20261021-v-02.jpg"
+  },
+  {
+    "title": "TestingCatalog：OpenAI 收购 Orchestra Bio——为生命科学模型 Rosalind 补上药物研发协同平台",
+    "summary": "OpenAI 宣布收购 Orchestra Bio，后者是帮助生物制药团队协调复杂药物研发流程的平台，将与 OpenAI 的生命科学模型与工具 Rosalind 结合，用于理顺研发运营、让新疗法更快抵达患者。TestingCatalog 指出，AI 用于生命科学是最受期待的方向之一，目前看 Anthropic、OpenAI 与 Google 都把它列为重点。",
+    "url": "https://x.com/testingcatalog/status/2112610230043312618",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-21T02:21:43+08:00",
+    "tags": [
+      "OpenAI",
+      "收购",
+      "生命科学",
+      "Rosalind",
+      "药物研发"
+    ],
+    "image": "/assets/covers/cover-20261021-v-03.jpg"
+  },
+  {
+    "title": "TestingCatalog：Mistral 发布 Voxtral 3 语音模型家族——转写榜第 3，TTS 进前 12，可欧洲托管或自部署",
+    "summary": "Mistral 推出新一代语音转文字与文字转语音模型 Voxtral 3，并以其驱动新的语音 Agent API。Voxtral Small Transcribe 3 在 Artificial Analysis 语音转写榜位列第 3，Voxtral 3 TTS 进入前 12。新模型支持 50 多种语言的准确转写、能随对话调整的自然语音、口头指令理解，以及更精准的 Pro Voice 声音适配；可通过 Mistral 欧洲托管 API 调用，也可自托管。",
+    "url": "https://x.com/testingcatalog/status/2112647073464201546",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-21T04:48:08+08:00",
+    "tags": [
+      "Mistral",
+      "Voxtral",
+      "语音识别",
+      "TTS",
+      "语音Agent"
+    ],
+    "image": "/assets/covers/cover-20261021-v-04.jpg"
+  },
+  {
+    "title": "卡兹克长文：有人做了 35 万个 AI，只为反过来骗骗子——从 Apate 到 AI 小海「反击视频」",
+    "summary": "卡兹克讲述澳洲公司 Apate.ai：用 35 万个伪装成普通人的 AI 去接诈骗电话、装傻拖时间，已与骗子聊了 250 万次、累计耗掉骗子约 17 年，运营商 TPG 转接近 59 万通可疑来电，澳洲联邦银行报告诈骗损失降 76%，公司 8 月获 815 万美元种子轮。文章再对照国内「AI 小海」卖惨带货骗中老年人事件：19 岁大学生小舟用 AI 生成反转视频让老人看清骗局，更多年轻人加入。卡兹克认为 AI 正在改变作恶与防范作恶之间不对等的成本，也在放大人的善意。",
+    "url": "https://x.com/Khazix0918/status/2112386350934868374",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-20T11:32:06+08:00",
+    "tags": [
+      "卡兹克",
+      "反诈",
+      "Apate",
+      "AI视频",
+      "长文"
+    ],
+    "image": "/assets/covers/cover-20261021-v-05.jpg"
+  },
+  {
+    "title": "TestingCatalog：Eagle 开源 EAGLE-4 灵活草稿模型——自适应推测解码，Qwen3.8-27B 单请求 961.6 tokens/s",
+    "summary": "Eagle Corp 发布开源推测解码草稿器 EAGLE-4，核心是「一个草稿器根据批大小、硬件与负载自适应调整推测策略，并保持目标模型输出分布不变」。官方实测 Qwen3.8-27B 搭配 EAGLE-4 草稿模型，在 4 张英伟达 B300 上跑出 961.6 tokens/s（BF16、TP4、单请求）。代码以 eagle_harness 发布于 GitHub，可通过引擎插件在 SGLang、vLLM 与 TokenSpeed 上使用，草稿模型与论文同步放出。",
+    "url": "https://x.com/testingcatalog/status/2112665677152829772",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-21T06:02:03+08:00",
+    "tags": [
+      "EAGLE-4",
+      "推测解码",
+      "开源",
+      "推理加速",
+      "Qwen"
+    ],
+    "image": "/assets/covers/cover-20261021-v-06.jpg"
+  },
+  {
+    "title": "TestingCatalog：Meta Muse 网页版在做「机密虚拟机」——加密环境运行任务，数据不用于训练，先给订阅用户",
+    "summary": "TestingCatalog 在 Muse 网页版发现隐藏设置：Confidential VMs 功能正在开发，Meta 此前预告年底前上线。开启后 Muse 任务将在加密的机密环境中运行，对话「只在你和你的 Muse 之间」，数据不会被用于改进 Meta 的 AI。初期仅向 Meta AI 订阅用户开放，且语音模式、图像与视频生成、可穿戴设备支持暂不可用。",
+    "url": "https://x.com/testingcatalog/status/2112522256911884590",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-20T20:32:09+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "隐私",
+      "机密计算",
+      "订阅"
+    ],
+    "image": "/assets/covers/cover-20261021-v-07.jpg"
+  },
+  {
+    "title": "卡兹克：旧 M4 Mac mini 别卖——改成自建 CI 机兼 Agent 专用机，省下 GitHub CI 超额费",
+    "summary": "卡兹克换了新 Mac mini 后，把原本要回收的 M4 Mac mini 改作自建 CI 机，给 Agent 跑各类自动化端到端测试。他说以前用 GitHub 跑 CI，Agent 太爱提 PR，开了会员每月仍要多花二三十美元；现在本地速度快、并行爽、24 小时待命。闲时还当 Agent 专用机：Chrome 等账号全部登录好、飞书 CLI 配好，让 Agent 全自动随便用，旧机「焕发第二春」。",
+    "url": "https://x.com/Khazix0918/status/2112584126155088004",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-21T00:38:00+08:00",
+    "tags": [
+      "卡兹克",
+      "Mac mini",
+      "CI",
+      "Agent",
+      "自动化测试"
+    ],
+    "image": "/assets/covers/cover-20261021-v-08.jpg"
+  },
+  {
+    "title": "TestingCatalog：ChatGPT「锁定聊天」全量推送——PIN、面容或指纹解锁的私密对话空间",
+    "summary": "OpenAI 正向 Free、Go、Plus、Pro、Business、Enterprise 与 Edu 全部套餐推送 ChatGPT「Locked Chats」功能。用户可将聊天移入受保护空间：网页与桌面端用 PIN 码锁定，移动端还可使用 Face ID、Touch ID 或设备解锁。",
+    "url": "https://x.com/testingcatalog/status/2112605106642600283",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-21T02:01:22+08:00",
+    "tags": [
+      "ChatGPT",
+      "OpenAI",
+      "隐私",
+      "锁定聊天",
+      "新功能"
+    ],
+    "image": "/assets/covers/cover-20261021-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：前 Google Brain 团队 Coco Labs 发布设计模型 Vyb——读官网取品牌色，生成可分层编辑的营销图",
+    "summary": "Coco Labs 推出首个设计模型 Vyb：发给它公司官网即可提取品牌 Logo 与精确色值，生成分层、可编辑的营销图，每个元素独立成层，改标题无需整张重生成；产品照片可按原分辨率放入不被重绘，成品能保留全部图层导出到 Figma。官方在 145 种 Google 字体上测试，字形匹配率 95.3%。创始团队来自 Google Brain 与 DeepMind，CEO 称曾在 Google 推出首批图像与视频生成模型，认为 AI 让 90% 的设计变得千篇一律。",
+    "url": "https://x.com/testingcatalog/status/2112638397177372745",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-21T04:13:39+08:00",
+    "tags": [
+      "Vyb",
+      "设计模型",
+      "Figma",
+      "营销设计",
+      "Coco Labs"
+    ],
+    "image": "/assets/covers/cover-20261021-v-10.jpg"
+  },
+  {
+    "title": "Max：AI 动画《外星小偷里贝》被海外博主长帖安利——门槛降下后，缺的是想讲什么",
+    "summary": "Max 关注的 B 站 UP 梦游牛油果 AI 动画《外星小偷里贝》，被一位海外博主写了英文长帖推荐，对方最看重的是人物与写作。Max 借此提出观点：AI 降低动画制作门槛后，很多人会发现缺的不只是制作能力，「一个人也能做出工作室级画面」只讲了一半——好看的画面会越来越多，值得关注的作者未必同比增加。他认为与其争论提示词算不算创作，不如问你准备拿工具做什么；若一部 AI 动画最大卖点仍只是「AI 做的」，已没什么意义。",
+    "url": "https://x.com/MaxForAI/status/2112502282977939518",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-20T19:12:47+08:00",
+    "tags": [
+      "AI动画",
+      "里贝",
+      "B站",
+      "创作",
+      "AIGC"
+    ],
+    "image": "/assets/covers/cover-20261021-v-11.jpg"
+  },
+  {
+    "title": "TestingCatalog：General Compute 与 Positron 签多年协议——专用推理芯片 Atlas 上云，GPU 负责预填充",
+    "summary": "General Compute 与 Positron AI 签署多年合作，向云客户出租 Positron 的 Atlas 推理系统，客户无需自购硬件。分工上由 GPU 处理每个请求的输入阶段，Positron 芯片更高效地生成输出；其芯片主打快速内存访问，以突破 Token 生成的主要瓶颈。Atlas 已在 Oracle 云上可用，将于 2027 年 Q1 向 General Compute 客户开放；下一代 Titan 待定制 Asimov 芯片量产后加入，借数 TB 较慢内存运行更大模型和更长上下文，而不依赖 GPU 的超高带宽内存。",
+    "url": "https://x.com/testingcatalog/status/2112594531065446586",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-21T01:19:20+08:00",
+    "tags": [
+      "Positron",
+      "推理芯片",
+      "General Compute",
+      "算力",
+      "异构云"
+    ],
+    "image": "/assets/covers/cover-20261021-v-12.jpg"
+  },
+  {
+    "title": "TestingCatalog：Tuesday Labs 发布家庭机器人 Voxel Series-1——首批 999 台 2028 年交付，200 美元预订",
+    "summary": "YC 2024 冬季批次的纽约机器人公司 Tuesday Labs 推出家用机器人 Voxel Series-1，重点打磨它在人身边整理家务时的行为：把东西放回原位、去别的房间取物再拿回来，首发时可寻找遗落物品并照料盆栽。团队请皮克斯顾问塑造其「见习管家」性格；创始人 Ros Shinkle 曾为波士顿动力 Spot 编写抓取放置算法。首批 999 台按预订顺序编号，每台 200 美元订金，2028 年交付。",
+    "url": "https://x.com/testingcatalog/status/2112576267203551301",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-21T00:06:46+08:00",
+    "tags": [
+      "机器人",
+      "Voxel",
+      "家用机器人",
+      "具身智能",
+      "YC"
+    ],
+    "image": "/assets/covers/cover-20261021-v-13.jpg"
+  },
+  {
+    "title": "TestingCatalog：Krea 3 Ultra 登上图像编辑榜第 4，仅差 Nano Banana 2.1 一分——比 GPT Image 2 快 10 倍",
+    "summary": "在 Artificial Analysis 的图像编辑榜（AA-Image-Editing v2.1，按用户投票换算 Elo）上，Krea 3 Ultra 以 1151 分排第 4，仅比 Google Nano Banana 2.1 少 1 分，前五其余席位均为 OpenAI、Google 与 MAI 模型；Krea 3 Fast 以 1125 分排第 11，比 Nano Banana 2 高 1 分。Krea 3 速度为 GPT Image 2 的 10 倍、Nano Banana Pro 的 4 倍，1K 每张 0.03 美元、2K 0.06 美元起，支持框选局部反复修改。",
+    "url": "https://x.com/testingcatalog/status/2112570237874810918",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-20T23:42:49+08:00",
+    "tags": [
+      "Krea",
+      "图像编辑",
+      "排行榜",
+      "Artificial Analysis",
+      "创意工具"
+    ],
+    "image": "/assets/covers/cover-20261021-v-14.jpg"
+  },
+  {
+    "title": "TestingCatalog：GPT-6.1 Terra 现身微软评测配置 PR——18 项配置从 GPT-5.6 Terra 升级，或将很快发布",
+    "summary": "TestingCatalog 指出 OpenAI 似乎在准备发布 GPT-6.1 Terra：该模型名出现在微软一项评测配置的 PR 中，据引用帖称微软把 18 个评测配置从 GPT-5.6 Terra 改为 GPT-6.1 Terra。此前 The Information 也报道过该模型在研发中，这是继媒体报道之后来自代码仓库的新线索。",
+    "url": "https://x.com/testingcatalog/status/2112491179249996095",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-20T18:28:39+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6.1 Terra",
+      "模型爆料",
+      "微软",
+      "新模型"
+    ],
+    "image": "/assets/covers/cover-20261021-v-15.jpg"
+  }
+]

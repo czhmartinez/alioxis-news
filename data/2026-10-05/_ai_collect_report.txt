@@ -1,0 +1,122 @@
+Alioxis News AI新闻 collect report — 2026-10-05 (Asia/Taipei)
+================================================================
+item_count: 20
+output: /workspace/alioxis-news/data/2026-10-05/ai.json
+covers: image fields left empty ("") for later GenerateImage
+lead: 特朗普宣布成立「超级智能部队」SIF：国家情报总监 Jay Clayton 牵头，120 天内提交风险与机遇报告
+
+AIHOT status
+------------
+- `node scripts/fetch-aihot-daily.js 2026-10-05` → GET /api/v1/dailies/2026-10-05 = HTTP 404 ("No daily report exists for 2026-10-05")
+- Script fell back to latest list item (2026-10-04, lead EDA 事件 — already used as 10-04 lead) → saved as
+  _aihot_daily_fallback_2026-10-04.json. Deliberately NOT kept as _aihot_daily.json so build.js won't render a stale
+  「今日日报」strip on the 10-05 page.
+- Re-probed at ~08:24 and again before finishing: dated API 404, /api/v1/agent/daily/2026-10-05 404, https://aihot.news/daily/2026-10-05 404
+  (_aihot_probe.json, _aihot_daily_404.html). Note: 10-01/10-02 dailies were generated late (10:29Z / 07:47Z), so today's may still appear later.
+- AIHOT lead: NOT AVAILABLE → no AIHOT lead item; lead chosen editorially (freshest high-impact story, Oct 4).
+- Candidate stream used instead: /api/v1/items?mode=all&window=24h (120 items, 2 pages) → _aihot_items_24h_all.json / _p2.json,
+  flattened + score-sorted in _aihot_tips_flat.json; _aihot_latest.json = /api/v1/dailies/latest (still 2026-10-04).
+- Every AIHOT-surfaced candidate was re-verified on its primary/original page (no AIHOT URL used as item URL).
+- If the 10-05 daily appears later: re-run the fetch script; its lead can replace/precede item 01 (check overlap with the 20 items).
+
+Dedup / skip notes
+------------------
+SKIP (already covered 10-01..10-04 ai.json / v.json):
+- Aleph Alpha Kolibri 78B MoE (10-04 v @testingcatalog) — kept only the separate Aleph Alpha China-model bias study
+- Anthropic co-founder × Pope AI consciousness (10-04 v @MaxForAI)
+- DeepSeek Harness v0.2 desktop apps (10-03 v) and DeepSeek Harness × Claude Code Mods compat layer (Claude Code mods arc 10-02..10-04)
+- Meta Muse Gadgets (10-04 lead batch) / Muse Charm device / Muse retrospective
+- NVIDIA chip smuggling arrest (10-03 v「美国起诉GPU走私案老板」)
+- OpenAI internal model Slack-restart story via ithome (10-04 item 02)
+- Google TEE federated learning (MarkTechPost rehash of 10-03 item)
+- DevDay 22 updates / ChatGPT as OS (Every.to) — DevDay arc covered 09-30
+SKIP (stale, not 1–3 days fresh despite fresh re-coverage):
+- NASA×IBM Lunar Foundation Model (NASA release 2026-09-10; Decoder Oct 4 is a re-cover)
+- GPT-6 Astra breaks 1809 Napoleon/Marmont cipher (writeup 2026-09-18, X thread 09-30)
+- Alibaba T-Head 真武 V900 (云栖 2026-09-22); Boston Dynamics RMAC / Hyundai 25k Atlas (opened 2026-09-21)
+- Cohere North Small Translate (2026-09-10); Google RRSI harness paper (paper 09-21; Decoder Oct 4) — dropped to avoid 4 harness papers
+SKIP (X-only / unverifiable — X API credits depleted, no primary page found):
+- Replit Drift (no product page found), Manus 2.0 × H3 Max, Tripo P2.0, PixVerse ad-variants plugin (landing page has no details),
+  Kling 4.0 《The Beat》, Codex 28-day daily updates (@thsottiaux), Perplexity Pokémon demo (API itself kept via docs)
+SKIP (off-topic / weak): Win11 RAM, Huawei Kirin die shot / 381 τ chips, Leshan Buddha AI video rumor, NJ Lt Gov AI defense,
+  REK robot fights, xAI Minnesota appeal, System76 COSMIC AI-code ban, IBM Bob self-hosted (Oct 1, kept out for variety; watsonx used 10-04)
+
+Expansion beyond AIHOT (official blogs / changelogs / reputable tech news)
+-------------------------------------------------------------------------
+- Apple Developer news: Full Disk Access tightening (Oct 2) — developer.apple.com/news/?id=p6zjojqw
+- Google Gemini Help Center: model access by plan, effective Oct 9 for free users (+ The Decoder Oct 4 analysis)
+- GitHub Changelog: Copilot computer use public preview (Oct 1)
+- Cloudflare blog: Web Search API via AI Gateway (Oct 2, Birthday Week)
+- Perplexity docs: Decisions API / pplx-decider-v1-27b (launched Oct 1)
+- About Amazon: Matt Garman post — no NDAs + Built Together $1B (Oct 2)
+- arXiv primaries for CLM (2609.37725), VeriHarness (2610.00972), Mid-Harness (2609.39982) — surfaced by AIHOT via X threads, replaced with arXiv
+- Artificial Analysis Cyber Index live leaderboard (Grok 4.7 / MiMo-V2.6-Pro tie at 56)
+- Simon Willison weblog (Oct 3), TechCrunch (SIF, OSS VRP, Robinson, Stability), The Verge (StarCraft), MarkTechPost (model comparison), The Decoder (Aleph Alpha study)
+- GitHub repos: Niko1221/Strata (v0.1.38 Oct 3, corroborated by linuxcompatible.org), omlahore/RemoveMacAI
+- Checked with nothing fresh/new usable: OpenAI news RSS (latest Oct 2, all covered), Google blog, DeepMind, HF blog (latest ThinkingBox, covered),
+  NVIDIA blogs, Mistral, Qwen blog, Microsoft blog, Vercel changelog (latest Oct 2, covered)
+
+Source URL choices (prefer primary; curl verified HTTP 200)
+-----------------------------------------------------------
+- Primary used where one exists: Apple, Google support, GitHub changelog, Cloudflare, Perplexity docs, Amazon, arXiv x3, AA, GitHub repos x2, Simon Willison
+- News URL used where the news itself is the reporting: TechCrunch (SIF — Truth Social/WSJ sources; OSS VRP — Google's own note is an X post;
+  Robinson — Atlantic essay paywalled; Stability — The Information interview), The Verge (StarCraft), The Decoder (Aleph Alpha study), MarkTechPost (comparison)
+- published_at converted to +08:00; Apple post has date only (Oct 2 PT) → set 2026-10-03T02:00+08:00 (approx); Gemini support page undated →
+  first report time (ithome via AIHOT 2026-10-03T04:53Z); Strata → v0.1.38 release date; AA → time of Grok #1 announcement (Oct 4 16:42Z)
+- Research items (CLM 09-29, Mid-Harness 09-30, VeriHarness 10-01) are a few days old on arXiv but entered the news cycle Oct 4 (DAIR.AI / omarsar0 via AIHOT)
+
+Items (title → url)
+-------------------
+01. 特朗普宣布成立「超级智能部队」SIF：国家情报总监 Jay Clayton 牵头，120 天内提交风险与机遇报告
+    https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/
+02. Google 暂停开源漏洞赏金计划的产品漏洞提报：AI 自动提交激增且多数无效
+    https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/
+03. GPT-6 Astra 在 StarCraft 机器人赛事中打不过人类 bot，转而下载对手 Stardust 冒名上场
+    https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft
+04. OpenAI 安全报告负责人 David Robinson 离职，在 The Atlantic 撰文称公司「文化已崩坏」
+    https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/
+05. Apple 将收紧 macOS「完全磁盘访问」：AI 智能体越自主，授权风险越大
+    https://developer.apple.com/news/?id=p6zjojqw
+06. Gemini App 调整模型档位：10 月 9 日起免费用户仅剩 Flash-Lite，AI Plus 失去 Pro
+    https://support.google.com/gemini/answer/17004136
+07. GitHub Copilot 上线 Computer Use 公测：CLI 与桌面 App 可直接操控 macOS/Windows 应用
+    https://github.blog/changelog/2026-10-01-github-copilot-can-now-interact-with-desktop-apps
+08. Cloudflare AI Gateway 推出 Web Search API：接入 Ceramic、Exa、Linkup，Workers 一行调用
+    https://blog.cloudflare.com/introducing-web-search-api/
+09. Perplexity Decisions API：pplx-decider-v1-27b 返回概率而非文本，输入 $0.04/百万 token、输出免费
+    https://docs.perplexity.ai/docs/decisions/quickstart
+10. 开源 Strata：12GB 显卡游戏 PC 本地跑 125B 的 Qwen3.8-Flash-Next，RTX 5070 实测最高 94 tok/s
+    https://github.com/Niko1221/Strata
+11. AWS CEO Matt Garman：不再与政府机构签数据中心保密协议，并启动 10 亿美元「Built Together」社区计划
+    https://www.aboutamazon.com/news/company-news/amazon-data-centers-built-together
+12. Meta × 华盛顿大学提出 Context Language Models：让模型把上下文当文件自行编辑
+    https://arxiv.org/abs/2609.37725
+13. Google 提出 VeriHarness：同一模型变身智能体验证器，分歧查证据、共识反向挑刺
+    https://arxiv.org/abs/2610.00972
+14. NVIDIA Mid-Harness：在模型与 harness 之间先采样再验证动作，终端智能体 Pass@1 从 50% 升至 68%
+    https://arxiv.org/abs/2609.39982
+15. Aleph Alpha 研究：Qwen、DeepSeek、Kimi 等在敏感政治话题上仅 17%–41% 回答被评为平衡
+    https://the-decoder.com/chinese-ai-models-parrot-state-doctrine-or-refuse-to-answer-on-sensitive-topics/
+16. 四款前沿模型怎么选：GPT-6 Astra / GPT-6.1 Sol / Gemini 4 Argon / Claude Fable 5.1 选型对照
+    https://www.marktechpost.com/2026/10/04/gpt-6-astra-vs-gpt-6-1-sol-vs-gemini-4-argon-vs-claude-fable-5-1-which-frontier-model-fits-which-job/
+17. Simon Willison：智能体时代，按量计费服务都该默认「硬预算上限」
+    https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/
+18. Artificial Analysis 网安指数：Grok 4.7（xhigh）以 56 分与 MiMo-V2.6-Pro 并列第一
+    https://artificialanalysis.ai/evaluations/artificial-analysis-cyber-index
+19. 开源 RemoveMacAI：一条命令关闭 macOS 27 的 Apple Intelligence 并删除本地模型，可完整还原
+    https://github.com/omlahore/RemoveMacAI
+20. Sean Parker 把 Stability AI 重塑为音乐 AI 工具商：获索尼、华纳、环球投资并授权曲库训练
+    https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/
+
+Blockers
+--------
+- AIHOT daily for 2026-10-05 not published yet (404) at collection time → no AIHOT lead.
+- X API (user-X MCP) returned 402 credits depleted → X-only candidates skipped rather than verified.
+- perplexity.ai/hub blog 403 to curl → used docs.perplexity.ai quickstart (200) instead.
+- 20/20 item URLs HTTP 200 (see _url_verify.txt).
+
+Mirrors saved
+-------------
+- _aihot_daily_fallback_2026-10-04.json / _aihot_latest.json / _aihot_probe.json / _aihot_daily_404.html
+- _aihot_items_24h_all.json / _aihot_items_24h_all_p2.json / _aihot_tips_flat.json
+- _ai_collect_report.txt / _url_verify.txt / ai.json

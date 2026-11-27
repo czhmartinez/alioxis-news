@@ -1,0 +1,78 @@
+Alioxis News AI新闻收集报告 — 2026-11-04（Asia/Taipei）
+============================================================
+完成时间：2026-11-04 08:18 左右 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-04/
+产出：ai.json（20）、_cover_prompts_ai.json（20）、_prior_urls.json（1988 URL，见第六节）、_aihot_daily.json、_aihot_summary.txt、本报告
+
+一、条数与头条
+- 条数：20（目标 15–20）
+- Lead（#00）：OpenAI：ChatGPT 搜索类查询量已达谷歌约五分之一，周活两个月从 10 亿涨到 12 亿，语音周活 2.5 亿
+  URL：https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20
+  理由：OpenAI 首次给出 ChatGPT 与谷歌搜索的量级对比，叠加 12 亿周活、15 亿张图/周、语音 2.5 亿周活等硬数据，对「AI 搜索取代传统搜索」的行业影响最大；Verge 同题报道（theverge.com/ai-artificial-intelligence/1025482）交叉核实
+  备选：#01 AMD 财报（AIHOT 头条）、#02 GPT-6 Astra 设计硬件、#03 Anthropic FlashProve
+
+二、与 v.json 交叉情况
+- 写盘时同目录已有 v.json（14 条，另一流程生成）；URL 硬交叉 0
+- 软相关处理：
+  · 大V「小互：苹果开放 Siri AI 开发者接口」与候选「iOS 27.3 Siri AI 向第三方开放」（The Verge）同题 → AI新闻撤下该条，改收 Netflix AI Discover（#16），避免两频道重复
+  · 大V「卡兹克 DeepSeek Harness 养鱼」「Max DeepSeek 服务中断」属大V频道，AI新闻不收 DeepSeek 相关
+  · 大V「Max：MIT 权重空间编程用 GPT-6 Astra」与 #02（Astra 设计硬件）同模型不同话题，保留
+  · 大V「小互：Anthropic 上市文件内部 Claude 消耗」与 #03 FlashProve 同公司不同话题，保留
+
+三、AIHOT 使用情况
+- node scripts/fetch-aihot-daily.js 2026-11-04 成功（lead：AMD Q3 财报，2027 营收增长超 80%），_aihot_summary.txt 由 JSON 生成
+- 采用线索并落到原文：
+  · AMD Q3 财报 → #01 ir.amd.com 新闻稿（电话会指引据 AIHOT/媒体转述）
+  · OpenAI 评测-生产行为差距 → #06 alignment.openai.com
+  · OpenAI LifeVal → #07 openai.com/index/lifeval
+  · Gemini 2.5 Pro/Flash 弃用 → #08 ai.google.dev 更新日志
+  · OpenHands × Snowflake → #18 openhands.dev 博客
+- 未采用：
+  · Mistral Large 4 技术报告 — 10-30 已作头条报道 Mistral Large 4，低增量
+  · Revolut × GLM — 仅推文来源，未找到可核实原文
+  · 卡兹克 DeepSeek 养鱼 / Ed Zitron 评论 — 观点/大V频道范畴
+  · Cognition 安全指南、Addy Osmani 文章 — 未能及时核实原文，且偏技巧长文
+  · OpenAI 聘前陆军部长 Dan Driscoll — 已核实（The Decoder / openai.com），篇幅所限未收
+- 补充（WebSearch / WebFetch / curl / RSS）：TechCrunch AI、The Decoder、The Verge AI、IT之家 RSS、OpenAI / DeepMind / Anthropic 官方页、Big Technology、Kimi 官网
+
+四、跳过原因
+- 苹果 Siri AI 向第三方 App 开放（The Verge）：与当日 v.json 小互条同题，撤下（见第二节）
+- Anthropic message threads、Claude Code 克隆游戏：11-03 / 11-02 已收
+- DeepSeek Creator Mode、DeepSeek V5 昇腾：11-03 v.json / 更早已报道，低增量
+- Anthropic 算力经济学（TechCrunch）：与 11-03 #01 营收/亏损同题低增量
+- 数据中心改装喷气发动机供电、Palantir Q3、SETI Allen 望远镜 AI 智能体、Garry Tan gstack：已核实，按重要性/AI 相关度排在 20 条之外
+- 微软 AI PC 四级路线图（IT之家 886）：爆料性质、信息较弱
+- ChatGPT 12 亿周活 IT之家稿（ith878）：正文解析失败，改用 Big Technology 原访谈
+
+五、每条核实手段
+00 ChatGPT 搜索/周活 — curl Big Technology（datePublished 2026-11-03T15:00Z）；Verge 同题交叉
+01 AMD Q3 — curl ir.amd.com 新闻稿（11-03 美股盘后，时间按 16:05 ET 估计）；AIHOT 交叉电话会指引
+02 GPT-6 Astra 硬件 — WebFetch openai.com（页面日期 November 3, 2026，openai.com curl 403）；The Decoder / BenchCAD 博客交叉
+03 FlashProve — curl TechCrunch；curl anthropic.com/research/provable-inference 原文交叉
+04 Kimi 游戏方案 — curl/WebFetch kimi.com/news/kimi-game-solutions（页面日期 2026-11-03）
+05 Antigravity 化学技能 — curl deepmind.google 博客（datePublished 2026-11-03T15:00Z）；IT之家 858 交叉
+06 评测-生产差距 — curl alignment.openai.com（页面 Nov 3, 2026）
+07 LifeVal — WebFetch openai.com（November 2, 2026）
+08 Gemini 2.5 弃用 — curl ai.google.dev 更新日志（11-02 条目）
+09 OpenAI 安全松懈 — curl IT之家 892（转述路透社，pubtime 2026/11/4 8:00:32）
+10 OpenAI 漏洞赏金 — curl The Decoder
+11 Fal 融资 — curl TechCrunch（转述 Bloomberg）
+12 英伟达 云客户/中国 — curl The Decoder（转述 The Information/FT）
+13 华为 HBM — curl The Decoder（转述 The Information）
+14 谷歌 K-12 AI — curl TechCrunch（转述 NYT）
+15 苹果 18+ AI 陪伴 — curl TechCrunch
+16 Netflix AI Discover — curl TechCrunch
+17 欧盟法院 Gemini 版权意见 — curl IT之家 835（转述路透社）
+18 OpenHands × Snowflake — curl openhands.dev 博客
+19 斯坦福 LLM 结论过期 — curl The Decoder
+
+六、去重
+- _prior_urls.json：本流程先写入近 10 天（10-25～11-03）ai.json+v.json 共 337 条 URL；随后被并行的大V流程按 11-03 惯例覆盖为全量 data/*/ai.json + v.json，共 1988 条（为超集，保留）。本日 20 条 URL 对两份集合均 0 命中，内部无重复，与当日 v.json 0 交叉
+- 对照近 10 天标题做同题关键词检查：10-20 OpenAI 工程师窃听被捕为事件本身，#09 为路透新披露的安全文化问题，角度不同保留；10-30 Mistral Large 4 已收，技术报告不再收
+- published_at 均为 +08:00 ISO（#01/#02/#04/#06/#07/#08/#18 原文仅有日期，时间为按日期估计）；source 均为字符串；image 为 /assets/covers/cover-20261104-ai-NN.jpg（00–19），与 _cover_prompts_ai.json 一一对应
+
+七、缺口与说明
+- 20 条，全部有可核实原文链接
+- #07 LifeVal、#08 Gemini 弃用为 11-02（美国时间）发布，处于 36h 窗口边缘，因 AIHOT 当日收录且未进 prior 保留
+- #09、#17 为 IT之家转述路透社，路透原文未直接抓取
+- 未生成封面、未 build、未 publish（按任务要求）

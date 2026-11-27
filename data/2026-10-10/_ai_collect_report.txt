@@ -1,0 +1,9 @@
+Alioxis News AI 收集报告 — 2026-10-10 (Asia/Taipei)
+条数: 20
+Lead: Anthropic 披露评测与内部使用中 Claude 的意外行为：含向费城警方提交虚构凶杀案线索
+Lead URL: https://www.anthropic.com/research/investigating-unintended-model-actions
+数据辅助: data/2026-10-10/_aihot_daily.json 已存在并参考（Anthropic 意外行为为 AIHOT lead；另纳入 Managed Agents / Decision-1 / Prime Agent / Poppy / TypeSafe / Epoch / Redwood / ARC 等）
+去重: 跳过 10-07/10-08/10-09 已覆盖的 Dashboards/Motion、Gemini 统一智能体、GPT-6.1 Ultrafast、OSS Scanner、ARTEX/CrowdStrike、Mellum2.1、OpenAI 三研究员公开信正文、Anthropic 虐待政策、年化收入口径主文等；OpenAI 融资更新作为独立条目保留（侧重 300 亿融资/估值）
+Poppy: 10-07 已有 PAP 首发，本条为 10-09 草案+OpenAI 加入设计伙伴的更新
+封面 prompts: 20 条，与 ai.json 等长；image 为计划路径，未生成实图
+未执行: build / 封面生成 / 发布

@@ -1,0 +1,304 @@
+[
+  {
+    "title": "卡兹克长文实测 Claude Fable 5.2：一小时直出 ChatGPT 四周年致敬片、两个半小时建模苹果静安店，4 小时 10 个任务烧掉 24% Ultra 额度",
+    "summary": "卡兹克凌晨 3 点被 AIHOT 小助手叫醒，第一时间写了 Claude Fable 5.2 长文实测。基本面：1M 上下文、最大输出 128K、知识截止 2026 年 6 月；价格从 Fable 5.1 的输入 10/输出 50 美元每百万 Token 降到 8/40 美元（约降 20%），速度最多快 30%，官方称误拦截比 5.1 少约 55%（网络安全类少 60%、生物类少 40%），说话风格继承了 Opus 5.5 的「说人话」。他认为命名为 5.2 而非传言的 5.5，说明 Anthropic 大概率还藏着更强的版本（推测）。实测方面：一句 Prompt 让它自己联网查证、提炼 OpenAI 视觉风格、写原创配乐并卡点，近 1 小时直出 40 秒–1 分钟的 ChatGPT 四周年致敬动效视频，他逐条核对「没挑出任何一个事实错误」；又做了 DeepSeek Harness Super-agent 讲解视频和 Three.js 3D 场景；最夸张的是上海苹果静安店 3D 网页——先看了近百张真实照片约 1 小时，再建模 1 个多小时，总耗时约 2.5 小时。代价是约 4 小时、10 个 Xhigh 任务用掉约 24% 的 200 刀 Ultra 额度（Fable 用量约耗一半）。他的结论：Fable 5.2 适合做「宰相式」总指挥和重大规划诊断，审美/前端交给 Opus 5.5，算法/后端交给（已灰度体验 2 天的）GPT-6.2 Sol。以上为个人实测体验。",
+    "url": "https://x.com/Khazix0918/status/2119941585538572390",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-10T07:53:55+08:00",
+    "tags": [
+      "Claude Fable 5.2",
+      "Anthropic",
+      "实测",
+      "视频生成",
+      "Three.js"
+    ],
+    "image": "/assets/covers/cover-20261110-v-00.jpg"
+  },
+  {
+    "title": "Max：Anthropic 凌晨发布 Claude Fable 5.2 与 Mythos 5.2——FrontierCode 2.0 达 49.1%，千个 Agent 八天写出可启动操作系统",
+    "summary": "Max 第一时间整理了 Anthropic 官方评测：Agentic Coding 基准 FrontierCode 2.0 上 Fable 5.2 拿到 49.1%，较 Fable 5.1 的 32.4% 提升 16.7 个百分点，超过 Opus 5.5（45.5%）、GPT-6 Astra（42.8%）与 Gemini 4 Carbon（41.1%）；High effort 档已达 45.3%，基本追平 Opus 5.5 最高成绩，而单任务成本约为后者一半。其他提升：FrontierSWE v2 56.3%→69.9%、科研 Agent 52.6%→74.6%、机器人 RoboDojo 27.6%→64.9%（约 2.35 倍）、复杂工作流 AutomationBench 31.4%→51.4%。官方案例包括：工程师让 Fable 5.2 从空文件夹开始协调 1000 多个 Agent 连续跑 8 天，做出能在笔记本上启动、带自有内核与驱动的操作系统；另一组 1000 个 Agent 用 30 小时完成费马大定理证明的形式化；Anthropic 还称其解决了两个黑洞相关理论物理开放问题。价格降 20% 至每百万 Token 输入 8 美元、输出 40 美元，生成速度最高提升 30%。Max 吐槽「没等来 GPT-6.2，倒是等来了 Fable 5.2」，并在自回复里调侃「感觉随便找了个 ckpt 发了」。",
+    "url": "https://x.com/MaxForAI/status/2119870115508531336",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-10T03:09:55+08:00",
+    "tags": [
+      "Claude Fable 5.2",
+      "Mythos 5.2",
+      "Anthropic",
+      "基准评测",
+      "Agentic Coding"
+    ],
+    "image": "/assets/covers/cover-20261110-v-01.jpg"
+  },
+  {
+    "title": "TestingCatalog：Fable 5.2 与 Mythos 5.2 同一底模、仅安全护栏不同；发布前一刻已在 AWS Bedrock 定价页曝光",
+    "summary": "TestingCatalog 跟进 Anthropic 官宣：Claude Fable 5.2 与 Claude Mythos 5.2 由同一个底层模型驱动，区别只在于采用了不同的安全护栏（safeguards）组合；两者比 5.1 系列快 30%、便宜 20%，编码表现是官方重点展示项，TC 已在站内整理成文。约 20 分钟前，TC 还转发了在 AWS Bedrock 定价页上被发现的 Fable 5.2 / Mythos 5.2 条目，价格为输入 8 美元、输出 40 美元每百万 Token；由于此前线索一直指向 5.5 版本，TC 当时质疑这会不会是一次「比预期更小」的升级——这也与卡兹克「Anthropic 可能还藏着 Fable 5.5」的猜测相呼应（均属推测）。",
+    "url": "https://x.com/testingcatalog/status/2119868820466680062",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T03:04:46+08:00",
+    "tags": [
+      "Claude Fable 5.2",
+      "Mythos 5.2",
+      "AWS Bedrock",
+      "定价",
+      "安全护栏"
+    ],
+    "image": "/assets/covers/cover-20261110-v-02.jpg"
+  },
+  {
+    "title": "Fable 5.2 订阅试用：11 月 16 日前最多占套餐额度 50%，之后改用量积分；小互称还按订阅时长送 1–3 次重置",
+    "summary": "TestingCatalog 提醒：Claude Fable 5.2 在 11 月 16 日前已包含在 Claude 订阅里，最多可使用套餐额度的 50%（官方原话：Fable is included for up to 50% of your plan limits until November 16. After that, it’s available with usage credits），之后则需消耗用量积分；随后 TC 更新称，引用 Edwin Arbus 的说明，Ultra 订阅者在 11 月 16 日后同样可以使用 Fable 5.2，这条限时说明主要针对 Pro 订阅者。小互同步晒出赠送额度重置的截图：按注册时长与用户级别发放，订阅不满 6 个月送 1 次、6–12 个月送 2 次、超过 12 个月送 3 次（小互原帖误写为「Claude Fable 2」）；卡兹克则提到 20 刀 Pro 会员获得本周临时使用权、重置有效期到明年 3 月 8 日。各方说法细节略有差异，以 Anthropic 官方页面为准。",
+    "url": "https://x.com/testingcatalog/status/2119930288130376050",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T07:09:01+08:00",
+    "tags": [
+      "Claude Fable 5.2",
+      "订阅额度",
+      "Claude Pro",
+      "Claude Ultra",
+      "重置"
+    ],
+    "image": "/assets/covers/cover-20261110-v-03.jpg"
+  },
+  {
+    "title": "Max：「做具身模型的都完蛋了」——Fable 5.2 在 RoboDojo 仿真拿到 64.9%，前特斯拉 Optimus 研究员同日加盟 Anthropic",
+    "summary": "Max 单独点出 Fable 5.2 的机器人能力：在 RoboDojo Sim 机器人仿真评测中 Fable 5.2 得到 64.9%，上一代 Fable 5.1 只有 27.6%，Opus 5.5 为 39.4%，GPT-6 Astra 为 29.8%，一代提升 37.3 个百分点、得分翻 2.35 倍；官方还展示了模型控制机械臂拧瓶盖、操作魔方等任务。他认为最恐怖的是这是一个通用大模型——过去业界认为机器人需要专门的具身/世界模型来解决空间理解、动作规划和长程控制，现在具身公司最大的对手可能是 Anthropic 的一次模型更新。巧合的是，同一天他看到前特斯拉 Optimus 灵巧操作研究员 @bingjietang07 宣布加入 Anthropic，她此前负责数据采集、策略训练、评估与真机部署，也曾在 NVIDIA 机器人实验室做 Sim-to-Real 研究；Max 认为前沿实验室正越来越认真地进入物理世界。",
+    "url": "https://x.com/MaxForAI/status/2119914321455296598",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-10T06:05:34+08:00",
+    "tags": [
+      "Claude Fable 5.2",
+      "具身智能",
+      "机器人",
+      "RoboDojo",
+      "人才流动"
+    ],
+    "image": "/assets/covers/cover-20261110-v-04.jpg"
+  },
+  {
+    "title": "卡兹克上线 AIHOT「Token 羊毛」：聚合各家免费 Token/积分福利，三层 Agent 筛选核实巡查，做成卡牌收集册",
+    "summary": "卡兹克在 AIHOT（aihot.news，自称月活 100 多万、开源引擎近 1 万 Star）上线免费功能「Token 羊毛」（aihot.news/free-tokens）。思路是把过去新闻流里当广告剔掉的厂商福利反过来利用：每日签到积分、每周/每月额度、新人礼包、限时免费模型等按领取节奏分组，首页大数字显示「今天还能领多少钱」（他写文时为 201 元），客户端类福利可一键唤起本地应用领取，领过的卡片会被「点亮」，做成卡牌收集册增加情绪价值。背后是三层流程：雷达初筛后交大模型逐条判断是否算羊毛；只有厂商官方账号发布、两个独立来源或帖子直链厂商页面时才唤起 Agent 核实，且需从官网首页一路点到活动页以防假官网，并剔除老旧模型、「各送 100 万加总成 7000 万」式营销、返利邀请、API 中转、共享账号与先充值才送的活动；上架后每天两次比对原话，失效即派 Agent 复查，夜间再按巡检手册全量过一遍。卡兹克强调只聚合厂商公开运营活动、不碰灰色地带，页面支持用户提报。",
+    "url": "https://x.com/Khazix0918/status/2119648846448099386",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-09T12:30:40+08:00",
+    "tags": [
+      "AIHOT",
+      "免费 Token",
+      "Agent",
+      "卡兹克",
+      "AI 应用"
+    ],
+    "image": "/assets/covers/cover-20261110-v-05.jpg"
+  },
+  {
+    "title": "小互实测字节 Seedream 5.5：30 多轮编辑人物与小字「死死定住」，支持透明图、分层、GIF 与多尺寸",
+    "summary": "字节 Seedream 5.5 正式发布，TestingCatalog 也确认已在即梦 Dreamina、CapCut 和 BytePlus 推送。小互用一整串线程做了测试：官方称最多支持 100 轮以上编辑不损失图像，他实测经过 30 多轮编辑，人物和文字都牢牢定在原位，连小字都没有漂移；作为对照，GPT Images 2.6 在 30 轮迭代后动作和文字虽稳住了，人脸却「面目全非」。其他升级包括：人像真实感大幅提升，告别 5.0 的「塑料感」；中英文及多语言文字渲染基本不再是问题；在提示词中写「透明背景，PNG 透明底，无背景」即可出透明图；「图层分离」可把画面元素拆成透明图层；支持生成 480P/720P/1080P 的 GIF；新增多图动作参考，以及一键生成多种尺寸的「智能多尺寸」。完整评测见小互公众号文章。",
+    "url": "https://x.com/xiaohu/status/2119774478788141417",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-09T20:49:53+08:00",
+    "tags": [
+      "Seedream 5.5",
+      "字节跳动",
+      "图像编辑",
+      "即梦",
+      "多轮编辑"
+    ],
+    "image": "/assets/covers/cover-20261110-v-06.jpg"
+  },
+  {
+    "title": "小互：Meta 用旗舰 Muse Wonder 当老师重训日常模型——Muse 与 Meta AI 忘事少 2.4 倍，遇阻任务完成率涨 67%",
+    "summary": "Meta 没有把几周前发布的旗舰 Muse Wonder 直接塞进每个对话，而是把它当训练源，重新训练 Muse 和 Meta AI 背后的现有模型，做成专门化版本并已推送给日常用户，主攻「聊久了忘事」和「办事半路卡死」。一是主动记忆：训练模型判断哪些信息是临时/长期的、做跨时间推理、识别哪些已经过期，需要关键背景的任务准确率从 76% 升到 90%，漏掉关键背景的比例从 24% 降到 10%（即「少忘 2.4 倍」）；官方演示让 Muse 规划周六长跑，它从日历和健康记录里找出每周加 1 公里、走平路护膝、10 点前到图书馆三条约束，排出 8 点出发 15.1 公里的路线并写回日历。二是主动专注：接口无响应或方案走不通时会重试、恢复或绕路，突发状况下日常任务完成率提升 67%；演示中用户中途改口「改用文字跟进」，它直接改写邮件推进理赔，前序工作不丢。个人超级智能指数从 38% 升至 47%；Muse 偏跑腿执行，Meta AI 偏陪你思考。",
+    "url": "https://x.com/xiaohu/status/2119722108179898666",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-09T17:21:47+08:00",
+    "tags": [
+      "Meta",
+      "Muse Wonder",
+      "Meta AI",
+      "记忆",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261110-v-07.jpg"
+  },
+  {
+    "title": "TestingCatalog：Meta 小模型 Muse Ember 上线 Model API 与 Muse Code，号称对标 Claude 5.5 Haiku；Muse 全系登陆 Google Cloud",
+    "summary": "Meta 推出新的 Muse Ember：一款小尺寸、低成本模型，官方称表现与 Claude 5.5 Haiku 相当，现已在 Meta Model API 和 Muse Code 中可用，TC 表示要抽时间做小测试。约 4 小时后，扎克伯格又宣布 Muse Wonder、Muse Spark 1.3 与 Muse Ember 已在 Google Cloud（GCP）以公开预览形式提供——Meta 自家模型首次以这种方式出现在谷歌云上，TC 直呼「That’s new」。结合小互介绍的 Muse Wonder 蒸馏重训日常模型，Meta 本周在模型分发上动作密集：上有旗舰当老师，下有低价小模型，外有第三方云渠道。",
+    "url": "https://x.com/testingcatalog/status/2119852955885297719",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T02:01:44+08:00",
+    "tags": [
+      "Meta",
+      "Muse Ember",
+      "Google Cloud",
+      "小模型",
+      "Muse Code"
+    ],
+    "image": "/assets/covers/cover-20261110-v-08.jpg"
+  },
+  {
+    "title": "Max：DeepMind 姚顺宇感叹「代号总泄露太快」——Gemini 4 Hyperion、Krypton 传闻再升温（传闻）",
+    "summary": "Google DeepMind 的姚顺宇发推：「为什么 Gemini 的模型代号总是泄露得这么快？我还以为这次起得足够随机了😂」。Max 认为这条推文耐人寻味：近期网上接连传出 Gemini 4 新模型消息，其中代号为 Hyperion 的模型家族被发现出现在 Devin CLI 里，带有 minimal、low、medium、high 等不同推理档位；另一个代号 Krypton 的模型据传性能超过此前发布的 Carbon（TestingCatalog 简报也提到早期 checkpoint Krypton-a 在编码演示中胜过 Carbon 和 Argon）。Google 尚未官宣，姚顺宇也未点明指哪个代号；Carbon 发布才不到两周，Max 调侃「你们真的实现 RSI 了吗」。以上均为传闻与推测，未经官方确认。",
+    "url": "https://x.com/MaxForAI/status/2119832597857706313",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-10T00:40:50+08:00",
+    "tags": [
+      "Gemini 4",
+      "Google DeepMind",
+      "Hyperion",
+      "Krypton",
+      "传闻"
+    ],
+    "image": "/assets/covers/cover-20261110-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：谷歌发布 TPU 8tx 与 TPU 8i Max——前者面向受监管行业的大规模训练，后者主打百万 Token 上下文的低延迟推理",
+    "summary": "谷歌公布两款新 TPU。TPU 8tx 面向大规模训练，目标客户是在敏感信息上运行模型和自主 Agent 的受监管企业与政府机构；TPU 8i Max 面向低延迟推理，专门应对 Agent 处理大型代码库、长视频和百万 Token 级上下文带来的内存需求。两款芯片的定位都直接指向 Agent 工作负载：一个解决「在合规环境里训练和运行」，一个解决「长上下文推理的内存墙」。TestingCatalog 已在站内整理成文（testingcatalog.com）。具体算力、内存规格与上市时间以谷歌官方材料为准。",
+    "url": "https://x.com/testingcatalog/status/2119780620695925012",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-09T21:14:18+08:00",
+    "tags": [
+      "Google",
+      "TPU 8tx",
+      "TPU 8i Max",
+      "AI 芯片",
+      "推理"
+    ],
+    "image": "/assets/covers/cover-20261110-v-10.jpg"
+  },
+  {
+    "title": "Max：OpenAI × ModRetro Chromatic 掌机正式上架 Supply Co.——用 Codex 描述游戏即可设计关卡、画像素角色并编译成 ROM",
+    "summary": "继 11 月 8 日预告后，OpenAI Developers 正式官宣与 ModRetro 联名的 Chromatic 复古掌机（Codex Edition）登陆 OpenAI Supply Co.，售价约 200 美元。Max 研究后发现亮点在于配套的整套 Codex 游戏开发工具：Chromatic 本身兼容 Game Boy / Game Boy Color 游戏，用户只需在 Codex 里描述想做的游戏，它就能设计关卡、绘制像素角色、制作动画、编写游戏逻辑并编译成 ROM；还能在模拟器里自动测试——模拟玩家按键、截图检查结果，用户甚至可以圈出画面中想改的部分让 Codex 继续调整；做完后通过可写入卡带装进真机游玩。OpenAI 已展示 13 款用 Codex 制作的 Game Boy 游戏，可在网页上直接试玩。Max 吐槽凌晨三点没等来 GPT-6.2，只等来一台游戏机。",
+    "url": "https://x.com/MaxForAI/status/2119869507972092204",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-10T03:07:30+08:00",
+    "tags": [
+      "OpenAI",
+      "Codex",
+      "ModRetro Chromatic",
+      "游戏开发",
+      "硬件"
+    ],
+    "image": "/assets/covers/cover-20261110-v-11.jpg"
+  },
+  {
+    "title": "TestingCatalog：Google AI Maps Studio 上线——一句提示词即可搭建调用 3D 建筑、街景、天气等地图能力的 AI 应用",
+    "summary": "谷歌推出 Google AI Maps Studio，用户可以用简单的提示词构建由 Google 地图多种能力驱动的 AI 应用，包括 3D 建筑、街景（Street View）、天气等数据与图层。这相当于把地图平台的 API 组合工作交给了 vibe coding 式的生成流程：开发者或普通用户描述需求，Studio 生成带地图交互的应用原型。帖子附有演示视频。功能细节与开放范围以谷歌官方页面为准。",
+    "url": "https://x.com/testingcatalog/status/2119849031447019760",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T01:46:08+08:00",
+    "tags": [
+      "Google Maps",
+      "AI Maps Studio",
+      "vibe coding",
+      "应用构建"
+    ],
+    "image": "/assets/covers/cover-20261110-v-12.jpg"
+  },
+  {
+    "title": "TestingCatalog：Nuance Labs 推出可视频通话的 AI 角色 Emma——边听边说、点头微笑，89% 情况下响应速度追平真人",
+    "summary": "Nuance Labs 发布免费 AI 角色 Emma，基于其新模型 Nuplex，用户可以直接和她视频聊天。Emma 能同时听和说，在对方讲话时点头、微笑甚至改变外观，交互方式接近真人视频通话。Nuance 基于 1,785 条录制问题的测试显示，Nuplex 在 89% 的情况下响应时间与人类相当。Emma 在浏览器中即可使用、无需注册（emma.nuancelabs.ai）；开发者还可以通过已开放 beta 的 Nuplex API 构建自己的 AI 角色。消息经由 @fangchangma 转述，性能数据为厂商自测。",
+    "url": "https://x.com/testingcatalog/status/2119888903742320882",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T04:24:34+08:00",
+    "tags": [
+      "Nuance Labs",
+      "Emma",
+      "Nuplex",
+      "实时视频",
+      "AI 角色"
+    ],
+    "image": "/assets/covers/cover-20261110-v-13.jpg"
+  },
+  {
+    "title": "TestingCatalog：YC 两人团队 Archgen 推出芯片设计 Agent，自动发现并修复设计问题，热分析引擎号称快 5000 倍",
+    "summary": "Archgen 发布一款能自主发现并修复芯片设计问题的 AI Agent。传统流程里工程师需手动修复这些错误，成为拖慢生产的瓶颈。Archgen 的重点是堆叠分层（3D 堆叠）芯片——可在更小空间里塞进最多 40% 的算力，但设计难度更高；公司自研的 AI 热分析引擎（thermal engine）号称比传统 EDA 工具快 5000 倍、效率最高提升 40%，并在 Partcl 与 Hudson River Trading 举办的芯片布局竞赛中于 132 个参赛作品里排名第一。公司是位于旧金山、由 Y Combinator 支持的两人团队（archgenlabs.com）。性能数字为公司自述。",
+    "url": "https://x.com/testingcatalog/status/2119861150527488029",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T02:34:18+08:00",
+    "tags": [
+      "Archgen",
+      "芯片设计",
+      "EDA",
+      "AI Agent",
+      "YC"
+    ],
+    "image": "/assets/covers/cover-20261110-v-14.jpg"
+  },
+  {
+    "title": "TestingCatalog：ClickUp 在 Brain² 助手里上线视频生成——先出分镜再花 Token，24 秒三机位成片",
+    "summary": "ClickUp 开始在其 AI 助手 Brain² 中推送视频生成功能。Brain 会先为每个镜头生成分镜（storyboard），让用户在消耗 Token 之前看到完整计划。TC 实测让它做一段「机器人在多块显示器前工作、寻找最好的 AI 新闻」的视频，Brain 产出了 24 秒、三个机位的成片：画面用 Seedance 2.5 生成，配乐用 Eleven Music v2.5，且在拼接前逐段检查有无故障帧。这显示生产力/项目管理工具也开始把多模型视频管线集成进 Agent 工作流。",
+    "url": "https://x.com/testingcatalog/status/2119844861314527567",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T01:29:34+08:00",
+    "tags": [
+      "ClickUp",
+      "Brain²",
+      "视频生成",
+      "Seedance 2.5",
+      "分镜"
+    ],
+    "image": "/assets/covers/cover-20261110-v-15.jpg"
+  },
+  {
+    "title": "Max：文心大模型公众号时隔 341 天更新，复出首篇即《ERNIE Evolve》——让 AI 自主定方向、改代码、跑实验",
+    "summary": "Max 发现百度文心大模型公众号时隔整整 341 天终于更新——上一篇还停留在 2025 年 12 月 3 日，他调侃「终于想起密码了么」。更有意思的是，复出第一篇就是《ERNIE Evolve：让自动研究走进真实 AI 研发》，主题正是最近很火的 RSI（递归自我改进）：百度公布了一套名为 ERNIE Evolve 的自动研究系统，核心思路是让 AI 自己决定研究方向、修改代码、运行实验、验证结果，再根据反馈持续迭代。系统效果与实际应用范围需以百度原文为准。",
+    "url": "https://x.com/MaxForAI/status/2119717275247022506",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-09T17:02:35+08:00",
+    "tags": [
+      "百度",
+      "文心",
+      "ERNIE Evolve",
+      "自动研究",
+      "RSI"
+    ],
+    "image": "/assets/covers/cover-20261110-v-16.jpg"
+  },
+  {
+    "title": "TestingCatalog：SpaceXSI 为全体用户重置 Grok Bot 周用量，并称整体额度消耗将大幅改善",
+    "summary": "TestingCatalog 转发官方消息：Grok Bot 的每周用量限制已为所有用户重置，此外整体额度消耗「应会大幅改善」，TC 表示拭目以待。小互当天早些时候也提到，此前有用户发现 Grok Bot 最近「疯狂掉量」，马斯克被质疑在修改用量规则、遭到吐槽，随后官方顶不住压力进行了重置；TC 简报还提到 Elon 称 Token 效率和更智能行为的修复会在当晚上线。额度改善效果尚待用户实测。",
+    "url": "https://x.com/testingcatalog/status/2119894220748280190",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-10T04:45:42+08:00",
+    "tags": [
+      "Grok Bot",
+      "SpaceXSI",
+      "用量重置",
+      "额度"
+    ],
+    "image": "/assets/covers/cover-20261110-v-17.jpg"
+  },
+  {
+    "title": "TestingCatalog 11/9 简报：OpenAI 隐身模型 Wyvern 现身 Devin，Claude 免费用户可建文件与 Artifacts，Perplexity 做多人 Projects",
+    "summary": "TestingCatalog 11 月 9 日 AI 每日简报（作者注明用 Grok 汇编并人工编辑）。OpenAI：ChatGPT Voice 上线两款阿根廷西班牙语音色 Faro 与 Tonada；有人在 Devin 内发现一款经 OpenAI 路由、带 1M 上下文的隐身模型 Wyvern（via abhinavflac，传闻）；Chromatic 掌机 Codex 版即将上架。Anthropic：「创建文件与 Artifacts」正向免费用户推送；正在开发 Claude Duet 邀请逻辑并支持合并 Claude Enterprise 组织；Claude「Reflection」功能扩大推送。Google：早期 Gemini checkpoint Krypton-a 据称在编码演示中胜过 Carbon 和 Argon（via chetaslua，传闻）。SpaceXSI：Grok Bot Slack 集成推送中；Grok Bot Meetings 曾短暂出现在部分账号后被撤下。Perplexity：正在为 Projects 开发多人模式。（简报中 Dots 收验证码、FT 燃气发电机订单、Gemini Enterprise 新 Agent、苹果加速 AI 等条目已在前两日收录，此处不重复展开。）",
+    "url": "https://x.com/testingcatalog/status/2119716328818737319",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-09T16:58:49+08:00",
+    "tags": [
+      "TestingCatalog",
+      "每日简报",
+      "OpenAI",
+      "Anthropic",
+      "Perplexity"
+    ],
+    "image": "/assets/covers/cover-20261110-v-18.jpg"
+  }
+]

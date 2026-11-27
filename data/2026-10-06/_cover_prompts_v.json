@@ -1,0 +1,183 @@
+[
+  {
+    "id": "v-00",
+    "tab": "v",
+    "title": "Google 内部开发 Gemini「超级项目」：将取代 Gemini Notebook 项目，文件与对话可跨谷歌产品访问",
+    "summary": "据 TestingCatalog 发现，Google 正为 Gemini 开发内部代号「超级项目」的功能，是 Projects 的下一代迭代，将取代 Gemini 中的 Gemini Notebook 项目；其中的文件和聊天会话将可通过多种谷歌产品访问。上线时间未知。",
+    "tags": [
+      "Gemini",
+      "Google",
+      "产品爆料"
+    ],
+    "filename": "cover-20261006-v-00.jpg",
+    "raw_name": "v-00-raw.jpg",
+    "prompt": "Semi-realistic scene of a large transparent glass binder floating in a bright studio, inside it layered translucent documents, chat bubbles and photos are organized in tabs, thin luminous threads extend from the binder to a phone, a laptop and a tablet arranged around it, Google-like palette of soft blue, red, yellow, green light accents. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-01",
+    "tab": "v",
+    "title": "Tibo 转推 ChatGPT「Space」团队征求反馈：协作空间每天在快速改进",
+    "summary": "Tibo 引用 OpenAI 的 Sergio Mattei 的帖子，称其正在 ChatGPT 中用协作空间（Space）「施展魔法」、每天飞速改进。Sergio 原帖向用户征集 Space 的优缺点和改进建议，并提到团队将简化应用。",
+    "tags": [
+      "ChatGPT",
+      "Space",
+      "协作"
+    ],
+    "filename": "cover-20261006-v-01.jpg",
+    "raw_name": "v-01-raw.jpg",
+    "prompt": "Semi-realistic overhead shot of a shared physical workspace: a large round wooden table covered with sticky notes, sketches, tablets and a laptop, four pairs of hands from different sides moving cards around together, soft daylight from a skylight, vibrant but natural colors, collaborative energy, no faces. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-02",
+    "tab": "v",
+    "title": "Codex「28天」第1天：GPT-6 Astra / 6.1 Sol 默认速度提速约50%",
+    "summary": "Tibo 宣布 28 天每日改进计划的第 1 天：默认速度已优化为比 GPT-6 Astra 和 GPT-6.1 Sol 此前快约 50%，覆盖所有产品，以及通过 Sign in With ChatGPT 接入的合作伙伴（OpenCode、Pi、Amp、Devin 等）。用户无需任何改动，优化在两小时内生效。",
+    "tags": [
+      "Codex",
+      "OpenAI",
+      "模型速度"
+    ],
+    "filename": "cover-20261006-v-02.jpg",
+    "raw_name": "v-02-raw.jpg",
+    "prompt": "Semi-realistic close-up of a developer's terminal on a widescreen monitor at dawn, code streaming upward with visible motion blur like a time-lapse, a mechanical stopwatch on the desk mid-tick, a calendar page torn to 'Day 1' (no readable text, just a big blank square), warm sunrise rim light, sense of acceleration. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-03",
+    "tab": "v",
+    "title": "Tibo补充：提速后输出达 50 TPS（原 30 TPS），分词器与 token 效率是关键",
+    "summary": "在同一线程中 Tibo 补充，提速后模型输出可达每秒 50 个 token 而非 30 个，并称其拥有市场上最优化的分词器，且这些模型完成任务所需的 token 数量非常高效。",
+    "tags": [
+      "Codex",
+      "吞吐",
+      "Token效率"
+    ],
+    "filename": "cover-20261006-v-03.jpg",
+    "raw_name": "v-03-raw.jpg",
+    "prompt": "Macro photograph of a printing press-like mechanical type machine spitting out small metal type tiles at high speed into a tray, each tile blank, motion streaks, cool steel tones with a single orange indicator lamp glowing, metaphor for tokens per second throughput, shallow depth of field. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-04",
+    "tab": "v",
+    "title": "TestingCatalog：GPT-6 Astra 与 6.1 Sol 「半超快」——你更想要提速还是额度重置？",
+    "summary": "TestingCatalog 引用 Tibo 的第 1 天公告，称 GPT-6 Astra 和 GPT-6.1 Sol 现在预计快 50%，戏称为「半超快」，并向关注者发问：更喜欢这次提速，还是一次 banked reset（额度重置）。",
+    "tags": [
+      "GPT-6",
+      "Codex",
+      "社区讨论"
+    ],
+    "filename": "cover-20261006-v-04.jpg",
+    "raw_name": "v-04-raw.jpg",
+    "prompt": "Photograph of two arcade-style buttons side by side on a matte black control panel, one glowing electric blue with a lightning-bolt shaped LED pattern, the other amber with a circular arrow pattern, a hand hovering undecided between them, dramatic low-key lighting, choice dilemma. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-05",
+    "tab": "v",
+    "title": "OpenAI 将在欧盟为 ChatGPT 与 Codex 上线文本水印，TestingCatalog：性能无差异的说法需要实测",
+    "summary": "TestingCatalog 引用 Tibor Blaho 的整理：OpenAI 为应对欧盟 AI 法案推出文本水印，未来几周将为欧盟地区 ChatGPT 和 Codex 文本加入不可见水印，API 中默认关闭、全球客户可选开启。OpenAI 称在评估 Astra 的基准中启用与否无明显性能差异，TestingCatalog 表示这需要真正的测试。",
+    "tags": [
+      "OpenAI",
+      "水印",
+      "欧盟AI法案"
+    ],
+    "filename": "cover-20261006-v-05.jpg",
+    "raw_name": "v-05-raw.jpg",
+    "prompt": "Laboratory photograph testing fairness: a precise brass balance scale on a white bench with two identical stacks of printed pages on each pan, perfectly level, one stack bearing a faint embossed seal impression only visible in raking light; a scientist's gloved hand adjusts a dial on a measurement device beside it, a clipboard with blurred charts, cool clinical light with a hint of EU blue in the background. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-06",
+    "tab": "v",
+    "title": "Gemini Notebook 换新用量体系：每 5 小时刷新、统一额度、超限任务进后台队列",
+    "summary": "TestingCatalog 汇总 Gemini Notebook 的新使用限制：额度改为每 5 小时刷新一次（原为每 24 小时）；按功能的限制被替换为 Notebook 专用的灵活统一额度，并提供生成工件的用量估算；超出额度时可把视频、幻灯片等生成任务放入后台队列，稍后自动完成。",
+    "tags": [
+      "Gemini",
+      "Notebook",
+      "用量限制"
+    ],
+    "filename": "cover-20261006-v-06.jpg",
+    "raw_name": "v-06-raw.jpg",
+    "prompt": "Photograph of a vintage brass hourglass beside a neat conveyor queue of small wooden boxes waiting on a belt, each box labeled only with icons of a film reel, a slide deck and a document (no text), soft window light, calm productivity mood, five small pebbles beside the hourglass hinting at 5-hour cycles. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-07",
+    "tab": "v",
+    "title": "Max：ChatGPT 广告似乎已开放给个人投放",
+    "summary": "Max 发帖惊呼 ChatGPT 可以向个人开放投放广告了（帖子仅一句话，配图细节未核实），是对 OpenAI 当天广告新功能的跟进观察。",
+    "tags": [
+      "ChatGPT",
+      "广告",
+      "个人投放"
+    ],
+    "filename": "cover-20261006-v-07.jpg",
+    "raw_name": "v-07-raw.jpg",
+    "prompt": "Photograph of a small independent bakery owner's counter with a laptop open to a simple ad-campaign dashboard with blurred charts, a stack of handmade pastries and a credit card beside it, warm morning shop lighting, theme: a single person buying their own ads, no readable text. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-08",
+    "tab": "v",
+    "title": "高通获华为折叠晶片相关专利授权，双方达成多年期交叉许可",
+    "summary": "联合早报报道：高通已同意获取华为逻辑折叠晶片制造技术相关专利的授权，双方达成多年期交叉许可协议。报道称，这意味着华为拓展海外人工智能市场的进程取得重要进展。",
+    "tags": [
+      "芯片",
+      "华为",
+      "高通",
+      "专利"
+    ],
+    "filename": "cover-20261006-v-08.jpg",
+    "raw_name": "v-08-raw.jpg",
+    "prompt": "Realistic macro product photograph of two silicon wafers overlapping like interlocking hands on a clean-room black surface, one with a red-tinted die pattern and one with a blue-tinted pattern, iridescent reflections, a pair of tweezers holding a tiny folded chip stack in the foreground, high-end semiconductor photography. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-09",
+    "tab": "v",
+    "title": "Max：OpenAI 要把视觉广告放进 ChatGPT 生图，12亿周活开始补齐广告投放与归因",
+    "summary": "Max 解读 OpenAI 新公告：ChatGPT 生成图片时旁边可能出现带图片的广告，与生成图明确分开并标注为广告，OpenAI 强调广告不影响回答；本月晚些时候先在美国面向部分广告主测试，同时上线转化追踪、归因和品牌安全工具，接入 Hightouch、Tealium、LiveRamp、AppsFlyer、Adjust、Branch 等。官方称 ChatGPT 每周触达 12 亿人，Max 认为它越来越像新的超级流量平台。",
+    "tags": [
+      "ChatGPT",
+      "广告",
+      "商业化"
+    ],
+    "filename": "cover-20261006-v-09.jpg",
+    "raw_name": "v-09-raw.jpg",
+    "prompt": "Street-level news photograph at dusk of a giant curved digital billboard wrapping a city building corner, split into two clearly separated panels: the left shows a surreal AI-generated painting of a floating island, the right a separate glossy product display with a wristwatch; below, a dense crowd of commuters with phones streaming past, long exposure light trails from traffic, scale and mass-audience feeling. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-10",
+    "tab": "v",
+    "title": "Max：Meta Muse DAU 停滞在 250–300 万，个人 Agent 或仍是伪需求",
+    "summary": "Max 援引卓哥投研笔记转述的华福证券统计：Meta 个人 Agent 产品 Muse 9 月 8 日上线首日全端 DAU 近 50 万，半个月冲到 250 万，但 9 月下旬至 10 月 1 日一直徘徊在 250–300 万，且三端加总存在重叠。Muse 9 月底已向 Shopify、QuickBooks、Stripe、Canva 等商业工具扩展；Max 认为最难回答的是用户试完之后为何每天还要打开它。",
+    "tags": [
+      "Meta Muse",
+      "个人Agent",
+      "用户增长"
+    ],
+    "filename": "cover-20261006-v-10.jpg",
+    "raw_name": "v-10-raw.jpg",
+    "prompt": "Documentary-style photograph of a rocket-shaped helium balloon hovering motionless just below a high ceiling in an empty modern atrium, its string dangling, morning light through tall windows, a single visitor below looking up, metaphor of growth hitting a plateau, muted blue tones. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  },
+  {
+    "id": "v-11",
+    "tab": "v",
+    "title": "Max 解读 Economist/YouGov 民调：美国人越来越怕 AI，唯独 30–44 岁群体担忧下降",
+    "summary": "Max 引用 Nabeel Qureshi 的帖子与 The Economist/YouGov 调查：对比 8 月底与 9 月中下旬，几乎所有年龄段的美国人对 AI 伤害风险的担忧上升，只有 30–44 岁群体反向下降。Max 认为这代人完整经历了 PC、互联网、智能手机到生成式 AI，真正让人害怕的或许是不知道 AI 在做什么。",
+    "tags": [
+      "AI民意",
+      "调查",
+      "代际"
+    ],
+    "filename": "cover-20261006-v-11.jpg",
+    "raw_name": "v-11-raw.jpg",
+    "prompt": "News photograph of a diverse line of American people of different ages standing in a row in a public plaza, most looking uneasily at a large glowing screen off-frame, while one relaxed person in their late 30s holding an old beige 1990s computer keyboard under their arm smiles calmly, natural daylight, documentary realism. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": ""
+  }
+]

@@ -1,0 +1,129 @@
+Alioxis News AI新闻 collect report — 2026-10-07 (Asia/Taipei)
+================================================================
+item_count: 20
+output: /workspace/alioxis-news/data/2026-10-07/ai.json
+covers: image fields left empty ("") for later GenerateImage; prompts in _cover_prompts_ai.json (ai-00..ai-19)
+lead: Mistral 发布 Mistral Large 4：1T 参数 / 49B 激活原生多模态，AA 评测称其为美中之外最智能模型
+
+AIHOT status
+------------
+- `node scripts/fetch-aihot-daily.js 2026-10-07` → GET /api/v1/dailies/2026-10-07 = HTTP 200 (generatedAt 2026-10-07T00:00:29Z = 08:00 Taipei;
+  window 10-06 08:00 → 10-07 08:00 Taipei). TODAY'S DAILY PRESENT.
+- fetch-aihot-daily.js already unwrapped the {schemaVersion, report} wrapper (unwrapDaily, added 10-06); today it was extended to also write the
+  untouched API response as _aihot_raw.json before unwrapping, so the 10-06 manual step (raw + unwrapped) is now automatic.
+  _aihot_daily.json = unwrapped report (date/lead/sections/flashes at top level, same shape build.js expects).
+- AIHOT lead (item 01): Mistral 发布 Mistral Large 4，Artificial Analysis 评测称其为美中之外最智能模型 → AIHOT original = artificialanalysis.ai article;
+  item URL uses Mistral's own launch post (mistral.ai/news/mistral-large-4) with AA scores folded into the summary (source "Mistral AI / Artificial Analysis").
+- AIHOT daily has 12 section items + 10 flashes. Re-verified on primary pages and used:
+  Mistral Large 4 (+ OpenRouter availability folded into lead), Nano Banana 2.1 (Gemini API changelog), EmbeddingGemma 2 (DeepMind blog),
+  Claude for Google Workspace (claude.com article instead of the AIHOT YouTube link), Anthropic CVP, DeepSeek funding (CNBC/Bloomberg instead of X.PIN tweet),
+  Arizona AI victim video (404 Media), OpenAI math (openai.com + IT之家 for counts), Claude Code cloud guide (claude.dev);
+  flashes used: Sierra/Meta Personal Agent Protocol, GitHub Git infrastructure, METR Inspect tampering, Cursor iOS remote control.
+- AIHOT items NOT used: Anthropic $518B/$413.7B non-cancelable compute (Reuters Sept 29 prospectus story, same filing already covered 10-01 item
+  "Anthropic IPO 文件披露…845 亿"; AIHOT link was a Rohan Paul X post) ; 卡兹克 a16z 解读 ×2 (a16z Top100 already 10-06 item 17);
+  flashes ChatGPT Meetings (beta documented Sept 29, covered 10-01/09-30 ChatGPT plugins item), Reflection Beam (10-06), Cowork cloud (10-06),
+  Mistral on Arena (folded), DeepSeek V4.1 Flash ARC-AGI (X-only score posts).
+- build.js overlap filter (normalizeTitle prefix match) will fold 4 of our items into the AIHOT strip on render:
+  01 Mistral Large 4, 04 EmbeddingGemma 2, 05 Claude for Google Workspace, 12 Claude Code cloud guide → main list shows 16 + AIHOT strip.
+  (Nano Banana / CVP / DeepSeek / Arizona / OpenAI math have different title prefixes and stay in the main list as well, same as 10-04/10-06 precedent.)
+- Candidate stream also pulled: /api/v1/items?mode=all&window=24h (6 pages, 300 items) → _aihot_items_24h_all.json + _p2.._p6.json,
+  score-sorted in _aihot_tips_flat.json. Every AIHOT-surfaced candidate re-verified on its primary/original page; no aihot.news URL used as an item URL.
+
+Dedup / skip notes
+------------------
+SKIP (already covered 10-01..10-06 ai.json / v.json):
+- Wikimedia OpenAI rogue agents (10-06 lead #2; today only The Decoder / Simon Willison re-cover), OpenAI textGrain (Ars re-cover), Reflection Beam,
+  Claude Cowork cloud default, Gemini free-tier change (Verge "remove free access to Gemini Flash and Pro" = 10-05 item), Codex "28 days" (10-05/10-06 v),
+  ChatGPT Meetings plugin (09-30), Anthropic IPO prospectus compute commitments (10-01), Gemini Guided Vision (10-04), Perplexity Decisions price cut (10-05 arc)
+SKIP (redundant duplicates within today): Mistral Large 4 ×12 (TechCrunch/Decoder/MarkTechPost/ithome/Simon Willison/OpenRouter/Arena/X),
+  Nano Banana 2.1 ×12 (Decoder/fal/OpenRouter/Krea/Arena/X), EmbeddingGemma 2 ×14 (Google Dev blog ×2/HF/ithome/Decoder/MarkTechPost/Unsloth/llama.cpp/X),
+  OpenAI math ×8 (Verge/ithome/X), Claude Workspace ×4 (X/9to5Google), CVP ×3, Cursor iOS ×3, Decisions API ×4, Claude Code cloud (X ×2)
+SKIP (decision-model saturation, kept only OpenAI Decisions API): Musubi PolicyLM-1.7B (TechCrunch), Vercel AI Gateway confidence fallbacks, Clef Flash on OpenRouter
+SKIP (X-only / no primary found): AutomationBench Verified audit (206 verifier bugs; only X threads + aggregator), Gumloop Agent Browser, AgentMail AgentID,
+  ElevenAgents Architect, Sesame upgrade, FastH3 V2, Overmind traces, OpenAI "Approve for me" auto-review, Codex voice, Grok 4.7 / DeepSeek ARC-AGI scores,
+  Replit cross-project context, Perplexity engineering design, Generalist GEN-1.5
+SKIP (off-topic / weak / non-AI): Polars 2.0, tapo TPAP, iChat revival, Smalltalk history, MIT library appointment, Xiaomi dryer, Nvidia Game Ready driver,
+  Waymo Detroit/Ojai, Tesla FSD EU, SpaceX $40B Nvidia chips (ithome rumor), AMD record high, software stocks, DOJ "超级智能" wording (thin ithome),
+  Every Agent (paywalled launch post), MIT for America, Machine Earning recap
+Held for variety (fine, not used): The Decoder insurers vs. rogue agents (FT), Acemoglu 1.5% GDP forecast (Microsoft Humanist Review via Decoder),
+  OpenAI × Atlassian expanded partnership, Anthropic Claude for Startups expansion, GitHub stacked PRs GA, TechCrunch "websites letting agents in",
+  Techdirt on Meta Muse, jross "open source as we know it is dead", Simon Willison Scrimshaw Jukebox, Falcon-Emirati (HF), Reka Rho-1 (10-05 news),
+  Hugging Face–era arXiv picks (OPPD, agentic retrieval cost paper), Nathan Lambert cyber-risk discourse
+
+Expansion beyond AIHOT (official blogs / help centers / reputable tech news)
+---------------------------------------------------------------------------
+- OpenAI Developers docs: Decisions API guide (public beta; pricing) + rate-limits guide (three paid tiers Build/Launch/Grow) — surfaced via @OpenAIDevs
+- OpenAI news RSS: Advancing computer use with Ironclad (Oct 6 10:00Z)
+- TechCrunch: Hark Pro (Tim Fernholz), Lambda $4B raise (via WSJ), LibreOffice no-AI stance
+- The Pragmatic Engineer: state of the tech industry 2026 (LDX3 keynote write-up)
+- 量子位: 陶哲轩 SAIR 演讲「证明消化不良」 (Chinese-language source for variety; pairs with OpenAI math item)
+- CNBC (own sourcing) for DeepSeek round, citing Bloomberg's earlier report
+- Checked with nothing fresh/new usable: HF blog (Falcon-Emirati only), Cloudflare (DNSSEC root KSK rollover — not AI), NVIDIA blog (telecom open models, weak),
+  Vercel changelog (model availability posts only), GitHub changelog (stacked PRs GA held), MarkTechPost (duplicates), The Verge (re-covers), Simon Willison (re-covers),
+  Anthropic newsroom (CVP only), Google blog (no separate Nano Banana 2.1 post found; model card + API changelog)
+
+Source URL choices / published_at
+---------------------------------
+- Primary used: Mistral, OpenAI ×2 (math, Ironclad), Gemini API changelog, Google DeepMind, Claude blog, Anthropic, Sierra, OpenAI Developers docs, GitHub Blog,
+  Cursor changelog, claude.dev, METR
+- News URL where the news itself is the reporting: CNBC (own sources + Bloomberg), TechCrunch ×3 (Hark interview, Lambda/WSJ, LibreOffice), 404 Media (court ruling
+  + interview), Pragmatic Engineer (keynote write-up with exclusive data), 量子位 (Tao talk coverage)
+- published_at converted to +08:00. Approximations: Mistral → @MistralAI launch post 13:45:57Z; Nano Banana → @Google post 16:00:18Z; EmbeddingGemma → @GoogleDeepMind
+  16:04:35Z; Claude Workspace → @claudeai 17:25:17Z; CVP → @AnthropicAI 19:00:33Z; OpenAI math → @OpenAI 22:19:48Z (RSS shows a 12:00Z placeholder);
+  Decisions API → @OpenAIDevs 20:47:05Z; Cursor (changelog date-only) → @cursor_ai 23:46:59Z; Claude Code guide → RSS 12:00Z; Ironclad → OpenAI RSS 10:00Z;
+  Sierra → RSS 17:32Z; METR date-only → AIHOT 2026-10-05T16:00Z (= 10-06 00:00 Taipei); 量子位 timestamp already Beijing time (+08:00).
+
+Items (title → url)
+-------------------
+01. Mistral 发布 Mistral Large 4：1T 参数 / 49B 激活原生多模态，AA 评测称其为美中之外最智能模型
+    https://mistral.ai/news/mistral-large-4
+02. OpenAI 公开内部前沿模型的又一批数学成果：722 份手稿、372 个结果族，附 Lean 形式化证明
+    https://openai.com/index/sharing-ai-progress-in-mathematics/
+03. Google 发布 Nano Banana 2.1：画质与多角色一致性提升、价格约降一半，旧版 10 月 29 日停用
+    https://ai.google.dev/gemini-api/docs/changelog#10-06-2026
+04. Google DeepMind 开源 EmbeddingGemma 2：740M 参数，把文本、代码、图像和音视频映射进同一嵌入空间
+    https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/
+05. Claude for Google Workspace 公测：一次安装进驻 Docs、Sheets、Slides 侧边栏，直接改文件
+    https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides
+06. Anthropic 扩展网络安全核验计划 CVP：分防御、红队、专项三档开放 Mythos 5.1 等模型的网安能力
+    https://www.anthropic.com/news/cyber-verification-program
+07. DeepSeek 新一轮融资据报至少 800 亿元、或扩至千亿：腾讯与宁德时代领衔，瞄准 2027 年初 IPO
+    https://www.cnbc.com/2026/10/06/deepseek-funding-round.html
+08. Meta 与 Sierra 联合 Shopify、Stripe、沃尔玛等推出 Personal Agent Protocol：规范个人智能体如何与企业打交道
+    https://sierra.ai/blog/introducing-personal-agent-protocol
+09. OpenAI Decisions API 公测：gpt-6-luna 直接返回概率、选项或评分，比 Responses API 快约 10 倍、只收输入费
+    https://developers.openai.com/api/docs/guides/decisions
+10. GitHub 为「智能体规模」开发重建 Git 基础设施：9 月提交 73.8 亿次，推送量一年涨 4.9 倍
+    https://github.blog/engineering/architecture-optimization/building-git-infrastructure-for-agent-scale-development/
+11. Cursor iOS 应用支持远程控制本地智能体：手机与电脑配对，随时查看进度、发消息
+    https://cursor.com/changelog/remote-control-local-agents
+12. Claude Code 云端会话实战指南：每个任务一台独立 VM，claude --cloud 并行开跑、以分支收尾
+    https://claude.dev/blog/claude-code-in-the-cloud/
+13. METR 演示智能体可篡改 Inspect 评测记录查看器来掩盖不当行为：注入漏洞 10 分钟就被找到
+    https://metr.org/blog/2026-10-06-ai-systems-could-cover-up-misbehavior/
+14. OpenAI 联合 Ironclad 用真实合同工作流训练计算机使用智能体：GPT-6 Astra 得分比 GPT-5.6 Sol 高 32%
+    https://openai.com/index/advancing-computer-use-with-ironclad
+15. Brett Adcock 创办的 Hark 全面上线 Hark Pro：自研计算机使用模型替你操作电脑，主打不卖广告、不拿数据
+    https://techcrunch.com/2026/10/06/hark-releases-an-ai-personal-assistant-with-a-focus-on-privacy/
+16. WSJ：Lambda 拟以 145 亿美元投前估值融资至多 40 亿美元，订单积压因 Anthropic 350 亿合同飙至 500 亿
+    https://techcrunch.com/2026/10/06/ai-computing-startup-lambda-to-raise-4b-ahead-of-planned-ipo/
+17. 美国亚利桑那州上诉法院裁定：AI 生成的受害者「复活」视频带有不当情感分量，凶手须重新量刑
+    https://www.404media.co/her-ai-generated-video-swayed-the-judge-the-court-said-it-carried-undue-emotional-weight/
+18. LibreOffice 宣布默认版本不内置 AI：数据不离开本机才经得起审计，想用 AI 可装扩展接本地模型
+    https://techcrunch.com/2026/10/06/libreoffice-says-no-ai-is-now-a-software-feature/
+19. Pragmatic Engineer 盘点 2026 科技行业：几乎没人手写代码、并行 5–10 个智能体成常态，8 月智能体 PR 已超人类
+    https://newsletter.pragmaticengineer.com/p/the-state-of-the-tech-industry-in
+20. 陶哲轩公开呼吁 AI 公司放慢「刷」数学难题：证明产出远超人类消化能力，造成「证明消化不良」
+    https://www.qbitai.com/2026/10/501736.html
+
+Blockers
+--------
+- None blocking. openai.com blocks the WebFetch provider (403) — read via curl from the box instead (Ironclad post), consistent with prior days.
+- Every Agent launch post paywalled past the TL;DR (skipped). X-only candidates skipped rather than verified (no X API use).
+- 20/20 item URLs HTTP 200 (see _url_verify.txt).
+
+Mirrors saved
+-------------
+- _aihot_daily.json (unwrapped report) / _aihot_raw.json (API wrapper)
+- _aihot_items_24h_all.json + _p2.._p6.json / _aihot_tips_flat.json
+- _ai_collect_report.txt / _url_verify.txt / ai.json / _cover_prompts_ai.json

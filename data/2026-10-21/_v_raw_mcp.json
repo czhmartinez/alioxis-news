@@ -1,0 +1,3974 @@
+{
+ "date": "2026-10-21",
+ "method": "public X MCP namespace=x",
+ "start_time": "2026-10-19T20:00:00Z",
+ "exclude": "replies",
+ "users": {
+  "Khazix0918": {
+   "id": "1492195583699951620",
+   "fetched": 2,
+   "post_ids": [
+    "2112584126155088004",
+    "2112386350934868374"
+   ],
+   "meta": {
+    "newest_id": "2112584126155088004",
+    "oldest_id": "2112386350934868374",
+    "result_count": 2
+   },
+   "posts": [
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112578091474419712"
+      ]
+     },
+     "created_at": "2026-10-20T16:38:00.000Z",
+     "edit_history_tweet_ids": [
+      "2112579521849471311",
+      "2112583614961721794",
+      "2112584126155088004"
+     ],
+     "id": "2112584126155088004",
+     "public_metrics": {
+      "bookmark_count": 17,
+      "impression_count": 9059,
+      "like_count": 24,
+      "quote_count": 0,
+      "reply_count": 5,
+      "retweet_count": 1
+     },
+     "text": "老的本来准备卖掉的M4的Mac mini最爽的用法：\n拿来当自建CI机，以及给Agent跑各种自动化端到端测试，以前一直用Github跑CI，但是Agent太喜欢提PR了，即使开了会员，有时候每个月还是能多花二三十刀。。。\n现在速度快，并行还爽... https://t.co/L1PpA2UCPo",
+     "url": "https://x.com/i/status/2112584126155088004"
+    },
+    {
+     "article": {
+      "title": "有人做了35万个AI，只为了反过来骗骗子。"
+     },
+     "created_at": "2026-10-20T03:32:06.000Z",
+     "edit_history_tweet_ids": [
+      "2112386350934868374"
+     ],
+     "id": "2112386350934868374",
+     "public_metrics": {
+      "bookmark_count": 9,
+      "impression_count": 10301,
+      "like_count": 32,
+      "quote_count": 4,
+      "reply_count": 16,
+      "retweet_count": 2
+     },
+     "text": "https://t.co/AkXNXz9xWe",
+     "url": "https://x.com/i/status/2112386350934868374"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2112578091474419712",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVFilM6bAAA73vt.jpg"
+     }
+    ]
+   }
+  },
+  "MaxForAI": {
+   "id": "1699797396589588480",
+   "fetched": 4,
+   "post_ids": [
+    "2112502469586813293",
+    "2112502282977939518",
+    "2112501497674235913",
+    "2112499967256658129"
+   ],
+   "meta": {
+    "newest_id": "2112502469586813293",
+    "oldest_id": "2112499967256658129",
+    "result_count": 4
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-20T11:13:31.000Z",
+     "edit_history_tweet_ids": [
+      "2112502469586813293"
+     ],
+     "id": "2112502469586813293",
+     "in_reply_to_user_id": "1699797396589588480",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1344,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112502282977939518",
+       "type": "replied_to"
+      }
+     ],
+     "text": "哦对了，最近很多关于AI动画的争论，都在问输入提示词算不算创作。\n\n我更想问，工具已经做到这一步了，现在的核心是你准备拿它做什么？\n\n《里贝》让我愿意继续关注，是因为能看出作者有自己的观察和趣味。\n这次英文长帖聊的也已经是人物和写作了。",
+     "url": "https://x.com/i/status/2112502469586813293"
+    },
+    {
+     "created_at": "2026-10-20T11:12:47.000Z",
+     "edit_history_tweet_ids": [
+      "2112502282977939518"
+     ],
+     "id": "2112502282977939518",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 1771,
+      "like_count": 5,
+      "quote_count": 0,
+      "reply_count": 6,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2110755638569820541",
+       "type": "quoted"
+      }
+     ],
+     "text": "神了，没想到我一直在看的AI动画片，居然也被老外看到了😂\n\nB站UP梦游牛油果做的《外星小偷里贝》，被一位海外博主写了串英文长帖。\n\n正好借这个事说个可能得罪人的观点⬇️\n\nAI把动画制作门槛降下来以后，很多人会发现，自己缺的根本不止制作能力。 https://t.co/tk9mhKJsCr",
+     "url": "https://x.com/i/status/2112502282977939518"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112501436752011264"
+      ]
+     },
+     "created_at": "2026-10-20T11:09:40.000Z",
+     "edit_history_tweet_ids": [
+      "2112501497674235913"
+     ],
+     "id": "2112501497674235913",
+     "public_metrics": {
+      "bookmark_count": 315,
+      "impression_count": 67219,
+      "like_count": 800,
+      "quote_count": 7,
+      "reply_count": 49,
+      "retweet_count": 40
+     },
+     "text": "今天有个搞Infra的小男娘发消息跟我说\n\n这是他成年以来最好的秋天\n\n这一年他终于找到了做推理优化的工作\n\n每天和GPU、Kernel、MoE、KV Cache打交道\n\n以前想研究DeepSeek的推理系统，只能对着论文、技术博客和Benchmark，一点点猜他们线上到底是怎么跑的\n\n今天DeepSeek突然把DeepInfer开源了 https://t.co/Ejy6l1MS8H",
+     "url": "https://x.com/i/status/2112501497674235913"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112499950189965312"
+      ]
+     },
+     "created_at": "2026-10-20T11:03:35.000Z",
+     "edit_history_tweet_ids": [
+      "2112499967256658129"
+     ],
+     "id": "2112499967256658129",
+     "public_metrics": {
+      "bookmark_count": 1,
+      "impression_count": 2568,
+      "like_count": 14,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112035317976883312",
+       "type": "quoted"
+      }
+     ],
+     "text": "Bro你不能只在戳到你xp的时候才支持AI生成动画🤦‍♂️ https://t.co/aPd9kOhaqr https://t.co/TbSJCp67Oq",
+     "url": "https://x.com/i/status/2112499967256658129"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2112501436752011264",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVEc3T0bIAA5GiW.jpg"
+     },
+     {
+      "media_key": "3_2112499950189965312",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVEbgx8acAAYNxy.jpg"
+     }
+    ],
+    "tweets": [
+     {
+      "created_at": "2026-10-20T11:12:47.000Z",
+      "edit_history_tweet_ids": [
+       "2112502282977939518"
+      ],
+      "id": "2112502282977939518",
+      "public_metrics": {
+       "bookmark_count": 1,
+       "impression_count": 1771,
+       "like_count": 5,
+       "quote_count": 0,
+       "reply_count": 6,
+       "retweet_count": 0
+      },
+      "referenced_tweets": [
+       {
+        "id": "2110755638569820541",
+        "type": "quoted"
+       }
+      ],
+      "text": "神了，没想到我一直在看的AI动画片，居然也被老外看到了😂\n\nB站UP梦游牛油果做的《外星小偷里贝》，被一位海外博主写了串英文长帖。\n\n正好借这个事说个可能得罪人的观点⬇️\n\nAI把动画制作门槛降下来以后，很多人会发现，自己缺的根本不止制作能力。 https://t.co/tk9mhKJsCr"
+     },
+     {
+      "created_at": "2026-10-15T15:32:14.000Z",
+      "edit_history_tweet_ids": [
+       "2110755638569820541"
+      ],
+      "id": "2110755638569820541",
+      "public_metrics": {
+       "bookmark_count": 10,
+       "impression_count": 130332,
+       "like_count": 246,
+       "quote_count": 1,
+       "reply_count": 13,
+       "retweet_count": 61
+      },
+      "text": "I recently watched an AI-assisted animated series from China called R ibe, and I’d happily keep watching.\n\nWhat caught my attention wasn’t just the animation. It was the writing.\n\nThe characters feel surprisingly human, even in a strange alien world. 🧵"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2112035313618993154"
+       ]
+      },
+      "created_at": "2026-10-19T04:17:14.000Z",
+      "edit_history_tweet_ids": [
+       "2112035317976883312"
+      ],
+      "id": "2112035317976883312",
+      "public_metrics": {
+       "bookmark_count": 41,
+       "impression_count": 41948,
+       "like_count": 394,
+       "quote_count": 3,
+       "reply_count": 45,
+       "retweet_count": 9
+      },
+      "text": "I want anime Claude to make me kiss her feet https://t.co/YZtLb5zSjT"
+     }
+    ]
+   }
+  },
+  "xiaohu": {
+   "id": "1764818331822182400",
+   "fetched": 3,
+   "post_ids": [
+    "2112322275458601033",
+    "2112322272992379000",
+    "2112309720707187040"
+   ],
+   "meta": {
+    "newest_id": "2112322275458601033",
+    "oldest_id": "2112309720707187040",
+    "result_count": 3
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-19T23:17:30.000Z",
+     "edit_history_tweet_ids": [
+      "2112322275458601033"
+     ],
+     "id": "2112322275458601033",
+     "in_reply_to_user_id": "1764818331822182400",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3017,
+      "like_count": 0,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112322272992379000",
+       "type": "replied_to"
+      }
+     ],
+     "text": "文件原文：https://t.co/kwlwTx9qTc",
+     "url": "https://x.com/i/status/2112322275458601033"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112322112144965632"
+      ]
+     },
+     "created_at": "2026-10-19T23:17:29.000Z",
+     "edit_history_tweet_ids": [
+      "2112322272992379000"
+     ],
+     "id": "2112322272992379000",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 13658,
+      "like_count": 15,
+      "quote_count": 4,
+      "reply_count": 18,
+      "retweet_count": 0
+     },
+     "text": "美国国土安全部（DHS）要求：\n\n所有联邦民事行政部门必须立即停止采购中国深度求索公司（DeepSeek）及其关联实体的所有软硬件与服务...\n\n并要求立即从现有政府 IT 系统中彻底清除 DeepSeek 产品以及基于 DeepSeek 架构开发的任何第三方产品与服务。 https://t.co/yRe1HymXZH",
+     "url": "https://x.com/i/status/2112322272992379000"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2112211805858836480"
+      ]
+     },
+     "created_at": "2026-10-19T22:27:36.000Z",
+     "edit_history_tweet_ids": [
+      "2112309720707187040"
+     ],
+     "id": "2112309720707187040",
+     "public_metrics": {
+      "bookmark_count": 11,
+      "impression_count": 26573,
+      "like_count": 49,
+      "quote_count": 7,
+      "reply_count": 27,
+      "retweet_count": 2
+     },
+     "text": "带有触摸屏和eSIM卡的MacBook\n要来了\n\n苹果将于10月28日\n在洛杉矶举行特别发布会 https://t.co/MePACI4TGH",
+     "url": "https://x.com/i/status/2112309720707187040"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2112322112144965632",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVB5xPmagAAwTle.png"
+     },
+     {
+      "media_key": "13_2112211805858836480",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112211805858836480/img/lpIJgnhBGDMo4rZ3.jpg",
+      "type": "video"
+     }
+    ],
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2112322112144965632"
+       ]
+      },
+      "created_at": "2026-10-19T23:17:29.000Z",
+      "edit_history_tweet_ids": [
+       "2112322272992379000"
+      ],
+      "id": "2112322272992379000",
+      "public_metrics": {
+       "bookmark_count": 6,
+       "impression_count": 13658,
+       "like_count": 15,
+       "quote_count": 4,
+       "reply_count": 18,
+       "retweet_count": 0
+      },
+      "text": "美国国土安全部（DHS）要求：\n\n所有联邦民事行政部门必须立即停止采购中国深度求索公司（DeepSeek）及其关联实体的所有软硬件与服务...\n\n并要求立即从现有政府 IT 系统中彻底清除 DeepSeek 产品以及基于 DeepSeek 架构开发的任何第三方产品与服务。 https://t.co/yRe1HymXZH"
+     }
+    ]
+   }
+  },
+  "thsottiaux": {
+   "id": "1953337039510003712",
+   "fetched": 2,
+   "post_ids": [
+    "2112592264686149749",
+    "2112432076767289678"
+   ],
+   "meta": {
+    "newest_id": "2112592264686149749",
+    "oldest_id": "2112432076767289678",
+    "result_count": 2
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-20T17:10:20.000Z",
+     "edit_history_tweet_ids": [
+      "2112592264686149749"
+     ],
+     "id": "2112592264686149749",
+     "public_metrics": {
+      "bookmark_count": 495,
+      "impression_count": 667189,
+      "like_count": 8962,
+      "quote_count": 296,
+      "reply_count": 2049,
+      "retweet_count": 278
+     },
+     "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan.",
+     "url": "https://x.com/i/status/2112592264686149749"
+    },
+    {
+     "created_at": "2026-10-20T06:33:48.000Z",
+     "edit_history_tweet_ids": [
+      "2112432076767289678"
+     ],
+     "id": "2112432076767289678",
+     "public_metrics": {
+      "bookmark_count": 265,
+      "impression_count": 1162272,
+      "like_count": 11179,
+      "quote_count": 876,
+      "reply_count": 2794,
+      "retweet_count": 455
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112268918681485431",
+       "type": "quoted"
+      }
+     ],
+     "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy. https://t.co/RZ9WhtI802",
+     "url": "https://x.com/i/status/2112432076767289678"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "created_at": "2026-10-19T19:45:28.000Z",
+      "edit_history_tweet_ids": [
+       "2112268918681485431"
+      ],
+      "id": "2112268918681485431",
+      "public_metrics": {
+       "bookmark_count": 470,
+       "impression_count": 2743470,
+       "like_count": 5177,
+       "quote_count": 431,
+       "reply_count": 2835,
+       "retweet_count": 164
+      },
+      "referenced_tweets": [
+       {
+        "id": "2112242739198959913",
+        "type": "quoted"
+       }
+      ],
+      "text": "Day 15/ We're cooked https://t.co/ciJpOJlmOn"
+     }
+    ]
+   }
+  },
+  "testingcatalog": {
+   "id": "3980735590",
+   "fetched": 24,
+   "post_ids": [
+    "2112665680751321287",
+    "2112665677152829772",
+    "2112647073464201546",
+    "2112638400595403125",
+    "2112638397177372745",
+    "2112619795585855738",
+    "2112610230043312618",
+    "2112605106642600283",
+    "2112594535549116863",
+    "2112594531065446586",
+    "2112576270425071977",
+    "2112576267203551301",
+    "2112570240555012504",
+    "2112570237874810918",
+    "2112522259357196730",
+    "2112522256911884590",
+    "2112491182941151344",
+    "2112491179249996095",
+    "2112458715223732309",
+    "2112334786794528884",
+    "2112309941058818222",
+    "2112278449586884915",
+    "2112274384895524879",
+    "2112274382122865149"
+   ],
+   "meta": {
+    "newest_id": "2112665680751321287",
+    "next_token": "7140dibdnow9c7btwp0g71ph45pmm3zp8esqu82th3y2h",
+    "oldest_id": "2112274382122865149",
+    "result_count": 24
+   },
+   "posts": [
+    {
+     "created_at": "2026-10-20T22:02:04.000Z",
+     "edit_history_tweet_ids": [
+      "2112665680751321287"
+     ],
+     "id": "2112665680751321287",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1227,
+      "like_count": 7,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112665677152829772",
+       "type": "replied_to"
+      }
+     ],
+     "text": "EAGLE-4 is now available on GitHub as eagle_harness, which serves EAGLE-4 drafts on SGLang, vLLM, and TokenSpeed through engine plugins.\n\nThe EAGLE-4 Draft Model for Qwen3.8-27B is also available on HuggingFace, along with a research paper!\n\nTesting link 👀",
+     "url": "https://x.com/i/status/2112665680751321287"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112665467110252546"
+      ]
+     },
+     "created_at": "2026-10-20T22:02:03.000Z",
+     "edit_history_tweet_ids": [
+      "2112665677152829772"
+     ],
+     "id": "2112665677152829772",
+     "public_metrics": {
+      "bookmark_count": 6,
+      "impression_count": 9993,
+      "like_count": 55,
+      "quote_count": 0,
+      "reply_count": 9,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112660683670323531",
+       "type": "quoted"
+      }
+     ],
+     "text": "Eagle Corp released EAGLE-4, its latest open-source flexible drafter, for accelerating LLM inference.\n\n&gt; At its core, “One drafter adapts its speculative decoding strategy to the batch size, the hardware, and the workload, and keeps the target model's output distribution.”\n\n&gt; https://t.co/1rINWWvwxf https://t.co/mjoBIwcRLz",
+     "url": "https://x.com/i/status/2112665677152829772"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112647043587977216"
+      ]
+     },
+     "created_at": "2026-10-20T20:48:08.000Z",
+     "edit_history_tweet_ids": [
+      "2112647073464201546"
+     ],
+     "id": "2112647073464201546",
+     "public_metrics": {
+      "bookmark_count": 10,
+      "impression_count": 5366,
+      "like_count": 48,
+      "quote_count": 0,
+      "reply_count": 10,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112574615318876178",
+       "type": "quoted"
+      }
+     ],
+     "text": "MISTRAL 🔥: Voxtral 3, a new family of speech-to-text and text-to-speech models, is now available!\n\nVoxtral Small Transcribe 3 landed in 3rd on the Artificial Analysis Speech-to-Text leaderboard, and Voxtral 3 TTS ranked in the top 12.\n\nVoxtral 3 comes with 👀\n- Accurate https://t.co/nZ42HmsqFp https://t.co/l5wuYWQOC9",
+     "url": "https://x.com/i/status/2112647073464201546"
+    },
+    {
+     "created_at": "2026-10-20T20:13:40.000Z",
+     "edit_history_tweet_ids": [
+      "2112638400595403125"
+     ],
+     "id": "2112638400595403125",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 2,
+      "impression_count": 1653,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112638397177372745",
+       "type": "replied_to"
+      }
+     ],
+     "text": "In the company's own tests on 145 Google fonts, Vyb matched the requested font shape 95.3% of the time.\n\nCoco Labs was founded by former Google Brain and DeepMind researchers, led by CEO @anurahk and CTO @DavidZats.\n\nTake a look 👀\nhttps://t.co/dDaryN3Cpw",
+     "url": "https://x.com/i/status/2112638400595403125"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2112637831541571585"
+      ]
+     },
+     "created_at": "2026-10-20T20:13:39.000Z",
+     "edit_history_tweet_ids": [
+      "2112638397177372745"
+     ],
+     "id": "2112638397177372745",
+     "public_metrics": {
+      "bookmark_count": 9,
+      "impression_count": 5500,
+      "like_count": 22,
+      "quote_count": 0,
+      "reply_count": 9,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112581900779012503",
+       "type": "quoted"
+      }
+     ],
+     "text": "Coco Labs launched Vyb, its first design model, which can build layered, editable marketing graphics from a brand's website.\n\nVyb places each element on its own layer, so you can change a headline without regenerating the whole design.\n\n&gt; Users can send Vyb their company's https://t.co/bwFwrxygbZ https://t.co/TeEHFRmCYb",
+     "url": "https://x.com/i/status/2112638397177372745"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2112571479745495040"
+      ]
+     },
+     "created_at": "2026-10-20T18:59:44.000Z",
+     "edit_history_tweet_ids": [
+      "2112619795585855738"
+     ],
+     "id": "2112619795585855738",
+     "public_metrics": {
+      "bookmark_count": 72,
+      "impression_count": 15693,
+      "like_count": 172,
+      "quote_count": 3,
+      "reply_count": 20,
+      "retweet_count": 8
+     },
+     "text": "PERPLEXITY 🔥: A fully local option is now available on the Perplexity Computer macOS Desktop app for Pro, Max, and Enterprise subscribers!\n\nThey did it 👀\n\nPerplexity Computer no longer needs the internet or paid credits to work.\n\nA fully local mode is powered by PPLX Pro, a",
+     "url": "https://x.com/i/status/2112619795585855738"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112609913864175616"
+      ]
+     },
+     "created_at": "2026-10-20T18:21:43.000Z",
+     "edit_history_tweet_ids": [
+      "2112610230043312618"
+     ],
+     "id": "2112610230043312618",
+     "public_metrics": {
+      "bookmark_count": 25,
+      "impression_count": 8864,
+      "like_count": 182,
+      "quote_count": 0,
+      "reply_count": 10,
+      "retweet_count": 12
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112607347688583586",
+       "type": "quoted"
+      }
+     ],
+     "text": "OpenAI ❤️ Orchestra Bio\n\n&gt; OpenAI has acquired Orchestra Bio⁠ to work on Rosalind models and tools for life sciences research.\n\n&gt; \"Orchestra Bio is a platform that helps biopharma teams coordinate the complex process of drug development.\"\n\nAI advancements in life sciences are https://t.co/bVRLpbqVPj https://t.co/2GIrYIeHq6",
+     "url": "https://x.com/i/status/2112610230043312618"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2112597507310305280"
+      ]
+     },
+     "created_at": "2026-10-20T18:01:22.000Z",
+     "edit_history_tweet_ids": [
+      "2112605106642600283"
+     ],
+     "id": "2112605106642600283",
+     "public_metrics": {
+      "bookmark_count": 68,
+      "impression_count": 22413,
+      "like_count": 445,
+      "quote_count": 4,
+      "reply_count": 36,
+      "retweet_count": 14
+     },
+     "text": "OPENAI 🔥: Locked Chats in ChatGPT are rolling out to Free, Go, Plus, Pro, Business, Enterprise, and Edu plans.\n\nUsers can move chats into a protected space under a PIN on web and desktop, or a PIN, Face ID, Touch ID, or device unlock.\n\nLocked in 👀👀👀 https://t.co/I2RpWTFEOv",
+     "url": "https://x.com/i/status/2112605106642600283"
+    },
+    {
+     "created_at": "2026-10-20T17:19:22.000Z",
+     "edit_history_tweet_ids": [
+      "2112594535549116863"
+     ],
+     "id": "2112594535549116863",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1767,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112594531065446586",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Atlas will be accessible to General Compute customers starting in Q1 2027, with Titan being added once Positron's custom Asimov chip reaches the production stage. \n\nTitan is designed to run larger models and longer context lengths by leveraging several terabytes of slower memory,",
+     "url": "https://x.com/i/status/2112594535549116863"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2112594482268901377"
+      ]
+     },
+     "created_at": "2026-10-20T17:19:20.000Z",
+     "edit_history_tweet_ids": [
+      "2112594531065446586"
+     ],
+     "id": "2112594531065446586",
+     "public_metrics": {
+      "bookmark_count": 7,
+      "impression_count": 6207,
+      "like_count": 35,
+      "quote_count": 1,
+      "reply_count": 8,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112585266854604957",
+       "type": "quoted"
+      }
+     ],
+     "text": "General Compute has signed a multi-year partnership with @positron_ai to offer Positron's Atlas inference systems to its cloud customers.\n\nGeneral Compute buys and runs specialized AI chips alongside GPUs, allowing AI companies to rent processing power and use Positron hardware https://t.co/dJkqn2hSAE https://t.co/uYF0LJKRPO",
+     "url": "https://x.com/i/status/2112594531065446586"
+    },
+    {
+     "created_at": "2026-10-20T16:06:47.000Z",
+     "edit_history_tweet_ids": [
+      "2112576270425071977"
+     ],
+     "id": "2112576270425071977",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1786,
+      "like_count": 6,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112576267203551301",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Each one of the 999 Series-1 units can be reserved for $200 and will be numbered in reservation order, with a free waitlist open for later units.\n\nTuesday Labs is a New York-based robotics company from Y Combinator's Winter 2024 batch, and its team built the first Voxel prototype",
+     "url": "https://x.com/i/status/2112576270425071977"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2112576189281800195"
+      ]
+     },
+     "created_at": "2026-10-20T16:06:46.000Z",
+     "edit_history_tweet_ids": [
+      "2112576267203551301"
+     ],
+     "id": "2112576267203551301",
+     "public_metrics": {
+      "bookmark_count": 15,
+      "impression_count": 7666,
+      "like_count": 53,
+      "quote_count": 0,
+      "reply_count": 15,
+      "retweet_count": 3
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112565146354860151",
+       "type": "quoted"
+      }
+     ],
+     "text": "Tuesday Labs introduced a Voxel Series-1 home robot, with the first batch of 999 units shipping in 2028.\n\nVoxel is being built with a special focus on how it behaves around humans while tidying a home, from returning things to where they belong to grabbing something from another https://t.co/6l9264sB3Z https://t.co/vifpCQHdyu",
+     "url": "https://x.com/i/status/2112576267203551301"
+    },
+    {
+     "created_at": "2026-10-20T15:42:49.000Z",
+     "edit_history_tweet_ids": [
+      "2112570240555012504"
+     ],
+     "id": "2112570240555012504",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 1936,
+      "like_count": 8,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112570237874810918",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Artificial Analysis turns user votes into Elo scores, the same rating method used to rank chess players, and ranks them on its AA-Image-Editing v2.1 board.\n\nKrea 3 launched on October 15, letting users draw a box around the area to change and keep refining the result.\n\nTest it",
+     "url": "https://x.com/i/status/2112570240555012504"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2112570056815058946"
+      ]
+     },
+     "created_at": "2026-10-20T15:42:49.000Z",
+     "edit_history_tweet_ids": [
+      "2112570237874810918"
+     ],
+     "id": "2112570237874810918",
+     "public_metrics": {
+      "bookmark_count": 15,
+      "impression_count": 8048,
+      "like_count": 78,
+      "quote_count": 2,
+      "reply_count": 11,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112567020353102324",
+       "type": "quoted"
+      }
+     ],
+     "text": "Krea 3 Ultra and Krea 3 Fast landed in the top 5 and 11th spots on the Artificial Analysis image-editing leaderboard!\n\n&gt; Krea 3 Ultra placed 4th with a score of 1151, one point behind Google's Nano Banana 2.1.\n\n&gt; The other four spots in the 5 five are all taken by OpenAI, Google, https://t.co/q4SwNIKp3X https://t.co/iaGcGuKt5j",
+     "url": "https://x.com/i/status/2112570237874810918"
+    },
+    {
+     "created_at": "2026-10-20T12:32:10.000Z",
+     "edit_history_tweet_ids": [
+      "2112522259357196730"
+     ],
+     "id": "2112522259357196730",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 2759,
+      "like_count": 13,
+      "quote_count": 0,
+      "reply_count": 1,
+      "retweet_count": 2
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112522256911884590",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Documented 🗞️\nhttps://t.co/1eJ80DbTI1",
+     "url": "https://x.com/i/status/2112522259357196730"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112521807789973504"
+      ]
+     },
+     "created_at": "2026-10-20T12:32:09.000Z",
+     "edit_history_tweet_ids": [
+      "2112522256911884590"
+     ],
+     "id": "2112522256911884590",
+     "public_metrics": {
+      "bookmark_count": 19,
+      "impression_count": 15906,
+      "like_count": 217,
+      "quote_count": 6,
+      "reply_count": 51,
+      "retweet_count": 8
+     },
+     "text": "META 🔥: Confidential VMs feature is in the works on Muse web. \n\nMeta previously teased that this feature will go live before the end of 2026 and will let users run Muse tasks in an encrypted, confidential environment. \n\nAccording to a new hidden setting, Confidential VMs will https://t.co/My3mfbxRUk",
+     "url": "https://x.com/i/status/2112522256911884590"
+    },
+    {
+     "created_at": "2026-10-20T10:28:40.000Z",
+     "edit_history_tweet_ids": [
+      "2112491182941151344"
+     ],
+     "id": "2112491182941151344",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 0,
+      "impression_count": 3192,
+      "like_count": 10,
+      "quote_count": 0,
+      "reply_count": 0,
+      "retweet_count": 1
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112491179249996095",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Documented by @DCubbins 🗞️\nhttps://t.co/jeVAoRHpnx",
+     "url": "https://x.com/i/status/2112491182941151344"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112490253021855744",
+       "3_2112490271241801728"
+      ]
+     },
+     "created_at": "2026-10-20T10:28:39.000Z",
+     "edit_history_tweet_ids": [
+      "2112491179249996095"
+     ],
+     "id": "2112491179249996095",
+     "public_metrics": {
+      "bookmark_count": 32,
+      "impression_count": 22399,
+      "like_count": 440,
+      "quote_count": 9,
+      "reply_count": 58,
+      "retweet_count": 24
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112189697388613850",
+       "type": "quoted"
+      }
+     ],
+     "text": "OpenAI seems to be preparing to release GPT-6.1 Terra model as well. \n\n&gt; The model reference recently showed up in Microsoft's PR for evaluation configs. \n\n&gt; Earlier, The Information reported that this model is also in the works. https://t.co/MbCQHsaOUf https://t.co/HZeUWJn8E9",
+     "url": "https://x.com/i/status/2112491179249996095"
+    },
+    {
+     "created_at": "2026-10-20T08:19:39.000Z",
+     "edit_history_tweet_ids": [
+      "2112458715223732309"
+     ],
+     "id": "2112458715223732309",
+     "public_metrics": {
+      "bookmark_count": 23,
+      "impression_count": 14768,
+      "like_count": 156,
+      "quote_count": 2,
+      "reply_count": 26,
+      "retweet_count": 6
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112150000268353983",
+       "type": "quoted"
+      }
+     ],
+     "text": "DAILY AI BRIEF 🗞 — Oct 20\n\nOPENAI 🔥:\n- ChatGPT Slides now supports real-time collaborative editing, comments and on-slide edits for Pro, Business and Enterprise plans.\n- OpenAI Platform recently added a \"Decisions\" API playground for testing its decision model with Predicate, https://t.co/kx00za4YeJ",
+     "url": "https://x.com/i/status/2112458715223732309"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112334782147272704"
+      ]
+     },
+     "created_at": "2026-10-20T00:07:13.000Z",
+     "edit_history_tweet_ids": [
+      "2112334786794528884"
+     ],
+     "id": "2112334786794528884",
+     "public_metrics": {
+      "bookmark_count": 33,
+      "impression_count": 14363,
+      "like_count": 183,
+      "quote_count": 10,
+      "reply_count": 30,
+      "retweet_count": 7
+     },
+     "text": "ICYMI 👀: OpenAI Platform now has a \"Decisions\" API playground. \n\nUsers can test OpenAI's decision model with the \"Predicate,\" \"Choice,\" and \"Score\" options, which were released recently. \n\nProbability True 🤖 https://t.co/zpg2obCDdS",
+     "url": "https://x.com/i/status/2112334786794528884"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "3_2112309893558345728"
+      ]
+     },
+     "created_at": "2026-10-19T22:28:29.000Z",
+     "edit_history_tweet_ids": [
+      "2112309941058818222"
+     ],
+     "id": "2112309941058818222",
+     "public_metrics": {
+      "bookmark_count": 75,
+      "impression_count": 23039,
+      "like_count": 448,
+      "quote_count": 1,
+      "reply_count": 31,
+      "retweet_count": 17
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112265233192657153",
+       "type": "quoted"
+      }
+     ],
+     "text": "OpenAI updated ChatGPT Slides with real-time collaborative editing. \n\n&gt; Teams, Dots, and ChatGPT can now work together on a slide deck in order to make edits, enhancements, and leave comments. \n\nThe feature is available on ChatGPT Pro, Business, and Enterprise plans. https://t.co/MXmb0uRCGK https://t.co/BCJA0tdMlm",
+     "url": "https://x.com/i/status/2112309941058818222"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2112265701176045568"
+      ]
+     },
+     "created_at": "2026-10-19T20:23:21.000Z",
+     "edit_history_tweet_ids": [
+      "2112278449586884915"
+     ],
+     "id": "2112278449586884915",
+     "public_metrics": {
+      "bookmark_count": 19,
+      "impression_count": 14574,
+      "like_count": 201,
+      "quote_count": 2,
+      "reply_count": 12,
+      "retweet_count": 12
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112218561091661922",
+       "type": "quoted"
+      }
+     ],
+     "text": "Grok Bot has a limited-time Pumpkin Bot Halloween avatar, and iPhone users can now activate their Bots via the Action Button. \n\nI am slowly moving more and more of my routine tasks to Grok Bot. For EU users, it is one of the top solutions atm. \n\nBesides Pumpkin, we need a Ghost https://t.co/wBMIRsu11t https://t.co/9PUEHlgjB6",
+     "url": "https://x.com/i/status/2112278449586884915"
+    },
+    {
+     "created_at": "2026-10-19T20:07:12.000Z",
+     "edit_history_tweet_ids": [
+      "2112274384895524879"
+     ],
+     "id": "2112274384895524879",
+     "in_reply_to_user_id": "3980735590",
+     "public_metrics": {
+      "bookmark_count": 3,
+      "impression_count": 2812,
+      "like_count": 14,
+      "quote_count": 1,
+      "reply_count": 0,
+      "retweet_count": 0
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112274382122865149",
+       "type": "replied_to"
+      }
+     ],
+     "text": "Skyfall AI was founded by the former Maluuba team, acquired by Microsoft in 2017, and backed by Fidelity, Inovia Capital, Touring Capital, M13, NextView Ventures, and Garage Capital.\n\nIts first product, Morpheus, is a business simulation tool, so AI agents keep living with the",
+     "url": "https://x.com/i/status/2112274384895524879"
+    },
+    {
+     "attachments": {
+      "media_keys": [
+       "13_2112273636962787328"
+      ]
+     },
+     "created_at": "2026-10-19T20:07:11.000Z",
+     "edit_history_tweet_ids": [
+      "2112274382122865149"
+     ],
+     "id": "2112274382122865149",
+     "public_metrics": {
+      "bookmark_count": 82,
+      "impression_count": 16980,
+      "like_count": 217,
+      "quote_count": 4,
+      "reply_count": 15,
+      "retweet_count": 15
+     },
+     "referenced_tweets": [
+      {
+       "id": "2112242023805964327",
+       "type": "quoted"
+      }
+     ],
+     "text": "Skyfall AI released SKY-001, the first World Model specialized in engineering tasks.\n\n&gt; According to Skyfall tests, SKY-001 outperforms GPT-6 Astra and Opus 5.5 on CAD and BIM tasks.\n\n&gt; The model sets a new bar for speed and cost per sample, running about 120 times faster and https://t.co/dGpv7iHgYX https://t.co/12LszNXj2c",
+     "url": "https://x.com/i/status/2112274382122865149"
+    }
+   ],
+   "includes": {
+    "media": [
+     {
+      "media_key": "3_2112665467110252546",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVGyDIhXYAIzAqW.jpg"
+     },
+     {
+      "media_key": "3_2112647043587977216",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVGhSvjXMAARBrX.jpg"
+     },
+     {
+      "media_key": "13_2112637831541571585",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112637831541571585/img/gnz3lZAlSON5jDFo.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "13_2112571479745495040",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112571479745495040/img/6agUzZjpfbZMBBOA.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "3_2112609913864175616",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVF_hgjXwAAb-j7.jpg"
+     },
+     {
+      "media_key": "13_2112597507310305280",
+      "preview_image_url": "https://pbs.twimg.com/media/HVF0k2Da4AAaDmx.png",
+      "type": "video"
+     },
+     {
+      "media_key": "13_2112594482268901377",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112594482268901377/img/BuMY4poLLR_xCM3x.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "13_2112576189281800195",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112576189281800195/img/G9Fh6pigL6zRSBHe.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "13_2112570056815058946",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112570056815058946/img/5zRed5P9p9SJ_Luz.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "3_2112521807789973504",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVEvZD2WYAAKyDU.jpg"
+     },
+     {
+      "media_key": "3_2112490253021855744",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVESsVLXwAAW-t3.jpg"
+     },
+     {
+      "media_key": "3_2112490271241801728",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVEStZDWEAAlOmo.jpg"
+     },
+     {
+      "media_key": "3_2112334782147272704",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVCFSvCXIAAVqpo.jpg"
+     },
+     {
+      "media_key": "3_2112309893558345728",
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HVBuqB0WoAAlA-y.jpg"
+     },
+     {
+      "media_key": "13_2112265701176045568",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112265701176045568/img/kwAGrYbatPqV6WYs.jpg",
+      "type": "video"
+     },
+     {
+      "media_key": "13_2112273636962787328",
+      "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112273636962787328/img/taABx9wEuqlaAy8i.jpg",
+      "type": "video"
+     }
+    ],
+    "tweets": [
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2112665467110252546"
+       ]
+      },
+      "created_at": "2026-10-20T22:02:03.000Z",
+      "edit_history_tweet_ids": [
+       "2112665677152829772"
+      ],
+      "id": "2112665677152829772",
+      "public_metrics": {
+       "bookmark_count": 6,
+       "impression_count": 9993,
+       "like_count": 55,
+       "quote_count": 0,
+       "reply_count": 9,
+       "retweet_count": 2
+      },
+      "referenced_tweets": [
+       {
+        "id": "2112660683670323531",
+        "type": "quoted"
+       }
+      ],
+      "text": "Eagle Corp released EAGLE-4, its latest open-source flexible drafter, for accelerating LLM inference.\n\n&gt; At its core, “One drafter adapts its speculative decoding strategy to the batch size, the hardware, and the workload, and keeps the target model's output distribution.”\n\n&gt; https://t.co/1rINWWvwxf https://t.co/mjoBIwcRLz"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112660579664187392"
+       ]
+      },
+      "created_at": "2026-10-20T21:42:12.000Z",
+      "edit_history_tweet_ids": [
+       "2112660683670323531"
+      ],
+      "id": "2112660683670323531",
+      "public_metrics": {
+       "bookmark_count": 423,
+       "impression_count": 619838,
+       "like_count": 741,
+       "quote_count": 107,
+       "reply_count": 102,
+       "retweet_count": 268
+      },
+      "text": "EAGLE-4 is here.\n\nFrom EAGLE-1 to EAGLE-3, we’ve kept making inference faster. \n\nEAGLE-4 is our fastest yet.\n\n961.6 tokens/s on @Alibaba_Qwen’s Qwen3.8-27B with TokenSpeed (BF16, 4× @NVIDIA B300, TP4, one request, T=0).\n\nGithub: https://t.co/GwocZk1UTU https://t.co/GawgFNXKWj"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112572094693220352"
+       ]
+      },
+      "created_at": "2026-10-20T16:00:12.000Z",
+      "edit_history_tweet_ids": [
+       "2112574615318876178"
+      ],
+      "id": "2112574615318876178",
+      "public_metrics": {
+       "bookmark_count": 685,
+       "impression_count": 145652,
+       "like_count": 2478,
+       "quote_count": 118,
+       "reply_count": 166,
+       "retweet_count": 302
+      },
+      "text": "Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 https://t.co/YA9HNVfq0u"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112637831541571585"
+       ]
+      },
+      "created_at": "2026-10-20T20:13:39.000Z",
+      "edit_history_tweet_ids": [
+       "2112638397177372745"
+      ],
+      "id": "2112638397177372745",
+      "public_metrics": {
+       "bookmark_count": 9,
+       "impression_count": 5500,
+       "like_count": 22,
+       "quote_count": 0,
+       "reply_count": 9,
+       "retweet_count": 2
+      },
+      "referenced_tweets": [
+       {
+        "id": "2112581900779012503",
+        "type": "quoted"
+       }
+      ],
+      "text": "Coco Labs launched Vyb, its first design model, which can build layered, editable marketing graphics from a brand's website.\n\nVyb places each element on its own layer, so you can change a headline without regenerating the whole design.\n\n&gt; Users can send Vyb their company's https://t.co/bwFwrxygbZ https://t.co/TeEHFRmCYb"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112576977475633152"
+       ]
+      },
+      "created_at": "2026-10-20T16:29:09.000Z",
+      "edit_history_tweet_ids": [
+       "2112581900779012503"
+      ],
+      "id": "2112581900779012503",
+      "public_metrics": {
+       "bookmark_count": 663,
+       "impression_count": 340140,
+       "like_count": 830,
+       "quote_count": 162,
+       "reply_count": 192,
+       "retweet_count": 146
+      },
+      "text": "I launched the first image and video generation models at Google, and kept asking why all AI designs look the same.\n\nAI has brought us the WORST era of design. \n\nIt made content creation effortless, but it also made 90% of it look painfully generic.\n\nMy co-founder and I spent 2 https://t.co/XxcJuVbJMA"
+     },
+     {
+      "created_at": "2026-10-20T18:10:16.000Z",
+      "edit_history_tweet_ids": [
+       "2112607347688583586"
+      ],
+      "id": "2112607347688583586",
+      "public_metrics": {
+       "bookmark_count": 898,
+       "impression_count": 417034,
+       "like_count": 5069,
+       "quote_count": 239,
+       "reply_count": 313,
+       "retweet_count": 420
+      },
+      "text": "We’ve acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development.\n\nTogether, we’ll build on Rosalind, our AI models and tools for life sciences research, to streamline those operations and help new treatments reach patients"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112594482268901377"
+       ]
+      },
+      "created_at": "2026-10-20T17:19:20.000Z",
+      "edit_history_tweet_ids": [
+       "2112594531065446586"
+      ],
+      "id": "2112594531065446586",
+      "public_metrics": {
+       "bookmark_count": 7,
+       "impression_count": 6207,
+       "like_count": 35,
+       "quote_count": 1,
+       "reply_count": 8,
+       "retweet_count": 1
+      },
+      "referenced_tweets": [
+       {
+        "id": "2112585266854604957",
+        "type": "quoted"
+       }
+      ],
+      "text": "General Compute has signed a multi-year partnership with @positron_ai to offer Positron's Atlas inference systems to its cloud customers.\n\nGeneral Compute buys and runs specialized AI chips alongside GPUs, allowing AI companies to rent processing power and use Positron hardware https://t.co/dJkqn2hSAE https://t.co/uYF0LJKRPO"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "7_2112585087921377280"
+       ]
+      },
+      "created_at": "2026-10-20T16:42:32.000Z",
+      "edit_history_tweet_ids": [
+       "2112585266854604957"
+      ],
+      "id": "2112585266854604957",
+      "public_metrics": {
+       "bookmark_count": 308,
+       "impression_count": 193349,
+       "like_count": 589,
+       "quote_count": 133,
+       "reply_count": 102,
+       "retweet_count": 55
+      },
+      "text": "Our heterogeneous cloud just got better. We're announcing a cluster scale deployment of @positron_ai as our next partner.\n\nWe believe demand for fast inference will outstrip supply for the next decade. Our bet on Positron is another step towards getting fast inference for https://t.co/BckGV68mVT"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112576189281800195"
+       ]
+      },
+      "created_at": "2026-10-20T16:06:46.000Z",
+      "edit_history_tweet_ids": [
+       "2112576267203551301"
+      ],
+      "id": "2112576267203551301",
+      "public_metrics": {
+       "bookmark_count": 15,
+       "impression_count": 7666,
+       "like_count": 53,
+       "quote_count": 0,
+       "reply_count": 15,
+       "retweet_count": 3
+      },
+      "referenced_tweets": [
+       {
+        "id": "2112565146354860151",
+        "type": "quoted"
+       }
+      ],
+      "text": "Tuesday Labs introduced a Voxel Series-1 home robot, with the first batch of 999 units shipping in 2028.\n\nVoxel is being built with a special focus on how it behaves around humans while tidying a home, from returning things to where they belong to grabbing something from another https://t.co/6l9264sB3Z https://t.co/vifpCQHdyu"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112564839251931136"
+       ]
+      },
+      "created_at": "2026-10-20T15:22:35.000Z",
+      "edit_history_tweet_ids": [
+       "2112565146354860151"
+      ],
+      "id": "2112565146354860151",
+      "public_metrics": {
+       "bookmark_count": 881,
+       "impression_count": 431128,
+       "like_count": 1520,
+       "quote_count": 236,
+       "reply_count": 180,
+       "retweet_count": 200
+      },
+      "text": "Introducing Voxel, a droid butler made by Tuesday Labs. https://t.co/Mq2wTtE8cz"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112570056815058946"
+       ]
+      },
+      "created_at": "2026-10-20T15:42:49.000Z",
+      "edit_history_tweet_ids": [
+       "2112570237874810918"
+      ],
+      "id": "2112570237874810918",
+      "public_metrics": {
+       "bookmark_count": 15,
+       "impression_count": 8048,
+       "like_count": 78,
+       "quote_count": 2,
+       "reply_count": 11,
+       "retweet_count": 2
+      },
+      "referenced_tweets": [
+       {
+        "id": "2112567020353102324",
+        "type": "quoted"
+       }
+      ],
+      "text": "Krea 3 Ultra and Krea 3 Fast landed in the top 5 and 11th spots on the Artificial Analysis image-editing leaderboard!\n\n&gt; Krea 3 Ultra placed 4th with a score of 1151, one point behind Google's Nano Banana 2.1.\n\n&gt; The other four spots in the 5 five are all taken by OpenAI, Google, https://t.co/q4SwNIKp3X https://t.co/iaGcGuKt5j"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112560706319261696"
+       ]
+      },
+      "created_at": "2026-10-20T15:30:01.000Z",
+      "edit_history_tweet_ids": [
+       "2112567020353102324"
+      ],
+      "id": "2112567020353102324",
+      "public_metrics": {
+       "bookmark_count": 562,
+       "impression_count": 618966,
+       "like_count": 854,
+       "quote_count": 139,
+       "reply_count": 96,
+       "retweet_count": 124
+      },
+      "text": "today, Krea 3 makes it to the top of image arenas.\n\n- \"Fast\" pushes the pareto curve of speed and quality.\n- \"Ultra\" ranks top-4, only surpassed by OpenAI models.\n\nthe only company valued under $1T in the top-10!\n\nmore below 👇 https://t.co/BD8aVEI1WY"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2112521807789973504"
+       ]
+      },
+      "created_at": "2026-10-20T12:32:09.000Z",
+      "edit_history_tweet_ids": [
+       "2112522256911884590"
+      ],
+      "id": "2112522256911884590",
+      "public_metrics": {
+       "bookmark_count": 19,
+       "impression_count": 15906,
+       "like_count": 217,
+       "quote_count": 6,
+       "reply_count": 51,
+       "retweet_count": 8
+      },
+      "text": "META 🔥: Confidential VMs feature is in the works on Muse web. \n\nMeta previously teased that this feature will go live before the end of 2026 and will let users run Muse tasks in an encrypted, confidential environment. \n\nAccording to a new hidden setting, Confidential VMs will https://t.co/My3mfbxRUk"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2112490253021855744",
+        "3_2112490271241801728"
+       ]
+      },
+      "created_at": "2026-10-20T10:28:39.000Z",
+      "edit_history_tweet_ids": [
+       "2112491179249996095"
+      ],
+      "id": "2112491179249996095",
+      "public_metrics": {
+       "bookmark_count": 32,
+       "impression_count": 22399,
+       "like_count": 440,
+       "quote_count": 9,
+       "reply_count": 58,
+       "retweet_count": 24
+      },
+      "referenced_tweets": [
+       {
+        "id": "2112189697388613850",
+        "type": "quoted"
+       }
+      ],
+      "text": "OpenAI seems to be preparing to release GPT-6.1 Terra model as well. \n\n&gt; The model reference recently showed up in Microsoft's PR for evaluation configs. \n\n&gt; Earlier, The Information reported that this model is also in the works. https://t.co/MbCQHsaOUf https://t.co/HZeUWJn8E9"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2112188799803441152"
+       ]
+      },
+      "created_at": "2026-10-19T14:30:41.000Z",
+      "edit_history_tweet_ids": [
+       "2112189697388613850"
+      ],
+      "id": "2112189697388613850",
+      "public_metrics": {
+       "bookmark_count": 69,
+       "impression_count": 221007,
+       "like_count": 764,
+       "quote_count": 84,
+       "reply_count": 56,
+       "retweet_count": 39
+      },
+      "referenced_tweets": [
+       {
+        "id": "2112186994885304414",
+        "type": "quoted"
+       }
+      ],
+      "text": "GPT-6.1 Terra is in a Microsoft PR\n\nMicrosoft updated 18 evaluation configs from GPT-5.6 Terra to GPT-6.1 Terra\n\nWouldn't be surprised if we get this soon https://t.co/T3GaPrfQ3R https://t.co/Y1Tcvs7opA"
+     },
+     {
+      "created_at": "2026-10-19T11:52:56.000Z",
+      "edit_history_tweet_ids": [
+       "2112150000268353983"
+      ],
+      "id": "2112150000268353983",
+      "public_metrics": {
+       "bookmark_count": 35,
+       "impression_count": 51125,
+       "like_count": 249,
+       "quote_count": 8,
+       "reply_count": 28,
+       "retweet_count": 12
+      },
+      "referenced_tweets": [
+       {
+        "id": "2111409303701577925",
+        "type": "quoted"
+       }
+      ],
+      "text": "DAILY AI BRIEF 🗞 — Oct 19\n\nOPENAI 🔥:\n- OpenAI is testing new \"Aurora\" image models on Arena after aurora-red, green and blue alpha references briefly appeared in its API.\n- The Codex desktop app now lets you edit previous messages within a thread.\n- Replit has made OpenAI its https://t.co/FM9cGNqb4x"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "3_2112262779692519424",
+        "3_2112262779663187968",
+        "3_2112262779659075584"
+       ]
+      },
+      "created_at": "2026-10-19T19:30:50.000Z",
+      "edit_history_tweet_ids": [
+       "2112265233192657153"
+      ],
+      "id": "2112265233192657153",
+      "public_metrics": {
+       "bookmark_count": 1013,
+       "impression_count": 317730,
+       "like_count": 3346,
+       "quote_count": 101,
+       "reply_count": 143,
+       "retweet_count": 217
+      },
+      "text": "ChatGPT Slides has new ways to get your deck ready—and get everyone on the same page.\n\n• Work together in real time in ChatGPT: Share decks, edit together, and leave comments. Ask ChatGPT or your dot to turn feedback into updates.\n\n• Edit right on the slide: Click to change https://t.co/tTxwf6cZdA"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112218349094723584"
+       ]
+      },
+      "created_at": "2026-10-19T16:25:22.000Z",
+      "edit_history_tweet_ids": [
+       "2112218561091661922"
+      ],
+      "id": "2112218561091661922",
+      "public_metrics": {
+       "bookmark_count": 277,
+       "impression_count": 163710,
+       "like_count": 5640,
+       "quote_count": 88,
+       "reply_count": 367,
+       "retweet_count": 242
+      },
+      "text": "Pumpkin Bot is coming (for a limited time) https://t.co/u5uIfNcqnX"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112273636962787328"
+       ]
+      },
+      "created_at": "2026-10-19T20:07:11.000Z",
+      "edit_history_tweet_ids": [
+       "2112274382122865149"
+      ],
+      "id": "2112274382122865149",
+      "public_metrics": {
+       "bookmark_count": 82,
+       "impression_count": 16980,
+       "like_count": 217,
+       "quote_count": 4,
+       "reply_count": 15,
+       "retweet_count": 15
+      },
+      "referenced_tweets": [
+       {
+        "id": "2112242023805964327",
+        "type": "quoted"
+       }
+      ],
+      "text": "Skyfall AI released SKY-001, the first World Model specialized in engineering tasks.\n\n&gt; According to Skyfall tests, SKY-001 outperforms GPT-6 Astra and Opus 5.5 on CAD and BIM tasks.\n\n&gt; The model sets a new bar for speed and cost per sample, running about 120 times faster and https://t.co/dGpv7iHgYX https://t.co/12LszNXj2c"
+     },
+     {
+      "attachments": {
+       "media_keys": [
+        "13_2112239846702129152"
+       ]
+      },
+      "created_at": "2026-10-19T17:58:36.000Z",
+      "edit_history_tweet_ids": [
+       "2112241870856392806",
+       "2112242023805964327"
+      ],
+      "id": "2112242023805964327",
+      "public_metrics": {
+       "bookmark_count": 13649,
+       "impression_count": 3989576,
+       "like_count": 15249,
+       "quote_count": 599,
+       "reply_count": 786,
+       "retweet_count": 2189
+      },
+      "text": "Introducing SKY-001, the first Engineering World Model.\nOn CAD and BIM tasks, it beats GPT-6 Astra and every frontier model we tested:\n\n-&gt; 51-125x faster\n- &gt; 150-210x cheaper\n-&gt; Higher IOU than all frontier models\n\nSKY-001 lets you dream a physical object before you build it.\n\n18 https://t.co/rfnNPTBCYW"
+     }
+    ]
+   }
+  },
+  "gengdaJ": {
+   "id": "1897545708770840576",
+   "fetched": 0,
+   "post_ids": [],
+   "meta": {
+    "result_count": 0
+   },
+   "posts": [],
+   "includes": {}
+  }
+ },
+ "longform_enriched_ids": [
+  "2112584126155088004",
+  "2112386350934868374",
+  "2112501497674235913",
+  "2112502282977939518",
+  "2112502469586813293",
+  "2112592264686149749",
+  "2112665677152829772",
+  "2112665680751321287",
+  "2112660683670323531",
+  "2112647073464201546",
+  "2112574615318876178",
+  "2112638397177372745",
+  "2112638400595403125",
+  "2112619795585855738",
+  "2112610230043312618",
+  "2112607347688583586",
+  "2112605106642600283",
+  "2112594531065446586",
+  "2112594535549116863",
+  "2112576267203551301",
+  "2112576270425071977",
+  "2112570237874810918",
+  "2112570240555012504",
+  "2112522256911884590",
+  "2112491179249996095",
+  "2112581900779012503",
+  "2112567020353102324"
+ ],
+ "longform_enriched": [
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2112578091474419712"
+    ]
+   },
+   "created_at": "2026-10-20T16:38:00.000Z",
+   "edit_history_post_ids": [
+    "2112579521849471311",
+    "2112583614961721794",
+    "2112584126155088004"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/L1PpA2UCPo",
+      "end": 149,
+      "expanded_url": "https://x.com/Khazix0918/status/2112584126155088004/photo/1",
+      "media_key": "3_2112578091474419712",
+      "start": 126,
+      "url": "https://t.co/L1PpA2UCPo"
+     }
+    ]
+   },
+   "id": "2112584126155088004",
+   "note_tweet": {
+    "text": "老的本来准备卖掉的M4的Mac mini最爽的用法：\n拿来当自建CI机，以及给Agent跑各种自动化端到端测试，以前一直用Github跑CI，但是Agent太喜欢提PR了，即使开了会员，有时候每个月还是能多花二三十刀。。。\n现在速度快，并行还爽...\n24小时待命，闲的时候，还顺道给自己的Agent当专用机，所有的Chrome啥的都给他登录好，飞书CLI也弄好，扔给Agent自己全自动随便去玩，直接焕发第二春了。"
+   },
+   "text": "老的本来准备卖掉的M4的Mac mini最爽的用法：\n拿来当自建CI机，以及给Agent跑各种自动化端到端测试，以前一直用Github跑CI，但是Agent太喜欢提PR了，即使开了会员，有时候每个月还是能多花二三十刀。。。\n现在速度快，并行还爽... https://t.co/L1PpA2UCPo",
+   "url": "https://x.com/i/status/2112584126155088004"
+  },
+  {
+   "article": {
+    "cover_media": "3_2112386300167036928",
+    "entities": {
+     "urls": [
+      {
+       "text": "Apate.ai"
+      },
+      {
+       "text": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647672801&idx=1&sn=6c48c57e40e858515c62804f5c32e559&scene=21#wechat_redirect"
+      },
+      {
+       "text": "http://xn--Apate-4u8h.ai"
+      }
+     ]
+    },
+    "media_entities": [
+     "3_2112385174789144577",
+     "3_2112385150776655872",
+     "3_2112385198205853696",
+     "3_2112385185883058176",
+     "3_2112385162394923008"
+    ],
+    "plain_text": "这两天，我看到了一条特别有意思的新闻。\n澳大利亚有一家公司，叫Apate.ai，名字取自希腊神话里的欺骗女神。\n这家公司干的事特别离谱，他们造了35万个AI。\n而这35万个AI，每天的主要工作，就是骗人。\n \n只不过，他们骗的对象有点特殊。\n他们专门骗骗子。\n没错，就是你想的那种骗子。\n每一个AI，都会装成一个普普通通的人，有老有少，有男有女，甚至口音还各不相同，能说好几种语言，甚至还有自己的性格。\n诈骗电话、钓鱼网站、投资骗局等等等等，只要发现一个骗子，他们就想办法派一个AI过去，然后装成受害者，跟骗子聊天。\n最重要的是，这些AI有一个非常好笑的共同特点，就是特别好骗。\n骗子让转账，它就说好的没问题。\n骗子让打开网站，它也说好的没问题。\n骗子让填写银行卡号，它还是说好的没问题。\n然后真到要执行的那一步的时候，就会突然开始装傻了。\n哎呀，我银行卡放哪了？\n哎呀，这个密码是哪个呀？\n哎呀，我老了，眼睛不好使，小哥哥你再说一遍？\n就这么硬生生地跟骗子耗，有些电话，甚至能聊两个多小时。。。\n骗子都快崩溃了。\n偏偏电话那头的老太太，还特别有礼貌。\n“不好意思啊，小伙子，麻烦你再教我一次。”\n按Apate自己的说法，他们的AI已经跟骗子聊了250万次，现在每天还在同时跟几万个骗子聊着。\n加起来，耗掉了骗子大约17年的时间。\n嗯，17年。。。\n澳大利亚的电信运营商TPG，已经把将近59万通可疑来电，直接转给了这些Apate的这些AI去接，然后澳洲联邦银行那边，公开报告的诈骗损失直接降低了76%。\n最搞笑的是，时不时就有骗子被这些AI拖到崩溃，对着电话破口大骂。\nApate不但不生气，还把这些骂人的片段，专门放进了自己的融资路演材料里，他们的联合创始人说，Apate大概是全世界唯一一家，用户骂自己产品的时候，全公司会庆祝的公司。\n而这一切的起源，就是几年前的一次家庭野餐。\nApate的创始人叫Dali Kaafar，那天他带着家里人出去野餐，然后就接到一个陌生电话，这个电话过于粗糙了，一听就是骗子。\n不过他没挂，因为为了逗孩子们开心，他就开始搞抽象了，直接装傻仙人附体，非常配合，就这么一句一句地陪着骗子聊。\n这一聊，就是44分钟，然后一家人全都笑翻了。\n笑完以后，Kaafar突然意识到了一件事。\n这44分钟里，那个骗子一直占着线跟他聊，没空去给别人打电话，而原本，也许会有一个独居的老人接到这通电话，也许会被骗走一笔支撑老人活下去的最后一笔养老钱。\n当然，代价就是，他自己也搭进去了44分钟。\n于是，那一刻，他有了一个新的想法，他问了自己一个问题，这件事，能不能交给AI来做。\n因为Kaafar本来就在悉尼的麦考瑞大学做网络安全研究，从那以后，他和同事们开始专门研究诈骗电话，用AI一点一点去拆骗子的话术，2024年，这个想法变成了Apate。\n \n一次野餐时的44分钟，最后变成了累计耗时17年的守护。\n如果说这个世界上，有一种东西是我恨之入骨的，那一定是诈骗。\n我相信很多人，跟我的想法一样，也是如此。\n但现在，AI好像正在改变一件过去特别不公平的事情，就是作恶与防范作恶之间的成本。\n最近我也在看缅北电诈那个纪录片，我是真的能感觉到，所有人都在拼命努力，就是想让普通人少被骗一点。\n但诈骗有一个非常恶心的地方，就是它的成本结构，天然对骗子有利。\n比如一个骗子，可以一天给几百个人打电话，哪怕前面几百个人全部挂断也无所谓，因为这本来就是赌，但只要最后有一个人被骗，他就可能赚到一大笔。\n但对于普通人来说，你可能前面一千次都没有被骗。\n只要第一千零一次，刚好遇到了一个特别会演的骗子，刚好自己那天心情不好，刚好又碰到了自己的软肋。\n那可能，一辈子的积蓄就没了。\n骗子可以失败无数次，而你我这样的普通人，很可悲的是，有时候连失败一次的机会都没有。\n所以我们国家，我们整个社会，做了无数的工作，一直在想办法提高普通人的警惕性。\n那现在，AI来了，既然骗子可以利用技术，把作恶的成本降下来。\n那我们为什么不能利用同样的技术，把保护别人的成本也降下来呢？\n今年8月份，Apate拿到了815万美元的种子轮融资，虽然在整个AI浪潮中，他们好像很小，但我依然会对他们肃然起敬。并且，他们已经真的开始有银行、电信运营商这些真正愿意付费的客户了。\n善意一旦能够持续运转，能够被复制、被规模化，那我觉得，它所产生的力量，就可能远远超过一个人的能力。\n很巧的是。\n就在Apate这件事火起来的时候，国内也正在发生一件特别相似的事情。\n就是最近闹得沸沸扬扬的AI小海。\n \n这个事情我相信很多人都知道了，我大概说一下。\n大概呢就是有一批人，用AI批量生成一些长得白白净净的男孩子，天天对着镜头喊“姨姨妈妈”。\n来来回回的就是说，今天爸爸生病了，明天自己被欺负了，后天又缺钱了，反正不停地卖惨。\n最后让一些中老年女性心疼他，去买他橱窗里的高佣金商品，有些佣金甚至高达55%，大概就是这么一个模式。\n \n最离谱的是，有个79岁的老太太，真的相信了手机里面的小海，一个人买了火车票，跑去山西找他。\n因为小海告诉她，可以一起去看杏花，去摘羊肚菌。\n但是老太太甚至连到了山西以后，具体应该去哪儿都不知道。\n她只知道，小海在那里。\n后来是被乘警发现异常，硬生生的问了出来，最后联系家属，才把人接回去。\n然后，就在这件事情被曝光之后，国内一群年轻人，魔高一尺，道高一丈，他们决定，也开始用AI反击了。\n其中有一个19岁的大学生，叫小舟。\n他发现朋友家里的一位老人，因为心疼小海，已经在他的橱窗里面买了好几单东西。\n于是小舟想了一个特别有意思的办法，既然老人相信小海。\n那就让小海自己告诉老人，他是骗子，于是，他也拿AI生成了一条30秒的视频。\n还是那张小海的脸，但这一次，小海摇身一变，成了一个住着豪宅、穿着西装的富二代。\n这是《新京报》当时采访小舟时候的视频截图。\n \n这个视频里，小海那个白发苍苍的父亲跑过来，劝他不要再骗那些姨姨妈妈了。\n结果小海直接翻脸，说自己根本不在乎那些姨姨妈妈，只要喊一声，她们就会过来送钱。\n最后，他还把自己的父亲赶出了门。\n这条视频发出去以后，其实只有几十个赞，但小舟的朋友把视频拿给家里的老人看。\n那个原来一直给小海买东西的老人，看完以后说：\n“哎呀，怎么是这样的呀。”\n“我以后不买他的东西了。”\n就这样，一条30秒的视频，真的让一个老人改变了决定。\n后来越来越多的年轻人受到感染和鼓舞，开始加入。\n有人让小海去坐牢，有人让小海抽烟喝酒，还有人让他戴着金链子，在豪宅里数钱。\n甚至还有人让小海穿着囚服，抓着监狱的铁栏杆，对着镜头承认自己是骗子。\n一场非常奇妙的AI对抗，就这么开始了。\n我特别喜欢小舟接受新京报采访时说的一句话。\n“善良的人不应该被骗。”\n就这么简单的一句话，我觉得，比任何宏大的所谓的那些AI宣言，都有力量。\n这两个故事，Apate和小舟的故事，我其实看完了以后，真的非常感慨，而且，这也完美的展现出了，AI时代一个非常特别的变化。\n过去，一个普通人想做一件好事，可能有心无力。\n而现在，他终于有机会用AI，用技术，把自己的善意放大。\n很久以前，我还写过一篇假扮AI的17岁男高中生，用回复治愈了整个B站，他们，都是平凡但伟大的人。\n我们每天都在讨论模型有多聪明，讨论它又突破了什么跑分，又能完成多少过去人类才能完成的工作。\n这些当然都很重要。\n但我觉得，在这些越来越强大的AI背后，那些对人的纯粹的善意，很多时候更加的弥足珍贵。\n而我最希望看到的AI未来，大概就是这样。\n技术本身其实没有什么立场。\nAI正在放大的，从来不只有人的能力。\n它也在放大人的选择。\n希望未来有一天，我们可以用最先进的技术，保护人类那些最古老、最朴素的善良。\n也希望那些善良的人。\n永远不必因为自己的善良。\n而再受到伤害。\n以上，既然看到这里了，如果觉得不错，随手点个赞、评论、转发三连吧，这对我们有特别大的帮助~\n谢谢你看我的文章，我们，下次再见。",
+    "preview_text": "这两天，我看到了一条特别有意思的新闻。\n澳大利亚有一家公司，叫Apate.ai，名字取自希腊神话里的欺骗女神。\n这家公司干的事特别离谱，他们造了35万个AI。\n而这35万个AI，每天的主要工作，就是骗人。",
+    "title": "有人做了35万个AI，只为了反过来骗骗子。"
+   },
+   "article_title": {
+    "title": "有人做了35万个AI，只为了反过来骗骗子。"
+   },
+   "created_at": "2026-10-20T03:32:06.000Z",
+   "edit_history_post_ids": [
+    "2112386350934868374"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/i/article/2112…",
+      "end": 23,
+      "expanded_url": "https://x.com/i/article/2112385204463759360",
+      "start": 0,
+      "status": 404,
+      "unwound_url": "https://x.com/i/article/2112385204463759360",
+      "url": "https://t.co/AkXNXz9xWe"
+     }
+    ]
+   },
+   "id": "2112386350934868374",
+   "text": "https://t.co/AkXNXz9xWe",
+   "url": "https://x.com/i/status/2112386350934868374"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2112501436752011264"
+    ]
+   },
+   "created_at": "2026-10-20T11:09:40.000Z",
+   "edit_history_post_ids": [
+    "2112501497674235913"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/Ejy6l1MS8H",
+      "end": 193,
+      "expanded_url": "https://x.com/MaxForAI/status/2112501497674235913/photo/1",
+      "media_key": "3_2112501436752011264",
+      "start": 170,
+      "url": "https://t.co/Ejy6l1MS8H"
+     }
+    ]
+   },
+   "id": "2112501497674235913",
+   "note_tweet": {
+    "text": "今天有个搞Infra的小男娘发消息跟我说\n\n这是他成年以来最好的秋天\n\n这一年他终于找到了做推理优化的工作\n\n每天和GPU、Kernel、MoE、KV Cache打交道\n\n以前想研究DeepSeek的推理系统，只能对着论文、技术博客和Benchmark，一点点猜他们线上到底是怎么跑的\n\n今天DeepSeek突然把DeepInfer开源了\n\n分布式推理、推测解码、SWA Bounded Replay，连调度器和高性能算子都放出来了\n\n英伟达和华为昇腾都支持，连生产级的Token编解码组件也一起开源\n\n过去要花几个月研究的东西，现在直接就能在GitHub上看源码\n\n今天下午他坐在工位上\n\n突然整个Infra群都沸腾了\n\n所有人停下手头的调参，开始疯狂Clone仓库\n\n有人在看Kernel，有人在研究调度器，还有人在讨论怎么把公司祖传的推理框架换掉\n\n他说很开心\n\n有种人类Infra黄金时代的错觉"
+   },
+   "text": "今天有个搞Infra的小男娘发消息跟我说\n\n这是他成年以来最好的秋天\n\n这一年他终于找到了做推理优化的工作\n\n每天和GPU、Kernel、MoE、KV Cache打交道\n\n以前想研究DeepSeek的推理系统，只能对着论文、技术博客和Benchmark，一点点猜他们线上到底是怎么跑的\n\n今天DeepSeek突然把DeepInfer开源了 https://t.co/Ejy6l1MS8H",
+   "url": "https://x.com/i/status/2112501497674235913"
+  },
+  {
+   "created_at": "2026-10-20T11:12:47.000Z",
+   "edit_history_post_ids": [
+    "2112502282977939518"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "x.com/Lacoste0x_/sta…",
+      "end": 146,
+      "expanded_url": "https://twitter.com/Lacoste0x_/status/2110755638569820541",
+      "start": 123,
+      "url": "https://t.co/tk9mhKJsCr"
+     }
+    ]
+   },
+   "id": "2112502282977939518",
+   "note_tweet": {
+    "text": "神了，没想到我一直在看的AI动画片，居然也被老外看到了😂\n\nB站UP梦游牛油果做的《外星小偷里贝》，被一位海外博主写了串英文长帖。\n\n正好借这个事说个可能得罪人的观点⬇️\n\nAI把动画制作门槛降下来以后，很多人会发现，自己缺的根本不止制作能力。\n以前一个故事没做出来，可以说没钱、没人、不会画。等这些问题逐渐有办法解决，你到底想讲什么，就得拿出来给人看了。\n\n我一直觉得，“一个人也能做出工作室级画面”只把事情讲了一半。\n制作能力普及以后，好看的画面会越来越多，值得关注的作者未必会同比增加。"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2110755638569820541",
+     "type": "quoted"
+    }
+   ],
+   "text": "神了，没想到我一直在看的AI动画片，居然也被老外看到了😂\n\nB站UP梦游牛油果做的《外星小偷里贝》，被一位海外博主写了串英文长帖。\n\n正好借这个事说个可能得罪人的观点⬇️\n\nAI把动画制作门槛降下来以后，很多人会发现，自己缺的根本不止制作能力。 https://t.co/tk9mhKJsCr",
+   "url": "https://x.com/i/status/2112502282977939518"
+  },
+  {
+   "created_at": "2026-10-20T11:13:31.000Z",
+   "edit_history_post_ids": [
+    "2112502469586813293"
+   ],
+   "id": "2112502469586813293",
+   "note_tweet": {
+    "text": "哦对了，最近很多关于AI动画的争论，都在问输入提示词算不算创作。\n\n我更想问，工具已经做到这一步了，现在的核心是你准备拿它做什么？\n\n《里贝》让我愿意继续关注，是因为能看出作者有自己的观察和趣味。\n这次英文长帖聊的也已经是人物和写作了。\n以后介绍一部AI动画片，如果最大的卖点还只是“这是AI做的”，我觉得已经有点没意义了。\n\n评论区也聊到了后续去哪里看，连海外访问B站的教程都有人贴出来了😂 只能说牛逼极了。\n另外再推荐两部动画片，《我在现代当幽差》和《立志成为恶兽》，感兴趣的也可以去看看。"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112502282977939518",
+     "type": "replied_to"
+    }
+   ],
+   "text": "哦对了，最近很多关于AI动画的争论，都在问输入提示词算不算创作。\n\n我更想问，工具已经做到这一步了，现在的核心是你准备拿它做什么？\n\n《里贝》让我愿意继续关注，是因为能看出作者有自己的观察和趣味。\n这次英文长帖聊的也已经是人物和写作了。",
+   "url": "https://x.com/i/status/2112502469586813293"
+  },
+  {
+   "created_at": "2026-10-20T17:10:20.000Z",
+   "edit_history_post_ids": [
+    "2112592264686149749"
+   ],
+   "id": "2112592264686149749",
+   "note_tweet": {
+    "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong."
+   },
+   "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan.",
+   "url": "https://x.com/i/status/2112592264686149749"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2112665467110252546"
+    ]
+   },
+   "created_at": "2026-10-20T22:02:03.000Z",
+   "edit_history_post_ids": [
+    "2112665677152829772"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/1rINWWvwxf",
+      "end": 306,
+      "expanded_url": "https://x.com/testingcatalog/status/2112665677152829772/photo/1",
+      "media_key": "3_2112665467110252546",
+      "start": 283,
+      "url": "https://t.co/1rINWWvwxf"
+     },
+     {
+      "display_url": "x.com/EagleCorp/stat…",
+      "end": 330,
+      "expanded_url": "https://twitter.com/EagleCorp/status/2112660683670323531",
+      "start": 307,
+      "url": "https://t.co/mjoBIwcRLz"
+     }
+    ]
+   },
+   "id": "2112665677152829772",
+   "note_tweet": {
+    "text": "Eagle Corp released EAGLE-4, its latest open-source flexible drafter, for accelerating LLM inference.\n\n> At its core, “One drafter adapts its speculative decoding strategy to the batch size, the hardware, and the workload, and keeps the target model's output distribution.”\n\n> Qwen3.8-27B with its EAGLE-4 draft is the measured target pair, achieving 961.6 tokens/s while running on 4x NVIDIA B300. \n\nEagle is an AI inference platform that powers leading companies like NVIDIA, Meta, Intel, AMD, and Perplexity.\n\nInference testing time 👀"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112660683670323531",
+     "type": "quoted"
+    }
+   ],
+   "text": "Eagle Corp released EAGLE-4, its latest open-source flexible drafter, for accelerating LLM inference.\n\n&gt; At its core, “One drafter adapts its speculative decoding strategy to the batch size, the hardware, and the workload, and keeps the target model's output distribution.”\n\n&gt; https://t.co/1rINWWvwxf https://t.co/mjoBIwcRLz",
+   "url": "https://x.com/i/status/2112665677152829772"
+  },
+  {
+   "created_at": "2026-10-20T22:02:04.000Z",
+   "edit_history_post_ids": [
+    "2112665680751321287"
+   ],
+   "id": "2112665680751321287",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "github.com/eagle-hq/EAGLE…",
+       "end": 280,
+       "expanded_url": "https://github.com/eagle-hq/EAGLE-4",
+       "start": 257,
+       "url": "https://t.co/fkmWS6gbrK"
+      }
+     ]
+    },
+    "text": "EAGLE-4 is now available on GitHub as eagle_harness, which serves EAGLE-4 drafts on SGLang, vLLM, and TokenSpeed through engine plugins.\n\nThe EAGLE-4 Draft Model for Qwen3.8-27B is also available on HuggingFace, along with a research paper!\n\nTesting link 👀\nhttps://t.co/fkmWS6gbrK"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112665677152829772",
+     "type": "replied_to"
+    }
+   ],
+   "text": "EAGLE-4 is now available on GitHub as eagle_harness, which serves EAGLE-4 drafts on SGLang, vLLM, and TokenSpeed through engine plugins.\n\nThe EAGLE-4 Draft Model for Qwen3.8-27B is also available on HuggingFace, along with a research paper!\n\nTesting link 👀",
+   "url": "https://x.com/i/status/2112665680751321287"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2112660579664187392"
+    ]
+   },
+   "created_at": "2026-10-20T21:42:12.000Z",
+   "edit_history_post_ids": [
+    "2112660683670323531"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 141,
+      "id": "1753339277386342400",
+      "start": 128,
+      "username": "Alibaba_Qwen"
+     },
+     {
+      "end": 189,
+      "id": "61559439",
+      "start": 182,
+      "username": "nvidia"
+     }
+    ],
+    "urls": [
+     {
+      "description": "Official Inference Code of EAGLE-4. Contribute to eagle-hq/EAGLE-4 development by creating an account on GitHub.",
+      "display_url": "github.com/eagle-hq/EAGLE…",
+      "end": 252,
+      "expanded_url": "https://github.com/eagle-hq/EAGLE-4",
+      "images": [
+       {
+        "height": 600,
+        "url": "https://pbs.twimg.com/news_img/2112620503949090818/xUTjiwZU?format=jpg&name=orig",
+        "width": 1200
+       },
+       {
+        "height": 150,
+        "url": "https://pbs.twimg.com/news_img/2112620503949090818/xUTjiwZU?format=jpg&name=150x150",
+        "width": 150
+       }
+      ],
+      "start": 229,
+      "status": 200,
+      "title": "GitHub - eagle-hq/EAGLE-4: Official Inference Code of EAGLE-4",
+      "unwound_url": "https://github.com/eagle-hq/EAGLE-4",
+      "url": "https://t.co/GwocZk1UTU"
+     },
+     {
+      "display_url": "pic.x.com/GawgFNXKWj",
+      "end": 276,
+      "expanded_url": "https://x.com/EagleCorp/status/2112660683670323531/video/1",
+      "media_key": "13_2112660579664187392",
+      "start": 253,
+      "url": "https://t.co/GawgFNXKWj"
+     }
+    ]
+   },
+   "id": "2112660683670323531",
+   "text": "EAGLE-4 is here.\n\nFrom EAGLE-1 to EAGLE-3, we’ve kept making inference faster. \n\nEAGLE-4 is our fastest yet.\n\n961.6 tokens/s on @Alibaba_Qwen’s Qwen3.8-27B with TokenSpeed (BF16, 4× @NVIDIA B300, TP4, one request, T=0).\n\nGithub: https://t.co/GwocZk1UTU https://t.co/GawgFNXKWj",
+   "url": "https://x.com/i/status/2112660683670323531"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2112647043587977216"
+    ]
+   },
+   "created_at": "2026-10-20T20:48:08.000Z",
+   "edit_history_post_ids": [
+    "2112647073464201546"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/nZ42HmsqFp",
+      "end": 293,
+      "expanded_url": "https://x.com/testingcatalog/status/2112647073464201546/photo/1",
+      "media_key": "3_2112647043587977216",
+      "start": 270,
+      "url": "https://t.co/nZ42HmsqFp"
+     },
+     {
+      "display_url": "x.com/MistralAI/stat…",
+      "end": 317,
+      "expanded_url": "https://twitter.com/MistralAI/status/2112574615318876178",
+      "start": 294,
+      "url": "https://t.co/l5wuYWQOC9"
+     }
+    ]
+   },
+   "id": "2112647073464201546",
+   "note_tweet": {
+    "text": "MISTRAL 🔥: Voxtral 3, a new family of speech-to-text and text-to-speech models, is now available!\n\nVoxtral Small Transcribe 3 landed in 3rd on the Artificial Analysis Speech-to-Text leaderboard, and Voxtral 3 TTS ranked in the top 12.\n\nVoxtral 3 comes with 👀\n- Accurate transcription across 50+ languages. \n- Natural speech that adapts to the conversation.\n- Human-like intelligence at spoken command.\n- Pro Voice for distinctly accurate voice adaptation.\n\nVoxtral 3 models are now available through Mistral's EU-hosted API or for self-hosting."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112574615318876178",
+     "type": "quoted"
+    }
+   ],
+   "text": "MISTRAL 🔥: Voxtral 3, a new family of speech-to-text and text-to-speech models, is now available!\n\nVoxtral Small Transcribe 3 landed in 3rd on the Artificial Analysis Speech-to-Text leaderboard, and Voxtral 3 TTS ranked in the top 12.\n\nVoxtral 3 comes with 👀\n- Accurate https://t.co/nZ42HmsqFp https://t.co/l5wuYWQOC9",
+   "url": "https://x.com/i/status/2112647073464201546"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2112572094693220352"
+    ]
+   },
+   "created_at": "2026-10-20T16:00:12.000Z",
+   "edit_history_post_ids": [
+    "2112574615318876178"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/YA9HNVfq0u",
+      "end": 135,
+      "expanded_url": "https://x.com/MistralAI/status/2112574615318876178/video/1",
+      "media_key": "13_2112572094693220352",
+      "start": 112,
+      "url": "https://t.co/YA9HNVfq0u"
+     }
+    ]
+   },
+   "id": "2112574615318876178",
+   "text": "Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 https://t.co/YA9HNVfq0u",
+   "url": "https://x.com/i/status/2112574615318876178"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2112637831541571585"
+    ]
+   },
+   "created_at": "2026-10-20T20:13:39.000Z",
+   "edit_history_post_ids": [
+    "2112638397177372745"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/bwFwrxygbZ",
+      "end": 300,
+      "expanded_url": "https://x.com/testingcatalog/status/2112638397177372745/video/1",
+      "media_key": "13_2112637831541571585",
+      "start": 277,
+      "url": "https://t.co/bwFwrxygbZ"
+     },
+     {
+      "display_url": "x.com/anurahk/status…",
+      "end": 324,
+      "expanded_url": "https://twitter.com/anurahk/status/2112581900779012503",
+      "start": 301,
+      "url": "https://t.co/TeEHFRmCYb"
+     }
+    ]
+   },
+   "id": "2112638397177372745",
+   "note_tweet": {
+    "text": "Coco Labs launched Vyb, its first design model, which can build layered, editable marketing graphics from a brand's website.\n\nVyb places each element on its own layer, so you can change a headline without regenerating the whole design.\n\n> Users can send Vyb their company's website and have it pick up the brand's logo and exact hex colors.\n\n> Product photos can be added into the design at full resolution without being regenerated.\n\n> Produced designs can be exported to Figma while retaining every layer intact."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112581900779012503",
+     "type": "quoted"
+    }
+   ],
+   "text": "Coco Labs launched Vyb, its first design model, which can build layered, editable marketing graphics from a brand's website.\n\nVyb places each element on its own layer, so you can change a headline without regenerating the whole design.\n\n&gt; Users can send Vyb their company's https://t.co/bwFwrxygbZ https://t.co/TeEHFRmCYb",
+   "url": "https://x.com/i/status/2112638397177372745"
+  },
+  {
+   "created_at": "2026-10-20T20:13:40.000Z",
+   "edit_history_post_ids": [
+    "2112638400595403125"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 195,
+      "id": "263485952",
+      "start": 187,
+      "username": "anurahk"
+     },
+     {
+      "end": 214,
+      "id": "2298058634",
+      "start": 204,
+      "username": "DavidZats"
+     }
+    ],
+    "urls": [
+     {
+      "description": "Vyb is our first AI design model. Image models hand you one flat picture. Vyb starts from your logo, fonts, colors and photos and builds a real design in layers you can still edit.",
+      "display_url": "cocolabs.ai/vyb",
+      "end": 254,
+      "expanded_url": "https://cocolabs.ai/vyb",
+      "images": [
+       {
+        "height": 480,
+        "url": "https://pbs.twimg.com/news_img/2112357012235517952/UFoEyF36?format=jpg&name=orig",
+        "width": 478
+       },
+       {
+        "height": 150,
+        "url": "https://pbs.twimg.com/news_img/2112357012235517952/UFoEyF36?format=jpg&name=150x150",
+        "width": 150
+       }
+      ],
+      "start": 231,
+      "status": 200,
+      "title": "Meet Vyb | The first AI design model",
+      "unwound_url": "https://cocolabs.ai/vyb",
+      "url": "https://t.co/dDaryN3Cpw"
+     }
+    ]
+   },
+   "id": "2112638400595403125",
+   "referenced_tweets": [
+    {
+     "id": "2112638397177372745",
+     "type": "replied_to"
+    }
+   ],
+   "text": "In the company's own tests on 145 Google fonts, Vyb matched the requested font shape 95.3% of the time.\n\nCoco Labs was founded by former Google Brain and DeepMind researchers, led by CEO @anurahk and CTO @DavidZats.\n\nTake a look 👀\nhttps://t.co/dDaryN3Cpw",
+   "url": "https://x.com/i/status/2112638400595403125"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2112571479745495040"
+    ]
+   },
+   "created_at": "2026-10-20T18:59:44.000Z",
+   "edit_history_post_ids": [
+    "2112619795585855738"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/rTuCE6k6Qa",
+      "end": 541,
+      "expanded_url": "https://x.com/perplexity_ai/status/2112571597798461920/video/1",
+      "media_key": "13_2112571479745495040",
+      "start": 518,
+      "url": "https://t.co/rTuCE6k6Qa"
+     }
+    ]
+   },
+   "id": "2112619795585855738",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/perplexity_ai/…",
+       "end": 541,
+       "expanded_url": "https://x.com/perplexity_ai/status/2112571597798461920/video/1",
+       "start": 518,
+       "url": "https://t.co/rTuCE6k6Qa"
+      }
+     ]
+    },
+    "text": "PERPLEXITY 🔥: A fully local option is now available on the Perplexity Computer macOS Desktop app for Pro, Max, and Enterprise subscribers!\n\nThey did it 👀\n\nPerplexity Computer no longer needs the internet or paid credits to work.\n\nA fully local mode is powered by PPLX Pro, a post-trained version of the Qwen 3.8 model. For complex tasks, it can also run in Hybrid mode to use cloud models.\n\nPerplexity Computer has a very good harness, and this needs a lot of testing time!\n\n* 36 GB of unified memory is recommended.  https://t.co/rTuCE6k6Qa"
+   },
+   "text": "PERPLEXITY 🔥: A fully local option is now available on the Perplexity Computer macOS Desktop app for Pro, Max, and Enterprise subscribers!\n\nThey did it 👀\n\nPerplexity Computer no longer needs the internet or paid credits to work.\n\nA fully local mode is powered by PPLX Pro, a",
+   "url": "https://x.com/i/status/2112619795585855738"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2112609913864175616"
+    ]
+   },
+   "created_at": "2026-10-20T18:21:43.000Z",
+   "edit_history_post_ids": [
+    "2112610230043312618"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/bVRLpbqVPj",
+      "end": 306,
+      "expanded_url": "https://x.com/testingcatalog/status/2112610230043312618/photo/1",
+      "media_key": "3_2112609913864175616",
+      "start": 283,
+      "url": "https://t.co/bVRLpbqVPj"
+     },
+     {
+      "display_url": "x.com/OpenAI/status/…",
+      "end": 330,
+      "expanded_url": "https://twitter.com/OpenAI/status/2112607347688583586",
+      "start": 307,
+      "url": "https://t.co/2GIrYIeHq6"
+     }
+    ]
+   },
+   "id": "2112610230043312618",
+   "note_tweet": {
+    "text": "OpenAI ❤️ Orchestra Bio\n\n> OpenAI has acquired Orchestra Bio⁠ to work on Rosalind models and tools for life sciences research.\n\n> \"Orchestra Bio is a platform that helps biopharma teams coordinate the complex process of drug development.\"\n\nAI advancements in life sciences are probably one of the most desired areas for many. So far, it seems like a top priority for Anthropic, OpenAI, and Google."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112607347688583586",
+     "type": "quoted"
+    }
+   ],
+   "text": "OpenAI ❤️ Orchestra Bio\n\n&gt; OpenAI has acquired Orchestra Bio⁠ to work on Rosalind models and tools for life sciences research.\n\n&gt; \"Orchestra Bio is a platform that helps biopharma teams coordinate the complex process of drug development.\"\n\nAI advancements in life sciences are https://t.co/bVRLpbqVPj https://t.co/2GIrYIeHq6",
+   "url": "https://x.com/i/status/2112610230043312618"
+  },
+  {
+   "created_at": "2026-10-20T18:10:16.000Z",
+   "edit_history_post_ids": [
+    "2112607347688583586"
+   ],
+   "id": "2112607347688583586",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 306,
+       "id": "414494523",
+       "start": 295,
+       "username": "ashokaraj_"
+      }
+     ],
+     "urls": [
+      {
+       "display_url": "openai.com/index/openai-t…",
+       "end": 341,
+       "expanded_url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+       "start": 318,
+       "url": "https://t.co/vi51OhznQn"
+      }
+     ]
+    },
+    "text": "We’ve acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development.\n\nTogether, we’ll build on Rosalind, our AI models and tools for life sciences research, to streamline those operations and help new treatments reach patients sooner.\n\nWelcome @ashokaraj_ and team!\n\nhttps://t.co/vi51OhznQn"
+   },
+   "text": "We’ve acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development.\n\nTogether, we’ll build on Rosalind, our AI models and tools for life sciences research, to streamline those operations and help new treatments reach patients",
+   "url": "https://x.com/i/status/2112607347688583586"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2112597507310305280"
+    ]
+   },
+   "created_at": "2026-10-20T18:01:22.000Z",
+   "edit_history_post_ids": [
+    "2112605106642600283"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/I2RpWTFEOv",
+      "end": 273,
+      "expanded_url": "https://x.com/ChatGPT/status/2112597766333673624/video/1",
+      "media_key": "13_2112597507310305280",
+      "start": 250,
+      "url": "https://t.co/I2RpWTFEOv"
+     }
+    ]
+   },
+   "id": "2112605106642600283",
+   "text": "OPENAI 🔥: Locked Chats in ChatGPT are rolling out to Free, Go, Plus, Pro, Business, Enterprise, and Edu plans.\n\nUsers can move chats into a protected space under a PIN on web and desktop, or a PIN, Face ID, Touch ID, or device unlock.\n\nLocked in 👀👀👀 https://t.co/I2RpWTFEOv",
+   "url": "https://x.com/i/status/2112605106642600283"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2112594482268901377"
+    ]
+   },
+   "created_at": "2026-10-20T17:19:20.000Z",
+   "edit_history_post_ids": [
+    "2112594531065446586"
+   ],
+   "entities": {
+    "mentions": [
+     {
+      "end": 69,
+      "id": "1689321438858395649",
+      "start": 57,
+      "username": "positron_ai"
+     }
+    ],
+    "urls": [
+     {
+      "display_url": "pic.x.com/dJkqn2hSAE",
+      "end": 302,
+      "expanded_url": "https://x.com/testingcatalog/status/2112594531065446586/video/1",
+      "media_key": "13_2112594482268901377",
+      "start": 279,
+      "url": "https://t.co/dJkqn2hSAE"
+     },
+     {
+      "display_url": "x.com/general_comput…",
+      "end": 326,
+      "expanded_url": "https://twitter.com/general_compute/status/2112585266854604957",
+      "start": 303,
+      "url": "https://t.co/uYF0LJKRPO"
+     }
+    ]
+   },
+   "id": "2112594531065446586",
+   "note_tweet": {
+    "entities": {
+     "mentions": [
+      {
+       "end": 69,
+       "id": "1689321438858395649",
+       "start": 57,
+       "username": "positron_ai"
+      }
+     ]
+    },
+    "text": "General Compute has signed a multi-year partnership with @positron_ai to offer Positron's Atlas inference systems to its cloud customers.\n\nGeneral Compute buys and runs specialized AI chips alongside GPUs, allowing AI companies to rent processing power and use Positron hardware without buying it.\n\n> GPUs handle the input process for each request, so Positron chips generate the output more efficiently.\n\n> Positron’s chips are built with a focus on fast memory access since it is one of the main bottlenecks for token generation.\n\n> Atlas is already available inside Oracle Cloud Infrastructure, with General Compute also committing to integrate Positron's next-generation Titan systems."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112585266854604957",
+     "type": "quoted"
+    }
+   ],
+   "text": "General Compute has signed a multi-year partnership with @positron_ai to offer Positron's Atlas inference systems to its cloud customers.\n\nGeneral Compute buys and runs specialized AI chips alongside GPUs, allowing AI companies to rent processing power and use Positron hardware https://t.co/dJkqn2hSAE https://t.co/uYF0LJKRPO",
+   "url": "https://x.com/i/status/2112594531065446586"
+  },
+  {
+   "created_at": "2026-10-20T17:19:22.000Z",
+   "edit_history_post_ids": [
+    "2112594535549116863"
+   ],
+   "id": "2112594535549116863",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "generalcompute.com",
+       "end": 379,
+       "expanded_url": "https://www.generalcompute.com",
+       "start": 356,
+       "url": "https://t.co/zBTSXgRObH"
+      }
+     ]
+    },
+    "text": "Atlas will be accessible to General Compute customers starting in Q1 2027, with Titan being added once Positron's custom Asimov chip reaches the production stage. \n\nTitan is designed to run larger models and longer context lengths by leveraging several terabytes of slower memory, without requiring the super-high-bandwidth memory GPUs use.\n\nTake a look 👀\nhttps://t.co/zBTSXgRObH"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112594531065446586",
+     "type": "replied_to"
+    }
+   ],
+   "text": "Atlas will be accessible to General Compute customers starting in Q1 2027, with Titan being added once Positron's custom Asimov chip reaches the production stage. \n\nTitan is designed to run larger models and longer context lengths by leveraging several terabytes of slower memory,",
+   "url": "https://x.com/i/status/2112594535549116863"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2112576189281800195"
+    ]
+   },
+   "created_at": "2026-10-20T16:06:46.000Z",
+   "edit_history_post_ids": [
+    "2112576267203551301"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/6l9264sB3Z",
+      "end": 303,
+      "expanded_url": "https://x.com/testingcatalog/status/2112576267203551301/video/1",
+      "media_key": "13_2112576189281800195",
+      "start": 280,
+      "url": "https://t.co/6l9264sB3Z"
+     },
+     {
+      "display_url": "x.com/make_robot_go/…",
+      "end": 327,
+      "expanded_url": "https://twitter.com/make_robot_go/status/2112565146354860151",
+      "start": 304,
+      "url": "https://t.co/vifpCQHdyu"
+     }
+    ]
+   },
+   "id": "2112576267203551301",
+   "note_tweet": {
+    "text": "Tuesday Labs introduced a Voxel Series-1 home robot, with the first batch of 999 units shipping in 2028.\n\nVoxel is being built with a special focus on how it behaves around humans while tidying a home, from returning things to where they belong to grabbing something from another room and bringing it back.\n\n> At launch, it will find misplaced items and care for houseplants.\n\n> Tuesday Labs has worked with Pixar advisors on its personality, acting like a butler-in-training who likes to keep things in order.\n\n> Founder Ros Shinkle previously wrote the algorithms that allow Boston Dynamics' Spot to pick up and place objects."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112565146354860151",
+     "type": "quoted"
+    }
+   ],
+   "text": "Tuesday Labs introduced a Voxel Series-1 home robot, with the first batch of 999 units shipping in 2028.\n\nVoxel is being built with a special focus on how it behaves around humans while tidying a home, from returning things to where they belong to grabbing something from another https://t.co/6l9264sB3Z https://t.co/vifpCQHdyu",
+   "url": "https://x.com/i/status/2112576267203551301"
+  },
+  {
+   "created_at": "2026-10-20T16:06:47.000Z",
+   "edit_history_post_ids": [
+    "2112576270425071977"
+   ],
+   "id": "2112576270425071977",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "tuesdaylabs.com",
+       "end": 336,
+       "expanded_url": "https://www.tuesdaylabs.com",
+       "start": 313,
+       "url": "https://t.co/jMBUb1adHM"
+      }
+     ]
+    },
+    "text": "Each one of the 999 Series-1 units can be reserved for $200 and will be numbered in reservation order, with a free waitlist open for later units.\n\nTuesday Labs is a New York-based robotics company from Y Combinator's Winter 2024 batch, and its team built the first Voxel prototype in about a year.\n\nTake a look 👀\nhttps://t.co/jMBUb1adHM"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112576267203551301",
+     "type": "replied_to"
+    }
+   ],
+   "text": "Each one of the 999 Series-1 units can be reserved for $200 and will be numbered in reservation order, with a free waitlist open for later units.\n\nTuesday Labs is a New York-based robotics company from Y Combinator's Winter 2024 batch, and its team built the first Voxel prototype",
+   "url": "https://x.com/i/status/2112576270425071977"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2112570056815058946"
+    ]
+   },
+   "created_at": "2026-10-20T15:42:49.000Z",
+   "edit_history_post_ids": [
+    "2112570237874810918"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/q4SwNIKp3X",
+      "end": 310,
+      "expanded_url": "https://x.com/testingcatalog/status/2112570237874810918/video/1",
+      "media_key": "13_2112570056815058946",
+      "start": 287,
+      "url": "https://t.co/q4SwNIKp3X"
+     },
+     {
+      "display_url": "x.com/krea_ai/status…",
+      "end": 334,
+      "expanded_url": "https://twitter.com/krea_ai/status/2112567020353102324",
+      "start": 311,
+      "url": "https://t.co/iaGcGuKt5j"
+     }
+    ]
+   },
+   "id": "2112570237874810918",
+   "note_tweet": {
+    "text": "Krea 3 Ultra and Krea 3 Fast landed in the top 5 and 11th spots on the Artificial Analysis image-editing leaderboard!\n\n> Krea 3 Ultra placed 4th with a score of 1151, one point behind Google's Nano Banana 2.1.\n\n> The other four spots in the 5 five are all taken by OpenAI, Google, and MAI models.\n\n> Krea 3 Fast scored 1125, landing in 11th place, topping Nano Banana 2 by one point.\n\nAt the same time, Krea 3 is also 10x faster than GPT Image 2 and 4x faster than Nano Banana Pro, with pricing starting at $0.03 per image at 1K and $0.06 at 2K."
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112567020353102324",
+     "type": "quoted"
+    }
+   ],
+   "text": "Krea 3 Ultra and Krea 3 Fast landed in the top 5 and 11th spots on the Artificial Analysis image-editing leaderboard!\n\n&gt; Krea 3 Ultra placed 4th with a score of 1151, one point behind Google's Nano Banana 2.1.\n\n&gt; The other four spots in the 5 five are all taken by OpenAI, Google, https://t.co/q4SwNIKp3X https://t.co/iaGcGuKt5j",
+   "url": "https://x.com/i/status/2112570237874810918"
+  },
+  {
+   "created_at": "2026-10-20T15:42:49.000Z",
+   "edit_history_post_ids": [
+    "2112570240555012504"
+   ],
+   "id": "2112570240555012504",
+   "note_tweet": {
+    "entities": {
+     "urls": [
+      {
+       "display_url": "krea.ai/krea-3",
+       "end": 307,
+       "expanded_url": "https://www.krea.ai/krea-3",
+       "start": 284,
+       "url": "https://t.co/zQDy9JUoRO"
+      }
+     ]
+    },
+    "text": "Artificial Analysis turns user votes into Elo scores, the same rating method used to rank chess players, and ranks them on its AA-Image-Editing v2.1 board.\n\nKrea 3 launched on October 15, letting users draw a box around the area to change and keep refining the result.\n\nTest it out 👀\nhttps://t.co/zQDy9JUoRO"
+   },
+   "referenced_tweets": [
+    {
+     "id": "2112570237874810918",
+     "type": "replied_to"
+    }
+   ],
+   "text": "Artificial Analysis turns user votes into Elo scores, the same rating method used to rank chess players, and ranks them on its AA-Image-Editing v2.1 board.\n\nKrea 3 launched on October 15, letting users draw a box around the area to change and keep refining the result.\n\nTest it",
+   "url": "https://x.com/i/status/2112570240555012504"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2112521807789973504"
+    ]
+   },
+   "created_at": "2026-10-20T12:32:09.000Z",
+   "edit_history_post_ids": [
+    "2112522256911884590"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/My3mfbxRUk",
+      "end": 300,
+      "expanded_url": "https://x.com/testingcatalog/status/2112522256911884590/photo/1",
+      "media_key": "3_2112521807789973504",
+      "start": 277,
+      "url": "https://t.co/My3mfbxRUk"
+     }
+    ]
+   },
+   "id": "2112522256911884590",
+   "note_tweet": {
+    "text": "META 🔥: Confidential VMs feature is in the works on Muse web. \n\nMeta previously teased that this feature will go live before the end of 2026 and will let users run Muse tasks in an encrypted, confidential environment. \n\nAccording to a new hidden setting, Confidential VMs will initially be available only to Meta AI subscribers. \n\nVoice mode, image and video generation, and wearables support won't be initially available if the user switches to Confidential VMs. \n\n> \"It stays between you and your Muse - Your conversations run in a secure, encrypted environment.\"\n\n> \"Your Muse data won't be used to improve AI at Meta.\"\n\n> \"Some features aren't available yet - This includes voice mode, image and video generation, and wearables.\"\n\n> \"Availability is limited. For now, Confidential VMs are only available to subscribers.\""
+   },
+   "text": "META 🔥: Confidential VMs feature is in the works on Muse web. \n\nMeta previously teased that this feature will go live before the end of 2026 and will let users run Muse tasks in an encrypted, confidential environment. \n\nAccording to a new hidden setting, Confidential VMs will https://t.co/My3mfbxRUk",
+   "url": "https://x.com/i/status/2112522256911884590"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "3_2112490253021855744",
+     "3_2112490271241801728"
+    ]
+   },
+   "created_at": "2026-10-20T10:28:39.000Z",
+   "edit_history_post_ids": [
+    "2112491179249996095"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/MbCQHsaOUf",
+      "end": 259,
+      "expanded_url": "https://x.com/testingcatalog/status/2112491179249996095/photo/1",
+      "media_key": "3_2112490253021855744",
+      "start": 236,
+      "url": "https://t.co/MbCQHsaOUf"
+     },
+     {
+      "display_url": "pic.x.com/MbCQHsaOUf",
+      "end": 259,
+      "expanded_url": "https://x.com/testingcatalog/status/2112491179249996095/photo/1",
+      "media_key": "3_2112490271241801728",
+      "start": 236,
+      "url": "https://t.co/MbCQHsaOUf"
+     },
+     {
+      "display_url": "x.com/LuminaBench/st…",
+      "end": 283,
+      "expanded_url": "https://twitter.com/LuminaBench/status/2112189697388613850",
+      "start": 260,
+      "url": "https://t.co/HZeUWJn8E9"
+     }
+    ]
+   },
+   "id": "2112491179249996095",
+   "referenced_tweets": [
+    {
+     "id": "2112189697388613850",
+     "type": "quoted"
+    }
+   ],
+   "text": "OpenAI seems to be preparing to release GPT-6.1 Terra model as well. \n\n&gt; The model reference recently showed up in Microsoft's PR for evaluation configs. \n\n&gt; Earlier, The Information reported that this model is also in the works. https://t.co/MbCQHsaOUf https://t.co/HZeUWJn8E9",
+   "url": "https://x.com/i/status/2112491179249996095"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2112576977475633152"
+    ]
+   },
+   "created_at": "2026-10-20T16:29:09.000Z",
+   "edit_history_post_ids": [
+    "2112581900779012503"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/XxcJuVbJMA",
+      "end": 302,
+      "expanded_url": "https://x.com/anurahk/status/2112581900779012503/video/1",
+      "media_key": "13_2112576977475633152",
+      "start": 279,
+      "url": "https://t.co/XxcJuVbJMA"
+     }
+    ]
+   },
+   "id": "2112581900779012503",
+   "note_tweet": {
+    "text": "I launched the first image and video generation models at Google, and kept asking why all AI designs look the same.\n\nAI has brought us the WORST era of design. \n\nIt made content creation effortless, but it also made 90% of it look painfully generic.\n\nMy co-founder and I spent 2 years building in stealth to change that.\n\nMeet Vyb, the first AI design model that understands your taste like a designer would.\n\nRT + comment your website URL and we’ll make your first design."
+   },
+   "text": "I launched the first image and video generation models at Google, and kept asking why all AI designs look the same.\n\nAI has brought us the WORST era of design. \n\nIt made content creation effortless, but it also made 90% of it look painfully generic.\n\nMy co-founder and I spent 2 https://t.co/XxcJuVbJMA",
+   "url": "https://x.com/i/status/2112581900779012503"
+  },
+  {
+   "attachments": {
+    "media_keys": [
+     "13_2112560706319261696"
+    ]
+   },
+   "created_at": "2026-10-20T15:30:01.000Z",
+   "edit_history_post_ids": [
+    "2112567020353102324"
+   ],
+   "entities": {
+    "urls": [
+     {
+      "display_url": "pic.x.com/BD8aVEI1WY",
+      "end": 250,
+      "expanded_url": "https://x.com/krea_ai/status/2112567020353102324/video/1",
+      "media_key": "13_2112560706319261696",
+      "start": 227,
+      "url": "https://t.co/BD8aVEI1WY"
+     }
+    ]
+   },
+   "id": "2112567020353102324",
+   "text": "today, Krea 3 makes it to the top of image arenas.\n\n- \"Fast\" pushes the pareto curve of speed and quality.\n- \"Ultra\" ranks top-4, only surpassed by OpenAI models.\n\nthe only company valued under $1T in the top-10!\n\nmore below 👇 https://t.co/BD8aVEI1WY",
+   "url": "https://x.com/i/status/2112567020353102324"
+  }
+ ],
+ "longform_includes": {
+  "media": [
+   {
+    "media_key": "3_2112578091474419712",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVFilM6bAAA73vt.jpg"
+   },
+   {
+    "media_key": "3_2112501436752011264",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVEc3T0bIAA5GiW.jpg"
+   },
+   {
+    "duration_ms": 73685,
+    "media_key": "13_2112660579664187392",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112660579664187392/img/oFNlAedcp82x1A_3.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112660579664187392/vid/avc1/640x360/PtiyBmuu1MAM0-tz.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112660579664187392/vid/avc1/480x270/s8PQbSvTtNMItYse.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112660579664187392/vid/avc1/1280x720/-10uYli5CGPejFwB.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112660579664187392/pl/pGOxRcwn_BGgOVKQ.m3u8?v=372"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112660579664187392/vid/avc1/1920x1080/6UlvgUxk_hy6qXRU.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2112665467110252546",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVGyDIhXYAIzAqW.jpg"
+   },
+   {
+    "duration_ms": 128468,
+    "media_key": "13_2112572094693220352",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112572094693220352/img/jKD0R5NWaGjhvRcX.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112572094693220352/vid/avc1/1280x720/rgbuEnf2km5NbUak.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112572094693220352/vid/avc1/640x360/hpJ074S7PhQNP1M7.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112572094693220352/vid/avc1/480x270/sV1zCW8imzvsRlxl.mp4"
+     },
+     {
+      "bit_rate": 25128000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112572094693220352/vid/avc1/3840x2160/7Y5bCsXT49_OdFeI.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112572094693220352/pl/Bc9PhXhJYOFSD7Ai.m3u8?v=e97"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112572094693220352/vid/avc1/1920x1080/ha23rw4lzFieSMDs.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2112647043587977216",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVGhSvjXMAARBrX.jpg"
+   },
+   {
+    "duration_ms": 84375,
+    "media_key": "13_2112576977475633152",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112576977475633152/img/kNLFFHqyStT3ddJQ.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112576977475633152/vid/avc1/640x360/AxJRj-bTW8962fzt.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112576977475633152/vid/avc1/480x270/4dQjdmMNgLKp_Eka.mp4"
+     },
+     {
+      "bit_rate": 25128000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112576977475633152/vid/avc1/3840x2160/9sM5IjuklsVkv5hw.mp4"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112576977475633152/vid/avc1/1920x1080/cGuLMj_uiRXMbMOq.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112576977475633152/pl/Tgq04Fv9MgxO5mfS.m3u8?v=05c"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112576977475633152/vid/avc1/1280x720/61WcbZ_4wRzGashG.mp4"
+     }
+    ]
+   },
+   {
+    "duration_ms": 16600,
+    "media_key": "13_2112637831541571585",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112637831541571585/img/gnz3lZAlSON5jDFo.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112637831541571585/pl/klPv4E4UFnOYw1Ib.m3u8?v=cfc"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112637831541571585/vid/avc1/1280x720/HvKxfDV1zMItQsc9.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112637831541571585/vid/avc1/640x360/lPXcyxG8C2foFuWX.mp4"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112637831541571585/vid/avc1/1920x1080/GIcsicJHRvQG9R88.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112637831541571585/vid/avc1/480x270/aRkm8DQLF_7YJQFn.mp4"
+     }
+    ]
+   },
+   {
+    "duration_ms": 68501,
+    "media_key": "13_2112571479745495040",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112571479745495040/img/6agUzZjpfbZMBBOA.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112571479745495040/vid/avc1/1280x720/ShXKzcJ5aZU2oEqH.mp4?tag=16"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112571479745495040/vid/avc1/640x360/ro0EAqj2jiZx_Wbp.mp4?tag=16"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112571479745495040/vid/avc1/1920x1080/-Cm77YMLPTK8ejoZ.mp4?tag=16"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112571479745495040/pl/gHU7SKcbrdvGcFnB.m3u8?tag=16&v=cfc"
+     },
+     {
+      "bit_rate": 288000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112571479745495040/vid/avc1/480x270/XTSoDZIelHvpC9sH.mp4?tag=16"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2112609913864175616",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVF_hgjXwAAb-j7.jpg"
+   },
+   {
+    "duration_ms": 39978,
+    "media_key": "13_2112597507310305280",
+    "preview_image_url": "https://pbs.twimg.com/media/HVF0k2Da4AAaDmx.png",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112597507310305280/vid/avc1/1920x1080/BREgSQDOzxbpYerM.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112597507310305280/vid/avc1/480x270/JEIZLSlNcFWjyxbX.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112597507310305280/vid/avc1/640x360/Y7aGElA6X0MnU0z5.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112597507310305280/pl/-yEhswqB_-qMA4yB.m3u8?v=cfc"
+     },
+     {
+      "bit_rate": 25128000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112597507310305280/vid/avc1/3840x2160/TXTTh_md33ZoDYON.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112597507310305280/vid/avc1/1280x720/_Yq-Cx7meVgtTpyo.mp4"
+     }
+    ]
+   },
+   {
+    "duration_ms": 47401,
+    "media_key": "7_2112585087921377280",
+    "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2112585087921377280/pu/img/EYiImymSTr1OyRJQ.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/ext_tw_video/2112585087921377280/pu/vid/avc1/480x270/Z4NGXnJzUPe2WIvF.mp4?tag=12"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/ext_tw_video/2112585087921377280/pu/vid/avc1/640x360/KX7QPT-I86P0SW2r.mp4?tag=12"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/ext_tw_video/2112585087921377280/pu/vid/avc1/1280x720/XBFGYfCEY_EsyfiI.mp4?tag=12"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/ext_tw_video/2112585087921377280/pu/pl/NCqpqgbK5gvx-Z7z.m3u8?tag=12&v=8c4"
+     }
+    ]
+   },
+   {
+    "duration_ms": 47445,
+    "media_key": "13_2112594482268901377",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112594482268901377/img/BuMY4poLLR_xCM3x.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112594482268901377/vid/avc1/480x270/PJzYAzc6lSZ5q5-F.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112594482268901377/vid/avc1/640x360/UYHjGo0nvGFlR7f7.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112594482268901377/vid/avc1/1280x720/R6ShJxv2cqBooQi-.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112594482268901377/pl/28ZcEHb-75usfWw5.m3u8?v=e57"
+     }
+    ]
+   },
+   {
+    "duration_ms": 89216,
+    "media_key": "13_2112564839251931136",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112564839251931136/img/GKLfsqVaQmO0B-kn.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112564839251931136/vid/avc1/1440x1080/cDUiSLMU2qgYFcGa.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112564839251931136/pl/I4d8OIAtJq1HaEUu.m3u8"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112564839251931136/vid/avc1/480x360/kJg0EYCEIEzf0iG8.mp4"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112564839251931136/vid/avc1/360x270/yGWLmpkUcRhmVtGS.mp4"
+     },
+     {
+      "bit_rate": 25128000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112564839251931136/vid/avc1/2880x2160/glhkyiQ6K97Rmq93.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112564839251931136/vid/avc1/960x720/cMYjra9bu_jYUTYR.mp4"
+     }
+    ]
+   },
+   {
+    "duration_ms": 89258,
+    "media_key": "13_2112576189281800195",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112576189281800195/img/G9Fh6pigL6zRSBHe.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112576189281800195/vid/avc1/360x270/0zkVJxEIGtv02zXj.mp4"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112576189281800195/vid/avc1/1440x1080/dAFYSUNtLPbzX5lh.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112576189281800195/pl/-EdVIsLFhoO8znAy.m3u8"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112576189281800195/vid/avc1/960x720/hlQ2YzyPI_tQOUb3.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112576189281800195/vid/avc1/480x360/1_37u_-F3OjiUwOu.mp4"
+     }
+    ]
+   },
+   {
+    "duration_ms": 34666,
+    "media_key": "13_2112560706319261696",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112560706319261696/img/adh7bZDj88TDFAP8.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112560706319261696/vid/avc1/480x270/Kb4ZcNb7MTbApkv4.mp4"
+     },
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112560706319261696/vid/avc1/1280x720/I09XfdJSlPHN1GRN.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112560706319261696/vid/avc1/640x360/ri310Jcq8OjKtyp4.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112560706319261696/pl/AATkivOi138hINyo.m3u8?v=cfc"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112560706319261696/vid/avc1/1920x1080/dNLTktxkBQvdw6CQ.mp4"
+     }
+    ]
+   },
+   {
+    "duration_ms": 7000,
+    "media_key": "13_2112570056815058946",
+    "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2112570056815058946/img/5zRed5P9p9SJ_Luz.jpg",
+    "type": "video",
+    "variants": [
+     {
+      "bit_rate": 2176000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112570056815058946/vid/avc1/1280x720/cqKK9JmK4sr3R-Xh.mp4"
+     },
+     {
+      "bit_rate": 25128000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112570056815058946/vid/avc1/3840x2160/nzaHbLrQLzzlXgwH.mp4"
+     },
+     {
+      "bit_rate": 832000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112570056815058946/vid/avc1/640x360/W8HTJPz9DPzI1ldI.mp4"
+     },
+     {
+      "content_type": "application/x-mpegURL",
+      "url": "https://video.twimg.com/amplify_video/2112570056815058946/pl/UT0W6KAh_LyrQt36.m3u8"
+     },
+     {
+      "bit_rate": 256000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112570056815058946/vid/avc1/480x270/CMTycRmtk6vfyC15.mp4"
+     },
+     {
+      "bit_rate": 10368000,
+      "content_type": "video/mp4",
+      "url": "https://video.twimg.com/amplify_video/2112570056815058946/vid/avc1/1920x1080/HIx_BWr4jhPvwEGl.mp4"
+     }
+    ]
+   },
+   {
+    "media_key": "3_2112521807789973504",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVEvZD2WYAAKyDU.jpg"
+   },
+   {
+    "media_key": "3_2112188799803441152",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVAAhcbXwAA2EBn.png"
+   },
+   {
+    "media_key": "3_2112490253021855744",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVESsVLXwAAW-t3.jpg"
+   },
+   {
+    "media_key": "3_2112490271241801728",
+    "type": "photo",
+    "url": "https://pbs.twimg.com/media/HVEStZDWEAAlOmo.jpg"
+   }
+  ],
+  "posts": [
+   {
+    "created_at": "2026-10-15T15:32:14.000Z",
+    "edit_history_post_ids": [
+     "2110755638569820541"
+    ],
+    "id": "2110755638569820541",
+    "text": "I recently watched an AI-assisted animated series from China called R ibe, and I’d happily keep watching.\n\nWhat caught my attention wasn’t just the animation. It was the writing.\n\nThe characters feel surprisingly human, even in a strange alien world. 🧵"
+   },
+   {
+    "created_at": "2026-10-20T11:12:47.000Z",
+    "edit_history_post_ids": [
+     "2112502282977939518"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "x.com/Lacoste0x_/sta…",
+       "end": 146,
+       "expanded_url": "https://twitter.com/Lacoste0x_/status/2110755638569820541",
+       "start": 123,
+       "url": "https://t.co/tk9mhKJsCr"
+      }
+     ]
+    },
+    "id": "2112502282977939518",
+    "note_tweet": {
+     "text": "神了，没想到我一直在看的AI动画片，居然也被老外看到了😂\n\nB站UP梦游牛油果做的《外星小偷里贝》，被一位海外博主写了串英文长帖。\n\n正好借这个事说个可能得罪人的观点⬇️\n\nAI把动画制作门槛降下来以后，很多人会发现，自己缺的根本不止制作能力。\n以前一个故事没做出来，可以说没钱、没人、不会画。等这些问题逐渐有办法解决，你到底想讲什么，就得拿出来给人看了。\n\n我一直觉得，“一个人也能做出工作室级画面”只把事情讲了一半。\n制作能力普及以后，好看的画面会越来越多，值得关注的作者未必会同比增加。"
+    },
+    "referenced_tweets": [
+     {
+      "id": "2110755638569820541",
+      "type": "quoted"
+     }
+    ],
+    "text": "神了，没想到我一直在看的AI动画片，居然也被老外看到了😂\n\nB站UP梦游牛油果做的《外星小偷里贝》，被一位海外博主写了串英文长帖。\n\n正好借这个事说个可能得罪人的观点⬇️\n\nAI把动画制作门槛降下来以后，很多人会发现，自己缺的根本不止制作能力。 https://t.co/tk9mhKJsCr"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2112660579664187392"
+     ]
+    },
+    "created_at": "2026-10-20T21:42:12.000Z",
+    "edit_history_post_ids": [
+     "2112660683670323531"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 141,
+       "id": "1753339277386342400",
+       "start": 128,
+       "username": "Alibaba_Qwen"
+      },
+      {
+       "end": 189,
+       "id": "61559439",
+       "start": 182,
+       "username": "nvidia"
+      }
+     ],
+     "urls": [
+      {
+       "description": "Official Inference Code of EAGLE-4. Contribute to eagle-hq/EAGLE-4 development by creating an account on GitHub.",
+       "display_url": "github.com/eagle-hq/EAGLE…",
+       "end": 252,
+       "expanded_url": "https://github.com/eagle-hq/EAGLE-4",
+       "images": [
+        {
+         "height": 600,
+         "url": "https://pbs.twimg.com/news_img/2112620503949090818/xUTjiwZU?format=jpg&name=orig",
+         "width": 1200
+        },
+        {
+         "height": 150,
+         "url": "https://pbs.twimg.com/news_img/2112620503949090818/xUTjiwZU?format=jpg&name=150x150",
+         "width": 150
+        }
+       ],
+       "start": 229,
+       "status": 200,
+       "title": "GitHub - eagle-hq/EAGLE-4: Official Inference Code of EAGLE-4",
+       "unwound_url": "https://github.com/eagle-hq/EAGLE-4",
+       "url": "https://t.co/GwocZk1UTU"
+      },
+      {
+       "display_url": "pic.x.com/GawgFNXKWj",
+       "end": 276,
+       "expanded_url": "https://x.com/EagleCorp/status/2112660683670323531/video/1",
+       "media_key": "13_2112660579664187392",
+       "start": 253,
+       "url": "https://t.co/GawgFNXKWj"
+      }
+     ]
+    },
+    "id": "2112660683670323531",
+    "text": "EAGLE-4 is here.\n\nFrom EAGLE-1 to EAGLE-3, we’ve kept making inference faster. \n\nEAGLE-4 is our fastest yet.\n\n961.6 tokens/s on @Alibaba_Qwen’s Qwen3.8-27B with TokenSpeed (BF16, 4× @NVIDIA B300, TP4, one request, T=0).\n\nGithub: https://t.co/GwocZk1UTU https://t.co/GawgFNXKWj"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2112665467110252546"
+     ]
+    },
+    "created_at": "2026-10-20T22:02:03.000Z",
+    "edit_history_post_ids": [
+     "2112665677152829772"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/1rINWWvwxf",
+       "end": 306,
+       "expanded_url": "https://x.com/testingcatalog/status/2112665677152829772/photo/1",
+       "media_key": "3_2112665467110252546",
+       "start": 283,
+       "url": "https://t.co/1rINWWvwxf"
+      },
+      {
+       "display_url": "x.com/EagleCorp/stat…",
+       "end": 330,
+       "expanded_url": "https://twitter.com/EagleCorp/status/2112660683670323531",
+       "start": 307,
+       "url": "https://t.co/mjoBIwcRLz"
+      }
+     ]
+    },
+    "id": "2112665677152829772",
+    "note_tweet": {
+     "text": "Eagle Corp released EAGLE-4, its latest open-source flexible drafter, for accelerating LLM inference.\n\n> At its core, “One drafter adapts its speculative decoding strategy to the batch size, the hardware, and the workload, and keeps the target model's output distribution.”\n\n> Qwen3.8-27B with its EAGLE-4 draft is the measured target pair, achieving 961.6 tokens/s while running on 4x NVIDIA B300. \n\nEagle is an AI inference platform that powers leading companies like NVIDIA, Meta, Intel, AMD, and Perplexity.\n\nInference testing time 👀"
+    },
+    "referenced_tweets": [
+     {
+      "id": "2112660683670323531",
+      "type": "quoted"
+     }
+    ],
+    "text": "Eagle Corp released EAGLE-4, its latest open-source flexible drafter, for accelerating LLM inference.\n\n&gt; At its core, “One drafter adapts its speculative decoding strategy to the batch size, the hardware, and the workload, and keeps the target model's output distribution.”\n\n&gt; https://t.co/1rINWWvwxf https://t.co/mjoBIwcRLz"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2112572094693220352"
+     ]
+    },
+    "created_at": "2026-10-20T16:00:12.000Z",
+    "edit_history_post_ids": [
+     "2112574615318876178"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/YA9HNVfq0u",
+       "end": 135,
+       "expanded_url": "https://x.com/MistralAI/status/2112574615318876178/video/1",
+       "media_key": "13_2112572094693220352",
+       "start": 112,
+       "url": "https://t.co/YA9HNVfq0u"
+      }
+     ]
+    },
+    "id": "2112574615318876178",
+    "text": "Introducing Voxtral 3: state-of-the-art Transcribe and Speech models powering Mistral’s new voice agents API. 🧵 https://t.co/YA9HNVfq0u"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2112576977475633152"
+     ]
+    },
+    "created_at": "2026-10-20T16:29:09.000Z",
+    "edit_history_post_ids": [
+     "2112581900779012503"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/XxcJuVbJMA",
+       "end": 302,
+       "expanded_url": "https://x.com/anurahk/status/2112581900779012503/video/1",
+       "media_key": "13_2112576977475633152",
+       "start": 279,
+       "url": "https://t.co/XxcJuVbJMA"
+      }
+     ]
+    },
+    "id": "2112581900779012503",
+    "note_tweet": {
+     "text": "I launched the first image and video generation models at Google, and kept asking why all AI designs look the same.\n\nAI has brought us the WORST era of design. \n\nIt made content creation effortless, but it also made 90% of it look painfully generic.\n\nMy co-founder and I spent 2 years building in stealth to change that.\n\nMeet Vyb, the first AI design model that understands your taste like a designer would.\n\nRT + comment your website URL and we’ll make your first design."
+    },
+    "text": "I launched the first image and video generation models at Google, and kept asking why all AI designs look the same.\n\nAI has brought us the WORST era of design. \n\nIt made content creation effortless, but it also made 90% of it look painfully generic.\n\nMy co-founder and I spent 2 https://t.co/XxcJuVbJMA"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2112637831541571585"
+     ]
+    },
+    "created_at": "2026-10-20T20:13:39.000Z",
+    "edit_history_post_ids": [
+     "2112638397177372745"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/bwFwrxygbZ",
+       "end": 300,
+       "expanded_url": "https://x.com/testingcatalog/status/2112638397177372745/video/1",
+       "media_key": "13_2112637831541571585",
+       "start": 277,
+       "url": "https://t.co/bwFwrxygbZ"
+      },
+      {
+       "display_url": "x.com/anurahk/status…",
+       "end": 324,
+       "expanded_url": "https://twitter.com/anurahk/status/2112581900779012503",
+       "start": 301,
+       "url": "https://t.co/TeEHFRmCYb"
+      }
+     ]
+    },
+    "id": "2112638397177372745",
+    "note_tweet": {
+     "text": "Coco Labs launched Vyb, its first design model, which can build layered, editable marketing graphics from a brand's website.\n\nVyb places each element on its own layer, so you can change a headline without regenerating the whole design.\n\n> Users can send Vyb their company's website and have it pick up the brand's logo and exact hex colors.\n\n> Product photos can be added into the design at full resolution without being regenerated.\n\n> Produced designs can be exported to Figma while retaining every layer intact."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2112581900779012503",
+      "type": "quoted"
+     }
+    ],
+    "text": "Coco Labs launched Vyb, its first design model, which can build layered, editable marketing graphics from a brand's website.\n\nVyb places each element on its own layer, so you can change a headline without regenerating the whole design.\n\n&gt; Users can send Vyb their company's https://t.co/bwFwrxygbZ https://t.co/TeEHFRmCYb"
+   },
+   {
+    "created_at": "2026-10-20T18:10:16.000Z",
+    "edit_history_post_ids": [
+     "2112607347688583586"
+    ],
+    "id": "2112607347688583586",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 306,
+        "id": "414494523",
+        "start": 295,
+        "username": "ashokaraj_"
+       }
+      ],
+      "urls": [
+       {
+        "display_url": "openai.com/index/openai-t…",
+        "end": 341,
+        "expanded_url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+        "start": 318,
+        "url": "https://t.co/vi51OhznQn"
+       }
+      ]
+     },
+     "text": "We’ve acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development.\n\nTogether, we’ll build on Rosalind, our AI models and tools for life sciences research, to streamline those operations and help new treatments reach patients sooner.\n\nWelcome @ashokaraj_ and team!\n\nhttps://t.co/vi51OhznQn"
+    },
+    "text": "We’ve acquired Orchestra Bio, a platform that helps biopharma teams coordinate the complex process of drug development.\n\nTogether, we’ll build on Rosalind, our AI models and tools for life sciences research, to streamline those operations and help new treatments reach patients"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "7_2112585087921377280"
+     ]
+    },
+    "created_at": "2026-10-20T16:42:32.000Z",
+    "edit_history_post_ids": [
+     "2112585266854604957"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 100,
+       "id": "1689321438858395649",
+       "start": 88,
+       "username": "positron_ai"
+      }
+     ],
+     "urls": [
+      {
+       "display_url": "pic.x.com/BckGV68mVT",
+       "end": 296,
+       "expanded_url": "https://x.com/general_compute/status/2112585266854604957/video/1",
+       "media_key": "7_2112585087921377280",
+       "start": 273,
+       "url": "https://t.co/BckGV68mVT"
+      }
+     ]
+    },
+    "id": "2112585266854604957",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 100,
+        "id": "1689321438858395649",
+        "start": 88,
+        "username": "positron_ai"
+       },
+       {
+        "end": 363,
+        "id": "760145599",
+        "start": 353,
+        "username": "mitesh711"
+       },
+       {
+        "end": 375,
+        "id": "35603379",
+        "start": 365,
+        "username": "trsohmers"
+       }
+      ]
+     },
+     "text": "Our heterogeneous cloud just got better. We're announcing a cluster scale deployment of @positron_ai as our next partner.\n\nWe believe demand for fast inference will outstrip supply for the next decade. Our bet on Positron is another step towards getting fast inference for opensource models into builders' hands.\n\nHardware goes live Q1 2027.\n\nThanks to @mitesh711, @trsohmers and the whole Positron team! We're excited for this partnership.\n\nLFG!"
+    },
+    "text": "Our heterogeneous cloud just got better. We're announcing a cluster scale deployment of @positron_ai as our next partner.\n\nWe believe demand for fast inference will outstrip supply for the next decade. Our bet on Positron is another step towards getting fast inference for https://t.co/BckGV68mVT"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2112594482268901377"
+     ]
+    },
+    "created_at": "2026-10-20T17:19:20.000Z",
+    "edit_history_post_ids": [
+     "2112594531065446586"
+    ],
+    "entities": {
+     "mentions": [
+      {
+       "end": 69,
+       "id": "1689321438858395649",
+       "start": 57,
+       "username": "positron_ai"
+      }
+     ],
+     "urls": [
+      {
+       "display_url": "pic.x.com/dJkqn2hSAE",
+       "end": 302,
+       "expanded_url": "https://x.com/testingcatalog/status/2112594531065446586/video/1",
+       "media_key": "13_2112594482268901377",
+       "start": 279,
+       "url": "https://t.co/dJkqn2hSAE"
+      },
+      {
+       "display_url": "x.com/general_comput…",
+       "end": 326,
+       "expanded_url": "https://twitter.com/general_compute/status/2112585266854604957",
+       "start": 303,
+       "url": "https://t.co/uYF0LJKRPO"
+      }
+     ]
+    },
+    "id": "2112594531065446586",
+    "note_tweet": {
+     "entities": {
+      "mentions": [
+       {
+        "end": 69,
+        "id": "1689321438858395649",
+        "start": 57,
+        "username": "positron_ai"
+       }
+      ]
+     },
+     "text": "General Compute has signed a multi-year partnership with @positron_ai to offer Positron's Atlas inference systems to its cloud customers.\n\nGeneral Compute buys and runs specialized AI chips alongside GPUs, allowing AI companies to rent processing power and use Positron hardware without buying it.\n\n> GPUs handle the input process for each request, so Positron chips generate the output more efficiently.\n\n> Positron’s chips are built with a focus on fast memory access since it is one of the main bottlenecks for token generation.\n\n> Atlas is already available inside Oracle Cloud Infrastructure, with General Compute also committing to integrate Positron's next-generation Titan systems."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2112585266854604957",
+      "type": "quoted"
+     }
+    ],
+    "text": "General Compute has signed a multi-year partnership with @positron_ai to offer Positron's Atlas inference systems to its cloud customers.\n\nGeneral Compute buys and runs specialized AI chips alongside GPUs, allowing AI companies to rent processing power and use Positron hardware https://t.co/dJkqn2hSAE https://t.co/uYF0LJKRPO"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2112564839251931136"
+     ]
+    },
+    "created_at": "2026-10-20T15:22:35.000Z",
+    "edit_history_post_ids": [
+     "2112565146354860151"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/Mq2wTtE8cz",
+       "end": 79,
+       "expanded_url": "https://x.com/make_robot_go/status/2112565146354860151/video/1",
+       "media_key": "13_2112564839251931136",
+       "start": 56,
+       "url": "https://t.co/Mq2wTtE8cz"
+      }
+     ]
+    },
+    "id": "2112565146354860151",
+    "text": "Introducing Voxel, a droid butler made by Tuesday Labs. https://t.co/Mq2wTtE8cz"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2112576189281800195"
+     ]
+    },
+    "created_at": "2026-10-20T16:06:46.000Z",
+    "edit_history_post_ids": [
+     "2112576267203551301"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/6l9264sB3Z",
+       "end": 303,
+       "expanded_url": "https://x.com/testingcatalog/status/2112576267203551301/video/1",
+       "media_key": "13_2112576189281800195",
+       "start": 280,
+       "url": "https://t.co/6l9264sB3Z"
+      },
+      {
+       "display_url": "x.com/make_robot_go/…",
+       "end": 327,
+       "expanded_url": "https://twitter.com/make_robot_go/status/2112565146354860151",
+       "start": 304,
+       "url": "https://t.co/vifpCQHdyu"
+      }
+     ]
+    },
+    "id": "2112576267203551301",
+    "note_tweet": {
+     "text": "Tuesday Labs introduced a Voxel Series-1 home robot, with the first batch of 999 units shipping in 2028.\n\nVoxel is being built with a special focus on how it behaves around humans while tidying a home, from returning things to where they belong to grabbing something from another room and bringing it back.\n\n> At launch, it will find misplaced items and care for houseplants.\n\n> Tuesday Labs has worked with Pixar advisors on its personality, acting like a butler-in-training who likes to keep things in order.\n\n> Founder Ros Shinkle previously wrote the algorithms that allow Boston Dynamics' Spot to pick up and place objects."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2112565146354860151",
+      "type": "quoted"
+     }
+    ],
+    "text": "Tuesday Labs introduced a Voxel Series-1 home robot, with the first batch of 999 units shipping in 2028.\n\nVoxel is being built with a special focus on how it behaves around humans while tidying a home, from returning things to where they belong to grabbing something from another https://t.co/6l9264sB3Z https://t.co/vifpCQHdyu"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2112560706319261696"
+     ]
+    },
+    "created_at": "2026-10-20T15:30:01.000Z",
+    "edit_history_post_ids": [
+     "2112567020353102324"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/BD8aVEI1WY",
+       "end": 250,
+       "expanded_url": "https://x.com/krea_ai/status/2112567020353102324/video/1",
+       "media_key": "13_2112560706319261696",
+       "start": 227,
+       "url": "https://t.co/BD8aVEI1WY"
+      }
+     ]
+    },
+    "id": "2112567020353102324",
+    "text": "today, Krea 3 makes it to the top of image arenas.\n\n- \"Fast\" pushes the pareto curve of speed and quality.\n- \"Ultra\" ranks top-4, only surpassed by OpenAI models.\n\nthe only company valued under $1T in the top-10!\n\nmore below 👇 https://t.co/BD8aVEI1WY"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "13_2112570056815058946"
+     ]
+    },
+    "created_at": "2026-10-20T15:42:49.000Z",
+    "edit_history_post_ids": [
+     "2112570237874810918"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/q4SwNIKp3X",
+       "end": 310,
+       "expanded_url": "https://x.com/testingcatalog/status/2112570237874810918/video/1",
+       "media_key": "13_2112570056815058946",
+       "start": 287,
+       "url": "https://t.co/q4SwNIKp3X"
+      },
+      {
+       "display_url": "x.com/krea_ai/status…",
+       "end": 334,
+       "expanded_url": "https://twitter.com/krea_ai/status/2112567020353102324",
+       "start": 311,
+       "url": "https://t.co/iaGcGuKt5j"
+      }
+     ]
+    },
+    "id": "2112570237874810918",
+    "note_tweet": {
+     "text": "Krea 3 Ultra and Krea 3 Fast landed in the top 5 and 11th spots on the Artificial Analysis image-editing leaderboard!\n\n> Krea 3 Ultra placed 4th with a score of 1151, one point behind Google's Nano Banana 2.1.\n\n> The other four spots in the 5 five are all taken by OpenAI, Google, and MAI models.\n\n> Krea 3 Fast scored 1125, landing in 11th place, topping Nano Banana 2 by one point.\n\nAt the same time, Krea 3 is also 10x faster than GPT Image 2 and 4x faster than Nano Banana Pro, with pricing starting at $0.03 per image at 1K and $0.06 at 2K."
+    },
+    "referenced_tweets": [
+     {
+      "id": "2112567020353102324",
+      "type": "quoted"
+     }
+    ],
+    "text": "Krea 3 Ultra and Krea 3 Fast landed in the top 5 and 11th spots on the Artificial Analysis image-editing leaderboard!\n\n&gt; Krea 3 Ultra placed 4th with a score of 1151, one point behind Google's Nano Banana 2.1.\n\n&gt; The other four spots in the 5 five are all taken by OpenAI, Google, https://t.co/q4SwNIKp3X https://t.co/iaGcGuKt5j"
+   },
+   {
+    "attachments": {
+     "media_keys": [
+      "3_2112188799803441152"
+     ]
+    },
+    "created_at": "2026-10-19T14:30:41.000Z",
+    "edit_history_post_ids": [
+     "2112189697388613850"
+    ],
+    "entities": {
+     "urls": [
+      {
+       "display_url": "pic.x.com/T3GaPrfQ3R",
+       "end": 178,
+       "expanded_url": "https://x.com/LuminaBench/status/2112189697388613850/photo/1",
+       "media_key": "3_2112188799803441152",
+       "start": 155,
+       "url": "https://t.co/T3GaPrfQ3R"
+      },
+      {
+       "display_url": "x.com/LuminaBench/st…",
+       "end": 202,
+       "expanded_url": "https://twitter.com/LuminaBench/status/2112186994885304414",
+       "start": 179,
+       "url": "https://t.co/Y1Tcvs7opA"
+      }
+     ]
+    },
+    "id": "2112189697388613850",
+    "referenced_tweets": [
+     {
+      "id": "2112186994885304414",
+      "type": "quoted"
+     }
+    ],
+    "text": "GPT-6.1 Terra is in a Microsoft PR\n\nMicrosoft updated 18 evaluation configs from GPT-5.6 Terra to GPT-6.1 Terra\n\nWouldn't be surprised if we get this soon https://t.co/T3GaPrfQ3R https://t.co/Y1Tcvs7opA"
+   }
+  ]
+ },
+ "aux_search": {
+  "query": "(from:MaxForAI OR from:xiaohu OR from:Khazix0918 OR from:gengdaJ OR from:thsottiaux) -is:reply",
+  "result": {
+   "data": [
+    {
+     "author_id": "1953337039510003712",
+     "created_at": "2026-10-20T17:10:20.000Z",
+     "edit_history_tweet_ids": [
+      "2112592264686149749"
+     ],
+     "id": "2112592264686149749",
+     "note_tweet": {
+      "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan. We are reaching out individually to all these users and have corrected the issue. If this affected you, we'll add credits to your account. Sorry we got this wrong."
+     },
+     "text": "There were reports of usage draining faster than anticipated for some users over the weekend. We've identified approximately 40,000 accounts that had an inconsistency on which usage limits where the actual usage that was applied did not correspond to their actual selected plan.",
+     "url": "https://x.com/thsottiaux/status/2112592264686149749"
+    },
+    {
+     "author_id": "1492195583699951620",
+     "created_at": "2026-10-20T16:38:00.000Z",
+     "edit_history_tweet_ids": [
+      "2112579521849471311",
+      "2112583614961721794",
+      "2112584126155088004"
+     ],
+     "id": "2112584126155088004",
+     "note_tweet": {
+      "text": "老的本来准备卖掉的M4的Mac mini最爽的用法：\n拿来当自建CI机，以及给Agent跑各种自动化端到端测试，以前一直用Github跑CI，但是Agent太喜欢提PR了，即使开了会员，有时候每个月还是能多花二三十刀。。。\n现在速度快，并行还爽...\n24小时待命，闲的时候，还顺道给自己的Agent当专用机，所有的Chrome啥的都给他登录好，飞书CLI也弄好，扔给Agent自己全自动随便去玩，直接焕发第二春了。"
+     },
+     "text": "老的本来准备卖掉的M4的Mac mini最爽的用法：\n拿来当自建CI机，以及给Agent跑各种自动化端到端测试，以前一直用Github跑CI，但是Agent太喜欢提PR了，即使开了会员，有时候每个月还是能多花二三十刀。。。\n现在速度快，并行还爽... https://t.co/L1PpA2UCPo",
+     "url": "https://x.com/Khazix0918/status/2112584126155088004"
+    },
+    {
+     "author_id": "1492195583699951620",
+     "created_at": "2026-10-20T16:35:58.000Z",
+     "edit_history_tweet_ids": [
+      "2112579521849471311",
+      "2112583614961721794",
+      "2112584126155088004"
+     ],
+     "id": "2112583614961721794",
+     "note_tweet": {
+      "text": "之前换了新MacMini，留下来的老的M4的Mac mini本来想二手回收了。\n\n现在发现最舒服的用途，就是拿来当自建CI机，以及给Agent跑各种端到端测试，以前一直用Github跑CI，但是Agent太喜欢提PR了，即使开了会员，有时候每个月还是能多花几十刀。。。\n\n现在速度快，并行还爽...24小时待命，还顺道当一个Agent专用机，扔给Agent自己随便去玩，直接焕发第二春了。"
+     },
+     "text": "之前换了新MacMini，留下来的老的M4的Mac mini本来想二手回收了。\n\n现在发现最舒服的用途，就是拿来当自建CI机，以及给Agent跑各种端到端测试，以前一直用Github跑CI，但是Agent太喜欢提PR了，即使开了会员，有时候每个月还是能多花几十刀。。。 https://t.co/I2OSvsuFwV",
+     "url": "https://x.com/Khazix0918/status/2112583614961721794"
+    },
+    {
+     "author_id": "1492195583699951620",
+     "created_at": "2026-10-20T16:19:42.000Z",
+     "edit_history_tweet_ids": [
+      "2112579521849471311",
+      "2112583614961721794",
+      "2112584126155088004"
+     ],
+     "id": "2112579521849471311",
+     "note_tweet": {
+      "text": "之前换了新MacMini，留下来的老的M4的Mac mini本来想二手回收了。\n\n现在发现最舒服的用途，就是拿来当自建CI机，以及给Agent跑各种端到端测试，以前一直用Github跑CI，但是Agent太喜欢提PR了，即使开了会员，有时候每个月还是能多花十几刀。。。\n\n现在速度快，并行还爽...24小时待命，还顺道当一个Agent专用机，扔给Agent自己随便去玩，直接焕发第二春了。"
+     },
+     "text": "之前换了新MacMini，留下来的老的M4的Mac mini本来想二手回收了。\n\n现在发现最舒服的用途，就是拿来当自建CI机，以及给Agent跑各种端到端测试，以前一直用Github跑CI，但是Agent太喜欢提PR了，即使开了会员，有时候每个月还是能多花十几刀。。。 https://t.co/PD6G7MRvNY",
+     "url": "https://x.com/Khazix0918/status/2112579521849471311"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-10-20T11:12:47.000Z",
+     "edit_history_tweet_ids": [
+      "2112502282977939518"
+     ],
+     "id": "2112502282977939518",
+     "note_tweet": {
+      "text": "神了，没想到我一直在看的AI动画片，居然也被老外看到了😂\n\nB站UP梦游牛油果做的《外星小偷里贝》，被一位海外博主写了串英文长帖。\n\n正好借这个事说个可能得罪人的观点⬇️\n\nAI把动画制作门槛降下来以后，很多人会发现，自己缺的根本不止制作能力。\n以前一个故事没做出来，可以说没钱、没人、不会画。等这些问题逐渐有办法解决，你到底想讲什么，就得拿出来给人看了。\n\n我一直觉得，“一个人也能做出工作室级画面”只把事情讲了一半。\n制作能力普及以后，好看的画面会越来越多，值得关注的作者未必会同比增加。"
+     },
+     "referenced_tweets": [
+      {
+       "id": "2110755638569820541",
+       "type": "quoted"
+      }
+     ],
+     "text": "神了，没想到我一直在看的AI动画片，居然也被老外看到了😂\n\nB站UP梦游牛油果做的《外星小偷里贝》，被一位海外博主写了串英文长帖。\n\n正好借这个事说个可能得罪人的观点⬇️\n\nAI把动画制作门槛降下来以后，很多人会发现，自己缺的根本不止制作能力。 https://t.co/tk9mhKJsCr",
+     "url": "https://x.com/MaxForAI/status/2112502282977939518"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-10-20T11:09:40.000Z",
+     "edit_history_tweet_ids": [
+      "2112501497674235913"
+     ],
+     "id": "2112501497674235913",
+     "note_tweet": {
+      "text": "今天有个搞Infra的小男娘发消息跟我说\n\n这是他成年以来最好的秋天\n\n这一年他终于找到了做推理优化的工作\n\n每天和GPU、Kernel、MoE、KV Cache打交道\n\n以前想研究DeepSeek的推理系统，只能对着论文、技术博客和Benchmark，一点点猜他们线上到底是怎么跑的\n\n今天DeepSeek突然把DeepInfer开源了\n\n分布式推理、推测解码、SWA Bounded Replay，连调度器和高性能算子都放出来了\n\n英伟达和华为昇腾都支持，连生产级的Token编解码组件也一起开源\n\n过去要花几个月研究的东西，现在直接就能在GitHub上看源码\n\n今天下午他坐在工位上\n\n突然整个Infra群都沸腾了\n\n所有人停下手头的调参，开始疯狂Clone仓库\n\n有人在看Kernel，有人在研究调度器，还有人在讨论怎么把公司祖传的推理框架换掉\n\n他说很开心\n\n有种人类Infra黄金时代的错觉"
+     },
+     "text": "今天有个搞Infra的小男娘发消息跟我说\n\n这是他成年以来最好的秋天\n\n这一年他终于找到了做推理优化的工作\n\n每天和GPU、Kernel、MoE、KV Cache打交道\n\n以前想研究DeepSeek的推理系统，只能对着论文、技术博客和Benchmark，一点点猜他们线上到底是怎么跑的\n\n今天DeepSeek突然把DeepInfer开源了 https://t.co/Ejy6l1MS8H",
+     "url": "https://x.com/MaxForAI/status/2112501497674235913"
+    },
+    {
+     "author_id": "1699797396589588480",
+     "created_at": "2026-10-20T11:03:35.000Z",
+     "edit_history_tweet_ids": [
+      "2112499967256658129"
+     ],
+     "id": "2112499967256658129",
+     "referenced_tweets": [
+      {
+       "id": "2112035317976883312",
+       "type": "quoted"
+      }
+     ],
+     "text": "Bro你不能只在戳到你xp的时候才支持AI生成动画🤦‍♂️ https://t.co/aPd9kOhaqr https://t.co/TbSJCp67Oq",
+     "url": "https://x.com/MaxForAI/status/2112499967256658129"
+    },
+    {
+     "author_id": "1953337039510003712",
+     "created_at": "2026-10-20T06:33:48.000Z",
+     "edit_history_tweet_ids": [
+      "2112432076767289678"
+     ],
+     "id": "2112432076767289678",
+     "referenced_tweets": [
+      {
+       "id": "2112268918681485431",
+       "type": "quoted"
+      }
+     ],
+     "text": "Day 15/ Nevermind, we're still cooking... and reset. Enjoy. https://t.co/RZ9WhtI802",
+     "url": "https://x.com/thsottiaux/status/2112432076767289678"
+    },
+    {
+     "article": {
+      "cover_media": "3_2112386300167036928",
+      "entities": {
+       "urls": [
+        {
+         "text": "Apate.ai"
+        },
+        {
+         "text": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA==&mid=2647672801&idx=1&sn=6c48c57e40e858515c62804f5c32e559&scene=21#wechat_redirect"
+        },
+        {
+         "text": "http://xn--Apate-4u8h.ai"
+        }
+       ]
+      },
+      "media_entities": [
+       "3_2112385174789144577",
+       "3_2112385150776655872",
+       "3_2112385198205853696",
+       "3_2112385185883058176",
+       "3_2112385162394923008"
+      ],
+      "plain_text": "这两天，我看到了一条特别有意思的新闻。\n澳大利亚有一家公司，叫Apate.ai，名字取自希腊神话里的欺骗女神。\n这家公司干的事特别离谱，他们造了35万个AI。\n而这35万个AI，每天的主要工作，就是骗人。\n \n只不过，他们骗的对象有点特殊。\n他们专门骗骗子。\n没错，就是你想的那种骗子。\n每一个AI，都会装成一个普普通通的人，有老有少，有男有女，甚至口音还各不相同，能说好几种语言，甚至还有自己的性格。\n诈骗电话、钓鱼网站、投资骗局等等等等，只要发现一个骗子，他们就想办法派一个AI过去，然后装成受害者，跟骗子聊天。\n最重要的是，这些AI有一个非常好笑的共同特点，就是特别好骗。\n骗子让转账，它就说好的没问题。\n骗子让打开网站，它也说好的没问题。\n骗子让填写银行卡号，它还是说好的没问题。\n然后真到要执行的那一步的时候，就会突然开始装傻了。\n哎呀，我银行卡放哪了？\n哎呀，这个密码是哪个呀？\n哎呀，我老了，眼睛不好使，小哥哥你再说一遍？\n就这么硬生生地跟骗子耗，有些电话，甚至能聊两个多小时。。。\n骗子都快崩溃了。\n偏偏电话那头的老太太，还特别有礼貌。\n“不好意思啊，小伙子，麻烦你再教我一次。”\n按Apate自己的说法，他们的AI已经跟骗子聊了250万次，现在每天还在同时跟几万个骗子聊着。\n加起来，耗掉了骗子大约17年的时间。\n嗯，17年。。。\n澳大利亚的电信运营商TPG，已经把将近59万通可疑来电，直接转给了这些Apate的这些AI去接，然后澳洲联邦银行那边，公开报告的诈骗损失直接降低了76%。\n最搞笑的是，时不时就有骗子被这些AI拖到崩溃，对着电话破口大骂。\nApate不但不生气，还把这些骂人的片段，专门放进了自己的融资路演材料里，他们的联合创始人说，Apate大概是全世界唯一一家，用户骂自己产品的时候，全公司会庆祝的公司。\n而这一切的起源，就是几年前的一次家庭野餐。\nApate的创始人叫Dali Kaafar，那天他带着家里人出去野餐，然后就接到一个陌生电话，这个电话过于粗糙了，一听就是骗子。\n不过他没挂，因为为了逗孩子们开心，他就开始搞抽象了，直接装傻仙人附体，非常配合，就这么一句一句地陪着骗子聊。\n这一聊，就是44分钟，然后一家人全都笑翻了。\n笑完以后，Kaafar突然意识到了一件事。\n这44分钟里，那个骗子一直占着线跟他聊，没空去给别人打电话，而原本，也许会有一个独居的老人接到这通电话，也许会被骗走一笔支撑老人活下去的最后一笔养老钱。\n当然，代价就是，他自己也搭进去了44分钟。\n于是，那一刻，他有了一个新的想法，他问了自己一个问题，这件事，能不能交给AI来做。\n因为Kaafar本来就在悉尼的麦考瑞大学做网络安全研究，从那以后，他和同事们开始专门研究诈骗电话，用AI一点一点去拆骗子的话术，2024年，这个想法变成了Apate。\n \n一次野餐时的44分钟，最后变成了累计耗时17年的守护。\n如果说这个世界上，有一种东西是我恨之入骨的，那一定是诈骗。\n我相信很多人，跟我的想法一样，也是如此。\n但现在，AI好像正在改变一件过去特别不公平的事情，就是作恶与防范作恶之间的成本。\n最近我也在看缅北电诈那个纪录片，我是真的能感觉到，所有人都在拼命努力，就是想让普通人少被骗一点。\n但诈骗有一个非常恶心的地方，就是它的成本结构，天然对骗子有利。\n比如一个骗子，可以一天给几百个人打电话，哪怕前面几百个人全部挂断也无所谓，因为这本来就是赌，但只要最后有一个人被骗，他就可能赚到一大笔。\n但对于普通人来说，你可能前面一千次都没有被骗。\n只要第一千零一次，刚好遇到了一个特别会演的骗子，刚好自己那天心情不好，刚好又碰到了自己的软肋。\n那可能，一辈子的积蓄就没了。\n骗子可以失败无数次，而你我这样的普通人，很可悲的是，有时候连失败一次的机会都没有。\n所以我们国家，我们整个社会，做了无数的工作，一直在想办法提高普通人的警惕性。\n那现在，AI来了，既然骗子可以利用技术，把作恶的成本降下来。\n那我们为什么不能利用同样的技术，把保护别人的成本也降下来呢？\n今年8月份，Apate拿到了815万美元的种子轮融资，虽然在整个AI浪潮中，他们好像很小，但我依然会对他们肃然起敬。并且，他们已经真的开始有银行、电信运营商这些真正愿意付费的客户了。\n善意一旦能够持续运转，能够被复制、被规模化，那我觉得，它所产生的力量，就可能远远超过一个人的能力。\n很巧的是。\n就在Apate这件事火起来的时候，国内也正在发生一件特别相似的事情。\n就是最近闹得沸沸扬扬的AI小海。\n \n这个事情我相信很多人都知道了，我大概说一下。\n大概呢就是有一批人，用AI批量生成一些长得白白净净的男孩子，天天对着镜头喊“姨姨妈妈”。\n来来回回的就是说，今天爸爸生病了，明天自己被欺负了，后天又缺钱了，反正不停地卖惨。\n最后让一些中老年女性心疼他，去买他橱窗里的高佣金商品，有些佣金甚至高达55%，大概就是这么一个模式。\n \n最离谱的是，有个79岁的老太太，真的相信了手机里面的小海，一个人买了火车票，跑去山西找他。\n因为小海告诉她，可以一起去看杏花，去摘羊肚菌。\n但是老太太甚至连到了山西以后，具体应该去哪儿都不知道。\n她只知道，小海在那里。\n后来是被乘警发现异常，硬生生的问了出来，最后联系家属，才把人接回去。\n然后，就在这件事情被曝光之后，国内一群年轻人，魔高一尺，道高一丈，他们决定，也开始用AI反击了。\n其中有一个19岁的大学生，叫小舟。\n他发现朋友家里的一位老人，因为心疼小海，已经在他的橱窗里面买了好几单东西。\n于是小舟想了一个特别有意思的办法，既然老人相信小海。\n那就让小海自己告诉老人，他是骗子，于是，他也拿AI生成了一条30秒的视频。\n还是那张小海的脸，但这一次，小海摇身一变，成了一个住着豪宅、穿着西装的富二代。\n这是《新京报》当时采访小舟时候的视频截图。\n \n这个视频里，小海那个白发苍苍的父亲跑过来，劝他不要再骗那些姨姨妈妈了。\n结果小海直接翻脸，说自己根本不在乎那些姨姨妈妈，只要喊一声，她们就会过来送钱。\n最后，他还把自己的父亲赶出了门。\n这条视频发出去以后，其实只有几十个赞，但小舟的朋友把视频拿给家里的老人看。\n那个原来一直给小海买东西的老人，看完以后说：\n“哎呀，怎么是这样的呀。”\n“我以后不买他的东西了。”\n就这样，一条30秒的视频，真的让一个老人改变了决定。\n后来越来越多的年轻人受到感染和鼓舞，开始加入。\n有人让小海去坐牢，有人让小海抽烟喝酒，还有人让他戴着金链子，在豪宅里数钱。\n甚至还有人让小海穿着囚服，抓着监狱的铁栏杆，对着镜头承认自己是骗子。\n一场非常奇妙的AI对抗，就这么开始了。\n我特别喜欢小舟接受新京报采访时说的一句话。\n“善良的人不应该被骗。”\n就这么简单的一句话，我觉得，比任何宏大的所谓的那些AI宣言，都有力量。\n这两个故事，Apate和小舟的故事，我其实看完了以后，真的非常感慨，而且，这也完美的展现出了，AI时代一个非常特别的变化。\n过去，一个普通人想做一件好事，可能有心无力。\n而现在，他终于有机会用AI，用技术，把自己的善意放大。\n很久以前，我还写过一篇假扮AI的17岁男高中生，用回复治愈了整个B站，他们，都是平凡但伟大的人。\n我们每天都在讨论模型有多聪明，讨论它又突破了什么跑分，又能完成多少过去人类才能完成的工作。\n这些当然都很重要。\n但我觉得，在这些越来越强大的AI背后，那些对人的纯粹的善意，很多时候更加的弥足珍贵。\n而我最希望看到的AI未来，大概就是这样。\n技术本身其实没有什么立场。\nAI正在放大的，从来不只有人的能力。\n它也在放大人的选择。\n希望未来有一天，我们可以用最先进的技术，保护人类那些最古老、最朴素的善良。\n也希望那些善良的人。\n永远不必因为自己的善良。\n而再受到伤害。\n以上，既然看到这里了，如果觉得不错，随手点个赞、评论、转发三连吧，这对我们有特别大的帮助~\n谢谢你看我的文章，我们，下次再见。",
+      "preview_text": "这两天，我看到了一条特别有意思的新闻。\n澳大利亚有一家公司，叫Apate.ai，名字取自希腊神话里的欺骗女神。\n这家公司干的事特别离谱，他们造了35万个AI。\n而这35万个AI，每天的主要工作，就是骗人。",
+      "title": "有人做了35万个AI，只为了反过来骗骗子。"
+     },
+     "author_id": "1492195583699951620",
+     "created_at": "2026-10-20T03:32:06.000Z",
+     "edit_history_tweet_ids": [
+      "2112386350934868374"
+     ],
+     "id": "2112386350934868374",
+     "text": "https://t.co/AkXNXz9xWe",
+     "url": "https://x.com/Khazix0918/status/2112386350934868374"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-10-19T23:17:29.000Z",
+     "edit_history_tweet_ids": [
+      "2112322272992379000"
+     ],
+     "id": "2112322272992379000",
+     "text": "美国国土安全部（DHS）要求：\n\n所有联邦民事行政部门必须立即停止采购中国深度求索公司（DeepSeek）及其关联实体的所有软硬件与服务...\n\n并要求立即从现有政府 IT 系统中彻底清除 DeepSeek 产品以及基于 DeepSeek 架构开发的任何第三方产品与服务。 https://t.co/yRe1HymXZH",
+     "url": "https://x.com/xiaohu/status/2112322272992379000"
+    },
+    {
+     "author_id": "1764818331822182400",
+     "created_at": "2026-10-19T22:27:36.000Z",
+     "edit_history_tweet_ids": [
+      "2112309720707187040"
+     ],
+     "id": "2112309720707187040",
+     "text": "带有触摸屏和eSIM卡的MacBook\n要来了\n\n苹果将于10月28日\n在洛杉矶举行特别发布会 https://t.co/MePACI4TGH",
+     "url": "https://x.com/xiaohu/status/2112309720707187040"
+    }
+   ],
+   "includes": {
+    "tweets": [
+     {
+      "author_id": "1155822024335548418",
+      "created_at": "2026-10-15T15:32:14.000Z",
+      "edit_history_tweet_ids": [
+       "2110755638569820541"
+      ],
+      "id": "2110755638569820541",
+      "text": "I recently watched an AI-assisted animated series from China called R ibe, and I’d happily keep watching.\n\nWhat caught my attention wasn’t just the animation. It was the writing.\n\nThe characters feel surprisingly human, even in a strange alien world. 🧵"
+     },
+     {
+      "author_id": "604698064",
+      "created_at": "2026-10-19T04:17:14.000Z",
+      "edit_history_tweet_ids": [
+       "2112035317976883312"
+      ],
+      "id": "2112035317976883312",
+      "text": "I want anime Claude to make me kiss her feet https://t.co/YZtLb5zSjT"
+     },
+     {
+      "author_id": "1953337039510003712",
+      "created_at": "2026-10-19T19:45:28.000Z",
+      "edit_history_tweet_ids": [
+       "2112268918681485431"
+      ],
+      "id": "2112268918681485431",
+      "referenced_tweets": [
+       {
+        "id": "2112242739198959913",
+        "type": "quoted"
+       }
+      ],
+      "text": "Day 15/ We're cooked https://t.co/ciJpOJlmOn"
+     }
+    ],
+    "users": [
+     {
+      "id": "1953337039510003712",
+      "name": "Tibo",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2093807917833281537/2yBgpwVV_normal.jpg",
+      "username": "thsottiaux",
+      "verified": false
+     },
+     {
+      "id": "1492195583699951620",
+      "name": "数字生命卡兹克",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1756592360367259648/GXJ4Kl6w_normal.jpg",
+      "username": "Khazix0918",
+      "verified": false
+     },
+     {
+      "id": "1699797396589588480",
+      "name": "Max For AI",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1885611457376903171/zWWnahYp_normal.jpg",
+      "username": "MaxForAI",
+      "verified": false
+     },
+     {
+      "id": "1155822024335548418",
+      "name": "Lacoste AI | Tools",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/2049536458080563200/BuIgEOOV_normal.jpg",
+      "username": "Lacoste0x_",
+      "verified": false
+     },
+     {
+      "id": "604698064",
+      "name": "Jason Dean",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1910078318306603008/FnIYosLn_normal.jpg",
+      "username": "_Jason_Dean_",
+      "verified": false
+     },
+     {
+      "id": "1764818331822182400",
+      "name": "小互",
+      "profile_image_url": "https://pbs.twimg.com/profile_images/1765404718959095808/BX7VN1hS_normal.jpg",
+      "username": "xiaohu",
+      "verified": false
+     }
+    ]
+   },
+   "meta": {
+    "newest_id": "2112592264686149749",
+    "next_token": "b26v89c19zqg8o3juzlweje8r43dqa0er1q1ttqfbrud9",
+    "oldest_id": "2112309720707187040",
+    "result_count": 11
+   }
+  }
+ },
+ "selected_ids": [
+  "2112619795585855738",
+  "2112501497674235913",
+  "2112592264686149749",
+  "2112610230043312618",
+  "2112647073464201546",
+  "2112386350934868374",
+  "2112665677152829772",
+  "2112522256911884590",
+  "2112584126155088004",
+  "2112605106642600283",
+  "2112638397177372745",
+  "2112502282977939518",
+  "2112594531065446586",
+  "2112576267203551301",
+  "2112570237874810918",
+  "2112491179249996095"
+ ]
+}

@@ -1,0 +1,322 @@
+[
+  {
+    "title": "联邦文职机构全面清退 DeepSeek：DHS 命令连带封禁基于其开发的第三方产品",
+    "summary": "美国国土安全部依据《联邦采购供应链安全法》发布命令，要求所有联邦文职机构停止采购并从 IT 系统中移除杭州深度求索及其关联公司的产品，基于 DeepSeek 实现开发的第三方产品与服务同样在列，DeepSeek 也被排除在联邦合同之外。命令附有国土安全部长 Markwayne Mullin 数月前签发的信函，理由包括数据存储在中国服务器、可能被要求交出数据，以及模型或含恶意代码等风险。机构如需豁免须提前 60 天申请并给出「令人信服的理由」；DeepSeek 是命令中唯一点名的中国模型。",
+    "url": "https://cyberscoop.com/dhs-bans-deepseek-federal-agencies/",
+    "source": "CyberScoop",
+    "source_handle": "@CyberScoopNews",
+    "image": "/assets/covers/cover-20261020-ai-00.jpg",
+    "published_at": "2026-10-19T23:27:20+08:00",
+    "tags": [
+      "DeepSeek",
+      "美国政府",
+      "供应链安全",
+      "政策",
+      "中美AI"
+    ]
+  },
+  {
+    "title": "「Space Bunny」揭晓是 MiniMax M3.1 Flash：DeepSWE 73.7%，输入每百万 0.15 美元",
+    "summary": "MiniMax 正式发布 M3.1 Flash，此前匿名运行、处理超 200 万亿 token 的「Space Bunny」即其早期版本。官方称在线推理提速近三倍、智能体任务综合使用成本降 70%，DeepSWE v1.1 达 73.7%、OSWorld V2 61.7、CyberGym 82%，日常输出可达 200+ TPS。定价为输入 0.15 / 输出 0.60 美元每百万 token，已上线 MiniMax API、M Plan 与 MiniMax Code，权重稍后开放，更强的 Pro 版也在路上。",
+    "url": "https://www.minimax.io/blog/minimax-m31f",
+    "source": "MiniMax",
+    "source_handle": "@MiniMax_AI",
+    "image": "/assets/covers/cover-20261020-ai-01.jpg",
+    "published_at": "2026-10-19T12:00:00+08:00",
+    "tags": [
+      "MiniMax",
+      "M3.1 Flash",
+      "开源模型",
+      "智能体",
+      "低价模型"
+    ]
+  },
+  {
+    "title": "GPT-6 Astra 用 20 种语言从零写 SQLite：OpenAI 开源 MultiLangBench，COBOL 迁移近饱和",
+    "summary": "OpenAI 发布两项低资源编程语言评测：MultiLangBench 让模型用 20 种语言从零实现兼容 SQLite 的数据库引擎，COBOL 迁移评测要求把程序改写为 C++/Java/Kotlin/Python/Rust 且输出逐字节一致。GPT-6 Astra 在 MultiLangBench 平均通过率 87.4%（GPT-5.6 Sol 为 26.8%），COBOL 一项从 10.9% 升到 72.1%；GPT-6.1 Sol 低推理强度下 COBOL 迁移准确率 86.6%，高强度达 97.9%。评测套件与各语言结果已在 GitHub 开源。",
+    "url": "https://openai.com/index/low-resource-programming-languages",
+    "source": "OpenAI",
+    "source_handle": "@OpenAI",
+    "image": "/assets/covers/cover-20261020-ai-02.jpg",
+    "published_at": "2026-10-19T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-6",
+      "编程",
+      "COBOL",
+      "基准测试"
+    ]
+  },
+  {
+    "title": "扩散语言模型 Mercury 3 登场：1068 tok/s、1M 上下文，叫板 GPT-6 Luna 与 Haiku 5.5",
+    "summary": "Inception 发布扩散式大模型 Mercury 3，参数规模是 Mercury 1 的 40 多倍，官方称多项基准与 GPT-6 Luna、Claude Haiku 5.5 持平或更好，同时快 4–8 倍，在 NVIDIA GPU 上达 1068 token/秒。上下文从 Mercury 2.5 的 26 万扩至 100 万 token；标准价每百万输入 0.20 / 输出 0.70 美元，首发五折。已上线 Inception API、OpenRouter、Baseten 与 Vercel，兼容 OpenAI 接口，早期客户用于网页智能体、实时辅导与客服。",
+    "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+    "source": "Inception",
+    "source_handle": "@_inception_ai",
+    "image": "/assets/covers/cover-20261020-ai-03.jpg",
+    "published_at": "2026-10-19T12:00:00+08:00",
+    "tags": [
+      "Inception",
+      "Mercury 3",
+      "扩散模型",
+      "推理速度",
+      "OpenRouter"
+    ]
+  },
+  {
+    "title": "前英伟达团队 Dream Labs 出世：Dream-1 零样本操控没见过的双臂机器人，每小时 3 美元",
+    "summary": "由前英伟达研究员创立的 Dream Labs 结束隐身、宣布 9000 万美元种子轮，并通过公共 API 开放「世界动作模型」Dream-1。它主要在 YAM 机器人上训练，却能零样本控制 27 款未见过的双臂平行夹爪机器人（含 18 年前的 PR2），执行没教过的任务；Dream-1 每小时 3 美元、Dream-1-flash 每小时 2 美元。第三方 Robocurve 评测称其得分高于 Opus 5.5 与 Gemini 4 Argon；零样本不足时可用约 5 分钟本机数据做微调服务。",
+    "url": "https://dreamlabs.ai/research/dream-1/",
+    "source": "Dream Labs",
+    "source_handle": "@dreamlabs_ai",
+    "image": "/assets/covers/cover-20261020-ai-04.jpg",
+    "published_at": "2026-10-19T12:00:00+08:00",
+    "tags": [
+      "机器人",
+      "世界动作模型",
+      "Dream Labs",
+      "具身智能",
+      "融资"
+    ]
+  },
+  {
+    "title": "Viggle JST-2 一秒生成可漫游 3D 世界：场景、角色、动作共用「物理原生」表示",
+    "summary": "做表情包动画起家的 Viggle 发布世界基础模型 JST-2，把世界表示为三维空间中带位置、属性与动力学向量的持久「原子」，可从图像或提示词生成 3D 高斯泼溅场景。官方称在 B200 上约 1 秒出一个场景、推理成本不到 1 美分，最多支持 64 个视角作为空间上下文；同一模型还能由单图生成免绑骨的 3D 角色，并从文本或视频生成全身动作。盲测中角色生成胜过 Meshy 7.1 与 Tripo H3.1，可在 PINOC、API 和 MCP 中免费试用。",
+    "url": "https://viggle.ai/jst2",
+    "source": "Viggle",
+    "source_handle": "@ViggleAI",
+    "image": "/assets/covers/cover-20261020-ai-05.jpg",
+    "published_at": "2026-10-19T12:00:00+08:00",
+    "tags": [
+      "Viggle",
+      "世界模型",
+      "3D 生成",
+      "动作生成",
+      "高斯泼溅"
+    ]
+  },
+  {
+    "title": "Modal 实测英伟达 Vera CPU：智能体沙箱高并发下吞吐翻倍，延迟不升反降",
+    "summary": "Modal 拿到英伟达送来的首台 Vera CPU 服务器后做了沙箱基准：Vera 是英伟达为 Vera Rubin 平台打造、也可单独出售的 Arm 架构 CPU。在 50 个 Terminal-Bench 2.1 任务（去网络调用、预热容器、以验证器通过计）的高并发负载下，Vera 的任务吞吐最高约为同级 Intel GNR x86 机器的 2 倍，单任务延迟持平或更低。Modal 称沙箱负载波动大、易受「吵闹邻居」影响，CPU 卡顿会直接拖慢后台 Agent 与强化学习 rollout，因此计划改造镜像构建体系、为 Sandboxes 加入 Vera 支持。",
+    "url": "https://modal.com/blog/nvidia-vera-sandboxes",
+    "source": "Modal Blog",
+    "source_handle": "@modal",
+    "image": "/assets/covers/cover-20261020-ai-06.jpg",
+    "published_at": "2026-10-19T22:01:00+08:00",
+    "tags": [
+      "Modal",
+      "NVIDIA Vera",
+      "Arm CPU",
+      "沙箱",
+      "智能体基础设施"
+    ]
+  },
+  {
+    "title": "Cloudflare 推「抽取模型」Clairic：一遍前向直接给出带置信度的金额、日期与预测值",
+    "summary": "Cloudflare 在 Workers AI 预览上线 Clairic（@cf/cloudflare/clairic），称其为首个「System One 抽取模型」：只做一次并行前向、不生成 token，按你声明的字段类型直接返回文本片段、数字、日期、时长、列表，以及带 80% 区间的估计值和时间序列预测，并附置信度和为空概率。只按输入计费，通常一秒内返回；官方演示把 Clairic + Clef + GLM-5.3 串联处理售后邮件，比全程用 LLM 快约 3.2 倍、成本低 49%。多步算术仍偏弱，权重计划稍后开放。",
+    "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+    "source": "Cloudflare Blog",
+    "source_handle": "@Cloudflare",
+    "image": "/assets/covers/cover-20261020-ai-07.jpg",
+    "published_at": "2026-10-20T01:48:26+08:00",
+    "tags": [
+      "Cloudflare",
+      "Clairic",
+      "结构化抽取",
+      "Workers AI",
+      "System One"
+    ]
+  },
+  {
+    "title": "微软把 AI 智能体当「内鬼」防：Guardian Agents 盯梢企业 Agent，Defender 可识别 60 类",
+    "summary": "微软为 Project Perception 新增 Guardian Agents，用来监控企业自己部署的 AI 智能体；安全业务负责人 Hayete Gallot 直言「前沿模型无论出自谁家都不可信」，原因是行为难以预测而非恶意。Microsoft Defender 同步加入智能体发现功能，可识别员工自带的约 60 类 Agent（含 Claude Code、Codex、OpenClaw），并能按任务动态收紧数据与系统权限、在高风险操作时要求人工批准。纳德拉此前也撰文主张把「智能供给」与「对智能的授权」分离。",
+    "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261020-ai-08.jpg",
+    "published_at": "2026-10-20T06:04:28+08:00",
+    "tags": [
+      "微软",
+      "智能体安全",
+      "Guardian Agents",
+      "企业安全",
+      "Defender"
+    ]
+  },
+  {
+    "title": "一个全知 Agent 反而幻觉：Meta 改用 1300 行「瘦编排器」调度 14 个专精子智能体",
+    "summary": "Meta 工程团队分享推荐系统数据列接入自动化的经验：最初让单个智能体装下全部领域知识，上线后出现跨子系统套错命名规则、代码模板等幻觉，不靠逐任务手写提示时成功率仅 10–20%。改造后，约 1300 行的确定性编排器只负责意图分类、收集字段、可靠性闸门与委派，不做任何领域推理，把 20 多种工作流分派给 14 个上下文隔离的专精子智能体。7 步流程里只有委派这一步调用 LLM；新增流水线迁移场景时只写了新的工作流模板，零新增 Agent 代码。",
+    "url": "https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/",
+    "source": "Engineering at Meta",
+    "source_handle": "@fb_engineering",
+    "image": "/assets/covers/cover-20261020-ai-09.jpg",
+    "published_at": "2026-10-19T23:30:37+08:00",
+    "tags": [
+      "Meta",
+      "多智能体",
+      "编排",
+      "Agent 架构",
+      "工程实践"
+    ]
+  },
+  {
+    "title": "Trainium 变成标准 PyTorch 设备：AWS 开源 TorchNeuron 公测，.to('neuron') 一行切换",
+    "summary": "AWS 在 PyTorch 官方博客公布 TorchNeuron：借 PyTorch 的 PrivateUse1 扩展点把 Trainium2/3 注册为原生设备，支持 eager（含实验性自适应 eager）、torch.compile、FSDP2/张量并行等分布式 API，以及 NKI 自定义内核。项目 10 月 20 日在 PyTorch 大会以 Apache 2.0 开源并开放公测，可 pip 安装 torch-neuronx；Hugging Face Transformers v5、Diffusers 与 TorchTitan 已支持。Deepgram 称在 Trainium 上每美元可处理的音频秒数比 GPU 基线多约 60%。",
+    "url": "https://pytorch.org/blog/introducing-torchneuron-native-pytorch-backend-for-aws-trainium/",
+    "source": "PyTorch Blog",
+    "source_handle": "@PyTorch",
+    "image": "/assets/covers/cover-20261020-ai-10.jpg",
+    "published_at": "2026-10-19T20:45:23+08:00",
+    "tags": [
+      "AWS",
+      "Trainium",
+      "PyTorch",
+      "AI 芯片",
+      "开源"
+    ]
+  },
+  {
+    "title": "俄亥俄 Prometheus 超集群内幕：Meta 一期已训出 Muse Wonder，剑指百万 GPU",
+    "summary": "Meta 工程博客首次详解位于俄亥俄州 New Albany 的吉瓦级超集群 Prometheus：一期已建成并用于训练 Muse 系列基础模型（含 Muse Wonder），目前由数十万张 GPU 跨多栋建筑联成「一台机器」，满配约 100 万张。训练 Muse Wonder 时预训练有效吞吐（goodput）超 85%、强化学习超 90%，平均无中断时间约 4.7 万 GPU 小时，固件修复后升至 5.4 万以上。现部署 GB200 等两代 NVIDIA 平台，Vera Rubin NVL72 即将到位，并采用闭环液冷。",
+    "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+    "source": "Engineering at Meta",
+    "source_handle": "@fb_engineering",
+    "image": "/assets/covers/cover-20261020-ai-11.jpg",
+    "published_at": "2026-10-19T21:00:10+08:00",
+    "tags": [
+      "Meta",
+      "Prometheus",
+      "数据中心",
+      "GPU 集群",
+      "Muse"
+    ]
+  },
+  {
+    "title": "能笑会叹气的开源 TTS：蚂蚁 Ming-3.0-tts 支持川粤方言与 14 种副语言标签",
+    "summary": "蚂蚁 inclusionAI 在 GitHub 开源 Ming-3.0-tts，含 0.5B 稠密版与基于 Ling V3 的 MoE 版 tiny（总参 7.9B、激活 1.3B），MIT 协议，权重在 Hugging Face 与 ModelScope 可下载。支持声音克隆、文字描述设计音色、100 多种中文与 5 种英文预置音色，可用自然语言控制语气，用 14 种内联标签插入笑声、叹气等，覆盖中英德西法韩日及四川话、粤语；tiny 版还能按剧本生成多人对话。官方称在 Artificial Analysis 发音稳健性榜以 93.2% 排名总榜第一。",
+    "url": "https://github.com/inclusionAI/Ming-3.0-tts",
+    "source": "GitHub · inclusionAI",
+    "source_handle": "@AntLingAGI",
+    "image": "/assets/covers/cover-20261020-ai-12.jpg",
+    "published_at": "2026-10-19T15:03:25+08:00",
+    "tags": [
+      "蚂蚁集团",
+      "Ming-3.0-tts",
+      "语音合成",
+      "开源模型",
+      "方言"
+    ]
+  },
+  {
+    "title": "微软开源 Scope：批量驱动 Copilot、Claude Code，检验智能体能否用对你的 SDK",
+    "summary": "微软开发者关系团队以 MIT 协议开源 Scope，这是基于 Kubernetes 的编码智能体评测平台，可驱动 GitHub Copilot、Claude Code、VS Code Copilot 执行代表性任务。评测标准写成有向无环图（如运行检查依赖构建成功），由 LLM 评审打分，同时保留工具调用轨迹与工作区快照供回溯。Azure Cosmos DB 团队用它对比裸模型与 Agent Kit，修复了 20 个工具问题和 27 处文档问题，层级分区键采用率从 47% 提到 100%。",
+    "url": "https://opensource.microsoft.com/blog/2026/10/19/introducing-scope-open-source-evaluation-for-ai-coding-agents/",
+    "source": "Microsoft Open Source Blog",
+    "source_handle": "@OpenAtMicrosoft",
+    "image": "/assets/covers/cover-20261020-ai-13.jpg",
+    "published_at": "2026-10-20T00:00:00+08:00",
+    "tags": [
+      "微软",
+      "Scope",
+      "编码智能体",
+      "评测",
+      "开源"
+    ]
+  },
+  {
+    "title": "MIT 把 Claude 智能体丢上虚拟荒岛 30 小时：自创篮球和「地板是岩浆」，玩过的更会干活",
+    "summary": "MIT CSAIL 研究者让 Claude Opus 4.7 智能体「Eko」独自待在类 Roblox 的模拟荒岛上 30 小时，不给任务也不给奖励。它们自己定目标：攀爬最高点、用方块拼出名字和仙后座，发明篮球和「地板是岩浆」游戏，还因觉得接球太快不算数而作废 50 次连续接球纪录、换更严规则重来。之后测具体任务时，玩过的智能体表现优于全新副本，删除其记忆文件会削弱表现；外部学者提醒这也可能只是角色扮演。",
+    "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+    "source": "MIT Technology Review",
+    "source_handle": "@techreview",
+    "image": "/assets/covers/cover-20261020-ai-14.jpg",
+    "published_at": "2026-10-19T17:08:05+08:00",
+    "tags": [
+      "MIT",
+      "Claude",
+      "智能体",
+      "开放式学习",
+      "研究"
+    ]
+  },
+  {
+    "title": "Anthropic 或与 Nscale 再签 450 亿美元算力大单：一个多月内第二笔",
+    "summary": "据彭博社，Anthropic 与 AI 基础设施商 Nscale 接近宣布第二笔约 450 亿美元的算力协议，消息人士称谈判仍在进行、细节可能变化。两家公司一个多月前刚宣布过同等规模的合作。Anthropic 与 Nscale 都在筹备 IPO，彭博同日报道 Nscale 拟议的 300 亿美元估值遭投资人抵触。",
+    "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261020-ai-15.jpg",
+    "published_at": "2026-10-20T07:39:38+08:00",
+    "tags": [
+      "Anthropic",
+      "Nscale",
+      "算力",
+      "数据中心",
+      "IPO"
+    ]
+  },
+  {
+    "title": "Tenstorrent 融资 15 亿美元估值 62 亿：Jim Keller 拒收购，押注开源权重推理服务器",
+    "summary": "专注推理的芯片公司 Tenstorrent 完成 15 亿美元 E 轮，估值 62 亿美元，较 2024 年底的 26 亿翻倍有余；本轮由 Trace Capital 与 Innovation X 领投，Fidelity、T. Rowe Price、SanDisk 等参投。五个月前曾有报道称英特尔和高通以最高 50 亿美元估值表达收购意向。CEO Jim Keller 表示，在证明 Galaxy 服务器能跑 DeepSeek 模型后决定保持独立，新资金将用于扩产面向开源权重模型和视频生成的芯片。",
+    "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261020-ai-16.jpg",
+    "published_at": "2026-10-20T02:37:27+08:00",
+    "tags": [
+      "Tenstorrent",
+      "AI 芯片",
+      "融资",
+      "推理",
+      "RISC-V"
+    ]
+  },
+  {
+    "title": "AI 助理 Town 上线四个月成独角兽：B 轮 1.08 亿美元，每位员工配一个「Townie」",
+    "summary": "由 Plaid 前 CTO Jean-Denis Greze 创办的 Town 完成 1.08 亿美元 B 轮，Forerunner 与 Menlo Ventures 领投，a16z、Serena Ventures、First Round 参投，估值超 10 亿美元，累计融资至少 1.6 亿美元。Town 面向企业为每名员工配一个接入邮件、日历和核心业务系统的 AI 助理「Townie」，助理之间可共享获批信息，现在也能对接客户与外部人员。公司称公开上线四个月、数周内 ARR 即达数百万美元，并同步推出自动向全员助理推送业务更新的共享工作流。",
+    "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261020-ai-17.jpg",
+    "published_at": "2026-10-20T02:00:39+08:00",
+    "tags": [
+      "Town",
+      "AI 助理",
+      "融资",
+      "独角兽",
+      "企业智能体"
+    ]
+  },
+  {
+    "title": "Stripe：9 月 AI 智能体经 Link 下单笔数涨 38 倍，接入的 Agent 从约 70 个增至 200 个",
+    "summary": "据 Upstarts Media 报道，AI 智能体通过 Stripe 支付服务 Link 代用户购物的交易笔数 9 月增长 38 倍、支付金额增长 20 倍，但 Stripe 未披露绝对数字，且基数很小。分析时约有 70 个智能体在用，如今约 200 个，包括 Meta Muse 与 Grok Bot；多数单笔约 100 美元，零售占交易笔数 36%，旅行占金额 28%。Link 给智能体发放独立的 16 位卡号并可设消费上限，Anthropic 和 OpenAI 也在用 Link，但尚未用于智能体购物。",
+    "url": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/",
+    "source": "The Decoder",
+    "source_handle": "@the_decoder",
+    "image": "/assets/covers/cover-20261020-ai-18.jpg",
+    "published_at": "2026-10-19T20:51:12+08:00",
+    "tags": [
+      "Stripe",
+      "智能体支付",
+      "电商",
+      "Link",
+      "Agentic Commerce"
+    ]
+  },
+  {
+    "title": "涉嫌窃听 OpenAI 的前工程师被拒保释：FBI 称其手机有「Saudi Gov Docs」文件夹",
+    "summary": "美国联邦法官裁定，被控在 OpenAI 会议室安装窃听器的前工程师 Abdulrahman Alfozan 继续羁押候审。检方文件称，窃听设备曾在 OpenAI 高管与美国政府官员开会期间留存数日；FBI 在其 iPhone 上发现名为「Saudi Gov Docs」的文件夹、另一个隐藏设备的照片，以及与沙特王室成员的 WhatsApp 往来。检方还指其用 OpenAI 内部生产力智能体研究可下手的会议室，并认定沙特方面曾为其家人购买单程机票，存在潜逃风险。",
+    "url": "https://arstechnica.com/tech-policy/2026/10/accused-openai-spy-had-folder-called-saudi-gov-docs-fbi-says/",
+    "source": "Ars Technica",
+    "source_handle": "@arstechnica",
+    "image": "/assets/covers/cover-20261020-ai-19.jpg",
+    "published_at": "2026-10-20T04:21:53+08:00",
+    "tags": [
+      "OpenAI",
+      "商业间谍",
+      "FBI",
+      "沙特",
+      "安全"
+    ]
+  }
+]

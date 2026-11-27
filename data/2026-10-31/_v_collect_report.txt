@@ -1,0 +1,45 @@
+大V视野收集报告 — 2026-10-31（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-10-29T16:00:00Z（约 32–36 小时），max_results=25；@testingcatalog meta 无 next_token，未翻页（窗口内 22 条）
+- 长文/截断补全：get_posts_by_ids 三批（卡兹克 X Article「蓝色大肥鱼」全文；Max RSI / Apple Intelligence / DSH Go / Self-Assessment 等 note_tweet；Tibo Day 25、逸尘弃 Claude、TestingCatalog Claude Ultra 澄清 / Jules / Maket / Daily Brief / Grok Bot 1.0 / Canva Brush 等；小互 Neuralink note_tweet）
+- 未使用浏览器；未使用 user-X；约 9 次 X 读取（6 次 get_users_posts + 3 次 get_posts_by_ids）
+
+入选：13 条
+各 handle 入选计数：
+  @Khazix0918: 2（X Article 蓝色大肥鱼长文；Qwen 3.8 Flash 替换 Opus 5.5 自动化）
+  @MaxForAI: 3（国行 Apple Intelligence×阿里千问；RSI/模型进步长帖引用 @levie；DSH Go 安卓 DeepSeek Harness）
+  @xiaohu: 2（Neuralink Telepathy 意念驱动 Grok Bot，并入自回复马斯克表述；Claude 手机多账号）
+  @thsottiaux: 0（Day 25 用量翻倍三帖均为昨日 selected）
+  @testingcatalog: 5（Claude Ultra 更名+10x 澄清两帖合并；Jules 关停+Antigravity Running 两帖合并；Suncatcher 卫星 TPU；Grok Bot 稳定版+语音语种两帖合并；Maket Move Rooms 主帖+自回复）
+  @gengdaJ: 1（弃 Claude 官方订阅，改 Claude 桌面端+DeepSeek + Codex）
+
+原始拉取条数摘要：
+  @Khazix0918: 2
+  @MaxForAI: 11
+  @xiaohu: 7
+  @thsottiaux: 3
+  @testingcatalog: 22（无 next_token）
+  @gengdaJ: 2
+
+Lead：卡兹克长文：DeepSeek 的尽头是一条会喊你爸爸的蓝色大肥鱼——从 Logo 认错、鲸鱼娘二创到桌宠/QQ/B 站「鱼灾」，再到濠梁之辩
+Lead URL：https://x.com/Khazix0918/status/2116021601661841549
+（卡兹克 X Article 原创长文，信息密度最高；次选为 Max 国行 Apple Intelligence 官宣解读）
+
+筛选说明：
+- 跳过梗图/玩笑：Max「人类一败涂地」「最贵点击链接」「为国模之崛起」打印图、Sam Altman RAM 玩笑；小互「AI泡沫破裂」图表、「人类一败涂地」视频
+- 跳过非 AI 主线：小互 Binance 被盗（加密货币，「AI开始发力了？」仅为猜测）
+- 跳过昨日 selected / 同题：Max Interaction Bench、黄仁勋/Megaspeed；小互 Codex 用量翻倍；Tibo Day 25 三帖；TestingCatalog Canva Brush、Antigravity 插件市场、Anthropic self-assessment、Claude 小更新、用量翻倍、Snaptrude；Max Claude Self-Assessment 长帖（与昨日 TestingCatalog self-assessment 同题）
+- 跳过汇总/低价值：TestingCatalog Daily AI Brief Oct 30；documented 自回复链接；Google+ 坟墓玩笑回复
+- 去重：对照 data/2026-10-31/_prior_urls.json（434 URL）、2026-10-20..10-30 的 v.json/ai.json 与昨日 _v_raw_mcp.json selected_ids；入选 13 条及其合并帖均无重复
+- 合并：小互 Neuralink 主帖+自回复；TC Claude Ultra 更名+澄清；TC Jules+Running；TC Grok Bot 1.0+语音；TC Maket 主帖+自回复
+- 三位优先账号：卡兹克 2、Max 3、小互 2
+
+输出文件：
+  data/2026-10-31/v.json
+  data/2026-10-31/_cover_prompts_v.json
+  data/2026-10-31/_v_raw_mcp.json
+  data/2026-10-31/_v_collect_report.txt
+
+未执行：build / 生图 / 发布 / 通知用户

@@ -1,0 +1,302 @@
+[
+  {
+    "title": "英伟达宣布 CEO 交接：黄仁勋即刻辞去总裁、CEO 及董事职务，CFO Colette Kress 出任临时 CEO，Harvey Jones 成为公司史上首位董事会主席",
+    "summary": "据英伟达 11 月 12 日官方新闻稿：董事会宣布黄仁勋即日起辞去总裁、首席执行官及董事会成员职务；执行副总裁兼 CFO Colette Kress 同意出任临时 CEO，并在继任者确定前继续兼任 CFO，董事会已启动永久 CEO 遴选、内外部人选均在考虑范围。Kress 自 2013 年 9 月加入英伟达，此前在思科、微软等公司从事财务工作近 25 年。董事会同时任命前 Synopsys CEO/执行董事长 Harvey C. Jones 为英伟达首位董事会主席，称公司运营、客户承诺与产品路线图将“不受干扰地继续”；Kress 表示将在黄仁勋“过去 33 年打下的非凡基础”上继续推进。新闻稿未说明辞任原因。英伟达 2027 财年第三季度财报仍按原计划于美西时间 11 月 17 日（周二）下午 1:20 左右发布、2 点召开电话会。",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "source": "NVIDIA Newsroom",
+    "published_at": "2026-11-13T06:00:00+08:00",
+    "tags": [
+      "NVIDIA",
+      "黄仁勋",
+      "CEO",
+      "公司治理",
+      "芯片"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-00.jpg"
+  },
+  {
+    "title": "Anthropic 上线 IPO 官网：三季度营收 170 亿美元、同比超 12 倍，拟以代码“ANT”登陆纳斯达克，11 月 18 日定价、19 日开始交易",
+    "summary": "据 Anthropic IPO 官网 ipo.anthropic.com：公司已向美国证监会提交注册声明及招股书，路演自美东时间 11 月 10 日开始，在监管许可前提下预计 11 月 18 日确定最终发行价、11 月 19 日起在纳斯达克以代码“ANT”交易 A 类普通股，散户可通过参与 IPO 的券商平台提交认购意向，招股书可从高盛、摩根士丹利获取。官网披露 2026 年第三季度财务亮点：营收 170 亿美元，同比超 12 倍；TTM 贡献收入≥10 万美元的客户超 11,900 家、同比超 12 倍；算力效率自 2025 年一季度以来提升超 4 倍；调整后营业利润率 15%、GAAP 营业利润率 -3%；净亏损 233 亿美元，其中 219 亿美元为可转债、衍生负债及 SAFE 公允价值变动带来的非现金费用。官网还附 11 章节路演视频与 Legora、礼来、乐天、Salesforce 等客户案例（如礼来 5 万余名员工可用 Claude Enterprise）。",
+    "url": "https://ipo.anthropic.com",
+    "source": "Anthropic",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "纳斯达克",
+      "财报",
+      "Claude"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-01.jpg"
+  },
+  {
+    "title": "Google DeepMind 发布 Gemini 4 Hydrogen：主打快速编码与 Agent 执行，Artificial Analysis 指数 51 超过 Argon，100 万上下文统一价每百万 token 1.5/7.5 美元",
+    "summary": "据 Google DeepMind 11 月 12 日官方博客（Koray Kavukcuoglu 署名）：Gemini 4 Hydrogen 定位“快速执行”模型，与擅长长程深度推理的 Carbon、Argon 互补，并首次把 Gemini 4 带给所有层级——Google AI Studio、Gemini API、Gemini for business、Gemini 应用、Google 搜索及 Antigravity（付费 Pro/Ultra）。默认 high 思考档在 Artificial Analysis 智能指数得 51（Argon 为 50），xhigh 档达 54；整个 100 万 token 上下文统一定价输入 1.50 美元、输出 7.50 美元/百万 token，最多 100 万输出 token，提供 low/medium/high/xhigh 四档思考。相比 Gemini 3.8 Flash：任务完成快 2.5 倍、Terminal-Bench 4.1 从 18.2% 升至 57%、虚构陈述减少 5 倍以上，合作方实测快 2–2.8 倍、token 少 12%–23%；HLE-Diamond 58.8%、Vals Tax Agent Bench 52.3% 第一、Agent Arena 第 5。Antigravity 同步推出 Orchestrator，在会话内自动切换 Carbon/Hydrogen，Terminal-Bench 4.0 上接近 Carbon 成功率、配额少 24%、快 19%。安全方面称代理越权减少最多 81%、错位行为降 12 倍、Gray Swan 间接注入抵抗力提升 2.3 倍以上；免费用户经自动选模使用。",
+    "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+    "source": "Google DeepMind Blog",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "Google",
+      "Gemini 4",
+      "Hydrogen",
+      "Agent",
+      "模型发布"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-02.jpg"
+  },
+  {
+    "title": "美国民主党启动英伟达对华芯片销售调查：致函商务部长卢特尼克要求保存记录，质疑 H200 “先运美国再征关税”安排；黄仁勋同意赴共和党主导委员会闭门作证",
+    "summary": "据 TechCrunch 美西时间 11 月 12 日报道：众议院筹款委员会首席民主党人 Richard Neal 与参议院财政委员会首席民主党人 Ron Wyden 发起调查，致函商务部长 Howard Lutnick 要求保存相关记录。信中称特朗普同意 H200 对华销售的条件是台湾制造的芯片先运抵美国并加征关税，“实际上通过疑似违宪的出口税抽成”，再由商务部发放出口许可；并质疑商务部在据报获情报部门通报后仍允许新加坡公司 Megaspeed（被美方怀疑协助将先进芯片转运中国，其高管 Alice Huang 被指为中国间谍、与黄仁勋有婚外情）购芯片，以及批准多家“登记地址无实体”的亚洲公司采购；信件还提到英伟达向特朗普项目（含宴会厅）捐赠 2600 万美元。作为少数党，二人只能提问、无法强制回答。这是丑闻曝光后第二起国会调查：由众院中共问题特别委员会、外交委员会、情报委员会组成的共和党一方此前要求黄仁勋闭门作证并威胁传唤，他在辞职当天同意出席。",
+    "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+    "source": "TechCrunch",
+    "published_at": "2026-11-13T06:42:00+08:00",
+    "tags": [
+      "NVIDIA",
+      "出口管制",
+      "国会调查",
+      "H200",
+      "中国"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-03.jpg"
+  },
+  {
+    "title": "OpenAI 推出 Daybreak Red Team 与 Defense Factory：多智能体自动渗透测试 Web 应用、验证漏洞报告并生成可合并补丁，布罗克曼称“企业安全取决于防守所用的前沿模型”",
+    "summary": "据 OpenAI Daybreak Red Team 产品页与 The Register 11 月 12 日报道：OpenAI 在 Daybreak 安全平台下新推两款产品。Red Team（早期访问）让一组协同智能体利用源代码与应用上下文调查攻击路径、确认 Web 应用漏洞，也可验证来自代码扫描器、漏洞赏金与披露报告的发现，并在打补丁后复测补丁能否阻断利用；通过隔离环境与 Guardian 审查强制执行测试范围，控制智能体可触达的应用与端点。Defense Factory 自动化“发现—验证—修复”防御闭环，基于当前网络安全模型 GPT-6 Cyber 的智能体扫描代码库、生成补丁，工程师审核后合入，交付“附带证明有效的测试的可合并 PR”。总裁 Greg Brockman 在主题演讲中称：“企业的安全程度，将只取决于它用来防守的前沿模型以及使用得多好。”",
+    "url": "https://openai.com/daybreak/red-team/",
+    "source": "OpenAI",
+    "published_at": "2026-11-13T04:48:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Daybreak",
+      "网络安全",
+      "渗透测试",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-04.jpg"
+  },
+  {
+    "title": "Thinking Machines 开放 Inkling 2 Small 权重（Apache 2.0）：594B 总参数、17B 激活的多模态 MoE，100 万上下文，NVFP4 原生训练，两张 B300 即可运行",
+    "summary": "据 Thinking Machines 11 月 12 日更新及官方模型卡：Inkling 2 Small 权重已在 Hugging Face 以 Apache 2.0 开放下载，兑现 11 月 5 日发布时“完成外部安全测试与红队后下周开放”的承诺（更新未披露测试结果）；已接入 Unsloth、SGLang、vLLM、TokenSpeed，可用 Miles、SkyRL、Snowflake Cortex Training 后训练，NVIDIA、Fireworks、Together、Baseten、Nebius、Modal、Cloudflare 提供 API。模型为 48 层解码器 MoE，每 token 路由 384 个专家中的 8 个，局部/全局混合注意力，原生图像输入、可变推理强度，上下文 100 万 token；预训练至后训练全程 NVFP4，主 NVFP4 检查点需约 500GB 显存（2×B300 或 4×H200），MXFP8 版需约 800GB，官方称两者评测差 1–2 个百分点。Artificial Analysis 智能指数 31。Together 托管价为每百万 token 输入 0.30 美元、输出 1 美元。",
+    "url": "https://thinkingmachines.ai/model-card/inkling-2-small/",
+    "source": "Thinking Machines Lab",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "Thinking Machines",
+      "Inkling",
+      "开源模型",
+      "MoE",
+      "Apache 2.0"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-05.jpg"
+  },
+  {
+    "title": "World Labs 向所有人开放世界模型 Atlas：Viewfinder 照片重建可漫游场景、Chisel 灰盒搭景，另有 Splats 转网格、重打光与开发者 API",
+    "summary": "据 World Labs 官网 11 月 12 日更新的 Atlas 发布页：此前仅限早期合作伙伴的下一代世界模型 Atlas 正式面向所有用户，首批四个工具——Viewfinder 从照片或生成图像重建场景，可自由移动相机、找新机位并渲染相机路径，导出空间一致的图像、视频或 3D 高斯泼溅；Chisel 支持可控的场景搭建与灰盒（grayboxing），移动物体后各机位视图同步更新；Splats to Mesh 把泼溅转为带真实几何的网格，面向游戏与交互环境；Relight 用于重新布光。开发者 API 开放驱动这些应用的全部端点，并支持 Blender 等集成，面向影视 VFX、建筑设计与机器人仿真。Atlas 为从零预训练、原生处理文本/图像/视频/3D 的多模态自回归扩散 Transformer；World Labs 已于 9 月同意被 AMD 以约 82 亿美元收购。官方未公布按调用计价。",
+    "url": "https://worldlabs.ai/atlas",
+    "source": "World Labs",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "World Labs",
+      "Atlas",
+      "世界模型",
+      "3D",
+      "李飞飞"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-06.jpg"
+  },
+  {
+    "title": "Anthropic 推荐把 Claude Opus 5.5 作为知识工作主力：已成 Pro/Max/Ultra/Team 默认模型，官方公布 Haiku 5.5 至 Fable 5.2 四档价格与适用场景",
+    "summary": "据 Claude 官方博客 11 月 12 日文章：Claude Opus 5.5 现为 Pro、Max、Ultra 和 Team 套餐的默认模型，Anthropic 建议用户在研究、分析、写作以及制作备忘录、报告、表格、幻灯片时“一直选着它”，并称更强的模型往往能用更少步骤完成任务，从而抵消大部分单价劣势，习惯“日常 Sonnet、重活 Opus”的团队值得重新考虑。官方对比：Haiku 5.5 每百万 token 0.10/0.50 美元（超 10 万 token 提示为 0.50/2.50），首个带 effort 控制的 Haiku，适合速查与大批量任务；Sonnet 5.5 为 2/10 美元，适合目标明确的成稿；Opus 5.5 为 4/20 美元，适合需要判断力的多数知识工作；Fable 5.2 为 8/40 美元，面向最开放的技术工作。Pro 及 Team 标准席位等套餐额度不含 Fable 5.2（限时活动除外），需消耗用量积分。",
+    "url": "https://claude.com/blog/using-claude-opus-5-5-as-your-daily-driver-for-knowledge-work",
+    "source": "Claude Blog",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude Opus 5.5",
+      "默认模型",
+      "定价",
+      "知识工作"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-07.jpg"
+  },
+  {
+    "title": "四家非营利组织起诉 OpenAI、Anthropic、谷歌、Meta 与 SpaceXSI，援引加州《不正当竞争法》请求法院冻结更先进 AI 模型的研发与部署",
+    "summary": "据 Public Citizen 11 月 12 日声明：Irreplaceable Education Fund、Public Citizen、Heat Initiative 与 The Alliance for Secure AI 在旧金山县加州高等法院提起诉讼，请求冻结 Anthropic、谷歌、Meta、OpenAI 与 SpaceXSI 的最先进 AI 系统开发与发布，理由是这些系统可能脱离人类控制、助长生物武器扩散与网络攻击。起诉书列举现有较弱 AI 已绕过防护、未经授权访问外部系统、黑入私企与政府数据库、提交虚假报警等案例，并引用 AI 公司高管自己关于灾难性风险乃至人类灭绝的警告；原告援引加州《不正当竞争法》并主张构成“公共妨害”。代理律师为前新泽西州总检察长 Matthew Platkin。据 The Register，诉讼与 OpenAI 发布安全产品同日提出。",
+    "url": "https://www.citizen.org/news/coalition-of-nonprofits-files-landmark-lawsuit-to-stop-development-of-advanced-ai-systems-at-anthropic-google-meta-openai-and-spacexsi-that-proliferate-bioweapons-and-cyberattacks/",
+    "source": "Public Citizen",
+    "published_at": "2026-11-13T02:00:00+08:00",
+    "tags": [
+      "诉讼",
+      "AI 安全",
+      "OpenAI",
+      "Anthropic",
+      "监管"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-08.jpg"
+  },
+  {
+    "title": "Replit Agent 新增“代购”与“投广告”：借 Stripe Link 与 Visa 为企业采购物资、结账前须人工批准，并可直接创建和投放 Google Ads",
+    "summary": "据 Replit 11 月 12 日官方博客：Replit Agent 获得两项新“工作”。Agentic Commerce 由 Stripe 的 Link（全球 3 亿+用户）与 Visa 支持：用户可下达如“找 50 个适配产品、含运费 75 美元以内的快递箱”，Agent 结合对业务的了解挑选商品，由 Browserbase 提供的隔离浏览器子智能体在商户网站加购、准备结账，在用户批准最终金额前不会扣款；支付过程中禁用 shell 与通用浏览，审批检查在代码层强制而非交给模型；面向美国 Core/Pro 用户、仅限一次性购买。Agentic Ads 可在 Replit 内连接或新建 Google Ads 账户，分析站点内容、撰写文案、生成图片、建议日预算，覆盖 Search、YouTube、Display、Discover 等，并可自动加入转化追踪。Replit 称自 5 月以来把 Replit 应用接入 Stripe 变现的创业者增长 9 倍。",
+    "url": "https://replit.com/blog/replit-agent-ads-commerce",
+    "source": "Replit Blog",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "Replit",
+      "Agent",
+      "智能体商务",
+      "Stripe",
+      "Google Ads"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-09.jpg"
+  },
+  {
+    "title": "谷歌 Gemini 智能眼镜开启预购：Warby Parker 款 395 美元起、Gentle Monster 款 449 美元起，约 41 克、续航 9 小时，12 月 10 日上市",
+    "summary": "据 Google 11 月 12 日官方博客（XR 副总裁 Shahram Izadi）：与 Gentle Monster、Warby Parker、三星合作的 Intelligent Eyewear 系列开放线上及门店预购，12 月 10 日起正式发售，首发仅限美国与韩国 Google 账号。Gentle Monster 系列 6 款、449 美元起；Warby Parker 系列 Alden/Reid/Wren 三款、395 美元起，支持处方镜片。眼镜约 41 克，续航最长 9 小时，充电盒可再充 7 次；配 1200 万像素超广角相机、开放式扬声器，兼容 Pixel、三星及 iPhone 13 Pro 以上。功能包括“Hey Gemini”看物问答、加购物清单、地图逐向导航、70+ 语言实时语音翻译，以及为视障用户提供的 Guided Vision 与 Aira 真人视觉协助。隐私方面：摄像画面不存入 Gemini 历史、不用于训练或广告，处理前自动模糊旁人面部；拍摄时指示灯亮起、遮挡即停止录制。",
+    "url": "https://blog.google/innovation-and-ai/technology/xr-ar/google-intelligent-eyewear-collections-pre-order/",
+    "source": "Google Blog",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "Google",
+      "智能眼镜",
+      "Gemini",
+      "硬件",
+      "Android XR"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-10.jpg"
+  },
+  {
+    "title": "Edge0 开源 145B 端侧模型 Edge0-145B 与 120B：笔记本峰值内存 29GB、解码 80+ token/s、预填充 1100+ token/s，号称首个千亿级开源端侧模型",
+    "summary": "据 Edge0 11 月 12 日官方博客：团队开源 Edge0-145B 与 Edge0-120B 模型权重（Hugging Face），并同步开源统一推理框架与部署工具（GitHub）及离线可用、无需账号的 Edge0 App。官方称 Edge0-145B 是全球首个 1450 亿参数的开源端侧模型，可在 MacBook Pro 等兼容笔记本上本地运行：峰值内存约 29GB、预填充 1100+ token/s、解码 80+ token/s、典型功耗约 120W、支持 128K–256K 上下文且长输入下速度基本不降，支持 macOS/Windows/Linux、Apple M 系列与 NVIDIA RTX。模型可规划、写代码、运行调试并视觉检查结果，演示了 3D 场景、游戏、硬件程序与 PCB 设计；官方称编码、推理和指令遵循与部分云端前沿模型相当。此前其 Edge0-35B 在 iPhone 18 Pro Max 上以约 2.5GB 内存跑出 37+ token/s。以上数据均为官方自报。",
+    "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+    "source": "Edge0",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "Edge0",
+      "端侧模型",
+      "开源",
+      "本地推理",
+      "笔记本"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-11.jpg"
+  },
+  {
+    "title": "OpenAI 对齐博客：用扩展测试时算力的自动红队 + “worst@n” 准则生成越狱训练数据，GPT-6 Astra 在网络安全旧越狱集上安全作答 91.5%（GPT-5.6 Sol 为 59%）",
+    "summary": "据 OpenAI 对齐研究博客 11 月 12 日文章：团队提出“模糊鲁棒性”（fuzzy robustness）概念，指模型在网络安全、生物等两用领域面对对抗压力时可靠拒绝不当协助的能力。方法上用 GPT-5.6 Sol 系列的仅有用（helpful-only）推理模型作攻击者，在类似 PAIR 的框架里迭代改写提示攻击 GPT-5.4/5.5，扩大攻击者测试时算力，并要求攻击在重复测试中都成功（worst@n）才计入，生成“加固版”提示再做强化学习。对照实验显示，该数据显著提升对未见攻击者固定越狱集和 12 种自适应多轮攻击人格的鲁棒性。该方法已用于训练 GPT-6 Astra 与 Sol：在基于 GPT-5.4/5.5 越狱的网络安全数据集上，GPT-6 Astra 安全作答 91.5%，GPT-5.6 Sol 为 59%，且并未增加对良性请求的拒答，实现安全与有用性的帕累托改进。",
+    "url": "https://alignment.openai.com/fuzzy-robustness/",
+    "source": "OpenAI Alignment Blog",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "AI 安全",
+      "红队",
+      "越狱",
+      "GPT-6"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-12.jpg"
+  },
+  {
+    "title": "Epoch AI 卫星图分析华为和林格尔数据中心：约 8.1 万 H100 当量、IT 功率约 286MW，仅为 SpaceX Colossus 2 的 7%",
+    "summary": "据 Epoch AI 11 月 12 日 Gradient Updates（Ben Cottier、Lynette Bye）：研究者购买商业高分辨率卫星图，按楼顶冷却设备类型与数量建模，估算华为内蒙古和林格尔园区南区、西区四栋高密度建筑 IT 功率约 286MW，其中三栋已运行、另一栋预计 12 月投用；北区冷却塔稀少，判断非 AI 算力楼。结合华为芯片销售与 4 个月部署滞后推算，目前约运行 10.5 万颗昇腾 910C 与 8000 颗 910B，按 910C≈0.76 H100 折算约 8.1 万 H100 当量（90% 置信区间 3.6 万–14.1 万），可能是中国最大 AI 数据中心之一，但只有 Colossus 2 的约 7%（后者约为其 14 倍）。在建新楼预计 2028 年 2 月投用，届时园区算力增 70% 以上、约 14.1 万 H100e，而 Colossus 2 预计 2028 年至少达 180 万 H100e。文章称美国 AI 数据中心单位功率算力约为中国的 2.5 倍。",
+    "url": "https://epochai.substack.com/p/what-huaweis-horinger-data-center",
+    "source": "Epoch AI",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "Epoch AI",
+      "华为",
+      "昇腾",
+      "数据中心",
+      "算力"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-13.jpg"
+  },
+  {
+    "title": "OpenRouter 上线 7 种语言本地化并公开自纠错翻译流水线：GPT-6.1 Sol 翻译+校验 16,918 条界面字符串，全站重译 7 语种约 460 美元",
+    "summary": "据 OpenRouter 11 月 12 日官方博客：OpenRouter 网站新增简体中文、西班牙语、巴西葡萄牙语、德语、法语、日语、韩语（Beta），可在账户菜单切换或访问 openrouter.ai/ja 等地址。配套流水线每天找出变更字符串，以最多 40 条一批交 GPT-6.1 Sol 用结构化输出翻译，请求携带全局/分语种风格说明、术语表规则和每条字符串的 UI 角色（按钮、标题等，避免把按钮上的“Queue”译成名词）；先由代码检查占位符、复数分支、标签与禁用词，再由同一模型对照英文核验语义，不通过则附原因重试。翻译以 JSON 目录随代码存入 Git，并记录英文源指纹，原文一改即自动重新排队。全站 16,918 条字符串重译 7 种语言约 460 美元，按 Smartling 公开机翻价约 7,200 美元、人工/AI 翻译价 5.73 万–19.1 万美元；用户可划词报错，报错会转为术语规则、风格说明、覆盖项或评测用例。",
+    "url": "https://openrouter.ai/blog/announcements/openrouter-in-8-languages/",
+    "source": "OpenRouter Blog",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "OpenRouter",
+      "本地化",
+      "翻译",
+      "GPT-6.1",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-14.jpg"
+  },
+  {
+    "title": "OpenRouter 实测 Agent 死循环四层防护：开启 doom-loop 检测后六款模型均在第三次相同工具调用被拦截，另配 loopKey、步数/成本上限与 API Key 额度",
+    "summary": "据 OpenRouter 11 月 12 日教程：Agent 陷入无限循环通常是工具持续失败、模型带相同参数反复重试，而每轮都重发全部上下文，成本逐轮上升（一次记录中输入从 131 token 涨到 3,262、单轮成本近 4 倍），通宵运行可烧掉数千美元。团队用一个必然超时的账单工具在六款模型上测试四道防护：① @openrouter/agent 0.11.0 的 callModel 设 doomLoop: true，第三次相同调用被拦、第六次结束运行——不开时 18 次中 4 次一直重试到 40 步上限，开启后 16/18 次在两次真实调用后结束；② 部分模型会微调参数绕过检测，用 loopKey 归一化参数即可拦住；③ stopWhen: [stepCountIs(n), maxCost(x)] 为每次运行设步数和花费上限；④ 在服务端给 API Key 设信用额度，超额请求返回 402 与 limit_source: openrouter_key_limit，即使代码有 bug 也能兜底。",
+    "url": "https://openrouter.ai/blog/tutorials/ai-agent-infinite-loop/",
+    "source": "OpenRouter Blog",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "OpenRouter",
+      "Agent",
+      "成本控制",
+      "SDK",
+      "技巧"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-15.jpg"
+  },
+  {
+    "title": "豆包工作接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等第三方模型，选型页标注额度消耗倍率并推出分时段折扣",
+    "summary": "据极客公园 11 月 12 日报道：字节跳动旗下办公产品“豆包工作”宣布一次性接入 Kimi K3.1 Pro（主打百万字级超长上下文）、智谱 GLM 5.3（侧重中文理解与生成）、DeepSeek V4.1 Flash（高速、高性价比，定位轻量日常任务）三款第三方模型，与此前开放的第三方模型及自研豆包 2.1、豆包 2.1 Lite 组成“高端能力型、均衡通用型、轻量效率型”三层矩阵。选型页统一标注各模型额度消耗倍率（倍率越低同等任务消耗越少），把不同计费规则折算到同一额度体系，便于部门成本管控。同步推出两项限时优惠：工作日及节假日指定时段使用活动模型享额度折扣；豆包 2.1 Lite 与 DeepSeek V4.1 Flash 限时下调消耗倍率。简单小额任务仍免费，产品同时更换了 LOGO。",
+    "url": "https://www.geekpark.net/news/373881",
+    "source": "极客公园",
+    "published_at": "2026-11-12T15:00:00+08:00",
+    "tags": [
+      "字节跳动",
+      "豆包",
+      "Kimi",
+      "GLM",
+      "DeepSeek"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-16.jpg"
+  },
+  {
+    "title": "百度世界 2026：李彦宏称 AI 下一幕是“智能组织”，发布文心闪电深度思考模型与文心一镜微表情大模型，千帆平台开放 API",
+    "summary": "据第一财经引证券时报 11 月 12 日报道：在百度世界 2026 开幕式上，李彦宏表示大模型产业沿两条路径发展——向上突破推高智能上限、向实扎根释放产业价值，百度一方面持续投入研发下一代更前沿的基础大模型，另一方面坚持“模体并行、协同进化”，让大模型为应用而优化。当日百度发布两款文心应用模型：文心闪电深度思考模型与文心一镜微表情大模型，同步上线百度智能云千帆平台，面向企业客户及合作伙伴开放 API。据新华网报道，李彦宏在演讲中提出“AI 的下一幕是智能组织”，主张让智能体与数字员工进入销售、客服、研发、运营等环节并围绕 AI 重构组织。两款新模型的参数与价格官方暂未公开。",
+    "url": "https://www.yicai.com/news/103437760.html",
+    "source": "第一财经",
+    "published_at": "2026-11-12T11:27:00+08:00",
+    "tags": [
+      "百度",
+      "文心",
+      "李彦宏",
+      "百度世界",
+      "智能体"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-17.jpg"
+  },
+  {
+    "title": "Google Flow 上线五款由创作者打造的新工具：Character Arc 跨年龄保持角色一致，Pocket Studio 把手机单镜头扩展为多机位成片",
+    "summary": "据 Google 11 月 12 日官方博客：AI 创作工作室 Google Flow 新增五款由视觉艺术家设计的工具。Character Poster 与 Character Arc（电影人 Anurag Tiwari）帮助在海报与不同年龄、人生阶段中保持角色核心形象一致，便于正式制作前推敲角色成长；Pixel Machine（同一作者）把图像转为位图、ASCII、CRT、像素和故障风格，用于片头、转场与 MV 视觉；Lucid Glass（创意总监 Ezra Paulekas）像一枚“不可能的镜头”，生成现实镜片拍不到的折射与光学效果；Pocket Studio（有二十余年预演与视效经验的 Ryan McCoy）可从一条手机素材生成多个机位角度并提升画质，同时保留演员原始表演。五款工具即日起可在 Flow 中试用。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/new-google-flow-tools/",
+    "source": "Google Blog",
+    "published_at": "2026-11-12T12:00:00+08:00",
+    "tags": [
+      "Google",
+      "Flow",
+      "AI 视频",
+      "创作工具",
+      "Google Labs"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-18.jpg"
+  },
+  {
+    "title": "OpenAI 在印度推出 API 本地处理与推理：首批支持 GPT-6 Luna，请求处理与模型计算均留在境内，面向金融等有数据本地化要求的企业",
+    "summary": "据 The Hindu 11 月 12 日报道：OpenAI 宣布在印度为 API 提供本地处理与推理，符合条件的企业和开发者可让受支持的请求处理与生成回复的模型计算都在印度境内完成，相关客户内容也存储在境内。此举扩展了 2025 年 5 月推出的印度数据驻留（仅存储）服务，首批支持 GPT-6 Luna 通过 Responses 与 Chat Completions API 的输入输出，仅限直接 API 调用；客户需新建 API 项目、同时选择印度作为存储与处理地区，并使用对应的印度区域端点。OpenAI 印度企业业务负责人 Nitin Bawankule 称，部分印度企业因信息需在境内处理而未将 AI 全面用于重要工作，金融服务客户尤其如此。",
+    "url": "https://www.thehindu.com/business/openai-now-allows-enterprises-to-process-ai-requests-within-india/article71692799.ece",
+    "source": "The Hindu",
+    "published_at": "2026-11-12T17:29:00+08:00",
+    "tags": [
+      "OpenAI",
+      "印度",
+      "数据驻留",
+      "API",
+      "GPT-6 Luna"
+    ],
+    "image": "/assets/covers/cover-20261113-ai-19.jpg"
+  }
+]

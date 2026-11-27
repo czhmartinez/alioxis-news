@@ -1,0 +1,99 @@
+{
+  "fetched_at_taipei": "2026-11-08 08:17:45 Asia/Taipei",
+  "method": "public X MCP get_users_posts + get_posts_by_ids",
+  "start_time": "2026-11-06T16:00:00Z",
+  "posts": {
+    "2119083614382219734": {
+      "author": "Khazix0918",
+      "created_at": "2026-11-07T15:04:38.000Z",
+      "note_tweet": "把AIHOT的Codex重置监控给简单升级了一下，现在也监控了Codex新的代言人Andrew。 \n\n同时因为又看到了Google那个Antigravity的重置通告，所以，顺道手又把Antigravity和Claude的重置监控也做了。。。\n\n现在统一成了重置监控，大家还有想监控的类似的重置更新可以跟我说一声，我判断一下，直接加进去就行，反正AIHOT已经监控了全网几千个AI信源了，随手的事～\n\n老规矩，同样开放了匿名免费API，供大家二次开发玩。希望大家玩的开心～\n\n网址：https://aihot.news/resets"
+    },
+    "2119210965963362579": {
+      "author": "MaxForAI",
+      "created_at": "2026-11-07T23:30:41.000Z",
+      "note_tweet": "🚨突发！DeepSeek V4.1 Pro疑似已经开始灰度，实测能力暴涨！\n\n昨天DeepSeek服务突然中断，恢复之后，陆续有不少用户反馈V4 Pro的使用体验出现了明显变化。\n我在LobeHub的私有评测集LobeBench Hard 50上，也检测到了非常明显的能力提升。\n目前DeepSeek官网的V4 Pro，已经大幅超越此前的0813版本。\n\n看下具体的成绩：\n当前V4 Pro：64%，50道题通过32道，排名国产第一。\nV4 Pro 0813：48%，50道题通过24道，排名第13。\n直接提升了16个百分点，足足多通过了8道Hard级别的任务。\n\n如果只看三次尝试中至少成功一次的比例，两个版本分别是82%和80%，差距其实很小。\n真正拉开差距的是连续三次成功完成任务的能力。\n\n顺道解释一下我们 @lobehub 这套私有评测主要考察模型在真实复杂Agent场景下，理解任务、调用工具、持续执行并最终完成工作的能力。\n\n这次成绩变化，意味着当前版本在复杂任务上的执行稳定性有了非常明显的提升。\n\n从实测结果来看，当前V4 Pro的能力确实已经发生了明显变化。"
+    },
+    "2119013460277367041": {
+      "author": "MaxForAI",
+      "created_at": "2026-11-07T10:25:52.000Z",
+      "note_tweet": "卧槽？？阿里巴巴淘宝App被扒出在用户本地偷偷装了个模型来监控用户购物行为？？？\n\n有小红书网友排查手机存储时，称在淘宝私有目录的 NGUserIntent 文件夹里，发现了一套模型文件。\n系统提示词直接写着：“你是一个淘宝购后场景电商推荐系统的导购专家，擅长挖掘用户意图。”\n\n据这位网友描述，这是一个约 5 亿参数的 Qwen2模型。\n从展示的配置看，它被设定使用设备的 GPU 进行本地推理。\n相当于在你的手机里放了一位 AI 导购，用你的算力，琢磨你买完这一单，下一单还可能想买什么。\n\n我查了一下，淘宝团队今年发表的 RecGPT-Mobile 论文，确实介绍过类似方案：把小模型部署到手机端，根据点击、收藏、加购、购买等行为，推测用户接下来可能搜索什么，再用于商品推荐。\n\n举个例子，刚买完手机，接下来可能需要手机壳、贴膜或者充电器。\n按照这种设计，判断这些潜在需求的计算，有一部分就在用户自己的手机上完成。\n这也是一个挺具体的端侧 AI 应用：用户提供购物行为，手机提供算力，模型负责琢磨下一步该推荐什么商品。\n\n我更在意的是，如果模型确实在用户不知情的情况下被下载、运行，为什么不能提前说清楚，让用户自己决定？\n\n今天是一个导购模型。如果这样的功能可以在用户不知情的情况下加进来，以后还会有什么任务在手机上运行？\n会分析哪些数据、占用多少资源，又由谁来决定？\n\n安装一个购物 App，不应该等于接受它今后安排的所有本地计算。不能每次都等用户翻文件夹，才知道自己的手机又被安排了什么工作。"
+    },
+    "2119159165692293170": {
+      "author": "MaxForAI",
+      "created_at": "2026-11-07T20:04:51.000Z",
+      "note_tweet": "AI教父辛顿给出了惊人的预警：2026年底或2027年，AI可能引发一场类似「切尔诺贝利」的重大灾难。\n\n在最近接受《卫报》采访时，辛顿表示，AI可能被用于攻击电力基础设施，引发大规模停电，甚至导致金融系统瘫痪长达一周。\n\n他认为，今年发生的一些AI Agent越过安全限制、尝试攻击外部系统的事件，已经是相当危险的信号。\n而他所说的「切尔诺贝利」，指的是一次影响足够严重、足以迫使整个社会重新审视AI安全的系统性事故。\n\n我觉得这件事其实挺值得警惕的。\n随着Agent开始拥有执行代码、调用工具、持续自主行动的能力，AI的安全问题正在逐渐延伸到真实世界。\n尤其是当它们开始接入金融、电力、通信等关键系统时，一次失控的代价可能远远超过我们现在的想象。\n\n你能想象中国电网突然停了1天么？"
+    },
+    "2119157691230892441": {
+      "author": "MaxForAI",
+      "created_at": "2026-11-07T19:59:00.000Z",
+      "note_tweet": "昨天在X上看到一条挺有意思的帖子，已经有超过52万次浏览了。\n\n @alex_verem  恳求大家，这个周末一定要花20分钟，在自己的电脑里下载一个开源AI模型。\n\n比如Qwen或Gemma，找一个几GB到十几GB的量化版本，用免费的本地工具运行起来。\n\n他的理由很简单：\n\n你今天每个月付费订阅的AI，明天可能突然涨价、限制使用额度，甚至直接封禁你的账号（比如在大陆的人）。\n\n但如果你把模型下载到了自己的硬盘里，只要设备还能运行它，2036年你依然可以使用今天的这个模型。\n无需账号，无需订阅，甚至无需联网。\n\n我其实特别认同这个建议。\n虽然目前本地小模型的能力，和云端最顶级的模型还有明显差距，但AI正在逐渐成为我们日常生活和工作中不可缺少的基础设施。\n当所有的能力都依赖少数几家公司的云端服务时，我们其实对自己的AI没有多少控制权。\n尤其是当你越来越习惯把自己的私人信息、工作资料，甚至一些不愿意告诉别人的想法交给AI时，本地模型的意义就更大了。\n\n我觉得每个人都应该在自己的电脑里保存一份AI。\n\n哪怕暂时用不上，至少你知道，无论未来这些AI公司怎么调整政策、怎么收费，你的硬盘里始终有一个可以使用的模型。"
+    },
+    "2119154411545186676": {
+      "author": "MaxForAI",
+      "created_at": "2026-11-07T19:45:58.000Z",
+      "note_tweet": "牛逼，Karpathy怎么又做了个YouTube 😂\n\n前几天刚花2小时做了HackerTube，然后今天看到他同事Tristan分享的优质YouTube频道清单，又用 Claude Code 搓了个TristanTube。\n\n简单来说，就是把Tristan精选的科技、编程等极客频道整合到一个网站里，收录了大约4.7万个视频，让你不用依赖 YouTube的推荐算法，也能找到自己感兴趣的内容。\n\n甚至还做了电视模式，可以躺在沙发上慢慢刷。\n\n最离谱的是，这次只花了3分钟，Claude Code一次搞定。\n\nhttps://karpathy.ai/tristan-tube/"
+    },
+    "2119044748388503709": {
+      "author": "xiaohu",
+      "created_at": "2026-11-07T12:30:12.000Z",
+      "note_tweet": "一条手剪2小时，Bot 2小时剪完十条\n\nX 官方创作者账号发了份 Grok Bot 短视频指南，作者 Ethan Ng 在 SpaceXAI 增长团队做创作者营销，团队每月合作数百位创作者。\n\n先交代口径：十条是并行剪的，这 2 小时里他给了几轮反馈。另外作者是自家人，这份指南也算官方教程。\n\n下面几个做法可以直接抄：\n\n1. 先喂上下文，别急着开工\n2. 收藏夹变选题库\n3. 脚本别让它写，让它挑刺\n4. 剪辑留两道人工把关（Whisper / Remotion / Cursor 云端 Agent，须 I APPROVE）\n5. 观众在哪划走，下一条就改哪（原文示意图不是真实数据）\n6. 一份成片发四个平台\n\n最值得抄的是第 3 条：AI 别当写手，让它当审稿人。"
+    },
+    "2119044801542889535": {
+      "author": "xiaohu",
+      "created_at": "2026-11-07T12:30:25.000Z",
+      "text": "补一个局限：指南说也能在 CapCut、DaVinci Resolve、Premiere 里剪，但没讲具体怎么接，官方推荐的是云端电脑模式；多平台代发也要单独配置。"
+    },
+    "2118999078717575288": {
+      "author": "testingcatalog",
+      "created_at": "2026-11-07T09:28:44.000Z",
+      "note_tweet": "DAILY AI BRIEF — Nov 7\n\nOPENAI:\n- Bloomberg reports OpenAI has raised $11B so far in a round valuing the company at $1.25T.\n- ChatGPT Remix is rolling out to Business and Enterprise so teams can fork a colleague’s site and keep editing it in chat.\n\nANTHROPIC:\n- Claude Code cloud sessions on Pro, Max, and Ultra now figure out dependencies, network access, and API keys on their own.\n- Claude Duet can check running Claude Code sessions, approve changes, and send updates from your phone.\n- Claude for iOS is testing a side-nav redesign with separate Chats, Projects, and Code tabs.\n\nMETA:\n- Muse Spaces let users generate interactive, updatable pages from chat and pin them in the app.\n- Muse and Meta AI now run specialized models with Active Memory and Active Focus from Muse Wonder.\n\nSPACEXSI:\n- Grok API text watermarking turns on by default today for listed Grok 4.x models, with team opt-out in Console.\n\nALIBABA:\n- Qwen posted a “The becoming begins” teaser, with Qwen4-Max, Flash, Plus, and 27B expected soon.\n\nNOUS RESEARCH:\n- Nous Research released Arete-27B, a Qwen3.8-27B post-train aimed at Western values.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+    },
+    "2119163315687731405": {
+      "author": "testingcatalog",
+      "created_at": "2026-11-07T20:21:21.000Z",
+      "text": "OPENAI: Dots can now take sign-up codes from an email to complete a 2FA auth on your behalf when prompted."
+    },
+    "2119112693424537779": {
+      "author": "testingcatalog",
+      "created_at": "2026-11-07T17:00:11.000Z",
+      "note_tweet": "ICYMI: Mistral Studio got a big upgrade this week. Users can now build and host AI apps and improve them based on real usage.\n\n> Connect your systems - Connectors, Knowledge, Search Index, Secrets Manager: set up once, reuse them across every project.\n\n> Build agents, workflows and apps - Agents for reasoning, workflows for deterministic steps, apps for addressing use cases.\n\n> Deploy with one command - Studio runs them in production, with durable execution, scaling and recovery.\n\n> Improve from real usage - Every run leaves a trace. Turn traces into evaluations and improve the next."
+    },
+    "2119091992214810808": {
+      "author": "testingcatalog",
+      "created_at": "2026-11-07T15:37:56.000Z",
+      "note_tweet": "SpaceXSI is preparing to roll out / rolling out Slack integration for Grok Bot.\n\nUsers will be able to connect their bots to Slack individually and trigger them from Slack as well. \n\n> \"You can DM or @ mention X Marketer in Slack. It’ll respond with the same plugins, context, and memories it uses here.\"\n\nThis feature should arrive in the 1.1.0 build for macOS."
+    },
+    "2119063604918182377": {
+      "author": "testingcatalog",
+      "created_at": "2026-11-07T13:45:08.000Z",
+      "text": "Anthropic is working on a collaborative mode for Claude Code Projects. Recent activity summarises the latest threads. Lydia Hallie: \"We don't have multiplayer yet.\""
+    },
+    "2119063608420163925": {
+      "author": "testingcatalog",
+      "created_at": "2026-11-07T13:45:09.000Z",
+      "text": "A project-level overview showing scheduled tasks and threads. Upcoming collaborative experience similar to ChatGPT Spaces."
+    },
+    "2119070138418737367": {
+      "author": "testingcatalog",
+      "created_at": "2026-11-07T14:11:06.000Z",
+      "text": "Anthropic is also working on Invite functionality for Duet and a possibility to merge Claude organisations into one for Enterprise."
+    },
+    "2118900054526447905": {
+      "author": "gengdaJ",
+      "created_at": "2026-11-07T02:55:14.000Z",
+      "note_tweet": "为了能让Skill能在真实任务中不断自我迭代，我在几个月前就在Agent.md和Claude.md中加入了这段专属于Skill的提示词：\n\n## Skill 使用复盘\n\n- 在完成整个任务后，简短复盘本次实际使用的 Skill。\n- 只有发现可归因于 Skill 的实际阻碍、重复补救或明确缺失时，才在最终答复中说明涉及的 Skill、具体问题、本次证据和改进建议，最多三项，并询问用户是否需要优化。\n- 没有明确问题时无需反馈；不得为了复盘打断或延迟任务；未经用户授权不得修改 Skill。\n\n好处就是：\n1、不需要隔一段时间做一次大的复盘，每次对话结束都会自动触发“优化机制”。\n\n2、所有Skill进化的依据都是真实任务中猜到的坑，和自己的工作任务适配更加丝滑。\n\n3、如果是开源的Skill，还可以加上自动提交Github，这样子每天的GitHub都能打卡成功✌️"
+    },
+    "2118938956301779171": {
+      "author": "thsottiaux",
+      "created_at": "2026-11-07T05:29:49.000Z",
+      "text": "Get me out of the basement\nhttps://poteto.com/",
+      "skipped": "meme/arcade site"
+    },
+    "2118967097929982188": {
+      "author": "MaxForAI",
+      "created_at": "2026-11-07T07:21:39.000Z",
+      "text": "北京时间2026年11月7日15:10分起，DeepSeek再次出现大规模服务中断",
+      "note": "merged into V4 Pro item as background"
+    }
+  }
+}

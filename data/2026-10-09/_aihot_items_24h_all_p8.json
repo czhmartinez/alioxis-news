@@ -1,0 +1,777 @@
+{
+  "schemaVersion": 1,
+  "query": {
+    "mode": "all",
+    "category": null,
+    "window": "24h",
+    "q": null,
+    "by": "timeline",
+    "ordering": "timelineDesc"
+  },
+  "items": [
+    {
+      "id": "ye1vhn729at3qihhdi0u31ffy",
+      "title": "OpenAI 奥尔特曼：世界应接受 AI 带来的部分“坏事”以换取巨大红利",
+      "originalTitle": null,
+      "summary": "OpenAI 首席执行官萨姆·奥尔特曼在 Politico 新播客《Decoded》首期节目中表示，世界应接受 AI 带来的部分“坏事”，以换取技术红利与用户自主权。他称 OpenAI 与部分严格 AI 安全倡导者的关键分歧在于倡导较轻监管立场，社会在探索系统韧性过程中一些不好的事情将会发生。纽约大学荣誉教授加里·马库斯批评其“把不该说的话大声说了出来”。",
+      "source": {
+        "name": "IT之家·人工智能"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ye1vhn729at3qihhdi0u31ffy",
+        "original": "https://www.ithome.com/1/010/561.htm"
+      },
+      "publishedAt": "2026-10-08T07:27:23.180Z",
+      "discoveredAt": "2026-10-08T07:37:30.031Z",
+      "category": "tip",
+      "score": 44,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ye1vhn729at3qihhdi0u31ffy"
+      }
+    },
+    {
+      "id": "s3umkzd1bawu6lwz3q8dp9g6j",
+      "title": "Claude Haiku 5.5 发布：成本比 Haiku 4.5 低约 75%，benchmark 对比 GPT-6 Luna 领先",
+      "originalTitle": "Claude Haiku 5.5 benchmark 全面领先 GPT-6 Luna，OpenRouter 观测的 token 输出速度也是 2 倍",
+      "summary": "Anthropic 发布 Claude Haiku 5.5，官方称这是其推出的最便宜、最快、能力最强的小模型，运行成本平均比 Claude Haiku 4.5 低约 75%。作者称其 benchmark 全面领先 GPT-6 Luna，OpenRouter 观测的 token 输出速度约为 2 倍，并观察到不少用户正从 CodeX 迁移到 Claude Code。",
+      "source": {
+        "name": "X：邵猛 (@shao__meng)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/s3umkzd1bawu6lwz3q8dp9g6j",
+        "original": "https://x.com/shao__meng/status/2108086870823604679"
+      },
+      "publishedAt": "2026-10-08T06:47:31.000Z",
+      "discoveredAt": "2026-10-08T07:11:32.181Z",
+      "category": "ai-models",
+      "score": 66,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/s3umkzd1bawu6lwz3q8dp9g6j"
+      }
+    },
+    {
+      "id": "w76p4k0hekzme5mu72y8lexoa",
+      "title": "斯坦福论文 DeLM 提出去中心化多智能体框架，复杂编码任务速度最高达 2.49 倍",
+      "originalTitle": "A new Stanford paper just proved that decentralized multi-agent systems can beat Claude Code and Codex on complex coding tasks, running u...",
+      "summary": "斯坦福论文提出 DeLM，用共享上下文和任务队列取代中央协调智能体，智能体异步认领任务并实时共享发现。",
+      "source": {
+        "name": "X：Rohan Paul (@rohanpaul_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/w76p4k0hekzme5mu72y8lexoa",
+        "original": "https://x.com/rohanpaul_ai/status/2108087162092818694"
+      },
+      "publishedAt": "2026-10-08T06:48:40.000Z",
+      "discoveredAt": "2026-10-08T07:11:31.162Z",
+      "category": "paper",
+      "score": 55,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/w76p4k0hekzme5mu72y8lexoa"
+      }
+    },
+    {
+      "id": "d8feo4sx97k2wguwj532fza5r",
+      "title": "Emad Mostaque 讽刺数学家面对 AI 解题的反应",
+      "originalTitle": "Emad Mostaque takes a jab at mathematicians as well.",
+      "summary": "Emad Mostaque 也向数学家们开了一炮。\n\n他说，当 AI 开始解决他们最难的题目时，他们的回应是“数学在于挣扎求索”——从一个本应寻找答案的领域听到这种话，实在很奇怪。\n\n----\n完整视频在 \"Tom Bilyeu\" YouTube 频道，（链接见评论）",
+      "source": {
+        "name": "X：Rohan Paul (@rohanpaul_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/d8feo4sx97k2wguwj532fza5r",
+        "original": "https://x.com/rohanpaul_ai/status/2108089855570071770"
+      },
+      "publishedAt": "2026-10-08T06:59:22.000Z",
+      "discoveredAt": "2026-10-08T07:11:31.156Z",
+      "category": "tip",
+      "score": 36,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/d8feo4sx97k2wguwj532fza5r"
+      }
+    },
+    {
+      "id": "emz5e8is9h0ziu8clgpx0xxch",
+      "title": "Terence Tao 谈 AI 解数学猜想：我们可以走得更慢一些",
+      "originalTitle": "And this was from Terence Tao a few weeks back.😃",
+      "summary": "作者转述 Terence Tao 在 Caltech Science x AI Summit 主题演讲中的观点，认为 AI 虽在快速解决重大猜想，但做法缺乏从容和原则，Navier-Stokes 这类问题无需急于求成。同帖还提及数学界组织 AHM 批评 OpenAI 发布 722 份数学手稿，呼吁数学家停止与 OpenAI 合作，Tao 曾在其博客转发该声明。",
+      "source": {
+        "name": "X：Rohan Paul (@rohanpaul_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/emz5e8is9h0ziu8clgpx0xxch",
+        "original": "https://x.com/rohanpaul_ai/status/2108090628727001511"
+      },
+      "publishedAt": "2026-10-08T07:02:26.000Z",
+      "discoveredAt": "2026-10-08T07:11:31.149Z",
+      "category": "tip",
+      "score": 54,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/emz5e8is9h0ziu8clgpx0xxch"
+      }
+    },
+    {
+      "id": "f8mm45c44jfpw92zcow9x25m9",
+      "title": "蚂蚁百灵 Ling-3.1-Flash 登陆 OpenRouter",
+      "originalTitle": "Thanks to our day0 partner @novita_labs for the continued, reliable launching support 🥰",
+      "summary": "感谢我们的 day0 合作伙伴 @novita_labs 持续、可靠的发布支持 🥰\n\n@novita_labs：🚀 来自 @AntLingAGI 的 Ling-3.1-Flash 现已通过 Novita 在 @OpenRouter 上线。\n\n作为 Day-0 合作伙伴发布 ⚡\n🎁 10 月 13 日上午 9:00（PT）前免费。\n\n560B 总参数 · 25B 激活参数。\n专为混合推理和工具调用工作流打造。",
+      "source": {
+        "name": "X：蚂蚁百灵 (@AntLingAGI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/f8mm45c44jfpw92zcow9x25m9",
+        "original": "https://x.com/AntLingAGI/status/2108088816519237924"
+      },
+      "publishedAt": "2026-10-08T06:55:14.000Z",
+      "discoveredAt": "2026-10-08T07:05:29.875Z",
+      "category": "ai-models",
+      "score": 43,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/f8mm45c44jfpw92zcow9x25m9"
+      }
+    },
+    {
+      "id": "vdwwvrr8acwxfkgb1ucyoa6v7",
+      "title": "德国搜索引擎 Ecosia 放弃 Mistral，改用中国开源模型 Qwen、GLM 和 Kimi",
+      "originalTitle": "不满 Mistral 表现，德国搜索引擎 Ecosia 押注中国开源 AI 模型",
+      "summary": "据《政治报》报道，德国搜索引擎 Ecosia 因对 Mistral 质量失望、认为其已落后竞争对手一整年，转而与 Melious 合作，使用中国的 Qwen、GLM 和 Kimi 模型。CEO 克罗尔称此前与 Mistral 合作常遇服务器过载等问题，换用后成本降低一半并获得性能提升，他还认为中国推动开源大模型对欧洲是一大机遇。",
+      "source": {
+        "name": "IT之家·人工智能"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/vdwwvrr8acwxfkgb1ucyoa6v7",
+        "original": "https://www.ithome.com/1/010/539.htm"
+      },
+      "publishedAt": "2026-10-08T07:00:05.333Z",
+      "discoveredAt": "2026-10-08T07:05:29.425Z",
+      "category": "industry",
+      "score": 62,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/vdwwvrr8acwxfkgb1ucyoa6v7"
+      }
+    },
+    {
+      "id": "xzeps1b3a9mhr6lfowakool3o",
+      "title": "消息称 Isomorphic Labs 寻求以 400~500 亿美元估值融资",
+      "originalTitle": "消息称 Alphabet 旗下 AI 药物研发企业 Isomorphic Labs 寻求以 400~500 亿美元估值融资",
+      "summary": "彭博社报道称，Alphabet 旗下由 Demis Hassabis 领导的 AI 药物研发企业 Isomorphic Labs 正就新一轮融资进行早期谈判，估值至少 400 亿美元，可能达到 500 亿美元。该公司今年 5 月曾完成 21 亿美元 B 轮融资；目前 AI 在生物制药领域的应用尚属早期，距临床试验和上市仍需更多努力。",
+      "source": {
+        "name": "IT之家·人工智能"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/xzeps1b3a9mhr6lfowakool3o",
+        "original": "https://www.ithome.com/1/010/516.htm"
+      },
+      "publishedAt": "2026-10-08T06:33:15.970Z",
+      "discoveredAt": "2026-10-08T06:49:30.595Z",
+      "category": "industry",
+      "score": 56,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/xzeps1b3a9mhr6lfowakool3o"
+      }
+    },
+    {
+      "id": "kgrbsmfz3nfiwhjsk9coyf6m8",
+      "title": "WorkBuddy 邀请好友得积分",
+      "originalTitle": "Got a friend who should be using WorkBuddy?",
+      "summary": "有朋友该用 WorkBuddy 吗？\n邀请他们加入，只要他们注册并提交第一个 query，你就能赚 100 credits。\n他们也会从 350 credits 起步，包括 100 推荐 credits + 250 欢迎 credits。\n好友加入，credits 上涨",
+      "source": {
+        "name": "X：Tencent WorkBuddy (@WorkBuddy_AI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/kgrbsmfz3nfiwhjsk9coyf6m8",
+        "original": "https://x.com/WorkBuddy_AI/status/2108082016860413973"
+      },
+      "publishedAt": "2026-10-08T06:28:13.000Z",
+      "discoveredAt": "2026-10-08T06:40:32.882Z",
+      "category": "industry",
+      "score": 12,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/kgrbsmfz3nfiwhjsk9coyf6m8"
+      }
+    },
+    {
+      "id": "eqjgvcpprcye5cy5lk4ol8wj1",
+      "title": "Codex Cloud 静默重新上线",
+      "originalTitle": "Day 3 (encore)/",
+      "summary": "Day 3（返场）/\n\n我们静默重新发布了 codex cloud。现在相当不错了",
+      "source": {
+        "name": "X：Tibo (@thsottiaux)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/eqjgvcpprcye5cy5lk4ol8wj1",
+        "original": "https://x.com/thsottiaux/status/2108084615349170480"
+      },
+      "publishedAt": "2026-10-08T06:38:33.000Z",
+      "discoveredAt": "2026-10-08T06:40:31.947Z",
+      "category": "ai-products",
+      "score": 41,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/eqjgvcpprcye5cy5lk4ol8wj1"
+      }
+    },
+    {
+      "id": "mkkpgehy6kpw4fy215gg5vjkg",
+      "title": "Evolvent AI 开源 RSIGym，Claude Opus 5 在其中将 Qwen 模型 SWE-bench Verified 成绩提升近三倍",
+      "originalTitle": "Claude Opus 5 nearly tripled a Qwen model's SWE-bench Verified score while working as an automated AI researcher.",
+      "summary": "Evolvent AI 发布开源研究环境 RSIGym，让 AI 智能体在统一预算环境内重训练模型并改写 harness。",
+      "source": {
+        "name": "X：Rohan Paul (@rohanpaul_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/mkkpgehy6kpw4fy215gg5vjkg",
+        "original": "https://x.com/rohanpaul_ai/status/2108077761411846591"
+      },
+      "publishedAt": "2026-10-08T06:11:19.000Z",
+      "discoveredAt": "2026-10-08T06:40:30.961Z",
+      "category": "paper",
+      "score": 57,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/mkkpgehy6kpw4fy215gg5vjkg"
+      }
+    },
+    {
+      "id": "k8hc4j33937ilc9y4olgiypmf",
+      "title": "Perplexity 发布 pplx-embed-v2-late：0.6B 边缘模型与 9B 模型，MADQA 得分 92.4%",
+      "originalTitle": "Perplexity AI Releases pplx-embed-v2-late: A 0.6B Edge Model and a 9B Model Scoring 92.4% on MADQA",
+      "summary": "Perplexity 发布 ColBERT 式多模态嵌入模型 pplx-embed-v2-late，含 0.6B 与 9B 两个版本，9B 在 MADQA 上取得 92.4% 的最佳成绩，0.6B 则面向边缘设备与本地查询编码。",
+      "source": {
+        "name": "MarkTechPost（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/k8hc4j33937ilc9y4olgiypmf",
+        "original": "https://www.marktechpost.com/2026/10/07/perplexity-ai-releases-pplx-embed-v2-late-a-0-6b-edge-model-and-a-9b-model-scoring-92-4-on-madqa/"
+      },
+      "publishedAt": "2026-10-08T05:39:09.000Z",
+      "discoveredAt": "2026-10-08T06:31:30.780Z",
+      "category": "ai-models",
+      "score": 48,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/k8hc4j33937ilc9y4olgiypmf"
+      }
+    },
+    {
+      "id": "vj98inkas7c7vvf9oy94n3hn4",
+      "title": "生数科技发布 Vidu Q4 Preview 视频生成模型预览版，支持 3 段参考音频与 2K/4K 输出",
+      "originalTitle": "Vidu Q4 Preview | 传神视频新旗舰，全场景视频自由",
+      "summary": "生数科技发布全新视频生成旗舰模型 Vidu Q4 的预览版 Vidu Q4 Preview，主打人物演技、镜头语言与特效表现力。新版本最多支持 3 段参考音频和 15 张参考图，支持 2K、4K 输出与 10bit 色深，首发优惠价 0.09 元/秒起，官方称同样预算约 5 倍出片，并从 Day 1 起面向全球创作者开放。",
+      "source": {
+        "name": "公众号：生数科技（Vidu·视频）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/vj98inkas7c7vvf9oy94n3hn4",
+        "original": "https://mp.weixin.qq.com/s?__biz=MzkzMDQ5NTQwMQ%3D%3D&mid=2247489335&idx=1&sn=880949d2257914e1830aa6c46762d189"
+      },
+      "publishedAt": "2026-10-08T06:16:38.000Z",
+      "discoveredAt": "2026-10-08T06:22:22.309Z",
+      "category": "ai-models",
+      "score": 60,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/vj98inkas7c7vvf9oy94n3hn4"
+      }
+    },
+    {
+      "id": "iblokija8xt56oof1e7358ia1",
+      "title": "PFN 发布 PLaMo 3 Translate 31B 翻译模型：日语翻译表现优于 GPT-6.1 Sol",
+      "originalTitle": "PFN 发布 PLaMo 3 Translate 31B 模型：日语翻译表现优于 GPT-6.1 Sol",
+      "summary": "日本企业 Preferred Networks 发布翻译模型 PLaMo 3 Translate 31B，完全由日本自主研发，训练数据中日语占比约 30%。该模型基于 PLaMo 3，支持语言从 2 种扩展至 53 种，并引入覆盖 15 种语言的在线会议翻译模式。",
+      "source": {
+        "name": "IT之家·人工智能"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/iblokija8xt56oof1e7358ia1",
+        "original": "https://www.ithome.com/1/010/469.htm"
+      },
+      "publishedAt": "2026-10-08T05:54:56.163Z",
+      "discoveredAt": "2026-10-08T06:17:29.089Z",
+      "category": "ai-models",
+      "score": 44,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/iblokija8xt56oof1e7358ia1"
+      }
+    },
+    {
+      "id": "luw7w6w7nd6ckaw85unl19526",
+      "title": "信息时代到智能时代：Token 取代工作",
+      "originalTitle": "Information Age - Software replaced paperwork",
+      "summary": "信息时代——软件取代了纸质文书\n智能时代——Token 取代了工作 🤔",
+      "source": {
+        "name": "X：indigo (@indigox)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/luw7w6w7nd6ckaw85unl19526",
+        "original": "https://x.com/indigox/status/2108075005632520590"
+      },
+      "publishedAt": "2026-10-08T06:00:22.000Z",
+      "discoveredAt": "2026-10-08T06:09:30.720Z",
+      "category": "tip",
+      "score": 13,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/luw7w6w7nd6ckaw85unl19526"
+      }
+    },
+    {
+      "id": "n9l3pnv67lulrgr9nr23w3thq",
+      "title": "Agent 时代真正的瓶颈是人的理解",
+      "originalTitle": "agent 范式下让人不适的真相：人的理解才是真正的瓶颈。（而不是 agent 和模型能力）",
+      "summary": "在 agent 范式下，真正的瓶颈不是模型或 agent 能力，而是人能否精确表达需求。常见失败模式是：人们在自己专业领域之外做事时，不知道怎么把 prompt 和计划写得精确，只能靠大量轮次模糊迭代，既费时又费 token。解法是直接让模型先教你不懂的东西，补足领域知识再动手，比盲目迭代高效得多。",
+      "source": {
+        "name": "X：howie.serious (@howie_serious)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/n9l3pnv67lulrgr9nr23w3thq",
+        "original": "https://x.com/howie_serious/status/2108070821118054716"
+      },
+      "publishedAt": "2026-10-08T05:43:44.000Z",
+      "discoveredAt": "2026-10-08T06:09:30.712Z",
+      "category": "tip",
+      "score": 48,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/n9l3pnv67lulrgr9nr23w3thq"
+      }
+    },
+    {
+      "id": "mu3izvb8avu7w7nl0fpzz3r5m",
+      "title": "Grok bot 推特 rate limit 每天 1000 次免费够用",
+      "originalTitle": "grok bot 对推特的 rate limit 是每天 1000 次。",
+      "summary": "Grok bot 对推特的 rate limit 是每天 1000 次，作者认为非常够用。此前用 X 官方 API 两次各充 20 美金都很快花完，如今可免费用起来，算是重大福利。作者还用它作为 personal agent 收集推特信息，替代人肉刷手机。",
+      "source": {
+        "name": "X：howie.serious (@howie_serious)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/mu3izvb8avu7w7nl0fpzz3r5m",
+        "original": "https://x.com/howie_serious/status/2108074715688620137"
+      },
+      "publishedAt": "2026-10-08T05:59:13.000Z",
+      "discoveredAt": "2026-10-08T06:09:30.693Z",
+      "category": "tip",
+      "score": 40,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/mu3izvb8avu7w7nl0fpzz3r5m"
+      }
+    },
+    {
+      "id": "rsqy9yd5j9burba3l7389apxb",
+      "title": "Grokbot 邮箱申请",
+      "originalTitle": "hey @bot can I get tibo@mail.grokbot.com for my bot?",
+      "summary": "嘿 @bot，能给我的 bot 申请一个 tibo@mail.grokbot.com 吗？",
+      "source": {
+        "name": "X：Lauren Tan (@poteto)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/rsqy9yd5j9burba3l7389apxb",
+        "original": "https://x.com/poteto/status/2108071056259125309"
+      },
+      "publishedAt": "2026-10-08T05:44:40.000Z",
+      "discoveredAt": "2026-10-08T06:09:30.293Z",
+      "category": null,
+      "score": 11,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/rsqy9yd5j9burba3l7389apxb"
+      }
+    },
+    {
+      "id": "o5doipve2nb4no86488inybgh",
+      "title": "Grok Bot 每日更新",
+      "originalTitle": "Grok @Bot improves literally every day",
+      "summary": "Grok @Bot 每天都在进步",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/o5doipve2nb4no86488inybgh",
+        "original": "https://x.com/elonmusk/status/2108049822658052404"
+      },
+      "publishedAt": "2026-10-08T04:20:18.000Z",
+      "discoveredAt": "2026-10-08T05:52:25.311Z",
+      "category": "tip",
+      "score": 34,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/o5doipve2nb4no86488inybgh"
+      }
+    },
+    {
+      "id": "yj9lv7xwtaqerph17ud2fup5d",
+      "title": "马斯克称Grok Bot表现出色",
+      "originalTitle": "It’s that good @Bot",
+      "summary": "就是这么好 @Bot",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/yj9lv7xwtaqerph17ud2fup5d",
+        "original": "https://x.com/elonmusk/status/2108051613160034340"
+      },
+      "publishedAt": "2026-10-08T04:27:24.000Z",
+      "discoveredAt": "2026-10-08T05:52:25.300Z",
+      "category": "tip",
+      "score": 22,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/yj9lv7xwtaqerph17ud2fup5d"
+      }
+    },
+    {
+      "id": "exsbsuzp72gqwr75wpbbdkd1l",
+      "title": "Grok Bot 可下载至手机使用",
+      "originalTitle": "It’s really quite useful 👍 @Bot",
+      "summary": "它真的非常实用 👍 @Bot\n\n而且你可以下载到手机上：\n\nhttps://apps.apple.com/app/id6794501026",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/exsbsuzp72gqwr75wpbbdkd1l",
+        "original": "https://x.com/elonmusk/status/2108056430872064383"
+      },
+      "publishedAt": "2026-10-08T04:46:33.000Z",
+      "discoveredAt": "2026-10-08T05:52:25.293Z",
+      "category": "tip",
+      "score": 17,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/exsbsuzp72gqwr75wpbbdkd1l"
+      }
+    },
+    {
+      "id": "q3778pdz82us8xahrary7crkf",
+      "title": "xAI 推出 Grok Imagine",
+      "originalTitle": "Grok Imagine",
+      "summary": "Grok Imagine",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/q3778pdz82us8xahrary7crkf",
+        "original": "https://x.com/elonmusk/status/2108066901679034686"
+      },
+      "publishedAt": "2026-10-08T05:28:10.000Z",
+      "discoveredAt": "2026-10-08T05:52:25.287Z",
+      "category": null,
+      "score": 17,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/q3778pdz82us8xahrary7crkf"
+      }
+    },
+    {
+      "id": "bhbrl7b76x0c10qcdsfdhtw18",
+      "title": "Grok Bot 可管理你的财务",
+      "originalTitle": "Grok @Bot can manage your finances",
+      "summary": "Grok @Bot 可以管理你的财务",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/bhbrl7b76x0c10qcdsfdhtw18",
+        "original": "https://x.com/elonmusk/status/2108071231413198857"
+      },
+      "publishedAt": "2026-10-08T05:45:22.000Z",
+      "discoveredAt": "2026-10-08T05:52:25.281Z",
+      "category": "ai-products",
+      "score": 28,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/bhbrl7b76x0c10qcdsfdhtw18"
+      }
+    },
+    {
+      "id": "bdinblxtcbqn0dw18pi7w73yi",
+      "title": "Elon Musk 谈 AI 无法取代体育与现场活动",
+      "originalTitle": "True",
+      "summary": "True",
+      "source": {
+        "name": "X：Elon Musk (@elonmusk, xAI)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/bdinblxtcbqn0dw18pi7w73yi",
+        "original": "https://x.com/elonmusk/status/2108071705122111819"
+      },
+      "publishedAt": "2026-10-08T05:47:15.000Z",
+      "discoveredAt": "2026-10-08T05:52:25.257Z",
+      "category": "tip",
+      "score": 15,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/bdinblxtcbqn0dw18pi7w73yi"
+      }
+    },
+    {
+      "id": "t7avlqfedjlt2nxffgxye5e3w",
+      "title": "Grok Bot 用于推特信息收集",
+      "originalTitle": "我的 grok bot 有了第一个强大的使用场景。",
+      "summary": "我的 grok bot 有了第一个强大的使用场景。\n\n用 personal agent 帮你收集推特信息，比人类自己刷手机、人肉收集、动不动沉迷要好太多了。",
+      "source": {
+        "name": "X：howie.serious (@howie_serious)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/t7avlqfedjlt2nxffgxye5e3w",
+        "original": "https://x.com/howie_serious/status/2108068449092264128"
+      },
+      "publishedAt": "2026-10-08T05:34:18.000Z",
+      "discoveredAt": "2026-10-08T05:38:26.521Z",
+      "category": "tip",
+      "score": 32,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/t7avlqfedjlt2nxffgxye5e3w"
+      }
+    },
+    {
+      "id": "mhjq7fo1gr580u0tb0i227ttz",
+      "title": "Claude Code v2.1.294 发布：修复 prompt 与 agent hooks 的指令判定",
+      "originalTitle": "v2.1.294",
+      "summary": "Claude Code v2.1.294 修复了以指令形式编写的 prompt 和 agent hooks（如\"阻止某些命令\"）反而放行本应拦截内容的问题。同时改进了 Stop 与 SubagentStop 上指令式 prompt hooks（如\"构建失败就继续\"）的判定，减少 Claude 提前停止的情况。",
+      "source": {
+        "name": "Claude Code：GitHub Releases（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/mhjq7fo1gr580u0tb0i227ttz",
+        "original": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294"
+      },
+      "publishedAt": "2026-10-08T05:03:54.000Z",
+      "discoveredAt": "2026-10-08T05:30:25.200Z",
+      "category": "ai-products",
+      "score": 25,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/mhjq7fo1gr580u0tb0i227ttz"
+      }
+    },
+    {
+      "id": "fygvytlhxztmr1ei8hf16ffe3",
+      "title": "Manus 母公司蝴蝶效应宣布完成超 5 亿美元新一轮融资，腾讯、红杉中国等继续加持",
+      "originalTitle": null,
+      "summary": "Manus 母公司蝴蝶效应 10 月 8 日宣布完成超过 5 亿美元（约合 33.56 亿元人民币）新一轮融资，由博裕投资、IDG 资本领投，老股东腾讯、红杉中国、真格基金继续加持。此前 Manus 曾迁至新加坡并停止中国境内运营，今年 4 月监管部门禁止外资收购该项目，7 月创始团队按 20 亿美元估值向 Meta 回购全部股份，9 月恢复独立运营。",
+      "source": {
+        "name": "IT之家·人工智能"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/fygvytlhxztmr1ei8hf16ffe3",
+        "original": "https://www.ithome.com/1/010/457.htm"
+      },
+      "publishedAt": "2026-10-08T04:50:26.440Z",
+      "discoveredAt": "2026-10-08T05:14:26.234Z",
+      "category": "industry",
+      "score": 63,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/fygvytlhxztmr1ei8hf16ffe3"
+      }
+    },
+    {
+      "id": "ta9m2ff0kffzmpf1cjy4kp6dr",
+      "title": "阿里巴巴蔡崇信：开源是欧洲发展 AI 的最佳选择",
+      "originalTitle": null,
+      "summary": "阿里巴巴集团董事会主席蔡崇信在意大利都灵 Wave by Vento 大会上表示，欧洲要摆脱对中美技术的依赖，最佳选择是开源 AI，并呼吁欧洲建设自己的算力基础设施，在本土训练和运行模型。他认为欧洲应利用专有工业数据训练模型形成优势，并看好当地专注 AI 芯片数据中心的新型云服务商。",
+      "source": {
+        "name": "IT之家·人工智能"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/ta9m2ff0kffzmpf1cjy4kp6dr",
+        "original": "https://www.ithome.com/1/010/451.htm"
+      },
+      "publishedAt": "2026-10-08T04:19:53.590Z",
+      "discoveredAt": "2026-10-08T04:42:24.554Z",
+      "category": "tip",
+      "score": 40,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/ta9m2ff0kffzmpf1cjy4kp6dr"
+      }
+    },
+    {
+      "id": "zxbowgb1z3vlpehdaia2dymnm",
+      "title": "Tripo 官宣赞助角色建模工具 Charakuru",
+      "originalTitle": "Huge congrats on the launch of \"Charakuru\"! 🎉 We are thrilled to sponsor this incredible tool.",
+      "summary": "Tripo 官方宣布赞助基于 Tripo P2.0 与 AI Agent 的本地角色建模工具 Charakuru，称其为创作者值得一试的角色建模方案。据被引用的原发布者介绍，该套件免费公开，定位为把 Agent 作为助手与人共同建模的本地工具，利用 GPT-6.1 Sol 和 GPT-6 Astra 的 Computer use，通过 Blender 在后台运行，用户只需在应用上做简单操作，目前仍在开发中并将陆续补充功能。",
+      "source": {
+        "name": "Tripo（官方 X）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/zxbowgb1z3vlpehdaia2dymnm",
+        "original": "https://x.com/tripoai/status/2108051437423140889"
+      },
+      "publishedAt": "2026-10-08T04:26:43.000Z",
+      "discoveredAt": "2026-10-08T04:37:27.634Z",
+      "category": "industry",
+      "score": 53,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/zxbowgb1z3vlpehdaia2dymnm"
+      }
+    },
+    {
+      "id": "fbqgcl4exkecy7osf6757balp",
+      "title": "新论文指出 Lean 验证通过不能保证 AI 翻译的原始数学证明正确",
+      "originalTitle": "A new paper shows that when AI translates a math proof into Lean, passing the Lean check says nothing about whether the original proof is...",
+      "summary": "一篇新论文指出，AI 将数学证明翻译成 Lean 后，通过 Lean 检查并不能说明原始自然语言证明是否正确。论文展示了聊天机器人通过悄悄修正错误，把一个错误的证明变成有效的 Lean 证明；并论证判断一个陈述能否被忠实翻译，可证明地难于停机问题，因此任何 AI 翻译器都无法总是做到。",
+      "source": {
+        "name": "X：Rohan Paul (@rohanpaul_ai)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/fbqgcl4exkecy7osf6757balp",
+        "original": "https://x.com/rohanpaul_ai/status/2108049522031304767"
+      },
+      "publishedAt": "2026-10-08T04:19:06.000Z",
+      "discoveredAt": "2026-10-08T04:37:25.606Z",
+      "category": "paper",
+      "score": 50,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/fbqgcl4exkecy7osf6757balp"
+      }
+    },
+    {
+      "id": "cqsg1si45fvx3gdnpwtbbctic",
+      "title": "MIT 副教授 Christina Delimitrou 用 AI 提升数据中心能效",
+      "originalTitle": "Using AI to mitigate the growing environmental threat of data centers",
+      "summary": "MIT 电子工程与计算机科学系副教授 Christina Delimitrou 用机器学习优化大规模数据中心的资源管理，让现有硬件发挥更强算力，减少新建数据中心的需求。她发现多数大型计算系统利用率仅约 15%，其团队开发的 Seer 工具可用深度学习提前预测并阻止 Web 应用故障。她还利用 AI 帮助程序员定位和修复云应用问题，减少停机与算力浪费。",
+      "source": {
+        "name": "MIT News（RSS）"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/cqsg1si45fvx3gdnpwtbbctic",
+        "original": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008"
+      },
+      "publishedAt": "2026-10-08T04:00:00.000Z",
+      "discoveredAt": "2026-10-08T04:33:25.840Z",
+      "category": "tip",
+      "score": 30,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/cqsg1si45fvx3gdnpwtbbctic"
+      }
+    },
+    {
+      "id": "xj7kkl2gzgtv6przpsc3dwhfa",
+      "title": "世嘉：对 AI 态度“非常谨慎”，不会将其用于游戏创意工作",
+      "originalTitle": "世嘉：我们对 AI 态度“非常谨慎”，不会将其用于创意工作",
+      "summary": "世嘉高级执行官斋藤刚表示，公司不会把游戏创意工作交给 AI，对在游戏开发中使用 AI 持“非常谨慎”态度。世嘉已成立“生成式 AI 委员会”负责开发工具、制定使用规范并审核 Steam 商店页面，同时吸纳各地区公关和法务部门人员参与管理。世嘉此前证实《疯狂出租车：极速环游》开发初期调研中用过生成式 AI，但美术素材制作完全未使用。",
+      "source": {
+        "name": "IT之家·人工智能"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/xj7kkl2gzgtv6przpsc3dwhfa",
+        "original": "https://www.ithome.com/1/010/444.htm"
+      },
+      "publishedAt": "2026-10-08T03:44:34.433Z",
+      "discoveredAt": "2026-10-08T04:10:24.182Z",
+      "category": "industry",
+      "score": 46,
+      "selected": false,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/xj7kkl2gzgtv6przpsc3dwhfa"
+      }
+    },
+    {
+      "id": "zdgw2hhfjitur1qmeuminh3lm",
+      "title": "Codex 与 ChatGPT Work 活跃用户达 4000 万新高，付费账户重置已全部到账",
+      "originalTitle": "Confirmed landed across all accounts. How are we doing so far?",
+      "summary": "作者确认 banked reset 已到账所有账户，并转引 Day 3 动态称 Codex 与 ChatGPT Work 合计活跃用户达到 4000 万新高，其中提到 GPT-6 已在 Chat 中上线。",
+      "source": {
+        "name": "X：Tibo (@thsottiaux)"
+      },
+      "links": {
+        "aihot": "https://aihot.news/items/zdgw2hhfjitur1qmeuminh3lm",
+        "original": "https://x.com/thsottiaux/status/2108040921044639779"
+      },
+      "publishedAt": "2026-10-08T03:44:55.000Z",
+      "discoveredAt": "2026-10-08T04:06:25.318Z",
+      "category": "industry",
+      "score": 74,
+      "selected": true,
+      "reason": null,
+      "attribution": {
+        "name": "AIHOT",
+        "url": "https://aihot.news/items/zdgw2hhfjitur1qmeuminh3lm"
+      }
+    }
+  ],
+  "page": {
+    "count": 33,
+    "hasMore": false,
+    "nextCursor": null
+  }
+}

@@ -1,0 +1,1688 @@
+{
+  "fetched_at_taipei": "2026-11-17 08:15 Asia/Taipei",
+  "method": "public X MCP (namespace x) get_posts_by_ids; post.fields include note_post, article, article_title, entities; expansions author_id, referenced_posts, username, article.cover_media, article.media_entities, attachments.media_keys. Responses still use note_tweet for long text. Article entity id 2122170436289277952 was not a post and returned Not Found; full plain_text came from post 2122172073170837600.",
+  "ids": [
+    "2122172073170837600",
+    "2122170436289277952",
+    "2122206990101536852",
+    "2122268349707219333",
+    "2122148127520289151",
+    "2122392434198131005",
+    "2122461899178820069",
+    "2122420600408866844",
+    "2122374778074038613",
+    "2122344413951111663",
+    "2122351489104609554",
+    "2122420182815592736",
+    "2122421307656602040",
+    "2120977464264462816",
+    "2122238075426275745",
+    "2122474097598673165",
+    "2122413901685891441",
+    "2122380991750607319"
+  ],
+  "result": {
+    "data": [
+      {
+        "article": {
+          "cover_media": "3_2122171133638443008",
+          "entities": {
+            "posts": [
+              {
+                "id": "2121176151234330707"
+              }
+            ]
+          },
+          "media_entities": [
+            "3_2122170274737164288",
+            "3_2122170323990872064",
+            "3_2122170334183075840",
+            "3_2122170384183353344",
+            "3_2122170377233469440",
+            "16_2122170280944812032",
+            "3_2122170348586307585",
+            "3_2122170369805361152",
+            "3_2122170268013768704",
+            "3_2122170355838267392",
+            "16_2122170411161128960",
+            "7_2122170632616198144",
+            "3_2122170340608802816",
+            "3_2122170430576627712",
+            "3_2122170400654397441",
+            "7_2122170441238556672"
+          ],
+          "plain_text": "你要说上周用AI来做东西，最火的玩法是啥，那必然逃不过一个东西。\n就是用AI搓的纯HTML的3D游戏。\n \n不过呢，最离谱的一个，还是一个在各个群里疯传的究极小的HTML游戏文件，只要1.4M。\n \n你只要下载下来，打开以后，你就会发现，这个画面的效果几乎是媲美很多的3A大作了。\n \n没错，只要1.4M，你就可以玩到这样的游戏demo。\n不过这玩意不是原创，是把Anthropic的工程师Felix Rieseberg在Fable 5.2发布的时候他搓的代码，给纯扒下来汉化了一下，其他的原封不动，然后冠名国产3A大作。\n \n不过这种行为我们就不说了，不是今天的重点。\n重点还是在于，我们所看到的文件大小，1.4M，因为在这个年代，手机512G都完全不够用、存储都已经比黄金还珍贵、随手一张相片都是十几M的情况下，一个1.4M的纯HTML游戏，下载下来，在浏览器里打开，就是这样的效果。\n这其实超出了很多人的认知的。\n当时群友很多都在讨论。。。\n \n \n我就把这个文件代码打开来看了下，果然发现了一个很有趣的老朋友。\nThree.js。\n \n这1.4M里，有将近一半，大概700KB，是一个叫Three.js的东西。\n剩下的那一半，才是游戏本身。\n因为没有用任何外部素材，所有的东西全部是代码直接写的，所以集装箱、吊机、雨、枪、光影、音效啥的，全都在剩下的700K里，没有一张图片，没有一个模型文件，连声音都是代码现场合成的，没有一段录音。\n因为所有的东西都是代码，连模型文件都没有，所以实现了极限压缩。\n那我知道大家肯定想问，那Three.js到底是个啥？剩下这些东西，又是怎么塞进去的？我如果想做一个类似的这样的东西，我要怎么做？\n为了能让大家更好的理解，所以我们先极其简单的说一下，浏览器到底是怎么画3D的。\n很多人可能不知道，你每天用的浏览器，本身就能直接调用显卡渲染3D的，靠的是一套叫WebGL的接口，这其实已经是2011年3月定下来的标准了，后来又有了新一代的WebGPU。\n但这套接口，是给专业图形程序员用的，非常的原始非常的难用。\n因为写的时候，你得手把手亲自告诉显卡，比如每一个三角形的三个顶点在哪，比如每一个像素的颜色怎么算，又比如光从哪个角度打过来，摄像机的位置和朝向，又要怎么换算成屏幕上的坐标。\n究极神经病。\n中间哪怕一步写错，你看到的就是一片黑屏，连个正儿八经的报错都没有，所以在在网页3D概念刚出来的那几年里，这一直是一小撮图形开发大佬的专属手艺活，其他的真没几个人能干的了这玩意。\n直到，Three.js出现了。\n \n它干的活呢，就是把那些乱七八糟的东西，帮你封装成一个库，你不用再写之前给显卡直接看的那些神级代码了，你可以用一种极其简单的语言，来去在网页中创作3D。\n你可以简单的理解成，它有点像网页上的一个轻量版游戏引擎。\n做这个东西的人，叫Ricardo Cabello，一个西班牙程序员，网名Mr.doob。\n2010年4月24号，他把Three.js的第一个版本传到了GitHub上。\n \n十六年下来，这个项目在GitHub上攒了11.7万个Star、两千多个贡献者，基本成了网页3D的事实标准。\n这1.4M里的那七百KB，就是把整个Three.js原样打包进了文件里。\n那剩下的一半，凭啥能装下一整个游戏的demo呢。\n答案是，这些东西，根本就没有被存在文件里，这是一个很有趣的思路。\n我简单举个例子。\n假设你要给朋友描述一个人。\n一种办法，是拍张照片发过去，照片里每一个像素的颜色，你就都存在文件里，一模一样，所以照片极大。\n另一种办法，你直接给朋友发一条微信，说：“一个很帅的男人，头发中分，左右各一半，刘海梳得特别顺，穿一身背带裤，两根带子挂在肩上，手里拍着一个篮球。他先对着镜头自我介绍，说自己练习时长两年半，爱好是唱、跳、rap、篮球。”\n朋友看着这条微信，不用你发一张图，自己绝逼就能把这个人直接渲染出来。\n第一个方式，可能是10M的大小，而第二种方式，可能只有1k不到，这就是差距，可能差了几万倍，但是对于最后的终点来说，传达的信息，是差不多的。\n所以呢，你的文件里存的其实并不是集装箱长啥样子，本质上是一段告诉浏览器怎么生成这些集装箱的代码，雨也一样，存的不是雨，是雨点从哪落、落多快的规则，贴图、声音，全是这个套路。\n \n所以你会发现，你第一次打开游戏的时候，有这个东西。\n这套做法，有个专门的名字，叫程序化生成。\n所以硬要用一个比喻的话，就是你打开的那个HTML文件，其实是一份菜谱，不是一盘已经做好的菜。\n真正的菜，是你打开网页的那几秒钟里，你自己电脑的显卡，现场直接给你炒出来的，显卡现炒，匠心制作。\n这也是为什么这类网页打开的时候，经常要等几秒，有的电脑风扇还会呼呼转一下，那几秒，就是显卡在给你生成整个世界。\n当然，1.4M还不是最小的，如果你还想往下压，也可以。\n比如这个很屌的水世界。\n \n一共97K，纯HTML，直接连Three.js都没有，直接Claude Fable 5.2手搓源码，直接用WebGPU渲染。\n过于吓人了。\n感觉已经很久没有多少人在乎大小了，在现在动不动一个APP可能1、2个G的情况下，在AI的加持下，居然开始有人回到了很久以前，玩极限压缩的挑战。\n而且，这种能力，现在因为AI，开始属于每一个人。\nAI让HTML再次伟大。\n那简单的教大家一下怎么生成一些有趣的3D网页。\n首先肯定是模型，王中王自然是Claude Fable 5.2了，这个在审美上目前是断档领先的，并且在性能上也几乎能压缩到极致。\n但很多人肯定没办法用Claude，那其实用Gemini 4 Carbon和GPT-6 Astra也能跑，DeepSeek V4.1 Flash的效果也还凑合，只不过改起来就要费点心了，肯定没有Claude Fable 5.2那么省心直出。\n然后Prompt其实也非常简单，大白话就可以了，为了效果起见，我的建议还是尽量调用Three.js，没事别为了极限压缩去挑战地狱难度，Claude Fable 5.2可以，不代表其他模型也可以...\n所以我简单搞了一个模板。\n帮我做一个单文件的HTML网页，用Three.js实现一个可以自由浏览的3D场景。\n\n场景是：【你想要的画面，越具体越好。比如：重庆洪崖洞的夜景，层层叠叠的吊脚楼亮着暖黄色的灯，前面是嘉陵江，江上有游船，旁边是千厮门大桥，远处是城市的楼群】\n\n要求：\n\n1.所有模型和贴图都用代码生成，不要引用任何外部的图片和模型文件。\n\n2.支持鼠标拖动旋转视角、滚轮缩放。\n\n3.画面要有氛围感，重点处理光照、雾气和色调。\n\n4.在普通的笔记本上也要流畅，加载的时候显示进度。\n\n5.主要物体，都做成独立的组件，方便我后面单独修改。\n里面最重要的是第1条，不要用任何外部的图片或者模型文件，这样方便，体积也小。\n第5条是个小技巧，尽可能解耦，一开始就拆成独立组件，这样后面想把某栋楼改高一点、把桥换个颜色，就不会牵一发而动全身。\n这是我们简单的用类似的提示词，让GPT-6 Astra跑出来的洪崖洞。\n \n洪崖洞层层叠叠的吊脚楼、旁边的千厮门大桥、前面的嘉陵江和游船，还有背后的城市楼群，基本都被搭了出来。\n而Three.js的能力其实有很多，你也可以用它，来搞交互。\n比如我有又随手用它做了一个3D的可以玩的魔方。\n \n你也可以用它，来做动画，比如这两天X上爆火的一个90秒的片子。\n \n完全由Three.js生成，我一定要让大家看一下这个效果。\n \n虽然最后渲染成了一个视频，但是它本质，可是一个HTML哦，而且，是只有2M的HTML哦，打开以后，直接给你实时渲染播片。\n \n我很久没有看到这么让人爽的东西了。\n而且，Three.js做流体效果也是一绝。\n \n当然，你觉得纯代码做出来的模型不够精细，特别是人、动物这种曲线多的东西，也可以用Blender、Tripo先把模型做好，再让AI放进网页里。\n不过这样体积就会大一点了，但是Three.js也支持这么玩，没有任何问题。\n然后很多时候，因为模型的审美和能力确实不够，所以要改很多轮才能效果比较好，那这个时候，我也给大家分享一个我自己常用的一个小方法。\n就是直接让模型审自己。\n加一句Prompt就行：\n每改完一版，用浏览器打开它，从几个固定的角度各截一张图。\n\n再开一个子Agent，只给它看截图，不给它看代码，让它以一个挑剔的美术指导的角度，按严重程度列出画面问题。\n\n你按它的意见改，一直改到它只剩小问题为止。\n这样它就会自己去迭代很多轮，然后一直把效果打磨到最优。\n大概就是这样。\n最后，我知道可能很多人会问，用AI生成这种3D的HTML玩意，有什么用？\n说实话，你从商业上来说，可能确实没啥大用。\n但这世间所有事情，也都并不是功利的。\n它让我看到了一种久违的浪漫。\n在很长一段时间里，做出一个逼真的3D世界，那是巨头工作室的特权，是几百人团队熬上几年才能磨出来的艺术品。\n你我这样的普通人，脑子即使里有再宏大的山河，也是巧妇难为无米之炊。\n但现在，那道高不可攀的墙塌了。\n几百K的代码，一个最朴素的浏览器，每个人都能在自己的桌面上，当一回造物主。\n这可能，就是技术最迷人的时刻吧。\n以上，既然看到这里了，如果觉得不错，随手点个赞、评论、转发三连吧，这对我们有特别大的帮助~\n谢谢你看我的文章，我们，下次再见。",
+          "preview_text": "你要说上周用AI来做东西，最火的玩法是啥，那必然逃不过一个东西。\n就是用AI搓的纯HTML的3D游戏。\n \n不过呢，最离谱的一个，还是一个在各个群里疯传的究极小的HTML游戏文件，只要1.4M。",
+          "title": "这些AI手搓的几百K的3D世界，正在让HTML再次伟大。"
+        },
+        "article_title": {
+          "title": "这些AI手搓的几百K的3D世界，正在让HTML再次伟大。"
+        },
+        "author_id": "1492195583699951620",
+        "conversation_id": "2122172073170837600",
+        "created_at": "2026-11-16T03:37:04.000Z",
+        "edit_history_post_ids": [
+          "2122172073170837600"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/i/article/2122…",
+              "end": 23,
+              "expanded_url": "https://x.com/i/article/2122170436289277952",
+              "start": 0,
+              "status": 404,
+              "unwound_url": "https://x.com/i/article/2122170436289277952",
+              "url": "https://t.co/6J448CPJPj"
+            }
+          ]
+        },
+        "id": "2122172073170837600",
+        "lang": "zxx",
+        "public_metrics": {
+          "bookmark_count": 173,
+          "impression_count": 25354,
+          "like_count": 209,
+          "quote_count": 13,
+          "reply_count": 28,
+          "repost_count": 21
+        },
+        "text": "https://t.co/6J448CPJPj",
+        "url": "https://x.com/Khazix0918/status/2122172073170837600"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2122206888217698304"
+          ]
+        },
+        "author_id": "1953337039510003712",
+        "conversation_id": "2122206990101536852",
+        "created_at": "2026-11-16T05:55:49.000Z",
+        "edit_history_post_ids": [
+          "2122206990101536852"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/EgS0HkOATY",
+              "end": 121,
+              "expanded_url": "https://x.com/thsottiaux/status/2122206990101536852/photo/1",
+              "media_key": "3_2122206888217698304",
+              "start": 98,
+              "url": "https://t.co/EgS0HkOATY"
+            }
+          ]
+        },
+        "id": "2122206990101536852",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 494,
+          "impression_count": 958857,
+          "like_count": 8494,
+          "quote_count": 354,
+          "reply_count": 2132,
+          "repost_count": 239
+        },
+        "text": "Codex team might have actually fixed the \"model at capacity\" errors that have been pestering you. https://t.co/EgS0HkOATY",
+        "url": "https://x.com/thsottiaux/status/2122206990101536852"
+      },
+      {
+        "author_id": "1492195583699951620",
+        "conversation_id": "2122268349707219333",
+        "created_at": "2026-11-16T09:59:39.000Z",
+        "edit_history_post_ids": [
+          "2122268349707219333"
+        ],
+        "id": "2122268349707219333",
+        "lang": "zh",
+        "note_tweet": {
+          "text": "翻了一下最近两个月，我用Agent干活最爱说的几句Prompt：\n\n1. 从第一性原理出发，找到最本质原因，修复一下。\n\n2. 先问一些不清晰的问题，对齐我的喜好，然后再出3版方案。\n\n3.不要默认我提出的问题定义就是正确的。你先分析我真正想解决的底层需求，判断我有没有把症状误认为原因、把手段误认为目标。如果存在更值得解决的问题，直接指出来\n\n4. 不要只考虑这个改动产生的直接效果。继续推演它的二阶、三阶影响，尤其关注对其他模块、用户行为、系统复杂度和长期维护成本的潜在影响。\n\n5. 其他领域里有没有类似的方案，用跨领域的方式全面思考，找到最优解。\n\n6. 先假设你当前认为最合理的方案是错误的。站在最强反对者的角度，寻找能够推翻它的证据、反例和边界情况。然后重新评估方案，看看有没有更好的解法。\n\n7. 深入分析整个代码库的 Git 历史、关键 PR 和架构演变过程。找出哪些设计是有意为之，哪些是历史遗留，哪些是为了解决已经不存在的问题而引入的。识别可以安全移除的历史包袱。\n\n8. 假设明天有一个完全不了解项目、但是能力很强的工程师来接手。请评估他理解整个项目需要付出的认知成本，找出那些命名混乱、抽象过度、职责不清晰、需要大量上下文才能理解的代码，并提出简化方案。\n\n9. 全面分析最近XX天里的所有的PR，找出最慢的那几个，看看有没有导致卡顿、可以优化的地方。\n\n10.  全面复盘最近XX时间的 Bug、返工、回滚和重复修改。不要只统计发生了什么，要分析这些问题背后有没有共同的根因。把能够预防的共性问题沉淀成项目规则、自动化或者Skill，避免我们反复支付同样的成本。"
+        },
+        "public_metrics": {
+          "bookmark_count": 3055,
+          "impression_count": 124246,
+          "like_count": 2811,
+          "quote_count": 44,
+          "reply_count": 138,
+          "repost_count": 327
+        },
+        "text": "翻了一下最近两个月，我用Agent干活最爱说的几句Prompt：\n\n1. 从第一性原理出发，找到最本质原因，修复一下。\n\n2. 先问一些不清晰的问题，对齐我的喜好，然后再出3版方案。",
+        "url": "https://x.com/Khazix0918/status/2122268349707219333"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2122146248681721856"
+          ]
+        },
+        "author_id": "1753339277386342400",
+        "conversation_id": "2122148127520289151",
+        "created_at": "2026-11-16T02:01:55.000Z",
+        "edit_history_post_ids": [
+          "2122148127520289151"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/2Rlkoc6Dm3",
+              "end": 303,
+              "expanded_url": "https://x.com/Alibaba_Qwen/status/2122148127520289151/photo/1",
+              "media_key": "3_2122146248681721856",
+              "start": 280,
+              "url": "https://t.co/2Rlkoc6Dm3"
+            }
+          ]
+        },
+        "id": "2122148127520289151",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "urls": [
+              {
+                "display_url": "qwen.ai/blog?id=qwen4-…",
+                "end": 915,
+                "expanded_url": "https://qwen.ai/blog?id=qwen4-max",
+                "start": 892,
+                "url": "https://t.co/AuiWxugjE6"
+              },
+              {
+                "display_url": "qwencloud.com/models/qwen4-m…",
+                "end": 946,
+                "expanded_url": "https://www.qwencloud.com/models/qwen4-max",
+                "start": 923,
+                "url": "https://t.co/aS1QEkS8nu"
+              },
+              {
+                "display_url": "qwencloud.com/pricing/token-…",
+                "end": 984,
+                "expanded_url": "https://www.qwencloud.com/pricing/token-plan",
+                "start": 961,
+                "url": "https://t.co/YRvcGdB9Bv"
+              }
+            ]
+          },
+          "text": "📢 Meet Qwen4-Max, your new AI teammate for work, creativity, and discovery!\n\nQwen4-Max is built on a new MoE architecture with native vision and a 1M-token context window.\n\nHighlights:\n- Outperforms Qwen3.8-Max with up to ~50% fewer tokens, while average cost per task drops over 60% in our internal evaluation.\n- Advances real-world productivity through greater proficiency with professional tools, stronger long-horizon execution, and higher-quality deliverables.\n- Handles real tasks, including 3D modeling, game development, manufacturing, finance, law, healthcare, and frontier scientific discovery.\n- $1.5/M tokens for input, $4.5/M tokens for output, and $0.075/M tokens for implicit caching — all lower than Qwen3.8-Max, with implicit caching down by 70%.\n\nThe API is live on QwenCloud. You can also try Qwen4-Max on Qwen Studio, QwenWork and Qoder. \n\nStart building today! 🚀\n- Blog: https://t.co/AuiWxugjE6\n- API: https://t.co/aS1QEkS8nu\n- Token Plan: https://t.co/YRvcGdB9Bv\n\nMore to come! The open weights of smaller Qwen4 models will be released. Stay tuned. 👀"
+        },
+        "public_metrics": {
+          "bookmark_count": 3221,
+          "impression_count": 2124457,
+          "like_count": 13984,
+          "quote_count": 1189,
+          "reply_count": 760,
+          "repost_count": 1507
+        },
+        "text": "📢 Meet Qwen4-Max, your new AI teammate for work, creativity, and discovery!\n\nQwen4-Max is built on a new MoE architecture with native vision and a 1M-token context window.\n\nHighlights:\n- Outperforms Qwen3.8-Max with up to ~50% fewer tokens, while average cost per task drops over https://t.co/2Rlkoc6Dm3",
+        "url": "https://x.com/Alibaba_Qwen/status/2122148127520289151"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "16_2122392388366962688"
+          ]
+        },
+        "author_id": "1681349314797240320",
+        "conversation_id": "2122392434198131005",
+        "created_at": "2026-11-16T18:12:43.000Z",
+        "edit_history_post_ids": [
+          "2122392434198131005"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 27,
+              "id": "778764142412984320",
+              "start": 15,
+              "username": "huggingface"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/Q5zronJGTN",
+              "end": 297,
+              "expanded_url": "https://x.com/OpenRouter/status/2122392434198131005/photo/1",
+              "media_key": "16_2122392388366962688",
+              "start": 274,
+              "url": "https://t.co/Q5zronJGTN"
+            }
+          ]
+        },
+        "id": "2122392434198131005",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "mentions": [
+              {
+                "end": 27,
+                "id": "778764142412984320",
+                "start": 15,
+                "username": "huggingface"
+              }
+            ]
+          },
+          "text": "Open models on @huggingface now run through OpenRouter.\n\nEach request goes to the provider with the best price, speed, and uptime for that model, with automatic failover. Everything runs on the same Hugging Face token and API.\n\nYou can also send your traces to Hugging Face Storage with Broadcast, so your requests live on the Hub next to your models, ready for things like evals or fine-tuning."
+        },
+        "public_metrics": {
+          "bookmark_count": 102,
+          "impression_count": 39924,
+          "like_count": 362,
+          "quote_count": 23,
+          "reply_count": 35,
+          "repost_count": 38
+        },
+        "text": "Open models on @huggingface now run through OpenRouter.\n\nEach request goes to the provider with the best price, speed, and uptime for that model, with automatic failover. Everything runs on the same Hugging Face token and API.\n\nYou can also send your traces to Hugging Face https://t.co/Q5zronJGTN",
+        "url": "https://x.com/OpenRouter/status/2122392434198131005"
+      },
+      {
+        "author_id": "163975783",
+        "conversation_id": "2122461899178820069",
+        "created_at": "2026-11-16T22:48:44.000Z",
+        "edit_history_post_ids": [
+          "2122461899178820069"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 62,
+              "id": "1712960547216637952",
+              "start": 53,
+              "username": "howie_ai"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "x.com/howie_ai/statu…",
+              "end": 276,
+              "expanded_url": "https://twitter.com/howie_ai/status/2122458258145468597",
+              "start": 253,
+              "url": "https://t.co/8bzjebeGdD"
+            }
+          ]
+        },
+        "id": "2122461899178820069",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 40,
+          "impression_count": 10477,
+          "like_count": 189,
+          "quote_count": 3,
+          "reply_count": 9,
+          "repost_count": 15
+        },
+        "referenced_tweets": [
+          {
+            "id": "2122458258145468597",
+            "type": "quoted"
+          }
+        ],
+        "text": "We’re excited to welcome Howie to Google Labs! \n\nThe @Howie_ai team has spent years figuring out scheduling and calendar management.  We can’t wait to learn from them as we build the next generation of intuitive AI tools together for small businesses 🤝 https://t.co/8bzjebeGdD",
+        "url": "https://x.com/GoogleLabs/status/2122461899178820069"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2122419228405800960"
+          ]
+        },
+        "author_id": "1478679005788311552",
+        "conversation_id": "2122420600408866844",
+        "created_at": "2026-11-16T20:04:38.000Z",
+        "edit_history_post_ids": [
+          "2122420600408866844"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 14,
+              "id": "1667558466226110464",
+              "start": 2,
+              "username": "kotoba_tech"
+            },
+            {
+              "end": 249,
+              "id": "894548126329184260",
+              "start": 233,
+              "username": "noriyuki_kojima"
+            },
+            {
+              "end": 262,
+              "id": "786071512646377473",
+              "start": 251,
+              "username": "jungokasai"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/FfucEerSja",
+              "end": 297,
+              "expanded_url": "https://x.com/ElevenLabs/status/2122420600408866844/video/1",
+              "media_key": "13_2122419228405800960",
+              "start": 274,
+              "url": "https://t.co/FfucEerSja"
+            }
+          ]
+        },
+        "id": "2122420600408866844",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 37,
+          "impression_count": 19429,
+          "like_count": 165,
+          "quote_count": 21,
+          "reply_count": 25,
+          "repost_count": 37
+        },
+        "text": ". @Kotoba_tech, the leading voice AI lab in Japan, is joining ElevenLabs.\n\nTogether, we’ll bring Kotoba’s Japanese voice research to ElevenAgents, so more businesses can serve customers naturally in Japanese.\n\nWelcome to ElevenLabs, @noriyuki_kojima, @jungokasai, and team. https://t.co/FfucEerSja",
+        "url": "https://x.com/ElevenLabs/status/2122420600408866844"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2122370428652212224"
+          ]
+        },
+        "author_id": "433930822",
+        "conversation_id": "2122374778074038613",
+        "created_at": "2026-11-16T17:02:33.000Z",
+        "edit_history_post_ids": [
+          "2122374778074038613"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 26,
+              "id": "33846451",
+              "start": 20,
+              "username": "Accel"
+            },
+            {
+              "end": 38,
+              "id": "171165102",
+              "start": 31,
+              "username": "PeakXV"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/agNKSPoUwG",
+              "end": 303,
+              "expanded_url": "https://x.com/anuruddh_m/status/2122374778074038613/video/1",
+              "media_key": "13_2122370428652212224",
+              "start": 280,
+              "url": "https://t.co/agNKSPoUwG"
+            }
+          ]
+        },
+        "id": "2122374778074038613",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "mentions": [
+              {
+                "end": 26,
+                "id": "33846451",
+                "start": 20,
+                "username": "Accel"
+              },
+              {
+                "end": 38,
+                "id": "171165102",
+                "start": 31,
+                "username": "PeakXV"
+              }
+            ]
+          },
+          "text": "We raised $12M from @Accel and @PeakXV to put AI through the bullshit American healthcare puts you through.\n\nNavigating healthcare is hard and all of us have a list of healthcare tasks we’ve been putting off. From visiting a doctor to filing an insurance claim, the tasks pile up and get put off.\n\nWe’ve already helped 10M people understand their health. August now talks to the health system on your behalf. Tell it what you need, and August takes care of it.\n\nIn the last few weeks, August spent 24,286 minutes on hold while finding the earliest available in-network doctor appointments for our early users.\n\nIt spent 366 minutes on hold for one person alone. It also helped another save $1,255 on an insurance claim. Naturally, the ones who tried it say that they can't ever imagine going back.\n\nI’ve held the phone for hours calling doctors, while a disease made it hard to even hold the phone. I’ve felt lost and overwhelmed when dealing with a disease and the system. \n\nIt’s why I started building August, so that all of us have a companion for our health."
+        },
+        "public_metrics": {
+          "bookmark_count": 532,
+          "impression_count": 902460,
+          "like_count": 794,
+          "quote_count": 392,
+          "reply_count": 393,
+          "repost_count": 209
+        },
+        "text": "We raised $12M from @Accel and @PeakXV to put AI through the bullshit American healthcare puts you through.\n\nNavigating healthcare is hard and all of us have a list of healthcare tasks we’ve been putting off. From visiting a doctor to filing an insurance claim, the tasks pile up https://t.co/agNKSPoUwG",
+        "url": "https://x.com/anuruddh_m/status/2122374778074038613"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2122336646901235713"
+          ]
+        },
+        "author_id": "1684849711654588416",
+        "conversation_id": "2122344413951111663",
+        "created_at": "2026-11-16T15:01:54.000Z",
+        "edit_history_post_ids": [
+          "2122344413951111663"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 77,
+              "id": "165503959",
+              "start": 73,
+              "username": "NEA"
+            },
+            {
+              "end": 91,
+              "id": "24775410",
+              "start": 83,
+              "username": "sequoia"
+            },
+            {
+              "end": 108,
+              "id": "2236517244",
+              "start": 93,
+              "username": "khoslaventures"
+            },
+            {
+              "end": 124,
+              "id": "780720157",
+              "start": 113,
+              "username": "coatuemgmt"
+            },
+            {
+              "end": 148,
+              "id": "2084935729566609408",
+              "start": 140,
+              "username": "CormaAI"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/do0ElrPjRN",
+              "end": 303,
+              "expanded_url": "https://x.com/AlonPluda/status/2122344413951111663/video/1",
+              "media_key": "13_2122336646901235713",
+              "start": 280,
+              "url": "https://t.co/do0ElrPjRN"
+            }
+          ]
+        },
+        "id": "2122344413951111663",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "mentions": [
+              {
+                "end": 77,
+                "id": "165503959",
+                "start": 73,
+                "username": "NEA"
+              },
+              {
+                "end": 91,
+                "id": "24775410",
+                "start": 83,
+                "username": "sequoia"
+              },
+              {
+                "end": 108,
+                "id": "2236517244",
+                "start": 93,
+                "username": "khoslaventures"
+              },
+              {
+                "end": 124,
+                "id": "780720157",
+                "start": 113,
+                "username": "coatuemgmt"
+              },
+              {
+                "end": 148,
+                "id": "2084935729566609408",
+                "start": 140,
+                "username": "CormaAI"
+              }
+            ]
+          },
+          "text": "We raised a $125M Series A at a $1B valuation, 3 months out of stealth.\n\n@NEA led. @sequoia, @khoslaventures and @coatuemgmt doubled down.\n\n@CormaAI is training foundation models toward superintelligence for defensive cybersecurity.\n\nBecause the greatest gift cyberattackers have ever received is smarter AI, and right now only one side is armed.\n\nArm the defenders."
+        },
+        "public_metrics": {
+          "bookmark_count": 725,
+          "impression_count": 1140867,
+          "like_count": 1392,
+          "quote_count": 137,
+          "reply_count": 195,
+          "repost_count": 134
+        },
+        "text": "We raised a $125M Series A at a $1B valuation, 3 months out of stealth.\n\n@NEA led. @sequoia, @khoslaventures and @coatuemgmt doubled down.\n\n@CormaAI is training foundation models toward superintelligence for defensive cybersecurity.\n\nBecause the greatest gift cyberattackers have https://t.co/do0ElrPjRN",
+        "url": "https://x.com/AlonPluda/status/2122344413951111663"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2122260180780085248"
+          ]
+        },
+        "author_id": "1476858630972469248",
+        "conversation_id": "2122351489104609554",
+        "created_at": "2026-11-16T15:30:01.000Z",
+        "edit_history_post_ids": [
+          "2122351489104609554"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "Put your Okara AI CMO inside ChatGPT, Claude, Grok or Muse. Paste one link, then ask it to write posts, check your SEO and find Reddit threads.",
+              "display_url": "okara.ai/mcp",
+              "end": 235,
+              "expanded_url": "https://okara.ai/mcp",
+              "start": 212,
+              "status": 200,
+              "title": "Marketing MCP Server for ChatGPT, Claude & Grok | Okara",
+              "unwound_url": "https://okara.ai/mcp",
+              "url": "https://t.co/dOxxjfqKy1"
+            },
+            {
+              "display_url": "pic.x.com/AzxsJnCXBg",
+              "end": 259,
+              "expanded_url": "https://x.com/askOkara/status/2122351489104609554/video/1",
+              "media_key": "13_2122260180780085248",
+              "start": 236,
+              "url": "https://t.co/AzxsJnCXBg"
+            }
+          ]
+        },
+        "id": "2122351489104609554",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 286,
+          "impression_count": 128052,
+          "like_count": 371,
+          "quote_count": 44,
+          "reply_count": 52,
+          "repost_count": 35
+        },
+        "text": "Today, we're introducing Okara MCP.\n\nConnect it to Claude, Cursor, Codex, or any LLM, and it finds gaps, fixes issues, and publishes your posts across socials to help you grow traffic and revenue.\n\nTry it now at https://t.co/dOxxjfqKy1 https://t.co/AzxsJnCXBg",
+        "url": "https://x.com/askOkara/status/2122351489104609554"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "7_2122420153660899328"
+          ]
+        },
+        "author_id": "1681613391750905856",
+        "conversation_id": "2122420182815592736",
+        "created_at": "2026-11-16T20:02:58.000Z",
+        "edit_history_post_ids": [
+          "2122420182815592736"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/lXTR2mSD7m",
+              "end": 302,
+              "expanded_url": "https://x.com/nasikolabs/status/2122420182815592736/video/1",
+              "media_key": "7_2122420153660899328",
+              "start": 279,
+              "url": "https://t.co/lXTR2mSD7m"
+            }
+          ]
+        },
+        "id": "2122420182815592736",
+        "lang": "en",
+        "note_tweet": {
+          "entities": {
+            "hashtags": [
+              {
+                "end": 365,
+                "start": 362,
+                "tag": "ai"
+              },
+              {
+                "end": 375,
+                "start": 366,
+                "tag": "tokenops"
+              },
+              {
+                "end": 388,
+                "start": 376,
+                "tag": "openruntime"
+              },
+              {
+                "end": 396,
+                "start": 389,
+                "tag": "agents"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "buff.ly/k79CiWW",
+                "end": 359,
+                "expanded_url": "https://buff.ly/k79CiWW",
+                "start": 336,
+                "url": "https://t.co/ngMSk2TQ6R"
+              }
+            ]
+          },
+          "text": "Nasiko - Open Runtime platform for managing AI agents.\nSee every agent. Cut token spend by up to 50%. Route to the right model with the agent gateway. Govern tool access. Set permissions and budgets per agent, per team. One command. Same workflow.\nOpen Runtime for agents starts now. First, every token. Next, every action!\nStart Free: https://t.co/ngMSk2TQ6R \n\n#ai #tokenops #openruntime #agents"
+        },
+        "public_metrics": {
+          "bookmark_count": 310,
+          "impression_count": 253912,
+          "like_count": 384,
+          "quote_count": 111,
+          "reply_count": 85,
+          "repost_count": 73
+        },
+        "text": "Nasiko - Open Runtime platform for managing AI agents.\nSee every agent. Cut token spend by up to 50%. Route to the right model with the agent gateway. Govern tool access. Set permissions and budgets per agent, per team. One command. Same workflow.\nOpen Runtime for agents starts https://t.co/lXTR2mSD7m",
+        "url": "https://x.com/nasikolabs/status/2122420182815592736"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2122421303000866817"
+          ]
+        },
+        "author_id": "1769852186874306560",
+        "conversation_id": "2122421307656602040",
+        "created_at": "2026-11-16T20:07:27.000Z",
+        "edit_history_post_ids": [
+          "2122421307656602040"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/737tbgXd1x",
+              "end": 183,
+              "expanded_url": "https://x.com/aitrackerbot/status/2122421307656602040/photo/1",
+              "media_key": "3_2122421303000866817",
+              "start": 160,
+              "url": "https://t.co/737tbgXd1x"
+            }
+          ]
+        },
+        "id": "2122421307656602040",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 23,
+          "impression_count": 41636,
+          "like_count": 247,
+          "quote_count": 24,
+          "reply_count": 19,
+          "repost_count": 15
+        },
+        "text": "GEMINI 4 NEON 👀\n\nA model called gemini-4-neon has surfaced in the Gemini web app's code from Google. For now it's only a code reference, with no public access. https://t.co/737tbgXd1x",
+        "url": "https://x.com/aitrackerbot/status/2122421307656602040"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2120977434447159297"
+          ]
+        },
+        "author_id": "885220904761933824",
+        "conversation_id": "2120977464264462816",
+        "created_at": "2026-11-12T20:30:07.000Z",
+        "edit_history_post_ids": [
+          "2120977464264462816"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/NCyCCbGiED",
+              "end": 183,
+              "expanded_url": "https://x.com/MicrosoftAI/status/2120977464264462816/video/1",
+              "media_key": "13_2120977434447159297",
+              "start": 160,
+              "url": "https://t.co/NCyCCbGiED"
+            }
+          ]
+        },
+        "id": "2120977464264462816",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 146,
+          "impression_count": 62086,
+          "like_count": 997,
+          "quote_count": 19,
+          "reply_count": 56,
+          "repost_count": 70
+        },
+        "text": "Microsoft Ignite starts next week, November 17! The MAI team is bringing something new: new models, demos, and speaker sessions from the people who built them. https://t.co/NCyCCbGiED",
+        "url": "https://x.com/MicrosoftAI/status/2120977464264462816"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2122238065246711808",
+            "3_2122238065242480640"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2122238075426275745",
+        "created_at": "2026-11-16T07:59:21.000Z",
+        "edit_history_post_ids": [
+          "2122238075426275745"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/TDoeGXoIKa",
+              "end": 301,
+              "expanded_url": "https://x.com/testingcatalog/status/2122238075426275745/photo/1",
+              "media_key": "3_2122238065246711808",
+              "start": 278,
+              "url": "https://t.co/TDoeGXoIKa"
+            },
+            {
+              "display_url": "pic.x.com/TDoeGXoIKa",
+              "end": 301,
+              "expanded_url": "https://x.com/testingcatalog/status/2122238075426275745/photo/2",
+              "media_key": "3_2122238065242480640",
+              "start": 278,
+              "url": "https://t.co/TDoeGXoIKa"
+            },
+            {
+              "display_url": "x.com/alibaba_qwen/s…",
+              "end": 325,
+              "expanded_url": "https://twitter.com/alibaba_qwen/status/2122148127520289151",
+              "start": 302,
+              "url": "https://t.co/WmMfFo2dv1"
+            }
+          ]
+        },
+        "id": "2122238075426275745",
+        "lang": "en",
+        "note_tweet": {
+          "text": "ALIBABA 🔥: Qwen4-Max benchmarks are out, and it scored 43 points on the Artificial Analysis Index, one point below Muse Wonder. \n\nQwen4-Max is a new MoE architecture model with native vision and a 1M-token context window.\n\n> Qwen4 Max, using xhigh reasoning effort, scores 9 points ahead of Qwen3.8 Max (xhigh) and 3 points behind Kimi K3.1 Pro (max, 46).\n\n> It also debuted at #14 overall on Agent Arena with a +7.5% net improvement across 14.7k real-world agentic sessions."
+        },
+        "public_metrics": {
+          "bookmark_count": 19,
+          "impression_count": 15673,
+          "like_count": 285,
+          "quote_count": 4,
+          "reply_count": 47,
+          "repost_count": 20
+        },
+        "referenced_tweets": [
+          {
+            "id": "2122148127520289151",
+            "type": "quoted"
+          }
+        ],
+        "text": "ALIBABA 🔥: Qwen4-Max benchmarks are out, and it scored 43 points on the Artificial Analysis Index, one point below Muse Wonder. \n\nQwen4-Max is a new MoE architecture model with native vision and a 1M-token context window.\n\n&gt; Qwen4 Max, using xhigh reasoning effort, scores 9 https://t.co/TDoeGXoIKa https://t.co/WmMfFo2dv1",
+        "url": "https://x.com/testingcatalog/status/2122238075426275745"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2122474093127532544",
+            "3_2122474093131743232"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2122474097598673165",
+        "created_at": "2026-11-16T23:37:13.000Z",
+        "edit_history_post_ids": [
+          "2122474097598673165"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/8sNlaQzsV0",
+              "end": 213,
+              "expanded_url": "https://x.com/testingcatalog/status/2122474097598673165/photo/1",
+              "media_key": "3_2122474093127532544",
+              "start": 190,
+              "url": "https://t.co/8sNlaQzsV0"
+            },
+            {
+              "display_url": "pic.x.com/8sNlaQzsV0",
+              "end": 213,
+              "expanded_url": "https://x.com/testingcatalog/status/2122474097598673165/photo/2",
+              "media_key": "3_2122474093131743232",
+              "start": 190,
+              "url": "https://t.co/8sNlaQzsV0"
+            },
+            {
+              "display_url": "x.com/googlelabs/sta…",
+              "end": 237,
+              "expanded_url": "https://twitter.com/googlelabs/status/2122461899178820069",
+              "start": 214,
+              "url": "https://t.co/ML3ZTKXv1s"
+            }
+          ]
+        },
+        "id": "2122474097598673165",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 2,
+          "impression_count": 2420,
+          "like_count": 31,
+          "quote_count": 0,
+          "reply_count": 2,
+          "repost_count": 1
+        },
+        "referenced_tweets": [
+          {
+            "id": "2122461899178820069",
+            "type": "quoted"
+          }
+        ],
+        "text": "Google Labs ❤️ Howie\n\nHowie, a company behind Howie AI secretary, is joining Google Labs. \n\nThe team will help Google building scheduling and calendar management tools for small businesses. https://t.co/8sNlaQzsV0 https://t.co/ML3ZTKXv1s",
+        "url": "https://x.com/testingcatalog/status/2122474097598673165"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2122413897118363649",
+            "3_2122413897130885120"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2122413901685891441",
+        "created_at": "2026-11-16T19:38:01.000Z",
+        "edit_history_post_ids": [
+          "2122413901685891441"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/vu36tBnmgM",
+              "end": 304,
+              "expanded_url": "https://x.com/testingcatalog/status/2122413901685891441/photo/1",
+              "media_key": "3_2122413897118363649",
+              "start": 281,
+              "url": "https://t.co/vu36tBnmgM"
+            },
+            {
+              "display_url": "pic.x.com/vu36tBnmgM",
+              "end": 304,
+              "expanded_url": "https://x.com/testingcatalog/status/2122413901685891441/photo/2",
+              "media_key": "3_2122413897130885120",
+              "start": 281,
+              "url": "https://t.co/vu36tBnmgM"
+            },
+            {
+              "display_url": "x.com/openrouter/sta…",
+              "end": 328,
+              "expanded_url": "https://twitter.com/openrouter/status/2122392434198131005",
+              "start": 305,
+              "url": "https://t.co/wl9DWEEOOO"
+            }
+          ]
+        },
+        "id": "2122413901685891441",
+        "lang": "en",
+        "note_tweet": {
+          "text": "OpenRouter ❤️ HuggingFace\n\nHuggingFace switching its inference provider to OpenRouter!\n\n> “Requests made to language models now go through OpenRouter, which picks the best provider for each call based on live price, speed and reliability, and retries on another provider if the first one fails.”\n\nHuggingRouter 👀"
+        },
+        "public_metrics": {
+          "bookmark_count": 9,
+          "impression_count": 6277,
+          "like_count": 121,
+          "quote_count": 0,
+          "reply_count": 18,
+          "repost_count": 9
+        },
+        "referenced_tweets": [
+          {
+            "id": "2122392434198131005",
+            "type": "quoted"
+          }
+        ],
+        "text": "OpenRouter ❤️ HuggingFace\n\nHuggingFace switching its inference provider to OpenRouter!\n\n&gt; “Requests made to language models now go through OpenRouter, which picks the best provider for each call based on live price, speed and reliability, and retries on another provider if the https://t.co/vu36tBnmgM https://t.co/wl9DWEEOOO",
+        "url": "https://x.com/testingcatalog/status/2122413901685891441"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2122377861205995520"
+          ]
+        },
+        "author_id": "3980735590",
+        "conversation_id": "2122380991750607319",
+        "created_at": "2026-11-16T17:27:15.000Z",
+        "edit_history_post_ids": [
+          "2122380991750607319"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/e0u09dljJc",
+              "end": 176,
+              "expanded_url": "https://x.com/testingcatalog/status/2122380991750607319/photo/1",
+              "media_key": "3_2122377861205995520",
+              "start": 153,
+              "url": "https://t.co/e0u09dljJc"
+            },
+            {
+              "display_url": "x.com/MicrosoftAI/st…",
+              "end": 200,
+              "expanded_url": "https://twitter.com/MicrosoftAI/status/2120977464264462816",
+              "start": 177,
+              "url": "https://t.co/vs269HHEFY"
+            }
+          ]
+        },
+        "id": "2122380991750607319",
+        "lang": "en",
+        "public_metrics": {
+          "bookmark_count": 22,
+          "impression_count": 7613,
+          "like_count": 144,
+          "quote_count": 0,
+          "reply_count": 14,
+          "repost_count": 5
+        },
+        "referenced_tweets": [
+          {
+            "id": "2120977464264462816",
+            "type": "quoted"
+          }
+        ],
+        "text": "MAI Playground got a new UI design ahead of the upcoming Microsoft Ignite event. On November 17, we also expect new MAI models to be announced! \n\nSoon 👀 https://t.co/e0u09dljJc https://t.co/vs269HHEFY",
+        "url": "https://x.com/testingcatalog/status/2122380991750607319"
+      }
+    ],
+    "errors": [
+      {
+        "detail": "Could not find post with ids: [2122170436289277952].",
+        "parameter": "ids",
+        "resource_id": "2122170436289277952",
+        "resource_type": "post",
+        "title": "Not Found Error",
+        "type": "https://api.x.com/2/problems/resource-not-found",
+        "value": "2122170436289277952"
+      }
+    ],
+    "includes": {
+      "media": [
+        {
+          "media_key": "3_2122171133638443008",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN3Zv0bgAApHOx.jpg"
+        },
+        {
+          "media_key": "3_2122170274737164288",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2nwKaEAA1H9B.png"
+        },
+        {
+          "media_key": "3_2122170323990872064",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2qnpaAAA-UY8.jpg"
+        },
+        {
+          "media_key": "3_2122170334183075840",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2rNnasAAjKha.png"
+        },
+        {
+          "media_key": "3_2122170384183353344",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2uH4aYAA6Q0v.jpg"
+        },
+        {
+          "media_key": "3_2122170377233469440",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2tt_bkAAA8RN.png"
+        },
+        {
+          "media_key": "16_2122170280944812032",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HXN2oHSbQAABfy9.jpg",
+          "type": "animated_gif",
+          "variants": [
+            {
+              "bit_rate": 0,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/tweet_video/HXN2oHSbQAABfy9.mp4"
+            }
+          ]
+        },
+        {
+          "media_key": "3_2122170348586307585",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2sDRakAEn0y5.png"
+        },
+        {
+          "media_key": "3_2122170369805361152",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2tSUboAA_cYD.jpg"
+        },
+        {
+          "media_key": "3_2122170268013768704",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2nXHbMAAkeIC.png"
+        },
+        {
+          "media_key": "3_2122170355838267392",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2seSasAAlcTw.jpg"
+        },
+        {
+          "media_key": "16_2122170411161128960",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HXN2vsYakAAq_y-.jpg",
+          "type": "animated_gif",
+          "variants": [
+            {
+              "bit_rate": 0,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/tweet_video/HXN2vsYakAAq_y-.mp4"
+            }
+          ]
+        },
+        {
+          "duration_ms": 121800,
+          "media_key": "7_2122170632616198144",
+          "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2122170632616198144/pu/img/c81lVzfJxCE30VxO.jpg",
+          "type": "video",
+          "variants": [
+            {
+              "bit_rate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2122170632616198144/pu/vid/avc1/430x270/jfrgnO0MD0E1I9mL.mp4?tag=12"
+            },
+            {
+              "bit_rate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2122170632616198144/pu/vid/avc1/574x360/UuiYMZTz96cfvEB6.mp4?tag=12"
+            },
+            {
+              "bit_rate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2122170632616198144/pu/vid/avc1/1148x720/PXq5mIeLi1cNqm5d.mp4?tag=12"
+            },
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/ext_tw_video/2122170632616198144/pu/pl/gtKZPUoXCb0KVGuK.m3u8?tag=12"
+            }
+          ]
+        },
+        {
+          "media_key": "3_2122170340608802816",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2rljbgAALXSN.png"
+        },
+        {
+          "media_key": "3_2122170430576627712",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2w0tbkAAr4eL.png"
+        },
+        {
+          "media_key": "3_2122170400654397441",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXN2vFPakAEsUWg.jpg"
+        },
+        {
+          "duration_ms": 85333,
+          "media_key": "7_2122170441238556672",
+          "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2122170441238556672/pu/img/fNqcyAUyPEK13zFa.jpg",
+          "type": "video",
+          "variants": [
+            {
+              "bit_rate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2122170441238556672/pu/vid/avc1/492x270/8wrfnx_gQaTM42aE.mp4?tag=12"
+            },
+            {
+              "bit_rate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2122170441238556672/pu/vid/avc1/656x360/TXkhW2D7WYF1fWvo.mp4?tag=12"
+            },
+            {
+              "bit_rate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2122170441238556672/pu/vid/avc1/1312x720/iXrkKRpSHNwf-XFU.mp4?tag=12"
+            },
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/ext_tw_video/2122170441238556672/pu/pl/W9eBZP59aZD771wI.m3u8?tag=12&v=cfc"
+            }
+          ]
+        },
+        {
+          "media_key": "3_2122206888217698304",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXOX68AaYAAlezW.jpg"
+        },
+        {
+          "media_key": "3_2122146248681721856",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXNgxQIaEAAHHwZ.jpg"
+        },
+        {
+          "media_key": "16_2122392388366962688",
+          "preview_image_url": "https://pbs.twimg.com/tweet_video_thumb/HXRAod6bEAA5xjg.jpg",
+          "type": "animated_gif",
+          "variants": [
+            {
+              "bit_rate": 0,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/tweet_video/HXRAod6bEAA5xjg.mp4"
+            }
+          ]
+        },
+        {
+          "duration_ms": 173353,
+          "media_key": "13_2122419228405800960",
+          "preview_image_url": "https://pbs.twimg.com/media/HXRaHJUXUAASo9l.jpg",
+          "type": "video",
+          "variants": [
+            {
+              "bit_rate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122419228405800960/vid/avc1/1920x1080/bnYdmdwnhnzGM7Tp.mp4"
+            },
+            {
+              "bit_rate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122419228405800960/vid/avc1/640x360/6EkA34cQp95e2_08.mp4"
+            },
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2122419228405800960/pl/FUHycWfgyqI5S10d.m3u8?v=f1e"
+            },
+            {
+              "bit_rate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122419228405800960/vid/avc1/1280x720/F76n5KT5A5-obKDa.mp4"
+            },
+            {
+              "bit_rate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122419228405800960/vid/avc1/480x270/-edX3M1om3kE498v.mp4"
+            }
+          ]
+        },
+        {
+          "duration_ms": 168489,
+          "media_key": "13_2122370428652212224",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2122370428652212224/img/6Da40ISnQVUQuLtq.jpg",
+          "type": "video",
+          "variants": [
+            {
+              "bit_rate": 25128000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122370428652212224/vid/avc1/3840x2160/6vgUwQDIJyA2j60R.mp4"
+            },
+            {
+              "bit_rate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122370428652212224/vid/avc1/640x360/vCBQNuK37zDjmfkZ.mp4"
+            },
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2122370428652212224/pl/Je0Yj6HmPiLKzvTd.m3u8"
+            },
+            {
+              "bit_rate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122370428652212224/vid/avc1/480x270/z8oWsE0-tXAsyspQ.mp4"
+            },
+            {
+              "bit_rate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122370428652212224/vid/avc1/1280x720/etLyQxJEeMcgu_K8.mp4"
+            },
+            {
+              "bit_rate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122370428652212224/vid/avc1/1920x1080/voRFljOemeOwk3D8.mp4"
+            }
+          ]
+        },
+        {
+          "duration_ms": 47120,
+          "media_key": "13_2122336646901235713",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2122336646901235713/img/VJo3Qeqh5QQZe5JB.jpg",
+          "type": "video",
+          "variants": [
+            {
+              "bit_rate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122336646901235713/vid/avc1/1920x1080/lbPH5J6YivgyG_aN.mp4"
+            },
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2122336646901235713/pl/qXv6gtFKN1e2hOko.m3u8"
+            },
+            {
+              "bit_rate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122336646901235713/vid/avc1/640x360/_tkGMdgcDEg4FuyG.mp4"
+            },
+            {
+              "bit_rate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122336646901235713/vid/avc1/480x270/IA9jiq2cp6hwlBQ5.mp4"
+            },
+            {
+              "bit_rate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122336646901235713/vid/avc1/1280x720/6IV0Y9XI-xUyJreC.mp4"
+            }
+          ]
+        },
+        {
+          "duration_ms": 81833,
+          "media_key": "13_2122260180780085248",
+          "preview_image_url": "https://pbs.twimg.com/media/HXQeC92acAA4gK-.jpg",
+          "type": "video",
+          "variants": [
+            {
+              "bit_rate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122260180780085248/vid/avc1/480x270/hn4UdeIWrHOD7dyW.mp4"
+            },
+            {
+              "bit_rate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122260180780085248/vid/avc1/640x360/or_myenQTfDeiZY1.mp4"
+            },
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2122260180780085248/pl/s1Xs70UTeotQsm93.m3u8?v=cfc"
+            },
+            {
+              "bit_rate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122260180780085248/vid/avc1/1920x1080/QwRUB14Qv5mjCL7z.mp4"
+            },
+            {
+              "bit_rate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2122260180780085248/vid/avc1/1280x720/iYr-_iKsmCLswVu6.mp4"
+            }
+          ]
+        },
+        {
+          "duration_ms": 57750,
+          "media_key": "7_2122420153660899328",
+          "preview_image_url": "https://pbs.twimg.com/ext_tw_video_thumb/2122420153660899328/pu/img/P5gdg__1KKVHJBXe.jpg",
+          "type": "video",
+          "variants": [
+            {
+              "bit_rate": 256000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2122420153660899328/pu/vid/avc1/480x270/MhbcHqhKZ-dDhMLm.mp4?tag=12"
+            },
+            {
+              "bit_rate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2122420153660899328/pu/vid/avc1/640x360/K4Dsui0bFb9ZjiLR.mp4?tag=12"
+            },
+            {
+              "bit_rate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/ext_tw_video/2122420153660899328/pu/vid/avc1/1280x720/0Tud48sUx6U6Uz_B.mp4?tag=12"
+            },
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/ext_tw_video/2122420153660899328/pu/pl/TOVb5CdmDnX21XjS.m3u8?tag=12&v=bbd"
+            }
+          ]
+        },
+        {
+          "media_key": "3_2122421303000866817",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXRa7hUWoAE_CdO.jpg"
+        },
+        {
+          "duration_ms": 10000,
+          "media_key": "13_2120977434447159297",
+          "preview_image_url": "https://pbs.twimg.com/amplify_video_thumb/2120977434447159297/img/_hKIQ5T8NcE_Lp0h.jpg",
+          "type": "video",
+          "variants": [
+            {
+              "bit_rate": 288000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2120977434447159297/vid/avc1/480x270/1eJkg6hcRdbEsC90.mp4?tag=16"
+            },
+            {
+              "content_type": "application/x-mpegURL",
+              "url": "https://video.twimg.com/amplify_video/2120977434447159297/pl/gmcjgBw_FGv3RwRH.m3u8?tag=16"
+            },
+            {
+              "bit_rate": 832000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2120977434447159297/vid/avc1/640x360/O_Hqo2sFfOmr10k3.mp4?tag=16"
+            },
+            {
+              "bit_rate": 10368000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2120977434447159297/vid/avc1/1920x1080/EYDUmx91J2MKb9rg.mp4?tag=16"
+            },
+            {
+              "bit_rate": 2176000,
+              "content_type": "video/mp4",
+              "url": "https://video.twimg.com/amplify_video/2120977434447159297/vid/avc1/1280x720/YAqaCHMQs7EUvWwF.mp4?tag=16"
+            }
+          ]
+        },
+        {
+          "media_key": "3_2122238065246711808",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXO0RrfXsAAoYOB.jpg"
+        },
+        {
+          "media_key": "3_2122238065242480640",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXO0RreXIAATceZ.jpg"
+        },
+        {
+          "media_key": "3_2122474093127532544",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXSK8T3WAAADNpJ.jpg"
+        },
+        {
+          "media_key": "3_2122474093131743232",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXSK8T4WQAAe4ZC.jpg"
+        },
+        {
+          "media_key": "3_2122413897118363649",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXRUMcQXsAERIDK.jpg"
+        },
+        {
+          "media_key": "3_2122413897130885120",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXRUMcTWwAAOws6.jpg"
+        },
+        {
+          "media_key": "3_2122377861205995520",
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HXQza4BWMAASqe6.jpg"
+        }
+      ],
+      "posts": [
+        {
+          "author_id": "1712960547216637952",
+          "conversation_id": "2122458258145468597",
+          "created_at": "2026-11-16T22:34:16.000Z",
+          "edit_history_post_ids": [
+            "2122458258145468597"
+          ],
+          "id": "2122458258145468597",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 10,
+            "impression_count": 18623,
+            "like_count": 69,
+            "quote_count": 8,
+            "reply_count": 3,
+            "repost_count": 3
+          },
+          "text": "Big news: Howie is joining Google Labs!\n\nOur team will continue to serve our existing customers and we’re building toward the same mission, to solve scheduling and calendar management for small businesses. \n\nWe're excited to continue the journey at Google Labs!"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2122146248681721856"
+            ]
+          },
+          "author_id": "1753339277386342400",
+          "conversation_id": "2122148127520289151",
+          "created_at": "2026-11-16T02:01:55.000Z",
+          "edit_history_post_ids": [
+            "2122148127520289151"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/2Rlkoc6Dm3",
+                "end": 303,
+                "expanded_url": "https://x.com/Alibaba_Qwen/status/2122148127520289151/photo/1",
+                "media_key": "3_2122146248681721856",
+                "start": 280,
+                "url": "https://t.co/2Rlkoc6Dm3"
+              }
+            ]
+          },
+          "id": "2122148127520289151",
+          "lang": "en",
+          "note_tweet": {
+            "entities": {
+              "urls": [
+                {
+                  "display_url": "qwen.ai/blog?id=qwen4-…",
+                  "end": 915,
+                  "expanded_url": "https://qwen.ai/blog?id=qwen4-max",
+                  "start": 892,
+                  "url": "https://t.co/AuiWxugjE6"
+                },
+                {
+                  "display_url": "qwencloud.com/models/qwen4-m…",
+                  "end": 946,
+                  "expanded_url": "https://www.qwencloud.com/models/qwen4-max",
+                  "start": 923,
+                  "url": "https://t.co/aS1QEkS8nu"
+                },
+                {
+                  "display_url": "qwencloud.com/pricing/token-…",
+                  "end": 984,
+                  "expanded_url": "https://www.qwencloud.com/pricing/token-plan",
+                  "start": 961,
+                  "url": "https://t.co/YRvcGdB9Bv"
+                }
+              ]
+            },
+            "text": "📢 Meet Qwen4-Max, your new AI teammate for work, creativity, and discovery!\n\nQwen4-Max is built on a new MoE architecture with native vision and a 1M-token context window.\n\nHighlights:\n- Outperforms Qwen3.8-Max with up to ~50% fewer tokens, while average cost per task drops over 60% in our internal evaluation.\n- Advances real-world productivity through greater proficiency with professional tools, stronger long-horizon execution, and higher-quality deliverables.\n- Handles real tasks, including 3D modeling, game development, manufacturing, finance, law, healthcare, and frontier scientific discovery.\n- $1.5/M tokens for input, $4.5/M tokens for output, and $0.075/M tokens for implicit caching — all lower than Qwen3.8-Max, with implicit caching down by 70%.\n\nThe API is live on QwenCloud. You can also try Qwen4-Max on Qwen Studio, QwenWork and Qoder. \n\nStart building today! 🚀\n- Blog: https://t.co/AuiWxugjE6\n- API: https://t.co/aS1QEkS8nu\n- Token Plan: https://t.co/YRvcGdB9Bv\n\nMore to come! The open weights of smaller Qwen4 models will be released. Stay tuned. 👀"
+          },
+          "public_metrics": {
+            "bookmark_count": 3221,
+            "impression_count": 2124457,
+            "like_count": 13984,
+            "quote_count": 1189,
+            "reply_count": 760,
+            "repost_count": 1507
+          },
+          "text": "📢 Meet Qwen4-Max, your new AI teammate for work, creativity, and discovery!\n\nQwen4-Max is built on a new MoE architecture with native vision and a 1M-token context window.\n\nHighlights:\n- Outperforms Qwen3.8-Max with up to ~50% fewer tokens, while average cost per task drops over https://t.co/2Rlkoc6Dm3"
+        },
+        {
+          "author_id": "163975783",
+          "conversation_id": "2122461899178820069",
+          "created_at": "2026-11-16T22:48:44.000Z",
+          "edit_history_post_ids": [
+            "2122461899178820069"
+          ],
+          "entities": {
+            "mentions": [
+              {
+                "end": 62,
+                "id": "1712960547216637952",
+                "start": 53,
+                "username": "howie_ai"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "x.com/howie_ai/statu…",
+                "end": 276,
+                "expanded_url": "https://twitter.com/howie_ai/status/2122458258145468597",
+                "start": 253,
+                "url": "https://t.co/8bzjebeGdD"
+              }
+            ]
+          },
+          "id": "2122461899178820069",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 40,
+            "impression_count": 10477,
+            "like_count": 189,
+            "quote_count": 3,
+            "reply_count": 9,
+            "repost_count": 15
+          },
+          "referenced_tweets": [
+            {
+              "id": "2122458258145468597",
+              "type": "quoted"
+            }
+          ],
+          "text": "We’re excited to welcome Howie to Google Labs! \n\nThe @Howie_ai team has spent years figuring out scheduling and calendar management.  We can’t wait to learn from them as we build the next generation of intuitive AI tools together for small businesses 🤝 https://t.co/8bzjebeGdD"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "16_2122392388366962688"
+            ]
+          },
+          "author_id": "1681349314797240320",
+          "conversation_id": "2122392434198131005",
+          "created_at": "2026-11-16T18:12:43.000Z",
+          "edit_history_post_ids": [
+            "2122392434198131005"
+          ],
+          "entities": {
+            "mentions": [
+              {
+                "end": 27,
+                "id": "778764142412984320",
+                "start": 15,
+                "username": "huggingface"
+              }
+            ],
+            "urls": [
+              {
+                "display_url": "pic.x.com/Q5zronJGTN",
+                "end": 297,
+                "expanded_url": "https://x.com/OpenRouter/status/2122392434198131005/photo/1",
+                "media_key": "16_2122392388366962688",
+                "start": 274,
+                "url": "https://t.co/Q5zronJGTN"
+              }
+            ]
+          },
+          "id": "2122392434198131005",
+          "lang": "en",
+          "note_tweet": {
+            "entities": {
+              "mentions": [
+                {
+                  "end": 27,
+                  "id": "778764142412984320",
+                  "start": 15,
+                  "username": "huggingface"
+                }
+              ]
+            },
+            "text": "Open models on @huggingface now run through OpenRouter.\n\nEach request goes to the provider with the best price, speed, and uptime for that model, with automatic failover. Everything runs on the same Hugging Face token and API.\n\nYou can also send your traces to Hugging Face Storage with Broadcast, so your requests live on the Hub next to your models, ready for things like evals or fine-tuning."
+          },
+          "public_metrics": {
+            "bookmark_count": 102,
+            "impression_count": 39924,
+            "like_count": 362,
+            "quote_count": 23,
+            "reply_count": 35,
+            "repost_count": 38
+          },
+          "text": "Open models on @huggingface now run through OpenRouter.\n\nEach request goes to the provider with the best price, speed, and uptime for that model, with automatic failover. Everything runs on the same Hugging Face token and API.\n\nYou can also send your traces to Hugging Face https://t.co/Q5zronJGTN"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2120977434447159297"
+            ]
+          },
+          "author_id": "885220904761933824",
+          "conversation_id": "2120977464264462816",
+          "created_at": "2026-11-12T20:30:07.000Z",
+          "edit_history_post_ids": [
+            "2120977464264462816"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/NCyCCbGiED",
+                "end": 183,
+                "expanded_url": "https://x.com/MicrosoftAI/status/2120977464264462816/video/1",
+                "media_key": "13_2120977434447159297",
+                "start": 160,
+                "url": "https://t.co/NCyCCbGiED"
+              }
+            ]
+          },
+          "id": "2120977464264462816",
+          "lang": "en",
+          "public_metrics": {
+            "bookmark_count": 146,
+            "impression_count": 62086,
+            "like_count": 997,
+            "quote_count": 19,
+            "reply_count": 56,
+            "repost_count": 70
+          },
+          "text": "Microsoft Ignite starts next week, November 17! The MAI team is bringing something new: new models, demos, and speaker sessions from the people who built them. https://t.co/NCyCCbGiED"
+        }
+      ],
+      "users": [
+        {
+          "id": "1492195583699951620",
+          "name": "数字生命卡兹克",
+          "username": "Khazix0918"
+        },
+        {
+          "id": "1953337039510003712",
+          "name": "Tibo",
+          "username": "thsottiaux"
+        },
+        {
+          "id": "1753339277386342400",
+          "name": "Qwen",
+          "username": "Alibaba_Qwen"
+        },
+        {
+          "id": "1681349314797240320",
+          "name": "OpenRouter",
+          "username": "OpenRouter"
+        },
+        {
+          "id": "163975783",
+          "name": "Google Labs",
+          "username": "GoogleLabs"
+        },
+        {
+          "id": "1478679005788311552",
+          "name": "ElevenLabs",
+          "username": "ElevenLabs"
+        },
+        {
+          "id": "433930822",
+          "name": "Anuruddh Mishra",
+          "username": "anuruddh_m"
+        },
+        {
+          "id": "1684849711654588416",
+          "name": "Alon Pluda",
+          "username": "AlonPluda"
+        },
+        {
+          "id": "1476858630972469248",
+          "name": "Okara",
+          "username": "askOkara"
+        },
+        {
+          "id": "1681613391750905856",
+          "name": "Nasiko",
+          "username": "nasikolabs"
+        },
+        {
+          "id": "1769852186874306560",
+          "name": "AI Tracker Bot",
+          "username": "aitrackerbot"
+        },
+        {
+          "id": "885220904761933824",
+          "name": "Microsoft AI",
+          "username": "MicrosoftAI"
+        },
+        {
+          "id": "3980735590",
+          "name": "🚨 AI News | TestingCatalog",
+          "username": "testingcatalog"
+        }
+      ]
+    },
+    "meta": {
+      "result_count": 17
+    }
+  }
+}

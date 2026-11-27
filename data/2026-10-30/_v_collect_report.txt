@@ -1,0 +1,46 @@
+大V视野收集报告 — 2026-10-30（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用 2026-10-29 _v_raw_mcp.json 中已解析的 id → get_users_posts（exclude=replies, start_time=2026-10-28T16:00:00Z（约 32 小时）, max_results=25；@testingcatalog 返回 next_token 后翻 1 页，共 30 条）
+- 长文补全：get_posts_by_ids（34 个 id：卡兹克 X Article「Buddy One正式上线，腾讯要用WorkBuddy打通自己的全家桶了」全文、卡兹克 Claude/Codex 性格长帖、Max Interaction Bench 与黄仁勋两篇长帖、小互 Codex 限额 / 防封 / 新版网站帖、Tibo Day 25 / Token Company / 转引帖、TestingCatalog 被截断的 Canva Brush 2 帖 / Antigravity 插件 / Anthropic self-assessment / Claude 小更新 / 用量翻倍 / Snaptrude 2 帖 / Le Chonk / Nemotron / Bivia 2 帖，以及被引用的 @arvin17x Interaction Bench、@IntCyberDigest 黄仁勋、@vista8 防封经验、@ajambrosino 用量恢复、@canva Brush、@AnthropicAI self-assessment、@altafganihar Snaptrude、@MistralAI Le Chonk、@NVIDIAAI Nemotron、@Articul8_AI Bivia、逸尘 RT 的 @suno MCP）
+- 额外 1 次 get_posts_by_ids：AIHOT 收录的卡兹克 Pika H3 Flex 帖（2115898252004622617）返回 Not Found（疑已删除或不可见），未收录
+- 未使用浏览器；未使用 user-X；本次共 9 次 X 读取（6 次 get_users_posts + 1 次翻页 + 2 次 get_posts_by_ids）
+
+入选：14 条
+各 handle 入选计数：
+  @Khazix0918: 2（X Article Buddy One / WorkBuddy 长文；Claude vs Codex 性格「20 个 Excel」例子）
+  @MaxForAI: 2（LobeHub Interaction Bench 发布，并入 @arvin17x 发布帖；《纽约时报》黄仁勋 / Megaspeed 情报报道解读）
+  @xiaohu: 3（OpenAI 取消用量削减、限额翻倍，并入 Tibo Day 25 + Token Company + ajambrosino 转引两帖与 TestingCatalog 用量翻倍帖；Claude 防封观点，并入宝玉经验帖；AI 资讯站改版「对人免费、对 Agent 收费」，并入「新闻联播接广告」）
+  @thsottiaux: 0（Day 25 用量翻倍三帖已并入小互条；Day 24 Dots 短信与 10-29 已收录的 Dots iMessage 同题；Chat/Work 澄清 10-29 已收录）
+  @testingcatalog: 7（Anthropic self-assessment；Mistral Le Chonk；Canva Brush 主帖 + 自回复；Antigravity 插件市场；Claude 小更新汇总；Snaptrude Agent 主帖 + 自回复；Articul8 Bivia 主帖 + 自回复）
+  @gengdaJ: 0（窗口内仅 1 条 RT @suno「Suno MCP Beta」，无评论，按惯例跳过）
+
+原始拉取条数摘要：
+  @Khazix0918: 2（X Article Buddy One、Claude/Codex 性格）
+  @MaxForAI: 6（Interaction Bench、黄仁勋情报、反代微信支付梗图、梁文峰预言 / Carbon 美国大豆包 / Gemini 4 复兴（三帖 10-29 已收录））
+  @xiaohu: 8（Codex 限额翻倍、Binance 被盗、Claude 防封、新闻联播接广告、新版网站、API 额度 500 美元、「冲」、ChatGPT 减药悲剧（10-29 已收录））
+  @thsottiaux: 5（send feedback 转引、Token Company、Day 25 用量翻倍、Day 24 Dots 短信、Chat/Work 澄清（10-29 已收录））
+  @testingcatalog: 30（Canva Brush 2 帖、Antigravity 插件、Anthropic self-assessment、Claude 小更新、用量翻倍、Snaptrude 2 帖、Le Chonk、Daily AI Brief、Nemotron Transcribe、Bivia 2 帖、Chat/Work Context 2 帖（10-29 已收录）、API 额度、GitHub Universe、XREAL 3 帖、Perplexity、Rime Prism 2 帖、Gemini [redacted] 猜测、Dots iMessage（以上 10-29 已收录或跳过）；第 2 页 5 条均为 10-29 已拉取并补全过的旧帖）
+  @gengdaJ: 1（RT @suno Suno MCP Beta）
+
+Lead：卡兹克长文：Buddy One 正式上线——腾讯用 WorkBuddy 打通文档、会议、ima、网盘全家桶，积分通用，微信聊天记录可一键扔给 Agent，「腾讯的第三个时代，可能属于 WorkBuddy」
+Lead URL：https://x.com/Khazix0918/status/2115662773103530096
+（卡兹克 X Article 原创长文，含实测与用法，信息密度最高；第 2 条卡兹克 Claude vs Codex 性格帖互动最高（约 3500 赞））
+
+筛选说明：
+- 跳过梗图/玩笑：Max「反代微信支付」（仅图片）、小互「冲」
+- 跳过非 AI / 证据不足：小互 Binance 被盗（加密货币安全事件，「AI开始发力了？」仅为猜测）
+- 跳过转推无评论：逸尘 RT @suno Suno MCP Beta
+- 跳过已有/汇总：Max 三帖、小互减药悲剧、Tibo Chat/Work、TestingCatalog API 额度 / GitHub Universe / XREAL / Perplexity / Rime / Dots iMessage / Chat-Work Context 及第 2 页 5 条（10-29 已收录）；小互 API 额度 500 美元（与 10-29 TestingCatalog API 额度同题）；Tibo Day 24 Dots 短信（与 10-29 Dots iMessage 同题）；TestingCatalog Nemotron 3.5 Transcribe（10-29 ai.json 已收录同题）；Daily AI Brief；Gemini [redacted] 猜测
+- 去重：与 2026-10-20～10-29 v.json / ai.json、各日 _v_raw_mcp.json selected_ids 及 data/2026-10-30/_prior_urls.json 比对（共 399 个 X status id），入选 14 条及其合并帖均无重复
+- 同题提示：今日 AIHOT 含 Mistral Large 4（Le Chonk，头条）、Tibo Codex 用量翻倍原帖、The Decoder 黄仁勋间谍报道，若今日 ai.json 也收录，属同题不同来源（本处为 TestingCatalog 汇总 / 小互评论 / Max 解读）；Antigravity 插件市场与 10-29 ai.json「Android CLI 成为 Antigravity 官方插件」为不同功能；Buddy One 与 10-29 ai.json「腾讯网盘内测」为相关不同事件
+- 三位优先账号：卡兹克 2、Max 2、小互 3
+- 2026-10-30/ai.json 在收集时尚不存在，未做交叉去重
+
+输出文件：
+  data/2026-10-30/v.json
+  data/2026-10-30/_cover_prompts_v.json
+  data/2026-10-30/_v_raw_mcp.json
+  data/2026-10-30/_v_collect_report.txt
+
+未执行：build / 生图 / 发布

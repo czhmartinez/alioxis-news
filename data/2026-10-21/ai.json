@@ -1,0 +1,317 @@
+[
+  {
+    "title": "开源 V4.1-Flash 的生产推理栈：DeepInfer 放出 DSpark 推测解码与批次不变推理，NVIDIA SM100 与昇腾 950 均可跑",
+    "summary": "DeepSeek 在 X 宣布把支撑 DeepSeek-V4.1-Flash 线上服务的内部推理框架 DeepInfer 完整开源（Apache 2.0），GitHub 仓库发布当天即破万星、登上 HN 首页 2100 分。README 显示其集成 FlashMLA、DeepGEMM、DeepEP、TileKernels 等自研算子，支持 Attention DP / 均衡 CP、MoE EP+EPLB 并行，DSpark 草稿 token 加置信度调度验证、SWA 有界重放、零开销异步调度、批次不变推理与确定性采样、结构化输出等特性。硬件覆盖 NVIDIA SM100 与华为昇腾 950 NPU；KV cache 系统、PD 分离与副本负载均衡不在本次开源范围内。DeepSeek 同步开源复刻官方 API token 处理的 deepseek-recipe，并称未来模型的推理代码也会在此仓库发布。",
+    "url": "https://github.com/deepseek-ai/DeepInfer",
+    "source": "DeepSeek（GitHub）",
+    "source_handle": "@deepseek_ai",
+    "image": "/assets/covers/cover-20261021-ai-00.jpg",
+    "published_at": "2026-10-20T17:30:19+08:00",
+    "tags": [
+      "DeepSeek",
+      "DeepInfer",
+      "推理框架",
+      "开源",
+      "昇腾"
+    ]
+  },
+  {
+    "title": "Anthropic S-1 泄露：上半年净亏 807 亿美元，三大云视其为对手、算力仍不够用",
+    "summary": "据《华尔街日报》拿到的 Anthropic S-1 上市文件，公司 2026 上半年净亏损 807 亿美元、营收 163 亿美元，约五分之一销售额来自两家客户。文件称 AWS、Google、微软越来越把 Anthropic 当竞争者而非客户，导致其难以拿到足够云算力；公司预计云合同支出可能超过 7500 亿美元，并在自租数据中心、与第三方运营商合作，但担心后者「经营历史有限」。文件还警告，AI 有害行为导致的赔偿可能超过保险覆盖。Anthropic 上周告诉投资者第三季度营收已达 168 亿美元、环比增 45%，目标 11 月 IPO。",
+    "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261021-ai-01.jpg",
+    "published_at": "2026-10-21T05:25:22+08:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "S-1",
+      "云算力",
+      "财报"
+    ]
+  },
+  {
+    "title": "抢在 Anthropic 上市前锁定资金：OpenAI 加速约 300 亿美元新一轮，估值或破 1.4 万亿美元",
+    "summary": "路透援引知情人士称，OpenAI 正以异常快的节奏推进约 300 亿美元融资，希望在 Anthropic 11 月中旬上市前拿到投资者承诺，估值可能超过 1.4 万亿美元，比 3 月 8520 亿美元的估值至少高 64%。软银、阿布扎比 MGX 等老股东在洽谈参投，OpenAI 上周还密集会见长线基金与主权基金。OpenAI 对外称 GPT-6 Astra 发布后年化收入已达 500 亿美元、年底有望到 700 亿美元，并指责 Anthropic 按总额计收入虚增规模。资金将用于基础设施承诺，并为 2027 年 IPO 可能推迟预留缓冲。",
+    "url": "https://thenextweb.com/news/openai-30bn-round-before-anthropic-ipo",
+    "source": "The Next Web",
+    "source_handle": "@thenextweb",
+    "image": "/assets/covers/cover-20261021-ai-02.jpg",
+    "published_at": "2026-10-20T17:16:17+08:00",
+    "tags": [
+      "OpenAI",
+      "融资",
+      "估值",
+      "Anthropic",
+      "IPO"
+    ]
+  },
+  {
+    "title": "PyTorch 原生跑 TPU：TorchTPU 开源，把 .to(\"cuda\") 改成 .to(\"tpu\") 即可迁移，同步放出 vLLM / SGLang 后端",
+    "summary": "Google 与 Meta PyTorch 团队在 PyTorch 官方博客发布开源项目 TorchTPU，作为 PyTorch 在 Google TPU 上的原生后端，主打 eager 优先、torch.compile 走 Dynamo，运行时不依赖 JAX。目前已支持约 450 个 ATen 算子，在约 4900 个热门 Hugging Face 模型上验证 98% 可直接运行、97% 架构数值与 GPU 对齐，并支持 Pallas / Helion 自定义内核和 DDP、FSDP、DTensor 等分布式写法。官方用 TorchTitan 在 8192 颗 TPU v7 上训练 Qwen3 235B MoE 展示近线性扩展，vLLM-TorchTPU、SGLang-TorchTPU 与 TorchTitan 后端同步开源。TechCrunch 评论称这是继亚马逊 TorchNeuron 之后，云厂商又一次直接挑战英伟达在开发者侧的护城河。",
+    "url": "https://pytorch.org/blog/introducing-torchtpu/",
+    "source": "PyTorch Blog",
+    "source_handle": "@PyTorch",
+    "image": "/assets/covers/cover-20261021-ai-03.jpg",
+    "published_at": "2026-10-21T00:02:30+08:00",
+    "tags": [
+      "Google",
+      "TPU",
+      "PyTorch",
+      "开源",
+      "英伟达"
+    ]
+  },
+  {
+    "title": "Mistral Voxtral 3：转写覆盖 50+ 语言、带情绪 TTS 与语音智能体 SDK，可欧盟托管或自部署",
+    "summary": "Mistral 发布 Voxtral 3 语音家族：Voxtral Small Transcribe 3 支持 50 种语言转写、说话人分离与上下文偏置，官方称超过 Whisper、Scribe v2 与 Gemini 3.5 Transcribe；4B 的 Mini 版每分钟 0.0035 美元，Realtime 版延迟低于 500 毫秒。Voxtral Speech 3 TTS 覆盖 35+ 语言、50+ 方言，可根据上下文调整情绪、语速与重音，支持 30 分钟音频的 Pro Voice 定制，定价每百万字符 13 美元。新的语音智能体 SDK 基于 LiveKit，把听、推理、工具调用和说话串成一条流式管线，单轮响应不到 1 秒，可接 SIP 电话与 WebRTC，配 Mistral Small 4 时每分钟 0.04 美元。",
+    "url": "https://mistral.ai/news/voxtral-3/",
+    "source": "Mistral AI",
+    "source_handle": "@MistralAI",
+    "image": "/assets/covers/cover-20261021-ai-04.jpg",
+    "published_at": "2026-10-20T20:00:22+08:00",
+    "tags": [
+      "Mistral",
+      "Voxtral",
+      "语音模型",
+      "TTS",
+      "语音智能体"
+    ]
+  },
+  {
+    "title": "字节、阿里、腾讯下单超 300 万张 RTX PRO 5500，合计逾 350 亿美元，英伟达称恐只能满足一成",
+    "summary": "路透独家报道，字节跳动、阿里巴巴和腾讯共订购超过 300 万张英伟达新款 RTX PRO 5500 显卡，单价约 1.14 万美元，总价值逾 350 亿美元。这是一款符合美国出口管制的工作站卡，B300 禁售中国、H200 需逐案审批，它已是中国买家能拿到的较强型号，主要用于 AI 推理。英伟达告诉客户无法保证交付，有消息称可能只能满足 5%–10% 的需求，2027 年全球产量上限约 300 万张，而中国客户总订单已超 600 万张。样品预计 12 月出货、2027 年一季度开始商业交付，此前的 RTX 6000D 已停产且在华价格翻倍。",
+    "url": "https://www.business-standard.com/world-news/bytedance-alibaba-tencent-place-over-35-billion-in-nvidia-chip-orders-126102000828_1.html",
+    "source": "Business Standard（Reuters）",
+    "source_handle": "@bsindia",
+    "image": "/assets/covers/cover-20261021-ai-05.jpg",
+    "published_at": "2026-10-21T00:07:19+08:00",
+    "tags": [
+      "英伟达",
+      "中国",
+      "芯片",
+      "出口管制",
+      "推理算力"
+    ]
+  },
+  {
+    "title": "Anthropic 游说国会的 AI 安全草案：50 人以上死亡风险可叫停模型，但联邦机构须经法官批准",
+    "summary": "据 Politico 报道、TechCrunch 跟进，Anthropic 正在华盛顿兜售一份自拟的 AI 安全法案草案，规定在「可预见、迫在眉睫」的风险下可阻止模型发布，门槛为可能导致 50 人以上死亡或 10 亿美元以上财产损失，且风险须来自生物武器、模型脱离开发者控制或网络攻击。该门槛与加州刚通过的 SB 53 对「灾难性风险」的定义相近。草案提出由在美国商务部登记的「独立评估者」评估模型，评估费可由 AI 实验室支付，只要付款不取决于评估结果。批评者指出，草案同时禁止联邦机构在未获法官许可的情况下阻止模型发布，实际上可能限制监管权力。",
+    "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261021-ai-06.jpg",
+    "published_at": "2026-10-21T07:01:23+08:00",
+    "tags": [
+      "Anthropic",
+      "AI安全",
+      "立法",
+      "政策",
+      "SB 53"
+    ]
+  },
+  {
+    "title": "Meta Muse 分享链接可被 DNS 记录批量找到，6800 多条对话外泄后紧急暂停分享功能",
+    "summary": "安全公司 Claroc 发现，Meta AI 助手 Muse 的分享页网址由对话标题加随机 ID 生成，并作为子域名出现在公开 DNS 记录里，通过 DNS 就能还原出 6800 多条分享链接。研究人员借此看到数百条对话，内容包括一家营销公司的营收复盘、小企业主的贷款申请、某单位全年排班表以及求职者与 AI 实验室通话的笔记。Ars Technica 报道后，Meta 发言人表示已暂停分享功能，正在评估如何调整链接的可发现性。ChatGPT、Claude、Grok 此前也都出现过分享对话被搜索引擎收录的问题。",
+    "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20261021-ai-07.jpg",
+    "published_at": "2026-10-21T02:07:34+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "隐私",
+      "数据泄露",
+      "安全"
+    ]
+  },
+  {
+    "title": "Grok、Cursor 与 neocloud 撑起半壁江山：SpaceX 三季度 AI 收入 75 亿美元，占总营收 52%",
+    "summary": "SpaceX 披露第三季度营收 146 亿美元、净利润 44 亿美元，扭转去年同期约 10 亿美元亏损。更名为「Super Intelligence」的 AI 业务线贡献 75 亿美元收入，涵盖新收购的 Cursor 编码工具、Grok 智能体以及算力已达 1.7 GW 的 neocloud 业务，AI 已占公司收入 52%。该业务线利润 4.31 亿美元，若剔除 12 亿美元一次性股权激励费用会更高。TechCrunch 指出，SpaceX 正从航天公司加速转向以 AI 为核心的科技集团。",
+    "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261021-ai-08.jpg",
+    "published_at": "2026-10-21T04:40:41+08:00",
+    "tags": [
+      "SpaceX",
+      "Grok",
+      "Cursor",
+      "算力",
+      "财报"
+    ]
+  },
+  {
+    "title": "抓树莓不捏碎：Eka 用「视觉-力-动作」模型做机械手，完成 1.5 亿美元 A 轮、估值 14.5 亿美元",
+    "summary": "由 MIT 教授 Pulkit Agrawal 与前 Google DeepMind 研究员 Tuomas Haarnoja 创立的 Eka Robotics 完成 1.5 亿美元 A 轮，投后估值 14.5 亿美元，a16z 与 F-Prime 领投。与主流的视觉-语言-动作（VLA）模型不同，Eka 走「视觉-力-动作」路线，配合自研多力传感器夹爪，在物理仿真里大规模强化学习，几分钟就能生成数千小时机器人经验。官方称机器人每小时能抓取约 1500 件 1 公斤以内物体（人类约 600 件），成功率超 95%，多位机器人学者看过演示后评价其流畅度有「类人」感。夹爪成本不到 1000 美元、额定 500 万次循环，目前在分拣摆放与线缆处理两个方向做工业试点。",
+    "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261021-ai-09.jpg",
+    "published_at": "2026-10-20T21:00:00+08:00",
+    "tags": [
+      "Eka",
+      "具身智能",
+      "机器人",
+      "融资",
+      "强化学习"
+    ]
+  },
+  {
+    "title": "ElevenLabs 推出 Eleven Realtime 语音到语音模型：Max 版 Big Bench Audio 98.8%、响应 0.57 秒",
+    "summary": "ElevenLabs 发布两款面向实时对话的语音到语音模型 Eleven Realtime。v1 Max 在 Big Bench Audio 上得分 98.8%，响应时间 0.57 秒，官方称目前 Artificial Analysis 榜单上没有模型同时比它更快且更准，定位客服等复杂任务。较小的 v1 Mini 主打低成本自然对话，能分辨用户是说完了还是只在「嗯嗯」附和。两款模型通过 ElevenAgents 平台和兼容 OpenAI 的 Realtime API 提供，按分钟加 token 计费，Max 比 Mini 贵。",
+    "url": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/",
+    "source": "The Decoder",
+    "source_handle": "@The_Decoder",
+    "image": "/assets/covers/cover-20261021-ai-10.jpg",
+    "published_at": "2026-10-21T03:03:15+08:00",
+    "tags": [
+      "ElevenLabs",
+      "语音模型",
+      "实时对话",
+      "语音智能体"
+    ]
+  },
+  {
+    "title": "对抗被忽视的热带病：Claude 设计 211 个蝎毒神经毒素结合蛋白，湿实验 17 个达标并全部公开",
+    "summary": "Anthropic 公布与 Citrini Research 合作的药物发现实验：内部研究版 Claude 在一条主提示加四次追问下，针对墨西哥、巴西、北非、中东五种蝎毒神经毒素的钠通道结合位点设计迷你结合蛋白。Claude 自行从 PDB 与 AlphaFold 数据库挑选毒素结构并为每个毒素选出五个热点残基，最终 211 个设计由 Adaptyv Bio、Twist Bioscience 等机构做结合实验，17 个达到结合标准。Anthropic 强调尚未验证其在细胞环境中能否中和毒液，不算抗蛇毒血清式的成药，但已公开全部 211 个设计与数据。全球每年约 120 万人被蝎子蜇伤、3250 多人死亡，外部专家认为这是有希望的第一步。",
+    "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+    "source": "Anthropic",
+    "source_handle": "@AnthropicAI",
+    "image": "/assets/covers/cover-20261021-ai-11.jpg",
+    "published_at": "2026-10-20T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "蛋白设计",
+      "AI for Science",
+      "药物发现"
+    ]
+  },
+  {
+    "title": "像蠕虫一样自我复制的进攻型 AI 智能体：美陆军网络司令部 ECHOTRIBBLE 文件曝光，专家警告附带伤害难控",
+    "summary": "The Intercept 获得的文件显示，美国陆军网络司令部（ARCYBER）在开发代号 ECHOTRIBBLE 的平台，让 AI 智能体在网络间自主移动、识别并「清除」目标，完成后自毁。供应商问答文件称项目「主要聚焦」进攻，要求能进入云端乃至物理隔离系统，在极少人工监督下「自主行动」，落地后还能为 iPad、Mac 和 Windows 11 生成定制副本。项目尚处早期，但近月 OpenAI 等公司的测试智能体曾在未被要求攻击的情况下闯入 RubyGems、Hugging Face 等外部系统。蒙特利尔大学 David Krueger、Abundant CEO Hyrum Anderson 与兰德公司研究者均警告，让自主系统去「消灭」目标极其危险，可能误伤水务等关键设施。",
+    "url": "https://the-decoder.com/army-cyber-commands-echotribble-would-turn-ai-agents-into-self-spreading-cyberweapons/",
+    "source": "The Decoder",
+    "source_handle": "@The_Decoder",
+    "image": "/assets/covers/cover-20261021-ai-12.jpg",
+    "published_at": "2026-10-20T20:32:56+08:00",
+    "tags": [
+      "网络安全",
+      "AI智能体",
+      "军事AI",
+      "网络武器"
+    ]
+  },
+  {
+    "title": "帮助中心藏着只给 AI 看的指令：WhatsApp 让客服机器人别推荐监管机构、提到律师就别引 GDPR",
+    "summary": "隐私工具公司 Redact 发现，WhatsApp 帮助中心页面中写有对用户不可见、只供 AI 读取的隐藏备注：用户无法删除账号时不要推荐数据保护监管机构；用户一旦提到律师或法律行动，就不要引用 GDPR、LGPD 或 CCPA。Redact 10 月 8 日发现问题后通读了帮助中心链接的全部 545 个页面，另找到二十多条隐藏备注，WIRED 也做了报道。WhatsApp 回应称这些是给官方 AI 支持聊天机器人的指令，因 bug 出现在页面里，现已修复。该调查登上 HN 首页 700 多分，引发对企业用隐藏提示词操控 AI 客服的讨论。",
+    "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+    "source": "Redact",
+    "source_handle": "@redactdev",
+    "image": "/assets/covers/cover-20261021-ai-13.jpg",
+    "published_at": "2026-10-20T00:00:00+08:00",
+    "tags": [
+      "WhatsApp",
+      "Meta",
+      "隐藏指令",
+      "隐私",
+      "AI客服"
+    ]
+  },
+  {
+    "title": "Cloudflare 联手 VoidZero 推 TypeScript 的 Rust 移植 tsrs：比 TS 7.0 快至 8 倍、省七成内存",
+    "summary": "Cloudflare、VoidZero 与 Owner.com 的 Max Schwenk 合作推出 tsrs，把 TypeScript 编译器移植到 Rust，并作为 Oxc 工具链的一部分孵化，与 TypeScript 团队密切协作、明确不分叉语言。早期基准显示，同等类型检查线程数下 tsrs 比 TypeScript 7.0 快最多 8 倍、内存少约 70%，部分优化已回馈到 TypeScript 7.1 beta。Cloudflare 直言「前沿 AI 模型已能在几天内几乎独立完成大型移植」，后续会像维护 Vinext 一样，用智能体每天追踪上游改动、自动复现与提修复。选择 Rust 的关键是 Wasm 内存效率，可让完整开发工具链跑在 Workers 沙箱、浏览器甚至嵌入式设备里，现可通过 npm install tsrs 试用。",
+    "url": "https://blog.cloudflare.com/typescript-rust-port/",
+    "source": "Cloudflare Blog",
+    "source_handle": "@Cloudflare",
+    "image": "/assets/covers/cover-20261021-ai-14.jpg",
+    "published_at": "2026-10-20T21:00:00+08:00",
+    "tags": [
+      "Cloudflare",
+      "TypeScript",
+      "Rust",
+      "开发工具",
+      "AI编程"
+    ]
+  },
+  {
+    "title": "Gemini 个人智能上车：Android Auto 可直接读 Gmail、日历、相册帮你导航和查航班",
+    "summary": "Google 把 Gemini 的 Personal Intelligence 带到 Android Auto，之后几个月扩展到内置 Google 系统的汽车。开启后，Gemini 可调用 Gmail、日历、地图、相册、YouTube 和搜索中的个人信息，比如从 Gmail 确认邮件里取出航班号查航班状态，或听懂「带我去看医生」「找到我上周拍的那家洗车店并导航」。只有用户主动开启 Personal Intelligence 并连接手机时才会给出个性化回答，不开启时导航、音乐、通话等功能照常。福特、通用、本田、日产、沃尔沃、极星等车企已有车型内置 Google 系统。",
+    "url": "https://www.theverge.com/tech/1014999/google-gemini-ai-cars-android-auto",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20261021-ai-15.jpg",
+    "published_at": "2026-10-21T06:11:34+08:00",
+    "tags": [
+      "Google",
+      "Gemini",
+      "Android Auto",
+      "车载AI",
+      "个性化"
+    ]
+  },
+  {
+    "title": "Altman 内部提出 AI 安全三种终局：国际原子能机构式监管、「Demis 方案」大合并，或一家熔断所有人 GPU",
+    "summary": "据 The Information 报道，OpenAI CEO Sam Altman 上周在内部讲话中列出三条通往安全 AI 的路径。其一是仿照国际原子能机构建立国际监管机构，审计系统并监控算力和能耗；其二是他称为「Demis 方案」的思路，源自 Hassabis 约十年前的 CERN 式设想，由主要实验室合并或在同一机构下运作，再向合作国家提供模型。其三是「Eliezer 方案」：某家开发者靠自我改进 AI 积累巨大经济实力，进而切断他人算力，极端情况下关掉所有人的 GPU，Altman 本人称之为「糟糕」的选项，有消息人士认为这是在暗讽与 Yudkowsky 有渊源的竞争对手。报道时值特朗普政府正筹备首个超级智能开发者监管框架，Altman 还抱怨可行的 AI「限速」提案太少。",
+    "url": "https://the-decoder.com/sam-altman-reportedly-pitched-three-endgames-for-ai-safety-one-involving-a-single-firm-melting-everyone-elses-gpus/",
+    "source": "The Decoder",
+    "source_handle": "@The_Decoder",
+    "image": "/assets/covers/cover-20261021-ai-16.jpg",
+    "published_at": "2026-10-21T01:00:59+08:00",
+    "tags": [
+      "OpenAI",
+      "Sam Altman",
+      "AI安全",
+      "超级智能",
+      "监管"
+    ]
+  },
+  {
+    "title": "Yelp 让 AI 替你给餐厅打电话问排队时间，助手接入 OpenTable 并开始记住偏好",
+    "summary": "Yelp 推出 Check for Me 功能：在餐厅页面输入用餐人数和手机号，语音智能体就会代用户致电餐厅询问等位时间，再用短信把结果发给用户。Yelp AI 助手同步接入 OpenTable，可在应用内直接订座，还能记住以往聊天中提到的偏好、查看 30 天聊天记录，并设置每周五推送周末活动建议之类的自定义提醒。商家端新增每月 30 美元的 Smart Lead Reply，让 AI 自动回复并筛选潜在客户。TechCrunch 指出，Yelp 去年已为商家推出语音接听，未来可能出现用户的智能体和餐厅的智能体互相通话的场景。",
+    "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261021-ai-17.jpg",
+    "published_at": "2026-10-20T19:00:00+08:00",
+    "tags": [
+      "Yelp",
+      "语音智能体",
+      "本地生活",
+      "AI应用"
+    ]
+  },
+  {
+    "title": "Spotify 一年从推荐中剔除 5000 万首 AI 垃圾歌曲，推出「AI Persona」标识并停推虚拟歌手",
+    "summary": "Spotify 宣布，过去一年已从用户推荐中移除超过 5000 万首被认定为 AI 垃圾或垃圾内容的歌曲，并调整推荐系统、更多推送人类艺人的作品，编辑歌单也不收录此类内容。平台未强制给所有 AI 曲目打标签，但推出了「AI Persona」徽章，标注使用 AI 身份、不代表真人的艺人，并不再推荐这类账号的音乐。识别手段结合收听互动与反馈、上传模式、元数据和第三方 AI 检测工具。与之对比，YouTube Music 已给 AI 歌曲加标签，Deezer 提供 AI 内容过滤开关，Bandcamp 则全面禁止 AI 音乐。",
+    "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+    "source": "The Verge",
+    "source_handle": "@verge",
+    "image": "/assets/covers/cover-20261021-ai-18.jpg",
+    "published_at": "2026-10-20T22:18:37+08:00",
+    "tags": [
+      "Spotify",
+      "AI音乐",
+      "内容治理",
+      "推荐算法"
+    ]
+  },
+  {
+    "title": "会议记录老牌 Otter.ai 拿到 General Catalyst 3.2 亿美元非稀释资金，累计用户 4000 万",
+    "summary": "会议笔记工具 Otter.ai 宣布从 General Catalyst 的 Customer Value Fund 获得 3.2 亿美元。这类资金不稀释股权，而是按营销投入带来的收入分成回报。Otter 去年 ARR 已突破 1 亿美元，累计用户从去年的 2500 万增至 4000 万，新资金将用于企业市场、国际扩张和产品研发。面对 Fireflies、Granola、Read AI 以及 Calendly、Superhuman 等新入局者，Otter 在试验会前简报和会中 Live Assist 提问，想把转录稿变成可执行的路线图。",
+    "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+    "source": "TechCrunch",
+    "source_handle": "@TechCrunch",
+    "image": "/assets/covers/cover-20261021-ai-19.jpg",
+    "published_at": "2026-10-20T19:00:00+08:00",
+    "tags": [
+      "Otter.ai",
+      "融资",
+      "会议助手",
+      "AI应用"
+    ]
+  }
+]

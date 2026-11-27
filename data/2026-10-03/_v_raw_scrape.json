@@ -1,0 +1,138 @@
+[
+  {
+    "handle": "@zaobaosg",
+    "name": "联合早报 Lianhe Zaobao",
+    "text": "日本首相高市早苗星期四（10月1日）召开“日本增长战略会议”，将发展人工智能（AI）定位为推动经济增长的“加速器”。 她说，日本将通过培育利用AI自主控制机器人的“物理AI”等高科技实现强劲经济。",
+    "url": "https://x.com/zaobaosg/status/2106165072041054409",
+    "time_text": "41分钟 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@zaobaosg",
+    "name": "联合早报 Lianhe Zaobao",
+    "text": "人工智能（AI）正加快生物医学研究，但同一套能力也可能降低制造生物武器的知识门槛，引发专家对生物安全的新担忧。",
+    "url": "https://x.com/zaobaosg/status/2106158007859941678",
+    "time_text": "1小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@thsottiaux",
+    "name": "Tibo",
+    "text": "重置所有已传播。享受。 引用 Tibo 认证账号 @thsottiaux 21小时 前 翻译自 英语 全球重置将于明天太平洋标准时间上午 10 点对所有付费 ChatGPT 账户生效。很抱歉 GPT-6.1 Sol 的启动缓慢，它现在在头两天海量负载激增后已恢复到预期的运行速度。",
+    "url": "https://x.com/thsottiaux/status/2106131810921136451",
+    "time_text": "2小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@MaxForAI",
+    "name": "Max For AI",
+    "text": "卧槽。。。有点吓人，第一个通过图灵测试的视频模型出现了。。。 刚刚 @tavus 发布了一个叫 Griffin 的新模型，他们直接给它定义了一个新类别：Human Interaction Model，HIM，人类交互模型。 Tavus 找了 54 个美国和欧洲的参与者，让他们和 Griffin 进行 1 分钟视频通话，事先不告诉对面是 AI。 引用 Tavus 认证账号 @tavus 10月2日 翻译自 英语 介绍 Griffin，这是首个通过视频图灵测试的模型。 48% 的与它实时对话的人认为它是真实的人类。此前的系统通过率 <3%。它是 NVIDIA 全双工 AI 视频基准测试中的 #1。它是首个人类交互模型 (HIM)。",
+    "url": "https://x.com/MaxForAI/status/2105877225237352691",
+    "time_text": "19小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@laoyingkhq",
+    "name": "Crypto老鹰",
+    "text": "我让我的AI代理们，为我的钱互相干架。 $743 → $12,239，就一次会话。 6个代理，1块计分板。 咖啡还没喝完，领先位置已经换了6次。 Grok Bot先扫几千个新meme交易对，趁别的代理还没碰到，先把脏的挑出去： · LP没锁？跳过。 · DEV持太多？跳过。 · SPEED只碰干净交易对，抢在人群前面进场。",
+    "url": "https://x.com/laoyingkhq/status/2105872198594617574",
+    "time_text": "20小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@xiaohu",
+    "name": "小互",
+    "text": "你现在可以定制自己的 Claude Code 了： 包括改UI界面、拦住危险命令、逐步查看代码改动 Claude Code 中的 Mods 升级：它允许通过 JavaScript 或 TypeScript 模块重写或替换部分行为，甚至绘制自定义 UI。 Claude Code 的 Mods 是会话内运行的小插件，让你按自己的工作习惯定制行为和界面：",
+    "url": "https://x.com/xiaohu/status/2105871332407919028",
+    "time_text": "20小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@xiaohu",
+    "name": "小互",
+    "text": "把上下文读数放在输入框上方 在危险命令执行前查看影响，再按步骤复核一轮修改 三个官方例子讲清 Mods 的作用与写法",
+    "url": "https://x.com/xiaohu/status/2105871334589030786",
+    "time_text": "20小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@Khazix0918",
+    "name": "数字生命卡兹克",
+    "text": "迭代了一下，又用 Agent 直接用Rust重写了一下桌搭硬件，然后绑定了Claude和Codex的双Agent工作状态，还实时监控额度重置，还有今日消耗 Token量。舒服了。。。这几天干的最喜欢的一个小东西哈哈哈哈",
+    "url": "https://x.com/Khazix0918/status/2105936290973876379",
+    "time_text": "15小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@MaxForAI",
+    "name": "Max For AI",
+    "text": "嘿嘿，非常有意思的工具们哦 节后见吧￼￼￼ ☺️ 引用 空谷 Arvin Xu 认证账号 @arvin17x 20小时 前 从 Prompt Engineering / Context Engineering 到 Loop Engineering / Graph Engineering。我们即将迈入新的 Verification Engineering 时代。谁能更快地定义可程序化的 Verifier，谁就能撬动更大的 Agent 杠杆。我们为此打造了一系列的产品和工具集，Accpectance、Eval、Alint、Review SDK。引用 Guillermo Rauch 认证账号 @rauchg 10月2日 The future is verification-engineering. Proofs, (e2e) tests, benchmarks, linters… Some tests will be deterministic, some agentic. This looks great.",
+    "url": "https://x.com/MaxForAI/status/2105901137434177918",
+    "time_text": "18小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@MaxForAI",
+    "name": "Max For AI",
+    "text": "卧槽，美国刚抓了一个向中国走私GPU的华人老板，涉案金额超过 3 亿美元。刚刚，美国司法部公布，加州科技公司 Earthmade Computer 的老板 Greg Lui（又名 Yiu Kong Lui）被捕，并被联邦大陪审团起诉。检方指控，从 2023 到 2024 年，他和同伙购买受美国出口管制的高端 GPU https://t.co/6KsomzaWo0",
+    "url": "https://x.com/MaxForAI/status/2105885169202979286",
+    "time_text": "19小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@MaxForAI",
+    "name": "Max For AI",
+    "text": "牛逼，现在 Claude Code 可以自己改自己了！！刚刚 Anthropic 给 Claude Code 上线了一个新东西：Mods。简单来说就是，现在你可以让 Claude 直接改 Claude Code 自己了。以前的 Skill、MCP、Plugin，更多还是给 Claude 增加知识、工具和工作流。Mod它本质上是一组 JavaScript / TypeScript https://t.co/4gx5Bru0s0 引用 ClaudeDevs 认证账号 @ClaudeDevs 10月2日 你现在可以修改 Claude Code：- 更改其行为方式 - 自定义用户界面 - 替换为自己的功能。用几行 TypeScript 编写一个，或者让 Claude 为你构建它。修改通过插件分发，因此你可以使用 CLI 或桌面应用程序中的 /plugin 来安装它们。",
+    "url": "https://x.com/MaxForAI/status/2105883387710038485",
+    "time_text": "19小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@xiaohu",
+    "name": "小互",
+    "text": "在过去将近一年的时间里，Anthropic一直在推进一项极不寻常的秘密行动。他们悄然将来自世界各地的天主教神学教授、犹太教正统派拉比、锡克教活动家以及福音派知识分子请到旧金山，组织了一系列闭门研讨，许多参与者签了保密协议……他们一直在讨论如何让宗教人士接受 Claude。",
+    "url": "https://x.com/xiaohu/status/2106033835414864042",
+    "time_text": "9小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@xiaohu",
+    "name": "小互",
+    "text": "想用语音输入但是又不想在咖啡馆里对着电脑自言自语，被人认为是疯子……有请唇语输入法，只需要张嘴不发声也可以输入内容。按住一个按钮，只动嘴、不出声，摄像头读你的嘴型，文字就直接打出来了。该项目已开源↓ 引用 amy 认证账号 @amypretzel 10月1日 我想语音输入而不打扰大家，所以我做了这个唇语识别应用哈哈，github repo 在帖子中",
+    "url": "https://x.com/xiaohu/status/2105914251768701110",
+    "time_text": "17小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@testingcatalog",
+    "name": "🚨 AI News | TestingCatalog",
+    "text": "GOOGLE 🔥：Gemini Desktop 将拥有“完全访问”权限，用于计算机使用，允许它访问您桌面上的任何文件并运行任何应用程序。> 最近的 Gemini Desktop 应用程序中添加了新的“额外沙盒选项”设置（仍为隐藏状态）。> “通过启用额外的沙盒选项，您将能够扩展 Gemini 在您的 Mac",
+    "url": "https://x.com/testingcatalog/status/2106041553806336167",
+    "time_text": "8小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@testingcatalog",
+    "name": "🚨 AI News | TestingCatalog",
+    "text": "META 🔥：Muse Gadgets 和 Muse Home Link 已正式发布！Muse Gadgets 是一个开源的 ESP32 固件和 Linux SDK。Muse Home Link 是一个设备，可让 Muse 与智能设备协同工作。用户可以在网站上领取他们的 Muse Home Link 设备！“将 Muse 连接到您的家庭…… ”引用 Alexandr Wang 认证账号 @alexandr_wang 4小时 前：今天我们宣布推出 Muse Gadgets！这是一个开源的 ESP32 固件和 Linux SDK，供任何人制作与 Muse 兼容的硬件；我们还将发布 Muse Home Link，使 Muse 能够与电视、音箱等智能设备协同工作。",
+    "url": "https://x.com/testingcatalog/status/2106116684280987731",
+    "time_text": "3小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@testingcatalog",
+    "name": "🚨 AI News | TestingCatalog",
+    "text": "看起来，Claude 应用即将支持个人资料图片了！这项功能已经开发一段时间了。你也收到它了吗？",
+    "url": "https://x.com/testingcatalog/status/2106103574300397859",
+    "time_text": "4小时 前",
+    "ai_related": true
+  },
+  {
+    "handle": "@testingcatalog",
+    "name": "🚨 AI News | TestingCatalog",
+    "text": "DEEPSEEK 🔥：全新的 DeepSeek Harness 应用现已支持 macOS、Windows 和 Linux。DeepSeek Harness v0.2 是一款由 DeepSeek 模型驱动的桌面应用，能够执行工作和编码任务。插件和工作区开箱即用，无需额外配置。深入未知 👀 引用 DeepSeek 认证账号 @deepseek_ai 17小时 前：请查看 @DeepSeekHarness。我们刚刚发布了 macOS 和 Windows 的打包桌面版本；Linux 用户可以从 npm 上的 @deepseek-ai/dsh 包获取。",
+    "url": "https://x.com/testingcatalog/status/2105984366359036069",
+    "time_text": "12小时 前",
+    "ai_related": true
+  }
+]

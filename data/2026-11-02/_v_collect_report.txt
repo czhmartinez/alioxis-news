@@ -1,0 +1,46 @@
+大V视野收集报告 — 2026-11-02（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-10-31T16:00:00Z（约 32–36 小时），max_results=25；各账号 meta 均无 next_token，未翻页
+- 长文/截断补全：get_posts_by_ids 一批（Max 扣子/DSH-Go；TC Carbon/Drex×2/Notebook Comic/Mythos/Antigravity Chief；逸尘重庆长文/数字人；Tibo Day28/Banked）
+- 未使用浏览器；未使用 user-X；约 7 次 X 读取（6 次 get_users_posts + 1 次 get_posts_by_ids）
+
+入选：9 条（窗口偏薄，优先质量未硬凑满 12）
+各 handle 入选计数：
+  @Khazix0918: 1（AIHOT 56 评测重算 ELO，作头条）
+  @MaxForAI: 2（扣子企业版下线公告；DSH-Go 手机 Harness）
+  @xiaohu: 0（窗口内 result_count=0，无新帖）
+  @thsottiaux: 0（Day28/Banked 与 Dot→dog 玩笑均无可忠实摘要的 AI 增量）
+  @testingcatalog: 5（Mythos 5.5；Chief of Stuff；Carbon Arena；Notebook Comic；Drex Max 主帖+权重跟帖合并）
+  @gengdaJ: 1（数字人工作流 60/100）
+
+原始拉取条数摘要：
+  @Khazix0918: 1
+  @MaxForAI: 6
+  @xiaohu: 0
+  @thsottiaux: 6
+  @testingcatalog: 14（无 next_token）
+  @gengdaJ: 2
+
+Lead：卡兹克：AIHOT 公开评测扩至 56 份重算 ELO——综合与编程 No.1 均为 Claude Opus 5.5，科研/知识 GPT-6 Astra，办公 Gemini 4 Argon
+Lead URL：https://x.com/Khazix0918/status/2116801460579234047
+（卡兹克窗口有长文，按规则优先作头条；次选为 TC Mythos 5.5 官网藏彩蛋）
+
+筛选说明：
+- 跳过梗图/玩笑：Max「量子位和新智元打起来了」「群友已经被GPT腌入味了」；Tibo Dot 自动纠错成 dog 主帖及三条自回复段子
+- 跳过无信息短帖/无法忠实摘要：Tibo「Day 28/ Banked 2/2」「Banked 1/2」无正文细节；Max 引用 OpenAI 沉迷数学找架构仅附和一句「确实啊…也不难吧」（纯转发低增量）
+- 跳过非 AI 主线：Max 微信可渲染 X 卡片；逸尘重庆风水/搬深圳个人长文（虽提 Claude 封号，但昨日 WebRTC 主题已覆盖且本帖无新排查增量）
+- 跳过昨日 selected / 同题低增量：TC Hermes Mobile Beta 主帖+「Both beta apps are full」；TC Antigravity 安全提示
+- 跳过汇总/低价值：TC 多条 Documented 自回复链接；TC Mythos 帖下 h/t @SergioOSINT
+- 合并：TC Gemini 4 Carbon 主帖+Outputs 自回复；TC Drex Max 主帖+HF 权重/Q8 自回复
+- 去重：对照 data/2026-11-02/_prior_urls.json（1927 URL）与 2026-11-01 v.json；入选 9 条及其合并帖均无重复
+- 三位优先账号：卡兹克 1、Max 2、小互 0
+
+输出文件：
+  data/2026-11-02/v.json
+  data/2026-11-02/_cover_prompts_v.json
+  data/2026-11-02/_v_raw_mcp.json
+  data/2026-11-02/_v_collect_report.txt
+
+未执行：build / 生图 / 发布 / 通知用户

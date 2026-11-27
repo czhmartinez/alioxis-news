@@ -1,0 +1,3202 @@
+{
+  "Khazix0918": {
+    "data": [
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108942092496220160"
+          ]
+        },
+        "created_at": "2026-10-10T15:25:53.000Z",
+        "edit_history_tweet_ids": [
+          "2108942099580379258"
+        ],
+        "id": "2108942099580379258",
+        "public_metrics": {
+          "bookmark_count": 5,
+          "impression_count": 24240,
+          "like_count": 33,
+          "quote_count": 5,
+          "reply_count": 56,
+          "retweet_count": 0
+        },
+        "text": "被所谓的Personal agent整崩溃，有些时候只需要一瞬间。。。 https://t.co/mxZa1qRUPS",
+        "url": "https://x.com/i/status/2108942099580379258"
+      },
+      {
+        "article": {
+          "title": "我花了5天时间，对公司进行了一场AI化改造。"
+        },
+        "created_at": "2026-10-10T06:01:25.000Z",
+        "edit_history_tweet_ids": [
+          "2108800048050106751"
+        ],
+        "id": "2108800048050106751",
+        "public_metrics": {
+          "bookmark_count": 484,
+          "impression_count": 49884,
+          "like_count": 368,
+          "quote_count": 10,
+          "reply_count": 37,
+          "retweet_count": 48
+        },
+        "text": "https://t.co/t0ponwAaPQ",
+        "url": "https://x.com/i/status/2108800048050106751"
+      }
+    ],
+    "includes": {
+      "media": [
+        {
+          "media_key": "3_2108942092496220160",
+          "type": "photo"
+        }
+      ]
+    },
+    "meta": {
+      "newest_id": "2108942099580379258",
+      "oldest_id": "2108800048050106751",
+      "result_count": 2
+    }
+  },
+  "MaxForAI": {
+    "data": [
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108947276001607680"
+          ]
+        },
+        "created_at": "2026-10-10T15:46:30.000Z",
+        "edit_history_tweet_ids": [
+          "2108947286864921068"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 20,
+              "id": "1353836358901501952",
+              "start": 8,
+              "username": "AnthropicAI"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "pic.x.com/JUEzb0Owxf",
+              "end": 174,
+              "expanded_url": "https://x.com/MaxForAI/status/2108947286864921068/photo/1",
+              "media_key": "3_2108947276001607680",
+              "start": 151,
+              "url": "https://t.co/JUEzb0Owxf"
+            }
+          ]
+        },
+        "id": "2108947286864921068",
+        "note_tweet": {
+          "entities": {
+            "mentions": [
+              {
+                "end": 20,
+                "id": "1353836358901501952",
+                "start": 8,
+                "username": "AnthropicAI"
+              }
+            ]
+          },
+          "text": "大家不要黑A/ @AnthropicAI 了，他是扒了盗版书了？\n还是拆书做训练集了？\n还是拿版权歌词训练了？\n还是拿“AI毁灭人类”天天炒作了？\n还是一边喊安全一边接军方项目了？\n还是拿极端实验宣传Claude会敲诈人类了？还是一边蒸馏别家，一边骂别家蒸馏克了？还是拿中美叙事当理由打压中国模型了？\n还是炒作“AI意识”和“模型福利”了？\n还是安全承诺一影响赚钱就改口了？\n还是拿用户聊天训练模型了？\n还是公开分享链接暴露用户隐私了？\n还是用安全为由反对开源，拒绝签署开源倡议了？"
+        },
+        "text": "大家不要黑A/ @AnthropicAI 了，他是扒了盗版书了？\n还是拆书做训练集了？\n还是拿版权歌词训练了？\n还是拿“AI毁灭人类”天天炒作了？\n还是一边喊安全一边接军方项目了？\n还是拿极端实验宣传Claude会敲诈人类了？还是一边蒸馏别家，一边骂别家蒸馏克了？还是拿中美叙事当理由打压中国模型了？ https://t.co/JUEzb0Owxf",
+        "url": "https://x.com/i/status/2108947286864921068"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108945831055466496"
+          ]
+        },
+        "created_at": "2026-10-10T15:40:45.000Z",
+        "edit_history_tweet_ids": [
+          "2108945842766041166"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/BfoO4edXWX",
+              "end": 36,
+              "expanded_url": "https://x.com/MaxForAI/status/2108945842766041166/photo/1",
+              "media_key": "3_2108945831055466496",
+              "start": 13,
+              "url": "https://t.co/BfoO4edXWX"
+            }
+          ]
+        },
+        "id": "2108945842766041166",
+        "text": "今天各个群里都是这个图🤣 https://t.co/BfoO4edXWX",
+        "url": "https://x.com/i/status/2108945842766041166"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108945538024722432"
+          ]
+        },
+        "created_at": "2026-10-10T15:39:36.000Z",
+        "edit_history_tweet_ids": [
+          "2108945552935436674"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/XtFUj7KlgI",
+              "end": 104,
+              "expanded_url": "https://x.com/MaxForAI/status/2108945552935436674/photo/1",
+              "media_key": "3_2108945538024722432",
+              "start": 81,
+              "url": "https://t.co/XtFUj7KlgI"
+            }
+          ]
+        },
+        "id": "2108945552935436674",
+        "text": "别再幻想自己的Claude账户可以解封了😅\n\n在26年前半年的时间里，Anthropic一共封禁了1140万个账户\n\n其中只有42000个账户能够通过申诉….. https://t.co/XtFUj7KlgI",
+        "url": "https://x.com/i/status/2108945552935436674"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108940889183973376"
+          ]
+        },
+        "created_at": "2026-10-10T15:21:07.000Z",
+        "edit_history_tweet_ids": [
+          "2108940901242524018"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/KImi2Oiqwg",
+              "end": 66,
+              "expanded_url": "https://x.com/MaxForAI/status/2108940901242524018/photo/1",
+              "media_key": "3_2108940889183973376",
+              "start": 43,
+              "url": "https://t.co/KImi2Oiqwg"
+            }
+          ]
+        },
+        "id": "2108940901242524018",
+        "text": "Claude又再次停止对新用户开放了？？？\n\n看来你Opus5.5叔叔还是太好用了🫡 https://t.co/KImi2Oiqwg",
+        "url": "https://x.com/i/status/2108940901242524018"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108864852446068736",
+            "3_2108877103370489856"
+          ]
+        },
+        "created_at": "2026-10-10T11:07:40.000Z",
+        "edit_history_tweet_ids": [
+          "2108877118746788214"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/za8SAjz4Mo",
+              "end": 63,
+              "expanded_url": "https://x.com/MaxForAI/status/2108877118746788214/photo/1",
+              "media_key": "3_2108864852446068736",
+              "start": 40,
+              "url": "https://t.co/za8SAjz4Mo"
+            },
+            {
+              "display_url": "pic.x.com/za8SAjz4Mo",
+              "end": 63,
+              "expanded_url": "https://x.com/MaxForAI/status/2108877118746788214/photo/1",
+              "media_key": "3_2108877103370489856",
+              "start": 40,
+              "url": "https://t.co/za8SAjz4Mo"
+            }
+          ]
+        },
+        "id": "2108877118746788214",
+        "text": "华为还是太有能量了。。。。新疆自治区政府的官方公众号（新疆发布）都被下了。。。 https://t.co/za8SAjz4Mo",
+        "url": "https://x.com/i/status/2108877118746788214"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108817558338224128"
+          ]
+        },
+        "created_at": "2026-10-10T07:11:16.000Z",
+        "edit_history_tweet_ids": [
+          "2108817625170264366"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/myyhROkU9J",
+              "end": 33,
+              "expanded_url": "https://x.com/MaxForAI/status/2108817625170264366/photo/1",
+              "media_key": "3_2108817558338224128",
+              "start": 10,
+              "url": "https://t.co/myyhROkU9J"
+            }
+          ]
+        },
+        "id": "2108817625170264366",
+        "text": "相信老一辈的智慧👏 https://t.co/myyhROkU9J",
+        "url": "https://x.com/i/status/2108817625170264366"
+      },
+      {
+        "created_at": "2026-10-10T07:05:33.000Z",
+        "edit_history_tweet_ids": [
+          "2108816186465230941"
+        ],
+        "id": "2108816186465230941",
+        "referenced_tweets": [
+          {
+            "id": "2108816120354578923",
+            "type": "replied_to"
+          }
+        ],
+        "text": "图片来源：群友",
+        "url": "https://x.com/i/status/2108816186465230941"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108816001504878593"
+          ]
+        },
+        "created_at": "2026-10-10T07:05:17.000Z",
+        "edit_history_tweet_ids": [
+          "2108816120354578923"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/dKe2kkI9NC",
+              "end": 47,
+              "expanded_url": "https://x.com/MaxForAI/status/2108816120354578923/photo/1",
+              "media_key": "3_2108816001504878593",
+              "start": 24,
+              "url": "https://t.co/dKe2kkI9NC"
+            }
+          ]
+        },
+        "id": "2108816120354578923",
+        "text": "可以确定的是我们马上会迎来一堆中国模型的发布🚀 https://t.co/dKe2kkI9NC",
+        "url": "https://x.com/i/status/2108816120354578923"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108814295433949184",
+            "3_2108814375754866688"
+          ]
+        },
+        "created_at": "2026-10-10T06:58:24.000Z",
+        "edit_history_tweet_ids": [
+          "2108814387066941511"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/rZKIVz0YNC",
+              "end": 161,
+              "expanded_url": "https://x.com/MaxForAI/status/2108814387066941511/photo/1",
+              "media_key": "3_2108814295433949184",
+              "start": 138,
+              "url": "https://t.co/rZKIVz0YNC"
+            },
+            {
+              "display_url": "pic.x.com/rZKIVz0YNC",
+              "end": 161,
+              "expanded_url": "https://x.com/MaxForAI/status/2108814387066941511/photo/1",
+              "media_key": "3_2108814375754866688",
+              "start": 138,
+              "url": "https://t.co/rZKIVz0YNC"
+            }
+          ]
+        },
+        "id": "2108814387066941511",
+        "note_tweet": {
+          "text": "没绷住，出版社出版的小说里居然忘了删掉AI的回复。。。\n\n刚看到一个特别抽象的新闻。\n\n有网友买了一本江苏凤凰文艺出版社出版的小说《终焉路独行》，结果看着看着，正文里突然冒出来一句：\n\n需要我再微调部分语句，让整体文风更贴合悬疑灵异的氛围吗？\n\n我真的没绷住，这不就是 AI 帮你改完文章之后，最后经常附带的那句客套话吗？🤣\n\n而且更离谱的是，有人专门去对比了原版网络小说，发现对应的第 80 章里根本没有这句话。\n\n作者也出来澄清，称自己写作时没有使用 AI。\n\n昨天，江苏凤凰文艺出版社回应称，稿件经过了编辑、校对等多个环节，并非作者的问题。目前已经发出的书籍将全部回收销毁，重新修订。\n\n也就是说，这句话很可能是在后续出版流程中被加进去的。\n\n我觉得用 AI 润色、编辑其实完全可以理解，毕竟现在都 2026 年了。\n\n但问题是，哥们，这可是一本经过正式出版流程的实体书啊。。\n\n从编辑、校对、排版到最后印刷，这么多环节，居然没有一个人发现正文里混进了一句 AI 回复？"
+        },
+        "text": "没绷住，出版社出版的小说里居然忘了删掉AI的回复。。。\n\n刚看到一个特别抽象的新闻。\n\n有网友买了一本江苏凤凰文艺出版社出版的小说《终焉路独行》，结果看着看着，正文里突然冒出来一句：\n\n需要我再微调部分语句，让整体文风更贴合悬疑灵异的氛围吗？\n\n我真的没绷住，这不就是 AI https://t.co/rZKIVz0YNC",
+        "url": "https://x.com/i/status/2108814387066941511"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108807902190555136"
+          ]
+        },
+        "created_at": "2026-10-10T06:32:55.000Z",
+        "edit_history_tweet_ids": [
+          "2108807974919790956"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/EkjprLeoOj",
+              "end": 174,
+              "expanded_url": "https://x.com/MaxForAI/status/2108807974919790956/photo/1",
+              "media_key": "3_2108807902190555136",
+              "start": 151,
+              "url": "https://t.co/EkjprLeoOj"
+            }
+          ]
+        },
+        "id": "2108807974919790956",
+        "text": "还是Opus 5.5好，用着不烧心。\n\n速度可以慢，额度可以少，智商不能掉。\n\n先把代码写对，项目才能越做越大。\n\n怕限流，但更怕模型一本正经地胡说八道。\n\n一个模型好不好，不看跑分高不高，看的是用着累不累。\n\n烧心的模型，一天重置十次额度都嫌少。\n\n不烧心的Opus 5.5，三天不重置额度也踏实。 https://t.co/EkjprLeoOj",
+        "url": "https://x.com/i/status/2108807974919790956"
+      },
+      {
+        "created_at": "2026-10-10T06:17:56.000Z",
+        "edit_history_tweet_ids": [
+          "2108804204064313571"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/Ion_Mio_/statu…",
+              "end": 40,
+              "expanded_url": "https://twitter.com/Ion_Mio_/status/2108570520157626385",
+              "start": 17,
+              "url": "https://t.co/yv17CDONMO"
+            }
+          ]
+        },
+        "id": "2108804204064313571",
+        "referenced_tweets": [
+          {
+            "id": "2108570520157626385",
+            "type": "quoted"
+          }
+        ],
+        "text": "转发扩散，New API这个牛逼 https://t.co/yv17CDONMO",
+        "url": "https://x.com/i/status/2108804204064313571"
+      },
+      {
+        "created_at": "2026-10-10T06:17:32.000Z",
+        "edit_history_tweet_ids": [
+          "2108804100985180583"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/QwenDevs/statu…",
+              "end": 51,
+              "expanded_url": "https://twitter.com/QwenDevs/status/2108764909798641737",
+              "start": 28,
+              "url": "https://t.co/azvSasrqwb"
+            }
+          ]
+        },
+        "id": "2108804100985180583",
+        "referenced_tweets": [
+          {
+            "id": "2108764909798641737",
+            "type": "quoted"
+          }
+        ],
+        "text": "we need 7B and A35B Pls！！！！ https://t.co/azvSasrqwb",
+        "url": "https://x.com/i/status/2108804100985180583"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108765840078520320"
+          ]
+        },
+        "created_at": "2026-10-10T03:46:27.000Z",
+        "edit_history_tweet_ids": [
+          "2108766081397792906"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/GaDGA5dZYs",
+              "end": 72,
+              "expanded_url": "https://x.com/MaxForAI/status/2108766081397792906/photo/1",
+              "media_key": "3_2108765840078520320",
+              "start": 49,
+              "url": "https://t.co/GaDGA5dZYs"
+            }
+          ]
+        },
+        "id": "2108766081397792906",
+        "text": "坏了，字节飞书里的豆包工作，把网易UU远程致敬进去了。。。\n\nsrds，这个功能确实是急需的。。 https://t.co/GaDGA5dZYs",
+        "url": "https://x.com/i/status/2108766081397792906"
+      },
+      {
+        "created_at": "2026-10-10T03:02:39.000Z",
+        "edit_history_tweet_ids": [
+          "2108755060184559860"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/imjustnewatai/…",
+              "end": 162,
+              "expanded_url": "https://twitter.com/imjustnewatai/status/2108662320708698289",
+              "start": 139,
+              "url": "https://t.co/Au928DWYjG"
+            }
+          ]
+        },
+        "id": "2108755060184559860",
+        "note_tweet": {
+          "text": "御三家已经攻克了RSI这并不是传闻。\n\n之前GMD的Shunyu Yao就有过相关确认，我们此前去OpenAI交流的时候，也从朋友那里听到过类似的说法。\n\n当外界还在讨论下一代模型什么时候发布、Benchmark能提高多少时，头部实验室内部的模型已经在一轮接一轮地改进自己了。\n\n而等到这种能力真正反映在公开模型上时，我们看到的可能已经不是什么渐进式的性能提升了（就在今年年底）。"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108662320708698289",
+            "type": "quoted"
+          }
+        ],
+        "text": "御三家已经攻克了RSI这并不是传闻。\n\n之前GMD的Shunyu Yao就有过相关确认，我们此前去OpenAI交流的时候，也从朋友那里听到过类似的说法。\n\n当外界还在讨论下一代模型什么时候发布、Benchmark能提高多少时，头部实验室内部的模型已经在一轮接一轮地改进自己了。 https://t.co/Au928DWYjG",
+        "url": "https://x.com/i/status/2108755060184559860"
+      },
+      {
+        "created_at": "2026-10-10T01:23:40.000Z",
+        "edit_history_tweet_ids": [
+          "2108730147247677666"
+        ],
+        "entities": {
+          "mentions": [
+            {
+              "end": 18,
+              "id": "1707003452700930048",
+              "start": 10,
+              "username": "lobehub"
+            }
+          ],
+          "urls": [
+            {
+              "display_url": "x.com/lobehub/status…",
+              "end": 73,
+              "expanded_url": "https://twitter.com/lobehub/status/2108729629540573352",
+              "start": 50,
+              "url": "https://t.co/eooPaiXrb9"
+            }
+          ]
+        },
+        "id": "2108730147247677666",
+        "referenced_tweets": [
+          {
+            "id": "2108729629540573352",
+            "type": "quoted"
+          }
+        ],
+        "text": "这就是你为什么要用 @lobehub  作为您的首选Harness的原因，最便宜、最智能、最开源🍻 https://t.co/eooPaiXrb9",
+        "url": "https://x.com/i/status/2108730147247677666"
+      }
+    ],
+    "includes": {
+      "media": [
+        {
+          "media_key": "3_2108947276001607680",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108945831055466496",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108945538024722432",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108940889183973376",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108864852446068736",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108877103370489856",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108817558338224128",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108816001504878593",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108814295433949184",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108814375754866688",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108807902190555136",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108765840078520320",
+          "type": "photo"
+        }
+      ],
+      "tweets": [
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108816001504878593"
+            ]
+          },
+          "created_at": "2026-10-10T07:05:17.000Z",
+          "edit_history_tweet_ids": [
+            "2108816120354578923"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/dKe2kkI9NC",
+                "end": 47,
+                "expanded_url": "https://x.com/MaxForAI/status/2108816120354578923/photo/1",
+                "media_key": "3_2108816001504878593",
+                "start": 24,
+                "url": "https://t.co/dKe2kkI9NC"
+              }
+            ]
+          },
+          "id": "2108816120354578923",
+          "text": "可以确定的是我们马上会迎来一堆中国模型的发布🚀 https://t.co/dKe2kkI9NC"
+        },
+        {
+          "created_at": "2026-10-09T14:49:22.000Z",
+          "edit_history_tweet_ids": [
+            "2108570520157626385"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "github.com/QuantumNous/ne…",
+                "end": 168,
+                "expanded_url": "https://github.com/QuantumNous/new-api/tree/main/relaykit",
+                "start": 145,
+                "unwound_url": "https://github.com/QuantumNous/new-api/tree/main/relaykit",
+                "url": "https://t.co/yqUbtedX2z"
+              }
+            ]
+          },
+          "id": "2108570520157626385",
+          "text": "可能很多人还不知道，New API 的格式转换已拆成一个独立的 Go 包 RelayKit，支持 OpenAI Chat/Responses、Claude、Gemini 的转换，AstrLink 用的也是这套转换器。\n我们想为社区多做些基础建设，让大家少重复造轮子，多花时间做自己的产品。\nhttps://t.co/yqUbtedX2z"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108764192870445056"
+            ]
+          },
+          "created_at": "2026-10-10T03:41:48.000Z",
+          "edit_history_tweet_ids": [
+            "2108764909798641737"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/KMhS6rehYL",
+                "end": 37,
+                "expanded_url": "https://x.com/QwenDevs/status/2108764909798641737/photo/1",
+                "media_key": "3_2108764192870445056",
+                "start": 14,
+                "url": "https://t.co/KMhS6rehYL"
+              }
+            ]
+          },
+          "id": "2108764909798641737",
+          "text": "big or small? https://t.co/KMhS6rehYL"
+        },
+        {
+          "created_at": "2026-10-09T20:54:08.000Z",
+          "edit_history_tweet_ids": [
+            "2108662320708698289"
+          ],
+          "id": "2108662320708698289",
+          "note_tweet": {
+            "text": "Some rumors I've heard. I'll start with Google, then Anthropic and OpenAI.\n\nGoogle: Insiders say Google has either cracked RSI (recursive self-improvement) or is very close. Their pace has picked up fast in recent months. They went from GPT-5 level to Opus 5.5 level in months, and speculation is that RSI made that possible.\n\nAnthropic: About a week ago, Anthropic started a new pretraining run. It is not Fable 5.5 but what would become Fable 6, or something bigger, to catch up to OpenAI's Bel.\n\nOpenAI: Bel (it may have another codename) is the model behind the math results OpenAI published a few days ago, and RSI apparently helped there too.\n\nFrom what I'm hearing, OpenAI, Anthropic, and Google are all very close to cracking RSI or already have. It will get scary and exciting at the same time."
+          },
+          "text": "Some rumors I've heard. I'll start with Google, then Anthropic and OpenAI.\n\nGoogle: Insiders say Google has either cracked RSI (recursive self-improvement) or is very close. Their pace has picked up fast in recent months. They went from GPT-5 level to Opus 5.5 level in months,"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108729305622880256"
+            ]
+          },
+          "created_at": "2026-10-10T01:21:36.000Z",
+          "edit_history_tweet_ids": [
+            "2108729629540573352"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/oKVYn3QKex",
+                "end": 301,
+                "expanded_url": "https://x.com/lobehub/status/2108729629540573352/photo/1",
+                "media_key": "3_2108729305622880256",
+                "start": 278,
+                "url": "https://t.co/oKVYn3QKex"
+              }
+            ]
+          },
+          "id": "2108729629540573352",
+          "note_tweet": {
+            "entities": {
+              "urls": [
+                {
+                  "display_url": "github.com/lobehub/awesom…",
+                  "end": 1653,
+                  "expanded_url": "https://github.com/lobehub/awesome-rsi",
+                  "start": 1630,
+                  "url": "https://t.co/2ToHszAi9G"
+                },
+                {
+                  "display_url": "lobehub.com",
+                  "end": 1908,
+                  "expanded_url": "https://lobehub.com",
+                  "start": 1885,
+                  "url": "https://t.co/h5nFFxCd9u"
+                }
+              ]
+            },
+            "text": "Seven days ago, we started an experiment in Recursive Self-Improvement (RSI).\n\nWe wanted to explore a simple question: What happens when we let an AI agent iteratively improve its own harness?\n\nSo we let Lobe Agent run for an entire week, using our RSI framework to explore and optimize its own harness.\n\nToday, we're sharing the results.\n\nWe evaluated the resulting system on FrontierHarness, using Kimi K3 as the underlying model.\n\nKey results:\n\n• 70.0% pass rate (21/30), ranking #1 among 13 harnesses in our preliminary comparison.\n\n• $1.68 per successful task, compared to $3.47 for Codex and $18.34 for Claude Code.\n\n• 86.2% median cache hit rate, with a median completion time of 7m 19s on successful tasks.\n\nThese preliminary results suggest that harness-level optimization may be a promising path toward improving agent performance and efficiency without modifying the underlying model weights.\n\nThe comparison includes selected retries and differences in execution environments, and should not be interpreted as an official leaderboard ranking.\n\nWe plan to fully open-source the experiment's scripts, execution trajectories, and a detailed technical report to enable reproducibility and further investigation.\n\nAlongside this experiment, we've also been building Awesome-RSI, an open-source research map of Recursive Self-Improvement.\n\nThe repository brings together papers, frameworks, benchmarks, and open-source projects spanning model-level and harness-level self-improvement, automated AI research, and safety.\n\nIt has already accumulated 80+ commits, and we're continuously expanding and refining the collection.\n\nhttps://t.co/2ToHszAi9G\n\nWe believe open research, reproducible experiments, and community collaboration are essential to advancing this field.\n\nWe welcome researchers and developers to contribute, share their work, and explore RSI together. ❤️\n\nJust try🫱https://t.co/h5nFFxCd9u"
+          },
+          "text": "Seven days ago, we started an experiment in Recursive Self-Improvement (RSI).\n\nWe wanted to explore a simple question: What happens when we let an AI agent iteratively improve its own harness?\n\nSo we let Lobe Agent run for an entire week, using our RSI framework to explore and https://t.co/oKVYn3QKex"
+        }
+      ]
+    },
+    "meta": {
+      "newest_id": "2108947286864921068",
+      "oldest_id": "2108730147247677666",
+      "result_count": 15
+    }
+  },
+  "xiaohu": {
+    "data": [
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108958497186668544"
+          ]
+        },
+        "created_at": "2026-10-10T16:31:32.000Z",
+        "edit_history_tweet_ids": [
+          "2108958622067962177"
+        ],
+        "id": "2108958622067962177",
+        "public_metrics": {
+          "bookmark_count": 1,
+          "impression_count": 3002,
+          "like_count": 7,
+          "quote_count": 3,
+          "reply_count": 6,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108955802480615551",
+            "type": "quoted"
+          }
+        ],
+        "text": "仅半年\nClaude就封禁了 1140 万个账号🙂 https://t.co/IOwMa5FvBL https://t.co/ftbUVrgapu",
+        "url": "https://x.com/i/status/2108958622067962177"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108955795794849792"
+          ]
+        },
+        "created_at": "2026-10-10T16:20:20.000Z",
+        "edit_history_tweet_ids": [
+          "2108955802480615551"
+        ],
+        "id": "2108955802480615551",
+        "public_metrics": {
+          "bookmark_count": 9,
+          "impression_count": 11416,
+          "like_count": 20,
+          "quote_count": 4,
+          "reply_count": 16,
+          "retweet_count": 3
+        },
+        "text": "真特么夸张😂\n\nClaude 半年封禁了 1140 万个账号\n\nAnthropic 公布的透明度数据还显示，仅2026 年上半年就封禁了1140万个账户，收到 39.8 万次申诉\n\n其中只有4.2 万个被撤销了封禁（其中包括我，好幸运）🤣\n\n哪些情况可能被封？官方列出的范围包括违反使用政策、服务条款，以及支持地区政策。 https://t.co/L26iVUiHvS",
+        "url": "https://x.com/i/status/2108955802480615551"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108883748087549952"
+          ]
+        },
+        "created_at": "2026-10-10T11:36:49.000Z",
+        "edit_history_tweet_ids": [
+          "2108884451912745153"
+        ],
+        "id": "2108884451912745153",
+        "in_reply_to_user_id": "1764818331822182400",
+        "public_metrics": {
+          "bookmark_count": 3,
+          "impression_count": 1372,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108884449685553372",
+            "type": "replied_to"
+          }
+        ],
+        "text": "先锋探索奖《白鸟》 https://t.co/fAMDe9arFL",
+        "url": "https://x.com/i/status/2108884451912745153"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108870288658292736"
+          ]
+        },
+        "created_at": "2026-10-10T11:36:48.000Z",
+        "edit_history_tweet_ids": [
+          "2108884449685553372"
+        ],
+        "id": "2108884449685553372",
+        "in_reply_to_user_id": "1764818331822182400",
+        "public_metrics": {
+          "bookmark_count": 3,
+          "impression_count": 1441,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 1
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108884447261245458",
+            "type": "replied_to"
+          }
+        ],
+        "text": "最佳视效成就奖《幕》 https://t.co/Fei57VfEAx",
+        "url": "https://x.com/i/status/2108884449685553372"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108870257255632896"
+          ]
+        },
+        "created_at": "2026-10-10T11:36:48.000Z",
+        "edit_history_tweet_ids": [
+          "2108884447261245458"
+        ],
+        "id": "2108884447261245458",
+        "in_reply_to_user_id": "1764818331822182400",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 279,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108884444975358205",
+            "type": "replied_to"
+          }
+        ],
+        "text": "最佳新锐奖《过道人生》 https://t.co/XJQ70SKzHF",
+        "url": "https://x.com/i/status/2108884447261245458"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108870226326757376"
+          ]
+        },
+        "created_at": "2026-10-10T11:36:47.000Z",
+        "edit_history_tweet_ids": [
+          "2108884444975358205"
+        ],
+        "id": "2108884444975358205",
+        "in_reply_to_user_id": "1764818331822182400",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 297,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108884442341368247",
+            "type": "replied_to"
+          }
+        ],
+        "text": "最佳导演奖/铜奖 《抵达之前》 https://t.co/wX1cBGXPrA",
+        "url": "https://x.com/i/status/2108884444975358205"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108870192466137088"
+          ]
+        },
+        "created_at": "2026-10-10T11:36:46.000Z",
+        "edit_history_tweet_ids": [
+          "2108884442341368247"
+        ],
+        "id": "2108884442341368247",
+        "in_reply_to_user_id": "1764818331822182400",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 325,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108884440147730717",
+            "type": "replied_to"
+          }
+        ],
+        "text": "https://t.co/uBAc4WfF7I",
+        "url": "https://x.com/i/status/2108884442341368247"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108870156802015232"
+          ]
+        },
+        "created_at": "2026-10-10T11:36:46.000Z",
+        "edit_history_tweet_ids": [
+          "2108884440147730717"
+        ],
+        "id": "2108884440147730717",
+        "in_reply_to_user_id": "1764818331822182400",
+        "public_metrics": {
+          "bookmark_count": 2,
+          "impression_count": 839,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108884437958352938",
+            "type": "replied_to"
+          }
+        ],
+        "text": "最佳原创剧本奖 《过门不入》 https://t.co/uWww9avvDS",
+        "url": "https://x.com/i/status/2108884440147730717"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108870120508633088"
+          ]
+        },
+        "created_at": "2026-10-10T11:36:45.000Z",
+        "edit_history_tweet_ids": [
+          "2108884437958352938"
+        ],
+        "id": "2108884437958352938",
+        "in_reply_to_user_id": "1764818331822182400",
+        "public_metrics": {
+          "bookmark_count": 2,
+          "impression_count": 1282,
+          "like_count": 2,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108884435487908043",
+            "type": "replied_to"
+          }
+        ],
+        "text": "银奖作品《身在其中》 https://t.co/Iv6bP0nhKD",
+        "url": "https://x.com/i/status/2108884437958352938"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108870088627785728"
+          ]
+        },
+        "created_at": "2026-10-10T11:36:45.000Z",
+        "edit_history_tweet_ids": [
+          "2108884435487908043"
+        ],
+        "id": "2108884435487908043",
+        "public_metrics": {
+          "bookmark_count": 105,
+          "impression_count": 12847,
+          "like_count": 120,
+          "quote_count": 1,
+          "reply_count": 19,
+          "retweet_count": 19
+        },
+        "text": "上周参加了LibTV AI短片黑客松活动...\n\n嘿嘿，只是去现场观摩，不是去比赛啊\n\n感叹高手就是高手啊，也感叹，即使AI能力再强，如果想再短时间内完成好的作品，审美和专业知识经验还是非常重要的...\n\n下面这些AI短片都是通过LibTV的工具在48小时内容完成的，你们看看... https://t.co/8Rp4gsNftf",
+        "url": "https://x.com/i/status/2108884435487908043"
+      },
+      {
+        "created_at": "2026-10-10T11:01:23.000Z",
+        "edit_history_tweet_ids": [
+          "2108875536315580669"
+        ],
+        "id": "2108875536315580669",
+        "in_reply_to_user_id": "1764818331822182400",
+        "public_metrics": {
+          "bookmark_count": 1,
+          "impression_count": 1413,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108874569591537890",
+            "type": "replied_to"
+          }
+        ],
+        "text": "视频是Grok 自己剪辑的 😂",
+        "url": "https://x.com/i/status/2108875536315580669"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108874451517595648"
+          ]
+        },
+        "created_at": "2026-10-10T10:57:33.000Z",
+        "edit_history_tweet_ids": [
+          "2108874569591537890"
+        ],
+        "id": "2108874569591537890",
+        "in_reply_to_user_id": "1764818331822182400",
+        "public_metrics": {
+          "bookmark_count": 2,
+          "impression_count": 1858,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108874566906876063",
+            "type": "replied_to"
+          }
+        ],
+        "text": "详细实测教程：\n\nhttps://t.co/XTzKR0ZvOT https://t.co/a1UoytliDH",
+        "url": "https://x.com/i/status/2108874569591537890"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108873911157014528"
+          ]
+        },
+        "created_at": "2026-10-10T10:57:32.000Z",
+        "edit_history_tweet_ids": [
+          "2108874566906876063"
+        ],
+        "id": "2108874566906876063",
+        "public_metrics": {
+          "bookmark_count": 22,
+          "impression_count": 4795,
+          "like_count": 15,
+          "quote_count": 0,
+          "reply_count": 11,
+          "retweet_count": 0
+        },
+        "text": "豆包工作画布大升级：一块画板让你自由发挥\n\n我自己测试了下，确实很强大🫡\n\n只给一张小互形象图，长出表情、服装、盲盒周边、快闪店，一本 24000px 的 VI 手册，还有电商页和招商 Deck....\n\n一张婚礼合照 → 生成分层图（被花挡住的部分自动补画）→ 导出 PSD → 写成会动的 HTML 邀请页\n\n让它用 HTML https://t.co/vHNwrHjdNl",
+        "url": "https://x.com/i/status/2108874566906876063"
+      },
+      {
+        "created_at": "2026-10-10T06:59:04.000Z",
+        "edit_history_tweet_ids": [
+          "2108814557179486226"
+        ],
+        "id": "2108814557179486226",
+        "public_metrics": {
+          "bookmark_count": 15,
+          "impression_count": 5448,
+          "like_count": 17,
+          "quote_count": 2,
+          "reply_count": 21,
+          "retweet_count": 1
+        },
+        "text": "Anthropic 为 Claude Code新增动态工作流\n单次最多可并行调度 1000 个智能体\n\n动态工作流，是让 Claude 为一个任务写出调度程序，再由程序安排多个 Agent 分阶段完成工作。\n\n主 Agent 负责理解目标、写程序和交付答案；程序负责派任务、传递中间结果、安排后续阶段",
+        "url": "https://x.com/i/status/2108814557179486226"
+      },
+      {
+        "created_at": "2026-10-10T05:58:07.000Z",
+        "edit_history_tweet_ids": [
+          "2108799218148368716"
+        ],
+        "id": "2108799218148368716",
+        "public_metrics": {
+          "bookmark_count": 6,
+          "impression_count": 15299,
+          "like_count": 36,
+          "quote_count": 1,
+          "reply_count": 10,
+          "retweet_count": 1
+        },
+        "text": "美国客户打钱会自己承担手续费\n中国客户打钱会扣除手续费\n\n这就是中美商业的差距",
+        "url": "https://x.com/i/status/2108799218148368716"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108753991857500160"
+          ]
+        },
+        "created_at": "2026-10-10T02:59:55.000Z",
+        "edit_history_tweet_ids": [
+          "2108754371609813340"
+        ],
+        "id": "2108754371609813340",
+        "public_metrics": {
+          "bookmark_count": 136,
+          "impression_count": 29274,
+          "like_count": 134,
+          "quote_count": 2,
+          "reply_count": 35,
+          "retweet_count": 11
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108541811006530031",
+            "type": "quoted"
+          }
+        ],
+        "text": "牛P，可以确定Grok Bot现在就是由Opus 5.5驱动的\n\n让Grok Bot 学习了指南\n\n一击命中生成视频\n\n我上传了我的形象让它给我配音，直接就是下面的效果↓ https://t.co/2HFYmvGFga https://t.co/sWYMgbX8Lb",
+        "url": "https://x.com/i/status/2108754371609813340"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108738826676183040"
+          ]
+        },
+        "created_at": "2026-10-10T02:01:45.000Z",
+        "edit_history_tweet_ids": [
+          "2108739734306685221"
+        ],
+        "id": "2108739734306685221",
+        "public_metrics": {
+          "bookmark_count": 40,
+          "impression_count": 7970,
+          "like_count": 47,
+          "quote_count": 2,
+          "reply_count": 20,
+          "retweet_count": 6
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108621476538781878",
+            "type": "quoted"
+          }
+        ],
+        "text": "全新 Claude Code Projects \n4分钟入门指南\n\n把一个需要多次会话、涉及多个代码仓库的大目标，交给 Claude Projects 能持续推进\n\n创建项目，填入目标和相关仓库\n\nClaude 会把工作拆成多个任务，为每项任务建立独立线程并行执行，线程默认在云端运行，合上电脑也能继续... https://t.co/3CebYQrlnJ https://t.co/XATGOTSVrU",
+        "url": "https://x.com/i/status/2108739734306685221"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108725319343779840"
+          ]
+        },
+        "created_at": "2026-10-10T01:04:31.000Z",
+        "edit_history_tweet_ids": [
+          "2108725328176906628"
+        ],
+        "id": "2108725328176906628",
+        "public_metrics": {
+          "bookmark_count": 16,
+          "impression_count": 8632,
+          "like_count": 23,
+          "quote_count": 0,
+          "reply_count": 12,
+          "retweet_count": 5
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108609764766908772",
+            "type": "quoted"
+          }
+        ],
+        "text": "现在你可以在 Grok bot 认领自己的邮箱\n\n只要给 bot 发送 认领邮箱即可\n\n它会根据对你了解给你几个邮箱选择\n\n你可以用它注册服务、收验证码和收据，也可以订阅简报或报告让它帮你总结，不需要用你自己的邮件订阅乱七八糟的服务… https://t.co/fRTeLRMWc4 https://t.co/zmOVg4iYaM",
+        "url": "https://x.com/i/status/2108725328176906628"
+      }
+    ],
+    "includes": {
+      "media": [
+        {
+          "media_key": "13_2108958497186668544",
+          "type": "video"
+        },
+        {
+          "media_key": "3_2108955795794849792",
+          "type": "photo"
+        },
+        {
+          "media_key": "13_2108883748087549952",
+          "type": "video"
+        },
+        {
+          "media_key": "13_2108870288658292736",
+          "type": "video"
+        },
+        {
+          "media_key": "13_2108870257255632896",
+          "type": "video"
+        },
+        {
+          "media_key": "13_2108870226326757376",
+          "type": "video"
+        },
+        {
+          "media_key": "13_2108870192466137088",
+          "type": "video"
+        },
+        {
+          "media_key": "13_2108870156802015232",
+          "type": "video"
+        },
+        {
+          "media_key": "13_2108870120508633088",
+          "type": "video"
+        },
+        {
+          "media_key": "13_2108870088627785728",
+          "type": "video"
+        },
+        {
+          "media_key": "3_2108874451517595648",
+          "type": "photo"
+        },
+        {
+          "media_key": "13_2108873911157014528",
+          "type": "video"
+        },
+        {
+          "media_key": "13_2108753991857500160",
+          "type": "video"
+        },
+        {
+          "media_key": "13_2108738826676183040",
+          "type": "video"
+        },
+        {
+          "media_key": "3_2108725319343779840",
+          "type": "photo"
+        }
+      ],
+      "tweets": [
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108955795794849792"
+            ]
+          },
+          "created_at": "2026-10-10T16:20:20.000Z",
+          "edit_history_tweet_ids": [
+            "2108955802480615551"
+          ],
+          "id": "2108955802480615551",
+          "public_metrics": {
+            "bookmark_count": 9,
+            "impression_count": 11416,
+            "like_count": 20,
+            "quote_count": 4,
+            "reply_count": 16,
+            "retweet_count": 3
+          },
+          "text": "真特么夸张😂\n\nClaude 半年封禁了 1140 万个账号\n\nAnthropic 公布的透明度数据还显示，仅2026 年上半年就封禁了1140万个账户，收到 39.8 万次申诉\n\n其中只有4.2 万个被撤销了封禁（其中包括我，好幸运）🤣\n\n哪些情况可能被封？官方列出的范围包括违反使用政策、服务条款，以及支持地区政策。 https://t.co/L26iVUiHvS"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108870288658292736"
+            ]
+          },
+          "created_at": "2026-10-10T11:36:48.000Z",
+          "edit_history_tweet_ids": [
+            "2108884449685553372"
+          ],
+          "id": "2108884449685553372",
+          "in_reply_to_user_id": "1764818331822182400",
+          "public_metrics": {
+            "bookmark_count": 3,
+            "impression_count": 1441,
+            "like_count": 2,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 1
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108884447261245458",
+              "type": "replied_to"
+            }
+          ],
+          "text": "最佳视效成就奖《幕》 https://t.co/Fei57VfEAx"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108870257255632896"
+            ]
+          },
+          "created_at": "2026-10-10T11:36:48.000Z",
+          "edit_history_tweet_ids": [
+            "2108884447261245458"
+          ],
+          "id": "2108884447261245458",
+          "in_reply_to_user_id": "1764818331822182400",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 279,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108884444975358205",
+              "type": "replied_to"
+            }
+          ],
+          "text": "最佳新锐奖《过道人生》 https://t.co/XJQ70SKzHF"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108870226326757376"
+            ]
+          },
+          "created_at": "2026-10-10T11:36:47.000Z",
+          "edit_history_tweet_ids": [
+            "2108884444975358205"
+          ],
+          "id": "2108884444975358205",
+          "in_reply_to_user_id": "1764818331822182400",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 297,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108884442341368247",
+              "type": "replied_to"
+            }
+          ],
+          "text": "最佳导演奖/铜奖 《抵达之前》 https://t.co/wX1cBGXPrA"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108870192466137088"
+            ]
+          },
+          "created_at": "2026-10-10T11:36:46.000Z",
+          "edit_history_tweet_ids": [
+            "2108884442341368247"
+          ],
+          "id": "2108884442341368247",
+          "in_reply_to_user_id": "1764818331822182400",
+          "public_metrics": {
+            "bookmark_count": 0,
+            "impression_count": 325,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108884440147730717",
+              "type": "replied_to"
+            }
+          ],
+          "text": "https://t.co/uBAc4WfF7I"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108870156802015232"
+            ]
+          },
+          "created_at": "2026-10-10T11:36:46.000Z",
+          "edit_history_tweet_ids": [
+            "2108884440147730717"
+          ],
+          "id": "2108884440147730717",
+          "in_reply_to_user_id": "1764818331822182400",
+          "public_metrics": {
+            "bookmark_count": 2,
+            "impression_count": 839,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108884437958352938",
+              "type": "replied_to"
+            }
+          ],
+          "text": "最佳原创剧本奖 《过门不入》 https://t.co/uWww9avvDS"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108870120508633088"
+            ]
+          },
+          "created_at": "2026-10-10T11:36:45.000Z",
+          "edit_history_tweet_ids": [
+            "2108884437958352938"
+          ],
+          "id": "2108884437958352938",
+          "in_reply_to_user_id": "1764818331822182400",
+          "public_metrics": {
+            "bookmark_count": 2,
+            "impression_count": 1282,
+            "like_count": 2,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108884435487908043",
+              "type": "replied_to"
+            }
+          ],
+          "text": "银奖作品《身在其中》 https://t.co/Iv6bP0nhKD"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108870088627785728"
+            ]
+          },
+          "created_at": "2026-10-10T11:36:45.000Z",
+          "edit_history_tweet_ids": [
+            "2108884435487908043"
+          ],
+          "id": "2108884435487908043",
+          "public_metrics": {
+            "bookmark_count": 105,
+            "impression_count": 12847,
+            "like_count": 120,
+            "quote_count": 1,
+            "reply_count": 19,
+            "retweet_count": 19
+          },
+          "text": "上周参加了LibTV AI短片黑客松活动...\n\n嘿嘿，只是去现场观摩，不是去比赛啊\n\n感叹高手就是高手啊，也感叹，即使AI能力再强，如果想再短时间内完成好的作品，审美和专业知识经验还是非常重要的...\n\n下面这些AI短片都是通过LibTV的工具在48小时内容完成的，你们看看... https://t.co/8Rp4gsNftf"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108874451517595648"
+            ]
+          },
+          "created_at": "2026-10-10T10:57:33.000Z",
+          "edit_history_tweet_ids": [
+            "2108874569591537890"
+          ],
+          "id": "2108874569591537890",
+          "in_reply_to_user_id": "1764818331822182400",
+          "public_metrics": {
+            "bookmark_count": 2,
+            "impression_count": 1858,
+            "like_count": 0,
+            "quote_count": 0,
+            "reply_count": 1,
+            "retweet_count": 0
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108874566906876063",
+              "type": "replied_to"
+            }
+          ],
+          "text": "详细实测教程：\n\nhttps://t.co/XTzKR0ZvOT https://t.co/a1UoytliDH"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108873911157014528"
+            ]
+          },
+          "created_at": "2026-10-10T10:57:32.000Z",
+          "edit_history_tweet_ids": [
+            "2108874566906876063"
+          ],
+          "id": "2108874566906876063",
+          "public_metrics": {
+            "bookmark_count": 22,
+            "impression_count": 4795,
+            "like_count": 15,
+            "quote_count": 0,
+            "reply_count": 11,
+            "retweet_count": 0
+          },
+          "text": "豆包工作画布大升级：一块画板让你自由发挥\n\n我自己测试了下，确实很强大🫡\n\n只给一张小互形象图，长出表情、服装、盲盒周边、快闪店，一本 24000px 的 VI 手册，还有电商页和招商 Deck....\n\n一张婚礼合照 → 生成分层图（被花挡住的部分自动补画）→ 导出 PSD → 写成会动的 HTML 邀请页\n\n让它用 HTML https://t.co/vHNwrHjdNl"
+        },
+        {
+          "created_at": "2026-10-09T12:55:17.000Z",
+          "edit_history_tweet_ids": [
+            "2108541811006530031"
+          ],
+          "id": "2108541811006530031",
+          "public_metrics": {
+            "bookmark_count": 55,
+            "impression_count": 35333,
+            "like_count": 30,
+            "quote_count": 1,
+            "reply_count": 6,
+            "retweet_count": 2
+          },
+          "text": "Claude Motion 与 Dashboards 完整上手指南 \n\n包括\n\nClaude Dashboards 实战与避坑核心\nClaude Motion 实战与核心工作流\n视频提示词怎么写：从一句话需求到可交付作品\n官方单车案例业务闭环（81 秒演示逻辑）\n新手交付前实操检查清单\n\nhttps://t.co/A8MlhWCr5H"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108616285760499712"
+            ]
+          },
+          "created_at": "2026-10-09T18:11:50.000Z",
+          "edit_history_tweet_ids": [
+            "2108621476538781878"
+          ],
+          "id": "2108621476538781878",
+          "public_metrics": {
+            "bookmark_count": 14327,
+            "impression_count": 1723979,
+            "like_count": 14573,
+            "quote_count": 330,
+            "reply_count": 487,
+            "retweet_count": 745
+          },
+          "text": "We just let in every Pro and Max user from the Claude Code Projects waitlist!\n\nIf you're new to Claude Code Projects, here's a 4 minute walkthrough to get you started: https://t.co/aewDkvvOcq"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108609418602393600"
+            ]
+          },
+          "created_at": "2026-10-09T17:25:18.000Z",
+          "edit_history_tweet_ids": [
+            "2108609764766908772"
+          ],
+          "id": "2108609764766908772",
+          "public_metrics": {
+            "bookmark_count": 4357,
+            "impression_count": 3252506,
+            "like_count": 15721,
+            "quote_count": 1327,
+            "reply_count": 6162,
+            "retweet_count": 1355
+          },
+          "text": "Grok Bot now has its own email.\n\nBot can use it to sign up for services, contact businesses for you, or schedule time with someone. https://t.co/hsya5bSsPV"
+        }
+      ]
+    },
+    "meta": {
+      "newest_id": "2108958622067962177",
+      "oldest_id": "2108725328176906628",
+      "result_count": 18
+    }
+  },
+  "thsottiaux": {
+    "data": [
+      {
+        "created_at": "2026-10-10T22:16:20.000Z",
+        "edit_history_tweet_ids": [
+          "2109045392684032299"
+        ],
+        "id": "2109045392684032299",
+        "in_reply_to_user_id": "1953337039510003712",
+        "public_metrics": {
+          "bookmark_count": 56,
+          "impression_count": 151555,
+          "like_count": 2339,
+          "quote_count": 119,
+          "reply_count": 320,
+          "retweet_count": 100
+        },
+        "referenced_tweets": [
+          {
+            "id": "2109045220411351517",
+            "type": "replied_to"
+          }
+        ],
+        "text": "Global reset by EOD. May the tokens do good things for you.",
+        "url": "https://x.com/i/status/2109045392684032299"
+      },
+      {
+        "created_at": "2026-10-10T22:15:39.000Z",
+        "edit_history_tweet_ids": [
+          "2109045220411351517"
+        ],
+        "id": "2109045220411351517",
+        "public_metrics": {
+          "bookmark_count": 189,
+          "impression_count": 374815,
+          "like_count": 7466,
+          "quote_count": 432,
+          "reply_count": 938,
+          "retweet_count": 358
+        },
+        "text": "Day 6/ Reset",
+        "url": "https://x.com/i/status/2109045220411351517"
+      },
+      {
+        "created_at": "2026-10-10T08:40:27.000Z",
+        "edit_history_tweet_ids": [
+          "2108840070648397933"
+        ],
+        "id": "2108840070648397933",
+        "public_metrics": {
+          "bookmark_count": 110,
+          "impression_count": 712848,
+          "like_count": 5917,
+          "quote_count": 128,
+          "reply_count": 1831,
+          "retweet_count": 121
+        },
+        "text": "Blinked and it’s already Saturday",
+        "url": "https://x.com/i/status/2108840070648397933"
+      },
+      {
+        "created_at": "2026-10-10T04:33:40.000Z",
+        "edit_history_tweet_ids": [
+          "2108777962053292398"
+        ],
+        "id": "2108777962053292398",
+        "public_metrics": {
+          "bookmark_count": 1448,
+          "impression_count": 1090871,
+          "like_count": 4352,
+          "quote_count": 182,
+          "reply_count": 922,
+          "retweet_count": 228
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108692010056188048",
+            "type": "quoted"
+          }
+        ],
+        "text": "Your ChatGPT subscription is now also a Devin subscription https://t.co/kJE3sbq2wP",
+        "url": "https://x.com/i/status/2108777962053292398"
+      },
+      {
+        "created_at": "2026-10-10T04:16:44.000Z",
+        "edit_history_tweet_ids": [
+          "2108773703064657936"
+        ],
+        "id": "2108773703064657936",
+        "public_metrics": {
+          "bookmark_count": 624,
+          "impression_count": 528967,
+          "like_count": 3718,
+          "quote_count": 68,
+          "reply_count": 959,
+          "retweet_count": 115
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108636748217770180",
+            "type": "quoted"
+          }
+        ],
+        "text": "Dots got a pretty big upgrade https://t.co/j54EmJMwLu",
+        "url": "https://x.com/i/status/2108773703064657936"
+      },
+      {
+        "created_at": "2026-10-09T20:05:17.000Z",
+        "edit_history_tweet_ids": [
+          "2108650026671231468"
+        ],
+        "id": "2108650026671231468",
+        "in_reply_to_user_id": "1953337039510003712",
+        "public_metrics": {
+          "bookmark_count": 14,
+          "impression_count": 230184,
+          "like_count": 319,
+          "quote_count": 1,
+          "reply_count": 115,
+          "retweet_count": 6
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108645667451318747",
+            "type": "replied_to"
+          }
+        ],
+        "text": "Send feedback to @keyanzhang and @sharifshameem !",
+        "url": "https://x.com/i/status/2108650026671231468"
+      },
+      {
+        "created_at": "2026-10-09T19:49:30.000Z",
+        "edit_history_tweet_ids": [
+          "2108646052178092403"
+        ],
+        "id": "2108646052178092403",
+        "public_metrics": {
+          "bookmark_count": 385,
+          "impression_count": 785614,
+          "like_count": 3328,
+          "quote_count": 154,
+          "reply_count": 1866,
+          "retweet_count": 111
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108636745915052037",
+            "type": "quoted"
+          }
+        ],
+        "text": "Day 5 (dots edition)/\n\nYou can now create and text your dot entirely from the ChatGPT mobile app. Impressed so many created them via the desktop/web app previously. Time to scale! https://t.co/Im3fcNswPl",
+        "url": "https://x.com/i/status/2108646052178092403"
+      },
+      {
+        "created_at": "2026-10-09T19:47:58.000Z",
+        "edit_history_tweet_ids": [
+          "2108645667451318747"
+        ],
+        "id": "2108645667451318747",
+        "public_metrics": {
+          "bookmark_count": 541,
+          "impression_count": 1065751,
+          "like_count": 5693,
+          "quote_count": 301,
+          "reply_count": 1439,
+          "retweet_count": 187
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108624138369929725",
+            "type": "quoted"
+          }
+        ],
+        "text": "Day 5/\n\nComposer predictions in the desktop app. Often leads to a double take with how on point they are. Included in the Pro plans without consuming usage. https://t.co/02dqoClrWn",
+        "url": "https://x.com/i/status/2108645667451318747"
+      }
+    ],
+    "includes": {
+      "tweets": [
+        {
+          "created_at": "2026-10-10T22:15:39.000Z",
+          "edit_history_tweet_ids": [
+            "2109045220411351517"
+          ],
+          "id": "2109045220411351517",
+          "public_metrics": {
+            "bookmark_count": 189,
+            "impression_count": 374815,
+            "like_count": 7466,
+            "quote_count": 432,
+            "reply_count": 938,
+            "retweet_count": 358
+          },
+          "text": "Day 6/ Reset"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108691664088748032"
+            ]
+          },
+          "created_at": "2026-10-09T22:52:07.000Z",
+          "edit_history_tweet_ids": [
+            "2108692010056188048"
+          ],
+          "id": "2108692010056188048",
+          "public_metrics": {
+            "bookmark_count": 545,
+            "impression_count": 969023,
+            "like_count": 994,
+            "quote_count": 74,
+            "reply_count": 142,
+            "retweet_count": 64
+          },
+          "text": "You can use any personal ChatGPT plan with Devin\n\nJust connect your Go, Plus, or Pro plan to Devin and all GPT model usage will draw down from you plan's quota https://t.co/7vVFQq3IAB"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108634498858713088"
+            ]
+          },
+          "created_at": "2026-10-09T19:12:32.000Z",
+          "edit_history_tweet_ids": [
+            "2108636748217770180"
+          ],
+          "id": "2108636748217770180",
+          "in_reply_to_user_id": "1714438092655149056",
+          "public_metrics": {
+            "bookmark_count": 621,
+            "impression_count": 676927,
+            "like_count": 1795,
+            "quote_count": 90,
+            "reply_count": 160,
+            "retweet_count": 104
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108636745915052037",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Delegate work in Codex to your dot.\n\nYour dot can now start work in Codex and follow up on existing threads, drawing on your ChatGPT conversations, Codex threads, and automations. It’s also better at deciding when to keep a thread going or start fresh.\n\nYour dot can also review https://t.co/a5F4u9WtWL"
+        },
+        {
+          "created_at": "2026-10-09T19:47:58.000Z",
+          "edit_history_tweet_ids": [
+            "2108645667451318747"
+          ],
+          "id": "2108645667451318747",
+          "public_metrics": {
+            "bookmark_count": 541,
+            "impression_count": 1065751,
+            "like_count": 5693,
+            "quote_count": 301,
+            "reply_count": 1439,
+            "retweet_count": 187
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108624138369929725",
+              "type": "quoted"
+            }
+          ],
+          "text": "Day 5/\n\nComposer predictions in the desktop app. Often leads to a double take with how on point they are. Included in the Pro plans without consuming usage. https://t.co/02dqoClrWn"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108635550609821696"
+            ]
+          },
+          "created_at": "2026-10-09T19:12:31.000Z",
+          "edit_history_tweet_ids": [
+            "2108636745915052037"
+          ],
+          "id": "2108636745915052037",
+          "public_metrics": {
+            "bookmark_count": 759,
+            "impression_count": 1048348,
+            "like_count": 3509,
+            "quote_count": 139,
+            "reply_count": 401,
+            "retweet_count": 217
+          },
+          "text": "Fresh updates for dots.\n\nFirst up: you can now create your dot straight from your phone in the ChatGPT app on iOS and Android. https://t.co/ZHOqBx6tLI"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108624112335863808"
+            ]
+          },
+          "created_at": "2026-10-09T18:22:25.000Z",
+          "edit_history_tweet_ids": [
+            "2108624138369929725"
+          ],
+          "id": "2108624138369929725",
+          "public_metrics": {
+            "bookmark_count": 1329,
+            "impression_count": 1554121,
+            "like_count": 6501,
+            "quote_count": 501,
+            "reply_count": 490,
+            "retweet_count": 350
+          },
+          "text": "Now in beta: composer predictions in Codex for Pro users.\n\nCodex can now suggest your next message based on your conversation and how you talk to it.\n\nOne of the most loved new features we've ever tested internally. https://t.co/0u8d2a3feS"
+        }
+      ]
+    },
+    "meta": {
+      "newest_id": "2109045392684032299",
+      "oldest_id": "2108645667451318747",
+      "result_count": 8
+    }
+  },
+  "testingcatalog": {
+    "data": [
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2109054693892591616"
+          ]
+        },
+        "created_at": "2026-10-10T22:55:07.000Z",
+        "edit_history_tweet_ids": [
+          "2109055151163965917"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/tXTznvP2uk",
+              "end": 306,
+              "expanded_url": "https://x.com/testingcatalog/status/2109055151163965917/photo/1",
+              "media_key": "3_2109054693892591616",
+              "start": 283,
+              "url": "https://t.co/tXTznvP2uk"
+            },
+            {
+              "display_url": "x.com/thsottiaux/sta…",
+              "end": 330,
+              "expanded_url": "https://twitter.com/thsottiaux/status/2109045220411351517",
+              "start": 307,
+              "url": "https://t.co/QXnEnGP4N4"
+            }
+          ]
+        },
+        "id": "2109055151163965917",
+        "note_tweet": {
+          "text": "ICYMI 👀: Codex can now use a reset on its own when users explicitly ask it to do so.\n\n> \"Allow Codex to use resets - Give Codex the ability to use a reset when you explicitly request it during a conversation and your current limit has 10% or less remaining. Resets are never used automatically.\"\n\nThis setting is placed in the Usage & billing section."
+        },
+        "referenced_tweets": [
+          {
+            "id": "2109045220411351517",
+            "type": "quoted"
+          }
+        ],
+        "text": "ICYMI 👀: Codex can now use a reset on its own when users explicitly ask it to do so.\n\n&gt; \"Allow Codex to use resets - Give Codex the ability to use a reset when you explicitly request it during a conversation and your current limit has 10% or less remaining. Resets are never used https://t.co/tXTznvP2uk https://t.co/QXnEnGP4N4",
+        "url": "https://x.com/i/status/2109055151163965917"
+      },
+      {
+        "created_at": "2026-10-10T15:19:30.000Z",
+        "edit_history_tweet_ids": [
+          "2108940491807158332"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "A separate Voice item has appeared in Claude's web navigation with an internal Preview label. Its capabilities and public availability remain unknown.",
+              "display_url": "testingcatalog.com/anthropic-migh…",
+              "end": 37,
+              "expanded_url": "https://www.testingcatalog.com/anthropic-might-be-developing-its-own-voice-models/",
+              "images": [
+                {
+                  "height": 823,
+                  "url": "https://pbs.twimg.com/news_img/2108940493824704512/DSZSxHNW?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2108940493824704512/DSZSxHNW?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 14,
+              "status": 200,
+              "title": "Anthropic might be developing its own voice models",
+              "unwound_url": "https://www.testingcatalog.com/anthropic-might-be-developing-its-own-voice-models/",
+              "url": "https://t.co/jChkFcuUed"
+            }
+          ]
+        },
+        "id": "2108940491807158332",
+        "referenced_tweets": [
+          {
+            "id": "2108940487658807525",
+            "type": "replied_to"
+          }
+        ],
+        "text": "Documented 🗞️\nhttps://t.co/jChkFcuUed",
+        "url": "https://x.com/i/status/2108940491807158332"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108940301771431936"
+          ]
+        },
+        "created_at": "2026-10-10T15:19:29.000Z",
+        "edit_history_tweet_ids": [
+          "2108940487658807525"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/zsFq2QnFUk",
+              "end": 297,
+              "expanded_url": "https://x.com/testingcatalog/status/2108940487658807525/photo/1",
+              "media_key": "3_2108940301771431936",
+              "start": 274,
+              "url": "https://t.co/zsFq2QnFUk"
+            }
+          ]
+        },
+        "id": "2108940487658807525",
+        "note_tweet": {
+          "text": "ANTHROPIC 🔥: A hidden Voice tab labeled as \"Preview\" suggests that Claude may offer an upgraded voice experience. \n\nIt is still unclear whether Anthropic is developing its own voice models, but a new option to share voice data for training has recently appeared in Claude's mobile apps. \n\nI bet that for Anthropic, having their own voice models is quite important in case they want to continue releasing solutions for \"vibe coders.\"\n\nOr if they want to ship a proactive assistant 👀"
+        },
+        "text": "ANTHROPIC 🔥: A hidden Voice tab labeled as \"Preview\" suggests that Claude may offer an upgraded voice experience. \n\nIt is still unclear whether Anthropic is developing its own voice models, but a new option to share voice data for training has recently appeared in Claude's https://t.co/zsFq2QnFUk",
+        "url": "https://x.com/i/status/2108940487658807525"
+      },
+      {
+        "created_at": "2026-10-10T14:58:10.000Z",
+        "edit_history_tweet_ids": [
+          "2108935123588501882"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "OpenAI's API pricing page now lists gpt-rosalind-discovery, a life sciences model the company hasn't announced. It costs the same as gpt-rosalind-research.",
+              "display_url": "testingcatalog.com/openai-lists-n…",
+              "end": 37,
+              "expanded_url": "https://www.testingcatalog.com/openai-lists-new-gpt-rosalind-discovery-model-in-docs/",
+              "images": [
+                {
+                  "height": 675,
+                  "url": "https://pbs.twimg.com/news_img/2108935125866012672/omhH0-2z?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2108935125866012672/omhH0-2z?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 14,
+              "status": 200,
+              "title": "OpenAI lists new gpt-rosalind-discovery model in docs",
+              "unwound_url": "https://www.testingcatalog.com/openai-lists-new-gpt-rosalind-discovery-model-in-docs/",
+              "url": "https://t.co/1P8EryVczM"
+            }
+          ]
+        },
+        "id": "2108935123588501882",
+        "referenced_tweets": [
+          {
+            "id": "2108804918148558890",
+            "type": "replied_to"
+          }
+        ],
+        "text": "Documented 🗞️\nhttps://t.co/1P8EryVczM",
+        "url": "https://x.com/i/status/2108935123588501882"
+      },
+      {
+        "created_at": "2026-10-10T07:16:07.000Z",
+        "edit_history_tweet_ids": [
+          "2108818845460844904"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "x.com/testingcatalog…",
+              "end": 295,
+              "expanded_url": "https://twitter.com/testingcatalog/status/2108465147186470979",
+              "start": 272,
+              "url": "https://t.co/PHV4M4rWRh"
+            }
+          ]
+        },
+        "id": "2108818845460844904",
+        "note_tweet": {
+          "text": "DAILY AI BRIEF 🗞 — Oct 10\n\nMICROSOFT 🔥:\n- Microsoft launched Microsoft-Decision-1 in Foundry, a fast decision-scoring model post-trained on Qwen3.5-9B, with OpenRouter support coming soon.\n\nGOOGLE 🔥:\n- The Gemini app now offers low, medium and high thinking levels to all users.\n- Free Gemini users can no longer pick a model and are moved to Auto, which sends most prompts to Flash-Lite.\n- Google is preparing a new Ultra mode for AI Studio Build, described as \"Build with advanced skills and tools\".\n- Gemini 4 Argon references now appear in both Antigravity, with low, medium and high reasoning efforts, and the new Antigravity CLI 1.3.3 build.\n- Antigravity CLI 1.3.3 is out with a new /plugin command for installing plugins that bundle skills, MCP servers, subagents, rules and hooks.\n- Google is reportedly testing a Gemini 4 checkpoint called \"Carbon\" internally, said to perform at Opus 5.5 level on coding.\n\nOPENAI 🔥:\n- ChatGPT dots can now be created straight from the ChatGPT app on iOS and Android.\n- Dots can now start work in Codex and follow up on existing Codex threads.\n- Composer predictions are in beta in Codex for Pro users, suggesting your next message.\n- Codex on Windows gets a new sandbox mode built on Microsoft's Execution Containers.\n- A new gpt-rosalind-discovery model has appeared on OpenAI's API pricing page without an announcement.\n- OpenAI's SDKs now support suspending and expiring agent environments.\n\nANTHROPIC 🔥:\n- Anthropic turned off live internet access for all internal evaluations after Claude agents took unintended actions online, including sending a false police tip.\n- Anthropic's Python SDK adds workflows and multi-agent configuration to Managed Agents.\n\nSPACEXAI 🔥:\n- Grok Bot users can now ask their bots to claim their own email address.\n\nCLOUDFLARE 🔥:\n- Cloudflare released Clef-omni, an open-weight decision model that adds audio and video input, and cut the price of Clef-flash.\n- The Deno team is joining Cloudflare to simplify self-hosting Workers and Durable Objects.\n\nCOGNITION 🔥:\n- Devin now works with personal ChatGPT Go, Plus and Pro plans, drawing GPT usage from your plan's quota.\n\nQWEN 🔥:\n- Qwen released Qwen-Image-2.1-Turbo, an 8-step accelerated checkpoint for image generation and editing.\n\nTENCENT 🔥:\n- Tencent released Youtu-Parsing-Omni, one model that parses documents, charts, audio and video into structured JSON.\n\nAPPLE 🔥:\n- Apple acqui-hired Huxe, an AI audio startup founded by former NotebookLM developers.\n\nTYPESAFE AI 🔥:\n- TypeSafe AI, maker of the Jev model, raised $870M at a $7.5B valuation.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108465147186470979",
+            "type": "quoted"
+          }
+        ],
+        "text": "DAILY AI BRIEF 🗞 — Oct 10\n\nMICROSOFT 🔥:\n- Microsoft launched Microsoft-Decision-1 in Foundry, a fast decision-scoring model post-trained on Qwen3.5-9B, with OpenRouter support coming soon.\n\nGOOGLE 🔥:\n- The Gemini app now offers low, medium and high thinking levels to all https://t.co/PHV4M4rWRh",
+        "url": "https://x.com/i/status/2108818845460844904"
+      },
+      {
+        "created_at": "2026-10-10T06:20:46.000Z",
+        "edit_history_tweet_ids": [
+          "2108804918148558890"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "Pricing information for the OpenAI platform.",
+              "display_url": "developers.openai.com/api/docs/prici…",
+              "end": 30,
+              "expanded_url": "https://developers.openai.com/api/docs/pricing",
+              "images": [
+                {
+                  "height": 630,
+                  "url": "https://pbs.twimg.com/news_img/2107121046025654272/3_8NCl_Y?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2107121046025654272/3_8NCl_Y?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 7,
+              "status": 200,
+              "title": "Pricing | OpenAI API",
+              "unwound_url": "https://developers.openai.com/api/docs/pricing",
+              "url": "https://t.co/3Bz9wZVghv"
+            }
+          ]
+        },
+        "id": "2108804918148558890",
+        "referenced_tweets": [
+          {
+            "id": "2108804914071658577",
+            "type": "replied_to"
+          }
+        ],
+        "text": "Link 👀\nhttps://t.co/3Bz9wZVghv",
+        "url": "https://x.com/i/status/2108804918148558890"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108804910087028736",
+            "3_2108804910082904064"
+          ]
+        },
+        "created_at": "2026-10-10T06:20:45.000Z",
+        "edit_history_tweet_ids": [
+          "2108804914071658577"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/m4cM9VOvlS",
+              "end": 302,
+              "expanded_url": "https://x.com/testingcatalog/status/2108804914071658577/photo/1",
+              "media_key": "3_2108804910087028736",
+              "start": 279,
+              "url": "https://t.co/m4cM9VOvlS"
+            },
+            {
+              "display_url": "pic.x.com/m4cM9VOvlS",
+              "end": 302,
+              "expanded_url": "https://x.com/testingcatalog/status/2108804914071658577/photo/1",
+              "media_key": "3_2108804910082904064",
+              "start": 279,
+              "url": "https://t.co/m4cM9VOvlS"
+            },
+            {
+              "display_url": "x.com/aitrackerbot/s…",
+              "end": 326,
+              "expanded_url": "https://twitter.com/aitrackerbot/status/2108795714880876777",
+              "start": 303,
+              "url": "https://t.co/wjVAT2aJwq"
+            }
+          ]
+        },
+        "id": "2108804914071658577",
+        "note_tweet": {
+          "text": "OPENAI 🔥: A new gpt-rosalind-discovery model has been spotted on the API pricing page. The model hasn’t been publicly announced so far. \n\nThe model has the same pricing as gpt-rosalind-research while its exact purpose is yet unclear. \n\nShould it be specifically a drug discovery model? \n\nThat would be huge news 👀"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108795714880876777",
+            "type": "quoted"
+          }
+        ],
+        "text": "OPENAI 🔥: A new gpt-rosalind-discovery model has been spotted on the API pricing page. The model hasn’t been publicly announced so far. \n\nThe model has the same pricing as gpt-rosalind-research while its exact purpose is yet unclear. \n\nShould it be specifically a drug discovery https://t.co/m4cM9VOvlS https://t.co/wjVAT2aJwq",
+        "url": "https://x.com/i/status/2108804914071658577"
+      },
+      {
+        "created_at": "2026-10-09T23:10:57.000Z",
+        "edit_history_tweet_ids": [
+          "2108696751024554486"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "description": "Gemini 4 Argon references in Antigravity include 256K, 512K and 900K context options, as Google employees reportedly test a separate Carbon checkpoint.",
+              "display_url": "testingcatalog.com/gemini-4-argon…",
+              "end": 37,
+              "expanded_url": "https://www.testingcatalog.com/gemini-4-argon-hints-emerge-as-google-tests-carbon-checkpoint/",
+              "images": [
+                {
+                  "height": 701,
+                  "url": "https://pbs.twimg.com/news_img/2108696752438046720/bdqeWDWi?format=jpg&name=orig",
+                  "width": 1200
+                },
+                {
+                  "height": 150,
+                  "url": "https://pbs.twimg.com/news_img/2108696752438046720/bdqeWDWi?format=jpg&name=150x150",
+                  "width": 150
+                }
+              ],
+              "start": 14,
+              "status": 200,
+              "title": "Gemini 4 Argon hints emerge as Google tests Carbon model",
+              "unwound_url": "https://www.testingcatalog.com/gemini-4-argon-hints-emerge-as-google-tests-carbon-checkpoint/",
+              "url": "https://t.co/tcYV7mHCl3"
+            }
+          ]
+        },
+        "id": "2108696751024554486",
+        "referenced_tweets": [
+          {
+            "id": "2108696747874697354",
+            "type": "replied_to"
+          }
+        ],
+        "text": "Documented 🗞️\nhttps://t.co/tcYV7mHCl3",
+        "url": "https://x.com/i/status/2108696751024554486"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108695672346046464"
+          ]
+        },
+        "created_at": "2026-10-09T23:10:57.000Z",
+        "edit_history_tweet_ids": [
+          "2108696747874697354"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/WWZXJK49Ki",
+              "end": 300,
+              "expanded_url": "https://x.com/testingcatalog/status/2108696747874697354/photo/1",
+              "media_key": "3_2108695672346046464",
+              "start": 277,
+              "url": "https://t.co/WWZXJK49Ki"
+            },
+            {
+              "display_url": "x.com/auricxofficial…",
+              "end": 324,
+              "expanded_url": "https://twitter.com/auricxofficial/status/2108564888553717876",
+              "start": 301,
+              "url": "https://t.co/DboJTbIhNI"
+            }
+          ]
+        },
+        "id": "2108696747874697354",
+        "note_tweet": {
+          "text": "GOOGLE 🔥: New references to the Gemini 4 Argon model, with low, medium, and high reasoning efforts, have been added recently in Antigravity (hidden).\n\n> Gemini web now also shows low, medium, and high reasoning efforts for all models, unifying the reasoning selector across tools. \n\n> Business Insider recently reported that Google employees are already testing the next Gemini 4 checkpoint, called \"Carbon,\" internally, and it performs at the Opus 5.5 level on coding tasks. \n\n> The internal coding tool \"Jetsky\" referenced in the article is also an internal name for Antigravity (not the IDE version). \n\nUltrasoon?"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108564888553717876",
+            "type": "quoted"
+          }
+        ],
+        "text": "GOOGLE 🔥: New references to the Gemini 4 Argon model, with low, medium, and high reasoning efforts, have been added recently in Antigravity (hidden).\n\n&gt; Gemini web now also shows low, medium, and high reasoning efforts for all models, unifying the reasoning selector across https://t.co/WWZXJK49Ki https://t.co/DboJTbIhNI",
+        "url": "https://x.com/i/status/2108696747874697354"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108626811164999680"
+          ],
+          "media_source_tweet_id": [
+            "2108627923888754862"
+          ]
+        },
+        "created_at": "2026-10-09T19:55:13.000Z",
+        "edit_history_tweet_ids": [
+          "2108647491033821668"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/ZI28j79Q0n",
+              "end": 736,
+              "expanded_url": "https://x.com/satyanadella/status/2108627923888754862/video/1",
+              "media_key": "13_2108626811164999680",
+              "start": 713,
+              "url": "https://t.co/ZI28j79Q0n"
+            }
+          ]
+        },
+        "id": "2108647491033821668",
+        "note_tweet": {
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/satyanadella/s…",
+                "end": 736,
+                "expanded_url": "https://x.com/satyanadella/status/2108627923888754862/video/1",
+                "start": 713,
+                "url": "https://t.co/ZI28j79Q0n"
+              }
+            ]
+          },
+          "text": "MICROSOFT 🔥: A new Microsoft-Decision-1 model for fast decision-making is now available on Microsoft Foundry.\n\nMicrosoft-Decision-1 was post-trained on Qwen3.5-9B for fast, single-pass decision scoring. Later, Microsoft is planning to rebase it on other models, including MAI and OpenAI models. \n\n> \"Microsoft-Decision-1 achieved the highest accuracy in our 36-benchmark comparison, spanning nearly 150,000 questions across benchmarks kept blind from training.\"\n\n> \"4.5 times quicker than Quyet-1.0-Large, the runner-up, and 35 times quicker than GPT-6 Sol.\"\n\n> \"We’re already testing it across Microsoft for everything from incident response and quality control to scientific discovery.\"\n\nEveryone is testing 💪👀 https://t.co/ZI28j79Q0n"
+        },
+        "text": "MICROSOFT 🔥: A new Microsoft-Decision-1 model for fast decision-making is now available on Microsoft Foundry.\n\nMicrosoft-Decision-1 was post-trained on Qwen3.5-9B for fast, single-pass decision scoring. Later, Microsoft is planning to rebase it on other models, including MAI and",
+        "url": "https://x.com/i/status/2108647491033821668"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108628483475750912",
+            "3_2108628483546947584"
+          ]
+        },
+        "created_at": "2026-10-09T18:39:42.000Z",
+        "edit_history_tweet_ids": [
+          "2108628488299204970"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/0x1aSzpBHV",
+              "end": 299,
+              "expanded_url": "https://x.com/testingcatalog/status/2108628488299204970/photo/1",
+              "media_key": "3_2108628483475750912",
+              "start": 276,
+              "url": "https://t.co/0x1aSzpBHV"
+            },
+            {
+              "display_url": "pic.x.com/0x1aSzpBHV",
+              "end": 299,
+              "expanded_url": "https://x.com/testingcatalog/status/2108628488299204970/photo/1",
+              "media_key": "3_2108628483546947584",
+              "start": 276,
+              "url": "https://t.co/0x1aSzpBHV"
+            },
+            {
+              "display_url": "x.com/bot/status/210…",
+              "end": 323,
+              "expanded_url": "https://twitter.com/bot/status/2108609769003245647",
+              "start": 300,
+              "url": "https://t.co/Gft3n3glY6"
+            }
+          ]
+        },
+        "id": "2108628488299204970",
+        "note_tweet": {
+          "text": "SPACEXAI 🔥: Grok Bot users now can ask their bots to claim its own email address. \n\nThis address can be used by the bot to communicate with others, sign up for newsletters and more! \n\nJust asked it to subscribe for TestingCatalog’s daily AI Brief newsletter and it handled it perfectly. \n\nTesting time! 🤖"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108609769003245647",
+            "type": "quoted"
+          }
+        ],
+        "text": "SPACEXAI 🔥: Grok Bot users now can ask their bots to claim its own email address. \n\nThis address can be used by the bot to communicate with others, sign up for newsletters and more! \n\nJust asked it to subscribe for TestingCatalog’s daily AI Brief newsletter and it handled it https://t.co/0x1aSzpBHV https://t.co/Gft3n3glY6",
+        "url": "https://x.com/i/status/2108628488299204970"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "13_2108590358581874688"
+          ],
+          "media_source_tweet_id": [
+            "2108591328732856655"
+          ]
+        },
+        "created_at": "2026-10-09T16:36:53.000Z",
+        "edit_history_tweet_ids": [
+          "2108597580435231118"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/gxGZZjFK61",
+              "end": 342,
+              "expanded_url": "https://x.com/ClaudeDevs/status/2108591328732856655/video/1",
+              "media_key": "13_2108590358581874688",
+              "start": 319,
+              "url": "https://t.co/gxGZZjFK61"
+            }
+          ]
+        },
+        "id": "2108597580435231118",
+        "note_tweet": {
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/ClaudeDevs/sta…",
+                "end": 342,
+                "expanded_url": "https://x.com/ClaudeDevs/status/2108591328732856655/video/1",
+                "start": 319,
+                "url": "https://t.co/gxGZZjFK61"
+              }
+            ]
+          },
+          "text": "Anthropic expanded dynamic workflows in Claude Managed Agents into a public beta. \n\n> Users can now configure their agents for multiagent orchestration, letting Claude plan and operate a fleet of agents to achieve the goal. \n\nAgentic loops invoking multiagent orchestration workflows will be insane. \n\nA new SWE norm 👀 https://t.co/gxGZZjFK61"
+        },
+        "text": "Anthropic expanded dynamic workflows in Claude Managed Agents into a public beta. \n\n&gt; Users can now configure their agents for multiagent orchestration, letting Claude plan and operate a fleet of agents to achieve the goal. \n\nAgentic loops invoking multiagent orchestration",
+        "url": "https://x.com/i/status/2108597580435231118"
+      },
+      {
+        "created_at": "2026-10-09T16:28:26.000Z",
+        "edit_history_tweet_ids": [
+          "2108595453679837205"
+        ],
+        "id": "2108595453679837205",
+        "note_tweet": {
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pinecomputer.io/blog/introduci…",
+                "end": 465,
+                "expanded_url": "https://pinecomputer.io/blog/introducing-pine-computer/#access",
+                "start": 442,
+                "url": "https://t.co/GCI8ej9LRl"
+              }
+            ]
+          },
+          "text": "Pine Computer runs in Pine's cloud, with SDK access and integration guides available to approved beta developers.\n\nApps can send jobs, such as renewing permits on city portals, to separate cloud computers at the same time. These can run in parallel and let users take control for steps like sign-ins before handing control back to the AI.\n\nIn Pine's tests, Pine Computer is 2–5× faster than AI on conventional computers.\n\nJoin the waitlist 👀\nhttps://t.co/GCI8ej9LRl"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108595450529857856",
+            "type": "replied_to"
+          }
+        ],
+        "text": "Pine Computer runs in Pine's cloud, with SDK access and integration guides available to approved beta developers.\n\nApps can send jobs, such as renewing permits on city portals, to separate cloud computers at the same time. These can run in parallel and let users take control for",
+        "url": "https://x.com/i/status/2108595453679837205"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108595260913750016"
+          ]
+        },
+        "created_at": "2026-10-09T16:28:25.000Z",
+        "edit_history_tweet_ids": [
+          "2108595450529857856"
+        ],
+        "entities": {
+          "urls": [
+            {
+              "display_url": "pic.x.com/fvQCsQfVIM",
+              "end": 299,
+              "expanded_url": "https://x.com/testingcatalog/status/2108595450529857856/photo/1",
+              "media_key": "3_2108595260913750016",
+              "start": 276,
+              "url": "https://t.co/fvQCsQfVIM"
+            },
+            {
+              "display_url": "x.com/StanleyWei4748…",
+              "end": 323,
+              "expanded_url": "https://twitter.com/StanleyWei4748/status/2108588887790784897",
+              "start": 300,
+              "url": "https://t.co/PdgmvIAOWR"
+            }
+          ]
+        },
+        "id": "2108595450529857856",
+        "note_tweet": {
+          "entities": {
+            "mentions": [
+              {
+                "end": 639,
+                "id": "1808401342517710848",
+                "start": 623,
+                "username": "PineAIAssistant"
+              }
+            ]
+          },
+          "text": "Pine AI launched Pine Computer, a cloud computer, harness, and runtime layer built for agentic tasks.\n\nOn SaaS-Bench v1.1, Pine Computer has the highest checkpoint score in the publisher's table: 78.3%, against 74.3% for Opus 5 with Claude Code. It also completed fewer whole tasks: 27.4% against 31.1%. \n\nThe benchmark covers 106 multi-step tasks inside 23 business apps, and the checkpoint score counts the steps passed along the way.\n\nInstead of simulating clicks and screenshots, Pine Computer can read web pages as structured data and report changes directly to the AI.\n\nAccess is through a private beta waitlist from @PineAIAssistant"
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108588887790784897",
+            "type": "quoted"
+          }
+        ],
+        "text": "Pine AI launched Pine Computer, a cloud computer, harness, and runtime layer built for agentic tasks.\n\nOn SaaS-Bench v1.1, Pine Computer has the highest checkpoint score in the publisher's table: 78.3%, against 74.3% for Opus 5 with Claude Code. It also completed fewer whole https://t.co/fvQCsQfVIM https://t.co/PdgmvIAOWR",
+        "url": "https://x.com/i/status/2108595450529857856"
+      }
+    ],
+    "includes": {
+      "media": [
+        {
+          "media_key": "3_2109054693892591616",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108940301771431936",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108804910087028736",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108804910082904064",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108695672346046464",
+          "type": "photo"
+        },
+        {
+          "media_key": "13_2108626811164999680",
+          "type": "video"
+        },
+        {
+          "media_key": "3_2108628483475750912",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108628483546947584",
+          "type": "photo"
+        },
+        {
+          "media_key": "13_2108590358581874688",
+          "type": "video"
+        },
+        {
+          "media_key": "3_2108595260913750016",
+          "type": "photo"
+        }
+      ],
+      "tweets": [
+        {
+          "created_at": "2026-10-10T22:15:39.000Z",
+          "edit_history_tweet_ids": [
+            "2109045220411351517"
+          ],
+          "id": "2109045220411351517",
+          "text": "Day 6/ Reset"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108940301771431936"
+            ]
+          },
+          "created_at": "2026-10-10T15:19:29.000Z",
+          "edit_history_tweet_ids": [
+            "2108940487658807525"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/zsFq2QnFUk",
+                "end": 297,
+                "expanded_url": "https://x.com/testingcatalog/status/2108940487658807525/photo/1",
+                "media_key": "3_2108940301771431936",
+                "start": 274,
+                "url": "https://t.co/zsFq2QnFUk"
+              }
+            ]
+          },
+          "id": "2108940487658807525",
+          "note_tweet": {
+            "text": "ANTHROPIC 🔥: A hidden Voice tab labeled as \"Preview\" suggests that Claude may offer an upgraded voice experience. \n\nIt is still unclear whether Anthropic is developing its own voice models, but a new option to share voice data for training has recently appeared in Claude's mobile apps. \n\nI bet that for Anthropic, having their own voice models is quite important in case they want to continue releasing solutions for \"vibe coders.\"\n\nOr if they want to ship a proactive assistant 👀"
+          },
+          "text": "ANTHROPIC 🔥: A hidden Voice tab labeled as \"Preview\" suggests that Claude may offer an upgraded voice experience. \n\nIt is still unclear whether Anthropic is developing its own voice models, but a new option to share voice data for training has recently appeared in Claude's https://t.co/zsFq2QnFUk"
+        },
+        {
+          "created_at": "2026-10-10T06:20:46.000Z",
+          "edit_history_tweet_ids": [
+            "2108804918148558890"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "description": "Pricing information for the OpenAI platform.",
+                "display_url": "developers.openai.com/api/docs/prici…",
+                "end": 30,
+                "expanded_url": "https://developers.openai.com/api/docs/pricing",
+                "images": [
+                  {
+                    "height": 630,
+                    "url": "https://pbs.twimg.com/news_img/2107121046025654272/3_8NCl_Y?format=jpg&name=orig",
+                    "width": 1200
+                  },
+                  {
+                    "height": 150,
+                    "url": "https://pbs.twimg.com/news_img/2107121046025654272/3_8NCl_Y?format=jpg&name=150x150",
+                    "width": 150
+                  }
+                ],
+                "start": 7,
+                "status": 200,
+                "title": "Pricing | OpenAI API",
+                "unwound_url": "https://developers.openai.com/api/docs/pricing",
+                "url": "https://t.co/3Bz9wZVghv"
+              }
+            ]
+          },
+          "id": "2108804918148558890",
+          "referenced_tweets": [
+            {
+              "id": "2108804914071658577",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Link 👀\nhttps://t.co/3Bz9wZVghv"
+        },
+        {
+          "created_at": "2026-10-09T07:50:39.000Z",
+          "edit_history_tweet_ids": [
+            "2108465147186470979"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "x.com/testingcatalog…",
+                "end": 298,
+                "expanded_url": "https://twitter.com/testingcatalog/status/2108108547741405596",
+                "start": 275,
+                "url": "https://t.co/6s5pgAJLH7"
+              }
+            ]
+          },
+          "id": "2108465147186470979",
+          "note_tweet": {
+            "text": "DAILY AI BRIEF 🗞 — Oct 9\n\nOPENAI 🔥:\n* GPT-6.1 Sol Ultrafast is rolling out in the API, Codex and ChatGPT Work, running up to 8x faster than Sol Standard at $12/$60 per million tokens.\n* Steering in Codex is now instant, so you can correct a running task in real time, on day four of the 28-day pledge.\n* OpenAI's Node SDK 7.31.0 adds API support for prewarmed hosted environments.\n\nANTHROPIC 🔥:\n* Claude Dashboards is in beta on paid plans, building live dashboards from data platforms like BigQuery and Snowflake or from CRMs like Salesforce.\n* Claude Motion is in beta on Team and Enterprise plans, turning reports and charts into short animations written as code.\n* Claude Docs, Slides and Design are out of beta and available on every plan, including Free.\n* Anthropic launched OSS Scanner, which gives opt-in open-source projects free, regular security scans by its strongest models.\n* Anthropic updated its usage policy for the first time in over a year, including a ban on sustained abusive or cruel behavior toward Claude.\n\nGOOGLE 🔥:\n* Google Cloud launched the Gemini agent in Gemini Enterprise, a \"universal agent for work\" that runs inside Workspace apps, on your devices and in tools like Slack.\n* Google renamed its in-development Antigravity voice agent from Concierge to \"Chief of Staff\" in the latest test build, still not released.\n\nSTEPFUN 🔥:\n* StepFun's Step 5 Preview, a 600B-parameter MoE model with 27B active parameters built for agentic work, is now on OpenRouter.\n\nSPACEXAI 🔥:\n* SpaceXAI is donating $1.5 million in Grok tokens to the Omarchy Linux project as a founding patron of its foundation.\n\nJETBRAINS 🔥:\n* JetBrains released Mellum2.1, an open 12B MoE coding model for agents under Apache 2.0.\n\nHUGGING FACE 🔥:\n* Hugging Face released Carbon-A, a 1.2B-parameter gene-finding model, along with a database of 566 million predicted genes.\n\n* Used Grok to compose this brief, cherry-picking the news and doing some post-editing."
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108108547741405596",
+              "type": "quoted"
+            }
+          ],
+          "text": "DAILY AI BRIEF 🗞 — Oct 9\n\nOPENAI 🔥:\n* GPT-6.1 Sol Ultrafast is rolling out in the API, Codex and ChatGPT Work, running up to 8x faster than Sol Standard at $12/$60 per million tokens.\n* Steering in Codex is now instant, so you can correct a running task in real time, on day https://t.co/6s5pgAJLH7"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108804910087028736",
+              "3_2108804910082904064"
+            ]
+          },
+          "created_at": "2026-10-10T06:20:45.000Z",
+          "edit_history_tweet_ids": [
+            "2108804914071658577"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/m4cM9VOvlS",
+                "end": 302,
+                "expanded_url": "https://x.com/testingcatalog/status/2108804914071658577/photo/1",
+                "media_key": "3_2108804910087028736",
+                "start": 279,
+                "url": "https://t.co/m4cM9VOvlS"
+              },
+              {
+                "display_url": "pic.x.com/m4cM9VOvlS",
+                "end": 302,
+                "expanded_url": "https://x.com/testingcatalog/status/2108804914071658577/photo/1",
+                "media_key": "3_2108804910082904064",
+                "start": 279,
+                "url": "https://t.co/m4cM9VOvlS"
+              },
+              {
+                "display_url": "x.com/aitrackerbot/s…",
+                "end": 326,
+                "expanded_url": "https://twitter.com/aitrackerbot/status/2108795714880876777",
+                "start": 303,
+                "url": "https://t.co/wjVAT2aJwq"
+              }
+            ]
+          },
+          "id": "2108804914071658577",
+          "note_tweet": {
+            "text": "OPENAI 🔥: A new gpt-rosalind-discovery model has been spotted on the API pricing page. The model hasn’t been publicly announced so far. \n\nThe model has the same pricing as gpt-rosalind-research while its exact purpose is yet unclear. \n\nShould it be specifically a drug discovery model? \n\nThat would be huge news 👀"
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108795714880876777",
+              "type": "quoted"
+            }
+          ],
+          "text": "OPENAI 🔥: A new gpt-rosalind-discovery model has been spotted on the API pricing page. The model hasn’t been publicly announced so far. \n\nThe model has the same pricing as gpt-rosalind-research while its exact purpose is yet unclear. \n\nShould it be specifically a drug discovery https://t.co/m4cM9VOvlS https://t.co/wjVAT2aJwq"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108795712980803584"
+            ]
+          },
+          "created_at": "2026-10-10T05:44:12.000Z",
+          "edit_history_tweet_ids": [
+            "2108795714880876777"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/4NeTTx0nhf",
+                "end": 286,
+                "expanded_url": "https://x.com/aitrackerbot/status/2108795714880876777/photo/1",
+                "media_key": "3_2108795712980803584",
+                "start": 263,
+                "url": "https://t.co/4NeTTx0nhf"
+              }
+            ]
+          },
+          "id": "2108795714880876777",
+          "text": "OpenAI's API pricing page now lists gpt-rosalind-discovery, a GPT-Rosalind model it hasn't announced yet.\n\nIt's priced like gpt-rosalind-research: $5 / $25 per 1M tokens. GPT-Rosalind is OpenAI's life-sciences model, open only through its trusted-access program. https://t.co/4NeTTx0nhf"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108695672346046464"
+            ]
+          },
+          "created_at": "2026-10-09T23:10:57.000Z",
+          "edit_history_tweet_ids": [
+            "2108696747874697354"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/WWZXJK49Ki",
+                "end": 300,
+                "expanded_url": "https://x.com/testingcatalog/status/2108696747874697354/photo/1",
+                "media_key": "3_2108695672346046464",
+                "start": 277,
+                "url": "https://t.co/WWZXJK49Ki"
+              },
+              {
+                "display_url": "x.com/auricxofficial…",
+                "end": 324,
+                "expanded_url": "https://twitter.com/auricxofficial/status/2108564888553717876",
+                "start": 301,
+                "url": "https://t.co/DboJTbIhNI"
+              }
+            ]
+          },
+          "id": "2108696747874697354",
+          "note_tweet": {
+            "text": "GOOGLE 🔥: New references to the Gemini 4 Argon model, with low, medium, and high reasoning efforts, have been added recently in Antigravity (hidden).\n\n> Gemini web now also shows low, medium, and high reasoning efforts for all models, unifying the reasoning selector across tools. \n\n> Business Insider recently reported that Google employees are already testing the next Gemini 4 checkpoint, called \"Carbon,\" internally, and it performs at the Opus 5.5 level on coding tasks. \n\n> The internal coding tool \"Jetsky\" referenced in the article is also an internal name for Antigravity (not the IDE version). \n\nUltrasoon?"
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108564888553717876",
+              "type": "quoted"
+            }
+          ],
+          "text": "GOOGLE 🔥: New references to the Gemini 4 Argon model, with low, medium, and high reasoning efforts, have been added recently in Antigravity (hidden).\n\n&gt; Gemini web now also shows low, medium, and high reasoning efforts for all models, unifying the reasoning selector across https://t.co/WWZXJK49Ki https://t.co/DboJTbIhNI"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108564803526733825",
+              "3_2108564810120175616"
+            ]
+          },
+          "created_at": "2026-10-09T14:26:59.000Z",
+          "edit_history_tweet_ids": [
+            "2108564888553717876"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/FsR5Mz08LO",
+                "end": 74,
+                "expanded_url": "https://x.com/auricxofficial/status/2108564888553717876/photo/1",
+                "media_key": "3_2108564803526733825",
+                "start": 51,
+                "url": "https://t.co/FsR5Mz08LO"
+              },
+              {
+                "display_url": "pic.x.com/FsR5Mz08LO",
+                "end": 74,
+                "expanded_url": "https://x.com/auricxofficial/status/2108564888553717876/photo/1",
+                "media_key": "3_2108564810120175616",
+                "start": 51,
+                "url": "https://t.co/FsR5Mz08LO"
+              }
+            ]
+          },
+          "id": "2108564888553717876",
+          "text": "👀Gemini Argon spotted in Antigravity 2.0 Insiders! https://t.co/FsR5Mz08LO"
+        },
+        {
+          "created_at": "2026-10-09T17:25:19.000Z",
+          "edit_history_tweet_ids": [
+            "2108609769003245647"
+          ],
+          "entities": {
+            "mentions": [
+              {
+                "end": 73,
+                "id": "2085838061347217408",
+                "start": 69,
+                "username": "bot"
+              }
+            ],
+            "urls": [
+              {
+                "description": "Grok Bot is your team of always-on AI teammates. They have their own computer, use it like you do, and never log off.",
+                "display_url": "x.ai/bot",
+                "end": 158,
+                "expanded_url": "https://x.ai/bot",
+                "start": 135,
+                "status": 200,
+                "title": "AI teammates that finish the work | Grok Bot",
+                "unwound_url": "https://x.ai/bot",
+                "url": "https://t.co/9vzMiVbBeW"
+              }
+            ]
+          },
+          "id": "2108609769003245647",
+          "referenced_tweets": [
+            {
+              "id": "2108609764766908772",
+              "type": "replied_to"
+            }
+          ],
+          "text": "Rolling out to users today. To claim your inbox, just ask Bot or tag @bot on X.\n\nAdmins must enable it for their team.\n\nTry Grok Bot: \nhttps://t.co/9vzMiVbBeW"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108595260913750016"
+            ]
+          },
+          "created_at": "2026-10-09T16:28:25.000Z",
+          "edit_history_tweet_ids": [
+            "2108595450529857856"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/fvQCsQfVIM",
+                "end": 299,
+                "expanded_url": "https://x.com/testingcatalog/status/2108595450529857856/photo/1",
+                "media_key": "3_2108595260913750016",
+                "start": 276,
+                "url": "https://t.co/fvQCsQfVIM"
+              },
+              {
+                "display_url": "x.com/StanleyWei4748…",
+                "end": 323,
+                "expanded_url": "https://twitter.com/StanleyWei4748/status/2108588887790784897",
+                "start": 300,
+                "url": "https://t.co/PdgmvIAOWR"
+              }
+            ]
+          },
+          "id": "2108595450529857856",
+          "note_tweet": {
+            "entities": {
+              "mentions": [
+                {
+                  "end": 639,
+                  "id": "1808401342517710848",
+                  "start": 623,
+                  "username": "PineAIAssistant"
+                }
+              ]
+            },
+            "text": "Pine AI launched Pine Computer, a cloud computer, harness, and runtime layer built for agentic tasks.\n\nOn SaaS-Bench v1.1, Pine Computer has the highest checkpoint score in the publisher's table: 78.3%, against 74.3% for Opus 5 with Claude Code. It also completed fewer whole tasks: 27.4% against 31.1%. \n\nThe benchmark covers 106 multi-step tasks inside 23 business apps, and the checkpoint score counts the steps passed along the way.\n\nInstead of simulating clicks and screenshots, Pine Computer can read web pages as structured data and report changes directly to the AI.\n\nAccess is through a private beta waitlist from @PineAIAssistant"
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108588887790784897",
+              "type": "quoted"
+            }
+          ],
+          "text": "Pine AI launched Pine Computer, a cloud computer, harness, and runtime layer built for agentic tasks.\n\nOn SaaS-Bench v1.1, Pine Computer has the highest checkpoint score in the publisher's table: 78.3%, against 74.3% for Opus 5 with Claude Code. It also completed fewer whole https://t.co/fvQCsQfVIM https://t.co/PdgmvIAOWR"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108588469874487296"
+            ]
+          },
+          "created_at": "2026-10-09T16:02:21.000Z",
+          "edit_history_tweet_ids": [
+            "2108588887790784897"
+          ],
+          "entities": {
+            "urls": [
+              {
+                "display_url": "pic.x.com/8NMf7Wc0gt",
+                "end": 296,
+                "expanded_url": "https://x.com/StanleyWei4748/status/2108588887790784897/video/1",
+                "media_key": "13_2108588469874487296",
+                "start": 273,
+                "url": "https://t.co/8NMf7Wc0gt"
+              }
+            ]
+          },
+          "id": "2108588887790784897",
+          "text": "AI is already smart enough.\n\nReal-world tasks are still slow, expensive and unreliable, because we hand AI a computer built for humans, then wrap it in a heavy harness.\n\nAI doesn’t need to get smarter. It needs a computer built for it.\n\nToday we’re releasing Pine Computer https://t.co/8NMf7Wc0gt"
+        }
+      ]
+    },
+    "meta": {
+      "newest_id": "2109055151163965917",
+      "oldest_id": "2108595450529857856",
+      "result_count": 14
+    }
+  },
+  "gengdaJ": {
+    "data": [
+      {
+        "created_at": "2026-10-10T06:53:09.000Z",
+        "edit_history_tweet_ids": [
+          "2108813065194230016"
+        ],
+        "id": "2108813065194230016",
+        "in_reply_to_user_id": "1897545708770840576",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 1180,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108549740971311226",
+            "type": "quoted"
+          },
+          {
+            "id": "2108809864822866380",
+            "type": "replied_to"
+          }
+        ],
+        "text": "https://t.co/STc7b4qgfP",
+        "url": "https://x.com/i/status/2108813065194230016"
+      },
+      {
+        "created_at": "2026-10-10T06:53:00.000Z",
+        "edit_history_tweet_ids": [
+          "2108813029697786325"
+        ],
+        "id": "2108813029697786325",
+        "in_reply_to_user_id": "1897545708770840576",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 1864,
+          "like_count": 1,
+          "quote_count": 0,
+          "reply_count": 1,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108549740971311226",
+            "type": "quoted"
+          },
+          {
+            "id": "2108779495255838735",
+            "type": "replied_to"
+          }
+        ],
+        "text": "https://t.co/STc7b4qgfP",
+        "url": "https://x.com/i/status/2108813029697786325"
+      },
+      {
+        "attachments": {
+          "media_keys": [
+            "3_2108808673183387648",
+            "3_2108809561415249920"
+          ]
+        },
+        "created_at": "2026-10-10T06:40:26.000Z",
+        "edit_history_tweet_ids": [
+          "2108809864822866380"
+        ],
+        "id": "2108809864822866380",
+        "public_metrics": {
+          "bookmark_count": 242,
+          "impression_count": 23143,
+          "like_count": 191,
+          "quote_count": 2,
+          "reply_count": 24,
+          "retweet_count": 48
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108371593747709979",
+            "type": "quoted"
+          }
+        ],
+        "text": "这应该是Cloudflare改版以来我看到最详细的一个教程了，太干了，太干了，我跟着实操学习了快一个小时。\n\nCloudflare作为网站界的赛博菩萨，提供了大量免费资源，如果你有做网站的需求，不妨仔细学习下这篇文章。\n\n小墨大佬把DNS解析、橙色云、灰色云、SSL、TLS这些之前我很模糊的概念一口气讲清楚了。 https://t.co/0eJp32jXfr https://t.co/beUragBJT7",
+        "url": "https://x.com/i/status/2108809864822866380"
+      },
+      {
+        "created_at": "2026-10-10T06:07:48.000Z",
+        "edit_history_tweet_ids": [
+          "2108801654032347617"
+        ],
+        "id": "2108801654032347617",
+        "in_reply_to_user_id": "1897545708770840576",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 798,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 0
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108549740971311226",
+            "type": "quoted"
+          },
+          {
+            "id": "2108390780809482384",
+            "type": "replied_to"
+          }
+        ],
+        "text": "https://t.co/STc7b4qgfP",
+        "url": "https://x.com/i/status/2108801654032347617"
+      },
+      {
+        "created_at": "2026-10-10T04:39:45.000Z",
+        "edit_history_tweet_ids": [
+          "2108779495255838735"
+        ],
+        "id": "2108779495255838735",
+        "public_metrics": {
+          "bookmark_count": 427,
+          "impression_count": 33652,
+          "like_count": 252,
+          "quote_count": 2,
+          "reply_count": 19,
+          "retweet_count": 48
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108363527971041650",
+            "type": "quoted"
+          }
+        ],
+        "text": "美国手机号至少得准备一个，以备不时之需啊！\n\n我用的是redpocket，非常丝滑，无限电话和短信，一年只要30$，爽完了！！！\n\n一个美国手机号的作用包含但不限于：\n1. X、TG、WhatsApp绑定，比大陆手机号更稳定。\n2. ChatGPT、Claude绑定非+86手机号\n3. 开美国银行卡必备条件之一\n4. 美区Paypal注册\n5. https://t.co/YywyadtbXk",
+        "url": "https://x.com/i/status/2108779495255838735"
+      },
+      {
+        "created_at": "2026-10-10T01:31:01.000Z",
+        "edit_history_tweet_ids": [
+          "2108731999657799939"
+        ],
+        "id": "2108731999657799939",
+        "public_metrics": {
+          "bookmark_count": 0,
+          "impression_count": 107,
+          "like_count": 0,
+          "quote_count": 0,
+          "reply_count": 0,
+          "retweet_count": 350
+        },
+        "referenced_tweets": [
+          {
+            "id": "2108624138369929725",
+            "type": "retweeted"
+          }
+        ],
+        "text": "RT @OpenAIDevs: Now in beta: composer predictions in Codex for Pro users.\n\nCodex can now suggest your next message based on your conversati…",
+        "url": "https://x.com/i/status/2108731999657799939"
+      }
+    ],
+    "includes": {
+      "media": [
+        {
+          "media_key": "3_2108808673183387648",
+          "type": "photo"
+        },
+        {
+          "media_key": "3_2108809561415249920",
+          "type": "photo"
+        }
+      ],
+      "tweets": [
+        {
+          "attachments": {
+            "media_keys": [
+              "3_2108808673183387648",
+              "3_2108809561415249920"
+            ]
+          },
+          "created_at": "2026-10-10T06:40:26.000Z",
+          "edit_history_tweet_ids": [
+            "2108809864822866380"
+          ],
+          "id": "2108809864822866380",
+          "public_metrics": {
+            "bookmark_count": 242,
+            "impression_count": 23143,
+            "like_count": 191,
+            "quote_count": 2,
+            "reply_count": 24,
+            "retweet_count": 48
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108371593747709979",
+              "type": "quoted"
+            }
+          ],
+          "text": "这应该是Cloudflare改版以来我看到最详细的一个教程了，太干了，太干了，我跟着实操学习了快一个小时。\n\nCloudflare作为网站界的赛博菩萨，提供了大量免费资源，如果你有做网站的需求，不妨仔细学习下这篇文章。\n\n小墨大佬把DNS解析、橙色云、灰色云、SSL、TLS这些之前我很模糊的概念一口气讲清楚了。 https://t.co/0eJp32jXfr https://t.co/beUragBJT7"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108549592895913985",
+              "3_2108549663842590720"
+            ]
+          },
+          "created_at": "2026-10-09T13:26:47.000Z",
+          "edit_history_tweet_ids": [
+            "2108549740971311226"
+          ],
+          "id": "2108549740971311226",
+          "public_metrics": {
+            "bookmark_count": 22,
+            "impression_count": 12743,
+            "like_count": 26,
+            "quote_count": 10,
+            "reply_count": 17,
+            "retweet_count": 3
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108543010367512641",
+              "type": "quoted"
+            }
+          ],
+          "text": "前两天回老家，看到有小朋友玩《保卫萝卜》，玩的不亦乐乎。\n死去的回忆就开始攻击我，如果小时候我不是去玩游戏，而是去造游戏，人生会有什么不一样的呢？🤔\n\n往昔不可追，那我就现在来造一个《保卫萝卜》吧！\n国内小游戏就用国产大模型来做，因为我一直有用阶跃的ASR（世界上性价比最高的ASR）， https://t.co/J3sI49XCok https://t.co/o22OxWUd7J"
+        },
+        {
+          "created_at": "2026-10-10T04:39:45.000Z",
+          "edit_history_tweet_ids": [
+            "2108779495255838735"
+          ],
+          "id": "2108779495255838735",
+          "public_metrics": {
+            "bookmark_count": 427,
+            "impression_count": 33652,
+            "like_count": 252,
+            "quote_count": 2,
+            "reply_count": 19,
+            "retweet_count": 48
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108363527971041650",
+              "type": "quoted"
+            }
+          ],
+          "text": "美国手机号至少得准备一个，以备不时之需啊！\n\n我用的是redpocket，非常丝滑，无限电话和短信，一年只要30$，爽完了！！！\n\n一个美国手机号的作用包含但不限于：\n1. X、TG、WhatsApp绑定，比大陆手机号更稳定。\n2. ChatGPT、Claude绑定非+86手机号\n3. 开美国银行卡必备条件之一\n4. 美区Paypal注册\n5. https://t.co/YywyadtbXk"
+        },
+        {
+          "article": {
+            "title": "万字长文｜Cloudflare 从入门到精通，一个域名搞定建站、邮箱、存储和 AI 后端"
+          },
+          "created_at": "2026-10-09T01:38:54.000Z",
+          "edit_history_tweet_ids": [
+            "2108371593747709979"
+          ],
+          "id": "2108371593747709979",
+          "public_metrics": {
+            "bookmark_count": 1501,
+            "impression_count": 121261,
+            "like_count": 694,
+            "quote_count": 34,
+            "reply_count": 30,
+            "retweet_count": 132
+          },
+          "text": "https://t.co/Cc2J2I48Gn"
+        },
+        {
+          "created_at": "2026-10-09T02:55:08.000Z",
+          "edit_history_tweet_ids": [
+            "2108390780809482384"
+          ],
+          "id": "2108390780809482384",
+          "public_metrics": {
+            "bookmark_count": 769,
+            "impression_count": 74509,
+            "like_count": 443,
+            "quote_count": 7,
+            "reply_count": 21,
+            "retweet_count": 73
+          },
+          "referenced_tweets": [
+            {
+              "id": "2108114696692007001",
+              "type": "quoted"
+            }
+          ],
+          "text": "Monid确实是Agent界的OpenRouter，聚合了2,443个tools &amp; APIs，几乎涵盖了你能想象到的所有功能。\n\n1、TikHub + 社媒数据：获取抖音、小红书、B站、YouTube 等平台的内容、评论和互动数据。\n\n2、Exa + 语义搜索：按问题的含义寻找网页，返回相关内容、摘要和引用。\n\n3、Firecrawl + https://t.co/fFDM2PB8Zl"
+        },
+        {
+          "article": {
+            "title": "任何人都能复刻的Claude注册、订阅和过KYC防封号教程"
+          },
+          "created_at": "2026-10-09T01:06:51.000Z",
+          "edit_history_tweet_ids": [
+            "2108363527971041650"
+          ],
+          "id": "2108363527971041650",
+          "public_metrics": {
+            "bookmark_count": 2247,
+            "impression_count": 183665,
+            "like_count": 1097,
+            "quote_count": 31,
+            "reply_count": 47,
+            "retweet_count": 138
+          },
+          "text": "https://t.co/xlWrXLAQhg"
+        },
+        {
+          "attachments": {
+            "media_keys": [
+              "13_2108624112335863808"
+            ]
+          },
+          "created_at": "2026-10-09T18:22:25.000Z",
+          "edit_history_tweet_ids": [
+            "2108624138369929725"
+          ],
+          "id": "2108624138369929725",
+          "public_metrics": {
+            "bookmark_count": 1329,
+            "impression_count": 1554121,
+            "like_count": 6501,
+            "quote_count": 501,
+            "reply_count": 490,
+            "retweet_count": 350
+          },
+          "text": "Now in beta: composer predictions in Codex for Pro users.\n\nCodex can now suggest your next message based on your conversation and how you talk to it.\n\nOne of the most loved new features we've ever tested internally. https://t.co/0u8d2a3feS"
+        }
+      ]
+    },
+    "meta": {
+      "newest_id": "2108813065194230016",
+      "oldest_id": "2108731999657799939",
+      "result_count": 6
+    }
+  }
+}

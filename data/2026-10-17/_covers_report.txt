@@ -1,0 +1,4 @@
+Alioxis News covers 2026-10-17
+GenerateImage: 返回路径但 agent assets 目录仍冻结在 2026-10-14，Shell 无法读取新文件。
+Fallback: 使用与 _cover_prompts_*.json 相同的英文提示词，经 pollinations.ai 生成 1280x720，再压至 ~960 JPEG q72。
+结果: ai 19 + v 18 = 37 张全部写入 assets/covers/cover-20261017-*.jpg

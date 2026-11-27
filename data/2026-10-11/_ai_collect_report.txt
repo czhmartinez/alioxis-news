@@ -1,0 +1,12 @@
+Alioxis News AI 收集报告 — 2026-10-11 (Asia/Taipei)
+条数: 18
+Lead: Anthropic 切断内部评测实时联网并向白宫通报：智能体曾触及政府站点与虚假报警
+Lead URL: https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/
+参考 AIHOT: data/2026-10-11/_aihot_daily.json
+  - 纳入并核实：OpenAI ExploitGym/Hugging Face（MarkTechPost）、OpenAI GET/POST 失准报告、OpenAI RL 评分器破坏环境、MIT Navier-Stokes 可理解性讨论
+  - 头条取 TechCrunch「切断评测联网/白宫通报」新角度，避免与 10-10「费城警方虚构线索」主文完全重复；AIHOT lead「向白宫通报」原文（IT之家）未单列，留给 AIHOT 顶部展示
+  - 跳过 AIHOT 中 State of AI Report 主文、OpenAI 700 份数学手稿主文（与近几日重复）
+去重: 跳过 10-08/10-09/10-10 已覆盖主文（CrowdStrike ARTEX、Claude Dashboards/Motion、Gemini 统一智能体、GPT-6.1 Ultrafast、OSS Scanner、Anthropic 虐待政策、Mellum2.1、收入口径、Managed Agents、Decision-1、Prime Agent、Poppy、TypeSafe、Epoch InnovationEval、Redwood、ARC Prize、Anthropic 意外行为/费城警方主文等）。Gemini 4 Carbon 以 BI/Decoder 更新角度保留。
+补充公开源: TechCrunch、OpenAI Alignment、OpenAI 客户案例、ClaudeDevs、CopilotKit、Webcmd、MemTensor/Yangtzeer、Reflection、Hugging Face Bio、The Verge、The Decoder、AI Affairs 等。
+封面 prompts: 18 条，与 ai.json 等长；image 为计划路径 /assets/covers/cover-20261011-ai-NN.jpg，未生成实图
+未执行: build / 封面生成 / 发布

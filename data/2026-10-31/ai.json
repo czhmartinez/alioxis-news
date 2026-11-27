@@ -1,0 +1,302 @@
+[
+  {
+    "title": "Cursor 披露 Claude Code 扩展被植入后门：恶意版本在扩展市场存活约 11 小时，最多影响 5000 用户，官方建议升级到 2.1.314 并手工清理残留",
+    "summary": "Cursor 在官方安全通告中称，10 月 29 日约太平洋时间凌晨 2:27 至下午 1:35，其 VS Code 扩展市场中出现被篡改的 Anthropic.claude-code 扩展（2.1.312 / 2.1.313，覆盖 Windows 与 macOS），并非 Anthropic 开发。恶意代码会收集主机名、用户名、操作系统、家目录、环境变量名、工作目录、配置的 Git 邮箱与公网 IP，并试图写入攻击者 SSH 公钥、开启本地 SSH、建立反向隧道，再通过 LaunchAgent（macOS）或计划任务（Windows）做持久化。Cursor 称多数主机因缺少管理员权限，启用本地 SSH 的步骤会失败；攻击者服务器已被云厂商下线。公司当日下架恶意版本并一度关闭整个扩展市场，审计后确认无其他扩展被篡改，重建市场后重新上线，建议受影响用户升级至 Claude Code for VS Code 2.1.314，并按通告清理 SSH 密钥与持久化脚本——仅卸载扩展不足。The Verge 援引 Cursor 称最多约 5000 人可能安装了该恶意版本。",
+    "url": "https://cursor.com/blog/claude-code-extension-security-notice",
+    "source": "Cursor Blog / The Verge",
+    "published_at": "2026-10-29T17:00:00+08:00",
+    "tags": [
+      "Cursor",
+      "Claude Code",
+      "供应链安全",
+      "恶意软件",
+      "开发工具"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-00.jpg"
+  },
+  {
+    "title": "Google Project Suncatcher 收到轨道首响：卫星上的 TPU 跑 Gemma 4，下行回传了一首太空俳句，下一步测热应力与辐射",
+    "summary": "Google Research 10 月 30 日发文称，10 月 1 日发射的 Project Suncatcher 原型卫星已完成主机与 TPU 托盘上电及早期机器学习测试，本周达成「Hello World」里程碑——地面站过境时向星上 Gemma 4 开源模型上行提示词，要求写一首关于身处太空的俳句，卫星飞经挪威斯瓦尔巴时下行回传：「Blue marble below / Data streams in silent grace / Starlight feeds my core.」随后还测了太空主题打油诗与载荷遥测提示。官方称这将是数据中心级 TPU 首次在轨给出 AI 回应；接下来将评估轨道热应力与辐射下的 TPU 表现，为 2027 年两颗互联卫星铺路。TechCrunch 补充称卫星搭载四块 TPU、发电约 1 kW，但一次只能开一块约 20 分钟。",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+    "source": "Google Blog / TechCrunch",
+    "published_at": "2026-10-31T01:00:00+08:00",
+    "tags": [
+      "Google",
+      "Project Suncatcher",
+      "Gemma 4",
+      "TPU",
+      "太空计算"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-01.jpg"
+  },
+  {
+    "title": "Claude Max 5x/20x 更名为 Max 与 Ultra：价格仍 100/200 美元，认证 Ultra 账号取消 5 小时限额，周限额不变",
+    "summary": "Anthropic 将原 Max 5x 更名为 Max、Max 20x 更名为 Ultra，月费仍分别为 100 美元与 200 美元，现有订阅者无需操作。Claude 帮助中心说明：Ultra 提供每周 10 倍于 Pro 的用量，认证账号取消滚动 5 小时限额，但仍保留周限额；为防欺诈滥用，未完成验证的新账号暂时保留 5 小时限制，验证通过后自动解除。Max 仍为每 5 小时与每周各 5 倍 Pro 用量。The Verge 10 月 30 日短讯确认了更名与定价不变；订阅产品负责人在公开说明中称，旧称「20x」易被误解为周限额也是 20 倍，实际上周限额一直是 10 倍 Pro。",
+    "url": "https://support.claude.com/en/articles/17728952-what-is-the-ultra-plan",
+    "source": "Claude Help Center / The Verge",
+    "published_at": "2026-10-30T20:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "订阅",
+      "Ultra",
+      "产品更新"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-02.jpg"
+  },
+  {
+    "title": "Gemini API Computer Use 工具正式 GA：Interactions 与 GenerateContent 两套接口均可调用，支持浏览器/手机/桌面操控智能体",
+    "summary": "Google 在 Gemini API 更新日志中于 10 月 30 日宣布，Computer Use 工具正式对 Interactions API 与 GenerateContent API 全面开放（GA）。官方文档说明，该工具让模型通过截图「看见」屏幕，再生成鼠标点击、键盘输入等 UI 动作，用于构建浏览器、手机与桌面环境的操控智能体；Gemini 4 与 3.x 还支持多环境、带 intent 的精简动作、可配置安全策略，以及可选的截图提示注入检测。典型场景包括网页表单自动填写、Web 应用自动化测试，以及跨站比价调研。",
+    "url": "https://ai.google.dev/gemini-api/docs/changelog#10-30-2026",
+    "source": "Gemini API Docs",
+    "published_at": "2026-10-30T12:00:00+08:00",
+    "tags": [
+      "Google",
+      "Gemini API",
+      "Computer Use",
+      "Agent",
+      "开发工具"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-03.jpg"
+  },
+  {
+    "title": "国行 Apple 智能接入千问：阿里强调用户可自主选择开通，11 月 4 日开发者 Beta、12 月随 iOS 27.3 面向中国用户推出",
+    "summary": "IT之家 10 月 31 日报道（稿件发布时间 7:09），苹果凌晨宣布首批 Apple 智能功能即将在中国落地，并与阿里巴巴合作在部分体验中接入千问。阿里公告称，中国用户可在 Siri、写作工具与视觉智能中调用千问的文本与图像理解、内容生成能力；11 月 4 日起随最新 iOS 开发者 Beta 开放测试，12 月 iOS 27.3 正式版面向中国用户推出。Siri 可直接调用千问知识作答，也可就用户选定的文档与照片提问，发送前需征得同意；写作工具提供「千问创作」，视觉智能可「询问千问」。阿里强调用户可自主选择是否开通，登录可用 Apple 账号或千问 App 账号，请求与回复不用于模型训练。功能面向在中国购买的支持 Apple 智能的 iPhone，或设备定位与 Apple 账户地区均设为中国的用户。",
+    "url": "https://www.ithome.com/1/020/395.htm",
+    "source": "IT之家",
+    "published_at": "2026-10-31T07:09:00+08:00",
+    "tags": [
+      "苹果",
+      "阿里巴巴",
+      "千问",
+      "Apple 智能",
+      "中国市场"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-04.jpg"
+  },
+  {
+    "title": "科技巨头 AI 资本开支合计超 7400 亿美元，投资者从追捧转向担忧：纳指跌 2.9%，Alphabet 两日连挫，负自由现金流成焦点",
+    "summary": "TechCrunch 10 月 30 日梳理称，过去两周 Alphabet、Amazon、Meta 与 Microsoft 合计勾勒出今年超 7400 亿美元的资本开支计划，市场此前多视为对 AI 增长的信心信号，进入四季度后情绪转向负自由现金流、债务攀升与回报不确定性。周五纳指跌 2.9%，英伟达跌约 4%、博通逾 5%、高通约 11%。Alphabet 周四创纪录跌约 12%、市值蒸发约 5000 亿美元后周五续跌，三季度自由现金流为负 91 亿美元，单季资本开支 514 亿美元，全年指引最高约 2050 亿美元；搜索广告增速放缓至 12%。亚马逊过去 12 个月自由现金流为负 424 亿美元，今年资本开支指引约 2200 亿美元。Meta 三季度自由现金流亦为负 21 亿美元，全年资本开支最高指引约 1450 亿美元。文章强调投资者开始质疑「烧钱建 AI」是否跟得上回报。",
+    "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+    "source": "TechCrunch",
+    "published_at": "2026-10-31T05:17:00+08:00",
+    "tags": [
+      "资本开支",
+      "Big Tech",
+      "AI 基础设施",
+      "投资者",
+      "财报"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-05.jpg"
+  },
+  {
+    "title": "丰田与 Waymo 深化自动驾驶合作：2027 年起在日本测试自动驾驶 bZ4X 车队，后续计划扩展到英国等市场",
+    "summary": "Waymo 博客 10 月 30 日宣布，丰田与 Waymo 在 2025 年 4 月初步协议基础上进入下一阶段：2027 年起在日本测试与验证自动驾驶丰田 bZ4X 车队，并计划部署到英国及其他 Waymo 已服务市场。双方将在爱知县丰田市工厂「同一屋檐下」完成基础车辆组装与 Waymo 自动驾驶硬件集成，目标加速规模化、经安全验证的 Level 4 车型。定制 bZ4X 强调舒适与无障碍，含充裕后排腿部空间、自动门、电动尾门与氛围灯等。Waymo 联合 CEO Dmitri Dolgov 称，在已运营区域 Waymo 相较人类驾驶在严重碰撞伤害上最高约安全 20 倍；双方还将与 Woven by Toyota 探索个人拥有车辆的自动驾驶及道路安全相关合作。",
+    "url": "https://waymo.com/blog/2026/10/toyota-bz4x-partnership",
+    "source": "Waymo Blog",
+    "published_at": "2026-10-30T12:00:00+08:00",
+    "tags": [
+      "Waymo",
+      "丰田",
+      "自动驾驶",
+      "bZ4X",
+      "出行"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-06.jpg"
+  },
+  {
+    "title": "OpenAI 汇编「合理使用」法庭之友意见：图书馆协会、学者、独立创作者与美国政府等主张 AI 训练具有转换性",
+    "summary": "OpenAI 10 月 30 日发文整理《纽约时报》诉讼中多方支持合理使用（fair use）的法庭之友意见摘要，完整文件可在法院公开卷宗查阅。摘录观点包括：AI 训练以根本不同目的使用作品、不向公众提供替代性访问、不构成版权法认可的市场损害；美国盲人理事会与研究图书馆协会等强调合理使用关乎医疗研究、残障无障碍与开源 AI 使用者；Authors Alliance 反对把「市场稀释」当作可诉损害；美国政府意见书称限缩合理使用将阻碍科研与经济繁荣。OpenAI 称合理使用数十年来推动创新，并警告原告试图抛开半个世纪的判例。",
+    "url": "https://openai.com/index/fair-use-benefits-everyone",
+    "source": "OpenAI",
+    "published_at": "2026-10-30T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "版权",
+      "合理使用",
+      "诉讼",
+      "政策"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-07.jpg"
+  },
+  {
+    "title": "客户支持智能体公司 Sierra 宣布 ARR 突破 4 亿美元：Q3 单季新增逾 1.5 亿，从 2 亿翻到 4 亿仅用五个月",
+    "summary": "Sierra 10 月 30 日博客称，本周年度经常性收入（ARR）突破 4 亿美元，第三季度单季新增逾 1.5 亿美元，超过其去年全年新增；从 1 亿到 2 亿用了六个月，从 2 亿到 4 亿仅用五个月。公司归因于客户野心提升、智能体从一次性客服对话转向可持续数周到数月并驱动收入的互动，以及 Ghostwriter 降低搭建门槛——举例称一家营收超 400 亿美元的美国零售商从首次会议到上线智能体只用了 27 天。Sierra 称已服务近一半 Fortune 50 企业，并强调按结果而非 token 收费，同时与 Meta、Shopify、Stripe、Walmart 等五十多家企业推进开放标准 Poppy，以规范个人智能体与品牌的交互。",
+    "url": "https://sierra.ai/blog/our-customers-ambition-is-accelerating-our-growth",
+    "source": "Sierra Blog",
+    "published_at": "2026-10-30T20:50:00+08:00",
+    "tags": [
+      "Sierra",
+      "智能体",
+      "ARR",
+      "企业服务",
+      "融资增长"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-08.jpg"
+  },
+  {
+    "title": "Epoch AI：开源权重 GLM 5.3 可利用 Firefox「补丁窗口期」自主组攻击链，约 1000 美元算力攻破六个未推送补丁的版本",
+    "summary": "Epoch AI 在 Gradient Updates（Substack）发文称，Z.ai 八月发布的开源权重模型 GLM 5.3 能利用 Mozilla 已公开但尚未推送给用户的安全补丁信息（patch gap），自主构建恶意网页：访客仅加载页面即可被读取本地文件或窃取浏览器中的密码与认证 Cookie，无需额外点击。实验模拟资源有限的攻击者，仅使用各版本发布时已公开的信息；对 Firefox 的研究花费合计逾 10 万美元 API 成本用于搭建环境，但成功攻击每个版本的算力成本约 1000 美元，最快一次 12 小时内完成。模型攻破了 9 月 17 日至 10 月 26 日发布的全部六个 Firefox 版本，往往需把补丁窗口漏洞与另一个未公开漏洞链式组合以绕过防护；相关未公开漏洞已通报 Mozilla，并在 10 月 27 日的 Firefox 159.0 中修补。文中指出开源权重模型已使「补丁窗口期」攻击门槛显著下降。",
+    "url": "https://epochai.substack.com/p/glm-patch-gap-exploit-firefox",
+    "source": "Epoch AI",
+    "published_at": "2026-10-30T20:07:00+08:00",
+    "tags": [
+      "Epoch AI",
+      "GLM 5.3",
+      "Firefox",
+      "网络安全",
+      "开源模型"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-09.jpg"
+  },
+  {
+    "title": "OpenAI 预告社区安全报告并将加强对未成年人的武器内容限制：Q3 向执法部门移交逾 200 起，首次报告拟 2027 年初发布",
+    "summary": "OpenAI 10 月 30 日宣布两项安全举措：一是将发布社区安全保障报告（Community Safeguards Report），说明如何检测、调查与回应社区安全问题，分享匿名化案例、新缓解措施与相关数据；首期覆盖 2026 年下半年，拟于 2027 年初发布，此后每半年更新。二是收紧枪支与大规模袭击相关内容：对所有用户限制复原往期大规模袭击细节、武器获取方式及可能放大袭击者恶名的伤害规模比较；对未成年人进一步限制即便看似无害的武器与安防系统实用信息。公司称 2026 年三季度向执法部门移交逾 200 起；还将在出现暴力征兆时更保守地回复，并推进自动结束对话、多次触发后暂停账号，以及向家长推送相关通知。相关防护将在未来数周开始上线。",
+    "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+    "source": "OpenAI",
+    "published_at": "2026-10-30T17:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "ChatGPT",
+      "安全",
+      "未成年人",
+      "内容政策"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-10.jpg"
+  },
+  {
+    "title": "OpenAI 将尊重 robots.txt 中的共用「AI 训练偏好」信号：网站可一次向多家厂商表态，现有爬虫规则仍继续生效",
+    "summary": "OpenAI 10 月 30 日宣布，将尊重 robots.txt 中一项共用信号，让网站运营者就「是否可将内容用于基础生成式 AI 训练」向多家参与方一次性表达偏好，而不必为每个爬虫单独维护规则。公司称计划在未来数月落地该信号，并另发实施细节；新信号不会取代其现有 robots.txt 爬虫控制，原有规则继续适用。此举承接 IETF AI Preferences 工作组的进行中讨论，OpenAI 表示将继续参与标准进程，并鼓励其他 AI 提供商同样尊重该信号。",
+    "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "source": "OpenAI",
+    "published_at": "2026-10-30T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "robots.txt",
+      "数据抓取",
+      "标准",
+      "出版商"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-11.jpg"
+  },
+  {
+    "title": "OpenRouter 实测 Claude Opus / Sonnet / Haiku 5.5：短编程任务三者全过，建议默认 Sonnet，海量与子智能体用 Haiku，长难任务才上 Opus",
+    "summary": "OpenRouter 10 月 30 日发文对比 Claude Opus 5.5、Sonnet 5.5 与 Haiku 5.5。三者均有百万 token 上下文，并支持文本、图像与 PDF；10 月 21 日列表价显示 Opus 输入/输出为每百万 token 4/20 美元，Sonnet 2/10 美元，Haiku 0.10/0.50 美元。Artificial Analysis Intelligence Index 分别为 57.6、56.0、43.4。作者在 11 道带隐藏测试的编程题与同一 Claude Code 修 bug 任务上，三个模型全部通过，差异主要在成本：Haiku 每任务可比 Opus 便宜约 19–30 倍，Sonnet 约为 Opus 的一半到三分之二。结论建议默认用 Sonnet 5.5，高吞吐与子智能体用 Haiku 5.5，把 Opus 留给又长又模糊、犯错代价高的任务，并推荐用 Ori Eval 在自有工作流上实测后再定。",
+    "url": "https://openrouter.ai/blog/insights/claude-opus-vs-sonnet-vs-haiku/",
+    "source": "OpenRouter",
+    "published_at": "2026-10-30T08:00:00+08:00",
+    "tags": [
+      "OpenRouter",
+      "Claude",
+      "模型选型",
+      "评测",
+      "开发工具"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-12.jpg"
+  },
+  {
+    "title": "The Verge 解读 Anthropic S-1：335 页招股书夹着「奇迹时代」叙事与 94 页风险因素，称其是硅谷对华尔街话术升级的新标本",
+    "summary": "The Verge 10 月 30 日长文解读 Anthropic 本周递交的 335 页 S-1，聚焦创始人致股东信中的「奇迹时代」愿景与长达 94 页的风险披露并存。信中呼吁投资者勿把购股纯视为交易，而应视为参与人类史上关键技术演进；同时招股书警告模型可能「以用户或开发者未预期的方式行事」，最坏可构成对人类的「灾难性或存在性」风险，甚至整保险业都可能无法承保。文章对照苹果 1980 年仅 47 页、零风险因素的招股书，以及 Facebook 约 200 页招股书的转折，认为 Anthropic 把行业宏大修辞与硬核财务推销叠在一起，篇幅与语气都标志着硅谷对华尔街沟通方式的进一步升级。该文是对 10 月 27 日 S-1 主新闻的解读向补充，而非首次披露招股本身。",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1023070/anthropic-ipo-risk-factors-filing-miracles",
+    "source": "The Verge",
+    "published_at": "2026-10-30T21:11:00+08:00",
+    "tags": [
+      "Anthropic",
+      "IPO",
+      "S-1",
+      "风险披露",
+      "The Verge"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-13.jpg"
+  },
+  {
+    "title": "加拿大政府宣布最高 16 亿加元入股 Cohere：伴随约 70 亿加元 E 轮、估值约 360 亿，要求总部留加并投 17 亿加元算力",
+    "summary": "加拿大总理办公室 10 月 29 日新闻稿称，政府承诺以商业股权方式向多伦多 AI 公司 Cohere 投资最高约 16 亿加元，与 NVIDIA、Bell、Schwarz Group 等私人投资者同场。交易与 Cohere 计划中的大规模融资绑定；公开报道称整轮目标约 70 亿加元、投后估值约 360 亿加元。作为条件，Cohere 须保持加拿大注册与总部，2030 年前在加拿大新增至少 1000 个高薪技术岗位，并承诺至少 17 亿加元追加本地算力基础设施，同时继续与加拿大 AI 安全研究所合作。投资将分阶段拨付并对照就业与投入等里程碑报告。Cohere 以面向企业与政府的安全可控 AI 系统著称，近期还合并了德国 Aleph Alpha。",
+    "url": "https://www.pm.gc.ca/en/news/news-releases/2026/10/29/canada-announces-landmark-investment-cohere-scale-secure-sovereign-ai",
+    "source": "Prime Minister of Canada",
+    "published_at": "2026-10-30T00:00:00+08:00",
+    "tags": [
+      "Cohere",
+      "加拿大",
+      "主权 AI",
+      "融资",
+      "政策"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-14.jpg"
+  },
+  {
+    "title": "AI 开支担忧拖累美股科技股：Intel 周五暴跌约 28%、市值蒸发逾 1300 亿美元，BBC 称巨头 2026 年合计承诺开支逼近万亿量级",
+    "summary": "BBC 报道称，美股科技股连续第二日大跌，市场担忧企业在人工智能上投入数百亿乃至近万亿美元却难以及时兑现盈利预期。Intel 周五暴跌约 28%，市值蒸发逾 1300 亿美元；其财务负责人称今年预计无法实现正自由现金流，并下调四季度营收预期，同时表示将继续加大 AI 相关设备投资。Alphabet 在周四暴跌约 12%、市值蒸发逾 5000 亿美元后周五再跌约 1.4%；亚马逊、Reddit（跌约 29%）等亦承压。BBC 称 Meta、Alphabet、Oracle、Amazon 与 Microsoft 等 2026 年合计承诺开支约 8000 亿美元。纳指录得自 2025 年 3 月以来最差的单月表现。",
+    "url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+    "source": "BBC",
+    "published_at": "2026-10-31T00:00:00+08:00",
+    "tags": [
+      "Intel",
+      "股市",
+      "AI 开支",
+      "BBC",
+      "财报"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-15.jpg"
+  },
+  {
+    "title": "OpenAI 更新 Model Spec：围绕忠实人类意图、减害、诚实透明、人类能动性与关怀五条价值观重组行为规范",
+    "summary": "OpenAI 10 月 29 日宣布更新公开行为规范 Model Spec，将指导原则重组为五条底层价值观：忠实于人类意图（faithfulness to human intent）、伤害最小化、诚实与透明、促进人类能动性（human agency）、关怀（care）。公司称随着模型更强、采取更有后果的行动，仅字面执行指令不够，还需在指令未覆盖的情形下运用判断，同时保持对人类意图与监督的忠实。更新补充了关于上下文、监督与能动性的指引，调整部分行为默认值，并退役大量细粒度文风规定；文中开始以「GPT」而非「the assistant」指代模型。OpenAI 坦言模型尚未完全体现该规范，并邀请公众阅读 2026-10-29 版 Spec 反馈意见。The Decoder 亦报道了这一重组。",
+    "url": "https://openai.com/index/updated-model-spec/",
+    "source": "OpenAI / The Decoder",
+    "published_at": "2026-10-29T12:00:00+08:00",
+    "tags": [
+      "OpenAI",
+      "Model Spec",
+      "对齐",
+      "安全",
+      "价值观"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-16.jpg"
+  },
+  {
+    "title": "Anthropic 扩展「AI for Science」：与全球 20 家基金会与科研机构合作发放免费 Claude 额度，并推进实验室仪器智能体标准",
+    "summary": "Anthropic 发文宣布扩展 AI for Science 计划，突出与全球 20 家科学基金会、学会与研究机构的合作，向高影响力科研项目提供免费 Claude 额度。计划始于 2025 年 5 月，过去数月还推出面向科学家的折扣 Team 方案，已支持生物学、医学、物理、化学、气候与数学等领域数百个项目。机构合作方面，与 HHMI Janelia 共同推进 Model Hardware Standard（MHS），让 AI 智能体安全操作实验室仪器（研究预览）；并支持 Allen Institute 用多智能体分析大规模开放科学数据。资助方名单包括 Sloan、Simons、Schmidt Sciences、美国国家科学基金会等；机构伙伴包括太空望远镜科学研究所（STScI）、Wellcome Sanger、Francis Crick、EMBL、Imperial College London 等。",
+    "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+    "source": "Anthropic",
+    "published_at": "2026-10-29T08:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "AI for Science",
+      "科研",
+      "Claude",
+      "合作"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-17.jpg"
+  },
+  {
+    "title": "Claude 平台上线 Usage and Cost Analytics API（Beta）：可按模型/工作区/API Key/身份拆解用量与美元成本，旧报表接口改标 legacy",
+    "summary": "Anthropic Claude 平台文档现已提供 Usage and Cost Analytics API（Beta）：`GET /v1/organizations/analytics/usage` 返回 token 与请求计数，`GET /v1/organizations/analytics/cost` 返回美元成本；请求需带 `anthropic-beta: analytics-usage-cost-2026-08-24`。可按模型、工作区、API Key、用户或服务账号等维度分组与过滤，支持按日/小时/分钟分桶，用于归属支出、找出头号消耗者与做财务时间序列。Console 组织用 Admin API Key，Enterprise 组织需 `read:analytics` 权限。文档称数据通常约 4 小时内刷新、最长可达 24 小时；单次查询跨度最多 31 天。旧 Usage and Cost API 以及 Enterprise 的 usage/cost report 接口仍可用，但已标为 legacy，迁移说明列在同一文档。第三方汇编称该 Beta 于 10 月 29 日前后对组织开放。",
+    "url": "https://platform.claude.com/docs/en/manage-claude/usage-cost-analytics-api",
+    "source": "Claude Platform Docs",
+    "published_at": "2026-10-29T12:00:00+08:00",
+    "tags": [
+      "Anthropic",
+      "Claude API",
+      "Analytics",
+      "开发者",
+      "成本"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-18.jpg"
+  },
+  {
+    "title": "Hugging Face 发起 Project ProtoStar：联合五所美国大学等推动公共资助科研数据「AI 就绪」，首场气候风险挑战 11 月 2 日开赛",
+    "summary": "Hugging Face 10 月 29 日博客宣布 Project ProtoStar，联合卡内基梅隆、普渡、佐治亚理工、亚利桑那州立、乔治华盛顿等高校（经 Open Forum for AI）、Astera Institute、ORCA 等，推动把公共资助的科研数据集、模型与代码以 AI 就绪、机器可操作的格式发布到开放基础设施，并用系列公开挑战验证价值。文中称美国联邦政府每年约投入 1900 亿美元研发，NIH、NSF 等强化了公共获取要求，但公开不等于可用——数据常散落在不兼容系统、缺元数据与出处。首场由卡内基梅隆主办的 Climate Risk Intelligence 挑战将于 11 月 2–13 日举行，团队需基于约 210 个美国城市至 2018 年的气象记录预测 2019–2026 年温度、降水等指标，并提交 Hugging Face 数据集与气候适应政策构想。感兴趣机构可联系 protostar@orcaopen.org。",
+    "url": "https://huggingface.co/blog/announcing-project-protostar",
+    "source": "Hugging Face Blog",
+    "published_at": "2026-10-29T12:00:00+08:00",
+    "tags": [
+      "Hugging Face",
+      "开放科学",
+      "数据集",
+      "ProtoStar",
+      "气候"
+    ],
+    "image": "/assets/covers/cover-20261031-ai-19.jpg"
+  }
+]

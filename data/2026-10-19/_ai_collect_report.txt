@@ -1,0 +1,56 @@
+Alioxis News AI新闻收集报告 — 2026-10-19（Asia/Taipei）
+
+条数：19
+Lead：Anthropic 设公共利益基金：先拿 5% 股份，估值每涨 50% 可再加 2%
+Lead URL：https://www.anthropic.com/news/public-benefit-fund
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-19/ai.json
+- /workspace/alioxis-news/data/2026-10-19/_cover_prompts_ai.json（19 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-19/_ai_collect_report.txt
+
+纳入（19）：
+00 Anthropic Public Benefit Fund 5% 股份 — 核实 anthropic.com/news/public-benefit-fund（发布时间元数据 2026-10-18T16:49Z；交叉 TechCrunch/IT之家）
+01 四个 Gemini 4 Argon 智能体通关 Minecraft — 核实 the-decoder.com（对照 arXiv 2610.22319）
+02 Anthropic 内部就业研究（初级岗与 Agent 工时） — 核实 anthropic.com/research/employment-at-anthropic
+03 Replit 默认模型改为 OpenAI — 核实 techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/
+04 vLLM v0.32.0 — 核实 github.com/vllm-project/vllm/releases/tag/v0.32.0（GitHub API）
+05 NVIDIA Dory1.0-4B 循环模型 — 核实 huggingface.co/nvidia/NVIDIA-Nemotron-Labs-Dory1.0-4B-BF16（HF API createdAt）
+06 迪士尼接收 Character.AI 多数员工 — 核实 techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/
+07 Meta 商业条款删“训练”仍可抓取 — 核实 niemanlab.org（10-17 跟进稿；交叉 The Verge/TechCrunch）
+08 Anthropic 自拟前沿 AI 安全法案 — politico.com 原文 WebFetch 超时，经 Reuters(investing.com) 转述及 interestingengineering/LessWrong 交叉核实
+09 llama.cpp b11714 Discover Models — 核实 github.com/ggml-org/llama.cpp/releases/tag/b11714
+10 腾讯混元 Hy-Memory-30B-A3B — 核实 huggingface.co/tencent/Hy-Memory-30B-A3B（README + HF API）
+11 Vals AI「不可能的退款」实验 — 核实 vals.ai/blogs/impossible-refund + the-decoder.com 10-18 报道
+12 亚琛法院判 Google AI 搜索答案须担责 — 核实 the-decoder.com 10-18
+13 Sphinx Git hook — 核实 sphinx-six-theta.vercel.app + HN item 50137950（Show HN 240 分）
+14 Taste-Bench 智能体决策品味基准 — 核实 the-decoder.com 10-18（对照 arXiv 2609.25804）
+15 Browser Use 浏览器智能体指南 — 核实 browser-use.com/posts/browser-agents（Published October 18, 2026）
+16 Anthropic 新斯科舍数据中心 — 核实 thelogic.co（交叉 CBC/Bloomberg/Reuters）
+17 Anthropic 咨询律所制定智能体谈判规范 — 核实 the-decoder.com 10-18（转述 FT）
+18 费城退休教授拦送餐机器人被捕 — 核实 theverge.com 10-18（交叉 PhillyVoice/6abc）
+
+跳过 / 未单独成卡：
+- 周末新闻偏瘦（10-18 无头部实验室重磅发布），窗口放宽至约 10-15..10-19；10/11/16 三条为 10-15/10-16 发布、周末才被广泛报道
+- Jack Clark「2030 美国 GDP 增近 50%」：今日 v.json 已有 Max 帖，主题重复跳过
+- The Verge「网站对 AI 智能体关门」：与 10-17 ai.json a16z「智能体购物遭电商拦截」主题相近，跳过
+- OpenCode 被入侵/蒸馏争议、印度 CERT-In「失控 Agent」通报：已在 10-18/今日 v.json，跳过
+- DeepSeek Search/Fetch 收费、Kling 4.0、Reflection Beam：已在近日 ai.json/v.json，跳过
+- ChatGPT Chrome 扩展：10-16 已覆盖，跳过
+- Claude Compliance API user_preferences（10-15）、Granite Switch 4.1（10-15）、MIT TR 倒闭创业公司数据（10-13）、RFdiffusion3（10-15 Science）：窗口偏早，跳过
+- 国常会「人工智能+」（10-16）：偏早且为政策通稿，未成卡
+- google-research/harness2：页面信息不足、发布日期无法核实，跳过
+- 大V账号帖子未作 AI新闻主源；X search_news 仅作线索
+
+去重：
+- 对照 _prior_urls.json（ai 233 条 / v 197 条）及近日 ai.json、今日 v.json：本批 19 个 URL 均无完全重复
+- Character.AI 一条为迪士尼接收员工新进展，与 10-15「总检察长介入破产案」角度不同
+- 标题均相对 AIHOT 日报措辞改写（AIHOT 3 条：Anthropic 就业研究 / 德国法院 AI Overview / Browser Use 指南），已按 build.js overlapsAihot 逻辑脚本校验无命中
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词（公益基金新闻摄影 / 体素游戏史诗场景 / Agent 半写实各配不同道具 / 硬件与机房写实 / 发布会与法院、国会、海岸工地新闻摄影 / 退款实验纪录片张力等），16:9，无文字数字；file 名 cover-20261019-ai-00…18.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：WebFetch（Anthropic/TechCrunch/The Decoder/Nieman Lab/The Logic/The Verge/Browser Use/Sphinx/HF）/ GitHub API / HF API / HN API / WebSearch / X MCP search_news（线索）
+AIHOT 线索：fetch-aihot-daily.js 成功（lead 为 Anthropic 初级岗研究，3 条）；已核实并改写标题纳入 02/12/15，其余由公开源补齐
+published_at 说明：有精确时间的取源站/API 时间换算 +08:00；仅有日期的按源站日期 12:00+08:00 占位（同 10-18 惯例）

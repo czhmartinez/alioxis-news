@@ -1,0 +1,32 @@
+{
+  "fetched_at_taipei": "2026-11-07 08:12:27 Asia/Taipei",
+  "start_time": "2026-11-05T16:00:00Z",
+  "method": "public X MCP namespace x get_users_posts",
+  "accounts": {
+    "Khazix0918": {
+      "id": "1492195583699951620",
+      "result_count": 1
+    },
+    "MaxForAI": {
+      "id": "1699797396589588480",
+      "result_count": 12
+    },
+    "xiaohu": {
+      "id": "1764818331822182400",
+      "result_count": 7
+    },
+    "thsottiaux": {
+      "id": "1953337039510003712",
+      "result_count": 8
+    },
+    "testingcatalog": {
+      "id": "3980735590",
+      "result_count": 23,
+      "next_token": null
+    },
+    "gengdaJ": {
+      "id": "1897545708770840576",
+      "result_count": 0
+    }
+  }
+}

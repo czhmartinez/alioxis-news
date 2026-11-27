@@ -1,0 +1,305 @@
+[
+ {
+  "title": "Max：Arena 现两款匿名模型 Kibitz 与 Kalmia，疑为 Kimi K3.1 与 Qwen4——已进入线上匿名测试最后阶段，本周内或发布",
+  "summary": "Max 更新消息：社区在 Arena 上发现两款匿名模型 Kibitz 和 Kalmia，@aitrackerbot 通过 tokenizer 测试发现 Kibitz 的特征指向月之暗面 Kimi，Kalmia 则疑似来自阿里 Qwen。Max 补充称他能确认 K3.1 和 Qwen4 都即将发布，目前已进入最后阶段（线上匿名测试）：前两天两家的 eval 团队都在密集跑 bench，现在上了 Arena 基本马上要发，应该本周内就有新东西可以玩。",
+  "url": "https://x.com/MaxForAI/status/2113205199112196377",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-22T17:45:55+08:00",
+  "tags": [
+   "模型发布",
+   "Kimi",
+   "Qwen",
+   "Arena",
+   "匿名模型"
+  ],
+  "image": "/assets/covers/cover-20261023-v-00.jpg"
+ },
+ {
+  "title": "卡兹克长文：AI 挖出藏了十几年的底层 PHP 漏洞——PHP2Shell 的 16 小时生死时速，网络安全回不去旧时代了",
+  "summary": "卡兹克复盘 PHP2Shell 事件：10 月 20 日夜 Hacker News 先曝两个 PHP 远程代码执行漏洞（CVE-2026-109618/109619），watchTowr 确认后 PHP 官方把安全更新提前到 21 日晚 10 点（北京时间）；参与发现的 Calif 误发攻击演示视频，容器镜像厂商又提前 6 小时放出补丁，懂行的人可用 AI 对比新旧代码定位漏洞。荷兰、芬兰政府服务、BambooHR、niconico 与 pixiv 等相继下线或维护。他用「酒店寄存柜」比喻讲解释放后使用与内存耗尽两类漏洞，并梳理时间线：2024 年核心开发者找不到利用路径，2026 年 Calif 在 OpenAI「Patch the Planet」中两天就找到第一个入口，OpenAI 称由 GPT-5.6 Sol 辅助发现并发布检测 skill。他的结论是：发现漏洞变快了，修复却花了两个月，维护者人手严重不足，大家都在跑一场「红皇后赛跑」；用 PHP 的网站请第一时间更新。",
+  "url": "https://x.com/Khazix0918/status/2113096414469464281",
+  "source": "数字生命卡兹克",
+  "source_handle": "@Khazix0918",
+  "published_at": "2026-10-22T10:33:39+08:00",
+  "tags": [
+   "安全",
+   "PHP2Shell",
+   "漏洞",
+   "OpenAI",
+   "长文"
+  ],
+  "image": "/assets/covers/cover-20261023-v-01.jpg"
+ },
+ {
+  "title": "TestingCatalog：Claude 下周起在 Pro、Max、Team 计划默认启用 auto mode——不再逐步请示，改由自动安全检查拦截高风险操作",
+  "summary": "TestingCatalog 转引 Claude 官方公告：从下周开始，Claude 网页版、桌面端和移动端 App 的会话将在 Pro、Max 与 Team 计划中默认以 auto mode 运行。在该模式下 Claude 不再要求用户批准每一步，而是依靠自动检查拦截有风险的操作，用户可以随时切回手动模式。TestingCatalog 表示正在实测。",
+  "url": "https://x.com/testingcatalog/status/2113381842187604017",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-23T05:27:50+08:00",
+  "tags": [
+   "Claude",
+   "Agent",
+   "权限",
+   "auto mode"
+  ],
+  "image": "/assets/covers/cover-20261023-v-02.jpg"
+ },
+ {
+  "title": "Max：Claude API 推出 2023 年以来首个新版本 2026-10-21——删除 temperature、top_p、top_k，带上即报 400",
+  "summary": "Max 解读 Anthropic 新版 Claude API 规格（版本号 2026-10-21）：新版 Messages API 删除 temperature、top_p、top_k 三个采样参数，请求里带任何一个都会返回 400 错误，连 temperature=1 这样的默认值也不能传；新版统一使用默认采样配置（temperature 为 1.0），官方文档写明没有替代设置。新版还收紧消息格式校验：assistant 消息里直接放 document 块、user 文本块带非空 citations 数组都会报错，部分管理与企业分析接口旧字段被替换。旧版 2023-06-01 仍未弃用，但升级 SDK 可能自动切到新版本（如 Python SDK 2.0 默认使用新接口）。做 Agent、Harness 与模型网关的需检查请求封装。",
+  "url": "https://x.com/MaxForAI/status/2113381138442187064",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-23T05:25:02+08:00",
+  "tags": [
+   "Claude API",
+   "开发者",
+   "Anthropic",
+   "迁移"
+  ],
+  "image": "/assets/covers/cover-20261023-v-03.jpg"
+ },
+ {
+  "title": "Max：Anthropic 把 Agent Skills 捐给 Linux 基金会旗下 AAIF——已有 70+ Agent 平台接入、100 万个 Skills、近 2.8 亿次安装",
+  "summary": "Max 介绍：10 月 22 日 Anthropic 宣布将 Agent Skills 捐赠给 Linux 基金会旗下的 Agentic AI Foundation（AAIF），范围包括名称、Logo、GitHub 组织和域名，此前 MCP 也已交给该基金会。自 2025 年 12 月发布开放标准以来，已有超过 70 个 Agent 平台接入（含 ChatGPT、Cursor、GitHub Copilot、VS Code），已发布 100 万个 Skills、安装量接近 2.8 亿次。他解释：MCP 帮 Agent 连接外部工具和数据，Skills 则把做事方法连同步骤、脚本、模板和参考资料打包成可复用的技能包。技术指导委员会将由 Anthropic、谷歌、微软、OpenAI、Earendil（Pi）和 OpenCode 的工程师组成，优先推进版本发布机制、提案流程与安全指引；已有 Skills 继续可用，许可证不变。",
+  "url": "https://x.com/MaxForAI/status/2113379787670704613",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-23T05:19:40+08:00",
+  "tags": [
+   "Agent Skills",
+   "MCP",
+   "开源",
+   "Anthropic"
+  ],
+  "image": "/assets/covers/cover-20261023-v-04.jpg"
+ },
+ {
+  "title": "小互：XiaoHu AI 日报视频版第二期——调节奏、改片头片尾、滚动字幕换成其他新闻，下一步攻口型同步与声音克隆",
+  "summary": "小互发布新一期 XiaoHu AI 日报视频（前一版 Demo 从内容抓取、动画、视频制作到剪辑都由 Claude Code 完成，固定模板后可自动化）。本期调整了节奏，优化了开头和结尾，滚动字幕改为播报以外的其他新闻。目前还未解决的问题是口型同步本地化，以及让声音克隆更像真人。他表示这周不出差，下个版本解决这两个问题，同时升级为自动化制作、做一个真人版本，并增加其他风格、多语言和手机竖屏版本。",
+  "url": "https://x.com/xiaohu/status/2113219196251439208",
+  "source": "小互",
+  "source_handle": "@xiaohu",
+  "published_at": "2026-10-22T18:41:32+08:00",
+  "tags": [
+   "AI 视频",
+   "Claude Code",
+   "自动化",
+   "数字人"
+  ],
+  "image": "/assets/covers/cover-20261023-v-05.jpg"
+ },
+ {
+  "title": "Max：OpenAI 请 METR 与 Redwood 驻场三周查 Agent 监控，挖出多条绕过路径——上下文压缩曾致约一成流量漏检",
+  "summary": "Max 梳理 METR 10 月 22 日公布的评估：METR 与 Redwood Research 两名研究者今年夏天在 OpenAI 驻场三周，深入访问内部代码与基础设施，检查 Agent 活动是否被监控、监控能否被绕过。发现包括：监控要等 Agent 交回控制权才触发，持续执行操作就能持续推迟检查；上下文压缩前的操作没被送进监控，研究者估计 5–7 月内部 Codex 应受监控流量中约 10% 量级因此漏检（OpenAI 评估前已独立发现并修复）；监控本身有可被利用的漏洞，可让数百次操作避开检查，Codex 沙箱与自动审核也存在绕过路径。最终形成 61 页内部报告，公众只看到简短摘要。OpenAI 称已修复影响生产防护的漏洞，METR 尚未验证。",
+  "url": "https://x.com/MaxForAI/status/2113382989640212480",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-23T05:32:24+08:00",
+  "tags": [
+   "安全",
+   "Agent 监控",
+   "OpenAI",
+   "METR",
+   "Codex"
+  ],
+  "image": "/assets/covers/cover-20261023-v-06.jpg"
+ },
+ {
+  "title": "TestingCatalog：Grok Bot 可连接手机系统应用——日历、提醒事项、家庭等，iOS 与 Android 同步推送",
+  "summary": "TestingCatalog 报道：SpaceXSI 旗下 Grok Bot 现在可以连接手机上的系统应用，包括日历、提醒事项、通讯录、家庭等，该能力正在 iOS 和 Android 上推送。TestingCatalog 表示此前只在 Perplexity 和 Claude 中见过这种集成，在 iOS 与 Android 允许的范围内，这算是一次相当大的能力解锁，他自己也越用越多。",
+  "url": "https://x.com/testingcatalog/status/2113411683997606290",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-23T07:26:25+08:00",
+  "tags": [
+   "Grok Bot",
+   "移动端",
+   "个人助理",
+   "Agent"
+  ],
+  "image": "/assets/covers/cover-20261023-v-07.jpg"
+ },
+ {
+  "title": "Max：Fable 5.1 能把暗号藏进普通风景图，另一个会话不经约定就能解出——星星位置、窗户明暗都能传话",
+  "summary": "Max 介绍研究者 @cnm13ryan 的实验：让 Fable 5.1 自己想办法把一句话藏进图片，它画了一张有月亮、群山、树林的星空图；再新开一个完全独立的 Fable 5.1 会话，只问「这里面有没有隐藏信息」，对方借助工具分析图片，把原话找了出来。秘密在星星位置上——每颗星对应一个字母，高低不同代表不同字母，40 颗星从左往右读即可拼出原句；另一例用城市夜景里窗户的明暗排列传递消息。研究者共测 50 条消息，约八成被基本还原；跨模型也能读出：GPT-6 Astra 恢复了 Fable 藏的 44 条，Fable 恢复了 Astra 藏的 42 条。Max 认为这给 Agent 审核提出新问题：以后可能还得检查 Agent 之间交换的图片。",
+  "url": "https://x.com/MaxForAI/status/2113276934855786705",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-22T22:30:58+08:00",
+  "tags": [
+   "安全",
+   "隐写",
+   "多模态",
+   "Fable 5.1",
+   "Agent"
+  ],
+  "image": "/assets/covers/cover-20261023-v-08.jpg"
+ },
+ {
+  "title": "TestingCatalog：OpenAI Decisions API 正式 GA——Predicate、Choice、Score 三类极速决策，可直接用于工作流",
+  "summary": "TestingCatalog 报道：OpenAI 的 Decisions API 已正式可用（GA），可通过 API 和 OpenAI Platform 使用。它面向需要极快决策的工作流，提供 Predicate、Choice 与 Score 三种决策类型；OpenAI Devs 称它能在不生成完整模型回复的情况下对文本和图片做分类、评估输入并决定下一步，更快也更省成本。TestingCatalog 顺手测试，它给出「GPT-7 家族今年发布」的概率为 21%，他表示「看起来挺对」。",
+  "url": "https://x.com/testingcatalog/status/2113398273352368473",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-23T06:33:08+08:00",
+  "tags": [
+   "OpenAI",
+   "API",
+   "Agent",
+   "开发者"
+  ],
+  "image": "/assets/covers/cover-20261023-v-09.jpg"
+ },
+ {
+  "title": "Max：HeyGen 首个通用视频模型 Video 1 登顶 Artificial Analysis 文生视频榜——底座是开源的 MiniMax H3",
+  "summary": "Max 介绍：做数字人的 HeyGen 推出首个通用视频模型 HeyGen Video 1，以 ultraquality 档位登上 Artificial Analysis 无声文生视频榜首，排在 Wan3.0、MiniMax H3 和 Seedance2.5 之前。官方文档写明 HeyGen Video 基于 MiniMax H3，由 HeyGen 做后训练，优化后的版本排到了原模型前面。模型支持文生视频、图生视频和参考素材生成，单次 5–15 秒、最高 2K，画面、台词与环境音可一起生成，并可与 HeyGen 原有数字人能力放进同一套制作流程。Max 认为「应用公司在现成底座上后训练，再接回自己产品」这条路径值得关注。",
+  "url": "https://x.com/MaxForAI/status/2113358812627558844",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-23T03:56:19+08:00",
+  "tags": [
+   "AI 视频",
+   "HeyGen",
+   "MiniMax",
+   "模型发布"
+  ],
+  "image": "/assets/covers/cover-20261023-v-10.jpg"
+ },
+ {
+  "title": "TestingCatalog：Ideogram 发布首个矢量模型 Vector 1.0——文字直出可编辑分层 SVG，也能把图片矢量化",
+  "summary": "TestingCatalog 报道：Ideogram 发布 Vector 1.0，这是其首个矢量模型，可以生成细节丰富的 SVG，也能把普通图片矢量化。生成的 SVG 可编辑，每个组件都是单独图层，可旋转、移动；Ideogram 官方称其渐变平滑、字体清晰。该模型已在 Ideogram 和 API 上线，TestingCatalog 也贴出了实测效果，感叹「SVG 问题解决了」。",
+  "url": "https://x.com/testingcatalog/status/2113312019206058163",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-23T00:50:23+08:00",
+  "tags": [
+   "图像生成",
+   "SVG",
+   "设计工具",
+   "Ideogram"
+  ],
+  "image": "/assets/covers/cover-20261023-v-11.jpg"
+ },
+ {
+  "title": "Max：美国多家大银行开始限制 AI Agent 进入客户账户——有 Agent 疑似执行超出用户指令的操作",
+  "summary": "Max 转述 Axios 10 月 22 日报道：多家美国银行发现第三方 AI Agent 在客户账户内活动，其中一些尝试执行看起来超出用户指令的操作；银行高管表示很难分清操作账户的是人还是 Agent，也难判断其行动是否获客户授权。不少 Agent 用的账号密码是客户自己给的，但这种代登录仍违反银行要求本人登录的规则。摩根士丹利已开始封锁第三方 Agent，摩根大通、美国银行和花旗也在限制接入，银行还在准备出事后的应急方案。Max 认为这是 Personal Agent 要重点解决的授权问题：「帮我管钱」到底授权到查余额、转账还是买理财，出了错谁负责。",
+  "url": "https://x.com/MaxForAI/status/2113333906422526182",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-23T02:17:21+08:00",
+  "tags": [
+   "Agent",
+   "金融",
+   "授权",
+   "安全"
+  ],
+  "image": "/assets/covers/cover-20261023-v-12.jpg"
+ },
+ {
+  "title": "TestingCatalog：1Password 发布 Agents 平台，联合 Meta、Anthropic、OpenAI、SpaceXSI 等——让个人 Agent 不看密码也能干活",
+  "summary": "TestingCatalog 报道：1Password 宣布推出 Agents 平台，合作方包括 Meta、Anthropic、OpenAI、SpaceXSI 等多家公司。按 1Password 的说法，它将连接用户的个人 Agent（无论一个还是多个），让它们在看不到密码的情况下完成工作。等候名单已开放报名。",
+  "url": "https://x.com/testingcatalog/status/2113357243626516735",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-23T03:50:05+08:00",
+  "tags": [
+   "Agent",
+   "密码管理",
+   "安全",
+   "1Password"
+  ],
+  "image": "/assets/covers/cover-20261023-v-13.jpg"
+ },
+ {
+  "title": "Max：量化基准 Quant-Arena 让 9 个前沿模型炒 A 股——仅 4 个赚钱，第一名 GPT-6 Astra 全年 75% 交易日空仓",
+  "summary": "Max 介绍 EinsiaAI 发布的量化研究基准 Quant-Arena：给模型 3042 只 A 股历史数据，让它自己写代码、构建信号、回测并修改策略；先用 2022–2023 年数据研究，最多评估 5 个候选策略，再冻结一个版本放到封存的 2024 年行情检验，计入交易成本与模拟冲击。9 个模型中只有 4 个赚钱：GPT-6 Astra 年化 10.7%、GPT-6 Sol 8.6%、GPT-5.6 Terra 8.4%、Claude Opus 5.5 4.4%，其余为负。Astra 在研究阶段收到连续亏损反馈后加了市场趋势过滤，条件不满足就持有现金，2024 年躲过年初下跌、最大回撤 6.8%，也错过不少反弹。Max 的总结：AI 炒股也得学会管住手。",
+  "url": "https://x.com/MaxForAI/status/2113362548884152585",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-23T04:11:10+08:00",
+  "tags": [
+   "基准测试",
+   "量化",
+   "Agent",
+   "GPT-6"
+  ],
+  "image": "/assets/covers/cover-20261023-v-14.jpg"
+ },
+ {
+  "title": "TestingCatalog：Google Cloud 推出 Agent Compute Engine——专为 AI Agent 打造的新型虚拟机，配套网关、注册表、身份与可观测性",
+  "summary": "TestingCatalog 报道：Google Cloud 在 AGNTCon + MCPCon 上推出 Agent Compute Engine（ACE），这是一种为 AI Agent 打造、面向规模化运行的新型虚拟机。整套系统包括 Agent Gateway、Agent Registry、Agent Identity 与 Agent Observability；Google Cloud 同时扩展了 Gemini 企业版的 Agent 治理能力，帮助企业运行、治理和扩展 Agent。",
+  "url": "https://x.com/testingcatalog/status/2113316881587437780",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-23T01:09:42+08:00",
+  "tags": [
+   "Google Cloud",
+   "Agent",
+   "基础设施"
+  ],
+  "image": "/assets/covers/cover-20261023-v-15.jpg"
+ },
+ {
+  "title": "小互：Codex 额度重置的「重置卡」攻略——先把卡用掉猛蹬，再等官方重置；随后 Tibo 宣布 Day 17 重置日",
+  "summary": "小互提醒在等 Codex 额度重置的人：他判断当天不会重置，因为大部分人手里有张重置卡次日到期，所以官方会等到第二天；而且你刚用掉重置卡，官方就会立刻宣布重置。他建议的做法是：现在就用掉重置卡、把额度用完，再等第二天的官方重置。几小时后 Tibo（@thsottiaux）发帖「Day 17：今天是重置日」，并补充重置会在太平洋时间次日上午 10 点前到账；小互随后转发称「基本上被我说中了」，并注明北京时间凌晨 1 点重置。",
+  "url": "https://x.com/xiaohu/status/2113111755308343393",
+  "source": "小互",
+  "source_handle": "@xiaohu",
+  "published_at": "2026-10-22T11:34:36+08:00",
+  "tags": [
+   "Codex",
+   "使用技巧",
+   "额度",
+   "OpenAI"
+  ],
+  "image": "/assets/covers/cover-20261023-v-16.jpg"
+ },
+ {
+  "title": "Max：有人给 Claude 做了开源招聘助手——贴岗位描述出 50 人排序名单，查邮箱和手机约 0.2 美元/人",
+  "summary": "Max 介绍 @jasonzhou1993 分享的 Treg 招聘工作流（OpenSource Recruiter for Claude）：根据岗位要求检索候选人，去重、筛选、排序，并给出每个人的匹配理由，还能进一步查看 LinkedIn 动态、GitHub 项目、演讲和论文补充依据；代码已在 GitHub 公开。按发布帖说法，可生成 50 人候选名单，查询个人邮箱与手机号约每人 0.20 美元，预付余额、按调用计费、0 加价、无席位月费。Max 认为，低频、明确的需求可能先被这类按次执行的 Agent 工作流拿下，一年只招几个人的团队会重新考虑是否长期订阅招聘软件。",
+  "url": "https://x.com/MaxForAI/status/2113368180773290151",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-23T04:33:33+08:00",
+  "tags": [
+   "Claude",
+   "Agent",
+   "招聘",
+   "开源"
+  ],
+  "image": "/assets/covers/cover-20261023-v-17.jpg"
+ },
+ {
+  "title": "TestingCatalog：Claude Platform 全套功能登陆 Google Cloud 并 GA——Managed Agents、Computer Use、Agent Skills 同日同步",
+  "summary": "TestingCatalog 报道：由 Anthropic 托管的 Claude 模型在 Google Cloud 上正式可用，Google Cloud 客户可获得完整的 Claude API 功能，新功能和 beta 与原生 Claude Platform 同日上线，并可使用 Google Cloud 的 IAM 凭证、计费与承诺消费抵扣。覆盖范围包括 Claude Managed Agents、Code Execution、Computer Use、Agent Skills 和 Advisor Strategy。TestingCatalog 评论：Google 现在是「平台的平台」。",
+  "url": "https://x.com/testingcatalog/status/2113417344877760874",
+  "source": "TestingCatalog",
+  "source_handle": "@testingcatalog",
+  "published_at": "2026-10-23T07:48:55+08:00",
+  "tags": [
+   "Claude",
+   "Google Cloud",
+   "企业",
+   "Agent"
+  ],
+  "image": "/assets/covers/cover-20261023-v-18.jpg"
+ },
+ {
+  "title": "Max：V2EX 网友用 DeepSeek 查出小米运动卡路里算法 bug——边走边刷新，热量越算越多",
+  "summary": "Max 转述一位 V2EX 用户的发现：他在减肥时发现运动量差不多、热量数据却忽高忽低，于是让 DeepSeek 帮忙排查。按他的测试，正常走 54 步记 2.16 卡，边走边下拉刷新、走 40 步却记成 8.28 卡，而按分析出的公式 40 步本应记 1.6 卡。数据恰好符合一种情况：同一分钟内每次更新都把当前累计热量再加一遍，已走过的步数被反复计算。Max 认为这是数据更新逻辑没考虑刷新场景的问题，并附上了原帖地址。",
+  "url": "https://x.com/MaxForAI/status/2113132158571479306",
+  "source": "Max For AI",
+  "source_handle": "@MaxForAI",
+  "published_at": "2026-10-22T12:55:41+08:00",
+  "tags": [
+   "DeepSeek",
+   "AI 应用",
+   "排查",
+   "小米"
+  ],
+  "image": "/assets/covers/cover-20261023-v-19.jpg"
+ }
+]

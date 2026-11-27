@@ -1,0 +1,29 @@
+大V视野收集报告 — 2026-11-13（Asia/Taipei）
+
+读取方式：公开 X 读取（namespace x）；未用浏览器、未用 user-X
+- 用户 id 复用：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-11T16:00:00Z（11-12 00:00 Asia/Taipei 起），max_results=25；字段 note_post（返回仍出现 note_tweet 键，脚本两者兼容）
+- 原始条数：@Khazix0918 1 / @MaxForAI 19 / @xiaohu 18 / @thsottiaux 1 / @testingcatalog 25+14（第 1 页满 25，用 end_time=2026-11-12T10:08Z 补第 2 页 14 条，其中 7 条与 11-12 已收 URL 重复）/ @gengdaJ 4
+- get_posts_by_ids 补长文一批 30 个 id（含被引用的官方原帖）；全部落盘到 _v_raw_mcp.json / _v_raw_fulltexts.json
+- 工具返回体会截断，改用 write_to_file + 完整文本文件解析
+
+入选 v.json：18 条
+各 handle：{'@Khazix0918': 0, '@MaxForAI': 1, '@xiaohu': 5, '@thsottiaux': 1, '@testingcatalog': 10, '@gengdaJ': 1}
+头条：英伟达宣布黄仁勋即日辞去总裁、CEO 及董事职务：CFO 科莱特·克雷斯任临时 CEO，哈维·C·琼斯出任首任董事会主席，盘前跌 11%（小互）
+URL：https://x.com/xiaohu/status/2120879926861791372
+（头条内并入 TC 引官方声明的确认，以及卡兹克「AIHOT 首次打出 98 分」的一句评论；卡兹克窗口内仅这 1 条帖、无独立信息量，故不单列，计 0）
+
+跳过/说明：
+- 黄仁勋相关：Max 的大量段子/恶搞（「停职调查」通报体、余承东/华为收购、特朗普提名库克、命理公众号、梗图、「每日 AI 大赛」选择题）均为玩笑或非事实，不收；小互 2120660617908674726 与 TC 2120649482874540295 婚外情/罢免传闻属私生活、且 11-12 已跳过，不收；小互 2120660864118534639（当事高管履历）同理不收
+- 小互 2120897109667033233（「连 Claude 都很无奈」纯图片）无可核实文字，不收
+- Max：Claude 5.5 家族花费 100 亿美元（引用的卖方会议纪要转述，11-12 已跳过）、OpenAI 设计负责人个人主页、「Tibo 二代」/Madison Huang 继任调侃，均跳过
+- gengdaJ：RT @liyue_ai 网页版 LOL 不收；Grok Bot 读微信推送待办的用法并入 ChatCut 条一句带过并提示「完全磁盘访问」隐私风险；前一日微信自动化灰产帖的续帖（2120710981554995626）不收
+- TC 未收：Seedream 5.5 换色测试（11-10 小互、11-12 Max 已连续报道同题，避免重复）；Gemini 4 Hydrogen 三条 rollout 帖合并为一条官方发布；Duet 邀请与 Brush 合并；dots 自定义指令并入 thsottiaux 条；第 2 页 7 条（Saved logins、ChatGPT Finance、Browser Use、ARC、Grok Bot 1.0、Gemini Decision、Roma）11-12 已收，去重
+- TC 11/12 简报只写前一天未收录的新点（CarPlay、Managed Agents 自托管沙箱、AlphaProof Code×Signal、AlphaGenome 2、Fable 5.2 上谷歌云、ChatGPT Plus 退伍军人）；AlphaGenome 2 在 11-12 ai.json 已有，仅一句带过
+- URL 去重：对历史全部 v.json/ai.json 硬比对，入选 18 条 0 重复；另与收集结束时出现的 11-13 ai.json（20 条）比对，0 重复
+- 观点/传闻标注：张一鸣全员会讲话（Max 转述、无出处）、Da7_Tech 蒸馏指控（个人说法未证实）、Claude Meetings 办公套件判断（TC 推测）、Brush（未发布）、Hydrogen 基准对比与 Retell/Nace 数据（厂商自述）、Anthropic IPO 价格区间（券商信息）、EnConvo（小互个人体验）
+- TC 占比偏高（10/18）：窗口内卡兹克仅 1 条、Max 多为黄仁勋段子
+
+封面提示词：_cover_prompts_v.json（18 条，cover-20261113-v-00 ～ 17）
+未生成封面、未 build、未发布。
+完成时间：2026-11-13 08:13:10 Asia/Taipei

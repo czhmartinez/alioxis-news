@@ -1,0 +1,19 @@
+Alioxis News AI新闻 collect report — 2026-10-09 (Asia/Taipei), manual re-run ~12:08 after scheduled routine failed before producing output
+item_count: 20 ; output: ai.json ; cover prompts: _cover_prompts_ai.json ({file,prompt} x20)
+image fields set to planned /assets/covers/cover-20261009-ai-NN.jpg (files NOT generated yet). NOT built / NOT published.
+lead: CrowdStrike：疑似单人借 AI 渗透工具 ARTEX 攻破多家韩国银行（= AIHOT lead）
+
+AIHOT: _aihot_daily.json PRESENT via scripts/fetch-aihot-daily.js 2026-10-09 (dated endpoint 200; API returned {schemaVersion, report} wrapper,
+  unwrapped by unwrapDaily; raw envelope kept as _aihot_raw.json). generatedAt 2026-10-09T00:00:15Z = 08:00 Taipei; window 10-08 08:00 → 10-09 08:00 Taipei.
+  11 section items + 10 flashes. Candidate stream: _aihot_items_24h_all.json + _p2.._p8 (8 pages, 383 items), score-sorted _aihot_tips_flat.json.
+Used (re-verified on primary/publisher pages): CrowdStrike/Korea banks (Decoder), Claude Dashboards+Motion (claude.com), Gemini agent (TechCrunch),
+  OpenAI ~$50B run-rate (TechCrunch/FT), GPT-6.1 Sol Ultrafast (IT之家), OSS Scanner (anthropic.com), AHM boycott/Tao (Decoder), fired OpenAI safety
+  researchers (TechCrunch), Zenity AgentCore (Decoder), Anthropic usage policy (TechCrunch), Arena $200M B (TechCrunch), OpenAI false-front IO (openai.com),
+  Character.AI Kentucky (IT之家/Reuters), USA Today v. OpenAI (Verge), AMIE in The Lancet (Google blog; not in AIHOT stream, found via web search),
+  Goodfire probes (TechCrunch), JetBrains Mellum2.1 (MarkTechPost), HF ML Intern (HF blog), State of AI 2026 (Air Street), NVIDIA $1B science (nvidianews).
+Build note: build.js overlapsAihot() will hide 3 of 20 from the AI新闻 tab (idx 1 Dashboards, 5 OSS Scanner, 17 ML Intern) because they match AIHOT
+  section titles — same behaviour as prior days (10-08 hid 4). They still appear via the AIHOT mirror.
+SKIP (already in 10-07/10-08): Manus $500M, Biohub virtual cell, Max/Team API credits, Haiku 5.5, SynthID, AI Edge Foresight, Codex 40M users,
+  OpenAI math release itself (10-07; today's item is the new AHM boycott reaction).
+SKIP (X-only / thin): Tibo "Today, we are announcing ChatGPT" (no substance), Odyssey-3 & Voyager & Atomic (X-only → used in v.json),
+  ts-rust (GitHub page empty), Step 5 Preview OpenRouter, Waymo $5B debt & Ecosia→Qwen/GLM/Kimi (verified, held as spares).

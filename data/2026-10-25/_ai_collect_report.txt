@@ -1,0 +1,56 @@
+Alioxis News AI新闻收集报告 — 2026-10-25（Asia/Taipei）
+
+条数：20
+Lead：被 OpenAI 开除的三名安全研究员首度发声：从未被告知「泄露了什么」，怀疑与力推思维链可监控有关
+Lead URL：https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-25/_aihot_daily.json（fetch-aihot-daily.js 成功，08:06 抓取；当日仅 lead 1 条）
+- /workspace/alioxis-news/data/2026-10-25/_aihot_summary.txt（与 10-24 同格式：lead 头 + sections + flashes）
+- /workspace/alioxis-news/data/2026-10-25/_prior_urls.json（已存在，08:06 写入，扁平 URL 列表 437 个；未覆盖、直接复用）
+- /workspace/alioxis-news/data/2026-10-25/ai.json
+- /workspace/alioxis-news/data/2026-10-25/_cover_prompts_ai.json（20 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-25/_ai_collect_report.txt
+
+纳入（20）：
+00 OpenAI 三名被开除安全研究员发声：curl + trafilatura 核实 the-decoder.com 原文（10-24 15:19:33Z）；援引 WSJ（付费墙未直接核实，以 The Decoder 转述为准）；与 10-24 跳过的 WSJ X 帖同事件，本次有可核实的公开原文
+01 Brotli HTTP2Shell CVE-2026-111497：curl + trafilatura 核实 aikido.dev 原文（页面更新时间 PT 10-23 4:15PM = 10-24 07:15+08:00，取更新时间）；PHP 链路前几日已收录，此条为跨运行时（Python/Bun/Envoy）新进展
+02 Symantec「天网模式」攻击智能体：curl + <p> 正则核实 theregister.com 原文（10-24 13:02Z）
+03 NVIDIA Nemotron 3.5 Bolt E4B 4GB：curl 核实 MarkTechPost 原文（10-24 03:56:29Z）；HF API 核实模型卡与许可；NVIDIA Research 官方页日期为 10-23，published_at 取 MarkTechPost 时间
+04 Harness 主要花 token 论文：curl + trafilatura 核实 the-decoder.com 原文（10-24 09:21:39Z），数据（16.6k/7k/<1k 系统提示 token、成本最高 3 倍、OpenCode 大池落后最多 9 分）逐句对照原文
+05 GPU Unlock RTX 30：curl 核实 IT之家 1/017/525（pubtime_baidu 10-25 07:09:54+08:00）；GitHub API 核实仓库存在与 README
+06 OpenAI Habitat 存储第二篇：WebFetch 核实 openai.com/index/scaling-storage-one-billion-users-part-two（curl 返回空壳，改用 WebFetch；RSS 10-23 17:00Z）
+07 Grok 4.7 / GPT-6.1 Sol 选举推荐偏向：curl + trafilatura 核实 techcrunch.com 原文（10-24 15:00Z）
+08 英伟达「AI 金主」大考：curl + trafilatura 核实 cnbc.com 原文（10-24 11:00:01Z）；与 10-24 #08 neocloud 动荡角度不同（此条聚焦英伟达担保与信用敞口）
+09 Claude 付款页中国地区与银联：curl 核实 IT之家 1/017/490（pubtime_baidu 10-24 19:39:49+08:00）
+10 Apollo「标普 493」看不到 AI 回报：curl 核实 Apollo The Daily Spark 原文（仅日期 10-24，按 12:00+08:00 占位）
+11 中国信通院词元报告：curl 核实 IT之家 1/017/518（10-24 22:41:49+08:00）
+12 小云雀并入即梦：curl 核实 IT之家 1/017/480（10-24 18:59:27+08:00，援引 36 氪）
+13 NBER 专利律师 RCT：curl + trafilatura 核实 the-decoder.com 原文（10-24 14:34:05Z）
+14 TikTok 美国 4GW 算力：curl + trafilatura 核实 cnbc.com 原文（10-23 15:35:36Z，36 小时窗口边缘）
+15 Google Messages 增强保护：curl + trafilatura 核实 9to5google.com 原文（10-23 20:47Z）
+16 宾夕法尼亚 AI 广告标注法：curl + trafilatura 核实 theverge.com 原文（10-24 18:32:21Z）
+17 oai-math-revised：curl 核实陶哲轩博客 terrytao.wordpress.com 原文与评论（10-24 15:08:02Z）
+18 Jac 语言：curl + <p> 正则核实 theregister.com 原文（10-23 15:46:19Z）
+19 Arc 12 月 22 日停服：curl + <p> 正则核实 theregister.com 原文（10-23 15:22Z）
+
+跳过 / 未单独成卡：
+- 超出时间窗（旧闻）：Kyutai CADRE（官方 10-22）、Raon-1 mini（10-21）、Data Agent Kit GA（9-30）、Gemini Argon ADK（10-13）、千问 Go「我的应用」（10-23 11:03+08，超 36h）、apricitas 宏观文（9-27）
+- 与 10-11..10-24 已收录同题/同 URL：Muse DNS、AI 智能体进驻短信、Canva Craft、Block Dessa、Anthropic 未发布模型、OpenAI 驻场审计、Microduck / Wayve / Meta 条款 / Gemini Notebook、Storm-0940 / ARTEX、Warp Sciences、Flint、Timestral、Hy-Memory
+- PHP 漏洞系列已多次收录：Wired PHP 危机长文、TechCrunch Equity 播客，未纳入（01 仅收 Brotli 跨运行时新进展）
+- 名额或相关性原因降为备选：Anthropic sandbox-runtime（介绍稿）、TechCrunch AI 墓地、CNBC AI 客服、《蓝色星球 III》AI 争议、Latent Space 周报、Hy-Nomas Diffusers 接入、CNBC GTC 现场稿
+- AIHOT 当日唯一 lead「OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信」（The Decoder）与 10-24 #01 OpenAI 断网训练/红队同题，未纳入
+
+去重：
+- 对照 _prior_urls.json（437 个 URL，覆盖 10-11..10-24 的 ai.json/v.json）：本批 20 个 URL 无完全重复，批内 URL 亦唯一
+- 已与今日 v.json（大V视野流程 08:09 写入，12 条，头条为卡兹克实测 Kimi K3.1 Pro）交叉：URL 无重复，无同题条目；头条错开（AI新闻头条为 OpenAI 安全研究员事件）。v.json 话题：Claude Code 成员离职、DeepSeek-V4.1-Flash 12GB 量化、MiniMax H3 动漫、豆包就医、Codex 额度、Perplexity decider Mac、Google SI 字符串、Tibo/Dots、DeepSeek 贴吧、typesafe、塔勒布 —— AI新闻均未重复
+- AIHOT 日报 1 个标题键：已用 build.js 的 normalizeTitle/aihotTitleKeys/overlapsAihot 原函数脚本自检，20 条均无命中
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词：总部外长椅上的三名研究员与纸箱（被开除安全研究员，纪录片）/ 服务器机柜里破裂的压缩胶囊渗出橙色液体（Brotli 漏洞，纪录片张力）/ 地下机房里的蜂箱蜜罐与琥珀光中的金属机器黄蜂（Symantec 蜜罐）/ 厨房台面与孩子对话的桌面机器人头和边缘计算板（Nemotron 边缘模型）/ 三支规模悬殊的维修站团队与溢出的金色代币（Harness 论文）/ 拆壳显卡上方弹开的发光挂锁（GPU Unlock 写实产品）/ 大教堂式蜂巢存储大厅与爬梯工程师（OpenAI 存储）/ 投票站里红蓝腕带机械臂各投一票（选举推荐偏向）/ 金色芯片架成雾中桥梁、对岸半建数据中心（英伟达担保，新闻摄影）/ 茶餐厅桌上银联卡与笔记本暖橙光（Claude 银联）/ 黄昏传统企业办公室里落灰的 AI 助手与远处明亮科技园（Apollo，新闻摄影）/ 河畔数据中心粒子瀑布（信通院词元）/ 创作者把两卷胶片合入一台放映机（小云雀并入即梦）/ 法律图书馆里全息羽毛笔与红铅笔审稿的资深律师（NBER 律师实验）/ 变电站高压塔通向新数据中心（TikTok 算力，新闻摄影）/ 公交车上手机护盾弹开鱼钩（Messages 防诈骗）/ 州议会大楼前贴透明标签的广告牌（宾州广告法）/ 研讨室里数学家批注厚稿（oai-math-revised）/ 舞台上教授手持吞下代码彩带的机械河豚（Jac 语言）/ 旧笔记本彩虹侧栏渐隐、搬家纸箱与新笔记本黎明光（Arc 停服）
+- 16:9，无文字数字，无统一刊头色带、无万能会议室/科技桌；file 名 cover-20261025-ai-00…19.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：WebFetch（openai.com ×1）/ curl + trafilatura（元数据与正文：the-decoder.com、aikido.dev、marktechpost.com、techcrunch.com、theverge.com、cnbc.com、9to5google.com、apollo.com、terrytao.wordpress.com）/ curl + pubtime_baidu（ithome.com）/ curl + <p> 正则（theregister.com）/ Hugging Face API（Nemotron 模型卡）/ GitHub API（GPU Unlock 仓库）/ X MCP 未使用
+AIHOT 线索：fetch-aihot-daily.js 成功，但当日仅 lead 1 条（OpenAI 智能体借 CPU 缓存隐蔽通信，与 10-24 #01 同题，未纳入），sections/flashes 为空；20 条全部由公开源补齐（周末源站更新少，扩大了来源范围）
+published_at 说明：有精确时间的取源站元数据/RSS 时间换算 +08:00；01 Aikido 取页面「更新于」时间（PT 10-23 4:15PM）；10 Apollo Daily Spark 只有日期，按 10-24 12:00+08:00 占位（同 10-18..10-24 惯例）；03 取 MarkTechPost 发稿时间（NVIDIA Research 官方页日期为 10-23）；06 OpenAI 取 RSS 10-23 17:00Z；14/18/19 为 10-23 晚间（+08:00），处于 36 小时窗口边缘

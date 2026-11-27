@@ -1,0 +1,15 @@
+Alioxis News 大V视野收集报告 — 2026-10-10 (Asia/Taipei)
+条数: 17
+Lead: Max：小米 MiMo 招聘「AI 情报工程师」，JD 从竞品分析一路写到抓包、风控对抗与设备指纹
+读取方式: 公开 X MCP（namespace x）get_users_by_usernames + get_users_posts / get_posts_by_id(s)；未使用 box Chrome「正在关注」页
+时间窗: start_time≈2026-10-08T16:00:00Z（约 24–36h），过滤无实质回复/纯广告
+各 handle 计数:
+  @Khazix0918 (卡兹克): 0（该窗内无新帖）
+  @MaxForAI: 3
+  @xiaohu: 3
+  @thsottiaux: 2
+  @testingcatalog: 7
+  @gengdaJ: 2
+跳过: @xiaohu Anthropic 虐待政策串（已在 10-09 v.json）；@thsottiaux Day4 Ultrafast / 「Today we are announcing ChatGPT」梗图；@testingcatalog Atomic Desktop（已在 10-09）；@gengdaJ Monid 主题复述（已在 10-09）；Max 懂车帝/华为劫持等非 AI 主线吃瓜；大量短回复
+封面 prompts: 17 条，与 v.json 等长
+未执行: build / 封面生成 / 发布

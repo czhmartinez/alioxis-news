@@ -1,0 +1,36 @@
+Alioxis News 大V视野 covers 2026-10-04
+time: 2026-10-04 08:20:09 CST (Asia/Taipei)
+prompts: 12 | v.json items: 12
+done: 0/12
+failures: 12/12
+
+BLOCKER: GenerateImage unavailable in this executor subagent.
+- GetDynamicTools / CallDynamicTool: not in subagent tool list (cannot invoke)
+- CallMcpTool server=cursor toolName=GenerateImage: MCP server "cursor" not available here
+- CallMcpTool server=cursor-app-control GetDynamicTools: MCP server not available
+- GetMcpTools server=cursor: server not found (available: cursor-github, cursor-origin, user-Finance-xai, user-X)
+
+Historical note: successful daily covers used parent-native generate_image / cursor GenerateImage
+(params: description, filename|filePath, aspect_ratio|aspectRatio="16:9"), then Pillow compress
+to width 960 JPEG q=72 under assets/covers/.
+
+v.json image fields: UNCHANGED (still empty/prior values)
+assets/covers/cover-20261004-v-00..11.jpg: NOT created
+data/2026-10-04/_cover_raw/: empty (dir exists)
+
+Pending items (prompts ready in _cover_prompts_v.json):
+  FAIL v-00 | cover-20261004-v-00.jpg | image='' | AI投资上天价却未见生产力
+  FAIL v-01 | cover-20261004-v-01.jpg | image='' | Sam Altman：把判断权交给AI是安全问题
+  FAIL v-02 | cover-20261004-v-02.jpg | image='' | Anthropic联创与教皇争论AI意识
+  FAIL v-03 | cover-20261004-v-03.jpg | image='' | GPT会过测试，却未必把工程做好
+  FAIL v-04 | cover-20261004-v-04.jpg | image='' | Dario效应
+  FAIL v-05 | cover-20261004-v-05.jpg | image='' | Claude Code Mods可定制界面与运行行为
+  FAIL v-06 | cover-20261004-v-06.jpg | image='' | Aleph Alpha发布78B开源MoE模型Kolibri
+  FAIL v-07 | cover-20261004-v-07.jpg | image='' | Meta开发Agent Engine（内部代号Forge）
+  FAIL v-08 | cover-20261004-v-08.jpg | image='' | 10月3日AI简讯：Voices API、虚拟试穿与Gemini Full Ac
+  FAIL v-09 | cover-20261004-v-09.jpg | image='' | 别只把ChatGPT当问答机：六类实用任务
+  FAIL v-10 | cover-20261004-v-10.jpg | image='' | 用Claude做手机端30分钟联盟营销流程
+  FAIL v-11 | cover-20261004-v-11.jpg | image='' | “AI碎片工作”：作者称每天30分钟可变现
+
+ACTION FOR PARENT: run GenerateImage yourself for all 12 prompts, then compress + wire v.json,
+or re-dispatch with GenerateImage/CallDynamicTool attached to the subagent tool surface.

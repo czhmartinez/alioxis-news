@@ -1,0 +1,54 @@
+Alioxis News AI新闻收集报告 — 2026-11-16（Asia/Taipei）
+============================================================
+完成时间：2026-11-16 约 08:25 Asia/Taipei（UTC+8）
+输出目录：/workspace/alioxis-news/data/2026-11-16/
+产出：ai.json（13）、_cover_prompts_ai.json（13）、本报告、_aihot_daily.json、_aihot_summary.txt、_aihot_clues.json、_prior_urls.json（2361 URL）
+
+一、条数与头条
+- 条数：13（目标 15–20，未顶满。AIHOT 当日日报写明其窗口内「无新的 AI 大事」；周日到周一早的硬新闻偏少，已尽量用官方稿与可核对报道补齐，但不拿观点播客、清单稿或过旧通稿凑到 20。）
+- Lead（#00）：金融时报：黄仁勋与亲信讨论重返英伟达 CEO，硅谷盟友筹建「战情室」游说董事会并寻求白宫支持；财长 Bessent 则呼吁「大幅改组」、从外部选帅
+  URL：https://tech.yahoo.com/general/breaking-news/article/jensen-huang-weighs-comeback-as-nvidia-ceo-as-allies-lobby-board-ft-reports-bessent-calls-for-dramatic-shakeup-204839950.html
+  理由：11 月 15 日晚至 16 日早最重要的硬新闻进展（回归讨论 + 华盛顿反向施压 + 周二季报），Yahoo News 综合 FT / CNBC / Axios 的转述，已 WebFetch 核对。AIHOT 11-16 lead 为「今日安静，无大事发生」，不能当头条。备选：#01 OpenAI 科学博客首篇格点定义 / #02 苹果智能眼镜。
+  条目链接用 Yahoo News 而非 FT 原文，因 FT 页获取受限；摘要中凡来自 FT、CNBC、Axios 的内容均写明转述关系。英伟达与黄仁勋均未公开确认回归。
+
+二、与 v.json 交叉
+- 收尾时 v.json 已写好（6 条），已做硬 URL 去重：overlap=0。
+- 软同题（保留，本频道取通讯社/媒体全貌，v 为推文角度）：苹果智能眼镜（v #02 TestingCatalog 转述彭博社简报 / 本频道 #02 MacRumors 对同一 Power On 通讯的完整产品细节）。Daybreak（v #04 Tibo 征求反馈 / 本频道不单列，因 11-13 AI新闻已收官方介绍）。Gemini 4 Carbon / Antigravity 使用感受在 v #01，本频道未再做同题产品条（Carbon 与 Antigravity 本体此前已收）。
+- 前几日已收、本日主动未收：黄仁勋请愿联署与签名数字（11-15 lead；今日 Verge 提到或已超 15 万且有明显假名，未单独成条，以免与 #00 扎堆）、亚洲政府回应、Cursor 安全事件调查、美联储金融稳定报告、Thinking Machines 4-bit 报告、OpenAI 解散机器人团队、ChatGPT Wallet、Blackwell 训练指纹、Amodei 与 Dimon 炉边谈、DeepSeek 全家桶 API、llama.cpp v1.0、Antigravity /teamwork 与 Dynamic Workflows、混元 Hy Realtime、GPT-6 Astra 失准报告、Sierra Poppy、Gemini 连 Google Wallet、Apple HomeView、LangChain C 轮、黄仁勋离任融资缺口、Muse 外呼、Nvidia CEO 更迭本体（11-13 lead）、Gemini 4 Carbon / Hydrogen 模型发布本体（Hydrogen 搜索分发见本日 #10，属渠道追加）、文心 ERNIE 5.5、Claude Fable 5.2 / Meetings / Sheets（Sheets 已在历史目录以 claude.com/blog/sheets-whiteboards-data 收录）、AlphaGenome 2、ChatGPT Business Hub（11 月 10 日，窗口外且非本日新发展）。
+
+三、AIHOT 使用
+- 已跑 node /workspace/alioxis-news/scripts/fetch-aihot-daily.js 2026-11-16，并按 11-15 格式生成 _aihot_summary.txt、_aihot_clues.json。
+- 日报窗口 windowStart=2026-11-15T00:00:00.000Z、windowEnd=2026-11-16T00:00:00.000Z（北京时间 11-15 08:00 至 11-16 08:00），lead 为「今日安静，无大事发生」，sections / flashes / highlights 均为空。仅作线索，不作为条目来源。本日全部 13 条均为非 AIHOT 补充。
+
+四、补充采用（非 AIHOT）
+- #00 Yahoo News / FT 黄仁勋回归与 Bessent 表态；#01 OpenAI 科学博客首篇格点定义；#02 MacRumors 转述彭博社苹果眼镜；#03 TechCrunch 英伟达安全团队；#04 TechCrunch Bharat Semi 种子轮；#05 IT之家 openPangu-2.1-Pro（官方文档核日期与仅开通贵阳一区域）；#06 Databento 官方 C 轮（11-12，窗口略超出，此前未收）；#07 MIT Technology Review 芯片追踪（11-12，此前未收）；#08 英伟达 cuBLAS 官方技术博客（11-13 晚，此前未收）；#09 Anthropic 安全评测方法文（11-13，此前未收，偏方法建议）；#10 谷歌官方：Hydrogen 登陆搜索（11-12，模型本体已收，本条为搜索分发）；#11 Google Research 可穿戴健康年龄（11-11，略超出优先窗口，官方研究且数字可核对，作为补充）；#12 TechCrunch Mobility 对 Pony.ai 财务长的访谈。
+
+五、去重
+- _prior_urls.json：全部历史 ai.json + v.json（含 11-15，不含今天），共 2361 个 URL（11-15 的 prior 为 2337，加上 11-15 当日 18+6 条新 URL）；本日 13 条 URL 0 命中，内部无重复。
+- 与当日 v.json 硬 URL 去重 0 命中（见第二节）。
+
+六、来源核实方式
+- 13 条均经 WebFetch 和/或 curl 读取原文核对数字与日期。OpenAI、Databento、Anthropic、谷歌搜索博客、Google Research、英伟达 cuBLAS 为官方页；Bharat Semi、安全团队、Pony.ai 访谈为 TechCrunch；芯片追踪为 MIT Technology Review；苹果眼镜为 MacRumors 对彭博社通讯的报道；openPangu 以 IT之家为条目链接，日期与「仅西南-贵阳一」用华为云官方文档（更新时间 2026-11-15 GMT+08:00）核对；头条为 Yahoo News 对 FT / CNBC / Axios 的综合转述。
+- published_at：有精确时间者换算为 +08:00（Yahoo 更新时间 2026-11-15 8:50 PM UTC → 11-16 04:50；MacRumors 9:55 am PST 11-15 → 11-16 01:55；TechCrunch 安全团队 4:08 PM PST 11-14 → 11-15 08:08；Bharat Semi 3:30 PM PST 11-15 → 11-16 07:30；Mobility 9:05 AM PST 11-15 → 11-16 01:05；IT之家 2026/11/15 21:16:54 → 11-15 21:16:54；cuBLAS datePublished 2026-11-13T22:13:51+00:00 → 11-14 06:13:51；谷歌搜索博客 datePublished 2026-11-12T18:00:00+00:00 → 11-13 02:00）。仅有日期者为估计 T12:00+08:00：#01 OpenAI 11-15、#06 Databento 11-12、#07 MIT TR 11-12、#09 Anthropic 11-13、#11 Google Research 11-11。
+
+七、缺口与风险
+- 周日–周一早窗口硬新闻确实偏少，13 条未顶到 20；#06/#07/#10 为 11 月 12 日，#08/#09 为 11 月 13 日，#11 为 11 月 11 日，略超出约 36 小时优先窗口，因历史目录此前未收且有官方或可核对原文，作为补充收录。#09 是方法建议而非产品发布，新闻性偏弱，已靠后。#10 是 11-13 已收 Hydrogen 模型发布的搜索分发，非模型本体。#11 偏研究原型，文中已写明非临床诊断工具。
+- 英伟达相关 4 条（#00 回归、#03 安全团队、#07 芯片追踪、#12 中国自动驾驶 B 计划），再加 #08 cuBLAS 技术稿；如嫌扎堆可压缩 #12 或 #08。未再单列路透社 11-14「黄仁勋曾向首席律师隐瞒关系」等同主题调查稿，避免与 #00/#03 重复。
+- #00 未直接打开 FT 原文，数字与引语以 Yahoo News 转述为准；Bessent 的「10 天内答复」等句来自该文对 CNBC / Axios 的转述。#02 未打开彭博社付费通讯原文，产品细节以 MacRumors 转述为准。#05 未在官方文档正文中核对到 IT之家所报的单价与「10 万余条」字句，摘要已标明来源；亦未写入其他二手报道中的 512K 上下文等未在 IT之家/所抓官方页出现的数字。
+- 小互称「本次星舰发射里有 Optimus、随星舰入轨并被塔架捕获」：SpaceX 官方 Flight 15 页面写明载荷为 26 颗 Starlink V3，未提及 Optimus，本频道与 v.json 均不采用该说法。
+- 本频道国内源有 #05 华为云盘古；未生成封面、未 build、未发布。
+
+八、条目清单
+#00 金融时报：黄仁勋与亲信讨论重返英伟达 CEO，硅谷盟友筹建「战情室」游说董事会并寻求白宫支持；财长 Bessent 则呼吁「大幅改组」、从外部选帅 | https://tech.yahoo.com/general/breaking-news/article/jensen-huang-weighs-comeback-as-nvidia-ceo-as-allies-lobby-board-ft-reports-bessent-calls-for-dramatic-shakeup-204839950.html
+#01 OpenAI 开设科学博客，首篇客座文章：物理学家 Nathaniel Craig 与 GPT-6 Astra 提出标准模型的格点候选定义，但仍待检验，尚不能用于实际模拟 | https://openai.com/index/step-toward-defining-the-standard-model/
+#02 彭博社 Gurman：苹果智能眼镜计划 2027 年 6 月 WWDC 发布、同年年底出货，首款无 AR 显示，靠 Siri AI 与配对 iPhone 运行第三方应用 | https://www.macrumors.com/2026/11/15/apple-smart-glasses-hinge-on-siri/
+#03 TechCrunch：英伟达长期首席安全官 8 月以健康理由离职，继任者与公司均未说明安全团队对 Megaspeed 调查及黄仁勋关系知情多少 | https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/
+#04 印度芯片初创 Bharat Semi 完成 2400 万美元种子轮，开发把成像、处理与 AI 做在同一颗芯片上的可编程图像传感器，目标 2027 年商用 | https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/
+#05 华为云 MaaS 上线开源盘古 openPangu-2.1-Pro：面向 Agent、鸿蒙应用开发与昇腾算子生成升级，现仅开通西南-贵阳一区域 | https://www.ithome.com/1/027/450.htm
+#06 行情数据公司 Databento 完成 1 亿美元 C 轮、估值 11 亿美元：称已与六家最大前沿 AI 实验室中的五家签订企业合同，团队仍不到 40 人 | https://databento.com/blog/series-c
+#07 MIT Technology Review：众议员 Foster 称英伟达代表曾私下承认可以落实《芯片安全法》所要求的追踪手段，尽管行业公开质疑其可行性 | https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/
+#08 英伟达 cuBLAS 在 CUDA Toolkit 13.4.2 引入 Ozaki-II 与 2M 算法：用整数 Tensor Core 做完整 FP64 精度的矩阵乘，DGEMM 在 VR NVL72 上比原生 FP64 快 5.5 倍 | https://developer.nvidia.com/blog/faster-scientific-simulations-with-new-fp64-algorithms-in-nvidia-cublas/
+#09 Anthropic 发布安全评测构建建议：安全评测测的是模型是否「做对了」，并建议先写清构念、用人类判断校准评分器、报告不确定性 | https://www.anthropic.com/research/building-strong-safety-evaluations
+#10 谷歌把 Gemini 4 Hydrogen 接入搜索：官方称为迄今最大的搜索模型升级，已向全球所有搜索用户开放 | https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/
+#11 Google Research 发布可辅导「健康年龄」框架：用可穿戴数据训练 SensorWM，在超 228 万人员周数据上模拟 12 周习惯轨迹，研究原型尚非临床诊断工具 | https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching/
+#12 Pony.ai 财务长：若黄仁勋离任后对华芯片出口进一步收紧，中国自动驾驶公司已准备「B 计划」，更多使用中端算力与国产芯片 | https://techcrunch.com/2026/11/15/techcrunch-mobility-the-nvidia-backup-plan-for-chinas-self-driving-industry/

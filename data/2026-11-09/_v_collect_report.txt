@@ -1,0 +1,48 @@
+大V视野收集报告 — 2026-11-09（Asia/Taipei）
+
+读取方式：公开 X 读取（公开 X MCP，namespace x）
+- 用户 id 复用既有解析：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- get_users_posts：exclude=replies，start_time=2026-11-07T16:00:00Z（约覆盖 11-08 全日 + 11-09 早，Asia/Taipei），max_results=25
+- 分页：exclude=replies 一轮各账号 meta 均无 next_token，未翻页
+- 补充一轮：exclude=retweets、max_results=50（Khazix / Max / 小互 / Tibo / TC），用于检查自回复/线程补充；Max 该轮有 next_token，但全是回复网友的短讨论（DeepSeek 灰度答疑等），未继续翻页
+- 长文/截断补全：get_posts_by_ids 一批 11 个 id（卡兹克 ×2、小互日报、TC Gemini/Modretro、Tibo ×5、Max 黄仁勋）
+- 未使用浏览器；未使用 user-X（关注时间线）；用公开读取代替关注时间线
+
+原始拉取条数（exclude replies 后 API 返回）：
+- @Khazix0918：2
+- @MaxForAI：6
+- @xiaohu：1
+- @thsottiaux：2
+- @testingcatalog：4
+- @gengdaJ：3（含 2 条自回复）
+
+入选 v.json：7 条（低于 12–20 目标：本窗原创帖总量少，且大量与 11-08 v.json 重叠；不凑数、不编造）
+各 handle 入选计数：{'@Khazix0918': 2, '@MaxForAI': 0, '@xiaohu': 1, '@thsottiaux': 2, '@testingcatalog': 2, '@gengdaJ': 0}
+- @Khazix0918：2
+- @MaxForAI：0
+- @xiaohu：1
+- @thsottiaux：2
+- @testingcatalog：2
+- @gengdaJ：0
+
+Lead：卡兹克：灰度路由到 GPT-6.2 Sol——Three.js《时间的尽头》实测，审美「强到爆炸」
+URL：https://x.com/Khazix0918/status/2119507514459144677
+
+合并/跳过说明：
+- 合并：Tibo Pro 套餐澄清主帖 + 引用自身的「Pro 50 有意义吗」征询帖（2119305294291612140）+ 回复「Pro 与 Business 100 用量翻倍」（2119232059537514598）→ 一条（URL 用主帖）
+- 分列：卡兹克两帖（审美测试 / 20 并发额度只掉 1%）内容不同，各占一条
+- 单独收录 Tibo 回复帖：GPT-6.1 Terra 与 Opus 5.5 的定位评论（有实质信息）
+- 跳过昨日已收录 URL：Max DeepSeek V4 Pro 灰度（2119210965963362579）、辛顿《卫报》（2119159165692293170 + 原链接回复）、开源模型周末下载（2119157691230892441）、Karpathy TristanTube（2119154411545186676）；TC Dots 2FA（2119163315687731405）、Mistral Studio（2119112693424537779）
+- 跳过非 AI / 风险内容：Max「黄仁勋之女取消访韩」（2119264938388762632，涉未经证实的间谍/私生活指控，非 AI 工具/模型/应用）
+- 跳过非 AI：gengdaJ 惠州度假感悟长帖、暖和地区好处自回复、生财有术社群广告
+- 跳过短回复/梗：Tibo「We hesitated to embed … into the codex app」（链接展开仅为 x.com，无法确认指向）、「Basement is fun」、「Alfred plays to win」等；TC「Finally 💀」「not in EU」等回复；卡兹克/小互回复网友短句
+- 传闻/观察标注：卡兹克 GPT-6.2 Sol 为个人灰度体验、额度消耗为个人账户观察；TC Gemini Enterprise 为产品线索+作者判断；Pro 50 仅为征询
+
+与 ai.json 软同题（硬 URL 不同）：
+- 小互日报附带的 OpenAI 估值 1.25 万亿 / 110 亿到账在 11-07 AI 新闻已作头条；v 条以 Anthropic EVE 内鬼实验为主
+- 写本文件时 data/2026-11-09/ai.json 尚未生成，未做当日 AI 交叉比对，建议 build 前由主流程复核
+
+备份：_v_raw_mcp.json（元信息 + 两轮原始帖子）、_v_raw_fulltexts.json
+未生成封面、未 build、未发布。
+
+完成时间：2026-11-09 08:14:02 Asia/Taipei

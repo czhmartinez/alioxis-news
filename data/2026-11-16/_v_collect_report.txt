@@ -1,0 +1,33 @@
+大V视野收集报告 — 2026-11-16（Asia/Taipei）
+
+读取方式：公开 X 读取（namespace x）；未用浏览器、未用 user-X
+- 用户 id 复用：Khazix0918=1492195583699951620 / MaxForAI=1699797396589588480 / xiaohu=1764818331822182400 / thsottiaux=1953337039510003712 / testingcatalog=3980735590 / gengdaJ=1897545708770840576
+- 先读取 skill x-api-mcp-guide，再 GetDynamicTools 确认 get_users_posts / get_posts_by_ids 参数。get_users_posts：exclude=replies（未排除 retweets），窗口 start_time=2026-11-14T12:00:00Z（11-14 20:00 Asia/Taipei 起，约 36 小时至抓取），max_results=25；字段 note_post（返回仍出现 note_tweet 键，脚本两者兼容）
+- 主窗口原始条数：@Khazix0918 2 / @MaxForAI 3 / @xiaohu 3 / @thsottiaux 1 / @testingcatalog 4（第 1 页未满 25，无需补第 2 页）/ @gengdaJ 1
+- 未再向前做 extended 窗口：该 36 小时窗口已覆盖周日+周一早的 weekday 补采；再往前会大量撞上 11-15 已收帖。
+- get_posts_by_ids 补长文一批 9 个 id（6 条入选 + 3 条被引用原帖：@farzyness 的 AGI 判断、@markgurman 的 Power On、@ClaudeDevs 的 Projects 更新）。Max 的 AGI 帖在时间线接口里只露出开头，长文在 note_tweet 中补全。全部落盘到 _v_raw_mcp.json / _v_raw_fulltexts.json
+- 本次共 7 次 X 读取（主窗口 6 + 补长文 1）
+
+入选 v.json：6 条
+各 handle：{'@Khazix0918': 1, '@MaxForAI': 1, '@xiaohu': 0, '@thsottiaux': 1, '@testingcatalog': 3, '@gengdaJ': 0}
+头条：Max for AI：认同「AGI 已至」，称 GPT-6 Astra 是首个达到 AGI 级能力的模型，Fable 5.2 与 Opus 5.5 也可部分或全部接管电脑工作，但担忧普通人受益不足、白领被更廉价的智能体替代（个人判断）
+URL：https://x.com/MaxForAI/status/2121939379069534675
+（优先账号长文，对 AGI 与就业的个人判断；与本频道 AI新闻无硬 URL 冲突）
+
+跳过/说明：
+- 卡兹克 2121602766976237610（Claude / Codex 派活工作流）：已在 11-15 v.json，URL 去重跳过
+- Max 2121763372819751409（「不蒸馏是对的」，称只有豆包预测到 BLG 3-1 胜 GEN）：电竞比分花絮，AI 信息量不足，不收
+- Max 2121751377403941200（Denny's 撤下黄仁勋创业卡座纪念牌，配调侃）：11-15 已因非 AI 实质信息跳过，维持判断
+- 小互 2121846749291761956（「准备启动新系统」配图）：无可用产品或事实细节，不收
+- 小互 2121793182329663853（称本次星舰发射载有 Optimus，随星舰入轨返回并被塔架捕获）：作为个人说法信息完整，但 SpaceX 官方 Flight 15 页面写明载荷为 26 颗 Starlink V3、未提及 Optimus，无法核实且与官方载荷描述冲突，不收
+- 小互 2121761325697441818（只回「伟大」，引用星舰被 Mechazilla 捕获）：无追加信息，不收
+- 逸尘 2121626756511940804（引用自己 11-12 的 ChatCut 云剪辑帖）：11-15 已跳过，原帖已在 11-13 v.json，不收
+- TC 2121636249903710411（Grok Bot 付费方案用量约 +7% / 定时任务最高约 +15%）：已在 11-15 v.json，URL 去重跳过
+- URL 去重：对历史全部 v.json/ai.json 及同目录 11-16 ai.json（13 条）硬比对，入选 6 条与 11-16 ai 及 _prior_urls.json（2361 个 URL）均 0 重复
+- 与 11-16 AI新闻软同题：v #02 TestingCatalog 转述彭博社苹果眼镜，AI新闻 #02 为 MacRumors 对同一通讯的完整产品报道，保留——v 取简报角度，ai 取媒体详述。v #04 Tibo 征求 Daybreak 反馈，与 11-13 已收的官方 Daybreak 介绍同产品、不同角度，不与本日 ai 撞 URL。
+- 观点/传闻标注：Max 的 AGI 判定、Fable 5.5「还没发布」预期、裁员与「雇智能体比雇人更便宜」均为个人观察，未给出可核对数字；卡兹克对 Carbon / Antigravity 的评价为个人体验；TC 对苹果「更严肃」优先级的补充是观察；TC 称「现在也许是 NB3 发布的好时机」为未证实猜测，已在标题/摘要标明。
+- 缺口：周日窗口确实偏薄。优先账号里，小互 3 帖均不可用、逸尘仅 1 条且为旧帖引用、卡兹克可用 1 帖、Max 可用 1 帖（另 2 条不可用）、Tibo 1 帖为反馈征集。入选 6 条，低于 12–20 目标，不凑数、不编造。
+
+封面提示词：_cover_prompts_v.json（6 条，cover-20261116-v-00 ～ 05）
+未生成封面、未 build、未发布。
+完成时间：2026-11-16 08:25 Asia/Taipei

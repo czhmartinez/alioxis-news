@@ -1,0 +1,59 @@
+Alioxis News AI新闻收集报告 — 2026-10-30（Asia/Taipei）
+
+条数：20
+Lead：Mistral 正式放出 Large 4「Le Chonk」权重：1 万亿参数 MoE、百万上下文，主打可本地部署的网络防御，独立评测称快而便宜但仍落后中国头部开源模型
+Lead URL：https://huggingface.co/blog/mistral-large4
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-30/_aihot_daily.json（fetch-aihot-daily.js 成功，08:15 抓取；lead 为「Mistral Large 4（Le Chonk）登陆 Hugging Face：1T 参数 MoE 多模态开源权重模型」，sections 12 条 + flashes 9 条）
+- /workspace/alioxis-news/data/2026-10-30/_aihot_summary.txt（与 10-29 同格式：lead 头 + sections + flashes）
+- /workspace/alioxis-news/data/2026-10-30/_prior_urls.json（新写入，扁平 URL 列表 429 个，覆盖 10-18..10-29 的 ai.json/v.json）
+- /workspace/alioxis-news/data/2026-10-30/ai.json
+- /workspace/alioxis-news/data/2026-10-30/_cover_prompts_ai.json（20 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-30/_ai_collect_report.txt
+
+纳入（20）：
+00 Mistral Large 4「Le Chonk」开放权重：curl + trafilatura 核实 huggingface.co/blog 原文（10-29 00:00Z）；交叉 TechCrunch（17:00Z）、The Decoder（15:25Z）；AIHOT 头条/模型栏（标题已避开「Mistral Large 4（Le Chonk）登陆」前缀）。活跃参数 HF 正文写 49B、仓库型号与 Decoder 为 52B，摘要按「1T-A52B 型号标注」表述；Terminal-Bench/编程指数各源口径不一，摘要只写注明出处的数字
+01 OpenAI 四层失准监测：curl 对 openai.com 403，改用 WebFetch 核实原文；时间取 openai.com/news/rss.xml（10-29 09:00Z）；AIHOT 安全栏（标题已避开「OpenAI 详解如何检测」前缀）
+02 Gemini 应用内生成/预览/编辑文件：curl + trafilatura 核实 blog.google 原文（10-29 16:15Z）；交叉 The Verge（18:45:31Z）；AIHOT 快讯
+03 Factory Droid 1.0：curl + trafilatura 核实 factory.com/news/frontier-harness（仅 10-29 日期）；AIHOT 开发栏（标题已避开「Factory 发布 Droid 1.0」前缀）
+04 Figma 自训改稿模型：curl + trafilatura 核实 figma.com/blog 原文（10-29 21:00Z）；AIHOT 快讯
+05 Baseten joey-1 决策模型：curl + trafilatura 核实 marktechpost.com 原文（10-29 21:20:29Z）
+06 OpenMOSS MOSS-Image：curl + trafilatura 核实 openmoss.ai 中文博客（AIHOT 时间 10-28 16:00Z）；AIHOT 快讯
+07 智元 GO-3 Preview：curl 核实 IT之家 1/019/806（pubtime 10-30 07:22:24+08:00）
+08 Kimi 接入 Gmail/Drive/日历：curl 核实 IT之家 1/019/782（pubtime 10-29 22:27:39+08:00）
+09 Prime Intellect Prime Mega MoE：curl + trafilatura 核实 marktechpost.com 原文（10-29 18:28:57Z）
+10 Granola 听写：curl + trafilatura 核实 techcrunch.com 原文（10-29 17:54:38Z）
+11 Meta Style Sketch：curl + trafilatura 核实 techcrunch.com 原文（10-29 19:14:36Z）
+12 Wabi 12.5 亿美元估值：curl + trafilatura 核实 techcrunch.com 原文（10-29 14:35:26Z）
+13 Deepgram 收购 Daily（Pipecat）：curl + trafilatura 核实 techcrunch.com 原文（10-29 13:00Z）
+14 中国实验室转向蒸馏 GPT-6 Astra：curl + trafilatura 核实 the-decoder.com 原文（10-29 13:20:14Z，援引 The Information）
+15 埃森哲承包商把国防部系统接入个人 Claude Code：curl + trafilatura 核实 wired.com 原文（10-29 18:39:43Z）
+16 Reddit 转向登录为主：curl + trafilatura 核实 techcrunch.com 原文（10-29 20:08:31Z）；AIHOT 社区栏（标题已避开「Reddit 宣布转向」前缀）
+17 ServiceNow 单日暴跌 27%：curl + trafilatura 核实 cnbc.com 原文（10-29 14:58:03Z 发布，后续更新）
+18 Thrive Holdings 收购 ADT：curl + trafilatura 核实 techcrunch.com 原文（10-29 19:56:19Z）
+19 AWS 万亿美元目标与资本开支：curl + trafilatura 核实 techcrunch.com 原文（10-29 23:42:22Z）
+
+跳过 / 未单独成卡：
+- 与今日 v.json 同题而撤下：OpenAI Pro 各档 Work/Codex 额度翻倍（The Decoder 原文已核实 10-29 20:01:27Z；v 小互已收）、《纽约时报》Megaspeed 高管接近黄仁勋（TechCrunch/CNBC 原文已核实；v Max 已收）——改用 17 ServiceNow、18 Thrive/ADT 补位
+- 时间超窗：OpenRouter 默认路由重建（原文 datePublished 10-28 00:00Z，已核实 TTFT -16.9%/吞吐 +16.3%/容量错误 -46%，AIHOT 写「429 降 67%」与原文不一致）、Block Dessa（10-23 公布）、Hermit（v0.1.0 为 10-25 发布）
+- 与 10-18..10-29 已收录同题：Claude Enterprise 智能报告/共享预算（10-29 #09）、ChatGPT 订阅抵 API 额度（10-29 v TestingCatalog）、Anthropic「专家采纳智能体意见」（10-28 Claude Code 暗设立场）、Alphabet 财报/搜索增速（10-29 #12）
+- AIHOT 条目未纳入：Pika H3 Flex、404 Media Proton AI 转型（已核实，名额原因降为备选）、Trakkr 引用溯源研究、OpenRouter PDF 抽表教程、The Verge 解读 Anthropic S-1、OpenAI Model Spec 更新（未单独核实原文）、Addy Osmani 过度提示、腾讯混元 Hy-Nomas
+- 抓取失败跳过：Wiz 智能体攻击七大指纹（博客 URL 404）
+- 名额原因降为备选（均已核实）：DiffuSpace Clover-35B-A3B 扩散语言模型（IT之家 1/019/783）、Dream 1700 万美元融资（a16z）；CNBC 资本开支汇总、英特尔 -21% 未核实，不纳入
+
+去重：
+- 对照 _prior_urls.json（429 个 URL）：本批 20 个 URL 无完全重复，批内 URL 唯一
+- 已与今日 v.json（大V视野流程 08:19 写入，14 条，头条为卡兹克 Buddy One 长文）交叉：URL 无重复；头条错开（AI新闻头条 Mistral Large 4）；标题用 overlapsAihot 对 v 标题自检 0 命中
+- 与今日 v.json 同题但保留（沿用双页签并存先例，角度错开）：00 Mistral Large 4（v TestingCatalog 速递；AI新闻取 HF 官方博客架构/许可/安全基准与 Decoder 独立评测，且为 AIHOT 头条）
+- AIHOT 日报 12 个标题键：已用 build.js 原函数 normalizeTitle/aihotTitleKeys/overlapsAihot 自检，20 条无命中
+- 额外用同一函数对照 10-15..10-29 全部 ai/v 标题及今日 v.json 标题：复检 0 命中
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词：欧洲大教堂式数据大厅里的巨型「大块头」（Le Chonk）/ 夜班安全室红灯亮起、玻璃后暂停的训练集群（失准监测）/ 咖啡桌上手写笔记变复习提纲、划选段落长出图表（Gemini 文件编辑）/ 玻璃沙箱立方里成百机械臂并行（Droid 程序化工具调用）/ 设计台上机械手用镊子微调卡片间距（Figma）/ 胡桃木桌上的黄铜道岔分流小火车（joey-1 决策模型）/ 夜间印刷厂晾满海报与信息图（MOSS-Image）/ 便利店柜台后递煎饼果子的人形机器人（GO-3）/ 信封、文件夹与日历光线汇向月牙助手（Kimi 插件）/ 测试台 GPU 上前后双向流动的光束（Mega MoE 反向传播）/ 边走边对 MacBook 说话、声波折成笔记（Granola）/ 东南亚公寓里虚拟模特试穿与行李箱（Style Sketch）/ 屋顶上折纸小应用环绕的个人智能体（Wabi）/ 录音棚调音台前握手（Deepgram 收购 Daily）/ 暗仓里从巨型星形水晶抽取推理丝线（Astra 蒸馏）/ 政府设施走廊无人值守笔记本与外泄光流（国防部 Claude Code 事件）/ 半掩的图书馆门外排队的小爬虫机器人（Reddit 登录墙）/ 交易大厅红线暴跌（ServiceNow）/ 蓝调时刻郊区住宅门口的安防面板（Thrive 收购 ADT）/ 夕阳下施工中的超大规模数据中心园区航拍（AWS 资本开支）
+- 16:9，无文字数字，无统一刊头色带、无万能会议室/科技桌、无抽象几何；file 名 cover-20261030-ai-00…19.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：curl + trafilatura（huggingface.co、techcrunch.com、the-decoder.com、blog.google、theverge.com、factory.com、figma.com、marktechpost.com、openmoss.ai、wired.com、cnbc.com）/ WebFetch（openai.com，curl 403）/ curl + pubtime_baidu（ithome.com）/ feedparser 解析 RSS 筛选 / X MCP 未使用
+AIHOT 线索：fetch-aihot-daily.js 成功（lead 为 Mistral Large 4，sections 12 条 + 快讯 9 条）；核实后改写标题纳入 00/01/02/03/04/06/16；与 v 同题、超窗及未核实条目未纳入，其余由公开源补齐
+published_at 说明：均取源站元数据/RSS 精确时间换算为 +08:00（03 Factory 源站仅有日期，按 00:00Z 记为 08:00+08:00；06 取 AIHOT 时间）；时间范围 10-29 00:00 至 10-30 07:42（+08:00），均在 36 小时窗口内

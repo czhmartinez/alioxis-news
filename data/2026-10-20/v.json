@@ -1,0 +1,274 @@
+[
+  {
+    "title": "Max：一人用 Agent 攻击 1200 家网站——约 5000 美元 Token、每次成功入侵约 50 美元",
+    "summary": "Max 转述路透社报道：一名用中文下指令的黑客让 AI Agent 尝试攻击 1200 多个网站，入侵了约翰迪尔、SharkNinja、康明斯等 100 多家公司相关网站，整轮约耗 5000 美元 Token，摊下来每次成功入侵约 50 美元。攻击者使用开源多 Agent 框架 Cairn，研究员从 worker 名称判断底层很可能是 Claude Code 搭配 DeepSeek V4.1 Flash；成功任务平均耗时近 23 小时，最长跑了五天多。讽刺的是，攻击者自己的控制面板直接暴露在公网，研究员正是顺着面板看到了 Agent 的任务与执行记录。",
+    "url": "https://x.com/MaxForAI/status/2112198777348268271",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-19T23:06:45+08:00",
+    "tags": [
+      "AI安全",
+      "Agent",
+      "Cairn",
+      "Claude Code",
+      "DeepSeek"
+    ],
+    "image": "/assets/covers/cover-20261020-v-00.jpg"
+  },
+  {
+    "title": "Max 解读 DHS 对 DeepSeek 禁令：联邦民用机构禁采，连「基于 DeepSeek 的第三方产品」也被纳入",
+    "summary": "Max 细读《联邦公报》文件：美国国土安全部命令禁止联邦民用行政机构采购 DeepSeek 及关联实体的产品服务，并清理已在用的系统，公告 10 月 19 日预公开、20 日正式刊登，命令原始签发日为 7 月 24 日，设 60 天豁免申请期。DHS 理由包括服务器在中国、敏感数据外流风险及 iOS 应用漏洞。Max 最在意第三方条款：给这些机构交付 AI 助手、Agent 的团队即便用自有品牌也受限，文件也未给本地部署或第三方托管单列豁免，底层模型供应商从此直接决定产品能否进入这部分政府市场。",
+    "url": "https://x.com/MaxForAI/status/2112205089482174749",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-19T23:31:50+08:00",
+    "tags": [
+      "DeepSeek",
+      "DHS",
+      "政府采购",
+      "AI监管",
+      "第三方产品"
+    ],
+    "image": "/assets/covers/cover-20261020-v-01.jpg"
+  },
+  {
+    "title": "小互读 LobsterAI《中国办公 Agent 用户行为报告》：单次任务 Token 半年涨 3.2 倍，77% 用微信派活",
+    "summary": "小互分享 LobsterAI 新一期月度报告的看点：9 月单次任务 Token 规模已是 3 月的 3.2 倍，设计/影视/创作占比升至 17.2%，生成之后的整理、修改、交付正是 Agent 的强项。他特别提醒看缓存那张图——Agent 反复读上下文，缓存能否命中、命中后打几折会让费用差很多，「单价便宜，用起来不一定省钱」。报告还显示 IM 派活用户中 77% 用微信，郑州进前十、重庆用户深夜仍在用，比只看模型跑分更能看出大家真正拿 Agent 做了什么。",
+    "url": "https://x.com/xiaohu/status/2112002646303445402",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-19T10:07:24+08:00",
+    "tags": [
+      "办公Agent",
+      "LobsterAI",
+      "Token成本",
+      "缓存",
+      "用户报告"
+    ],
+    "image": "/assets/covers/cover-20261020-v-02.jpg"
+  },
+  {
+    "title": "Max：将有备受瞩目的新模型发布，Agentic 能力超 DeepSeek V4.1-Flash 且更便宜——但别忘了算缓存",
+    "summary": "Max 发「快速更新」称，他被告知一款备受瞩目的模型即将当天发布，Agentic 能力优于 DeepSeek V4.1-Flash-1017，最重要的是价格更低，他看到的泄露测试和 Demo 已证实这些说法，并承诺上线后发正式评测。他随即补充：所谓价格更低并不包含缓存命中部分，DeepSeek 在这方面是 GOAT；之后转发 MiniMax 官宣 M3.1 Flash 时也评论「看起来很好，但是要考虑缓存成本」。",
+    "url": "https://x.com/MaxForAI/status/2112086356126232636",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-19T15:40:02+08:00",
+    "tags": [
+      "新模型",
+      "Agentic",
+      "DeepSeek",
+      "缓存成本",
+      "定价"
+    ],
+    "image": "/assets/covers/cover-20261020-v-03.jpg"
+  },
+  {
+    "title": "TestingCatalog：MiniMax 官宣 M3.1 Flash——即「Space Bunny」，DeepSWE 74%、每百万 Token 0.15/0.60 美元",
+    "summary": "TestingCatalog 报道 MiniMax 正式发布 M3.1 Flash，此前在 OpenRouter 上以「Space Bunny」匿名上线。M3.1 Flash 在 DeepSWE 拿到 74%，API 价格为每百万输入/输出 Token 0.15/0.60 美元，权重将于 10 月 23 日开放，MiniMax 还在准备 Pro 版本。所引官方推文称其成本为 M3 的三分之一、速度为 3 倍，缓存读取每百万 Token 0.015 美元。",
+    "url": "https://x.com/testingcatalog/status/2112155774898040898",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-19T20:15:53+08:00",
+    "tags": [
+      "MiniMax",
+      "M3.1 Flash",
+      "Space Bunny",
+      "开源权重",
+      "DeepSWE"
+    ],
+    "image": "/assets/covers/cover-20261020-v-04.jpg"
+  },
+  {
+    "title": "TestingCatalog：The Information 称 Anthropic 本月发新模型，同期还有 Gemini 4 Carbon 与 OpenAI 新 Terra",
+    "summary": "TestingCatalog 引 The Information 报道：Anthropic 将在本月发布新模型，同月还有 Google 的 Gemini 4 Carbon 和 OpenAI 一款新的 Terra 模型。报道称该模型尤其擅长在信息很少时洞察用户的潜在意图和目标，也更会「跳出框框」思考，而非复述常识建议，目前尚不清楚归属 Fable 还是 Opus 系列。TestingCatalog 认为可靠的跳出框框能力意味着进入「创新者」阶段，但「洞察潜在意图」在护栏语境下有点吓人；线程补充本月已有用户反映 Opus 5.5 被路由到更强模型，Fable 5.5 痕迹也频繁出现。",
+    "url": "https://x.com/testingcatalog/status/2112195306695647502",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-19T22:52:58+08:00",
+    "tags": [
+      "Anthropic",
+      "新模型",
+      "Gemini 4 Carbon",
+      "OpenAI",
+      "The Information"
+    ],
+    "image": "/assets/covers/cover-20261020-v-05.jpg"
+  },
+  {
+    "title": "Max：奇绩创坛 4 家实体被 OFAC 制裁——牵出前谷歌工程师窃取 TPU 机密案，被投企业需按 50% 规则自查",
+    "summary": "Max 转述美国财政部 OFAC 10 月 19 日公告：奇绩投资管理公司、人民币一期/二期基金及致远企业管理共 4 家实体被列入制裁名单，同批还有上海至算科技，依据为《2022 年保护美国知识产权法》。此案牵涉前谷歌工程师丁林葳上传 2000 多页 TPU、GPU 系统与集群管理等机密资料，他创办的至算科技曾获奇绩种子投资，美国国务院认定奇绩为窃密活动提供了重大支持。Max 提醒被投企业按 OFAC 50% 规则核查股权、融资与退出安排，担心合规尽调拖慢早期团队的融资交割。",
+    "url": "https://x.com/MaxForAI/status/2112207390619889829",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-19T23:40:59+08:00",
+    "tags": [
+      "奇绩创坛",
+      "OFAC",
+      "制裁",
+      "AI芯片",
+      "融资合规"
+    ],
+    "image": "/assets/covers/cover-20261020-v-06.jpg"
+  },
+  {
+    "title": "Tibo：OpenAI 协助 OpenCode 受攻击用户恢复使用并退还被盗刷额度，可申请 Daybreak Blue 网络防御权限",
+    "summary": "Tibo 表示 OpenAI 团队与 OpenCode 合作，让同时是 OpenAI API 客户的 OpenCode 用户恢复使用，并退还此次攻击中可能被盗刷的额度。他同时提醒，防御方可以申请 Daybreak Blue，使用 OpenAI 面向网络安全的宽松设置，「不要等到出事才来处理」。",
+    "url": "https://x.com/thsottiaux/status/2112034063934742720",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-10-19T12:12:15+08:00",
+    "tags": [
+      "OpenCode",
+      "OpenAI",
+      "安全事件",
+      "Daybreak Blue",
+      "API额度"
+    ],
+    "image": "/assets/covers/cover-20261020-v-07.jpg"
+  },
+  {
+    "title": "TestingCatalog：ChatGPT Slides 支持实时协作编辑——团队、Dot 与 ChatGPT 同改一份幻灯片",
+    "summary": "TestingCatalog 报道 OpenAI 更新 ChatGPT Slides，团队成员、Dot 与 ChatGPT 可以一起实时编辑幻灯片、做增强和留评论，面向 Pro、Business、Enterprise 方案。所引官方说明称，用户可直接在页面上点击改文字、更新图表、移动或缩放图片形状，让 ChatGPT 把反馈落实为修改，可从对话或文件一键生成，并导出到 PowerPoint 或 Google Slides。",
+    "url": "https://x.com/testingcatalog/status/2112309941058818222",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-20T06:28:29+08:00",
+    "tags": [
+      "ChatGPT",
+      "Slides",
+      "协作",
+      "办公AI",
+      "OpenAI"
+    ],
+    "image": "/assets/covers/cover-20261020-v-08.jpg"
+  },
+  {
+    "title": "TestingCatalog：OpenAI Platform 上线「Decisions」API 试验场——Predicate、Choice、Score 三种决策模式",
+    "summary": "TestingCatalog 发现 OpenAI Platform 新增「Decisions」API Playground，用户可以直接测试 OpenAI 近期发布的决策模型，提供 Predicate、Choice、Score 三种选项，界面会给出「Probability True」这类概率输出。",
+    "url": "https://x.com/testingcatalog/status/2112334786794528884",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-20T08:07:13+08:00",
+    "tags": [
+      "OpenAI",
+      "Decisions API",
+      "决策模型",
+      "Playground",
+      "开发者"
+    ],
+    "image": "/assets/covers/cover-20261020-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：Nace AI 发布多模态决策模型 Drex Max——只选选项不写字，电脑操控成本低至 1/167",
+    "summary": "TestingCatalog 报道 Nace AI 发布迄今最强的决策模型 Drex Max，可读图像、视频和文本。Computer Use Agent 每一步可把截图发给它，从固定动作集合中选择并拿到各选项的概率分；它不生成文本，只回复给定选项之一，适合网页 Agent 定位页面元素。官方称其电脑操控场景每 Token 成本比 Claude、GPT、Gemini 背后模型低最多 167 倍，在 243 道视觉题基准中单次请求决策中位耗时 174 毫秒。",
+    "url": "https://x.com/testingcatalog/status/2112186265986650332",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-19T22:17:02+08:00",
+    "tags": [
+      "Nace AI",
+      "Drex Max",
+      "决策模型",
+      "Computer Use",
+      "多模态"
+    ],
+    "image": "/assets/covers/cover-20261020-v-10.jpg"
+  },
+  {
+    "title": "TestingCatalog：fal 联手 BFL 发布视频模型 FLUX 3 Max——画质对标 Seedance 2.5，生成快 22 倍",
+    "summary": "TestingCatalog 报道 fal 发布 FLUX 3 Max，这是 fal Research 与 BFL 合作的后训练视频模型，团队优化了推理以提升画质。官方称其表现与 Seedance 2.5 相当，视频生成最快 22 倍，在 Artificial Analysis 图生视频指数中拿到 1139 分；已可在 fal 上试用关键帧、文生视频与图生视频模式。",
+    "url": "https://x.com/testingcatalog/status/2112260343858671660",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-20T03:11:24+08:00",
+    "tags": [
+      "FLUX 3 Max",
+      "fal",
+      "BFL",
+      "AI视频",
+      "图生视频"
+    ],
+    "image": "/assets/covers/cover-20261020-v-11.jpg"
+  },
+  {
+    "title": "TestingCatalog：Skyfall AI 发布工程世界模型 SKY-001——CAD/BIM 任务称超 GPT-6 Astra 与 Opus 5.5",
+    "summary": "TestingCatalog 报道 Skyfall AI 发布 SKY-001，号称首个专攻工程任务的世界模型，据其测试在 CAD 和 BIM 任务上超过 GPT-6 Astra 与 Opus 5.5，单样本速度快约 120 倍、成本低约 185 倍。它是「组合式视觉世界模型」，把实体对象拆成小部件再在 CAD 中重建整体，为工程对象提供可视化规划。线程补充：Skyfall 由前 Maluuba 团队创立，首款产品 Morpheus 是让 Agent 持续承担先前决策后果的商业模拟工具。",
+    "url": "https://x.com/testingcatalog/status/2112274382122865149",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-20T04:07:11+08:00",
+    "tags": [
+      "Skyfall AI",
+      "SKY-001",
+      "世界模型",
+      "CAD",
+      "工程AI"
+    ],
+    "image": "/assets/covers/cover-20261020-v-12.jpg"
+  },
+  {
+    "title": "TestingCatalog：Replika 创始人的 Wabi 公开上线——能进群聊、主动帮忙的 AI 信使",
+    "summary": "TestingCatalog 报道 Wabi 向公众推出 AI 信使应用，其 AI 助手可加入亲友群聊、旁听对话并在需要时出手，比如有人改期时自动更新共享日历；每个计划可拆成线程，Wabi 还能现场做出自定义工具，例如餐厅推荐地图。它可连接 Gmail、Google 日历等账户主动发现问题并发起对话，重要操作前会等待用户许可。Wabi 由 Replika 创始人 Eugenia Kuyda 创办，Android、iPhone 与 Apple Silicon Mac 均可免费安装。",
+    "url": "https://x.com/testingcatalog/status/2112221147932586492",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-20T00:35:39+08:00",
+    "tags": [
+      "Wabi",
+      "AI信使",
+      "群聊Agent",
+      "Replika",
+      "AI应用"
+    ],
+    "image": "/assets/covers/cover-20261020-v-13.jpg"
+  },
+  {
+    "title": "Tibo：Codex Day 14——桌面端终于能编辑线程里的历史消息",
+    "summary": "Tibo 在 Codex 连更第 14 天宣布一项体验改进：Codex 桌面应用现在可以编辑线程中之前发出的消息。他坦言这是用户呼声已久的功能，「拖了太久才做出来」。",
+    "url": "https://x.com/thsottiaux/status/2111990254408434095",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-10-19T09:18:10+08:00",
+    "tags": [
+      "Codex",
+      "OpenAI",
+      "桌面应用",
+      "编辑消息",
+      "产品更新"
+    ],
+    "image": "/assets/covers/cover-20261020-v-14.jpg"
+  },
+  {
+    "title": "Max：字节 Seed 再走一位核心负责人——模型评测负责人黄文灏离职，或将创业",
+    "summary": "Max 援引申妈最新消息：字节 Seed 模型评测负责人黄文灏近期已离职。据知情人士透露，他下一步可能选择创业，但具体方向与融资情况尚无明确消息。",
+    "url": "https://x.com/MaxForAI/status/2112109941620433227",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-19T17:13:45+08:00",
+    "tags": [
+      "字节跳动",
+      "Seed",
+      "人才流动",
+      "模型评测",
+      "创业"
+    ],
+    "image": "/assets/covers/cover-20261020-v-15.jpg"
+  },
+  {
+    "title": "TestingCatalog：Nebius AI Builder Program 扩展到欧洲——英伟达、Accel 等合计 1000 万美元算力与资金支持",
+    "summary": "TestingCatalog 报道 Nebius 把 AI Builder Program 扩展到欧洲，联合英伟达、Accel 及其他欧洲 VC 提供共 1000 万美元支持。项目免费加入，开发者可获得在 Nebius 上运行开源模型的额度，入选项目还能拿到其开源模型推理服务 Token Factory 的算力资助，Accel 等提供创始人资金帮助开源项目公司化。欧洲扩展于本周英伟达 GTC 柏林启动，Nebius 称与英伟达合办的全球 AI 黑客松已有 2.4 万多名参与者。",
+    "url": "https://x.com/testingcatalog/status/2112130950008062088",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-19T18:37:14+08:00",
+    "tags": [
+      "Nebius",
+      "NVIDIA",
+      "开源模型",
+      "算力资助",
+      "开发者计划"
+    ],
+    "image": "/assets/covers/cover-20261020-v-16.jpg"
+  }
+]

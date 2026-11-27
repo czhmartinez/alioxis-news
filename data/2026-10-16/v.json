@@ -1,0 +1,302 @@
+[
+  {
+    "title": "卡兹克长文：开源 Skill「Anatomy」——一句话让 AI 搓出可交互原理科普视频",
+    "summary": "卡兹克详解开源 Skill Anatomy：理念是「物体本身就是解释」，用 Agent 把抽象原理做成可交互机械模型动画（如机械表、劳斯莱斯 Trent 发动机剖面）。他进一步让 Opus 5.5 在动画旁生成配音科普视频（显卡、TCP 三次握手等），约 5 分钟视频耗 Claude Max 周额度约 1%、Ultra 约 1.5 小时。并对照 Karpathy 关于文字/图示/HTML/视频学习材料的讨论，提醒动画细节仍需核对专业准确性。",
+    "url": "https://x.com/Khazix0918/status/2110587546271191166",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-15T12:24:18+08:00",
+    "tags": [
+      "卡兹克",
+      "Anatomy",
+      "Skill",
+      "科普视频",
+      "Opus5.5",
+      "开源"
+    ],
+    "image": "/assets/covers/cover-20261016-v-00.jpg"
+  },
+  {
+    "title": "Max：国行 Apple Intelligence 终于要来——工信部换证+彭博称 12 月 iOS 27.3",
+    "summary": "Max 梳理：多款国行 iPhone 入网许可新增 Apple 智能、通义万相、通义千问三个大模型备案号，覆盖 15 Pro 至 18 Pro 等机型。彭博称苹果计划 12 月经 iOS 27.3 向中国大陆推出 Apple Intelligence，但首批或为缩水版（缺新版 Siri AI、Image Playground、新 Genmoji 等）。他质疑两年后上线时相对国内厂商底层 AI 的竞争力。",
+    "url": "https://x.com/MaxForAI/status/2110568515757355157",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-15T11:08:41+08:00",
+    "tags": [
+      "AppleIntelligence",
+      "国行",
+      "通义千问",
+      "iOS",
+      "苹果",
+      "大模型备案"
+    ],
+    "image": "/assets/covers/cover-20261016-v-01.jpg"
+  },
+  {
+    "title": "小互：可灵 Kling 4.0 正式上线——原生最长 30 秒、多关键帧与电影级运镜",
+    "summary": "小互报道可灵 AI 新一代视频模型 Kling 4.0：聚焦高动态与强运镜，一次可原生生成最长 30 秒；最多组合 15 项参考、支持最多 10 张关键帧；强化表情、纹理与光影，并支持多语种与方言、画面文字渲染、口型同步与人物替换等。引用《首尔之春》导演金性洙用其制作 AI 短片《虫族列车》，称已可胜任部分电影级镜头；生成后还可在时间线边看边改。",
+    "url": "https://x.com/xiaohu/status/2110759320162038107",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-15T23:46:52+08:00",
+    "tags": [
+      "可灵",
+      "Kling4.0",
+      "视频生成",
+      "AI视频",
+      "关键帧",
+      "电影"
+    ],
+    "image": "/assets/covers/cover-20261016-v-02.jpg"
+  },
+  {
+    "title": "TestingCatalog：Meta Muse Spark Open 上线 HuggingFace——816B/42B MoE、百万上下文",
+    "summary": "TestingCatalog 称 Meta 开源 Muse Spark Open（Muse-Spark-Open-816B-A42B）已在 HuggingFace 可下：混合专家、42B 激活/816B 总参、1M token 上下文，面向 agentic 与 coding 工作流（大仓库理解、多步工程任务）。此前预告可在新 Mac Studio 本地跑，被称作美国侧强开源模型之一。",
+    "url": "https://x.com/testingcatalog/status/2110784994675220502",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-16T01:28:53+08:00",
+    "tags": [
+      "Meta",
+      "MuseSpark",
+      "开源",
+      "MoE",
+      "HuggingFace",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261016-v-03.jpg"
+  },
+  {
+    "title": "Max：UCLA/Adobe Tev——规模化训练长任务 Agent，27B Pass@5 追平 Astra/Opus",
+    "summary": "Max 解读 UCLA 与 Adobe Research 的 Tev：先构造完整正确任务世界再反向生成缺陷环境，用稠密进度奖励训练长程 Agent。1170 个可验证环境覆盖软工/数据/安全等七域；Tev-27B 在 Agents' LastExam 计算数学子集 Pass@5 达 28%，称与 GPT-6 Astra、Claude Opus 5 持平；Tev-320B 在 Terminal-Bench 4.0 子集 Pass@1 从 29% 提到 37%。他认为这是 RSI 所需「任务生成+中间验证」基建的关键一步。",
+    "url": "https://x.com/MaxForAI/status/2110570213729354034",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-15T11:15:26+08:00",
+    "tags": [
+      "RSI",
+      "Agent",
+      "强化学习",
+      "Tev",
+      "长任务",
+      "Adobe"
+    ],
+    "image": "/assets/covers/cover-20261016-v-04.jpg"
+  },
+  {
+    "title": "TestingCatalog：Gemini 4 Argon 向 Google AI Pro 用户在 Antigravity 开放，单独周配额",
+    "summary": "TestingCatalog 援引官方：Gemini 4 Argon 开始向付费 Google AI Pro 订阅者在 Antigravity 推送，并新增仅用于 Argon 的独立每周配额（叠加既有 Gemini/3.8 Flash 桶）。称需求火爆、容量刻意扩容后才放开，上线速度很快。",
+    "url": "https://x.com/testingcatalog/status/2110872881261601280",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-16T07:18:07+08:00",
+    "tags": [
+      "Gemini4",
+      "Argon",
+      "Antigravity",
+      "Google",
+      "Pro",
+      "配额"
+    ],
+    "image": "/assets/covers/cover-20261016-v-05.jpg"
+  },
+  {
+    "title": "Max：White Circle 开源 RISE——用 Qwen+Harness 自动化攻破前沿生图安全护栏",
+    "summary": "Max 介绍 AI 安全公司 White Circle 开源红队算法 RISE：无需训练新模型，攻击端用开源 Qwen、评判用 Gemini Flash，经 API 打 DALL·E 3、GPT-Image-2、Nano Banana 2 等，让模型产出本应拦截的违规图。方法从「改一条 Prompt」升级为 Agent 探索可复用攻击策略并迁移；论文称人工验证最高成功率约 13%，并指出许多论文虚高成功率。他认为开源模型让自动化红队门槛骤降。",
+    "url": "https://x.com/MaxForAI/status/2110567327691571230",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-15T11:03:58+08:00",
+    "tags": [
+      "红队",
+      "RISE",
+      "生图安全",
+      "Qwen",
+      "WhiteCircle",
+      "Harness"
+    ],
+    "image": "/assets/covers/cover-20261016-v-06.jpg"
+  },
+  {
+    "title": "小互：字节 OmniHuman 2.0 上线——最长 5 分钟连贯数字人，价格降约 40%",
+    "summary": "小互报道字节跳动 OmniHuman 2.0：输入任意音轨、演讲、音乐或对话，读懂语气与情感后表演，口型、表情与身体动作协调；可单次生成长达 5 分钟视频无需拼接；价格从约 $0.12/秒降至 $0.07/秒，降幅约 40%。配演示并引用 BytePlus 官方说明。",
+    "url": "https://x.com/xiaohu/status/2110739599077343507",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-15T22:28:30+08:00",
+    "tags": [
+      "OmniHuman",
+      "数字人",
+      "字节跳动",
+      "口型同步",
+      "视频生成"
+    ],
+    "image": "/assets/covers/cover-20261016-v-07.jpg"
+  },
+  {
+    "title": "TestingCatalog：微软 MAI-Base-2 预训练完成——称 FLOPs 效率高于 DeepSeek-V4-Pro-Base 4–12×",
+    "summary": "TestingCatalog 援引 Mustafa Suleyman：微软 AI 已完成 MAI-Base-2 预训练并着手 MAI-Base-3；称在内部留出评测上优于测试过的所有开源权重基座，预训练 FLOPs 效率较最强开源基座 DeepSeek-V4-Pro-Base 高 4–12 倍，节省算力用于训更大模型。技术博文称属约 3T 参数量级、自研预训练。",
+    "url": "https://x.com/testingcatalog/status/2110797298661744928",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-16T02:17:47+08:00",
+    "tags": [
+      "Microsoft",
+      "MAI",
+      "预训练",
+      "DeepSeek",
+      "基座模型"
+    ],
+    "image": "/assets/covers/cover-20261016-v-08.jpg"
+  },
+  {
+    "title": "卡兹克：公司中台原地 loop——Haiku 探活、有意见再拉 Opus 子 Agent 省 Token",
+    "summary": "卡兹克分享公司中台定时任务每 10 分钟查后台新意见：平时用 Haiku 5.5 探有无新意见，有则再启动 Opus 5.5 子 Agent 处理，避免每次都用 Opus 空转耗额度。他称这是省 Token 的实用判定技巧，并配截图展示 loop 现场。",
+    "url": "https://x.com/Khazix0918/status/2110650879670125020",
+    "source": "数字生命卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-10-15T16:35:58+08:00",
+    "tags": [
+      "卡兹克",
+      "Haiku",
+      "Opus",
+      "Agent",
+      "Token",
+      "中台"
+    ],
+    "image": "/assets/covers/cover-20261016-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：OpenAI 推 GPT-Live-1.1 语音升级——多语种新声线，「Checking…」将消失",
+    "summary": "TestingCatalog 报道 OpenAI 为 ChatGPT、Codex 与 dots 的 Voice Mode 升级 GPT-Live-1.1：新增法/德/印地/墨西哥西语/韩/日等声线与更好口音，并宣称烦人的持续「Checking…」应大幅减少（对 vibe coding 会话尤其有感）；今日向全体用户推送，API 即将支持。",
+    "url": "https://x.com/testingcatalog/status/2110801529896665188",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-16T02:34:36+08:00",
+    "tags": [
+      "OpenAI",
+      "GPT-Live",
+      "语音",
+      "ChatGPT",
+      "Codex",
+      "多语种"
+    ],
+    "image": "/assets/covers/cover-20261016-v-10.jpg"
+  },
+  {
+    "title": "Tibo：Codex Day 11——加算力与改动，大幅减少「Selected model is at capacity」卡死",
+    "summary": "OpenAI Codex 负责人 Tibo（@thsottiaux）发 Day 11：已落地一系列变更并增加算力，显著降低「Selected model is at capacity. Please try a different model」打断；即便仍出现，也应能自行继续而非一直卡住。欢迎用户继续反馈野外复现。",
+    "url": "https://x.com/thsottiaux/status/2110750421367287996",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-10-15T23:11:30+08:00",
+    "tags": [
+      "Codex",
+      "OpenAI",
+      "容量",
+      "Day11",
+      "Tibo"
+    ],
+    "image": "/assets/covers/cover-20261016-v-11.jpg"
+  },
+  {
+    "title": "小互：Nathan Lambert——中国 AI 实验室人才强但算力短缺，听闻普通 OpenAI 研究员可调 5000 张 H100 下巴掉地上",
+    "summary": "小互转述 Trillium Labs 联合创始人 Nathan Lambert（a16z 访谈）：中国实验室技术优秀但缺算力；当他告知「OpenAI 普通研究员可随时调用约 5000 张 H100 量级算力」时对方震惊。他认为蒸馏优势被高估，并强调人才有、缺的是计算资源。",
+    "url": "https://x.com/xiaohu/status/2110558864810917993",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-10-15T10:30:20+08:00",
+    "tags": [
+      "算力",
+      "中国AI",
+      "OpenAI",
+      "NathanLambert",
+      "H100",
+      "开源"
+    ],
+    "image": "/assets/covers/cover-20261016-v-12.jpg"
+  },
+  {
+    "title": "Max：DeepSeek 白天大面积中断后向全体 API 用户退款（按其称三日内消耗）",
+    "summary": "Max 先报 DeepSeek 长时间服务中断、朋友圈称无法工作，随后截图称平台正为全体 API 用户退款，金额为其所述三日内 DeepSeek API 消耗；另发致歉说明称北京时间 10 月 15 日约 8:11–13:04 API 不可用，将按账号 7 日内消耗以赠金返还。他亦吐槽当日多款国内 AI 与 ChatGPT 网页一度故障。",
+    "url": "https://x.com/MaxForAI/status/2110657741979263070",
+    "source": "Max For AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-10-15T17:03:14+08:00",
+    "tags": [
+      "DeepSeek",
+      "API",
+      "故障",
+      "退款",
+      "稳定性"
+    ],
+    "image": "/assets/covers/cover-20261016-v-13.jpg"
+  },
+  {
+    "title": "TestingCatalog：Black Forest Labs 发布 FLUX 3 Image Klein——5.6B 开源、消费级 GPU 可跑原生 4K",
+    "summary": "TestingCatalog 报道 BFL 推出开源权重图像模型 FLUX 3 Image Klein：约 5.6B 参数、单消费级 GPU 可跑；原生 4K、边界框与像素级编辑，可后训练/微调；提供低延迟自托管版及 FP8/NVFP4/INT8 量化；蒸馏原生 4K 版也将上 BFL API。",
+    "url": "https://x.com/testingcatalog/status/2110828155594559966",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-16T04:20:24+08:00",
+    "tags": [
+      "FLUX3",
+      "BlackForestLabs",
+      "开源",
+      "图像生成",
+      "4K"
+    ],
+    "image": "/assets/covers/cover-20261016-v-14.jpg"
+  },
+  {
+    "title": "TestingCatalog：Krea 3 图像编辑模型——多参考合成，CPI-Bench 4.81 紧追 GPT Image 2.5",
+    "summary": "TestingCatalog 介绍 Krea 3：可将角色、服装与场景等多参考合成为一致画面并保持脸与调色；在真实世界编辑基准 CPI-Bench 上 Ultra 得 4.81/5，称仅次于 GPT Image 2.5。后续帖称速度约为 GPT Image 2 的 10×、Nano Banana Pro 的 4×，1K 约 $0.03/张起。",
+    "url": "https://x.com/testingcatalog/status/2110773251685109928",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-16T00:42:14+08:00",
+    "tags": [
+      "Krea3",
+      "图像编辑",
+      "CPI-Bench",
+      "生图",
+      "AI设计"
+    ],
+    "image": "/assets/covers/cover-20261016-v-15.jpg"
+  },
+  {
+    "title": "TestingCatalog：NVIDIA 宣布 Nemotron 3.5 Super VL——120B/12B 开源多模态 Agent 模型",
+    "summary": "TestingCatalog 报道 NVIDIA 宣布开源 Nemotron 3.5 Super VL：总参约 120B、激活约 12B，支持推理与工具调用，具备文本/图像/文档/视频理解，面向长时运行 AI Agent。此前文档曾泄露同名型号，官方称可能下周 GTC 前后进一步落地。",
+    "url": "https://x.com/testingcatalog/status/2110752702439276593",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-15T23:20:34+08:00",
+    "tags": [
+      "NVIDIA",
+      "Nemotron",
+      "开源",
+      "多模态",
+      "Agent",
+      "VL"
+    ],
+    "image": "/assets/covers/cover-20261016-v-16.jpg"
+  },
+  {
+    "title": "TestingCatalog：Thesys 开源 OpenUI 1.0——让 Agent 在应用内生成可工作界面，Token 更省",
+    "summary": "TestingCatalog 称 Thesys 发布开源框架 OpenUI 1.0，使 Agent 能在应用内创建可运行界面。其自测 46 个界面 brief、六模型下，OpenUI 输出 Token 较 Vercel json-render 少约 58%、较 Google A2UI 少约 52%；开发者可指定模型可用组件，MIT 许可并提供 React/Vue/Svelte/Angular 与 CLI。",
+    "url": "https://x.com/testingcatalog/status/2110765439798087835",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-10-16T00:11:11+08:00",
+    "tags": [
+      "OpenUI",
+      "Agent",
+      "UI",
+      "Thesys",
+      "开源",
+      "A2UI"
+    ],
+    "image": "/assets/covers/cover-20261016-v-17.jpg"
+  }
+]

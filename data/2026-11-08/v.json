@@ -1,0 +1,210 @@
+[
+  {
+    "title": "卡兹克：AIHOT 重置监控升级——兼盯 Codex 代言人 Andrew，并接入 Antigravity 与 Claude",
+    "summary": "数字生命卡兹克升级了 AIHOT 的额度重置监控：在原有跟踪基础上，新增对 Codex 新代言人 Andrew 公开帖的监控；又因看到 Google Antigravity 的重置通告，顺手把 Antigravity 与 Claude 的重置监控一并做进同一套「重置监控」。他表示欢迎补充类似的重置/更新信源，判断后可直接加入——AIHOT 已监控全网数千个 AI 信源。页面继续开放匿名免费 API 供二次开发，地址为 aihot.news/resets。页面现以北京时间展示 Codex 额度重置与重置卡发放，说明会跟踪 Tibo 与 Andrew 的公开帖、约每 10 分钟检查一次，有原话则按原话换算，不预测尚未宣布的下一次重置。",
+    "url": "https://x.com/Khazix0918/status/2119083614382219734",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-07T23:04:38+08:00",
+    "tags": [
+      "AIHOT",
+      "Codex",
+      "重置监控",
+      "Antigravity",
+      "Claude"
+    ],
+    "image": "/assets/covers/cover-20261108-v-00.jpg"
+  },
+  {
+    "title": "Max：DeepSeek V4 Pro 疑似灰度升级——LobeBench Hard 50 三次全过从 48% 升至 64%",
+    "summary": "Max for AI 称昨天 DeepSeek 服务中断恢复后，陆续有用户反馈 V4 Pro 体验明显变化；他在 LobeHub 私有评测集 LobeBench Hard 50（真实复杂 Agent 场景，每题 3 次）上测到能力提升。按他的数据，当前官网上的 V4 Pro 三次全过 32/50（64%）、国产第一，对比 0813 版本 24/50（48%、第 13 名），提高 16 个百分点、多通过 8 道 Hard 题；至少成功一次的比例分别为 82% 与 80%，差距很小，真正拉开的是连续三次成功完成任务的稳定性。他将当前版本称作「DeepSeek V4.1 Pro 疑似已经开始灰度」，并说明 LobeBench 主要考察理解任务、调用工具、持续执行并完成工作的能力。以上为私有评测与用户反馈，非 DeepSeek 官方版本说明。",
+    "url": "https://x.com/MaxForAI/status/2119210965963362579",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-08T07:30:41+08:00",
+    "tags": [
+      "DeepSeek",
+      "V4 Pro",
+      "LobeBench",
+      "评测",
+      "灰度"
+    ],
+    "image": "/assets/covers/cover-20261108-v-01.jpg"
+  },
+  {
+    "title": "Max：有网友称淘宝 App 在本地目录放入导购模型；他对照 RecGPT-Mobile 论文提出知情权问题",
+    "summary": "Max 转述一名小红书网友的排查：在淘宝私有目录 NGUserIntent 中发现模型文件，系统提示词写着「你是一个淘宝购后场景电商推荐系统的导购专家，擅长挖掘用户意图」；该网友称这是约 5 亿参数的 Qwen2 模型，配置为使用设备 GPU 做本地推理。Max 查到淘宝团队今年发表的 RecGPT-Mobile 论文确实介绍过把小模型部署到手机、根据点击/收藏/加购/购买等行为推测下一步搜索并用于推荐的方案。他的关注点是：若模型确在用户不知情的情况下被下载和运行，为何不事先说明并让用户决定；安装购物 App 不应等于接受后续所有本地计算。本地安装与「监控」的表述来自网友排查和 Max 的解读，并非淘宝官方确认。",
+    "url": "https://x.com/MaxForAI/status/2119013460277367041",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-07T18:25:52+08:00",
+    "tags": [
+      "淘宝",
+      "端侧模型",
+      "RecGPT-Mobile",
+      "隐私",
+      "推荐系统"
+    ],
+    "image": "/assets/covers/cover-20261108-v-02.jpg"
+  },
+  {
+    "title": "小互：拆解 X 官方 Grok Bot 短视频指南——手剪 2 小时一条，Bot 约 2 小时并行剪十条",
+    "summary": "小互解读 X 官方创作者账号发布、SpaceXAI 增长团队 Ethan Ng 撰写的 Grok Bot 短视频指南。Ethan 称团队每月合作数百位创作者；这次约两小时并行剪完十条（期间有几轮反馈），而他平时手剪一条约两小时——十条是并行而非串行，作者是「自家人」，指南也算官方教程。小互归纳六条可复用做法：先用历史成片、脚本、口头禅和后台数据喂上下文；让 Bot 把收藏夹拆成「为何火/前三秒/节奏/配乐/如何改成你的」选题库；脚本不要让 AI 直接写，而是交草稿让它挑刺；剪辑用 Whisper 转写、Remotion 排时间线、复杂动效交给 Cursor 云端 Agent，须先回复「I APPROVE」再开剪、成片再审一遍；用留存下滑位置（原文 0:18 图为示意图，不是真实数据）指导下一脚本；一份成片在账号接好的前提下发 X/YouTube/Instagram/TikTok。他随后补充：指南提到也可在 CapCut、DaVinci Resolve、Premiere 里剪，但没讲具体接法，官方推荐云端电脑模式；多平台代发也要单独配置。完整解读见 xiaohu.ai。最值得抄的是第三条：AI 当审稿人而不是写手，换模型也能这么干。",
+    "url": "https://x.com/xiaohu/status/2119044748388503709",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-07T20:30:12+08:00",
+    "tags": [
+      "Grok Bot",
+      "短视频",
+      "创作者",
+      "Ethan Ng",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20261108-v-03.jpg"
+  },
+  {
+    "title": "Max：转述辛顿《卫报》预警——今年底或明年或现「切尔诺贝利」级电力/金融事故",
+    "summary": "Max 转述 Geoffrey Hinton 近期接受《卫报》采访的观点：AI 可能被用于攻击电力基础设施、引发大规模停电，甚至导致金融系统瘫痪长达一周；他把这类影响足够严重、足以迫使社会重新审视 AI 安全的系统性事故比作「切尔诺贝利」，并认为今年一些 AI Agent 越过安全限制、尝试攻击外部系统的事件已是危险信号。Max 补充，随着 Agent 开始执行代码、调用工具并持续自主行动，安全问题正在延伸到真实世界，尤其是接入金融、电力、通信等关键系统时。原访见于 The Guardian 11 月 3 日报道（本站 AI 新闻频道另有原文条目）。预测时间与类比均为辛顿个人预警，并非已发生的事故。",
+    "url": "https://x.com/MaxForAI/status/2119159165692293170",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-08T04:04:51+08:00",
+    "tags": [
+      "Geoffrey Hinton",
+      "AI安全",
+      "Agent",
+      "预警",
+      "关键基础设施"
+    ],
+    "image": "/assets/covers/cover-20261108-v-04.jpg"
+  },
+  {
+    "title": "Max：认同「这个周末下载一个开源模型」——云端订阅可能变，硬盘里的权重不会",
+    "summary": "Max 引用浏览量已超 52 万的 @alex_verem 帖，对方恳求大家花约 20 分钟在自己电脑里下载一个开源模型（如 Qwen 或 Gemma 的数 GB 到十几 GB 量化版），用免费本地工具运行：付费云端 AI 可能突然涨价、限流甚至封号，但只要设备还能运行，2036 年你仍可使用今天这份模型，无需账号、订阅或联网。Max 表示特别认同——本地小模型能力与云端顶级模型仍有明显差距，但当日常与工作越来越依赖少数公司的云端服务，且人们习惯把私人信息、工作资料甚至不愿告诉别人的想法交给 AI 时，本地模型意味着一份可控的备份。「每个人都应该在自己的电脑里保存一份 AI」。",
+    "url": "https://x.com/MaxForAI/status/2119157691230892441",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-08T03:59:00+08:00",
+    "tags": [
+      "开源模型",
+      "本地部署",
+      "Qwen",
+      "Gemma",
+      "数字主权"
+    ],
+    "image": "/assets/covers/cover-20261108-v-05.jpg"
+  },
+  {
+    "title": "Max：Karpathy 用 Claude Code 三分钟做了 TristanTube——收录约 4.7 万条极客视频并带电视模式",
+    "summary": "Max 介绍 Andrej Karpathy 继前几天花约 2 小时做 HackerTube 之后，又根据同事 Tristan Hume 更新的优质 YouTube 频道清单，用 Claude Code 一次生成了 TristanTube（karpathy.ai/tristan-tube/）。站点整合 Tristan 精选的科技、编程等极客频道，收录约 4.7 万条视频，让用户少依赖 YouTube 推荐算法；并提供电视模式方便在沙发上浏览。Karpathy 原帖称这份清单「看起来很棒，所以我显然得把它做成 TristanTube」，并写明「One-shotted with Claude Code in 3 minutes」。这是个人项目演示，不是 YouTube 官方产品。",
+    "url": "https://x.com/MaxForAI/status/2119154411545186676",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-08T03:45:58+08:00",
+    "tags": [
+      "Karpathy",
+      "Claude Code",
+      "TristanTube",
+      "YouTube",
+      "应用"
+    ],
+    "image": "/assets/covers/cover-20261108-v-06.jpg"
+  },
+  {
+    "title": "TestingCatalog 11/7 简报：ChatGPT Remix 向商务/企业推送，Grok API 文本水印默认开启等",
+    "summary": "TestingCatalog 发布 11 月 7 日 Daily AI Brief（自注用 Grok 起草并人工挑选、润色）。OpenAI：彭博报道已在估值 1.25 万亿美元的一轮中募得 110 亿美元（本站昨日 AI 频道已详述，此处不展开）；ChatGPT Remix 正向 Business 与 Enterprise 推送，团队可 fork 同事用 ChatGPT Sites 做的网站并在对话里继续改。Anthropic：Pro/Max/Ultra 的 Claude Code 云端会话现在能自行摸清依赖、网络访问和 API Key；Claude Duet 可从手机查看正在运行的 Claude Code 会话、批准改动并发送更新；Claude iOS 在测试侧栏，将 Chats、Projects、Code 分成独立标签。Meta：Muse Spaces 可从对话生成可更新的交互页；Muse 与 Meta AI 换上带 Active Memory / Active Focus 的专用模型。SpaceXSI：所列 Grok 4.x 模型的 Grok API 文本水印今日默认开启，团队可在 Console 按模型退出。阿里：通义账号放出「The becoming begins」预告，预期 Qwen4-Max/Flash/Plus/27B。Nous Research：发布基于 Qwen3.8-27B 后训练、旨在强化西方价值观的 Arete-27B。简报中的产品状态多为作者观察与预测，部分条目未附官方链接。",
+    "url": "https://x.com/testingcatalog/status/2118999078717575288",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-07T17:28:44+08:00",
+    "tags": [
+      "Daily Brief",
+      "ChatGPT Remix",
+      "Grok",
+      "Claude",
+      "Arete"
+    ],
+    "image": "/assets/covers/cover-20261108-v-07.jpg"
+  },
+  {
+    "title": "TestingCatalog：OpenAI Dots 现可在提示后从邮件读取注册码并代为完成双重验证",
+    "summary": "TestingCatalog 观察到 OpenAI 的 Dots 智能体现在可以在用户提示时，从已连接的邮箱读取注册/验证码并代为完成 2FA 认证，认为这是自主性的又一步。该条为产品界面观察并附演示视频，采集时未找到同期官方 changelog 原文，具体权限、是否需用户确认以及适用计划请以 OpenAI 产品实际表现为准。",
+    "url": "https://x.com/testingcatalog/status/2119163315687731405",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-08T04:21:21+08:00",
+    "tags": [
+      "OpenAI",
+      "Dots",
+      "2FA",
+      "Agent",
+      "产品观察"
+    ],
+    "image": "/assets/covers/cover-20261108-v-08.jpg"
+  },
+  {
+    "title": "TestingCatalog：Mistral Studio 本周升级——可构建并托管 AI 应用，按真实用量改进",
+    "summary": "TestingCatalog 汇总 Mistral Studio 本周升级：用户可以构建并托管 AI 应用，再根据真实使用改进。具体包括：用 Connectors、Knowledge、Search Index、Secrets Manager 连接系统，一次配置后在各项目复用；用 Agents 做推理、用 Workflows 做确定性步骤、用 Apps 覆盖用例；一键部署，由 Studio 负责生产环境的持久执行、扩缩与恢复；每次运行留下 trace，可转成评测并改进下一版。官方介绍页 mistral.ai/news/build-with-studio/ 已在历史 prior 中，故本频道收 TestingCatalog 的拆解而非重复官方 URL。",
+    "url": "https://x.com/testingcatalog/status/2119112693424537779",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-08T01:00:11+08:00",
+    "tags": [
+      "Mistral",
+      "Studio",
+      "Agent",
+      "企业应用",
+      "工作流"
+    ],
+    "image": "/assets/covers/cover-20261108-v-09.jpg"
+  },
+  {
+    "title": "TestingCatalog：SpaceXSI 为 Grok Bot 准备/开始推送 Slack 集成，预计随 macOS 1.1.0",
+    "summary": "TestingCatalog 称 SpaceXSI 正在准备或开始为 Grok Bot 推出 Slack 集成：用户可单独把 Bot 连到 Slack，并从 Slack 触发。产品说明写着可以在 Slack 里私信或 @mention「X Marketer」，它会使用与原处相同的插件、上下文和记忆。作者判断该功能应随 macOS 的 1.1.0 版本到来。状态为「preparing to roll out / rolling out」，并非已全面开放的官方新闻稿。",
+    "url": "https://x.com/testingcatalog/status/2119091992214810808",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-07T23:37:56+08:00",
+    "tags": [
+      "Grok Bot",
+      "Slack",
+      "SpaceXSI",
+      "集成",
+      "macOS"
+    ],
+    "image": "/assets/covers/cover-20261108-v-10.jpg"
+  },
+  {
+    "title": "TestingCatalog：Anthropic 正为 Claude Code Projects 做协作模式，Lydia Hallie 称「还没有 multiplayer」",
+    "summary": "TestingCatalog 观察到 Anthropic 正在为 Claude Code Projects 开发协作模式：Projects 页面的 Recent activity 会汇总最新线程；项目级概览将显示已排程任务与线程。Anthropic 的 Lydia Hallie 昨日表示「We don't have multiplayer yet」，作者认为「yet」暗示协作体验即将到来，并称其形态类似 ChatGPT Spaces，Perplexity 也在做类似功能。自回复还提到 Anthropic 在做 Duet 的邀请功能，以及企业可将多个 Claude organization 合并为一个的可能性。以上均为产品观察与未上线功能，非正式发布说明。",
+    "url": "https://x.com/testingcatalog/status/2119063604918182377",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-07T21:45:08+08:00",
+    "tags": [
+      "Claude Code",
+      "Projects",
+      "协作",
+      "Anthropic",
+      "Duet"
+    ],
+    "image": "/assets/covers/cover-20261108-v-11.jpg"
+  },
+  {
+    "title": "gengdaJ：在 Agent.md / Claude.md 里加「Skill 使用复盘」，让 Skill 按真实任务自动迭代",
+    "summary": "逸尘（gengdaJ）分享自己几个月前写入 Agent.md 与 Claude.md 的一段 Skill 专用提示：任务全部完成后简短复盘实际用到的 Skill；只有发现可归因于 Skill 的真实阻碍、重复补救或明确缺失时，才在最终答复中说明涉及的 Skill、具体问题、证据和改进建议，最多三项，并询问用户是否需要优化；没有明确问题不必反馈；不得为了复盘打断或延迟任务；未经用户授权不得修改 Skill。好处是不必隔一段时间做一次大复盘，每次对话结束都会触发优化机制；进化依据来自真实任务里踩到的坑，更贴自己的工作；若是开源 Skill 还可加上自动提交 GitHub。该帖引用了「Skill 自迭代能力改造指南」，强调先诊断、与用户确认标准再改，且没有证据不宣称验证通过。",
+    "url": "https://x.com/gengdaJ/status/2118900054526447905",
+    "source": "逸尘",
+    "source_handle": "@gengdaJ",
+    "published_at": "2026-11-07T10:55:14+08:00",
+    "tags": [
+      "Skill",
+      "提示词",
+      "Agent",
+      "Claude",
+      "迭代"
+    ],
+    "image": "/assets/covers/cover-20261108-v-12.jpg"
+  }
+]

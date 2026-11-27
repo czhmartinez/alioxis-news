@@ -1,0 +1,56 @@
+LEAD: Reflection 开源权重模型 Beam 上架 Ollama，限时免费可用
+Reflection 首个开源权重模型 Beam 发布，Ollama 作为 day-zero 合作方在 Ollama Cloud 上限时免费提供，且全程零数据保留（ZDR）。
+
+SECTION 0: ['label', 'items']
+  - Artificial Analysis 发布 NVIDIA Vera Rubin NVL72 首批 AA-AgentPerf 智能体推理评测
+    https://artificialanalysis.ai/articles/vera-rubin-nvl72-agentperf
+
+SECTION 1: ['label', 'items']
+  - Reflection 开源权重模型 Beam 上架 Ollama，限时免费可用
+    https://ollama.com/blog/reflection-beam
+  - NVIDIA RTX Spark 笔记本今日开售，主打 128GB 统一内存与本地 AI
+    https://nvidianews.nvidia.com/news/nvidia-rtx-spark-pcs-available-today-a-new-beginning-for-windows-pcs
+
+SECTION 2: ['label', 'items']
+  - 商务部、科技部拟在出口技术目录增列23项人工智能技术并征意见
+    https://www.ithome.com/1/013/983.htm
+  - OpenAI 失准报告：内部模型在 dashboard 评测中访问并修改内部系统
+    https://alignment.openai.com/misalignment-reports/accessing-and-changing-internal-systems-during-dashboard-research/
+  - Waymo 宣布进军多伦多，计划2028年迎接首批乘客
+    https://waymo.com/blog/2026/10/waymo-in-toronto
+  - 丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑
+    https://www.ithome.com/1/013/914.htm
+  - 404 Media 实测 ChatGPT 广告如何基于提示词、手机号和邮箱定向投放
+    https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/
+  - Anthropic 披露 Claude 编写了约 90% 的 Claude Code 代码
+    https://x.com/adocomplete/status/2111171735806767558
+
+SECTION 3: ['label', 'items']
+  - Anthropic 调查揭示公众与员工对 AI 影响的预期鸿沟
+    https://www.anthropic.com/research/ai-expectations-gap
+  - Anthropic 用 Claude 揭开 NIST ECDSA 曲线种子来源之谜
+    https://www.anthropic.com/research/ecdsa-curve-origins
+  - OpenAI 披露内部模型在 RL 训练中绕过政府统计网站授权获取服务器机密
+    https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website/
+
+FLASHES:
+  - [X：Arena (@arena)] Muse Spark Open (Max) 登顶 Code Arena: WebDev 美国开源模型第一
+    https://x.com/arena/status/2111221323217412318
+  - [OpenAI：失准报告与通报（网页）] OpenAI 失准报告：内部研究模型未经授权动用测试网钱包资金
+    https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization/
+  - [Anthropic：Research（发表成果 · 网页）] Anthropic 用 Claude Mythos 5 设计出更高效的量子电路，多项超过已发表最优设计
+    https://www.anthropic.com/research/designing-efficient-quantum-circuits
+  - [IT之家·人工智能] 消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元
+    https://www.ithome.com/1/013/723.htm
+  - [Anthropic：Claude.dev 开发者博客（RSS）] Claude Code 团队如何做代码审查
+    https://claude.dev/blog/solving-code-review-at-anthropic/
+  - [PromptArmor：Threat Intelligence] PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%
+    https://www.promptarmor.com/resources/open-weight-susceptibility
+  - [X：Elon Musk (@elonmusk, xAI)] Musk 称 xAI 2027 年底算力目标可能超过 10GW
+    https://x.com/elonmusk/status/2110877572011844019
+  - [Google Research：Blog（网页）] Google Research 展示 AI 智能体自主湿实验室的三项进展：VERID 框架、适配体闭环发现与全新蛋白结合剂设计
+    https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/
+  - [a16z：News（RSS）] a16z 图表周报：智能体购物遭电商拦截，消费意愿仍滞后
+    https://www.a16z.news/p/this-week-in-charts-agents-denied
+  - [vLLM 官方博客（RSS）] vLLM 解析 Kimi K3 在 AMD Instinct MI355X 上的推理优化，单 GPU 吞吐超 NVIDIA HGX B300 24.4%
+    https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x

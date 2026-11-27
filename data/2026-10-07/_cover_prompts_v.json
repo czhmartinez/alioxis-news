@@ -1,0 +1,266 @@
+[
+  {
+    "id": "v-00",
+    "tab": "v",
+    "title": "卡兹克借假期 2 天手搓企业中台：基于飞书全量数据 + 自建 MCP，直接替换飞书工作台",
+    "summary": "卡兹克称，为解决公司同事 Vibe Coding 出来的各类业务应用在部署、信息安全、权限管理，以及应用和 Skill 在公司内流转的问题，他利用假期花了 2 天，基于飞书的全部数据和自建的 MCP 手搓了一个企业中台，把飞书自带的工作台直接替换掉，公司底层基建终于有了。下一步准备开放自定义配置界面，让每位同事都能用自己的 Agent 改自己可见的首页和数据页。他感叹：「AI 啊，还是太好用了」，这么一套东西 2 天就干完了。",
+    "tags": [
+      "Vibe Coding",
+      "企业中台",
+      "MCP",
+      "飞书"
+    ],
+    "filename": "cover-20261007-v-00.jpg",
+    "raw_name": "v-00-raw.jpg",
+    "prompt": "Semi-realistic cutaway of a small company office at night after a holiday: a single developer's desk in the center with two laptops, and rising from it like a miniature city a transparent control tower whose floors are tiled with tiny app windows, permission keycards and skill cartridges being passed between floors by small couriers; on the walls around, dozens of colleagues' sticky-note sized dashboards light up one by one; an empty energy-drink can and a two-day calendar flipped on the desk — one founder hand-building an enterprise middle platform over a long weekend with AI. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-01",
+    "tab": "v",
+    "title": "AIHOT 排行榜上线「性价比」帕累托前沿：按综合、编程、科研、知识问答四种场景分别计算",
+    "summary": "应用户呼声，卡兹克花半小时给 AIHOT 加上模型性价比的帕累托前沿，已上线，在 aihot.news/leaderboard 右上角切到「性价比」即可查看。不同场景的 token 配比不同：综合与专业办公按日常用量，缓存命中:输入:输出 = 7:2:1；编程按 Agent 长时间写代码，绝大部分是缓存命中，97:2:1；科研难题要想很久、思考算输出，输入:输出 = 1:3；知识问答偏知识或创作、不算缓存，输入:输出 = 3:1。",
+    "tags": [
+      "AIHOT",
+      "模型性价比",
+      "帕累托前沿",
+      "排行榜"
+    ],
+    "filename": "cover-20261007-v-01.jpg",
+    "raw_name": "v-01-raw.jpg",
+    "prompt": "Semi-realistic photograph of a racing pit-wall data station: a curved scatter chart projected on a glass panel shows bright dots for AI models with a glowing curved frontier line hugging the best of them (no text), and four separate price-weighing scales on the counter beneath, each loaded with different proportions of blue (cached), white (input) and orange (output) tokens as colored marbles — one scale almost entirely blue; an analyst in a headset points at the frontier curve — a cost-performance Pareto frontier leaderboard for AI models across four usage scenarios. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-02",
+    "tab": "v",
+    "title": "卡兹克：「我没看错吧……Claude 支持中文了？」",
+    "summary": "卡兹克发帖惊呼 Claude 支持中文了；他在同一分钟的自回复中附上截图，显示 Claude 的「选择您的语言」设置里已可勾选「中文（简体）」，即 Claude 界面开始提供简体中文选项。",
+    "tags": [
+      "Claude",
+      "中文界面",
+      "Anthropic"
+    ],
+    "filename": "cover-20261007-v-02.jpg",
+    "raw_name": "v-02-raw.jpg",
+    "prompt": "Close-up lifestyle photograph of a Chinese user's hands holding a phone over a cup of jasmine tea on a wooden table in a Beijing hutong courtyard, the phone screen shows a settings dropdown with a highlighted checkbox and a single warm terracotta asterisk-like spark icon, a red paper lantern softly out of focus behind; morning light and a calligraphy brush resting on rice paper beside the phone — the Claude interface quietly adding Simplified Chinese language support, met with delighted surprise. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-03",
+    "tab": "v",
+    "title": "Max：Anthropic 又在「引蛇出洞」，邀请免费用户做 15 分钟 AI 使用访谈",
+    "summary": "Max 晒出 Claude 内弹出的 Anthropic 公告卡「用你的声音引导 AI」：邀请用户花 15 分钟聊聊 AI 如何融入生活、对未来的期待与担忧，结束后可选择是否公开访谈内容；截图带 Free plan 标识。Max 调侃 Anthropic「又开始引蛇出洞了」，上次是发免费额度。",
+    "tags": [
+      "Anthropic",
+      "Claude",
+      "用户访谈"
+    ],
+    "filename": "cover-20261007-v-03.jpg",
+    "raw_name": "v-03-raw.jpg",
+    "prompt": "Semi-realistic humorous scene in a cozy home: a friendly microphone on a small desk sits beside a 15-minute sand timer and a cup of tea, as if inviting someone for an interview; from under the sofa a cartoonish but photoreal garden snake peeks out curiously toward a small saucer of glowing free-credit coins left as bait; warm evening lamplight, gentle comedy tone — an AI lab coaxing free users into a 15-minute voice interview about their feelings on AI. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-04",
+    "tab": "v",
+    "title": "小互拆解 Higgsfield「AI 网红工作室」：自定义虚拟网红 + 动作预设，用 Genjutsu 复刻爆款 UGC 广告接单",
+    "summary": "小互介绍 Higgsfield 推出的 AI 网红工作室：可从零定义 AI 网红的长相、身材和穿着，再套用 Motion Presets 让其跳舞、表演、展示产品并快速出短视频，还能用 Genjutsu 把 TikTok、Instagram 上已验证的爆款 UGC 广告形式改编成自己的版本。他给出的玩法是先做垂类（如护肤）网红和几条样片，再拿作品找品牌按月供稿，称可尝试谈 1,500～10,000 美元/月；理由是品牌需要不断测试新开头、脚本和素材，同一角色可以持续产出，甚至延伸到直播。所引 Higgsfield 原帖标注为付费合作。",
+    "tags": [
+      "Higgsfield",
+      "AI网红",
+      "AI视频",
+      "变现"
+    ],
+    "filename": "cover-20261007-v-04.jpg",
+    "raw_name": "v-04-raw.jpg",
+    "prompt": "Behind-the-scenes photograph of a home creator studio: a large monitor shows a photoreal virtual influencer woman in pastel athleisure dancing in a motion-preset pose sequence (ghosted frames of her movement), while a ring light, a skincare serum bottle on a mini product turntable, and a small whiteboard sketch of a monthly content calendar surround the desk; a ring of short vertical video thumbnails of the same AI persona fans out on a second screen — building an AI influencer that cranks out UGC-style skincare ads for brands. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "creative",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-05",
+    "tab": "v",
+    "title": "小互转述 SemiAnalysis 测试：Claude 订阅的「等效 API 价值」约为 OpenAI 的 5 倍",
+    "summary": "小互引用知名技术分析机构 SemiAnalysis 的测试称「Anthropic 才是最大的慈善家，OpenAI 一直在耍小聪明」：Claude 订阅提供的等效 API 价值比 OpenAI 高出约 5 倍，即便不看价格、只看 Token 数量，Claude 给的量也大幅胜出。",
+    "tags": [
+      "SemiAnalysis",
+      "Claude",
+      "OpenAI",
+      "订阅额度"
+    ],
+    "filename": "cover-20261007-v-05.jpg",
+    "raw_name": "v-05-raw.jpg",
+    "prompt": "Editorial still life on a white seamless backdrop: two clear acrylic tip jars side by side, the left jar overflowing with thousands of small glowing amber tokens spilling onto the table, the right jar holding only a modest layer of cool green tokens, with an analyst's magnifying glass and a precision gram scale between them showing the imbalance; clean studio lighting with sharp shadows — an analysis finding one AI subscription gives about five times more equivalent API value than its rival. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "business",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-06",
+    "tab": "v",
+    "title": "Claude Projects 云端会话可授权访问本机文件夹：就地读改本地文件，分批开放",
+    "summary": "小互称这个功能「牛P」：可授权 Claude Projects 的云端会话访问电脑上的某个文件夹，会话仍在云端运行，只在任务需要时才读取该文件夹内容，也能直接修改本地文件并保存在原位置，打通云端与本地，比如授权项目文件夹后让 Claude 看代码、改文档，省去手动上传下载。该功能从当天起逐步开放，所有用户分批获得。",
+    "tags": [
+      "Claude Projects",
+      "本地文件",
+      "云端会话"
+    ],
+    "filename": "cover-20261007-v-06.jpg",
+    "raw_name": "v-06-raw.jpg",
+    "prompt": "Semi-realistic split-scene photograph: on the left a home-office desk with an open laptop and a physical manila project folder on the desk glowing at its edges, papers inside being gently lifted and rewritten by a soft beam of light; on the right that beam rises through the window up into a dramatic cumulus cloud where a small floating workstation hovers; a single fiber of light connects the cloud workstation to only that one folder, other folders on the shelf stay dark — Claude Projects cloud sessions reading and editing an approved local folder in place. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-07",
+    "tab": "v",
+    "title": "Tibo：与今天的发布无关，但我们的模型解决了一些重要数学问题——「科学进步的非凡新时代」",
+    "summary": "Tibo 特别说明这条与当天 Codex 发布无关：OpenAI 模型解决了一些重要数学问题，团队已写成博文《Sharing AI progress in mathematics》。博文称一款内部前沿模型产出新的数学结果，发布方式咨询了普林斯顿高等研究院的独立数学与 AI 顾问小组，结果连同许多证明的 Lean 形式化、10 份推理摘要、算力估算（平均约 3 小时 ChatGPT Pro 思考）及约 4,000 道尝试题的统计一并公开在 GitHub，并将资助相关研讨会、推进负责任地发布该模型。Tibo 称这是「科学进步的非凡新时代」。",
+    "tags": [
+      "OpenAI",
+      "AI数学",
+      "Lean"
+    ],
+    "filename": "cover-20261007-v-07.jpg",
+    "raw_name": "v-07-raw.jpg",
+    "prompt": "Photograph of an old university chalkboard in a high-ceilinged lecture hall at sunrise: one corner of the board has a dense old unsolved conjecture scrawled and boxed, and directly beneath it a neat new continuation in fresh white chalk ends with a small tombstone square symbol; a robotic arm holding chalk rests on the chalk tray, sunlight streaming through tall arched windows with dust motes — an AI model solving important open math problems, a 'remarkable new era of scientific progress'. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "research",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-08",
+    "tab": "v",
+    "title": "Codex「28天」第 2 天汇总：自动审批免费、API 简化、会议纪要接入、Decisions API 上线",
+    "summary": "Tibo 汇总第 2 天的四项更新：2.1 「Approve for me」（自动审查）纳入套餐且不再消耗用量——该功能使用时约占套餐 2–10%；2.2 为开发者简化 API；2.3 接入会议纪要；2.4 Decisions API 面向开发者上线，团队也会在应用里用它改进体验。据他当晚的单条帖：API 付费层级由五档合并为 Build、Launch、Grow 三档，累计付费 500 美元即可升至最高档 Grow；会议纪要即 ChatGPT 桌面端 Meetings 插件，他说可以把聊出来的上下文直接丢给 Codex 干活；Decisions API 公测，官方称决策比经 Responses API 调用 GPT-6 Luna 快至多 10 倍，Tibo 认为实时通用分类器打开了很多可能。",
+    "tags": [
+      "Codex",
+      "OpenAI",
+      "Decisions API",
+      "每日更新"
+    ],
+    "filename": "cover-20261007-v-08.jpg",
+    "raw_name": "v-08-raw.jpg",
+    "prompt": "Semi-realistic photograph of a weekly-planner wall in a startup kitchen: a 28-square advent-calendar style wooden board with small numbered doors (no readable text, just shapes), door two thrown open revealing four tiny gift objects — a rubber approval stamp, a simplified three-step staircase model, a mini voice recorder with meeting notes, and a small brass decision coin; engineers' coffee mugs and sticky notes nearby, morning light — a daily drop of four Codex and API improvements in a 28-day ship series. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-09",
+    "tab": "v",
+    "title": "Codex 第 2.1 天：Auto-review 对 ChatGPT 账号用户免费，第二个智能体专门审查高风险操作",
+    "summary": "Tibo 宣布，通过 ChatGPT 账号登录的所有用户现在都可免费使用 Auto-review，在 设置 > 权限 > auto-review 中开启，且不占套餐用量。它改进了默认「每一步都要人工批准」的沙箱设置——那种方式除非花大量时间配置规则，否则容易决策疲劳；开启后可放心跑长任务，由第二个智能体审查主智能体的全部动作，唯一目标是阻止高风险操作和偏离用户原意的行为。该帖引用了他第 1 天的提速公告。",
+    "tags": [
+      "Codex",
+      "Auto-review",
+      "智能体安全"
+    ],
+    "filename": "cover-20261007-v-09.jpg",
+    "raw_name": "v-09-raw.jpg",
+    "prompt": "Documentary-style photograph of a nighttime construction-crane cockpit with two operators: the primary operator works the controls lifting a heavy load over a city building site, while a second operator in a high-visibility vest sits behind with a hand hovering near a large red stop lever, watching a monitor of the crane's planned path; rain-streaked glass, sodium site lights — a second AI agent auto-reviewing every action of a primary coding agent to block high-risk moves. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "security",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-10",
+    "tab": "v",
+    "title": "ChatGPT 推出 Meetings 插件：自动记会议笔记并存入 Space，TestingCatalog：「好像在哪见过」",
+    "summary": "TestingCatalog 报道 OpenAI 为 ChatGPT 推出 Meetings 插件，可记会议笔记并把摘要保存到 ChatGPT Space，目前在 macOS 桌面端面向 Pro 和 Business 用户 beta 开放，Enterprise 即将支持；并调侃「感觉在哪见过」。所引 @cgmelamed 帖子补充：会中可添加自己的笔记或提问，文档、文件和人员会从已连接应用中自动标注，行动项就是可以直接发给 ChatGPT 的提示词。",
+    "tags": [
+      "ChatGPT",
+      "Meetings",
+      "会议纪要"
+    ],
+    "filename": "cover-20261007-v-10.jpg",
+    "raw_name": "v-10-raw.jpg",
+    "prompt": "Semi-realistic overhead photograph of a video-call meeting on a MacBook in a sunlit loft: the call grid of faces is blurred, and beside the laptop an elegant paper notebook writes itself — a fountain pen floats and fills pages with tidy bullet lists and checkbox action items, a few pages already slipping into a clear acrylic 'space' box on the desk; a smartphone shows calendar invites — ChatGPT's Meetings plugin taking notes and saving summaries automatically. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-11",
+    "tab": "v",
+    "title": "Sesame 语音助手大升级：更有表现力的模型、生图、连接器、电脑操控，还能用语音指挥 Codex / Claude Code",
+    "summary": "TestingCatalog 称 Sesame 语音助手迎来大更新：模型更新、更富表现力，新增图像生成、连接器、computer use 等，还能操作 Devin、Codex、Claude Code 等编码智能体——全程用语音。所引 Sesame 官方帖表示语音助手今天向所有人开放，眼镜将于 2027 年推出，目标是做一套能连接工具、代你行动的眼镜端「语音 OS」。",
+    "tags": [
+      "Sesame",
+      "语音助手",
+      "AI眼镜",
+      "编码智能体"
+    ],
+    "filename": "cover-20261007-v-11.jpg",
+    "raw_name": "v-11-raw.jpg",
+    "prompt": "Product photograph of a pair of elegant handcrafted acetate eyeglass frames resting on a Japanese walnut tray, a tiny warm glow at the hinge suggesting a built-in voice assistant; next to them an iPhone shows a pulsing voice waveform, and in soft focus behind, a laptop screen displays several coding-agent terminals responding to spoken commands; minimalist Tokyo atelier lighting with linen and stone textures — the Sesame voice assistant that can drive coding agents by voice, with glasses coming in 2027. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "product",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-12",
+    "tab": "v",
+    "title": "Claude 进驻 Google Docs、Sheets 和 Slides，这三类文件也能直接在 Claude 里打开",
+    "summary": "TestingCatalog 报道 Anthropic 的 Claude 现已可在 Google Docs、Sheets 和 Slides 中使用，同时这些文件类型也能在 Claude 内直接打开，称这是一次小改动、但大幅提升使用体验。",
+    "tags": [
+      "Claude",
+      "Google Workspace",
+      "办公"
+    ],
+    "filename": "cover-20261007-v-12.jpg",
+    "raw_name": "v-12-raw.jpg",
+    "prompt": "Semi-realistic still life of three classic office objects morphing into each other on a light-oak desk: a typed document page, a paper ledger grid, and a slide-projector carousel, all connected by a single warm terracotta ribbon of light that loops through them and into a small glowing chat bubble shaped stone paperweight; a pair of reading glasses and a mechanical pencil complete the scene, soft daylight — Claude now working inside Docs, Sheets and Slides, and opening those files itself. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-13",
+    "tab": "v",
+    "title": "AgentMail 推出 AgentID：给 AI 智能体的「Sign in with Google」，每个智能体用已验证邮箱登录并绑定人类主人",
+    "summary": "TestingCatalog 介绍 AgentMail 的 AgentID：让 AI 智能体用经过验证的邮箱登录应用，每个智能体关联一位人类所有者。此前屏蔽智能体注册的应用可以放行并看到背后的主人；同一人名下的 10 个智能体会被算作一个客户，应用可按所有者设限、单独停用某个智能体，出问题时可联系所有者。所引的发布帖标注为付费合作。",
+    "tags": [
+      "AgentID",
+      "AI智能体",
+      "身份认证"
+    ],
+    "filename": "cover-20261007-v-13.jpg",
+    "raw_name": "v-13-raw.jpg",
+    "prompt": "Semi-realistic photograph at the entrance of a modern co-working building: a line of small sleek delivery robots each wearing a lanyard ID badge with an envelope icon waits at a glass turnstile; a security guard scans one badge on a tablet, which shows the robot linked by a thin line to a single human owner's portrait thumbnail (blurred), while one robot is gently set aside with a paused light; morning city reflections — AgentID, verified email sign-in for AI agents tied to a human owner. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "app",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-14",
+    "tab": "v",
+    "title": "Google 开源 EmbeddingGemma 2（Apache 2）：740M 参数，文本、代码、图像、音视频统一嵌入",
+    "summary": "TestingCatalog 报道 Google 以 Apache 2 许可发布开放权重模型 EmbeddingGemma 2，官方称这款轻量多模态嵌入模型把文本、代码、图像、视频和音频映射进同一个嵌入空间；740M 参数、模块化编码器、8K 上下文。TestingCatalog 表示要开始上手测试嵌入效果。",
+    "tags": [
+      "EmbeddingGemma",
+      "Google",
+      "开源",
+      "嵌入模型"
+    ],
+    "filename": "cover-20261007-v-14.jpg",
+    "raw_name": "v-14-raw.jpg",
+    "prompt": "Macro photograph of a single clear glass sphere on black velvet, inside it a tiny suspended galaxy where small glowing objects of different kinds — a musical note made of light, a miniature film frame, a curly code bracket, a photograph, a short text ribbon — orbit together in one shared cluster; fine Apache feather lying beside the sphere as a nod to the open license; a jeweler's loupe resting nearby for 'testing time' — Google's open multimodal EmbeddingGemma 2 mapping text, code, images, video and audio into one space. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "model",
+    "aspect_ratio": "16:9"
+  },
+  {
+    "id": "v-15",
+    "tab": "v",
+    "title": "Ampersand 完成 1500 万美元 A 轮并正式上线：让 AI 智能体读写 Salesforce、SAP、NetSuite、Workday 记录",
+    "summary": "TestingCatalog 报道 Ampersand 获 Bessemer Venture Partners 领投的 1500 万美元 A 轮，Lauri Moore 加入董事会，平台同时正式可用。它让 AI 智能体在 Salesforce、SAP、NetSuite、Workday 中读取和更新记录，即使每个客户的定制都不同：读操作可定时或按需拉取并支持回填，写操作可在客户系统中创建和更新记录，订阅操作在记录变化时实时推送。所引创始人帖标注为付费合作。",
+    "tags": [
+      "Ampersand",
+      "企业智能体",
+      "融资",
+      "系统集成"
+    ],
+    "filename": "cover-20261007-v-15.jpg",
+    "raw_name": "v-15-raw.jpg",
+    "prompt": "Semi-realistic industrial photograph of a vast enterprise records archive: towering rolling filing cabinets in different colors representing systems of record, each customized with odd extra drawers and handles, and a fleet of slim robotic arms on overhead rails reaching in to read, update and file folders, while one cabinet emits a soft pulse that a robot instantly responds to; a freshly signed term sheet clipped on a board in the foreground — Ampersand raising a Series A to let AI agents read and write Salesforce, SAP, NetSuite and Workday records. Photoreal unless noted, 16:9. NO readable text, NO logos, NO masthead color bars, NO abstract geometric wallpaper, NO generic conference room.",
+    "style_note": "business",
+    "aspect_ratio": "16:9"
+  }
+]

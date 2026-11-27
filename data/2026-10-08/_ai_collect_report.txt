@@ -1,0 +1,15 @@
+Alioxis News AI新闻 collect report — 2026-10-08 (Asia/Taipei), resumed 14:43 after interrupted 08:05 routine
+item_count: 20 ; output: ai.json ; cover prompts: _cover_prompts_ai.json ({file,prompt} x20)
+image fields set to planned /assets/covers/cover-20261008-ai-NN.jpg (files NOT generated yet). NOT built / NOT published.
+lead: OpenAI 向全部 ChatGPT 用户推送 GPT-6 与 Intelligent UI
+
+AIHOT: _aihot_daily.json PRESENT (date 2026-10-08, generatedAt 2026-10-08T00:00:21Z = 08:00 Taipei; window 10-07 08:00 → 10-08 08:00 Taipei).
+  File is already the unwrapped flat shape (date/lead/sections/flashes); _aihot_raw.json kept. fetch-aihot-daily.js (unwrapDaily) and
+  build.js loadAihotDaily both accept {report, schemaVersion} wrapper or flat. 11 section items + 10 flashes; AIHOT lead = GPT-6 + Intelligent UI.
+  Candidate stream: _aihot_items_24h_all.json + _p2.._p8 (8 pages), score-sorted _aihot_tips_flat.json (394 items).
+Used from AIHOT (re-verified on primary pages): GPT-6/Intelligent UI, Haiku 5.5, Max/Team API credits, RTX Spark/MXC, Copilot local MAI Code 1.1 Flash,
+  SynthID Detector, Playground, Google Research patent RCT, Agent Lightning, Nemotron IOI/IMO, vLLM DeepSeek-V4.1-Flash, pplx-embed-v2-late,
+  LangChain Deep Agents skills, Common Sense/ChatGPT Teens, Nous Research, Biohub, DoorDash/Bites, Artcraft, DOJ AI streaming fraud, Muse iPad.
+SKIP (already in 10-07): OpenAI Decisions API, Arizona AI victim video ruling, OpenAI math release (+reaction pieces), Cursor iOS, Mistral Large 4/Arena,
+  Nano Banana 2.1, CVP, Liquid d1 (10-06/decision-model saturation), Meta/Microsoft Claude cuts (10-06).
+SKIP (X-only / thin): Codex+ChatGPT Work 40M users (X), OpenAI war-law test (X), Kimi K3.1/Step 5/Kling 4.0 (previews only), Grok Bot posts, docker-agent (repo page empty).

@@ -1,0 +1,40 @@
+大V视野收集报告 — 2026-10-17（Asia/Taipei）
+
+读取方式：公开 X MCP（namespace x）
+- get_users_by_usernames → get_users_posts（exclude=replies, start_time=2026-10-15T20:00:00Z）
+- 长文补全：get_posts_by_ids（note_tweet / article.plain_text）
+- 未使用浏览器关注页；未消耗 user-X credits
+
+入选：18 条
+各 handle 入选计数：
+  @Khazix0918: 2
+  @MaxForAI: 9
+  @xiaohu: 1
+  @thsottiaux: 1
+  @testingcatalog: 5
+  @gengdaJ: 0
+
+原始拉取条数摘要：
+  @Khazix0918: 2
+  @MaxForAI: ~27（含分页）
+  @xiaohu: 8
+  @thsottiaux: 6
+  @testingcatalog: 14（其中 2 条 URL 与近三日重复已跳过）
+  @gengdaJ: 0
+
+Lead：Max：商务部拟限出口大模型/Agent——超 2T 或全球前十或无法开源
+Lead URL：https://x.com/MaxForAI/status/2111089608020664680
+
+筛选说明：
+- 跳过纯广告中转站、梗图/表情引用、特斯拉 Roadster 非 AI 吃瓜、纯回复链、与近三日相同 URL
+- 可灵主题：保留卡兹克长文实测（信息量 > 昨日小互短讯；URL 不同）
+- MAI-Base-2：保留 Max 中文详解（昨日 TestingCatalog 短讯已发过；本日为更深解读、新 URL）
+- 同窗弱信号未入选：慢科研倡议、美人计反间谍培训、网易联创活动等
+
+输出文件：
+  data/2026-10-17/v.json
+  data/2026-10-17/_cover_prompts_v.json
+  data/2026-10-17/_v_raw_mcp.json
+  data/2026-10-17/_v_collect_report.txt
+
+未执行：build / 生图 / 发布

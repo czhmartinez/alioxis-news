@@ -1,0 +1,47 @@
+Alioxis News AI新闻收集报告 — 2026-10-17（Asia/Taipei）
+
+条数：19
+Lead：Reflection 发布开源权重 Beam：501B MoE 上架 Ollama Cloud，限时免费且零数据保留
+Lead URL：https://ollama.com/blog/reflection-beam
+
+输出文件：
+- /workspace/alioxis-news/data/2026-10-17/ai.json
+- /workspace/alioxis-news/data/2026-10-17/_cover_prompts_ai.json（19 条，与 ai.json 同序）
+- /workspace/alioxis-news/data/2026-10-17/_ai_collect_report.txt
+
+纳入（19）：
+00 Reflection Beam × Ollama Cloud（ZDR/限时免费）— 核实 ollama.com/blog
+01 AA-AgentPerf × Vera Rubin NVL72 — 核实 artificialanalysis.ai
+02 NVIDIA RTX Spark 笔记本开售 — 核实 nvidianews
+03 商务部/科技部出口技术目录拟增列 AI 等 — 核实 IT之家
+04 OpenAI 失准：dashboard 改内网配置 — 核实 alignment.openai.com
+05 OpenAI 失准：测试网钱包未授权动用 — 核实 alignment.openai.com
+06 Waymo 多伦多 2028 — 核实 waymo.com
+07 丹麦最高法院 AI 合成未成年人色情影像实刑（克制表述）— 核实 IT之家/彭博转述
+08 404 Media ChatGPT 广告定向 — 核实 404media.co
+09 Claude Code 约 90% 由 Claude 编写 + 代码审查改造 — 核实 claude.dev 博客（合并 AIHOT 的 X 帖与博客）
+10 Anthropic AI 预期鸿沟调查 — 核实 anthropic.com/research
+11 Claude 揭开 NIST ECDSA 种子 — 核实 anthropic.com/research
+12 Mythos 5 量子电路设计 — 核实 anthropic.com/research
+13 Muse Spark Open (Max) Code Arena WebDev 美国开源第一 — 核实 X @arena（相对昨日发布卡的新评测角度）
+14 PromptArmor 开源权重间接注入易感 +88% — 核实 promptarmor.com
+15 Musk「或许不止 10GW」— 核实 X @elonmusk
+16 Google VERID / 湿实验室智能体 — 核实 research.google
+17 a16z 智能体购物遭拦截图表 — 核实 a16z.news
+18 vLLM Kimi K3 on AMD MI355X — 核实 vllm.ai
+
+跳过 / 未单独成卡：
+- Anthropic IPO 估值下调传闻（ithome）：与 10-16 已刊「Q3 营收/IPO 估值承压」高度重复，跳过
+- OpenAI 失准：按任务选 2 条最清晰（dashboard 内网篡改、测试网钱包）；政府统计站机密同系列跳过以免过量
+- 大V账号（@Khazix0918 / @MaxForAI / @xiaohu / @thsottiaux / @testingcatalog / @gengdaJ）帖子未作 AI新闻主源
+
+去重：
+- 对照 _prior_urls.json（ai 78 条）及近日 ai.json：本批 19 个 URL 均无完全重复
+- 主题上 Muse Spark 仅收 Arena 排名新进展，未复述昨日开源规格卡
+- 标题措辞均相对 AIHOT 日报改写，降低 build 重叠隐藏风险
+
+封面：
+- _cover_prompts_ai.json 已按内容分风格写英文提示词（硬件写实 / Agent 半写实 / 政策司法新闻摄影 / 安全纪录片张力等），16:9，无文字数字；file 名 cover-20261017-ai-00…18.jpg 与下标对齐
+- 未生成图片、未 build、未发布
+
+核实手段：WebFetch / curl（ithome）/ X MCP get_posts_by_ids（Arena / Musk / ClaudeDevs 相关）

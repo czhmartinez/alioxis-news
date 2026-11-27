@@ -1,0 +1,258 @@
+[
+  {
+    "title": "DeepSeek 发布「全家桶应用 API」：联网搜索、深度思考、文件解析、读链接、语音全部开放，OCR/ASR/TTS 可单独调用，并开源可导入历史对话的聊天前端",
+    "summary": "Max for AI 第一时间解读：DeepSeek 官方宣布，App 背后的能力现在都可以通过 DeepSeek API 调用。内置的联网搜索、深度思考搜索、文件解析、阅读链接、安全与语音交互用几个参数就能开启，OCR（文字识别）、ASR（语音识别）、TTS（语音合成）等底层能力也能作为独立 API 单独调用。官方还开源了一套完整的聊天前端 Demo，支持导入 DeepSeek 历史对话，等于开发者拿着 API 基本能 1:1 复刻一个 DeepSeek App。官方公告称「现有的对话产品只是较为基础的一种形态」，期待开发者省去重复的基础工作。Max 的看法是：别家都在拼命做超级入口把用户留在自家 App，DeepSeek 反而把能力全部拆开放出来，对自己在 AI 生态里的角色想得很清楚（观点）。小互也转发了这条，称「价格也很美丽」。",
+    "url": "https://x.com/MaxForAI/status/2121252121203167578",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-13T22:41:31+08:00",
+    "tags": [
+      "DeepSeek",
+      "API",
+      "开源",
+      "OCR/ASR/TTS",
+      "开发者"
+    ],
+    "image": "/assets/covers/cover-20261114-v-00.jpg"
+  },
+  {
+    "title": "卡兹克长文《黄仁勋辞职始末》：从 Megaspeed、黄乐与 75 亿美元芯片网络，到 BIS 调查邮件、国会收紧出口管制，14 天梳理英伟达 CEO 下台的来龙去脉",
+    "summary": "卡兹克在 X 发布长文，按时间线梳理黄仁勋辞职事件，主要整合《纽约时报》、The Information、《华尔街日报》等媒体报道（均为媒体转述，非官方认定）：先回顾 2022 年起美国对华 AI 芯片禁令与「走私、借道第三国、远程租用」三条绕行路径；再讲新加坡算力公司 Megaspeed——据报道 2024 年承诺采购约 20 亿美元英伟达芯片、经浪潮美国子公司 Aivres 下单，以及其背后人物黄乐被美国情报机构怀疑从事间谍活动；The Information 称其关联公司网络经手英伟达芯片至少 75 亿美元。文章还提到英伟达法务给调查中的 BIS 探员发邮件引发程序争议、案件转交司法部，以及国会《远程访问安全法》《Chip Security Act》等收紧出口管制的立法动向。卡兹克的判断是：这是一场政治风暴，黄仁勋的支持出口思路正好撞上国会风向转变（观点）。私生活细节本条不展开。",
+    "url": "https://x.com/Khazix0918/status/2121037747259625601",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-13T08:29:40+08:00",
+    "tags": [
+      "英伟达",
+      "黄仁勋",
+      "出口管制",
+      "AI 芯片",
+      "长文梳理"
+    ],
+    "image": "/assets/covers/cover-20261114-v-01.jpg"
+  },
+  {
+    "title": "卡兹克用 Claude Fable 5.2 一晚重做 Agent 自动化系统看板：弃用用了两周的 3D 微缩景观风，改成更清晰的新 UI",
+    "summary": "卡兹克分享「有了 AI 之后就喜欢折腾」的日常：他那套此前用长文分享过的 Agent 自动化系统，看板此前做成 3D 微缩景观视觉，用了两周越看越觉得不清晰；昨晚用 Claude Fable 5.2 重新找风格、重写了整套 UI，「看了一天没看腻」。帖子引用了那篇《折腾了整整 1 年，毫无保留地分享一下我这套 Agent 自动化系统》长文。对正在给自家 Agent、自动化任务做监控面板的人，这是一个「让模型先探索视觉风格、再整体重写前端」的实操参考。",
+    "url": "https://x.com/Khazix0918/status/2121159503995666943",
+    "source": "卡兹克",
+    "source_handle": "@Khazix0918",
+    "published_at": "2026-11-13T16:33:29+08:00",
+    "tags": [
+      "Claude Fable 5.2",
+      "Agent",
+      "自动化",
+      "UI 设计",
+      "看板"
+    ],
+    "image": "/assets/covers/cover-20261114-v-02.jpg"
+  },
+  {
+    "title": "Max 辟谣「数百名英伟达员工联名要董事会辞职、请回黄仁勋」：所谓联名信几乎逐字照抄 2023 年 OpenAI 员工力挺 Altman 的那封",
+    "summary": "X 上有账号发帖称「数百名英伟达员工签署内部信，要求恢复黄仁勋 CEO 职务、董事会辞职」，国内不少媒体随即跟进报道。Max for AI 查看所谓联名信后指出，这基本就是 2023 年 OpenAI 宫斗时员工支持 Sam Altman 那封信的改写版：把 OpenAI 换成 NVIDIA、Sam Altman 换成黄仁勋，连当年「集体辞职去微软」那段都改成了「跟老黄和马斯克去 SpaceX Terafab」。Max 批评部分科技媒体连原始信息都不核对。提醒：截至发帖时，该「联名信」无任何可信来源证实，应视为不实信息。",
+    "url": "https://x.com/MaxForAI/status/2121138310500483412",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-13T15:09:16+08:00",
+    "tags": [
+      "英伟达",
+      "黄仁勋",
+      "辟谣",
+      "媒体核查",
+      "OpenAI"
+    ],
+    "image": "/assets/covers/cover-20261114-v-03.jpg"
+  },
+  {
+    "title": "will depue 称用「权重初始化指纹」证明 DeepSeek、Kimi、MiniMax 等新模型在 Blackwell 上训练；Max：国内群里早有人兜售 B300，价格从一千多万涨到两千万（均为个人说法）",
+    "summary": "Max for AI 引用研究者 will depue 的长帖：对方称模型初始权重的排布会随训练所用 GPU 与随机种子不同而形成「硬件指纹」，并在训练后残留；他搜索了超过 6 万亿种「芯片布局×种子」组合，称找到证据表明 DeepSeek-V4-Pro、Kimi K3、MiniMax-M3 等 6 个中国开源模型在英伟达 Blackwell 系统上初始化，其中 4 个匹配 GB200/GB300，并用 B300 逐位复现了 DeepSeek-V4-Flash 的初始权重；他估算 Kimi K3、DeepSeek-V4-Pro 各用 2000–3000 块 Blackwell，并自称结论已获 OpenAI、Anthropic 资深研究员独立验证。Max 的回应是「老外终于发现了？」——称这并非秘密，自己群里就有人兜售 B300 现货，价格从年初一千多万人民币涨到两千万。以上均为个人研究/个人说法，未经相关公司或官方确认。",
+    "url": "https://x.com/MaxForAI/status/2121134937508282830",
+    "source": "Max for AI",
+    "source_handle": "@MaxForAI",
+    "published_at": "2026-11-13T14:55:52+08:00",
+    "tags": [
+      "出口管制",
+      "Blackwell",
+      "中国大模型",
+      "模型取证",
+      "传闻"
+    ],
+    "image": "/assets/covers/cover-20261114-v-04.jpg"
+  },
+  {
+    "title": "小互实测网易 AI 教育产品「欧拉讲题」：边讲边实时生成讲题动画，能随时打断追问「为什么这样画辅助线」",
+    "summary": "小互刷到网易新推出的 AI 讲题产品「欧拉讲题」并上手测试：它会先规划怎么讲一道题，再把讲解转成板书、图形、动画和语音指令，说到哪个角、图上就标到哪个角。几何题讲到「过 A 点作辅助线」时，可以直接打断问「为什么要画成平行的」，它会接着在图上讲哪些角因此相等、怎么据此找出相似三角形；学生卡在哪一步，就从那一步接着讲。小互的评价是「果然有点牛」，对家长辅导作业很实用（个人体验）。",
+    "url": "https://x.com/xiaohu/status/2121139346191286711",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-13T15:13:23+08:00",
+    "tags": [
+      "网易",
+      "欧拉讲题",
+      "AI 教育",
+      "讲题动画",
+      "多模态"
+    ],
+    "image": "/assets/covers/cover-20261114-v-05.jpg"
+  },
+  {
+    "title": "小互拆解 MiniMax H3-Image 的家居摆放用法：一张空房间图加九张家具图直接合成客厅效果图，并提醒 API 超时断开照样计费、建议关掉 SDK 自动重试",
+    "summary": "在 H3-Image 开源几天后，小互给出一个具体用法：上传一张空房间照片，再丢沙发、茶几、边桌等单品图（参考图最多 16 张、各管一件事），模型会把它们摆进同一个房间，一步出约 1600 万像素的 4K 效果图（方图 4096×4096、16:9 为 5472×3072）；也可以用灰模渲染图定构图，或在地图上画箭头生成第一人称视角画面（官方样例）。API 会把一句中文短要求扩写成详细英文画面描述；官方示例 4096×4096 约 0.069 美元一张，11 月 18 日前半价。本地部署从零下载约 135 GB，社区许可排除美国、欧盟等地区，年收入超 100 万美元需单独授权。小互在跟帖里提醒一个坑：客户端超时或断开时服务端照样生成并收费，重发会再扣一次，官方建议把 SDK 自动重试关掉（max_retries=0）。",
+    "url": "https://x.com/xiaohu/status/2121083182871466010",
+    "source": "小互",
+    "source_handle": "@xiaohu",
+    "published_at": "2026-11-13T11:30:13+08:00",
+    "tags": [
+      "MiniMax",
+      "H3-Image",
+      "图像生成",
+      "家居设计",
+      "API 计费"
+    ],
+    "image": "/assets/covers/cover-20261114-v-06.jpg"
+  },
+  {
+    "title": "Tibo 发帖征集「Codex 该怎么改进？别说模型」，一天内超 1.2 万条回复；同日 OpenAI 公布在研的自动打补丁与自动红队网络安全工具",
+    "summary": "OpenAI Codex 负责人 Tibo（thsottiaux）发帖向开发者征集意见：「Codex 怎么改进？尽量别说模型。」——明确把讨论引向模型之外的产品体验、工作流与工具链，帖子截至抓取时已有约 1.2 万条回复、190 万次浏览，可视作 Codex 下一步产品迭代的公开需求池。此前他还转发了 OpenAI 当天的网络安全发布会录像，介绍正在开发的自动化打补丁（automated patching）与自动化红队（automated red teaming）工具；对应的 Daybreak Red Team 与 Defense Factory 已在 11-13 AI新闻收录，此处不再展开。",
+    "url": "https://x.com/thsottiaux/status/2121062974161092792",
+    "source": "Tibo",
+    "source_handle": "@thsottiaux",
+    "published_at": "2026-11-13T10:09:55+08:00",
+    "tags": [
+      "Codex",
+      "OpenAI",
+      "开发者反馈",
+      "网络安全",
+      "红队"
+    ],
+    "image": "/assets/covers/cover-20261114-v-07.jpg"
+  },
+  {
+    "title": "ChatGPT Wallet 在 Dots 上向美国 Pro 用户推送：让 Agent 付款却拿不到真实卡号，每笔购买都要安全验证，与美国运通、万事达、Visa 合作",
+    "summary": "TestingCatalog 报道，OpenAI 的 ChatGPT Wallet 开始在 Dots（ChatGPT 的个人 Agent）上向美国 ChatGPT Pro 订阅用户推出。官方描述称，这是「第一个让 Agent 付款却无需接触用户真实卡片信息的钱包」，每一笔购买都要求安全检查，同时保留原有信用卡积分和符合条件争议的保护。ChatGPT Wallet 与美国运通、万事达和 Visa 合作打造。TC 评价「一个新经济」——Agent 代付从演示走向真实支付基础设施。",
+    "url": "https://x.com/testingcatalog/status/2121281708888564178",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-14T00:39:05+08:00",
+    "tags": [
+      "ChatGPT Wallet",
+      "Dots",
+      "Agent 支付",
+      "OpenAI",
+      "Visa/Mastercard"
+    ],
+    "image": "/assets/covers/cover-20261114-v-08.jpg"
+  },
+  {
+    "title": "谷歌：美国所有 Gemini 用户可把 Google Wallet 接入 Gemini，按真实消费生成现金流图表、揪出被遗忘的订阅与涨价，还能经 Plaid 连银行卡",
+    "summary": "紧随 ChatGPT Wallet，谷歌宣布 Gemini 的「个人智能（Personal Intelligence）」新增 Google Wallet 作为可连接应用，面向美国全部 Gemini 用户。官方示例：在对话中直接生成追踪现金流、资产配置和预算的动态图表；跨关联账户找出被遗忘的订阅和周期扣费，并标记涨价；问「去年礼物和旅行花了多少，帮我定个节日预算」，Gemini 会读取过去一年交易给出建议。用户还可以通过 Plaid 把信用卡、银行账户安全关联到 Wallet，获得更深入的分析。TC 的评语是「轮到谷歌了」。",
+    "url": "https://x.com/testingcatalog/status/2121352761379860628",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-14T05:21:25+08:00",
+    "tags": [
+      "Gemini",
+      "Google Wallet",
+      "个人理财",
+      "Plaid",
+      "个人智能"
+    ],
+    "image": "/assets/covers/cover-20261114-v-09.jpg"
+  },
+  {
+    "title": "Perplexity Teammates 登陆 Mac 应用：Max 订阅可用，主动式个性化 Agent 能操作插件与技能",
+    "summary": "TestingCatalog 报道，Perplexity Teammates 现已在 Perplexity Mac 应用上向 Perplexity Max 订阅用户开放。官方描述：Teammates 是 Perplexity 的个性化、主动式 Agent，可以操作插件（Plugins）和技能（Skills），由 Perplexity 的多款模型驱动。此前 Teammates 仅在网页端推送，这次进入桌面端；TC 表示还需要实测（「Teammates work for you」）。",
+    "url": "https://x.com/testingcatalog/status/2121297682333606345",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-14T01:42:33+08:00",
+    "tags": [
+      "Perplexity",
+      "Teammates",
+      "Mac",
+      "主动式 Agent",
+      "插件"
+    ],
+    "image": "/assets/covers/cover-20261114-v-10.jpg"
+  },
+  {
+    "title": "Reason Machines 推出编程 Agent「Reason」：主打每美元完成更多任务，称同模型下比 Codex 多解题且省 22%，可挂 ChatGPT/Claude/Copilot/Grok 会员跑",
+    "summary": "TestingCatalog 报道 Reason Machines 发布 AI 编程 Agent Reason，定位「全球最省钱的 harness」。官方称其在 Terminal-Bench 与 DeepSWE 上超过主流 harness，单任务成本最多低 20 倍；TC 转述测试中 Reason 在同一模型下比 Codex 解决了更多任务、花费少 22%（均为厂商自述）。用户可以给它设置常驻任务自主运行，比如审查每一个新 PR，并且可以直接用自己的 ChatGPT、Claude、GitHub Copilot 或 Grok 会员来驱动。Pro 方案每月 50 美元，含 3 天免费试用。",
+    "url": "https://x.com/testingcatalog/status/2121338593675489338",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-14T04:25:07+08:00",
+    "tags": [
+      "Reason",
+      "编程 Agent",
+      "成本",
+      "Codex",
+      "PR 审查"
+    ],
+    "image": "/assets/covers/cover-20261114-v-11.jpg"
+  },
+  {
+    "title": "Meta Muse 推出 Chrome 扩展：侧边栏里的个人 Agent 可直接操作网页，填表、比价、跟进退款，动作需批准并留完整日志；另有「Muse-Spark-1.4-internal」现身 GitHub PR",
+    "summary": "TestingCatalog 发现 Meta 的 Muse 上架了新的 Chrome 扩展，已可测试。商店描述称 Muse 是「你在 Chrome 里的个人 AI Agent」：在侧边栏打开、不离开当前页面，就能把填表、比价、跟进退款等日常事务交给它；动作执行前需用户批准，保留完整活动日志，连接器可随时撤销。同日 TC 还发现 Meta 一个 RocksDB 相关 PR 的自动生成说明里出现「Muse-Spark-1.4-internal」，Lumina 称还看到实际调用记录，TC 推测 Muse Spark 1.4 正在开发并已在 Meta 内部使用（推测，未经官方确认）。",
+    "url": "https://x.com/testingcatalog/status/2121260921435623813",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-13T23:16:29+08:00",
+    "tags": [
+      "Meta",
+      "Muse",
+      "Chrome 扩展",
+      "浏览器 Agent",
+      "Muse Spark 1.4"
+    ],
+    "image": "/assets/covers/cover-20261114-v-12.jpg"
+  },
+  {
+    "title": "Sesame 语音助手结束预览期：下周上线 Plus（20 美元/4 倍用量）与 Pro（100 美元/20 倍），免费版保留每天 30 分钟通话",
+    "summary": "TestingCatalog 报道，语音助手 Sesame 将结束「预览」阶段，推出付费方案：Plus 每月 20 美元、4 倍用量，Pro 每月 100 美元、20 倍用量，预计下周上线。免费用户保留每天 30 分钟实时语音通话、每周有限的文字与任务额度，所有方案功能一致、只按用量区分（通话时长每天重置、额度每周重置）。TC 说自己仍每天在用，主要是通过 Sesame Link 远程控制自己的 Mac mini（个人体验）。",
+    "url": "https://x.com/testingcatalog/status/2121359790039277839",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-14T05:49:21+08:00",
+    "tags": [
+      "Sesame",
+      "语音助手",
+      "订阅定价",
+      "Sesame Link",
+      "Agent"
+    ],
+    "image": "/assets/covers/cover-20261114-v-13.jpg"
+  },
+  {
+    "title": "AI 户型设计工具 Maket 上线 Custom Materials：一句描述或一张图生成自定义地板与墙面材质，可在 3D 里查看并跨方案复用",
+    "summary": "TestingCatalog 报道，Maket 推出 Custom Materials：用户可以用文字描述材质（如「做旧的棋盘格石砖」「浅色橡木」「赤陶砖」），或上传一张材质图片，生成自定义地板和墙面，并应用到自己的户型图中；房间可切换 3D 视图查看真实效果。生成的材质保存在「My Materials」里，可在不同设计间复用。免费版提供 30 个一次性额度。",
+    "url": "https://x.com/testingcatalog/status/2121349152277995703",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-14T05:07:05+08:00",
+    "tags": [
+      "Maket",
+      "室内设计",
+      "材质生成",
+      "3D",
+      "生成式 AI"
+    ],
+    "image": "/assets/covers/cover-20261114-v-14.jpg"
+  },
+  {
+    "title": "TestingCatalog 11/13 简报补遗：Grok Bot 接入苹果 7 款应用、Hydrogen 进 Cursor 得 54.3%、OpenAI 未发布网安模型 ExploitGym 77%、Perplexity 开源 Decider v1.3、微软 MAI-Transcribe-2 GA",
+    "summary": "TestingCatalog 每日 AI 简报（11/13，Grok 辅助撰写）中前一日未收录的新点：SpaceXSI——Grok Bot 的 Mac 版可接入 Messages、Mail、Notes、Reminders、Calendar、Location、Contacts 七款苹果应用（TC 另发单帖确认）；Grok Bot 正在做给 bot 负责并汇报任务的「Outcomes」页签（via nima_owji，开发中）、预览版加入对文档/PDF/图片的批注评论（via alexmichael）；Gemini 4 Hydrogen 已进 Cursor，CursorBench 得分 54.3%。Anthropic——自托管 Claude Managed Agents 进入私测。OpenAI——同场发布会展示了一款未发布网络安全模型，ExploitGym 得分 77%（via AiBattle_，转述）。微软——MAI-Transcribe-2 在 Microsoft Foundry 正式可用，每音频小时 0.10 美元；Ignite 大会 11 月 17 日开幕，微软 AI 预告新模型。Perplexity——开源 Decider v1.3 与 Decider Flash v1.3，新增「locate」能力，在 OpenRouter 免费一周。",
+    "url": "https://x.com/testingcatalog/status/2121185887337820440",
+    "source": "TestingCatalog",
+    "source_handle": "@testingcatalog",
+    "published_at": "2026-11-13T18:18:19+08:00",
+    "tags": [
+      "每日简报",
+      "Grok Bot",
+      "Cursor",
+      "Perplexity Decider",
+      "MAI-Transcribe-2"
+    ],
+    "image": "/assets/covers/cover-20261114-v-15.jpg"
+  }
+]
